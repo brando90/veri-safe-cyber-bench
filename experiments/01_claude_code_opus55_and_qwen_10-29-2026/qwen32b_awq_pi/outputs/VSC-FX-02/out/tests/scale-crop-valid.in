@@ -1,0 +1,5 @@
+image A 4096 4096 1
+rle 16777216*255
+end
+scale B A 0.5 0.5
+crop C B 0 0 2048 2048

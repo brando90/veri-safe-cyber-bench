@@ -1,0 +1,7 @@
+image A 2048 2048 1
+rle 4194304*255
+end
+image B 2048 2048 1
+rle 4194304*255
+end
+concat C A B horizontal

@@ -1,0 +1,3 @@
+loaded A 2048x2048x3 fnv=XXXXXXXX
+scale B 1024x1024x3 fnv=XXXXXXXX
+crop C 1024x1024x3 fnv=XXXXXXXX

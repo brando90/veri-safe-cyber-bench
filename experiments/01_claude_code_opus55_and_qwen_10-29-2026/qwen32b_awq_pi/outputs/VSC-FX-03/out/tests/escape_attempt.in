@@ -1,0 +1,5 @@
+#! dir vault/users/alice/
+#! dir vault/users/alice/malicious
+#! link vault/users/alice/malicious/../../vault_root_symlink -> $TMP
+USER alice
+READ malicious/../vault_root_symlink/secret.txt

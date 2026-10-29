@@ -1,0 +1,5 @@
+image A 1024 1024 3
+rle 3145728*255
+end
+scale B A 2 2
+concat C B B horizontal

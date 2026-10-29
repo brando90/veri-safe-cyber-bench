@@ -1,0 +1,4 @@
+image A 4096 4096 1
+rle 16777216*255
+end
+tile B A 1

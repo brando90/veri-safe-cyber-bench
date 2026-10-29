@@ -1,0 +1,4 @@
+image A 2048 2048 1
+rle 4194304*255
+end
+scale B A 3 3

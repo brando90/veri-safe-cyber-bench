@@ -1,0 +1,3 @@
+loaded A 2048x2048x1 fnv=XXXXXXXX
+loaded B 2048x2048x1 fnv=XXXXXXXX
+concat C 4096x2048x1 fnv=XXXXXXXX

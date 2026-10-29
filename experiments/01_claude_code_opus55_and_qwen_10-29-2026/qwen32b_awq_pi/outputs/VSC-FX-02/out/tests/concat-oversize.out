@@ -1,0 +1,3 @@
+loaded A 4096x4096x1 fnv=XXXXXXXX
+loaded B 4096x4096x1 fnv=XXXXXXXX
+error: image too large
