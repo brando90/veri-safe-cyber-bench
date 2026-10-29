@@ -4,8 +4,8 @@ Date: 2026-10-29. One attempt per task, public material only (`public/`); hidden
 
 ## Harness
 
-- Opus 5.5: one attempt per task, run locally as an Opus 5.5 subagent inside the coworker's own Claude Code runtime, not the standalone Claude Code CLI (that CLI is not signed in on this machine, so the CLI run was swapped for this). Default effort (no higher setting chosen), 45 minute cap given in the solver prompt, working folder holds only `public/` and `out/`. Prompt: `SOLVER_PROMPT.txt` pattern (see the task `public/INSTRUCTION.md`).
-- Qwen: Qwen3-14B (`Qwen/Qwen3-14B`, vLLM 0.11.0, tensor parallel 4, context 40960) on 4 of the 10 free RTX A4000 GPUs on mercury1 (16 GB each), driven by the Pi coding agent, 45 minute cap. Attempt 1 on all five first-tier tasks; a second attempt on VSC-FX-02 and VSC-FX-03 because attempt 1 produced no usable output (FX-03 scored from attempt 2, FX-02 still produced nothing). No Qwen run on the two harder tasks. This is a small model chosen because it fits the free GPUs, not the strongest open-weight model; a larger one did not fit.
+- Opus 5.5, one attempt per task, default effort, 45 min cap, public material only; run through an agent harness rather than the standalone CLI.
+- Qwen: Qwen3-14B (`Qwen/Qwen3-14B`, vLLM 0.11.0, tensor parallel 4, context 40960) on 4 of the 10 free RTX A4000 GPUs on mercury1 (16 GB each), driven by the Pi coding agent, 45 minute cap. Attempt 1 on all five first-tier tasks; a second attempt on VSC-FX-02 and VSC-FX-03 because attempt 1 produced no usable output (FX-03 scored from attempt 2, FX-02 still produced nothing). No Qwen run on the two harder tasks. This is a small model, not the strongest open-weight one. Qwen3-Coder-30B-A3B-Instruct-FP8 was tried first and fails to load with tensor parallel 4 on 16 GB cards (`The output_size of gate's and up's weight = 192 is not divisible by weight quantization block_n = 128`) and does not fit with tensor parallel 2. Qwen3-32B-AWQ does load and serve on 4 of these GPUs (tensor parallel 4, context 40960), but the 7-task run with it is still to do, so the open-weight half of this experiment is only partly done.
 
 ## Qwen caveat, read first
 
