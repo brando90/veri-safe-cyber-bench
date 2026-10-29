@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Copy this repo into anarres-organization/anarres at experiments/cyber/veri-safe-cyber-bench/ and push.
 # Run from a machine whose git is signed in to GitHub with write access to the Anarres org (e.g. as brando90 after accepting the invite).
+# Hidden tests, gold and controls (tasks/*/private) are left out: Anarres is public.
 # Usage: tools/push_to_anarres.sh [--pr]   (--pr pushes a branch and opens a pull request instead of pushing main)
 set -euo pipefail
 SRC="$(cd "$(dirname "$0")/.." && pwd)"
@@ -8,7 +9,7 @@ WORK="$(mktemp -d)"
 git clone --depth 1 https://github.com/anarres-organization/anarres.git "$WORK/anarres"
 DEST="$WORK/anarres/experiments/cyber/veri-safe-cyber-bench"
 mkdir -p "$DEST"
-rsync -a --exclude .git "$SRC"/ "$DEST"/
+rsync -a --exclude .git --exclude private "$SRC"/ "$DEST"/
 rm -f "$DEST/tools/push_to_anarres.sh"
 cd "$WORK/anarres"
 git add experiments/cyber/veri-safe-cyber-bench
