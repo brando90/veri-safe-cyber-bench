@@ -1,0 +1,4 @@
+open a 10
+open big 99999
+dump
+stats

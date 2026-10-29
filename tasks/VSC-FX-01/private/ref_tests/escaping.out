@@ -1,0 +1,6 @@
+record 0
+  time: 5
+  level: INFO
+  fields: 1
+  field 1 (host) len=8: "a\"b\\c\x01\x7f\xc3"
+  message (14 bytes): "say \"hi\"\\\x0a\x00end"

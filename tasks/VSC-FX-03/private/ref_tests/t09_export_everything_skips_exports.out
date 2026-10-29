@@ -1,0 +1,12 @@
+OK user alice
+EXPORTED first: 3 files
+EXPORTED whole: 4 files
+docs/a.txt 5
+docs/sub/b.txt 5
+docs/sub/c.txt 5
+notes.txt 10
+EXPORTED again: 4 files
+docs/a.txt 5
+docs/sub/b.txt 5
+docs/sub/c.txt 5
+notes.txt 10

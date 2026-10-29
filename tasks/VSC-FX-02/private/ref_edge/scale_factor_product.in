@@ -1,0 +1,5 @@
+image p 1 1 1
+rle 5
+end
+scale q p 65535 257
+info q

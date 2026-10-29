@@ -1,0 +1,10 @@
+add-item M1 men's 3 1000 600 Gloves
+add-item M2 men's 2 2000 900 Boots
+add-item M3 kids 1 500 100 Socks
+report men's
+apply-discount 25 men's
+report men's
+report
+apply-discount 10 women's
+report women's
+export-csv

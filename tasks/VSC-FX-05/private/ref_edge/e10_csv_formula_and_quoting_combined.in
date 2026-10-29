@@ -1,0 +1,5 @@
+add-item H1 misc 1 100 40 =A,B
+add-item H2 misc 1 100 40 -"x"
+add-item H3 misc 1 100 40 @a;b
+add-item H4 misc 1 100 140 +1, then -2
+export-csv

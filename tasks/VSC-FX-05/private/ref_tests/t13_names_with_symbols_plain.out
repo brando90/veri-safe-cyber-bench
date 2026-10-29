@@ -1,0 +1,13 @@
+OK added N1
+OK added N2
+OK added N3
+N1 | Washer #4 (zinc) - pack of 10 | qty=1
+matches: 1
+N2 | Cable 3.5mm = 2 jacks + case @ home | qty=2
+matches: 1
+N3 | Mixed   spacing   name | qty=3
+matches: 1
+sku,category,qty,price_cents,margin_cents,name
+N1,misc,1,100,60,Washer #4 (zinc) - pack of 10
+N2,misc,2,150,60,Cable 3.5mm = 2 jacks + case @ home
+N3,misc,3,175,115,Mixed   spacing   name

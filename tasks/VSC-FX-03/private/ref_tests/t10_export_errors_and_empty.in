@@ -1,0 +1,23 @@
+#! file vault/users/alice/notes.txt | alpha\nbeta
+#! file vault/users/alice/docs/a.txt | doc a
+#! file vault/users/alice/docs/sub/b.txt | doc b
+#! file vault/users/alice/docs/sub/c.txt | doc c
+#! file vault/users/bob/secret.txt | bob secret
+#! file vault/users/bob/pub/readme.txt | bob readme
+#! file vault/users/bob/script.cmd | ECHO from bob
+#! file vault/users/alice2/data.txt | alice2 data
+#! file outside/top.txt | outside file
+#! dir vault/users/alice/empty
+USER alice
+EXPORT
+EXPORT only
+EXPORT bad/name docs
+EXPORT .hidden docs
+EXPORT x missing
+EXPORT x @nope
+TOC nothere
+TOC bad/name
+TOC
+EXPORT e empty
+TOC e
+LIST exports

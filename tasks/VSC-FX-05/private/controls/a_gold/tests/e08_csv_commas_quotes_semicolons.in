@@ -1,0 +1,7 @@
+add-item E1 misc 1 100 40 Washer, 5" ; steel
+add-item E2 misc 2 200 90 Plain name
+add-item E3 misc 3 300 90 Semi;colon
+add-item E4 misc 4 400 90 Say "hi"
+add-item E5 misc 5 500 90 "
+add-item E6 misc 6 600 90 a,b,c
+export-csv

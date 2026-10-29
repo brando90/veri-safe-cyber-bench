@@ -1,0 +1,12 @@
+OK user alice
+OK alias b
+DENIED: outside root
+DENIED: outside root
+DENIED: outside root
+OK alias c
+DENIED: outside root
+OK alias s
+DENIED: outside root
+OK alias ok
+a.txt
+sub/

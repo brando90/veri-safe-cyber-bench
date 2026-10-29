@@ -1,0 +1,9 @@
+OK added H1
+OK added H2
+OK added H3
+OK added H4
+sku,category,qty,price_cents,margin_cents,name
+H1,misc,1,100,60,"'=A,B"
+H2,misc,1,100,60,"'-""x"""
+H3,misc,1,100,60,"'@a;b"
+H4,misc,1,100,-40,"'+1, then -2"

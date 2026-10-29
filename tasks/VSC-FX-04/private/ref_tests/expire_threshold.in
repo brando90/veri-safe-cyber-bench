@@ -1,0 +1,11 @@
+open a
+open b
+open c
+open d
+touch b
+touch c
+expire 4
+expire 3
+dump
+expire 100
+stats

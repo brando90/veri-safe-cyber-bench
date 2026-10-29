@@ -1,0 +1,21 @@
+record 0
+  time: 77
+  level: ERROR
+  fields: 16
+  field 1 (host) len=0: ""
+  field 2 (pid) len=1: "B"
+  field 3 (tag) len=2: "CC"
+  field 4 len=3: "DDD"
+  field 5 len=0: ""
+  field 6 len=1: "F"
+  field 7 len=2: "GG"
+  field 8 len=3: "HHH"
+  field 9 len=0: ""
+  field 10 len=1: "J"
+  field 11 len=2: "KK"
+  field 12 len=3: "LLL"
+  field 13 len=0: ""
+  field 14 len=1: "N"
+  field 15 len=2: "OO"
+  field 16 len=3: "PPP"
+  message (4 bytes): "many"

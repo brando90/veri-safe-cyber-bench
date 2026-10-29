@@ -1,0 +1,8 @@
+image w 8388608 1 1
+rle 8388608*1
+end
+image t 1 8388608 1
+rle 8388608*2
+end
+concat c w t h
+info c

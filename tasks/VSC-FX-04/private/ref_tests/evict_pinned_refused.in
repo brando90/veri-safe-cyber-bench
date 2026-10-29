@@ -1,0 +1,7 @@
+open a 7
+touch a pin
+evict a
+dump
+touch a unpin
+evict a
+stats

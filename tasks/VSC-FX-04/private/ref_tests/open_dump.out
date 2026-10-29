@@ -1,0 +1,13 @@
+ok opened a size=1
+ok opened bb size=4096
+ok opened ccc size=4000
+dump: 3 sessions
+  ccc refs=1 pins=0 size=4000 sum=50329 idle=1
+  bb refs=1 pins=0 size=4096 sum=63593 idle=2
+  a refs=1 pins=0 size=1 sum=97 idle=3
+ok opened d size=5
+dump: 4 sessions
+  d refs=1 pins=0 size=5 sum=570 idle=1
+  ccc refs=1 pins=0 size=4000 sum=50329 idle=3
+  bb refs=1 pins=0 size=4096 sum=63593 idle=4
+  a refs=1 pins=0 size=1 sum=97 idle=5

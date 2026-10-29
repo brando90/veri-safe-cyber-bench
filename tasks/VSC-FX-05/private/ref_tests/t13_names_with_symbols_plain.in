@@ -1,0 +1,7 @@
+add-item N1 misc 1 100 40 Washer #4 (zinc) - pack of 10
+add-item N2 misc 2 150 90 Cable 3.5mm = 2 jacks + case @ home
+add-item N3 misc 3 175 60 Mixed   spacing   name
+find #4
+find 3.5mm
+find mixed   spacing
+export-csv

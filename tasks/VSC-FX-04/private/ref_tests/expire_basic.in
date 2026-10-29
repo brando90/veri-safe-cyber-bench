@@ -1,0 +1,9 @@
+open a
+open b
+open c
+touch a
+expire 2
+dump
+expire 0
+dump
+stats

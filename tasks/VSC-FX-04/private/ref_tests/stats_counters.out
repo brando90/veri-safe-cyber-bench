@@ -1,0 +1,15 @@
+ok opened a size=10
+ok reopened a refs=2
+ok opened b size=20
+ok released a refs=1
+ok closed a
+ok opened c size=30
+ok evicted c
+error: no such session
+ok pinned b pins=1
+ok expired 0 skipped=0
+ok unpinned b pins=0
+expired b
+ok expired 1 skipped=0
+stats: sessions=0 pinned=0 pinned_bytes=0 pool=0/8192
+stats: opened=3 reopened=1 closed=1 evicted=1 expired=1 open_failed=0 pinned_skips=0 errors=1

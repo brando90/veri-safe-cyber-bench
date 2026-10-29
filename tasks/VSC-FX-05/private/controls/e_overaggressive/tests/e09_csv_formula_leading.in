@@ -1,0 +1,8 @@
+add-item G1 misc 1 100 40 =total spares
+add-item G2 misc 1 100 40 +2 spare caps
+add-item G3 misc 1 100 40 -5mm washer
+add-item G4 misc 1 100 40 @home shelf
+add-item G5 misc 1 100 40 mid=dle +plus -minus @at
+add-item G6 misc 1 100 40 -
+add-item G7 misc 1 100 40       =padded
+export-csv

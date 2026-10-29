@@ -1,0 +1,9 @@
+OK user alice
+DENIED: outside root
+ERROR: no such archive
+ERROR: not found
+EXPORTED y: 1 files
+notes.txt 10
+EXPORTED z: 2 files
+docs/sub/b.txt 5
+docs/sub/c.txt 5

@@ -1,0 +1,7 @@
+image ok 2 2 1
+rle 4*1
+end
+image a 4097 1024 4
+rle 16781312*5
+end
+info a

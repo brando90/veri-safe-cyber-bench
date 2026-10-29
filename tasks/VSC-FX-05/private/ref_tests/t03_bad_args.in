@@ -1,0 +1,8 @@
+add-item A1 misc 1 100 50 Widget
+add-item A_2-b misc 1 100 50 Okay sku
+add-item A!3 misc 1 100 50 Bad sku
+add-item A4 misc -1 100 50 Negative qty
+add-item A5 misc 1 1.5 50 Fractional price
+add-item A6 misc 1 100 1234567890 Long cost
+add-item A7234567890123456 misc 1 1 1 Long sku
+report

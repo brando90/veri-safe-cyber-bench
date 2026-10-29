@@ -1,0 +1,4 @@
+image a 256 256 1
+rle 65536*1
+end
+scale b a 65536 256

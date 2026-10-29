@@ -1,0 +1,5 @@
+open a 8
+evict a
+close a
+touch a
+stats

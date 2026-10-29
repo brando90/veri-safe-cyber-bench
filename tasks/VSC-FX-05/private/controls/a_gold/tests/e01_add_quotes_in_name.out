@@ -1,0 +1,15 @@
+OK added Q1
+OK added Q2
+OK added Q3
+Q1 | O'Neil bracket | qty=5
+matches: 1
+Q3 | 'quoted' name | qty=1
+matches: 1
+Q2 | Bolt 5" zinc | qty=2
+matches: 1
+category misc: items=3 units=8 value_cents=2499
+total: items=3 units=8 value_cents=2499
+sku,category,qty,price_cents,margin_cents,name
+Q1,misc,5,300,180,O'Neil bracket
+Q2,misc,2,450,250,"Bolt 5"" zinc"
+Q3,misc,1,99,89,'quoted' name

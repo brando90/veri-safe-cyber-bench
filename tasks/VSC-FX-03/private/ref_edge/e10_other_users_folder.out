@@ -1,0 +1,10 @@
+OK user bob
+DENIED: outside root
+DENIED: outside root
+bob secret
+OK user alice
+ERROR: not found
+DENIED: outside root
+DENIED: outside root
+alpha
+beta

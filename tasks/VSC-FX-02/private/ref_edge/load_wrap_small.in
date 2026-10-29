@@ -1,0 +1,4 @@
+image a 65537 65537 1
+rle 200000*1
+end
+info a

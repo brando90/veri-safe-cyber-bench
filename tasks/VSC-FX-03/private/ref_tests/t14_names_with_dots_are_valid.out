@@ -1,0 +1,13 @@
+OK user alice
+dots
+ab
+hidden
+..dots.txt
+.hidden/
+docs/
+notes.txt
+x.txt
+EXPORTED dots: 3 files
+..dots.txt 4
+.hidden/x.txt 6
+docs/a..b.txt 2

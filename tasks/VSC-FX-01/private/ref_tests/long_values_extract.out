@@ -1,0 +1,6 @@
+record 0
+  time: 5
+  level: DEBUG
+  fields: 1
+  field 2 (pid) len=40: "vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv"...
+  message (75 bytes): "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"

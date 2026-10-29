@@ -1,0 +1,10 @@
+open a 10
+open b 20
+open c 30
+touch b pin
+expire 0
+stats
+dump
+touch b unpin
+expire 0
+stats

@@ -1,0 +1,14 @@
+open a
+open b
+open c
+open d
+open e
+open f
+open g
+open h
+dump
+touch c
+open i
+open j
+dump
+stats

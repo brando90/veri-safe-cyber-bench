@@ -1,0 +1,10 @@
+touch ghost
+close ghost
+evict ghost
+touch ghost pin
+touch ghost unpin
+open real
+close real
+close real
+touch real
+stats

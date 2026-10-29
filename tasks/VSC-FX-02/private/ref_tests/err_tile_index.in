@@ -1,0 +1,5 @@
+image a 8 4 1 tile 4 4
+rle 32*1
+end
+tile t a 1
+tile u a 2

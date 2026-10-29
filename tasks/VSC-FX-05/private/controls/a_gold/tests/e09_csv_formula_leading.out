@@ -1,0 +1,15 @@
+OK added G1
+OK added G2
+OK added G3
+OK added G4
+OK added G5
+OK added G6
+OK added G7
+sku,category,qty,price_cents,margin_cents,name
+G1,misc,1,100,60,'=total spares
+G2,misc,1,100,60,'+2 spare caps
+G3,misc,1,100,60,'-5mm washer
+G4,misc,1,100,60,'@home shelf
+G5,misc,1,100,60,mid=dle +plus -minus @at
+G6,misc,1,100,60,'-
+G7,misc,1,100,60,'=padded

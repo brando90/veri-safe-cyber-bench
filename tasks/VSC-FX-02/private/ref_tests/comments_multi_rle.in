@@ -1,0 +1,9 @@
+# header
+
+   image   a  4  2  1   # trailing comment
+  rle 1 2 # first
+rle   3*4  
+	rle 2*9 # x
+end # done
+
+info a

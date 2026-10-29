@@ -1,0 +1,10 @@
+ok opened a size=8
+error: open failed
+error: open failed
+ok opened b size=8
+dump: 2 sessions
+  b refs=1 pins=0 size=8 sum=980 idle=1
+  a refs=1 pins=0 size=8 sum=972 idle=4
+error: no such session
+stats: sessions=2 pinned=0 pinned_bytes=0 pool=16/8192
+stats: opened=2 reopened=0 closed=0 evicted=0 expired=0 open_failed=2 pinned_skips=0 errors=3

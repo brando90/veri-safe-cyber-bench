@@ -1,0 +1,11 @@
+image a 4096 1024 2
+rle 8388608*5
+end
+image b 4096 1024 2
+rle 8388608*6
+end
+concat c a b h
+info c
+drop c
+concat d a b v
+info d

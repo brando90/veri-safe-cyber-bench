@@ -1,0 +1,5 @@
+OK added A100
+OK added A101
+ERROR duplicate-sku: A100
+category fasteners: items=2 units=55 value_cents=1600
+total: items=2 units=55 value_cents=1600

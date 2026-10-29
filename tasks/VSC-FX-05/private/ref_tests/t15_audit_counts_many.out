@@ -1,0 +1,20 @@
+OK added A100
+OK added A101
+OK added B200
+OK added B201
+OK added C300
+OK discounted 2 item(s) in fasteners by 10%
+OK renamed A101
+OK discounted 2 item(s) in tools by 20%
+OK discounted 1 item(s) in paint by 5%
+OK renamed C300
+category fasteners: items=2 units=55 value_cents=1420
+category paint: items=1 units=12 value_cents=10248
+category tools: items=2 units=11 value_cents=5552
+total: items=5 units=78 value_cents=17220
+sku,category,qty,price_cents,margin_cents,name
+A100,fasteners,40,22,12,Hex bolt M5
+A101,fasteners,15,36,14,Hex nut M5 steel
+B200,tools,3,1000,100,Claw hammer
+B201,tools,8,319,-131,Tape measure 5m
+C300,paint,12,854,254,Gloss white 1L

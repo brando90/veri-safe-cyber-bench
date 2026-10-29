@@ -1,0 +1,11 @@
+OK user alice
+a.txt
+sub/
+DENIED: outside root
+b.txt
+c.txt
+EXPORTED keep: 1 files
+notes.txt 10
+ERROR: not found
+DENIED: outside root
+final line

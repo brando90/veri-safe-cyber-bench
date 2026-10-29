@@ -1,0 +1,8 @@
+ok opened a size=16
+error: line too long
+dump: 1 sessions
+  a refs=1 pins=0 size=16 sum=2392 idle=2
+ok opened b size=16
+error: line too long
+stats: sessions=2 pinned=0 pinned_bytes=0 pool=32/8192
+stats: opened=2 reopened=0 closed=0 evicted=0 expired=0 open_failed=0 pinned_skips=0 errors=2

@@ -1,0 +1,13 @@
+OK added E1
+OK added E2
+OK added E3
+OK added E4
+OK added E5
+OK added E6
+sku,category,qty,price_cents,margin_cents,name
+E1,misc,1,100,60,"Washer, 5"" ; steel"
+E2,misc,2,200,110,Plain name
+E3,misc,3,300,210,"Semi;colon"
+E4,misc,4,400,310,"Say ""hi"""
+E5,misc,5,500,410,""""
+E6,misc,6,600,510,"a,b,c"

@@ -1,0 +1,5 @@
+record 2
+  time: 1700000042
+  level: ERROR
+  fields: 0
+  message (12 bytes): "write failed"

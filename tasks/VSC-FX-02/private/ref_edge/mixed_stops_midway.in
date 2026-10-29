@@ -1,0 +1,10 @@
+image a 300 300 1
+rle 90000*4
+end
+scale b a 3 3
+crop c b 0 0 10 10
+image d 1 40000 1
+rle 40000*9
+end
+concat e b d h
+info c

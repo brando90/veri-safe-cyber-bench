@@ -1,0 +1,7 @@
+open a 50
+open a
+open a
+open b 20
+evict a
+dump
+stats

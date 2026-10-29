@@ -1,0 +1,17 @@
+OK user alice
+in s1
+doc a
+in s2
+OK user bob
+bob secret
+OK alias z
+readme.txt
+back in s1
+alpha
+beta
+(none)
+deepest
+ERROR: nesting too deep
+ERROR: not found
+ERROR: not a file
+after

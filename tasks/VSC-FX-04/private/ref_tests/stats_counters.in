@@ -1,0 +1,13 @@
+open a 10
+open a
+open b 20
+close a
+close a
+open c 30
+evict c
+touch zz
+touch b pin
+expire 5
+touch b unpin
+expire 0
+stats

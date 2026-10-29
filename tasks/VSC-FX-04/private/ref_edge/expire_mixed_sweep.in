@@ -1,0 +1,19 @@
+open a 5
+open b 6
+open c 7
+open d 8
+open e 9
+touch a pin
+touch c pin
+touch e pin
+touch d
+expire 2
+stats
+dump
+open x 100
+open y 100
+open z 100
+open w 100
+open v 100
+dump
+stats

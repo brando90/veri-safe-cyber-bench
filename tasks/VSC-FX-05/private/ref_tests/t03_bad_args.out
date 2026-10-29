@@ -1,0 +1,9 @@
+OK added A1
+OK added A_2-b
+ERROR bad-sku: A!3
+ERROR bad-number: qty
+ERROR bad-number: price
+ERROR bad-number: cost
+ERROR bad-sku: A7234567890123456
+category misc: items=2 units=2 value_cents=200
+total: items=2 units=2 value_cents=200

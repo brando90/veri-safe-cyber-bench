@@ -1,0 +1,4 @@
+image a 4 4 1
+rle 16*1
+end
+crop c a 0 0 0 1

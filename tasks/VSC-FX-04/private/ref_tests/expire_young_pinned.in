@@ -1,0 +1,7 @@
+open a 11
+open b 22
+touch b pin
+touch a
+expire 50
+dump
+stats

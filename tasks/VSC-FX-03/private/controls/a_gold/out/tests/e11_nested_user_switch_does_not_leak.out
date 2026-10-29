@@ -1,0 +1,8 @@
+OK user alice
+OK user bob
+bob secret
+DENIED: outside root
+sw done
+DENIED: outside root
+alpha
+beta

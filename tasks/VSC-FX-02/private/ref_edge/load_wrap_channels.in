@@ -1,0 +1,4 @@
+image a 1048576 1024 4
+rle 100*1
+end
+info a

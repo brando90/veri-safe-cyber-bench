@@ -1,0 +1,14 @@
+OK user alice
+OK alias d
+doc a
+a.txt
+sub/
+d -> docs
+OK alias e
+doc b
+b.txt
+c.txt
+OK alias d
+doc c
+d -> docs/sub
+e -> @d/sub

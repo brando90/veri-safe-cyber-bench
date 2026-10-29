@@ -1,0 +1,16 @@
+open a
+open b
+open c
+open d
+open e
+open f
+touch a pin
+touch b pin
+touch c pin
+touch d pin
+touch e pin
+touch f pin
+open g 0
+open h
+dump
+stats

@@ -1,0 +1,8 @@
+add-item S1 misc 1 100 50 Nut; M5, steel
+add-item S2 misc 1 100 50 Nut M5 steel
+add-item S3 misc 1 100 50 Screw, wood; 4x40
+find ; M5,
+find nut m5
+find ,
+find ;
+find wood; 4x

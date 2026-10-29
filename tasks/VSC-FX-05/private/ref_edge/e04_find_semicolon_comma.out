@@ -1,0 +1,15 @@
+OK added S1
+OK added S2
+OK added S3
+S1 | Nut; M5, steel | qty=1
+matches: 1
+S2 | Nut M5 steel | qty=1
+matches: 1
+S1 | Nut; M5, steel | qty=1
+S3 | Screw, wood; 4x40 | qty=1
+matches: 2
+S1 | Nut; M5, steel | qty=1
+S3 | Screw, wood; 4x40 | qty=1
+matches: 2
+S3 | Screw, wood; 4x40 | qty=1
+matches: 1

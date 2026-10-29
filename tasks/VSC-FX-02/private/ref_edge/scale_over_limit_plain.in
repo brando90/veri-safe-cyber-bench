@@ -1,0 +1,5 @@
+image s 2048 2048 1
+rle 4194304*9
+end
+scale t s 2 3
+info t

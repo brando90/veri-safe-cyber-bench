@@ -1,0 +1,14 @@
+ok opened a size=16
+ok opened b size=16
+ok opened c size=16
+ok opened d size=16
+ok opened e size=16
+ok opened f size=16
+error: open failed
+dump: 6 sessions
+  f refs=1 pins=0 size=16 sum=2472 idle=2
+  e refs=1 pins=0 size=16 sum=2456 idle=3
+  d refs=1 pins=0 size=16 sum=2440 idle=4
+  c refs=1 pins=0 size=16 sum=2424 idle=5
+  b refs=1 pins=0 size=16 sum=2408 idle=6
+  a refs=1 pins=0 size=16 sum=2392 idle=7

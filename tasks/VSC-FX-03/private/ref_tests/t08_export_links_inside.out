@@ -1,0 +1,14 @@
+OK user alice
+EXPORTED d1: 3 files
+docs/a.txt 5
+docs/sub/b.txt 5
+docs/sub/c.txt 5
+EXPORTED d2: 3 files
+docs/a.txt 5
+docs/sub/b.txt 5
+docs/sub/c.txt 5
+back@
+docs/
+exports/
+lk@
+notes.txt

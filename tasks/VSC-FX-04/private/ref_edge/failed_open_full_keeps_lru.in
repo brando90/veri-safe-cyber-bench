@@ -1,0 +1,11 @@
+open a
+open b
+open c
+open d
+open e
+open f
+open g 99999
+dump
+stats
+open g 12
+dump

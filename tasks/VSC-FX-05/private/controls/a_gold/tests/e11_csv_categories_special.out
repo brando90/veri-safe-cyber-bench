@@ -1,0 +1,11 @@
+OK added K1
+OK added K2
+OK added K3
+OK added K4
+OK added K5
+sku,category,qty,price_cents,margin_cents,name
+K1,"nuts,bolts",4,100,60,Plain one
+K2,'@shelf,4,100,60,Plain two
+K3,"a;b",4,100,60,Plain three
+K4,'-neg,4,100,-40,Plain four
+K5,"q""t",4,100,60,Plain five

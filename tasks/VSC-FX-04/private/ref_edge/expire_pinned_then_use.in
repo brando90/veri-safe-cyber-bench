@@ -1,0 +1,12 @@
+open a 64
+touch a pin
+touch a pin
+open b 16
+expire 1
+touch a
+close a
+touch a unpin
+touch a unpin
+close a
+stats
+dump

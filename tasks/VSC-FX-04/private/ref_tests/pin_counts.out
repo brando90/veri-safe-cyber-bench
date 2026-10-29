@@ -1,0 +1,16 @@
+ok opened a size=100
+ok pinned a pins=1
+ok pinned a pins=2
+ok pinned a pins=3
+stats: sessions=1 pinned=1 pinned_bytes=100 pool=100/8192
+stats: opened=1 reopened=0 closed=0 evicted=0 expired=0 open_failed=0 pinned_skips=0 errors=0
+ok unpinned a pins=2
+stats: sessions=1 pinned=1 pinned_bytes=100 pool=100/8192
+stats: opened=1 reopened=0 closed=0 evicted=0 expired=0 open_failed=0 pinned_skips=0 errors=0
+ok unpinned a pins=1
+ok unpinned a pins=0
+stats: sessions=1 pinned=0 pinned_bytes=0 pool=100/8192
+stats: opened=1 reopened=0 closed=0 evicted=0 expired=0 open_failed=0 pinned_skips=0 errors=0
+error: not pinned
+dump: 1 sessions
+  a refs=1 pins=0 size=100 sum=13374 idle=3

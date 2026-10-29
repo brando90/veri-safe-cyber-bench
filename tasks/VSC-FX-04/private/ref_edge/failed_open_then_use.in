@@ -1,0 +1,8 @@
+open big 5000
+close big
+touch big
+evict big
+open big 8
+dump
+close big
+stats

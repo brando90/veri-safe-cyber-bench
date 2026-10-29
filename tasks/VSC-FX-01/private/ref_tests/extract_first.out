@@ -1,0 +1,7 @@
+record 0
+  time: 1700000000
+  level: INFO
+  fields: 2
+  field 1 (host) len=5: "web01"
+  field 2 (pid) len=4: "4242"
+  message (15 bytes): "service started"

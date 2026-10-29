@@ -1,0 +1,7 @@
+open a 4096
+open b 4096
+stats
+close a
+open c 4096
+stats
+dump

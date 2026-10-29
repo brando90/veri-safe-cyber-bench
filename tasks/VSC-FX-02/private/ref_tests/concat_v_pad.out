@@ -1,0 +1,5 @@
+loaded a 3x2x2 fnv=9496a66d
+loaded b 5x1x2 fnv=63d131d6
+concat c 5x3x2 fnv=dd9c474e
+concat d 5x3x2 fnv=0d8f8672
+info d 5x3x2 bytes=30 tile=none fnv=0d8f8672

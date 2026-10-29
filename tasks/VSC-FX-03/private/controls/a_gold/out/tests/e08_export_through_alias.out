@@ -1,0 +1,12 @@
+OK user alice
+OK alias d
+DENIED: outside root
+OK alias o
+DENIED: outside root
+DENIED: outside root
+docs/
+notes.txt
+OK alias sub
+EXPORTED fine: 2 files
+docs/sub/b.txt 5
+docs/sub/c.txt 5

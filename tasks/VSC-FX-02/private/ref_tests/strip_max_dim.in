@@ -1,0 +1,10 @@
+image w 16777216 1 1
+rle 16777216*9
+end
+image t 1 16777216 1
+rle 16777216*8
+end
+crop a w 100 0 4 1
+crop b t 0 100 1 4
+scale s a 1 1
+info w

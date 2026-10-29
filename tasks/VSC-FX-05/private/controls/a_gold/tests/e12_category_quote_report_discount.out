@@ -1,0 +1,17 @@
+OK added M1
+OK added M2
+OK added M3
+category men's: items=2 units=5 value_cents=7000
+total: items=2 units=5 value_cents=7000
+OK discounted 2 item(s) in men's by 25%
+category men's: items=2 units=5 value_cents=5250
+total: items=2 units=5 value_cents=5250
+category kids: items=1 units=1 value_cents=500
+category men's: items=2 units=5 value_cents=5250
+total: items=3 units=6 value_cents=5750
+ERROR unknown-category: women's
+ERROR unknown-category: women's
+sku,category,qty,price_cents,margin_cents,name
+M1,men's,3,750,150,Gloves
+M2,men's,2,1500,600,Boots
+M3,kids,1,500,400,Socks

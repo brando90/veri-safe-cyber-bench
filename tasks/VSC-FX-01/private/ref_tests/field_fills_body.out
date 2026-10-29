@@ -1,0 +1,6 @@
+record 0
+  time: 55
+  level: INFO
+  fields: 1
+  field 3 (tag) len=4: "tail"
+  message (0 bytes): ""

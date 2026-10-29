@@ -1,0 +1,10 @@
+open a 50
+open a
+open a
+evict a
+close a
+touch a
+touch a pin
+evict a
+dump
+stats

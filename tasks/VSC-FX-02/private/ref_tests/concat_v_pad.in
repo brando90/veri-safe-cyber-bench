@@ -1,0 +1,9 @@
+image a 3 2 2
+rle 77 114 151 188 225 6 43 80 117 154 191 228
+end
+image b 5 1 2
+rle 88 125 162 199 236 17 54 91 128 165
+end
+concat c a b v
+concat d b a v
+info d

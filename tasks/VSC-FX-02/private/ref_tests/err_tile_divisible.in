@@ -1,0 +1,4 @@
+image a 6 4 1 tile 4 4
+rle 24*1
+end
+tile t a 0

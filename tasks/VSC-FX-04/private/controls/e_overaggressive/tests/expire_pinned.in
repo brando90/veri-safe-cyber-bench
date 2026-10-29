@@ -1,0 +1,6 @@
+open a 8
+touch a pin
+open b 4
+expire 0
+stats
+dump

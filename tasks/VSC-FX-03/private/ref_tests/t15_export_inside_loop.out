@@ -1,0 +1,9 @@
+OK user alice
+a.txt
+sub/
+up@
+EXPORTED loop: 4 files
+docs/a.txt 5
+docs/sub/b.txt 5
+docs/sub/c.txt 5
+notes.txt 10

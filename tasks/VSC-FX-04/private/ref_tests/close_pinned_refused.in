@@ -1,0 +1,9 @@
+open a
+open a
+touch a pin
+close a
+close a
+dump
+touch a unpin
+close a
+dump

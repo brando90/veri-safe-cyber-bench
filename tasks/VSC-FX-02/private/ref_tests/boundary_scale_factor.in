@@ -1,0 +1,6 @@
+image p 1 1 1
+rle 77
+end
+scale q p 4096 4096
+info q
+crop c q 4095 4095 1 1

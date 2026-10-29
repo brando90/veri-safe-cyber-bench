@@ -1,0 +1,7 @@
+open a 8
+open z 0
+open z 0
+open b 8
+dump
+close z
+stats

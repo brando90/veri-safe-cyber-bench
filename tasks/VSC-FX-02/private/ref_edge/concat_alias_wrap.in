@@ -1,0 +1,8 @@
+image a 65535 1 1
+rle 65535*1
+end
+image b 1 65536 1
+rle 65536*2
+end
+concat a a b h
+info a

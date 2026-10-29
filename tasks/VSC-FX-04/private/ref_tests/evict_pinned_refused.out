@@ -1,0 +1,9 @@
+ok opened a size=7
+ok pinned a pins=1
+error: session pinned
+dump: 1 sessions
+  a refs=1 pins=1 size=7 sum=826 idle=2
+ok unpinned a pins=0
+ok evicted a
+stats: sessions=0 pinned=0 pinned_bytes=0 pool=0/8192
+stats: opened=1 reopened=0 closed=0 evicted=1 expired=0 open_failed=0 pinned_skips=0 errors=1

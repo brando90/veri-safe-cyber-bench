@@ -1,0 +1,5 @@
+loaded a 300x300x1 fnv=26c40945
+scale b 900x900x1 fnv=07c6e545
+crop c 10x10x1 fnv=be11bfa5
+loaded d 1x40000x1 fnv=eb3e1305
+error: image too large

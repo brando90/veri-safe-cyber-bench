@@ -1,0 +1,9 @@
+image a 2 2 1
+rle 1 2 3 4
+end
+image a 3 1 1
+rle 7 8 9
+end
+info a
+drop a
+info a

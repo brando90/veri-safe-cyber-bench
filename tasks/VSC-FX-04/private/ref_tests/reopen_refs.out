@@ -1,0 +1,11 @@
+ok opened x size=8
+ok reopened x refs=2
+ok reopened x refs=3
+dump: 1 sessions
+  x refs=3 pins=0 size=8 sum=1156 idle=1
+ok released x refs=2
+dump: 1 sessions
+  x refs=2 pins=0 size=8 sum=1156 idle=3
+ok released x refs=1
+ok closed x
+dump: 0 sessions

@@ -1,0 +1,7 @@
+record 0
+  time: 56
+  level: WARN
+  fields: 2
+  field 1 (host) len=0: ""
+  field 2 (pid) len=1: "7"
+  message (0 bytes): ""

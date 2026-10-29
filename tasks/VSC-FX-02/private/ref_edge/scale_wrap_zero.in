@@ -1,0 +1,5 @@
+image s 256 256 1
+rle 65536*3
+end
+scale t s 256 256
+info t

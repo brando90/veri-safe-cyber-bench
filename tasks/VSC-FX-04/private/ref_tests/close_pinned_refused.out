@@ -1,0 +1,10 @@
+ok opened a size=16
+ok reopened a refs=2
+ok pinned a pins=1
+ok released a refs=1
+error: session pinned
+dump: 1 sessions
+  a refs=1 pins=1 size=16 sum=2392 idle=3
+ok unpinned a pins=0
+ok closed a
+dump: 0 sessions

@@ -1,0 +1,18 @@
+OK added W1
+OK added W2
+OK added W3
+OK added W4
+OK added W5
+W1 | Cotton 100% soft | qty=9
+matches: 1
+W3 | label a_b roll | qty=9
+matches: 1
+W1 | Cotton 100% soft | qty=9
+W5 | Rate 5% off | qty=9
+matches: 2
+W3 | label a_b roll | qty=9
+matches: 1
+W5 | Rate 5% off | qty=9
+matches: 1
+matches: 0
+matches: 0

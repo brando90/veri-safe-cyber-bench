@@ -1,0 +1,6 @@
+image big 4096 1024 4 tile 4096 1
+rle 8388608*7 8388608*250
+end
+info big
+crop c big 4000 1000 96 24
+tile t big 1023

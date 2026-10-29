@@ -1,0 +1,22 @@
+ok opened a size=16
+ok opened b size=16
+ok opened c size=16
+ok evicted b
+error: no such session
+error: no such session
+ok opened d size=16
+ok opened e size=16
+ok opened f size=16
+ok opened g size=16
+note: evicted a (capacity)
+ok opened h size=16
+dump: 6 sessions
+  h refs=1 pins=0 size=16 sum=2504 idle=1
+  g refs=1 pins=0 size=16 sum=2488 idle=2
+  f refs=1 pins=0 size=16 sum=2472 idle=3
+  e refs=1 pins=0 size=16 sum=2456 idle=4
+  d refs=1 pins=0 size=16 sum=2440 idle=5
+  c refs=1 pins=0 size=16 sum=2424 idle=9
+error: no such session
+stats: sessions=6 pinned=0 pinned_bytes=0 pool=96/8192
+stats: opened=8 reopened=0 closed=0 evicted=2 expired=0 open_failed=0 pinned_skips=0 errors=3

@@ -1,0 +1,16 @@
+OK user alice
+EXPORTED all: 3 files
+docs/a.txt 5
+docs/sub/b.txt 5
+docs/sub/c.txt 5
+all.tar
+EXPORTED few: 2 files
+docs/a.txt 5
+notes.txt 10
+EXPORTED few: 1 files
+notes.txt 10
+OK alias d
+EXPORTED viaalias: 3 files
+docs/sub/b.txt 5
+docs/sub/c.txt 5
+notes.txt 10

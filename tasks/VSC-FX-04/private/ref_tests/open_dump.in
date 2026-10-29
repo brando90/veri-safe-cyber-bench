@@ -1,0 +1,6 @@
+open a 1
+open bb 4096
+open ccc 4000
+dump
+open d 5
+dump

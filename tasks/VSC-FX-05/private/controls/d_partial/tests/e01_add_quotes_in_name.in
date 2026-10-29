@@ -1,0 +1,8 @@
+add-item Q1 misc 5 300 120 O'Neil bracket
+add-item Q2 misc 2 450 200 Bolt 5" zinc
+add-item Q3 misc 1 99 10 'quoted' name
+find neil
+find 'quoted'
+find 5"
+report
+export-csv

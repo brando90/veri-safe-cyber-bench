@@ -1,0 +1,5 @@
+open a 24
+evict a
+close a
+dump
+stats

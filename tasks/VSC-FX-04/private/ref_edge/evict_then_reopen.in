@@ -1,0 +1,9 @@
+open a 24
+open b 8
+evict a
+open a 40
+dump
+close a
+close a
+dump
+stats

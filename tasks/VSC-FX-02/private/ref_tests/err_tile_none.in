@@ -1,0 +1,4 @@
+image a 4 4 1
+rle 16*1
+end
+tile t a 0

@@ -1,0 +1,14 @@
+ok opened a size=64
+ok pinned a pins=1
+ok pinned a pins=2
+ok opened b size=16
+expired b
+ok expired 1 skipped=1
+ok touched a
+error: session pinned
+ok unpinned a pins=1
+ok unpinned a pins=0
+ok closed a
+stats: sessions=0 pinned=0 pinned_bytes=0 pool=0/8192
+stats: opened=2 reopened=0 closed=1 evicted=0 expired=1 open_failed=0 pinned_skips=1 errors=1
+dump: 0 sessions

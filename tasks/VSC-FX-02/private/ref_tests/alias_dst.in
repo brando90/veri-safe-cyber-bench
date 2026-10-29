@@ -1,0 +1,7 @@
+image a 2 3 1
+rle 99 136 173 210 247 28
+end
+scale a a 2 2
+concat a a a h
+concat a a a v
+info a

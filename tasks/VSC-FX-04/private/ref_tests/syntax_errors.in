@@ -1,0 +1,18 @@
+# syntax checks
+frobnicate x
+
+open
+open a b c
+open bad/id
+open a 12x
+open a 1234567890
+touch a pin extra
+touch a squeeze
+close
+evict a b
+expire
+expire soon
+dump now
+stats please
+open a b c d e
+stats

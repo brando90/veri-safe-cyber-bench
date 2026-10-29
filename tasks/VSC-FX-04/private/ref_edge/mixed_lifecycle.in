@@ -1,0 +1,15 @@
+open s1 100
+open s2 200
+touch s1 pin
+open s3 99999
+evict s2
+close s2
+expire 0
+open s2 300
+touch s1 unpin
+expire 1
+open s4 5000
+open s4 4000
+close s4
+dump
+stats

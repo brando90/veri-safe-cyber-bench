@@ -1,0 +1,5 @@
+open crlf 5
+dump
+close crlf
+   open   spaced   9   
+stats

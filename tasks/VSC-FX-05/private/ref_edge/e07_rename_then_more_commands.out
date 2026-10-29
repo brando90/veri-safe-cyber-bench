@@ -1,0 +1,20 @@
+OK added A100
+OK added A101
+OK added B200
+OK added B201
+OK added C300
+OK renamed A100
+OK discounted 2 item(s) in fasteners by 10%
+OK renamed A101
+A100 | 100% 'real' bolt; M5, zinc | qty=40
+matches: 1
+A101 | "Hex" nut | qty=15
+matches: 1
+category fasteners: items=2 units=55 value_cents=1420
+total: items=2 units=55 value_cents=1420
+sku,category,qty,price_cents,margin_cents,name
+A100,fasteners,40,22,12,"100% 'real' bolt; M5, zinc"
+A101,fasteners,15,36,14,"""Hex"" nut"
+B200,tools,3,1250,350,Claw hammer
+B201,tools,8,399,-51,Tape measure 5m
+C300,paint,12,899,299,Matt white 1L

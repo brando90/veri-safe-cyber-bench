@@ -1,0 +1,6 @@
+image s 1024 1024 4
+rle 2097152*3 2097152*4
+end
+scale t s 2 2
+info t
+crop c t 1 2 3 4

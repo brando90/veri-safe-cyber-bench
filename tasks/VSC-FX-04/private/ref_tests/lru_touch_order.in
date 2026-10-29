@@ -1,0 +1,10 @@
+open a
+open b
+open c
+touch a
+dump
+touch b
+touch c
+dump
+touch a pin
+dump

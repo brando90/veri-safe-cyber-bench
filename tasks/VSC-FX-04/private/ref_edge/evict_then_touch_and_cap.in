@@ -1,0 +1,14 @@
+open a
+open b
+open c
+evict b
+touch b
+touch b unpin
+open d
+open e
+open f
+open g
+open h
+dump
+close b
+stats

@@ -1,0 +1,24 @@
+#! file vault/users/alice/notes.txt | alpha\nbeta
+#! file vault/users/alice/docs/a.txt | doc a
+#! file vault/users/alice/docs/sub/b.txt | doc b
+#! file vault/users/alice/docs/sub/c.txt | doc c
+#! file vault/users/bob/secret.txt | bob secret
+#! file vault/users/bob/pub/readme.txt | bob readme
+#! file vault/users/bob/script.cmd | ECHO from bob
+#! file vault/users/alice2/data.txt | alice2 data
+#! file outside/top.txt | outside file
+#! file vault/users/alice/s1.cmd | ECHO in s1\nREAD docs/a.txt\nRUN s2.cmd\nECHO back in s1
+#! file vault/users/alice/s2.cmd | ECHO in s2\nUSER bob\nREAD secret.txt\nALIAS z pub\nLIST @z
+#! file vault/users/alice/r1.cmd | RUN r2.cmd
+#! file vault/users/alice/r2.cmd | RUN r3.cmd
+#! file vault/users/alice/r3.cmd | RUN r4.cmd
+#! file vault/users/alice/r4.cmd | ECHO deepest
+USER alice
+RUN s1.cmd
+READ notes.txt
+ALIASES
+RUN r3.cmd
+RUN r1.cmd
+RUN missing.cmd
+RUN docs
+ECHO after

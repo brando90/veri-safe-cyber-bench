@@ -1,0 +1,6 @@
+ok opened a size=10
+error: open failed
+dump: 1 sessions
+  a refs=1 pins=0 size=10 sum=1285 idle=2
+stats: sessions=1 pinned=0 pinned_bytes=0 pool=10/8192
+stats: opened=1 reopened=0 closed=0 evicted=0 expired=0 open_failed=1 pinned_skips=0 errors=1

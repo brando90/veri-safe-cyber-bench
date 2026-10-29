@@ -1,0 +1,5 @@
+open a 8
+open big 70000
+dump
+close big
+stats

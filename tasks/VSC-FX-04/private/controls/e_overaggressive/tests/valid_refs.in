@@ -1,0 +1,6 @@
+open a 4
+open a
+close a
+dump
+close a
+stats

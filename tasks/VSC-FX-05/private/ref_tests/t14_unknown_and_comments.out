@@ -1,0 +1,7 @@
+sku,category,qty,price_cents,margin_cents,name
+total: items=0 units=0 value_cents=0
+matches: 0
+ERROR unknown-command: bogus
+OK added A1
+category misc: items=1 units=1 value_cents=1
+total: items=1 units=1 value_cents=1

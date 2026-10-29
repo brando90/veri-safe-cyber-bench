@@ -1,0 +1,12 @@
+OK added A100
+OK added A101
+OK added B200
+OK added B201
+OK added C300
+OK discounted 2 item(s) in tools by 50%
+sku,category,qty,price_cents,margin_cents,name
+A100,fasteners,40,25,15,Hex bolt M5
+A101,fasteners,15,40,18,Hex nut M5
+B200,tools,3,625,-275,Claw hammer
+B201,tools,8,199,-251,Tape measure 5m
+C300,paint,12,899,299,Matt white 1L

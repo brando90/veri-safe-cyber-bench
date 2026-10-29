@@ -1,0 +1,18 @@
+#! file vault/users/alice/notes.txt | alpha\nbeta
+#! file vault/users/alice/docs/a.txt | doc a
+#! file vault/users/alice/docs/sub/b.txt | doc b
+#! file vault/users/alice/docs/sub/c.txt | doc c
+#! file vault/users/bob/secret.txt | bob secret
+#! file vault/users/bob/pub/readme.txt | bob readme
+#! file vault/users/bob/script.cmd | ECHO from bob
+#! file vault/users/alice2/data.txt | alice2 data
+#! file outside/top.txt | outside file
+#! file vault/users/alice/empty.txt
+#! file vault/users/alice/crlf.txt | one\ttab\ntwo\n\nfour
+#! file vault/users/alice/long/deep/er/file.txt | deep
+USER alice
+READ empty.txt
+READ crlf.txt
+READ long/deep/er/file.txt
+LIST long/deep
+LIST long/deep/er

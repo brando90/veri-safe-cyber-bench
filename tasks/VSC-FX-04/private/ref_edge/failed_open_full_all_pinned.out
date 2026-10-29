@@ -1,0 +1,23 @@
+ok opened a size=16
+ok opened b size=16
+ok opened c size=16
+ok opened d size=16
+ok opened e size=16
+ok opened f size=16
+ok pinned a pins=1
+ok pinned b pins=1
+ok pinned c pins=1
+ok pinned d pins=1
+ok pinned e pins=1
+ok pinned f pins=1
+error: open failed
+error: cache full
+dump: 6 sessions
+  f refs=1 pins=1 size=16 sum=2472 idle=3
+  e refs=1 pins=1 size=16 sum=2456 idle=4
+  d refs=1 pins=1 size=16 sum=2440 idle=5
+  c refs=1 pins=1 size=16 sum=2424 idle=6
+  b refs=1 pins=1 size=16 sum=2408 idle=7
+  a refs=1 pins=1 size=16 sum=2392 idle=8
+stats: sessions=6 pinned=6 pinned_bytes=96 pool=96/8192
+stats: opened=6 reopened=0 closed=0 evicted=0 expired=0 open_failed=1 pinned_skips=0 errors=2

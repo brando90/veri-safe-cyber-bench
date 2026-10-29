@@ -1,0 +1,9 @@
+add-item A100 fasteners 40 25 10 Hex bolt M5
+add-item A101 fasteners 15 40 22 Hex nut M5
+add-item F1 misc 4 100 50 Pipe 3/4" copper
+add-item F2 misc 4 100 50 Child's cup
+find 3/4"
+find child's
+find '
+find "
+find s cup

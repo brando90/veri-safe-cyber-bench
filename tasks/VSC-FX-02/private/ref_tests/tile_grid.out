@@ -1,0 +1,6 @@
+loaded sh 12x8x2 fnv=1c407785
+tile t0 4x4x2 fnv=9949ec25
+tile t2 4x4x2 fnv=2891bba5
+tile t5 4x4x2 fnv=bc1868e5
+info sh 12x8x2 bytes=192 tile=4x4 fnv=1c407785
+info t5 4x4x2 bytes=32 tile=none fnv=bc1868e5

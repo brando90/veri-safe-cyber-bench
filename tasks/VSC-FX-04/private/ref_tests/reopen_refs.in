@@ -1,0 +1,9 @@
+open x 8
+open x 999999
+open x
+dump
+close x
+dump
+close x
+close x
+dump

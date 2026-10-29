@@ -1,0 +1,7 @@
+ok opened a size=8
+ok opened b size=9
+ok evicted a
+ok opened a size=20
+dump: 2 sessions
+  a refs=1 pins=0 size=20 sum=3270 idle=1
+  b refs=1 pins=0 size=9 sum=1134 idle=3

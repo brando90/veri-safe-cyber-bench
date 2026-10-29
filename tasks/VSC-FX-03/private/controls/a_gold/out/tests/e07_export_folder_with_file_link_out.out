@@ -1,0 +1,8 @@
+OK user alice
+DENIED: outside root
+DENIED: outside root
+DENIED: outside root
+DENIED: outside root
+EXPORTED ok: 2 files
+docs/a.txt 5
+notes.txt 10

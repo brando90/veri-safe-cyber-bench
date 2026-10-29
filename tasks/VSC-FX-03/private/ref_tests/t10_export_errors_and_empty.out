@@ -1,0 +1,13 @@
+OK user alice
+ERROR: usage: EXPORT name path...
+ERROR: usage: EXPORT name path...
+ERROR: bad archive name
+ERROR: bad archive name
+ERROR: not found
+ERROR: unknown alias
+ERROR: no such archive
+ERROR: bad archive name
+ERROR: usage: TOC name
+EXPORTED e: 0 files
+(empty)
+e.tar

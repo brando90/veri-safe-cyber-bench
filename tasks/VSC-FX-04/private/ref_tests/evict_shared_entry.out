@@ -1,0 +1,9 @@
+ok opened a size=50
+ok reopened a refs=2
+ok reopened a refs=3
+ok opened b size=20
+ok evicted a
+dump: 1 sessions
+  b refs=1 pins=0 size=20 sum=3290 idle=2
+stats: sessions=1 pinned=0 pinned_bytes=0 pool=20/8192
+stats: opened=2 reopened=2 closed=0 evicted=1 expired=0 open_failed=0 pinned_skips=0 errors=0

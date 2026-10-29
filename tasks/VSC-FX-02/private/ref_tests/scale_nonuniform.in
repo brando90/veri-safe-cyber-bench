@@ -1,0 +1,6 @@
+image a 3 2 3
+rle 44 81 118 155 192 229 10 47 84 121 158 195 232 13 50 87 124 161
+end
+scale b a 2 3
+scale c a 1 1
+scale d a 5 1

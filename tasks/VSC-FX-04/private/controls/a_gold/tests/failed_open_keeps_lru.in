@@ -1,0 +1,8 @@
+open a
+open b
+open c
+open d
+open e
+open f
+open g 0
+dump

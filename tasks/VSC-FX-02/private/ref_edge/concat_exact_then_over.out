@@ -1,0 +1,5 @@
+loaded a 4096x1024x2 fnv=db9c9dc5
+loaded b 4096x1024x2 fnv=231c9dc5
+concat c 8192x1024x2 fnv=7d9c9dc5
+loaded z 1x1x2 fnv=117697cd
+error: image too large

@@ -1,0 +1,5 @@
+image s 2 2 1
+rle 1 2 3 4
+end
+scale t s 32769 32769
+info t

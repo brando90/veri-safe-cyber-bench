@@ -1,0 +1,4 @@
+image a 4096 1025 4
+rle 16793600*5
+end
+info a

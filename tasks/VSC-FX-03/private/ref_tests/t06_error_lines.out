@@ -1,0 +1,19 @@
+ERROR: no user selected
+ERROR: no such user
+ERROR: bad user name
+ERROR: usage: USER name
+OK user alice
+ERROR: not found
+ERROR: not a file
+ERROR: not a folder
+ERROR: not found
+ERROR: usage: LIST [path]
+ERROR: unknown alias
+ERROR: bad alias name
+ERROR: usage: ALIAS name target
+ERROR: unknown command
+OK alias loop1
+OK alias loop2
+ERROR: alias loop
+alpha
+beta

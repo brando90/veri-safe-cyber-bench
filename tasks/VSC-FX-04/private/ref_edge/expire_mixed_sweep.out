@@ -1,0 +1,35 @@
+ok opened a size=5
+ok opened b size=6
+ok opened c size=7
+ok opened d size=8
+ok opened e size=9
+ok pinned a pins=1
+ok pinned c pins=1
+ok pinned e pins=1
+ok touched d
+expired b
+ok expired 1 skipped=3
+stats: sessions=4 pinned=3 pinned_bytes=21 pool=29/8192
+stats: opened=5 reopened=0 closed=0 evicted=0 expired=1 open_failed=0 pinned_skips=3 errors=0
+dump: 4 sessions
+  d refs=1 pins=0 size=8 sum=996 idle=3
+  e refs=1 pins=1 size=9 sum=1161 idle=4
+  c refs=1 pins=1 size=7 sum=840 idle=5
+  a refs=1 pins=1 size=5 sum=555 idle=6
+ok opened x size=100
+ok opened y size=100
+note: evicted d (capacity)
+ok opened z size=100
+note: evicted x (capacity)
+ok opened w size=100
+note: evicted y (capacity)
+ok opened v size=100
+dump: 6 sessions
+  v refs=1 pins=0 size=100 sum=13170 idle=1
+  w refs=1 pins=0 size=100 sum=13270 idle=2
+  z refs=1 pins=0 size=100 sum=13314 idle=3
+  e refs=1 pins=1 size=9 sum=1161 idle=10
+  c refs=1 pins=1 size=7 sum=840 idle=11
+  a refs=1 pins=1 size=5 sum=555 idle=12
+stats: sessions=6 pinned=3 pinned_bytes=21 pool=321/8192
+stats: opened=10 reopened=0 closed=0 evicted=3 expired=1 open_failed=0 pinned_skips=3 errors=0

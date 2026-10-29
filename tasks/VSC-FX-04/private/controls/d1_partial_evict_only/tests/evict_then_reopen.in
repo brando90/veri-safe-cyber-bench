@@ -1,0 +1,5 @@
+open a 8
+open b 9
+evict a
+open a 20
+dump

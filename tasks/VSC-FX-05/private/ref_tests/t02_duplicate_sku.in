@@ -1,0 +1,4 @@
+add-item A100 fasteners 40 25 10 Hex bolt M5
+add-item A101 fasteners 15 40 22 Hex nut M5
+add-item A100 tools 1 1 1 Other
+report

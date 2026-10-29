@@ -1,0 +1,10 @@
+open a 1
+open b 2
+touch a pin
+touch b pin
+expire 0
+expire 0
+stats
+close a
+evict b
+dump

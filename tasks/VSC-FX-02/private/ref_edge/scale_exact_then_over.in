@@ -1,0 +1,6 @@
+image p 1 1 1
+rle 5
+end
+scale q p 4096 4096
+scale r q 1 2
+info r

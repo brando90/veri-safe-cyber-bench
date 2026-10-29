@@ -1,0 +1,10 @@
+OK user alice
+OK alias o
+DENIED: outside root
+DENIED: outside root
+inner done
+DENIED: outside root
+outer done
+DENIED: outside root
+alpha
+beta

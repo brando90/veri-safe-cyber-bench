@@ -1,0 +1,1 @@
+control d1_load_only

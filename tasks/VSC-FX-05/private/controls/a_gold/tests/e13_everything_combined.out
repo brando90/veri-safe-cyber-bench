@@ -1,0 +1,31 @@
+OK added A100
+OK added A101
+OK added B200
+OK added B201
+OK added C300
+OK added Z1
+OK added Z2
+Z1 | Crate, 12" ; oak | qty=2
+Z2 | =cheap crate | qty=2
+matches: 2
+Z1 | Crate, 12" ; oak | qty=2
+matches: 1
+OK renamed Z2
+OK discounted 2 item(s) in o'brien;x by 20%
+category o'brien;x: items=2 units=4 value_cents=4800
+total: items=2 units=4 value_cents=4800
+Z2 | Crate '; -2 slots, pine | qty=2
+matches: 1
+category fasteners: items=2 units=55 value_cents=1600
+category o'brien;x: items=2 units=4 value_cents=4800
+category paint: items=1 units=12 value_cents=10788
+category tools: items=2 units=11 value_cents=6942
+total: items=7 units=82 value_cents=24130
+sku,category,qty,price_cents,margin_cents,name
+A100,fasteners,40,25,15,Hex bolt M5
+A101,fasteners,15,40,18,Hex nut M5
+B200,tools,3,1250,350,Claw hammer
+B201,tools,8,399,-51,Tape measure 5m
+C300,paint,12,899,299,Matt white 1L
+Z1,"o'brien;x",2,1200,500,"Crate, 12"" ; oak"
+Z2,"o'brien;x",2,1200,500,"Crate '; -2 slots, pine"

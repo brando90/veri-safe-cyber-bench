@@ -1,0 +1,10 @@
+OK added A100
+OK added A101
+OK added B200
+OK added B201
+OK added C300
+category paint: items=1 units=12 value_cents=10788
+total: items=1 units=12 value_cents=10788
+category fasteners: items=2 units=55 value_cents=1600
+total: items=2 units=55 value_cents=1600
+ERROR unknown-category: food

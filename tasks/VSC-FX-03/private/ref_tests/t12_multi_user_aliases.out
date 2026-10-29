@@ -1,0 +1,14 @@
+OK user alice
+OK alias n
+OK user bob
+(none)
+bob secret
+OK alias n
+bob readme
+pub/
+script.cmd
+secret.txt
+OK user alice
+alpha
+beta
+n -> notes.txt

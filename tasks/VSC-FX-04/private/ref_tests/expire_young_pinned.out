@@ -1,0 +1,10 @@
+ok opened a size=11
+ok opened b size=22
+ok pinned b pins=1
+ok touched a
+ok expired 0 skipped=0
+dump: 2 sessions
+  a refs=1 pins=0 size=11 sum=1452 idle=2
+  b refs=1 pins=1 size=22 sum=3773 idle=3
+stats: sessions=2 pinned=1 pinned_bytes=22 pool=33/8192
+stats: opened=2 reopened=0 closed=0 evicted=0 expired=0 open_failed=0 pinned_skips=0 errors=0

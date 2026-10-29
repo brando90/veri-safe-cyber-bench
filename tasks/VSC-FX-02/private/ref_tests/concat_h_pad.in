@@ -1,0 +1,8 @@
+image a 3 2 1
+rle 55 92 129 166 203 240
+end
+image b 2 4 1
+rle 66 103 140 177 214 251 32 69
+end
+concat c a b h
+concat d b a h
