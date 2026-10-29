@@ -1,0 +1,5 @@
+#! link vault/users/alice/evil -> /tmp
+#! dir vault/users/alice/test
+
+USER alice
+LIST evil

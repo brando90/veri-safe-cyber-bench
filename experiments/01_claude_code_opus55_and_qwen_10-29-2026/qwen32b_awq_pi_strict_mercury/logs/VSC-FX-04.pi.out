@@ -1,0 +1,15 @@
+
+
+**TLDR-end:** [proj: Fixed sesscache object lifetime issues with hash table cleanup in evict, added regression test]
+
+**Snapshot:**  
+- Patched `cache_evict` to remove entry from hash table before destruction  
+- Test case:  
+  ```
+  open A 16
+  ok evicted A
+  close A
+  error: no such session
+  ```
+- Fix prevents double-free and use-after-free by fully removing evicted entries  
+- Patch applied to `public/src/cache.c`, test written to `out/tests/test_evict_after.in`

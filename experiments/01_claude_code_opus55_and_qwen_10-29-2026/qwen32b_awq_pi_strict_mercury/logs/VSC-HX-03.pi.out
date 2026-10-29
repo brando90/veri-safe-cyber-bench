@@ -1,0 +1,3 @@
+
+
+**TLDR-end:** [proj: VSC-HX-03] Delivered containment fixes for sitesmith: patched src/ in out/patch/, added regression tests in out/tests/ (tenant_access.in/.out), and wrote root-cause analysis in out/REPORT.md. Patch respects documented safety rules without changing valid behavior.

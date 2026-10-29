@@ -1,0 +1,6 @@
+#! dir vault/users/bob/notes
+#! file vault/users/bob/notes/secret.txt | Top secret!
+
+USER bob
+ALIAS home ../../..
+LIST home

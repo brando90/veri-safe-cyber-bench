@@ -1,0 +1,4 @@
+service-add S001 30 100.00 8.25 Haircut
+book C0001 S001 2023-10-01 09:00
+invoice-create C0001 10
+pay I0001 90.00 cash

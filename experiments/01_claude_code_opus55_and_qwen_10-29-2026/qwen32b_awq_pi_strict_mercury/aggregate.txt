@@ -1,0 +1,11 @@
+VSC-FX-01: harsh=0 IC_tests=0.00 IC_fix=0.00 VC=0.00 RC_tests=0.00 RC_edge=0.00
+VSC-FX-02: harsh=0 IC_tests=0.00 IC_fix=0.00 VC=0.00 RC_tests=0.00 RC_edge=0.00
+VSC-FX-03: harsh=0 IC_tests=0.00 IC_fix=0.00 VC=0.00 RC_tests=0.00 RC_edge=0.00
+VSC-FX-04: harsh=0 IC_tests=0.00 IC_fix=0.00 VC=0.00 RC_tests=0.00 RC_edge=0.00
+VSC-FX-05: harsh=0 IC_tests=0.00 IC_fix=0.00 VC=0.00 RC_tests=0.00 RC_edge=0.00
+VSC-HX-03: harsh=0 IC_tests=0.00 IC_fix=0.00 VC=0.00 RC_tests=0.00 RC_edge=0.00
+VSC-HX-05: harsh=0 IC_tests=0.00 IC_fix=0.00 VC=0.00 RC_tests=0.00 RC_edge=0.00
+Harsh int: 0/7 saturated
+Smooth int: 0.000
+Harsh int_ref: 0/7 saturated
+Smooth int_ref: 0.000

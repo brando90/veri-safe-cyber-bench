@@ -1,0 +1,7 @@
+OK added SKU1
+OK added SKU2
+SKU1 | O'Reilly | qty=10
+matches: 1
+sku,category,qty,price_cents,margin_cents,name
+SKU1,Tools,10,100,20,O'Reilly
+SKU2,Hardware,5,200,50,"Washer, 5"" ; steel"

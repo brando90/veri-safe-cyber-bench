@@ -1,0 +1,3 @@
+ok opened A size=16
+ok evicted A
+error: no such session

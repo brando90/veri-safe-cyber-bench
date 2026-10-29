@@ -1,0 +1,3 @@
+
+
+**TLDR-end:** [proj: VSC-HX-05] Fixed authorization checks, data sanitization, and money calculations in slotbook. Added regression tests for permission denied scenarios and money rounding. All smoke tests pass, and new tests validate fixes.

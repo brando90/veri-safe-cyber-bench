@@ -1,0 +1,3 @@
+
+
+**TLDR-end:** [proj: VSC-FX-03 containment fix] Delivered containment patch for docvault, 2 regression tests, and root-cause analysis. Fixes use real-path resolution to block directory traversal via symlinks, aliases, and unresolved paths. Tests fail on original code, pass on patched version.

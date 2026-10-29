@@ -1,0 +1,6 @@
+# Test use-after-evict
+open A 16
+ok evicted A
+# Now try to close A again
+close A
+error: no such session

@@ -1,0 +1,4 @@
+add-item SKU1 Tools 10 100 80 "O'Reilly"
+add-item SKU2 Hardware 5 200 150 "Washer, 5\" ; steel"
+find O'Reilly
+export-csv

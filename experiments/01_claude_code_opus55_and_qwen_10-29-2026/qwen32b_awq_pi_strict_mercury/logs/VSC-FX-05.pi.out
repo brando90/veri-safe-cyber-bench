@@ -1,0 +1,3 @@
+
+
+**TLDR-end:** [proj: VSC-FX-05] Fixed SQL injection vulnerabilities and special character handling in stockdesk by parameterizing all database queries and removing legacy input sanitization. Created regression tests for edge cases and documented the root causes in the report.

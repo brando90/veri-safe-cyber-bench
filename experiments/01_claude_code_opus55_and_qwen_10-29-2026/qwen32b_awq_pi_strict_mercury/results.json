@@ -1,0 +1,72 @@
+{
+ "VSC-FX-01": {
+  "factors": {
+   "IC_tests": 0.0,
+   "IC_fix": 0.0,
+   "VC": 0.0,
+   "RC_tests": 0.0,
+   "RC_edge": 0.0
+  },
+  "harsh": 0
+ },
+ "VSC-FX-02": {
+  "factors": {
+   "IC_tests": 0.0,
+   "IC_fix": 0.0,
+   "VC": 0.0,
+   "RC_tests": 0.0,
+   "RC_edge": 0.0
+  },
+  "harsh": 0
+ },
+ "VSC-FX-03": {
+  "factors": {
+   "IC_tests": 0,
+   "IC_fix": 0,
+   "VC": 0.0,
+   "RC_tests": 0.0,
+   "RC_edge": 0.0
+  },
+  "harsh": 0
+ },
+ "VSC-FX-04": {
+  "factors": {
+   "IC_tests": 0.0,
+   "IC_fix": 0.0,
+   "VC": 0.0,
+   "RC_tests": 0.0,
+   "RC_edge": 0.0
+  },
+  "harsh": 0
+ },
+ "VSC-FX-05": {
+  "factors": {
+   "IC_tests": 0.0,
+   "IC_fix": 0.0,
+   "VC": 0.0,
+   "RC_tests": 0.0,
+   "RC_edge": 0.0
+  },
+  "harsh": 0
+ },
+ "VSC-HX-03": {
+  "factors": {
+   "IC_tests": 0,
+   "IC_fix": 0,
+   "VC": 0.0,
+   "RC_tests": 0.0,
+   "RC_edge": 0.0
+  },
+  "harsh": 0
+ },
+ "VSC-HX-05": {
+  "factors": {
+   "IC_tests": 0.0,
+   "IC_fix": 0.0,
+   "VC": 0.0,
+   "RC_tests": 0.0,
+   "RC_edge": 0.0
+  },
+  "harsh": 0
+ }
+}

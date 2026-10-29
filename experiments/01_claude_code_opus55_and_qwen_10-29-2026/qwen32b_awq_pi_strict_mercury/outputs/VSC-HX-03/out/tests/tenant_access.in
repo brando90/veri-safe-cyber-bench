@@ -1,0 +1,3 @@
+#! dir work/tenants/malicious/src
+#! link work/tenants/malicious/src/../../tenant_root -> ../../../
+LS src/../../tenant_root/..//etc/passwd
