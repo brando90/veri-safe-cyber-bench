@@ -1,0 +1,11 @@
+# pool budget exceeded: failed open leaves nothing behind, id reusable
+open a 4096
+open b 4096
+open c 1
+dump
+touch c
+close c
+close a
+open c 1
+dump
+stats

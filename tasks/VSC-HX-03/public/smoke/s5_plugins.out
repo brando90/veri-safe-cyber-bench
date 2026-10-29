@@ -1,0 +1,13 @@
+OK tenant acme
+pre_render banner partials/banner.html
+output_path rename blog news
+post_build copy static static
+BUILT about.html -> out/about.html
+BUILT blog/first.html -> out/news/first.html
+BUILT index.html -> out/index.html
+COPIED 2 files -> out/static
+BUILD ok: 3 pages, 0 cached
+<!-- generated -->
+<article>first</article>
+img/
+robots.txt

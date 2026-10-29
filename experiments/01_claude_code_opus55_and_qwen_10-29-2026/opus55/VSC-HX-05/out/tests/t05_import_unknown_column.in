@@ -1,0 +1,30 @@
+as owner
+service-add CUT 30 25.00 8.25 Haircut
+customer-add 555-0100 - Ann Lee
+import appointments
+customer	service	day	time	status
+C1	CUT	2026-11-02	09:00	done
+.end
+import appointments
+customer	service	day	time	minutes
+C1	CUT	2026-11-02	09:00	480
+.end
+import customers
+name	phone	archived
+Eve Stone	555-0200	1
+.end
+import services
+code	name	minutes	price	tax	code
+WASH	Wash	15	12.00	10	DRY
+.end
+import services
+code	name	minutes	price
+WASH	Wash	15	12.00
+.end
+import appointments
+customer	service	day	time
+C1	CUT	2026-11-02	09:00
+.end
+appts 2026-11-02
+export appointments csv
+customer-show C1

@@ -1,0 +1,17 @@
+as owner
+user-add fay frontdesk
+user-add mia manager
+service-add CUT 30 25.00 8.25 Haircut
+customer-add 555-0100 - Ann Lee
+as fay
+book C1 CUT 2026-11-02 09:00
+book C1 CUT 2026-11-02 10:00
+appt-status A1 cancelled
+appt-status A1 done
+appt-status A2 noshow
+book C1 CUT 2026-11-02 11:00
+cancel A3
+as mia
+appt-status A3 cancelled
+appts 2026-11-02
+audit 3

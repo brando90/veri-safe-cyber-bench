@@ -1,0 +1,15 @@
+OK tenant acme
+BUILT index.html -> out/index.html
+BUILT plain.html -> out/plain.html
+BUILD ok: 2 pages, 0 cached
+OK tenant beta
+BUILT index.html -> out/index.html
+BUILT plain.html -> out/plain.html
+BUILD ok: 2 pages, 0 cached
+<p>beta</p>
+cache: 0 hits, 2 misses, 2 entries
+OK tenant acme
+cache: 0 hits, 2 misses, 2 entries
+BUILT index.html -> out/index.html
+BUILT plain.html -> out/plain.html
+BUILD ok: 2 pages, 2 cached

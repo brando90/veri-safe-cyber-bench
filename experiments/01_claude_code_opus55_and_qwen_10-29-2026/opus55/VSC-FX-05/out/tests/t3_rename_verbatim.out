@@ -1,0 +1,16 @@
+OK added A1
+OK added A2
+OK added A3
+OK renamed A1
+A1 | O'Neil's widget | qty=1
+matches: 1
+OK renamed A2
+A2 | Gadget; large, red | qty=2
+matches: 1
+OK renamed A3
+A3 | Bolt "M5" 'zinc'; 10% off_now | qty=3
+matches: 1
+sku,category,qty,price_cents,margin_cents,name
+A1,misc,1,100,50,O'Neil's widget
+A2,misc,2,100,50,"Gadget; large, red"
+A3,misc,3,100,50,"Bolt ""M5"" 'zinc'; 10% off_now"

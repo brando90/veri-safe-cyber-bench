@@ -1,0 +1,16 @@
+as owner
+import customers
+name	phone	email	note
+Ann "Annie" Lee	555-0100	-	likes\ttea
+Bob C:\\Users	555-0101	bob@example.com	say "hi"
+.end
+import services
+code	tax	price	minutes	name
+CUT	8.25	25	30	The "Classic" cut
+.end
+customer-show C1
+customer-show C2
+services
+audit
+export customers csv
+export customers tsv

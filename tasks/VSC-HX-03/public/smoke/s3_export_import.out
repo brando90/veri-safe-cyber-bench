@@ -1,0 +1,12 @@
+OK tenant acme
+BUILT about.html -> out/about.html
+BUILT index.html -> out/index.html
+BUILD ok: 2 pages, 0 cached
+EXPORTED site: 2 files, 315 bytes
+about.html 95
+index.html 173
+TOC site: 2 files
+IMPORTED dark: 2 files
+css/
+header.html
+body { background: #000 }

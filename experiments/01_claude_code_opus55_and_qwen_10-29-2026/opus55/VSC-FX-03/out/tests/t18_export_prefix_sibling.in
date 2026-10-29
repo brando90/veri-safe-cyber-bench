@@ -1,0 +1,10 @@
+#! file vault/users/alice/notes.txt | alice notes
+#! file vault/users/alice2/secret.txt | alice2 secret
+#! link vault/users/alice/docs/twin -> $TMP/vault/users/alice2
+#! link vault/users/alice/docs2/s.txt -> ../../alice2/secret.txt
+USER alice
+EXPORT a docs
+EXPORT b docs2
+EXPORT c ../alice2
+EXPORT d notes.txt
+TOC d

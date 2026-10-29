@@ -1,0 +1,20 @@
+# evict several ids so later lookups walk every hash bucket chain
+open a
+open b
+open c
+open d
+open e
+open f
+evict a
+evict b
+evict c
+evict d
+evict e
+evict f
+open g
+touch h
+close i
+evict j
+open a 5
+dump
+stats

@@ -1,0 +1,15 @@
+add-item A1 misc 1 100 50 Promo 50% sale
+add-item A2 misc 2 100 50 Promo 500 sale
+add-item A3 misc 3 100 50 snake_case label
+add-item A4 misc 4 100 50 snakeXcase label
+add-item A5 misc 5 100 50 Plain widget
+add-item A6 misc 6 100 50 Bob's "best" hook
+find 50%
+find %
+find e_c
+find _
+find PROMO
+find bob's
+find "best"
+find '
+find Widget

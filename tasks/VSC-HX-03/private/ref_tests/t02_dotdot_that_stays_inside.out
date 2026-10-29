@@ -1,0 +1,22 @@
+OK tenant acme
+<nav>{{ title }}</nav>
+<nav>{{ title }}</nav>
+<html>
+<head><title>Starter</title></head>
+<body>
+<p>About Starter</p>
+</body>
+</html>
+-- acme
+<nav>Starter</nav>|<nav>Starter</nav>
+/assets/css/base.css?v=42ab9278
+-- acme
+<nav>Starter</nav>|<nav>Starter</nav>
+/assets/css/base.css?v=42ab9278
+-- acme
+site.cfg
+src/
+about.html
+index.html
+sub/
+/assets/css/base.css?v=42ab9278

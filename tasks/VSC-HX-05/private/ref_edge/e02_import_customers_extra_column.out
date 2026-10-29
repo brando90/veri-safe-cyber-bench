@@ -1,0 +1,14 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+ERROR import: unknown column vip
+matches: 0

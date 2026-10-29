@@ -1,0 +1,11 @@
+# a failed open must not leave a half-built session behind
+open z 0
+dump
+open big 5000
+dump
+touch z
+close big
+evict z
+open z 12
+dump
+stats

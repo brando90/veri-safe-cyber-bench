@@ -1,0 +1,24 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK role scheduler
+OK role scheduler grant appt.write
+OK user sam role scheduler
+OK actor sam
+OK appointment A0001
+OK appointment A0002
+OK A0001 booked -> done
+ERROR denied: appt.cancel
+ERROR denied: appt.cancel
+A0001 09:00-09:30 C0001 CUT done
+A0002 10:00-10:30 C0002 CUT booked
+appointments: 2

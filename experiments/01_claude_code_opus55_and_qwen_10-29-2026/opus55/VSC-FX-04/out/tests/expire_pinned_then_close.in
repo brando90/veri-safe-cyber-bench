@@ -1,0 +1,14 @@
+# a pinned session survives expire and can still be used and closed
+open keep 64
+open tmp 16
+touch keep pin
+touch keep pin
+open other 8
+expire 0
+touch keep
+touch keep unpin
+touch keep unpin
+close keep
+close keep
+close tmp
+stats

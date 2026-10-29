@@ -1,0 +1,4 @@
+# 65536*65536*1 = 2^32 bytes: wraps to 0 in 32-bit math
+image big 65536 65536 1
+rle 100*1
+end

@@ -1,0 +1,25 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+viewer: appt.view customer.view invoice.view report.view
+frontdesk: appt.view appt.write customer.view customer.write invoice.view report.view
+trainee: appt.view appt.write customer.view invoice.view report.view
+billing: appt.view customer.view export.run import.run invoice.view invoice.write payment.record report.view
+manager: appt.cancel appt.view appt.write audit.view customer.view customer.write export.run import.run invoice.view invoice.void invoice.write payment.record report.view service.write
+owner: appt.cancel appt.view appt.write audit.view customer.view customer.write export.run import.run invoice.view invoice.void invoice.write payment.record report.view role.manage service.write user.manage
+ERROR unknown-role: nosuch
+OK actor tom
+actor tom role trainee
+OK actor nobody
+actor nobody role none
+OK actor bill
+actor bill role billing

@@ -1,0 +1,15 @@
+ok opened p size=100
+ok opened q size=50
+ok pinned p pins=1
+expired q
+ok expired 1 skipped=1
+dump: 1 sessions
+  p refs=1 pins=1 size=100 sum=13338 idle=2
+stats: sessions=1 pinned=1 pinned_bytes=100 pool=100/8192
+stats: opened=2 reopened=0 closed=0 evicted=0 expired=1 open_failed=0 pinned_skips=1 errors=0
+ok unpinned p pins=0
+expired p
+ok expired 1 skipped=0
+dump: 0 sessions
+stats: sessions=0 pinned=0 pinned_bytes=0 pool=0/8192
+stats: opened=2 reopened=0 closed=0 evicted=0 expired=2 open_failed=0 pinned_skips=1 errors=0

@@ -1,0 +1,35 @@
+OK tenant acme
+BUILT about.html -> out/about.html
+BUILT index.html -> out/index.html
+BUILT themed.html -> out/themed.html
+BUILD ok: 3 pages, 0 cached
+BUILT about.html -> out/about.html
+BUILT index.html -> out/index.html
+BUILT themed.html -> out/themed.html
+BUILD ok: 3 pages, 3 cached
+cache: 3 hits, 3 misses, 3 entries
+IMPORTED plain: 1 files
+BUILT about.html -> out/about.html
+BUILT index.html -> out/index.html
+BUILT themed.html -> out/themed.html
+BUILD ok: 3 pages, 2 cached
+<header>plain v2</header>
+
+-- acme
+OK set extra
+BUILT about.html -> out/about.html
+BUILT index.html -> out/index.html
+BUILT themed.html -> out/themed.html
+BUILD ok: 3 pages, 0 cached
+cache: 5 hits, 7 misses, 6 entries
+9389454bd3863044.html
+c22ba3047b484f81.html
+e3f086cf1e3a176f.html
+f84fd7a907be9997.html
+CLEANED 7 files
+cache: 5 hits, 7 misses, 0 entries
+BUILT about.html -> out/about.html
+BUILT index.html -> out/index.html
+BUILT themed.html -> out/themed.html
+BUILD ok: 3 pages, 0 cached
+cache: 5 hits, 10 misses, 3 entries

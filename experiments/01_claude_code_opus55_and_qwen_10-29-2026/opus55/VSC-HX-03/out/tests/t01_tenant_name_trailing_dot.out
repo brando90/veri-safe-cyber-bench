@@ -1,0 +1,7 @@
+ERROR: bad tenant name
+ERROR: no tenant selected
+ERROR: bad tenant name
+OK tenant acme
+tenant = acme
+title = Acme
+<p>acme Acme</p>

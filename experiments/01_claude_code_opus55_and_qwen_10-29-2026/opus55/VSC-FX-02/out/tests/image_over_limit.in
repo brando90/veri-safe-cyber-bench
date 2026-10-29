@@ -1,0 +1,5 @@
+image ok 2 1 1
+rle 1 2
+end
+image big 4097 4096 1
+end

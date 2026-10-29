@@ -1,0 +1,48 @@
+#! file work/tenants/acme/site.cfg | # starter kit\nvar title = Starter\nvar theme = plain\n
+#! file work/tenants/acme/src/pages/index.html | ---\nheading: Welcome\nlayout: base.html\n---\n<h1>{{ heading }}</h1>\n{% include "partials/nav.html" %}\n<link rel="stylesheet" href="{% asset "css/site.css" %}">\n
+#! file work/tenants/acme/src/pages/about.html | ---\nlayout: base.html\n---\n<p>About {{ title|escape }}</p>\n
+#! file work/tenants/acme/src/partials/nav.html | <nav>{{ title }}</nav>
+#! file work/tenants/acme/src/layouts/base.html | <html>\n<head><title>{{ title }}</title></head>\n<body>\n{{ content }}</body>\n</html>\n
+#! file work/tenants/acme/src/assets/css/site.css | @import "base.css";\nbody { color: #333 }\n
+#! file work/tenants/acme/src/assets/css/base.css | * { box-sizing: border-box }\n
+#! file work/tenants/acme/src/themes/plain/header.html | <header>plain</header>\n
+#! file work/tenants/beta/site.cfg | # starter kit\nvar title = Starter\nvar theme = plain\n
+#! file work/tenants/beta/src/pages/index.html | ---\nheading: Welcome\nlayout: base.html\n---\n<h1>{{ heading }}</h1>\n{% include "partials/nav.html" %}\n<link rel="stylesheet" href="{% asset "css/site.css" %}">\n
+#! file work/tenants/beta/src/pages/about.html | ---\nlayout: base.html\n---\n<p>About {{ title|escape }}</p>\n
+#! file work/tenants/beta/src/partials/nav.html | <nav>{{ title }}</nav>
+#! file work/tenants/beta/src/layouts/base.html | <html>\n<head><title>{{ title }}</title></head>\n<body>\n{{ content }}</body>\n</html>\n
+#! file work/tenants/beta/src/assets/css/site.css | @import "base.css";\nbody { color: #333 }\n
+#! file work/tenants/beta/src/assets/css/base.css | * { box-sizing: border-box }\n
+#! file work/tenants/beta/src/themes/plain/header.html | <header>plain</header>\n
+#! file work/tenants/acme/site.cfg | var title = P\nplugin banner ../../beta/src/partials/nav.html\n
+#! file work/tenants/acme/src/static/a.txt | a
+#! link work/tenants/acme/src/static/beta -> ../../../beta/src/assets
+#! file work/tenants/acme2/site.cfg | plugin copy static ../../beta/out\n
+#! file work/tenants/acme2/src/static/a.txt | a
+#! file work/tenants/acme3/site.cfg | plugin copy static ../src/x\n
+#! file work/tenants/acme3/src/static/a.txt | a
+#! file work/tenants/acme3/src/pages/i.html | i\n
+#! file work/tenants/acme4/site.cfg | plugin copy static s\n
+#! file work/tenants/acme4/src/static/a.txt | a
+#! link work/tenants/acme4/src/static/beta -> ../../../beta/src/assets
+#! file work/tenants/acme5/src/pages/i.html | i\n
+#! file work/tenants/beta/cache/keep.txt | beta cache\n
+#! link work/tenants/acme5/cache -> ../beta/cache
+#! link work/tenants/cfglink/site.cfg -> ../beta/site.cfg
+TENANT acme
+RENDER index.html
+BUILD
+TENANT acme2
+BUILD
+TENANT acme3
+BUILD
+LS
+TENANT acme4
+BUILD
+LS
+TENANT acme5
+BUILD
+CLEAN
+LS
+TENANT cfglink
+LS

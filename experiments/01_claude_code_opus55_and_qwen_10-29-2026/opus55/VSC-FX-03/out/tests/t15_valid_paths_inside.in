@@ -1,0 +1,25 @@
+#! file vault/users/alice/notes.txt | alice notes
+#! file vault/users/alice/docs/a.txt | hello a
+#! file vault/users/alice/docs/sub/b.txt | hello b
+#! link vault/users/alice/la -> docs/a.txt
+#! link vault/users/alice/ldocs -> $TMP/vault/users/alice/docs
+#! link vault/users/alice/docs/sub/up -> ../..
+USER alice
+READ /docs/a.txt
+READ docs/sub/../../notes.txt
+READ la
+READ ldocs/sub/b.txt
+READ docs/sub/up/notes.txt
+LIST ldocs
+LIST docs/sub/up
+LIST /
+LIST docs/..
+ALIAS up docs/sub/..
+ALIAS top @up/..
+READ @up/a.txt
+READ @top/notes.txt
+LIST @top
+READ missing.txt
+READ docs
+LIST notes.txt
+LIST ../alice/docs

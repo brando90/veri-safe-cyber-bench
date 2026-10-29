@@ -1,0 +1,11 @@
+#! file work/tenants/acme/src/assets/css/site.css | @import "../../../../acme2/src/assets/css/x.css";\nbody { color: red }\n
+#! file work/tenants/acme/src/assets/css/ok.css | @import 'sub\\base.css.';\nmain { margin: 0 }\n
+#! file work/tenants/acme/src/assets/css/sub/base.css | * { margin: 0 }\n
+#! file work/tenants/acme/src/assets/css/missing.css | @import url(..\\..\\..\\..\\acme2\\nope.css);\n
+#! file work/tenants/acme2/src/assets/css/x.css | .acme2 { }\n
+TENANT acme
+BUNDLE all.css css/site.css
+BUNDLE ok.css css/ok.css
+CAT out/assets/ok.css
+BUNDLE miss.css css/missing.css
+LS out/assets

@@ -1,0 +1,44 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK actor fay
+OK appointment A0001
+OK appointment A0002
+OK appointment A0003
+OK appointment A0004
+OK appointment A0005
+OK A0001 booked -> done
+OK A0002 booked -> done
+OK A0003 booked -> done
+OK A0004 booked -> noshow
+OK actor bill
+ERROR denied: audit.view
+ERROR denied: audit.view
+id,name,phone,email,note,status
+C0001,Ann O'Neil,555-0100,ann@example.com,,active
+C0002,Bob Jones,555-0101,-,,active
+C0003,Cy Park,555-0102,cy@example.org,,active
+OK actor fay
+ERROR denied: audit.view
+ERROR denied: export.run
+ERROR unknown-appointment: A0009
+ERROR bad-status: sleeping
+ERROR unknown-customer: C0009
+ERROR denied: appt.cancel
+OK actor nobody
+ERROR denied: import.run
+ERROR denied: customer.view
+OK actor tom
+ERROR denied: customer.write
+ERROR denied: import.run
+OK actor owner
+matches: 0

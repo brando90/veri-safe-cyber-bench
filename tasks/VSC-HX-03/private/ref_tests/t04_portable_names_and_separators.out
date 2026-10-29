@@ -1,0 +1,16 @@
+OK tenant acme
+<nav>{{ title }}</nav>
+<nav>{{ title }}</nav>
+<nav>{{ title }}</nav>
+<nav>{{ title }}</nav>
+<nav>Starter</nav>|<nav>Starter</nav>|<nav>Starter</nav>
+/assets/img/café.png?v=628f5c2f
+-- acme
+/assets/img/café.png?v=628f5c2f
+café.png
+OK tenant docs.v2
+docs v2
+DENIED: outside tenant
+OK tenant acme
+BUNDLED out/assets/v2.css: 1 files, 29 bytes
+* { box-sizing: border-box }

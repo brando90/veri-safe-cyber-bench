@@ -1,0 +1,5 @@
+OK user alice
+OK alias m
+DENIED: outside root
+DENIED: outside root
+ERROR: not found

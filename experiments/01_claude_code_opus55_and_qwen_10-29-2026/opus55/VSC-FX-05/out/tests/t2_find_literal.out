@@ -1,0 +1,25 @@
+OK added A1
+OK added A2
+OK added A3
+OK added A4
+OK added A5
+OK added A6
+A1 | Promo 50% sale | qty=1
+matches: 1
+A1 | Promo 50% sale | qty=1
+matches: 1
+A3 | snake_case label | qty=3
+matches: 1
+A3 | snake_case label | qty=3
+matches: 1
+A1 | Promo 50% sale | qty=1
+A2 | Promo 500 sale | qty=2
+matches: 2
+A6 | Bob's "best" hook | qty=6
+matches: 1
+A6 | Bob's "best" hook | qty=6
+matches: 1
+A6 | Bob's "best" hook | qty=6
+matches: 1
+A5 | Plain widget | qty=5
+matches: 1

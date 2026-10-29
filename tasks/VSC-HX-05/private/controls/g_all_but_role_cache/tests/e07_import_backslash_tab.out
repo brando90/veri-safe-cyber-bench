@@ -1,0 +1,29 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK imported 1 customers
+OK imported 1 services
+#12 owner customer.add C0004 name="Rae Lin" phone="555-1300" email="-" note="folder D:\\scans\tback room"
+#13 owner service.add DELUXE name="The \"works\"" minutes="45" price="39.00" tax="8.25"
+entries: 2
+customer C0004
+name: Rae Lin
+phone: 555-1300
+email: -
+note: folder D:\scans	back room
+status: active
+COLOR 60min 49.99 tax 20.00% Colour treatment
+CUT 30min 25.00 tax 8.25% Haircut
+DELUXE 45min 39.00 tax 8.25% The "works"
+TRIM 20min 18.50 tax 8.25% Beard trim
+WASH 15min 12.25 tax 10.00% Wash and dry
+services: 5

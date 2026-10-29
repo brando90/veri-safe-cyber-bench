@@ -1,0 +1,11 @@
+# expire must skip pinned sessions and never free them
+open p 100
+open q 50
+touch p pin
+expire 1
+dump
+stats
+touch p unpin
+expire 1
+dump
+stats

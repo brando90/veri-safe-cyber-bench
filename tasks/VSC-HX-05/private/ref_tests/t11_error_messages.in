@@ -1,0 +1,52 @@
+as owner
+user-add fay frontdesk
+user-add bill billing
+user-add tom trainee
+user-add mia manager
+service-add CUT 30 25.00 8.25 Haircut
+service-add WASH 15 12.25 10 Wash and dry
+service-add TRIM 20 18.50 8.25 Beard trim
+service-add COLOR 60 49.99 20 Colour treatment
+customer-add 555-0100 ann@example.com Ann O'Neil
+customer-add 555-0101 - Bob Jones
+customer-add 555-0102 cy@example.org Cy Park
+user-add owner viewer
+user-add nobody viewer
+user-add x1
+role-grant viewer appt.write
+role-deny ghost appt.write
+customer-add 555-0100 - NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+customer-add 555-0100 a@b@c Name
+customer-add 555-0100 -
+customer-note C9 hello
+customer-note X1 hello
+customer-note C0 hello
+customer-note C1 nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+service-add CUT 30 25.00 8.25 Duplicate
+service-add LONGCODE9 30 1 1 Long
+service-add NEW 30 1 100.01 Over rate
+service-add NEW 485 1 1 Long service
+book C1 NOPE 2026-03-02 09:00
+book C1 CUT 2026-03-02 09:03
+book C1 CUT 2026-03-02 07:55
+book C1 COLOR 2026-03-02 17:30
+book C1 CUT 2026-03-02 24:00
+book C1 CUT 2026-3-2 09:00
+appt-status A1 done
+cancel A1
+appts
+appts 2026-13-01
+invoice-create C1
+invoice-show I1
+pay I1 10 card
+invoice-void I1 x
+audit 0
+audit x
+audit 2 3
+audit 2
+export customers xml
+export people csv
+export customers
+import
+import customers extra
+.end

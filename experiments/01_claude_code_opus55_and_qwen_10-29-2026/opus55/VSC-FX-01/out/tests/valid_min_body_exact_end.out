@@ -1,0 +1,5 @@
+record 1
+  time: 3
+  level: FATAL
+  fields: 0
+  message (0 bytes): ""

@@ -1,0 +1,19 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK role mgrtrainee
+mgrtrainee: appt.cancel appt.view appt.write audit.view customer.view export.run import.run invoice.view invoice.void invoice.write payment.record report.view service.write
+OK user max role mgrtrainee
+OK actor max
+ERROR denied: customer.write
+OK appointment A0001
+OK A0001 booked -> cancelled

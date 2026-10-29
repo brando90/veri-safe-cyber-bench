@@ -1,0 +1,11 @@
+OK user alice
+OK alias d
+hello a
+OK alias z
+hello a
+OK user bob
+bob list
+alice notes
+ERROR: nesting too deep
+d -> docs
+alice notes

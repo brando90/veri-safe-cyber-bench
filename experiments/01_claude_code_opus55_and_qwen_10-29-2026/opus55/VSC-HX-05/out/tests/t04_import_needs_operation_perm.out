@@ -1,0 +1,22 @@
+OK actor owner
+OK user bill role billing
+OK user fay role frontdesk
+OK service CUT
+OK customer C0001
+OK actor bill
+ERROR denied: customer.write
+ERROR denied: service.write
+ERROR denied: appt.write
+OK actor fay
+ERROR denied: import.run
+OK actor owner
+OK imported 1 appointments
+OK A0001 booked -> done
+OK invoice I0001 total 27.06
+OK actor bill
+OK imported 1 payments
+invoice I0001 customer C0001 status open discount 0%
+line 1 A0001 CUT price=25.00 discount=0.00 net=25.00 tax=2.06 total=27.06
+net=25.00 tax=2.06 total=27.06 paid=10.00 balance=17.06
+id,name,phone,email,note,status
+C0001,Ann Lee,555-0100,-,,active

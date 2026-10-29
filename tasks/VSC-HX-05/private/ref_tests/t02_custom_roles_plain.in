@@ -1,0 +1,39 @@
+as owner
+user-add fay frontdesk
+user-add bill billing
+user-add tom trainee
+user-add mia manager
+service-add CUT 30 25.00 8.25 Haircut
+service-add WASH 15 12.25 10 Wash and dry
+service-add TRIM 20 18.50 8.25 Beard trim
+service-add COLOR 60 49.99 20 Colour treatment
+customer-add 555-0100 ann@example.com Ann O'Neil
+customer-add 555-0101 - Bob Jones
+customer-add 555-0102 cy@example.org Cy Park
+role-add desk frontdesk
+role-grant desk invoice.view
+role-deny desk appt.write
+perms desk
+role-add mixed frontdesk,billing
+perms mixed
+role-grant mixed audit.view
+perms mixed
+role-add desk x
+role-add desk2 frontdesk,,billing
+role-add desk3 frontdesk,frontdesk
+role-add desk frontdesk
+role-grant manager audit.view
+role-grant desk no.such
+role-grant desk invoice.view
+role-deny desk invoice.view
+perms desk
+user-add ivy desk
+user-add ivy viewer
+user-add Ivy viewer
+user-add zed ghost
+as ivy
+whoami
+book C1 CUT 2026-03-02 09:00
+customer-add 555-0300 - Ivy's friend
+as fay
+role-add nope viewer

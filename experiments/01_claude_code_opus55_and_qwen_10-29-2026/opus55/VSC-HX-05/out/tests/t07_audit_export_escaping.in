@@ -1,0 +1,7 @@
+as owner
+customer-add 555-0100 - Ann Lee
+customer-note C1 first	second \ back "q"
+customer-add 555-0101 - Bob "B" O'Neil, Jr
+user-add mia manager
+audit-export
+audit 2

@@ -1,0 +1,52 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+ERROR duplicate-user: owner
+ERROR bad-name: nobody
+ERROR usage: user-add USER ROLE
+ERROR builtin-role: viewer
+ERROR unknown-role: ghost
+ERROR too-long: name
+ERROR bad-email: a@b@c
+ERROR usage: customer-add PHONE EMAIL NAME
+ERROR unknown-customer: C0009
+ERROR bad-id: X1
+ERROR bad-id: C0
+ERROR too-long: note
+ERROR duplicate-service: CUT
+ERROR bad-code: LONGCODE9
+ERROR bad-rate: 100.01
+ERROR bad-minutes: 485
+ERROR unknown-service: NOPE
+ERROR bad-time: 09:03
+ERROR outside-hours: 07:55
+ERROR outside-hours: 17:30
+ERROR bad-time: 24:00
+ERROR bad-day: 2026-3-2
+ERROR unknown-appointment: A0001
+ERROR unknown-appointment: A0001
+ERROR usage: appts DAY
+ERROR bad-day: 2026-13-01
+ERROR nothing-to-invoice: C0001
+ERROR unknown-invoice: I0001
+ERROR unknown-invoice: I0001
+ERROR unknown-invoice: I0001
+ERROR bad-count: 0
+ERROR bad-count: x
+ERROR usage: audit [N]
+#10 owner customer.add C0002 name="Bob Jones" phone="555-0101" email="-" note=""
+#11 owner customer.add C0003 name="Cy Park" phone="555-0102" email="cy@example.org" note=""
+entries: 2
+ERROR usage: export customers|services|appointments|invoices csv|tsv
+ERROR usage: export customers|services|appointments|invoices csv|tsv
+ERROR usage: export customers|services|appointments|invoices csv|tsv
+ERROR usage: import customers|services|appointments|payments

@@ -1,0 +1,26 @@
+OK tenant acme
+flag = 
+tenant = acme
+title = Site Title
+who = cfg
+SITE TITLE|site title|front|acme|vars.html|[]
+shown noF
+ 
+OK set who
+OK set html
+OK set spaced
+OK set flag
+flag = 1
+html = <b class="x">&</b>
+spaced = x
+tenant = acme
+title = Site Title
+who = session value
+SITE TITLE|site title|session value|acme|vars.html|[]
+shown F
+&lt;b class=&quot;x&quot;&gt;&amp;&lt;/b&gt; x
+OK tenant acme
+flag = 
+tenant = acme
+title = Site Title
+who = cfg

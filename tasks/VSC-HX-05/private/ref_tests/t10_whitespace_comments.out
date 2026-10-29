@@ -1,0 +1,19 @@
+OK actor owner
+OK service CUT
+OK customer C0001
+customer C0001
+name: Ann   O'Neil
+phone: 555-0100
+email: -
+note: 
+status: active
+ERROR usage: customer-show CUST
+OK appointment A0001
+A0001 09:00-09:30 C0001 CUT booked
+appointments: 1
+OK imported 1 customers
+C0002 Blank Lines
+matches: 1
+ERROR unknown-command: .end
+ERROR unknown-command: WHOAMI
+ERROR usage: whoami

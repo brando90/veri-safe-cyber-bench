@@ -1,0 +1,48 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK actor fay
+OK appointment A0001
+OK appointment A0002
+OK appointment A0003
+OK appointment A0004
+OK appointment A0005
+OK A0001 booked -> done
+OK A0002 booked -> done
+OK A0003 booked -> done
+OK A0004 booked -> noshow
+OK appointment A0006
+OK appointment A0007
+OK archived C0001 cancelled 0
+OK customer C0004
+OK archived C0004 cancelled 0
+ERROR denied: appt.cancel
+ERROR denied: appt.cancel
+OK actor mia
+OK archived C0003 cancelled 2
+ERROR archived: C0003
+customer C0003
+name: Cy Park
+phone: 555-0102
+email: cy@example.org
+note: 
+status: archived
+C0003 Cy Park [archived]
+matches: 1
+ERROR archived: C0003
+ERROR archived: C0003
+OK actor owner
+#25 fay customer.archive C0004 cancelled="0"
+#26 mia appt.status A0006 from="booked" to="cancelled"
+#27 mia appt.status A0007 from="booked" to="cancelled"
+#28 mia customer.archive C0003 cancelled="2"
+entries: 4

@@ -1,0 +1,19 @@
+OK user alice
+EXPORTED one: 3 files
+docs/a.txt 7
+docs/sub/b.txt 7
+other/c.txt 3
+OK alias d
+EXPORTED all: 4 files
+docs/a.txt 7
+docs/sub/b.txt 7
+notes.txt 11
+other/c.txt 3
+EXPORTED all2: 4 files
+docs/a.txt 7
+docs/sub/b.txt 7
+notes.txt 11
+other/c.txt 3
+all.tar
+all2.tar
+one.tar

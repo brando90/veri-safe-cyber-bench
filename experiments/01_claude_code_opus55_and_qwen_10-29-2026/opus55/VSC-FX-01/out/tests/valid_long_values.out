@@ -1,0 +1,6 @@
+record 0
+  time: 8
+  level: DEBUG
+  fields: 1
+  field 3 (tag) len=40: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"...
+  message (70 bytes): "mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm"

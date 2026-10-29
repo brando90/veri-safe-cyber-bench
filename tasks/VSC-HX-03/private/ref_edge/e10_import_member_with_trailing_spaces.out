@@ -1,0 +1,10 @@
+OK tenant acme
+DENIED: outside area
+plain/
+<html>
+<head><title>Starter</title></head>
+<body>
+<p>About Starter</p>
+</body>
+</html>
+-- acme

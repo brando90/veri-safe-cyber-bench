@@ -1,0 +1,7 @@
+#! file vault/users/alice/notes.txt | alice notes
+#! file vault/users/bob/todo.txt | bob secret
+USER alice
+READ ../bob/todo.txt
+READ docs/../../bob/todo.txt
+READ notes.txt
+ECHO after

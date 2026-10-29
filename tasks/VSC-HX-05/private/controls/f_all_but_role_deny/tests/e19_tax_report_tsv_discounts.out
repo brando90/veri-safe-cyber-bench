@@ -1,0 +1,36 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK actor fay
+OK appointment A0001
+OK appointment A0002
+OK appointment A0003
+OK appointment A0004
+OK appointment A0005
+OK appointment A0006
+OK A0001 booked -> done
+OK A0002 booked -> done
+OK A0003 booked -> done
+OK A0004 booked -> done
+OK A0005 booked -> done
+OK A0006 booked -> done
+OK actor bill
+OK invoice I0001 total 42.38
+OK invoice I0002 total 24.36
+OK invoice I0003 total 39.21
+rate	lines	net	tax
+8.25	3	61.65	5.09
+10.00	3	35.64	3.57
+all	6	97.29	8.66
+rate 8.25% lines=3 net=61.65 tax=5.09
+rate 10.00% lines=3 net=35.64 tax=3.57
+all lines=6 net=97.29 tax=8.66

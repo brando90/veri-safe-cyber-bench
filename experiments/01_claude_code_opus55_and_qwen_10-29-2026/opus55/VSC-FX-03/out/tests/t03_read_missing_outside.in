@@ -1,0 +1,6 @@
+#! file vault/users/alice/notes.txt | alice notes
+#! dir vault/users/bob
+USER alice
+READ ../bob/nothere.txt
+READ ../../outside.txt
+READ nothere.txt

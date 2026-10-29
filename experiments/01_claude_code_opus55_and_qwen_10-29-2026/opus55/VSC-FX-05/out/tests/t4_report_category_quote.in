@@ -1,0 +1,6 @@
+add-item A1 men's 3 200 100 Work glove
+add-item A2 men's 2 150 100 Work sock
+add-item A3 tools 1 1000 800 Saw
+report men's
+report men
+report

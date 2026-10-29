@@ -1,0 +1,12 @@
+#! file work/tenants/acme/src/assets/css/site.css | body { }\n
+#! link work/tenants/acme/src/assets/ext -> $TMP/work/tenants/beta/src/assets
+#! link work/tenants/acme/src/assets/Logo.svg -> $TMP/work/tenants/beta/src/assets/logo.svg
+#! file work/tenants/beta/src/assets/logo.svg | <svg/>\n
+#! file work/tenants/acme/src/pages/index.html | <img src="{% asset "{{ img }}" %}">\n
+TENANT acme
+ASSET CSS/SITE.CSS
+ASSET EXT/logo.svg
+ASSET LOGO.SVG
+SET img Ext/LOGO.svg
+RENDER index.html
+BUILD

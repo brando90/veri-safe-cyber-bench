@@ -1,0 +1,9 @@
+#! file vault/users/alice/notes.txt | alice notes
+#! file vault/users/bob/todo.txt | bob secret
+USER alice
+ALIAS b ../bob
+ALIAS c @b/todo.txt
+READ @b/todo.txt
+READ @c
+ALIASES
+READ notes.txt

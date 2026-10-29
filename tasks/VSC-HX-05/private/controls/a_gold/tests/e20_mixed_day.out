@@ -1,0 +1,65 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK actor fay
+OK appointment A0001
+OK appointment A0002
+OK appointment A0003
+OK appointment A0004
+OK appointment A0005
+OK A0001 booked -> done
+OK A0002 booked -> done
+OK A0003 booked -> done
+OK A0004 booked -> noshow
+OK actor owner
+OK role lead
+OK role lead grant appt.cancel
+OK user lu role lead
+OK actor lu
+ERROR denied: customer.write
+OK appointment A0006
+OK A0006 booked -> cancelled
+OK imported 0 payments
+ERROR denied: customer.write
+OK actor owner
+OK imported 1 customers
+#24 lu appt.book A0006 customer="C0003" service="CUT" day="2026-03-05" time="09:00"
+#25 lu appt.status A0006 from="booked" to="cancelled"
+#26 owner customer.add C0004 name="Wes \"Doc\" Hart" phone="555-2001" email="-" note="back\\door"
+entries: 3
+seq	actor	action	object	detail
+1	owner	user.add	fay	role="frontdesk"
+2	owner	user.add	bill	role="billing"
+3	owner	user.add	tom	role="trainee"
+4	owner	user.add	mia	role="manager"
+5	owner	service.add	CUT	name="Haircut" minutes="30" price="25.00" tax="8.25"
+6	owner	service.add	WASH	name="Wash and dry" minutes="15" price="12.25" tax="10.00"
+7	owner	service.add	TRIM	name="Beard trim" minutes="20" price="18.50" tax="8.25"
+8	owner	service.add	COLOR	name="Colour treatment" minutes="60" price="49.99" tax="20.00"
+9	owner	customer.add	C0001	name="Ann O'Neil" phone="555-0100" email="ann@example.com" note=""
+10	owner	customer.add	C0002	name="Bob Jones" phone="555-0101" email="-" note=""
+11	owner	customer.add	C0003	name="Cy Park" phone="555-0102" email="cy@example.org" note=""
+12	fay	appt.book	A0001	customer="C0001" service="CUT" day="2026-03-02" time="09:00"
+13	fay	appt.book	A0002	customer="C0001" service="WASH" day="2026-03-02" time="09:30"
+14	fay	appt.book	A0003	customer="C0002" service="TRIM" day="2026-03-02" time="10:00"
+15	fay	appt.book	A0004	customer="C0003" service="COLOR" day="2026-03-03" time="14:00"
+16	fay	appt.book	A0005	customer="C0002" service="CUT" day="2026-03-04" time="08:00"
+17	fay	appt.status	A0001	from="booked" to="done"
+18	fay	appt.status	A0002	from="booked" to="done"
+19	fay	appt.status	A0003	from="booked" to="done"
+20	fay	appt.status	A0004	from="booked" to="noshow"
+21	owner	role.add	lead	parents="trainee,billing"
+22	owner	role.grant	lead	perm="appt.cancel"
+23	owner	user.add	lu	role="lead"
+24	lu	appt.book	A0006	customer="C0003" service="CUT" day="2026-03-05" time="09:00"
+25	lu	appt.status	A0006	from="booked" to="cancelled"
+26	owner	customer.add	C0004	name="Wes \\"Doc\\" Hart" phone="555-2001" email="-" note="back\\\\door"

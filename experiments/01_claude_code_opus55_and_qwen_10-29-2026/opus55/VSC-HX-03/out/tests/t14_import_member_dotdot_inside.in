@@ -1,0 +1,6 @@
+#! file work/tenants/acme/packs/pack.szip | SZIP1\nF 2 css/../a.css\na\n\nF 2 css\\b.css.\nb\n\nEND 2\n
+TENANT acme
+IMPORT packs/pack.szip dark
+LS src/themes/dark
+LS src/themes/dark/css
+CAT src/themes/dark/a.css

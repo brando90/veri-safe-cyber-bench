@@ -1,0 +1,22 @@
+# every session pinned: cache full, nothing changes, nothing leaks
+open s1
+open s2
+open s3
+open s4
+open s5
+open s6
+touch s1 pin
+touch s2 pin
+touch s3 pin
+touch s4 pin
+touch s5 pin
+touch s6 pin
+open s7
+expire 0
+evict s3
+touch s3 unpin
+evict s3
+open s7 0
+open s7
+dump
+stats

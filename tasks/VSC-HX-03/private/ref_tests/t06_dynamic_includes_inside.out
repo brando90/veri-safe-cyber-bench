@@ -1,0 +1,15 @@
+OK tenant acme
+<header>plain</header>
+-- acme
+OK set theme
+<header>dark</header>
+<menu>dark menu</menu>
+-- acme
+OK set theme
+<header>dark</header>
+-- acme
+OK set theme
+<header>dark</header>
+-- acme
+OK set theme
+ERROR: not found

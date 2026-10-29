@@ -1,0 +1,4 @@
+image a 4097 1 1
+rle 4097*2
+end
+scale b a 4096 1

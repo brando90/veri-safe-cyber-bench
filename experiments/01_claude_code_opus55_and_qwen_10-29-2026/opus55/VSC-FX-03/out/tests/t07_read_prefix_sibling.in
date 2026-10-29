@@ -1,0 +1,6 @@
+#! file vault/users/alice/notes.txt | alice notes
+#! file vault/users/alice2/secret.txt | alice2 secret
+USER alice
+READ ../alice2/secret.txt
+READ ../alice/notes.txt
+LIST ../alice2

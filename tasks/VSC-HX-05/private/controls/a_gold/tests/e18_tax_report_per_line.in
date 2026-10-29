@@ -1,0 +1,22 @@
+as owner
+user-add fay frontdesk
+user-add bill billing
+user-add tom trainee
+user-add mia manager
+service-add CUT 30 25.00 8.25 Haircut
+service-add WASH 15 12.25 10 Wash and dry
+service-add TRIM 20 18.50 8.25 Beard trim
+service-add COLOR 60 49.99 20 Colour treatment
+customer-add 555-0100 ann@example.com Ann O'Neil
+customer-add 555-0101 - Bob Jones
+customer-add 555-0102 cy@example.org Cy Park
+as fay
+book C1 CUT 2026-03-02 09:00
+book C2 CUT 2026-03-02 10:00
+appt-status A1 done
+appt-status A2 done
+as bill
+invoice-create C1
+invoice-create C2
+report tax 2026-03-01 2026-03-31
+report revenue 2026-03-01 2026-03-31

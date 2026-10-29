@@ -1,0 +1,12 @@
+ERROR denied: customer.write
+ERROR unknown-user: ghost
+OK actor owner
+ERROR bad-phone: 12
+ERROR bad-email: not-an-email
+ERROR bad-code: cut
+ERROR bad-minutes: 7
+ERROR bad-money: 25.001
+ERROR unknown-customer: C0001
+ERROR unknown-command: frobnicate
+ERROR usage: report revenue|tax FROM TO [tsv] | report balances [tsv]
+ERROR unknown-invoice: I0001

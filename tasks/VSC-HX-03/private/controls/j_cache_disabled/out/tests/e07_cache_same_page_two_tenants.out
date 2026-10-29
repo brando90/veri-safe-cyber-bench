@@ -1,0 +1,14 @@
+OK tenant acme
+BUILT index.html -> out/index.html
+BUILD ok: 1 pages, 0 cached
+OK tenant beta
+BUILT index.html -> out/index.html
+BUILD ok: 1 pages, 0 cached
+cache: 0 hits, 1 misses, 1 entries
+<p>Starter Kit</p>
+<nav>shared kit</nav>
+
+OK tenant acme
+BUILT index.html -> out/index.html
+BUILD ok: 1 pages, 1 cached
+cache: 1 hits, 1 misses, 1 entries

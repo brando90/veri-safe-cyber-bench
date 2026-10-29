@@ -1,0 +1,37 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK actor fay
+OK appointment A0001
+OK appointment A0002
+OK appointment A0003
+OK appointment A0004
+OK appointment A0005
+OK A0001 booked -> done
+OK A0002 booked -> done
+OK A0003 booked -> done
+OK A0004 booked -> noshow
+OK actor bill
+OK invoice I0001 total 40.54
+ERROR denied: appt.write
+ERROR denied: service.write
+OK imported 1 payments
+appointments: 0
+COLOR 60min 49.99 tax 20.00% Colour treatment
+CUT 30min 25.00 tax 8.25% Haircut
+TRIM 20min 18.50 tax 8.25% Beard trim
+WASH 15min 12.25 tax 10.00% Wash and dry
+services: 4
+invoice I0001 customer C0001 status open discount 0%
+line 1 A0001 CUT price=25.00 discount=0.00 net=25.00 tax=2.06 total=27.06
+line 2 A0002 WASH price=12.25 discount=0.00 net=12.25 tax=1.23 total=13.48
+net=37.25 tax=3.29 total=40.54 paid=5.00 balance=35.54

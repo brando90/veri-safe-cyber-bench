@@ -1,0 +1,27 @@
+OK actor owner
+OK imported 2 customers
+OK imported 1 services
+customer C0001
+name: Ann "Annie" Lee
+phone: 555-0100
+email: -
+note: likes	tea
+status: active
+customer C0002
+name: Bob C:\Users
+phone: 555-0101
+email: bob@example.com
+note: say "hi"
+status: active
+CUT 30min 25.00 tax 8.25% The "Classic" cut
+services: 1
+#1 owner customer.add C0001 name="Ann \"Annie\" Lee" phone="555-0100" email="-" note="likes\ttea"
+#2 owner customer.add C0002 name="Bob C:\\Users" phone="555-0101" email="bob@example.com" note="say \"hi\""
+#3 owner service.add CUT name="The \"Classic\" cut" minutes="30" price="25.00" tax="8.25"
+entries: 3
+id,name,phone,email,note,status
+C0001,"Ann ""Annie"" Lee",555-0100,-,likes	tea,active
+C0002,Bob C:\Users,555-0101,bob@example.com,"say ""hi""",active
+id	name	phone	email	note	status
+C0001	Ann "Annie" Lee	555-0100	-	likes\ttea	active
+C0002	Bob C:\\Users	555-0101	bob@example.com	say "hi"	active

@@ -1,0 +1,71 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK actor fay
+OK appointment A0001
+OK appointment A0002
+OK appointment A0003
+OK appointment A0004
+OK appointment A0005
+OK A0001 booked -> done
+OK A0002 booked -> done
+OK A0003 booked -> done
+OK A0004 booked -> noshow
+OK actor fay
+OK appointment A0006
+OK appointment A0007
+OK appointment A0008
+OK A0006 booked -> done
+OK A0007 booked -> done
+OK A0008 booked -> done
+OK actor bill
+OK invoice I0001 total 78.23
+invoice I0001 customer C0003 status open discount 10%
+line 1 A0006 WASH price=12.25 discount=1.23 net=11.02 tax=1.10 total=12.12
+line 2 A0007 WASH price=12.25 discount=1.23 net=11.02 tax=1.10 total=12.12
+line 3 A0008 COLOR price=49.99 discount=5.00 net=44.99 tax=9.00 total=53.99
+net=67.03 tax=11.20 total=78.23 paid=0.00 balance=78.23
+OK invoice I0002 total 34.45
+invoice I0002 customer C0001 status open discount 15%
+line 1 A0001 CUT price=25.00 discount=3.75 net=21.25 tax=1.75 total=23.00
+line 2 A0002 WASH price=12.25 discount=1.84 net=10.41 tax=1.04 total=11.45
+net=31.66 tax=2.79 total=34.45 paid=0.00 balance=34.45
+ERROR nothing-to-invoice: C0001
+ERROR bad-percent: 101
+OK invoice I0003 total 19.02
+invoice I0003 customer C0002 status open discount 5%
+line 1 A0003 TRIM price=18.50 discount=0.93 net=17.57 tax=1.45 total=19.02
+net=17.57 tax=1.45 total=19.02 paid=0.00 balance=19.02
+ERROR bad-money: 0
+OK payment P0001 balance 77.73
+ERROR overpayment: I0001 balance 77.73
+ERROR bad-method: cheque
+invoice I0001 customer C0003 status open discount 10%
+line 1 A0006 WASH price=12.25 discount=1.23 net=11.02 tax=1.10 total=12.12
+line 2 A0007 WASH price=12.25 discount=1.23 net=11.02 tax=1.10 total=12.12
+line 3 A0008 COLOR price=49.99 discount=5.00 net=44.99 tax=9.00 total=53.99
+net=67.03 tax=11.20 total=78.23 paid=0.50 balance=77.73
+ERROR denied: invoice.void
+OK actor mia
+ERROR invoice-paid: I0001
+OK void I0002
+ERROR invoice-void: I0002
+OK invoice I0004 total 40.54
+invoice I0004 customer C0001 status open discount 0%
+line 1 A0001 CUT price=25.00 discount=0.00 net=25.00 tax=2.06 total=27.06
+line 2 A0002 WASH price=12.25 discount=0.00 net=12.25 tax=1.23 total=13.48
+net=37.25 tax=3.29 total=40.54 paid=0.00 balance=40.54
+ERROR invoice-void: I0002
+C0003 invoiced=78.23 paid=0.50 balance=77.73 Cy Park
+C0001 invoiced=40.54 paid=0.00 balance=40.54 Ann O'Neil
+C0002 invoiced=19.02 paid=0.00 balance=19.02 Bob Jones
+customers: 3

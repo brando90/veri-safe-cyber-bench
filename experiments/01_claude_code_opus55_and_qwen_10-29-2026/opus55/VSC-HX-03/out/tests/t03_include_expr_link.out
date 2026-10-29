@@ -1,0 +1,6 @@
+OK tenant acme
+OK set which
+DENIED: outside tenant
+DENIED: outside tenant
+OK tenant beta
+beta footer

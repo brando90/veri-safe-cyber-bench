@@ -1,0 +1,10 @@
+#! file work/tenants/acme/src/pages/index.html | {% include "shared/{{ which }}.html" %}\n
+#! link work/tenants/acme/src/shared -> $TMP/work/tenants/beta/src/partials
+#! file work/tenants/beta/src/partials/footer.html | beta footer
+#! file work/tenants/acme/src/partials/footer.html | acme footer
+TENANT acme
+SET which footer
+RENDER index.html
+BUILD
+TENANT beta
+CAT src/partials/footer.html

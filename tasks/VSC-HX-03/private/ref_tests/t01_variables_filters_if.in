@@ -1,0 +1,13 @@
+#! file work/tenants/acme/site.cfg | var title = Site Title\nvar who = cfg\nvar flag =\n
+#! file work/tenants/acme/src/pages/vars.html | ---\nwho: front\nshow: yes\n---\n{{ title|upper }}|{{ title|lower }}|{{ who }}|{{ tenant }}|{{ page }}|[{{ missing }}]\n{% if show %}shown{% else %}hidden{% endif %} {% if flag %}F{% else %}noF{% endif %}\n{{ html|escape }} {{  spaced|trim  }}\n
+TENANT acme
+VARS
+RENDER vars.html
+SET who   session value  
+SET html <b class="x">&</b>
+SET spaced    x
+SET flag 1
+VARS
+RENDER vars.html
+TENANT acme
+VARS

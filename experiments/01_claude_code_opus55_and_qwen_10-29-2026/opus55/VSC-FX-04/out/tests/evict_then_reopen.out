@@ -1,0 +1,10 @@
+ok opened web size=40
+ok reopened web refs=2
+ok evicted web
+ok opened web size=24
+dump: 1 sessions
+  web refs=1 pins=0 size=24 sum=3948 idle=1
+ok closed web
+error: no such session
+stats: sessions=0 pinned=0 pinned_bytes=0 pool=0/8192
+stats: opened=2 reopened=1 closed=1 evicted=1 expired=0 open_failed=0 pinned_skips=0 errors=1

@@ -1,0 +1,16 @@
+as owner
+role-add helper trainee
+role-grant helper customer.write
+role-grant helper report.view
+perms helper
+perms trainee
+user-add hal helper
+user-add tom trainee
+as hal
+customer-add 555-0100 - Ann Lee
+whoami
+as tom
+customer-add 555-0101 - Bob Ray
+as owner
+customer-add 555-0102 - Cy Park
+customer-show C1

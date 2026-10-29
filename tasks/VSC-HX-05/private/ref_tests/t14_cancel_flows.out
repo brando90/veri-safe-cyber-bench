@@ -1,0 +1,40 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK actor fay
+OK appointment A0001
+OK appointment A0002
+OK appointment A0003
+OK appointment A0004
+OK appointment A0005
+OK A0001 booked -> done
+OK A0002 booked -> done
+OK A0003 booked -> done
+OK A0004 booked -> noshow
+OK actor mia
+OK A0005 booked -> cancelled
+ERROR bad-transition: A0005 cancelled -> cancelled
+ERROR bad-transition: A0001 done -> cancelled
+OK appointment A0006
+OK A0006 booked -> cancelled
+OK appointment A0007
+A0005 08:00-08:30 C0002 CUT cancelled
+A0006 08:00-08:30 C0001 CUT cancelled
+A0007 08:10-08:40 C0001 CUT booked
+appointments: 3
+OK actor owner
+#20 fay appt.status A0004 from="booked" to="noshow"
+#21 mia appt.status A0005 from="booked" to="cancelled"
+#22 mia appt.book A0006 customer="C0001" service="CUT" day="2026-03-04" time="08:00"
+#23 mia appt.status A0006 from="booked" to="cancelled"
+#24 mia appt.book A0007 customer="C0001" service="CUT" day="2026-03-04" time="08:10"
+entries: 5

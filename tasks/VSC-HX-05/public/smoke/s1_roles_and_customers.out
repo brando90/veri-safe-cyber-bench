@@ -1,0 +1,31 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+actor owner role owner
+frontdesk: appt.view appt.write customer.view customer.write invoice.view report.view
+billing: appt.view customer.view export.run import.run invoice.view invoice.write payment.record report.view
+OK actor fay
+actor fay role frontdesk
+OK customer C0004
+OK customer C0004 note
+customer C0004
+name: Dee Lee
+phone: 555-0199
+email: dee@example.com
+note: Prefers mornings
+status: active
+C0004 Dee Lee
+matches: 1
+C0001 Ann O'Neil
+matches: 1
+OK actor nobody
+ERROR denied: customer.view

@@ -1,0 +1,24 @@
+OK tenant acme
+BUNDLED out/assets/one.css: 4 files, 24 bytes
+.d {}
+.b {}
+.c {}
+.a {}
+BUNDLED out/assets/two.css: 4 files, 24 bytes
+.d {}
+.b {}
+.c {}
+.a {}
+BUNDLED out/assets/three.css: 1 files, 46 bytes
+/* @import "x.css"; */
+@import "d.css"; .e {}
+BUNDLED out/assets/four.css: 3 files, 39 bytes
+@font-face {}
+html { margin: 0 }
+.v {}
+ERROR: not found
+ERROR: bad bundle name
+four.css
+one.css
+three.css
+two.css

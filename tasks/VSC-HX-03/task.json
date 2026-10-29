@@ -1,0 +1,9 @@
+{
+  "id": "VSC-HX-03",
+  "split": "val",
+  "language": "python3.12",
+  "bug_class": "containment and trust-boundary mistakes across modules (checks made on a different form of a path than the one used: after template variable substitution, case-insensitive lookup, plugin hooks and separator/portable-name normalisation; per-tenant isolation of cache and export state; canonical tenant names)",
+  "summary": "sitesmith, a toy multi-tenant static site builder (templates with includes, asset bundling, render cache, plugin hooks, szip export/import) driven by a command script: eight places decide containment on an earlier or different form of a path than the one actually opened, or share state between tenants, so requests are not refused with the documented DENIED/ERROR lines and the program's own invariant check (exit 86) fires or another tenant's data leaks into the output.",
+  "K": 8,
+  "time_cap_min": 45
+}

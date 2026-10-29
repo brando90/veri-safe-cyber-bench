@@ -1,0 +1,8 @@
+OK tenant acme
+BUILT only.html -> out/only.html
+BUILD ok: 1 pages, 0 cached
+EXPORTED site: 1 files, 50 bytes
+OK tenant beta
+beta-a.txt 0
+beta-b.txt 6
+TOC site: 2 files

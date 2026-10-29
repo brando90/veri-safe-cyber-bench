@@ -1,0 +1,13 @@
+# a failed open in a full cache must not evict anything
+open s1
+open s2
+open s3
+open s4
+open s5
+open s6
+open s7 0
+open s8 4097
+dump
+open s7 9
+dump
+stats

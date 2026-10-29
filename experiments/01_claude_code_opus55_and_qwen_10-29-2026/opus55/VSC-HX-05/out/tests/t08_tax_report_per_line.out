@@ -1,0 +1,36 @@
+OK actor owner
+OK service CUT
+OK service WASH
+OK customer C0001
+OK customer C0002
+OK appointment A0001
+OK appointment A0002
+OK appointment A0003
+OK appointment A0004
+OK A0001 booked -> done
+OK A0002 booked -> done
+OK A0003 booked -> done
+OK A0004 booked -> done
+OK invoice I0001 total 22.12
+OK invoice I0002 total 21.87
+invoice I0001 customer C0001 status open discount 0%
+line 1 A0001 CUT price=10.05 discount=0.00 net=10.05 tax=1.01 total=11.06
+line 2 A0002 CUT price=10.05 discount=0.00 net=10.05 tax=1.01 total=11.06
+net=20.10 tax=2.02 total=22.12 paid=0.00 balance=22.12
+invoice I0002 customer C0002 status open discount 10%
+line 1 A0003 CUT price=10.05 discount=1.01 net=9.04 tax=0.90 total=9.94
+line 2 A0004 WASH price=12.25 discount=1.23 net=11.02 tax=0.91 total=11.93
+net=20.06 tax=1.81 total=21.87 paid=0.00 balance=21.87
+rate 8.25% lines=1 net=11.02 tax=0.91
+rate 10.00% lines=3 net=29.14 tax=2.92
+all lines=4 net=40.16 tax=3.83
+rate	lines	net	tax
+8.25	1	11.02	0.91
+10.00	3	29.14	2.92
+all	4	40.16	3.83
+CUT lines=3 net=29.14 tax=2.92 total=32.06
+WASH lines=1 net=11.02 tax=0.91 total=11.93
+all lines=4 net=40.16 tax=3.83 total=43.99
+C0001 invoiced=22.12 paid=0.00 balance=22.12 Ann Lee
+C0002 invoiced=21.87 paid=0.00 balance=21.87 Bob Ray
+customers: 2

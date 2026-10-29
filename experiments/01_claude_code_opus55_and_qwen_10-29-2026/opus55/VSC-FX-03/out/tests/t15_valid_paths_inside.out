@@ -1,0 +1,33 @@
+OK user alice
+hello a
+alice notes
+hello a
+hello b
+alice notes
+a.txt
+sub/
+docs/
+la@
+ldocs@
+notes.txt
+docs/
+la@
+ldocs@
+notes.txt
+docs/
+la@
+ldocs@
+notes.txt
+OK alias up
+OK alias top
+hello a
+alice notes
+docs/
+la@
+ldocs@
+notes.txt
+ERROR: not found
+ERROR: not a file
+ERROR: not a folder
+a.txt
+sub/

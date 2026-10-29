@@ -1,0 +1,21 @@
+record 0
+  time: 8
+  level: DEBUG
+  fields: 16
+  field 0 len=0: ""
+  field 1 (host) len=1: "A"
+  field 2 (pid) len=2: "BB"
+  field 3 (tag) len=3: "CCC"
+  field 4 len=4: "DDDD"
+  field 5 len=5: "EEEEE"
+  field 6 len=6: "FFFFFF"
+  field 7 len=7: "GGGGGGG"
+  field 8 len=8: "HHHHHHHH"
+  field 9 len=9: "IIIIIIIII"
+  field 10 len=10: "JJJJJJJJJJ"
+  field 11 len=11: "KKKKKKKKKKK"
+  field 12 len=12: "LLLLLLLLLLLL"
+  field 13 len=13: "MMMMMMMMMMMMM"
+  field 14 len=14: "NNNNNNNNNNNNNN"
+  field 15 len=15: "OOOOOOOOOOOOOOO"
+  message (4 bytes): "q\"\\\x01"

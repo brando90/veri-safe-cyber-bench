@@ -1,0 +1,21 @@
+as owner
+user-add fay frontdesk
+user-add bill billing
+user-add tom trainee
+user-add mia manager
+service-add CUT 30 25.00 8.25 Haircut
+service-add WASH 15 12.25 10 Wash and dry
+service-add TRIM 20 18.50 8.25 Beard trim
+service-add COLOR 60 49.99 20 Colour treatment
+customer-add 555-0100 ann@example.com Ann O'Neil
+customer-add 555-0101 - Bob Jones
+customer-add 555-0102 cy@example.org Cy Park
+role-add base frontdesk
+role-deny base appt.write
+role-add mid base
+role-add top mid,manager
+perms top
+user-add tia top
+as tia
+book C1 CUT 2026-03-05 09:00
+customer-add 555-1800 - Tia's client

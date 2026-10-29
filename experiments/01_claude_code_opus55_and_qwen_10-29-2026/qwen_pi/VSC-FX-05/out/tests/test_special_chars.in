@@ -1,0 +1,3 @@
+add-item SKU1 "Category;1" 10 100 50 "Item Name, with; commas and quotes"
+find "Name"
+export-csv

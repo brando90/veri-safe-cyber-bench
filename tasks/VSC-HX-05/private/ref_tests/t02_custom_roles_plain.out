@@ -1,0 +1,39 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK role desk
+OK role desk grant invoice.view
+OK role desk deny appt.write
+desk: appt.view customer.view customer.write invoice.view report.view
+OK role mixed
+mixed: appt.view appt.write customer.view customer.write export.run import.run invoice.view invoice.write payment.record report.view
+OK role mixed grant audit.view
+mixed: appt.view appt.write audit.view customer.view customer.write export.run import.run invoice.view invoice.write payment.record report.view
+ERROR duplicate-role: desk
+ERROR usage: role-add ROLE PARENT[,PARENT...]
+ERROR usage: role-add ROLE PARENT[,PARENT...]
+ERROR duplicate-role: desk
+ERROR builtin-role: manager
+ERROR unknown-perm: no.such
+ERROR duplicate-rule: desk grant invoice.view
+OK role desk deny invoice.view
+desk: appt.view customer.view customer.write report.view
+OK user ivy role desk
+ERROR duplicate-user: ivy
+ERROR bad-name: Ivy
+ERROR unknown-role: ghost
+OK actor ivy
+actor ivy role desk
+ERROR denied: appt.write
+OK customer C0004
+OK actor fay
+ERROR denied: role.manage

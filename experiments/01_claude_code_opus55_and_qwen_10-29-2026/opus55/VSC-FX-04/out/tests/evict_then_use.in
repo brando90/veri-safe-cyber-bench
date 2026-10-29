@@ -1,0 +1,10 @@
+# evict must unlink the session from the hash index as well
+open a 32
+open b 8
+evict a
+touch a
+close a
+evict a
+touch a pin
+dump
+stats

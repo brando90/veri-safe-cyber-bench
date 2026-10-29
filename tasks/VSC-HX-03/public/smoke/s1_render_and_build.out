@@ -1,0 +1,23 @@
+OK tenant acme
+post_render footer -- acme
+<html>
+<head><title>Acme & Co</title></head>
+<body>
+<h1>Welcome</h1>
+<nav>Acme & Co</nav>
+<link rel="stylesheet" href="/assets/css/site.css?v=9433942e">
+</body>
+</html>
+-- acme
+BUILT about.html -> out/about.html
+BUILT index.html -> out/index.html
+BUILD ok: 2 pages, 0 cached
+about.html
+index.html
+<html>
+<head><title>Acme & Co</title></head>
+<body>
+<p>About Acme &amp; Co</p>
+</body>
+</html>
+-- acme

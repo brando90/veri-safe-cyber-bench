@@ -1,0 +1,5 @@
+loaded a 4096x2048x1 fnv=e39c9dc5
+loaded b 1x2048x1 fnv=12449dc5
+concat c 4096x4096x1 fnv=4f9c9dc5
+concat d 4097x2048x1 fnv=f7449dc5
+info c 4096x4096x1 bytes=16777216 tile=none fnv=4f9c9dc5

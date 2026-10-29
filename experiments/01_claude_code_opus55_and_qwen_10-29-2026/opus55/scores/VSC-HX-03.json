@@ -1,0 +1,1 @@
+{"IC_fix": 1, "IC_tests": 1, "RC_edge": 1.0, "RC_tests": 1.0, "VC": 1.0, "details": {"agent_fail_on_original": 14, "agent_fail_on_patch": 0, "agent_tests": 14, "mutants": 8, "mutants_killed": 8, "patch_builds": true, "ref_edge_failed": [], "ref_tests_failed": [], "smoke_fail_on_patch": 0}}

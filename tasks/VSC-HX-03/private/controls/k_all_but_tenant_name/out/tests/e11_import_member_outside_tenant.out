@@ -1,0 +1,10 @@
+OK tenant acme
+DENIED: outside tenant
+OK tenant beta
+---
+heading: Welcome
+layout: base.html
+---
+<h1>{{ heading }}</h1>
+{% include "partials/nav.html" %}
+<link rel="stylesheet" href="{% asset "css/site.css" %}">

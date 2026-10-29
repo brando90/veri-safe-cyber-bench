@@ -1,0 +1,20 @@
+OK tenant acme
+DENIED: outside tenant
+DENIED: outside tenant
+OK tenant acme2
+DENIED: outside tenant
+OK tenant acme3
+DENIED: outside area
+site.cfg
+src/
+OK tenant acme4
+DENIED: outside tenant
+site.cfg
+src/
+OK tenant acme5
+DENIED: outside tenant
+DENIED: outside tenant
+cache@
+src/
+DENIED: outside tenant
+ERROR: no tenant selected

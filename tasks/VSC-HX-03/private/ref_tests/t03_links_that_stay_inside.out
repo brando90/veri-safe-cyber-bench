@@ -1,0 +1,33 @@
+OK tenant acme
+assets/
+layouts/
+pages/
+partials/
+shared@
+themes/
+<small>legal</small>
+<small>legal</small> /assets/brand/logo.svg?v=d4dc5666 /assets/brand/logo.svg?v=d4dc5666
+-- acme
+<html>
+<head><title>Starter</title></head>
+<body>
+<h1>Welcome</h1>
+<nav>Starter</nav>
+<link rel="stylesheet" href="/assets/css/site.css?v=9433942e">
+</body>
+</html>
+-- acme
+BUILT about.html -> out/about.html
+BUILT home.html -> out/home.html
+BUILT index.html -> out/index.html
+BUILT legal.html -> out/legal.html
+BUILD ok: 4 pages, 0 cached
+<html>
+<head><title>Starter</title></head>
+<body>
+<h1>Welcome</h1>
+<nav>Starter</nav>
+<link rel="stylesheet" href="/assets/css/site.css?v=9433942e">
+</body>
+</html>
+-- acme

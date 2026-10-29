@@ -1,0 +1,27 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK role senior
+OK role junior
+OK role intern
+OK user jo role intern
+OK actor jo
+OK customer C0004
+OK actor owner
+intern: appt.view appt.write customer.view customer.write invoice.view report.view
+OK role senior deny customer.write
+junior: appt.view appt.write customer.view invoice.view report.view
+intern: appt.view appt.write customer.view invoice.view report.view
+OK actor jo
+ERROR denied: customer.write
+C0004 First client
+matches: 1

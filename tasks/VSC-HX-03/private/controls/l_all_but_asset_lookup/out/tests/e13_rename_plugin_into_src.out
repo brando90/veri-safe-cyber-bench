@@ -1,0 +1,11 @@
+OK tenant acme
+DENIED: outside area
+site.cfg
+src/
+---
+heading: Welcome
+layout: base.html
+---
+<h1>{{ heading }}</h1>
+{% include "partials/nav.html" %}
+<link rel="stylesheet" href="{% asset "css/site.css" %}">

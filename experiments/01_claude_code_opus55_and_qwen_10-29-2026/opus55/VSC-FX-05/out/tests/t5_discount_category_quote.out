@@ -1,0 +1,12 @@
+OK added A1
+OK added A2
+OK added A3
+OK discounted 2 item(s) in men's by 10%
+category men's: items=2 units=5 value_cents=818
+category tools: items=1 units=1 value_cents=1000
+total: items=3 units=6 value_cents=1818
+OK discounted 1 item(s) in tools by 50%
+sku,category,qty,price_cents,margin_cents,name
+A1,men's,3,180,80,Work glove
+A2,men's,2,139,39,Work sock
+A3,tools,1,500,-300,Saw

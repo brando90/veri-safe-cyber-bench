@@ -1,0 +1,17 @@
+as owner
+user-add fay frontdesk
+user-add bill billing
+user-add tom trainee
+user-add mia manager
+service-add CUT 30 25.00 8.25 Haircut
+service-add WASH 15 12.25 10 Wash and dry
+service-add TRIM 20 18.50 8.25 Beard trim
+service-add COLOR 60 49.99 20 Colour treatment
+customer-add 555-0100 ann@example.com Ann O'Neil
+customer-add 555-0101 - Bob Jones
+customer-add 555-0102 cy@example.org Cy Park
+import customers
+name	phone	vip
+Kim Ray	555-1100	yes
+.end
+customer-find kim

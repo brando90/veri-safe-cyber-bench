@@ -1,0 +1,62 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK actor fay
+OK appointment A0001
+OK appointment A0002
+OK appointment A0003
+OK appointment A0004
+OK appointment A0005
+OK A0001 booked -> done
+OK A0002 booked -> done
+OK A0003 booked -> done
+OK A0004 booked -> noshow
+OK actor bill
+OK invoice I0001 total 40.54
+OK invoice I0002 total 20.03
+OK payment P0001 balance 0.00
+OK actor mia
+OK void I0001
+OK actor bill
+OK invoice I0003 total 20.26
+code,name,minutes,price,tax
+COLOR,Colour treatment,60,49.99,20.00
+CUT,Haircut,30,25.00,8.25
+TRIM,Beard trim,20,18.50,8.25
+WASH,Wash and dry,15,12.25,10.00
+code	name	minutes	price	tax
+COLOR	Colour treatment	60	49.99	20.00
+CUT	Haircut	30	25.00	8.25
+TRIM	Beard trim	20	18.50	8.25
+WASH	Wash and dry	15	12.25	10.00
+id,customer,service,day,time,minutes,status,invoice
+A0001,C0001,CUT,2026-03-02,09:00,30,done,I0003
+A0002,C0001,WASH,2026-03-02,09:30,15,done,I0003
+A0003,C0002,TRIM,2026-03-02,10:00,20,done,I0002
+A0004,C0003,COLOR,2026-03-03,14:00,60,noshow,-
+A0005,C0002,CUT,2026-03-04,08:00,30,booked,-
+id	customer	service	day	time	minutes	status	invoice
+A0001	C0001	CUT	2026-03-02	09:00	30	done	I0003
+A0002	C0001	WASH	2026-03-02	09:30	15	done	I0003
+A0003	C0002	TRIM	2026-03-02	10:00	20	done	I0002
+A0004	C0003	COLOR	2026-03-03	14:00	60	noshow	-
+A0005	C0002	CUT	2026-03-04	08:00	30	booked	-
+id,customer,status,discount,net,tax,total,paid
+I0001,C0001,void,0,37.25,3.29,40.54,0.00
+I0002,C0002,paid,0,18.50,1.53,20.03,20.03
+I0003,C0001,open,50,18.62,1.64,20.26,0.00
+id	customer	status	discount	net	tax	total	paid
+I0001	C0001	void	0	37.25	3.29	40.54	0.00
+I0002	C0002	paid	0	18.50	1.53	20.03	20.03
+I0003	C0001	open	50	18.62	1.64	20.26	0.00
+OK actor fay
+ERROR denied: export.run

@@ -1,0 +1,19 @@
+OK actor owner
+OK service CUT
+OK customer C0001
+ERROR import: unknown column status
+ERROR import: unknown column minutes
+ERROR import: unknown column archived
+ERROR import: duplicate column code
+ERROR import: missing column tax
+OK imported 1 appointments
+A0001 09:00-09:30 C0001 CUT booked
+appointments: 1
+id,customer,service,day,time,minutes,status,invoice
+A0001,C0001,CUT,2026-11-02,09:00,30,booked,-
+customer C0001
+name: Ann Lee
+phone: 555-0100
+email: -
+note: 
+status: active

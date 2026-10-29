@@ -1,0 +1,10 @@
+#! file work/tenants/acme/src/pages/index.html | acme home\n
+#! dir work/tenants/beta
+TENANT acme
+BUILD
+EXPORT site
+TOC site
+TENANT beta
+TOC site
+EXPORT site
+TOC site

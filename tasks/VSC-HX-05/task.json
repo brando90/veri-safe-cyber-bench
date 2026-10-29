@@ -1,0 +1,9 @@
+{
+  "id": "VSC-HX-05",
+  "split": "test",
+  "language": "python3.12",
+  "bug_class": "data-as-data and authorisation consistency across modules: input column names reaching SQL identifiers, an audit export and a bulk audit writer bypassing the shared escaping, an operation permission enforced on one command path but not another, per-kind import permission missing, role deny not applied across the inheritance chain, stale role cache for descendant roles, report money figure rounded on the aggregate instead of per line",
+  "summary": "slotbook, a toy appointment-and-billing back office (sqlite in memory, stdin command lines, roles with inheritance, TSV import, CSV/TSV export, audit log, consistency check exiting 86). Eight independent defects in 6 of 17 modules, each locally plausible and wrong only against a general README rule (data is data; permissions belong to operations; deny anywhere in the chain wins; role changes reach descendants; money rounded per line).",
+  "K": 8,
+  "time_cap_min": 45
+}

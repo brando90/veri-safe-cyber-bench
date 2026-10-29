@@ -1,0 +1,6 @@
+#! file work/tenants/acme/src/assets/main.css | @import "vendor/lib.css";\nbody { }\n
+#! link work/tenants/acme/src/assets/vendor -> $TMP/work/tenants/beta/src/assets
+#! file work/tenants/beta/src/assets/lib.css | .lib { }\n
+TENANT acme
+BUNDLE main.css main.css
+LS

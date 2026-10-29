@@ -1,0 +1,7 @@
+OK tenant acme
+BUNDLED out/assets/all.css: 3 files, 89 bytes
+* { box-sizing: border-box }
+body { color: #333 }
+@media print { nav { display: none } }
+BUNDLED out/assets/app.js: 1 files, 20 bytes
+/assets/css/site.css?v=9433942e

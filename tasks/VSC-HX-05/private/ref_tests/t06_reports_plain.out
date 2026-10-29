@@ -1,0 +1,58 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK actor fay
+OK appointment A0001
+OK appointment A0002
+OK appointment A0003
+OK appointment A0004
+OK appointment A0005
+OK A0001 booked -> done
+OK A0002 booked -> done
+OK A0003 booked -> done
+OK A0004 booked -> noshow
+OK actor bill
+OK invoice I0001 total 40.54
+OK invoice I0002 total 20.03
+CUT lines=1 net=25.00 tax=2.06 total=27.06
+TRIM lines=1 net=18.50 tax=1.53 total=20.03
+WASH lines=1 net=12.25 tax=1.23 total=13.48
+all lines=3 net=55.75 tax=4.82 total=60.57
+service	lines	net	tax	total
+CUT	1	25.00	2.06	27.06
+TRIM	1	18.50	1.53	20.03
+WASH	1	12.25	1.23	13.48
+all	3	55.75	4.82	60.57
+all lines=0 net=0.00 tax=0.00 total=0.00
+rate 8.25% lines=2 net=43.50 tax=3.59
+rate 10.00% lines=1 net=12.25 tax=1.23
+all lines=3 net=55.75 tax=4.82
+rate	lines	net	tax
+8.25	2	43.50	3.59
+10.00	1	12.25	1.23
+all	3	55.75	4.82
+ERROR bad-range: 2026-04-01 2026-03-01
+ERROR usage: report revenue|tax FROM TO [tsv] | report balances [tsv]
+ERROR usage: report revenue|tax FROM TO [tsv] | report balances [tsv]
+C0001 invoiced=40.54 paid=0.00 balance=40.54 Ann O'Neil
+C0002 invoiced=20.03 paid=0.00 balance=20.03 Bob Jones
+customers: 2
+customer	name	invoiced	paid	balance
+C0001	Ann O'Neil	40.54	0.00	40.54
+C0002	Bob Jones	20.03	0.00	20.03
+OK actor mia
+OK void I0002
+C0001 invoiced=40.54 paid=0.00 balance=40.54 Ann O'Neil
+customers: 1
+CUT lines=1 net=25.00 tax=2.06 total=27.06
+WASH lines=1 net=12.25 tax=1.23 total=13.48
+all lines=2 net=37.25 tax=3.29 total=40.54

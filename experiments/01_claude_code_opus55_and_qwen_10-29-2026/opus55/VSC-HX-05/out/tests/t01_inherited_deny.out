@@ -1,0 +1,21 @@
+OK actor owner
+OK role helper
+OK role helper grant customer.write
+OK role helper grant report.view
+helper: appt.view appt.write customer.view invoice.view report.view
+trainee: appt.view appt.write customer.view invoice.view report.view
+OK user hal role helper
+OK user tom role trainee
+OK actor hal
+ERROR denied: customer.write
+actor hal role helper
+OK actor tom
+ERROR denied: customer.write
+OK actor owner
+OK customer C0001
+customer C0001
+name: Cy Park
+phone: 555-0102
+email: -
+note: 
+status: active

@@ -1,0 +1,13 @@
+OK user alice
+start
+DENIED: outside root
+DENIED: outside root
+OK alias x
+DENIED: outside root
+DENIED: outside root
+DENIED: outside root
+alice notes
+end
+(none)
+ERROR: no such archive
+back

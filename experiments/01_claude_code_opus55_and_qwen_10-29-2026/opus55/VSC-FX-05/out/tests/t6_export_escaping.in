@@ -1,0 +1,9 @@
+add-item A1 fasteners 40 25 10 Washer, 5" ; steel
+add-item A2 fasteners 1 10 20 -5mm washer
+add-item A3 +misc 2 30 10 =SUM(A1:A2)
+add-item -B4 @home 3 40 10 @mention
+add-item B5 tools 4 50 10 Plain hammer
+add-item B6 tools 5 60 10 semi;colon
+add-item B7 tools 6 70 10 say "hi"
+add-item B8 tools 7 80 10 +1, -1 "ok"
+export-csv

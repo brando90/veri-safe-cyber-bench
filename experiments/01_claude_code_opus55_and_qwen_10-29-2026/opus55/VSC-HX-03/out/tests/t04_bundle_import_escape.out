@@ -1,0 +1,7 @@
+OK tenant acme
+DENIED: outside tenant
+BUNDLED out/assets/ok.css: 2 files, 35 bytes
+* { margin: 0 }
+main { margin: 0 }
+DENIED: outside tenant
+ok.css

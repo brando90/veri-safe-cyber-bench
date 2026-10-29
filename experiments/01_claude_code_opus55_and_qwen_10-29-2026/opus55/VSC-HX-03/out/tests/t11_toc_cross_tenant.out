@@ -1,0 +1,10 @@
+OK tenant acme
+BUILT index.html -> out/index.html
+BUILD ok: 1 pages, 0 cached
+EXPORTED site: 1 files, 39 bytes
+index.html 10
+TOC site: 1 files
+OK tenant beta
+ERROR: no such archive
+EXPORTED site: 0 files, 12 bytes
+TOC site: 0 files

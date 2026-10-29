@@ -1,0 +1,5 @@
+image a 3 3 2
+rle 18*9
+end
+scale b a 1366 1366
+info a

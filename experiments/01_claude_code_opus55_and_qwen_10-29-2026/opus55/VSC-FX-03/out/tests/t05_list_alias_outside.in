@@ -1,0 +1,11 @@
+#! file vault/users/alice/notes.txt | alice notes
+#! file vault/users/bob/todo.txt | bob secret
+#! link vault/users/alice/shared -> $TMP/vault/users/bob
+USER alice
+ALIAS b ../bob
+ALIAS s shared
+LIST @b
+LIST @s
+LIST shared
+LIST ../bob
+LIST

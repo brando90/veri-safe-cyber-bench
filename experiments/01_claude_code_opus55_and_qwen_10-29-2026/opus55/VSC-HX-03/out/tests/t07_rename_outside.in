@@ -1,0 +1,9 @@
+#! file work/tenants/acme/site.cfg | plugin rename blog ../../beta/out/blog\n
+#! file work/tenants/acme/src/pages/index.html | home\n
+#! file work/tenants/acme/src/pages/blog/first.html | first\n
+#! dir work/tenants/beta
+TENANT acme
+BUILD
+LS
+TENANT beta
+LS

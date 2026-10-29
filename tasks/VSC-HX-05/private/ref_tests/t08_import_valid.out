@@ -1,0 +1,48 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK actor fay
+OK appointment A0001
+OK appointment A0002
+OK appointment A0003
+OK appointment A0004
+OK appointment A0005
+OK A0001 booked -> done
+OK A0002 booked -> done
+OK A0003 booked -> done
+OK A0004 booked -> noshow
+OK actor bill
+OK invoice I0001 total 40.54
+OK invoice I0002 total 20.03
+OK imported 2 payments
+invoice I0001 customer C0001 status open discount 0%
+line 1 A0001 CUT price=25.00 discount=0.00 net=25.00 tax=2.06 total=27.06
+line 2 A0002 WASH price=12.25 discount=0.00 net=12.25 tax=1.23 total=13.48
+net=37.25 tax=3.29 total=40.54 paid=10.00 balance=30.54
+OK actor owner
+OK imported 2 customers
+OK imported 1 services
+OK imported 2 appointments
+A0006 09:00-09:25 C0004 NAILS booked
+A0007 09:25-09:55 C0005 CUT booked
+appointments: 2
+ERROR import: duplicate column phone
+ERROR import: missing column phone
+ERROR import: line 3: bad-phone: x
+ERROR import: line 2: expected 2 fields, got 1
+ERROR import: line 2: bad escape
+ERROR import: missing header
+ERROR usage: import customers|services|appointments|payments
+ERROR import: line 2: slot-taken: A0006
+C0005 Hana Holt
+matches: 1
+ERROR import: missing .end

@@ -1,0 +1,80 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK customer C0004
+OK customer C0005
+OK customer C0006
+OK customer C0004 note
+OK customer C0005 note
+OK customer C0006 note
+customer C0004
+name: Dana "DJ" Smith, Jr.
+phone: 555-0500
+email: -
+note: Call before 9; ask for "Dana"
+status: active
+customer C0005
+name: Lee\Park Studio
+phone: 555-0501
+email: -
+note: Folder: C:\clients\lee	(scanned)
+status: active
+customer C0006
+name: 50% Off | Bargain_Cuts; Ltd
+phone: 555-0502
+email: -
+note: spaced   out
+status: active
+C0006 50% Off | Bargain_Cuts; Ltd
+matches: 1
+C0006 50% Off | Bargain_Cuts; Ltd
+matches: 1
+C0004 Dana "DJ" Smith, Jr.
+matches: 1
+C0005 Lee\Park Studio
+matches: 1
+C0001 Ann O'Neil
+matches: 1
+C0006 50% Off | Bargain_Cuts; Ltd
+matches: 1
+id,name,phone,email,note,status
+C0001,Ann O'Neil,555-0100,ann@example.com,,active
+C0002,Bob Jones,555-0101,-,,active
+C0003,Cy Park,555-0102,cy@example.org,,active
+C0004,"Dana ""DJ"" Smith, Jr.",555-0500,-,"Call before 9; ask for ""Dana""",active
+C0005,Lee\Park Studio,555-0501,-,Folder: C:\clients\lee	(scanned),active
+C0006,50% Off | Bargain_Cuts; Ltd,555-0502,-,spaced   out,active
+id	name	phone	email	note	status
+C0001	Ann O'Neil	555-0100	ann@example.com		active
+C0002	Bob Jones	555-0101	-		active
+C0003	Cy Park	555-0102	cy@example.org		active
+C0004	Dana "DJ" Smith, Jr.	555-0500	-	Call before 9; ask for "Dana"	active
+C0005	Lee\\Park Studio	555-0501	-	Folder: C:\\clients\\lee\t(scanned)	active
+C0006	50% Off | Bargain_Cuts; Ltd	555-0502	-	spaced   out	active
+#1 owner user.add fay role="frontdesk"
+#2 owner user.add bill role="billing"
+#3 owner user.add tom role="trainee"
+#4 owner user.add mia role="manager"
+#5 owner service.add CUT name="Haircut" minutes="30" price="25.00" tax="8.25"
+#6 owner service.add WASH name="Wash and dry" minutes="15" price="12.25" tax="10.00"
+#7 owner service.add TRIM name="Beard trim" minutes="20" price="18.50" tax="8.25"
+#8 owner service.add COLOR name="Colour treatment" minutes="60" price="49.99" tax="20.00"
+#9 owner customer.add C0001 name="Ann O'Neil" phone="555-0100" email="ann@example.com" note=""
+#10 owner customer.add C0002 name="Bob Jones" phone="555-0101" email="-" note=""
+#11 owner customer.add C0003 name="Cy Park" phone="555-0102" email="cy@example.org" note=""
+#12 owner customer.add C0004 name="Dana \"DJ\" Smith, Jr." phone="555-0500" email="-" note=""
+#13 owner customer.add C0005 name="Lee\\Park Studio" phone="555-0501" email="-" note=""
+#14 owner customer.add C0006 name="50% Off | Bargain_Cuts; Ltd" phone="555-0502" email="-" note=""
+#15 owner customer.note C0004 note="Call before 9; ask for \"Dana\""
+#16 owner customer.note C0005 note="Folder: C:\\clients\\lee\t(scanned)"
+#17 owner customer.note C0006 note="spaced   out"
+entries: 17

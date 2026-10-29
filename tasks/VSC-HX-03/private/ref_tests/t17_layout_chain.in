@@ -1,0 +1,8 @@
+#! file work/tenants/acme/site.cfg | var title = L\n
+#! file work/tenants/acme/src/pages/a.html | ---\nlayout: inner.html\ntitle: Page A\n---\nbody of a\n
+#! file work/tenants/acme/src/layouts/inner.html | ---\nlayout: outer\\..\\outer.html\nsection: docs\n---\n<div class="{{ section }}">{{ content }}</div>\n
+#! file work/tenants/acme/src/layouts/outer.html | <html>{{ title }}|{{ section }}\n{{ content }}</html>\n
+TENANT acme
+RENDER a.html
+BUILD
+CAT out/a.html

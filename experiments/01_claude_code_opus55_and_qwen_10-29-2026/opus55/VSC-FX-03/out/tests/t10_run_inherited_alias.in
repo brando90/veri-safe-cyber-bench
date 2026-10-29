@@ -1,0 +1,8 @@
+#! file vault/users/alice/notes.txt | alice notes
+#! file vault/users/bob/todo.txt | bob secret
+#! file vault/users/alice/inner.cmd | READ @b/todo.txt\nLIST @b\nREAD @n
+#! file vault/users/alice/outer.cmd | RUN inner.cmd\nECHO outer end
+USER alice
+ALIAS b ../bob
+ALIAS n notes.txt
+RUN outer.cmd

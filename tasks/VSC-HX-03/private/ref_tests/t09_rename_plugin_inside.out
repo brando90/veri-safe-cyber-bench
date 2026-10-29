@@ -1,0 +1,20 @@
+OK tenant acme
+output_path rename blog news/../articles
+output_path rename articles/2024 archive
+output_path rename nomatch elsewhere
+output_path rename docs\v1 docs/legacy.
+BUILT about.html -> out/about.html
+BUILT blog/2024/post.html -> out/archive/post.html
+BUILT blog/intro.html -> out/articles/intro.html
+BUILT bloggers.html -> out/bloggers.html
+BUILT docs/v1/guide.html -> out/docs/legacy/guide.html
+BUILT index.html -> out/index.html
+BUILD ok: 6 pages, 0 cached
+about.html
+archive/
+articles/
+bloggers.html
+docs/
+index.html
+post
+guide

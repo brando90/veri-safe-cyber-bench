@@ -1,0 +1,24 @@
+OK tenant acme
+BUILT about.html -> out/about.html
+BUILT index.html -> out/index.html
+BUILT themed.html -> out/themed.html
+BUILD ok: 3 pages, 0 cached
+BUILT about.html -> out/about.html
+BUILT index.html -> out/index.html
+BUILT themed.html -> out/themed.html
+BUILD ok: 3 pages, 3 cached
+cache: 3 hits, 3 misses, 3 entries
+OK set theme
+tenant = acme
+theme = dark
+title = Starter
+<header>dark</header>
+<p>themed.html</p>
+-- acme
+BUILT about.html -> out/about.html
+BUILT index.html -> out/index.html
+BUILT themed.html -> out/themed.html
+BUILD ok: 3 pages, 0 cached
+cache: 3 hits, 6 misses, 6 entries
+CLEANED 7 files
+cache: 3 hits, 6 misses, 0 entries

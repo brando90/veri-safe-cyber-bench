@@ -1,0 +1,15 @@
+OK added A100
+OK added A101
+OK added A102
+OK added A103
+OK added A104
+A101 | O'Brien 5" bracket | qty=10
+matches: 1
+A102 | Washer, 5" ; steel | qty=5
+matches: 1
+category fasteners: items=3 units=55 value_cents=1600
+category men's: items=1 units=2 value_cents=1000
+category misc: items=1 units=1 value_cents=100
+total: items=5 units=58 value_cents=2700
+category men's: items=1 units=2 value_cents=1000
+total: items=1 units=2 value_cents=1000

@@ -1,0 +1,39 @@
+ERROR: no tenant selected
+ERROR: unknown command
+ERROR: usage: TENANT name
+ERROR: usage: TENANT name
+ERROR: bad tenant name
+ERROR: bad tenant name
+ERROR: no such tenant
+ERROR: bad config line 2
+ERROR: unknown plugin teleport
+ERROR: bad plugin arguments for rename
+OK tenant badcopy
+ERROR: copy source is not a folder
+OK tenant acme
+ERROR: bad variable name
+ERROR: usage: SET name value
+ERROR: usage: RENDER page
+ERROR: bad template
+ERROR: bad template
+ERROR: bad front matter
+ERROR: include too deep
+ERROR: layout too deep
+ERROR: not found
+ERROR: not a file
+ERROR: not a file
+ERROR: not a folder
+ERROR: not found
+ERROR: path too long
+ERROR: usage: BUNDLE name file...
+BUNDLED out/assets/x.css: 1 files, 6 bytes
+ERROR: bad bundle name
+ERROR: bad bundle name
+ERROR: usage: EXPORT name
+ERROR: bad archive name
+ERROR: bad archive name
+ERROR: usage: IMPORT archive theme
+ERROR: bad archive
+ERROR: usage: BUILD
+ERROR: usage: PLUGINS
+done

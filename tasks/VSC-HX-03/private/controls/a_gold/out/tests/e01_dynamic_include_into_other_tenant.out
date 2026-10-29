@@ -1,0 +1,13 @@
+OK tenant acme
+<header>plain</header>
+
+-- acme
+OK set theme
+DENIED: outside tenant
+DENIED: outside tenant
+site.cfg
+src/
+OK set theme
+<header>plain</header>
+
+-- acme

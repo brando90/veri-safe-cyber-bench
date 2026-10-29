@@ -1,0 +1,23 @@
+OK actor owner
+OK user fay role frontdesk
+OK user mia role manager
+OK service CUT
+OK customer C0001
+OK actor fay
+OK appointment A0001
+OK appointment A0002
+ERROR denied: appt.cancel
+OK A0001 booked -> done
+OK A0002 booked -> noshow
+OK appointment A0003
+ERROR denied: appt.cancel
+OK actor mia
+OK A0003 booked -> cancelled
+A0001 09:00-09:30 C0001 CUT done
+A0002 10:00-10:30 C0001 CUT noshow
+A0003 11:00-11:30 C0001 CUT cancelled
+appointments: 3
+#8 fay appt.status A0002 from="booked" to="noshow"
+#9 fay appt.book A0003 customer="C0001" service="CUT" day="2026-11-02" time="11:00"
+#10 mia appt.status A0003 from="booked" to="cancelled"
+entries: 3

@@ -1,0 +1,17 @@
+OK added A1
+OK added A2
+OK added A3
+OK added -B4
+OK added B5
+OK added B6
+OK added B7
+OK added B8
+sku,category,qty,price_cents,margin_cents,name
+'-B4,'@home,3,40,30,'@mention
+A1,fasteners,40,25,15,"Washer, 5"" ; steel"
+A2,fasteners,1,10,-10,'-5mm washer
+A3,'+misc,2,30,20,'=SUM(A1:A2)
+B5,tools,4,50,40,Plain hammer
+B6,tools,5,60,50,"semi;colon"
+B7,tools,6,70,60,"say ""hi"""
+B8,tools,7,80,70,"'+1, -1 ""ok"""

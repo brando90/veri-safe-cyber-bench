@@ -1,0 +1,9 @@
+add-item A100 fasteners 40 25 10 Hex bolt M5
+add-item A101 fasteners 10 30 12 O'Brien 5" bracket
+add-item A102 fasteners 5 60 20 Washer, 5" ; steel
+add-item A103 men's 2 500 300 Kid's glove; size 8, blue
+add-item A104 misc 1 100 50 It's 50% off_today
+find o'brien
+find washer
+report
+report men's

@@ -1,0 +1,5 @@
+OK tenant acme
+DENIED: outside tenant
+ERROR: not found
+BUNDLED out/assets/ok.css: 2 files, 50 bytes
+ok.css

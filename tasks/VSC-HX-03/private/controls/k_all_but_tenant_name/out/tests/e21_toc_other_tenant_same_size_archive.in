@@ -1,0 +1,7 @@
+#! file work/tenants/acme/src/pages/only.html | <p>acme only page</p>\n
+#! file work/tenants/beta/exports/site.szip | SZIP1\nF 0 beta-a.txt\n\nF 6 beta-b.txt\nxxxxxx\nEND 2\n
+TENANT acme
+BUILD
+EXPORT site
+TENANT beta
+TOC site

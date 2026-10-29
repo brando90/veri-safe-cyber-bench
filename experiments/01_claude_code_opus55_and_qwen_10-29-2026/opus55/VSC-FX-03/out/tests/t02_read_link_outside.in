@@ -1,0 +1,8 @@
+#! file vault/users/alice/notes.txt | alice notes
+#! file vault/users/bob/todo.txt | bob secret
+#! link vault/users/alice/evil -> $TMP/vault/users/bob/todo.txt
+#! link vault/users/alice/rel -> ../bob/todo.txt
+USER alice
+READ evil
+READ rel
+READ notes.txt

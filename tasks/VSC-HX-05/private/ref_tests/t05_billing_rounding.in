@@ -1,0 +1,52 @@
+as owner
+user-add fay frontdesk
+user-add bill billing
+user-add tom trainee
+user-add mia manager
+service-add CUT 30 25.00 8.25 Haircut
+service-add WASH 15 12.25 10 Wash and dry
+service-add TRIM 20 18.50 8.25 Beard trim
+service-add COLOR 60 49.99 20 Colour treatment
+customer-add 555-0100 ann@example.com Ann O'Neil
+customer-add 555-0101 - Bob Jones
+customer-add 555-0102 cy@example.org Cy Park
+as fay
+book C1 CUT 2026-03-02 09:00
+book C1 WASH 2026-03-02 09:30
+book C2 TRIM 2026-03-02 10:00
+book C3 COLOR 2026-03-03 14:00
+book C2 CUT 2026-03-04 08:00
+appt-status A1 done
+appt-status A2 done
+appt-status A3 done
+appt-status A4 noshow
+as fay
+book C3 WASH 2026-03-05 09:00
+book C3 WASH 2026-03-05 09:15
+book C3 COLOR 2026-03-05 10:00
+appt-status A6 done
+appt-status A7 done
+appt-status A8 done
+as bill
+invoice-create C3 10
+invoice-show I1
+invoice-create C1 15
+invoice-show I2
+invoice-create C1
+invoice-create C2 101
+invoice-create C2 5
+invoice-show I3
+pay I1 0 cash
+pay I1 0.5 card
+pay I1 100 card
+pay I1 3.99 cheque
+invoice-show I1
+invoice-void I1 Typo
+as mia
+invoice-void I1 Typo
+invoice-void I2 Wrong discount
+invoice-void I2 again
+invoice-create C1
+invoice-show I4
+pay I2 1 cash
+report balances

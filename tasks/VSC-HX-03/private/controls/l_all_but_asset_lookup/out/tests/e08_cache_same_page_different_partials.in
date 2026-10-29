@@ -1,0 +1,11 @@
+#! file work/tenants/acme/src/pages/index.html | <p>{{ title }}</p>\n{% include "partials/nav.html" %}\n
+#! file work/tenants/acme/src/partials/nav.html | <nav>acme</nav>\n
+#! file work/tenants/beta/src/pages/index.html | <p>{{ title }}</p>\n{% include "partials/nav.html" %}\n
+#! file work/tenants/beta/src/pages/other.html | other\n
+#! file work/tenants/beta/src/partials/nav.html | <nav>beta</nav>\n
+TENANT acme
+BUILD
+TENANT beta
+BUILD
+CAT out/index.html
+STATS

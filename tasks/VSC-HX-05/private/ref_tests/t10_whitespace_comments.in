@@ -1,0 +1,20 @@
+   # leading comment
+	as	owner	
+service-add   CUT   30   25.00   8.25    Haircut   
+customer-add 555-0100	-	  Ann   O'Neil  
+customer-show C0001
+customer-show C1   extra
+
+   
+book C1 CUT 2026-03-02 09:00
+appts 2026-03-02
+import customers
+name	phone
+
+Blank Lines	555-0101
+
+   .end   
+customer-find blank
+.end
+WHOAMI
+whoami now

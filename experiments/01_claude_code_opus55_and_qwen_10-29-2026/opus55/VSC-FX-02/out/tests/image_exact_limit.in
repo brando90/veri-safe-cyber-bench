@@ -1,0 +1,5 @@
+image e 4096 1024 4 tile 1024 1024
+rle 8388608*3 8388608*4
+end
+info e
+tile t e 3

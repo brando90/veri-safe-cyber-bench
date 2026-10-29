@@ -1,0 +1,10 @@
+add-item A1 misc 1 100 50 Widget
+add-item A2 misc 2 100 50 Gadget
+add-item A3 misc 3 100 50 Gizmo
+rename A1 O'Neil's widget
+find widget
+rename A2 Gadget; large, red
+find gadget
+rename A3 Bolt "M5" 'zinc'; 10% off_now
+find bolt
+export-csv

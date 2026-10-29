@@ -1,0 +1,14 @@
+#! file work/tenants/acme/src/pages/index.html | <p>{% include "partials/{{ part }}" %}</p>\n
+#! file work/tenants/acme/src/partials/nav.html | <nav>acme</nav>
+#! file work/tenants/beta/src/partials/secret.html | beta secret
+TENANT acme
+SET part nav.html
+RENDER index.html
+SET part ../../../beta/src/partials/secret.html
+RENDER index.html
+BUILD
+LS
+SET part ..\..\..\beta\src\partials\missing.html
+RENDER index.html
+SET part nav.html.
+RENDER index.html

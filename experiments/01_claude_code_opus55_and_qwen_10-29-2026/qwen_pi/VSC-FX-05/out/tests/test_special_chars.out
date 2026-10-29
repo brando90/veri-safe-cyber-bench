@@ -1,0 +1,5 @@
+OK added SKU1
+SKU1 | Item Name, with; commas and quotes | qty=10
+matches: 1
+sku,category,qty,price_cents,margin_cents,name
+SKU1,"Category;1",10,100,50,"Item Name, with; commas and quotes"

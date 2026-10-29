@@ -1,0 +1,8 @@
+# (2^24+1) x 2^24 x 1 wraps to 2^24 in 32-bit math
+image tall 1 16777216 1
+rle 16777216*1
+end
+image wide 16777216 1 1
+rle 16777216*2
+end
+concat c tall wide h

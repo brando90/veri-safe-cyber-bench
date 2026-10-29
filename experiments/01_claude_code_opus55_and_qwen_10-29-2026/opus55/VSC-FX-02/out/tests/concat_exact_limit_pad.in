@@ -1,0 +1,9 @@
+image a 4096 2048 1
+rle 8388608*1
+end
+image b 1 2048 1
+rle 2048*2
+end
+concat c a b v
+concat d b a h
+info c

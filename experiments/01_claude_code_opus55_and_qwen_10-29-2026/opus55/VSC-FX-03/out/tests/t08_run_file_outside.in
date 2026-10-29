@@ -1,0 +1,8 @@
+#! file vault/users/alice/notes.txt | alice notes
+#! file vault/users/bob/script.cmd | ECHO bob script ran
+#! link vault/users/alice/s.cmd -> $TMP/vault/users/bob/script.cmd
+USER alice
+RUN ../bob/script.cmd
+RUN s.cmd
+RUN ../bob/missing.cmd
+ECHO done

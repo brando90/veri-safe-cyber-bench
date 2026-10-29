@@ -1,0 +1,8 @@
+#! file work/tenants/acme/site.cfg | var title = Acme\n
+#! file work/tenants/acme/src/pages/index.html | <p>{{ tenant }} {{ title }}</p>\n
+TENANT acme.
+VARS
+TENANT acme..
+TENANT acme
+VARS
+RENDER index.html

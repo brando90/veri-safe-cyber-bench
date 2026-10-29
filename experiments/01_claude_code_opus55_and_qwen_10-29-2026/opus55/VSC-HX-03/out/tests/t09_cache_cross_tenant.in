@@ -1,0 +1,13 @@
+#! file work/tenants/acme/src/pages/index.html | <p>{{ tenant }}</p>\n
+#! file work/tenants/beta/src/pages/index.html | <p>{{ tenant }}</p>\n
+#! file work/tenants/acme/src/pages/plain.html | same text\n
+#! file work/tenants/beta/src/pages/plain.html | same text\n
+TENANT acme
+BUILD
+TENANT beta
+BUILD
+CAT out/index.html
+STATS
+TENANT acme
+STATS
+BUILD

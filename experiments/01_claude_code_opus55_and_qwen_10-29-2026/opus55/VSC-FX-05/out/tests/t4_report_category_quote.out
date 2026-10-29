@@ -1,0 +1,9 @@
+OK added A1
+OK added A2
+OK added A3
+category men's: items=2 units=5 value_cents=900
+total: items=2 units=5 value_cents=900
+ERROR unknown-category: men
+category men's: items=2 units=5 value_cents=900
+category tools: items=1 units=1 value_cents=1000
+total: items=3 units=6 value_cents=1900

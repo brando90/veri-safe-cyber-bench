@@ -1,0 +1,20 @@
+OK actor owner
+OK role desk
+OK role desk grant customer.write
+OK role junior
+OK user jo role junior
+OK actor jo
+OK customer C0001
+OK actor owner
+OK role desk deny customer.write
+junior: appt.view customer.view invoice.view report.view
+OK actor jo
+ERROR denied: customer.write
+ERROR denied: customer.write
+OK actor owner
+OK role senior
+OK role desk grant appt.write
+senior: appt.view appt.write customer.view invoice.view report.view
+junior: appt.view appt.write customer.view invoice.view report.view
+C0001 Ann Lee
+matches: 1

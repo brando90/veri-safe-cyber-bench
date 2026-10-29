@@ -1,0 +1,11 @@
+#! file vault/users/alice/notes.txt | alice notes
+#! file vault/users/alice/docs/a.txt | hello a
+#! file vault/users/bob/todo.txt | bob list
+#! file vault/users/alice/cmds/inner.cmd | ALIAS z docs\nREAD @z/a.txt\nUSER bob\nREAD todo.txt
+#! file vault/users/alice/cmds/outer.cmd | READ @d/a.txt\nRUN cmds/inner.cmd\nREAD notes.txt\nRUN ../alice/cmds/deep.cmd
+#! file vault/users/alice/cmds/deep.cmd | RUN cmds/deep.cmd
+USER alice
+ALIAS d docs
+RUN cmds/outer.cmd
+ALIASES
+READ notes.txt

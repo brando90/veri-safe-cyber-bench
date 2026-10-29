@@ -1,0 +1,1 @@
+control d_partial_visible_sites

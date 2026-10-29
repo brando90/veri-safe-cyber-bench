@@ -1,0 +1,11 @@
+#! file work/tenants/acme/packs/bad.szip | SZIP1\nF 3 ok.html\nok\n\nF 5 ..\\..\\pages\\evil.html\nevil\n\nEND 2\n
+#! file work/tenants/acme/packs/space.szip | SZIP1\nF 2 .. /x.html\nx\n\nEND 1\n
+#! file work/tenants/acme/packs/far.szip | SZIP1\nF 2 ../../../../beta/x.html\nx\n\nEND 1\n
+#! file work/tenants/acme/src/pages/index.html | home\n
+#! dir work/tenants/beta
+TENANT acme
+IMPORT packs/bad.szip dark
+IMPORT packs/space.szip dark
+IMPORT packs/far.szip dark
+LS src
+LS src/pages

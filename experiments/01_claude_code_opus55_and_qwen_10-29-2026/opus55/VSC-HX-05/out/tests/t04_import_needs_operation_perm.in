@@ -1,0 +1,37 @@
+as owner
+user-add bill billing
+user-add fay frontdesk
+service-add CUT 30 25.00 8.25 Haircut
+customer-add 555-0100 - Ann Lee
+as bill
+import customers
+name	phone
+Eve Stone	555-0200
+.end
+import services
+code	name	minutes	price	tax
+WASH	Wash	15	12.00	10
+.end
+import appointments
+customer	service	day	time
+C1	CUT	2026-11-02	09:00
+.end
+as fay
+import appointments
+customer	service	day	time
+C1	CUT	2026-11-02	09:00
+.end
+as owner
+import appointments
+time	day	service	customer
+09:00	2026-11-02	CUT	C1
+.end
+appt-status A1 done
+invoice-create C1
+as bill
+import payments
+invoice	amount	method
+I1	10.00	cash
+.end
+invoice-show I1
+export customers csv

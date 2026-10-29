@@ -1,0 +1,8 @@
+#! file vault/users/alice/notes.txt | alice notes
+#! file vault/users/bob/todo.txt | bob secret
+#! file vault/users/alice/setup.cmd | ECHO start\nREAD ../bob/todo.txt\nLIST ../bob\nALIAS x ../bob\nREAD @x/todo.txt\nLIST @x\nEXPORT n @x\nREAD notes.txt\nECHO end
+USER alice
+RUN setup.cmd
+ALIASES
+TOC n
+ECHO back

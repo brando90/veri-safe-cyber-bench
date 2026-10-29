@@ -1,0 +1,11 @@
+OK tenant acme
+OK set part
+<p><nav>acme</nav></p>
+OK set part
+DENIED: outside tenant
+DENIED: outside tenant
+src/
+OK set part
+DENIED: outside tenant
+OK set part
+<p><nav>acme</nav></p>

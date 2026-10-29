@@ -1,0 +1,11 @@
+OK tenant acme
+<html>Page A|
+<div class="docs">body of a
+</div>
+</html>
+BUILT a.html -> out/a.html
+BUILD ok: 1 pages, 0 cached
+<html>Page A|
+<div class="docs">body of a
+</div>
+</html>

@@ -1,0 +1,13 @@
+OK actor owner
+OK customer C0001
+OK customer C0001 note
+OK customer C0002
+OK user mia role manager
+seq	actor	action	object	detail
+1	owner	customer.add	C0001	name="Ann Lee" phone="555-0100" email="-" note=""
+2	owner	customer.note	C0001	note="first\\tsecond \\\\ back \\"q\\""
+3	owner	customer.add	C0002	name="Bob \\"B\\" O'Neil, Jr" phone="555-0101" email="-" note=""
+4	owner	user.add	mia	role="manager"
+#3 owner customer.add C0002 name="Bob \"B\" O'Neil, Jr" phone="555-0101" email="-" note=""
+#4 owner user.add mia role="manager"
+entries: 2

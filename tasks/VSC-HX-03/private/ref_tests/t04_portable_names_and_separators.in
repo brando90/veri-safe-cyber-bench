@@ -1,0 +1,25 @@
+#! file work/tenants/acme/site.cfg | # starter kit\nvar title = Starter\nvar theme = plain\nplugin footer -- acme\n
+#! file work/tenants/acme/src/pages/index.html | ---\nheading: Welcome\nlayout: base.html\n---\n<h1>{{ heading }}</h1>\n{% include "partials/nav.html" %}\n<link rel="stylesheet" href="{% asset "css/site.css" %}">\n
+#! file work/tenants/acme/src/pages/about.html | ---\nlayout: base.html\n---\n<p>About {{ title|escape }}</p>\n
+#! file work/tenants/acme/src/partials/nav.html | <nav>{{ title }}</nav>
+#! file work/tenants/acme/src/layouts/base.html | <html>\n<head><title>{{ title }}</title></head>\n<body>\n{{ content }}</body>\n</html>\n
+#! file work/tenants/acme/src/assets/css/site.css | @import "base.css";\nbody { color: #333 }\n
+#! file work/tenants/acme/src/assets/css/base.css | * { box-sizing: border-box }\n
+#! file work/tenants/acme/src/themes/plain/header.html | <header>plain</header>\n
+#! file work/tenants/docs.v2/src/pages/index.html | docs v2\n
+#! file work/tenants/acme/src/assets/img/café.png | IMG-NFC
+#! file work/tenants/acme/src/pages/sep.html | {% include "partials\\nav.html" %}|{% include "partials/nav.html." %}|{% include "/partials//nav.html" %}\n{% asset "img\\café.png" %}\n
+TENANT acme
+CAT src\partials\nav.html
+CAT src/partials/nav.html. 
+CAT src/partials./nav.html
+CAT /src/partials/nav.html
+RENDER sep.html
+ASSET img/café.png
+LS src\assets\img
+TENANT docs.v2
+RENDER index.html
+BUNDLE v2.css ..\..\..\acme\src\assets\css\base.css
+TENANT acme
+BUNDLE v2.css css\base.css
+CAT out\assets\v2.css

@@ -1,0 +1,52 @@
+#! file work/tenants/acme/src/pages/index.html | hi\n
+#! file work/tenants/acme/src/pages/badtpl.html | {% bogus %}\n
+#! file work/tenants/acme/src/pages/badif.html | {% if x %}no end\n
+#! file work/tenants/acme/src/pages/badfm.html | ---\nnot a pair\n---\nx\n
+#! file work/tenants/acme/src/pages/loop.html | {% include "pages/loop.html" %}
+#! file work/tenants/acme/src/pages/l1.html | ---\nlayout: l1.html\n---\nx\n
+#! file work/tenants/acme/src/layouts/l1.html | ---\nlayout: l1.html\n---\n{{ content }}
+#! file work/tenants/acme/src/assets/css/self.css | @import "self.css";\n.s {}\n
+#! file work/tenants/badcfg/site.cfg | var ok = 1\nnonsense here\n
+#! file work/tenants/badplug/site.cfg | plugin teleport x\n
+#! file work/tenants/badargs/site.cfg | plugin rename onlyone\n
+#! file work/tenants/badcopy/site.cfg | plugin copy pages/index.html x\n
+#! file work/tenants/badcopy/src/pages/index.html | x\n
+CAT x
+FROBNICATE
+TENANT
+TENANT a b
+TENANT a/b
+TENANT ..
+TENANT nobody
+TENANT badcfg
+TENANT badplug
+TENANT badargs
+TENANT badcopy
+BUILD
+TENANT acme
+SET 9bad x
+SET
+RENDER
+RENDER badtpl.html
+RENDER badif.html
+RENDER badfm.html
+RENDER loop.html
+RENDER l1.html
+RENDER missing.html
+RENDER .
+CAT src/pages
+LS src/pages/index.html
+LS nothing
+CAT aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+BUNDLE x.css
+BUNDLE x.css css/self.css
+BUNDLE x/y.css css/self.css
+BUNDLE .. css/self.css
+EXPORT
+EXPORT bad.
+TOC ..
+IMPORT a
+IMPORT src/pages/index.html t
+BUILD now
+PLUGINS extra
+ECHO done

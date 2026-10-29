@@ -1,0 +1,7 @@
+image a 16777216 1 1
+rle 16777216*7
+end
+image b 1 1 1
+rle 3
+end
+concat c a b h

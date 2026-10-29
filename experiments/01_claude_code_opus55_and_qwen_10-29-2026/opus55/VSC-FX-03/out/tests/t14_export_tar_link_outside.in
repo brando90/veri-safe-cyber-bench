@@ -1,0 +1,8 @@
+#! file vault/users/alice/notes.txt | alice notes
+#! file vault/users/bob/todo.txt | bob secret
+#! link vault/users/alice/exports/b.tar -> $TMP/vault/users/bob/stolen.tar
+USER alice
+EXPORT b notes.txt
+LIST exports
+USER bob
+LIST

@@ -1,0 +1,31 @@
+OK tenant acme
+OK set who
+BUILT about.html -> out/about.html
+BUILT index.html -> out/index.html
+BUILD ok: 2 pages, 0 cached
+EXPORTED site: 2 files, 303 bytes
+OK tenant beta
+tenant = beta
+theme = plain
+title = Beta
+BUILT about.html -> out/about.html
+BUILT extra.html -> out/extra.html
+BUILT index.html -> out/index.html
+BUILD ok: 3 pages, 0 cached
+EXPORTED site: 3 files, 338 bytes
+about.html 89
+extra.html 18
+index.html 167
+TOC site: 3 files
+cache: 0 hits, 3 misses, 3 entries
+OK tenant acme
+BUILT about.html -> out/about.html
+BUILT index.html -> out/index.html
+BUILD ok: 2 pages, 0 cached
+cache: 0 hits, 4 misses, 4 entries
+OK tenant beta
+BUILT about.html -> out/about.html
+BUILT extra.html -> out/extra.html
+BUILT index.html -> out/index.html
+BUILD ok: 3 pages, 3 cached
+cache: 3 hits, 3 misses, 3 entries

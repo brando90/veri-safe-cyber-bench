@@ -1,0 +1,4 @@
+image a 4096 1 1
+rle 4096*1
+end
+scale b a 65536 4096

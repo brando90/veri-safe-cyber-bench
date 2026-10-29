@@ -1,0 +1,19 @@
+as owner
+role-add desk viewer
+role-grant desk customer.write
+role-add junior desk
+user-add jo junior
+as jo
+customer-add 555-0100 - Ann Lee
+as owner
+role-deny desk customer.write
+perms junior
+as jo
+customer-add 555-0101 - Bob Ray
+customer-note C1 hello
+as owner
+role-add senior desk
+role-grant desk appt.write
+perms senior
+perms junior
+customer-find a

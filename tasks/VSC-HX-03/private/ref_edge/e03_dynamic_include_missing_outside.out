@@ -1,0 +1,9 @@
+OK tenant acme
+OK set base
+DENIED: outside tenant
+OK set base
+DENIED: outside tenant
+OK set base
+<header>plain</header>
+
+-- acme

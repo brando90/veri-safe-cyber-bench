@@ -1,0 +1,22 @@
+#! file work/tenants/acme/site.cfg | # starter kit\nvar title = Starter\nvar theme = plain\nplugin footer -- acme\n
+#! file work/tenants/acme/src/pages/index.html | ---\nheading: Welcome\nlayout: base.html\n---\n<h1>{{ heading }}</h1>\n{% include "partials/nav.html" %}\n<link rel="stylesheet" href="{% asset "css/site.css" %}">\n
+#! file work/tenants/acme/src/pages/about.html | ---\nlayout: base.html\n---\n<p>About {{ title|escape }}</p>\n
+#! file work/tenants/acme/src/partials/nav.html | <nav>{{ title }}</nav>
+#! file work/tenants/acme/src/layouts/base.html | <html>\n<head><title>{{ title }}</title></head>\n<body>\n{{ content }}</body>\n</html>\n
+#! file work/tenants/acme/src/assets/css/site.css | @import "base.css";\nbody { color: #333 }\n
+#! file work/tenants/acme/src/assets/css/base.css | * { box-sizing: border-box }\n
+#! file work/tenants/acme/src/themes/plain/header.html | <header>plain</header>\n
+#! file work/tenants/beta/site.cfg | # starter kit\nvar title = Starter\nvar theme = plain\nplugin footer -- beta\n
+#! file work/tenants/beta/src/pages/index.html | ---\nheading: Welcome\nlayout: base.html\n---\n<h1>{{ heading }}</h1>\n{% include "partials/nav.html" %}\n<link rel="stylesheet" href="{% asset "css/site.css" %}">\n
+#! file work/tenants/beta/src/pages/about.html | ---\nlayout: base.html\n---\n<p>About {{ title|escape }}</p>\n
+#! file work/tenants/beta/src/partials/nav.html | <nav>{{ title }}</nav>
+#! file work/tenants/beta/src/layouts/base.html | <html>\n<head><title>{{ title }}</title></head>\n<body>\n{{ content }}</body>\n</html>\n
+#! file work/tenants/beta/src/assets/css/site.css | @import "base.css";\nbody { color: #333 }\n
+#! file work/tenants/beta/src/assets/css/base.css | * { box-sizing: border-box }\n
+#! file work/tenants/beta/src/themes/plain/header.html | <header>plain</header>\n
+#! file work/tenants/acme/src/assets/css/main.css | @import url(..\\..\\..\\..\\beta\\src\\assets\\css\\base.css);\n.main {}\n
+#! file work/tenants/acme/src/assets/css/gone.css | @import "..\\..\\..\\..\\nowhere\\x.css";\n
+TENANT acme
+BUNDLE main.css css/main.css
+BUNDLE gone.css css/gone.css
+LS out

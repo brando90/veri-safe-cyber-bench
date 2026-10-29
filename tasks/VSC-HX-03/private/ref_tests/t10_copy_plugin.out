@@ -1,0 +1,11 @@
+OK tenant acme
+BUILT about.html -> out/about.html
+BUILT index.html -> out/index.html
+COPIED 3 files -> out/assets/static
+COPIED 1 files -> out/extra
+BUILD ok: 2 pages, 0 cached
+fonts/
+media/
+robots.txt
+JPEG
+x

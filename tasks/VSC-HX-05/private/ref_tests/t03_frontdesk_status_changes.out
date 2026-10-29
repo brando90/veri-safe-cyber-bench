@@ -1,0 +1,35 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK actor fay
+OK appointment A0001
+OK appointment A0002
+OK appointment A0003
+OK appointment A0004
+OK appointment A0005
+OK A0001 booked -> done
+OK A0002 booked -> done
+OK A0003 booked -> done
+OK A0004 booked -> noshow
+OK appointment A0006
+OK A0005 booked -> noshow
+OK A0006 booked -> done
+ERROR bad-transition: A0006 done -> noshow
+ERROR bad-status: later
+OK actor tom
+OK appointment A0007
+OK A0007 booked -> done
+ERROR denied: customer.write
+ERROR denied: customer.write
+A0006 11:00-11:30 C0003 CUT done
+A0007 12:00-12:20 C0003 TRIM done
+appointments: 2

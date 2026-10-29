@@ -1,0 +1,8 @@
+record 0
+  time: 42
+  level: ERROR
+  fields: 3
+  field 1 (host) len=6: "host-a"
+  field 9 len=0: ""
+  field 2 (pid) len=4: "1234"
+  message (0 bytes): ""

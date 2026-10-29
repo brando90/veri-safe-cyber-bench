@@ -1,0 +1,9 @@
+# an evicted id is gone: opening it again creates a fresh session
+open web 40
+open web
+evict web
+open web 24
+dump
+close web
+close web
+stats

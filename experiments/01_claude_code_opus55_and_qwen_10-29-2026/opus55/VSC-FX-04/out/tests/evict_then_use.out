@@ -1,0 +1,11 @@
+ok opened a size=32
+ok opened b size=8
+ok evicted a
+error: no such session
+error: no such session
+error: no such session
+error: no such session
+dump: 1 sessions
+  b refs=1 pins=0 size=8 sum=980 idle=6
+stats: sessions=1 pinned=0 pinned_bytes=0 pool=8/8192
+stats: opened=2 reopened=0 closed=0 evicted=1 expired=0 open_failed=0 pinned_skips=0 errors=4

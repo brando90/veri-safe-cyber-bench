@@ -1,0 +1,22 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK imported 2 customers
+#12 owner customer.add C0004 name="Pat \"Patch\" Doyle" phone="555-1200" email="-" note="plain"
+#13 owner customer.add C0005 name="Quinn Roe" phone="555-1201" email="-" note="likes \"quiet\" chair"
+entries: 2
+customer C0004
+name: Pat "Patch" Doyle
+phone: 555-1200
+email: -
+note: plain
+status: active

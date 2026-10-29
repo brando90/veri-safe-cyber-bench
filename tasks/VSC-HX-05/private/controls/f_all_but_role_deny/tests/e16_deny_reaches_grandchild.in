@@ -1,0 +1,26 @@
+as owner
+user-add fay frontdesk
+user-add bill billing
+user-add tom trainee
+user-add mia manager
+service-add CUT 30 25.00 8.25 Haircut
+service-add WASH 15 12.25 10 Wash and dry
+service-add TRIM 20 18.50 8.25 Beard trim
+service-add COLOR 60 49.99 20 Colour treatment
+customer-add 555-0100 ann@example.com Ann O'Neil
+customer-add 555-0101 - Bob Jones
+customer-add 555-0102 cy@example.org Cy Park
+role-add senior frontdesk
+role-add junior senior
+role-add intern junior
+user-add jo intern
+as jo
+customer-add 555-1900 - First client
+as owner
+perms intern
+role-deny senior customer.write
+perms junior
+perms intern
+as jo
+customer-add 555-1901 - Second client
+customer-find client

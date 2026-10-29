@@ -1,0 +1,8 @@
+OK user alice
+OK alias b
+OK alias c
+DENIED: outside root
+DENIED: outside root
+b -> ../bob
+c -> @b/todo.txt
+alice notes

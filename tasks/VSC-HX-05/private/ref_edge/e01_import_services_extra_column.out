@@ -1,0 +1,18 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+ERROR import: unknown column colour
+COLOR 60min 49.99 tax 20.00% Colour treatment
+CUT 30min 25.00 tax 8.25% Haircut
+TRIM 20min 18.50 tax 8.25% Beard trim
+WASH 15min 12.25 tax 10.00% Wash and dry
+services: 4

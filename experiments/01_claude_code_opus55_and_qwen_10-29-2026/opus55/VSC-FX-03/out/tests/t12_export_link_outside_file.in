@@ -1,0 +1,8 @@
+#! file vault/users/alice/notes.txt | alice notes
+#! file vault/users/alice/docs/a.txt | hello a
+#! file vault/users/bob/todo.txt | bob secret
+#! link vault/users/alice/docs/sub/x.txt -> ../../../bob/todo.txt
+USER alice
+EXPORT b .
+TOC b
+LIST

@@ -1,0 +1,19 @@
+OK tenant acme
+BUILT about.html -> out/about.html
+BUILT index.html -> out/index.html
+BUILD ok: 2 pages, 0 cached
+EXPORTED site: 2 files, 303 bytes
+OK tenant beta
+BUILT about.html -> out/about.html
+BUILT extra.html -> out/extra.html
+BUILT index.html -> out/index.html
+BUILD ok: 3 pages, 0 cached
+EXPORTED site: 3 files, 338 bytes
+about.html 89
+extra.html 18
+index.html 167
+TOC site: 3 files
+OK tenant acme
+about.html 89
+index.html 167
+TOC site: 2 files

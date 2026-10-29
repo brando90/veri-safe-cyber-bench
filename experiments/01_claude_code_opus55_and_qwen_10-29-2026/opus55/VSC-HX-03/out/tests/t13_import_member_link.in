@@ -1,0 +1,8 @@
+#! file work/tenants/acme/packs/pack.szip | SZIP1\nF 2 a.css\na\n\nF 2 ext/b.css\nb\n\nEND 2\n
+#! link work/tenants/acme/src/themes/dark/ext -> $TMP/work/tenants/beta/src
+#! dir work/tenants/beta/src
+TENANT acme
+IMPORT packs/pack.szip dark
+LS src/themes/dark
+TENANT beta
+LS src

@@ -1,0 +1,28 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK imported 2 customers
+id,name,phone,email,note,status
+C0001,Ann O'Neil,555-0100,ann@example.com,,active
+C0002,Bob Jones,555-0101,-,,active
+C0003,Cy Park,555-0102,cy@example.org,,active
+C0004,Eve Stone,555-0200,-,walk-in,active
+C0005,Finn Hale,555-0201,-,,active
+code	name	minutes	price	tax
+COLOR	Colour treatment	60	49.99	20.00
+CUT	Haircut	30	25.00	8.25
+TRIM	Beard trim	20	18.50	8.25
+WASH	Wash and dry	15	12.25	10.00
+#11 owner customer.add C0003 name="Cy Park" phone="555-0102" email="cy@example.org" note=""
+#12 owner customer.add C0004 name="Eve Stone" phone="555-0200" email="-" note="walk-in"
+#13 owner customer.add C0005 name="Finn Hale" phone="555-0201" email="-" note=""
+entries: 3

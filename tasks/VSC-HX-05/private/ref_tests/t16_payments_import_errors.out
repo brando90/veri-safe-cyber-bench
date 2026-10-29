@@ -1,0 +1,32 @@
+OK actor owner
+OK user fay role frontdesk
+OK user bill role billing
+OK user tom role trainee
+OK user mia role manager
+OK service CUT
+OK service WASH
+OK service TRIM
+OK service COLOR
+OK customer C0001
+OK customer C0002
+OK customer C0003
+OK actor fay
+OK appointment A0001
+OK appointment A0002
+OK appointment A0003
+OK appointment A0004
+OK appointment A0005
+OK A0001 booked -> done
+OK A0002 booked -> done
+OK A0003 booked -> done
+OK A0004 booked -> noshow
+OK actor bill
+OK invoice I0001 total 40.54
+ERROR import: line 3: overpayment: I0001 balance 20.54
+OK imported 2 payments
+invoice I0001 customer C0001 status open discount 0%
+line 1 A0001 CUT price=25.00 discount=0.00 net=25.00 tax=2.06 total=27.06
+line 2 A0002 WASH price=12.25 discount=0.00 net=12.25 tax=1.23 total=13.48
+net=37.25 tax=3.29 total=40.54 paid=38.38 balance=2.16
+OK payment P0003 balance 1.16
+ERROR import: line 2: unknown-invoice: I0009

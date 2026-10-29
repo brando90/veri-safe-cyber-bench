@@ -1,0 +1,6 @@
+OK tenant acme
+DENIED: outside tenant
+site.cfg
+src/
+OK tenant beta
+(empty)

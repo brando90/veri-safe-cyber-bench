@@ -1,0 +1,17 @@
+#! file vault/users/alice/notes.txt | alice notes
+#! file vault/users/alice/docs/a.txt | hello a
+#! file vault/users/alice/docs/sub/b.txt | hello b
+#! file vault/users/alice/other/c.txt | ccc
+#! link vault/users/alice/docs/lo -> ../other
+#! link vault/users/alice/docs/la -> a.txt
+#! link vault/users/alice/docs/loop -> $TMP/vault/users/alice/docs
+#! link vault/users/alice/docs/dangling -> nothere
+USER alice
+EXPORT one docs
+TOC one
+ALIAS d docs/..
+EXPORT all @d
+TOC all
+EXPORT all2 . notes.txt
+TOC all2
+LIST exports

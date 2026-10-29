@@ -1,0 +1,14 @@
+# setup
+
+customer-add 555-0100 - Nobody's customer
+as ghost
+as owner
+customer-add 12 - Short phone
+customer-add 555-0100 not-an-email Name
+service-add cut 30 25.00 8.25 Lower case code
+service-add CUT 7 25.00 8.25 Odd minutes
+service-add CUT 30 25.001 8.25 Too many decimals
+book C1 CUT 2026-02-30 09:00
+frobnicate
+report
+pay I1 10 card

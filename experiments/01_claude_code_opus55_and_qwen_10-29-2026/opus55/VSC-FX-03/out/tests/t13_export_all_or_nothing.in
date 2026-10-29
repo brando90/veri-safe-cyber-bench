@@ -1,0 +1,11 @@
+#! file vault/users/alice/notes.txt | alice notes
+#! file vault/users/alice/docs/a.txt | hello a
+#! file vault/users/bob/todo.txt | bob secret
+#! link vault/users/alice/bad/deep/ext -> $TMP/vault/users/bob
+USER alice
+EXPORT b notes.txt
+TOC b
+EXPORT b notes.txt docs bad
+TOC b
+EXPORT b docs ../bob
+TOC b
