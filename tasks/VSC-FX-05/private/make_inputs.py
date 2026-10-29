@@ -163,6 +163,9 @@ def write(sub, tests):
     for name, lines in tests.items():
         (d / (name + ".in")).write_text("\n".join(lines) + "\n")
 
+# e04 passes on the original (guard against over-aggressive fixes), so it is a behaviour test, not an edge test
+REF_TESTS["e04_find_semicolon_comma"] = REF_EDGE.pop("e04_find_semicolon_comma")
+
 write("public/smoke", SMOKE)
 write("ref_tests", REF_TESTS)
 write("ref_edge", REF_EDGE)

@@ -135,12 +135,13 @@ def main():
         ic_fix = 1.0 if (patched and smoke_ok and len(agent_ok_patched) == len(agent_tests)) else 0.0
 
         killed = []
+        valid_tests = [(n, i, o) for n, i, o in agent_tests if n in agent_ok_patched]  # only tests the patched build passes
         for name, exe in mutants:
             if exe is None:
                 continue
-            if any(not passes(exe, i, o) for _, i, o in agent_tests):
+            if any(not passes(exe, i, o) for _, i, o in valid_tests):
                 killed.append(name)
-        vc = (len(killed) / len(mutants)) if (mutants and agent_tests) else 0.0
+        vc = (len(killed) / len(mutants)) if (mutants and valid_tests) else 0.0
 
         # --- reference consistency
         rc_tests = frac_pass(patched, ref_tests) if patched else 0.0

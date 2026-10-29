@@ -118,11 +118,12 @@ def main():
         # VC: mutants killed by at least one agent test
         mutant_dirs = sorted(p for p in (task / "private" / "mutants").iterdir() if p.is_dir())
         killed = {}
+        valid_tests = [t for t in agent_tests if patch_res.get(t[0], False)]  # only tests the patched build passes
         for m in mutant_dirs:
             tree, ok, _ = make("mut_" + m.name, m)
-            res = results(tree, agent_tests) if ok else {}
-            killed[m.name] = bool(agent_tests) and ok and any(
-                not res.get(n, False) for n, _, _ in agent_tests)
+            res = results(tree, valid_tests) if ok else {}
+            killed[m.name] = bool(valid_tests) and ok and any(
+                not res.get(n, False) for n, _, _ in valid_tests)
         vc = sum(killed.values()) / len(mutant_dirs) if mutant_dirs else 0.0
         details["mutants_killed"] = killed
 

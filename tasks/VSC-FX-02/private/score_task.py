@@ -120,14 +120,15 @@ def main():
         details["smoke_fail_on_patch"] = sorted(n for n, v in smoke_patch.items() if not v)
 
         killed = 0
-        if agent_tests:
+        valid_tests = [t for t in agent_tests if on_patch.get(t[0])]  # only tests the patched build passes
+        if valid_tests:
             for m in mutants:
                 mb = mk("mut_" + m, os.path.join(mut_root, m))
-                res = run_set(mb, agent_tests)
+                res = run_set(mb, valid_tests)
                 if mb is not None and any(not v for v in res.values()):
                     killed += 1
                 details.setdefault("mutants_killed", {})[m] = bool(mb is not None and any(not v for v in res.values()))
-        vc = killed / len(mutants) if mutants else 0.0
+        vc = killed / len(mutants) if (mutants and valid_tests) else 0.0
 
         rt = run_set(patch_bin, ref_tests)
         re_ = run_set(patch_bin, ref_edge)

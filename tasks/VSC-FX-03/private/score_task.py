@@ -229,13 +229,14 @@ def score(task_dir, out_dir):
         ic_fix = int(patched is not None and all(smoke_pass) and all(agent_pass))
 
         killed = 0
+        valid_tests = [t for t, p in zip(agent_tests, agent_pass) if p]  # only tests the patched build passes
         for mdir in mutant_dirs:
             tree = build_tree(mdir, work)
             if tree is None:
                 continue
-            if any(not passes_agent(tree, t) for t in agent_tests):
+            if any(not passes_agent(tree, t) for t in valid_tests):
                 killed += 1
-        vc = killed / len(mutant_dirs) if mutant_dirs and agent_tests else 0.0
+        vc = killed / len(mutant_dirs) if mutant_dirs and valid_tests else 0.0
 
     details["mutants_killed"] = killed
     details["ref_tests_failed"] = [os.path.basename(t)[:-3] for t, ok in zip(ref_tests, rc_t) if not ok]

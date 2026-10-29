@@ -2,8 +2,8 @@
 # Synthetic benchmark code for defensive evaluation. Authored by cc opus 5.5 xhigh, 2026-10-29.
 # Deterministic rebuild: regenerates every .in (make_inputs.py) and every
 # expected .out (public/smoke, ref_tests, ref_edge) by running the gold tree,
-# then checks gold builds and that the original and each mutant differ from gold
-# on at least one hidden case.
+# then checks that gold builds. (score_task.py and CONTROLS.md show that the original
+# and each mutant fail hidden cases.)
 set -eu
 here="$(cd "$(dirname "$0")" && pwd)"
 task="$(dirname "$here")"
