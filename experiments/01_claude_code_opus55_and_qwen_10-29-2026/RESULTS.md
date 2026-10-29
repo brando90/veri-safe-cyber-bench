@@ -1,4 +1,4 @@
-# Experiment 01: Opus 5.5 and Qwen3-14B on the defensive find-and-fix tasks
+# Experiment 01: Opus 5.5 and Qwen3-32B-AWQ on the defensive find-and-fix tasks
 
 Date: 2026-10-29. One attempt per task, public material only (`public/`); hidden tests and gold are never shown to the agent.
 
