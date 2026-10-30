@@ -1,0 +1,2515 @@
+user u1 added
+user u2 added
+user u3 added
+user u4 added
+user u5 added
+user u6 added
+user u7 added
+user u8 added
+published pk00 1.0.0 (1 KiB)
+published pk01 1.0.0 (4 KiB)
+published pk02 1.0.0 (2 KiB)
+published pk03 1.0.0 (8 KiB)
+fetched pk02 1.0.0
+published pk04 1.0.0 (2 KiB)
+fetched pk00 1.0.0
+published pk02 1.1.0 (9 KiB)
+fetched pk00 1.0.0
+published pk00 1.1.0 (9 KiB)
+published pk04 1.1.0 (10 KiB)
+yanked pk00 1.1.0
+published pk05 1.0.0 (3 KiB)
+fetched pk05 1.0.0
+clock 14460
+fetched pk03 1.0.0
+fetched pk03 1.0.0
+invited u4 to pk00 as maintainer until 100860
+u4 is now maintainer of pk00
+published pk06 1.0.0 (6 KiB)
+fetched pk03 1.0.0
+quota u1 used=22 KiB limit=10240 KiB
+tag pk04 next -> 1.1.0
+fetched pk06 1.0.0
+published pk03 1.0.1 (6 KiB)
+published pk05 1.1.0 (2 KiB)
+fetched pk04 1.1.0
+clock 21780
+fetched pk01 1.0.0
+published pk02 1.2.0 (1 KiB)
+fetched pk04 1.1.0
+pk01 ~1.0 -> 1.0.0
+quota u2 used=0 KiB limit=10240 KiB
+yanked pk02 1.2.0
+published pk04 1.2.0 (12 KiB)
+published pk02 1.2.1 (3 KiB)
+yanked pk04 1.1.0
+published pk02 1.3.0 (4 KiB)
+yanked pk03 1.0.0
+error: no version of pk00 matches ~1.1
+published pk02 1.4.0 (2 KiB)
+fetched pk00 1.0.0
+fetched pk05 1.1.0
+tag pk00 next -> 1.0.0
+package pk06 visibility=public latest=1.0.0 downloads=1 releases=1
+  1.0.0 5960 B by=u6 at=14460 deps=pk05@^1 downloads=1
+fetched pk01 1.0.0
+lock set55 (3 packages)
+  pk03 1.0.1
+  pk04 1.2.0
+  pk05 1.1.0
+digest c8834309af59
+clock 23760
+tag pk06 next -> 1.0.0
+fetched pk06 1.0.0
+published pk06 1.0.1 (9 KiB)
+published pk02 1.5.0 (1 KiB)
+published pk00 1.2.0 (2 KiB)
+fetched pk03 1.0.1
+published pk06 1.0.2 (4 KiB)
+fetched pk00 1.2.0
+published pk07 1.0.0 (7 KiB)
+tag pk06 next -> 1.0.0
+fetched pk00 1.2.0
+published pk06 1.0.3 (5 KiB)
+invited u7 to pk03 as maintainer until 110160
+u7 is now maintainer of pk03
+published pk08 1.0.0 (4 KiB)
+tag pk06 next -> 1.0.3
+quota u5 used=23 KiB limit=10240 KiB
+published pk07 1.1.0 (7 KiB)
+published pk06 1.0.4 (2 KiB)
+fetched pk03 1.0.1
+published pk09 1.0.0 (8 KiB)
+tag pk03 next -> 1.0.1
+lock set79 (3 packages)
+  pk00 1.2.0
+  pk03 1.0.1
+  pk04 1.2.0
+digest 9165ac924242
+tag pk04 next -> 1.1.0
+fetched pk01 1.0.0
+published pk10 1.0.0 (2 KiB)
+fetched pk10 1.0.0
+fetched pk01 1.0.0
+published pk03 2.0.0 (12 KiB)
+published pk05 1.1.1 (5 KiB)
+top releases:
+  1. pk02 7
+  2. pk06 5
+  3. pk00 3
+fetched pk08 1.0.0
+tag pk10 next -> 1.0.0
+published pk07 1.2.0 (7 KiB)
+published pk11 1.0.0 (6 KiB)
+published pk02 1.5.1 (10 KiB)
+published pk01 1.1.0 (1 KiB)
+yanked pk04 1.2.0
+fetched pk06 1.0.4
+fetched pk06 1.0.4
+fetched pk02 1.5.1
+published pk06 1.1.0 (3 KiB)
+invited u7 to pk06 as maintainer until 110160
+u7 is now maintainer of pk06
+published pk12 1.0.0 (9 KiB)
+published pk07 1.2.1 (9 KiB)
+clock 56880
+fetched pk12 1.0.0
+fetched pk09 1.0.0
+published pk06 1.2.0 (8 KiB)
+tag pk10 next -> 1.0.0
+fetched pk00 1.2.0
+fetched pk10 1.0.0
+invited u3 to pk11 as maintainer until 143280
+u3 is now maintainer of pk11
+tag pk02 next -> 1.2.1
+published pk07 1.3.0 (11 KiB)
+fetched pk06 1.2.0
+yanked pk10 1.0.0
+published pk03 2.1.0 (1 KiB)
+fetched pk12 1.0.0
+fetched pk01 1.1.0
+package pk10 visibility=public latest=- downloads=2 releases=1
+  1.0.0 1610 B by=u4 at=23760 deps=pk07@^1;pk01@^1 yanked=r52 downloads=2
+tag pk07 next -> 1.2.1
+top releases:
+  1. pk02 8
+  2. pk06 7
+  3. pk07 5
+published pk13 1.0.0 (8 KiB)
+fetched pk04 1.0.0
+lock set124 (5 packages)
+  pk02 1.5.1
+  pk03 1.0.1
+  pk05 1.1.1
+  pk11 1.0.0
+  pk13 1.0.0
+digest 16cb27d145c8
+published pk11 1.1.0 (11 KiB)
+quota u6 used=45 KiB limit=10240 KiB
+yanked pk02 1.3.0
+fetched pk06 1.2.0
+package pk08 visibility=public latest=1.0.0 downloads=1 releases=1
+  1.0.0 4049 B by=u5 at=23760 deps=pk03@^1 downloads=1
+fetched pk05 1.1.1
+yanked pk13 1.0.0
+clock 90780
+lock set133 (7 packages)
+  pk01 1.1.0
+  pk02 1.5.1
+  pk03 1.0.1
+  pk04 1.0.0
+  pk05 1.1.1
+  pk07 1.3.0
+  pk12 1.0.0
+digest e9037c129b4c
+published pk14 1.0.0 (4 KiB)
+top downloads:
+  1. pk00 6
+  2. pk06 6
+  3. pk01 5
+  4. pk03 5
+  5. pk04 3
+published pk00 1.3.0 (4 KiB)
+fetched pk14 1.0.0
+published pk01 2.0.0 (11 KiB)
+fetched pk03 2.1.0
+published pk03 2.1.1 (12 KiB)
+published pk04 1.3.0 (3 KiB)
+error: no version of pk10 matches ^1
+published pk08 2.0.0 (10 KiB)
+fetched pk07 1.3.0
+clock 125940
+fetched pk01 2.0.0
+published pk00 1.3.1 (1 KiB)
+published pk15 1.0.0 (6 KiB)
+quota u5 used=51 KiB limit=10240 KiB
+published pk05 1.2.0 (1 KiB)
+yanked pk08 2.0.0
+published pk09 1.0.1 (12 KiB)
+error: no version of pk10 matches *
+pk03 ~2.1 -> 2.1.1
+package pk11 visibility=public latest=1.1.0 downloads=0 releases=2
+  1.0.0 6075 B by=u4 at=23760 deps=pk02@^1;pk03@^1
+  1.1.0 11172 B by=u3 at=56880
+published pk01 2.0.1 (12 KiB)
+tag pk11 next -> 1.1.0
+published pk14 1.0.1 (4 KiB)
+yanked pk06 1.0.4
+published pk16 1.0.0 (4 KiB)
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+error: no version of pk10 matches ^1
+published pk01 2.0.2 (9 KiB)
+invited u8 to pk15 as maintainer until 212340
+u8 is now maintainer of pk15
+published pk09 1.0.2 (11 KiB)
+published pk14 1.0.2 (10 KiB)
+fetched pk07 1.3.0
+fetched pk14 1.0.2
+published pk01 2.0.3 (8 KiB)
+fetched pk04 1.3.0
+fetched pk07 1.3.0
+pk12 ~1.0 -> 1.0.0
+published pk16 1.1.0 (11 KiB)
+published pk12 1.0.1 (1 KiB)
+tag pk01 next -> 2.0.2
+published pk06 2.0.0 (12 KiB)
+package pk09 visibility=public latest=1.0.2 downloads=1 releases=3
+  1.0.0 8050 B by=u2 at=23760 deps=pk03@^1;pk08@^1 downloads=1
+  1.0.1 11486 B by=u2 at=125940
+  1.0.2 10243 B by=u2 at=125940
+fetched pk01 2.0.3
+error: no version of pk10 matches ^1
+pk02 ~1.2 -> 1.2.1
+fetched pk05 1.2.0
+fetched pk11 1.1.0
+quota u5 used=52 KiB limit=10240 KiB
+published pk17 1.0.0 (2 KiB)
+tag pk13 next -> 1.0.0
+published pk04 2.0.0 (11 KiB)
+fetched pk07 1.3.0
+fetched pk06 1.2.0
+fetched pk11 1.1.0
+fetched pk07 1.3.0
+fetched pk07 1.3.0
+fetched pk07 1.3.0
+fetched pk11 1.1.0
+tag pk05 next -> 1.0.0
+fetched pk17 1.0.0
+yanked pk15 1.0.0
+published pk18 1.0.0 (9 KiB)
+published pk13 1.0.1 (7 KiB)
+published pk14 1.0.3 (12 KiB)
+fetched pk11 1.1.0
+fetched pk17 1.0.0
+lock set203 (4 packages)
+  pk00 1.3.1
+  pk03 1.0.1
+  pk08 1.0.0
+  pk13 1.0.1
+digest 928fe58a0ac9
+lock set204 (4 packages)
+  pk01 2.0.3
+  pk03 1.0.1
+  pk04 2.0.0
+  pk08 1.0.0
+digest 1cffc1a5b335
+clock 132180
+invited u8 to pk02 as maintainer until 218580
+u8 is now maintainer of pk02
+published pk09 2.0.0 (9 KiB)
+fetched pk05 1.2.0
+fetched pk05 1.2.0
+fetched pk07 1.3.0
+fetched pk07 1.3.0
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+  5. pk04 2
+  6. pk05 2
+  7. pk07 2
+quota u8 used=0 KiB limit=10240 KiB
+yanked pk17 1.0.0
+error: no version of pk17 matches ^1
+published pk18 2.0.0 (11 KiB)
+fetched pk07 1.3.0
+published pk18 2.1.0 (12 KiB)
+published pk13 1.0.2 (1 KiB)
+yanked pk18 1.0.0
+published pk10 2.0.0 (1 KiB)
+published pk18 2.1.1 (7 KiB)
+tag pk04 next -> 1.0.0
+yanked pk08 1.0.0
+tag pk05 next -> 1.1.0
+clock 146700
+published pk06 2.0.1 (6 KiB)
+published pk05 2.0.0 (12 KiB)
+published pk19 1.0.0 (5 KiB)
+fetched pk05 1.2.0
+published pk00 1.4.0 (4 KiB)
+yanked pk10 2.0.0
+published pk20 1.0.0 (6 KiB)
+published pk21 1.0.0 (5 KiB)
+fetched pk03 1.0.1
+package pk18 visibility=public latest=2.1.1 downloads=0 releases=4
+  1.0.0 8603 B by=u1 at=125940 deps=pk04@^1;pk11@^1 yanked=r84
+  2.0.0 10735 B by=u1 at=132180
+  2.1.0 11296 B by=u1 at=132180
+  2.1.1 6355 B by=u1 at=132180
+fetched pk01 2.0.3
+error: no version of pk10 matches *
+error: no version of pk08 matches *
+top releases:
+  1. pk06 9
+  2. pk02 8
+  3. pk00 6
+  4. pk01 6
+fetched pk00 1.4.0
+error: pk08 has no latest version
+error: no version of pk15 matches *
+tag pk20 next -> 1.0.0
+error: no version of pk08 matches ^1
+fetched pk20 1.0.0
+invited u3 to pk04 as maintainer until 233100
+u3 is now maintainer of pk04
+top releases:
+  1. pk06 9
+  2. pk02 8
+  3. pk00 6
+  4. pk01 6
+  5. pk03 5
+  6. pk04 5
+  7. pk05 5
+package pk01 visibility=public latest=2.0.3 downloads=8 releases=6
+  1.0.0 3887 B by=u4 at=0 deps=pk00@^1 downloads=4
+  1.1.0 483 B by=u4 at=23760 downloads=1
+  2.0.0 11050 B by=u4 at=90780 downloads=1
+  2.0.1 11609 B by=u4 at=125940
+  2.0.2 9174 B by=u4 at=125940
+  2.0.3 8159 B by=u4 at=125940 downloads=2
+error: pk15 has no latest version
+clock 151020
+published pk02 1.5.2 (11 KiB)
+fetched pk12 1.0.1
+yanked pk02 1.0.0
+invited u8 to pk13 as maintainer until 237420
+u8 is now maintainer of pk13
+package pk06 visibility=public latest=2.0.1 downloads=7 releases=9
+  1.0.0 5960 B by=u6 at=14460 deps=pk05@^1 downloads=2
+  1.0.1 9046 B by=u6 at=23760
+  1.0.2 4053 B by=u6 at=23760
+  1.0.3 4555 B by=u6 at=23760
+  1.0.4 1863 B by=u6 at=23760 yanked=r97 downloads=2
+  1.1.0 2773 B by=u6 at=23760
+  1.2.0 7932 B by=u6 at=56880 downloads=3
+  2.0.0 11839 B by=u6 at=125940
+  2.0.1 5483 B by=u6 at=146700
+published pk19 2.0.0 (5 KiB)
+fetched pk07 1.3.0
+published pk22 1.0.0 (8 KiB)
+published pk12 1.0.2 (5 KiB)
+yanked pk22 1.0.0
+fetched pk13 1.0.2
+package pk15 visibility=public latest=- downloads=0 releases=1
+  1.0.0 6034 B by=u1 at=125940 deps=pk08@^1 yanked=r81
+tag pk22 next -> 1.0.0
+top downloads:
+  1. pk07 11
+  2. pk01 8
+  3. pk00 7
+  4. pk03 7
+  5. pk05 7
+  6. pk06 7
+pk16 ~1.1 -> 1.1.0
+error: no version of pk10 matches ^1
+published pk15 1.1.0 (8 KiB)
+quota u8 used=11 KiB limit=10240 KiB
+error: no version of pk08 matches ^1
+package pk04 visibility=public latest=2.0.0 downloads=4 releases=5
+  1.0.0 1207 B by=u1 at=0 deps=pk03@^1;pk01@^1 downloads=1
+  1.1.0 9300 B by=u1 at=0 yanked=r80 downloads=2
+  1.2.0 11905 B by=u1 at=21780 yanked=r80
+  1.3.0 2765 B by=u1 at=90780 downloads=1
+  2.0.0 10925 B by=u1 at=125940
+published pk20 1.1.0 (11 KiB)
+pk12 ~1.0 -> 1.0.2
+fetched pk19 2.0.0
+fetched pk13 1.0.2
+yanked pk16 1.0.0
+published pk00 1.4.1 (10 KiB)
+yanked pk20 1.0.0
+published pk15 1.2.0 (7 KiB)
+fetched pk05 1.2.0
+tag pk19 next -> 1.0.0
+error: pk08 has no latest version
+error: pk08 has no latest version
+error: no version of pk10 matches ^1
+top downloads:
+  1. pk07 11
+  2. pk01 8
+  3. pk05 8
+  4. pk00 7
+  5. pk03 7
+  6. pk06 7
+published pk12 1.0.3 (9 KiB)
+fetched pk06 2.0.1
+published pk23 1.0.0 (1 KiB)
+fetched pk07 1.3.0
+published pk14 1.0.4 (10 KiB)
+published pk20 1.1.1 (11 KiB)
+top releases:
+  1. pk02 9
+  2. pk06 9
+  3. pk00 7
+  4. pk01 6
+  5. pk03 5
+fetched pk14 1.0.4
+fetched pk06 1.2.0
+error: no version of pk18 matches ^1
+fetched pk05 1.2.0
+fetched pk01 1.1.0
+published pk12 1.1.0 (12 KiB)
+pk16 ~1.1 -> 1.1.0
+error: no version of pk10 matches *
+published pk04 2.1.0 (9 KiB)
+published pk06 2.0.2 (3 KiB)
+error: no version of pk16 matches ~1.0
+lock set307 (3 packages)
+  pk00 1.4.1
+  pk01 2.0.3
+  pk13 1.0.2
+digest c2fb8485ebfe
+error: no version of pk08 matches ^2
+fetched pk13 1.0.2
+fetched pk19 2.0.0
+clock 174420
+tag pk18 next -> 1.0.0
+tag pk11 next -> 1.1.0
+fetched pk07 1.3.0
+published pk20 1.2.0 (8 KiB)
+published pk15 1.2.1 (11 KiB)
+tag pk16 next -> 1.0.0
+published pk17 1.1.0 (5 KiB)
+top downloads:
+  1. pk07 13
+  2. pk01 9
+  3. pk05 9
+  4. pk06 9
+  5. pk00 7
+  6. pk03 7
+fetched pk02 1.5.2
+lock set321 (3 packages)
+  pk07 1.3.0
+  pk13 1.0.2
+  pk16 1.1.0
+digest e78b88e0e5e5
+invited u1 to pk11 as maintainer until 260820
+u1 is now maintainer of pk11
+fetched pk14 1.0.4
+yanked pk21 1.0.0
+error: no version of pk08 matches ^2
+invited u6 to pk08 as maintainer until 260820
+u6 is now maintainer of pk08
+clock 178560
+published pk05 2.1.0 (10 KiB)
+error: no version of pk08 matches ^2
+published pk17 1.2.0 (6 KiB)
+fetched pk05 2.1.0
+published pk03 2.2.0 (3 KiB)
+fetched pk19 2.0.0
+tag pk22 next -> 1.0.0
+fetched pk12 1.1.0
+tag pk06 next -> 1.0.2
+yanked pk00 1.4.1
+unyanked pk08 1.0.0
+fetched pk03 2.2.0
+error: pk10 has no latest version
+pk18 ~2.1 -> 2.1.1
+fetched pk12 1.1.0
+fetched pk15 1.2.1
+invited u4 to pk16 as maintainer until 264960
+u4 is now maintainer of pk16
+error: no version of pk08 matches ^2
+yanked pk03 2.0.0
+published pk23 2.0.0 (4 KiB)
+fetched pk11 1.1.0
+fetched pk03 2.2.0
+yanked pk06 2.0.1
+published pk03 2.2.1 (8 KiB)
+fetched pk20 1.2.0
+fetched pk12 1.1.0
+fetched pk19 2.0.0
+fetched pk19 1.0.0
+fetched pk09 1.0.2
+fetched pk18 2.1.1
+fetched pk14 1.0.4
+tag pk00 next -> 1.2.0
+top releases:
+  1. pk06 10
+  2. pk02 9
+  3. pk00 7
+clock 212040
+fetched pk19 2.0.0
+yanked pk01 2.0.1
+fetched pk02 1.5.2
+top releases:
+  1. pk06 10
+  2. pk02 9
+  3. pk00 7
+clock 238800
+lock set370 (3 packages)
+  pk09 2.0.0
+  pk13 1.0.2
+  pk16 1.1.0
+digest ab52d7559697
+lock set371 (3 packages)
+  pk13 1.0.2
+  pk15 1.2.1
+  pk19 2.0.0
+digest b18877f93683
+fetched pk17 1.2.0
+clock 259680
+unyanked pk22 1.0.0
+published pk01 2.1.0 (7 KiB)
+published pk23 2.1.0 (11 KiB)
+published pk21 1.1.0 (12 KiB)
+fetched pk09 2.0.0
+published pk11 1.1.1 (5 KiB)
+yanked pk20 1.2.0
+published pk04 2.1.1 (11 KiB)
+fetched pk05 1.2.0
+published pk07 2.0.0 (10 KiB)
+fetched pk09 2.0.0
+published pk13 1.1.0 (7 KiB)
+clock 269940
+published pk10 2.1.0 (1 KiB)
+fetched pk01 2.1.0
+published pk05 2.1.1 (3 KiB)
+published pk01 2.2.0 (1 KiB)
+fetched pk06 2.0.2
+invited u1 to pk12 as maintainer until 356340
+u1 is now maintainer of pk12
+fetched pk05 1.2.0
+fetched pk12 1.1.0
+pk11 ~1.1 -> 1.1.1
+fetched pk14 1.0.4
+published pk10 2.1.1 (7 KiB)
+published pk17 1.2.1 (1 KiB)
+fetched pk04 2.1.1
+fetched pk00 1.4.0
+fetched pk15 1.2.1
+fetched pk20 1.1.1
+unyanked pk10 2.0.0
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+published pk03 2.2.2 (11 KiB)
+published pk18 2.1.2 (9 KiB)
+invited u2 to pk22 as maintainer until 356340
+u2 is now maintainer of pk22
+invited u4 to pk15 as maintainer until 356340
+u4 is now maintainer of pk15
+clock 292800
+yanked pk07 1.2.0
+clock 314760
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+  5. pk04 2
+  6. pk05 2
+fetched pk17 1.2.1
+fetched pk15 1.2.1
+top releases:
+  1. pk06 10
+  2. pk02 9
+  3. pk01 8
+clock 318600
+fetched pk07 1.3.0
+published pk11 1.2.0 (2 KiB)
+clock 350820
+package pk20 visibility=public latest=1.1.1 downloads=3 releases=4
+  1.0.0 5738 B by=u4 at=146700 deps=pk10@^1;pk14@^1 yanked=r62 downloads=1
+  1.1.0 10611 B by=u4 at=151020
+  1.1.1 10523 B by=u4 at=151020 downloads=1
+  1.2.0 7251 B by=u4 at=174420 yanked=r23 downloads=1
+top releases:
+  1. pk06 10
+  2. pk02 9
+  3. pk01 8
+  4. pk03 8
+  5. pk00 7
+published pk23 2.2.0 (9 KiB)
+published pk09 2.0.1 (5 KiB)
+invited u7 to pk15 as maintainer until 437220
+u7 is now maintainer of pk15
+yanked pk05 1.0.0
+pk16 ~1.1 -> 1.1.0
+error: no version of pk08 matches ^2
+package pk05 visibility=public latest=2.1.1 downloads=12 releases=7
+  1.0.0 2340 B by=u5 at=0 deps=pk03@^1 yanked=r47 downloads=1
+  1.1.0 1507 B by=u5 at=14460 downloads=1
+  1.1.1 4789 B by=u5 at=23760 downloads=1
+  1.2.0 657 B by=u5 at=125940 downloads=8
+  2.0.0 11503 B by=u5 at=146700
+  2.1.0 9348 B by=u5 at=178560 downloads=1
+  2.1.1 2918 B by=u5 at=269940
+clock 364320
+fetched pk23 2.2.0
+published pk14 1.1.0 (2 KiB)
+fetched pk13 1.1.0
+fetched pk11 1.2.0
+published pk15 1.2.2 (9 KiB)
+published pk21 2.0.0 (9 KiB)
+fetched pk19 2.0.0
+quota u7 used=137 KiB limit=10240 KiB
+tag pk17 next -> 1.1.0
+tag pk00 next -> 1.2.0
+yanked pk05 1.1.0
+invited u2 to pk23 as maintainer until 450720
+u2 is now maintainer of pk23
+published pk01 2.2.1 (11 KiB)
+published pk07 2.0.1 (5 KiB)
+fetched pk00 1.4.0
+fetched pk16 1.1.0
+published pk13 1.1.1 (6 KiB)
+top downloads:
+  1. pk07 14
+  2. pk05 12
+  3. pk01 10
+  4. pk06 10
+published pk08 2.1.0 (7 KiB)
+fetched pk18 2.1.2
+fetched pk16 1.1.0
+top downloads:
+  1. pk07 14
+  2. pk05 12
+  3. pk01 10
+  4. pk06 10
+  5. pk00 9
+  6. pk03 9
+fetched pk05 1.2.0
+published pk20 1.3.0 (12 KiB)
+fetched pk14 1.1.0
+invited u8 to pk03 as maintainer until 450720
+u8 is now maintainer of pk03
+published pk09 2.1.0 (5 KiB)
+fetched pk09 1.0.2
+quota u6 used=102 KiB limit=10240 KiB
+fetched pk10 2.1.1
+published pk07 2.1.0 (7 KiB)
+tag pk16 next -> 1.0.0
+fetched pk04 2.1.1
+invited u8 to pk04 as maintainer until 450720
+u8 is now maintainer of pk04
+fetched pk16 1.1.0
+fetched pk11 1.2.0
+tag pk03 next -> 1.0.1
+invited u3 to pk22 as maintainer until 450720
+u3 is now maintainer of pk22
+top downloads:
+  1. pk07 14
+  2. pk05 13
+  3. pk01 10
+  4. pk06 10
+fetched pk07 2.1.0
+yanked pk12 1.0.1
+published pk02 1.6.0 (3 KiB)
+lock set480 (3 packages)
+  pk05 2.1.1
+  pk08 2.1.0
+  pk23 2.2.0
+digest 1543bea04a09
+pk11 ~1.1 -> 1.1.1
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+  5. pk04 2
+invited u7 to pk00 as maintainer until 450720
+u7 is now maintainer of pk00
+fetched pk11 1.2.0
+tag pk17 next -> 1.0.0
+published pk12 1.1.1 (1 KiB)
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+  5. pk04 2
+yanked pk12 1.0.0
+unyanked pk18 1.0.0
+lock set491 (3 packages)
+  pk12 1.1.1
+  pk13 1.1.1
+  pk19 2.0.0
+digest 82980ee9674c
+clock 385800
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+fetched pk05 2.1.1
+yanked pk12 1.0.3
+fetched pk21 2.0.0
+yanked pk06 2.0.2
+published pk21 2.0.1 (6 KiB)
+published pk21 3.0.0 (8 KiB)
+published pk17 2.0.0 (12 KiB)
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+  5. pk04 2
+  6. pk05 2
+clock 411000
+fetched pk07 1.3.0
+published pk21 3.0.1 (11 KiB)
+clock 443100
+fetched pk12 1.1.1
+top downloads:
+  1. pk07 16
+  2. pk05 14
+  3. pk01 10
+  4. pk06 10
+  5. pk00 9
+  6. pk03 9
+  7. pk11 8
+  8. pk12 8
+fetched pk04 2.1.1
+fetched pk22 1.0.0
+package pk05 visibility=public latest=2.1.1 downloads=14 releases=7
+  1.0.0 2340 B by=u5 at=0 deps=pk03@^1 yanked=r47 downloads=1
+  1.1.0 1507 B by=u5 at=14460 yanked=r61 downloads=1
+  1.1.1 4789 B by=u5 at=23760 downloads=1
+  1.2.0 657 B by=u5 at=125940 downloads=9
+  2.0.0 11503 B by=u5 at=146700
+  2.1.0 9348 B by=u5 at=178560 downloads=1
+  2.1.1 2918 B by=u5 at=269940 downloads=1
+fetched pk13 1.1.1
+published pk06 2.1.0 (4 KiB)
+lock set513 (3 packages)
+  pk07 2.1.0
+  pk10 2.1.1
+  pk13 1.1.1
+digest 683175cb0ade
+fetched pk02 1.6.0
+published pk13 1.2.0 (1 KiB)
+package pk04 visibility=public latest=2.1.1 downloads=7 releases=7
+  1.0.0 1207 B by=u1 at=0 deps=pk03@^1;pk01@^1 downloads=1
+  1.1.0 9300 B by=u1 at=0 yanked=r80 downloads=2
+  1.2.0 11905 B by=u1 at=21780 yanked=r80
+  1.3.0 2765 B by=u1 at=90780 downloads=1
+  2.0.0 10925 B by=u1 at=125940
+  2.1.0 8588 B by=u3 at=151020
+  2.1.1 10898 B by=u3 at=259680 downloads=3
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+  5. pk04 2
+  6. pk05 2
+  7. pk07 2
+  8. pk08 2
+clock 471660
+fetched pk22 1.0.0
+published pk22 1.0.1 (8 KiB)
+fetched pk06 2.1.0
+fetched pk12 1.1.1
+fetched pk10 2.1.1
+tag pk05 next -> 2.1.1
+published pk00 1.5.0 (2 KiB)
+tag pk18 next -> 2.1.2
+fetched pk18 2.1.2
+published pk13 1.2.1 (11 KiB)
+lock set529 (3 packages)
+  pk04 2.1.1
+  pk05 2.1.1
+  pk22 1.0.1
+digest 7ca1bcbb7bd0
+fetched pk16 1.1.0
+yanked pk17 1.2.0
+fetched pk07 1.3.0
+yanked pk13 1.0.1
+tag pk06 next -> 1.2.0
+published pk20 2.0.0 (11 KiB)
+fetched pk18 2.1.2
+fetched pk03 2.2.2
+fetched pk00 1.5.0
+fetched pk00 1.5.0
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+  5. pk04 2
+published pk12 1.2.0 (12 KiB)
+published pk03 2.2.3 (11 KiB)
+invited u5 to pk13 as maintainer until 558060
+u5 is now maintainer of pk13
+fetched pk18 2.1.2
+lock set546 (3 packages)
+  pk12 1.2.0
+  pk19 2.0.0
+  pk21 3.0.1
+digest ac867b4d66b4
+published pk13 1.2.2 (5 KiB)
+clock 486420
+yanked pk22 1.0.0
+published pk14 2.0.0 (3 KiB)
+fetched pk10 2.1.1
+lock set552 (3 packages)
+  pk01 2.2.1
+  pk20 2.0.0
+  pk23 2.2.0
+digest c3030cc06dc7
+fetched pk12 1.2.0
+fetched pk01 2.2.1
+published pk23 2.2.1 (8 KiB)
+published pk22 2.0.0 (2 KiB)
+published pk18 2.1.3 (5 KiB)
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+  5. pk04 2
+  6. pk05 2
+  7. pk07 2
+  8. pk08 2
+fetched pk23 2.2.1
+invited u4 to pk07 as maintainer until 572820
+u4 is now maintainer of pk07
+published pk06 2.1.1 (9 KiB)
+fetched pk15 1.2.2
+top releases:
+  1. pk06 12
+  2. pk02 10
+  3. pk01 9
+  4. pk03 9
+  5. pk00 8
+  6. pk07 8
+  7. pk13 8
+  8. pk04 7
+invited u1 to pk02 as maintainer until 572820
+u1 is now maintainer of pk02
+fetched pk23 2.2.1
+published pk15 1.2.3 (12 KiB)
+package pk23 visibility=public latest=2.2.1 downloads=3 releases=5
+  1.0.0 868 B by=u8 at=151020
+  2.0.0 3417 B by=u8 at=178560
+  2.1.0 10908 B by=u8 at=259680
+  2.2.0 8665 B by=u8 at=350820 downloads=1
+  2.2.1 7556 B by=u8 at=486420 downloads=2
+unyanked pk16 1.0.0
+yanked pk11 1.1.0
+yanked pk11 1.2.0
+fetched pk20 1.3.0
+fetched pk13 1.2.2
+yanked pk04 1.0.0
+fetched pk03 2.2.3
+published pk12 1.2.1 (5 KiB)
+published pk16 2.0.0 (3 KiB)
+fetched pk17 1.2.1
+published pk14 2.0.1 (6 KiB)
+fetched pk11 1.1.1
+fetched pk07 1.3.0
+fetched pk10 2.1.1
+tag pk10 next -> 2.1.1
+quota u5 used=162 KiB limit=10240 KiB
+pk03 ~2.2 -> 2.2.3
+invited u5 to pk15 as maintainer until 572820
+u5 is now maintainer of pk15
+clock 512700
+published pk13 1.3.0 (6 KiB)
+pk23 ~2.0 -> 2.0.0
+fetched pk10 2.1.1
+fetched pk07 1.3.0
+fetched pk06 2.1.1
+invited u2 to pk19 as maintainer until 599100
+u2 is now maintainer of pk19
+fetched pk15 1.2.3
+published pk17 2.1.0 (1 KiB)
+published pk15 1.3.0 (6 KiB)
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+  5. pk04 2
+published pk18 2.1.4 (12 KiB)
+published pk02 1.6.1 (9 KiB)
+fetched pk00 1.5.0
+fetched pk03 2.2.3
+fetched pk12 1.2.1
+fetched pk05 1.2.0
+yanked pk00 1.0.0
+published pk16 2.0.1 (6 KiB)
+published pk03 2.3.0 (5 KiB)
+published pk00 1.5.1 (12 KiB)
+published pk08 2.1.1 (1 KiB)
+pk13 ~1.1 -> 1.1.1
+tag pk19 next -> 1.0.0
+yanked pk07 1.3.0
+published pk18 2.1.5 (9 KiB)
+published pk14 2.1.0 (10 KiB)
+published pk23 2.2.2 (7 KiB)
+unyanked pk11 1.2.0
+fetched pk11 1.2.0
+published pk16 3.0.0 (9 KiB)
+published pk20 3.0.0 (9 KiB)
+fetched pk07 2.1.0
+pk11 ~1.1 -> 1.1.1
+published pk23 2.3.0 (8 KiB)
+fetched pk16 3.0.0
+published pk18 2.2.0 (12 KiB)
+quota u5 used=173 KiB limit=10240 KiB
+package pk21 visibility=public latest=3.0.1 downloads=1 releases=6
+  1.0.0 4221 B by=u5 at=146700 yanked=r95
+  1.1.0 11309 B by=u5 at=259680
+  2.0.0 8956 B by=u5 at=364320 downloads=1
+  2.0.1 6108 B by=u5 at=385800
+  3.0.0 7913 B by=u5 at=385800
+  3.0.1 11062 B by=u5 at=411000
+fetched pk07 1.2.1
+invited u5 to pk02 as maintainer until 599100
+u5 is now maintainer of pk02
+fetched pk05 2.1.1
+fetched pk14 1.1.0
+yanked pk06 1.0.0
+published pk10 2.1.2 (10 KiB)
+fetched pk03 1.0.1
+published pk11 1.3.0 (7 KiB)
+tag pk15 next -> 1.1.0
+pk20 ~1.3 -> 1.3.0
+clock 518040
+fetched pk01 2.2.1
+quota u2 used=126 KiB limit=10240 KiB
+published pk16 3.1.0 (9 KiB)
+fetched pk23 2.3.0
+fetched pk09 1.0.2
+pk08 ~2.1 -> 2.1.1
+published pk07 2.2.0 (3 KiB)
+fetched pk01 2.2.1
+published pk03 2.4.0 (1 KiB)
+published pk20 3.1.0 (11 KiB)
+yanked pk18 2.0.0
+published pk08 2.2.0 (2 KiB)
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+  5. pk04 2
+  6. pk05 2
+clock 550200
+published pk18 2.3.0 (3 KiB)
+published pk02 1.6.2 (4 KiB)
+published pk10 2.1.3 (4 KiB)
+pk12 ~1.0 -> 1.0.2
+fetched pk04 2.1.1
+clock 550860
+published pk03 2.5.0 (9 KiB)
+fetched pk20 1.3.0
+published pk20 4.0.0 (9 KiB)
+invited u1 to pk10 as maintainer until 637260
+u1 is now maintainer of pk10
+published pk14 2.1.1 (10 KiB)
+clock 584160
+published pk10 2.1.4 (9 KiB)
+published pk08 2.2.1 (1 KiB)
+fetched pk15 1.3.0
+published pk02 1.6.3 (2 KiB)
+fetched pk15 1.3.0
+published pk11 1.4.0 (2 KiB)
+published pk01 2.2.2 (9 KiB)
+published pk17 2.1.1 (5 KiB)
+fetched pk08 1.0.0
+fetched pk01 2.2.2
+tag pk04 next -> 1.1.0
+clock 587700
+unyanked pk06 1.0.0
+clock 593280
+fetched pk21 3.0.1
+published pk10 2.1.5 (1 KiB)
+clock 609840
+lock set685 (3 packages)
+  pk12 1.2.1
+  pk15 1.3.0
+  pk19 2.0.0
+digest 6625765f4a12
+published pk13 1.4.0 (11 KiB)
+error: no version of pk10 matches ^1
+fetched pk04 2.1.1
+published pk04 2.1.2 (12 KiB)
+published pk19 2.0.1 (5 KiB)
+fetched pk04 2.1.2
+published pk09 2.1.1 (12 KiB)
+clock 639240
+published pk18 3.0.0 (11 KiB)
+fetched pk13 1.4.0
+fetched pk20 1.3.0
+published pk15 1.3.1 (7 KiB)
+clock 645180
+fetched pk06 1.2.0
+package pk12 visibility=public latest=1.2.1 downloads=11 releases=8
+  1.0.0 8881 B by=u7 at=23760 deps=pk02@^1;pk07@^1 yanked=r46 downloads=2
+  1.0.1 542 B by=u7 at=125940 yanked=r34 downloads=1
+  1.0.2 4767 B by=u7 at=151020
+  1.0.3 8772 B by=u7 at=151020 yanked=r74
+  1.1.0 11865 B by=u7 at=151020 downloads=4
+  1.1.1 144 B by=u1 at=364320 downloads=2
+  1.2.0 11697 B by=u1 at=471660 downloads=1
+  1.2.1 4128 B by=u7 at=486420 downloads=1
+invited u6 to pk10 as maintainer until 731580
+u6 is now maintainer of pk10
+published pk17 2.1.2 (6 KiB)
+pk20 ~2.0 -> 2.0.0
+quota u3 used=83 KiB limit=10240 KiB
+fetched pk06 2.1.1
+published pk00 1.6.0 (11 KiB)
+published pk13 1.5.0 (4 KiB)
+published pk23 2.4.0 (10 KiB)
+fetched pk04 2.1.2
+clock 679620
+quota u1 used=222 KiB limit=10240 KiB
+fetched pk19 2.0.1
+fetched pk22 2.0.0
+fetched pk04 2.1.2
+lock set716 (3 packages)
+  pk14 2.1.1
+  pk17 2.1.2
+  pk23 2.4.0
+digest f6dff255565b
+unyanked pk02 1.0.0
+fetched pk06 1.2.0
+yanked pk14 1.1.0
+fetched pk12 1.2.1
+top releases:
+  1. pk02 13
+  2. pk03 12
+  3. pk06 12
+  4. pk13 11
+  5. pk18 11
+  6. pk00 10
+  7. pk01 10
+  8. pk14 10
+fetched pk04 1.3.0
+clock 713280
+quota u2 used=158 KiB limit=10240 KiB
+package pk01 visibility=public latest=2.2.2 downloads=14 releases=10
+  1.0.0 3887 B by=u4 at=0 deps=pk00@^1 downloads=4
+  1.1.0 483 B by=u4 at=23760 downloads=2
+  2.0.0 11050 B by=u4 at=90780 downloads=1
+  2.0.1 11609 B by=u4 at=125940 yanked=r89
+  2.0.2 9174 B by=u4 at=125940
+  2.0.3 8159 B by=u4 at=125940 downloads=2
+  2.1.0 6703 B by=u4 at=259680 downloads=1
+  2.2.0 493 B by=u4 at=269940
+  2.2.1 10829 B by=u4 at=364320 downloads=3
+  2.2.2 8762 B by=u4 at=584160 downloads=1
+fetched pk05 2.1.1
+tag pk18 next -> 2.1.1
+fetched pk22 1.0.1
+lock set729 (3 packages)
+  pk07 2.2.0
+  pk18 3.0.0
+  pk19 2.0.1
+digest 3f0b44dc067f
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+  5. pk04 2
+  6. pk05 2
+  7. pk07 2
+  8. pk08 2
+invited u5 to pk20 as maintainer until 799680
+u5 is now maintainer of pk20
+published pk22 2.0.1 (3 KiB)
+published pk06 2.2.0 (10 KiB)
+top downloads:
+  1. pk07 21
+  2. pk05 17
+  3. pk06 15
+  4. pk01 14
+  5. pk03 13
+  6. pk04 13
+  7. pk00 12
+fetched pk20 1.3.0
+fetched pk15 1.3.1
+fetched pk02 1.6.3
+published pk19 2.0.2 (8 KiB)
+lock set740 (3 packages)
+  pk13 1.5.0
+  pk18 3.0.0
+  pk19 2.0.2
+digest 64e76ef9f30d
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+  5. pk04 2
+fetched pk01 2.2.2
+top releases:
+  1. pk02 13
+  2. pk06 13
+  3. pk03 12
+  4. pk13 11
+  5. pk18 11
+  6. pk00 10
+published pk20 4.1.0 (1 KiB)
+published pk09 2.2.0 (6 KiB)
+fetched pk22 2.0.1
+fetched pk06 2.2.0
+fetched pk19 1.0.0
+pk12 ~1.1 -> 1.1.1
+tag pk12 next -> 1.2.0
+fetched pk23 2.4.0
+clock 724680
+fetched pk13 1.5.0
+fetched pk04 1.3.0
+published pk16 4.0.0 (1 KiB)
+invited u6 to pk00 as maintainer until 811080
+u6 is now maintainer of pk00
+fetched pk12 1.2.1
+published pk02 1.6.4 (3 KiB)
+tag pk14 next -> 1.1.0
+clock 754620
+fetched pk19 2.0.2
+published pk02 1.7.0 (11 KiB)
+fetched pk20 4.1.0
+fetched pk04 2.1.2
+invited u8 to pk19 as maintainer until 841020
+u8 is now maintainer of pk19
+quota u8 used=101 KiB limit=10240 KiB
+yanked pk08 2.2.0
+published pk15 1.4.0 (9 KiB)
+pk01 ~1.0 -> 1.0.0
+published pk18 3.1.0 (12 KiB)
+fetched pk20 3.1.0
+top downloads:
+  1. pk07 21
+  2. pk05 17
+  3. pk06 16
+fetched pk08 2.2.1
+fetched pk04 2.1.2
+fetched pk04 1.3.0
+package pk16 visibility=public latest=4.0.0 downloads=5 releases=7
+  1.0.0 3913 B by=u7 at=125940
+  1.1.0 10804 B by=u7 at=125940 downloads=4
+  2.0.0 2324 B by=u4 at=486420
+  2.0.1 5700 B by=u4 at=512700
+  3.0.0 8353 B by=u7 at=512700 downloads=1
+  3.1.0 8570 B by=u7 at=518040
+  4.0.0 374 B by=u7 at=724680
+package pk18 visibility=public latest=3.1.0 downloads=5 releases=12
+  1.0.0 8603 B by=u1 at=125940 deps=pk04@^1;pk11@^1
+  2.0.0 10735 B by=u1 at=132180 yanked=r65
+  2.1.0 11296 B by=u1 at=132180
+  2.1.1 6355 B by=u1 at=132180 downloads=1
+  2.1.2 8776 B by=u1 at=269940 downloads=4
+  2.1.3 4115 B by=u1 at=486420
+  2.1.4 11305 B by=u1 at=512700
+  2.1.5 8677 B by=u1 at=512700
+  2.2.0 11267 B by=u1 at=512700
+  2.3.0 2194 B by=u1 at=550200
+  3.0.0 10967 B by=u1 at=639240
+  3.1.0 11711 B by=u1 at=754620
+package pk16 visibility=public latest=4.0.0 downloads=5 releases=7
+  1.0.0 3913 B by=u7 at=125940
+  1.1.0 10804 B by=u7 at=125940 downloads=4
+  2.0.0 2324 B by=u4 at=486420
+  2.0.1 5700 B by=u4 at=512700
+  3.0.0 8353 B by=u7 at=512700 downloads=1
+  3.1.0 8570 B by=u7 at=518040
+  4.0.0 374 B by=u7 at=724680
+fetched pk02 1.7.0
+published pk07 2.2.1 (3 KiB)
+published pk00 1.7.0 (8 KiB)
+quota u2 used=167 KiB limit=10240 KiB
+published pk13 1.5.1 (11 KiB)
+pk03 ~1.0 -> 1.0.1
+published pk16 4.0.1 (9 KiB)
+fetched pk23 1.0.0
+tag pk00 next -> 1.1.0
+tag pk16 next -> 1.0.0
+fetched pk16 3.1.0
+tag pk22 next -> 1.0.1
+pk05 ~1.2 -> 1.2.0
+fetched pk20 4.1.0
+fetched pk16 4.0.1
+published pk18 3.1.1 (3 KiB)
+fetched pk22 2.0.1
+published pk04 2.1.3 (7 KiB)
+pk03 ~2.3 -> 2.3.0
+published pk06 2.2.1 (2 KiB)
+published pk17 2.2.0 (5 KiB)
+published pk08 2.2.2 (9 KiB)
+published pk22 2.1.0 (9 KiB)
+fetched pk09 2.2.0
+tag pk12 next -> 1.1.1
+published pk20 4.2.0 (8 KiB)
+published pk13 1.5.2 (5 KiB)
+invited u4 to pk06 as maintainer until 841020
+u4 is now maintainer of pk06
+published pk15 1.4.1 (6 KiB)
+published pk00 1.7.1 (12 KiB)
+published pk01 2.3.0 (2 KiB)
+package pk07 visibility=public latest=2.2.1 downloads=21 releases=10
+  1.0.0 6746 B by=u7 at=23760 deps=pk06@^1
+  1.1.0 7034 B by=u7 at=23760
+  1.2.0 6902 B by=u7 at=23760 yanked=r1
+  1.2.1 9090 B by=u7 at=23760 downloads=1
+  1.3.0 10950 B by=u7 at=56880 yanked=r63 downloads=18
+  2.0.0 9827 B by=u7 at=259680
+  2.0.1 4361 B by=u7 at=364320
+  2.1.0 6551 B by=u7 at=364320 downloads=2
+  2.2.0 2132 B by=u7 at=518040
+  2.2.1 2802 B by=u7 at=754620
+fetched pk13 1.5.2
+fetched pk09 1.0.2
+clock 784500
+published pk17 2.3.0 (9 KiB)
+fetched pk12 1.2.1
+unyanked pk10 1.0.0
+package pk12 visibility=public latest=1.2.1 downloads=14 releases=8
+  1.0.0 8881 B by=u7 at=23760 deps=pk02@^1;pk07@^1 yanked=r46 downloads=2
+  1.0.1 542 B by=u7 at=125940 yanked=r34 downloads=1
+  1.0.2 4767 B by=u7 at=151020
+  1.0.3 8772 B by=u7 at=151020 yanked=r74
+  1.1.0 11865 B by=u7 at=151020 downloads=4
+  1.1.1 144 B by=u1 at=364320 downloads=2
+  1.2.0 11697 B by=u1 at=471660 downloads=1
+  1.2.1 4128 B by=u7 at=486420 downloads=4
+fetched pk13 1.5.2
+fetched pk20 4.2.0
+fetched pk21 3.0.1
+published pk11 2.0.0 (2 KiB)
+yanked pk06 2.2.1
+fetched pk00 1.7.1
+published pk00 1.8.0 (1 KiB)
+yanked pk11 1.1.1
+clock 813060
+fetched pk16 3.1.0
+pk13 ~1.5 -> 1.5.2
+fetched pk13 1.5.2
+lock set833 (3 packages)
+  pk12 1.2.1
+  pk22 2.1.0
+  pk23 2.4.0
+digest d3134060cf9f
+published pk06 2.3.0 (1 KiB)
+fetched pk21 1.1.0
+fetched pk03 2.5.0
+fetched pk03 1.0.1
+error: no version of pk02 matches ~1.3
+tag pk12 next -> 1.0.1
+clock 828240
+pk21 ~2.0 -> 2.0.1
+published pk19 2.0.3 (6 KiB)
+fetched pk20 4.2.0
+published pk05 2.2.0 (1 KiB)
+quota u3 used=94 KiB limit=10240 KiB
+fetched pk17 2.3.0
+pk09 ~2.0 -> 2.0.1
+published pk23 2.5.0 (3 KiB)
+published pk06 2.4.0 (5 KiB)
+fetched pk11 1.4.0
+published pk18 3.2.0 (2 KiB)
+published pk04 2.2.0 (10 KiB)
+fetched pk06 2.4.0
+fetched pk00 1.8.0
+published pk21 3.1.0 (1 KiB)
+fetched pk01 2.3.0
+fetched pk18 2.3.0
+fetched pk04 2.2.0
+yanked pk03 2.2.1
+clock 834480
+fetched pk14 1.0.4
+fetched pk14 2.1.1
+published pk06 2.5.0 (4 KiB)
+package pk06 visibility=public latest=2.5.0 downloads=17 releases=17
+  1.0.0 5960 B by=u6 at=14460 deps=pk05@^1 downloads=2
+  1.0.1 9046 B by=u6 at=23760
+  1.0.2 4053 B by=u6 at=23760
+  1.0.3 4555 B by=u6 at=23760
+  1.0.4 1863 B by=u6 at=23760 yanked=r97 downloads=2
+  1.1.0 2773 B by=u6 at=23760
+  1.2.0 7932 B by=u6 at=56880 downloads=6
+  2.0.0 11839 B by=u6 at=125940
+  2.0.1 5483 B by=u6 at=146700 yanked=r42 downloads=1
+  2.0.2 2370 B by=u7 at=151020 yanked=r50 downloads=1
+  2.1.0 3323 B by=u7 at=443100 downloads=1
+  2.1.1 8860 B by=u6 at=486420 downloads=2
+  2.2.0 9966 B by=u6 at=713280 downloads=1
+  2.2.1 1802 B by=u6 at=754620 yanked=r86
+  2.3.0 1017 B by=u7 at=813060
+  2.4.0 4610 B by=u6 at=828240 downloads=1
+  2.5.0 3364 B by=u4 at=834480
+package pk15 visibility=public latest=1.4.1 downloads=8 releases=10
+  1.0.0 6034 B by=u1 at=125940 deps=pk08@^1 yanked=r81
+  1.1.0 8065 B by=u1 at=151020
+  1.2.0 6674 B by=u1 at=151020
+  1.2.1 11008 B by=u8 at=174420 downloads=3
+  1.2.2 8233 B by=u7 at=364320 downloads=1
+  1.2.3 11561 B by=u7 at=486420 downloads=1
+  1.3.0 6079 B by=u8 at=512700 downloads=2
+  1.3.1 6916 B by=u8 at=639240 downloads=1
+  1.4.0 8522 B by=u4 at=754620
+  1.4.1 5279 B by=u7 at=754620
+published pk20 4.3.0 (4 KiB)
+pk02 ~1.6 -> 1.6.4
+clock 838860
+top releases:
+  1. pk06 17
+  2. pk02 15
+  3. pk18 14
+fetched pk13 1.5.2
+error: no version of pk11 matches ~1.1
+fetched pk13 1.5.2
+fetched pk00 1.8.0
+published pk23 2.5.1 (4 KiB)
+fetched pk04 1.3.0
+fetched pk22 2.1.0
+fetched pk00 1.8.0
+pk15 ~1.4 -> 1.4.1
+quota u1 used=259 KiB limit=10240 KiB
+fetched pk08 2.2.2
+fetched pk10 2.1.5
+top downloads:
+  1. pk07 21
+  2. pk04 19
+  3. pk05 17
+  4. pk06 17
+  5. pk00 16
+  6. pk01 16
+  7. pk03 15
+quota u8 used=108 KiB limit=10240 KiB
+published pk07 2.2.2 (3 KiB)
+fetched pk14 2.1.1
+tag pk21 next -> 2.0.0
+fetched pk06 2.5.0
+fetched pk01 2.3.0
+fetched pk08 2.2.2
+clock 866400
+fetched pk14 2.1.1
+fetched pk11 2.0.0
+clock 875700
+lock set894 (3 packages)
+  pk12 1.2.1
+  pk15 1.4.1
+  pk18 3.2.0
+digest da252dececa0
+published pk20 4.4.0 (11 KiB)
+published pk09 2.2.1 (1 KiB)
+fetched pk10 2.1.5
+pk20 ~3.0 -> 3.0.0
+published pk05 2.2.1 (5 KiB)
+lock set900 (3 packages)
+  pk02 1.7.0
+  pk10 2.1.5
+  pk11 2.0.0
+digest aadc72df760b
+fetched pk21 3.1.0
+tag pk02 next -> 1.4.0
+fetched pk13 1.5.2
+published pk04 2.2.1 (4 KiB)
+fetched pk23 2.5.1
+fetched pk21 3.1.0
+top downloads:
+  1. pk07 21
+  2. pk04 19
+  3. pk06 18
+  4. pk01 17
+published pk02 1.7.1 (2 KiB)
+published pk07 2.2.3 (12 KiB)
+yanked pk01 2.2.2
+fetched pk06 1.2.0
+published pk21 3.2.0 (9 KiB)
+fetched pk08 2.2.2
+quota u8 used=108 KiB limit=10240 KiB
+fetched pk08 2.2.2
+fetched pk18 2.3.0
+tag pk14 next -> 1.1.0
+clock 900420
+published pk04 2.2.2 (7 KiB)
+quota u8 used=108 KiB limit=10240 KiB
+fetched pk05 2.2.1
+published pk20 4.4.1 (3 KiB)
+tag pk10 next -> 2.1.3
+published pk01 2.4.0 (1 KiB)
+published pk04 2.3.0 (1 KiB)
+fetched pk08 2.2.2
+fetched pk14 2.1.1
+fetched pk03 2.5.0
+unyanked pk00 1.0.0
+lock set930 (3 packages)
+  pk01 2.4.0
+  pk08 2.2.2
+  pk11 2.0.0
+digest 362f7065ed46
+published pk15 1.4.2 (8 KiB)
+published pk01 3.0.0 (6 KiB)
+clock 921900
+published pk08 2.2.3 (7 KiB)
+fetched pk04 2.3.0
+tag pk18 next -> 2.0.0
+pk22 ~1.0 -> 1.0.1
+fetched pk09 1.0.2
+invited u1 to pk14 as maintainer until 1008300
+u1 is now maintainer of pk14
+invited u3 to pk08 as maintainer until 1008300
+u3 is now maintainer of pk08
+unyanked pk11 1.1.1
+fetched pk11 2.0.0
+fetched pk01 2.4.0
+fetched pk14 1.0.4
+fetched pk11 2.0.0
+fetched pk08 2.2.3
+fetched pk11 2.0.0
+fetched pk20 3.1.0
+published pk10 2.1.6 (1 KiB)
+quota u1 used=263 KiB limit=10240 KiB
+fetched pk12 1.2.1
+yanked pk07 2.0.1
+lock set955 (3 packages)
+  pk06 2.5.0
+  pk13 1.5.2
+  pk14 2.1.1
+digest d4fd9b7be9c2
+fetched pk05 1.2.0
+published pk04 2.3.1 (11 KiB)
+top releases:
+  1. pk06 17
+  2. pk02 16
+  3. pk04 14
+  4. pk18 14
+  5. pk20 14
+yanked pk02 1.1.0
+tag pk09 next -> 2.2.1
+yanked pk15 1.4.1
+fetched pk13 1.5.2
+fetched pk00 1.8.0
+pk17 ~2.3 -> 2.3.0
+published pk00 1.8.1 (2 KiB)
+fetched pk07 2.2.3
+tag pk12 next -> 1.0.1
+published pk18 3.2.1 (8 KiB)
+published pk19 2.1.0 (6 KiB)
+fetched pk18 3.2.1
+fetched pk21 3.2.0
+published pk23 2.6.0 (2 KiB)
+fetched pk09 1.0.2
+clock 924240
+unyanked pk12 1.0.1
+fetched pk22 2.1.0
+fetched pk04 2.3.1
+pk22 ~1.0 -> 1.0.1
+published pk19 2.1.1 (7 KiB)
+quota u5 used=224 KiB limit=10240 KiB
+fetched pk14 1.0.4
+published pk01 3.1.0 (6 KiB)
+tag pk22 next -> 2.0.0
+package pk19 visibility=public latest=2.1.1 downloads=10 releases=7
+  1.0.0 5108 B by=u6 at=146700 downloads=2
+  2.0.0 4687 B by=u6 at=151020 downloads=6
+  2.0.1 4527 B by=u6 at=609840 downloads=1
+  2.0.2 7550 B by=u6 at=713280 downloads=1
+  2.0.3 5158 B by=u6 at=828240
+  2.1.0 5875 B by=u6 at=921900
+  2.1.1 7001 B by=u2 at=924240
+published pk06 2.6.0 (1 KiB)
+fetched pk10 2.1.6
+published pk00 1.9.0 (9 KiB)
+fetched pk12 1.2.1
+fetched pk07 2.2.3
+published pk17 2.3.1 (6 KiB)
+tag pk20 next -> 4.1.0
+invited u7 to pk17 as maintainer until 1010640
+u7 is now maintainer of pk17
+fetched pk17 2.3.1
+tag pk17 next -> 2.1.1
+published pk21 3.3.0 (3 KiB)
+fetched pk14 2.1.1
+published pk12 1.2.2 (2 KiB)
+tag pk07 next -> 2.2.2
+published pk15 1.5.0 (3 KiB)
+fetched pk13 1.5.2
+lock set1002 (3 packages)
+  pk00 1.9.0
+  pk12 1.2.2
+  pk16 4.0.1
+digest abfbe32911ce
+published pk00 1.10.0 (8 KiB)
+tag pk10 next -> 2.0.0
+fetched pk03 2.5.0
+top releases:
+  1. pk06 18
+  2. pk00 16
+  3. pk02 16
+  4. pk18 15
+  5. pk01 14
+yanked pk01 2.2.0
+fetched pk02 1.7.1
+fetched pk02 1.7.1
+published pk10 2.1.7 (12 KiB)
+quota u2 used=184 KiB limit=10240 KiB
+fetched pk13 1.5.2
+lock set1013 (3 packages)
+  pk06 2.6.0
+  pk16 4.0.1
+  pk21 3.3.0
+digest bdb1fe773dad
+published pk19 2.1.2 (1 KiB)
+clock 954480
+published pk13 1.5.3 (11 KiB)
+pk19 ~2.0 -> 2.0.3
+tag pk07 next -> 2.2.1
+fetched pk04 2.3.1
+fetched pk17 2.3.1
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+fetched pk03 2.5.0
+invited u7 to pk19 as maintainer until 1040880
+u7 is now maintainer of pk19
+published pk09 2.2.2 (7 KiB)
+fetched pk07 2.2.3
+fetched pk16 3.1.0
+published pk00 1.11.0 (11 KiB)
+fetched pk21 3.3.0
+fetched pk21 3.3.0
+fetched pk02 1.7.1
+published pk03 2.5.1 (6 KiB)
+fetched pk21 1.1.0
+published pk00 1.11.1 (7 KiB)
+published pk07 2.3.0 (2 KiB)
+published pk05 2.2.2 (8 KiB)
+published pk10 2.1.8 (5 KiB)
+published pk02 1.7.2 (9 KiB)
+fetched pk20 2.0.0
+published pk18 3.2.2 (1 KiB)
+fetched pk21 3.3.0
+fetched pk07 2.3.0
+fetched pk10 2.1.8
+published pk02 1.7.3 (4 KiB)
+published pk18 3.2.3 (12 KiB)
+fetched pk23 2.6.0
+fetched pk04 2.3.1
+fetched pk17 2.3.1
+clock 977280
+yanked pk22 2.0.1
+fetched pk08 1.0.0
+pk15 ~1.4 -> 1.4.2
+yanked pk08 2.2.1
+published pk01 3.1.1 (7 KiB)
+fetched pk01 1.1.0
+fetched pk20 4.4.1
+lock set1057 (3 packages)
+  pk02 1.7.3
+  pk18 3.2.3
+  pk19 2.1.2
+digest 8bc05df7e0f1
+published pk10 2.1.9 (4 KiB)
+fetched pk21 2.0.1
+invited u3 to pk13 as maintainer until 1063680
+u3 is now maintainer of pk13
+pk02 ~1.4 -> 1.4.0
+fetched pk07 2.3.0
+fetched pk09 1.0.2
+published pk15 1.5.1 (3 KiB)
+fetched pk19 2.1.2
+yanked pk09 1.0.0
+published pk19 3.0.0 (9 KiB)
+tag pk22 next -> 2.0.0
+published pk14 2.2.0 (6 KiB)
+tag pk05 next -> 1.1.0
+published pk05 2.2.3 (5 KiB)
+quota u5 used=256 KiB limit=10240 KiB
+published pk02 1.7.4 (12 KiB)
+pk14 ~1.0 -> 1.0.4
+fetched pk19 2.1.2
+published pk14 2.3.0 (10 KiB)
+fetched pk11 1.4.0
+fetched pk22 1.0.1
+tag pk11 next -> 1.0.0
+fetched pk20 4.4.1
+published pk07 3.0.0 (9 KiB)
+fetched pk21 3.3.0
+fetched pk21 2.0.1
+lock set1085 (3 packages)
+  pk09 2.2.2
+  pk17 2.3.1
+  pk18 3.2.3
+digest 4cadd9b34fb5
+fetched pk20 4.4.1
+published pk14 2.4.0 (6 KiB)
+published pk21 4.0.0 (4 KiB)
+fetched pk15 1.5.1
+published pk01 3.2.0 (9 KiB)
+published pk06 2.6.1 (11 KiB)
+lock set1092 (3 packages)
+  pk12 1.2.2
+  pk18 3.2.3
+  pk21 4.0.0
+digest 40d0e87a7ea4
+yanked pk08 2.1.0
+lock set1094 (3 packages)
+  pk03 2.5.1
+  pk10 2.1.9
+  pk17 2.3.1
+digest 401363636f15
+published pk21 4.1.0 (6 KiB)
+tag pk15 next -> 1.5.1
+fetched pk16 3.1.0
+published pk20 4.5.0 (12 KiB)
+clock 995820
+yanked pk21 3.0.1
+published pk03 2.6.0 (8 KiB)
+tag pk01 next -> 2.2.2
+tag pk01 next -> 2.0.1
+fetched pk06 2.6.1
+fetched pk04 2.3.1
+fetched pk02 1.7.4
+published pk19 3.0.1 (5 KiB)
+published pk05 2.3.0 (10 KiB)
+fetched pk20 4.5.0
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+  5. pk04 2
+  6. pk05 2
+  7. pk07 2
+yanked pk07 1.1.0
+pk03 ~2.5 -> 2.5.1
+tag pk16 next -> 3.1.0
+tag pk08 next -> 2.0.0
+fetched pk05 2.3.0
+top downloads:
+  1. pk07 26
+  2. pk04 24
+  3. pk05 20
+  4. pk06 20
+  5. pk01 19
+  6. pk03 18
+lock set1117 (3 packages)
+  pk06 2.6.1
+  pk09 2.2.2
+  pk18 3.2.3
+digest ae77b642d233
+published pk15 2.0.0 (11 KiB)
+fetched pk04 2.3.1
+published pk05 2.4.0 (1 KiB)
+lock set1121 (3 packages)
+  pk13 1.5.3
+  pk16 4.0.1
+  pk17 2.3.1
+digest ee4b88b976a3
+pk08 ~2.1 -> 2.1.1
+published pk19 3.1.0 (11 KiB)
+tag pk05 next -> 2.2.1
+published pk03 2.6.1 (9 KiB)
+fetched pk02 1.7.4
+published pk15 2.0.1 (2 KiB)
+fetched pk10 2.1.9
+package pk08 visibility=public latest=2.2.3 downloads=10 releases=8
+  1.0.0 4049 B by=u5 at=23760 deps=pk03@^1 downloads=3
+  2.0.0 9381 B by=u5 at=90780 yanked=r74
+  2.1.0 6745 B by=u5 at=364320 yanked=r18
+  2.1.1 359 B by=u6 at=512700
+  2.2.0 2046 B by=u6 at=518040 yanked=r83
+  2.2.1 257 B by=u5 at=584160 yanked=r63 downloads=1
+  2.2.2 9072 B by=u6 at=754620 downloads=5
+  2.2.3 6443 B by=u6 at=921900 downloads=1
+fetched pk22 2.1.0
+fetched pk09 2.2.2
+fetched pk17 2.3.1
+fetched pk09 2.2.2
+fetched pk12 1.2.2
+fetched pk21 1.1.0
+fetched pk05 2.4.0
+fetched pk20 2.0.0
+fetched pk05 2.4.0
+top releases:
+  1. pk02 19
+  2. pk06 19
+  3. pk00 18
+  4. pk18 17
+  5. pk01 16
+unyanked pk01 2.0.1
+published pk00 1.12.0 (5 KiB)
+published pk21 4.1.1 (3 KiB)
+yanked pk10 2.1.7
+fetched pk19 1.0.0
+fetched pk23 2.6.0
+fetched pk14 1.0.4
+fetched pk05 2.4.0
+published pk21 4.1.2 (12 KiB)
+published pk15 2.1.0 (12 KiB)
+package pk22 visibility=public latest=2.1.0 downloads=10 releases=5
+  1.0.0 7226 B by=u1 at=151020 deps=pk18@^1 yanked=r82 downloads=2
+  1.0.1 7292 B by=u2 at=471660 downloads=2
+  2.0.0 1975 B by=u1 at=486420 downloads=1
+  2.0.1 2261 B by=u2 at=713280 yanked=r93 downloads=2
+  2.1.0 8538 B by=u2 at=754620 downloads=3
+fetched pk00 1.12.0
+fetched pk07 2.3.0
+pk00 ~1.0 -> 1.0.0
+fetched pk11 1.4.0
+top downloads:
+  1. pk07 27
+  2. pk04 25
+  3. pk05 23
+fetched pk16 4.0.1
+yanked pk19 2.0.2
+published pk01 3.2.1 (10 KiB)
+tag pk12 next -> 1.0.3
+published pk13 1.6.0 (4 KiB)
+clock 1030920
+fetched pk05 2.4.0
+clock 1032060
+fetched pk15 1.5.1
+published pk16 4.1.0 (9 KiB)
+published pk02 2.0.0 (5 KiB)
+pk15 ~1.2 -> 1.2.3
+fetched pk23 2.6.0
+pk00 ~1.12 -> 1.12.0
+fetched pk12 1.2.2
+fetched pk21 2.0.1
+fetched pk22 1.0.1
+tag pk01 next -> 2.0.3
+published pk19 3.2.0 (12 KiB)
+fetched pk04 2.3.1
+published pk09 2.3.0 (8 KiB)
+fetched pk10 2.1.9
+tag pk14 next -> 2.0.0
+top downloads:
+  1. pk07 27
+  2. pk04 26
+  3. pk05 24
+  4. pk06 20
+  5. pk01 19
+  6. pk20 19
+  7. pk00 18
+published pk07 3.1.0 (6 KiB)
+published pk15 2.2.0 (1 KiB)
+published pk17 2.4.0 (11 KiB)
+fetched pk18 3.2.3
+invited u7 to pk09 as maintainer until 1118460
+u7 is now maintainer of pk09
+published pk00 1.12.1 (10 KiB)
+fetched pk14 2.4.0
+fetched pk16 3.1.0
+quota u7 used=338 KiB limit=10240 KiB
+fetched pk22 2.1.0
+published pk00 1.12.2 (5 KiB)
+tag pk02 next -> 1.5.1
+invited u2 to pk10 as maintainer until 1118460
+u2 is now maintainer of pk10
+fetched pk03 1.0.1
+fetched pk16 4.1.0
+published pk16 4.1.1 (7 KiB)
+fetched pk10 2.1.9
+fetched pk17 2.4.0
+fetched pk15 1.5.1
+fetched pk12 1.2.2
+published pk04 2.3.2 (11 KiB)
+published pk12 1.2.3 (2 KiB)
+published pk22 2.1.1 (6 KiB)
+published pk12 1.2.4 (12 KiB)
+fetched pk05 2.4.0
+fetched pk21 3.3.0
+fetched pk02 1.7.4
+yanked pk03 2.5.0
+fetched pk09 2.3.0
+published pk03 2.6.2 (8 KiB)
+lock set1212 (3 packages)
+  pk07 3.1.0
+  pk16 4.1.1
+  pk22 2.1.1
+digest ee9cb738d9bd
+published pk08 2.3.0 (4 KiB)
+fetched pk13 1.6.0
+tag pk18 next -> 3.0.0
+published pk15 2.3.0 (9 KiB)
+yanked pk04 2.3.1
+error: no version of pk00 matches ~1.1
+yanked pk21 3.2.0
+fetched pk13 1.6.0
+package pk03 visibility=public latest=2.6.2 downloads=19 releases=16
+  1.0.0 8165 B by=u5 at=0 deps=pk00@^1 yanked=r45 downloads=3
+  1.0.1 5895 B by=u5 at=14460 downloads=6
+  2.0.0 11500 B by=u7 at=23760 yanked=r12
+  2.1.0 743 B by=u5 at=56880 downloads=1
+  2.1.1 11588 B by=u5 at=90780
+  2.2.0 2900 B by=u5 at=178560 downloads=2
+  2.2.1 7375 B by=u5 at=178560 yanked=r66
+  2.2.2 10478 B by=u7 at=269940 downloads=1
+  2.2.3 11232 B by=u5 at=471660 downloads=2
+  2.3.0 4458 B by=u5 at=512700
+  2.4.0 133 B by=u5 at=518040
+  2.5.0 8576 B by=u5 at=550860 yanked=r70 downloads=4
+  2.5.1 6014 B by=u8 at=954480
+  2.6.0 8066 B by=u5 at=995820
+  2.6.1 8476 B by=u8 at=995820
+  2.6.2 7896 B by=u8 at=1032060
+published pk17 2.5.0 (2 KiB)
+lock set1223 (3 packages)
+  pk00 1.12.2
+  pk12 1.2.4
+  pk23 2.6.0
+digest fef075e9400b
+fetched pk12 1.2.4
+tag pk11 next -> 1.1.0
+fetched pk19 3.2.0
+fetched pk10 2.1.9
+fetched pk23 2.6.0
+pk00 ~1.6 -> 1.6.0
+published pk13 2.0.0 (9 KiB)
+fetched pk02 2.0.0
+fetched pk03 2.6.2
+tag pk15 next -> 1.0.0
+lock set1234 (3 packages)
+  pk07 3.1.0
+  pk18 3.2.3
+  pk23 2.6.0
+digest a7c211fcb044
+clock 1036380
+fetched pk22 2.1.1
+fetched pk16 2.0.1
+fetched pk17 2.5.0
+fetched pk19 3.2.0
+fetched pk15 2.3.0
+fetched pk15 2.3.0
+fetched pk19 2.1.2
+published pk04 2.3.3 (10 KiB)
+pk15 ~2.0 -> 2.0.1
+fetched pk11 1.4.0
+published pk23 2.6.1 (7 KiB)
+unyanked pk20 1.0.0
+pk11 ~1.1 -> 1.1.1
+published pk10 2.2.0 (5 KiB)
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+  5. pk04 2
+  6. pk05 2
+  7. pk07 2
+fetched pk08 2.3.0
+lock set1252 (3 packages)
+  pk07 3.1.0
+  pk10 2.2.0
+  pk18 3.2.3
+digest 71af93c97d73
+fetched pk12 1.2.4
+published pk22 2.2.0 (3 KiB)
+published pk05 2.4.1 (8 KiB)
+published pk20 4.5.1 (4 KiB)
+published pk12 1.2.5 (10 KiB)
+fetched pk11 1.4.0
+invited u5 to pk00 as maintainer until 1122780
+u5 is now maintainer of pk00
+package pk16 visibility=public latest=4.1.1 downloads=14 releases=10
+  1.0.0 3913 B by=u7 at=125940
+  1.1.0 10804 B by=u7 at=125940 downloads=4
+  2.0.0 2324 B by=u4 at=486420
+  2.0.1 5700 B by=u4 at=512700 downloads=1
+  3.0.0 8353 B by=u7 at=512700 downloads=1
+  3.1.0 8570 B by=u7 at=518040 downloads=5
+  4.0.0 374 B by=u7 at=724680
+  4.0.1 9068 B by=u7 at=754620 downloads=2
+  4.1.0 8329 B by=u4 at=1032060 downloads=1
+  4.1.1 6932 B by=u7 at=1032060
+pk20 ~1.1 -> 1.1.1
+invited u2 to pk18 as maintainer until 1122780
+u2 is now maintainer of pk18
+published pk06 2.6.2 (5 KiB)
+package pk06 visibility=public latest=2.6.2 downloads=20 releases=20
+  1.0.0 5960 B by=u6 at=14460 deps=pk05@^1 downloads=2
+  1.0.1 9046 B by=u6 at=23760
+  1.0.2 4053 B by=u6 at=23760
+  1.0.3 4555 B by=u6 at=23760
+  1.0.4 1863 B by=u6 at=23760 yanked=r97 downloads=2
+  1.1.0 2773 B by=u6 at=23760
+  1.2.0 7932 B by=u6 at=56880 downloads=7
+  2.0.0 11839 B by=u6 at=125940
+  2.0.1 5483 B by=u6 at=146700 yanked=r42 downloads=1
+  2.0.2 2370 B by=u7 at=151020 yanked=r50 downloads=1
+  2.1.0 3323 B by=u7 at=443100 downloads=1
+  2.1.1 8860 B by=u6 at=486420 downloads=2
+  2.2.0 9966 B by=u6 at=713280 downloads=1
+  2.2.1 1802 B by=u6 at=754620 yanked=r86
+  2.3.0 1017 B by=u7 at=813060
+  2.4.0 4610 B by=u6 at=828240 downloads=1
+  2.5.0 3364 B by=u4 at=834480 downloads=1
+  2.6.0 502 B by=u4 at=924240
+  2.6.1 11250 B by=u7 at=977280 downloads=1
+  2.6.2 4195 B by=u4 at=1036380
+fetched pk08 1.0.0
+published pk22 2.2.1 (5 KiB)
+clock 1050960
+fetched pk09 1.0.2
+published pk03 2.6.3 (5 KiB)
+yanked pk12 1.2.5
+fetched pk01 2.4.0
+fetched pk04 2.3.3
+tag pk20 next -> 4.2.0
+quota u7 used=352 KiB limit=10240 KiB
+fetched pk08 2.3.0
+tag pk10 next -> 2.1.7
+yanked pk00 1.12.2
+fetched pk04 2.3.3
+tag pk09 next -> 1.0.2
+clock 1058280
+invited u5 to pk10 as maintainer until 1144680
+u5 is now maintainer of pk10
+fetched pk05 2.4.1
+lock set1286 (3 packages)
+  pk02 2.0.0
+  pk05 2.4.1
+  pk13 2.0.0
+digest 4a125bae764f
+fetched pk20 4.5.1
+published pk20 4.6.0 (9 KiB)
+package pk13 visibility=public latest=2.0.0 downloads=19 releases=16
+  1.0.0 7237 B by=u6 at=56880 deps=pk05@^1 yanked=r59
+  1.0.1 6715 B by=u6 at=125940 yanked=r69
+  1.0.2 1018 B by=u6 at=132180 downloads=3
+  1.1.0 6442 B by=u6 at=259680 downloads=1
+  1.1.1 5177 B by=u8 at=364320 downloads=1
+  1.2.0 595 B by=u8 at=443100
+  1.2.1 11259 B by=u6 at=471660
+  1.2.2 4955 B by=u5 at=471660 downloads=1
+  1.3.0 5393 B by=u5 at=512700
+  1.4.0 10836 B by=u8 at=609840 downloads=1
+  1.5.0 3389 B by=u8 at=645180 downloads=1
+  1.5.1 10681 B by=u5 at=754620
+  1.5.2 5018 B by=u5 at=754620 downloads=9
+  1.5.3 10748 B by=u8 at=954480
+  1.6.0 3587 B by=u6 at=995820 downloads=2
+  2.0.0 9188 B by=u6 at=1032060
+fetched pk18 1.0.0
+yanked pk01 3.0.0
+top releases:
+  1. pk00 21
+  2. pk02 20
+  3. pk06 20
+  4. pk15 18
+lock set1293 (3 packages)
+  pk02 2.0.0
+  pk09 2.3.0
+  pk16 4.1.1
+digest 0bf91181921c
+fetched pk07 2.3.0
+published pk12 1.2.6 (6 KiB)
+fetched pk01 3.2.1
+published pk01 3.2.2 (3 KiB)
+published pk14 2.4.1 (12 KiB)
+published pk10 2.2.1 (8 KiB)
+published pk03 2.7.0 (6 KiB)
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+published pk21 4.2.0 (8 KiB)
+published pk20 4.7.0 (2 KiB)
+fetched pk06 2.6.2
+invited u8 to pk17 as maintainer until 1144680
+u8 is now maintainer of pk17
+fetched pk19 3.2.0
+yanked pk00 1.0.0
+quota u2 used=217 KiB limit=10240 KiB
+fetched pk22 2.2.1
+invited u7 to pk11 as maintainer until 1144680
+u7 is now maintainer of pk11
+published pk03 2.8.0 (3 KiB)
+yanked pk19 2.0.1
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+  5. pk04 2
+  6. pk05 2
+  7. pk07 2
+  8. pk08 2
+published pk02 2.1.0 (6 KiB)
+published pk02 2.1.1 (5 KiB)
+fetched pk23 2.6.1
+published pk20 4.8.0 (5 KiB)
+pk05 ~1.1 -> 1.1.1
+lock set1321 (3 packages)
+  pk05 2.4.1
+  pk21 4.2.0
+  pk23 2.6.1
+digest b175e7419a11
+fetched pk17 2.5.0
+fetched pk16 4.1.1
+fetched pk07 3.1.0
+published pk17 2.6.0 (6 KiB)
+published pk03 2.9.0 (1 KiB)
+fetched pk18 3.2.3
+tag pk04 next -> 2.3.3
+fetched pk08 2.3.0
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+published pk04 2.4.0 (1 KiB)
+fetched pk09 2.3.0
+top releases:
+  1. pk02 22
+  2. pk00 21
+  3. pk03 20
+  4. pk06 20
+  5. pk20 19
+lock set1334 (3 packages)
+  pk03 2.9.0
+  pk07 3.1.0
+  pk14 2.4.1
+digest 086fc35760de
+published pk20 4.8.1 (7 KiB)
+fetched pk15 1.5.1
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+  5. pk04 2
+  6. pk05 2
+fetched pk05 2.4.1
+yanked pk01 2.0.3
+fetched pk18 3.2.3
+clock 1073640
+top downloads:
+  1. pk07 29
+  2. pk04 28
+  3. pk05 27
+fetched pk20 4.8.1
+fetched pk20 3.1.0
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+fetched pk15 1.5.1
+top releases:
+  1. pk02 22
+  2. pk00 21
+  3. pk03 20
+  4. pk06 20
+  5. pk20 20
+  6. pk01 18
+lock set1348 (3 packages)
+  pk02 2.1.1
+  pk09 2.3.0
+  pk13 2.0.0
+digest eaec33c50b85
+lock set1349 (3 packages)
+  pk05 2.4.1
+  pk14 2.4.1
+  pk22 2.2.1
+digest 4e0d31fe3b5e
+yanked pk02 1.7.1
+pk03 ~2.6 -> 2.6.3
+quota u3 used=134 KiB limit=10240 KiB
+unyanked pk19 2.0.2
+tag pk23 next -> 1.0.0
+fetched pk11 1.4.0
+tag pk21 next -> 4.2.0
+fetched pk19 2.1.2
+fetched pk14 2.4.1
+top releases:
+  1. pk02 22
+  2. pk00 21
+  3. pk03 20
+  4. pk06 20
+  5. pk20 20
+  6. pk01 18
+top downloads:
+  1. pk07 29
+  2. pk04 28
+  3. pk05 27
+  4. pk20 22
+  5. pk01 21
+  6. pk06 21
+  7. pk12 21
+clock 1083300
+fetched pk08 2.3.0
+fetched pk14 2.4.1
+fetched pk19 2.1.2
+fetched pk22 2.2.1
+fetched pk18 3.2.3
+fetched pk01 3.2.2
+published pk16 4.1.2 (7 KiB)
+invited u8 to pk06 as maintainer until 1169700
+u8 is now maintainer of pk06
+fetched pk20 1.3.0
+fetched pk02 2.1.1
+clock 1099500
+fetched pk05 2.4.1
+quota u7 used=377 KiB limit=10240 KiB
+fetched pk02 1.7.4
+clock 1124640
+fetched pk03 2.9.0
+published pk19 3.2.1 (9 KiB)
+published pk05 2.5.0 (6 KiB)
+fetched pk04 2.4.0
+published pk06 2.7.0 (11 KiB)
+yanked pk01 2.0.2
+fetched pk08 2.3.0
+fetched pk02 1.7.4
+lock set1386 (3 packages)
+  pk03 2.9.0
+  pk07 3.1.0
+  pk13 2.0.0
+digest 0a65cb3357f6
+published pk14 2.5.0 (1 KiB)
+published pk14 2.6.0 (4 KiB)
+fetched pk09 2.3.0
+published pk14 2.6.1 (1 KiB)
+published pk21 4.2.1 (1 KiB)
+published pk06 2.7.1 (2 KiB)
+fetched pk03 1.0.1
+quota u4 used=388 KiB limit=10240 KiB
+fetched pk07 2.3.0
+fetched pk00 1.12.1
+published pk15 2.4.0 (6 KiB)
+published pk23 2.6.2 (9 KiB)
+invited u4 to pk22 as maintainer until 1211040
+u4 is now maintainer of pk22
+top downloads:
+  1. pk07 30
+  2. pk04 29
+  3. pk05 28
+  4. pk20 23
+  5. pk01 22
+  6. pk03 22
+  7. pk06 21
+fetched pk04 2.4.0
+published pk20 4.8.2 (12 KiB)
+fetched pk14 2.6.1
+fetched pk12 1.2.6
+published pk01 3.3.0 (5 KiB)
+fetched pk18 2.3.0
+fetched pk11 1.4.0
+published pk17 2.7.0 (7 KiB)
+quota u8 used=182 KiB limit=10240 KiB
+top downloads:
+  1. pk04 30
+  2. pk07 30
+  3. pk05 28
+  4. pk20 23
+pk14 ~1.0 -> 1.0.4
+published pk23 2.7.0 (11 KiB)
+lock set1414 (3 packages)
+  pk13 2.0.0
+  pk15 2.4.0
+  pk21 4.2.1
+digest 079232151a7e
+pk03 ~2.5 -> 2.5.1
+fetched pk12 1.2.6
+fetched pk03 1.0.1
+package pk21 visibility=public latest=4.2.1 downloads=17 releases=15
+  1.0.0 4221 B by=u5 at=146700 yanked=r95
+  1.1.0 11309 B by=u5 at=259680 downloads=3
+  2.0.0 8956 B by=u5 at=364320 downloads=1
+  2.0.1 6108 B by=u5 at=385800 downloads=3
+  3.0.0 7913 B by=u5 at=385800
+  3.0.1 11062 B by=u5 at=411000 yanked=r56 downloads=2
+  3.1.0 296 B by=u5 at=828240 downloads=2
+  3.2.0 9012 B by=u5 at=875700 yanked=r8 downloads=1
+  3.3.0 2178 B by=u5 at=924240 downloads=5
+  4.0.0 3138 B by=u5 at=977280
+  4.1.0 5262 B by=u5 at=977280
+  4.1.1 2501 B by=u5 at=995820
+  4.1.2 11976 B by=u5 at=995820
+  4.2.0 7416 B by=u5 at=1058280
+  4.2.1 732 B by=u5 at=1124640
+published pk07 3.1.1 (7 KiB)
+package pk19 visibility=public latest=3.2.1 downloads=19 releases=13
+  1.0.0 5108 B by=u6 at=146700 downloads=3
+  2.0.0 4687 B by=u6 at=151020 downloads=6
+  2.0.1 4527 B by=u6 at=609840 yanked=r48 downloads=1
+  2.0.2 7550 B by=u6 at=713280 downloads=1
+  2.0.3 5158 B by=u6 at=828240
+  2.1.0 5875 B by=u6 at=921900
+  2.1.1 7001 B by=u2 at=924240
+  2.1.2 365 B by=u6 at=924240 downloads=5
+  3.0.0 9074 B by=u7 at=977280
+  3.0.1 4199 B by=u8 at=995820
+  3.1.0 10383 B by=u6 at=995820
+  3.2.0 11920 B by=u8 at=1032060 downloads=3
+  3.2.1 8579 B by=u6 at=1124640
+yanked pk20 4.6.0
+invited u7 to pk04 as maintainer until 1211040
+u7 is now maintainer of pk04
+fetched pk16 4.1.2
+yanked pk23 1.0.0
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+  5. pk04 2
+  6. pk05 2
+yanked pk00 1.7.1
+fetched pk21 2.0.1
+package pk06 visibility=public latest=2.7.1 downloads=21 releases=22
+  1.0.0 5960 B by=u6 at=14460 deps=pk05@^1 downloads=2
+  1.0.1 9046 B by=u6 at=23760
+  1.0.2 4053 B by=u6 at=23760
+  1.0.3 4555 B by=u6 at=23760
+  1.0.4 1863 B by=u6 at=23760 yanked=r97 downloads=2
+  1.1.0 2773 B by=u6 at=23760
+  1.2.0 7932 B by=u6 at=56880 downloads=7
+  2.0.0 11839 B by=u6 at=125940
+  2.0.1 5483 B by=u6 at=146700 yanked=r42 downloads=1
+  2.0.2 2370 B by=u7 at=151020 yanked=r50 downloads=1
+  2.1.0 3323 B by=u7 at=443100 downloads=1
+  2.1.1 8860 B by=u6 at=486420 downloads=2
+  2.2.0 9966 B by=u6 at=713280 downloads=1
+  2.2.1 1802 B by=u6 at=754620 yanked=r86
+  2.3.0 1017 B by=u7 at=813060
+  2.4.0 4610 B by=u6 at=828240 downloads=1
+  2.5.0 3364 B by=u4 at=834480 downloads=1
+  2.6.0 502 B by=u4 at=924240
+  2.6.1 11250 B by=u7 at=977280 downloads=1
+  2.6.2 4195 B by=u4 at=1036380 downloads=1
+  2.7.0 10504 B by=u6 at=1124640
+  2.7.1 1097 B by=u8 at=1124640
+fetched pk21 4.2.1
+invited u1 to pk21 as maintainer until 1211040
+u1 is now maintainer of pk21
+published pk13 2.0.1 (9 KiB)
+fetched pk22 2.2.1
+published pk07 3.1.2 (1 KiB)
+yanked pk01 3.1.0
+yanked pk14 1.0.1
+published pk13 2.0.2 (7 KiB)
+fetched pk06 2.7.1
+fetched pk07 3.1.2
+error: no version of pk08 matches ~2.0
+fetched pk10 2.2.1
+published pk23 2.7.1 (8 KiB)
+fetched pk20 4.8.2
+published pk20 4.9.0 (3 KiB)
+published pk01 3.3.1 (5 KiB)
+fetched pk10 2.2.1
+quota u8 used=182 KiB limit=10240 KiB
+package pk05 visibility=public latest=2.5.0 downloads=28 releases=15
+  1.0.0 2340 B by=u5 at=0 deps=pk03@^1 yanked=r47 downloads=1
+  1.1.0 1507 B by=u5 at=14460 yanked=r61 downloads=1
+  1.1.1 4789 B by=u5 at=23760 downloads=1
+  1.2.0 657 B by=u5 at=125940 downloads=11
+  2.0.0 11503 B by=u5 at=146700
+  2.1.0 9348 B by=u5 at=178560 downloads=1
+  2.1.1 2918 B by=u5 at=269940 downloads=3
+  2.2.0 535 B by=u5 at=828240
+  2.2.1 4756 B by=u5 at=875700 downloads=1
+  2.2.2 7859 B by=u5 at=954480
+  2.2.3 4782 B by=u5 at=977280
+  2.3.0 9429 B by=u5 at=995820 downloads=1
+  2.4.0 444 B by=u5 at=995820 downloads=5
+  2.4.1 7585 B by=u5 at=1036380 downloads=3
+  2.5.0 5374 B by=u5 at=1124640
+published pk18 3.2.4 (7 KiB)
+lock set1451 (3 packages)
+  pk14 2.6.1
+  pk21 4.2.1
+  pk23 2.7.1
+digest 25361fc8e091
+fetched pk10 2.2.1
+fetched pk20 4.9.0
+fetched pk07 3.1.2
+fetched pk11 1.4.0
+fetched pk17 2.7.0
+published pk09 2.4.0 (3 KiB)
+clock 1157280
+published pk10 2.3.0 (11 KiB)
+fetched pk18 3.2.4
+published pk21 4.3.0 (6 KiB)
+yanked pk13 1.5.3
+fetched pk12 1.2.6
+pk06 ~2.7 -> 2.7.1
+top downloads:
+  1. pk07 32
+  2. pk04 30
+  3. pk05 28
+  4. pk20 25
+  5. pk12 24
+fetched pk02 1.7.4
+lock set1467 (3 packages)
+  pk01 3.3.1
+  pk08 2.3.0
+  pk23 2.7.1
+digest 7049e44b1107
+published pk17 2.7.1 (3 KiB)
+quota u5 used=398 KiB limit=10240 KiB
+published pk20 4.10.0 (2 KiB)
+fetched pk00 1.12.1
+tag pk08 next -> 2.2.1
+fetched pk23 2.7.1
+lock set1474 (3 packages)
+  pk03 2.9.0
+  pk08 2.3.0
+  pk15 2.4.0
+digest c109c67994e2
+fetched pk04 2.4.0
+pk18 ~2.1 -> 2.1.5
+package pk17 visibility=public latest=2.7.1 downloads=14 releases=16
+  1.0.0 1603 B by=u6 at=125940 yanked=r61 downloads=2
+  1.1.0 4598 B by=u6 at=174420
+  1.2.0 6115 B by=u6 at=178560 yanked=r91 downloads=1
+  1.2.1 147 B by=u6 at=269940 downloads=2
+  2.0.0 11590 B by=u6 at=385800
+  2.1.0 804 B by=u6 at=512700
+  2.1.1 4955 B by=u6 at=584160
+  2.1.2 5895 B by=u6 at=645180
+  2.2.0 5111 B by=u6 at=754620
+  2.3.0 8309 B by=u6 at=784500 downloads=1
+  2.3.1 5796 B by=u6 at=924240 downloads=4
+  2.4.0 11029 B by=u7 at=1032060 downloads=1
+  2.5.0 1165 B by=u6 at=1032060 downloads=2
+  2.6.0 5524 B by=u7 at=1058280
+  2.7.0 7043 B by=u7 at=1124640 downloads=1
+  2.7.1 2588 B by=u7 at=1157280
+fetched pk04 1.3.0
+fetched pk21 4.3.0
+tag pk00 next -> 1.7.0
+fetched pk18 3.2.4
+fetched pk17 2.7.1
+fetched pk03 2.9.0
+fetched pk09 1.0.2
+clock 1179060
+published pk21 4.3.1 (7 KiB)
+fetched pk08 2.3.0
+fetched pk21 4.3.1
+quota u4 used=404 KiB limit=10240 KiB
+published pk10 2.4.0 (1 KiB)
+tag pk12 next -> 1.0.3
+published pk14 2.7.0 (1 KiB)
+yanked pk02 1.5.1
+top releases:
+  1. pk20 23
+  2. pk02 22
+  3. pk06 22
+  4. pk00 21
+  5. pk01 20
+  6. pk03 20
+tag pk11 next -> 1.1.1
+fetched pk04 2.4.0
+clock 1197000
+quota u5 used=398 KiB limit=10240 KiB
+fetched pk15 1.5.1
+published pk06 2.7.2 (4 KiB)
+published pk10 2.4.1 (6 KiB)
+published pk18 4.0.0 (9 KiB)
+published pk18 4.1.0 (11 KiB)
+fetched pk07 3.1.2
+fetched pk19 2.1.2
+published pk05 2.5.1 (4 KiB)
+invited u7 to pk23 as maintainer until 1283400
+u7 is now maintainer of pk23
+fetched pk11 1.4.0
+fetched pk12 1.2.6
+fetched pk01 3.3.1
+published pk04 2.4.1 (3 KiB)
+published pk13 2.1.0 (1 KiB)
+clock 1224840
+fetched pk18 3.2.4
+package pk19 visibility=public latest=3.2.1 downloads=20 releases=13
+  1.0.0 5108 B by=u6 at=146700 downloads=3
+  2.0.0 4687 B by=u6 at=151020 downloads=6
+  2.0.1 4527 B by=u6 at=609840 yanked=r48 downloads=1
+  2.0.2 7550 B by=u6 at=713280 downloads=1
+  2.0.3 5158 B by=u6 at=828240
+  2.1.0 5875 B by=u6 at=921900
+  2.1.1 7001 B by=u2 at=924240
+  2.1.2 365 B by=u6 at=924240 downloads=6
+  3.0.0 9074 B by=u7 at=977280
+  3.0.1 4199 B by=u8 at=995820
+  3.1.0 10383 B by=u6 at=995820
+  3.2.0 11920 B by=u8 at=1032060 downloads=3
+  3.2.1 8579 B by=u6 at=1124640
+published pk02 2.1.2 (11 KiB)
+fetched pk04 2.4.1
+published pk20 5.0.0 (4 KiB)
+fetched pk00 1.12.1
+yanked pk09 2.4.0
+quota u7 used=404 KiB limit=10240 KiB
+fetched pk07 2.3.0
+published pk14 3.0.0 (6 KiB)
+tag pk00 next -> 1.3.1
+lock set1526 (3 packages)
+  pk00 1.12.1
+  pk09 2.3.0
+  pk19 3.2.1
+digest fc117940642c
+published pk06 2.7.3 (9 KiB)
+pk06 ~2.1 -> 2.1.1
+fetched pk11 1.4.0
+fetched pk18 2.3.0
+quota u1 used=424 KiB limit=10240 KiB
+published pk22 2.3.0 (6 KiB)
+fetched pk23 2.7.1
+fetched pk19 1.0.0
+yanked pk09 2.1.1
+clock 1248480
+fetched pk05 2.5.1
+published pk18 4.2.0 (4 KiB)
+fetched pk22 2.3.0
+clock 1279620
+fetched pk17 2.7.1
+pk20 ~1.0 -> 1.0.0
+clock 1305120
+fetched pk09 2.3.0
+published pk00 2.0.0 (2 KiB)
+published pk13 3.0.0 (12 KiB)
+invited u8 to pk01 as maintainer until 1391520
+u8 is now maintainer of pk01
+top releases:
+  1. pk06 24
+  2. pk20 24
+  3. pk02 23
+pk14 ~1.0 -> 1.0.4
+fetched pk03 2.9.0
+tag pk22 next -> 2.1.1
+published pk23 2.7.2 (1 KiB)
+published pk20 5.0.1 (11 KiB)
+published pk22 3.0.0 (3 KiB)
+lock set1556 (3 packages)
+  pk11 2.0.0
+  pk20 5.0.1
+  pk22 3.0.0
+digest 97d4dc113c7e
+unyanked pk21 3.2.0
+tag pk22 next -> 2.1.1
+published pk02 2.1.3 (1 KiB)
+invited u5 to pk16 as maintainer until 1391520
+u5 is now maintainer of pk16
+published pk11 2.0.1 (9 KiB)
+tag pk19 next -> 3.0.1
+published pk13 3.0.1 (7 KiB)
+lock set1565 (3 packages)
+  pk05 2.5.1
+  pk12 1.2.6
+  pk16 4.1.2
+digest 6f23ab075405
+fetched pk15 2.4.0
+quota u3 used=140 KiB limit=10240 KiB
+top dependents:
+  1. pk03 5
+  2. pk00 3
+  3. pk02 3
+  4. pk01 2
+published pk23 2.7.3 (11 KiB)
+fetched pk05 2.5.1
+pk10 ~2.3 -> 2.3.0
+pk23 ~2.0 -> 2.0.0
+clock 1340460
+yanked pk23 2.6.2
+published pk08 2.3.1 (5 KiB)
+fetched pk21 3.3.0
+yanked pk12 1.0.1
+pk20 ~4.0 -> 4.0.0
+published pk03 2.9.1 (7 KiB)
+fetched pk15 2.4.0
+clock 1360920
+published pk21 4.3.2 (6 KiB)
+quota u5 used=407 KiB limit=10240 KiB
+published pk21 4.3.3 (5 KiB)
+fetched pk15 2.4.0
+yanked pk00 1.11.0
+fetched pk01 3.3.1
+fetched pk17 2.7.1
+quota u1 used=449 KiB limit=10240 KiB
+top releases:
+  1. pk20 25
+  2. pk02 24
+  3. pk06 24
+fetched pk01 3.3.1
+fetched pk08 2.3.1
+fetched pk20 1.3.0
+fetched pk21 4.3.3
+published pk15 2.4.1 (11 KiB)
+fetched pk09 2.3.0
+fetched pk04 2.4.1
+fetched pk15 2.4.1
+fetched pk22 3.0.0
+check ok (8 users, 24 packages)
+#698 t=1305120 u1 publish pk02 version=2.1.3 size=527
+#699 t=1305120 u7 invite pk16 user=u5 role=maintainer until=1391520
+#700 t=1305120 u5 accept pk16 role=maintainer by=u7
+#701 t=1305120 u1 publish pk11 version=2.0.1 size=8228
+#702 t=1305120 u6 tag.add pk19 tag=next version=3.0.1 was=1.0.0
+#703 t=1305120 u6 publish pk13 version=3.0.1 size=7027
+#704 t=1305120 u2 publish pk23 version=2.7.3 size=10750
+#705 t=1340460 u2 yank pk23 version=2.6.2 reason=r86
+#706 t=1340460 u5 publish pk08 version=2.3.1 size=4524
+#707 t=1340460 u7 yank pk12 version=1.0.1 reason=r33
+#708 t=1340460 u8 publish pk03 version=2.9.1 size=6351
+#709 t=1360920 u1 publish pk21 version=4.3.2 size=5465
+#710 t=1360920 u1 publish pk21 version=4.3.3 size=4202
+#711 t=1360920 u6 yank pk00 version=1.11.0 reason=r81
+#712 t=1360920 u1 publish pk15 version=2.4.1 size=10593

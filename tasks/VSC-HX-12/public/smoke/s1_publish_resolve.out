@@ -1,0 +1,18 @@
+user alice added
+user bob added
+published left-pad 1.0.0 (2 KiB)
+published left-pad 1.2.0 (3 KiB)
+published left-pad 1.10.1 (3 KiB)
+published tiny-json 0.4.2 (1 KiB)
+left-pad ^1.0 -> 1.10.1
+left-pad ~1.2.0 -> 1.2.0
+tiny-json ^0.4 -> 0.4.2
+fetched left-pad 1.10.1
+fetched left-pad 1.2.0
+fetched left-pad 1.10.1
+package left-pad visibility=public latest=1.10.1 downloads=3 releases=3
+  1.0.0 2 KiB by=alice at=0
+  1.2.0 2500 B by=alice at=0 downloads=1
+  1.10.1 3 KiB by=alice at=0 downloads=2
+tags left-pad: latest=1.10.1
+quota alice used=8 KiB limit=10240 KiB

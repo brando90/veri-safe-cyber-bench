@@ -1,0 +1,22 @@
+open alice slot=0 gen=0
+open bob slot=1 gen=0
+open carol slot=2 gen=0
+ok T0.0 deposit alice 120.50 balance=120.50
+ok T0.1 deposit bob 10.00 balance=10.00
+ok T0.2 transfer alice->bob 20.25 balance=100.25
+ok T0.3 withdraw bob 35.00 balance=-4.75
+ok T0.4 withdraw bob 1.00 balance=-5.75
+deny funds available=0.00
+ok T0.5 transfer alice->carol 7.50 balance=92.75
+alice balance=92.75 held=0.00 available=92.75 spent_today=27.75 debits_last_hour=2
+bob balance=-5.75 held=0.00 available=14.25 spent_today=36.00 debits_last_hour=2
+alice slot=0 gen=0 balance=92.75 held=0.00 ops=3
+bob slot=1 gen=0 balance=-5.75 held=0.00 ops=4
+carol slot=2 gen=0 balance=7.50 held=0.00 ops=1
+accounts open=3
+T0.5 transfer alice->carol 7.50 at=0
+T0.2 transfer alice->bob 20.25 at=0
+T0.0 deposit ->alice 120.50 at=0
+T0.2 transfer alice->bob 20.25 at=0
+journal records=6 folded=0 live=6 segments=1 sealed=0 compactions=0
+check ok records=6 live=6 accounts=3 holds=0 batches=0

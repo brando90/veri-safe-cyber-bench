@@ -1,0 +1,13 @@
+user alice added
+user bob added
+published inner 1.0.0 (0 KiB)
+error: unknown package inner
+invited bob to inner as reader until 86400
+bob is now reader of inner
+published outer 1.0.0 (0 KiB)
+lock l (2 packages)
+  inner 1.0.0
+  outer 1.0.0
+digest 29a2e4d6fa81
+error: unknown package inner
+fetched outer 1.0.0

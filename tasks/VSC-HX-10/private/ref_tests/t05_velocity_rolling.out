@@ -1,0 +1,20 @@
+open eve slot=0 gen=0
+ok T0.0 deposit eve 100.00 balance=100.00
+now=30000
+ok T0.1 withdraw eve 1.00 balance=99.00
+now=90000
+ok T0.2 withdraw eve 1.00 balance=98.00
+deny velocity limit=2
+eve balance=98.00 held=0.00 available=98.00 spent_today=2.00 debits_last_hour=2
+now=3540000
+deny velocity limit=2
+error: bad time 60m30s
+deny velocity limit=2
+eve balance=98.00 held=0.00 available=98.00 spent_today=2.00 debits_last_hour=2
+now=3660000
+ok T0.3 withdraw eve 1.00 balance=97.00
+ok T0.4 withdraw eve 1.00 balance=96.00
+eve balance=96.00 held=0.00 available=96.00 spent_today=4.00 debits_last_hour=2
+now=10800000
+eve balance=96.00 held=0.00 available=96.00 spent_today=4.00 debits_last_hour=0
+error: cannot transfer to the same account

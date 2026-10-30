@@ -1,0 +1,10 @@
+# unpublishing a tagged release removes its tags
+user add alice
+publish alice webkit 1.0.0 size=1KiB
+publish alice webkit 1.1.0 size=1KiB
+tag add alice webkit beta 1.1.0
+unpublish alice webkit 1.1.0
+tags - webkit
+fetch - webkit @beta
+fetch - webkit
+check

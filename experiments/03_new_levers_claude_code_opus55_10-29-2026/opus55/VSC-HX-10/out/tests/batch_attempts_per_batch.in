@@ -1,0 +1,45 @@
+open b
+clearing fail 1
+deposit b 1
+settle
+clock advance 30s
+batches
+deposit b 1
+settle
+deposit b 1
+settle
+deposit b 1
+settle
+deposit b 1
+settle
+deposit b 1
+settle
+deposit b 1
+settle
+deposit b 1
+settle
+deposit b 1
+settle
+deposit b 1
+settle
+deposit b 1
+settle
+deposit b 1
+settle
+deposit b 1
+settle
+deposit b 1
+settle
+deposit b 1
+settle
+deposit b 1
+settle
+clearing fail 2
+deposit b 2
+settle
+batches last=1
+clock advance 30s
+clock advance 1m
+batches last=2
+clearing
+check

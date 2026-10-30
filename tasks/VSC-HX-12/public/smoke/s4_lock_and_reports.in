@@ -1,0 +1,19 @@
+# dependencies, a lock and the reports
+user add alice
+user add bob
+user add carol
+publish alice base 1.0.0 size=1KiB
+publish alice base 1.4.0 size=2KiB
+publish bob http 2.0.0 size=6KiB deps=base@^1.2
+publish carol cli 0.9.0 size=3KiB deps=http@^2;base@>=1.0
+fetch - base
+fetch - base
+fetch - http
+lock carol app cli@*
+dependents - base
+top - downloads
+top - releases
+top - dependents
+search - ba
+publish alice base 1.5.0 size=2KiB
+outdated carol app

@@ -1,0 +1,8 @@
+user add alice
+user add bob
+publish alice zeta 1.0.0 size=2KiB
+publish bob alpha 1.0.0 size=2KiB
+publish alice mid 1.0.0 size=5KiB
+publish bob beta 1.0.0 size=1500
+top - size
+top - releases

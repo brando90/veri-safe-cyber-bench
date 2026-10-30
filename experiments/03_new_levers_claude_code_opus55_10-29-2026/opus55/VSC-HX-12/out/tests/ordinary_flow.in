@@ -1,0 +1,20 @@
+# ordinary use keeps working
+user add root admin
+user add alice
+user add bob
+publish alice net 1.0.0 size=3000
+publish alice net 1.1.0 size=4KiB
+publish bob tool 0.1.0 size=1KiB deps=net@^1
+tag add alice net next 1.1.0
+yank alice net 1.1.0
+tags - net
+fetch - net
+fetch - net @next
+lock bob l1 tool@*
+unpublish alice net 1.0.0
+outdated bob l1
+quota alice
+prune root net
+quota alice
+info - net
+check

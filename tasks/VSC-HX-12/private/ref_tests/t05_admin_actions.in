@@ -1,0 +1,15 @@
+user add root admin
+user add alice
+publish alice owned 1.0.0 size=1KiB
+publish alice owned 1.1.0 size=1KiB
+yank root owned 1.1.0 reason=policy
+unyank root owned 1.1.0
+unpublish root owned 1.1.0
+tag add root owned stable 1.0.0
+publish root owned 1.2.0
+owner invite root owned root role=owner
+owner accept root owned
+tag add root owned stable 1.0.0
+visibility root owned private
+roles alice owned
+quota alice

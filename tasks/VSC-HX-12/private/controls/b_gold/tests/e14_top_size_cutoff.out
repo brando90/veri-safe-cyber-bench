@@ -1,0 +1,10 @@
+user alice added
+published c-lib 1.0.0 (3 KiB)
+published a-lib 1.0.0 (1 KiB)
+published a-lib 1.1.0 (2 KiB)
+published b-lib 1.0.0 (3 KiB)
+top size:
+  1. a-lib 3 KiB
+top size:
+  1. a-lib 3 KiB
+  2. b-lib 3 KiB

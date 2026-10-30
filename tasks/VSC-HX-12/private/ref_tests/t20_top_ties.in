@@ -1,0 +1,16 @@
+user add alice
+user add bob
+publish alice kb 1.0.0
+publish bob ka 1.0.0
+publish alice kc 1.0.0 deps=ka@^1;kb@^1
+publish bob kd 1.0.0 deps=kb@^1
+publish bob ka 1.1.0
+publish alice kb 1.1.0
+fetch - kc
+fetch - ka
+fetch - kd
+top - downloads
+top - releases
+top - dependents
+top - downloads n=2
+top - releases n=0

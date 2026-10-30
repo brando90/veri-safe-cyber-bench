@@ -1,0 +1,19 @@
+user root added (admin)
+user alice added
+published Fast_Hash 1.0.0 (2 KiB)
+error: Fast_Hash 1.0.0 already exists
+error: package name core is reserved
+error: invalid version '1.0.x'
+error: unknown package nothing
+error: unknown command 'frobnicate'
+error: unknown option 'colour' for publish
+yanked Fast_Hash 1.0.0
+#2 t=0 - user.add alice admin=no
+#3 t=0 alice publish Fast_Hash version=1.0.0 size=1500
+#4 t=0 alice yank Fast_Hash version=1.0.0 reason="bad, very bad"
+seq	time	actor	action	target	detail
+1	0	-	user.add	root	admin=yes
+2	0	-	user.add	alice	admin=no
+3	0	alice	publish	Fast_Hash	version=1.0.0 size=1500
+4	0	alice	yank	Fast_Hash	version=1.0.0 reason="bad, very bad"
+check ok (2 users, 1 packages)

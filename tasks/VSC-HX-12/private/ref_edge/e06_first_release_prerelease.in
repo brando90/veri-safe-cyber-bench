@@ -1,0 +1,9 @@
+user add alice
+publish alice newlib 0.1.0-alpha.1
+tags - newlib
+fetch - newlib
+fetch - newlib >=0.1.0-alpha.0
+info - newlib
+yank alice newlib 0.1.0-alpha.1
+unyank alice newlib 0.1.0-alpha.1
+tags - newlib

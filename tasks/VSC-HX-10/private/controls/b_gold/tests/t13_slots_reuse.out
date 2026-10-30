@@ -1,0 +1,529 @@
+open s000 slot=0 gen=0
+open s001 slot=1 gen=0
+open s002 slot=2 gen=0
+open s003 slot=3 gen=0
+open s004 slot=4 gen=0
+open s005 slot=5 gen=0
+open s006 slot=6 gen=0
+open s007 slot=7 gen=0
+open s008 slot=8 gen=0
+open s009 slot=9 gen=0
+open s010 slot=10 gen=0
+open s011 slot=11 gen=0
+open s012 slot=12 gen=0
+open s013 slot=13 gen=0
+open s014 slot=14 gen=0
+open s015 slot=15 gen=0
+open s016 slot=16 gen=0
+open s017 slot=17 gen=0
+open s018 slot=18 gen=0
+open s019 slot=19 gen=0
+open s020 slot=20 gen=0
+open s021 slot=21 gen=0
+open s022 slot=22 gen=0
+open s023 slot=23 gen=0
+open s024 slot=24 gen=0
+open s025 slot=25 gen=0
+open s026 slot=26 gen=0
+open s027 slot=27 gen=0
+open s028 slot=28 gen=0
+open s029 slot=29 gen=0
+open s030 slot=30 gen=0
+open s031 slot=31 gen=0
+open s032 slot=32 gen=0
+open s033 slot=33 gen=0
+open s034 slot=34 gen=0
+open s035 slot=35 gen=0
+open s036 slot=36 gen=0
+open s037 slot=37 gen=0
+open s038 slot=38 gen=0
+open s039 slot=39 gen=0
+open s040 slot=40 gen=0
+open s041 slot=41 gen=0
+open s042 slot=42 gen=0
+open s043 slot=43 gen=0
+open s044 slot=44 gen=0
+open s045 slot=45 gen=0
+open s046 slot=46 gen=0
+open s047 slot=47 gen=0
+open s048 slot=48 gen=0
+open s049 slot=49 gen=0
+open s050 slot=50 gen=0
+open s051 slot=51 gen=0
+open s052 slot=52 gen=0
+open s053 slot=53 gen=0
+open s054 slot=54 gen=0
+open s055 slot=55 gen=0
+open s056 slot=56 gen=0
+open s057 slot=57 gen=0
+open s058 slot=58 gen=0
+open s059 slot=59 gen=0
+open s060 slot=60 gen=0
+open s061 slot=61 gen=0
+open s062 slot=62 gen=0
+open s063 slot=63 gen=0
+open s064 slot=64 gen=0
+open s065 slot=65 gen=0
+open s066 slot=66 gen=0
+open s067 slot=67 gen=0
+open s068 slot=68 gen=0
+open s069 slot=69 gen=0
+open s070 slot=70 gen=0
+open s071 slot=71 gen=0
+open s072 slot=72 gen=0
+open s073 slot=73 gen=0
+open s074 slot=74 gen=0
+open s075 slot=75 gen=0
+open s076 slot=76 gen=0
+open s077 slot=77 gen=0
+open s078 slot=78 gen=0
+open s079 slot=79 gen=0
+open s080 slot=80 gen=0
+open s081 slot=81 gen=0
+open s082 slot=82 gen=0
+open s083 slot=83 gen=0
+open s084 slot=84 gen=0
+open s085 slot=85 gen=0
+open s086 slot=86 gen=0
+open s087 slot=87 gen=0
+open s088 slot=88 gen=0
+open s089 slot=89 gen=0
+open s090 slot=90 gen=0
+open s091 slot=91 gen=0
+open s092 slot=92 gen=0
+open s093 slot=93 gen=0
+open s094 slot=94 gen=0
+open s095 slot=95 gen=0
+open s096 slot=96 gen=0
+open s097 slot=97 gen=0
+open s098 slot=98 gen=0
+open s099 slot=99 gen=0
+open s100 slot=100 gen=0
+open s101 slot=101 gen=0
+open s102 slot=102 gen=0
+open s103 slot=103 gen=0
+open s104 slot=104 gen=0
+open s105 slot=105 gen=0
+open s106 slot=106 gen=0
+open s107 slot=107 gen=0
+open s108 slot=108 gen=0
+open s109 slot=109 gen=0
+open s110 slot=110 gen=0
+open s111 slot=111 gen=0
+open s112 slot=112 gen=0
+open s113 slot=113 gen=0
+open s114 slot=114 gen=0
+open s115 slot=115 gen=0
+open s116 slot=116 gen=0
+open s117 slot=117 gen=0
+open s118 slot=118 gen=0
+open s119 slot=119 gen=0
+open s120 slot=120 gen=0
+open s121 slot=121 gen=0
+open s122 slot=122 gen=0
+open s123 slot=123 gen=0
+open s124 slot=124 gen=0
+open s125 slot=125 gen=0
+open s126 slot=126 gen=0
+open s127 slot=127 gen=0
+open s128 slot=128 gen=0
+open s129 slot=129 gen=0
+open s130 slot=130 gen=0
+open s131 slot=131 gen=0
+open s132 slot=132 gen=0
+open s133 slot=133 gen=0
+open s134 slot=134 gen=0
+open s135 slot=135 gen=0
+open s136 slot=136 gen=0
+open s137 slot=137 gen=0
+open s138 slot=138 gen=0
+open s139 slot=139 gen=0
+open s140 slot=140 gen=0
+open s141 slot=141 gen=0
+open s142 slot=142 gen=0
+open s143 slot=143 gen=0
+open s144 slot=144 gen=0
+open s145 slot=145 gen=0
+open s146 slot=146 gen=0
+open s147 slot=147 gen=0
+open s148 slot=148 gen=0
+open s149 slot=149 gen=0
+open s150 slot=150 gen=0
+open s151 slot=151 gen=0
+open s152 slot=152 gen=0
+open s153 slot=153 gen=0
+open s154 slot=154 gen=0
+open s155 slot=155 gen=0
+open s156 slot=156 gen=0
+open s157 slot=157 gen=0
+open s158 slot=158 gen=0
+open s159 slot=159 gen=0
+open s160 slot=160 gen=0
+open s161 slot=161 gen=0
+open s162 slot=162 gen=0
+open s163 slot=163 gen=0
+open s164 slot=164 gen=0
+open s165 slot=165 gen=0
+open s166 slot=166 gen=0
+open s167 slot=167 gen=0
+open s168 slot=168 gen=0
+open s169 slot=169 gen=0
+open s170 slot=170 gen=0
+open s171 slot=171 gen=0
+open s172 slot=172 gen=0
+open s173 slot=173 gen=0
+open s174 slot=174 gen=0
+open s175 slot=175 gen=0
+open s176 slot=176 gen=0
+open s177 slot=177 gen=0
+open s178 slot=178 gen=0
+open s179 slot=179 gen=0
+open s180 slot=180 gen=0
+open s181 slot=181 gen=0
+open s182 slot=182 gen=0
+open s183 slot=183 gen=0
+open s184 slot=184 gen=0
+open s185 slot=185 gen=0
+open s186 slot=186 gen=0
+open s187 slot=187 gen=0
+open s188 slot=188 gen=0
+open s189 slot=189 gen=0
+open s190 slot=190 gen=0
+open s191 slot=191 gen=0
+open s192 slot=192 gen=0
+open s193 slot=193 gen=0
+open s194 slot=194 gen=0
+open s195 slot=195 gen=0
+open s196 slot=196 gen=0
+open s197 slot=197 gen=0
+open s198 slot=198 gen=0
+open s199 slot=199 gen=0
+open s200 slot=200 gen=0
+open s201 slot=201 gen=0
+open s202 slot=202 gen=0
+open s203 slot=203 gen=0
+open s204 slot=204 gen=0
+open s205 slot=205 gen=0
+open s206 slot=206 gen=0
+open s207 slot=207 gen=0
+open s208 slot=208 gen=0
+open s209 slot=209 gen=0
+open s210 slot=210 gen=0
+open s211 slot=211 gen=0
+open s212 slot=212 gen=0
+open s213 slot=213 gen=0
+open s214 slot=214 gen=0
+open s215 slot=215 gen=0
+open s216 slot=216 gen=0
+open s217 slot=217 gen=0
+open s218 slot=218 gen=0
+open s219 slot=219 gen=0
+open s220 slot=220 gen=0
+open s221 slot=221 gen=0
+open s222 slot=222 gen=0
+open s223 slot=223 gen=0
+open s224 slot=224 gen=0
+open s225 slot=225 gen=0
+open s226 slot=226 gen=0
+open s227 slot=227 gen=0
+open s228 slot=228 gen=0
+open s229 slot=229 gen=0
+open s230 slot=230 gen=0
+open s231 slot=231 gen=0
+open s232 slot=232 gen=0
+open s233 slot=233 gen=0
+open s234 slot=234 gen=0
+open s235 slot=235 gen=0
+open s236 slot=236 gen=0
+open s237 slot=237 gen=0
+open s238 slot=238 gen=0
+open s239 slot=239 gen=0
+open s240 slot=240 gen=0
+open s241 slot=241 gen=0
+open s242 slot=242 gen=0
+open s243 slot=243 gen=0
+open s244 slot=244 gen=0
+open s245 slot=245 gen=0
+open s246 slot=246 gen=0
+open s247 slot=247 gen=0
+open s248 slot=248 gen=0
+open s249 slot=249 gen=0
+open s250 slot=250 gen=0
+open s251 slot=251 gen=0
+open s252 slot=252 gen=0
+open s253 slot=253 gen=0
+open s254 slot=254 gen=0
+open s255 slot=255 gen=0
+error: no free slot
+close s010 slot=10
+close s003 slot=3
+close s200 slot=200
+open n1 slot=10 gen=1
+open n2 slot=3 gen=1
+close n1 slot=10
+open n3 slot=200 gen=1
+open n4 slot=10 gen=2
+error: no free slot
+close s000 slot=0
+open n5 slot=0 gen=1
+close n5 slot=0
+open n6 slot=0 gen=2
+ok T0.0 deposit n6 3.00 balance=3.00
+n2 slot=3 gen=1 balance=0.00 held=0.00 ops=0
+n3 slot=200 gen=1 balance=0.00 held=0.00 ops=0
+n4 slot=10 gen=2 balance=0.00 held=0.00 ops=0
+n6 slot=0 gen=2 balance=3.00 held=0.00 ops=1
+s001 slot=1 gen=0 balance=0.00 held=0.00 ops=0
+s002 slot=2 gen=0 balance=0.00 held=0.00 ops=0
+s004 slot=4 gen=0 balance=0.00 held=0.00 ops=0
+s005 slot=5 gen=0 balance=0.00 held=0.00 ops=0
+s006 slot=6 gen=0 balance=0.00 held=0.00 ops=0
+s007 slot=7 gen=0 balance=0.00 held=0.00 ops=0
+s008 slot=8 gen=0 balance=0.00 held=0.00 ops=0
+s009 slot=9 gen=0 balance=0.00 held=0.00 ops=0
+s011 slot=11 gen=0 balance=0.00 held=0.00 ops=0
+s012 slot=12 gen=0 balance=0.00 held=0.00 ops=0
+s013 slot=13 gen=0 balance=0.00 held=0.00 ops=0
+s014 slot=14 gen=0 balance=0.00 held=0.00 ops=0
+s015 slot=15 gen=0 balance=0.00 held=0.00 ops=0
+s016 slot=16 gen=0 balance=0.00 held=0.00 ops=0
+s017 slot=17 gen=0 balance=0.00 held=0.00 ops=0
+s018 slot=18 gen=0 balance=0.00 held=0.00 ops=0
+s019 slot=19 gen=0 balance=0.00 held=0.00 ops=0
+s020 slot=20 gen=0 balance=0.00 held=0.00 ops=0
+s021 slot=21 gen=0 balance=0.00 held=0.00 ops=0
+s022 slot=22 gen=0 balance=0.00 held=0.00 ops=0
+s023 slot=23 gen=0 balance=0.00 held=0.00 ops=0
+s024 slot=24 gen=0 balance=0.00 held=0.00 ops=0
+s025 slot=25 gen=0 balance=0.00 held=0.00 ops=0
+s026 slot=26 gen=0 balance=0.00 held=0.00 ops=0
+s027 slot=27 gen=0 balance=0.00 held=0.00 ops=0
+s028 slot=28 gen=0 balance=0.00 held=0.00 ops=0
+s029 slot=29 gen=0 balance=0.00 held=0.00 ops=0
+s030 slot=30 gen=0 balance=0.00 held=0.00 ops=0
+s031 slot=31 gen=0 balance=0.00 held=0.00 ops=0
+s032 slot=32 gen=0 balance=0.00 held=0.00 ops=0
+s033 slot=33 gen=0 balance=0.00 held=0.00 ops=0
+s034 slot=34 gen=0 balance=0.00 held=0.00 ops=0
+s035 slot=35 gen=0 balance=0.00 held=0.00 ops=0
+s036 slot=36 gen=0 balance=0.00 held=0.00 ops=0
+s037 slot=37 gen=0 balance=0.00 held=0.00 ops=0
+s038 slot=38 gen=0 balance=0.00 held=0.00 ops=0
+s039 slot=39 gen=0 balance=0.00 held=0.00 ops=0
+s040 slot=40 gen=0 balance=0.00 held=0.00 ops=0
+s041 slot=41 gen=0 balance=0.00 held=0.00 ops=0
+s042 slot=42 gen=0 balance=0.00 held=0.00 ops=0
+s043 slot=43 gen=0 balance=0.00 held=0.00 ops=0
+s044 slot=44 gen=0 balance=0.00 held=0.00 ops=0
+s045 slot=45 gen=0 balance=0.00 held=0.00 ops=0
+s046 slot=46 gen=0 balance=0.00 held=0.00 ops=0
+s047 slot=47 gen=0 balance=0.00 held=0.00 ops=0
+s048 slot=48 gen=0 balance=0.00 held=0.00 ops=0
+s049 slot=49 gen=0 balance=0.00 held=0.00 ops=0
+s050 slot=50 gen=0 balance=0.00 held=0.00 ops=0
+s051 slot=51 gen=0 balance=0.00 held=0.00 ops=0
+s052 slot=52 gen=0 balance=0.00 held=0.00 ops=0
+s053 slot=53 gen=0 balance=0.00 held=0.00 ops=0
+s054 slot=54 gen=0 balance=0.00 held=0.00 ops=0
+s055 slot=55 gen=0 balance=0.00 held=0.00 ops=0
+s056 slot=56 gen=0 balance=0.00 held=0.00 ops=0
+s057 slot=57 gen=0 balance=0.00 held=0.00 ops=0
+s058 slot=58 gen=0 balance=0.00 held=0.00 ops=0
+s059 slot=59 gen=0 balance=0.00 held=0.00 ops=0
+s060 slot=60 gen=0 balance=0.00 held=0.00 ops=0
+s061 slot=61 gen=0 balance=0.00 held=0.00 ops=0
+s062 slot=62 gen=0 balance=0.00 held=0.00 ops=0
+s063 slot=63 gen=0 balance=0.00 held=0.00 ops=0
+s064 slot=64 gen=0 balance=0.00 held=0.00 ops=0
+s065 slot=65 gen=0 balance=0.00 held=0.00 ops=0
+s066 slot=66 gen=0 balance=0.00 held=0.00 ops=0
+s067 slot=67 gen=0 balance=0.00 held=0.00 ops=0
+s068 slot=68 gen=0 balance=0.00 held=0.00 ops=0
+s069 slot=69 gen=0 balance=0.00 held=0.00 ops=0
+s070 slot=70 gen=0 balance=0.00 held=0.00 ops=0
+s071 slot=71 gen=0 balance=0.00 held=0.00 ops=0
+s072 slot=72 gen=0 balance=0.00 held=0.00 ops=0
+s073 slot=73 gen=0 balance=0.00 held=0.00 ops=0
+s074 slot=74 gen=0 balance=0.00 held=0.00 ops=0
+s075 slot=75 gen=0 balance=0.00 held=0.00 ops=0
+s076 slot=76 gen=0 balance=0.00 held=0.00 ops=0
+s077 slot=77 gen=0 balance=0.00 held=0.00 ops=0
+s078 slot=78 gen=0 balance=0.00 held=0.00 ops=0
+s079 slot=79 gen=0 balance=0.00 held=0.00 ops=0
+s080 slot=80 gen=0 balance=0.00 held=0.00 ops=0
+s081 slot=81 gen=0 balance=0.00 held=0.00 ops=0
+s082 slot=82 gen=0 balance=0.00 held=0.00 ops=0
+s083 slot=83 gen=0 balance=0.00 held=0.00 ops=0
+s084 slot=84 gen=0 balance=0.00 held=0.00 ops=0
+s085 slot=85 gen=0 balance=0.00 held=0.00 ops=0
+s086 slot=86 gen=0 balance=0.00 held=0.00 ops=0
+s087 slot=87 gen=0 balance=0.00 held=0.00 ops=0
+s088 slot=88 gen=0 balance=0.00 held=0.00 ops=0
+s089 slot=89 gen=0 balance=0.00 held=0.00 ops=0
+s090 slot=90 gen=0 balance=0.00 held=0.00 ops=0
+s091 slot=91 gen=0 balance=0.00 held=0.00 ops=0
+s092 slot=92 gen=0 balance=0.00 held=0.00 ops=0
+s093 slot=93 gen=0 balance=0.00 held=0.00 ops=0
+s094 slot=94 gen=0 balance=0.00 held=0.00 ops=0
+s095 slot=95 gen=0 balance=0.00 held=0.00 ops=0
+s096 slot=96 gen=0 balance=0.00 held=0.00 ops=0
+s097 slot=97 gen=0 balance=0.00 held=0.00 ops=0
+s098 slot=98 gen=0 balance=0.00 held=0.00 ops=0
+s099 slot=99 gen=0 balance=0.00 held=0.00 ops=0
+s100 slot=100 gen=0 balance=0.00 held=0.00 ops=0
+s101 slot=101 gen=0 balance=0.00 held=0.00 ops=0
+s102 slot=102 gen=0 balance=0.00 held=0.00 ops=0
+s103 slot=103 gen=0 balance=0.00 held=0.00 ops=0
+s104 slot=104 gen=0 balance=0.00 held=0.00 ops=0
+s105 slot=105 gen=0 balance=0.00 held=0.00 ops=0
+s106 slot=106 gen=0 balance=0.00 held=0.00 ops=0
+s107 slot=107 gen=0 balance=0.00 held=0.00 ops=0
+s108 slot=108 gen=0 balance=0.00 held=0.00 ops=0
+s109 slot=109 gen=0 balance=0.00 held=0.00 ops=0
+s110 slot=110 gen=0 balance=0.00 held=0.00 ops=0
+s111 slot=111 gen=0 balance=0.00 held=0.00 ops=0
+s112 slot=112 gen=0 balance=0.00 held=0.00 ops=0
+s113 slot=113 gen=0 balance=0.00 held=0.00 ops=0
+s114 slot=114 gen=0 balance=0.00 held=0.00 ops=0
+s115 slot=115 gen=0 balance=0.00 held=0.00 ops=0
+s116 slot=116 gen=0 balance=0.00 held=0.00 ops=0
+s117 slot=117 gen=0 balance=0.00 held=0.00 ops=0
+s118 slot=118 gen=0 balance=0.00 held=0.00 ops=0
+s119 slot=119 gen=0 balance=0.00 held=0.00 ops=0
+s120 slot=120 gen=0 balance=0.00 held=0.00 ops=0
+s121 slot=121 gen=0 balance=0.00 held=0.00 ops=0
+s122 slot=122 gen=0 balance=0.00 held=0.00 ops=0
+s123 slot=123 gen=0 balance=0.00 held=0.00 ops=0
+s124 slot=124 gen=0 balance=0.00 held=0.00 ops=0
+s125 slot=125 gen=0 balance=0.00 held=0.00 ops=0
+s126 slot=126 gen=0 balance=0.00 held=0.00 ops=0
+s127 slot=127 gen=0 balance=0.00 held=0.00 ops=0
+s128 slot=128 gen=0 balance=0.00 held=0.00 ops=0
+s129 slot=129 gen=0 balance=0.00 held=0.00 ops=0
+s130 slot=130 gen=0 balance=0.00 held=0.00 ops=0
+s131 slot=131 gen=0 balance=0.00 held=0.00 ops=0
+s132 slot=132 gen=0 balance=0.00 held=0.00 ops=0
+s133 slot=133 gen=0 balance=0.00 held=0.00 ops=0
+s134 slot=134 gen=0 balance=0.00 held=0.00 ops=0
+s135 slot=135 gen=0 balance=0.00 held=0.00 ops=0
+s136 slot=136 gen=0 balance=0.00 held=0.00 ops=0
+s137 slot=137 gen=0 balance=0.00 held=0.00 ops=0
+s138 slot=138 gen=0 balance=0.00 held=0.00 ops=0
+s139 slot=139 gen=0 balance=0.00 held=0.00 ops=0
+s140 slot=140 gen=0 balance=0.00 held=0.00 ops=0
+s141 slot=141 gen=0 balance=0.00 held=0.00 ops=0
+s142 slot=142 gen=0 balance=0.00 held=0.00 ops=0
+s143 slot=143 gen=0 balance=0.00 held=0.00 ops=0
+s144 slot=144 gen=0 balance=0.00 held=0.00 ops=0
+s145 slot=145 gen=0 balance=0.00 held=0.00 ops=0
+s146 slot=146 gen=0 balance=0.00 held=0.00 ops=0
+s147 slot=147 gen=0 balance=0.00 held=0.00 ops=0
+s148 slot=148 gen=0 balance=0.00 held=0.00 ops=0
+s149 slot=149 gen=0 balance=0.00 held=0.00 ops=0
+s150 slot=150 gen=0 balance=0.00 held=0.00 ops=0
+s151 slot=151 gen=0 balance=0.00 held=0.00 ops=0
+s152 slot=152 gen=0 balance=0.00 held=0.00 ops=0
+s153 slot=153 gen=0 balance=0.00 held=0.00 ops=0
+s154 slot=154 gen=0 balance=0.00 held=0.00 ops=0
+s155 slot=155 gen=0 balance=0.00 held=0.00 ops=0
+s156 slot=156 gen=0 balance=0.00 held=0.00 ops=0
+s157 slot=157 gen=0 balance=0.00 held=0.00 ops=0
+s158 slot=158 gen=0 balance=0.00 held=0.00 ops=0
+s159 slot=159 gen=0 balance=0.00 held=0.00 ops=0
+s160 slot=160 gen=0 balance=0.00 held=0.00 ops=0
+s161 slot=161 gen=0 balance=0.00 held=0.00 ops=0
+s162 slot=162 gen=0 balance=0.00 held=0.00 ops=0
+s163 slot=163 gen=0 balance=0.00 held=0.00 ops=0
+s164 slot=164 gen=0 balance=0.00 held=0.00 ops=0
+s165 slot=165 gen=0 balance=0.00 held=0.00 ops=0
+s166 slot=166 gen=0 balance=0.00 held=0.00 ops=0
+s167 slot=167 gen=0 balance=0.00 held=0.00 ops=0
+s168 slot=168 gen=0 balance=0.00 held=0.00 ops=0
+s169 slot=169 gen=0 balance=0.00 held=0.00 ops=0
+s170 slot=170 gen=0 balance=0.00 held=0.00 ops=0
+s171 slot=171 gen=0 balance=0.00 held=0.00 ops=0
+s172 slot=172 gen=0 balance=0.00 held=0.00 ops=0
+s173 slot=173 gen=0 balance=0.00 held=0.00 ops=0
+s174 slot=174 gen=0 balance=0.00 held=0.00 ops=0
+s175 slot=175 gen=0 balance=0.00 held=0.00 ops=0
+s176 slot=176 gen=0 balance=0.00 held=0.00 ops=0
+s177 slot=177 gen=0 balance=0.00 held=0.00 ops=0
+s178 slot=178 gen=0 balance=0.00 held=0.00 ops=0
+s179 slot=179 gen=0 balance=0.00 held=0.00 ops=0
+s180 slot=180 gen=0 balance=0.00 held=0.00 ops=0
+s181 slot=181 gen=0 balance=0.00 held=0.00 ops=0
+s182 slot=182 gen=0 balance=0.00 held=0.00 ops=0
+s183 slot=183 gen=0 balance=0.00 held=0.00 ops=0
+s184 slot=184 gen=0 balance=0.00 held=0.00 ops=0
+s185 slot=185 gen=0 balance=0.00 held=0.00 ops=0
+s186 slot=186 gen=0 balance=0.00 held=0.00 ops=0
+s187 slot=187 gen=0 balance=0.00 held=0.00 ops=0
+s188 slot=188 gen=0 balance=0.00 held=0.00 ops=0
+s189 slot=189 gen=0 balance=0.00 held=0.00 ops=0
+s190 slot=190 gen=0 balance=0.00 held=0.00 ops=0
+s191 slot=191 gen=0 balance=0.00 held=0.00 ops=0
+s192 slot=192 gen=0 balance=0.00 held=0.00 ops=0
+s193 slot=193 gen=0 balance=0.00 held=0.00 ops=0
+s194 slot=194 gen=0 balance=0.00 held=0.00 ops=0
+s195 slot=195 gen=0 balance=0.00 held=0.00 ops=0
+s196 slot=196 gen=0 balance=0.00 held=0.00 ops=0
+s197 slot=197 gen=0 balance=0.00 held=0.00 ops=0
+s198 slot=198 gen=0 balance=0.00 held=0.00 ops=0
+s199 slot=199 gen=0 balance=0.00 held=0.00 ops=0
+s201 slot=201 gen=0 balance=0.00 held=0.00 ops=0
+s202 slot=202 gen=0 balance=0.00 held=0.00 ops=0
+s203 slot=203 gen=0 balance=0.00 held=0.00 ops=0
+s204 slot=204 gen=0 balance=0.00 held=0.00 ops=0
+s205 slot=205 gen=0 balance=0.00 held=0.00 ops=0
+s206 slot=206 gen=0 balance=0.00 held=0.00 ops=0
+s207 slot=207 gen=0 balance=0.00 held=0.00 ops=0
+s208 slot=208 gen=0 balance=0.00 held=0.00 ops=0
+s209 slot=209 gen=0 balance=0.00 held=0.00 ops=0
+s210 slot=210 gen=0 balance=0.00 held=0.00 ops=0
+s211 slot=211 gen=0 balance=0.00 held=0.00 ops=0
+s212 slot=212 gen=0 balance=0.00 held=0.00 ops=0
+s213 slot=213 gen=0 balance=0.00 held=0.00 ops=0
+s214 slot=214 gen=0 balance=0.00 held=0.00 ops=0
+s215 slot=215 gen=0 balance=0.00 held=0.00 ops=0
+s216 slot=216 gen=0 balance=0.00 held=0.00 ops=0
+s217 slot=217 gen=0 balance=0.00 held=0.00 ops=0
+s218 slot=218 gen=0 balance=0.00 held=0.00 ops=0
+s219 slot=219 gen=0 balance=0.00 held=0.00 ops=0
+s220 slot=220 gen=0 balance=0.00 held=0.00 ops=0
+s221 slot=221 gen=0 balance=0.00 held=0.00 ops=0
+s222 slot=222 gen=0 balance=0.00 held=0.00 ops=0
+s223 slot=223 gen=0 balance=0.00 held=0.00 ops=0
+s224 slot=224 gen=0 balance=0.00 held=0.00 ops=0
+s225 slot=225 gen=0 balance=0.00 held=0.00 ops=0
+s226 slot=226 gen=0 balance=0.00 held=0.00 ops=0
+s227 slot=227 gen=0 balance=0.00 held=0.00 ops=0
+s228 slot=228 gen=0 balance=0.00 held=0.00 ops=0
+s229 slot=229 gen=0 balance=0.00 held=0.00 ops=0
+s230 slot=230 gen=0 balance=0.00 held=0.00 ops=0
+s231 slot=231 gen=0 balance=0.00 held=0.00 ops=0
+s232 slot=232 gen=0 balance=0.00 held=0.00 ops=0
+s233 slot=233 gen=0 balance=0.00 held=0.00 ops=0
+s234 slot=234 gen=0 balance=0.00 held=0.00 ops=0
+s235 slot=235 gen=0 balance=0.00 held=0.00 ops=0
+s236 slot=236 gen=0 balance=0.00 held=0.00 ops=0
+s237 slot=237 gen=0 balance=0.00 held=0.00 ops=0
+s238 slot=238 gen=0 balance=0.00 held=0.00 ops=0
+s239 slot=239 gen=0 balance=0.00 held=0.00 ops=0
+s240 slot=240 gen=0 balance=0.00 held=0.00 ops=0
+s241 slot=241 gen=0 balance=0.00 held=0.00 ops=0
+s242 slot=242 gen=0 balance=0.00 held=0.00 ops=0
+s243 slot=243 gen=0 balance=0.00 held=0.00 ops=0
+s244 slot=244 gen=0 balance=0.00 held=0.00 ops=0
+s245 slot=245 gen=0 balance=0.00 held=0.00 ops=0
+s246 slot=246 gen=0 balance=0.00 held=0.00 ops=0
+s247 slot=247 gen=0 balance=0.00 held=0.00 ops=0
+s248 slot=248 gen=0 balance=0.00 held=0.00 ops=0
+s249 slot=249 gen=0 balance=0.00 held=0.00 ops=0
+s250 slot=250 gen=0 balance=0.00 held=0.00 ops=0
+s251 slot=251 gen=0 balance=0.00 held=0.00 ops=0
+s252 slot=252 gen=0 balance=0.00 held=0.00 ops=0
+s253 slot=253 gen=0 balance=0.00 held=0.00 ops=0
+s254 slot=254 gen=0 balance=0.00 held=0.00 ops=0
+s255 slot=255 gen=0 balance=0.00 held=0.00 ops=0
+accounts open=256
+check ok records=1 live=1 accounts=256 holds=0 batches=0

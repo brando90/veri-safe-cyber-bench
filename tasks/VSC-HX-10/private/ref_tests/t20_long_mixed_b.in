@@ -1,0 +1,2682 @@
+open m0001 velocity=200 daily=100000 overdraft=0
+deposit m0001 185
+open m0002 velocity=200 daily=100000 overdraft=0
+deposit m0002 706
+open m0003 velocity=200 daily=100000 overdraft=0
+deposit m0003 533
+open m0004 velocity=200 daily=100000 overdraft=0
+deposit m0004 642
+open m0005 velocity=200 daily=100000 overdraft=0
+deposit m0005 233
+open m0006 velocity=200 daily=100000 overdraft=50
+deposit m0006 296
+open m0007 velocity=200 daily=100000 overdraft=0
+deposit m0007 555
+open m0008 velocity=200 daily=100000 overdraft=0
+deposit m0008 326
+open m0009 velocity=200 daily=100000 overdraft=50
+deposit m0009 565
+open m0010 velocity=200 daily=100000 overdraft=0
+deposit m0010 208
+open m0011 velocity=200 daily=100000 overdraft=0
+deposit m0011 827
+open m0012 velocity=200 daily=100000 overdraft=0
+deposit m0012 531
+deposit m0011 23.98
+deposit m0001 43.22
+hold m0012 19 ttl=779s
+withdraw m0006 10
+deposit m0008 51.57 key=k1
+hold m0003 22 ttl=183s
+holds m0004
+deposit m0002 37.35
+balance m0006
+withdraw m0005 9
+withdraw m0008 9
+deposit m0003 46.63 key=k2
+withdraw m0009 3
+deposit m0007 41.53 key=k1
+withdraw m0003 4
+clock advance 104s
+holds m0001
+balance m0006
+transfer m0001 m0002 18.25 key=k4
+history m0008 last=3
+deposit m0002 42.21
+clock advance 105s
+withdraw m0002 7
+deposit m0001 22.84
+holds m0002
+history m0009 last=3
+transfer m0005 m0009 2.36
+deposit m0011 16.21 key=k1
+withdraw m0012 9
+deposit m0009 52.57
+deposit m0007 14.87 key=k1
+deposit m0011 28.10
+transfer m0005 m0008 18.92
+withdraw m0002 4
+withdraw m0001 8
+hold m0005 26 ttl=418s
+withdraw m0006 3
+withdraw m0007 8
+holds m0005
+withdraw m0002 7
+deposit m0005 10.64
+withdraw m0010 8
+settle
+withdraw m0008 1
+reverse T0.33
+withdraw m0010 8
+deposit m0002 10.79 key=k7
+show T0.32
+clock advance 79s
+hold m0005 2
+deposit m0001 60.93 key=k8
+withdraw m0012 5
+hold m0010 12
+deposit m0004 21.96 key=k9
+hold m0009 18 ttl=447s
+hold m0012 15 ttl=760s
+deposit m0007 20.05
+transfer m0006 m0012 18.20 key=k10
+deposit m0007 3.40
+clock advance 106s
+deposit m0007 21.04
+hold m0008 19 ttl=409s
+transfer m0001 m0009 14.77
+deposit m0008 43.98
+transfer m0002 m0008 13.81
+withdraw m0001 1
+transfer m0006 m0012 9.92
+deposit m0010 49.75
+holds m0008
+history m0002 last=3
+transfer m0003 m0011 4.79
+deposit m0009 35.82
+deposit m0006 20.34
+clock advance 64s
+withdraw m0012 1
+withdraw m0011 10
+balance m0009
+deposit m0003 8.89
+deposit m0010 51.04 key=k11
+clock advance 5s
+transfer m0005 m0009 1.25
+clock advance 85s
+balance m0003
+transfer m0012 m0011 9.00
+hold m0007 26 ttl=583s
+deposit m0001 23.82 key=k12
+deposit m0008 43.91 key=k13
+hold m0003 5
+settle
+balance m0011
+hold m0007 17
+hold m0011 27
+deposit m0011 53.74
+clock advance 15s
+transfer m0006 m0002 17.48 key=k14
+clock advance 48s
+release H009
+transfer m0004 m0006 19.12 key=k15
+balance m0012
+deposit m0006 49.04
+transfer m0001 m0003 9.44
+clock advance 91s
+history m0006 last=3
+deposit m0007 51.13
+transfer m0011 m0007 1.22
+transfer m0011 m0002 11.88 key=k16
+deposit m0012 42.80
+show T0.51
+capture H001
+deposit m0005 39.81
+holds m0010
+capture H006 amount=1
+deposit m0005 22.93
+deposit m0001 51.38
+withdraw m0001 7
+hold m0002 20
+hold m0006 20
+deposit m0011 17.32
+deposit m0009 10.62
+clock advance 99s
+clock advance 48s
+transfer m0010 m0007 2.95
+withdraw m0006 10
+balance m0002
+deposit m0002 56.16 key=k7
+withdraw m0002 6
+withdraw m0010 8
+deposit m0010 58.76
+holds m0005
+deposit m0011 47.81
+show T0.56
+withdraw m0011 1
+deposit m0001 59.81
+transfer m0004 m0009 7.90
+deposit m0010 32.75 key=k18
+history m0005 last=3
+settle
+deposit m0010 27.25
+deposit m0004 1.52
+deposit m0012 12.34
+show T0.84
+withdraw m0011 5
+transfer m0007 m0002 14.24
+deposit m0001 58.27
+deposit m0001 48.73 key=k19
+deposit m0007 37.61
+withdraw m0003 1
+deposit m0004 55.11 key=k15
+clock advance 68s
+withdraw m0008 9
+clock advance 112s
+deposit m0011 53.79 key=k21
+transfer m0001 m0010 11.77
+transfer m0001 m0006 17.70
+show T0.96
+transfer m0002 m0004 11.81
+balance m0005
+transfer m0011 m0001 11.50 key=k22
+hold m0007 29
+transfer m0002 m0009 19.85 key=k23
+deposit m0005 52.28 key=k7
+deposit m0003 25.07
+clock advance 34s
+withdraw m0003 9
+deposit m0006 31.20
+balance m0007
+deposit m0009 37.27
+transfer m0001 m0010 20.92
+transfer m0004 m0009 15.97
+transfer m0011 m0009 11.10
+balance m0006
+clock advance 112s
+withdraw m0011 8
+withdraw m0010 4
+deposit m0003 49.06
+balance m0006
+withdraw m0009 2
+deposit m0009 39.88 key=k25
+deposit m0006 37.31
+clock advance 14s
+withdraw m0008 4
+settle
+clock advance 69s
+transfer m0009 m0004 6.86
+hold m0007 10 ttl=404s
+withdraw m0008 2
+transfer m0002 m0010 3.00
+withdraw m0010 3
+deposit m0007 22.49 key=k26
+withdraw m0011 10
+history m0011 last=3
+holds m0005
+withdraw m0004 7
+deposit m0007 25.29
+deposit m0012 10.88
+withdraw m0001 7
+clock advance 67s
+deposit m0012 49.20
+clock advance 59s
+withdraw m0004 10
+deposit m0011 20.46
+deposit m0010 8.63 key=k27
+withdraw m0007 8
+transfer m0001 m0004 12.63
+withdraw m0012 3
+clock advance 71s
+holds m0012
+deposit m0011 2.99
+transfer m0010 m0012 19.45
+deposit m0010 57.43
+deposit m0004 24.75
+deposit m0005 29.91
+balance m0004
+deposit m0002 34.57
+hold m0009 17
+history m0007 last=3
+hold m0008 19
+deposit m0001 8.48
+deposit m0003 19.64
+withdraw m0008 1
+deposit m0008 38.46 key=k28
+withdraw m0010 4
+holds m0001
+deposit m0009 58.88
+deposit m0010 3.10
+transfer m0008 m0006 5.91 key=k29
+withdraw m0002 1
+deposit m0005 32.60
+withdraw m0001 8
+deposit m0010 22.09 key=k30
+deposit m0002 16.86
+hold m0010 13 ttl=687s
+settle
+withdraw m0002 3
+withdraw m0005 6
+withdraw m0002 6
+withdraw m0008 1
+withdraw m0010 4
+deposit m0007 27.09 key=k26
+transfer m0005 m0011 2.42
+transfer m0004 m0005 9.06 key=k32
+transfer m0003 m0001 20.92
+balance m0002
+clock advance 3s
+deposit m0005 57.52
+reverse T0.138
+capture H018
+transfer m0006 m0005 13.08
+withdraw m0011 1
+clock advance 117s
+capture H004 amount=1
+hold m0003 6 ttl=771s
+deposit m0005 10.21
+withdraw m0006 10
+withdraw m0012 4
+transfer m0006 m0009 2.16
+balance m0002
+withdraw m0008 4
+deposit m0008 34.51
+hold m0011 28
+deposit m0006 48.01 key=k33
+transfer m0009 m0003 9.73
+withdraw m0005 8
+transfer m0011 m0002 19.08
+reverse T0.144
+withdraw m0010 3
+transfer m0009 m0006 10.10
+withdraw m0003 5
+hold m0005 8 ttl=22s
+deposit m0006 22.60
+clock advance 84s
+withdraw m0011 5
+withdraw m0006 6
+withdraw m0004 3
+settle
+transfer m0004 m0006 1.26 key=k34
+deposit m0003 38.29
+transfer m0011 m0010 3.14
+balance m0012
+withdraw m0011 2
+clock advance 1s
+withdraw m0007 9
+deposit m0012 60.69 key=k35
+deposit m0003 44.79
+deposit m0004 4.09
+hold m0005 16 ttl=752s
+withdraw m0006 5
+withdraw m0010 2
+deposit m0012 11.75
+transfer m0003 m0012 16.87
+release H014
+clock advance 68s
+deposit m0009 9.74
+withdraw m0009 10
+capture H010
+clock advance 2s
+deposit m0004 33.04
+deposit m0003 52.91 key=k36
+withdraw m0003 10
+hold m0011 9 ttl=806s
+deposit m0003 34.35 key=k37
+transfer m0008 m0007 7.72 key=k38
+reverse T0.182
+transfer m0008 m0005 13.79 key=k39
+capture H017 amount=1
+transfer m0001 m0012 10.97
+transfer m0011 m0002 1.01
+capture H013
+reverse T0.197
+transfer m0012 m0005 1.66
+transfer m0009 m0004 4.03 key=k40
+withdraw m0001 5
+transfer m0001 m0009 13.72 key=k41
+withdraw m0009 9
+deposit m0001 33.20 key=k42
+reverse T0.203
+holds m0008
+transfer m0011 m0006 4.34
+settle
+transfer m0012 m0008 1.22
+deposit m0004 26.18 key=k43
+withdraw m0008 5
+transfer m0009 m0007 10.90
+transfer m0012 m0001 13.24
+withdraw m0006 6
+hold m0008 30 ttl=716s
+transfer m0001 m0010 12.96
+transfer m0007 m0008 14.75
+transfer m0010 m0008 15.48
+transfer m0005 m0002 15.19
+release H020
+transfer m0002 m0012 16.83
+hold m0003 9 ttl=3s
+hold m0003 16 ttl=538s
+transfer m0012 m0002 4.00
+deposit m0004 57.68
+reverse T0.212
+deposit m0009 34.25
+deposit m0006 36.02
+deposit m0002 4.42 key=k44
+deposit m0008 15.98 key=k45
+balance m0005
+holds m0008
+history m0007 last=3
+balance m0001
+history m0012 last=3
+show T0.243
+history m0001 last=3
+transfer m0005 m0004 1.00
+hold m0009 19
+hold m0003 19
+withdraw m0005 1
+clock advance 104s
+clock advance 48s
+withdraw m0005 7
+withdraw m0001 7
+deposit m0010 24.44
+transfer m0008 m0004 7.65 key=k46
+withdraw m0003 8
+withdraw m0011 5
+capture H028 amount=1
+settle
+holds m0011
+withdraw m0006 5
+transfer m0006 m0003 19.90
+transfer m0003 m0002 5.12 key=k47
+transfer m0002 m0010 14.16 key=k48
+deposit m0002 33.88 key=k41
+show T0.254
+transfer m0011 m0001 19.55 key=k50
+transfer m0011 m0006 20.32
+deposit m0007 25.97 key=k34
+withdraw m0010 6
+transfer m0006 m0008 17.06
+transfer m0008 m0004 9.53
+deposit m0002 4.66 key=k49
+withdraw m0012 6
+holds m0007
+hold m0002 5 ttl=472s
+capture H030 amount=1
+transfer m0005 m0002 1.34 key=k53
+withdraw m0001 3
+deposit m0011 5.44 key=k54
+deposit m0011 39.21
+withdraw m0008 1
+deposit m0003 35.06
+deposit m0009 9.57
+withdraw m0003 10
+deposit m0012 6.29
+deposit m0006 29.65
+deposit m0005 20.51
+withdraw m0005 7
+hold m0009 9
+transfer m0009 m0011 8.60 key=k55
+deposit m0009 25.20
+show T0.283
+transfer m0012 m0008 15.07 key=k56
+deposit m0007 24.79
+withdraw m0006 7
+deposit m0003 3.21
+transfer m0007 m0005 14.56 key=k57
+withdraw m0010 2
+withdraw m0011 3
+deposit m0008 55.26 key=k58
+transfer m0010 m0003 6.26
+holds m0009
+hold m0001 3
+transfer m0010 m0009 20.57
+transfer m0008 m0004 8.02
+withdraw m0011 8
+clearing fail 2
+settle
+show T0.256
+clock advance 3s
+withdraw m0008 7
+deposit m0001 1.64
+transfer m0007 m0008 6.97
+holds m0003
+withdraw m0006 6
+transfer m0003 m0002 10.27 key=k59
+balance m0001
+withdraw m0012 2
+show T0.266
+withdraw m0003 6
+capture H031 amount=1
+hold m0001 18 ttl=341s
+deposit m0011 15.14
+transfer m0002 m0005 6.78 key=k60
+withdraw m0002 10
+transfer m0001 m0010 3.04
+transfer m0012 m0005 19.08 key=k61
+withdraw m0010 1
+deposit m0007 21.15
+show T0.307
+history m0010 last=3
+withdraw m0008 6
+balance m0009
+transfer m0002 m0004 17.86
+deposit m0004 44.23
+withdraw m0006 9
+transfer m0010 m0006 14.36
+transfer m0001 m0007 7.71 key=k62
+clock advance 56s
+withdraw m0006 10
+withdraw m0005 7
+holds m0004
+capture H005
+deposit m0001 36.73
+balance m0003
+clock advance 17s
+withdraw m0005 6
+transfer m0006 m0012 20.79
+withdraw m0005 5
+deposit m0006 55.50 key=k63
+hold m0003 17 ttl=50s
+clock advance 90s
+clock advance 44s
+transfer m0009 m0001 12.27 key=k64
+deposit m0005 1.88
+transfer m0006 m0001 20.82 key=k65
+clearing fail 1
+settle
+transfer m0005 m0001 13.13
+hold m0006 10 ttl=889s
+transfer m0012 m0005 7.19
+deposit m0004 22.08
+capture H027 amount=1
+withdraw m0003 10
+transfer m0009 m0006 11.96
+withdraw m0008 6
+deposit m0004 46.10
+capture H012
+withdraw m0002 10
+deposit m0007 3.48
+clock advance 116s
+deposit m0009 2.31
+transfer m0001 m0008 16.52
+transfer m0011 m0009 6.18
+withdraw m0007 1
+deposit m0010 59.38
+clock advance 84s
+clock advance 19s
+transfer m0011 m0002 1.08
+hold m0007 18 ttl=3s
+transfer m0008 m0012 6.81 key=k66
+deposit m0006 51.52
+transfer m0006 m0003 15.88
+deposit m0001 12.61
+transfer m0003 m0009 17.14
+deposit m0005 22.63 key=k67
+transfer m0011 m0008 11.10
+transfer m0012 m0006 15.52 key=k68
+deposit m0003 31.70
+capture H021
+transfer m0008 m0003 7.33
+hold m0012 12
+deposit m0012 9.13
+transfer m0004 m0002 16.45
+withdraw m0005 2
+deposit m0008 24.31
+deposit m0006 30.04
+deposit m0005 40.40
+deposit m0012 9.83
+clock advance 94s
+deposit m0011 40.54 key=k69
+deposit m0006 14.12
+deposit m0006 41.66 key=k70
+withdraw m0005 2
+hold m0001 2
+transfer m0012 m0010 19.41 key=k71
+deposit m0009 40.72 key=k72
+settle
+show T0.337
+transfer m0009 m0006 5.64
+deposit m0001 36.20 key=k73
+deposit m0001 37.57
+reverse T0.365
+deposit m0011 18.18
+withdraw m0012 2
+show T0.348
+deposit m0003 52.23
+capture H029
+transfer m0011 m0001 2.39
+withdraw m0010 4
+transfer m0010 m0011 20.30 key=k74
+deposit m0010 8.32
+deposit m0007 12.67 key=k67
+reverse T0.359
+deposit m0009 40.72
+deposit m0012 4.81 key=k76
+transfer m0012 m0005 13.50
+deposit m0002 48.01 key=k77
+show T0.374
+transfer m0006 m0003 2.75 key=k78
+deposit m0011 12.11
+transfer m0004 m0003 18.09
+deposit m0011 37.83 key=k79
+deposit m0010 7.62 key=k78
+clock advance 23s
+transfer m0003 m0002 1.41 key=k81
+holds m0012
+transfer m0008 m0002 13.41 key=k82
+deposit m0009 18.85
+transfer m0011 m0003 2.14
+deposit m0002 48.28
+withdraw m0004 1
+deposit m0004 29.71 key=k83
+transfer m0010 m0003 7.89
+withdraw m0001 8
+withdraw m0010 6
+transfer m0011 m0004 10.13
+transfer m0005 m0009 14.28
+deposit m0010 47.27
+settle
+transfer m0004 m0002 3.37
+transfer m0010 m0003 10.11
+deposit m0009 36.27
+clock advance 35s
+withdraw m0002 2
+history m0010 last=3
+transfer m0009 m0001 3.03
+deposit m0003 47.63
+deposit m0005 11.99
+transfer m0003 m0001 16.43
+holds m0007
+holds m0004
+balance m0011
+transfer m0004 m0007 12.68
+deposit m0004 29.62
+holds m0009
+transfer m0007 m0006 9.44
+deposit m0008 46.58 key=k84
+show T0.415
+show T0.402
+show T0.400
+withdraw m0005 6
+hold m0004 16 ttl=633s
+deposit m0008 14.83
+capture H024 amount=1
+history m0012 last=3
+transfer m0010 m0002 5.96 key=k85
+balance m0001
+withdraw m0005 6
+transfer m0004 m0006 14.55 key=k86
+transfer m0001 m0003 16.16
+holds m0004
+transfer m0011 m0004 16.13
+show T0.391
+deposit m0009 44.37
+withdraw m0011 10
+transfer m0009 m0007 14.22
+withdraw m0002 4
+transfer m0010 m0005 14.03
+transfer m0012 m0011 9.71 key=k87
+deposit m0005 19.71 key=k78
+holds m0012
+deposit m0012 27.61
+hold m0011 12
+show T0.412
+settle
+transfer m0003 m0009 3.71
+deposit m0006 56.66
+transfer m0008 m0005 17.58
+deposit m0002 6.13 key=k84
+deposit m0004 45.01 key=k90
+withdraw m0006 4
+transfer m0005 m0007 14.84 key=k91
+deposit m0003 20.49
+deposit m0008 3.60 key=k92
+transfer m0004 m0005 15.86
+deposit m0001 7.30 key=k92
+deposit m0012 54.96
+hold m0005 3
+clock advance 59s
+history m0003 last=3
+history m0004 last=3
+transfer m0011 m0008 3.63 key=k94
+transfer m0005 m0001 4.37
+deposit m0009 56.13
+deposit m0010 47.95 key=k95
+deposit m0006 5.12
+withdraw m0004 10
+transfer m0005 m0002 12.31
+transfer m0007 m0003 8.88
+withdraw m0011 6
+hold m0002 24 ttl=213s
+transfer m0010 m0004 17.68
+deposit m0006 55.78
+reverse T0.446
+deposit m0006 27.34 key=k96
+hold m0001 29 ttl=472s
+withdraw m0011 8
+transfer m0001 m0004 2.04 key=k97
+deposit m0012 60.19
+deposit m0010 33.11
+transfer m0010 m0006 3.70 key=k98
+balance m0012
+withdraw m0005 3
+reverse T0.459
+transfer m0006 m0001 6.40 key=k99
+hold m0008 6
+balance m0010
+deposit m0008 40.26
+deposit m0010 24.50
+hold m0011 10 ttl=529s
+clearing fail 1
+settle
+release H040
+deposit m0002 12.35
+withdraw m0010 6
+capture H032 amount=1
+withdraw m0003 7
+withdraw m0005 2
+withdraw m0004 7
+journal
+idem
+check
+transfer m0003 m0009 3.80
+withdraw m0004 7
+withdraw m0002 1
+balance m0007
+deposit m0003 46.55 key=k100
+deposit m0009 5.70 key=k101
+deposit m0006 28.81
+clock advance 88s
+clock advance 1s
+balance m0001
+withdraw m0004 5
+hold m0010 6 ttl=662s
+deposit m0009 35.67
+deposit m0002 3.25
+deposit m0004 54.90 key=k85
+withdraw m0001 4
+clock advance 92s
+transfer m0006 m0007 16.26
+holds m0005
+transfer m0010 m0008 20.13 key=k103
+history m0008 last=3
+transfer m0010 m0008 2.79 key=k104
+release H044
+deposit m0008 17.36
+history m0002 last=3
+hold m0004 14 ttl=545s
+deposit m0011 5.87
+transfer m0004 m0012 17.70
+transfer m0011 m0001 6.17 key=k105
+withdraw m0009 1
+withdraw m0010 3
+transfer m0012 m0005 1.88
+reverse T0.485
+show T0.471
+deposit m0009 46.12 key=k106
+deposit m0009 55.94
+clock advance 88s
+transfer m0004 m0007 15.19
+deposit m0003 36.75
+settle
+history m0008 last=3
+reverse T0.498
+holds m0001
+transfer m0007 m0002 4.31 key=k107
+withdraw m0003 6
+transfer m0010 m0005 4.85
+withdraw m0007 1
+withdraw m0010 6
+withdraw m0001 8
+withdraw m0005 7
+deposit m0008 5.90
+withdraw m0006 9
+withdraw m0007 9
+deposit m0007 20.12 key=k90
+transfer m0004 m0008 19.35
+deposit m0012 44.96 key=k109
+withdraw m0005 2
+reverse T0.469
+transfer m0003 m0005 11.92 key=k110
+hold m0006 21
+deposit m0005 13.37
+capture H045 amount=1
+withdraw m0009 4
+withdraw m0012 4
+deposit m0010 60.73
+hold m0008 13 ttl=809s
+show T0.493
+history m0001 last=3
+balance m0008
+withdraw m0007 4
+withdraw m0007 6
+withdraw m0012 9
+release H041
+transfer m0007 m0002 13.24
+clock advance 43s
+deposit m0002 33.53
+withdraw m0003 4
+withdraw m0011 9
+deposit m0008 8.84
+deposit m0005 20.74
+withdraw m0002 1
+deposit m0002 5.47
+balance m0010
+withdraw m0011 7
+hold m0005 27
+transfer m0011 m0003 9.71
+clearing fail 2
+settle
+hold m0002 11
+clock advance 28s
+reverse T0.480
+deposit m0008 7.70 key=k111
+withdraw m0005 9
+deposit m0003 58.75
+deposit m0004 52.38
+withdraw m0003 4
+withdraw m0012 7
+transfer m0004 m0002 5.97
+capture H051 amount=1
+holds m0004
+balance m0007
+withdraw m0004 6
+deposit m0001 43.36
+deposit m0004 5.04
+deposit m0003 41.12
+withdraw m0005 1
+clock advance 117s
+deposit m0011 7.12 key=k112
+transfer m0007 m0010 17.96
+withdraw m0010 4
+deposit m0002 27.36 key=k113
+deposit m0008 12.86
+clock advance 38s
+clock advance 104s
+withdraw m0003 4
+hold m0003 6
+transfer m0012 m0001 12.33
+balance m0008
+transfer m0002 m0009 8.62
+clock advance 3s
+transfer m0001 m0012 17.59
+withdraw m0008 5
+deposit m0002 57.23
+hold m0008 21
+transfer m0006 m0011 13.25 key=k114
+deposit m0012 34.61 key=k109
+withdraw m0001 9
+deposit m0005 3.65
+transfer m0009 m0002 6.94
+clock advance 100s
+clock advance 5s
+hold m0009 12
+deposit m0004 13.09
+history m0007 last=3
+clearing fail 1
+settle
+hold m0011 18
+history m0004 last=3
+withdraw m0003 10
+deposit m0002 50.05
+reverse T0.539
+release H055
+hold m0008 22
+clock advance 37s
+hold m0002 3 ttl=126s
+withdraw m0007 6
+deposit m0012 38.81
+clock advance 38s
+transfer m0011 m0010 16.19
+history m0007 last=3
+transfer m0006 m0007 12.81 key=k116
+transfer m0007 m0001 7.44 key=k117
+show T0.553
+clock advance 65s
+deposit m0010 1.13
+hold m0010 23
+transfer m0007 m0006 10.85
+release H054
+balance m0008
+withdraw m0010 3
+withdraw m0002 9
+balance m0012
+transfer m0005 m0006 19.05
+transfer m0012 m0008 11.03
+show T0.551
+withdraw m0004 3
+transfer m0003 m0002 6.10
+transfer m0002 m0010 16.19
+transfer m0007 m0012 13.61
+hold m0004 15 ttl=560s
+transfer m0007 m0006 5.21
+deposit m0003 9.01 key=k115
+reverse T0.542
+withdraw m0002 8
+deposit m0002 40.87
+history m0006 last=3
+withdraw m0003 8
+hold m0009 9
+deposit m0008 53.52 key=k119
+deposit m0003 50.78
+deposit m0008 32.11
+withdraw m0008 10
+settle
+release H052
+holds m0009
+deposit m0010 44.75
+deposit m0002 54.91 key=k107
+history m0012 last=3
+withdraw m0007 10
+hold m0003 28 ttl=863s
+transfer m0004 m0001 5.67
+deposit m0001 25.90
+deposit m0004 28.83
+transfer m0012 m0011 17.61
+withdraw m0006 4
+hold m0003 23
+withdraw m0002 9
+transfer m0008 m0009 7.36
+transfer m0004 m0003 1.38
+holds m0001
+withdraw m0012 8
+deposit m0002 7.36
+withdraw m0011 5
+transfer m0002 m0009 10.58 key=k121
+transfer m0003 m0012 13.47
+balance m0001
+withdraw m0011 8
+withdraw m0001 3
+transfer m0008 m0011 3.77
+withdraw m0012 8
+history m0005 last=3
+withdraw m0009 8
+show T0.574
+deposit m0007 40.75 key=k122
+history m0003 last=3
+transfer m0003 m0007 3.61 key=k123
+deposit m0001 5.86 key=k124
+hold m0002 25
+deposit m0008 55.32 key=k115
+withdraw m0002 10
+withdraw m0008 9
+transfer m0008 m0007 10.34 key=k126
+transfer m0009 m0003 2.87
+clock advance 10s
+settle
+transfer m0002 m0006 1.86 key=k127
+transfer m0001 m0006 18.65 key=k128
+holds m0005
+balance m0009
+show T0.594
+clock advance 84s
+transfer m0011 m0002 15.84 key=k129
+deposit m0003 6.29
+transfer m0012 m0007 10.69 key=k130
+transfer m0010 m0003 19.23
+withdraw m0005 9
+transfer m0008 m0009 11.81
+deposit m0011 1.10 key=k131
+withdraw m0012 9
+withdraw m0007 2
+clock advance 80s
+history m0010 last=3
+show T0.610
+deposit m0001 29.62
+withdraw m0009 10
+deposit m0004 29.55 key=k132
+history m0011 last=3
+deposit m0010 11.49
+withdraw m0003 9
+transfer m0001 m0003 3.58 key=k133
+deposit m0008 17.68
+withdraw m0006 6
+hold m0006 18
+hold m0001 22 ttl=595s
+transfer m0011 m0009 18.97
+clock advance 77s
+deposit m0008 31.84 key=k134
+history m0010 last=3
+hold m0009 16
+deposit m0012 26.84
+deposit m0007 14.48 key=k135
+capture H038
+history m0006 last=3
+deposit m0003 21.28
+transfer m0011 m0003 4.69 key=k136
+withdraw m0002 4
+balance m0012
+transfer m0005 m0007 4.96 key=k137
+holds m0001
+settle
+transfer m0005 m0006 19.91 key=k138
+transfer m0011 m0012 19.20
+holds m0011
+hold m0003 9
+holds m0007
+balance m0005
+withdraw m0001 3
+capture H037 amount=1
+transfer m0004 m0003 6.28
+deposit m0010 22.70
+withdraw m0003 4
+withdraw m0007 2
+capture H050 amount=1
+deposit m0004 29.29 key=k139
+release H061
+transfer m0004 m0005 1.70
+deposit m0003 50.11
+transfer m0005 m0002 20.32 key=k140
+withdraw m0010 8
+clock advance 28s
+show T0.644
+hold m0009 1
+withdraw m0005 1
+clock advance 115s
+deposit m0002 34.87
+withdraw m0003 6
+deposit m0004 25.24
+withdraw m0009 10
+withdraw m0007 2
+deposit m0005 18.29 key=k141
+transfer m0004 m0006 10.35 key=k142
+withdraw m0010 8
+holds m0004
+reverse T0.622
+capture H048 amount=1
+deposit m0003 12.11
+clock advance 26s
+hold m0012 17
+history m0009 last=3
+transfer m0006 m0007 6.65
+clock advance 65s
+capture H060
+withdraw m0005 7
+withdraw m0007 6
+balance m0001
+settle
+transfer m0004 m0006 19.31
+transfer m0011 m0003 4.58
+withdraw m0004 1
+transfer m0003 m0002 3.42 key=k143
+transfer m0010 m0002 4.64 key=k144
+withdraw m0011 2
+reverse T0.651
+hold m0012 11 ttl=87s
+deposit m0011 50.58
+deposit m0007 28.49
+transfer m0004 m0007 16.05
+transfer m0006 m0008 1.79
+withdraw m0006 2
+withdraw m0010 10
+transfer m0012 m0004 4.36 key=k145
+transfer m0003 m0005 3.73 key=k146
+holds m0012
+transfer m0012 m0010 10.18
+clock advance 83s
+withdraw m0004 8
+deposit m0012 28.63
+deposit m0010 33.52
+transfer m0009 m0002 16.41
+hold m0003 12 ttl=408s
+withdraw m0011 7
+transfer m0011 m0001 11.15
+clock advance 39s
+withdraw m0009 9
+show T0.677
+history m0012 last=3
+hold m0008 26
+balance m0006
+history m0011 last=3
+transfer m0004 m0006 13.23
+withdraw m0006 9
+deposit m0011 15.97
+transfer m0012 m0009 9.81 key=k147
+transfer m0001 m0011 9.37
+deposit m0001 49.42
+deposit m0004 5.16
+clock advance 13s
+holds m0002
+transfer m0008 m0009 5.34
+reverse T0.658
+transfer m0010 m0012 6.29 key=k148
+hold m0012 19 ttl=189s
+transfer m0004 m0011 14.88
+transfer m0009 m0012 16.36
+settle
+deposit m0011 47.46 key=k149
+transfer m0004 m0002 6.23
+transfer m0004 m0011 7.02
+withdraw m0005 4
+transfer m0003 m0011 6.81 key=k150
+deposit m0006 54.62
+transfer m0002 m0003 3.62
+withdraw m0010 2
+transfer m0001 m0010 13.92
+balance m0004
+withdraw m0012 9
+transfer m0008 m0003 13.38
+hold m0007 3 ttl=263s
+transfer m0011 m0006 19.35 key=k151
+deposit m0010 55.07 key=k152
+withdraw m0009 4
+release H011
+transfer m0011 m0009 13.45
+deposit m0002 43.44
+deposit m0009 46.81
+deposit m0003 26.11 key=k153
+transfer m0009 m0002 3.21 key=k154
+transfer m0008 m0004 19.90 key=k155
+transfer m0005 m0002 13.82
+deposit m0005 24.20
+withdraw m0004 10
+withdraw m0012 8
+hold m0005 19
+withdraw m0005 7
+transfer m0004 m0006 5.16
+show T0.732
+hold m0011 6
+capture H053 amount=1
+holds m0003
+deposit m0011 41.26
+withdraw m0006 9
+withdraw m0006 4
+transfer m0008 m0002 10.80
+clock advance 45s
+transfer m0001 m0003 14.58
+withdraw m0007 3
+holds m0003
+deposit m0010 26.13 key=k156
+deposit m0006 58.04
+withdraw m0005 6
+transfer m0011 m0009 17.24
+settle
+show T0.724
+hold m0005 20 ttl=100s
+clock advance 18s
+transfer m0008 m0004 8.20
+withdraw m0010 4
+withdraw m0009 7
+deposit m0005 44.06 key=k144
+withdraw m0003 1
+capture H075 amount=1
+withdraw m0009 3
+deposit m0004 3.05 key=k158
+clock advance 22s
+transfer m0010 m0007 9.07
+hold m0006 2 ttl=643s
+transfer m0005 m0003 15.53
+transfer m0005 m0001 6.32 key=k159
+clock advance 13s
+withdraw m0007 9
+deposit m0011 42.66 key=k160
+deposit m0004 59.85
+deposit m0004 59.57
+transfer m0010 m0007 19.46
+withdraw m0007 1
+transfer m0005 m0001 18.04
+deposit m0010 32.61
+withdraw m0010 9
+withdraw m0002 9
+journal
+idem
+check
+deposit m0005 20.69 key=k161
+deposit m0005 17.49
+withdraw m0009 10
+history m0009 last=3
+history m0004 last=3
+deposit m0005 19.39
+balance m0003
+release H062
+transfer m0003 m0009 20.20
+clock advance 64s
+transfer m0007 m0001 9.04 key=k162
+history m0012 last=3
+balance m0001
+withdraw m0010 8
+withdraw m0008 8
+deposit m0012 31.51 key=k151
+deposit m0007 36.71
+reverse T0.758
+deposit m0001 60.01
+settle
+transfer m0001 m0003 8.53
+clock advance 116s
+clock advance 14s
+clock advance 33s
+transfer m0010 m0005 1.29 key=k164
+clock advance 74s
+withdraw m0011 6
+hold m0004 22
+deposit m0005 23.52
+withdraw m0001 1
+transfer m0011 m0010 16.45
+withdraw m0003 3
+deposit m0004 42.84
+show T0.792
+transfer m0002 m0006 11.38
+clock advance 74s
+deposit m0009 20.59 key=k165
+withdraw m0005 1
+deposit m0008 57.43
+balance m0008
+transfer m0007 m0008 1.78 key=k166
+withdraw m0002 3
+transfer m0004 m0002 20.78
+withdraw m0011 2
+withdraw m0008 9
+withdraw m0002 3
+deposit m0001 11.12 key=k167
+deposit m0005 19.46
+withdraw m0010 2
+deposit m0010 59.86
+history m0010 last=3
+deposit m0007 53.12
+reverse T0.798
+withdraw m0002 5
+withdraw m0011 2
+holds m0011
+hold m0011 11
+withdraw m0002 7
+transfer m0008 m0002 10.10
+capture H063
+transfer m0003 m0001 19.97
+withdraw m0001 2
+clock advance 86s
+withdraw m0012 3
+deposit m0005 31.80
+withdraw m0011 4
+hold m0010 16 ttl=529s
+clock advance 24s
+withdraw m0002 8
+settle
+transfer m0006 m0010 14.06 key=k168
+hold m0003 30 ttl=819s
+withdraw m0008 1
+withdraw m0006 8
+transfer m0009 m0008 14.14
+reverse T0.772
+withdraw m0003 1
+clock advance 17s
+history m0007 last=3
+clock advance 74s
+deposit m0011 8.44
+history m0012 last=3
+transfer m0001 m0011 19.89
+transfer m0003 m0005 18.65
+show T0.806
+history m0012 last=3
+transfer m0012 m0005 20.56 key=k169
+withdraw m0006 6
+balance m0009
+withdraw m0004 2
+withdraw m0004 9
+holds m0009
+transfer m0001 m0012 1.96
+withdraw m0002 10
+transfer m0010 m0003 9.79
+withdraw m0007 1
+capture H079 amount=1
+transfer m0006 m0007 12.07 key=k170
+deposit m0007 25.49
+balance m0006
+transfer m0009 m0002 5.30 key=k171
+hold m0004 17 ttl=527s
+withdraw m0012 4
+withdraw m0004 8
+deposit m0001 13.86
+withdraw m0003 5
+withdraw m0008 4
+hold m0009 27 ttl=703s
+holds m0011
+transfer m0002 m0006 19.86
+withdraw m0012 7
+transfer m0003 m0009 13.99
+transfer m0012 m0010 1.17
+deposit m0005 42.82
+deposit m0010 44.14 key=k172
+history m0008 last=3
+history m0005 last=3
+transfer m0011 m0006 20.56 key=k173
+settle
+transfer m0004 m0003 15.24
+clock advance 80s
+history m0010 last=3
+withdraw m0007 10
+transfer m0003 m0005 4.59
+hold m0005 27 ttl=543s
+withdraw m0001 9
+reverse T0.844
+withdraw m0002 2
+transfer m0007 m0012 14.02
+transfer m0006 m0008 9.05
+withdraw m0005 2
+deposit m0009 58.47 key=k174
+release H064
+withdraw m0008 5
+transfer m0004 m0008 9.59
+deposit m0006 4.59
+transfer m0010 m0001 3.17
+transfer m0010 m0012 10.83 key=k175
+holds m0009
+deposit m0006 21.19
+transfer m0002 m0011 19.06 key=k176
+withdraw m0009 6
+transfer m0001 m0010 14.77
+withdraw m0011 2
+transfer m0002 m0005 7.51
+transfer m0011 m0012 4.78 key=k177
+withdraw m0004 7
+withdraw m0010 5
+transfer m0008 m0003 4.35
+reverse T0.844
+withdraw m0003 1
+withdraw m0009 10
+transfer m0008 m0010 20.68
+deposit m0010 25.11
+transfer m0006 m0003 8.22
+deposit m0003 20.84 key=k178
+transfer m0011 m0008 2.31 key=k179
+transfer m0001 m0002 13.67
+deposit m0007 37.22
+balance m0001
+transfer m0004 m0012 11.42 key=k180
+deposit m0008 3.61 key=k181
+transfer m0007 m0001 7.88
+release H066
+settle
+deposit m0009 22.31 key=k182
+deposit m0006 52.88
+transfer m0007 m0006 11.80
+withdraw m0006 9
+withdraw m0001 10
+clock advance 43s
+clock advance 11s
+deposit m0009 58.21 key=k183
+deposit m0001 36.95 key=k184
+balance m0004
+hold m0008 5 ttl=82s
+transfer m0007 m0001 7.13
+deposit m0005 51.49
+balance m0003
+transfer m0007 m0003 20.37
+withdraw m0006 10
+transfer m0010 m0006 1.43 key=k185
+transfer m0001 m0002 10.04
+withdraw m0001 7
+transfer m0012 m0001 14.75
+hold m0002 4 ttl=305s
+transfer m0006 m0009 11.71
+balance m0010
+transfer m0010 m0008 7.66
+deposit m0004 22.81 key=k175
+deposit m0007 59.21 key=k177
+deposit m0012 4.91 key=k188
+withdraw m0012 4
+withdraw m0003 2
+history m0002 last=3
+deposit m0012 42.04
+clock advance 62s
+withdraw m0008 7
+deposit m0008 27.16 key=k189
+deposit m0009 55.25
+transfer m0007 m0002 18.67
+withdraw m0008 5
+withdraw m0007 4
+transfer m0006 m0010 12.80
+clock advance 18s
+clearing fail 2
+settle
+withdraw m0002 10
+transfer m0009 m0003 5.45
+withdraw m0003 3
+transfer m0006 m0012 9.59 key=k190
+withdraw m0009 3
+balance m0002
+holds m0006
+balance m0005
+transfer m0009 m0003 17.56 key=k191
+deposit m0002 29.45
+withdraw m0004 2
+transfer m0005 m0006 20.61
+capture H083
+show T0.917
+withdraw m0004 10
+release H076
+withdraw m0003 10
+balance m0007
+deposit m0005 8.99 key=k192
+deposit m0006 10.15 key=k193
+withdraw m0009 3
+withdraw m0004 7
+withdraw m0006 2
+deposit m0010 45.26
+withdraw m0006 3
+withdraw m0011 5
+hold m0011 27 ttl=753s
+transfer m0001 m0004 17.62 key=k194
+hold m0011 28
+withdraw m0006 6
+deposit m0002 10.80
+show T0.913
+withdraw m0001 2
+deposit m0004 51.26
+deposit m0007 56.63 key=k195
+show T0.945
+deposit m0003 38.11
+show T0.933
+show T0.940
+deposit m0012 58.70
+deposit m0002 38.64 key=k182
+reverse T0.945
+clock advance 96s
+transfer m0001 m0004 16.95 key=k197
+transfer m0008 m0012 12.24
+capture H087 amount=1
+settle
+deposit m0009 53.74
+withdraw m0008 7
+transfer m0008 m0012 6.54 key=k198
+clock advance 13s
+withdraw m0001 2
+hold m0001 18
+withdraw m0011 4
+withdraw m0008 6
+deposit m0005 30.98 key=k199
+transfer m0005 m0001 14.48 key=k200
+withdraw m0004 8
+deposit m0007 20.13 key=k201
+holds m0003
+withdraw m0010 3
+clock advance 43s
+transfer m0010 m0001 8.74
+holds m0010
+deposit m0002 11.25
+clock advance 77s
+deposit m0005 4.39
+holds m0009
+transfer m0008 m0011 8.83
+deposit m0009 37.82
+deposit m0010 59.22
+history m0010 last=3
+deposit m0005 40.85
+hold m0006 29 ttl=15s
+transfer m0010 m0005 2.66 key=k202
+hold m0010 26
+transfer m0007 m0012 13.34
+transfer m0001 m0012 6.52
+withdraw m0004 7
+transfer m0005 m0001 5.37
+deposit m0002 5.58
+clock advance 15s
+reverse T0.962
+reverse T0.963
+deposit m0003 13.82
+balance m0004
+deposit m0003 31.15
+holds m0007
+history m0004 last=3
+withdraw m0003 10
+capture H085
+settle
+deposit m0007 27.03 key=k197
+hold m0007 18 ttl=898s
+balance m0009
+deposit m0003 35.34 key=k204
+deposit m0009 33.86
+release H068
+withdraw m0002 1
+transfer m0007 m0009 16.89 key=k205
+deposit m0010 13.22
+transfer m0007 m0009 11.18
+deposit m0005 23.39
+history m0010 last=3
+withdraw m0004 6
+capture H069 amount=1
+deposit m0003 43.23
+transfer m0012 m0003 18.84
+balance m0011
+withdraw m0012 9
+deposit m0001 48.61 key=k206
+deposit m0012 7.83
+withdraw m0011 8
+transfer m0001 m0003 16.86 key=k207
+transfer m0010 m0001 6.02
+deposit m0002 50.04 key=k189
+hold m0008 30
+withdraw m0007 3
+transfer m0011 m0005 12.65
+balance m0006
+deposit m0005 59.92
+transfer m0002 m0009 3.42
+deposit m0010 35.69
+balance m0004
+withdraw m0001 10
+withdraw m0004 3
+transfer m0003 m0007 16.99
+withdraw m0007 2
+clock advance 32s
+withdraw m0004 1
+deposit m0001 40.01
+withdraw m0005 6
+withdraw m0005 9
+deposit m0011 17.19 key=k209
+hold m0008 4
+deposit m0003 36.50
+settle
+transfer m0003 m0009 1.68
+transfer m0004 m0001 10.48
+transfer m0012 m0010 14.60
+withdraw m0006 5
+deposit m0001 6.00 key=k210
+show T0.1015
+balance m0010
+holds m0001
+transfer m0006 m0007 20.63
+capture H056
+deposit m0001 33.98
+transfer m0001 m0011 16.34
+reverse T0.1022
+clock advance 71s
+clock advance 52s
+deposit m0009 55.34
+show T0.1014
+deposit m0003 25.68 key=k211
+transfer m0008 m0004 12.24
+withdraw m0008 10
+deposit m0002 39.74
+clock advance 71s
+holds m0002
+withdraw m0001 6
+deposit m0009 40.04 key=k212
+transfer m0003 m0012 12.93
+clock advance 100s
+transfer m0010 m0001 20.42 key=k213
+transfer m0008 m0005 12.36
+balance m0003
+deposit m0009 18.19
+reverse T0.1035
+clock advance 6s
+transfer m0010 m0006 6.12
+withdraw m0009 5
+reverse T0.1005
+withdraw m0008 9
+reverse T0.1034
+withdraw m0004 8
+transfer m0001 m0005 6.06
+history m0011 last=3
+deposit m0001 33.07 key=k214
+capture H090
+deposit m0002 9.85 key=k215
+transfer m0005 m0002 1.66
+transfer m0011 m0009 2.87
+clearing fail 1
+settle
+hold m0012 3
+deposit m0003 6.64
+balance m0005
+transfer m0011 m0009 5.98
+clock advance 62s
+withdraw m0001 7
+balance m0002
+hold m0011 21 ttl=570s
+withdraw m0010 5
+reverse T0.1035
+holds m0005
+withdraw m0003 1
+clock advance 88s
+deposit m0001 33.80
+transfer m0006 m0003 2.38
+withdraw m0002 7
+capture H096 amount=1
+transfer m0005 m0002 5.55 key=k216
+holds m0009
+transfer m0002 m0001 20.39
+deposit m0008 35.94
+balance m0005
+balance m0008
+withdraw m0008 2
+withdraw m0005 10
+deposit m0004 10.79
+deposit m0009 42.61
+deposit m0005 15.63
+withdraw m0004 4
+reverse T0.1045
+withdraw m0006 2
+hold m0006 2
+transfer m0008 m0010 13.88 key=k217
+deposit m0003 35.56
+withdraw m0002 5
+transfer m0008 m0004 11.77
+reverse T0.1054
+deposit m0011 52.72
+deposit m0003 45.05
+transfer m0003 m0008 1.18
+deposit m0012 58.17
+withdraw m0001 4
+transfer m0002 m0009 20.87
+withdraw m0002 9
+transfer m0011 m0003 18.11
+deposit m0010 22.94
+settle
+holds m0008
+journal
+idem
+check
+holds m0012
+deposit m0001 53.46 key=k218
+withdraw m0004 9
+hold m0007 28 ttl=535s
+withdraw m0011 5
+deposit m0006 43.02 key=k219
+deposit m0009 47.55 key=k220
+deposit m0006 42.37
+history m0010 last=3
+deposit m0002 50.48
+transfer m0003 m0011 15.09
+clock advance 29s
+clock advance 75s
+holds m0004
+transfer m0002 m0009 10.58
+transfer m0008 m0007 17.78
+withdraw m0002 10
+transfer m0002 m0003 5.38 key=k221
+transfer m0007 m0003 10.38
+show T0.1069
+clock advance 85s
+hold m0002 2 ttl=104s
+transfer m0005 m0007 18.32
+withdraw m0005 3
+withdraw m0007 6
+transfer m0003 m0009 13.63
+balance m0011
+capture H098
+hold m0012 24 ttl=509s
+balance m0008
+transfer m0005 m0003 4.24
+hold m0009 1
+transfer m0004 m0008 4.95
+clock advance 11s
+transfer m0010 m0007 3.90
+transfer m0009 m0003 6.62 key=k222
+deposit m0005 20.83
+holds m0009
+withdraw m0006 4
+deposit m0010 32.53
+history m0003 last=3
+withdraw m0010 8
+deposit m0012 57.02
+show T0.1088
+settle
+show T0.1074
+transfer m0003 m0010 8.60
+show T0.1075
+transfer m0005 m0009 9.39 key=k223
+deposit m0004 17.20 key=k224
+transfer m0008 m0009 14.17 key=k225
+hold m0004 5
+history m0009 last=3
+transfer m0006 m0012 16.72 key=k226
+transfer m0010 m0002 1.84
+withdraw m0001 7
+withdraw m0002 10
+show T0.1100
+capture H103 amount=1
+withdraw m0004 10
+transfer m0001 m0011 18.98
+withdraw m0003 9
+withdraw m0007 4
+hold m0001 29 ttl=516s
+deposit m0007 30.53
+show T0.1097
+hold m0005 19 ttl=445s
+withdraw m0011 8
+deposit m0004 40.68
+capture H105
+balance m0012
+transfer m0003 m0008 19.73
+transfer m0007 m0009 2.22 key=k227
+clock advance 83s
+transfer m0004 m0005 2.84
+clock advance 102s
+hold m0009 18
+withdraw m0011 5
+clock advance 97s
+clock advance 6s
+deposit m0010 27.42
+transfer m0007 m0010 3.49
+deposit m0009 9.12
+capture H101 amount=1
+withdraw m0002 5
+deposit m0004 27.50
+deposit m0003 59.78 key=k228
+deposit m0009 8.66
+holds m0010
+settle
+deposit m0009 50.98
+transfer m0007 m0004 2.29
+transfer m0010 m0002 14.26
+capture H080 amount=1
+deposit m0010 43.37
+withdraw m0002 6
+clock advance 42s
+deposit m0011 39.78
+deposit m0005 5.35
+withdraw m0011 1
+transfer m0007 m0009 18.51 key=k229
+reverse T0.1117
+deposit m0005 29.91 key=k230
+transfer m0011 m0003 7.69
+release H015
+transfer m0011 m0004 1.09
+deposit m0003 16.90 key=k231
+transfer m0010 m0003 8.87
+transfer m0005 m0009 15.66
+deposit m0011 13.47
+withdraw m0011 4
+transfer m0006 m0009 18.02
+withdraw m0010 3
+withdraw m0009 2
+show T0.1161
+withdraw m0003 6
+balance m0008
+balance m0003
+deposit m0004 8.80 key=k232
+withdraw m0006 8
+transfer m0006 m0003 20.51
+hold m0008 4 ttl=767s
+capture H104
+withdraw m0007 8
+deposit m0003 9.99
+hold m0008 30 ttl=596s
+transfer m0006 m0010 16.25
+history m0002 last=3
+transfer m0007 m0002 16.54 key=k233
+clock advance 118s
+withdraw m0010 9
+deposit m0003 4.49 key=k234
+deposit m0006 46.45
+settle
+withdraw m0004 9
+transfer m0003 m0002 5.33
+deposit m0001 35.31
+withdraw m0005 4
+deposit m0002 57.71
+clock advance 51s
+transfer m0012 m0008 11.48
+withdraw m0008 7
+balance m0008
+clock advance 62s
+withdraw m0005 9
+withdraw m0010 3
+withdraw m0003 1
+withdraw m0011 1
+withdraw m0012 8
+clock advance 116s
+hold m0003 29 ttl=900s
+transfer m0008 m0002 9.95
+show T0.1172
+withdraw m0006 4
+hold m0006 7 ttl=237s
+transfer m0003 m0008 7.77 key=k235
+history m0011 last=3
+transfer m0002 m0009 17.22 key=k236
+withdraw m0005 2
+balance m0001
+deposit m0003 39.21
+transfer m0003 m0011 15.97
+withdraw m0004 1
+transfer m0007 m0003 3.95 key=k237
+hold m0007 7 ttl=656s
+withdraw m0003 3
+deposit m0008 53.37
+deposit m0004 28.79
+clock advance 14s
+deposit m0011 15.44
+capture H102 amount=1
+transfer m0011 m0001 2.73 key=k238
+transfer m0006 m0001 13.48 key=k239
+deposit m0010 48.82
+clock advance 77s
+withdraw m0009 3
+transfer m0009 m0011 6.29 key=k240
+withdraw m0011 7
+deposit m0004 31.52
+withdraw m0011 6
+holds m0009
+transfer m0012 m0009 8.91
+withdraw m0011 3
+clearing fail 1
+settle
+transfer m0007 m0008 6.09
+withdraw m0004 10
+transfer m0001 m0010 15.02
+history m0003 last=3
+holds m0011
+capture H058
+transfer m0012 m0006 20.19
+withdraw m0011 1
+release H092
+deposit m0001 29.32
+withdraw m0011 3
+reverse T0.1164
+deposit m0005 42.51
+deposit m0007 12.71
+transfer m0005 m0008 13.61
+deposit m0003 52.66
+holds m0007
+deposit m0004 19.64
+withdraw m0006 2
+hold m0005 4
+transfer m0001 m0006 8.57 key=k241
+deposit m0010 34.73
+withdraw m0010 9
+transfer m0005 m0010 18.64 key=k242
+hold m0002 30
+balance m0003
+hold m0010 28 ttl=110s
+transfer m0012 m0002 11.85
+clock advance 109s
+balance m0010
+clock advance 70s
+history m0001 last=3
+hold m0010 12 ttl=900s
+transfer m0010 m0009 12.15
+holds m0003
+clock advance 37s
+deposit m0009 58.28 key=k243
+transfer m0009 m0006 10.75
+transfer m0006 m0001 12.11
+transfer m0002 m0007 2.29
+reverse T0.1217
+deposit m0004 59.74
+transfer m0009 m0001 6.37 key=k244
+release H115
+withdraw m0008 2
+deposit m0001 15.66 key=k242
+hold m0001 22 ttl=883s
+deposit m0005 39.37
+settle
+deposit m0003 1.61 key=k228
+transfer m0005 m0004 17.61 key=k247
+show T0.1220
+withdraw m0006 1
+clock advance 119s
+balance m0001
+clock advance 25s
+withdraw m0011 6
+deposit m0009 7.38
+transfer m0011 m0002 2.52 key=k248
+deposit m0001 15.56
+deposit m0003 13.32 key=k249
+clock advance 68s
+withdraw m0009 8
+deposit m0006 11.60
+withdraw m0005 8
+transfer m0004 m0005 9.26
+show T0.1232
+withdraw m0001 7
+capture H072 amount=1
+deposit m0002 8.23
+withdraw m0012 2
+transfer m0010 m0011 9.76 key=k250
+withdraw m0001 2
+transfer m0004 m0001 18.41
+clock advance 9s
+history m0012 last=3
+transfer m0011 m0008 19.93 key=k251
+withdraw m0001 7
+deposit m0012 39.83
+transfer m0005 m0008 15.17
+hold m0009 13
+withdraw m0007 10
+transfer m0009 m0011 4.30
+deposit m0004 6.57
+transfer m0001 m0004 12.16
+hold m0007 21 ttl=814s
+show T0.1248
+deposit m0005 2.39 key=k252
+withdraw m0009 9
+withdraw m0004 9
+transfer m0010 m0002 8.37
+deposit m0004 1.03 key=k247
+balance m0009
+hold m0006 14 ttl=142s
+settle
+reverse T0.1228
+withdraw m0012 10
+hold m0010 18 ttl=458s
+clock advance 42s
+capture H119 amount=1
+withdraw m0011 9
+hold m0001 28 ttl=433s
+transfer m0005 m0012 2.61
+withdraw m0001 4
+deposit m0004 20.82
+clock advance 15s
+hold m0007 19
+holds m0007
+transfer m0010 m0009 3.11 key=k254
+transfer m0002 m0010 6.86
+deposit m0006 7.71
+transfer m0002 m0001 14.12
+clock advance 1s
+withdraw m0005 5
+transfer m0004 m0003 11.39
+transfer m0003 m0001 1.68
+balance m0005
+withdraw m0009 10
+balance m0007
+withdraw m0009 10
+deposit m0012 2.61 key=k253
+transfer m0002 m0012 13.71
+clock advance 74s
+withdraw m0005 6
+clock advance 6s
+deposit m0004 51.87 key=k256
+deposit m0007 29.71 key=k256
+show T0.1284
+balance m0010
+withdraw m0001 7
+holds m0011
+deposit m0009 52.28 key=k258
+withdraw m0005 8
+deposit m0004 11.68
+withdraw m0008 3
+withdraw m0003 10
+deposit m0003 13.80 key=k249
+deposit m0007 12.94
+hold m0001 2
+withdraw m0012 7
+settle
+history m0006 last=3
+hold m0009 14
+hold m0010 23 ttl=187s
+balance m0005
+reverse T0.1277
+transfer m0003 m0007 12.50 key=k260
+deposit m0005 6.32
+deposit m0003 24.04
+transfer m0001 m0003 20.95
+withdraw m0004 8
+hold m0009 1 ttl=257s
+transfer m0006 m0008 8.25
+transfer m0002 m0012 1.66
+history m0007 last=3
+transfer m0010 m0005 12.40
+deposit m0004 5.29 key=k261
+hold m0001 11 ttl=772s
+deposit m0003 51.88
+transfer m0007 m0004 7.86
+withdraw m0006 8
+withdraw m0003 4
+deposit m0012 36.20
+deposit m0003 3.07
+transfer m0009 m0005 3.83
+holds m0002
+deposit m0005 4.63
+balance m0006
+withdraw m0011 6
+deposit m0005 28.62 key=k246
+show T0.1288
+transfer m0004 m0006 13.14 key=k263
+capture H120
+deposit m0001 37.61 key=k264
+withdraw m0008 6
+deposit m0005 16.08
+transfer m0002 m0012 20.79
+deposit m0007 29.68
+withdraw m0002 10
+withdraw m0011 3
+withdraw m0004 7
+withdraw m0009 10
+withdraw m0012 7
+transfer m0007 m0001 3.91 key=k265
+deposit m0009 43.14
+withdraw m0010 1
+settle
+transfer m0009 m0012 3.12
+deposit m0010 16.31
+deposit m0008 10.79 key=k266
+withdraw m0005 7
+transfer m0003 m0007 11.00
+show T0.1325
+transfer m0010 m0008 16.28
+withdraw m0007 3
+withdraw m0012 4
+deposit m0005 30.58
+withdraw m0011 3
+transfer m0010 m0007 13.52 key=k267
+deposit m0003 50.15 key=k268
+balance m0009
+withdraw m0010 7
+deposit m0008 16.50
+withdraw m0006 1
+withdraw m0005 2
+clock advance 6s
+withdraw m0002 10
+deposit m0001 9.06
+withdraw m0007 9
+history m0009 last=3
+deposit m0002 15.63
+transfer m0004 m0012 14.47 key=k269
+deposit m0007 2.90
+holds m0006
+history m0002 last=3
+withdraw m0008 3
+deposit m0008 53.70 key=k270
+withdraw m0001 9
+show T0.1337
+hold m0005 16
+transfer m0010 m0002 14.84
+transfer m0001 m0011 5.01
+withdraw m0007 1
+withdraw m0011 1
+history m0007 last=3
+deposit m0006 38.95
+deposit m0008 57.01
+show T0.1334
+show T0.1336
+deposit m0002 48.95 key=k271
+withdraw m0001 1
+withdraw m0005 7
+clearing fail 2
+settle
+withdraw m0011 3
+deposit m0005 9.92
+withdraw m0009 1
+holds m0008
+transfer m0006 m0003 15.84
+deposit m0006 56.24 key=k272
+reverse T0.1375
+hold m0010 4
+transfer m0001 m0012 9.80
+transfer m0006 m0004 8.33
+reverse T0.1374
+clock advance 25s
+hold m0004 30
+transfer m0007 m0004 13.74
+release H113
+deposit m0008 29.34
+transfer m0009 m0010 7.00 key=k273
+deposit m0007 32.15 key=k274
+withdraw m0004 5
+deposit m0005 34.23
+deposit m0012 22.16
+deposit m0001 24.90 key=k275
+deposit m0009 47.72
+journal
+idem
+check
+transfer m0004 m0009 15.94
+transfer m0001 m0009 14.42
+withdraw m0011 8
+history m0012 last=3
+transfer m0005 m0001 5.81
+deposit m0009 7.56
+withdraw m0011 3
+balance m0003
+balance m0005
+deposit m0002 25.84
+balance m0004
+withdraw m0005 3
+transfer m0001 m0012 17.62
+deposit m0009 35.78
+deposit m0003 15.35 key=k276
+withdraw m0012 2
+transfer m0010 m0009 14.12 key=k277
+clock advance 56s
+transfer m0003 m0004 9.74
+withdraw m0001 2
+deposit m0006 35.43
+transfer m0005 m0003 10.82 key=k278
+deposit m0001 25.44
+hold m0012 24 ttl=574s
+deposit m0003 11.42 key=k279
+settle
+capture H089 amount=1
+deposit m0005 34.71 key=k280
+withdraw m0003 10
+clock advance 104s
+transfer m0002 m0009 20.52
+clock advance 60s
+transfer m0008 m0007 5.24 key=k281
+withdraw m0006 5
+transfer m0001 m0008 4.08 key=k282
+holds m0004
+history m0003 last=3
+withdraw m0011 10
+withdraw m0004 3
+transfer m0008 m0005 15.59
+clock advance 31s
+capture H112
+withdraw m0008 8
+hold m0004 9 ttl=24s
+deposit m0012 8.43 key=k279
+transfer m0004 m0012 9.12
+withdraw m0001 10
+deposit m0002 24.03
+hold m0002 22
+transfer m0003 m0002 10.31
+deposit m0003 10.83
+deposit m0006 43.48 key=k271
+deposit m0002 53.48
+transfer m0008 m0002 2.07
+withdraw m0009 10
+transfer m0001 m0012 8.30
+deposit m0004 14.46
+transfer m0004 m0006 5.09 key=k285
+deposit m0011 59.61 key=k280
+release H128
+withdraw m0010 2
+withdraw m0005 8
+deposit m0009 22.51 key=k287
+withdraw m0011 1
+transfer m0006 m0008 4.78
+holds m0011
+deposit m0004 30.56
+capture H094
+deposit m0012 2.42
+holds m0009
+settle
+hold m0012 23
+deposit m0010 2.85
+hold m0010 8 ttl=644s
+deposit m0006 24.31 key=k288
+withdraw m0004 9
+deposit m0003 18.49
+withdraw m0003 3
+release H129
+withdraw m0004 7
+withdraw m0001 1
+clock advance 12s
+holds m0002
+clock advance 89s
+balance m0007
+clock advance 38s
+withdraw m0007 1
+withdraw m0010 3
+deposit m0006 59.00
+withdraw m0007 4
+hold m0002 7 ttl=769s
+holds m0004
+withdraw m0008 3
+withdraw m0002 9
+deposit m0006 56.15
+deposit m0006 24.89
+deposit m0006 56.43 key=k289
+deposit m0003 32.21
+withdraw m0011 3
+capture H131 amount=1
+deposit m0012 57.50
+transfer m0012 m0001 3.18
+transfer m0004 m0007 5.78
+withdraw m0006 9
+transfer m0003 m0009 13.30
+deposit m0004 38.81
+holds m0005
+withdraw m0012 8
+capture H130
+clock advance 100s
+withdraw m0004 9
+clock advance 79s
+transfer m0004 m0011 7.48 key=k290
+withdraw m0004 2
+withdraw m0010 4
+withdraw m0010 9
+holds m0006
+reverse T0.1425
+clearing fail 1
+settle
+transfer m0006 m0012 3.24
+hold m0011 17
+transfer m0008 m0011 11.18
+deposit m0005 3.45
+deposit m0010 34.70 key=k291
+clock advance 75s
+withdraw m0001 1
+withdraw m0005 4
+withdraw m0009 3
+deposit m0007 8.80
+deposit m0010 13.89 key=k292
+deposit m0004 22.13 key=k293
+transfer m0011 m0010 20.12
+deposit m0009 46.17
+withdraw m0011 9
+history m0008 last=3
+deposit m0009 29.87
+withdraw m0004 10
+history m0011 last=3
+deposit m0008 36.14
+deposit m0006 6.62 key=k294
+deposit m0007 59.98
+capture H134
+transfer m0004 m0005 4.31
+reverse T0.1479
+withdraw m0011 10
+hold m0007 28
+deposit m0006 49.45
+reverse T0.1459
+clock advance 97s
+clock advance 20s
+hold m0012 11
+withdraw m0010 7
+deposit m0005 28.07
+capture H095 amount=1
+deposit m0004 31.68
+deposit m0005 13.12
+deposit m0012 52.29
+withdraw m0012 1
+transfer m0003 m0012 5.12
+holds m0011
+transfer m0006 m0010 7.15 key=k295
+clock advance 113s
+hold m0003 6
+history m0009 last=3
+withdraw m0003 2
+transfer m0005 m0002 12.75
+settle
+withdraw m0007 2
+withdraw m0001 10
+transfer m0011 m0003 18.93
+transfer m0006 m0008 12.07
+history m0006 last=3
+hold m0007 9 ttl=205s
+show T0.1494
+transfer m0011 m0001 20.41
+withdraw m0010 5
+withdraw m0005 2
+clock advance 62s
+holds m0003
+transfer m0006 m0008 20.00
+holds m0008
+withdraw m0001 1
+clock advance 111s
+deposit m0009 11.19
+withdraw m0010 4
+transfer m0010 m0007 11.14
+history m0010 last=3
+holds m0008
+deposit m0002 60.15 key=k296
+deposit m0004 3.29
+reverse T0.1504
+withdraw m0011 2
+clock advance 10s
+transfer m0009 m0012 15.53
+deposit m0009 48.95
+transfer m0009 m0003 16.61
+hold m0006 1
+deposit m0004 45.68 key=k297
+withdraw m0002 3
+withdraw m0001 6
+clock advance 56s
+deposit m0012 16.35 key=k298
+balance m0001
+deposit m0001 43.33 key=k298
+hold m0011 4 ttl=225s
+history m0005 last=3
+history m0008 last=3
+transfer m0008 m0004 19.84
+withdraw m0009 8
+history m0003 last=3
+transfer m0002 m0012 12.05 key=k300
+settle
+holds m0012
+transfer m0002 m0001 13.28 key=k301
+transfer m0012 m0003 1.84 key=k302
+transfer m0006 m0001 5.96
+deposit m0010 10.07
+transfer m0012 m0007 15.98 key=k303
+balance m0010
+transfer m0010 m0003 2.05 key=k304
+deposit m0005 3.33
+deposit m0009 9.80 key=k305
+hold m0010 13
+withdraw m0003 3
+withdraw m0005 1
+hold m0001 4 ttl=864s
+withdraw m0010 3
+transfer m0007 m0011 13.68
+deposit m0002 31.50 key=k306
+withdraw m0001 10
+hold m0009 26
+withdraw m0012 10
+reverse T0.1508
+transfer m0007 m0010 10.54
+deposit m0003 1.34
+transfer m0004 m0010 13.52
+deposit m0012 40.26
+transfer m0006 m0004 16.91
+deposit m0012 57.72
+withdraw m0008 4
+transfer m0012 m0002 20.12
+withdraw m0004 2
+transfer m0001 m0012 12.18
+transfer m0002 m0009 8.29 key=k307
+deposit m0011 16.37
+withdraw m0010 1
+deposit m0001 30.75
+transfer m0010 m0001 19.85
+transfer m0007 m0012 8.10
+clock advance 28s
+clock advance 105s
+reverse T0.1515
+withdraw m0001 3
+transfer m0005 m0012 4.77 key=k308
+deposit m0010 15.12
+clock advance 5s
+deposit m0008 46.19
+transfer m0010 m0004 6.32
+withdraw m0001 10
+settle
+holds m0008
+withdraw m0011 7
+withdraw m0003 2
+capture H142
+show T0.1565
+deposit m0002 6.08
+deposit m0002 8.70
+transfer m0004 m0002 11.23
+transfer m0005 m0012 11.08
+holds m0004
+transfer m0009 m0002 13.19
+transfer m0002 m0011 13.14
+deposit m0002 26.69 key=k309
+withdraw m0007 5
+withdraw m0003 3
+deposit m0008 3.86
+clock advance 93s
+withdraw m0006 4
+withdraw m0007 1
+transfer m0007 m0008 6.71
+transfer m0002 m0011 19.17
+capture H123
+transfer m0005 m0009 13.78
+clock advance 94s
+deposit m0010 1.72
+transfer m0011 m0004 12.61
+withdraw m0008 1
+transfer m0011 m0005 8.69
+transfer m0005 m0007 10.22
+deposit m0002 52.77 key=k310
+withdraw m0002 10
+transfer m0005 m0004 1.96 key=k311
+deposit m0002 51.42 key=k312
+deposit m0011 13.29
+holds m0012
+clock advance 63s
+withdraw m0009 6
+clock advance 9s
+withdraw m0002 10
+deposit m0010 55.41
+transfer m0005 m0007 16.57
+transfer m0005 m0010 2.75
+holds m0012
+history m0009 last=3
+settle
+deposit m0008 9.02
+transfer m0002 m0003 16.87 key=k313
+deposit m0005 54.88
+hold m0008 21
+transfer m0007 m0010 18.48
+transfer m0009 m0001 20.48 key=k314
+deposit m0012 33.66
+withdraw m0004 9
+transfer m0002 m0001 2.22
+clock advance 31s
+clock advance 44s
+deposit m0009 21.20
+deposit m0010 54.82 key=k306
+clock advance 89s
+withdraw m0004 5
+balance m0011
+transfer m0006 m0011 4.21
+withdraw m0008 9
+withdraw m0001 3
+deposit m0004 17.78 key=k316
+withdraw m0003 8
+transfer m0001 m0006 14.27
+transfer m0006 m0002 17.89 key=k317
+balance m0002
+transfer m0012 m0011 3.84
+transfer m0005 m0012 15.00 key=k318
+transfer m0003 m0004 12.37 key=k319
+deposit m0010 40.75
+hold m0011 17 ttl=155s
+deposit m0009 4.94
+transfer m0006 m0009 15.21
+withdraw m0010 7
+transfer m0006 m0005 20.15 key=k320
+transfer m0006 m0007 7.47 key=k321
+withdraw m0001 8
+withdraw m0004 1
+transfer m0011 m0003 7.41
+withdraw m0001 6
+deposit m0010 24.41 key=k320
+transfer m0002 m0005 5.68 key=k323
+deposit m0010 32.25
+transfer m0008 m0009 5.60
+deposit m0010 6.23
+settle
+withdraw m0011 9
+withdraw m0004 3
+withdraw m0012 3
+transfer m0005 m0011 2.92
+withdraw m0001 7
+withdraw m0002 10
+deposit m0012 26.51
+hold m0006 14
+hold m0006 26 ttl=833s
+clock advance 58s
+transfer m0002 m0005 7.69
+show T0.1619
+withdraw m0010 3
+withdraw m0011 8
+transfer m0006 m0004 17.00
+clock advance 61s
+withdraw m0004 4
+withdraw m0012 10
+withdraw m0001 8
+capture H106 amount=1
+hold m0004 21 ttl=291s
+withdraw m0005 10
+withdraw m0010 2
+transfer m0004 m0012 16.56
+transfer m0005 m0003 13.96
+hold m0005 20 ttl=895s
+withdraw m0012 9
+deposit m0001 3.90
+hold m0002 8 ttl=822s
+show T0.1660
+transfer m0002 m0004 10.40 key=k324
+withdraw m0006 7
+deposit m0011 33.49
+deposit m0005 58.66 key=k325
+deposit m0011 37.87 key=k326
+deposit m0010 18.34
+withdraw m0003 4
+hold m0008 10 ttl=721s
+deposit m0003 42.25
+capture H151 amount=1
+deposit m0003 13.55 key=k327
+transfer m0006 m0003 2.09 key=k328
+withdraw m0001 6
+transfer m0003 m0008 19.03
+withdraw m0002 9
+transfer m0009 m0006 11.79
+transfer m0010 m0009 10.14
+withdraw m0012 5
+hold m0012 21 ttl=815s
+deposit m0006 60.76 key=k329
+deposit m0001 4.56
+transfer m0005 m0009 12.87 key=k330
+settle
+deposit m0008 57.15
+withdraw m0008 3
+holds m0003
+hold m0011 22 ttl=478s
+transfer m0002 m0004 1.65
+deposit m0003 44.43
+withdraw m0010 9
+transfer m0010 m0009 9.85
+reverse T0.1670
+withdraw m0010 3
+show T0.1659
+history m0001 last=3
+release H139
+transfer m0001 m0011 1.45
+transfer m0007 m0010 20.73
+withdraw m0009 10
+deposit m0011 29.52
+show T0.1665
+transfer m0009 m0004 14.91
+transfer m0010 m0001 2.61
+deposit m0003 45.92
+hold m0010 13 ttl=484s
+withdraw m0006 8
+transfer m0011 m0010 18.97 key=k331
+withdraw m0002 9
+transfer m0005 m0009 5.74 key=k332
+transfer m0012 m0008 8.50
+withdraw m0001 6
+withdraw m0004 7
+withdraw m0009 8
+withdraw m0011 3
+transfer m0004 m0001 14.36 key=k333
+transfer m0012 m0009 13.22
+hold m0003 21
+capture H145
+hold m0001 29 ttl=746s
+release H144
+capture H117 amount=1
+transfer m0004 m0012 14.72 key=k334
+transfer m0002 m0004 11.35 key=k335
+withdraw m0004 5
+journal
+idem
+check
+withdraw m0005 2
+deposit m0001 49.56 key=k327
+history m0010 last=3
+transfer m0008 m0004 4.15 key=k337
+settle
+hold m0006 14
+deposit m0011 37.96
+withdraw m0006 6
+withdraw m0001 2
+show T0.1705
+deposit m0011 2.59 key=k338
+hold m0009 9
+withdraw m0004 6
+history m0003 last=3
+show T0.1719
+history m0004 last=3
+withdraw m0002 9
+history m0003 last=3
+deposit m0012 3.31
+withdraw m0008 4
+withdraw m0004 4
+deposit m0003 52.11 key=k339
+transfer m0001 m0009 15.05 key=k340
+deposit m0010 28.83
+transfer m0005 m0011 12.17
+transfer m0004 m0010 15.58
+balance m0012
+holds m0012
+hold m0009 9 ttl=674s
+withdraw m0008 5
+show T0.1700
+clock advance 31s
+withdraw m0004 3
+clock advance 6s
+transfer m0006 m0007 7.58
+withdraw m0008 7
+deposit m0004 42.13
+deposit m0004 20.50
+deposit m0005 3.87
+clock advance 70s
+deposit m0009 15.05
+transfer m0009 m0007 7.42 key=k341
+transfer m0008 m0007 13.95
+transfer m0002 m0003 12.70
+withdraw m0004 7
+withdraw m0009 3
+holds m0009
+transfer m0009 m0011 20.02
+transfer m0008 m0005 12.37
+clock advance 5s
+settle
+transfer m0004 m0006 13.83
+deposit m0006 55.05 key=k342
+deposit m0012 59.27
+withdraw m0001 2
+transfer m0010 m0008 12.90
+deposit m0010 46.72
+transfer m0004 m0005 9.14
+history m0005 last=3
+withdraw m0005 1
+balance m0012
+withdraw m0006 7
+deposit m0012 39.27 key=k332
+show T0.1722
+withdraw m0002 5
+show T0.1759
+withdraw m0009 5
+deposit m0004 30.10
+deposit m0002 34.59 key=k344
+clock advance 77s
+transfer m0009 m0012 12.17
+show T0.1732
+capture H137 amount=1
+withdraw m0010 3
+history m0005 last=3
+show T0.1727
+balance m0012
+withdraw m0010 10
+deposit m0001 31.74
+deposit m0005 23.48
+transfer m0001 m0009 7.50
+deposit m0012 40.73
+deposit m0006 12.65 key=k339
+deposit m0005 58.18
+withdraw m0001 8
+withdraw m0004 7
+transfer m0008 m0012 6.51
+withdraw m0010 8
+hold m0004 18
+withdraw m0010 5
+withdraw m0005 9
+deposit m0004 42.29 key=k346
+deposit m0004 60.16
+transfer m0006 m0009 12.35
+clock advance 32s
+transfer m0002 m0003 5.31 key=k347
+capture H157
+balance m0004
+reverse T0.1773
+withdraw m0011 1
+settle
+transfer m0007 m0010 16.71
+holds m0002
+history m0011 last=3
+holds m0002
+clock advance 109s
+clock advance 6s
+withdraw m0010 6
+deposit m0011 27.11
+withdraw m0008 7
+transfer m0008 m0005 12.44 key=k348
+withdraw m0008 1
+transfer m0009 m0008 20.32
+transfer m0012 m0009 14.44 key=k349
+transfer m0012 m0009 18.82
+withdraw m0002 3
+deposit m0012 6.16
+withdraw m0005 9
+withdraw m0003 1
+holds m0011
+deposit m0004 51.65 key=k340
+transfer m0004 m0012 6.66
+deposit m0005 43.16
+transfer m0003 m0004 3.65 key=k351
+withdraw m0001 4
+withdraw m0009 7
+hold m0010 22
+deposit m0010 11.84 key=k352
+capture H156
+withdraw m0002 4
+release H147
+deposit m0001 35.46
+deposit m0005 52.42 key=k353
+holds m0001
+transfer m0011 m0012 4.31
+reverse T0.1800
+history m0007 last=3
+withdraw m0006 7
+transfer m0010 m0006 5.52
+holds m0003
+clock advance 49s
+deposit m0012 41.12
+show T0.1801
+settle
+withdraw m0012 6
+reverse T0.1803
+holds m0007
+balance m0001
+withdraw m0011 7
+transfer m0004 m0001 8.30 key=k354
+clock advance 35s
+withdraw m0003 5
+holds m0001
+withdraw m0001 5
+withdraw m0006 10
+withdraw m0004 7
+clock advance 70s
+deposit m0010 7.62
+holds m0004
+deposit m0005 30.27 key=k355
+deposit m0009 37.77 key=k353
+withdraw m0006 2
+withdraw m0008 8
+clock advance 47s
+withdraw m0011 6
+withdraw m0004 3
+withdraw m0010 2
+capture H163
+balance m0004
+deposit m0011 33.42
+holds m0005
+hold m0007 18
+transfer m0011 m0005 1.83 key=k357
+history m0006 last=3
+withdraw m0009 6
+balance m0003
+deposit m0001 35.45 key=k358
+withdraw m0009 1
+history m0011 last=3
+transfer m0007 m0003 14.75
+holds m0007
+release H124
+deposit m0007 32.12 key=k359
+deposit m0009 1.53
+withdraw m0004 9
+transfer m0012 m0007 2.30
+transfer m0009 m0006 13.27 key=k360
+withdraw m0010 6
+withdraw m0002 9
+withdraw m0011 8
+settle
+withdraw m0010 2
+withdraw m0002 6
+deposit m0005 24.77
+withdraw m0003 6
+holds m0009
+balance m0004
+deposit m0005 43.60
+hold m0011 27
+deposit m0010 53.97
+deposit m0008 37.03
+deposit m0007 33.72 key=k361
+history m0007 last=3
+deposit m0002 39.96 key=k362
+capture H166 amount=1
+deposit m0012 11.69
+withdraw m0002 5
+withdraw m0004 9
+holds m0011
+history m0004 last=3
+transfer m0012 m0006 1.91 key=k363
+deposit m0011 46.48
+deposit m0005 21.42
+withdraw m0001 2
+transfer m0009 m0006 6.97
+withdraw m0012 5
+withdraw m0001 6
+withdraw m0010 7
+clock advance 84s
+accounts
+journal
+batches last=5
+idem
+check

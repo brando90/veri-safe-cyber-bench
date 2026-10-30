@@ -1,0 +1,13 @@
+open lt
+deposit lt 100
+hold lt 10 ttl=30m
+hold lt 20 ttl=20m
+hold lt 5 ttl=2m
+clock advance 13m
+holds lt
+balance lt
+clock set 20m
+holds lt
+clock set 30m
+holds lt
+check

@@ -1,0 +1,9 @@
+user add alice
+publish alice tool 1.0.0 size=1KiB
+publish alice tool 1.1.0-rc.1 size=1KiB
+clock advance 100h
+unpublish alice tool 1.1.0-rc.1
+unpublish alice tool 1.0.0
+publish alice tool 1.1.0-rc.1
+publish alice tool 1.1.0-rc.2
+info - tool

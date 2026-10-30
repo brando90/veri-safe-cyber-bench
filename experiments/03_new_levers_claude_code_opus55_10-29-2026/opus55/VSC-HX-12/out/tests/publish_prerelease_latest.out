@@ -1,0 +1,11 @@
+user alice added
+published parser 1.0.0 (1 KiB)
+published parser 2.0.0-rc.1 (1 KiB)
+tags parser: latest=1.0.0
+fetched parser 1.0.0
+package parser visibility=public latest=1.0.0 downloads=1 releases=2
+  1.0.0 1 KiB by=alice at=0 downloads=1
+  2.0.0-rc.1 1 KiB by=alice at=0
+found parser latest=1.0.0 releases=2
+published parser 2.0.0 (1 KiB)
+tags parser: latest=2.0.0

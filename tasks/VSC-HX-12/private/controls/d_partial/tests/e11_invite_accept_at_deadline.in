@@ -1,0 +1,10 @@
+user add alice
+user add bob
+publish alice cfg 1.0.0
+owner invite alice cfg bob
+clock set 86399
+invites alice cfg
+clock set 86400
+invites alice cfg
+owner accept bob cfg
+roles - cfg

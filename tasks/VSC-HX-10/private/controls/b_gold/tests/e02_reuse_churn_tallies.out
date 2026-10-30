@@ -1,0 +1,1592 @@
+open c000 slot=0 gen=0
+open c001 slot=1 gen=0
+open c002 slot=2 gen=0
+open c003 slot=3 gen=0
+open c004 slot=4 gen=0
+open c005 slot=5 gen=0
+open c006 slot=6 gen=0
+open c007 slot=7 gen=0
+open c008 slot=8 gen=0
+open c009 slot=9 gen=0
+open c010 slot=10 gen=0
+open c011 slot=11 gen=0
+open c012 slot=12 gen=0
+open c013 slot=13 gen=0
+open c014 slot=14 gen=0
+open c015 slot=15 gen=0
+open c016 slot=16 gen=0
+open c017 slot=17 gen=0
+open c018 slot=18 gen=0
+open c019 slot=19 gen=0
+open c020 slot=20 gen=0
+open c021 slot=21 gen=0
+open c022 slot=22 gen=0
+open c023 slot=23 gen=0
+open c024 slot=24 gen=0
+open c025 slot=25 gen=0
+open c026 slot=26 gen=0
+open c027 slot=27 gen=0
+open c028 slot=28 gen=0
+open c029 slot=29 gen=0
+open c030 slot=30 gen=0
+open c031 slot=31 gen=0
+open c032 slot=32 gen=0
+open c033 slot=33 gen=0
+open c034 slot=34 gen=0
+open c035 slot=35 gen=0
+open c036 slot=36 gen=0
+open c037 slot=37 gen=0
+open c038 slot=38 gen=0
+open c039 slot=39 gen=0
+open c040 slot=40 gen=0
+open c041 slot=41 gen=0
+open c042 slot=42 gen=0
+open c043 slot=43 gen=0
+open c044 slot=44 gen=0
+open c045 slot=45 gen=0
+open c046 slot=46 gen=0
+open c047 slot=47 gen=0
+open c048 slot=48 gen=0
+open c049 slot=49 gen=0
+open c050 slot=50 gen=0
+open c051 slot=51 gen=0
+open c052 slot=52 gen=0
+open c053 slot=53 gen=0
+open c054 slot=54 gen=0
+open c055 slot=55 gen=0
+open c056 slot=56 gen=0
+open c057 slot=57 gen=0
+open c058 slot=58 gen=0
+open c059 slot=59 gen=0
+open c060 slot=60 gen=0
+open c061 slot=61 gen=0
+open c062 slot=62 gen=0
+open c063 slot=63 gen=0
+open c064 slot=64 gen=0
+open c065 slot=65 gen=0
+open c066 slot=66 gen=0
+open c067 slot=67 gen=0
+open c068 slot=68 gen=0
+open c069 slot=69 gen=0
+open c070 slot=70 gen=0
+open c071 slot=71 gen=0
+open c072 slot=72 gen=0
+open c073 slot=73 gen=0
+open c074 slot=74 gen=0
+open c075 slot=75 gen=0
+open c076 slot=76 gen=0
+open c077 slot=77 gen=0
+open c078 slot=78 gen=0
+open c079 slot=79 gen=0
+open c080 slot=80 gen=0
+open c081 slot=81 gen=0
+open c082 slot=82 gen=0
+open c083 slot=83 gen=0
+open c084 slot=84 gen=0
+open c085 slot=85 gen=0
+open c086 slot=86 gen=0
+open c087 slot=87 gen=0
+open c088 slot=88 gen=0
+open c089 slot=89 gen=0
+open c090 slot=90 gen=0
+open c091 slot=91 gen=0
+open c092 slot=92 gen=0
+open c093 slot=93 gen=0
+open c094 slot=94 gen=0
+open c095 slot=95 gen=0
+open c096 slot=96 gen=0
+open c097 slot=97 gen=0
+open c098 slot=98 gen=0
+open c099 slot=99 gen=0
+open c100 slot=100 gen=0
+open c101 slot=101 gen=0
+open c102 slot=102 gen=0
+open c103 slot=103 gen=0
+open c104 slot=104 gen=0
+open c105 slot=105 gen=0
+open c106 slot=106 gen=0
+open c107 slot=107 gen=0
+open c108 slot=108 gen=0
+open c109 slot=109 gen=0
+open c110 slot=110 gen=0
+open c111 slot=111 gen=0
+open c112 slot=112 gen=0
+open c113 slot=113 gen=0
+open c114 slot=114 gen=0
+open c115 slot=115 gen=0
+open c116 slot=116 gen=0
+open c117 slot=117 gen=0
+open c118 slot=118 gen=0
+open c119 slot=119 gen=0
+open c120 slot=120 gen=0
+open c121 slot=121 gen=0
+open c122 slot=122 gen=0
+open c123 slot=123 gen=0
+open c124 slot=124 gen=0
+open c125 slot=125 gen=0
+open c126 slot=126 gen=0
+open c127 slot=127 gen=0
+open c128 slot=128 gen=0
+open c129 slot=129 gen=0
+open c130 slot=130 gen=0
+open c131 slot=131 gen=0
+open c132 slot=132 gen=0
+open c133 slot=133 gen=0
+open c134 slot=134 gen=0
+open c135 slot=135 gen=0
+open c136 slot=136 gen=0
+open c137 slot=137 gen=0
+open c138 slot=138 gen=0
+open c139 slot=139 gen=0
+open c140 slot=140 gen=0
+open c141 slot=141 gen=0
+open c142 slot=142 gen=0
+open c143 slot=143 gen=0
+open c144 slot=144 gen=0
+open c145 slot=145 gen=0
+open c146 slot=146 gen=0
+open c147 slot=147 gen=0
+open c148 slot=148 gen=0
+open c149 slot=149 gen=0
+open c150 slot=150 gen=0
+open c151 slot=151 gen=0
+open c152 slot=152 gen=0
+open c153 slot=153 gen=0
+open c154 slot=154 gen=0
+open c155 slot=155 gen=0
+open c156 slot=156 gen=0
+open c157 slot=157 gen=0
+open c158 slot=158 gen=0
+open c159 slot=159 gen=0
+open c160 slot=160 gen=0
+open c161 slot=161 gen=0
+open c162 slot=162 gen=0
+open c163 slot=163 gen=0
+open c164 slot=164 gen=0
+open c165 slot=165 gen=0
+open c166 slot=166 gen=0
+open c167 slot=167 gen=0
+open c168 slot=168 gen=0
+open c169 slot=169 gen=0
+open c170 slot=170 gen=0
+open c171 slot=171 gen=0
+open c172 slot=172 gen=0
+open c173 slot=173 gen=0
+open c174 slot=174 gen=0
+open c175 slot=175 gen=0
+open c176 slot=176 gen=0
+open c177 slot=177 gen=0
+open c178 slot=178 gen=0
+open c179 slot=179 gen=0
+open c180 slot=180 gen=0
+open c181 slot=181 gen=0
+open c182 slot=182 gen=0
+open c183 slot=183 gen=0
+open c184 slot=184 gen=0
+open c185 slot=185 gen=0
+open c186 slot=186 gen=0
+open c187 slot=187 gen=0
+open c188 slot=188 gen=0
+open c189 slot=189 gen=0
+open c190 slot=190 gen=0
+open c191 slot=191 gen=0
+open c192 slot=192 gen=0
+open c193 slot=193 gen=0
+open c194 slot=194 gen=0
+open c195 slot=195 gen=0
+open c196 slot=196 gen=0
+open c197 slot=197 gen=0
+open c198 slot=198 gen=0
+open c199 slot=199 gen=0
+open c200 slot=200 gen=0
+open c201 slot=201 gen=0
+open c202 slot=202 gen=0
+open c203 slot=203 gen=0
+open c204 slot=204 gen=0
+open c205 slot=205 gen=0
+open c206 slot=206 gen=0
+open c207 slot=207 gen=0
+open c208 slot=208 gen=0
+open c209 slot=209 gen=0
+open c210 slot=210 gen=0
+open c211 slot=211 gen=0
+open c212 slot=212 gen=0
+open c213 slot=213 gen=0
+open c214 slot=214 gen=0
+open c215 slot=215 gen=0
+open c216 slot=216 gen=0
+open c217 slot=217 gen=0
+open c218 slot=218 gen=0
+open c219 slot=219 gen=0
+open c220 slot=220 gen=0
+open c221 slot=221 gen=0
+open c222 slot=222 gen=0
+open c223 slot=223 gen=0
+open c224 slot=224 gen=0
+open c225 slot=225 gen=0
+open c226 slot=226 gen=0
+open c227 slot=227 gen=0
+open c228 slot=228 gen=0
+open c229 slot=229 gen=0
+open c230 slot=230 gen=0
+open c231 slot=231 gen=0
+open c232 slot=232 gen=0
+open c233 slot=233 gen=0
+open c234 slot=234 gen=0
+open c235 slot=235 gen=0
+open c236 slot=236 gen=0
+open c237 slot=237 gen=0
+open c238 slot=238 gen=0
+open c239 slot=239 gen=0
+open c240 slot=240 gen=0
+open c241 slot=241 gen=0
+open c242 slot=242 gen=0
+open c243 slot=243 gen=0
+open c244 slot=244 gen=0
+open c245 slot=245 gen=0
+open c246 slot=246 gen=0
+open c247 slot=247 gen=0
+open c248 slot=248 gen=0
+open c249 slot=249 gen=0
+open c250 slot=250 gen=0
+open c251 slot=251 gen=0
+open c252 slot=252 gen=0
+open c253 slot=253 gen=0
+open c254 slot=254 gen=0
+open c255 slot=255 gen=0
+ok T0.0 deposit c000 441.00 balance=441.00
+ok T0.1 withdraw c000 441.00 balance=0.00
+close c000 slot=0
+open r0001 slot=0 gen=1
+ok T0.2 deposit r0001 1000.00 balance=1000.00
+ok T0.3 withdraw r0001 90.00 balance=910.00
+r0001 balance=910.00 held=0.00 available=910.00 spent_today=90.00 debits_last_hour=1
+ok T0.4 deposit c001 259.00 balance=259.00
+ok T0.5 withdraw c001 259.00 balance=0.00
+close c001 slot=1
+open r0002 slot=1 gen=1
+ok T0.6 deposit r0002 1000.00 balance=1000.00
+ok T0.7 withdraw r0002 72.00 balance=928.00
+ok T0.8 deposit c002 396.00 balance=396.00
+ok T0.9 withdraw c002 396.00 balance=0.00
+close c002 slot=2
+open r0003 slot=2 gen=1
+ok T0.10 deposit r0003 1000.00 balance=1000.00
+ok T0.11 withdraw r0003 63.00 balance=937.00
+ok T0.12 deposit c003 269.00 balance=269.00
+ok T0.13 withdraw c003 269.00 balance=0.00
+close c003 slot=3
+open r0004 slot=3 gen=1
+ok T0.14 deposit r0004 1000.00 balance=1000.00
+ok T0.15 withdraw r0004 88.00 balance=912.00
+ok T0.16 deposit c004 68.00 balance=68.00
+ok T0.17 withdraw c004 68.00 balance=0.00
+close c004 slot=4
+open r0005 slot=4 gen=1
+ok T0.18 deposit r0005 1000.00 balance=1000.00
+ok T0.19 withdraw r0005 80.00 balance=920.00
+ok T0.20 deposit c005 153.00 balance=153.00
+ok T0.21 withdraw c005 153.00 balance=0.00
+close c005 slot=5
+open r0006 slot=5 gen=1
+ok T0.22 deposit r0006 1000.00 balance=1000.00
+ok T0.23 withdraw r0006 91.00 balance=909.00
+ok T0.24 deposit c006 372.00 balance=372.00
+ok T0.25 withdraw c006 372.00 balance=0.00
+close c006 slot=6
+open r0007 slot=6 gen=1
+ok T0.26 deposit r0007 1000.00 balance=1000.00
+ok T0.27 withdraw r0007 93.00 balance=907.00
+ok T0.28 deposit c007 148.00 balance=148.00
+ok T0.29 withdraw c007 148.00 balance=0.00
+close c007 slot=7
+open r0008 slot=7 gen=1
+ok T0.30 deposit r0008 1000.00 balance=1000.00
+ok T0.31 withdraw r0008 80.00 balance=920.00
+ok T0.32 deposit c008 293.00 balance=293.00
+ok T0.33 withdraw c008 293.00 balance=0.00
+close c008 slot=8
+open r0009 slot=8 gen=1
+ok T0.34 deposit r0009 1000.00 balance=1000.00
+ok T0.35 withdraw r0009 87.00 balance=913.00
+ok T0.36 deposit c009 288.00 balance=288.00
+ok T0.37 withdraw c009 288.00 balance=0.00
+close c009 slot=9
+open r0010 slot=9 gen=1
+ok T0.38 deposit r0010 1000.00 balance=1000.00
+ok T0.39 withdraw r0010 62.00 balance=938.00
+ok T0.40 deposit c010 317.00 balance=317.00
+ok T0.41 withdraw c010 317.00 balance=0.00
+close c010 slot=10
+open r0011 slot=10 gen=1
+ok T0.42 deposit r0011 1000.00 balance=1000.00
+ok T0.43 withdraw r0011 76.00 balance=924.00
+ok T0.44 deposit c011 278.00 balance=278.00
+ok T0.45 withdraw c011 278.00 balance=0.00
+close c011 slot=11
+open r0012 slot=11 gen=1
+ok T0.46 deposit r0012 1000.00 balance=1000.00
+ok T0.47 withdraw r0012 91.00 balance=909.00
+ok T0.48 deposit c012 188.00 balance=188.00
+ok T0.49 withdraw c012 188.00 balance=0.00
+close c012 slot=12
+open r0013 slot=12 gen=1
+ok T0.50 deposit r0013 1000.00 balance=1000.00
+ok T0.51 withdraw r0013 71.00 balance=929.00
+ok T0.52 deposit c013 370.00 balance=370.00
+ok T0.53 withdraw c013 370.00 balance=0.00
+close c013 slot=13
+open r0014 slot=13 gen=1
+ok T0.54 deposit r0014 1000.00 balance=1000.00
+ok T0.55 withdraw r0014 62.00 balance=938.00
+ok T0.56 deposit c014 244.00 balance=244.00
+ok T0.57 withdraw c014 244.00 balance=0.00
+close c014 slot=14
+open r0015 slot=14 gen=1
+ok T0.58 deposit r0015 1000.00 balance=1000.00
+ok T0.59 withdraw r0015 60.00 balance=940.00
+ok T0.60 deposit c015 140.00 balance=140.00
+ok T0.61 withdraw c015 140.00 balance=0.00
+close c015 slot=15
+open r0016 slot=15 gen=1
+ok T0.62 deposit r0016 1000.00 balance=1000.00
+ok T0.63 withdraw r0016 72.00 balance=928.00
+ok T0.64 deposit c016 113.00 balance=113.00
+ok T0.65 withdraw c016 113.00 balance=0.00
+close c016 slot=16
+open r0017 slot=16 gen=1
+ok T0.66 deposit r0017 1000.00 balance=1000.00
+ok T0.67 withdraw r0017 68.00 balance=932.00
+ok T0.68 deposit c017 162.00 balance=162.00
+ok T0.69 withdraw c017 162.00 balance=0.00
+close c017 slot=17
+open r0018 slot=17 gen=1
+ok T0.70 deposit r0018 1000.00 balance=1000.00
+ok T0.71 withdraw r0018 72.00 balance=928.00
+ok T0.72 deposit c018 273.00 balance=273.00
+ok T0.73 withdraw c018 273.00 balance=0.00
+close c018 slot=18
+open r0019 slot=18 gen=1
+ok T0.74 deposit r0019 1000.00 balance=1000.00
+ok T0.75 withdraw r0019 79.00 balance=921.00
+ok T0.76 deposit c019 382.00 balance=382.00
+ok T0.77 withdraw c019 382.00 balance=0.00
+close c019 slot=19
+open r0020 slot=19 gen=1
+ok T0.78 deposit r0020 1000.00 balance=1000.00
+ok T0.79 withdraw r0020 72.00 balance=928.00
+ok T0.80 deposit c020 202.00 balance=202.00
+ok T0.81 withdraw c020 202.00 balance=0.00
+close c020 slot=20
+open r0021 slot=20 gen=1
+ok T0.82 deposit r0021 1000.00 balance=1000.00
+ok T0.83 withdraw r0021 81.00 balance=919.00
+r0021 balance=919.00 held=0.00 available=919.00 spent_today=81.00 debits_last_hour=1
+ok T0.84 deposit c021 285.00 balance=285.00
+ok T0.85 withdraw c021 285.00 balance=0.00
+close c021 slot=21
+open r0022 slot=21 gen=1
+ok T0.86 deposit r0022 1000.00 balance=1000.00
+ok T0.87 withdraw r0022 82.00 balance=918.00
+ok T0.88 deposit c022 443.00 balance=443.00
+ok T0.89 withdraw c022 443.00 balance=0.00
+close c022 slot=22
+open r0023 slot=22 gen=1
+ok T0.90 deposit r0023 1000.00 balance=1000.00
+ok T0.91 withdraw r0023 99.00 balance=901.00
+ok T0.92 deposit c023 149.00 balance=149.00
+ok T0.93 withdraw c023 149.00 balance=0.00
+close c023 slot=23
+open r0024 slot=23 gen=1
+ok T0.94 deposit r0024 1000.00 balance=1000.00
+ok T0.95 withdraw r0024 85.00 balance=915.00
+ok T0.96 deposit c024 316.00 balance=316.00
+ok T0.97 withdraw c024 316.00 balance=0.00
+close c024 slot=24
+open r0025 slot=24 gen=1
+ok T0.98 deposit r0025 1000.00 balance=1000.00
+ok T0.99 withdraw r0025 82.00 balance=918.00
+ok T0.100 deposit c025 228.00 balance=228.00
+ok T0.101 withdraw c025 228.00 balance=0.00
+close c025 slot=25
+open r0026 slot=25 gen=1
+ok T0.102 deposit r0026 1000.00 balance=1000.00
+ok T0.103 withdraw r0026 70.00 balance=930.00
+ok T0.104 deposit c026 173.00 balance=173.00
+ok T0.105 withdraw c026 173.00 balance=0.00
+close c026 slot=26
+open r0027 slot=26 gen=1
+ok T0.106 deposit r0027 1000.00 balance=1000.00
+ok T0.107 withdraw r0027 82.00 balance=918.00
+ok T0.108 deposit c027 226.00 balance=226.00
+ok T0.109 withdraw c027 226.00 balance=0.00
+close c027 slot=27
+open r0028 slot=27 gen=1
+ok T0.110 deposit r0028 1000.00 balance=1000.00
+ok T0.111 withdraw r0028 72.00 balance=928.00
+ok T0.112 deposit c028 350.00 balance=350.00
+ok T0.113 withdraw c028 350.00 balance=0.00
+close c028 slot=28
+open r0029 slot=28 gen=1
+ok T0.114 deposit r0029 1000.00 balance=1000.00
+ok T0.115 withdraw r0029 60.00 balance=940.00
+ok T0.116 deposit c029 91.00 balance=91.00
+ok T0.117 withdraw c029 91.00 balance=0.00
+close c029 slot=29
+open r0030 slot=29 gen=1
+ok T0.118 deposit r0030 1000.00 balance=1000.00
+ok T0.119 withdraw r0030 92.00 balance=908.00
+ok T0.120 deposit c030 249.00 balance=249.00
+ok T0.121 withdraw c030 249.00 balance=0.00
+close c030 slot=30
+open r0031 slot=30 gen=1
+ok T0.122 deposit r0031 1000.00 balance=1000.00
+ok T0.123 withdraw r0031 80.00 balance=920.00
+ok T0.124 deposit c031 103.00 balance=103.00
+ok T0.125 withdraw c031 103.00 balance=0.00
+close c031 slot=31
+open r0032 slot=31 gen=1
+ok T0.126 deposit r0032 1000.00 balance=1000.00
+ok T0.127 withdraw r0032 70.00 balance=930.00
+ok T0.128 deposit c032 178.00 balance=178.00
+ok T0.129 withdraw c032 178.00 balance=0.00
+close c032 slot=32
+open r0033 slot=32 gen=1
+ok T0.130 deposit r0033 1000.00 balance=1000.00
+ok T0.131 withdraw r0033 91.00 balance=909.00
+ok T0.132 deposit c033 414.00 balance=414.00
+ok T0.133 withdraw c033 414.00 balance=0.00
+close c033 slot=33
+open r0034 slot=33 gen=1
+ok T0.134 deposit r0034 1000.00 balance=1000.00
+ok T0.135 withdraw r0034 68.00 balance=932.00
+ok T0.136 deposit c034 336.00 balance=336.00
+ok T0.137 withdraw c034 336.00 balance=0.00
+close c034 slot=34
+open r0035 slot=34 gen=1
+ok T0.138 deposit r0035 1000.00 balance=1000.00
+ok T0.139 withdraw r0035 95.00 balance=905.00
+ok T0.140 deposit c035 288.00 balance=288.00
+ok T0.141 withdraw c035 288.00 balance=0.00
+close c035 slot=35
+open r0036 slot=35 gen=1
+ok T0.142 deposit r0036 1000.00 balance=1000.00
+ok T0.143 withdraw r0036 88.00 balance=912.00
+ok T0.144 deposit c036 77.00 balance=77.00
+ok T0.145 withdraw c036 77.00 balance=0.00
+close c036 slot=36
+open r0037 slot=36 gen=1
+ok T0.146 deposit r0037 1000.00 balance=1000.00
+ok T0.147 withdraw r0037 71.00 balance=929.00
+ok T0.148 deposit c037 227.00 balance=227.00
+ok T0.149 withdraw c037 227.00 balance=0.00
+close c037 slot=37
+open r0038 slot=37 gen=1
+ok T0.150 deposit r0038 1000.00 balance=1000.00
+ok T0.151 withdraw r0038 88.00 balance=912.00
+ok T0.152 deposit c038 288.00 balance=288.00
+ok T0.153 withdraw c038 288.00 balance=0.00
+close c038 slot=38
+open r0039 slot=38 gen=1
+ok T0.154 deposit r0039 1000.00 balance=1000.00
+ok T0.155 withdraw r0039 98.00 balance=902.00
+ok T0.156 deposit c039 119.00 balance=119.00
+ok T0.157 withdraw c039 119.00 balance=0.00
+close c039 slot=39
+open r0040 slot=39 gen=1
+ok T0.158 deposit r0040 1000.00 balance=1000.00
+ok T0.159 withdraw r0040 91.00 balance=909.00
+ok T0.160 deposit c040 101.00 balance=101.00
+ok T0.161 withdraw c040 101.00 balance=0.00
+close c040 slot=40
+open r0041 slot=40 gen=1
+ok T0.162 deposit r0041 1000.00 balance=1000.00
+ok T0.163 withdraw r0041 96.00 balance=904.00
+r0041 balance=904.00 held=0.00 available=904.00 spent_today=96.00 debits_last_hour=1
+ok T0.164 deposit c041 130.00 balance=130.00
+ok T0.165 withdraw c041 130.00 balance=0.00
+close c041 slot=41
+open r0042 slot=41 gen=1
+ok T0.166 deposit r0042 1000.00 balance=1000.00
+ok T0.167 withdraw r0042 60.00 balance=940.00
+ok T0.168 deposit c042 81.00 balance=81.00
+ok T0.169 withdraw c042 81.00 balance=0.00
+close c042 slot=42
+open r0043 slot=42 gen=1
+ok T0.170 deposit r0043 1000.00 balance=1000.00
+ok T0.171 withdraw r0043 65.00 balance=935.00
+ok T0.172 deposit c043 304.00 balance=304.00
+ok T0.173 withdraw c043 304.00 balance=0.00
+close c043 slot=43
+open r0044 slot=43 gen=1
+ok T0.174 deposit r0044 1000.00 balance=1000.00
+ok T0.175 withdraw r0044 60.00 balance=940.00
+ok T0.176 deposit c044 237.00 balance=237.00
+ok T0.177 withdraw c044 237.00 balance=0.00
+close c044 slot=44
+open r0045 slot=44 gen=1
+ok T0.178 deposit r0045 1000.00 balance=1000.00
+ok T0.179 withdraw r0045 93.00 balance=907.00
+ok T0.180 deposit c045 398.00 balance=398.00
+ok T0.181 withdraw c045 398.00 balance=0.00
+close c045 slot=45
+open r0046 slot=45 gen=1
+ok T0.182 deposit r0046 1000.00 balance=1000.00
+ok T0.183 withdraw r0046 65.00 balance=935.00
+ok T0.184 deposit c046 155.00 balance=155.00
+ok T0.185 withdraw c046 155.00 balance=0.00
+close c046 slot=46
+open r0047 slot=46 gen=1
+ok T0.186 deposit r0047 1000.00 balance=1000.00
+ok T0.187 withdraw r0047 89.00 balance=911.00
+ok T0.188 deposit c047 68.00 balance=68.00
+ok T0.189 withdraw c047 68.00 balance=0.00
+close c047 slot=47
+open r0048 slot=47 gen=1
+ok T0.190 deposit r0048 1000.00 balance=1000.00
+ok T0.191 withdraw r0048 76.00 balance=924.00
+ok T0.192 deposit c048 437.00 balance=437.00
+ok T0.193 withdraw c048 437.00 balance=0.00
+close c048 slot=48
+open r0049 slot=48 gen=1
+ok T0.194 deposit r0049 1000.00 balance=1000.00
+ok T0.195 withdraw r0049 91.00 balance=909.00
+ok T0.196 deposit c049 174.00 balance=174.00
+ok T0.197 withdraw c049 174.00 balance=0.00
+close c049 slot=49
+open r0050 slot=49 gen=1
+ok T0.198 deposit r0050 1000.00 balance=1000.00
+ok T0.199 withdraw r0050 74.00 balance=926.00
+now=3600000
+ok T0.200 deposit c050 391.00 balance=391.00
+ok T0.201 withdraw c050 391.00 balance=0.00
+close c050 slot=50
+open r0051 slot=50 gen=1
+ok T0.202 deposit r0051 1000.00 balance=1000.00
+ok T0.203 withdraw r0051 98.00 balance=902.00
+ok T0.204 deposit c051 138.00 balance=138.00
+ok T0.205 withdraw c051 138.00 balance=0.00
+close c051 slot=51
+open r0052 slot=51 gen=1
+ok T0.206 deposit r0052 1000.00 balance=1000.00
+ok T0.207 withdraw r0052 74.00 balance=926.00
+ok T0.208 deposit c052 282.00 balance=282.00
+ok T0.209 withdraw c052 282.00 balance=0.00
+close c052 slot=52
+open r0053 slot=52 gen=1
+ok T0.210 deposit r0053 1000.00 balance=1000.00
+ok T0.211 withdraw r0053 99.00 balance=901.00
+ok T0.212 deposit c053 169.00 balance=169.00
+ok T0.213 withdraw c053 169.00 balance=0.00
+close c053 slot=53
+open r0054 slot=53 gen=1
+ok T0.214 deposit r0054 1000.00 balance=1000.00
+ok T0.215 withdraw r0054 95.00 balance=905.00
+ok T0.216 deposit c054 156.00 balance=156.00
+ok T0.217 withdraw c054 156.00 balance=0.00
+close c054 slot=54
+open r0055 slot=54 gen=1
+ok T0.218 deposit r0055 1000.00 balance=1000.00
+ok T0.219 withdraw r0055 62.00 balance=938.00
+ok T0.220 deposit c055 263.00 balance=263.00
+ok T0.221 withdraw c055 263.00 balance=0.00
+close c055 slot=55
+open r0056 slot=55 gen=1
+ok T0.222 deposit r0056 1000.00 balance=1000.00
+ok T0.223 withdraw r0056 80.00 balance=920.00
+ok T0.224 deposit c056 309.00 balance=309.00
+ok T0.225 withdraw c056 309.00 balance=0.00
+close c056 slot=56
+open r0057 slot=56 gen=1
+ok T0.226 deposit r0057 1000.00 balance=1000.00
+ok T0.227 withdraw r0057 98.00 balance=902.00
+ok T0.228 deposit c057 310.00 balance=310.00
+ok T0.229 withdraw c057 310.00 balance=0.00
+close c057 slot=57
+open r0058 slot=57 gen=1
+ok T0.230 deposit r0058 1000.00 balance=1000.00
+ok T0.231 withdraw r0058 84.00 balance=916.00
+ok T0.232 deposit c058 251.00 balance=251.00
+ok T0.233 withdraw c058 251.00 balance=0.00
+close c058 slot=58
+open r0059 slot=58 gen=1
+ok T0.234 deposit r0059 1000.00 balance=1000.00
+ok T0.235 withdraw r0059 91.00 balance=909.00
+ok T0.236 deposit c059 240.00 balance=240.00
+ok T0.237 withdraw c059 240.00 balance=0.00
+close c059 slot=59
+open r0060 slot=59 gen=1
+ok T0.238 deposit r0060 1000.00 balance=1000.00
+ok T0.239 withdraw r0060 69.00 balance=931.00
+ok T0.240 deposit c060 177.00 balance=177.00
+ok T0.241 withdraw c060 177.00 balance=0.00
+close c060 slot=60
+open r0061 slot=60 gen=1
+ok T0.242 deposit r0061 1000.00 balance=1000.00
+ok T0.243 withdraw r0061 66.00 balance=934.00
+r0061 balance=934.00 held=0.00 available=934.00 spent_today=66.00 debits_last_hour=1
+ok T0.244 deposit c061 358.00 balance=358.00
+ok T0.245 withdraw c061 358.00 balance=0.00
+close c061 slot=61
+open r0062 slot=61 gen=1
+ok T0.246 deposit r0062 1000.00 balance=1000.00
+ok T0.247 withdraw r0062 94.00 balance=906.00
+ok T0.248 deposit c062 426.00 balance=426.00
+ok T0.249 withdraw c062 426.00 balance=0.00
+close c062 slot=62
+open r0063 slot=62 gen=1
+ok T0.250 deposit r0063 1000.00 balance=1000.00
+ok T0.251 withdraw r0063 88.00 balance=912.00
+ok T0.252 deposit c063 303.00 balance=303.00
+ok T0.253 withdraw c063 303.00 balance=0.00
+close c063 slot=63
+open r0064 slot=63 gen=1
+ok T0.254 deposit r0064 1000.00 balance=1000.00
+ok T0.255 withdraw r0064 94.00 balance=906.00
+ok T0.256 deposit c064 334.00 balance=334.00
+ok T0.257 withdraw c064 334.00 balance=0.00
+close c064 slot=64
+open r0065 slot=64 gen=1
+ok T0.258 deposit r0065 1000.00 balance=1000.00
+ok T0.259 withdraw r0065 76.00 balance=924.00
+ok T0.260 deposit c065 175.00 balance=175.00
+ok T0.261 withdraw c065 175.00 balance=0.00
+close c065 slot=65
+open r0066 slot=65 gen=1
+ok T0.262 deposit r0066 1000.00 balance=1000.00
+ok T0.263 withdraw r0066 79.00 balance=921.00
+ok T0.264 deposit c066 388.00 balance=388.00
+ok T0.265 withdraw c066 388.00 balance=0.00
+close c066 slot=66
+open r0067 slot=66 gen=1
+ok T0.266 deposit r0067 1000.00 balance=1000.00
+ok T0.267 withdraw r0067 95.00 balance=905.00
+ok T0.268 deposit c067 111.00 balance=111.00
+ok T0.269 withdraw c067 111.00 balance=0.00
+close c067 slot=67
+open r0068 slot=67 gen=1
+ok T0.270 deposit r0068 1000.00 balance=1000.00
+ok T0.271 withdraw r0068 77.00 balance=923.00
+ok T0.272 deposit c068 162.00 balance=162.00
+ok T0.273 withdraw c068 162.00 balance=0.00
+close c068 slot=68
+open r0069 slot=68 gen=1
+ok T0.274 deposit r0069 1000.00 balance=1000.00
+ok T0.275 withdraw r0069 98.00 balance=902.00
+ok T0.276 deposit c069 263.00 balance=263.00
+ok T0.277 withdraw c069 263.00 balance=0.00
+close c069 slot=69
+open r0070 slot=69 gen=1
+ok T0.278 deposit r0070 1000.00 balance=1000.00
+ok T0.279 withdraw r0070 89.00 balance=911.00
+ok T0.280 deposit c070 126.00 balance=126.00
+ok T0.281 withdraw c070 126.00 balance=0.00
+close c070 slot=70
+open r0071 slot=70 gen=1
+ok T0.282 deposit r0071 1000.00 balance=1000.00
+ok T0.283 withdraw r0071 97.00 balance=903.00
+ok T0.284 deposit c071 437.00 balance=437.00
+ok T0.285 withdraw c071 437.00 balance=0.00
+close c071 slot=71
+open r0072 slot=71 gen=1
+ok T0.286 deposit r0072 1000.00 balance=1000.00
+ok T0.287 withdraw r0072 72.00 balance=928.00
+ok T0.288 deposit c072 292.00 balance=292.00
+ok T0.289 withdraw c072 292.00 balance=0.00
+close c072 slot=72
+open r0073 slot=72 gen=1
+ok T0.290 deposit r0073 1000.00 balance=1000.00
+ok T0.291 withdraw r0073 81.00 balance=919.00
+ok T0.292 deposit c073 171.00 balance=171.00
+ok T0.293 withdraw c073 171.00 balance=0.00
+close c073 slot=73
+open r0074 slot=73 gen=1
+ok T0.294 deposit r0074 1000.00 balance=1000.00
+ok T0.295 withdraw r0074 99.00 balance=901.00
+ok T0.296 deposit c074 346.00 balance=346.00
+ok T0.297 withdraw c074 346.00 balance=0.00
+close c074 slot=74
+open r0075 slot=74 gen=1
+ok T0.298 deposit r0075 1000.00 balance=1000.00
+ok T0.299 withdraw r0075 74.00 balance=926.00
+ok T0.300 deposit c075 92.00 balance=92.00
+ok T0.301 withdraw c075 92.00 balance=0.00
+close c075 slot=75
+open r0076 slot=75 gen=1
+ok T0.302 deposit r0076 1000.00 balance=1000.00
+ok T0.303 withdraw r0076 76.00 balance=924.00
+ok T0.304 deposit c076 374.00 balance=374.00
+ok T0.305 withdraw c076 374.00 balance=0.00
+close c076 slot=76
+open r0077 slot=76 gen=1
+ok T0.306 deposit r0077 1000.00 balance=1000.00
+ok T0.307 withdraw r0077 72.00 balance=928.00
+ok T0.308 deposit c077 204.00 balance=204.00
+ok T0.309 withdraw c077 204.00 balance=0.00
+close c077 slot=77
+open r0078 slot=77 gen=1
+ok T0.310 deposit r0078 1000.00 balance=1000.00
+ok T0.311 withdraw r0078 70.00 balance=930.00
+ok T0.312 deposit c078 276.00 balance=276.00
+ok T0.313 withdraw c078 276.00 balance=0.00
+close c078 slot=78
+open r0079 slot=78 gen=1
+ok T0.314 deposit r0079 1000.00 balance=1000.00
+ok T0.315 withdraw r0079 62.00 balance=938.00
+ok T0.316 deposit c079 404.00 balance=404.00
+ok T0.317 withdraw c079 404.00 balance=0.00
+close c079 slot=79
+open r0080 slot=79 gen=1
+ok T0.318 deposit r0080 1000.00 balance=1000.00
+ok T0.319 withdraw r0080 78.00 balance=922.00
+ok T0.320 deposit c080 222.00 balance=222.00
+ok T0.321 withdraw c080 222.00 balance=0.00
+close c080 slot=80
+open r0081 slot=80 gen=1
+ok T0.322 deposit r0081 1000.00 balance=1000.00
+ok T0.323 withdraw r0081 68.00 balance=932.00
+r0081 balance=932.00 held=0.00 available=932.00 spent_today=68.00 debits_last_hour=1
+ok T0.324 deposit c081 122.00 balance=122.00
+ok T0.325 withdraw c081 122.00 balance=0.00
+close c081 slot=81
+open r0082 slot=81 gen=1
+ok T0.326 deposit r0082 1000.00 balance=1000.00
+ok T0.327 withdraw r0082 85.00 balance=915.00
+ok T0.328 deposit c082 57.00 balance=57.00
+ok T0.329 withdraw c082 57.00 balance=0.00
+close c082 slot=82
+open r0083 slot=82 gen=1
+ok T0.330 deposit r0083 1000.00 balance=1000.00
+ok T0.331 withdraw r0083 62.00 balance=938.00
+ok T0.332 deposit c083 204.00 balance=204.00
+ok T0.333 withdraw c083 204.00 balance=0.00
+close c083 slot=83
+open r0084 slot=83 gen=1
+ok T0.334 deposit r0084 1000.00 balance=1000.00
+ok T0.335 withdraw r0084 85.00 balance=915.00
+ok T0.336 deposit c084 213.00 balance=213.00
+ok T0.337 withdraw c084 213.00 balance=0.00
+close c084 slot=84
+open r0085 slot=84 gen=1
+ok T0.338 deposit r0085 1000.00 balance=1000.00
+ok T0.339 withdraw r0085 97.00 balance=903.00
+ok T0.340 deposit c085 89.00 balance=89.00
+ok T0.341 withdraw c085 89.00 balance=0.00
+close c085 slot=85
+open r0086 slot=85 gen=1
+ok T0.342 deposit r0086 1000.00 balance=1000.00
+ok T0.343 withdraw r0086 63.00 balance=937.00
+ok T0.344 deposit c086 387.00 balance=387.00
+ok T0.345 withdraw c086 387.00 balance=0.00
+close c086 slot=86
+open r0087 slot=86 gen=1
+ok T0.346 deposit r0087 1000.00 balance=1000.00
+ok T0.347 withdraw r0087 88.00 balance=912.00
+ok T0.348 deposit c087 237.00 balance=237.00
+ok T0.349 withdraw c087 237.00 balance=0.00
+close c087 slot=87
+open r0088 slot=87 gen=1
+ok T0.350 deposit r0088 1000.00 balance=1000.00
+ok T0.351 withdraw r0088 68.00 balance=932.00
+ok T0.352 deposit c088 195.00 balance=195.00
+ok T0.353 withdraw c088 195.00 balance=0.00
+close c088 slot=88
+open r0089 slot=88 gen=1
+ok T0.354 deposit r0089 1000.00 balance=1000.00
+ok T0.355 withdraw r0089 95.00 balance=905.00
+ok T0.356 deposit c089 268.00 balance=268.00
+ok T0.357 withdraw c089 268.00 balance=0.00
+close c089 slot=89
+open r0090 slot=89 gen=1
+ok T0.358 deposit r0090 1000.00 balance=1000.00
+ok T0.359 withdraw r0090 71.00 balance=929.00
+ok T0.360 deposit c090 405.00 balance=405.00
+ok T0.361 withdraw c090 405.00 balance=0.00
+close c090 slot=90
+open r0091 slot=90 gen=1
+ok T0.362 deposit r0091 1000.00 balance=1000.00
+ok T0.363 withdraw r0091 76.00 balance=924.00
+ok T0.364 deposit c091 434.00 balance=434.00
+ok T0.365 withdraw c091 434.00 balance=0.00
+close c091 slot=91
+open r0092 slot=91 gen=1
+ok T0.366 deposit r0092 1000.00 balance=1000.00
+ok T0.367 withdraw r0092 73.00 balance=927.00
+ok T0.368 deposit c092 261.00 balance=261.00
+ok T0.369 withdraw c092 261.00 balance=0.00
+close c092 slot=92
+open r0093 slot=92 gen=1
+ok T0.370 deposit r0093 1000.00 balance=1000.00
+ok T0.371 withdraw r0093 82.00 balance=918.00
+ok T0.372 deposit c093 281.00 balance=281.00
+ok T0.373 withdraw c093 281.00 balance=0.00
+close c093 slot=93
+open r0094 slot=93 gen=1
+ok T0.374 deposit r0094 1000.00 balance=1000.00
+ok T0.375 withdraw r0094 75.00 balance=925.00
+ok T0.376 deposit c094 196.00 balance=196.00
+ok T0.377 withdraw c094 196.00 balance=0.00
+close c094 slot=94
+open r0095 slot=94 gen=1
+ok T0.378 deposit r0095 1000.00 balance=1000.00
+ok T0.379 withdraw r0095 61.00 balance=939.00
+ok T0.380 deposit c095 371.00 balance=371.00
+ok T0.381 withdraw c095 371.00 balance=0.00
+close c095 slot=95
+open r0096 slot=95 gen=1
+ok T0.382 deposit r0096 1000.00 balance=1000.00
+ok T0.383 withdraw r0096 88.00 balance=912.00
+ok T0.384 deposit c096 413.00 balance=413.00
+ok T0.385 withdraw c096 413.00 balance=0.00
+close c096 slot=96
+open r0097 slot=96 gen=1
+ok T0.386 deposit r0097 1000.00 balance=1000.00
+ok T0.387 withdraw r0097 73.00 balance=927.00
+ok T0.388 deposit c097 328.00 balance=328.00
+ok T0.389 withdraw c097 328.00 balance=0.00
+close c097 slot=97
+open r0098 slot=97 gen=1
+ok T0.390 deposit r0098 1000.00 balance=1000.00
+ok T0.391 withdraw r0098 82.00 balance=918.00
+ok T0.392 deposit c098 222.00 balance=222.00
+ok T0.393 withdraw c098 222.00 balance=0.00
+close c098 slot=98
+open r0099 slot=98 gen=1
+ok T0.394 deposit r0099 1000.00 balance=1000.00
+ok T0.395 withdraw r0099 73.00 balance=927.00
+ok T0.396 deposit c099 82.00 balance=82.00
+ok T0.397 withdraw c099 82.00 balance=0.00
+close c099 slot=99
+open r0100 slot=99 gen=1
+ok T0.398 deposit r0100 1000.00 balance=1000.00
+ok T0.399 withdraw r0100 98.00 balance=902.00
+now=7200000
+ok T0.400 deposit c100 170.00 balance=170.00
+ok T0.401 withdraw c100 170.00 balance=0.00
+close c100 slot=100
+open r0101 slot=100 gen=1
+ok T0.402 deposit r0101 1000.00 balance=1000.00
+ok T0.403 withdraw r0101 79.00 balance=921.00
+r0101 balance=921.00 held=0.00 available=921.00 spent_today=79.00 debits_last_hour=1
+ok T0.404 deposit c101 152.00 balance=152.00
+ok T0.405 withdraw c101 152.00 balance=0.00
+close c101 slot=101
+open r0102 slot=101 gen=1
+ok T0.406 deposit r0102 1000.00 balance=1000.00
+ok T0.407 withdraw r0102 99.00 balance=901.00
+ok T0.408 deposit c102 197.00 balance=197.00
+ok T0.409 withdraw c102 197.00 balance=0.00
+close c102 slot=102
+open r0103 slot=102 gen=1
+ok T0.410 deposit r0103 1000.00 balance=1000.00
+ok T0.411 withdraw r0103 88.00 balance=912.00
+ok T0.412 deposit c103 353.00 balance=353.00
+ok T0.413 withdraw c103 353.00 balance=0.00
+close c103 slot=103
+open r0104 slot=103 gen=1
+ok T0.414 deposit r0104 1000.00 balance=1000.00
+ok T0.415 withdraw r0104 83.00 balance=917.00
+ok T0.416 deposit c104 271.00 balance=271.00
+ok T0.417 withdraw c104 271.00 balance=0.00
+close c104 slot=104
+open r0105 slot=104 gen=1
+ok T0.418 deposit r0105 1000.00 balance=1000.00
+ok T0.419 withdraw r0105 97.00 balance=903.00
+ok T0.420 deposit c105 189.00 balance=189.00
+ok T0.421 withdraw c105 189.00 balance=0.00
+close c105 slot=105
+open r0106 slot=105 gen=1
+ok T0.422 deposit r0106 1000.00 balance=1000.00
+ok T0.423 withdraw r0106 94.00 balance=906.00
+ok T0.424 deposit c106 149.00 balance=149.00
+ok T0.425 withdraw c106 149.00 balance=0.00
+close c106 slot=106
+open r0107 slot=106 gen=1
+ok T0.426 deposit r0107 1000.00 balance=1000.00
+ok T0.427 withdraw r0107 65.00 balance=935.00
+ok T0.428 deposit c107 238.00 balance=238.00
+ok T0.429 withdraw c107 238.00 balance=0.00
+close c107 slot=107
+open r0108 slot=107 gen=1
+ok T0.430 deposit r0108 1000.00 balance=1000.00
+ok T0.431 withdraw r0108 74.00 balance=926.00
+ok T0.432 deposit c108 390.00 balance=390.00
+ok T0.433 withdraw c108 390.00 balance=0.00
+close c108 slot=108
+open r0109 slot=108 gen=1
+ok T0.434 deposit r0109 1000.00 balance=1000.00
+ok T0.435 withdraw r0109 71.00 balance=929.00
+ok T0.436 deposit c109 409.00 balance=409.00
+ok T0.437 withdraw c109 409.00 balance=0.00
+close c109 slot=109
+open r0110 slot=109 gen=1
+ok T0.438 deposit r0110 1000.00 balance=1000.00
+ok T0.439 withdraw r0110 75.00 balance=925.00
+ok T0.440 deposit c110 264.00 balance=264.00
+ok T0.441 withdraw c110 264.00 balance=0.00
+close c110 slot=110
+open r0111 slot=110 gen=1
+ok T0.442 deposit r0111 1000.00 balance=1000.00
+ok T0.443 withdraw r0111 76.00 balance=924.00
+ok T0.444 deposit c111 298.00 balance=298.00
+ok T0.445 withdraw c111 298.00 balance=0.00
+close c111 slot=111
+open r0112 slot=111 gen=1
+ok T0.446 deposit r0112 1000.00 balance=1000.00
+ok T0.447 withdraw r0112 60.00 balance=940.00
+ok T0.448 deposit c112 84.00 balance=84.00
+ok T0.449 withdraw c112 84.00 balance=0.00
+close c112 slot=112
+open r0113 slot=112 gen=1
+ok T0.450 deposit r0113 1000.00 balance=1000.00
+ok T0.451 withdraw r0113 91.00 balance=909.00
+ok T0.452 deposit c113 88.00 balance=88.00
+ok T0.453 withdraw c113 88.00 balance=0.00
+close c113 slot=113
+open r0114 slot=113 gen=1
+ok T0.454 deposit r0114 1000.00 balance=1000.00
+ok T0.455 withdraw r0114 80.00 balance=920.00
+ok T0.456 deposit c114 243.00 balance=243.00
+ok T0.457 withdraw c114 243.00 balance=0.00
+close c114 slot=114
+open r0115 slot=114 gen=1
+ok T0.458 deposit r0115 1000.00 balance=1000.00
+ok T0.459 withdraw r0115 93.00 balance=907.00
+ok T0.460 deposit c115 197.00 balance=197.00
+ok T0.461 withdraw c115 197.00 balance=0.00
+close c115 slot=115
+open r0116 slot=115 gen=1
+ok T0.462 deposit r0116 1000.00 balance=1000.00
+ok T0.463 withdraw r0116 76.00 balance=924.00
+ok T0.464 deposit c116 61.00 balance=61.00
+ok T0.465 withdraw c116 61.00 balance=0.00
+close c116 slot=116
+open r0117 slot=116 gen=1
+ok T0.466 deposit r0117 1000.00 balance=1000.00
+ok T0.467 withdraw r0117 83.00 balance=917.00
+ok T0.468 deposit c117 415.00 balance=415.00
+ok T0.469 withdraw c117 415.00 balance=0.00
+close c117 slot=117
+open r0118 slot=117 gen=1
+ok T0.470 deposit r0118 1000.00 balance=1000.00
+ok T0.471 withdraw r0118 75.00 balance=925.00
+ok T0.472 deposit c118 81.00 balance=81.00
+ok T0.473 withdraw c118 81.00 balance=0.00
+close c118 slot=118
+open r0119 slot=118 gen=1
+ok T0.474 deposit r0119 1000.00 balance=1000.00
+ok T0.475 withdraw r0119 81.00 balance=919.00
+ok T0.476 deposit c119 329.00 balance=329.00
+ok T0.477 withdraw c119 329.00 balance=0.00
+close c119 slot=119
+open r0120 slot=119 gen=1
+ok T0.478 deposit r0120 1000.00 balance=1000.00
+ok T0.479 withdraw r0120 93.00 balance=907.00
+ok T0.480 deposit c120 152.00 balance=152.00
+ok T0.481 withdraw c120 152.00 balance=0.00
+close c120 slot=120
+open r0121 slot=120 gen=1
+ok T0.482 deposit r0121 1000.00 balance=1000.00
+ok T0.483 withdraw r0121 81.00 balance=919.00
+r0121 balance=919.00 held=0.00 available=919.00 spent_today=81.00 debits_last_hour=1
+ok T0.484 deposit c121 129.00 balance=129.00
+ok T0.485 withdraw c121 129.00 balance=0.00
+close c121 slot=121
+open r0122 slot=121 gen=1
+ok T0.486 deposit r0122 1000.00 balance=1000.00
+ok T0.487 withdraw r0122 83.00 balance=917.00
+ok T0.488 deposit c122 377.00 balance=377.00
+ok T0.489 withdraw c122 377.00 balance=0.00
+close c122 slot=122
+open r0123 slot=122 gen=1
+ok T0.490 deposit r0123 1000.00 balance=1000.00
+ok T0.491 withdraw r0123 89.00 balance=911.00
+ok T0.492 deposit c123 58.00 balance=58.00
+ok T0.493 withdraw c123 58.00 balance=0.00
+close c123 slot=123
+open r0124 slot=123 gen=1
+ok T0.494 deposit r0124 1000.00 balance=1000.00
+ok T0.495 withdraw r0124 69.00 balance=931.00
+ok T0.496 deposit c124 57.00 balance=57.00
+ok T0.497 withdraw c124 57.00 balance=0.00
+close c124 slot=124
+open r0125 slot=124 gen=1
+ok T0.498 deposit r0125 1000.00 balance=1000.00
+ok T0.499 withdraw r0125 69.00 balance=931.00
+ok T0.500 deposit c125 365.00 balance=365.00
+ok T0.501 withdraw c125 365.00 balance=0.00
+close c125 slot=125
+open r0126 slot=125 gen=1
+ok T0.502 deposit r0126 1000.00 balance=1000.00
+ok T0.503 withdraw r0126 87.00 balance=913.00
+ok T0.504 deposit c126 302.00 balance=302.00
+ok T0.505 withdraw c126 302.00 balance=0.00
+close c126 slot=126
+open r0127 slot=126 gen=1
+ok T0.506 deposit r0127 1000.00 balance=1000.00
+ok T0.507 withdraw r0127 98.00 balance=902.00
+ok T0.508 deposit c127 367.00 balance=367.00
+ok T0.509 withdraw c127 367.00 balance=0.00
+close c127 slot=127
+open r0128 slot=127 gen=1
+ok T0.510 deposit r0128 1000.00 balance=1000.00
+ok T0.511 withdraw r0128 83.00 balance=917.00
+ok T0.512 deposit c128 202.00 balance=202.00
+ok T0.513 withdraw c128 202.00 balance=0.00
+close c128 slot=128
+open r0129 slot=128 gen=1
+ok T0.514 deposit r0129 1000.00 balance=1000.00
+ok T0.515 withdraw r0129 91.00 balance=909.00
+ok T0.516 deposit c129 186.00 balance=186.00
+ok T0.517 withdraw c129 186.00 balance=0.00
+close c129 slot=129
+open r0130 slot=129 gen=1
+ok T0.518 deposit r0130 1000.00 balance=1000.00
+ok T0.519 withdraw r0130 61.00 balance=939.00
+ok T0.520 deposit c130 219.00 balance=219.00
+ok T0.521 withdraw c130 219.00 balance=0.00
+close c130 slot=130
+open r0131 slot=130 gen=1
+ok T0.522 deposit r0131 1000.00 balance=1000.00
+ok T0.523 withdraw r0131 96.00 balance=904.00
+ok T0.524 deposit c131 157.00 balance=157.00
+ok T0.525 withdraw c131 157.00 balance=0.00
+close c131 slot=131
+open r0132 slot=131 gen=1
+ok T0.526 deposit r0132 1000.00 balance=1000.00
+ok T0.527 withdraw r0132 91.00 balance=909.00
+ok T0.528 deposit c132 80.00 balance=80.00
+ok T0.529 withdraw c132 80.00 balance=0.00
+close c132 slot=132
+open r0133 slot=132 gen=1
+ok T0.530 deposit r0133 1000.00 balance=1000.00
+ok T0.531 withdraw r0133 63.00 balance=937.00
+ok T0.532 deposit c133 314.00 balance=314.00
+ok T0.533 withdraw c133 314.00 balance=0.00
+close c133 slot=133
+open r0134 slot=133 gen=1
+ok T0.534 deposit r0134 1000.00 balance=1000.00
+ok T0.535 withdraw r0134 93.00 balance=907.00
+ok T0.536 deposit c134 269.00 balance=269.00
+ok T0.537 withdraw c134 269.00 balance=0.00
+close c134 slot=134
+open r0135 slot=134 gen=1
+ok T0.538 deposit r0135 1000.00 balance=1000.00
+ok T0.539 withdraw r0135 90.00 balance=910.00
+ok T0.540 deposit c135 129.00 balance=129.00
+ok T0.541 withdraw c135 129.00 balance=0.00
+close c135 slot=135
+open r0136 slot=135 gen=1
+ok T0.542 deposit r0136 1000.00 balance=1000.00
+ok T0.543 withdraw r0136 75.00 balance=925.00
+ok T0.544 deposit c136 115.00 balance=115.00
+ok T0.545 withdraw c136 115.00 balance=0.00
+close c136 slot=136
+open r0137 slot=136 gen=1
+ok T0.546 deposit r0137 1000.00 balance=1000.00
+ok T0.547 withdraw r0137 77.00 balance=923.00
+ok T0.548 deposit c137 117.00 balance=117.00
+ok T0.549 withdraw c137 117.00 balance=0.00
+close c137 slot=137
+open r0138 slot=137 gen=1
+ok T0.550 deposit r0138 1000.00 balance=1000.00
+ok T0.551 withdraw r0138 82.00 balance=918.00
+ok T0.552 deposit c138 72.00 balance=72.00
+ok T0.553 withdraw c138 72.00 balance=0.00
+close c138 slot=138
+open r0139 slot=138 gen=1
+ok T0.554 deposit r0139 1000.00 balance=1000.00
+ok T0.555 withdraw r0139 65.00 balance=935.00
+ok T0.556 deposit c139 192.00 balance=192.00
+ok T0.557 withdraw c139 192.00 balance=0.00
+close c139 slot=139
+open r0140 slot=139 gen=1
+ok T0.558 deposit r0140 1000.00 balance=1000.00
+ok T0.559 withdraw r0140 64.00 balance=936.00
+ok T0.560 deposit c140 227.00 balance=227.00
+ok T0.561 withdraw c140 227.00 balance=0.00
+close c140 slot=140
+open r0141 slot=140 gen=1
+ok T0.562 deposit r0141 1000.00 balance=1000.00
+ok T0.563 withdraw r0141 70.00 balance=930.00
+r0141 balance=930.00 held=0.00 available=930.00 spent_today=70.00 debits_last_hour=1
+ok T0.564 deposit c141 168.00 balance=168.00
+ok T0.565 withdraw c141 168.00 balance=0.00
+close c141 slot=141
+open r0142 slot=141 gen=1
+ok T0.566 deposit r0142 1000.00 balance=1000.00
+ok T0.567 withdraw r0142 66.00 balance=934.00
+ok T0.568 deposit c142 82.00 balance=82.00
+ok T0.569 withdraw c142 82.00 balance=0.00
+close c142 slot=142
+open r0143 slot=142 gen=1
+ok T0.570 deposit r0143 1000.00 balance=1000.00
+ok T0.571 withdraw r0143 94.00 balance=906.00
+ok T0.572 deposit c143 62.00 balance=62.00
+ok T0.573 withdraw c143 62.00 balance=0.00
+close c143 slot=143
+open r0144 slot=143 gen=1
+ok T0.574 deposit r0144 1000.00 balance=1000.00
+ok T0.575 withdraw r0144 64.00 balance=936.00
+ok T0.576 deposit c144 329.00 balance=329.00
+ok T0.577 withdraw c144 329.00 balance=0.00
+close c144 slot=144
+open r0145 slot=144 gen=1
+ok T0.578 deposit r0145 1000.00 balance=1000.00
+ok T0.579 withdraw r0145 84.00 balance=916.00
+ok T0.580 deposit c145 412.00 balance=412.00
+ok T0.581 withdraw c145 412.00 balance=0.00
+close c145 slot=145
+open r0146 slot=145 gen=1
+ok T0.582 deposit r0146 1000.00 balance=1000.00
+ok T0.583 withdraw r0146 86.00 balance=914.00
+ok T0.584 deposit c146 313.00 balance=313.00
+ok T0.585 withdraw c146 313.00 balance=0.00
+close c146 slot=146
+open r0147 slot=146 gen=1
+ok T0.586 deposit r0147 1000.00 balance=1000.00
+ok T0.587 withdraw r0147 97.00 balance=903.00
+ok T0.588 deposit c147 83.00 balance=83.00
+ok T0.589 withdraw c147 83.00 balance=0.00
+close c147 slot=147
+open r0148 slot=147 gen=1
+ok T0.590 deposit r0148 1000.00 balance=1000.00
+ok T0.591 withdraw r0148 79.00 balance=921.00
+ok T0.592 deposit c148 53.00 balance=53.00
+ok T0.593 withdraw c148 53.00 balance=0.00
+close c148 slot=148
+open r0149 slot=148 gen=1
+ok T0.594 deposit r0149 1000.00 balance=1000.00
+ok T0.595 withdraw r0149 95.00 balance=905.00
+ok T0.596 deposit c149 260.00 balance=260.00
+ok T0.597 withdraw c149 260.00 balance=0.00
+close c149 slot=149
+open r0150 slot=149 gen=1
+ok T0.598 deposit r0150 1000.00 balance=1000.00
+ok T0.599 withdraw r0150 84.00 balance=916.00
+now=10800000
+ok T0.600 deposit c150 171.00 balance=171.00
+ok T0.601 withdraw c150 171.00 balance=0.00
+close c150 slot=150
+open r0151 slot=150 gen=1
+ok T0.602 deposit r0151 1000.00 balance=1000.00
+ok T0.603 withdraw r0151 98.00 balance=902.00
+ok T0.604 deposit c151 125.00 balance=125.00
+ok T0.605 withdraw c151 125.00 balance=0.00
+close c151 slot=151
+open r0152 slot=151 gen=1
+ok T0.606 deposit r0152 1000.00 balance=1000.00
+ok T0.607 withdraw r0152 92.00 balance=908.00
+ok T0.608 deposit c152 220.00 balance=220.00
+ok T0.609 withdraw c152 220.00 balance=0.00
+close c152 slot=152
+open r0153 slot=152 gen=1
+ok T0.610 deposit r0153 1000.00 balance=1000.00
+ok T0.611 withdraw r0153 70.00 balance=930.00
+ok T0.612 deposit c153 76.00 balance=76.00
+ok T0.613 withdraw c153 76.00 balance=0.00
+close c153 slot=153
+open r0154 slot=153 gen=1
+ok T0.614 deposit r0154 1000.00 balance=1000.00
+ok T0.615 withdraw r0154 85.00 balance=915.00
+ok T0.616 deposit c154 333.00 balance=333.00
+ok T0.617 withdraw c154 333.00 balance=0.00
+close c154 slot=154
+open r0155 slot=154 gen=1
+ok T0.618 deposit r0155 1000.00 balance=1000.00
+ok T0.619 withdraw r0155 75.00 balance=925.00
+ok T0.620 deposit c155 352.00 balance=352.00
+ok T0.621 withdraw c155 352.00 balance=0.00
+close c155 slot=155
+open r0156 slot=155 gen=1
+ok T0.622 deposit r0156 1000.00 balance=1000.00
+ok T0.623 withdraw r0156 79.00 balance=921.00
+ok T0.624 deposit c156 130.00 balance=130.00
+ok T0.625 withdraw c156 130.00 balance=0.00
+close c156 slot=156
+open r0157 slot=156 gen=1
+ok T0.626 deposit r0157 1000.00 balance=1000.00
+ok T0.627 withdraw r0157 61.00 balance=939.00
+ok T0.628 deposit c157 118.00 balance=118.00
+ok T0.629 withdraw c157 118.00 balance=0.00
+close c157 slot=157
+open r0158 slot=157 gen=1
+ok T0.630 deposit r0158 1000.00 balance=1000.00
+ok T0.631 withdraw r0158 95.00 balance=905.00
+ok T0.632 deposit c158 112.00 balance=112.00
+ok T0.633 withdraw c158 112.00 balance=0.00
+close c158 slot=158
+open r0159 slot=158 gen=1
+ok T0.634 deposit r0159 1000.00 balance=1000.00
+ok T0.635 withdraw r0159 97.00 balance=903.00
+ok T0.636 deposit c159 233.00 balance=233.00
+ok T0.637 withdraw c159 233.00 balance=0.00
+close c159 slot=159
+open r0160 slot=159 gen=1
+ok T0.638 deposit r0160 1000.00 balance=1000.00
+ok T0.639 withdraw r0160 97.00 balance=903.00
+ok T0.640 deposit c160 357.00 balance=357.00
+ok T0.641 withdraw c160 357.00 balance=0.00
+close c160 slot=160
+open r0161 slot=160 gen=1
+ok T0.642 deposit r0161 1000.00 balance=1000.00
+ok T0.643 withdraw r0161 72.00 balance=928.00
+r0161 balance=928.00 held=0.00 available=928.00 spent_today=72.00 debits_last_hour=1
+ok T0.644 deposit c161 101.00 balance=101.00
+ok T0.645 withdraw c161 101.00 balance=0.00
+close c161 slot=161
+open r0162 slot=161 gen=1
+ok T0.646 deposit r0162 1000.00 balance=1000.00
+ok T0.647 withdraw r0162 68.00 balance=932.00
+ok T0.648 deposit c162 97.00 balance=97.00
+ok T0.649 withdraw c162 97.00 balance=0.00
+close c162 slot=162
+open r0163 slot=162 gen=1
+ok T0.650 deposit r0163 1000.00 balance=1000.00
+ok T0.651 withdraw r0163 95.00 balance=905.00
+ok T0.652 deposit c163 246.00 balance=246.00
+ok T0.653 withdraw c163 246.00 balance=0.00
+close c163 slot=163
+open r0164 slot=163 gen=1
+ok T0.654 deposit r0164 1000.00 balance=1000.00
+ok T0.655 withdraw r0164 62.00 balance=938.00
+ok T0.656 deposit c164 274.00 balance=274.00
+ok T0.657 withdraw c164 274.00 balance=0.00
+close c164 slot=164
+open r0165 slot=164 gen=1
+ok T0.658 deposit r0165 1000.00 balance=1000.00
+ok T0.659 withdraw r0165 78.00 balance=922.00
+ok T0.660 deposit c165 427.00 balance=427.00
+ok T0.661 withdraw c165 427.00 balance=0.00
+close c165 slot=165
+open r0166 slot=165 gen=1
+ok T0.662 deposit r0166 1000.00 balance=1000.00
+ok T0.663 withdraw r0166 63.00 balance=937.00
+ok T0.664 deposit c166 233.00 balance=233.00
+ok T0.665 withdraw c166 233.00 balance=0.00
+close c166 slot=166
+open r0167 slot=166 gen=1
+ok T0.666 deposit r0167 1000.00 balance=1000.00
+ok T0.667 withdraw r0167 61.00 balance=939.00
+ok T0.668 deposit c167 64.00 balance=64.00
+ok T0.669 withdraw c167 64.00 balance=0.00
+close c167 slot=167
+open r0168 slot=167 gen=1
+ok T0.670 deposit r0168 1000.00 balance=1000.00
+ok T0.671 withdraw r0168 98.00 balance=902.00
+ok T0.672 deposit c168 249.00 balance=249.00
+ok T0.673 withdraw c168 249.00 balance=0.00
+close c168 slot=168
+open r0169 slot=168 gen=1
+ok T0.674 deposit r0169 1000.00 balance=1000.00
+ok T0.675 withdraw r0169 69.00 balance=931.00
+ok T0.676 deposit c169 208.00 balance=208.00
+ok T0.677 withdraw c169 208.00 balance=0.00
+close c169 slot=169
+open r0170 slot=169 gen=1
+ok T0.678 deposit r0170 1000.00 balance=1000.00
+ok T0.679 withdraw r0170 79.00 balance=921.00
+ok T0.680 deposit c170 208.00 balance=208.00
+ok T0.681 withdraw c170 208.00 balance=0.00
+close c170 slot=170
+open r0171 slot=170 gen=1
+ok T0.682 deposit r0171 1000.00 balance=1000.00
+ok T0.683 withdraw r0171 90.00 balance=910.00
+ok T0.684 deposit c171 270.00 balance=270.00
+ok T0.685 withdraw c171 270.00 balance=0.00
+close c171 slot=171
+open r0172 slot=171 gen=1
+ok T0.686 deposit r0172 1000.00 balance=1000.00
+ok T0.687 withdraw r0172 94.00 balance=906.00
+ok T0.688 deposit c172 109.00 balance=109.00
+ok T0.689 withdraw c172 109.00 balance=0.00
+close c172 slot=172
+open r0173 slot=172 gen=1
+ok T0.690 deposit r0173 1000.00 balance=1000.00
+ok T0.691 withdraw r0173 90.00 balance=910.00
+ok T0.692 deposit c173 76.00 balance=76.00
+ok T0.693 withdraw c173 76.00 balance=0.00
+close c173 slot=173
+open r0174 slot=173 gen=1
+ok T0.694 deposit r0174 1000.00 balance=1000.00
+ok T0.695 withdraw r0174 67.00 balance=933.00
+ok T0.696 deposit c174 121.00 balance=121.00
+ok T0.697 withdraw c174 121.00 balance=0.00
+close c174 slot=174
+open r0175 slot=174 gen=1
+ok T0.698 deposit r0175 1000.00 balance=1000.00
+ok T0.699 withdraw r0175 70.00 balance=930.00
+ok T0.700 deposit c175 235.00 balance=235.00
+ok T0.701 withdraw c175 235.00 balance=0.00
+close c175 slot=175
+open r0176 slot=175 gen=1
+ok T0.702 deposit r0176 1000.00 balance=1000.00
+ok T0.703 withdraw r0176 89.00 balance=911.00
+ok T0.704 deposit c176 247.00 balance=247.00
+ok T0.705 withdraw c176 247.00 balance=0.00
+close c176 slot=176
+open r0177 slot=176 gen=1
+ok T0.706 deposit r0177 1000.00 balance=1000.00
+ok T0.707 withdraw r0177 97.00 balance=903.00
+ok T0.708 deposit c177 229.00 balance=229.00
+ok T0.709 withdraw c177 229.00 balance=0.00
+close c177 slot=177
+open r0178 slot=177 gen=1
+ok T0.710 deposit r0178 1000.00 balance=1000.00
+ok T0.711 withdraw r0178 86.00 balance=914.00
+ok T0.712 deposit c178 58.00 balance=58.00
+ok T0.713 withdraw c178 58.00 balance=0.00
+close c178 slot=178
+open r0179 slot=178 gen=1
+ok T0.714 deposit r0179 1000.00 balance=1000.00
+ok T0.715 withdraw r0179 71.00 balance=929.00
+ok T0.716 deposit c179 271.00 balance=271.00
+ok T0.717 withdraw c179 271.00 balance=0.00
+close c179 slot=179
+open r0180 slot=179 gen=1
+ok T0.718 deposit r0180 1000.00 balance=1000.00
+ok T0.719 withdraw r0180 97.00 balance=903.00
+ok T0.720 deposit c180 108.00 balance=108.00
+ok T0.721 withdraw c180 108.00 balance=0.00
+close c180 slot=180
+open r0181 slot=180 gen=1
+ok T0.722 deposit r0181 1000.00 balance=1000.00
+ok T0.723 withdraw r0181 96.00 balance=904.00
+r0181 balance=904.00 held=0.00 available=904.00 spent_today=96.00 debits_last_hour=1
+ok T0.724 deposit c181 97.00 balance=97.00
+ok T0.725 withdraw c181 97.00 balance=0.00
+close c181 slot=181
+open r0182 slot=181 gen=1
+ok T0.726 deposit r0182 1000.00 balance=1000.00
+ok T0.727 withdraw r0182 97.00 balance=903.00
+ok T0.728 deposit c182 298.00 balance=298.00
+ok T0.729 withdraw c182 298.00 balance=0.00
+close c182 slot=182
+open r0183 slot=182 gen=1
+ok T0.730 deposit r0183 1000.00 balance=1000.00
+ok T0.731 withdraw r0183 63.00 balance=937.00
+ok T0.732 deposit c183 80.00 balance=80.00
+ok T0.733 withdraw c183 80.00 balance=0.00
+close c183 slot=183
+open r0184 slot=183 gen=1
+ok T0.734 deposit r0184 1000.00 balance=1000.00
+ok T0.735 withdraw r0184 73.00 balance=927.00
+ok T0.736 deposit c184 228.00 balance=228.00
+ok T0.737 withdraw c184 228.00 balance=0.00
+close c184 slot=184
+open r0185 slot=184 gen=1
+ok T0.738 deposit r0185 1000.00 balance=1000.00
+ok T0.739 withdraw r0185 96.00 balance=904.00
+ok T0.740 deposit c185 380.00 balance=380.00
+ok T0.741 withdraw c185 380.00 balance=0.00
+close c185 slot=185
+open r0186 slot=185 gen=1
+ok T0.742 deposit r0186 1000.00 balance=1000.00
+ok T0.743 withdraw r0186 85.00 balance=915.00
+ok T0.744 deposit c186 104.00 balance=104.00
+ok T0.745 withdraw c186 104.00 balance=0.00
+close c186 slot=186
+open r0187 slot=186 gen=1
+ok T0.746 deposit r0187 1000.00 balance=1000.00
+ok T0.747 withdraw r0187 70.00 balance=930.00
+ok T0.748 deposit c187 339.00 balance=339.00
+ok T0.749 withdraw c187 339.00 balance=0.00
+close c187 slot=187
+open r0188 slot=187 gen=1
+ok T0.750 deposit r0188 1000.00 balance=1000.00
+ok T0.751 withdraw r0188 74.00 balance=926.00
+ok T0.752 deposit c188 309.00 balance=309.00
+ok T0.753 withdraw c188 309.00 balance=0.00
+close c188 slot=188
+open r0189 slot=188 gen=1
+ok T0.754 deposit r0189 1000.00 balance=1000.00
+ok T0.755 withdraw r0189 70.00 balance=930.00
+ok T0.756 deposit c189 413.00 balance=413.00
+ok T0.757 withdraw c189 413.00 balance=0.00
+close c189 slot=189
+open r0190 slot=189 gen=1
+ok T0.758 deposit r0190 1000.00 balance=1000.00
+ok T0.759 withdraw r0190 96.00 balance=904.00
+ok T0.760 deposit c190 292.00 balance=292.00
+ok T0.761 withdraw c190 292.00 balance=0.00
+close c190 slot=190
+open r0191 slot=190 gen=1
+ok T0.762 deposit r0191 1000.00 balance=1000.00
+ok T0.763 withdraw r0191 68.00 balance=932.00
+ok T0.764 deposit c191 320.00 balance=320.00
+ok T0.765 withdraw c191 320.00 balance=0.00
+close c191 slot=191
+open r0192 slot=191 gen=1
+ok T0.766 deposit r0192 1000.00 balance=1000.00
+ok T0.767 withdraw r0192 91.00 balance=909.00
+ok T0.768 deposit c192 250.00 balance=250.00
+ok T0.769 withdraw c192 250.00 balance=0.00
+close c192 slot=192
+open r0193 slot=192 gen=1
+ok T0.770 deposit r0193 1000.00 balance=1000.00
+ok T0.771 withdraw r0193 63.00 balance=937.00
+ok T0.772 deposit c193 182.00 balance=182.00
+ok T0.773 withdraw c193 182.00 balance=0.00
+close c193 slot=193
+open r0194 slot=193 gen=1
+ok T0.774 deposit r0194 1000.00 balance=1000.00
+ok T0.775 withdraw r0194 95.00 balance=905.00
+ok T0.776 deposit c194 291.00 balance=291.00
+ok T0.777 withdraw c194 291.00 balance=0.00
+close c194 slot=194
+open r0195 slot=194 gen=1
+ok T0.778 deposit r0195 1000.00 balance=1000.00
+ok T0.779 withdraw r0195 92.00 balance=908.00
+ok T0.780 deposit c195 347.00 balance=347.00
+ok T0.781 withdraw c195 347.00 balance=0.00
+close c195 slot=195
+open r0196 slot=195 gen=1
+ok T0.782 deposit r0196 1000.00 balance=1000.00
+ok T0.783 withdraw r0196 85.00 balance=915.00
+ok T0.784 deposit c196 248.00 balance=248.00
+ok T0.785 withdraw c196 248.00 balance=0.00
+close c196 slot=196
+open r0197 slot=196 gen=1
+ok T0.786 deposit r0197 1000.00 balance=1000.00
+ok T0.787 withdraw r0197 65.00 balance=935.00
+ok T0.788 deposit c197 433.00 balance=433.00
+ok T0.789 withdraw c197 433.00 balance=0.00
+close c197 slot=197
+open r0198 slot=197 gen=1
+ok T0.790 deposit r0198 1000.00 balance=1000.00
+ok T0.791 withdraw r0198 60.00 balance=940.00
+ok T0.792 deposit c198 392.00 balance=392.00
+ok T0.793 withdraw c198 392.00 balance=0.00
+close c198 slot=198
+open r0199 slot=198 gen=1
+ok T0.794 deposit r0199 1000.00 balance=1000.00
+ok T0.795 withdraw r0199 98.00 balance=902.00
+ok T0.796 deposit c199 326.00 balance=326.00
+ok T0.797 withdraw c199 326.00 balance=0.00
+close c199 slot=199
+open r0200 slot=199 gen=1
+ok T0.798 deposit r0200 1000.00 balance=1000.00
+ok T0.799 withdraw r0200 99.00 balance=901.00
+now=14400000
+ok T0.800 deposit c200 431.00 balance=431.00
+ok T0.801 withdraw c200 431.00 balance=0.00
+close c200 slot=200
+open r0201 slot=200 gen=1
+ok T0.802 deposit r0201 1000.00 balance=1000.00
+ok T0.803 withdraw r0201 98.00 balance=902.00
+r0201 balance=902.00 held=0.00 available=902.00 spent_today=98.00 debits_last_hour=1
+ok T0.804 deposit c201 339.00 balance=339.00
+ok T0.805 withdraw c201 339.00 balance=0.00
+close c201 slot=201
+open r0202 slot=201 gen=1
+ok T0.806 deposit r0202 1000.00 balance=1000.00
+ok T0.807 withdraw r0202 61.00 balance=939.00
+ok T0.808 deposit c202 301.00 balance=301.00
+ok T0.809 withdraw c202 301.00 balance=0.00
+close c202 slot=202
+open r0203 slot=202 gen=1
+ok T0.810 deposit r0203 1000.00 balance=1000.00
+ok T0.811 withdraw r0203 92.00 balance=908.00
+ok T0.812 deposit c203 435.00 balance=435.00
+ok T0.813 withdraw c203 435.00 balance=0.00
+close c203 slot=203
+open r0204 slot=203 gen=1
+ok T0.814 deposit r0204 1000.00 balance=1000.00
+ok T0.815 withdraw r0204 88.00 balance=912.00
+ok T0.816 deposit c204 145.00 balance=145.00
+ok T0.817 withdraw c204 145.00 balance=0.00
+close c204 slot=204
+open r0205 slot=204 gen=1
+ok T0.818 deposit r0205 1000.00 balance=1000.00
+ok T0.819 withdraw r0205 67.00 balance=933.00
+ok T0.820 deposit c205 385.00 balance=385.00
+ok T0.821 withdraw c205 385.00 balance=0.00
+close c205 slot=205
+open r0206 slot=205 gen=1
+ok T0.822 deposit r0206 1000.00 balance=1000.00
+ok T0.823 withdraw r0206 66.00 balance=934.00
+ok T0.824 deposit c206 262.00 balance=262.00
+ok T0.825 withdraw c206 262.00 balance=0.00
+close c206 slot=206
+open r0207 slot=206 gen=1
+ok T0.826 deposit r0207 1000.00 balance=1000.00
+ok T0.827 withdraw r0207 75.00 balance=925.00
+ok T0.828 deposit c207 286.00 balance=286.00
+ok T0.829 withdraw c207 286.00 balance=0.00
+close c207 slot=207
+open r0208 slot=207 gen=1
+ok T0.830 deposit r0208 1000.00 balance=1000.00
+ok T0.831 withdraw r0208 95.00 balance=905.00
+ok T0.832 deposit c208 356.00 balance=356.00
+ok T0.833 withdraw c208 356.00 balance=0.00
+close c208 slot=208
+open r0209 slot=208 gen=1
+ok T0.834 deposit r0209 1000.00 balance=1000.00
+ok T0.835 withdraw r0209 80.00 balance=920.00
+ok T0.836 deposit c209 413.00 balance=413.00
+ok T0.837 withdraw c209 413.00 balance=0.00
+close c209 slot=209
+open r0210 slot=209 gen=1
+ok T0.838 deposit r0210 1000.00 balance=1000.00
+ok T0.839 withdraw r0210 77.00 balance=923.00
+ok T0.840 deposit c210 358.00 balance=358.00
+ok T0.841 withdraw c210 358.00 balance=0.00
+close c210 slot=210
+open r0211 slot=210 gen=1
+ok T0.842 deposit r0211 1000.00 balance=1000.00
+ok T0.843 withdraw r0211 76.00 balance=924.00
+ok T0.844 deposit c211 154.00 balance=154.00
+ok T0.845 withdraw c211 154.00 balance=0.00
+close c211 slot=211
+open r0212 slot=211 gen=1
+ok T0.846 deposit r0212 1000.00 balance=1000.00
+ok T0.847 withdraw r0212 83.00 balance=917.00
+ok T0.848 deposit c212 135.00 balance=135.00
+ok T0.849 withdraw c212 135.00 balance=0.00
+close c212 slot=212
+open r0213 slot=212 gen=1
+ok T0.850 deposit r0213 1000.00 balance=1000.00
+ok T0.851 withdraw r0213 86.00 balance=914.00
+ok T0.852 deposit c213 141.00 balance=141.00
+ok T0.853 withdraw c213 141.00 balance=0.00
+close c213 slot=213
+open r0214 slot=213 gen=1
+ok T0.854 deposit r0214 1000.00 balance=1000.00
+ok T0.855 withdraw r0214 64.00 balance=936.00
+ok T0.856 deposit c214 362.00 balance=362.00
+ok T0.857 withdraw c214 362.00 balance=0.00
+close c214 slot=214
+open r0215 slot=214 gen=1
+ok T0.858 deposit r0215 1000.00 balance=1000.00
+ok T0.859 withdraw r0215 98.00 balance=902.00
+ok T0.860 deposit c215 251.00 balance=251.00
+ok T0.861 withdraw c215 251.00 balance=0.00
+close c215 slot=215
+open r0216 slot=215 gen=1
+ok T0.862 deposit r0216 1000.00 balance=1000.00
+ok T0.863 withdraw r0216 86.00 balance=914.00
+ok T0.864 deposit c216 236.00 balance=236.00
+ok T0.865 withdraw c216 236.00 balance=0.00
+close c216 slot=216
+open r0217 slot=216 gen=1
+ok T0.866 deposit r0217 1000.00 balance=1000.00
+ok T0.867 withdraw r0217 84.00 balance=916.00
+ok T0.868 deposit c217 99.00 balance=99.00
+ok T0.869 withdraw c217 99.00 balance=0.00
+close c217 slot=217
+open r0218 slot=217 gen=1
+ok T0.870 deposit r0218 1000.00 balance=1000.00
+ok T0.871 withdraw r0218 82.00 balance=918.00
+ok T0.872 deposit c218 427.00 balance=427.00
+ok T0.873 withdraw c218 427.00 balance=0.00
+close c218 slot=218
+open r0219 slot=218 gen=1
+ok T0.874 deposit r0219 1000.00 balance=1000.00
+ok T0.875 withdraw r0219 79.00 balance=921.00
+ok T0.876 deposit c219 145.00 balance=145.00
+ok T0.877 withdraw c219 145.00 balance=0.00
+close c219 slot=219
+open r0220 slot=219 gen=1
+ok T0.878 deposit r0220 1000.00 balance=1000.00
+ok T0.879 withdraw r0220 73.00 balance=927.00
+check ok records=880 live=880 accounts=256 holds=0 batches=0

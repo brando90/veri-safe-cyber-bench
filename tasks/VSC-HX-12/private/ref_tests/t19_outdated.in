@@ -1,0 +1,10 @@
+user add alice
+publish alice o1 1.0.0
+publish alice o2 1.0.0
+publish alice o3 1.0.0
+lock - set o1@^1 o2@^1 o3@^1
+publish alice o1 1.1.0
+yank alice o2 1.0.0
+unpublish alice o3 1.0.0
+outdated - set
+outdated - nothing

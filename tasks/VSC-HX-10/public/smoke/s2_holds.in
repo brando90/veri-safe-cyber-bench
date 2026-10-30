@@ -1,0 +1,17 @@
+# holds with and without a ttl
+open shop
+deposit shop 100
+hold shop 30 ttl=10s
+hold shop 50
+hold shop 30
+holds shop
+balance shop
+clock advance 5s
+capture H001 amount=12 to=shop
+capture H001 amount=12
+clock advance 5s
+holds shop
+release H002
+holds shop
+balance shop
+check

@@ -1,0 +1,15 @@
+open v velocity=2
+deposit v 100
+withdraw v 1
+withdraw v 1
+withdraw v 1
+clock set 59m
+balance v
+withdraw v 1
+clock set 3599999
+withdraw v 1
+clock set 1h
+balance v
+withdraw v 1
+balance v
+check

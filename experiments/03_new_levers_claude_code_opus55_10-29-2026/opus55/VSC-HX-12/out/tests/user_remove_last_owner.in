@@ -1,0 +1,12 @@
+# removing a user keeps every package owned
+user add root admin
+user add alice
+user add bob
+publish alice chart 1.0.0 size=1KiB
+user remove root alice
+owner invite alice chart bob role=owner
+owner accept bob chart
+user remove root alice
+roles - chart
+user show bob
+check

@@ -1,0 +1,11 @@
+user root added (admin)
+user alice added
+published logger 1.0.0 (0 KiB)
+published logger 1.1.0 (0 KiB)
+tag logger stable -> 1.0.0
+user alice disabled
+error: user alice is disabled
+error: user alice is disabled
+user alice enabled
+tag logger stable removed
+tags logger: latest=1.1.0

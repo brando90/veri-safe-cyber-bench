@@ -1,0 +1,10 @@
+user add root admin
+user add alice
+user add bob
+publish alice solo 1.0.0
+owner invite alice solo bob
+owner accept bob solo
+user remove root alice
+user show alice
+roles - solo
+check

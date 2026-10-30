@@ -1,0 +1,16 @@
+user alice added
+user bob added
+user carol added
+published inv 1.0.0 (0 KiB)
+error: invite ttl 3d is longer than 2d
+invited bob to inv as owner until 172800
+invited carol to inv as reader until 1728000
+error: invalid role 'admin'
+error: alice already has role owner on inv
+invite inv bob role=owner until=172800 by=alice
+invite inv carol role=reader until=1728000 by=alice
+clock 86400
+carol is now reader of inv
+bob is now owner of inv
+roles inv: alice=owner bob=owner carol=reader
+invites inv: none

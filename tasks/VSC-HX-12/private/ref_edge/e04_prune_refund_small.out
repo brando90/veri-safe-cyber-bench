@@ -1,0 +1,12 @@
+user root added (admin)
+user bob added
+quota bob limit=3 KiB
+published tiny 0.1.0 (1 KiB)
+published tiny 0.2.0 (1 KiB)
+published tiny 0.3.0 (1 KiB)
+yanked tiny 0.1.0
+yanked tiny 0.2.0
+pruned tiny: 0.1.0, 0.2.0
+published tiny 0.4.0 (1 KiB)
+published tiny 0.5.0 (1 KiB)
+quota bob used=3 KiB limit=3 KiB

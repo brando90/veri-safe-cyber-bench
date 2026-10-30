@@ -1,0 +1,12 @@
+open ned
+deposit ned 5 key=k1
+withdraw ned 5 key=k2
+close ned
+open ned
+deposit ned 5 key=k1
+withdraw ned 5 key=k2
+deposit ned 5 key=k1
+balance ned
+show T0.2
+idem
+check

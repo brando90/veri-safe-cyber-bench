@@ -1,0 +1,11 @@
+user add alice
+publish alice tg 1.0.0
+publish alice tg 1.1.0
+tag add alice tg latest 1.0.0
+tag rm alice tg latest
+tag add alice tg Bad_Tag 1.0.0
+tag add alice tg old 1.0.0
+tag add alice tg old 1.1.0
+tag rm alice tg nope
+tags - tg
+audit n=2

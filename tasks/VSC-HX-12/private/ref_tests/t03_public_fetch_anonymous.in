@@ -1,0 +1,13 @@
+user add alice
+user add bob
+publish alice pub-lib 1.0.0 size=1KiB
+publish alice priv-lib 1.0.0 size=1KiB visibility=private
+fetch - pub-lib
+fetch bob pub-lib ^1
+fetch - priv-lib
+fetch bob priv-lib
+resolve - priv-lib *
+info bob priv-lib
+info - pub-lib
+tags bob priv-lib
+roles bob priv-lib

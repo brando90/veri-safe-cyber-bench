@@ -1,0 +1,14 @@
+open alice
+open bob
+open zed overdraft=5.5
+deposit alice 1000
+deposit bob 0.01
+transfer alice bob 999.99
+transfer bob alice 1000
+withdraw zed 5.50
+withdraw zed 0.01
+deposit zed 5.5
+accounts
+balance zed
+journal
+check

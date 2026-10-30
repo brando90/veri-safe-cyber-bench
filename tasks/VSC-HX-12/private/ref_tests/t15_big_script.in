@@ -1,0 +1,1602 @@
+# generated session (seed 1207)
+user add u1
+user add u2
+user add u3
+user add u4
+user add u5
+user add u6
+user add u7
+user add u8
+publish u1 pk00 1.0.0 size=1005
+publish u4 pk01 1.0.0 size=3887 deps=pk00@^1
+publish u3 pk02 1.0.0 size=1090 deps=pk00@^1
+publish u5 pk03 1.0.0 size=8165 deps=pk00@^1
+fetch u4 pk02 ^1
+publish u1 pk04 1.0.0 size=1207 deps=pk03@^1;pk01@^1
+fetch u3 pk00 ^1
+publish u3 pk02 1.1.0 size=8886
+fetch u1 pk00 ^1
+publish u1 pk00 1.1.0 size=8691
+publish u1 pk04 1.1.0 size=9300
+yank u1 pk00 1.1.0 reason=r43
+publish u5 pk05 1.0.0 size=2340 deps=pk03@^1
+fetch u4 pk05 ^1
+clock advance 241m
+fetch u6 pk03 ^1
+fetch u4 pk03 ^1
+owner invite u1 pk00 u4
+owner accept u4 pk00
+publish u6 pk06 1.0.0 size=5960 deps=pk05@^1
+fetch u5 pk03 ^1
+quota u1
+tag add u1 pk04 next 1.1.0
+fetch u8 pk06 ^1
+publish u5 pk03 1.0.1 size=5895
+publish u5 pk05 1.1.0 size=1507
+fetch u6 pk04 ^1
+clock advance 122m
+fetch - pk01 ^1
+publish u3 pk02 1.2.0 size=169
+fetch u7 pk04 ^1
+resolve - pk01 ~1.0
+quota u2
+yank u3 pk02 1.2.0 reason=r10
+publish u1 pk04 1.2.0 size=11905
+publish u3 pk02 1.2.1 size=2963
+yank u1 pk04 1.1.0 reason=r80
+publish u3 pk02 1.3.0 size=3239
+yank u5 pk03 1.0.0 reason=r45
+resolve - pk00 ~1.1
+publish u3 pk02 1.4.0 size=1839
+fetch u2 pk00 ^1
+fetch - pk05 ^1
+tag add u1 pk00 next 1.0.0
+info - pk06
+fetch u4 pk01 ^1
+lock u6 set55 pk05@* pk03@* pk04@*
+clock advance 33m
+tag add u6 pk06 next 1.0.0
+fetch - pk06 ^1
+publish u6 pk06 1.0.1 size=9046
+publish u3 pk02 1.5.0 size=410
+publish u4 pk00 1.2.0 size=1605
+fetch u3 pk03 ^1
+publish u6 pk06 1.0.2 size=4053
+fetch u4 pk00 ^1
+publish u7 pk07 1.0.0 size=6746 deps=pk06@^1
+tag add u6 pk06 next 1.0.0
+fetch u7 pk00 ^1
+publish u6 pk06 1.0.3 size=4555
+owner invite u5 pk03 u7
+owner accept u7 pk03
+publish u5 pk08 1.0.0 size=4049 deps=pk03@^1
+tag add u6 pk06 next 1.0.3
+quota u5
+publish u7 pk07 1.1.0 size=7034
+publish u6 pk06 1.0.4 size=1863
+fetch - pk03
+publish u2 pk09 1.0.0 size=8050 deps=pk03@^1;pk08@^1
+tag add u5 pk03 next 1.0.1
+lock u5 set79 pk00@* pk03@* pk04@*
+tag add u1 pk04 next 1.1.0
+fetch - pk01
+publish u4 pk10 1.0.0 size=1610 deps=pk07@^1;pk01@^1
+fetch - pk10
+fetch u1 pk01 ^1
+publish u7 pk03 2.0.0 size=11500
+publish u5 pk05 1.1.1 size=4789
+top - releases n=3
+fetch u7 pk08 ^1
+tag add u4 pk10 next 1.0.0
+publish u7 pk07 1.2.0 size=6902
+publish u4 pk11 1.0.0 size=6075 deps=pk02@^1;pk03@^1
+publish u3 pk02 1.5.1 size=9827
+publish u4 pk01 1.1.0 size=483
+yank u1 pk04 1.2.0 reason=r80
+fetch u7 pk06 ^1
+fetch u1 pk06 ^1
+fetch u1 pk02 ^1
+publish u6 pk06 1.1.0 size=2773
+owner invite u6 pk06 u7
+owner accept u7 pk06
+publish u7 pk12 1.0.0 size=8881 deps=pk02@^1;pk07@^1
+publish u7 pk07 1.2.1 size=9090
+clock advance 552m
+fetch u3 pk12 ^1
+fetch u4 pk09 ^1
+publish u6 pk06 1.2.0 size=7932
+tag add u4 pk10 next 1.0.0
+fetch u3 pk00 ^1
+fetch u1 pk10 ^1
+owner invite u4 pk11 u3
+owner accept u3 pk11
+tag add u3 pk02 next 1.2.1
+publish u7 pk07 1.3.0 size=10950
+fetch u4 pk06 ^1
+yank u4 pk10 1.0.0 reason=r52
+publish u5 pk03 2.1.0 size=743
+fetch - pk12
+fetch u3 pk01 ^1
+info - pk10
+tag add u7 pk07 next 1.2.1
+top - releases n=3
+publish u6 pk13 1.0.0 size=7237 deps=pk05@^1
+fetch - pk04
+lock u8 set124 pk03@* pk11@* pk13@*
+publish u3 pk11 1.1.0 size=11172
+quota u6
+yank u3 pk02 1.3.0 reason=r99
+fetch - pk06
+info - pk08
+fetch u3 pk05 ^1
+yank u6 pk13 1.0.0 reason=r59
+clock advance 565m
+lock u3 set133 pk12@* pk05@* pk04@*
+publish u2 pk14 1.0.0 size=4067 deps=pk04@^1;pk02@^1
+top - downloads n=5
+publish u1 pk00 1.3.0 size=3179
+fetch u2 pk14 ^1
+publish u4 pk01 2.0.0 size=11050
+fetch u6 pk03 ^2
+publish u5 pk03 2.1.1 size=11588
+publish u1 pk04 1.3.0 size=2765
+fetch u4 pk10 ^1
+publish u5 pk08 2.0.0 size=9381
+fetch u6 pk07 ^1
+clock advance 586m
+fetch u4 pk01 ^2
+publish u4 pk00 1.3.1 size=358
+publish u1 pk15 1.0.0 size=6034 deps=pk08@^1
+quota u5
+publish u5 pk05 1.2.0 size=657
+yank u5 pk08 2.0.0 reason=r74
+publish u2 pk09 1.0.1 size=11486
+lock u1 set153 pk10@* pk13@* pk07@*
+resolve - pk03 ~2.1
+info - pk11
+publish u4 pk01 2.0.1 size=11609
+tag add u4 pk11 next 1.1.0
+publish u2 pk14 1.0.1 size=3569
+yank u6 pk06 1.0.4 reason=r97
+publish u7 pk16 1.0.0 size=3913
+top - dependents n=4
+fetch u1 pk10 ^1
+publish u4 pk01 2.0.2 size=9174
+owner invite u1 pk15 u8
+owner accept u8 pk15
+publish u2 pk09 1.0.2 size=10243
+publish u2 pk14 1.0.2 size=9769
+fetch u5 pk07 ^1
+fetch u8 pk14 ^1
+publish u4 pk01 2.0.3 size=8159
+fetch - pk04
+fetch - pk07 ^1
+resolve - pk12 ~1.0
+publish u7 pk16 1.1.0 size=10804
+publish u7 pk12 1.0.1 size=542
+tag add u4 pk01 next 2.0.2
+publish u6 pk06 2.0.0 size=11839
+info - pk09
+fetch - pk01
+fetch u2 pk10 ^1
+resolve - pk02 ~1.2
+fetch u6 pk05 ^1
+fetch - pk11
+quota u5
+publish u6 pk17 1.0.0 size=1603
+tag add u6 pk13 next 1.0.0
+publish u1 pk04 2.0.0 size=10925
+fetch u5 pk07 ^1
+fetch u4 pk06 ^1
+fetch u5 pk11 ^1
+fetch u6 pk07 ^1
+fetch u2 pk07 ^1
+fetch u5 pk07 ^1
+fetch - pk11 ^1
+tag add u5 pk05 next 1.0.0
+fetch - pk17
+yank u8 pk15 1.0.0 reason=r81
+publish u1 pk18 1.0.0 size=8603 deps=pk04@^1;pk11@^1
+publish u6 pk13 1.0.1 size=6715
+publish u2 pk14 1.0.3 size=11581
+fetch u7 pk11 ^1
+fetch u6 pk17 ^1
+lock u7 set203 pk00@* pk08@* pk13@*
+lock u7 set204 pk04@* pk01@* pk08@*
+clock advance 104m
+owner invite u3 pk02 u8
+owner accept u8 pk02
+publish u2 pk09 2.0.0 size=8933
+fetch - pk05 ^1
+fetch - pk05
+fetch u8 pk07 ^1
+fetch u6 pk07 ^1
+top - dependents n=7
+quota u8
+yank u6 pk17 1.0.0 reason=r61
+fetch u7 pk17 ^1
+publish u1 pk18 2.0.0 size=10735
+fetch u8 pk07 ^1
+publish u1 pk18 2.1.0 size=11296
+publish u6 pk13 1.0.2 size=1018
+yank u1 pk18 1.0.0 reason=r84
+publish u4 pk10 2.0.0 size=215
+publish u1 pk18 2.1.1 size=6355
+tag add u1 pk04 next 1.0.0
+yank u5 pk08 1.0.0 reason=r84
+tag add u5 pk05 next 1.1.0
+clock advance 242m
+publish u6 pk06 2.0.1 size=5483
+publish u5 pk05 2.0.0 size=11503
+publish u6 pk19 1.0.0 size=5108
+fetch u3 pk05 ^1
+publish u4 pk00 1.4.0 size=3272
+yank u4 pk10 2.0.0 reason=r68
+publish u4 pk20 1.0.0 size=5738 deps=pk10@^1;pk14@^1
+publish u5 pk21 1.0.0 size=4221
+fetch u2 pk03 ^1
+info - pk18
+fetch u5 pk01 ^2
+lock u5 set239 pk10@* pk03@* pk20@*
+lock u8 set240 pk08@* pk19@* pk21@*
+top - releases n=4
+fetch u4 pk00 ^1
+fetch - pk08
+lock u2 set244 pk15@* pk06@* pk14@*
+tag add u4 pk20 next 1.0.0
+fetch u8 pk08 ^1
+fetch u5 pk20 ^1
+owner invite u1 pk04 u3
+owner accept u3 pk04
+top - releases n=7
+info - pk01
+fetch - pk15
+clock advance 72m
+publish u8 pk02 1.5.2 size=10732
+fetch u3 pk12 ^1
+yank u8 pk02 1.0.0 reason=r50
+owner invite u6 pk13 u8
+owner accept u8 pk13
+info - pk06
+publish u6 pk19 2.0.0 size=4687
+fetch u8 pk07 ^1
+publish u1 pk22 1.0.0 size=7226 deps=pk18@^1
+publish u7 pk12 1.0.2 size=4767
+yank u1 pk22 1.0.0 reason=r99
+fetch u4 pk13 ^1
+info - pk15
+tag add u1 pk22 next 1.0.0
+top - downloads n=6
+resolve - pk16 ~1.1
+fetch u3 pk10 ^1
+publish u1 pk15 1.1.0 size=8065
+quota u8
+fetch u1 pk08 ^1
+info - pk04
+publish u4 pk20 1.1.0 size=10611
+resolve - pk12 ~1.0
+fetch - pk19
+fetch u6 pk13 ^1
+yank u7 pk16 1.0.0 reason=r96
+publish u4 pk00 1.4.1 size=9853
+yank u4 pk20 1.0.0 reason=r62
+publish u1 pk15 1.2.0 size=6674
+fetch u8 pk05 ^1
+tag add u6 pk19 next 1.0.0
+fetch - pk08
+fetch - pk08
+fetch u2 pk10 ^1
+top - downloads n=6
+publish u7 pk12 1.0.3 size=8772
+fetch - pk06
+publish u8 pk23 1.0.0 size=868
+fetch u8 pk07 ^1
+publish u2 pk14 1.0.4 size=9436
+publish u4 pk20 1.1.1 size=10523
+top - releases n=5
+fetch u1 pk14 ^1
+fetch u8 pk06 ^1
+fetch u8 pk18 ^1
+fetch u5 pk05 ^1
+fetch u2 pk01 ^1
+publish u7 pk12 1.1.0 size=11865
+resolve - pk16 ~1.1
+lock u7 set303 pk20@* pk15@* pk10@*
+publish u3 pk04 2.1.0 size=8588
+publish u7 pk06 2.0.2 size=2370
+resolve - pk16 ~1.0
+lock u2 set307 pk00@* pk13@* pk01@*
+fetch u2 pk08 ^2
+fetch u3 pk13 ^1
+fetch - pk19 ^2
+clock advance 390m
+tag add u1 pk18 next 1.0.0
+tag add u4 pk11 next 1.1.0
+fetch - pk07
+publish u4 pk20 1.2.0 size=7251
+publish u8 pk15 1.2.1 size=11008
+tag add u7 pk16 next 1.0.0
+publish u6 pk17 1.1.0 size=4598
+top - downloads n=6
+fetch u4 pk02 ^1
+lock u1 set321 pk13@* pk16@* pk07@*
+owner invite u4 pk11 u1
+owner accept u1 pk11
+fetch u1 pk14 ^1
+yank u5 pk21 1.0.0 reason=r95
+fetch u1 pk08 ^2
+owner invite u5 pk08 u6
+owner accept u6 pk08
+clock advance 69m
+publish u5 pk05 2.1.0 size=9348
+fetch - pk08 ^2
+publish u6 pk17 1.2.0 size=6115
+fetch u5 pk05 ^2
+publish u5 pk03 2.2.0 size=2900
+fetch - pk19
+tag add u1 pk22 next 1.0.0
+fetch u6 pk12 ^1
+tag add u6 pk06 next 1.0.2
+yank u1 pk00 1.4.1 reason=r5
+unyank u5 pk08 1.0.0
+fetch - pk03
+fetch - pk10
+resolve - pk18 ~2.1
+fetch u7 pk12 ^1
+fetch u6 pk15 ^1
+owner invite u7 pk16 u4
+owner accept u4 pk16
+fetch u8 pk08 ^2
+yank u7 pk03 2.0.0 reason=r12
+publish u8 pk23 2.0.0 size=3417
+fetch - pk11
+fetch u2 pk03 ^2
+yank u6 pk06 2.0.1 reason=r42
+publish u5 pk03 2.2.1 size=7375
+fetch u1 pk20 ^1
+fetch - pk12 ^1
+fetch - pk19
+fetch - pk19 ^1
+fetch u3 pk09 ^1
+fetch u3 pk18 ^2
+fetch - pk14
+tag add u1 pk00 next 1.2.0
+top - releases n=3
+clock advance 558m
+fetch - pk19
+yank u4 pk01 2.0.1 reason=r89
+fetch u3 pk02 ^1
+top - releases n=3
+clock advance 446m
+lock u8 set370 pk13@* pk16@* pk09@*
+lock u1 set371 pk15@* pk13@* pk19@*
+fetch - pk17
+clock advance 348m
+unyank u1 pk22 1.0.0
+publish u4 pk01 2.1.0 size=6703
+publish u8 pk23 2.1.0 size=10908
+publish u5 pk21 1.1.0 size=11309
+fetch u3 pk09 ^2
+publish u1 pk11 1.1.1 size=4637
+yank u4 pk20 1.2.0 reason=r23
+publish u3 pk04 2.1.1 size=10898
+fetch u2 pk05 ^1
+publish u7 pk07 2.0.0 size=9827
+fetch u4 pk09 ^2
+publish u6 pk13 1.1.0 size=6442
+clock advance 171m
+publish u4 pk10 2.1.0 size=220
+fetch u8 pk01 ^2
+publish u5 pk05 2.1.1 size=2918
+publish u4 pk01 2.2.0 size=493
+fetch u7 pk06 ^2
+owner invite u7 pk12 u1
+owner accept u1 pk12
+fetch u5 pk05 ^1
+fetch - pk12
+resolve - pk11 ~1.1
+fetch u4 pk14 ^1
+publish u4 pk10 2.1.1 size=6300
+publish u6 pk17 1.2.1 size=147
+fetch - pk04
+fetch - pk00 ^1
+fetch u3 pk15 ^1
+fetch u4 pk20 ^1
+unyank u4 pk10 2.0.0
+top - dependents n=4
+publish u7 pk03 2.2.2 size=10478
+publish u1 pk18 2.1.2 size=8776
+owner invite u1 pk22 u2
+owner accept u2 pk22
+owner invite u1 pk15 u4
+owner accept u4 pk15
+clock advance 381m
+yank u7 pk07 1.2.0 reason=r1
+clock advance 366m
+top - dependents n=6
+fetch u6 pk17 ^1
+fetch u8 pk15 ^1
+top - releases n=3
+clock advance 64m
+fetch u5 pk07 ^1
+publish u3 pk11 1.2.0 size=1548
+clock advance 537m
+info - pk20
+top - releases n=5
+publish u8 pk23 2.2.0 size=8665
+publish u2 pk09 2.0.1 size=4945
+owner invite u1 pk15 u7
+owner accept u7 pk15
+yank u5 pk05 1.0.0 reason=r47
+resolve - pk16 ~1.1
+fetch u6 pk08 ^2
+info - pk05
+clock advance 225m
+fetch - pk23
+publish u2 pk14 1.1.0 size=1265
+fetch - pk13 ^1
+fetch u1 pk11 ^1
+publish u7 pk15 1.2.2 size=8233
+publish u5 pk21 2.0.0 size=8956
+fetch u4 pk19 ^2
+quota u7
+tag add u6 pk17 next 1.1.0
+tag add u1 pk00 next 1.2.0
+yank u5 pk05 1.1.0 reason=r61
+owner invite u8 pk23 u2
+owner accept u2 pk23
+publish u4 pk01 2.2.1 size=10829
+publish u7 pk07 2.0.1 size=4361
+fetch u5 pk00 ^1
+fetch u2 pk16 ^1
+publish u8 pk13 1.1.1 size=5177
+top - downloads n=4
+publish u5 pk08 2.1.0 size=6745
+fetch - pk18 ^2
+fetch u3 pk16 ^1
+top - downloads n=6
+fetch u3 pk05 ^1
+publish u4 pk20 1.3.0 size=11267
+fetch - pk14 ^1
+owner invite u5 pk03 u8
+owner accept u8 pk03
+publish u2 pk09 2.1.0 size=4937
+fetch u8 pk09 ^1
+quota u6
+fetch u3 pk10 ^2
+publish u7 pk07 2.1.0 size=6551
+tag add u7 pk16 next 1.0.0
+fetch - pk04 ^2
+owner invite u1 pk04 u8
+owner accept u8 pk04
+fetch u4 pk16 ^1
+fetch u5 pk11 ^1
+tag add u5 pk03 next 1.0.1
+owner invite u1 pk22 u3
+owner accept u3 pk22
+top - downloads n=4
+fetch - pk07
+yank u7 pk12 1.0.1 reason=r34
+publish u8 pk02 1.6.0 size=2235
+lock u4 set480 pk23@* pk05@* pk08@*
+resolve - pk11 ~1.1
+top - dependents n=5
+owner invite u1 pk00 u7
+owner accept u7 pk00
+fetch u8 pk11 ^1
+tag add u6 pk17 next 1.0.0
+publish u1 pk12 1.1.1 size=144
+top - dependents n=5
+yank u7 pk12 1.0.0 reason=r46
+unyank u1 pk18 1.0.0
+lock u4 set491 pk13@* pk12@* pk19@*
+clock advance 358m
+top - dependents n=3
+fetch - pk05
+yank u7 pk12 1.0.3 reason=r74
+fetch - pk21 ^2
+yank u7 pk06 2.0.2 reason=r50
+publish u5 pk21 2.0.1 size=6108
+publish u5 pk21 3.0.0 size=7913
+publish u6 pk17 2.0.0 size=11590
+top - dependents n=6
+clock advance 420m
+fetch u7 pk07 ^1
+publish u5 pk21 3.0.1 size=11062
+clock advance 535m
+fetch - pk12 ^1
+top - downloads n=8
+fetch u7 pk04 ^2
+fetch u3 pk22 ^1
+info - pk05
+fetch u6 pk13 ^1
+publish u7 pk06 2.1.0 size=3323
+lock u7 set513 pk13@* pk07@* pk10@*
+fetch u6 pk02 ^1
+publish u8 pk13 1.2.0 size=595
+info - pk04
+top - dependents n=8
+clock advance 476m
+fetch - pk22 ^1
+publish u2 pk22 1.0.1 size=7292
+fetch u8 pk06 ^2
+fetch u7 pk12 ^1
+fetch u7 pk10 ^2
+tag add u5 pk05 next 2.1.1
+publish u1 pk00 1.5.0 size=1208
+tag add u1 pk18 next 2.1.2
+fetch u8 pk18 ^2
+publish u6 pk13 1.2.1 size=11259
+lock u4 set529 pk04@* pk22@* pk05@*
+fetch u6 pk16 ^1
+yank u6 pk17 1.2.0 reason=r91
+fetch u5 pk07 ^1
+yank u8 pk13 1.0.1 reason=r69
+tag add u6 pk06 next 1.2.0
+publish u4 pk20 2.0.0 size=11152
+fetch u2 pk18 ^2
+fetch u4 pk03 ^2
+fetch u8 pk00 ^1
+fetch - pk00
+top - dependents n=5
+publish u1 pk12 1.2.0 size=11697
+publish u5 pk03 2.2.3 size=11232
+owner invite u6 pk13 u5
+owner accept u5 pk13
+fetch - pk18
+lock u2 set546 pk12@* pk19@* pk21@*
+publish u5 pk13 1.2.2 size=4955
+clock advance 246m
+yank u1 pk22 1.0.0 reason=r82
+publish u2 pk14 2.0.0 size=2233
+fetch u1 pk10 ^2
+lock u2 set552 pk23@* pk01@* pk20@*
+fetch - pk12
+fetch u2 pk01 ^2
+publish u8 pk23 2.2.1 size=7556
+publish u1 pk22 2.0.0 size=1975
+publish u1 pk18 2.1.3 size=4115
+top - dependents n=8
+fetch u6 pk23 ^2
+owner invite u7 pk07 u4
+owner accept u4 pk07
+publish u6 pk06 2.1.1 size=8860
+fetch u5 pk15 ^1
+top - releases n=8
+owner invite u3 pk02 u1
+owner accept u1 pk02
+fetch u6 pk23 ^2
+publish u7 pk15 1.2.3 size=11561
+info - pk23
+unyank u7 pk16 1.0.0
+yank u4 pk11 1.1.0 reason=r49
+yank u3 pk11 1.2.0 reason=r39
+fetch u6 pk20 ^1
+fetch u4 pk13 ^1
+yank u1 pk04 1.0.0 reason=r24
+fetch u4 pk03 ^2
+publish u7 pk12 1.2.1 size=4128
+publish u4 pk16 2.0.0 size=2324
+fetch u3 pk17 ^1
+publish u2 pk14 2.0.1 size=5680
+fetch u1 pk11 ^1
+fetch u1 pk07 ^1
+fetch u7 pk10 ^2
+tag add u4 pk10 next 2.1.1
+quota u5
+resolve - pk03 ~2.2
+owner invite u1 pk15 u5
+owner accept u5 pk15
+clock advance 438m
+publish u5 pk13 1.3.0 size=5393
+resolve - pk23 ~2.0
+fetch u7 pk10 ^2
+fetch u2 pk07 ^1
+fetch - pk06
+owner invite u6 pk19 u2
+owner accept u2 pk19
+fetch - pk15 ^1
+publish u6 pk17 2.1.0 size=804
+publish u8 pk15 1.3.0 size=6079
+top - dependents n=5
+publish u1 pk18 2.1.4 size=11305
+publish u1 pk02 1.6.1 size=8485
+fetch - pk00
+fetch - pk03
+fetch - pk12 ^1
+fetch u5 pk05 ^1
+yank u4 pk00 1.0.0 reason=r83
+publish u4 pk16 2.0.1 size=5700
+publish u5 pk03 2.3.0 size=4458
+publish u4 pk00 1.5.1 size=11342
+publish u6 pk08 2.1.1 size=359
+resolve - pk13 ~1.1
+tag add u6 pk19 next 1.0.0
+yank u7 pk07 1.3.0 reason=r63
+publish u1 pk18 2.1.5 size=8677
+publish u2 pk14 2.1.0 size=9559
+publish u2 pk23 2.2.2 size=7041
+unyank u4 pk11 1.2.0
+fetch u6 pk11 ^1
+publish u7 pk16 3.0.0 size=8353
+publish u4 pk20 3.0.0 size=8642
+fetch - pk07 ^2
+resolve - pk11 ~1.1
+publish u8 pk23 2.3.0 size=7530
+fetch - pk16 ^3
+publish u1 pk18 2.2.0 size=11267
+quota u5
+info - pk21
+fetch u4 pk07 ^1
+owner invite u3 pk02 u5
+owner accept u5 pk02
+fetch - pk05
+fetch u4 pk14 ^1
+yank u7 pk06 1.0.0 reason=r20
+publish u4 pk10 2.1.2 size=9590
+fetch u5 pk03 ^1
+publish u4 pk11 1.3.0 size=7005
+tag add u1 pk15 next 1.1.0
+resolve - pk20 ~1.3
+clock advance 89m
+fetch u6 pk01 ^2
+quota u2
+publish u7 pk16 3.1.0 size=8570
+fetch u7 pk23 ^2
+fetch u4 pk09 ^1
+resolve - pk08 ~2.1
+publish u7 pk07 2.2.0 size=2132
+fetch - pk01 ^2
+publish u5 pk03 2.4.0 size=133
+publish u4 pk20 3.1.0 size=10365
+yank u1 pk18 2.0.0 reason=r65
+publish u6 pk08 2.2.0 size=2046
+top - dependents n=6
+clock advance 536m
+publish u1 pk18 2.3.0 size=2194
+publish u3 pk02 1.6.2 size=3744
+publish u4 pk10 2.1.3 size=3102
+resolve - pk12 ~1.0
+fetch - pk04
+clock advance 11m
+publish u5 pk03 2.5.0 size=8576
+fetch u7 pk20 ^1
+publish u4 pk20 4.0.0 size=8897
+owner invite u4 pk10 u1
+owner accept u1 pk10
+publish u2 pk14 2.1.1 size=9389
+clock advance 555m
+publish u1 pk10 2.1.4 size=8947
+publish u5 pk08 2.2.1 size=257
+fetch u7 pk15 ^1
+publish u3 pk02 1.6.3 size=1613
+fetch u3 pk15 ^1
+publish u4 pk11 1.4.0 size=1909
+publish u4 pk01 2.2.2 size=8762
+publish u6 pk17 2.1.1 size=4955
+fetch u8 pk08 ^1
+fetch u6 pk01 ^2
+tag add u1 pk04 next 1.1.0
+clock advance 59m
+unyank u6 pk06 1.0.0
+clock advance 93m
+fetch - pk21
+publish u1 pk10 2.1.5 size=564
+clock advance 276m
+lock u5 set685 pk12@* pk19@* pk15@*
+publish u8 pk13 1.4.0 size=10836
+fetch u8 pk10 ^1
+fetch - pk04
+publish u3 pk04 2.1.2 size=11267
+publish u6 pk19 2.0.1 size=4527
+fetch - pk04
+publish u2 pk09 2.1.1 size=11425
+clock advance 490m
+publish u1 pk18 3.0.0 size=10967
+fetch u4 pk13 ^1
+fetch - pk20 ^1
+publish u8 pk15 1.3.1 size=6916
+clock advance 99m
+fetch u8 pk06 ^1
+info - pk12
+owner invite u4 pk10 u6
+owner accept u6 pk10
+publish u6 pk17 2.1.2 size=5895
+resolve - pk20 ~2.0
+quota u3
+fetch - pk06
+publish u7 pk00 1.6.0 size=10691
+publish u8 pk13 1.5.0 size=3389
+publish u2 pk23 2.4.0 size=9975
+fetch u2 pk04 ^2
+clock advance 574m
+quota u1
+fetch - pk19
+fetch - pk22
+fetch u5 pk04 ^2
+lock u4 set716 pk17@* pk14@* pk23@*
+unyank u3 pk02 1.0.0
+fetch u5 pk06 ^1
+yank u2 pk14 1.1.0 reason=r31
+fetch u2 pk12 ^1
+top - releases n=8
+fetch u4 pk04 ^1
+clock advance 561m
+quota u2
+info - pk01
+fetch u8 pk05 ^2
+tag add u1 pk18 next 2.1.1
+fetch - pk22 ^1
+lock u7 set729 pk18@* pk07@* pk19@*
+top - dependents n=8
+owner invite u4 pk20 u5
+owner accept u5 pk20
+publish u2 pk22 2.0.1 size=2261
+publish u6 pk06 2.2.0 size=9966
+top - downloads n=7
+fetch u6 pk20 ^1
+fetch u2 pk15 ^1
+fetch - pk02
+publish u6 pk19 2.0.2 size=7550
+lock u8 set740 pk13@* pk19@* pk18@*
+top - dependents n=5
+fetch u3 pk01 ^2
+top - releases n=6
+publish u5 pk20 4.1.0 size=576
+publish u2 pk09 2.2.0 size=5584
+fetch u4 pk22 ^2
+fetch u1 pk06 ^2
+fetch u1 pk19 ^1
+resolve - pk12 ~1.1
+tag add u7 pk12 next 1.2.0
+fetch u8 pk23 ^2
+clock advance 190m
+fetch u7 pk13 ^1
+fetch u2 pk04 ^1
+publish u7 pk16 4.0.0 size=374
+owner invite u1 pk00 u6
+owner accept u6 pk00
+fetch u8 pk12 ^1
+publish u1 pk02 1.6.4 size=2254
+tag add u2 pk14 next 1.1.0
+clock advance 499m
+fetch u5 pk19 ^2
+publish u3 pk02 1.7.0 size=10493
+fetch u3 pk20 ^4
+fetch - pk04
+owner invite u6 pk19 u8
+owner accept u8 pk19
+quota u8
+yank u6 pk08 2.2.0 reason=r83
+publish u4 pk15 1.4.0 size=8522
+resolve - pk01 ~1.0
+publish u1 pk18 3.1.0 size=11711
+fetch u2 pk20 ^3
+top - downloads n=3
+fetch - pk08 ^2
+fetch u8 pk04 ^2
+fetch u1 pk04 ^1
+info - pk16
+info - pk18
+info - pk16
+fetch u8 pk02 ^1
+publish u7 pk07 2.2.1 size=2802
+publish u7 pk00 1.7.0 size=7489
+quota u2
+publish u5 pk13 1.5.1 size=10681
+resolve - pk03 ~1.0
+publish u7 pk16 4.0.1 size=9068
+fetch - pk23 ^1
+tag add u1 pk00 next 1.1.0
+tag add u7 pk16 next 1.0.0
+fetch u2 pk16 ^3
+tag add u1 pk22 next 1.0.1
+resolve - pk05 ~1.2
+fetch - pk20
+fetch u3 pk16 ^4
+publish u1 pk18 3.1.1 size=2406
+fetch - pk22
+publish u1 pk04 2.1.3 size=7098
+resolve - pk03 ~2.3
+publish u6 pk06 2.2.1 size=1802
+publish u6 pk17 2.2.0 size=5111
+publish u6 pk08 2.2.2 size=9072
+publish u2 pk22 2.1.0 size=8538
+fetch - pk09
+tag add u7 pk12 next 1.1.1
+publish u4 pk20 4.2.0 size=8026
+publish u5 pk13 1.5.2 size=5018
+owner invite u6 pk06 u4
+owner accept u4 pk06
+publish u7 pk15 1.4.1 size=5279
+publish u7 pk00 1.7.1 size=11298
+publish u4 pk01 2.3.0 size=1120
+info - pk07
+fetch u8 pk13 ^1
+fetch u8 pk09 ^1
+clock advance 498m
+publish u6 pk17 2.3.0 size=8309
+fetch - pk12 ^1
+unyank u4 pk10 1.0.0
+info - pk12
+fetch u8 pk13 ^1
+fetch - pk20
+fetch u2 pk21 ^3
+publish u4 pk11 2.0.0 size=2003
+yank u4 pk06 2.2.1 reason=r86
+fetch u7 pk00 ^1
+publish u7 pk00 1.8.0 size=821
+yank u3 pk11 1.1.1 reason=r48
+clock advance 476m
+fetch u8 pk16 ^3
+resolve - pk13 ~1.5
+fetch u5 pk13 ^1
+lock u4 set833 pk22@* pk12@* pk23@*
+publish u7 pk06 2.3.0 size=1017
+fetch - pk21 ^1
+fetch u2 pk03 ^2
+fetch u7 pk03 ^1
+resolve - pk02 ~1.3
+tag add u7 pk12 next 1.0.1
+clock advance 253m
+resolve - pk21 ~2.0
+publish u6 pk19 2.0.3 size=5158
+fetch u4 pk20 ^4
+publish u5 pk05 2.2.0 size=535
+quota u3
+fetch u1 pk17 ^2
+resolve - pk09 ~2.0
+publish u8 pk23 2.5.0 size=2785
+publish u6 pk06 2.4.0 size=4610
+fetch u5 pk11 ^1
+publish u1 pk18 3.2.0 size=1231
+publish u1 pk04 2.2.0 size=9911
+fetch u6 pk06 ^2
+fetch u4 pk00 ^1
+publish u5 pk21 3.1.0 size=296
+fetch u6 pk01 ^2
+fetch u5 pk18 ^2
+fetch u7 pk04 ^2
+yank u5 pk03 2.2.1 reason=r66
+clock advance 104m
+fetch u1 pk14 ^1
+fetch u8 pk14 ^2
+publish u4 pk06 2.5.0 size=3364
+info - pk06
+info - pk15
+publish u5 pk20 4.3.0 size=3805
+resolve - pk02 ~1.6
+clock advance 73m
+top - releases n=3
+fetch u3 pk13 ^1
+resolve - pk11 ~1.1
+fetch u4 pk13 ^1
+fetch u7 pk00 ^1
+publish u8 pk23 2.5.1 size=3779
+fetch u3 pk04 ^1
+fetch u3 pk22 ^2
+fetch u7 pk00 ^1
+resolve - pk15 ~1.4
+quota u1
+fetch u1 pk08 ^2
+fetch u8 pk10 ^2
+top - downloads n=7
+quota u8
+publish u7 pk07 2.2.2 size=2810
+fetch u5 pk14 ^2
+tag add u5 pk21 next 2.0.0
+fetch - pk06
+fetch - pk01
+fetch u4 pk08 ^2
+clock advance 459m
+fetch - pk14 ^2
+fetch - pk11
+clock advance 155m
+lock u8 set894 pk15@* pk18@* pk12@*
+publish u4 pk20 4.4.0 size=10728
+publish u2 pk09 2.2.1 size=91
+fetch - pk10 ^2
+resolve - pk20 ~3.0
+publish u5 pk05 2.2.1 size=4756
+lock u7 set900 pk11@* pk02@* pk10@*
+fetch - pk21 ^3
+tag add u3 pk02 next 1.4.0
+fetch - pk13 ^1
+publish u1 pk04 2.2.1 size=3951
+fetch - pk23
+fetch u4 pk21 ^3
+top - downloads n=4
+publish u3 pk02 1.7.1 size=1354
+publish u7 pk07 2.2.3 size=11935
+yank u4 pk01 2.2.2 reason=r6
+fetch u7 pk06 ^1
+publish u5 pk21 3.2.0 size=9012
+fetch - pk08
+quota u8
+fetch - pk08
+fetch u8 pk18 ^2
+tag add u2 pk14 next 1.1.0
+clock advance 412m
+publish u3 pk04 2.2.2 size=6571
+quota u8
+fetch - pk05
+publish u5 pk20 4.4.1 size=2377
+tag add u4 pk10 next 2.1.3
+publish u4 pk01 2.4.0 size=579
+publish u3 pk04 2.3.0 size=174
+fetch - pk08
+fetch u3 pk14 ^2
+fetch - pk03
+unyank u1 pk00 1.0.0
+lock u4 set930 pk08@* pk01@* pk11@*
+publish u7 pk15 1.4.2 size=7358
+publish u4 pk01 3.0.0 size=6133
+clock advance 358m
+publish u6 pk08 2.2.3 size=6443
+fetch - pk04
+tag add u1 pk18 next 2.0.0
+resolve - pk22 ~1.0
+fetch u8 pk09 ^1
+owner invite u2 pk14 u1
+owner accept u1 pk14
+owner invite u5 pk08 u3
+owner accept u3 pk08
+unyank u4 pk11 1.1.1
+fetch - pk11
+fetch - pk01 ^2
+fetch u1 pk14 ^1
+fetch - pk11
+fetch - pk08 ^2
+fetch - pk11
+fetch u1 pk20 ^3
+publish u4 pk10 2.1.6 size=102
+quota u1
+fetch u4 pk12 ^1
+yank u7 pk07 2.0.1 reason=r63
+lock u1 set955 pk13@* pk06@* pk14@*
+fetch u7 pk05 ^1
+publish u8 pk04 2.3.1 size=10569
+top - releases n=5
+yank u8 pk02 1.1.0 reason=r96
+tag add u2 pk09 next 2.2.1
+yank u7 pk15 1.4.1 reason=r97
+fetch u1 pk13 ^1
+fetch - pk00
+resolve - pk17 ~2.3
+publish u1 pk00 1.8.1 size=1939
+fetch - pk07
+tag add u7 pk12 next 1.0.1
+publish u1 pk18 3.2.1 size=7959
+publish u6 pk19 2.1.0 size=5875
+fetch u6 pk18 ^3
+fetch u3 pk21 ^3
+publish u8 pk23 2.6.0 size=1862
+fetch u7 pk09 ^1
+clock advance 39m
+unyank u7 pk12 1.0.1
+fetch u3 pk22 ^2
+fetch u5 pk04 ^2
+resolve - pk22 ~1.0
+publish u2 pk19 2.1.1 size=7001
+quota u5
+fetch u7 pk14 ^1
+publish u4 pk01 3.1.0 size=5500
+tag add u1 pk22 next 2.0.0
+info - pk19
+publish u4 pk06 2.6.0 size=502
+fetch - pk10 ^2
+publish u7 pk00 1.9.0 size=8588
+fetch u1 pk12 ^1
+fetch u1 pk07 ^2
+publish u6 pk17 2.3.1 size=5796
+tag add u4 pk20 next 4.1.0
+owner invite u6 pk17 u7
+owner accept u7 pk17
+fetch - pk17
+tag add u6 pk17 next 2.1.1
+publish u5 pk21 3.3.0 size=2178
+fetch u1 pk14 ^2
+publish u1 pk12 1.2.2 size=2041
+tag add u7 pk07 next 2.2.2
+publish u7 pk15 1.5.0 size=2265
+fetch - pk13
+lock u5 set1002 pk00@* pk16@* pk12@*
+publish u7 pk00 1.10.0 size=7907
+tag add u4 pk10 next 2.0.0
+fetch - pk03
+top - releases n=5
+yank u4 pk01 2.2.0 reason=r85
+fetch u1 pk02 ^1
+fetch u3 pk02 ^1
+publish u6 pk10 2.1.7 size=11354
+quota u2
+fetch - pk13
+lock u5 set1013 pk06@* pk16@* pk21@*
+publish u6 pk19 2.1.2 size=365
+clock advance 504m
+publish u8 pk13 1.5.3 size=10748
+resolve - pk19 ~2.0
+tag add u7 pk07 next 2.2.1
+fetch u8 pk04 ^2
+fetch - pk17
+top - dependents n=3
+fetch u4 pk03 ^2
+owner invite u6 pk19 u7
+owner accept u7 pk19
+publish u2 pk09 2.2.2 size=6851
+fetch - pk07
+fetch u7 pk16 ^3
+publish u1 pk00 1.11.0 size=10922
+fetch u3 pk21 ^3
+fetch - pk21
+fetch u1 pk02 ^1
+publish u8 pk03 2.5.1 size=6014
+fetch u5 pk21 ^1
+publish u6 pk00 1.11.1 size=6801
+publish u4 pk07 2.3.0 size=1885
+publish u5 pk05 2.2.2 size=7859
+publish u1 pk10 2.1.8 size=4195
+publish u5 pk02 1.7.2 size=8300
+fetch u7 pk20 ^2
+publish u1 pk18 3.2.2 size=903
+fetch u2 pk21 ^3
+fetch - pk07
+fetch - pk10
+publish u5 pk02 1.7.3 size=3583
+publish u1 pk18 3.2.3 size=11869
+fetch - pk23 ^2
+fetch u8 pk04 ^2
+fetch u1 pk17 ^2
+clock advance 380m
+yank u3 pk22 2.0.1 reason=r93
+fetch u1 pk08 ^1
+resolve - pk15 ~1.4
+yank u3 pk08 2.2.1 reason=r63
+publish u4 pk01 3.1.1 size=7147
+fetch u2 pk01 ^1
+fetch - pk20
+lock u1 set1057 pk18@* pk02@* pk19@*
+publish u6 pk10 2.1.9 size=3835
+fetch u6 pk21 ^2
+owner invite u6 pk13 u3
+owner accept u3 pk13
+resolve - pk02 ~1.4
+fetch u1 pk07 ^2
+fetch u3 pk09 ^1
+publish u5 pk15 1.5.1 size=2559
+fetch u5 pk19 ^2
+yank u2 pk09 1.0.0 reason=r12
+publish u7 pk19 3.0.0 size=9074
+tag add u1 pk22 next 2.0.0
+publish u1 pk14 2.2.0 size=5269
+tag add u5 pk05 next 1.1.0
+publish u5 pk05 2.2.3 size=4782
+quota u5
+publish u1 pk02 1.7.4 size=11569
+resolve - pk14 ~1.0
+fetch u5 pk19 ^2
+publish u1 pk14 2.3.0 size=9968
+fetch u8 pk11 ^1
+fetch u7 pk22 ^1
+tag add u4 pk11 next 1.0.0
+fetch - pk20
+publish u7 pk07 3.0.0 size=8601
+fetch u2 pk21 ^3
+fetch u4 pk21 ^2
+lock u6 set1085 pk18@* pk17@* pk09@*
+fetch - pk20
+publish u1 pk14 2.4.0 size=5631
+publish u5 pk21 4.0.0 size=3138
+fetch - pk15
+publish u4 pk01 3.2.0 size=8525
+publish u7 pk06 2.6.1 size=11250
+lock u5 set1092 pk21@* pk12@* pk18@*
+yank u6 pk08 2.1.0 reason=r18
+lock u4 set1094 pk17@* pk10@* pk03@*
+publish u5 pk21 4.1.0 size=5262
+tag add u1 pk15 next 1.5.1
+fetch u1 pk16 ^3
+publish u5 pk20 4.5.0 size=11908
+clock advance 309m
+yank u5 pk21 3.0.1 reason=r56
+publish u5 pk03 2.6.0 size=8066
+tag add u4 pk01 next 2.2.2
+tag add u4 pk01 next 2.0.1
+fetch u2 pk06 ^2
+fetch u5 pk04 ^2
+fetch u7 pk02 ^1
+publish u8 pk19 3.0.1 size=4199
+publish u5 pk05 2.3.0 size=9429
+fetch u7 pk20 ^4
+top - dependents n=7
+yank u7 pk07 1.1.0 reason=r6
+resolve - pk03 ~2.5
+tag add u7 pk16 next 3.1.0
+tag add u5 pk08 next 2.0.0
+fetch - pk05
+top - downloads n=6
+lock u6 set1117 pk06@* pk09@* pk18@*
+publish u1 pk15 2.0.0 size=10388
+fetch - pk04
+publish u5 pk05 2.4.0 size=444
+lock u7 set1121 pk16@* pk17@* pk13@*
+resolve - pk08 ~2.1
+publish u6 pk19 3.1.0 size=10383
+tag add u5 pk05 next 2.2.1
+publish u8 pk03 2.6.1 size=8476
+fetch - pk02 ^1
+publish u5 pk15 2.0.1 size=1313
+fetch u8 pk10 ^2
+info - pk08
+fetch - pk22
+fetch - pk09
+fetch u3 pk17 ^2
+fetch u2 pk09 ^2
+fetch u6 pk12 ^1
+fetch - pk21 ^1
+fetch u1 pk05 ^2
+fetch u7 pk20 ^2
+fetch u2 pk05 ^2
+top - releases n=5
+unyank u4 pk01 2.0.1
+publish u6 pk00 1.12.0 size=4832
+publish u5 pk21 4.1.1 size=2501
+yank u4 pk10 2.1.7 reason=r61
+fetch u4 pk19 ^1
+fetch u8 pk23 ^2
+fetch u7 pk14 ^1
+fetch - pk05
+publish u5 pk21 4.1.2 size=11976
+publish u7 pk15 2.1.0 size=11502
+info - pk22
+fetch u8 pk00 ^1
+fetch u5 pk07 ^2
+resolve - pk00 ~1.0
+fetch u1 pk11 ^1
+top - downloads n=3
+fetch - pk16
+yank u7 pk19 2.0.2 reason=r99
+publish u4 pk01 3.2.1 size=10063
+tag add u7 pk12 next 1.0.3
+publish u6 pk13 1.6.0 size=3587
+clock advance 585m
+fetch - pk05
+clock advance 19m
+fetch - pk15 ^1
+publish u4 pk16 4.1.0 size=8329
+publish u1 pk02 2.0.0 size=5051
+resolve - pk15 ~1.2
+fetch - pk23
+resolve - pk00 ~1.12
+fetch - pk12
+fetch - pk21 ^2
+fetch u1 pk22 ^1
+tag add u4 pk01 next 2.0.3
+publish u8 pk19 3.2.0 size=11920
+fetch u6 pk04 ^2
+publish u2 pk09 2.3.0 size=7353
+fetch u4 pk10 ^2
+tag add u2 pk14 next 2.0.0
+top - downloads n=7
+publish u4 pk07 3.1.0 size=5584
+publish u5 pk15 2.2.0 size=143
+publish u7 pk17 2.4.0 size=11029
+fetch u7 pk18 ^3
+owner invite u2 pk09 u7
+owner accept u7 pk09
+publish u4 pk00 1.12.1 size=9793
+fetch - pk14
+fetch u1 pk16 ^3
+quota u7
+fetch - pk22
+publish u4 pk00 1.12.2 size=4845
+tag add u3 pk02 next 1.5.1
+owner invite u4 pk10 u2
+owner accept u2 pk10
+fetch u8 pk03 ^1
+fetch u8 pk16 ^4
+publish u7 pk16 4.1.1 size=6932
+fetch - pk10
+fetch u4 pk17 ^2
+fetch u1 pk15 ^1
+fetch u5 pk12 ^1
+publish u1 pk04 2.3.2 size=11024
+publish u7 pk12 1.2.3 size=1201
+publish u2 pk22 2.1.1 size=6092
+publish u1 pk12 1.2.4 size=11755
+fetch u4 pk05 ^2
+fetch u5 pk21 ^3
+fetch u5 pk02 ^1
+yank u7 pk03 2.5.0 reason=r70
+fetch - pk09 ^2
+publish u8 pk03 2.6.2 size=7896
+lock u1 set1212 pk22@* pk16@* pk07@*
+publish u5 pk08 2.3.0 size=3755
+fetch - pk13
+tag add u1 pk18 next 3.0.0
+publish u1 pk15 2.3.0 size=8493
+yank u3 pk04 2.3.1 reason=r74
+resolve - pk00 ~1.1
+yank u5 pk21 3.2.0 reason=r8
+fetch u6 pk13 ^1
+info - pk03
+publish u6 pk17 2.5.0 size=1165
+lock u1 set1223 pk23@* pk00@* pk12@*
+fetch u7 pk12 ^1
+tag add u4 pk11 next 1.1.0
+fetch - pk19
+fetch u8 pk10 ^2
+fetch u8 pk23 ^2
+resolve - pk00 ~1.6
+publish u6 pk13 2.0.0 size=9188
+fetch - pk02
+fetch u3 pk03 ^2
+tag add u1 pk15 next 1.0.0
+lock u1 set1234 pk07@* pk23@* pk18@*
+clock advance 72m
+fetch - pk22 ^2
+fetch u2 pk16 ^2
+fetch u2 pk17 ^2
+fetch - pk19
+fetch - pk15
+fetch - pk15
+fetch u3 pk19 ^2
+publish u3 pk04 2.3.3 size=9789
+resolve - pk15 ~2.0
+fetch u5 pk11 ^1
+publish u8 pk23 2.6.1 size=6291
+unyank u4 pk20 1.0.0
+resolve - pk11 ~1.1
+publish u4 pk10 2.2.0 size=4915
+top - dependents n=7
+fetch u7 pk08 ^2
+lock u2 set1252 pk10@* pk07@* pk18@*
+fetch - pk12 ^1
+publish u3 pk22 2.2.0 size=2269
+publish u5 pk05 2.4.1 size=7585
+publish u4 pk20 4.5.1 size=3242
+publish u1 pk12 1.2.5 size=10205
+fetch u2 pk11 ^1
+owner invite u1 pk00 u5
+owner accept u5 pk00
+info - pk16
+resolve - pk20 ~1.1
+owner invite u1 pk18 u2
+owner accept u2 pk18
+publish u4 pk06 2.6.2 size=4195
+info - pk06
+fetch u2 pk08 ^1
+publish u3 pk22 2.2.1 size=4753
+clock advance 243m
+fetch u1 pk09 ^1
+publish u7 pk03 2.6.3 size=4195
+yank u1 pk12 1.2.5 reason=r45
+fetch u3 pk01 ^2
+fetch - pk04
+tag add u4 pk20 next 4.2.0
+quota u7
+fetch - pk08
+tag add u4 pk10 next 2.1.7
+yank u1 pk00 1.12.2 reason=r10
+fetch - pk04
+tag add u2 pk09 next 1.0.2
+clock advance 122m
+owner invite u4 pk10 u5
+owner accept u5 pk10
+fetch u7 pk05 ^2
+lock u8 set1286 pk02@* pk13@* pk05@*
+fetch u4 pk20 ^4
+publish u4 pk20 4.6.0 size=9180
+info - pk13
+fetch u6 pk18 ^1
+yank u4 pk01 3.0.0 reason=r81
+top - releases n=4
+lock u1 set1293 pk02@* pk16@* pk09@*
+fetch u1 pk07 ^2
+publish u7 pk12 1.2.6 size=5834
+fetch u7 pk01 ^3
+publish u4 pk01 3.2.2 size=2988
+publish u2 pk14 2.4.1 size=11942
+publish u5 pk10 2.2.1 size=8007
+publish u7 pk03 2.7.0 size=5790
+top - dependents n=3
+publish u5 pk21 4.2.0 size=7416
+publish u4 pk20 4.7.0 size=1136
+fetch u5 pk06 ^2
+owner invite u6 pk17 u8
+owner accept u8 pk17
+fetch u1 pk19 ^3
+yank u4 pk00 1.0.0 reason=r6
+quota u2
+fetch - pk22
+owner invite u4 pk11 u7
+owner accept u7 pk11
+publish u5 pk03 2.8.0 size=2802
+yank u2 pk19 2.0.1 reason=r48
+top - dependents n=8
+publish u3 pk02 2.1.0 size=5169
+publish u3 pk02 2.1.1 size=4684
+fetch u5 pk23 ^2
+publish u4 pk20 4.8.0 size=4884
+resolve - pk05 ~1.1
+lock u8 set1321 pk21@* pk05@* pk23@*
+fetch - pk17
+fetch u3 pk16 ^4
+fetch u5 pk07 ^3
+publish u7 pk17 2.6.0 size=5524
+publish u8 pk03 2.9.0 size=106
+fetch - pk18
+tag add u1 pk04 next 2.3.3
+fetch - pk08
+top - dependents n=4
+publish u3 pk04 2.4.0 size=132
+fetch u2 pk09 ^2
+top - releases n=5
+lock u8 set1334 pk14@* pk03@* pk07@*
+publish u4 pk20 4.8.1 size=6389
+fetch u8 pk15 ^1
+top - dependents n=6
+fetch u3 pk05 ^2
+yank u4 pk01 2.0.3 reason=r25
+fetch u1 pk18 ^3
+clock advance 256m
+top - downloads n=3
+fetch - pk20
+fetch u8 pk20 ^3
+top - dependents n=4
+fetch u2 pk15 ^1
+top - releases n=6
+lock u6 set1348 pk09@* pk13@* pk02@*
+lock u5 set1349 pk22@* pk14@* pk05@*
+yank u8 pk02 1.7.1 reason=r36
+resolve - pk03 ~2.6
+quota u3
+unyank u6 pk19 2.0.2
+tag add u8 pk23 next 1.0.0
+fetch u4 pk11 ^1
+tag add u5 pk21 next 4.2.0
+fetch u3 pk19 ^2
+fetch u8 pk14 ^2
+top - releases n=6
+top - downloads n=7
+clock advance 161m
+fetch - pk08
+fetch u5 pk14 ^2
+fetch u5 pk19 ^2
+fetch - pk22 ^2
+fetch - pk18
+fetch - pk01
+publish u7 pk16 4.1.2 size=6525
+owner invite u6 pk06 u8
+owner accept u8 pk06
+fetch u8 pk20 ^1
+fetch - pk02
+clock advance 270m
+fetch - pk05
+quota u7
+fetch u6 pk02 ^1
+clock advance 419m
+fetch u1 pk03 ^2
+publish u6 pk19 3.2.1 size=8579
+publish u5 pk05 2.5.0 size=5374
+fetch u7 pk04 ^2
+publish u6 pk06 2.7.0 size=10504
+yank u4 pk01 2.0.2 reason=r93
+fetch - pk08
+fetch u8 pk02 ^1
+lock u4 set1386 pk03@* pk13@* pk07@*
+publish u2 pk14 2.5.0 size=461
+publish u1 pk14 2.6.0 size=3395
+fetch - pk09
+publish u1 pk14 2.6.1 size=457
+publish u5 pk21 4.2.1 size=732
+publish u8 pk06 2.7.1 size=1097
+fetch u1 pk03 ^1
+quota u4
+fetch u5 pk07 ^2
+fetch u7 pk00 ^1
+publish u1 pk15 2.4.0 size=5625
+publish u2 pk23 2.6.2 size=8306
+owner invite u1 pk22 u4
+owner accept u4 pk22
+top - downloads n=7
+fetch - pk04
+publish u5 pk20 4.8.2 size=11748
+fetch u1 pk14 ^2
+fetch - pk12
+publish u4 pk01 3.3.0 size=4457
+fetch u7 pk18 ^2
+fetch - pk11 ^1
+publish u7 pk17 2.7.0 size=7043
+quota u8
+top - downloads n=4
+resolve - pk14 ~1.0
+publish u2 pk23 2.7.0 size=10503
+lock u8 set1414 pk15@* pk13@* pk21@*
+resolve - pk03 ~2.5
+fetch u5 pk12 ^1
+fetch u2 pk03 ^1
+info - pk21
+publish u7 pk07 3.1.1 size=6410
+info - pk19
+yank u5 pk20 4.6.0 reason=r22
+owner invite u1 pk04 u7
+owner accept u7 pk04
+fetch - pk16
+yank u2 pk23 1.0.0 reason=r26
+top - dependents n=6
+yank u4 pk00 1.7.1 reason=r89
+fetch - pk21 ^2
+info - pk06
+fetch - pk21
+owner invite u5 pk21 u1
+owner accept u1 pk21
+publish u5 pk13 2.0.1 size=9049
+fetch - pk22
+publish u4 pk07 3.1.2 size=124
+yank u4 pk01 3.1.0 reason=r35
+yank u2 pk14 1.0.1 reason=r13
+publish u5 pk13 2.0.2 size=6774
+fetch - pk06
+fetch - pk07
+resolve - pk08 ~2.0
+fetch u4 pk10 ^2
+publish u2 pk23 2.7.1 size=7438
+fetch u4 pk20 ^4
+publish u4 pk20 4.9.0 size=2194
+publish u4 pk01 3.3.1 size=4237
+fetch u8 pk10 ^2
+quota u8
+info - pk05
+publish u2 pk18 3.2.4 size=6860
+lock u7 set1451 pk23@* pk14@* pk21@*
+fetch u7 pk10 ^2
+fetch u6 pk20 ^4
+fetch u3 pk07 ^3
+fetch u8 pk11 ^1
+fetch u3 pk17 ^2
+publish u7 pk09 2.4.0 size=2056
+clock advance 544m
+publish u5 pk10 2.3.0 size=11004
+fetch u3 pk18 ^3
+publish u5 pk21 4.3.0 size=5773
+yank u6 pk13 1.5.3 reason=r8
+fetch u1 pk12 ^1
+resolve - pk06 ~2.7
+top - downloads n=5
+fetch - pk02 ^1
+lock u8 set1467 pk01@* pk08@* pk23@*
+publish u7 pk17 2.7.1 size=2588
+quota u5
+publish u4 pk20 4.10.0 size=1268
+fetch - pk00 ^1
+tag add u5 pk08 next 2.2.1
+fetch u2 pk23 ^2
+lock u6 set1474 pk15@* pk08@* pk03@*
+fetch - pk04
+resolve - pk18 ~2.1
+info - pk17
+fetch u5 pk04 ^1
+fetch - pk21 ^4
+tag add u1 pk00 next 1.7.0
+fetch - pk18 ^3
+fetch - pk17
+fetch u6 pk03 ^2
+fetch u4 pk09 ^1
+clock advance 363m
+publish u1 pk21 4.3.1 size=6312
+fetch u8 pk08 ^2
+fetch u4 pk21 ^4
+quota u4
+publish u2 pk10 2.4.0 size=816
+tag add u7 pk12 next 1.0.3
+publish u1 pk14 2.7.0 size=41
+yank u1 pk02 1.5.1 reason=r12
+top - releases n=6
+tag add u4 pk11 next 1.1.1
+fetch - pk04
+clock advance 299m
+quota u5
+fetch u2 pk15 ^1
+publish u7 pk06 2.7.2 size=3645
+publish u6 pk10 2.4.1 size=5900
+publish u1 pk18 4.0.0 size=8784
+publish u2 pk18 4.1.0 size=10449
+fetch u7 pk07 ^3
+fetch u4 pk19 ^2
+publish u5 pk05 2.5.1 size=3845
+owner invite u8 pk23 u7
+owner accept u7 pk23
+fetch u3 pk11 ^1
+fetch u8 pk12 ^1
+fetch u8 pk01 ^3
+publish u7 pk04 2.4.1 size=3053
+publish u8 pk13 2.1.0 size=534
+clock advance 464m
+fetch u2 pk18 ^3
+info - pk19
+publish u8 pk02 2.1.2 size=10469
+fetch - pk04
+publish u4 pk20 5.0.0 size=3384
+fetch u2 pk00 ^1
+yank u2 pk09 2.4.0 reason=r41
+quota u7
+fetch u2 pk07 ^2
+publish u2 pk14 3.0.0 size=6006
+tag add u1 pk00 next 1.3.1
+lock u6 set1526 pk19@* pk00@* pk09@*
+publish u6 pk06 2.7.3 size=8336
+resolve - pk06 ~2.1
+fetch u4 pk11 ^1
+fetch u8 pk18 ^2
+quota u1
+publish u3 pk22 2.3.0 size=5231
+fetch u8 pk23 ^2
+fetch u4 pk19 ^1
+yank u7 pk09 2.1.1 reason=r90
+clock advance 394m
+fetch u4 pk05 ^2
+publish u1 pk18 4.2.0 size=3185
+fetch u7 pk22 ^2
+clock advance 519m
+fetch - pk17
+resolve - pk20 ~1.0
+clock advance 425m
+fetch u5 pk09 ^2
+publish u4 pk00 2.0.0 size=1936
+publish u6 pk13 3.0.0 size=11881
+owner invite u4 pk01 u8
+owner accept u8 pk01
+top - releases n=3
+resolve - pk14 ~1.0
+fetch u8 pk03 ^2
+tag add u1 pk22 next 2.1.1
+publish u2 pk23 2.7.2 size=624
+publish u4 pk20 5.0.1 size=10363
+publish u4 pk22 3.0.0 size=2128
+lock u6 set1556 pk20@* pk11@* pk22@*
+unyank u5 pk21 3.2.0
+tag add u1 pk22 next 2.1.1
+publish u1 pk02 2.1.3 size=527
+owner invite u7 pk16 u5
+owner accept u5 pk16
+publish u1 pk11 2.0.1 size=8228
+tag add u6 pk19 next 3.0.1
+publish u6 pk13 3.0.1 size=7027
+lock u4 set1565 pk16@* pk05@* pk12@*
+fetch - pk15 ^2
+quota u3
+top - dependents n=4
+publish u2 pk23 2.7.3 size=10750
+fetch u4 pk05 ^2
+resolve - pk10 ~2.3
+resolve - pk23 ~2.0
+clock advance 589m
+yank u2 pk23 2.6.2 reason=r86
+publish u5 pk08 2.3.1 size=4524
+fetch u6 pk21 ^3
+yank u7 pk12 1.0.1 reason=r33
+resolve - pk20 ~4.0
+publish u8 pk03 2.9.1 size=6351
+fetch u6 pk15 ^2
+clock advance 341m
+publish u1 pk21 4.3.2 size=5465
+quota u5
+publish u1 pk21 4.3.3 size=4202
+fetch - pk15
+yank u6 pk00 1.11.0 reason=r81
+fetch u1 pk01 ^3
+fetch - pk17
+quota u1
+top - releases n=3
+fetch - pk01
+fetch - pk08
+fetch - pk20 ^1
+fetch u8 pk21 ^4
+publish u1 pk15 2.4.1 size=10593
+fetch - pk09
+fetch u4 pk04 ^2
+fetch - pk15
+fetch - pk22
+check
+audit n=15

@@ -1,0 +1,14 @@
+user add alice
+publish alice ver 1.9.0
+publish alice ver 1.10.0
+publish alice ver 1.10.0-rc.1
+publish alice ver 1.10.0-rc.10
+publish alice ver 1.10.0-rc.2
+publish alice ver 1.10.0-alpha
+publish alice ver 1.2.0
+info - ver
+tags - ver
+resolve - ver ^1
+resolve - ver >=1.10.0-rc.1
+resolve - ver >=1.10.0-rc.1,<1.10.0
+resolve - ver =1.10.0-alpha

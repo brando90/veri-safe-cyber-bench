@@ -1,0 +1,662 @@
+open s
+open t
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+deposit s 1
+journal
+deposit s 1
+journal
+show T0.127
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+transfer s t 0.01
+journal
+settle
+settle
+settle
+settle
+settle
+settle
+journal
+transfer s t 0.01
+journal
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+deposit t 1
+journal
+show T0.0
+show T0.511
+show T0.512
+reverse T0.5
+history s last=2
+batches last=2
+check

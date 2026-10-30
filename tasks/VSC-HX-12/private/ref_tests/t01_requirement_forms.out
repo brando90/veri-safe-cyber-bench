@@ -1,0 +1,23 @@
+user alice added
+published num 0.0.3 (0 KiB)
+published num 0.0.4 (0 KiB)
+published num 0.2.1 (0 KiB)
+published num 0.2.9 (0 KiB)
+published num 0.3.0 (0 KiB)
+published num 1.0.0 (0 KiB)
+published num 1.2.0 (0 KiB)
+published num 1.2.7 (0 KiB)
+published num 1.3.0 (0 KiB)
+published num 2.0.0 (0 KiB)
+num ^1.2 -> 1.3.0
+num ~1.2.0 -> 1.2.7
+num ~1 -> 1.3.0
+num >=1.0,<1.3 -> 1.2.7
+num * -> 2.0.0
+num =1.2.0 -> 1.2.0
+num ^0.2.1 -> 0.2.9
+num ^0.0.3 -> 0.0.3
+num 1 -> 1.3.0
+num >1.2.7,<=2.0.0 -> 2.0.0
+num <0.1 -> 0.0.4
+error: no version of num matches ^3

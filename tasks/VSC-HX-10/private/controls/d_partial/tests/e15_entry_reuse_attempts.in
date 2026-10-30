@@ -1,0 +1,43 @@
+open st velocity=1000
+deposit st 10
+clearing fail 2
+settle
+clock advance 30s
+clock advance 60s
+deposit st 1
+settle
+deposit st 1
+settle
+deposit st 1
+settle
+deposit st 1
+settle
+deposit st 1
+settle
+deposit st 1
+settle
+deposit st 1
+settle
+deposit st 1
+settle
+deposit st 1
+settle
+deposit st 1
+settle
+deposit st 1
+settle
+deposit st 1
+settle
+deposit st 1
+settle
+deposit st 1
+settle
+deposit st 1
+settle
+deposit st 2
+clearing fail 1
+settle
+batches last=3
+clock advance 30s
+batches last=2
+check

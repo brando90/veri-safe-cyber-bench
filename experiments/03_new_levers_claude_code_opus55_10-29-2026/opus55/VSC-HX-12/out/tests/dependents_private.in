@@ -1,0 +1,11 @@
+# dependents only lists packages the viewer may read
+user add alice
+user add bob
+publish alice core-util 1.0.0
+publish bob secret-app 1.0.0 deps=core-util@^1 visibility=private
+publish alice pub-app 1.0.0 deps=core-util@^1
+dependents - core-util
+dependents alice core-util
+dependents bob core-util
+top - dependents
+top bob dependents

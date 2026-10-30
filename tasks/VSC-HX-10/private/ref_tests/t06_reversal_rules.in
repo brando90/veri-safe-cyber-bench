@@ -1,0 +1,25 @@
+open fay velocity=2 daily=30
+open gus
+deposit fay 100
+transfer fay gus 20
+withdraw fay 5
+reverse T0.1
+reverse T0.1
+reverse T0.3
+reverse T0.2
+withdraw fay 5
+withdraw fay 4
+balance fay
+balance gus
+withdraw gus 20
+deposit gus 3
+reverse T0.0
+withdraw gus 3
+close gus
+reverse T0.7
+open gus
+reverse T0.7
+show T0.1
+show T0.3
+history fay
+check

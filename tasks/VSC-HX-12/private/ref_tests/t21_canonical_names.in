@@ -1,0 +1,10 @@
+user add alice
+user add bob
+publish alice My_Lib 1.0.0
+publish bob my-lib 1.1.0
+publish alice my.lib 1.1.0
+fetch - MY-LIB
+info - my__lib
+search - My.L
+roles - mY-lIb
+lock - n my_lib@^1

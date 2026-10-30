@@ -1,0 +1,18 @@
+# open accounts, move money, look at balances
+open alice
+open bob overdraft=20
+open carol daily=50
+deposit alice 120.50
+deposit bob 10
+transfer alice bob 20.25
+withdraw bob 35
+withdraw bob 1
+withdraw carol 5
+transfer alice carol 7.5
+balance alice
+balance bob
+accounts
+history alice
+show T0.2
+journal
+check

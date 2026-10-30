@@ -1,0 +1,13 @@
+user add alice
+user add bob
+publish alice lo 1.0.0
+owner remove alice lo alice
+owner invite alice lo bob role=owner
+owner accept bob lo
+owner remove bob lo alice
+owner remove bob lo bob
+owner invite bob lo bob role=reader
+owner accept bob lo
+roles - lo
+owner remove bob lo carol
+owner remove bob lo alice

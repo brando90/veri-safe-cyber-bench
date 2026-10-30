@@ -1,0 +1,11 @@
+user add alice
+user add bob
+publish alice parser 1.0.0
+publish alice parser 1.2.0
+resolve bob parser >=1.0,<
+fetch bob parser >=1.0,<
+fetch bob parser =1.2
+fetch bob parser 1.2.0.0
+lock bob l1 parser@=1.2
+fetch bob parser =1.2.0
+info - parser

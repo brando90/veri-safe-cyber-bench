@@ -1,0 +1,12 @@
+user add alice
+publish alice a 1.0.0
+publish alice a 1.5.0
+publish alice a 2.0.0
+publish alice b 1.0.0 deps=a@^1.2
+publish alice c 1.0.0 deps=a@^2
+publish alice d 1.0.0 deps=b@^1;a@>=1.0
+lock alice good d@^1
+lock alice bad b@* c@*
+lock alice pinned a@=1.0.0
+lock alice mixed d@* a@<1.6
+lock alice broken d@^1 b

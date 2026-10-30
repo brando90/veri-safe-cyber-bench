@@ -1,0 +1,12 @@
+open kim daily=20
+deposit kim 50 key=a1
+deposit kim 70 key=a1
+withdraw kim 30 key=w1
+withdraw kim 15 key=w1
+withdraw kim 15 key=w1
+withdraw kim 15 key=w2
+withdraw kim 5 key=w2
+withdraw kim 50 key=a1
+balance kim
+idem
+check

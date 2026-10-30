@@ -1,0 +1,16 @@
+user alice added
+user bob added
+published zeta 1.0.0 (2 KiB)
+published alpha 1.0.0 (2 KiB)
+published mid 1.0.0 (5 KiB)
+published beta 1.0.0 (2 KiB)
+top size:
+  1. mid 5 KiB
+  2. alpha 2 KiB
+  3. beta 2 KiB
+  4. zeta 2 KiB
+top releases:
+  1. alpha 1
+  2. beta 1
+  3. mid 1
+  4. zeta 1

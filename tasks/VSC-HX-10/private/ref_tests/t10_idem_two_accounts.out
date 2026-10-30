@@ -1,0 +1,12 @@
+open lea slot=0 gen=0
+open max slot=1 gen=0
+ok T0.0 deposit lea 10.00 balance=10.00
+ok T0.1 deposit max 10.00 balance=10.00
+replay T0.0
+ok T0.2 transfer lea->max 1.00 balance=9.00
+ok T0.3 transfer max->lea 1.00 balance=10.00
+replay T0.2
+replay T0.3
+lea balance=10.00 held=0.00 available=10.00 spent_today=1.00 debits_last_hour=1
+max balance=10.00 held=0.00 available=10.00 spent_today=1.00 debits_last_hour=1
+idem entries=4 capacity=64 evicted=0

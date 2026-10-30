@@ -1,0 +1,11 @@
+user alice added
+published tool 1.0.0 (1 KiB)
+published tool 1.1.0-rc.1 (1 KiB)
+clock 360000
+unpublished tool 1.1.0-rc.1
+error: tool 1.0.0 can no longer be unpublished (published at 0)
+error: tool 1.1.0-rc.1 was unpublished and cannot be reused
+published tool 1.1.0-rc.2 (0 KiB)
+package tool visibility=public latest=1.0.0 downloads=0 releases=2
+  1.0.0 1 KiB by=alice at=0
+  1.1.0-rc.2 0 B by=alice at=360000

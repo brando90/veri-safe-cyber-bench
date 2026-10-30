@@ -1,0 +1,20 @@
+user alice added
+user bob added
+user carol added
+published api-kit 2.0.0 (10 KiB)
+invited bob to api-kit as maintainer until 86400
+invited carol to api-kit as reader until 172800
+invite api-kit bob role=maintainer until=86400 by=alice
+invite api-kit carol role=reader until=172800 by=alice
+clock 3600
+bob is now maintainer of api-kit
+roles api-kit: alice=owner bob=maintainer
+published api-kit 2.1.0 (10 KiB)
+removed bob (maintainer) from api-kit
+error: bob may not publish to api-kit
+roles api-kit: alice=owner
+invite api-kit carol role=reader until=172800 by=alice
+carol is now reader of api-kit
+roles api-kit: alice=owner carol=reader
+user carol admin=no state=active roles=api-kit:reader
+quota bob used=10 KiB limit=10240 KiB

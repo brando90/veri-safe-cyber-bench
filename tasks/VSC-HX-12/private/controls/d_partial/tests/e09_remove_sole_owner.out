@@ -1,0 +1,10 @@
+user root added (admin)
+user alice added
+user bob added
+published solo 1.0.0 (0 KiB)
+invited bob to solo as maintainer until 86400
+bob is now maintainer of solo
+error: cannot remove the last owner of solo
+user alice admin=no state=active roles=solo:owner
+roles solo: alice=owner bob=maintainer
+check ok (3 users, 1 packages)

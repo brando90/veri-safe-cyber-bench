@@ -1,0 +1,4 @@
+user add alice
+publish alice parser 1.0.0
+fetch - parser ^1.x
+fetch - parser 1.0.0

@@ -1,0 +1,10 @@
+# a pre-release does not become latest when published
+user add alice
+publish alice parser 1.0.0 size=1KiB
+publish alice parser 2.0.0-rc.1 size=1KiB
+tags - parser
+fetch - parser
+info - parser
+search - pars
+publish alice parser 2.0.0 size=1KiB
+tags - parser

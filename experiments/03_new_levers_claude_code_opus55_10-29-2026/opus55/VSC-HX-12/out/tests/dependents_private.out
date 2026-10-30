@@ -1,0 +1,15 @@
+user alice added
+user bob added
+published core-util 1.0.0 (0 KiB)
+published secret-app 1.0.0 (0 KiB)
+published pub-app 1.0.0 (0 KiB)
+dependents core-util: pub-app
+dependents core-util: pub-app
+dependents core-util: pub-app secret-app
+top dependents:
+  1. core-util 1
+  2. pub-app 0
+top dependents:
+  1. core-util 2
+  2. pub-app 0
+  3. secret-app 0

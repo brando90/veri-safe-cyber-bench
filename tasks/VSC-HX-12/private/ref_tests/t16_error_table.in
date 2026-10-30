@@ -1,0 +1,30 @@
+user add alice
+user add Alice
+user add alice
+user add bob admin extra
+publish alice x-1 1.0.0 size=12q
+publish alice x-1 1.0.0 embargo=soon
+publish alice x-1 1.0.0 visibility=secret
+publish alice -bad 1.0.0
+publish alice registry 1.0.0
+publish alice x-1 01.0.0
+publish alice x-1 1.0.0 deps=nothing@^1
+publish alice x-1 1.0.0 deps=x-1@^1
+publish alice x-1 1.0.0 deps=junk
+publish alice x-1 1.0.0
+publish alice x-1 1.0.0
+unpublish alice x-1 1.0.0
+publish alice x-1 1.0.0
+publish alice x-2 1.0.0 deps=x-1@^1;X_1@^1
+yank alice x-1 9.9.9
+publish nobody x-1 2.0.0
+clock set 50
+clock set 10
+clock advance 1w
+publish alice x-1 2.0.0 size=1 size=2
+publish alice "x-1 2.0.0
+tag add alice x-1
+top - weird
+export audit xml
+quota set alice alice 5
+help nothing

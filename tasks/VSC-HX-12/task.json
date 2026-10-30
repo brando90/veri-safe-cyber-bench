@@ -1,0 +1,9 @@
+{
+  "id": "VSC-HX-12",
+  "split": "test",
+  "language": "python3.12",
+  "bug_class": "deviations from the code's own conventions with no documented rule: an actor looked up without the disabled check every other change command makes, a storage refund rounded down where charge, other refunds and the consistency check round up, the managed latest tag moved to a pre-release on publish while every recompute excludes pre-releases, a requirement parser result used unguarded where every other caller refuses with bad_req, a user removal skipping the last-owner refusal used by the other role paths and assumed by the consistency check, an invite deadline compared inline with '>' while the shared expiry helper and the invite listing use '>=', one ranking sorted with reversed name tie-break while the shared rank helper sorts ascending, an unpublish path removing a release without the shared helper that also drops its tags, a reverse-dependency listing without the visibility filter every other listing applies",
+  "summary": "crateyard, a toy package registry simulator (stdin command lines, logical clock, users with admin/disabled state, packages with owner/maintainer/reader roles, invites with lifetimes, releases with semantic versions, embargo, yank, deprecate, unpublish grace window, prune, distribution tags with a managed latest tag, requirement resolution and lockfiles, per-publisher storage quota in KiB, reports, audit log with TSV/CSV export, consistency check exiting 86). 31 Python modules, about 1,900 lines plus a README that documents commands only in general terms. Nine independent defects in 8 modules; the README states none of the rules they break, each is derivable only from the program's dominant convention (the same check or helper used in the other places, the consistency check, the error table). Six policy-table exceptions act as decoys.",
+  "K": 9,
+  "time_cap_min": 45
+}

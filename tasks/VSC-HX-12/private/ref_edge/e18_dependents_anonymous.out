@@ -1,0 +1,10 @@
+user alice added
+user bob added
+published json 2.0.0 (0 KiB)
+published json-schema 1.0.0 (0 KiB)
+invited bob to json-schema as reader until 86400
+bob is now reader of json-schema
+dependents json: none
+dependents json: json-schema
+json-schema is now public
+dependents json: json-schema

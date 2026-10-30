@@ -1,0 +1,20 @@
+open e
+deposit e 100
+clock set 500
+hold e 10 ttl=1s
+hold e 20 ttl=1d
+clock set 1000
+holds e
+clock set 1499
+clock set 1500
+holds e
+clock set 384s
+holds e
+clock set 1024s
+holds e
+clock set 86400499
+holds e
+clock set 86400500
+holds e
+balance e
+check

@@ -1,0 +1,7 @@
+open m
+deposit m 1000000000
+deposit m 0.01
+open n overdraft=1000000000
+balance n
+withdraw m 100
+check

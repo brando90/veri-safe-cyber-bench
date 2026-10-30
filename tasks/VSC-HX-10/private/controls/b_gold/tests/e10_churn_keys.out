@@ -1,0 +1,1410 @@
+open k000 slot=0 gen=0
+open k001 slot=1 gen=0
+open k002 slot=2 gen=0
+open k003 slot=3 gen=0
+open k004 slot=4 gen=0
+open k005 slot=5 gen=0
+open k006 slot=6 gen=0
+open k007 slot=7 gen=0
+open k008 slot=8 gen=0
+open k009 slot=9 gen=0
+open k010 slot=10 gen=0
+open k011 slot=11 gen=0
+open k012 slot=12 gen=0
+open k013 slot=13 gen=0
+open k014 slot=14 gen=0
+open k015 slot=15 gen=0
+open k016 slot=16 gen=0
+open k017 slot=17 gen=0
+open k018 slot=18 gen=0
+open k019 slot=19 gen=0
+open k020 slot=20 gen=0
+open k021 slot=21 gen=0
+open k022 slot=22 gen=0
+open k023 slot=23 gen=0
+open k024 slot=24 gen=0
+open k025 slot=25 gen=0
+open k026 slot=26 gen=0
+open k027 slot=27 gen=0
+open k028 slot=28 gen=0
+open k029 slot=29 gen=0
+open k030 slot=30 gen=0
+open k031 slot=31 gen=0
+open k032 slot=32 gen=0
+open k033 slot=33 gen=0
+open k034 slot=34 gen=0
+open k035 slot=35 gen=0
+open k036 slot=36 gen=0
+open k037 slot=37 gen=0
+open k038 slot=38 gen=0
+open k039 slot=39 gen=0
+open k040 slot=40 gen=0
+open k041 slot=41 gen=0
+open k042 slot=42 gen=0
+open k043 slot=43 gen=0
+open k044 slot=44 gen=0
+open k045 slot=45 gen=0
+open k046 slot=46 gen=0
+open k047 slot=47 gen=0
+open k048 slot=48 gen=0
+open k049 slot=49 gen=0
+open k050 slot=50 gen=0
+open k051 slot=51 gen=0
+open k052 slot=52 gen=0
+open k053 slot=53 gen=0
+open k054 slot=54 gen=0
+open k055 slot=55 gen=0
+open k056 slot=56 gen=0
+open k057 slot=57 gen=0
+open k058 slot=58 gen=0
+open k059 slot=59 gen=0
+open k060 slot=60 gen=0
+open k061 slot=61 gen=0
+open k062 slot=62 gen=0
+open k063 slot=63 gen=0
+open k064 slot=64 gen=0
+open k065 slot=65 gen=0
+open k066 slot=66 gen=0
+open k067 slot=67 gen=0
+open k068 slot=68 gen=0
+open k069 slot=69 gen=0
+open k070 slot=70 gen=0
+open k071 slot=71 gen=0
+open k072 slot=72 gen=0
+open k073 slot=73 gen=0
+open k074 slot=74 gen=0
+open k075 slot=75 gen=0
+open k076 slot=76 gen=0
+open k077 slot=77 gen=0
+open k078 slot=78 gen=0
+open k079 slot=79 gen=0
+open k080 slot=80 gen=0
+open k081 slot=81 gen=0
+open k082 slot=82 gen=0
+open k083 slot=83 gen=0
+open k084 slot=84 gen=0
+open k085 slot=85 gen=0
+open k086 slot=86 gen=0
+open k087 slot=87 gen=0
+open k088 slot=88 gen=0
+open k089 slot=89 gen=0
+open k090 slot=90 gen=0
+open k091 slot=91 gen=0
+open k092 slot=92 gen=0
+open k093 slot=93 gen=0
+open k094 slot=94 gen=0
+open k095 slot=95 gen=0
+open k096 slot=96 gen=0
+open k097 slot=97 gen=0
+open k098 slot=98 gen=0
+open k099 slot=99 gen=0
+open k100 slot=100 gen=0
+open k101 slot=101 gen=0
+open k102 slot=102 gen=0
+open k103 slot=103 gen=0
+open k104 slot=104 gen=0
+open k105 slot=105 gen=0
+open k106 slot=106 gen=0
+open k107 slot=107 gen=0
+open k108 slot=108 gen=0
+open k109 slot=109 gen=0
+open k110 slot=110 gen=0
+open k111 slot=111 gen=0
+open k112 slot=112 gen=0
+open k113 slot=113 gen=0
+open k114 slot=114 gen=0
+open k115 slot=115 gen=0
+open k116 slot=116 gen=0
+open k117 slot=117 gen=0
+open k118 slot=118 gen=0
+open k119 slot=119 gen=0
+open k120 slot=120 gen=0
+open k121 slot=121 gen=0
+open k122 slot=122 gen=0
+open k123 slot=123 gen=0
+open k124 slot=124 gen=0
+open k125 slot=125 gen=0
+open k126 slot=126 gen=0
+open k127 slot=127 gen=0
+open k128 slot=128 gen=0
+open k129 slot=129 gen=0
+open k130 slot=130 gen=0
+open k131 slot=131 gen=0
+open k132 slot=132 gen=0
+open k133 slot=133 gen=0
+open k134 slot=134 gen=0
+open k135 slot=135 gen=0
+open k136 slot=136 gen=0
+open k137 slot=137 gen=0
+open k138 slot=138 gen=0
+open k139 slot=139 gen=0
+open k140 slot=140 gen=0
+open k141 slot=141 gen=0
+open k142 slot=142 gen=0
+open k143 slot=143 gen=0
+open k144 slot=144 gen=0
+open k145 slot=145 gen=0
+open k146 slot=146 gen=0
+open k147 slot=147 gen=0
+open k148 slot=148 gen=0
+open k149 slot=149 gen=0
+open k150 slot=150 gen=0
+open k151 slot=151 gen=0
+open k152 slot=152 gen=0
+open k153 slot=153 gen=0
+open k154 slot=154 gen=0
+open k155 slot=155 gen=0
+open k156 slot=156 gen=0
+open k157 slot=157 gen=0
+open k158 slot=158 gen=0
+open k159 slot=159 gen=0
+open k160 slot=160 gen=0
+open k161 slot=161 gen=0
+open k162 slot=162 gen=0
+open k163 slot=163 gen=0
+open k164 slot=164 gen=0
+open k165 slot=165 gen=0
+open k166 slot=166 gen=0
+open k167 slot=167 gen=0
+open k168 slot=168 gen=0
+open k169 slot=169 gen=0
+open k170 slot=170 gen=0
+open k171 slot=171 gen=0
+open k172 slot=172 gen=0
+open k173 slot=173 gen=0
+open k174 slot=174 gen=0
+open k175 slot=175 gen=0
+open k176 slot=176 gen=0
+open k177 slot=177 gen=0
+open k178 slot=178 gen=0
+open k179 slot=179 gen=0
+open k180 slot=180 gen=0
+open k181 slot=181 gen=0
+open k182 slot=182 gen=0
+open k183 slot=183 gen=0
+open k184 slot=184 gen=0
+open k185 slot=185 gen=0
+open k186 slot=186 gen=0
+open k187 slot=187 gen=0
+open k188 slot=188 gen=0
+open k189 slot=189 gen=0
+open k190 slot=190 gen=0
+open k191 slot=191 gen=0
+open k192 slot=192 gen=0
+open k193 slot=193 gen=0
+open k194 slot=194 gen=0
+open k195 slot=195 gen=0
+open k196 slot=196 gen=0
+open k197 slot=197 gen=0
+open k198 slot=198 gen=0
+open k199 slot=199 gen=0
+open k200 slot=200 gen=0
+open k201 slot=201 gen=0
+open k202 slot=202 gen=0
+open k203 slot=203 gen=0
+open k204 slot=204 gen=0
+open k205 slot=205 gen=0
+open k206 slot=206 gen=0
+open k207 slot=207 gen=0
+open k208 slot=208 gen=0
+open k209 slot=209 gen=0
+open k210 slot=210 gen=0
+open k211 slot=211 gen=0
+open k212 slot=212 gen=0
+open k213 slot=213 gen=0
+open k214 slot=214 gen=0
+open k215 slot=215 gen=0
+open k216 slot=216 gen=0
+open k217 slot=217 gen=0
+open k218 slot=218 gen=0
+open k219 slot=219 gen=0
+open k220 slot=220 gen=0
+open k221 slot=221 gen=0
+open k222 slot=222 gen=0
+open k223 slot=223 gen=0
+open k224 slot=224 gen=0
+open k225 slot=225 gen=0
+open k226 slot=226 gen=0
+open k227 slot=227 gen=0
+open k228 slot=228 gen=0
+open k229 slot=229 gen=0
+open k230 slot=230 gen=0
+open k231 slot=231 gen=0
+open k232 slot=232 gen=0
+open k233 slot=233 gen=0
+open k234 slot=234 gen=0
+open k235 slot=235 gen=0
+open k236 slot=236 gen=0
+open k237 slot=237 gen=0
+open k238 slot=238 gen=0
+open k239 slot=239 gen=0
+open k240 slot=240 gen=0
+open k241 slot=241 gen=0
+open k242 slot=242 gen=0
+open k243 slot=243 gen=0
+open k244 slot=244 gen=0
+open k245 slot=245 gen=0
+open k246 slot=246 gen=0
+open k247 slot=247 gen=0
+open k248 slot=248 gen=0
+open k249 slot=249 gen=0
+open k250 slot=250 gen=0
+open k251 slot=251 gen=0
+open k252 slot=252 gen=0
+open k253 slot=253 gen=0
+open k254 slot=254 gen=0
+open k255 slot=255 gen=0
+ok T0.0 deposit k000 2.00 balance=2.00
+ok T0.1 withdraw k000 2.00 balance=0.00
+close k000 slot=0
+open j0001 slot=0 gen=1
+ok T0.2 deposit j0001 4.00 balance=4.00
+ok T0.3 deposit k001 2.00 balance=2.00
+ok T0.4 withdraw k001 2.00 balance=0.00
+close k001 slot=1
+open j0002 slot=1 gen=1
+ok T0.5 deposit j0002 9.00 balance=9.00
+ok T0.6 deposit k002 2.00 balance=2.00
+ok T0.7 withdraw k002 2.00 balance=0.00
+close k002 slot=2
+open j0003 slot=2 gen=1
+ok T0.8 deposit j0003 2.00 balance=2.00
+ok T0.9 deposit k003 2.00 balance=2.00
+ok T0.10 withdraw k003 2.00 balance=0.00
+close k003 slot=3
+open j0004 slot=3 gen=1
+ok T0.11 deposit j0004 7.00 balance=7.00
+ok T0.12 deposit k004 2.00 balance=2.00
+ok T0.13 withdraw k004 2.00 balance=0.00
+close k004 slot=4
+open j0005 slot=4 gen=1
+ok T0.14 deposit j0005 7.00 balance=7.00
+ok T0.15 deposit k005 2.00 balance=2.00
+ok T0.16 withdraw k005 2.00 balance=0.00
+close k005 slot=5
+open j0006 slot=5 gen=1
+ok T0.17 deposit j0006 7.00 balance=7.00
+ok T0.18 deposit k006 2.00 balance=2.00
+ok T0.19 withdraw k006 2.00 balance=0.00
+close k006 slot=6
+open j0007 slot=6 gen=1
+ok T0.20 deposit j0007 3.00 balance=3.00
+ok T0.21 deposit k007 2.00 balance=2.00
+ok T0.22 withdraw k007 2.00 balance=0.00
+close k007 slot=7
+open j0008 slot=7 gen=1
+ok T0.23 deposit j0008 3.00 balance=3.00
+ok T0.24 deposit k008 2.00 balance=2.00
+ok T0.25 withdraw k008 2.00 balance=0.00
+close k008 slot=8
+open j0009 slot=8 gen=1
+ok T0.26 deposit j0009 7.00 balance=7.00
+ok T0.27 deposit k009 2.00 balance=2.00
+ok T0.28 withdraw k009 2.00 balance=0.00
+close k009 slot=9
+open j0010 slot=9 gen=1
+ok T0.29 deposit j0010 4.00 balance=4.00
+ok T0.30 deposit k010 2.00 balance=2.00
+ok T0.31 withdraw k010 2.00 balance=0.00
+close k010 slot=10
+open j0011 slot=10 gen=1
+ok T0.32 deposit j0011 2.00 balance=2.00
+ok T0.33 deposit k011 2.00 balance=2.00
+ok T0.34 withdraw k011 2.00 balance=0.00
+close k011 slot=11
+open j0012 slot=11 gen=1
+ok T0.35 deposit j0012 9.00 balance=9.00
+ok T0.36 deposit k012 2.00 balance=2.00
+ok T0.37 withdraw k012 2.00 balance=0.00
+close k012 slot=12
+open j0013 slot=12 gen=1
+ok T0.38 deposit j0013 9.00 balance=9.00
+ok T0.39 deposit k013 2.00 balance=2.00
+ok T0.40 withdraw k013 2.00 balance=0.00
+close k013 slot=13
+open j0014 slot=13 gen=1
+ok T0.41 deposit j0014 6.00 balance=6.00
+ok T0.42 deposit k014 2.00 balance=2.00
+ok T0.43 withdraw k014 2.00 balance=0.00
+close k014 slot=14
+open j0015 slot=14 gen=1
+ok T0.44 deposit j0015 5.00 balance=5.00
+ok T0.45 deposit k015 2.00 balance=2.00
+ok T0.46 withdraw k015 2.00 balance=0.00
+close k015 slot=15
+open j0016 slot=15 gen=1
+ok T0.47 deposit j0016 3.00 balance=3.00
+ok T0.48 deposit k016 2.00 balance=2.00
+ok T0.49 withdraw k016 2.00 balance=0.00
+close k016 slot=16
+open j0017 slot=16 gen=1
+ok T0.50 deposit j0017 7.00 balance=7.00
+ok T0.51 deposit k017 2.00 balance=2.00
+ok T0.52 withdraw k017 2.00 balance=0.00
+close k017 slot=17
+open j0018 slot=17 gen=1
+ok T0.53 deposit j0018 8.00 balance=8.00
+ok T0.54 deposit k018 2.00 balance=2.00
+ok T0.55 withdraw k018 2.00 balance=0.00
+close k018 slot=18
+open j0019 slot=18 gen=1
+ok T0.56 deposit j0019 6.00 balance=6.00
+ok T0.57 deposit k019 2.00 balance=2.00
+ok T0.58 withdraw k019 2.00 balance=0.00
+close k019 slot=19
+open j0020 slot=19 gen=1
+ok T0.59 deposit j0020 9.00 balance=9.00
+ok T0.60 deposit k020 2.00 balance=2.00
+ok T0.61 withdraw k020 2.00 balance=0.00
+close k020 slot=20
+open j0021 slot=20 gen=1
+ok T0.62 deposit j0021 2.00 balance=2.00
+ok T0.63 deposit k021 2.00 balance=2.00
+ok T0.64 withdraw k021 2.00 balance=0.00
+close k021 slot=21
+open j0022 slot=21 gen=1
+ok T0.65 deposit j0022 1.00 balance=1.00
+ok T0.66 deposit k022 2.00 balance=2.00
+ok T0.67 withdraw k022 2.00 balance=0.00
+close k022 slot=22
+open j0023 slot=22 gen=1
+ok T0.68 deposit j0023 9.00 balance=9.00
+ok T0.69 deposit k023 2.00 balance=2.00
+ok T0.70 withdraw k023 2.00 balance=0.00
+close k023 slot=23
+open j0024 slot=23 gen=1
+ok T0.71 deposit j0024 9.00 balance=9.00
+ok T0.72 deposit k024 2.00 balance=2.00
+ok T0.73 withdraw k024 2.00 balance=0.00
+close k024 slot=24
+open j0025 slot=24 gen=1
+ok T0.74 deposit j0025 9.00 balance=9.00
+ok T0.75 deposit k025 2.00 balance=2.00
+ok T0.76 withdraw k025 2.00 balance=0.00
+close k025 slot=25
+open j0026 slot=25 gen=1
+ok T0.77 deposit j0026 5.00 balance=5.00
+ok T0.78 deposit k026 2.00 balance=2.00
+ok T0.79 withdraw k026 2.00 balance=0.00
+close k026 slot=26
+open j0027 slot=26 gen=1
+ok T0.80 deposit j0027 3.00 balance=3.00
+ok T0.81 deposit k027 2.00 balance=2.00
+ok T0.82 withdraw k027 2.00 balance=0.00
+close k027 slot=27
+open j0028 slot=27 gen=1
+ok T0.83 deposit j0028 3.00 balance=3.00
+ok T0.84 deposit k028 2.00 balance=2.00
+ok T0.85 withdraw k028 2.00 balance=0.00
+close k028 slot=28
+open j0029 slot=28 gen=1
+ok T0.86 deposit j0029 9.00 balance=9.00
+ok T0.87 deposit k029 2.00 balance=2.00
+ok T0.88 withdraw k029 2.00 balance=0.00
+close k029 slot=29
+open j0030 slot=29 gen=1
+ok T0.89 deposit j0030 3.00 balance=3.00
+ok T0.90 deposit k030 2.00 balance=2.00
+ok T0.91 withdraw k030 2.00 balance=0.00
+close k030 slot=30
+open j0031 slot=30 gen=1
+ok T0.92 deposit j0031 1.00 balance=1.00
+ok T0.93 deposit k031 2.00 balance=2.00
+ok T0.94 withdraw k031 2.00 balance=0.00
+close k031 slot=31
+open j0032 slot=31 gen=1
+ok T0.95 deposit j0032 4.00 balance=4.00
+ok T0.96 deposit k032 2.00 balance=2.00
+ok T0.97 withdraw k032 2.00 balance=0.00
+close k032 slot=32
+open j0033 slot=32 gen=1
+ok T0.98 deposit j0033 7.00 balance=7.00
+ok T0.99 deposit k033 2.00 balance=2.00
+ok T0.100 withdraw k033 2.00 balance=0.00
+close k033 slot=33
+open j0034 slot=33 gen=1
+ok T0.101 deposit j0034 2.00 balance=2.00
+ok T0.102 deposit k034 2.00 balance=2.00
+ok T0.103 withdraw k034 2.00 balance=0.00
+close k034 slot=34
+open j0035 slot=34 gen=1
+ok T0.104 deposit j0035 1.00 balance=1.00
+ok T0.105 deposit k035 2.00 balance=2.00
+ok T0.106 withdraw k035 2.00 balance=0.00
+close k035 slot=35
+open j0036 slot=35 gen=1
+ok T0.107 deposit j0036 1.00 balance=1.00
+ok T0.108 deposit k036 2.00 balance=2.00
+ok T0.109 withdraw k036 2.00 balance=0.00
+close k036 slot=36
+open j0037 slot=36 gen=1
+ok T0.110 deposit j0037 2.00 balance=2.00
+ok T0.111 deposit k037 2.00 balance=2.00
+ok T0.112 withdraw k037 2.00 balance=0.00
+close k037 slot=37
+open j0038 slot=37 gen=1
+ok T0.113 deposit j0038 9.00 balance=9.00
+ok T0.114 deposit k038 2.00 balance=2.00
+ok T0.115 withdraw k038 2.00 balance=0.00
+close k038 slot=38
+open j0039 slot=38 gen=1
+ok T0.116 deposit j0039 1.00 balance=1.00
+ok T0.117 deposit k039 2.00 balance=2.00
+ok T0.118 withdraw k039 2.00 balance=0.00
+close k039 slot=39
+open j0040 slot=39 gen=1
+ok T0.119 deposit j0040 1.00 balance=1.00
+close k040 slot=40
+open j0041 slot=40 gen=1
+ok T0.120 deposit j0041 5.00 balance=5.00
+close k041 slot=41
+open j0042 slot=41 gen=1
+ok T0.121 deposit j0042 4.00 balance=4.00
+ok T0.122 deposit k042 2.00 balance=2.00
+ok T0.123 withdraw k042 2.00 balance=0.00
+close k042 slot=42
+open j0043 slot=42 gen=1
+ok T0.124 deposit j0043 4.00 balance=4.00
+close k043 slot=43
+open j0044 slot=43 gen=1
+ok T0.125 deposit j0044 2.00 balance=2.00
+close k044 slot=44
+open j0045 slot=44 gen=1
+ok T0.126 deposit j0045 4.00 balance=4.00
+ok T0.127 deposit k045 2.00 balance=2.00
+ok T0.128 withdraw k045 2.00 balance=0.00
+close k045 slot=45
+open j0046 slot=45 gen=1
+ok T0.129 deposit j0046 5.00 balance=5.00
+close k046 slot=46
+open j0047 slot=46 gen=1
+ok T0.130 deposit j0047 5.00 balance=5.00
+close k047 slot=47
+open j0048 slot=47 gen=1
+ok T0.131 deposit j0048 4.00 balance=4.00
+ok T0.132 deposit k048 2.00 balance=2.00
+ok T0.133 withdraw k048 2.00 balance=0.00
+close k048 slot=48
+open j0049 slot=48 gen=1
+ok T0.134 deposit j0049 9.00 balance=9.00
+close k049 slot=49
+open j0050 slot=49 gen=1
+ok T0.135 deposit j0050 4.00 balance=4.00
+close k050 slot=50
+open j0051 slot=50 gen=1
+ok T0.136 deposit j0051 6.00 balance=6.00
+ok T0.137 deposit k051 2.00 balance=2.00
+ok T0.138 withdraw k051 2.00 balance=0.00
+close k051 slot=51
+open j0052 slot=51 gen=1
+ok T0.139 deposit j0052 3.00 balance=3.00
+close k052 slot=52
+open j0053 slot=52 gen=1
+ok T0.140 deposit j0053 6.00 balance=6.00
+close k053 slot=53
+open j0054 slot=53 gen=1
+ok T0.141 deposit j0054 2.00 balance=2.00
+ok T0.142 deposit k054 2.00 balance=2.00
+ok T0.143 withdraw k054 2.00 balance=0.00
+close k054 slot=54
+open j0055 slot=54 gen=1
+ok T0.144 deposit j0055 8.00 balance=8.00
+close k055 slot=55
+open j0056 slot=55 gen=1
+ok T0.145 deposit j0056 8.00 balance=8.00
+close k056 slot=56
+open j0057 slot=56 gen=1
+ok T0.146 deposit j0057 7.00 balance=7.00
+ok T0.147 deposit k057 2.00 balance=2.00
+ok T0.148 withdraw k057 2.00 balance=0.00
+close k057 slot=57
+open j0058 slot=57 gen=1
+ok T0.149 deposit j0058 1.00 balance=1.00
+close k058 slot=58
+open j0059 slot=58 gen=1
+ok T0.150 deposit j0059 6.00 balance=6.00
+close k059 slot=59
+open j0060 slot=59 gen=1
+ok T0.151 deposit j0060 3.00 balance=3.00
+ok T0.152 deposit k060 2.00 balance=2.00
+ok T0.153 withdraw k060 2.00 balance=0.00
+close k060 slot=60
+open j0061 slot=60 gen=1
+ok T0.154 deposit j0061 2.00 balance=2.00
+close k061 slot=61
+open j0062 slot=61 gen=1
+ok T0.155 deposit j0062 4.00 balance=4.00
+close k062 slot=62
+open j0063 slot=62 gen=1
+ok T0.156 deposit j0063 8.00 balance=8.00
+ok T0.157 deposit k063 2.00 balance=2.00
+ok T0.158 withdraw k063 2.00 balance=0.00
+close k063 slot=63
+open j0064 slot=63 gen=1
+ok T0.159 deposit j0064 5.00 balance=5.00
+close k064 slot=64
+open j0065 slot=64 gen=1
+ok T0.160 deposit j0065 1.00 balance=1.00
+close k065 slot=65
+open j0066 slot=65 gen=1
+ok T0.161 deposit j0066 2.00 balance=2.00
+ok T0.162 deposit k066 2.00 balance=2.00
+ok T0.163 withdraw k066 2.00 balance=0.00
+close k066 slot=66
+open j0067 slot=66 gen=1
+ok T0.164 deposit j0067 1.00 balance=1.00
+close k067 slot=67
+open j0068 slot=67 gen=1
+ok T0.165 deposit j0068 7.00 balance=7.00
+close k068 slot=68
+open j0069 slot=68 gen=1
+ok T0.166 deposit j0069 9.00 balance=9.00
+ok T0.167 deposit k069 2.00 balance=2.00
+ok T0.168 withdraw k069 2.00 balance=0.00
+close k069 slot=69
+open j0070 slot=69 gen=1
+ok T0.169 deposit j0070 2.00 balance=2.00
+close k070 slot=70
+open j0071 slot=70 gen=1
+ok T0.170 deposit j0071 6.00 balance=6.00
+close k071 slot=71
+open j0072 slot=71 gen=1
+ok T0.171 deposit j0072 4.00 balance=4.00
+ok T0.172 deposit k072 2.00 balance=2.00
+ok T0.173 withdraw k072 2.00 balance=0.00
+close k072 slot=72
+open j0073 slot=72 gen=1
+ok T0.174 deposit j0073 4.00 balance=4.00
+close k073 slot=73
+open j0074 slot=73 gen=1
+ok T0.175 deposit j0074 1.00 balance=1.00
+close k074 slot=74
+open j0075 slot=74 gen=1
+ok T0.176 deposit j0075 2.00 balance=2.00
+ok T0.177 deposit k075 2.00 balance=2.00
+ok T0.178 withdraw k075 2.00 balance=0.00
+close k075 slot=75
+open j0076 slot=75 gen=1
+ok T0.179 deposit j0076 8.00 balance=8.00
+close k076 slot=76
+open j0077 slot=76 gen=1
+ok T0.180 deposit j0077 8.00 balance=8.00
+close k077 slot=77
+open j0078 slot=77 gen=1
+ok T0.181 deposit j0078 6.00 balance=6.00
+ok T0.182 deposit k078 2.00 balance=2.00
+ok T0.183 withdraw k078 2.00 balance=0.00
+close k078 slot=78
+open j0079 slot=78 gen=1
+ok T0.184 deposit j0079 1.00 balance=1.00
+close k079 slot=79
+open j0080 slot=79 gen=1
+ok T0.185 deposit j0080 5.00 balance=5.00
+close k080 slot=80
+open j0081 slot=80 gen=1
+ok T0.186 deposit j0081 2.00 balance=2.00
+ok T0.187 deposit k081 2.00 balance=2.00
+ok T0.188 withdraw k081 2.00 balance=0.00
+close k081 slot=81
+open j0082 slot=81 gen=1
+ok T0.189 deposit j0082 9.00 balance=9.00
+close k082 slot=82
+open j0083 slot=82 gen=1
+ok T0.190 deposit j0083 1.00 balance=1.00
+close k083 slot=83
+open j0084 slot=83 gen=1
+ok T0.191 deposit j0084 3.00 balance=3.00
+ok T0.192 deposit k084 2.00 balance=2.00
+ok T0.193 withdraw k084 2.00 balance=0.00
+close k084 slot=84
+open j0085 slot=84 gen=1
+ok T0.194 deposit j0085 2.00 balance=2.00
+close k085 slot=85
+open j0086 slot=85 gen=1
+ok T0.195 deposit j0086 9.00 balance=9.00
+close k086 slot=86
+open j0087 slot=86 gen=1
+ok T0.196 deposit j0087 9.00 balance=9.00
+ok T0.197 deposit k087 2.00 balance=2.00
+ok T0.198 withdraw k087 2.00 balance=0.00
+close k087 slot=87
+open j0088 slot=87 gen=1
+ok T0.199 deposit j0088 1.00 balance=1.00
+close k088 slot=88
+open j0089 slot=88 gen=1
+ok T0.200 deposit j0089 8.00 balance=8.00
+close k089 slot=89
+open j0090 slot=89 gen=1
+ok T0.201 deposit j0090 4.00 balance=4.00
+ok T0.202 deposit k090 2.00 balance=2.00
+ok T0.203 withdraw k090 2.00 balance=0.00
+close k090 slot=90
+open j0091 slot=90 gen=1
+ok T0.204 deposit j0091 1.00 balance=1.00
+close k091 slot=91
+open j0092 slot=91 gen=1
+ok T0.205 deposit j0092 1.00 balance=1.00
+close k092 slot=92
+open j0093 slot=92 gen=1
+ok T0.206 deposit j0093 4.00 balance=4.00
+ok T0.207 deposit k093 2.00 balance=2.00
+ok T0.208 withdraw k093 2.00 balance=0.00
+close k093 slot=93
+open j0094 slot=93 gen=1
+ok T0.209 deposit j0094 4.00 balance=4.00
+close k094 slot=94
+open j0095 slot=94 gen=1
+ok T0.210 deposit j0095 5.00 balance=5.00
+close k095 slot=95
+open j0096 slot=95 gen=1
+ok T0.211 deposit j0096 7.00 balance=7.00
+ok T0.212 deposit k096 2.00 balance=2.00
+ok T0.213 withdraw k096 2.00 balance=0.00
+close k096 slot=96
+open j0097 slot=96 gen=1
+ok T0.214 deposit j0097 6.00 balance=6.00
+close k097 slot=97
+open j0098 slot=97 gen=1
+ok T0.215 deposit j0098 9.00 balance=9.00
+close k098 slot=98
+open j0099 slot=98 gen=1
+ok T0.216 deposit j0099 4.00 balance=4.00
+ok T0.217 deposit k099 2.00 balance=2.00
+ok T0.218 withdraw k099 2.00 balance=0.00
+close k099 slot=99
+open j0100 slot=99 gen=1
+ok T0.219 deposit j0100 5.00 balance=5.00
+close k100 slot=100
+open j0101 slot=100 gen=1
+ok T0.220 deposit j0101 5.00 balance=5.00
+close k101 slot=101
+open j0102 slot=101 gen=1
+ok T0.221 deposit j0102 8.00 balance=8.00
+ok T0.222 deposit k102 2.00 balance=2.00
+ok T0.223 withdraw k102 2.00 balance=0.00
+close k102 slot=102
+open j0103 slot=102 gen=1
+ok T0.224 deposit j0103 4.00 balance=4.00
+close k103 slot=103
+open j0104 slot=103 gen=1
+ok T0.225 deposit j0104 1.00 balance=1.00
+close k104 slot=104
+open j0105 slot=104 gen=1
+ok T0.226 deposit j0105 3.00 balance=3.00
+ok T0.227 deposit k105 2.00 balance=2.00
+ok T0.228 withdraw k105 2.00 balance=0.00
+close k105 slot=105
+open j0106 slot=105 gen=1
+ok T0.229 deposit j0106 8.00 balance=8.00
+close k106 slot=106
+open j0107 slot=106 gen=1
+ok T0.230 deposit j0107 1.00 balance=1.00
+close k107 slot=107
+open j0108 slot=107 gen=1
+ok T0.231 deposit j0108 8.00 balance=8.00
+ok T0.232 deposit k108 2.00 balance=2.00
+ok T0.233 withdraw k108 2.00 balance=0.00
+close k108 slot=108
+open j0109 slot=108 gen=1
+ok T0.234 deposit j0109 4.00 balance=4.00
+close k109 slot=109
+open j0110 slot=109 gen=1
+ok T0.235 deposit j0110 7.00 balance=7.00
+close k110 slot=110
+open j0111 slot=110 gen=1
+ok T0.236 deposit j0111 3.00 balance=3.00
+ok T0.237 deposit k111 2.00 balance=2.00
+ok T0.238 withdraw k111 2.00 balance=0.00
+close k111 slot=111
+open j0112 slot=111 gen=1
+ok T0.239 deposit j0112 1.00 balance=1.00
+close k112 slot=112
+open j0113 slot=112 gen=1
+ok T0.240 deposit j0113 4.00 balance=4.00
+close k113 slot=113
+open j0114 slot=113 gen=1
+ok T0.241 deposit j0114 8.00 balance=8.00
+ok T0.242 deposit k114 2.00 balance=2.00
+ok T0.243 withdraw k114 2.00 balance=0.00
+close k114 slot=114
+open j0115 slot=114 gen=1
+ok T0.244 deposit j0115 3.00 balance=3.00
+close k115 slot=115
+open j0116 slot=115 gen=1
+ok T0.245 deposit j0116 3.00 balance=3.00
+close k116 slot=116
+open j0117 slot=116 gen=1
+ok T0.246 deposit j0117 4.00 balance=4.00
+ok T0.247 deposit k117 2.00 balance=2.00
+ok T0.248 withdraw k117 2.00 balance=0.00
+close k117 slot=117
+open j0118 slot=117 gen=1
+ok T0.249 deposit j0118 9.00 balance=9.00
+close k118 slot=118
+open j0119 slot=118 gen=1
+ok T0.250 deposit j0119 4.00 balance=4.00
+close k119 slot=119
+open j0120 slot=119 gen=1
+ok T0.251 deposit j0120 2.00 balance=2.00
+ok T0.252 deposit k120 2.00 balance=2.00
+ok T0.253 withdraw k120 2.00 balance=0.00
+close k120 slot=120
+open j0121 slot=120 gen=1
+ok T0.254 deposit j0121 4.00 balance=4.00
+close k121 slot=121
+open j0122 slot=121 gen=1
+ok T0.255 deposit j0122 9.00 balance=9.00
+close k122 slot=122
+open j0123 slot=122 gen=1
+ok T0.256 deposit j0123 7.00 balance=7.00
+ok T0.257 deposit k123 2.00 balance=2.00
+ok T0.258 withdraw k123 2.00 balance=0.00
+close k123 slot=123
+open j0124 slot=123 gen=1
+ok T0.259 deposit j0124 6.00 balance=6.00
+close k124 slot=124
+open j0125 slot=124 gen=1
+ok T0.260 deposit j0125 5.00 balance=5.00
+close k125 slot=125
+open j0126 slot=125 gen=1
+ok T0.261 deposit j0126 9.00 balance=9.00
+ok T0.262 deposit k126 2.00 balance=2.00
+ok T0.263 withdraw k126 2.00 balance=0.00
+close k126 slot=126
+open j0127 slot=126 gen=1
+ok T0.264 deposit j0127 8.00 balance=8.00
+close k127 slot=127
+open j0128 slot=127 gen=1
+ok T0.265 deposit j0128 7.00 balance=7.00
+close k128 slot=128
+open j0129 slot=128 gen=1
+ok T0.266 deposit j0129 3.00 balance=3.00
+ok T0.267 deposit k129 2.00 balance=2.00
+ok T0.268 withdraw k129 2.00 balance=0.00
+close k129 slot=129
+open j0130 slot=129 gen=1
+ok T0.269 deposit j0130 9.00 balance=9.00
+close k130 slot=130
+open j0131 slot=130 gen=1
+ok T0.270 deposit j0131 7.00 balance=7.00
+close k131 slot=131
+open j0132 slot=131 gen=1
+ok T0.271 deposit j0132 8.00 balance=8.00
+ok T0.272 deposit k132 2.00 balance=2.00
+ok T0.273 withdraw k132 2.00 balance=0.00
+close k132 slot=132
+open j0133 slot=132 gen=1
+ok T0.274 deposit j0133 8.00 balance=8.00
+close k133 slot=133
+open j0134 slot=133 gen=1
+ok T0.275 deposit j0134 1.00 balance=1.00
+close k134 slot=134
+open j0135 slot=134 gen=1
+ok T0.276 deposit j0135 6.00 balance=6.00
+ok T0.277 deposit k135 2.00 balance=2.00
+ok T0.278 withdraw k135 2.00 balance=0.00
+close k135 slot=135
+open j0136 slot=135 gen=1
+ok T0.279 deposit j0136 7.00 balance=7.00
+close k136 slot=136
+open j0137 slot=136 gen=1
+ok T0.280 deposit j0137 8.00 balance=8.00
+close k137 slot=137
+open j0138 slot=137 gen=1
+ok T0.281 deposit j0138 2.00 balance=2.00
+ok T0.282 deposit k138 2.00 balance=2.00
+ok T0.283 withdraw k138 2.00 balance=0.00
+close k138 slot=138
+open j0139 slot=138 gen=1
+ok T0.284 deposit j0139 9.00 balance=9.00
+close k139 slot=139
+open j0140 slot=139 gen=1
+ok T0.285 deposit j0140 5.00 balance=5.00
+close k140 slot=140
+open j0141 slot=140 gen=1
+ok T0.286 deposit j0141 2.00 balance=2.00
+ok T0.287 deposit k141 2.00 balance=2.00
+ok T0.288 withdraw k141 2.00 balance=0.00
+close k141 slot=141
+open j0142 slot=141 gen=1
+ok T0.289 deposit j0142 6.00 balance=6.00
+close k142 slot=142
+open j0143 slot=142 gen=1
+ok T0.290 deposit j0143 1.00 balance=1.00
+close k143 slot=143
+open j0144 slot=143 gen=1
+ok T0.291 deposit j0144 6.00 balance=6.00
+ok T0.292 deposit k144 2.00 balance=2.00
+ok T0.293 withdraw k144 2.00 balance=0.00
+close k144 slot=144
+open j0145 slot=144 gen=1
+ok T0.294 deposit j0145 7.00 balance=7.00
+close k145 slot=145
+open j0146 slot=145 gen=1
+ok T0.295 deposit j0146 2.00 balance=2.00
+close k146 slot=146
+open j0147 slot=146 gen=1
+ok T0.296 deposit j0147 2.00 balance=2.00
+ok T0.297 deposit k147 2.00 balance=2.00
+ok T0.298 withdraw k147 2.00 balance=0.00
+close k147 slot=147
+open j0148 slot=147 gen=1
+ok T0.299 deposit j0148 8.00 balance=8.00
+close k148 slot=148
+open j0149 slot=148 gen=1
+ok T0.300 deposit j0149 7.00 balance=7.00
+close k149 slot=149
+open j0150 slot=149 gen=1
+ok T0.301 deposit j0150 6.00 balance=6.00
+ok T0.302 deposit k150 2.00 balance=2.00
+ok T0.303 withdraw k150 2.00 balance=0.00
+close k150 slot=150
+open j0151 slot=150 gen=1
+ok T0.304 deposit j0151 2.00 balance=2.00
+close k151 slot=151
+open j0152 slot=151 gen=1
+ok T0.305 deposit j0152 3.00 balance=3.00
+close k152 slot=152
+open j0153 slot=152 gen=1
+ok T0.306 deposit j0153 5.00 balance=5.00
+ok T0.307 deposit k153 2.00 balance=2.00
+ok T0.308 withdraw k153 2.00 balance=0.00
+close k153 slot=153
+open j0154 slot=153 gen=1
+ok T0.309 deposit j0154 8.00 balance=8.00
+close k154 slot=154
+open j0155 slot=154 gen=1
+ok T0.310 deposit j0155 9.00 balance=9.00
+close k155 slot=155
+open j0156 slot=155 gen=1
+ok T0.311 deposit j0156 5.00 balance=5.00
+ok T0.312 deposit k156 2.00 balance=2.00
+ok T0.313 withdraw k156 2.00 balance=0.00
+close k156 slot=156
+open j0157 slot=156 gen=1
+ok T0.314 deposit j0157 8.00 balance=8.00
+close k157 slot=157
+open j0158 slot=157 gen=1
+ok T0.315 deposit j0158 8.00 balance=8.00
+close k158 slot=158
+open j0159 slot=158 gen=1
+ok T0.316 deposit j0159 7.00 balance=7.00
+ok T0.317 deposit k159 2.00 balance=2.00
+ok T0.318 withdraw k159 2.00 balance=0.00
+close k159 slot=159
+open j0160 slot=159 gen=1
+ok T0.319 deposit j0160 3.00 balance=3.00
+close k160 slot=160
+open j0161 slot=160 gen=1
+ok T0.320 deposit j0161 9.00 balance=9.00
+close k161 slot=161
+open j0162 slot=161 gen=1
+ok T0.321 deposit j0162 5.00 balance=5.00
+ok T0.322 deposit k162 2.00 balance=2.00
+ok T0.323 withdraw k162 2.00 balance=0.00
+close k162 slot=162
+open j0163 slot=162 gen=1
+ok T0.324 deposit j0163 2.00 balance=2.00
+close k163 slot=163
+open j0164 slot=163 gen=1
+ok T0.325 deposit j0164 8.00 balance=8.00
+close k164 slot=164
+open j0165 slot=164 gen=1
+ok T0.326 deposit j0165 4.00 balance=4.00
+ok T0.327 deposit k165 2.00 balance=2.00
+ok T0.328 withdraw k165 2.00 balance=0.00
+close k165 slot=165
+open j0166 slot=165 gen=1
+ok T0.329 deposit j0166 3.00 balance=3.00
+close k166 slot=166
+open j0167 slot=166 gen=1
+ok T0.330 deposit j0167 8.00 balance=8.00
+close k167 slot=167
+open j0168 slot=167 gen=1
+ok T0.331 deposit j0168 9.00 balance=9.00
+ok T0.332 deposit k168 2.00 balance=2.00
+ok T0.333 withdraw k168 2.00 balance=0.00
+close k168 slot=168
+open j0169 slot=168 gen=1
+ok T0.334 deposit j0169 2.00 balance=2.00
+close k169 slot=169
+open j0170 slot=169 gen=1
+ok T0.335 deposit j0170 8.00 balance=8.00
+close k170 slot=170
+open j0171 slot=170 gen=1
+ok T0.336 deposit j0171 8.00 balance=8.00
+ok T0.337 deposit k171 2.00 balance=2.00
+ok T0.338 withdraw k171 2.00 balance=0.00
+close k171 slot=171
+open j0172 slot=171 gen=1
+ok T0.339 deposit j0172 6.00 balance=6.00
+close k172 slot=172
+open j0173 slot=172 gen=1
+ok T0.340 deposit j0173 7.00 balance=7.00
+close k173 slot=173
+open j0174 slot=173 gen=1
+ok T0.341 deposit j0174 7.00 balance=7.00
+ok T0.342 deposit k174 2.00 balance=2.00
+ok T0.343 withdraw k174 2.00 balance=0.00
+close k174 slot=174
+open j0175 slot=174 gen=1
+ok T0.344 deposit j0175 2.00 balance=2.00
+close k175 slot=175
+open j0176 slot=175 gen=1
+ok T0.345 deposit j0176 3.00 balance=3.00
+close k176 slot=176
+open j0177 slot=176 gen=1
+ok T0.346 deposit j0177 9.00 balance=9.00
+ok T0.347 deposit k177 2.00 balance=2.00
+ok T0.348 withdraw k177 2.00 balance=0.00
+close k177 slot=177
+open j0178 slot=177 gen=1
+ok T0.349 deposit j0178 2.00 balance=2.00
+close k178 slot=178
+open j0179 slot=178 gen=1
+ok T0.350 deposit j0179 6.00 balance=6.00
+close k179 slot=179
+open j0180 slot=179 gen=1
+ok T0.351 deposit j0180 9.00 balance=9.00
+ok T0.352 deposit k180 2.00 balance=2.00
+ok T0.353 withdraw k180 2.00 balance=0.00
+close k180 slot=180
+open j0181 slot=180 gen=1
+ok T0.354 deposit j0181 2.00 balance=2.00
+close k181 slot=181
+open j0182 slot=181 gen=1
+ok T0.355 deposit j0182 8.00 balance=8.00
+close k182 slot=182
+open j0183 slot=182 gen=1
+ok T0.356 deposit j0183 6.00 balance=6.00
+ok T0.357 deposit k183 2.00 balance=2.00
+ok T0.358 withdraw k183 2.00 balance=0.00
+close k183 slot=183
+open j0184 slot=183 gen=1
+ok T0.359 deposit j0184 7.00 balance=7.00
+close k184 slot=184
+open j0185 slot=184 gen=1
+ok T0.360 deposit j0185 4.00 balance=4.00
+close k185 slot=185
+open j0186 slot=185 gen=1
+ok T0.361 deposit j0186 9.00 balance=9.00
+ok T0.362 deposit k186 2.00 balance=2.00
+ok T0.363 withdraw k186 2.00 balance=0.00
+close k186 slot=186
+open j0187 slot=186 gen=1
+ok T0.364 deposit j0187 4.00 balance=4.00
+close k187 slot=187
+open j0188 slot=187 gen=1
+ok T0.365 deposit j0188 5.00 balance=5.00
+close k188 slot=188
+open j0189 slot=188 gen=1
+ok T0.366 deposit j0189 8.00 balance=8.00
+ok T0.367 deposit k189 2.00 balance=2.00
+ok T0.368 withdraw k189 2.00 balance=0.00
+close k189 slot=189
+open j0190 slot=189 gen=1
+ok T0.369 deposit j0190 5.00 balance=5.00
+close k190 slot=190
+open j0191 slot=190 gen=1
+ok T0.370 deposit j0191 4.00 balance=4.00
+close k191 slot=191
+open j0192 slot=191 gen=1
+ok T0.371 deposit j0192 8.00 balance=8.00
+ok T0.372 deposit k192 2.00 balance=2.00
+ok T0.373 withdraw k192 2.00 balance=0.00
+close k192 slot=192
+open j0193 slot=192 gen=1
+ok T0.374 deposit j0193 3.00 balance=3.00
+close k193 slot=193
+open j0194 slot=193 gen=1
+ok T0.375 deposit j0194 1.00 balance=1.00
+close k194 slot=194
+open j0195 slot=194 gen=1
+ok T0.376 deposit j0195 4.00 balance=4.00
+ok T0.377 deposit k195 2.00 balance=2.00
+ok T0.378 withdraw k195 2.00 balance=0.00
+close k195 slot=195
+open j0196 slot=195 gen=1
+ok T0.379 deposit j0196 9.00 balance=9.00
+close k196 slot=196
+open j0197 slot=196 gen=1
+ok T0.380 deposit j0197 4.00 balance=4.00
+close k197 slot=197
+open j0198 slot=197 gen=1
+ok T0.381 deposit j0198 7.00 balance=7.00
+ok T0.382 deposit k198 2.00 balance=2.00
+ok T0.383 withdraw k198 2.00 balance=0.00
+close k198 slot=198
+open j0199 slot=198 gen=1
+ok T0.384 deposit j0199 7.00 balance=7.00
+close k199 slot=199
+open j0200 slot=199 gen=1
+ok T0.385 deposit j0200 6.00 balance=6.00
+close k200 slot=200
+open j0201 slot=200 gen=1
+ok T0.386 deposit j0201 9.00 balance=9.00
+ok T0.387 deposit k201 2.00 balance=2.00
+ok T0.388 withdraw k201 2.00 balance=0.00
+close k201 slot=201
+open j0202 slot=201 gen=1
+ok T0.389 deposit j0202 9.00 balance=9.00
+close k202 slot=202
+open j0203 slot=202 gen=1
+ok T0.390 deposit j0203 7.00 balance=7.00
+close k203 slot=203
+open j0204 slot=203 gen=1
+ok T0.391 deposit j0204 2.00 balance=2.00
+ok T0.392 deposit k204 2.00 balance=2.00
+ok T0.393 withdraw k204 2.00 balance=0.00
+close k204 slot=204
+open j0205 slot=204 gen=1
+ok T0.394 deposit j0205 3.00 balance=3.00
+close k205 slot=205
+open j0206 slot=205 gen=1
+ok T0.395 deposit j0206 9.00 balance=9.00
+close k206 slot=206
+open j0207 slot=206 gen=1
+ok T0.396 deposit j0207 4.00 balance=4.00
+ok T0.397 deposit k207 2.00 balance=2.00
+ok T0.398 withdraw k207 2.00 balance=0.00
+close k207 slot=207
+open j0208 slot=207 gen=1
+ok T0.399 deposit j0208 5.00 balance=5.00
+close k208 slot=208
+open j0209 slot=208 gen=1
+ok T0.400 deposit j0209 5.00 balance=5.00
+close k209 slot=209
+open j0210 slot=209 gen=1
+ok T0.401 deposit j0210 3.00 balance=3.00
+ok T0.402 deposit k210 2.00 balance=2.00
+ok T0.403 withdraw k210 2.00 balance=0.00
+close k210 slot=210
+open j0211 slot=210 gen=1
+ok T0.404 deposit j0211 1.00 balance=1.00
+close k211 slot=211
+open j0212 slot=211 gen=1
+ok T0.405 deposit j0212 9.00 balance=9.00
+close k212 slot=212
+open j0213 slot=212 gen=1
+ok T0.406 deposit j0213 7.00 balance=7.00
+ok T0.407 deposit k213 2.00 balance=2.00
+ok T0.408 withdraw k213 2.00 balance=0.00
+close k213 slot=213
+open j0214 slot=213 gen=1
+ok T0.409 deposit j0214 1.00 balance=1.00
+close k214 slot=214
+open j0215 slot=214 gen=1
+ok T0.410 deposit j0215 3.00 balance=3.00
+close k215 slot=215
+open j0216 slot=215 gen=1
+ok T0.411 deposit j0216 9.00 balance=9.00
+ok T0.412 deposit k216 2.00 balance=2.00
+ok T0.413 withdraw k216 2.00 balance=0.00
+close k216 slot=216
+open j0217 slot=216 gen=1
+ok T0.414 deposit j0217 9.00 balance=9.00
+close k217 slot=217
+open j0218 slot=217 gen=1
+ok T0.415 deposit j0218 8.00 balance=8.00
+close k218 slot=218
+open j0219 slot=218 gen=1
+ok T0.416 deposit j0219 4.00 balance=4.00
+ok T0.417 deposit k219 2.00 balance=2.00
+ok T0.418 withdraw k219 2.00 balance=0.00
+close k219 slot=219
+open j0220 slot=219 gen=1
+ok T0.419 deposit j0220 3.00 balance=3.00
+close k220 slot=220
+open j0221 slot=220 gen=1
+ok T0.420 deposit j0221 4.00 balance=4.00
+close k221 slot=221
+open j0222 slot=221 gen=1
+ok T0.421 deposit j0222 5.00 balance=5.00
+ok T0.422 deposit k222 2.00 balance=2.00
+ok T0.423 withdraw k222 2.00 balance=0.00
+close k222 slot=222
+open j0223 slot=222 gen=1
+ok T0.424 deposit j0223 4.00 balance=4.00
+close k223 slot=223
+open j0224 slot=223 gen=1
+ok T0.425 deposit j0224 9.00 balance=9.00
+close k224 slot=224
+open j0225 slot=224 gen=1
+ok T0.426 deposit j0225 5.00 balance=5.00
+ok T0.427 deposit k225 2.00 balance=2.00
+ok T0.428 withdraw k225 2.00 balance=0.00
+close k225 slot=225
+open j0226 slot=225 gen=1
+ok T0.429 deposit j0226 8.00 balance=8.00
+close k226 slot=226
+open j0227 slot=226 gen=1
+ok T0.430 deposit j0227 2.00 balance=2.00
+close k227 slot=227
+open j0228 slot=227 gen=1
+ok T0.431 deposit j0228 4.00 balance=4.00
+ok T0.432 deposit k228 2.00 balance=2.00
+ok T0.433 withdraw k228 2.00 balance=0.00
+close k228 slot=228
+open j0229 slot=228 gen=1
+ok T0.434 deposit j0229 5.00 balance=5.00
+close k229 slot=229
+open j0230 slot=229 gen=1
+ok T0.435 deposit j0230 3.00 balance=3.00
+close k230 slot=230
+open j0231 slot=230 gen=1
+ok T0.436 deposit j0231 1.00 balance=1.00
+ok T0.437 deposit k231 2.00 balance=2.00
+ok T0.438 withdraw k231 2.00 balance=0.00
+close k231 slot=231
+open j0232 slot=231 gen=1
+ok T0.439 deposit j0232 4.00 balance=4.00
+close k232 slot=232
+open j0233 slot=232 gen=1
+ok T0.440 deposit j0233 9.00 balance=9.00
+close k233 slot=233
+open j0234 slot=233 gen=1
+ok T0.441 deposit j0234 3.00 balance=3.00
+ok T0.442 deposit k234 2.00 balance=2.00
+ok T0.443 withdraw k234 2.00 balance=0.00
+close k234 slot=234
+open j0235 slot=234 gen=1
+ok T0.444 deposit j0235 5.00 balance=5.00
+close k235 slot=235
+open j0236 slot=235 gen=1
+ok T0.445 deposit j0236 5.00 balance=5.00
+close k236 slot=236
+open j0237 slot=236 gen=1
+ok T0.446 deposit j0237 7.00 balance=7.00
+ok T0.447 deposit k237 2.00 balance=2.00
+ok T0.448 withdraw k237 2.00 balance=0.00
+close k237 slot=237
+open j0238 slot=237 gen=1
+ok T0.449 deposit j0238 9.00 balance=9.00
+close k238 slot=238
+open j0239 slot=238 gen=1
+ok T0.450 deposit j0239 4.00 balance=4.00
+close k239 slot=239
+open j0240 slot=239 gen=1
+ok T0.451 deposit j0240 5.00 balance=5.00
+ok T0.452 deposit k240 2.00 balance=2.00
+ok T0.453 withdraw k240 2.00 balance=0.00
+close k240 slot=240
+open j0241 slot=240 gen=1
+ok T0.454 deposit j0241 5.00 balance=5.00
+close k241 slot=241
+open j0242 slot=241 gen=1
+ok T0.455 deposit j0242 9.00 balance=9.00
+close k242 slot=242
+open j0243 slot=242 gen=1
+ok T0.456 deposit j0243 9.00 balance=9.00
+ok T0.457 deposit k243 2.00 balance=2.00
+ok T0.458 withdraw k243 2.00 balance=0.00
+close k243 slot=243
+open j0244 slot=243 gen=1
+ok T0.459 deposit j0244 9.00 balance=9.00
+close k244 slot=244
+open j0245 slot=244 gen=1
+ok T0.460 deposit j0245 9.00 balance=9.00
+close k245 slot=245
+open j0246 slot=245 gen=1
+ok T0.461 deposit j0246 5.00 balance=5.00
+ok T0.462 deposit k246 2.00 balance=2.00
+ok T0.463 withdraw k246 2.00 balance=0.00
+close k246 slot=246
+open j0247 slot=246 gen=1
+ok T0.464 deposit j0247 4.00 balance=4.00
+close k247 slot=247
+open j0248 slot=247 gen=1
+ok T0.465 deposit j0248 8.00 balance=8.00
+close k248 slot=248
+open j0249 slot=248 gen=1
+ok T0.466 deposit j0249 6.00 balance=6.00
+ok T0.467 deposit k249 2.00 balance=2.00
+ok T0.468 withdraw k249 2.00 balance=0.00
+close k249 slot=249
+open j0250 slot=249 gen=1
+ok T0.469 deposit j0250 5.00 balance=5.00
+close k250 slot=250
+open j0251 slot=250 gen=1
+ok T0.470 deposit j0251 6.00 balance=6.00
+close k251 slot=251
+open j0252 slot=251 gen=1
+ok T0.471 deposit j0252 4.00 balance=4.00
+ok T0.472 deposit k252 2.00 balance=2.00
+ok T0.473 withdraw k252 2.00 balance=0.00
+close k252 slot=252
+open j0253 slot=252 gen=1
+ok T0.474 deposit j0253 5.00 balance=5.00
+close k253 slot=253
+open j0254 slot=253 gen=1
+ok T0.475 deposit j0254 1.00 balance=1.00
+close k254 slot=254
+open j0255 slot=254 gen=1
+ok T0.476 deposit j0255 6.00 balance=6.00
+ok T0.477 deposit k255 2.00 balance=2.00
+ok T0.478 withdraw k255 2.00 balance=0.00
+close k255 slot=255
+open j0256 slot=255 gen=1
+ok T0.479 deposit j0256 9.00 balance=9.00
+error: account j0001 balance not zero
+error: no free slot
+error: unknown account j0257
+error: account j0002 balance not zero
+error: no free slot
+error: unknown account j0258
+ok T0.480 deposit j0003 2.00 balance=4.00
+ok T0.481 withdraw j0003 2.00 balance=2.00
+error: account j0003 balance not zero
+error: no free slot
+error: unknown account j0259
+error: account j0004 balance not zero
+error: no free slot
+error: unknown account j0260
+error: account j0005 balance not zero
+error: no free slot
+error: unknown account j0261
+ok T0.482 deposit j0006 2.00 balance=9.00
+ok T0.483 withdraw j0006 2.00 balance=7.00
+error: account j0006 balance not zero
+error: no free slot
+error: unknown account j0262
+error: account j0007 balance not zero
+error: no free slot
+error: unknown account j0263
+error: account j0008 balance not zero
+error: no free slot
+error: unknown account j0264
+ok T0.484 deposit j0009 2.00 balance=9.00
+ok T0.485 withdraw j0009 2.00 balance=7.00
+error: account j0009 balance not zero
+error: no free slot
+error: unknown account j0265
+error: account j0010 balance not zero
+error: no free slot
+error: unknown account j0266
+error: account j0011 balance not zero
+error: no free slot
+error: unknown account j0267
+ok T0.486 deposit j0012 2.00 balance=11.00
+ok T0.487 withdraw j0012 2.00 balance=9.00
+error: account j0012 balance not zero
+error: no free slot
+error: unknown account j0268
+error: account j0013 balance not zero
+error: no free slot
+error: unknown account j0269
+error: account j0014 balance not zero
+error: no free slot
+error: unknown account j0270
+ok T0.488 deposit j0015 2.00 balance=7.00
+ok T0.489 withdraw j0015 2.00 balance=5.00
+error: account j0015 balance not zero
+error: no free slot
+error: unknown account j0271
+error: account j0016 balance not zero
+error: no free slot
+error: unknown account j0272
+error: account j0017 balance not zero
+error: no free slot
+error: unknown account j0273
+ok T0.490 deposit j0018 2.00 balance=10.00
+ok T0.491 withdraw j0018 2.00 balance=8.00
+error: account j0018 balance not zero
+error: no free slot
+error: unknown account j0274
+error: account j0019 balance not zero
+error: no free slot
+error: unknown account j0275
+error: account j0020 balance not zero
+error: no free slot
+error: unknown account j0276
+ok T0.492 deposit j0021 2.00 balance=4.00
+ok T0.493 withdraw j0021 2.00 balance=2.00
+error: account j0021 balance not zero
+error: no free slot
+error: unknown account j0277
+error: account j0022 balance not zero
+error: no free slot
+error: unknown account j0278
+error: account j0023 balance not zero
+error: no free slot
+error: unknown account j0279
+ok T0.494 deposit j0024 2.00 balance=11.00
+ok T0.495 withdraw j0024 2.00 balance=9.00
+error: account j0024 balance not zero
+error: no free slot
+error: unknown account j0280
+error: account j0025 balance not zero
+error: no free slot
+error: unknown account j0281
+error: account j0026 balance not zero
+error: no free slot
+error: unknown account j0282
+ok T0.496 deposit j0027 2.00 balance=5.00
+ok T0.497 withdraw j0027 2.00 balance=3.00
+error: account j0027 balance not zero
+error: no free slot
+error: unknown account j0283
+error: account j0028 balance not zero
+error: no free slot
+error: unknown account j0284
+error: account j0029 balance not zero
+error: no free slot
+error: unknown account j0285
+ok T0.498 deposit j0030 2.00 balance=5.00
+ok T0.499 withdraw j0030 2.00 balance=3.00
+error: account j0030 balance not zero
+error: no free slot
+error: unknown account j0286
+error: account j0031 balance not zero
+error: no free slot
+error: unknown account j0287
+error: account j0032 balance not zero
+error: no free slot
+error: unknown account j0288
+ok T0.500 deposit j0033 2.00 balance=9.00
+ok T0.501 withdraw j0033 2.00 balance=7.00
+error: account j0033 balance not zero
+error: no free slot
+error: unknown account j0289
+error: account j0034 balance not zero
+error: no free slot
+error: unknown account j0290
+error: account j0035 balance not zero
+error: no free slot
+error: unknown account j0291
+ok T0.502 deposit j0036 2.00 balance=3.00
+ok T0.503 withdraw j0036 2.00 balance=1.00
+error: account j0036 balance not zero
+error: no free slot
+error: unknown account j0292
+error: account j0037 balance not zero
+error: no free slot
+error: unknown account j0293
+error: account j0038 balance not zero
+error: no free slot
+error: unknown account j0294
+ok T0.504 deposit j0039 2.00 balance=3.00
+ok T0.505 withdraw j0039 2.00 balance=1.00
+error: account j0039 balance not zero
+error: no free slot
+error: unknown account j0295
+error: account j0040 balance not zero
+error: no free slot
+error: unknown account j0296
+error: account j0041 balance not zero
+error: no free slot
+error: unknown account j0297
+ok T0.506 deposit j0042 2.00 balance=6.00
+ok T0.507 withdraw j0042 2.00 balance=4.00
+error: account j0042 balance not zero
+error: no free slot
+error: unknown account j0298
+error: account j0043 balance not zero
+error: no free slot
+error: unknown account j0299
+error: account j0044 balance not zero
+error: no free slot
+error: unknown account j0300
+idem entries=64 capacity=64 evicted=318
+check ok records=508 live=508 accounts=256 holds=0 batches=0

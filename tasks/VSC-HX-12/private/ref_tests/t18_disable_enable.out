@@ -1,0 +1,18 @@
+user root added (admin)
+user alice added
+user bob added
+published dz 1.0.0 (0 KiB)
+user alice disabled
+error: user alice is disabled
+error: user alice is disabled
+error: user alice is disabled
+error: user alice is disabled
+error: user alice is disabled
+error: user alice is disabled
+error: user alice is disabled
+user alice admin=no state=disabled roles=dz:owner
+user alice enabled
+error: user alice is not disabled
+published dz 1.1.0 (0 KiB)
+error: bob is not an administrator
+fetched dz 1.1.0

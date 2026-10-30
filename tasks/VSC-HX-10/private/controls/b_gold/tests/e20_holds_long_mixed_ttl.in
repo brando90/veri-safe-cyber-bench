@@ -1,0 +1,1204 @@
+open tw
+deposit tw 100000
+clock advance 22876ms
+clock advance 60427ms
+holds tw
+clock advance 54961ms
+clock advance 80933ms
+hold tw 4 ttl=52s
+clock advance 79237ms
+hold tw 2 ttl=3890ms
+clock advance 81476ms
+clock advance 62330ms
+clock advance 58035ms
+hold tw 1 ttl=59s
+clock advance 12262ms
+holds tw
+clock advance 20374ms
+hold tw 3 ttl=35s
+clock advance 82029ms
+clock advance 67555ms
+hold tw 2 ttl=3553ms
+clock advance 74597ms
+clock advance 38574ms
+holds tw
+clock advance 55439ms
+hold tw 4 ttl=1663ms
+clock advance 82327ms
+hold tw 5 ttl=59s
+holds tw
+clock advance 83363ms
+hold tw 2 ttl=9m
+clock advance 59929ms
+clock advance 13592ms
+hold tw 4 ttl=15m
+hold tw 4 ttl=1118ms
+clock advance 82482ms
+clock advance 80636ms
+clock advance 84676ms
+clock advance 52623ms
+holds tw
+clock advance 33185ms
+clock advance 83671ms
+hold tw 4 ttl=4652ms
+clock advance 29724ms
+clock advance 3533ms
+hold tw 3 ttl=2136ms
+clock advance 45956ms
+hold tw 4 ttl=4504ms
+hold tw 4 ttl=4897ms
+hold tw 3 ttl=58s
+clock advance 59464ms
+hold tw 1 ttl=11s
+clock advance 45710ms
+hold tw 4 ttl=1997ms
+clock advance 70326ms
+clock advance 50195ms
+hold tw 2 ttl=38m
+clock advance 46142ms
+hold tw 5 ttl=29m
+clock advance 52618ms
+hold tw 4 ttl=4772ms
+clock advance 42056ms
+holds tw
+clock advance 28478ms
+hold tw 3 ttl=29m
+hold tw 5 ttl=19m
+hold tw 5 ttl=3673ms
+clock advance 49430ms
+hold tw 4 ttl=21m
+clock advance 47379ms
+clock advance 34884ms
+hold tw 5 ttl=1567ms
+hold tw 5 ttl=34m
+hold tw 5 ttl=48s
+clock advance 86960ms
+hold tw 4 ttl=3436ms
+clock advance 26697ms
+clock advance 74910ms
+clock advance 33167ms
+hold tw 2 ttl=1511ms
+clock advance 23049ms
+clock advance 53464ms
+hold tw 3 ttl=4388ms
+holds tw
+clock advance 14012ms
+hold tw 3 ttl=4163ms
+clock advance 54544ms
+hold tw 2 ttl=10s
+clock advance 78308ms
+clock advance 56058ms
+clock advance 12006ms
+hold tw 4 ttl=58s
+clock advance 70614ms
+hold tw 4 ttl=2451ms
+clock advance 22331ms
+holds tw
+clock advance 74239ms
+hold tw 3 ttl=1263ms
+hold tw 4 ttl=3446ms
+hold tw 2 ttl=41s
+hold tw 3 ttl=3842ms
+clock advance 66341ms
+holds tw
+hold tw 1 ttl=18m
+hold tw 4 ttl=8m
+hold tw 3 ttl=3390ms
+hold tw 1 ttl=1s
+hold tw 5 ttl=11s
+hold tw 4 ttl=2374ms
+hold tw 5 ttl=24m
+hold tw 3 ttl=1806ms
+hold tw 4 ttl=6s
+clock advance 56676ms
+clock advance 12909ms
+clock advance 46568ms
+clock advance 50900ms
+hold tw 3 ttl=24s
+hold tw 2 ttl=59s
+hold tw 3 ttl=22s
+clock advance 64659ms
+clock advance 51240ms
+clock advance 26189ms
+hold tw 5 ttl=2628ms
+hold tw 5 ttl=1115ms
+hold tw 2 ttl=47m
+hold tw 3 ttl=4231ms
+holds tw
+clock advance 76095ms
+hold tw 1 ttl=11m
+clock advance 44570ms
+clock advance 47181ms
+clock advance 82425ms
+clock advance 56095ms
+clock advance 77558ms
+holds tw
+hold tw 5 ttl=40s
+clock advance 74562ms
+hold tw 2 ttl=56s
+clock advance 53266ms
+clock advance 50385ms
+hold tw 3 ttl=5s
+hold tw 5 ttl=36m
+clock advance 53074ms
+clock advance 73069ms
+hold tw 4 ttl=4405ms
+hold tw 1 ttl=12s
+clock advance 34829ms
+hold tw 4 ttl=4137ms
+clock advance 63998ms
+hold tw 3 ttl=25s
+hold tw 3 ttl=1s
+clock advance 53876ms
+clock advance 85549ms
+hold tw 3 ttl=22m
+clock advance 88053ms
+clock advance 80596ms
+clock advance 75954ms
+hold tw 2 ttl=31s
+holds tw
+hold tw 5 ttl=1149ms
+clock advance 33791ms
+hold tw 4 ttl=27m
+hold tw 4 ttl=3065ms
+clock advance 66266ms
+hold tw 3 ttl=4635ms
+clock advance 9581ms
+clock advance 19047ms
+clock advance 76893ms
+clock advance 17014ms
+hold tw 5 ttl=4m
+clock advance 29071ms
+holds tw
+clock advance 51800ms
+holds tw
+clock advance 35614ms
+hold tw 2 ttl=9s
+hold tw 2 ttl=2341ms
+clock advance 15684ms
+hold tw 4 ttl=47m
+holds tw
+hold tw 5 ttl=3955ms
+hold tw 5 ttl=3798ms
+clock advance 76514ms
+hold tw 5 ttl=5s
+holds tw
+clock advance 32847ms
+clock advance 16887ms
+hold tw 2 ttl=47m
+hold tw 2 ttl=10m
+clock advance 64362ms
+holds tw
+hold tw 3 ttl=1s
+clock advance 53772ms
+clock advance 436ms
+hold tw 4 ttl=37m
+clock advance 36492ms
+hold tw 3 ttl=49m
+hold tw 5 ttl=3758ms
+hold tw 5 ttl=59s
+clock advance 72270ms
+clock advance 38042ms
+hold tw 3 ttl=13s
+hold tw 5 ttl=2001ms
+clock advance 58618ms
+hold tw 2 ttl=56s
+hold tw 3 ttl=1048ms
+clock advance 46215ms
+holds tw
+clock advance 41542ms
+clock advance 85497ms
+clock advance 42082ms
+hold tw 1 ttl=40m
+hold tw 1 ttl=12s
+hold tw 4 ttl=12m
+holds tw
+hold tw 3 ttl=34s
+hold tw 4 ttl=1190ms
+hold tw 4 ttl=3990ms
+clock advance 63864ms
+hold tw 3 ttl=3354ms
+clock advance 27411ms
+clock advance 42683ms
+holds tw
+hold tw 4 ttl=11m
+clock advance 62763ms
+clock advance 28400ms
+clock advance 74897ms
+hold tw 3 ttl=8m
+hold tw 5 ttl=11m
+holds tw
+hold tw 3 ttl=44s
+hold tw 2 ttl=2941ms
+clock advance 15954ms
+hold tw 2 ttl=40m
+hold tw 5 ttl=21m
+hold tw 2 ttl=8m
+clock advance 83835ms
+hold tw 2 ttl=41s
+hold tw 1 ttl=4469ms
+clock advance 67519ms
+clock advance 74095ms
+clock advance 174ms
+hold tw 3 ttl=26s
+hold tw 1 ttl=4930ms
+clock advance 47000ms
+clock advance 47244ms
+hold tw 1 ttl=4m
+clock advance 41668ms
+clock advance 2919ms
+clock advance 73141ms
+clock advance 4671ms
+clock advance 56579ms
+hold tw 3 ttl=3761ms
+clock advance 69098ms
+clock advance 80218ms
+clock advance 5744ms
+clock advance 15697ms
+clock advance 72704ms
+hold tw 1 ttl=15m
+clock advance 67024ms
+hold tw 5 ttl=12m
+holds tw
+hold tw 1 ttl=4769ms
+clock advance 71065ms
+hold tw 5 ttl=2263ms
+clock advance 47410ms
+hold tw 1 ttl=4859ms
+clock advance 65483ms
+clock advance 42018ms
+hold tw 3 ttl=46m
+clock advance 42012ms
+hold tw 3 ttl=2420ms
+hold tw 3 ttl=4226ms
+clock advance 74802ms
+hold tw 1 ttl=29m
+clock advance 46859ms
+clock advance 60246ms
+holds tw
+hold tw 2 ttl=4627ms
+holds tw
+hold tw 3 ttl=34s
+clock advance 27378ms
+hold tw 4 ttl=2891ms
+clock advance 17024ms
+hold tw 4 ttl=4240ms
+hold tw 1 ttl=8s
+clock advance 30087ms
+clock advance 30234ms
+clock advance 46008ms
+clock advance 21228ms
+clock advance 80107ms
+clock advance 70970ms
+hold tw 4 ttl=2105ms
+hold tw 5 ttl=23m
+hold tw 1 ttl=15s
+hold tw 3 ttl=41m
+hold tw 3 ttl=3378ms
+hold tw 3 ttl=2s
+hold tw 1 ttl=2206ms
+holds tw
+holds tw
+clock advance 38837ms
+hold tw 1 ttl=1046ms
+clock advance 89654ms
+hold tw 5 ttl=1324ms
+clock advance 14768ms
+hold tw 3 ttl=4301ms
+clock advance 42663ms
+clock advance 44809ms
+hold tw 5 ttl=2389ms
+hold tw 5 ttl=15s
+hold tw 2 ttl=23s
+holds tw
+hold tw 4 ttl=20s
+clock advance 52924ms
+clock advance 16168ms
+clock advance 62224ms
+clock advance 64911ms
+clock advance 87407ms
+hold tw 5 ttl=4312ms
+clock advance 21719ms
+clock advance 68371ms
+clock advance 13321ms
+holds tw
+clock advance 41113ms
+clock advance 45715ms
+clock advance 29308ms
+clock advance 76411ms
+clock advance 24254ms
+hold tw 3 ttl=43m
+clock advance 69401ms
+clock advance 64590ms
+hold tw 3 ttl=33m
+hold tw 2 ttl=24m
+clock advance 44514ms
+hold tw 5 ttl=4346ms
+clock advance 2733ms
+clock advance 69924ms
+clock advance 86683ms
+hold tw 5 ttl=16m
+clock advance 144ms
+hold tw 3 ttl=44m
+clock advance 84410ms
+hold tw 2 ttl=4033ms
+hold tw 5 ttl=1596ms
+hold tw 4 ttl=12m
+hold tw 2 ttl=25m
+holds tw
+clock advance 11835ms
+hold tw 4 ttl=40m
+clock advance 9865ms
+clock advance 12951ms
+clock advance 64951ms
+holds tw
+hold tw 2 ttl=46s
+hold tw 3 ttl=30m
+clock advance 52ms
+holds tw
+clock advance 65664ms
+hold tw 2 ttl=1852ms
+hold tw 2 ttl=2643ms
+hold tw 1 ttl=24m
+hold tw 1 ttl=15m
+clock advance 8376ms
+clock advance 25636ms
+hold tw 4 ttl=2972ms
+clock advance 9697ms
+clock advance 82495ms
+holds tw
+hold tw 5 ttl=1844ms
+hold tw 2 ttl=46s
+hold tw 4 ttl=46m
+hold tw 5 ttl=12m
+clock advance 30919ms
+hold tw 1 ttl=1172ms
+holds tw
+hold tw 2 ttl=4s
+clock advance 23126ms
+clock advance 51580ms
+clock advance 77645ms
+hold tw 5 ttl=40m
+clock advance 19125ms
+hold tw 2 ttl=13s
+hold tw 5 ttl=9m
+clock advance 82651ms
+hold tw 1 ttl=1088ms
+hold tw 2 ttl=55s
+hold tw 4 ttl=2414ms
+hold tw 5 ttl=2s
+hold tw 1 ttl=4027ms
+hold tw 5 ttl=10s
+clock advance 979ms
+hold tw 3 ttl=2836ms
+clock advance 82308ms
+hold tw 3 ttl=4012ms
+hold tw 2 ttl=32m
+clock advance 46112ms
+hold tw 1 ttl=3176ms
+hold tw 2 ttl=2956ms
+hold tw 4 ttl=58s
+clock advance 28711ms
+hold tw 4 ttl=12m
+clock advance 44672ms
+hold tw 1 ttl=10s
+hold tw 5 ttl=46m
+hold tw 2 ttl=3s
+hold tw 5 ttl=4509ms
+clock advance 31123ms
+hold tw 3 ttl=3389ms
+clock advance 52007ms
+hold tw 5 ttl=21m
+hold tw 3 ttl=1837ms
+hold tw 5 ttl=3225ms
+hold tw 5 ttl=1m
+hold tw 1 ttl=4116ms
+clock advance 7781ms
+hold tw 1 ttl=48s
+holds tw
+clock advance 47829ms
+holds tw
+hold tw 5 ttl=3781ms
+clock advance 29299ms
+clock advance 14973ms
+hold tw 3 ttl=4528ms
+hold tw 2 ttl=2598ms
+hold tw 1 ttl=42m
+clock advance 54288ms
+hold tw 3 ttl=1s
+hold tw 3 ttl=1425ms
+hold tw 3 ttl=35m
+clock advance 61368ms
+clock advance 30492ms
+clock advance 17954ms
+hold tw 5 ttl=9m
+hold tw 5 ttl=4377ms
+hold tw 3 ttl=35s
+clock advance 63852ms
+clock advance 34139ms
+hold tw 3 ttl=4942ms
+hold tw 3 ttl=1865ms
+hold tw 4 ttl=16s
+clock advance 33651ms
+hold tw 3 ttl=21s
+clock advance 51764ms
+clock advance 55020ms
+hold tw 3 ttl=2134ms
+holds tw
+clock advance 22695ms
+clock advance 60548ms
+hold tw 2 ttl=24m
+clock advance 18874ms
+clock advance 70390ms
+hold tw 4 ttl=3894ms
+clock advance 62123ms
+clock advance 11388ms
+holds tw
+hold tw 5 ttl=32m
+hold tw 5 ttl=40s
+hold tw 4 ttl=2359ms
+clock advance 82137ms
+clock advance 67553ms
+hold tw 5 ttl=2778ms
+clock advance 6852ms
+holds tw
+clock advance 77648ms
+hold tw 5 ttl=1237ms
+hold tw 5 ttl=1678ms
+hold tw 3 ttl=31m
+holds tw
+hold tw 3 ttl=43s
+hold tw 4 ttl=9m
+holds tw
+clock advance 46371ms
+clock advance 1496ms
+holds tw
+clock advance 82469ms
+clock advance 24664ms
+hold tw 3 ttl=4751ms
+clock advance 29337ms
+hold tw 5 ttl=37s
+hold tw 1 ttl=29m
+clock advance 3626ms
+hold tw 1 ttl=57s
+clock advance 68052ms
+hold tw 3 ttl=2016ms
+clock advance 67449ms
+hold tw 5 ttl=38m
+hold tw 3 ttl=3034ms
+hold tw 4 ttl=4602ms
+clock advance 78840ms
+holds tw
+clock advance 8730ms
+hold tw 5 ttl=14m
+clock advance 10418ms
+hold tw 1 ttl=28m
+hold tw 4 ttl=1758ms
+clock advance 26542ms
+clock advance 64790ms
+hold tw 2 ttl=40s
+hold tw 2 ttl=2433ms
+clock advance 39090ms
+hold tw 5 ttl=33m
+clock advance 30605ms
+hold tw 5 ttl=1294ms
+clock advance 69651ms
+hold tw 4 ttl=15s
+hold tw 1 ttl=4732ms
+hold tw 1 ttl=4067ms
+hold tw 5 ttl=41m
+clock advance 78743ms
+hold tw 4 ttl=2855ms
+hold tw 4 ttl=4112ms
+clock advance 18432ms
+hold tw 1 ttl=4959ms
+clock advance 32728ms
+hold tw 4 ttl=4829ms
+hold tw 1 ttl=24s
+hold tw 1 ttl=13m
+hold tw 4 ttl=2019ms
+hold tw 5 ttl=40s
+clock advance 21963ms
+clock advance 16714ms
+hold tw 5 ttl=1949ms
+hold tw 2 ttl=46s
+hold tw 4 ttl=34m
+holds tw
+hold tw 1 ttl=56s
+holds tw
+clock advance 89460ms
+clock advance 87108ms
+clock advance 89203ms
+hold tw 4 ttl=1460ms
+hold tw 4 ttl=4139ms
+hold tw 3 ttl=59s
+clock advance 50183ms
+clock advance 80519ms
+clock advance 53389ms
+hold tw 2 ttl=4011ms
+holds tw
+clock advance 46972ms
+clock advance 62913ms
+hold tw 2 ttl=56s
+hold tw 3 ttl=1681ms
+hold tw 2 ttl=21m
+hold tw 5 ttl=10s
+clock advance 9461ms
+clock advance 84621ms
+hold tw 5 ttl=9m
+hold tw 4 ttl=14m
+clock advance 57840ms
+hold tw 3 ttl=17m
+clock advance 67252ms
+clock advance 3931ms
+hold tw 2 ttl=2283ms
+hold tw 5 ttl=46m
+hold tw 5 ttl=46m
+hold tw 2 ttl=4507ms
+hold tw 2 ttl=31s
+hold tw 2 ttl=1m
+hold tw 4 ttl=2798ms
+hold tw 5 ttl=4501ms
+clock advance 7042ms
+clock advance 64712ms
+hold tw 1 ttl=2m
+clock advance 29574ms
+clock advance 75200ms
+clock advance 23854ms
+clock advance 71229ms
+hold tw 3 ttl=40m
+clock advance 51788ms
+clock advance 7536ms
+hold tw 4 ttl=28m
+hold tw 5 ttl=37m
+holds tw
+clock advance 24760ms
+clock advance 38114ms
+holds tw
+hold tw 5 ttl=58s
+clock advance 50341ms
+clock advance 76533ms
+hold tw 5 ttl=2s
+hold tw 4 ttl=40m
+clock advance 46176ms
+hold tw 2 ttl=3686ms
+holds tw
+hold tw 5 ttl=47m
+clock advance 28603ms
+clock advance 10600ms
+clock advance 38977ms
+hold tw 5 ttl=49m
+hold tw 1 ttl=13m
+clock advance 77290ms
+clock advance 87281ms
+hold tw 5 ttl=4s
+clock advance 26588ms
+holds tw
+clock advance 22472ms
+holds tw
+hold tw 5 ttl=4617ms
+clock advance 36271ms
+clock advance 63273ms
+clock advance 54826ms
+hold tw 3 ttl=23m
+hold tw 1 ttl=13s
+hold tw 3 ttl=1519ms
+hold tw 4 ttl=42s
+clock advance 5164ms
+hold tw 3 ttl=3818ms
+clock advance 20699ms
+holds tw
+hold tw 1 ttl=14m
+hold tw 1 ttl=24m
+clock advance 40722ms
+hold tw 2 ttl=18m
+clock advance 1051ms
+clock advance 64082ms
+hold tw 2 ttl=4519ms
+hold tw 2 ttl=56s
+hold tw 2 ttl=34m
+clock advance 47651ms
+clock advance 88243ms
+hold tw 1 ttl=22s
+hold tw 1 ttl=2s
+clock advance 38092ms
+clock advance 52242ms
+clock advance 59481ms
+clock advance 73928ms
+hold tw 5 ttl=4939ms
+clock advance 81610ms
+hold tw 5 ttl=4333ms
+hold tw 3 ttl=4918ms
+clock advance 16361ms
+clock advance 60111ms
+hold tw 1 ttl=54s
+hold tw 4 ttl=33s
+clock advance 16446ms
+hold tw 5 ttl=5s
+clock advance 56187ms
+hold tw 4 ttl=48s
+holds tw
+hold tw 1 ttl=57s
+clock advance 34900ms
+clock advance 57644ms
+clock advance 71213ms
+hold tw 1 ttl=56s
+clock advance 38982ms
+clock advance 88740ms
+hold tw 1 ttl=4820ms
+clock advance 23653ms
+clock advance 81641ms
+hold tw 2 ttl=57s
+clock advance 84182ms
+hold tw 5 ttl=27m
+clock advance 78017ms
+hold tw 2 ttl=10s
+hold tw 3 ttl=1878ms
+holds tw
+clock advance 53844ms
+holds tw
+clock advance 36920ms
+clock advance 75228ms
+clock advance 1279ms
+hold tw 4 ttl=1621ms
+holds tw
+clock advance 14716ms
+clock advance 35451ms
+hold tw 4 ttl=4734ms
+clock advance 23988ms
+clock advance 87501ms
+clock advance 44352ms
+clock advance 92ms
+clock advance 77178ms
+clock advance 45176ms
+clock advance 43052ms
+clock advance 59561ms
+hold tw 1 ttl=3259ms
+clock advance 18450ms
+clock advance 47456ms
+hold tw 5 ttl=32m
+holds tw
+holds tw
+clock advance 38997ms
+hold tw 3 ttl=10s
+hold tw 3 ttl=41s
+clock advance 44223ms
+hold tw 3 ttl=4447ms
+holds tw
+clock advance 32353ms
+hold tw 5 ttl=1503ms
+clock advance 77010ms
+clock advance 74174ms
+hold tw 2 ttl=23m
+clock advance 88120ms
+hold tw 2 ttl=9s
+hold tw 4 ttl=1790ms
+clock advance 75566ms
+clock advance 27928ms
+hold tw 2 ttl=1108ms
+clock advance 42743ms
+hold tw 2 ttl=26m
+clock advance 41174ms
+hold tw 5 ttl=2595ms
+hold tw 2 ttl=1851ms
+hold tw 5 ttl=3087ms
+clock advance 3030ms
+clock advance 1024ms
+hold tw 4 ttl=5m
+clock advance 87829ms
+clock advance 12929ms
+holds tw
+hold tw 4 ttl=3920ms
+clock advance 52731ms
+clock advance 28688ms
+hold tw 1 ttl=3810ms
+clock advance 67425ms
+clock advance 53842ms
+clock advance 65860ms
+clock advance 29398ms
+hold tw 5 ttl=46s
+clock advance 19798ms
+clock advance 18592ms
+holds tw
+hold tw 5 ttl=35m
+clock advance 77743ms
+clock advance 6754ms
+clock advance 33697ms
+hold tw 1 ttl=11s
+clock advance 69555ms
+hold tw 4 ttl=1819ms
+clock advance 61323ms
+clock advance 10093ms
+hold tw 1 ttl=1149ms
+clock advance 36572ms
+hold tw 1 ttl=4333ms
+clock advance 76058ms
+hold tw 1 ttl=15s
+clock advance 18122ms
+clock advance 38318ms
+hold tw 5 ttl=16m
+holds tw
+clock advance 53216ms
+clock advance 16411ms
+hold tw 4 ttl=2452ms
+clock advance 64529ms
+clock advance 14185ms
+clock advance 47939ms
+clock advance 42916ms
+clock advance 19655ms
+clock advance 77304ms
+clock advance 79034ms
+hold tw 5 ttl=37s
+hold tw 4 ttl=4537ms
+hold tw 4 ttl=3091ms
+clock advance 20341ms
+clock advance 21939ms
+hold tw 5 ttl=17m
+clock advance 4908ms
+clock advance 28558ms
+hold tw 5 ttl=1988ms
+clock advance 77906ms
+hold tw 3 ttl=32s
+hold tw 2 ttl=7s
+clock advance 64082ms
+hold tw 2 ttl=34m
+hold tw 3 ttl=43m
+hold tw 4 ttl=34m
+hold tw 3 ttl=46m
+clock advance 22918ms
+hold tw 2 ttl=19s
+hold tw 3 ttl=45m
+clock advance 4262ms
+clock advance 77957ms
+holds tw
+hold tw 3 ttl=59s
+hold tw 5 ttl=11s
+hold tw 4 ttl=4155ms
+hold tw 3 ttl=1956ms
+clock advance 9470ms
+hold tw 3 ttl=1815ms
+clock advance 57889ms
+clock advance 36358ms
+holds tw
+clock advance 89095ms
+hold tw 1 ttl=1m
+hold tw 1 ttl=45s
+holds tw
+clock advance 11858ms
+clock advance 56772ms
+hold tw 5 ttl=18s
+clock advance 79156ms
+holds tw
+holds tw
+holds tw
+clock advance 10142ms
+holds tw
+clock advance 42191ms
+clock advance 75999ms
+hold tw 1 ttl=39s
+hold tw 4 ttl=3821ms
+clock advance 43116ms
+clock advance 41536ms
+hold tw 3 ttl=15s
+hold tw 2 ttl=9m
+clock advance 53495ms
+hold tw 3 ttl=24m
+hold tw 1 ttl=1626ms
+clock advance 68911ms
+hold tw 5 ttl=32m
+holds tw
+hold tw 4 ttl=42s
+holds tw
+clock advance 31981ms
+hold tw 2 ttl=48m
+hold tw 1 ttl=42m
+clock advance 66839ms
+hold tw 2 ttl=13m
+clock advance 21860ms
+clock advance 59233ms
+clock advance 76128ms
+hold tw 4 ttl=5s
+hold tw 5 ttl=2739ms
+hold tw 4 ttl=17s
+hold tw 2 ttl=3229ms
+clock advance 21440ms
+hold tw 1 ttl=12s
+holds tw
+holds tw
+hold tw 2 ttl=19s
+hold tw 4 ttl=3499ms
+hold tw 1 ttl=10s
+clock advance 20714ms
+clock advance 64500ms
+hold tw 1 ttl=2451ms
+hold tw 2 ttl=20s
+hold tw 2 ttl=1834ms
+clock advance 60819ms
+hold tw 3 ttl=55s
+clock advance 69293ms
+holds tw
+hold tw 2 ttl=11m
+hold tw 1 ttl=1m
+hold tw 5 ttl=45s
+clock advance 63019ms
+clock advance 56225ms
+hold tw 3 ttl=32s
+holds tw
+hold tw 5 ttl=38s
+hold tw 3 ttl=6s
+hold tw 1 ttl=51s
+clock advance 53445ms
+clock advance 46765ms
+hold tw 5 ttl=50s
+hold tw 4 ttl=3853ms
+hold tw 1 ttl=4m
+hold tw 5 ttl=12m
+hold tw 3 ttl=14s
+holds tw
+clock advance 11861ms
+clock advance 86742ms
+clock advance 59864ms
+clock advance 77492ms
+clock advance 3087ms
+hold tw 5 ttl=12m
+hold tw 4 ttl=3200ms
+clock advance 64944ms
+clock advance 9014ms
+hold tw 5 ttl=3m
+clock advance 27210ms
+holds tw
+clock advance 32124ms
+clock advance 34156ms
+hold tw 5 ttl=1682ms
+hold tw 2 ttl=31s
+clock advance 66979ms
+holds tw
+hold tw 4 ttl=3525ms
+hold tw 2 ttl=2872ms
+hold tw 5 ttl=2100ms
+clock advance 37841ms
+hold tw 5 ttl=3285ms
+clock advance 70401ms
+hold tw 1 ttl=16m
+hold tw 3 ttl=35m
+hold tw 2 ttl=1251ms
+clock advance 5425ms
+hold tw 1 ttl=3928ms
+clock advance 38646ms
+clock advance 24797ms
+clock advance 70793ms
+hold tw 1 ttl=31s
+holds tw
+clock advance 67796ms
+clock advance 59089ms
+clock advance 76302ms
+clock advance 41886ms
+holds tw
+clock advance 27736ms
+hold tw 4 ttl=3645ms
+hold tw 5 ttl=26s
+hold tw 2 ttl=27s
+hold tw 5 ttl=3677ms
+hold tw 2 ttl=3743ms
+clock advance 83595ms
+hold tw 2 ttl=1751ms
+hold tw 4 ttl=2020ms
+clock advance 10854ms
+hold tw 4 ttl=1222ms
+holds tw
+clock advance 53799ms
+clock advance 85006ms
+clock advance 49304ms
+clock advance 55211ms
+hold tw 3 ttl=1225ms
+clock advance 54382ms
+clock advance 47600ms
+hold tw 4 ttl=40s
+clock advance 86346ms
+clock advance 81822ms
+clock advance 55432ms
+hold tw 1 ttl=40s
+hold tw 5 ttl=10m
+hold tw 4 ttl=3755ms
+hold tw 4 ttl=11m
+hold tw 2 ttl=15s
+hold tw 3 ttl=3733ms
+hold tw 4 ttl=2674ms
+clock advance 15669ms
+holds tw
+clock advance 48667ms
+hold tw 1 ttl=1440ms
+clock advance 42385ms
+hold tw 3 ttl=34m
+hold tw 5 ttl=40s
+hold tw 5 ttl=2994ms
+clock advance 24300ms
+hold tw 3 ttl=32s
+hold tw 1 ttl=2321ms
+clock advance 5705ms
+hold tw 5 ttl=44s
+clock advance 18322ms
+clock advance 57563ms
+hold tw 2 ttl=22m
+clock advance 48197ms
+clock advance 41427ms
+clock advance 27688ms
+hold tw 4 ttl=21m
+clock advance 35215ms
+clock advance 70958ms
+clock advance 73201ms
+clock advance 23263ms
+clock advance 3453ms
+clock advance 58573ms
+clock advance 25982ms
+hold tw 1 ttl=57s
+clock advance 85154ms
+clock advance 48396ms
+hold tw 1 ttl=6m
+clock advance 13463ms
+hold tw 1 ttl=2461ms
+clock advance 36987ms
+holds tw
+clock advance 72014ms
+clock advance 84785ms
+clock advance 43858ms
+hold tw 2 ttl=6s
+clock advance 60983ms
+hold tw 4 ttl=46m
+hold tw 2 ttl=35s
+clock advance 16447ms
+hold tw 3 ttl=41s
+hold tw 5 ttl=10m
+hold tw 4 ttl=31s
+hold tw 1 ttl=4920ms
+hold tw 1 ttl=16m
+clock advance 16930ms
+clock advance 78101ms
+hold tw 2 ttl=3m
+hold tw 4 ttl=23m
+hold tw 3 ttl=30m
+hold tw 1 ttl=7m
+clock advance 76808ms
+hold tw 1 ttl=2108ms
+clock advance 36883ms
+hold tw 2 ttl=44m
+clock advance 43206ms
+clock advance 62773ms
+clock advance 33499ms
+hold tw 2 ttl=36s
+clock advance 4645ms
+hold tw 2 ttl=32s
+holds tw
+clock advance 87376ms
+hold tw 2 ttl=29s
+hold tw 1 ttl=45s
+hold tw 5 ttl=2350ms
+hold tw 3 ttl=19s
+hold tw 1 ttl=3959ms
+clock advance 70487ms
+clock advance 8575ms
+hold tw 5 ttl=54s
+hold tw 3 ttl=24s
+hold tw 5 ttl=43m
+hold tw 1 ttl=49m
+clock advance 47485ms
+clock advance 12499ms
+holds tw
+hold tw 2 ttl=36m
+hold tw 5 ttl=47m
+clock advance 23989ms
+hold tw 4 ttl=40m
+clock advance 40225ms
+hold tw 1 ttl=1574ms
+hold tw 1 ttl=1675ms
+holds tw
+clock advance 85002ms
+hold tw 4 ttl=5m
+clock advance 85139ms
+clock advance 38667ms
+hold tw 2 ttl=50s
+clock advance 32381ms
+hold tw 3 ttl=1626ms
+clock advance 49592ms
+clock advance 63975ms
+hold tw 4 ttl=41s
+clock advance 13209ms
+holds tw
+clock advance 54600ms
+hold tw 5 ttl=45s
+clock advance 2058ms
+hold tw 2 ttl=29s
+clock advance 33049ms
+clock advance 59159ms
+hold tw 4 ttl=1107ms
+holds tw
+holds tw
+hold tw 4 ttl=2093ms
+clock advance 38992ms
+clock advance 54418ms
+clock advance 34498ms
+hold tw 5 ttl=36s
+hold tw 5 ttl=16m
+holds tw
+hold tw 1 ttl=30m
+clock advance 36873ms
+hold tw 3 ttl=29s
+clock advance 88760ms
+hold tw 2 ttl=33s
+clock advance 8366ms
+hold tw 3 ttl=2678ms
+clock advance 14341ms
+hold tw 3 ttl=20s
+hold tw 1 ttl=4367ms
+clock advance 651ms
+hold tw 5 ttl=14m
+clock advance 77659ms
+hold tw 4 ttl=4725ms
+hold tw 1 ttl=49m
+holds tw
+clock advance 72517ms
+holds tw
+holds tw
+clock advance 57712ms
+clock advance 35238ms
+hold tw 2 ttl=37s
+clock advance 12056ms
+clock advance 78830ms
+hold tw 1 ttl=4807ms
+hold tw 2 ttl=4635ms
+clock advance 60468ms
+hold tw 3 ttl=35m
+clock advance 51317ms
+clock advance 39342ms
+hold tw 1 ttl=4026ms
+clock advance 23389ms
+hold tw 3 ttl=47s
+clock advance 6438ms
+clock advance 79467ms
+clock advance 2224ms
+clock advance 66640ms
+clock advance 8071ms
+clock advance 31509ms
+hold tw 2 ttl=3495ms
+clock advance 36587ms
+hold tw 4 ttl=35s
+clock advance 23872ms
+hold tw 5 ttl=4850ms
+clock advance 61352ms
+clock advance 56521ms
+hold tw 1 ttl=47m
+clock advance 31706ms
+clock advance 87836ms
+hold tw 3 ttl=3507ms
+hold tw 1 ttl=3420ms
+clock advance 53298ms
+hold tw 2 ttl=4439ms
+clock advance 13315ms
+clock advance 13240ms
+hold tw 2 ttl=16m
+holds tw
+clock advance 8224ms
+holds tw
+hold tw 4 ttl=42m
+hold tw 1 ttl=20s
+hold tw 5 ttl=2608ms
+clock advance 52070ms
+hold tw 1 ttl=3074ms
+hold tw 5 ttl=8m
+clock advance 73563ms
+hold tw 4 ttl=10m
+hold tw 2 ttl=13m
+clock advance 2991ms
+holds tw
+clock advance 47544ms
+clock advance 5807ms
+clock advance 45495ms
+hold tw 5 ttl=22s
+hold tw 5 ttl=19s
+clock advance 81630ms
+hold tw 1 ttl=1919ms
+clock advance 551ms
+hold tw 1 ttl=1265ms
+hold tw 5 ttl=27m
+clock advance 70798ms
+clock advance 35888ms
+clock advance 62059ms
+clock advance 7406ms
+hold tw 5 ttl=45s
+holds tw
+holds tw
+hold tw 4 ttl=13m
+hold tw 4 ttl=2909ms
+hold tw 5 ttl=20m
+holds tw
+hold tw 4 ttl=27m
+hold tw 2 ttl=1355ms
+hold tw 3 ttl=2407ms
+hold tw 3 ttl=58s
+hold tw 2 ttl=2106ms
+clock advance 28461ms
+clock advance 56979ms
+hold tw 2 ttl=9m
+hold tw 4 ttl=4893ms
+hold tw 5 ttl=3780ms
+clock advance 51956ms
+hold tw 2 ttl=43s
+hold tw 1 ttl=4442ms
+clock advance 67669ms
+hold tw 3 ttl=52s
+hold tw 5 ttl=3094ms
+clock advance 76051ms
+clock advance 12782ms
+hold tw 3 ttl=18s
+hold tw 1 ttl=39m
+holds tw
+clock advance 60094ms
+clock advance 64858ms
+clock advance 42426ms
+holds tw
+clock advance 42693ms
+clock advance 31823ms
+clock advance 41478ms
+clock advance 37310ms
+clock advance 70342ms
+clock advance 19276ms
+clock advance 78482ms
+hold tw 5 ttl=2553ms
+hold tw 1 ttl=16m
+holds tw
+clock advance 14992ms
+clock advance 43262ms
+hold tw 5 ttl=2293ms
+hold tw 2 ttl=3613ms
+clock advance 39648ms
+hold tw 5 ttl=1316ms
+clock advance 15199ms
+hold tw 1 ttl=42m
+clock advance 84705ms
+clock advance 38973ms
+holds tw
+hold tw 4 ttl=34s
+hold tw 1 ttl=4950ms
+clock advance 12750ms
+hold tw 4 ttl=1048ms
+hold tw 1 ttl=1403ms
+clock advance 23714ms
+clock advance 79709ms
+clock advance 6263ms
+hold tw 1 ttl=3650ms
+clock advance 20629ms
+clock advance 75594ms
+clock advance 48025ms
+clock advance 79504ms
+hold tw 1 ttl=47m
+hold tw 4 ttl=1630ms
+clock advance 32908ms
+hold tw 5 ttl=21s
+clock advance 24140ms
+holds tw
+hold tw 5 ttl=2179ms
+clock advance 54496ms
+hold tw 2 ttl=22m
+hold tw 4 ttl=36s
+holds tw
+check

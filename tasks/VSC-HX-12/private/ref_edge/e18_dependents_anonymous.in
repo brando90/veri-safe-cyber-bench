@@ -1,0 +1,10 @@
+user add alice
+user add bob
+publish alice json 2.0.0
+publish alice json-schema 1.0.0 deps=json@^2 visibility=private
+owner invite alice json-schema bob role=reader
+owner accept bob json-schema
+dependents - json
+dependents bob json
+visibility alice json-schema public
+dependents - json

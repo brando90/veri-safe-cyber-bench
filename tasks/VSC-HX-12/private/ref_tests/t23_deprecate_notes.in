@@ -1,0 +1,9 @@
+user add alice
+publish alice dep 1.0.0
+publish alice dep 1.1.0
+deprecate alice dep 1.1.0 message="moved to dep2"
+fetch - dep
+resolve - dep ^1
+info - dep
+deprecate alice dep 1.1.0
+fetch - dep

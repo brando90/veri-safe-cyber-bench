@@ -1,0 +1,17 @@
+open alice slot=0 gen=0
+open bob slot=1 gen=0
+open zed slot=2 gen=0
+ok T0.0 deposit alice 1000.00 balance=1000.00
+ok T0.1 deposit bob 0.01 balance=0.01
+deny daily limit=500.00 spent=0.00
+deny funds available=0.01
+ok T0.2 withdraw zed 5.50 balance=-5.50
+deny funds available=0.00
+ok T0.3 deposit zed 5.50 balance=0.00
+alice slot=0 gen=0 balance=1000.00 held=0.00 ops=1
+bob slot=1 gen=0 balance=0.01 held=0.00 ops=1
+zed slot=2 gen=0 balance=0.00 held=0.00 ops=2
+accounts open=3
+zed balance=0.00 held=0.00 available=5.50 spent_today=5.50 debits_last_hour=1
+journal records=4 folded=0 live=4 segments=1 sealed=0 compactions=0
+check ok records=4 live=4 accounts=3 holds=0 batches=0

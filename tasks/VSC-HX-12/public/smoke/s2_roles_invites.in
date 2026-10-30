@@ -1,0 +1,20 @@
+# roles and invites
+user add alice
+user add bob
+user add carol
+publish alice api-kit 2.0.0 size=10KiB
+owner invite alice api-kit bob
+owner invite alice api-kit carol role=reader ttl=2d
+invites alice api-kit
+clock advance 1h
+owner accept bob api-kit
+roles - api-kit
+publish bob api-kit 2.1.0 size=10KiB
+owner remove alice api-kit bob
+publish bob api-kit 2.2.0
+roles carol api-kit
+invites alice api-kit
+owner accept carol api-kit
+roles - api-kit
+user show carol
+quota bob

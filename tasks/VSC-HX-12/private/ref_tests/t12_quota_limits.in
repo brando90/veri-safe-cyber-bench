@@ -1,0 +1,16 @@
+user add root admin
+user add alice
+quota set root alice 10
+publish alice big 1.0.0 size=4KiB
+publish alice big 1.1.0 size=5000
+publish alice big 1.2.0 size=1
+publish alice big 1.3.0 size=1
+quota alice
+unpublish alice big 1.1.0
+quota alice
+publish alice big 1.3.0 size=5KiB
+quota set alice alice 99
+package delete root big
+quota alice
+publish alice big 2.0.0 size=10KiB
+quota alice

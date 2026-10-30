@@ -1,0 +1,7 @@
+# fetch with an unreadable requirement is an error, as in resolve
+user add alice
+publish alice mathlib 1.2.0
+resolve - mathlib 1.x
+fetch - mathlib 1.x
+fetch - mathlib ^1
+info - mathlib

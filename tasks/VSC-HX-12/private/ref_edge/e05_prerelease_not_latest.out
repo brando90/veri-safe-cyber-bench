@@ -1,0 +1,13 @@
+user alice added
+user bob added
+published orm 1.4.0 (1 KiB)
+published orm 2.0.0-beta.1 (1 KiB)
+tags orm: latest=1.4.0
+fetched orm 1.4.0
+found orm latest=1.4.0 releases=2
+published orm 1.5.0 (1 KiB)
+tags orm: latest=1.5.0
+package orm visibility=public latest=1.5.0 downloads=1 releases=3
+  1.4.0 1 KiB by=alice at=0 downloads=1
+  1.5.0 1 KiB by=alice at=0
+  2.0.0-beta.1 1 KiB by=alice at=0

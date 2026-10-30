@@ -1,0 +1,19 @@
+open qua
+open rex
+deposit qua 30
+transfer qua rex 1
+transfer rex qua 2
+hold qua 5
+capture H001 to=rex
+reverse T0.3
+withdraw rex 1
+history qua last=3
+history rex last=100
+history qua last=1000
+show T0.3
+show T0.4
+show T0.6
+show T0.7
+open sam
+history sam
+check

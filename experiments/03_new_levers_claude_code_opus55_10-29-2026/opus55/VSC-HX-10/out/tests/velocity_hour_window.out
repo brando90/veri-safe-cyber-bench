@@ -1,0 +1,15 @@
+open v slot=0 gen=0
+ok T0.0 deposit v 100.00 balance=100.00
+ok T0.1 withdraw v 1.00 balance=99.00
+ok T0.2 withdraw v 1.00 balance=98.00
+deny velocity limit=2
+now=3540000
+v balance=98.00 held=0.00 available=98.00 spent_today=2.00 debits_last_hour=2
+deny velocity limit=2
+now=3599999
+deny velocity limit=2
+now=3600000
+v balance=98.00 held=0.00 available=98.00 spent_today=2.00 debits_last_hour=0
+ok T0.3 withdraw v 1.00 balance=97.00
+v balance=97.00 held=0.00 available=97.00 spent_today=3.00 debits_last_hour=1
+check ok records=4 live=4 accounts=1 holds=0 batches=0

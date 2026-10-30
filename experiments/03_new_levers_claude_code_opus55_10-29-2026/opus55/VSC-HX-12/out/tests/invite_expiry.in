@@ -1,0 +1,12 @@
+# an invite cannot be accepted at or after its deadline
+user add alice
+user add bob
+user add carol
+publish alice queue 1.0.0
+owner invite alice queue bob ttl=1h
+owner invite alice queue carol ttl=2h
+clock advance 1h
+invites alice queue
+owner accept bob queue
+owner accept carol queue
+roles - queue

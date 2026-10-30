@@ -1,0 +1,11 @@
+user alice added
+published dep 1.0.0 (0 KiB)
+published dep 1.1.0 (0 KiB)
+deprecated dep 1.1.0
+fetched dep 1.1.0 (deprecated: moved to dep2)
+dep ^1 -> 1.1.0 (deprecated: moved to dep2)
+package dep visibility=public latest=1.1.0 downloads=1 releases=2
+  1.0.0 0 B by=alice at=0
+  1.1.0 0 B by=alice at=0 deprecated="moved to dep2" downloads=1
+undeprecated dep 1.1.0
+fetched dep 1.1.0

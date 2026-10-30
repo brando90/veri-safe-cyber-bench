@@ -1,0 +1,30 @@
+open fay slot=0 gen=0
+open gus slot=1 gen=0
+ok T0.0 deposit fay 100.00 balance=100.00
+ok T0.1 transfer fay->gus 20.00 balance=80.00
+ok T0.2 withdraw fay 5.00 balance=75.00
+ok T0.3 reverse T0.1 20.00
+error: T0.1 already reversed by T0.3
+error: T0.3 is a reversal
+ok T0.4 reverse T0.2 5.00
+deny velocity limit=2
+deny velocity limit=2
+fay balance=100.00 held=0.00 available=100.00 spent_today=25.00 debits_last_hour=2
+gus balance=0.00 held=0.00 available=0.00 spent_today=0.00 debits_last_hour=0
+deny funds available=0.00
+ok T0.5 deposit gus 3.00 balance=3.00
+ok T0.6 reverse T0.0 100.00
+ok T0.7 withdraw gus 3.00 balance=0.00
+close gus slot=1
+error: account gus is closed
+open gus slot=2 gen=0
+error: account gus is closed
+T0.1 transfer fay->gus 20.00 at=0 reversed_by=T0.3
+T0.3 reverse gus->fay 20.00 at=0 reverses=T0.1
+T0.6 reverse fay-> 100.00 at=0 reverses=T0.0
+T0.4 reverse ->fay 5.00 at=0 reverses=T0.2
+T0.3 reverse gus->fay 20.00 at=0 reverses=T0.1
+T0.2 withdraw fay-> 5.00 at=0 reversed_by=T0.4
+T0.1 transfer fay->gus 20.00 at=0 reversed_by=T0.3
+T0.0 deposit ->fay 100.00 at=0 reversed_by=T0.6
+check ok records=8 live=8 accounts=2 holds=0 batches=0

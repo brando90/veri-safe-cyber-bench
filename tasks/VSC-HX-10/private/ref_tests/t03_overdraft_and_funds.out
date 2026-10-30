@@ -1,0 +1,16 @@
+open ann slot=0 gen=0
+open ben slot=1 gen=0
+ok T0.0 deposit ann 5.00 balance=5.00
+ok T0.1 withdraw ann 15.00 balance=-10.00
+deny funds available=0.00
+ok T0.2 deposit ben 20.00 balance=20.00
+ok T0.3 transfer ben->ann 20.00 balance=0.00
+error: unknown transaction T0.4
+ok T0.4 reverse T0.0 5.00
+ann balance=5.00 held=0.00 available=15.00 spent_today=15.00 debits_last_hour=1
+ok T0.5 withdraw ann 0.01 balance=4.99
+deny funds available=0.00
+ok T0.6 deposit ben 1.00 balance=1.00
+hold H001 ben 1.00 until=never
+ben balance=1.00 held=1.00 available=0.00 spent_today=20.00 debits_last_hour=1
+check ok records=7 live=7 accounts=2 holds=1 batches=0

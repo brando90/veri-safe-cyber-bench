@@ -1,0 +1,9 @@
+{
+  "id": "VSC-HX-10",
+  "split": "train",
+  "language": "python3.12",
+  "bug_class": "state that only goes wrong in long stateful runs: a per-slot daily tally not cleared when a slot is reused, packed transaction id that collides/decodes wrong after the 12-bit sequence wraps, compaction folding a segment whose last record is still unassigned to settlement (inclusive/exclusive mix), LRU eviction ignoring re-use stamps, idempotency scope keyed by reusable slot number, hold id allocator skipping only ids with a pending timer after wrap, velocity ring counting the bucket from exactly 60 minutes ago, settlement table entry attempt count carried to the next batch, segment seal condition off by one at the first boundary, timing wheel expiring entries of a later wheel turn",
+  "summary": "ledgerkeep, a toy ledger service simulator driven by one long command stream (256-slot account table with generations, deposits/withdrawals/transfers with daily and per-hour velocity limits, holds on a 1024-second timing wheel with wrapping H001-H999 ids, reversals, a journal of 128-record segments with compaction gated by settlement, settlement batches in a 16-entry round-robin table with retries/backoff/parking against a scripted clearing house, a 64-entry idempotency LRU, consistency check exiting 86). 25 Python modules, about 1,770 lines plus a README that is the specification. Ten independent defects in 9 modules; eight only show after hundreds to thousands of operations in one run (slot reuse after 256 opens, txid epoch rollover after 4096 records, compaction after 512 records at an exact settlement boundary, LRU after 64 keys, hold id wrap after 999 holds, entry reuse after 16 batches, segment boundary after 128 records); smoke examples and short hand-written scripts never reach those states.",
+  "K": 10,
+  "time_cap_min": 45
+}

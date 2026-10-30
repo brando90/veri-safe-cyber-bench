@@ -1,0 +1,1994 @@
+open m0001 velocity=200 daily=100000 overdraft=50
+deposit m0001 361
+open m0002 velocity=200 daily=100000 overdraft=50
+deposit m0002 467
+open m0003 velocity=200 daily=100000 overdraft=50
+deposit m0003 857
+open m0004 velocity=200 daily=100000 overdraft=50
+deposit m0004 642
+open m0005 velocity=200 daily=100000 overdraft=0
+deposit m0005 576
+open m0006 velocity=200 daily=100000 overdraft=0
+deposit m0006 764
+open m0007 velocity=200 daily=100000 overdraft=0
+deposit m0007 260
+open m0008 velocity=200 daily=100000 overdraft=0
+deposit m0008 480
+open m0009 velocity=200 daily=100000 overdraft=0
+deposit m0009 352
+open m0010 velocity=200 daily=100000 overdraft=0
+deposit m0010 656
+open m0011 velocity=200 daily=100000 overdraft=0
+deposit m0011 687
+open m0012 velocity=200 daily=100000 overdraft=0
+deposit m0012 113
+clock advance 36s
+deposit m0007 11.97
+open m0013 velocity=200 daily=100000
+deposit m0013 366
+hold m0003 7
+open m0014 velocity=200 daily=100000
+deposit m0014 496
+deposit m0006 13.69
+deposit m0012 13.49
+withdraw m0006 7
+deposit m0003 17.08
+withdraw m0014 10
+transfer m0010 m0011 11.08
+withdraw m0014 5
+transfer m0006 m0003 16.60
+clock advance 33s
+show T0.5
+open m0015 velocity=200 daily=100000
+deposit m0015 242
+transfer m0001 m0008 2.90
+deposit m0004 8.96
+withdraw m0014 8
+withdraw m0006 9
+withdraw m0008 2
+withdraw m0005 1
+transfer m0002 m0004 11.65
+hold m0015 10
+clock advance 23s
+settle
+hold m0012 24
+deposit m0010 35.51
+deposit m0012 39.44
+holds m0008
+transfer m0001 m0015 2.63
+withdraw m0004 3
+deposit m0007 24.19
+deposit m0007 19.18
+transfer m0010 m0014 6.66
+transfer m0008 m0012 11.61
+withdraw m0008 7
+withdraw m0009 3
+hold m0008 16
+withdraw m0013 9
+reverse T0.37
+open m0016 velocity=200 daily=100000
+deposit m0016 232
+clock advance 98s
+withdraw m0009 8
+withdraw m0010 6
+hold m0001 11 ttl=793s
+capture H002 amount=1
+capture H003 amount=1
+withdraw m0014 6
+reverse T0.25
+settle
+transfer m0006 m0007 12.61
+withdraw m0003 7
+deposit m0014 20.79
+transfer m0009 m0001 7.20
+transfer m0006 m0008 6.80
+clock advance 29s
+deposit m0005 8.40
+deposit m0002 27.59
+withdraw m0003 10
+deposit m0012 1.44
+transfer m0009 m0014 4.88
+show T0.57
+transfer m0010 m0004 10.69
+transfer m0010 m0012 5.53
+transfer m0012 m0015 5.20
+transfer m0016 m0007 5.77
+deposit m0001 25.13
+withdraw m0005 6
+hold m0013 10 ttl=232s
+transfer m0009 m0010 16.32
+transfer m0011 m0010 16.36
+deposit m0001 8.84
+hold m0015 27
+withdraw m0016 9
+transfer m0008 m0016 2.31
+transfer m0005 m0010 10.63
+settle
+transfer m0004 m0001 5.38
+withdraw m0011 10
+withdraw m0001 8
+withdraw m0005 1
+deposit m0015 44.13
+deposit m0014 39.73
+clock advance 110s
+transfer m0007 m0010 15.97
+deposit m0001 45.99
+transfer m0010 m0016 10.18
+deposit m0016 22.68
+deposit m0002 5.93
+withdraw m0003 2
+capture H005
+clock advance 16s
+show T0.45
+hold m0004 23 ttl=138s
+deposit m0006 27.20
+deposit m0007 3.71
+deposit m0013 48.09
+withdraw m0004 7
+deposit m0003 21.87
+hold m0016 30 ttl=672s
+deposit m0010 10.72
+settle
+transfer m0008 m0009 3.70
+withdraw m0010 9
+reverse T0.45
+withdraw m0005 1
+hold m0003 28
+deposit m0015 16.49
+open m0017 velocity=200 daily=100000
+deposit m0017 327
+clock advance 109s
+deposit m0014 44.28
+release H001
+release H010
+withdraw m0003 893.55
+close m0003
+holds m0006
+hold m0013 30 ttl=297s
+hold m0013 24
+show T0.71
+transfer m0008 m0007 13.08
+deposit m0002 12.25
+deposit m0017 57.61
+capture H011
+withdraw m0015 6
+transfer m0005 m0008 5.83
+deposit m0013 56.49
+reverse T0.96
+transfer m0005 m0010 6.96
+withdraw m0009 1
+settle
+deposit m0013 21.07
+clock advance 61s
+show T0.102
+open m0018 velocity=200 daily=100000
+deposit m0018 199
+transfer m0009 m0007 2.25
+clock advance 85s
+deposit m0014 59.90
+withdraw m0011 3
+transfer m0011 m0004 15.20
+open m0019 velocity=200 daily=100000
+deposit m0019 394
+deposit m0002 42.77
+transfer m0010 m0001 15.07
+transfer m0015 m0007 2.04
+transfer m0018 m0013 4.91
+deposit m0017 6.60
+deposit m0009 42.06
+withdraw m0015 8
+withdraw m0002 1
+deposit m0018 41.51
+deposit m0009 6.40
+open m0020 velocity=200 daily=100000
+deposit m0020 327
+transfer m0008 m0001 15.69
+withdraw m0015 10
+withdraw m0018 235.60
+close m0018
+hold m0001 29 ttl=315s
+holds m0009
+clearing fail 2
+settle
+transfer m0010 m0014 11.16
+deposit m0004 31.31
+clock advance 74s
+hold m0010 2
+clock advance 113s
+withdraw m0005 2
+transfer m0012 m0014 18.00
+transfer m0016 m0006 1.93
+deposit m0015 18.13
+holds m0014
+deposit m0004 20.21
+deposit m0017 44.41
+withdraw m0004 9
+withdraw m0020 327.00
+close m0020
+deposit m0005 4.16
+history m0015 last=3
+withdraw m0015 3
+withdraw m0012 6
+deposit m0007 47.12
+withdraw m0007 3
+deposit m0012 29.29
+transfer m0015 m0007 15.06
+withdraw m0007 398.01
+close m0007
+transfer m0019 m0001 4.16
+holds m0016
+deposit m0001 3.73
+settle
+clock advance 51s
+transfer m0009 m0011 7.38
+transfer m0014 m0010 12.45
+holds m0002
+transfer m0014 m0006 5.30
+transfer m0002 m0005 6.50
+deposit m0012 58.25
+open m0021 velocity=200 daily=100000
+deposit m0021 294
+clock advance 103s
+deposit m0001 7.65
+hold m0008 22 ttl=23s
+deposit m0012 33.49
+transfer m0015 m0017 19.88
+transfer m0002 m0006 14.46
+hold m0021 1
+deposit m0014 40.74
+reverse T0.141
+withdraw m0010 2
+deposit m0004 43.38
+transfer m0004 m0005 8.43
+withdraw m0001 7
+withdraw m0021 4
+withdraw m0005 9
+clock advance 32s
+settle
+deposit m0012 52.34
+open m0022 velocity=200 daily=100000
+deposit m0022 135
+deposit m0016 50.23
+withdraw m0004 10
+transfer m0022 m0016 14.29
+transfer m0021 m0010 10.53
+withdraw m0013 3
+transfer m0006 m0005 10.72
+transfer m0008 m0016 7.41
+transfer m0013 m0004 2.62
+deposit m0021 5.40
+deposit m0017 42.49
+show T0.167
+hold m0005 20 ttl=156s
+withdraw m0017 170.99
+close m0017
+clock advance 92s
+journal
+idem
+check
+withdraw m0004 4
+deposit m0014 12.58
+withdraw m0019 7
+deposit m0014 9.87
+deposit m0015 22.95
+deposit m0012 2.14
+holds m0014
+deposit m0013 25.18
+withdraw m0021 2
+settle
+withdraw m0013 2
+transfer m0002 m0010 14.30
+withdraw m0004 3
+withdraw m0005 9
+transfer m0008 m0015 8.11
+transfer m0006 m0004 1.98
+deposit m0001 2.32
+transfer m0015 m0022 3.06
+deposit m0022 6.35
+transfer m0021 m0022 1.06
+deposit m0022 28.75
+deposit m0016 50.92
+transfer m0016 m0015 1.96
+deposit m0013 10.38
+open m0023 velocity=200 daily=100000
+deposit m0023 477
+deposit m0016 13.34
+deposit m0014 19.00
+hold m0005 3 ttl=777s
+deposit m0015 3.52
+hold m0021 5 ttl=614s
+transfer m0004 m0014 20.03
+deposit m0016 6.34
+deposit m0014 22.99
+deposit m0012 34.89
+settle
+withdraw m0005 7
+withdraw m0014 8
+transfer m0019 m0010 19.17
+withdraw m0023 1
+clock advance 31s
+transfer m0002 m0001 1.98
+deposit m0010 33.91
+hold m0012 2
+clock advance 100s
+deposit m0012 29.57
+deposit m0005 60.47
+transfer m0011 m0015 13.38
+show T0.191
+deposit m0009 34.79
+withdraw m0022 5
+history m0014 last=3
+deposit m0014 5.63
+deposit m0009 37.58
+deposit m0004 8.43
+balance m0021
+withdraw m0011 647.52
+close m0011
+withdraw m0001 5
+withdraw m0010 5
+transfer m0021 m0008 20.17
+transfer m0015 m0005 1.58
+deposit m0022 44.83
+deposit m0019 8.52
+settle
+hold m0010 23
+deposit m0004 3.08
+clock advance 84s
+transfer m0004 m0012 4.51
+release H020
+withdraw m0012 398.79
+close m0012
+transfer m0014 m0001 11.66
+hold m0023 9
+withdraw m0009 8
+deposit m0016 6.81
+transfer m0019 m0008 7.17
+clock advance 120s
+transfer m0001 m0006 14.34
+transfer m0009 m0010 6.53
+transfer m0013 m0015 10.78
+deposit m0013 28.45
+show T0.211
+hold m0004 11
+deposit m0014 55.96
+transfer m0002 m0019 6.81
+withdraw m0013 2
+transfer m0015 m0005 10.08
+withdraw m0015 7
+deposit m0014 5.23
+deposit m0005 51.94
+deposit m0021 5.28
+transfer m0014 m0005 17.41
+settle
+withdraw m0008 4
+deposit m0005 6.83
+transfer m0013 m0014 18.58
+deposit m0006 25.84
+hold m0009 5
+withdraw m0022 5
+transfer m0013 m0014 6.95
+hold m0022 5
+transfer m0022 m0005 15.29
+deposit m0008 42.11
+clock advance 80s
+transfer m0008 m0023 4.38
+transfer m0013 m0016 2.69
+clock advance 27s
+release H007
+withdraw m0015 305.58
+close m0015
+transfer m0010 m0016 16.66
+hold m0001 10 ttl=137s
+transfer m0021 m0004 10.83
+deposit m0019 3.00
+transfer m0004 m0006 14.84
+withdraw m0022 10
+hold m0008 23 ttl=537s
+clock advance 102s
+deposit m0014 32.83
+deposit m0021 31.98
+settle
+withdraw m0005 9
+deposit m0002 48.25
+deposit m0004 55.64
+withdraw m0022 7
+release H024
+capture H022 amount=1
+withdraw m0002 9
+withdraw m0014 5
+withdraw m0002 6
+transfer m0013 m0021 15.87
+clock advance 34s
+transfer m0001 m0004 14.07
+transfer m0005 m0021 7.13
+deposit m0023 29.60
+transfer m0013 m0002 1.98
+open m0024 velocity=200 daily=100000
+deposit m0024 363
+hold m0009 3
+clock advance 13s
+transfer m0004 m0008 8.50
+deposit m0022 4.38
+deposit m0021 26.21
+open m0025 velocity=200 daily=100000
+deposit m0025 246
+clock advance 17s
+transfer m0023 m0006 14.03
+withdraw m0025 4
+clock advance 98s
+deposit m0010 59.54
+open m0026 velocity=200 daily=100000
+deposit m0026 471
+hold m0026 24 ttl=731s
+settle
+withdraw m0013 1
+deposit m0026 54.20
+withdraw m0005 10
+transfer m0006 m0014 6.00
+transfer m0022 m0005 1.89
+transfer m0016 m0004 16.19
+withdraw m0002 10
+withdraw m0024 5
+history m0023 last=3
+capture H029
+transfer m0023 m0001 8.61
+withdraw m0025 2
+open m0027 velocity=200 daily=100000
+deposit m0027 162
+deposit m0016 7.10
+clock advance 23s
+withdraw m0002 5
+hold m0005 2
+transfer m0024 m0009 15.38
+deposit m0013 40.57
+transfer m0025 m0010 10.11
+transfer m0004 m0021 10.52
+deposit m0019 41.54
+deposit m0016 56.26
+withdraw m0005 8
+withdraw m0024 6
+deposit m0023 45.07
+withdraw m0025 9
+withdraw m0025 2
+settle
+transfer m0023 m0022 7.78
+clock advance 16s
+deposit m0023 21.04
+withdraw m0019 7
+hold m0027 5 ttl=10s
+clock advance 73s
+deposit m0002 5.10
+withdraw m0014 5
+transfer m0010 m0002 14.58
+withdraw m0016 9
+clock advance 73s
+reverse T0.284
+transfer m0002 m0008 12.60
+deposit m0013 24.43
+withdraw m0023 5
+deposit m0026 30.45
+withdraw m0008 7
+deposit m0021 21.32
+deposit m0006 28.78
+transfer m0005 m0014 13.04
+deposit m0009 43.51
+withdraw m0024 10
+hold m0001 4 ttl=798s
+withdraw m0019 3
+show T0.333
+deposit m0002 18.60
+transfer m0002 m0010 11.40
+settle
+transfer m0002 m0005 7.13
+deposit m0004 41.14
+open m0028 velocity=200 daily=100000
+deposit m0028 477
+withdraw m0016 5
+transfer m0013 m0014 3.50
+deposit m0024 54.01
+withdraw m0024 380.63
+close m0024
+show T0.309
+deposit m0028 7.36
+transfer m0013 m0001 15.18
+deposit m0004 60.31
+withdraw m0010 10
+transfer m0001 m0028 11.66
+withdraw m0016 5
+hold m0028 19
+transfer m0010 m0001 19.38
+deposit m0010 14.49
+capture H033 amount=1
+deposit m0008 8.77
+transfer m0025 m0010 15.80
+withdraw m0013 2
+transfer m0028 m0023 18.83
+deposit m0019 37.60
+withdraw m0027 3
+hold m0014 28 ttl=859s
+hold m0016 24
+deposit m0001 59.63
+settle
+transfer m0009 m0013 6.35
+transfer m0013 m0004 12.39
+clock advance 3s
+hold m0013 26 ttl=388s
+withdraw m0025 7
+transfer m0006 m0021 16.68
+deposit m0021 40.76
+deposit m0026 50.84
+withdraw m0026 3
+withdraw m0008 7
+clock advance 73s
+hold m0002 16 ttl=233s
+transfer m0008 m0023 16.62
+transfer m0028 m0010 8.41
+clock advance 19s
+deposit m0023 42.59
+transfer m0001 m0006 1.62
+clock advance 15s
+history m0004 last=3
+transfer m0008 m0005 1.42
+open m0029 velocity=200 daily=100000
+deposit m0029 322
+hold m0016 17 ttl=168s
+transfer m0027 m0016 2.98
+deposit m0002 14.24
+history m0010 last=3
+settle
+transfer m0025 m0010 11.53
+withdraw m0019 7
+deposit m0005 51.19
+withdraw m0014 4
+release H034
+withdraw m0014 869.85
+close m0014
+deposit m0028 31.32
+deposit m0027 41.34
+deposit m0005 7.56
+withdraw m0006 9
+withdraw m0008 1
+transfer m0023 m0022 1.14
+withdraw m0027 7
+clock advance 1s
+withdraw m0028 8
+deposit m0006 24.70
+reverse T0.385
+transfer m0027 m0001 15.61
+withdraw m0026 2
+withdraw m0004 4
+deposit m0010 42.64
+hold m0027 17 ttl=689s
+transfer m0009 m0006 1.03
+deposit m0022 27.01
+withdraw m0010 6
+settle
+reverse T0.382
+deposit m0004 40.74
+transfer m0023 m0002 15.06
+capture H037 amount=1
+show T0.393
+deposit m0010 44.08
+open m0030 velocity=200 daily=100000
+deposit m0030 142
+withdraw m0026 10
+open m0031 velocity=200 daily=100000
+deposit m0031 277
+transfer m0025 m0016 3.59
+withdraw m0021 10
+deposit m0013 43.83
+withdraw m0016 9
+deposit m0021 24.44
+open m0032 velocity=200 daily=100000
+deposit m0032 245
+transfer m0021 m0030 9.53
+transfer m0010 m0030 6.96
+clock advance 44s
+open m0033 velocity=200 daily=100000
+deposit m0033 435
+transfer m0026 m0032 4.54
+deposit m0005 37.04
+withdraw m0019 4
+withdraw m0023 6
+withdraw m0016 8
+withdraw m0010 1
+settle
+withdraw m0004 8
+withdraw m0016 2
+withdraw m0030 6
+transfer m0026 m0032 6.60
+deposit m0022 29.34
+open m0034 velocity=200 daily=100000
+deposit m0034 356
+deposit m0023 49.20
+transfer m0033 m0032 19.42
+clock advance 109s
+deposit m0032 36.45
+hold m0005 23
+transfer m0031 m0019 10.89
+withdraw m0008 3
+hold m0026 24 ttl=633s
+transfer m0033 m0013 11.42
+deposit m0016 43.50
+transfer m0028 m0031 8.33
+open m0035 velocity=200 daily=100000
+deposit m0035 92
+transfer m0030 m0023 20.13
+reverse T0.406
+transfer m0021 m0019 19.32
+deposit m0027 51.95
+hold m0009 16
+deposit m0034 5.44
+settle
+hold m0030 13
+deposit m0025 49.09
+deposit m0032 29.89
+deposit m0034 1.12
+transfer m0009 m0029 20.85
+withdraw m0034 7
+transfer m0026 m0016 4.29
+deposit m0026 39.47
+show T0.440
+hold m0023 13
+release H044
+withdraw m0023 664.84
+close m0023
+deposit m0021 38.87
+transfer m0010 m0019 12.60
+withdraw m0033 404.16
+close m0033
+hold m0029 11 ttl=143s
+hold m0032 9 ttl=82s
+withdraw m0005 2
+clock advance 87s
+show T0.449
+deposit m0027 28.96
+show T0.439
+deposit m0034 57.87
+settle
+deposit m0025 58.75
+withdraw m0031 1
+capture H032 amount=1
+deposit m0001 44.47
+open m0036 velocity=200 daily=100000
+deposit m0036 302
+transfer m0026 m0029 3.86
+transfer m0028 m0002 19.08
+release H043
+balance m0027
+transfer m0010 m0031 15.03
+clock advance 45s
+deposit m0005 46.25
+transfer m0013 m0010 12.72
+transfer m0009 m0010 7.22
+clock advance 81s
+transfer m0034 m0013 20.61
+deposit m0010 2.69
+withdraw m0006 864.37
+close m0006
+deposit m0016 12.43
+transfer m0036 m0021 9.25
+withdraw m0030 6
+deposit m0026 47.21
+transfer m0021 m0002 6.87
+withdraw m0016 3
+settle
+deposit m0008 17.94
+open m0037 velocity=200 daily=100000
+deposit m0037 78
+reverse T0.434
+open m0038 velocity=200 daily=100000
+deposit m0038 287
+deposit m0009 17.96
+hold m0034 1 ttl=725s
+deposit m0021 27.29
+withdraw m0031 1
+clock advance 115s
+transfer m0021 m0036 17.87
+reverse T0.461
+open m0039 velocity=200 daily=100000
+deposit m0039 411
+transfer m0038 m0030 3.76
+clock advance 75s
+transfer m0010 m0026 9.05
+withdraw m0022 9
+deposit m0016 50.16
+withdraw m0037 2
+deposit m0009 24.79
+deposit m0030 42.77
+transfer m0016 m0034 14.15
+withdraw m0025 8
+transfer m0039 m0034 3.16
+deposit m0031 24.29
+transfer m0016 m0025 6.58
+settle
+holds m0025
+deposit m0036 23.10
+transfer m0009 m0035 13.08
+clock advance 112s
+hold m0032 6 ttl=117s
+deposit m0034 32.65
+deposit m0027 32.08
+capture H016 amount=1
+transfer m0001 m0019 6.60
+deposit m0038 41.44
+transfer m0035 m0016 8.80
+withdraw m0008 3
+withdraw m0028 8
+clock advance 53s
+reverse T0.459
+open m0040 velocity=200 daily=100000
+deposit m0040 149
+deposit m0019 60.26
+reverse T0.470
+hold m0038 9 ttl=135s
+clock advance 116s
+deposit m0027 60.42
+hold m0004 26
+show T0.499
+release H025
+transfer m0037 m0016 3.18
+clearing fail 1
+settle
+clock advance 111s
+transfer m0013 m0038 16.55
+history m0004 last=3
+reverse T0.493
+withdraw m0001 3
+deposit m0040 18.44
+transfer m0030 m0025 8.59
+deposit m0030 56.76
+hold m0028 13 ttl=817s
+deposit m0022 52.41
+transfer m0013 m0010 16.67
+hold m0021 5 ttl=442s
+transfer m0037 m0036 12.33
+withdraw m0032 10
+withdraw m0035 1
+withdraw m0038 7
+transfer m0019 m0009 1.42
+withdraw m0008 6
+transfer m0013 m0021 13.31
+withdraw m0019 8
+deposit m0025 44.15
+holds m0036
+transfer m0026 m0035 2.85
+journal
+idem
+check
+deposit m0040 49.75
+withdraw m0039 7
+deposit m0040 49.02
+settle
+release H052
+withdraw m0021 465.88
+close m0021
+show T0.511
+withdraw m0002 3
+withdraw m0019 8
+deposit m0001 12.74
+deposit m0001 3.43
+transfer m0027 m0028 18.82
+withdraw m0032 6
+withdraw m0002 5
+clock advance 22s
+deposit m0040 52.64
+withdraw m0001 4
+deposit m0004 13.33
+deposit m0038 49.71
+withdraw m0026 5
+deposit m0009 9.37
+withdraw m0010 8
+clock advance 119s
+hold m0034 17 ttl=504s
+withdraw m0032 3
+show T0.530
+transfer m0013 m0022 18.54
+transfer m0002 m0035 6.76
+hold m0029 20 ttl=59s
+withdraw m0019 1
+open m0041 velocity=200 daily=100000
+deposit m0041 95
+settle
+deposit m0029 58.34
+reverse T0.506
+withdraw m0041 6
+show T0.527
+deposit m0009 8.82
+deposit m0035 23.89
+transfer m0009 m0027 8.80
+open m0042 velocity=200 daily=100000
+deposit m0042 321
+transfer m0001 m0028 9.31
+transfer m0004 m0039 3.18
+clock advance 89s
+hold m0027 5 ttl=445s
+deposit m0028 42.77
+withdraw m0037 5
+withdraw m0038 5
+transfer m0032 m0005 2.68
+withdraw m0019 524.22
+close m0019
+withdraw m0004 2
+deposit m0026 31.37
+deposit m0002 28.24
+withdraw m0009 6
+withdraw m0001 592.72
+close m0001
+deposit m0039 4.45
+withdraw m0002 7
+hold m0026 1
+settle
+clock advance 23s
+withdraw m0034 4
+balance m0027
+hold m0013 9 ttl=203s
+withdraw m0031 10
+hold m0022 26 ttl=521s
+withdraw m0036 4
+withdraw m0042 321.00
+close m0042
+withdraw m0013 7
+deposit m0037 3.38
+withdraw m0035 9
+transfer m0037 m0030 20.89
+open m0043 velocity=200 daily=100000
+deposit m0043 191
+transfer m0032 m0029 18.90
+withdraw m0037 4
+clock advance 64s
+withdraw m0004 3
+withdraw m0037 7
+show T0.550
+deposit m0043 9.55
+open m0044 velocity=200 daily=100000
+deposit m0044 214
+withdraw m0009 8
+clock advance 77s
+hold m0044 17
+settle
+transfer m0039 m0043 13.53
+withdraw m0004 10
+transfer m0002 m0013 16.09
+release H059
+withdraw m0044 214.00
+close m0044
+clock advance 89s
+withdraw m0040 318.85
+close m0040
+balance m0016
+reverse T0.585
+transfer m0013 m0032 16.81
+withdraw m0032 318.13
+close m0032
+open m0045 velocity=200 daily=100000
+deposit m0045 287
+transfer m0027 m0008 2.25
+deposit m0031 50.10
+transfer m0008 m0026 19.30
+clock advance 75s
+withdraw m0010 4
+withdraw m0037 9
+open m0046 velocity=200 daily=100000
+deposit m0046 145
+transfer m0045 m0036 7.83
+clock advance 107s
+hold m0039 24
+withdraw m0005 4
+transfer m0037 m0025 14.33
+transfer m0026 m0039 19.75
+clock advance 114s
+deposit m0008 38.69
+deposit m0036 8.79
+deposit m0043 6.52
+settle
+clock advance 34s
+transfer m0002 m0022 11.92
+transfer m0034 m0041 16.13
+open m0047 velocity=200 daily=100000
+deposit m0047 206
+clock advance 120s
+deposit m0031 7.47
+deposit m0022 37.32
+withdraw m0028 1
+transfer m0047 m0010 13.08
+transfer m0010 m0041 2.53
+reverse T0.615
+withdraw m0005 1
+clock advance 46s
+withdraw m0046 9
+transfer m0005 m0009 7.36
+withdraw m0016 2
+hold m0029 12 ttl=792s
+deposit m0027 6.14
+deposit m0005 9.21
+clock advance 29s
+balance m0004
+withdraw m0022 341.42
+close m0022
+open m0048 velocity=200 daily=100000
+deposit m0048 422
+transfer m0009 m0037 20.05
+transfer m0009 m0043 3.82
+settle
+withdraw m0046 5
+transfer m0016 m0010 16.55
+withdraw m0047 1
+transfer m0043 m0035 11.78
+clock advance 67s
+deposit m0047 46.24
+transfer m0035 m0005 2.38
+deposit m0038 15.72
+deposit m0004 20.15
+deposit m0029 54.95
+deposit m0030 35.42
+transfer m0008 m0004 14.95
+show T0.638
+holds m0026
+transfer m0010 m0041 17.88
+deposit m0038 18.27
+hold m0038 23 ttl=481s
+withdraw m0037 9
+deposit m0043 16.61
+withdraw m0028 2
+show T0.610
+withdraw m0004 1
+show T0.624
+balance m0027
+withdraw m0043 5
+withdraw m0009 10
+release H056
+withdraw m0026 667.00
+close m0026
+settle
+open m0049 velocity=200 daily=100000
+deposit m0049 264
+deposit m0004 19.52
+clock advance 60s
+transfer m0038 m0009 16.28
+deposit m0047 16.29
+transfer m0027 m0049 2.36
+deposit m0049 27.84
+deposit m0045 10.29
+deposit m0002 9.44
+clock advance 20s
+clock advance 33s
+deposit m0004 14.65
+deposit m0002 8.22
+withdraw m0028 1
+withdraw m0010 7
+withdraw m0037 4
+deposit m0037 44.05
+deposit m0027 26.75
+release H062
+withdraw m0038 396.65
+close m0038
+transfer m0048 m0034 13.51
+withdraw m0010 9
+withdraw m0016 8
+deposit m0035 20.01
+settle
+deposit m0004 30.88
+release H004
+withdraw m0008 486.65
+close m0008
+withdraw m0049 2
+deposit m0029 20.93
+withdraw m0005 8
+reverse T0.647
+holds m0049
+show T0.663
+clock advance 101s
+transfer m0030 m0031 18.43
+balance m0037
+transfer m0010 m0046 20.86
+deposit m0029 1.72
+open m0050 velocity=200 daily=100000
+deposit m0050 379
+withdraw m0041 6
+transfer m0029 m0049 11.61
+transfer m0050 m0016 14.40
+clock advance 90s
+deposit m0009 47.10
+transfer m0034 m0050 1.56
+deposit m0009 23.51
+withdraw m0045 289.46
+close m0045
+deposit m0002 48.06
+deposit m0027 45.14
+settle
+transfer m0047 m0041 13.11
+transfer m0039 m0027 18.13
+history m0046 last=3
+deposit m0049 13.01
+transfer m0027 m0041 16.13
+capture H035 amount=1
+hold m0047 1 ttl=110s
+withdraw m0050 2
+deposit m0041 42.26
+deposit m0009 31.81
+clock advance 24s
+deposit m0046 33.37
+hold m0043 24 ttl=34s
+transfer m0031 m0009 19.07
+withdraw m0048 4
+clock advance 113s
+transfer m0041 m0030 7.01
+hold m0047 30
+withdraw m0048 5
+deposit m0002 3.78
+open m0051 velocity=200 daily=100000
+deposit m0051 355
+transfer m0050 m0036 15.33
+transfer m0037 m0002 2.75
+withdraw m0037 10
+withdraw m0030 5
+settle
+withdraw m0048 5
+deposit m0027 45.67
+open m0052 velocity=200 daily=100000
+deposit m0052 142
+withdraw m0043 6
+withdraw m0049 7
+transfer m0052 m0005 6.64
+withdraw m0052 6
+deposit m0005 19.85
+hold m0027 22
+withdraw m0052 3
+withdraw m0005 8
+clock advance 116s
+withdraw m0037 3
+holds m0048
+withdraw m0025 6
+deposit m0005 10.89
+release H030
+release H040
+withdraw m0005 844.99
+close m0005
+holds m0028
+withdraw m0041 5
+reverse T0.666
+hold m0041 4
+clock advance 20s
+transfer m0027 m0034 1.93
+holds m0049
+withdraw m0046 9
+transfer m0043 m0004 3.62
+deposit m0027 4.10
+settle
+hold m0036 26 ttl=885s
+withdraw m0046 2
+withdraw m0043 8
+transfer m0025 m0046 2.77
+deposit m0052 17.38
+deposit m0029 8.65
+transfer m0051 m0043 19.87
+deposit m0034 52.73
+withdraw m0035 2
+transfer m0010 m0052 9.09
+open m0053 velocity=200 daily=100000
+deposit m0053 53
+clock advance 80s
+deposit m0049 6.46
+withdraw m0047 1
+balance m0016
+hold m0029 23
+deposit m0016 30.04
+hold m0031 3 ttl=617s
+deposit m0030 50.60
+reverse T0.688
+withdraw m0043 226.50
+close m0043
+transfer m0036 m0053 20.03
+withdraw m0050 3
+transfer m0052 m0002 4.56
+withdraw m0049 7
+settle
+withdraw m0030 10
+withdraw m0028 4
+withdraw m0034 489.26
+close m0034
+deposit m0036 39.15
+show T0.731
+withdraw m0037 4
+deposit m0048 26.54
+deposit m0031 35.46
+clock advance 43s
+withdraw m0041 6
+transfer m0052 m0028 4.30
+hold m0052 5
+withdraw m0049 4
+withdraw m0051 8
+deposit m0037 11.77
+transfer m0047 m0035 17.22
+transfer m0046 m0053 8.77
+transfer m0050 m0052 6.83
+transfer m0051 m0028 4.96
+hold m0002 1 ttl=172s
+deposit m0046 58.40
+withdraw m0048 8
+hold m0047 7
+clock advance 34s
+deposit m0052 24.25
+history m0002 last=3
+settle
+deposit m0025 57.66
+deposit m0048 11.45
+clock advance 118s
+withdraw m0041 8
+deposit m0051 25.00
+deposit m0049 8.45
+transfer m0031 m0016 12.95
+transfer m0035 m0010 20.24
+transfer m0050 m0031 17.95
+deposit m0013 17.24
+hold m0016 16
+deposit m0016 19.00
+reverse T0.734
+transfer m0002 m0010 1.04
+deposit m0028 2.44
+transfer m0041 m0050 12.57
+withdraw m0036 4
+withdraw m0046 226.63
+close m0046
+deposit m0052 12.29
+transfer m0025 m0013 5.13
+hold m0025 4 ttl=737s
+transfer m0039 m0004 4.33
+deposit m0029 18.74
+balance m0039
+deposit m0028 41.43
+withdraw m0027 4
+settle
+deposit m0048 57.43
+hold m0028 27 ttl=858s
+hold m0029 22
+deposit m0030 59.42
+clock advance 64s
+hold m0047 24
+deposit m0010 21.65
+deposit m0025 47.73
+withdraw m0002 3
+deposit m0053 59.08
+open m0054 velocity=200 daily=100000
+deposit m0054 339
+deposit m0013 50.30
+withdraw m0049 7
+transfer m0016 m0047 13.24
+deposit m0009 60.15
+withdraw m0035 9
+hold m0004 8
+deposit m0030 27.43
+transfer m0004 m0029 5.56
+transfer m0010 m0036 1.60
+deposit m0009 59.95
+capture H071
+clock advance 73s
+deposit m0016 2.82
+settle
+deposit m0029 44.22
+release H073
+open m0055 velocity=200 daily=100000
+deposit m0055 325
+deposit m0031 28.56
+hold m0039 17
+withdraw m0010 5
+withdraw m0055 325.00
+close m0055
+deposit m0016 48.01
+transfer m0054 m0010 5.68
+withdraw m0052 8
+open m0056 velocity=200 daily=100000
+deposit m0056 407
+deposit m0041 37.23
+deposit m0036 8.53
+capture H070
+deposit m0048 13.93
+release H066
+withdraw m0027 457.40
+close m0027
+deposit m0009 3.82
+withdraw m0050 333.62
+close m0050
+hold m0025 8
+deposit m0053 25.50
+deposit m0049 37.68
+withdraw m0054 10
+clock advance 103s
+transfer m0010 m0049 10.85
+withdraw m0010 6
+transfer m0052 m0029 3.38
+withdraw m0037 3
+settle
+show T0.795
+withdraw m0002 2
+clock advance 45s
+clock advance 13s
+transfer m0039 m0028 11.52
+withdraw m0054 8
+hold m0031 15
+deposit m0052 52.48
+open m0057 velocity=200 daily=100000
+deposit m0057 203
+clock advance 9s
+transfer m0013 m0010 1.13
+hold m0051 25
+transfer m0013 m0028 18.00
+withdraw m0037 9
+transfer m0051 m0039 15.52
+withdraw m0041 1
+deposit m0016 49.20
+deposit m0028 28.07
+deposit m0031 6.39
+show T0.838
+deposit m0029 6.66
+deposit m0041 9.34
+clock advance 62s
+clock advance 115s
+hold m0002 17 ttl=708s
+deposit m0056 49.17
+settle
+deposit m0051 29.63
+deposit m0009 48.59
+withdraw m0009 5
+withdraw m0009 9
+clock advance 42s
+deposit m0049 12.65
+transfer m0010 m0009 20.09
+deposit m0016 40.58
+withdraw m0025 2
+transfer m0004 m0029 2.16
+balance m0031
+withdraw m0031 6
+hold m0049 30 ttl=555s
+transfer m0002 m0025 14.90
+transfer m0039 m0053 11.78
+capture H080
+withdraw m0016 6
+hold m0056 18
+release H075
+transfer m0053 m0041 9.98
+withdraw m0028 625.07
+close m0028
+clock advance 2s
+withdraw m0052 1
+transfer m0053 m0039 12.21
+withdraw m0025 10
+withdraw m0051 5
+settle
+deposit m0030 41.98
+release H014
+deposit m0048 13.56
+journal
+idem
+check
+deposit m0016 21.66
+deposit m0035 26.88
+transfer m0029 m0031 18.17
+withdraw m0041 4
+deposit m0047 29.59
+withdraw m0010 3
+withdraw m0035 144.83
+close m0035
+withdraw m0053 5
+clock advance 41s
+transfer m0056 m0054 3.85
+transfer m0031 m0048 15.13
+transfer m0054 m0030 19.41
+clock advance 118s
+withdraw m0057 3
+clock advance 4s
+deposit m0037 27.63
+deposit m0047 52.43
+deposit m0054 1.11
+transfer m0047 m0030 6.30
+withdraw m0036 4
+deposit m0029 18.98
+withdraw m0053 9
+transfer m0057 m0031 1.92
+holds m0036
+settle
+transfer m0009 m0025 15.98
+reverse T0.849
+deposit m0002 45.45
+release H065
+withdraw m0047 124.30
+close m0047
+release H021
+withdraw m0010 906.25
+close m0010
+clock advance 105s
+deposit m0009 6.66
+reverse T0.883
+transfer m0041 m0037 7.54
+withdraw m0025 10
+transfer m0009 m0037 8.24
+transfer m0030 m0056 17.50
+clock advance 91s
+withdraw m0009 1
+deposit m0036 15.69
+transfer m0057 m0039 19.63
+withdraw m0037 6
+withdraw m0025 10
+transfer m0041 m0025 14.09
+clock advance 15s
+deposit m0029 57.08
+history m0056 last=3
+withdraw m0048 8
+release H028
+release H042
+withdraw m0009 713.10
+close m0009
+transfer m0054 m0037 11.03
+settle
+withdraw m0053 1
+transfer m0057 m0031 1.46
+deposit m0013 31.54
+transfer m0002 m0057 18.94
+show T0.902
+deposit m0039 18.17
+withdraw m0054 289.84
+close m0054
+deposit m0039 45.42
+show T0.882
+transfer m0057 m0037 15.59
+hold m0016 12
+withdraw m0052 8
+history m0049 last=3
+clock advance 48s
+deposit m0057 58.13
+withdraw m0030 3
+withdraw m0013 2
+holds m0057
+deposit m0025 51.83
+deposit m0031 31.37
+deposit m0016 45.53
+release H081
+withdraw m0051 356.28
+close m0051
+transfer m0048 m0029 19.84
+transfer m0025 m0037 12.77
+settle
+transfer m0029 m0052 10.39
+hold m0052 19
+deposit m0049 48.04
+transfer m0036 m0029 6.47
+deposit m0056 27.14
+transfer m0002 m0030 4.62
+balance m0053
+transfer m0036 m0013 16.57
+open m0058 velocity=200 daily=100000
+deposit m0058 84
+withdraw m0037 115.57
+close m0037
+hold m0049 29
+capture H083 amount=1
+clock advance 114s
+withdraw m0052 1
+hold m0057 11 ttl=318s
+deposit m0025 26.02
+deposit m0048 51.41
+transfer m0030 m0039 17.24
+holds m0056
+deposit m0048 30.13
+transfer m0053 m0049 15.52
+deposit m0058 52.38
+withdraw m0058 1
+clearing fail 1
+settle
+deposit m0013 25.14
+deposit m0041 49.66
+withdraw m0058 6
+clock advance 48s
+transfer m0004 m0039 4.09
+deposit m0056 21.27
+withdraw m0002 2
+withdraw m0053 9
+clock advance 90s
+deposit m0016 51.41
+transfer m0004 m0030 7.05
+hold m0029 30
+deposit m0016 29.02
+withdraw m0039 4
+withdraw m0029 5
+deposit m0004 54.54
+transfer m0013 m0052 9.69
+deposit m0058 55.58
+deposit m0002 32.34
+withdraw m0058 5
+transfer m0041 m0048 10.55
+deposit m0002 51.31
+deposit m0058 5.80
+deposit m0049 4.05
+settle
+withdraw m0030 10
+open m0059 velocity=200 daily=100000
+deposit m0059 92
+show T0.932
+reverse T0.952
+deposit m0013 22.89
+deposit m0025 24.11
+deposit m0030 9.31
+withdraw m0036 3
+deposit m0059 33.11
+withdraw m0031 1
+withdraw m0025 2
+withdraw m0002 1
+withdraw m0052 5
+withdraw m0013 7
+transfer m0058 m0004 5.98
+deposit m0013 1.00
+holds m0004
+transfer m0059 m0002 14.17
+withdraw m0030 4
+transfer m0057 m0016 2.30
+clock advance 86s
+transfer m0048 m0052 5.19
+deposit m0049 39.77
+clearing fail 1
+settle
+show T0.973
+transfer m0049 m0052 5.74
+transfer m0039 m0002 15.99
+transfer m0041 m0030 18.21
+clock advance 50s
+withdraw m0053 8
+deposit m0004 20.66
+balance m0036
+capture H060 amount=1
+transfer m0058 m0053 7.65
+reverse T0.941
+withdraw m0030 4
+withdraw m0039 8
+deposit m0039 7.69
+deposit m0016 22.27
+transfer m0048 m0016 19.26
+transfer m0059 m0030 13.32
+show T0.981
+transfer m0059 m0013 13.81
+clock advance 65s
+hold m0058 29
+withdraw m0056 3
+clock advance 77s
+deposit m0031 49.76
+release H084
+settle
+transfer m0058 m0048 9.95
+transfer m0002 m0059 18.47
+deposit m0002 13.26
+deposit m0057 58.37
+transfer m0048 m0041 15.72
+deposit m0057 50.88
+deposit m0052 37.80
+transfer m0029 m0039 8.50
+deposit m0036 32.40
+balance m0016
+transfer m0058 m0049 18.97
+transfer m0029 m0016 9.55
+release H069
+release H076
+release H089
+withdraw m0029 611.09
+close m0029
+transfer m0039 m0052 13.53
+deposit m0002 54.59
+withdraw m0041 6
+deposit m0031 9.95
+deposit m0058 45.78
+deposit m0039 10.44
+open m0060 velocity=200 daily=100000
+deposit m0060 169
+clock advance 118s
+transfer m0030 m0041 19.75
+withdraw m0052 1
+deposit m0052 26.47
+withdraw m0049 4
+hold m0002 9 ttl=608s
+settle
+deposit m0036 33.81
+transfer m0031 m0004 20.53
+withdraw m0030 3
+deposit m0036 13.00
+balance m0060
+transfer m0030 m0002 3.46
+deposit m0059 29.06
+clock advance 99s
+transfer m0016 m0053 14.54
+hold m0057 4 ttl=150s
+withdraw m0031 5
+clock advance 84s
+deposit m0031 31.43
+withdraw m0049 9
+transfer m0030 m0036 16.78
+deposit m0058 17.63
+clock advance 36s
+open m0061 velocity=200 daily=100000
+deposit m0061 319
+open m0062 velocity=200 daily=100000
+deposit m0062 308
+transfer m0049 m0057 18.99
+deposit m0004 16.31
+transfer m0057 m0036 15.58
+hold m0031 23
+transfer m0048 m0052 10.06
+deposit m0062 5.77
+deposit m0036 3.51
+hold m0016 8 ttl=685s
+settle
+withdraw m0059 8
+transfer m0041 m0062 16.04
+deposit m0060 5.92
+transfer m0058 m0002 11.27
+clock advance 98s
+deposit m0048 45.74
+reverse T0.1028
+transfer m0002 m0062 18.62
+transfer m0039 m0041 19.58
+withdraw m0062 4
+deposit m0031 57.87
+transfer m0025 m0052 6.36
+deposit m0049 42.76
+clock advance 65s
+transfer m0059 m0057 7.36
+open m0063 velocity=200 daily=100000
+deposit m0063 411
+clock advance 92s
+deposit m0004 41.45
+transfer m0004 m0052 15.83
+withdraw m0063 6
+hold m0041 5 ttl=312s
+withdraw m0004 10
+settle
+hold m0059 22 ttl=255s
+withdraw m0052 4
+deposit m0031 58.88
+withdraw m0048 3
+transfer m0002 m0030 9.46
+transfer m0063 m0059 14.63
+withdraw m0052 2
+capture H096 amount=1
+deposit m0062 7.35
+withdraw m0062 9
+transfer m0049 m0036 1.45
+transfer m0016 m0041 20.86
+deposit m0052 15.56
+deposit m0062 38.63
+deposit m0052 29.38
+deposit m0025 56.91
+withdraw m0031 4
+transfer m0052 m0062 6.89
+transfer m0048 m0002 12.56
+clock advance 23s
+deposit m0052 41.44
+transfer m0036 m0004 1.44
+deposit m0016 10.81
+transfer m0039 m0016 2.98
+deposit m0063 15.90
+withdraw m0063 6
+withdraw m0062 7
+settle
+clock advance 45s
+transfer m0060 m0049 1.06
+show T0.1082
+deposit m0059 46.83
+withdraw m0061 3
+transfer m0057 m0048 12.37
+deposit m0061 35.47
+withdraw m0025 4
+deposit m0059 26.47
+withdraw m0063 4
+transfer m0031 m0039 11.86
+withdraw m0031 2
+deposit m0053 29.48
+withdraw m0061 2
+deposit m0013 53.03
+withdraw m0041 9
+withdraw m0016 3
+withdraw m0031 1
+deposit m0048 54.94
+withdraw m0059 173.85
+close m0059
+deposit m0002 30.39
+withdraw m0056 3
+withdraw m0056 9
+transfer m0013 m0049 7.19
+settle
+reverse T0.1084
+deposit m0060 24.05
+transfer m0048 m0004 8.35
+deposit m0013 8.27
+withdraw m0041 3
+transfer m0063 m0060 18.99
+withdraw m0016 1
+hold m0016 17 ttl=98s
+clock advance 36s
+deposit m0013 24.57
+open m0064 velocity=200 daily=100000
+deposit m0064 76
+deposit m0062 17.39
+withdraw m0057 2
+deposit m0064 48.12
+balance m0031
+deposit m0058 35.91
+withdraw m0062 7
+deposit m0061 19.75
+transfer m0004 m0052 18.06
+reverse T0.1069
+transfer m0052 m0039 4.49
+withdraw m0058 8
+withdraw m0030 4
+withdraw m0016 4
+settle
+deposit m0058 24.58
+transfer m0052 m0030 3.02
+deposit m0041 40.80
+withdraw m0025 2
+transfer m0025 m0041 8.42
+transfer m0036 m0048 5.40
+transfer m0064 m0030 20.84
+show T0.1103
+deposit m0064 10.02
+transfer m0064 m0004 20.93
+deposit m0031 39.92
+transfer m0002 m0063 18.95
+transfer m0016 m0058 13.06
+deposit m0064 56.48
+withdraw m0062 1
+transfer m0052 m0060 3.88
+deposit m0062 49.01
+transfer m0031 m0057 8.98
+deposit m0031 20.03
+hold m0057 16 ttl=131s
+deposit m0056 59.44
+withdraw m0004 8
+withdraw m0048 643.04
+close m0048
+withdraw m0031 5
+withdraw m0052 3
+transfer m0063 m0053 8.68
+clock advance 88s
+settle
+withdraw m0004 9
+show T0.1140
+deposit m0052 50.02
+withdraw m0002 3
+transfer m0004 m0016 5.87
+deposit m0049 47.02
+deposit m0062 28.13
+reverse T0.1106
+withdraw m0064 8
+transfer m0064 m0030 9.14
+show T0.1151
+deposit m0062 38.16
+withdraw m0062 9
+transfer m0025 m0064 3.78
+transfer m0016 m0025 12.00
+transfer m0025 m0058 16.82
+deposit m0063 49.85
+release H085
+release H094
+withdraw m0016 810.48
+close m0016
+withdraw m0036 6
+transfer m0049 m0056 3.63
+deposit m0061 5.42
+deposit m0041 32.50
+deposit m0063 5.96
+deposit m0058 17.46
+transfer m0056 m0052 6.81
+transfer m0049 m0039 19.20
+deposit m0056 17.50
+release H079
+settle
+transfer m0052 m0063 3.39
+withdraw m0058 8
+withdraw m0025 581.64
+close m0025
+reverse T0.1125
+hold m0002 5
+balance m0060
+withdraw m0061 10
+deposit m0053 56.83
+withdraw m0058 7
+transfer m0064 m0063 7.48
+deposit m0062 53.62
+withdraw m0063 7
+capture H067 amount=1
+transfer m0064 m0063 13.63
+withdraw m0056 1
+deposit m0064 50.40
+hold m0013 28
+withdraw m0049 8
+withdraw m0058 1
+hold m0002 3
+withdraw m0049 8
+transfer m0060 m0064 7.75
+deposit m0004 36.79
+hold m0058 20
+settle
+withdraw m0056 6
+release H086
+withdraw m0052 483.59
+close m0052
+open m0065 velocity=200 daily=100000
+deposit m0065 337
+deposit m0061 23.08
+hold m0061 14
+hold m0056 12 ttl=531s
+deposit m0039 1.85
+withdraw m0061 4
+deposit m0062 41.53
+deposit m0031 49.43
+deposit m0062 51.75
+deposit m0004 55.78
+deposit m0060 27.21
+hold m0013 12 ttl=605s
+open m0066 velocity=200 daily=100000
+deposit m0066 178
+deposit m0036 21.36
+withdraw m0039 4
+clock advance 70s
+deposit m0060 60.68
+open m0067 velocity=200 daily=100000
+deposit m0067 122
+holds m0066
+transfer m0030 m0041 19.69
+capture H087 amount=1
+deposit m0049 55.95
+deposit m0066 13.57
+settle
+deposit m0002 16.22
+transfer m0061 m0067 7.86
+transfer m0060 m0030 2.47
+deposit m0065 22.13
+deposit m0004 31.61
+withdraw m0004 10
+transfer m0036 m0056 1.87
+withdraw m0041 2
+holds m0057
+journal
+idem
+check
+withdraw m0030 1
+deposit m0058 6.77
+deposit m0041 56.08
+deposit m0056 17.41
+transfer m0036 m0056 15.59
+withdraw m0060 10
+withdraw m0067 1
+open m0068 velocity=200 daily=100000
+deposit m0068 272
+deposit m0065 40.22
+withdraw m0030 430.11
+close m0030
+deposit m0067 44.98
+clock advance 75s
+withdraw m0057 350.80
+close m0057
+balance m0039
+withdraw m0061 2
+settle
+transfer m0036 m0063 12.58
+transfer m0058 m0002 4.80
+deposit m0061 53.82
+transfer m0013 m0056 18.81
+transfer m0065 m0053 13.20
+withdraw m0053 4
+show T0.1209
+withdraw m0036 6
+transfer m0068 m0004 12.41
+withdraw m0068 4
+show T0.1214
+hold m0068 20
+show T0.1238
+transfer m0064 m0002 13.74
+deposit m0063 8.41
+transfer m0066 m0065 11.54
+open m0069 velocity=200 daily=100000
+deposit m0069 172
+transfer m0060 m0065 8.49
+reverse T0.1250
+deposit m0039 31.98
+transfer m0002 m0065 18.11
+deposit m0069 13.78
+deposit m0031 21.26
+transfer m0065 m0061 14.41
+transfer m0004 m0062 17.02
+withdraw m0066 6
+settle
+transfer m0004 m0066 18.61
+deposit m0066 47.10
+hold m0061 2
+withdraw m0004 6
+deposit m0002 57.23
+capture H090 amount=1
+withdraw m0061 6
+history m0066 last=3
+deposit m0062 33.65
+withdraw m0036 181.16
+close m0036
+transfer m0067 m0053 20.05
+open m0070 velocity=200 daily=100000
+deposit m0070 490
+withdraw m0049 10
+show T0.1244
+withdraw m0062 7
+transfer m0031 m0004 5.59
+withdraw m0061 6
+withdraw m0041 10
+deposit m0067 9.38
+transfer m0067 m0002 15.90
+clock advance 102s
+withdraw m0063 1
+deposit m0039 9.87
+transfer m0066 m0056 11.19
+show T0.1247
+settle
+withdraw m0062 10
+withdraw m0031 1
+transfer m0070 m0061 10.23
+withdraw m0031 2
+deposit m0063 17.88
+transfer m0067 m0066 17.81
+deposit m0069 44.27
+withdraw m0062 4
+transfer m0039 m0062 9.83
+withdraw m0060 279.96
+close m0060
+reverse T0.1263
+deposit m0053 4.04
+transfer m0064 m0031 4.69
+deposit m0062 16.33
+transfer m0004 m0069 19.03
+withdraw m0056 9
+clock advance 62s
+transfer m0070 m0056 4.91
+withdraw m0066 6
+transfer m0049 m0013 1.18
+transfer m0013 m0063 14.06
+withdraw m0066 8
+transfer m0065 m0068 5.28
+clock advance 45s
+transfer m0070 m0064 1.49
+clock advance 66s
+settle
+withdraw m0065 7
+transfer m0066 m0058 2.57
+deposit m0061 55.31
+deposit m0063 11.37
+hold m0063 21
+transfer m0064 m0068 17.97
+hold m0062 28
+deposit m0053 26.79
+transfer m0069 m0065 8.21
+release H099
+transfer m0049 m0013 6.50
+transfer m0049 m0039 5.22
+clock advance 19s
+hold m0053 24 ttl=306s
+transfer m0067 m0058 16.45
+release H102
+withdraw m0058 300.17
+close m0058
+withdraw m0061 6
+deposit m0070 46.89
+deposit m0063 13.32
+hold m0049 17
+deposit m0053 55.39
+withdraw m0004 3
+transfer m0062 m0066 11.69
+withdraw m0063 10
+transfer m0061 m0056 2.53
+transfer m0031 m0064 17.39
+settle
+withdraw m0067 9
+transfer m0069 m0062 12.53
+withdraw m0002 3
+transfer m0065 m0041 10.46
+release H101
+deposit m0004 37.68
+deposit m0062 23.79
+hold m0062 24
+withdraw m0066 10
+capture H078 amount=1
+withdraw m0031 9
+transfer m0070 m0069 11.43
+transfer m0004 m0066 11.36
+clock advance 4s
+deposit m0069 50.93
+deposit m0002 15.75
+withdraw m0041 5
+withdraw m0056 4
+withdraw m0069 10
+withdraw m0053 10
+withdraw m0031 2
+deposit m0056 11.66
+balance m0013
+deposit m0068 42.38
+settle
+withdraw m0039 5
+clock advance 81s
+withdraw m0002 1
+withdraw m0041 2
+deposit m0049 36.86
+transfer m0039 m0069 16.50
+transfer m0056 m0049 7.33
+deposit m0070 42.26
+transfer m0065 m0039 9.13
+deposit m0066 51.42
+deposit m0061 55.32
+transfer m0002 m0013 4.74
+withdraw m0002 10
+withdraw m0070 551.09
+close m0070
+clock advance 80s
+transfer m0064 m0066 7.69
+hold m0049 3 ttl=273s
+deposit m0066 52.68
+clock advance 109s
+hold m0065 14 ttl=827s
+withdraw m0068 10
+withdraw m0063 1
+transfer m0069 m0049 2.25
+reverse T0.1319
+settle
+transfer m0004 m0002 19.56
+withdraw m0064 7
+deposit m0013 43.15
+withdraw m0004 9
+withdraw m0002 5
+reverse T0.1308
+withdraw m0068 3
+deposit m0041 44.90
+holds m0067
+deposit m0068 7.31
+release H093
+hold m0039 27
+clock advance 38s
+deposit m0064 45.88
+deposit m0062 27.78
+reverse T0.1325
+deposit m0063 7.59
+withdraw m0062 9
+withdraw m0066 2
+hold m0056 28
+withdraw m0039 8
+deposit m0041 37.24
+transfer m0002 m0063 4.35
+transfer m0066 m0056 7.66
+withdraw m0049 5
+clearing fail 1
+settle
+deposit m0068 16.51
+withdraw m0061 5
+withdraw m0062 6
+withdraw m0013 2
+release H111
+release H113
+withdraw m0049 586.77
+close m0049
+clock advance 79s
+deposit m0066 16.88
+clock advance 99s
+withdraw m0067 8
+clock advance 117s
+transfer m0062 m0004 7.60
+clock advance 48s
+withdraw m0064 186.20
+close m0064
+deposit m0039 33.72
+withdraw m0002 4
+reverse T0.1377
+withdraw m0013 6
+withdraw m0068 6
+withdraw m0067 2
+transfer m0004 m0066 2.28
+deposit m0056 28.89
+transfer m0068 m0031 13.37
+withdraw m0056 3
+deposit m0063 12.21
+accounts
+journal
+batches last=5
+idem
+check

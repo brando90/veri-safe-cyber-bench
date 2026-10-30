@@ -1,0 +1,14 @@
+user alice added
+user bob added
+published My_Lib 1.0.0 (0 KiB)
+error: bob may not publish to My_Lib
+published My_Lib 1.1.0 (0 KiB)
+fetched My_Lib 1.1.0
+package My_Lib visibility=public latest=1.1.0 downloads=1 releases=2
+  1.0.0 0 B by=alice at=0
+  1.1.0 0 B by=alice at=0 downloads=1
+found My_Lib latest=1.1.0 releases=2
+roles My_Lib: alice=owner
+lock n (1 packages)
+  My_Lib 1.1.0
+digest 085992d6d93d

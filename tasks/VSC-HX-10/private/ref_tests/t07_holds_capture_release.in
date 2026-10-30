@@ -1,0 +1,21 @@
+open hal
+open ivy
+deposit hal 100
+hold hal 60 ttl=1h
+hold hal 41
+hold hal 40
+holds hal
+capture H001 amount=60.01
+capture H001 amount=25 to=ivy
+capture H001
+capture H001 to=hal
+capture H002 to=hal
+capture H002 to=nobody
+release H002
+release H002
+holds hal
+balance hal
+balance ivy
+show T0.1
+history hal
+check

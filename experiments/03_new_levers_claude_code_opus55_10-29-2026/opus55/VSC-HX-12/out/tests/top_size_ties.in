@@ -1,0 +1,9 @@
+# top size orders equal sizes by name, like the other reports
+user add alice
+publish alice alpha 1.0.0 size=2KiB
+publish alice beta 1.0.0 size=2KiB
+publish alice gamma 1.0.0 size=5KiB
+publish alice delta 1.0.0 size=1KiB
+top - size
+top - size n=2
+top - releases

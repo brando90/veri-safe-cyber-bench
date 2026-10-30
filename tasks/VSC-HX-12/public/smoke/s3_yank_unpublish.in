@@ -1,0 +1,20 @@
+# yank, deprecate, unpublish
+user add alice
+user add bob
+publish alice csv-tool 1.0.0 size=4KiB
+publish alice csv-tool 1.1.0 size=5000
+publish alice csv-tool 1.2.0 size=8KiB
+owner invite alice csv-tool bob
+owner accept bob csv-tool
+yank bob csv-tool 1.2.0 reason="wrong output"
+tags - csv-tool
+resolve - csv-tool ^1.0
+deprecate alice csv-tool 1.0.0 message="use 1.1"
+fetch - csv-tool =1.0.0
+unyank alice csv-tool 1.2.0
+unpublish alice csv-tool 1.1.0
+publish alice csv-tool 1.1.0
+quota alice
+clock advance 3d
+unpublish alice csv-tool 1.0.0
+info - csv-tool

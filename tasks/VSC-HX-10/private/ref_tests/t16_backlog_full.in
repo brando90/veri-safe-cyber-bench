@@ -1,0 +1,61 @@
+open ada
+deposit ada 100
+clearing fail 40
+deposit ada 1
+settle
+clock advance 1s
+deposit ada 1
+settle
+clock advance 2s
+deposit ada 1
+settle
+clock advance 3s
+deposit ada 1
+settle
+clock advance 1s
+deposit ada 1
+settle
+clock advance 2s
+deposit ada 1
+settle
+clock advance 3s
+deposit ada 1
+settle
+clock advance 1s
+deposit ada 1
+settle
+clock advance 2s
+deposit ada 1
+settle
+clock advance 3s
+deposit ada 1
+settle
+clock advance 1s
+deposit ada 1
+settle
+clock advance 2s
+deposit ada 1
+settle
+clock advance 3s
+deposit ada 1
+settle
+clock advance 1s
+deposit ada 1
+settle
+clock advance 2s
+deposit ada 1
+settle
+clock advance 3s
+deposit ada 1
+settle
+clock advance 1s
+deposit ada 1
+settle
+batches last=20
+clock advance 25s
+clock advance 30s
+clearing fail 0
+clock advance 5m
+settle
+batches last=20
+check

@@ -1,0 +1,9 @@
+user root added (admin)
+user alice added
+published web-kit 3.0.0 (0 KiB)
+tag web-kit lts -> 3.0.0
+user alice disabled
+error: user alice is disabled
+tags web-kit: latest=3.0.0 lts=3.0.0
+#4 t=0 alice tag.add web-kit tag=lts version=3.0.0
+#5 t=0 root user.disable alice

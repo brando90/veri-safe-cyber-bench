@@ -1,0 +1,16 @@
+# publishing, resolving and fetching
+user add alice
+user add bob
+publish alice left-pad 1.0.0 size=2KiB
+publish alice left-pad 1.2.0 size=2500
+publish alice left-pad 1.10.1 size=3KiB
+publish bob tiny-json 0.4.2 size=900
+resolve - left-pad ^1.0
+resolve - left-pad ~1.2.0
+resolve bob tiny-json ^0.4
+fetch bob left-pad
+fetch - left-pad >=1.2.0,<1.10.0
+fetch - Left_Pad 1.0
+info - left-pad
+tags - left-pad
+quota alice

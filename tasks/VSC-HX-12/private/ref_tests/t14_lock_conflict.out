@@ -1,0 +1,22 @@
+user alice added
+published a 1.0.0 (0 KiB)
+published a 1.5.0 (0 KiB)
+published a 2.0.0 (0 KiB)
+published b 1.0.0 (0 KiB)
+published c 1.0.0 (0 KiB)
+published d 1.0.0 (0 KiB)
+lock good (3 packages)
+  a 1.5.0
+  b 1.0.0
+  d 1.0.0
+digest 806a81fe2e91
+error: cannot satisfy requirements for a: ^1.2 from b@1.0.0; ^2 from c@1.0.0
+lock pinned (1 packages)
+  a 1.0.0
+digest d435a6feda09
+lock mixed (3 packages)
+  a 1.5.0
+  b 1.0.0
+  d 1.0.0
+digest 806a81fe2e91
+error: invalid lock root 'b'

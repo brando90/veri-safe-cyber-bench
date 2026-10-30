@@ -1,0 +1,24 @@
+open erin slot=0 gen=0
+open fred slot=1 gen=0
+ok T0.0 deposit erin 10.00 balance=10.00
+ok T0.1 deposit fred 20.00 balance=20.00
+ok T0.2 transfer fred->erin 5.00 balance=15.00
+batch B1 n=3 volume=35.00 first=T0.0 last=T0.2 entry=0
+batch B1 settled
+settle nothing
+ok T0.3 deposit erin 1.00 balance=16.00
+clearing fail_next=1 submitted=1 accepted=1
+batch B2 n=1 volume=1.00 first=T0.3 last=T0.3 entry=1
+batch B2 failed attempt=1 retry_at=30000
+B1 settled n=3 volume=35.00 attempts=1 entry=0
+B2 pending n=1 volume=1.00 attempt=1 retry_at=30000 entry=1
+batches total=2 pending=1 unassigned=0
+now=10000
+now=30000
+batch B2 settled
+B1 settled n=3 volume=35.00 attempts=1 entry=0
+B2 settled n=1 volume=1.00 attempts=2 entry=1
+batches total=2 pending=0 unassigned=0
+clearing fail_next=0 submitted=3 accepted=2
+journal records=4 folded=0 live=4 segments=1 sealed=0 compactions=0
+check ok records=4 live=4 accounts=2 holds=0 batches=2

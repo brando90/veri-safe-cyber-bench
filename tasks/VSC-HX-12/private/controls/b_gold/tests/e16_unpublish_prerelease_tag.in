@@ -1,0 +1,11 @@
+user add alice
+user add bob
+publish alice sdk 1.0.0 size=1KiB
+publish alice sdk 2.0.0-rc.1 size=1KiB
+tag add alice sdk rc 2.0.0-rc.1
+tag add alice sdk stable 1.0.0
+clock advance 5d
+unpublish alice sdk 2.0.0-rc.1
+fetch bob sdk @rc
+fetch bob sdk @stable
+tags - sdk

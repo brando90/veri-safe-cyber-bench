@@ -1,0 +1,10 @@
+user alice added
+user bob added
+published cfg 1.0.0 (0 KiB)
+invited bob to cfg as maintainer until 86400
+clock 86399
+invite cfg bob role=maintainer until=86400 by=alice
+clock 86400
+invites cfg: none
+error: invite for bob to cfg expired
+roles cfg: alice=owner

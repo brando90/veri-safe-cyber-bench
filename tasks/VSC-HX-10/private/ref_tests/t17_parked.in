@@ -1,0 +1,18 @@
+open bea
+deposit bea 10
+clearing fail 4
+settle
+clock advance 30s
+clock advance 60s
+clock advance 2m
+batches
+deposit bea 2
+settle
+deposit bea 3
+clearing fail 1
+settle
+clock advance 29999ms
+clock advance 1ms
+batches
+clearing
+check

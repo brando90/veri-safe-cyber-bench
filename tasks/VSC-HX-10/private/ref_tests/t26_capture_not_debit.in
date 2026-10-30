@@ -1,0 +1,14 @@
+open opa daily=10 velocity=1
+open pip
+deposit opa 100
+hold opa 50
+hold opa 30
+capture H001 amount=40 to=pip
+capture H002
+withdraw opa 10
+withdraw opa 1
+balance opa
+reverse T0.1
+balance opa
+withdraw opa 1
+check

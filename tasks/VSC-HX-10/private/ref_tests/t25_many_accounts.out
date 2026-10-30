@@ -1,0 +1,703 @@
+open p000 slot=0 gen=0
+error: amount must be positive
+open p001 slot=1 gen=0
+ok T0.0 deposit p001 1.01 balance=1.01
+open p002 slot=2 gen=0
+ok T0.1 deposit p002 2.02 balance=2.02
+open p003 slot=3 gen=0
+ok T0.2 deposit p003 3.03 balance=3.03
+open p004 slot=4 gen=0
+ok T0.3 deposit p004 4.04 balance=4.04
+open p005 slot=5 gen=0
+ok T0.4 deposit p005 5.05 balance=5.05
+open p006 slot=6 gen=0
+ok T0.5 deposit p006 6.06 balance=6.06
+open p007 slot=7 gen=0
+ok T0.6 deposit p007 7.07 balance=7.07
+open p008 slot=8 gen=0
+ok T0.7 deposit p008 8.08 balance=8.08
+open p009 slot=9 gen=0
+ok T0.8 deposit p009 9.09 balance=9.09
+open p010 slot=10 gen=0
+ok T0.9 deposit p010 10.10 balance=10.10
+open p011 slot=11 gen=0
+ok T0.10 deposit p011 11.11 balance=11.11
+open p012 slot=12 gen=0
+ok T0.11 deposit p012 12.12 balance=12.12
+open p013 slot=13 gen=0
+ok T0.12 deposit p013 13.13 balance=13.13
+open p014 slot=14 gen=0
+ok T0.13 deposit p014 14.14 balance=14.14
+open p015 slot=15 gen=0
+ok T0.14 deposit p015 15.15 balance=15.15
+open p016 slot=16 gen=0
+ok T0.15 deposit p016 16.16 balance=16.16
+open p017 slot=17 gen=0
+ok T0.16 deposit p017 17.17 balance=17.17
+open p018 slot=18 gen=0
+ok T0.17 deposit p018 18.18 balance=18.18
+open p019 slot=19 gen=0
+ok T0.18 deposit p019 19.19 balance=19.19
+open p020 slot=20 gen=0
+ok T0.19 deposit p020 20.20 balance=20.20
+open p021 slot=21 gen=0
+ok T0.20 deposit p021 21.21 balance=21.21
+open p022 slot=22 gen=0
+ok T0.21 deposit p022 22.22 balance=22.22
+open p023 slot=23 gen=0
+ok T0.22 deposit p023 23.23 balance=23.23
+open p024 slot=24 gen=0
+ok T0.23 deposit p024 24.24 balance=24.24
+open p025 slot=25 gen=0
+ok T0.24 deposit p025 25.25 balance=25.25
+open p026 slot=26 gen=0
+ok T0.25 deposit p026 26.26 balance=26.26
+open p027 slot=27 gen=0
+ok T0.26 deposit p027 27.27 balance=27.27
+open p028 slot=28 gen=0
+ok T0.27 deposit p028 28.28 balance=28.28
+open p029 slot=29 gen=0
+ok T0.28 deposit p029 29.29 balance=29.29
+open p030 slot=30 gen=0
+ok T0.29 deposit p030 30.30 balance=30.30
+open p031 slot=31 gen=0
+ok T0.30 deposit p031 31.31 balance=31.31
+open p032 slot=32 gen=0
+ok T0.31 deposit p032 32.32 balance=32.32
+open p033 slot=33 gen=0
+ok T0.32 deposit p033 33.33 balance=33.33
+open p034 slot=34 gen=0
+ok T0.33 deposit p034 34.34 balance=34.34
+open p035 slot=35 gen=0
+ok T0.34 deposit p035 35.35 balance=35.35
+open p036 slot=36 gen=0
+ok T0.35 deposit p036 36.36 balance=36.36
+open p037 slot=37 gen=0
+ok T0.36 deposit p037 37.37 balance=37.37
+open p038 slot=38 gen=0
+ok T0.37 deposit p038 38.38 balance=38.38
+open p039 slot=39 gen=0
+ok T0.38 deposit p039 39.39 balance=39.39
+open p040 slot=40 gen=0
+ok T0.39 deposit p040 40.40 balance=40.40
+open p041 slot=41 gen=0
+ok T0.40 deposit p041 41.41 balance=41.41
+open p042 slot=42 gen=0
+ok T0.41 deposit p042 42.42 balance=42.42
+open p043 slot=43 gen=0
+ok T0.42 deposit p043 43.43 balance=43.43
+open p044 slot=44 gen=0
+ok T0.43 deposit p044 44.44 balance=44.44
+open p045 slot=45 gen=0
+ok T0.44 deposit p045 45.45 balance=45.45
+open p046 slot=46 gen=0
+ok T0.45 deposit p046 46.46 balance=46.46
+open p047 slot=47 gen=0
+ok T0.46 deposit p047 47.47 balance=47.47
+open p048 slot=48 gen=0
+ok T0.47 deposit p048 48.48 balance=48.48
+open p049 slot=49 gen=0
+ok T0.48 deposit p049 49.49 balance=49.49
+open p050 slot=50 gen=0
+ok T0.49 deposit p050 50.50 balance=50.50
+open p051 slot=51 gen=0
+ok T0.50 deposit p051 51.51 balance=51.51
+open p052 slot=52 gen=0
+ok T0.51 deposit p052 52.52 balance=52.52
+open p053 slot=53 gen=0
+ok T0.52 deposit p053 53.53 balance=53.53
+open p054 slot=54 gen=0
+ok T0.53 deposit p054 54.54 balance=54.54
+open p055 slot=55 gen=0
+ok T0.54 deposit p055 55.55 balance=55.55
+open p056 slot=56 gen=0
+ok T0.55 deposit p056 56.56 balance=56.56
+open p057 slot=57 gen=0
+ok T0.56 deposit p057 57.57 balance=57.57
+open p058 slot=58 gen=0
+ok T0.57 deposit p058 58.58 balance=58.58
+open p059 slot=59 gen=0
+ok T0.58 deposit p059 59.59 balance=59.59
+open p060 slot=60 gen=0
+ok T0.59 deposit p060 60.60 balance=60.60
+open p061 slot=61 gen=0
+ok T0.60 deposit p061 61.61 balance=61.61
+open p062 slot=62 gen=0
+ok T0.61 deposit p062 62.62 balance=62.62
+open p063 slot=63 gen=0
+ok T0.62 deposit p063 63.63 balance=63.63
+open p064 slot=64 gen=0
+ok T0.63 deposit p064 64.64 balance=64.64
+open p065 slot=65 gen=0
+ok T0.64 deposit p065 65.65 balance=65.65
+open p066 slot=66 gen=0
+ok T0.65 deposit p066 66.66 balance=66.66
+open p067 slot=67 gen=0
+ok T0.66 deposit p067 67.67 balance=67.67
+open p068 slot=68 gen=0
+ok T0.67 deposit p068 68.68 balance=68.68
+open p069 slot=69 gen=0
+ok T0.68 deposit p069 69.69 balance=69.69
+open p070 slot=70 gen=0
+ok T0.69 deposit p070 70.70 balance=70.70
+open p071 slot=71 gen=0
+ok T0.70 deposit p071 71.71 balance=71.71
+open p072 slot=72 gen=0
+ok T0.71 deposit p072 72.72 balance=72.72
+open p073 slot=73 gen=0
+ok T0.72 deposit p073 73.73 balance=73.73
+open p074 slot=74 gen=0
+ok T0.73 deposit p074 74.74 balance=74.74
+open p075 slot=75 gen=0
+ok T0.74 deposit p075 75.75 balance=75.75
+open p076 slot=76 gen=0
+ok T0.75 deposit p076 76.76 balance=76.76
+open p077 slot=77 gen=0
+ok T0.76 deposit p077 77.77 balance=77.77
+open p078 slot=78 gen=0
+ok T0.77 deposit p078 78.78 balance=78.78
+open p079 slot=79 gen=0
+ok T0.78 deposit p079 79.79 balance=79.79
+open p080 slot=80 gen=0
+ok T0.79 deposit p080 80.80 balance=80.80
+open p081 slot=81 gen=0
+ok T0.80 deposit p081 81.81 balance=81.81
+open p082 slot=82 gen=0
+ok T0.81 deposit p082 82.82 balance=82.82
+open p083 slot=83 gen=0
+ok T0.82 deposit p083 83.83 balance=83.83
+open p084 slot=84 gen=0
+ok T0.83 deposit p084 84.84 balance=84.84
+open p085 slot=85 gen=0
+ok T0.84 deposit p085 85.85 balance=85.85
+open p086 slot=86 gen=0
+ok T0.85 deposit p086 86.86 balance=86.86
+open p087 slot=87 gen=0
+ok T0.86 deposit p087 87.87 balance=87.87
+open p088 slot=88 gen=0
+ok T0.87 deposit p088 88.88 balance=88.88
+open p089 slot=89 gen=0
+ok T0.88 deposit p089 89.89 balance=89.89
+open p090 slot=90 gen=0
+ok T0.89 deposit p090 90.90 balance=90.90
+open p091 slot=91 gen=0
+ok T0.90 deposit p091 91.91 balance=91.91
+open p092 slot=92 gen=0
+ok T0.91 deposit p092 92.92 balance=92.92
+open p093 slot=93 gen=0
+ok T0.92 deposit p093 93.93 balance=93.93
+open p094 slot=94 gen=0
+ok T0.93 deposit p094 94.94 balance=94.94
+open p095 slot=95 gen=0
+ok T0.94 deposit p095 95.95 balance=95.95
+open p096 slot=96 gen=0
+ok T0.95 deposit p096 96.96 balance=96.96
+open p097 slot=97 gen=0
+ok T0.96 deposit p097 97.97 balance=97.97
+open p098 slot=98 gen=0
+ok T0.97 deposit p098 98.98 balance=98.98
+open p099 slot=99 gen=0
+ok T0.98 deposit p099 99.99 balance=99.99
+open p100 slot=100 gen=0
+ok T0.99 deposit p100 100.00 balance=100.00
+open p101 slot=101 gen=0
+ok T0.100 deposit p101 101.01 balance=101.01
+open p102 slot=102 gen=0
+ok T0.101 deposit p102 102.02 balance=102.02
+open p103 slot=103 gen=0
+ok T0.102 deposit p103 103.03 balance=103.03
+open p104 slot=104 gen=0
+ok T0.103 deposit p104 104.04 balance=104.04
+open p105 slot=105 gen=0
+ok T0.104 deposit p105 105.05 balance=105.05
+open p106 slot=106 gen=0
+ok T0.105 deposit p106 106.06 balance=106.06
+open p107 slot=107 gen=0
+ok T0.106 deposit p107 107.07 balance=107.07
+open p108 slot=108 gen=0
+ok T0.107 deposit p108 108.08 balance=108.08
+open p109 slot=109 gen=0
+ok T0.108 deposit p109 109.09 balance=109.09
+open p110 slot=110 gen=0
+ok T0.109 deposit p110 110.10 balance=110.10
+open p111 slot=111 gen=0
+ok T0.110 deposit p111 111.11 balance=111.11
+open p112 slot=112 gen=0
+ok T0.111 deposit p112 112.12 balance=112.12
+open p113 slot=113 gen=0
+ok T0.112 deposit p113 113.13 balance=113.13
+open p114 slot=114 gen=0
+ok T0.113 deposit p114 114.14 balance=114.14
+open p115 slot=115 gen=0
+ok T0.114 deposit p115 115.15 balance=115.15
+open p116 slot=116 gen=0
+ok T0.115 deposit p116 116.16 balance=116.16
+open p117 slot=117 gen=0
+ok T0.116 deposit p117 117.17 balance=117.17
+open p118 slot=118 gen=0
+ok T0.117 deposit p118 118.18 balance=118.18
+open p119 slot=119 gen=0
+ok T0.118 deposit p119 119.19 balance=119.19
+open p120 slot=120 gen=0
+ok T0.119 deposit p120 120.20 balance=120.20
+open p121 slot=121 gen=0
+ok T0.120 deposit p121 121.21 balance=121.21
+open p122 slot=122 gen=0
+ok T0.121 deposit p122 122.22 balance=122.22
+open p123 slot=123 gen=0
+ok T0.122 deposit p123 123.23 balance=123.23
+open p124 slot=124 gen=0
+ok T0.123 deposit p124 124.24 balance=124.24
+open p125 slot=125 gen=0
+ok T0.124 deposit p125 125.25 balance=125.25
+open p126 slot=126 gen=0
+ok T0.125 deposit p126 126.26 balance=126.26
+open p127 slot=127 gen=0
+ok T0.126 deposit p127 127.27 balance=127.27
+open p128 slot=128 gen=0
+ok T0.127 deposit p128 128.28 balance=128.28
+open p129 slot=129 gen=0
+ok T0.128 deposit p129 129.29 balance=129.29
+open p130 slot=130 gen=0
+ok T0.129 deposit p130 130.30 balance=130.30
+open p131 slot=131 gen=0
+ok T0.130 deposit p131 131.31 balance=131.31
+open p132 slot=132 gen=0
+ok T0.131 deposit p132 132.32 balance=132.32
+open p133 slot=133 gen=0
+ok T0.132 deposit p133 133.33 balance=133.33
+open p134 slot=134 gen=0
+ok T0.133 deposit p134 134.34 balance=134.34
+open p135 slot=135 gen=0
+ok T0.134 deposit p135 135.35 balance=135.35
+open p136 slot=136 gen=0
+ok T0.135 deposit p136 136.36 balance=136.36
+open p137 slot=137 gen=0
+ok T0.136 deposit p137 137.37 balance=137.37
+open p138 slot=138 gen=0
+ok T0.137 deposit p138 138.38 balance=138.38
+open p139 slot=139 gen=0
+ok T0.138 deposit p139 139.39 balance=139.39
+open p140 slot=140 gen=0
+ok T0.139 deposit p140 140.40 balance=140.40
+open p141 slot=141 gen=0
+ok T0.140 deposit p141 141.41 balance=141.41
+open p142 slot=142 gen=0
+ok T0.141 deposit p142 142.42 balance=142.42
+open p143 slot=143 gen=0
+ok T0.142 deposit p143 143.43 balance=143.43
+open p144 slot=144 gen=0
+ok T0.143 deposit p144 144.44 balance=144.44
+open p145 slot=145 gen=0
+ok T0.144 deposit p145 145.45 balance=145.45
+open p146 slot=146 gen=0
+ok T0.145 deposit p146 146.46 balance=146.46
+open p147 slot=147 gen=0
+ok T0.146 deposit p147 147.47 balance=147.47
+open p148 slot=148 gen=0
+ok T0.147 deposit p148 148.48 balance=148.48
+open p149 slot=149 gen=0
+ok T0.148 deposit p149 149.49 balance=149.49
+open p150 slot=150 gen=0
+ok T0.149 deposit p150 150.50 balance=150.50
+open p151 slot=151 gen=0
+ok T0.150 deposit p151 151.51 balance=151.51
+open p152 slot=152 gen=0
+ok T0.151 deposit p152 152.52 balance=152.52
+open p153 slot=153 gen=0
+ok T0.152 deposit p153 153.53 balance=153.53
+open p154 slot=154 gen=0
+ok T0.153 deposit p154 154.54 balance=154.54
+open p155 slot=155 gen=0
+ok T0.154 deposit p155 155.55 balance=155.55
+open p156 slot=156 gen=0
+ok T0.155 deposit p156 156.56 balance=156.56
+open p157 slot=157 gen=0
+ok T0.156 deposit p157 157.57 balance=157.57
+open p158 slot=158 gen=0
+ok T0.157 deposit p158 158.58 balance=158.58
+open p159 slot=159 gen=0
+ok T0.158 deposit p159 159.59 balance=159.59
+open p160 slot=160 gen=0
+ok T0.159 deposit p160 160.60 balance=160.60
+open p161 slot=161 gen=0
+ok T0.160 deposit p161 161.61 balance=161.61
+open p162 slot=162 gen=0
+ok T0.161 deposit p162 162.62 balance=162.62
+open p163 slot=163 gen=0
+ok T0.162 deposit p163 163.63 balance=163.63
+open p164 slot=164 gen=0
+ok T0.163 deposit p164 164.64 balance=164.64
+open p165 slot=165 gen=0
+ok T0.164 deposit p165 165.65 balance=165.65
+open p166 slot=166 gen=0
+ok T0.165 deposit p166 166.66 balance=166.66
+open p167 slot=167 gen=0
+ok T0.166 deposit p167 167.67 balance=167.67
+open p168 slot=168 gen=0
+ok T0.167 deposit p168 168.68 balance=168.68
+open p169 slot=169 gen=0
+ok T0.168 deposit p169 169.69 balance=169.69
+open p170 slot=170 gen=0
+ok T0.169 deposit p170 170.70 balance=170.70
+open p171 slot=171 gen=0
+ok T0.170 deposit p171 171.71 balance=171.71
+open p172 slot=172 gen=0
+ok T0.171 deposit p172 172.72 balance=172.72
+open p173 slot=173 gen=0
+ok T0.172 deposit p173 173.73 balance=173.73
+open p174 slot=174 gen=0
+ok T0.173 deposit p174 174.74 balance=174.74
+open p175 slot=175 gen=0
+ok T0.174 deposit p175 175.75 balance=175.75
+open p176 slot=176 gen=0
+ok T0.175 deposit p176 176.76 balance=176.76
+open p177 slot=177 gen=0
+ok T0.176 deposit p177 177.77 balance=177.77
+open p178 slot=178 gen=0
+ok T0.177 deposit p178 178.78 balance=178.78
+open p179 slot=179 gen=0
+ok T0.178 deposit p179 179.79 balance=179.79
+open p180 slot=180 gen=0
+ok T0.179 deposit p180 180.80 balance=180.80
+open p181 slot=181 gen=0
+ok T0.180 deposit p181 181.81 balance=181.81
+open p182 slot=182 gen=0
+ok T0.181 deposit p182 182.82 balance=182.82
+open p183 slot=183 gen=0
+ok T0.182 deposit p183 183.83 balance=183.83
+open p184 slot=184 gen=0
+ok T0.183 deposit p184 184.84 balance=184.84
+open p185 slot=185 gen=0
+ok T0.184 deposit p185 185.85 balance=185.85
+open p186 slot=186 gen=0
+ok T0.185 deposit p186 186.86 balance=186.86
+open p187 slot=187 gen=0
+ok T0.186 deposit p187 187.87 balance=187.87
+open p188 slot=188 gen=0
+ok T0.187 deposit p188 188.88 balance=188.88
+open p189 slot=189 gen=0
+ok T0.188 deposit p189 189.89 balance=189.89
+open p190 slot=190 gen=0
+ok T0.189 deposit p190 190.90 balance=190.90
+open p191 slot=191 gen=0
+ok T0.190 deposit p191 191.91 balance=191.91
+open p192 slot=192 gen=0
+ok T0.191 deposit p192 192.92 balance=192.92
+open p193 slot=193 gen=0
+ok T0.192 deposit p193 193.93 balance=193.93
+open p194 slot=194 gen=0
+ok T0.193 deposit p194 194.94 balance=194.94
+open p195 slot=195 gen=0
+ok T0.194 deposit p195 195.95 balance=195.95
+open p196 slot=196 gen=0
+ok T0.195 deposit p196 196.96 balance=196.96
+open p197 slot=197 gen=0
+ok T0.196 deposit p197 197.97 balance=197.97
+open p198 slot=198 gen=0
+ok T0.197 deposit p198 198.98 balance=198.98
+open p199 slot=199 gen=0
+ok T0.198 deposit p199 199.99 balance=199.99
+ok T0.199 transfer p001->p000 0.01 balance=1.00
+ok T0.200 transfer p003->p002 0.03 balance=3.00
+ok T0.201 transfer p005->p004 0.05 balance=5.00
+ok T0.202 transfer p007->p006 0.07 balance=7.00
+ok T0.203 transfer p009->p008 0.09 balance=9.00
+ok T0.204 transfer p011->p010 0.11 balance=11.00
+ok T0.205 transfer p013->p012 0.13 balance=13.00
+ok T0.206 transfer p015->p014 0.15 balance=15.00
+ok T0.207 transfer p017->p016 0.17 balance=17.00
+ok T0.208 transfer p019->p018 0.19 balance=19.00
+ok T0.209 transfer p021->p020 0.21 balance=21.00
+ok T0.210 transfer p023->p022 0.23 balance=23.00
+ok T0.211 transfer p025->p024 0.25 balance=25.00
+ok T0.212 transfer p027->p026 0.27 balance=27.00
+ok T0.213 transfer p029->p028 0.29 balance=29.00
+ok T0.214 transfer p031->p030 0.31 balance=31.00
+ok T0.215 transfer p033->p032 0.33 balance=33.00
+ok T0.216 transfer p035->p034 0.35 balance=35.00
+ok T0.217 transfer p037->p036 0.37 balance=37.00
+ok T0.218 transfer p039->p038 0.39 balance=39.00
+ok T0.219 transfer p041->p040 0.41 balance=41.00
+ok T0.220 transfer p043->p042 0.43 balance=43.00
+ok T0.221 transfer p045->p044 0.45 balance=45.00
+ok T0.222 transfer p047->p046 0.47 balance=47.00
+ok T0.223 transfer p049->p048 0.49 balance=49.00
+ok T0.224 transfer p051->p050 0.01 balance=51.50
+ok T0.225 transfer p053->p052 0.03 balance=53.50
+ok T0.226 transfer p055->p054 0.05 balance=55.50
+ok T0.227 transfer p057->p056 0.07 balance=57.50
+ok T0.228 transfer p059->p058 0.09 balance=59.50
+ok T0.229 transfer p061->p060 0.11 balance=61.50
+ok T0.230 transfer p063->p062 0.13 balance=63.50
+ok T0.231 transfer p065->p064 0.15 balance=65.50
+ok T0.232 transfer p067->p066 0.17 balance=67.50
+ok T0.233 transfer p069->p068 0.19 balance=69.50
+ok T0.234 transfer p071->p070 0.21 balance=71.50
+ok T0.235 transfer p073->p072 0.23 balance=73.50
+ok T0.236 transfer p075->p074 0.25 balance=75.50
+ok T0.237 transfer p077->p076 0.27 balance=77.50
+ok T0.238 transfer p079->p078 0.29 balance=79.50
+ok T0.239 transfer p081->p080 0.31 balance=81.50
+ok T0.240 transfer p083->p082 0.33 balance=83.50
+ok T0.241 transfer p085->p084 0.35 balance=85.50
+ok T0.242 transfer p087->p086 0.37 balance=87.50
+ok T0.243 transfer p089->p088 0.39 balance=89.50
+ok T0.244 transfer p091->p090 0.41 balance=91.50
+ok T0.245 transfer p093->p092 0.43 balance=93.50
+ok T0.246 transfer p095->p094 0.45 balance=95.50
+ok T0.247 transfer p097->p096 0.47 balance=97.50
+ok T0.248 transfer p099->p098 0.49 balance=99.50
+ok T0.249 transfer p101->p100 0.01 balance=101.00
+ok T0.250 transfer p103->p102 0.03 balance=103.00
+ok T0.251 transfer p105->p104 0.05 balance=105.00
+ok T0.252 transfer p107->p106 0.07 balance=107.00
+ok T0.253 transfer p109->p108 0.09 balance=109.00
+ok T0.254 transfer p111->p110 0.11 balance=111.00
+ok T0.255 transfer p113->p112 0.13 balance=113.00
+ok T0.256 transfer p115->p114 0.15 balance=115.00
+ok T0.257 transfer p117->p116 0.17 balance=117.00
+ok T0.258 transfer p119->p118 0.19 balance=119.00
+ok T0.259 transfer p121->p120 0.21 balance=121.00
+ok T0.260 transfer p123->p122 0.23 balance=123.00
+ok T0.261 transfer p125->p124 0.25 balance=125.00
+ok T0.262 transfer p127->p126 0.27 balance=127.00
+ok T0.263 transfer p129->p128 0.29 balance=129.00
+ok T0.264 transfer p131->p130 0.31 balance=131.00
+ok T0.265 transfer p133->p132 0.33 balance=133.00
+ok T0.266 transfer p135->p134 0.35 balance=135.00
+ok T0.267 transfer p137->p136 0.37 balance=137.00
+ok T0.268 transfer p139->p138 0.39 balance=139.00
+ok T0.269 transfer p141->p140 0.41 balance=141.00
+ok T0.270 transfer p143->p142 0.43 balance=143.00
+ok T0.271 transfer p145->p144 0.45 balance=145.00
+ok T0.272 transfer p147->p146 0.47 balance=147.00
+ok T0.273 transfer p149->p148 0.49 balance=149.00
+ok T0.274 transfer p151->p150 0.01 balance=151.50
+ok T0.275 transfer p153->p152 0.03 balance=153.50
+ok T0.276 transfer p155->p154 0.05 balance=155.50
+ok T0.277 transfer p157->p156 0.07 balance=157.50
+ok T0.278 transfer p159->p158 0.09 balance=159.50
+ok T0.279 transfer p161->p160 0.11 balance=161.50
+ok T0.280 transfer p163->p162 0.13 balance=163.50
+ok T0.281 transfer p165->p164 0.15 balance=165.50
+ok T0.282 transfer p167->p166 0.17 balance=167.50
+ok T0.283 transfer p169->p168 0.19 balance=169.50
+ok T0.284 transfer p171->p170 0.21 balance=171.50
+ok T0.285 transfer p173->p172 0.23 balance=173.50
+ok T0.286 transfer p175->p174 0.25 balance=175.50
+ok T0.287 transfer p177->p176 0.27 balance=177.50
+ok T0.288 transfer p179->p178 0.29 balance=179.50
+ok T0.289 transfer p181->p180 0.31 balance=181.50
+ok T0.290 transfer p183->p182 0.33 balance=183.50
+ok T0.291 transfer p185->p184 0.35 balance=185.50
+ok T0.292 transfer p187->p186 0.37 balance=187.50
+ok T0.293 transfer p189->p188 0.39 balance=189.50
+ok T0.294 transfer p191->p190 0.41 balance=191.50
+ok T0.295 transfer p193->p192 0.43 balance=193.50
+ok T0.296 transfer p195->p194 0.45 balance=195.50
+ok T0.297 transfer p197->p196 0.47 balance=197.50
+ok T0.298 transfer p199->p198 0.49 balance=199.50
+p000 slot=0 gen=0 balance=0.01 held=0.00 ops=1
+p001 slot=1 gen=0 balance=1.00 held=0.00 ops=2
+p002 slot=2 gen=0 balance=2.05 held=0.00 ops=2
+p003 slot=3 gen=0 balance=3.00 held=0.00 ops=2
+p004 slot=4 gen=0 balance=4.09 held=0.00 ops=2
+p005 slot=5 gen=0 balance=5.00 held=0.00 ops=2
+p006 slot=6 gen=0 balance=6.13 held=0.00 ops=2
+p007 slot=7 gen=0 balance=7.00 held=0.00 ops=2
+p008 slot=8 gen=0 balance=8.17 held=0.00 ops=2
+p009 slot=9 gen=0 balance=9.00 held=0.00 ops=2
+p010 slot=10 gen=0 balance=10.21 held=0.00 ops=2
+p011 slot=11 gen=0 balance=11.00 held=0.00 ops=2
+p012 slot=12 gen=0 balance=12.25 held=0.00 ops=2
+p013 slot=13 gen=0 balance=13.00 held=0.00 ops=2
+p014 slot=14 gen=0 balance=14.29 held=0.00 ops=2
+p015 slot=15 gen=0 balance=15.00 held=0.00 ops=2
+p016 slot=16 gen=0 balance=16.33 held=0.00 ops=2
+p017 slot=17 gen=0 balance=17.00 held=0.00 ops=2
+p018 slot=18 gen=0 balance=18.37 held=0.00 ops=2
+p019 slot=19 gen=0 balance=19.00 held=0.00 ops=2
+p020 slot=20 gen=0 balance=20.41 held=0.00 ops=2
+p021 slot=21 gen=0 balance=21.00 held=0.00 ops=2
+p022 slot=22 gen=0 balance=22.45 held=0.00 ops=2
+p023 slot=23 gen=0 balance=23.00 held=0.00 ops=2
+p024 slot=24 gen=0 balance=24.49 held=0.00 ops=2
+p025 slot=25 gen=0 balance=25.00 held=0.00 ops=2
+p026 slot=26 gen=0 balance=26.53 held=0.00 ops=2
+p027 slot=27 gen=0 balance=27.00 held=0.00 ops=2
+p028 slot=28 gen=0 balance=28.57 held=0.00 ops=2
+p029 slot=29 gen=0 balance=29.00 held=0.00 ops=2
+p030 slot=30 gen=0 balance=30.61 held=0.00 ops=2
+p031 slot=31 gen=0 balance=31.00 held=0.00 ops=2
+p032 slot=32 gen=0 balance=32.65 held=0.00 ops=2
+p033 slot=33 gen=0 balance=33.00 held=0.00 ops=2
+p034 slot=34 gen=0 balance=34.69 held=0.00 ops=2
+p035 slot=35 gen=0 balance=35.00 held=0.00 ops=2
+p036 slot=36 gen=0 balance=36.73 held=0.00 ops=2
+p037 slot=37 gen=0 balance=37.00 held=0.00 ops=2
+p038 slot=38 gen=0 balance=38.77 held=0.00 ops=2
+p039 slot=39 gen=0 balance=39.00 held=0.00 ops=2
+p040 slot=40 gen=0 balance=40.81 held=0.00 ops=2
+p041 slot=41 gen=0 balance=41.00 held=0.00 ops=2
+p042 slot=42 gen=0 balance=42.85 held=0.00 ops=2
+p043 slot=43 gen=0 balance=43.00 held=0.00 ops=2
+p044 slot=44 gen=0 balance=44.89 held=0.00 ops=2
+p045 slot=45 gen=0 balance=45.00 held=0.00 ops=2
+p046 slot=46 gen=0 balance=46.93 held=0.00 ops=2
+p047 slot=47 gen=0 balance=47.00 held=0.00 ops=2
+p048 slot=48 gen=0 balance=48.97 held=0.00 ops=2
+p049 slot=49 gen=0 balance=49.00 held=0.00 ops=2
+p050 slot=50 gen=0 balance=50.51 held=0.00 ops=2
+p051 slot=51 gen=0 balance=51.50 held=0.00 ops=2
+p052 slot=52 gen=0 balance=52.55 held=0.00 ops=2
+p053 slot=53 gen=0 balance=53.50 held=0.00 ops=2
+p054 slot=54 gen=0 balance=54.59 held=0.00 ops=2
+p055 slot=55 gen=0 balance=55.50 held=0.00 ops=2
+p056 slot=56 gen=0 balance=56.63 held=0.00 ops=2
+p057 slot=57 gen=0 balance=57.50 held=0.00 ops=2
+p058 slot=58 gen=0 balance=58.67 held=0.00 ops=2
+p059 slot=59 gen=0 balance=59.50 held=0.00 ops=2
+p060 slot=60 gen=0 balance=60.71 held=0.00 ops=2
+p061 slot=61 gen=0 balance=61.50 held=0.00 ops=2
+p062 slot=62 gen=0 balance=62.75 held=0.00 ops=2
+p063 slot=63 gen=0 balance=63.50 held=0.00 ops=2
+p064 slot=64 gen=0 balance=64.79 held=0.00 ops=2
+p065 slot=65 gen=0 balance=65.50 held=0.00 ops=2
+p066 slot=66 gen=0 balance=66.83 held=0.00 ops=2
+p067 slot=67 gen=0 balance=67.50 held=0.00 ops=2
+p068 slot=68 gen=0 balance=68.87 held=0.00 ops=2
+p069 slot=69 gen=0 balance=69.50 held=0.00 ops=2
+p070 slot=70 gen=0 balance=70.91 held=0.00 ops=2
+p071 slot=71 gen=0 balance=71.50 held=0.00 ops=2
+p072 slot=72 gen=0 balance=72.95 held=0.00 ops=2
+p073 slot=73 gen=0 balance=73.50 held=0.00 ops=2
+p074 slot=74 gen=0 balance=74.99 held=0.00 ops=2
+p075 slot=75 gen=0 balance=75.50 held=0.00 ops=2
+p076 slot=76 gen=0 balance=77.03 held=0.00 ops=2
+p077 slot=77 gen=0 balance=77.50 held=0.00 ops=2
+p078 slot=78 gen=0 balance=79.07 held=0.00 ops=2
+p079 slot=79 gen=0 balance=79.50 held=0.00 ops=2
+p080 slot=80 gen=0 balance=81.11 held=0.00 ops=2
+p081 slot=81 gen=0 balance=81.50 held=0.00 ops=2
+p082 slot=82 gen=0 balance=83.15 held=0.00 ops=2
+p083 slot=83 gen=0 balance=83.50 held=0.00 ops=2
+p084 slot=84 gen=0 balance=85.19 held=0.00 ops=2
+p085 slot=85 gen=0 balance=85.50 held=0.00 ops=2
+p086 slot=86 gen=0 balance=87.23 held=0.00 ops=2
+p087 slot=87 gen=0 balance=87.50 held=0.00 ops=2
+p088 slot=88 gen=0 balance=89.27 held=0.00 ops=2
+p089 slot=89 gen=0 balance=89.50 held=0.00 ops=2
+p090 slot=90 gen=0 balance=91.31 held=0.00 ops=2
+p091 slot=91 gen=0 balance=91.50 held=0.00 ops=2
+p092 slot=92 gen=0 balance=93.35 held=0.00 ops=2
+p093 slot=93 gen=0 balance=93.50 held=0.00 ops=2
+p094 slot=94 gen=0 balance=95.39 held=0.00 ops=2
+p095 slot=95 gen=0 balance=95.50 held=0.00 ops=2
+p096 slot=96 gen=0 balance=97.43 held=0.00 ops=2
+p097 slot=97 gen=0 balance=97.50 held=0.00 ops=2
+p098 slot=98 gen=0 balance=99.47 held=0.00 ops=2
+p099 slot=99 gen=0 balance=99.50 held=0.00 ops=2
+p100 slot=100 gen=0 balance=100.01 held=0.00 ops=2
+p101 slot=101 gen=0 balance=101.00 held=0.00 ops=2
+p102 slot=102 gen=0 balance=102.05 held=0.00 ops=2
+p103 slot=103 gen=0 balance=103.00 held=0.00 ops=2
+p104 slot=104 gen=0 balance=104.09 held=0.00 ops=2
+p105 slot=105 gen=0 balance=105.00 held=0.00 ops=2
+p106 slot=106 gen=0 balance=106.13 held=0.00 ops=2
+p107 slot=107 gen=0 balance=107.00 held=0.00 ops=2
+p108 slot=108 gen=0 balance=108.17 held=0.00 ops=2
+p109 slot=109 gen=0 balance=109.00 held=0.00 ops=2
+p110 slot=110 gen=0 balance=110.21 held=0.00 ops=2
+p111 slot=111 gen=0 balance=111.00 held=0.00 ops=2
+p112 slot=112 gen=0 balance=112.25 held=0.00 ops=2
+p113 slot=113 gen=0 balance=113.00 held=0.00 ops=2
+p114 slot=114 gen=0 balance=114.29 held=0.00 ops=2
+p115 slot=115 gen=0 balance=115.00 held=0.00 ops=2
+p116 slot=116 gen=0 balance=116.33 held=0.00 ops=2
+p117 slot=117 gen=0 balance=117.00 held=0.00 ops=2
+p118 slot=118 gen=0 balance=118.37 held=0.00 ops=2
+p119 slot=119 gen=0 balance=119.00 held=0.00 ops=2
+p120 slot=120 gen=0 balance=120.41 held=0.00 ops=2
+p121 slot=121 gen=0 balance=121.00 held=0.00 ops=2
+p122 slot=122 gen=0 balance=122.45 held=0.00 ops=2
+p123 slot=123 gen=0 balance=123.00 held=0.00 ops=2
+p124 slot=124 gen=0 balance=124.49 held=0.00 ops=2
+p125 slot=125 gen=0 balance=125.00 held=0.00 ops=2
+p126 slot=126 gen=0 balance=126.53 held=0.00 ops=2
+p127 slot=127 gen=0 balance=127.00 held=0.00 ops=2
+p128 slot=128 gen=0 balance=128.57 held=0.00 ops=2
+p129 slot=129 gen=0 balance=129.00 held=0.00 ops=2
+p130 slot=130 gen=0 balance=130.61 held=0.00 ops=2
+p131 slot=131 gen=0 balance=131.00 held=0.00 ops=2
+p132 slot=132 gen=0 balance=132.65 held=0.00 ops=2
+p133 slot=133 gen=0 balance=133.00 held=0.00 ops=2
+p134 slot=134 gen=0 balance=134.69 held=0.00 ops=2
+p135 slot=135 gen=0 balance=135.00 held=0.00 ops=2
+p136 slot=136 gen=0 balance=136.73 held=0.00 ops=2
+p137 slot=137 gen=0 balance=137.00 held=0.00 ops=2
+p138 slot=138 gen=0 balance=138.77 held=0.00 ops=2
+p139 slot=139 gen=0 balance=139.00 held=0.00 ops=2
+p140 slot=140 gen=0 balance=140.81 held=0.00 ops=2
+p141 slot=141 gen=0 balance=141.00 held=0.00 ops=2
+p142 slot=142 gen=0 balance=142.85 held=0.00 ops=2
+p143 slot=143 gen=0 balance=143.00 held=0.00 ops=2
+p144 slot=144 gen=0 balance=144.89 held=0.00 ops=2
+p145 slot=145 gen=0 balance=145.00 held=0.00 ops=2
+p146 slot=146 gen=0 balance=146.93 held=0.00 ops=2
+p147 slot=147 gen=0 balance=147.00 held=0.00 ops=2
+p148 slot=148 gen=0 balance=148.97 held=0.00 ops=2
+p149 slot=149 gen=0 balance=149.00 held=0.00 ops=2
+p150 slot=150 gen=0 balance=150.51 held=0.00 ops=2
+p151 slot=151 gen=0 balance=151.50 held=0.00 ops=2
+p152 slot=152 gen=0 balance=152.55 held=0.00 ops=2
+p153 slot=153 gen=0 balance=153.50 held=0.00 ops=2
+p154 slot=154 gen=0 balance=154.59 held=0.00 ops=2
+p155 slot=155 gen=0 balance=155.50 held=0.00 ops=2
+p156 slot=156 gen=0 balance=156.63 held=0.00 ops=2
+p157 slot=157 gen=0 balance=157.50 held=0.00 ops=2
+p158 slot=158 gen=0 balance=158.67 held=0.00 ops=2
+p159 slot=159 gen=0 balance=159.50 held=0.00 ops=2
+p160 slot=160 gen=0 balance=160.71 held=0.00 ops=2
+p161 slot=161 gen=0 balance=161.50 held=0.00 ops=2
+p162 slot=162 gen=0 balance=162.75 held=0.00 ops=2
+p163 slot=163 gen=0 balance=163.50 held=0.00 ops=2
+p164 slot=164 gen=0 balance=164.79 held=0.00 ops=2
+p165 slot=165 gen=0 balance=165.50 held=0.00 ops=2
+p166 slot=166 gen=0 balance=166.83 held=0.00 ops=2
+p167 slot=167 gen=0 balance=167.50 held=0.00 ops=2
+p168 slot=168 gen=0 balance=168.87 held=0.00 ops=2
+p169 slot=169 gen=0 balance=169.50 held=0.00 ops=2
+p170 slot=170 gen=0 balance=170.91 held=0.00 ops=2
+p171 slot=171 gen=0 balance=171.50 held=0.00 ops=2
+p172 slot=172 gen=0 balance=172.95 held=0.00 ops=2
+p173 slot=173 gen=0 balance=173.50 held=0.00 ops=2
+p174 slot=174 gen=0 balance=174.99 held=0.00 ops=2
+p175 slot=175 gen=0 balance=175.50 held=0.00 ops=2
+p176 slot=176 gen=0 balance=177.03 held=0.00 ops=2
+p177 slot=177 gen=0 balance=177.50 held=0.00 ops=2
+p178 slot=178 gen=0 balance=179.07 held=0.00 ops=2
+p179 slot=179 gen=0 balance=179.50 held=0.00 ops=2
+p180 slot=180 gen=0 balance=181.11 held=0.00 ops=2
+p181 slot=181 gen=0 balance=181.50 held=0.00 ops=2
+p182 slot=182 gen=0 balance=183.15 held=0.00 ops=2
+p183 slot=183 gen=0 balance=183.50 held=0.00 ops=2
+p184 slot=184 gen=0 balance=185.19 held=0.00 ops=2
+p185 slot=185 gen=0 balance=185.50 held=0.00 ops=2
+p186 slot=186 gen=0 balance=187.23 held=0.00 ops=2
+p187 slot=187 gen=0 balance=187.50 held=0.00 ops=2
+p188 slot=188 gen=0 balance=189.27 held=0.00 ops=2
+p189 slot=189 gen=0 balance=189.50 held=0.00 ops=2
+p190 slot=190 gen=0 balance=191.31 held=0.00 ops=2
+p191 slot=191 gen=0 balance=191.50 held=0.00 ops=2
+p192 slot=192 gen=0 balance=193.35 held=0.00 ops=2
+p193 slot=193 gen=0 balance=193.50 held=0.00 ops=2
+p194 slot=194 gen=0 balance=195.39 held=0.00 ops=2
+p195 slot=195 gen=0 balance=195.50 held=0.00 ops=2
+p196 slot=196 gen=0 balance=197.43 held=0.00 ops=2
+p197 slot=197 gen=0 balance=197.50 held=0.00 ops=2
+p198 slot=198 gen=0 balance=199.47 held=0.00 ops=2
+p199 slot=199 gen=0 balance=199.50 held=0.00 ops=2
+accounts open=200
+journal records=299 folded=0 live=299 segments=3 sealed=2 compactions=0
+check ok records=299 live=299 accounts=200 holds=0 batches=0

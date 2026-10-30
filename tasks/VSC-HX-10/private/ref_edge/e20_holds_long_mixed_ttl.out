@@ -1,0 +1,2834 @@
+open tw slot=0 gen=0
+ok T0.0 deposit tw 100000.00 balance=100000.00
+now=22876
+now=83303
+holds tw count=0 held=0.00
+now=138264
+now=219197
+hold H001 tw 4.00 until=271197
+now=298434
+expire H001 tw 4.00
+hold H002 tw 2.00 until=302324
+now=379910
+expire H002 tw 2.00
+now=442240
+now=500275
+hold H003 tw 1.00 until=559275
+now=512537
+H003 tw 1.00 until=559275
+holds tw count=1 held=1.00
+now=532911
+hold H004 tw 3.00 until=567911
+now=614940
+expire H003 tw 1.00
+expire H004 tw 3.00
+now=682495
+hold H005 tw 2.00 until=686048
+now=757092
+expire H005 tw 2.00
+now=795666
+holds tw count=0 held=0.00
+now=851105
+hold H006 tw 4.00 until=852768
+now=933432
+expire H006 tw 4.00
+hold H007 tw 5.00 until=992432
+H007 tw 5.00 until=992432
+holds tw count=1 held=5.00
+now=1016795
+expire H007 tw 5.00
+hold H008 tw 2.00 until=1556795
+now=1076724
+now=1090316
+hold H009 tw 4.00 until=1990316
+hold H010 tw 4.00 until=1091434
+now=1172798
+expire H010 tw 4.00
+now=1253434
+now=1338110
+now=1390733
+H008 tw 2.00 until=1556795
+H009 tw 4.00 until=1990316
+holds tw count=2 held=6.00
+now=1423918
+now=1507589
+hold H011 tw 4.00 until=1512241
+now=1537313
+expire H011 tw 4.00
+now=1540846
+hold H012 tw 3.00 until=1542982
+now=1586802
+expire H012 tw 3.00
+expire H008 tw 2.00
+hold H013 tw 4.00 until=1591306
+hold H014 tw 4.00 until=1591699
+hold H015 tw 3.00 until=1644802
+now=1646266
+expire H013 tw 4.00
+expire H014 tw 4.00
+expire H015 tw 3.00
+hold H016 tw 1.00 until=1657266
+now=1691976
+expire H016 tw 1.00
+hold H017 tw 4.00 until=1693973
+now=1762302
+expire H017 tw 4.00
+now=1812497
+hold H018 tw 2.00 until=4092497
+now=1858639
+hold H019 tw 5.00 until=3598639
+now=1911257
+hold H020 tw 4.00 until=1916029
+now=1953313
+expire H020 tw 4.00
+H009 tw 4.00 until=1990316
+H018 tw 2.00 until=4092497
+H019 tw 5.00 until=3598639
+holds tw count=3 held=11.00
+now=1981791
+hold H021 tw 3.00 until=3721791
+hold H022 tw 5.00 until=3121791
+hold H023 tw 5.00 until=1985464
+now=2031221
+expire H023 tw 5.00
+expire H009 tw 4.00
+hold H024 tw 4.00 until=3291221
+now=2078600
+now=2113484
+hold H025 tw 5.00 until=2115051
+hold H026 tw 5.00 until=4153484
+hold H027 tw 5.00 until=2161484
+now=2200444
+expire H025 tw 5.00
+expire H027 tw 5.00
+hold H028 tw 4.00 until=2203880
+now=2227141
+expire H028 tw 4.00
+now=2302051
+now=2335218
+hold H029 tw 2.00 until=2336729
+now=2358267
+expire H029 tw 2.00
+now=2411731
+hold H030 tw 3.00 until=2416119
+H018 tw 2.00 until=4092497
+H019 tw 5.00 until=3598639
+H021 tw 3.00 until=3721791
+H022 tw 5.00 until=3121791
+H024 tw 4.00 until=3291221
+H026 tw 5.00 until=4153484
+H030 tw 3.00 until=2416119
+holds tw count=7 held=27.00
+now=2425743
+expire H030 tw 3.00
+hold H031 tw 3.00 until=2429906
+now=2480287
+expire H031 tw 3.00
+hold H032 tw 2.00 until=2490287
+now=2558595
+expire H032 tw 2.00
+now=2614653
+now=2626659
+hold H033 tw 4.00 until=2684659
+now=2697273
+expire H033 tw 4.00
+hold H034 tw 4.00 until=2699724
+now=2719604
+expire H034 tw 4.00
+H018 tw 2.00 until=4092497
+H019 tw 5.00 until=3598639
+H021 tw 3.00 until=3721791
+H022 tw 5.00 until=3121791
+H024 tw 4.00 until=3291221
+H026 tw 5.00 until=4153484
+holds tw count=6 held=24.00
+now=2793843
+hold H035 tw 3.00 until=2795106
+hold H036 tw 4.00 until=2797289
+hold H037 tw 2.00 until=2834843
+hold H038 tw 3.00 until=2797685
+now=2860184
+expire H035 tw 3.00
+expire H036 tw 4.00
+expire H038 tw 3.00
+expire H037 tw 2.00
+H018 tw 2.00 until=4092497
+H019 tw 5.00 until=3598639
+H021 tw 3.00 until=3721791
+H022 tw 5.00 until=3121791
+H024 tw 4.00 until=3291221
+H026 tw 5.00 until=4153484
+holds tw count=6 held=24.00
+hold H039 tw 1.00 until=3940184
+hold H040 tw 4.00 until=3340184
+hold H041 tw 3.00 until=2863574
+hold H042 tw 1.00 until=2861184
+hold H043 tw 5.00 until=2871184
+hold H044 tw 4.00 until=2862558
+hold H045 tw 5.00 until=4300184
+hold H046 tw 3.00 until=2861990
+hold H047 tw 4.00 until=2866184
+now=2916860
+expire H042 tw 1.00
+expire H046 tw 3.00
+expire H044 tw 4.00
+expire H041 tw 3.00
+expire H047 tw 4.00
+expire H043 tw 5.00
+now=2929769
+now=2976337
+now=3027237
+hold H048 tw 3.00 until=3051237
+hold H049 tw 2.00 until=3086237
+hold H050 tw 3.00 until=3049237
+now=3091896
+expire H050 tw 3.00
+expire H048 tw 3.00
+expire H049 tw 2.00
+now=3143136
+expire H022 tw 5.00
+now=3169325
+hold H051 tw 5.00 until=3171953
+hold H052 tw 5.00 until=3170440
+hold H053 tw 2.00 until=5989325
+hold H054 tw 3.00 until=3173556
+H018 tw 2.00 until=4092497
+H019 tw 5.00 until=3598639
+H021 tw 3.00 until=3721791
+H024 tw 4.00 until=3291221
+H026 tw 5.00 until=4153484
+H039 tw 1.00 until=3940184
+H040 tw 4.00 until=3340184
+H045 tw 5.00 until=4300184
+H051 tw 5.00 until=3171953
+H052 tw 5.00 until=3170440
+H053 tw 2.00 until=5989325
+H054 tw 3.00 until=3173556
+holds tw count=12 held=44.00
+now=3245420
+expire H052 tw 5.00
+expire H051 tw 5.00
+expire H054 tw 3.00
+hold H055 tw 1.00 until=3905420
+now=3289990
+now=3337171
+expire H024 tw 4.00
+now=3419596
+expire H040 tw 4.00
+now=3475691
+now=3553249
+H018 tw 2.00 until=4092497
+H019 tw 5.00 until=3598639
+H021 tw 3.00 until=3721791
+H026 tw 5.00 until=4153484
+H039 tw 1.00 until=3940184
+H045 tw 5.00 until=4300184
+H053 tw 2.00 until=5989325
+H055 tw 1.00 until=3905420
+holds tw count=8 held=24.00
+hold H056 tw 5.00 until=3593249
+now=3627811
+expire H056 tw 5.00
+expire H019 tw 5.00
+hold H057 tw 2.00 until=3683811
+now=3681077
+now=3731462
+expire H057 tw 2.00
+expire H021 tw 3.00
+hold H058 tw 3.00 until=3736462
+hold H059 tw 5.00 until=5891462
+now=3784536
+expire H058 tw 3.00
+now=3857605
+hold H060 tw 4.00 until=3862010
+hold H061 tw 1.00 until=3869605
+now=3892434
+expire H060 tw 4.00
+expire H061 tw 1.00
+hold H062 tw 4.00 until=3896571
+now=3956432
+expire H062 tw 4.00
+expire H055 tw 1.00
+expire H039 tw 1.00
+hold H063 tw 3.00 until=3981432
+hold H064 tw 3.00 until=3957432
+now=4010308
+expire H064 tw 3.00
+expire H063 tw 3.00
+now=4095857
+expire H018 tw 2.00
+hold H065 tw 3.00 until=5415857
+now=4183910
+expire H026 tw 5.00
+now=4264506
+now=4340460
+expire H045 tw 5.00
+hold H066 tw 2.00 until=4371460
+H053 tw 2.00 until=5989325
+H059 tw 5.00 until=5891462
+H065 tw 3.00 until=5415857
+H066 tw 2.00 until=4371460
+holds tw count=4 held=12.00
+hold H067 tw 5.00 until=4341609
+now=4374251
+expire H067 tw 5.00
+expire H066 tw 2.00
+hold H068 tw 4.00 until=5994251
+hold H069 tw 4.00 until=4377316
+now=4440517
+expire H069 tw 4.00
+hold H070 tw 3.00 until=4445152
+now=4450098
+expire H070 tw 3.00
+now=4469145
+now=4546038
+now=4563052
+hold H071 tw 5.00 until=4803052
+now=4592123
+H053 tw 2.00 until=5989325
+H059 tw 5.00 until=5891462
+H065 tw 3.00 until=5415857
+H068 tw 4.00 until=5994251
+H071 tw 5.00 until=4803052
+holds tw count=5 held=19.00
+now=4643923
+H053 tw 2.00 until=5989325
+H059 tw 5.00 until=5891462
+H065 tw 3.00 until=5415857
+H068 tw 4.00 until=5994251
+H071 tw 5.00 until=4803052
+holds tw count=5 held=19.00
+now=4679537
+hold H072 tw 2.00 until=4688537
+hold H073 tw 2.00 until=4681878
+now=4695221
+expire H073 tw 2.00
+expire H072 tw 2.00
+hold H074 tw 4.00 until=7515221
+H053 tw 2.00 until=5989325
+H059 tw 5.00 until=5891462
+H065 tw 3.00 until=5415857
+H068 tw 4.00 until=5994251
+H071 tw 5.00 until=4803052
+H074 tw 4.00 until=7515221
+holds tw count=6 held=23.00
+hold H075 tw 5.00 until=4699176
+hold H076 tw 5.00 until=4699019
+now=4771735
+expire H076 tw 5.00
+expire H075 tw 5.00
+hold H077 tw 5.00 until=4776735
+H053 tw 2.00 until=5989325
+H059 tw 5.00 until=5891462
+H065 tw 3.00 until=5415857
+H068 tw 4.00 until=5994251
+H071 tw 5.00 until=4803052
+H074 tw 4.00 until=7515221
+H077 tw 5.00 until=4776735
+holds tw count=7 held=28.00
+now=4804582
+expire H077 tw 5.00
+expire H071 tw 5.00
+now=4821469
+hold H078 tw 2.00 until=7641469
+hold H079 tw 2.00 until=5421469
+now=4885831
+H053 tw 2.00 until=5989325
+H059 tw 5.00 until=5891462
+H065 tw 3.00 until=5415857
+H068 tw 4.00 until=5994251
+H074 tw 4.00 until=7515221
+H078 tw 2.00 until=7641469
+H079 tw 2.00 until=5421469
+holds tw count=7 held=22.00
+hold H080 tw 3.00 until=4886831
+now=4939603
+expire H080 tw 3.00
+now=4940039
+hold H081 tw 4.00 until=7160039
+now=4976531
+hold H082 tw 3.00 until=7916531
+hold H083 tw 5.00 until=4980289
+hold H084 tw 5.00 until=5035531
+now=5048801
+expire H083 tw 5.00
+expire H084 tw 5.00
+now=5086843
+hold H085 tw 3.00 until=5099843
+hold H086 tw 5.00 until=5088844
+now=5145461
+expire H086 tw 5.00
+expire H085 tw 3.00
+hold H087 tw 2.00 until=5201461
+hold H088 tw 3.00 until=5146509
+now=5191676
+expire H088 tw 3.00
+H053 tw 2.00 until=5989325
+H059 tw 5.00 until=5891462
+H065 tw 3.00 until=5415857
+H068 tw 4.00 until=5994251
+H074 tw 4.00 until=7515221
+H078 tw 2.00 until=7641469
+H079 tw 2.00 until=5421469
+H081 tw 4.00 until=7160039
+H082 tw 3.00 until=7916531
+H087 tw 2.00 until=5201461
+holds tw count=10 held=31.00
+now=5233218
+expire H087 tw 2.00
+now=5318715
+now=5360797
+hold H089 tw 1.00 until=7760797
+hold H090 tw 1.00 until=5372797
+hold H091 tw 4.00 until=6080797
+H053 tw 2.00 until=5989325
+H059 tw 5.00 until=5891462
+H065 tw 3.00 until=5415857
+H068 tw 4.00 until=5994251
+H074 tw 4.00 until=7515221
+H078 tw 2.00 until=7641469
+H079 tw 2.00 until=5421469
+H081 tw 4.00 until=7160039
+H082 tw 3.00 until=7916531
+H089 tw 1.00 until=7760797
+H090 tw 1.00 until=5372797
+H091 tw 4.00 until=6080797
+holds tw count=12 held=35.00
+hold H092 tw 3.00 until=5394797
+hold H093 tw 4.00 until=5361987
+hold H094 tw 4.00 until=5364787
+now=5424661
+expire H093 tw 4.00
+expire H094 tw 4.00
+expire H090 tw 1.00
+expire H092 tw 3.00
+expire H065 tw 3.00
+expire H079 tw 2.00
+hold H095 tw 3.00 until=5428015
+now=5452072
+expire H095 tw 3.00
+now=5494755
+H053 tw 2.00 until=5989325
+H059 tw 5.00 until=5891462
+H068 tw 4.00 until=5994251
+H074 tw 4.00 until=7515221
+H078 tw 2.00 until=7641469
+H081 tw 4.00 until=7160039
+H082 tw 3.00 until=7916531
+H089 tw 1.00 until=7760797
+H091 tw 4.00 until=6080797
+holds tw count=9 held=29.00
+hold H096 tw 4.00 until=6154755
+now=5557518
+now=5585918
+now=5660815
+hold H097 tw 3.00 until=6140815
+hold H098 tw 5.00 until=6320815
+H053 tw 2.00 until=5989325
+H059 tw 5.00 until=5891462
+H068 tw 4.00 until=5994251
+H074 tw 4.00 until=7515221
+H078 tw 2.00 until=7641469
+H081 tw 4.00 until=7160039
+H082 tw 3.00 until=7916531
+H089 tw 1.00 until=7760797
+H091 tw 4.00 until=6080797
+H096 tw 4.00 until=6154755
+H097 tw 3.00 until=6140815
+H098 tw 5.00 until=6320815
+holds tw count=12 held=41.00
+hold H099 tw 3.00 until=5704815
+hold H100 tw 2.00 until=5663756
+now=5676769
+expire H100 tw 2.00
+hold H101 tw 2.00 until=8076769
+hold H102 tw 5.00 until=6936769
+hold H103 tw 2.00 until=6156769
+now=5760604
+expire H099 tw 3.00
+hold H104 tw 2.00 until=5801604
+hold H105 tw 1.00 until=5765073
+now=5828123
+expire H105 tw 1.00
+expire H104 tw 2.00
+now=5902218
+expire H059 tw 5.00
+now=5902392
+hold H106 tw 3.00 until=5928392
+hold H107 tw 1.00 until=5907322
+now=5949392
+expire H107 tw 1.00
+expire H106 tw 3.00
+now=5996636
+expire H053 tw 2.00
+expire H068 tw 4.00
+hold H108 tw 1.00 until=6236636
+now=6038304
+now=6041223
+now=6114364
+expire H091 tw 4.00
+now=6119035
+now=6175614
+expire H097 tw 3.00
+expire H096 tw 4.00
+expire H103 tw 2.00
+hold H109 tw 3.00 until=6179375
+now=6244712
+expire H109 tw 3.00
+expire H108 tw 1.00
+now=6324930
+expire H098 tw 5.00
+now=6330674
+now=6346371
+now=6419075
+hold H110 tw 1.00 until=7319075
+now=6486099
+hold H111 tw 5.00 until=7206099
+H074 tw 4.00 until=7515221
+H078 tw 2.00 until=7641469
+H081 tw 4.00 until=7160039
+H082 tw 3.00 until=7916531
+H089 tw 1.00 until=7760797
+H101 tw 2.00 until=8076769
+H102 tw 5.00 until=6936769
+H110 tw 1.00 until=7319075
+H111 tw 5.00 until=7206099
+holds tw count=9 held=27.00
+hold H112 tw 1.00 until=6490868
+now=6557164
+expire H112 tw 1.00
+hold H113 tw 5.00 until=6559427
+now=6604574
+expire H113 tw 5.00
+hold H114 tw 1.00 until=6609433
+now=6670057
+expire H114 tw 1.00
+now=6712075
+hold H115 tw 3.00 until=9472075
+now=6754087
+hold H116 tw 3.00 until=6756507
+hold H117 tw 3.00 until=6758313
+now=6828889
+expire H116 tw 3.00
+expire H117 tw 3.00
+hold H118 tw 1.00 until=8568889
+now=6875748
+now=6935994
+H074 tw 4.00 until=7515221
+H078 tw 2.00 until=7641469
+H081 tw 4.00 until=7160039
+H082 tw 3.00 until=7916531
+H089 tw 1.00 until=7760797
+H101 tw 2.00 until=8076769
+H102 tw 5.00 until=6936769
+H110 tw 1.00 until=7319075
+H111 tw 5.00 until=7206099
+H115 tw 3.00 until=9472075
+H118 tw 1.00 until=8568889
+holds tw count=11 held=31.00
+hold H119 tw 2.00 until=6940621
+H074 tw 4.00 until=7515221
+H078 tw 2.00 until=7641469
+H081 tw 4.00 until=7160039
+H082 tw 3.00 until=7916531
+H089 tw 1.00 until=7760797
+H101 tw 2.00 until=8076769
+H102 tw 5.00 until=6936769
+H110 tw 1.00 until=7319075
+H111 tw 5.00 until=7206099
+H115 tw 3.00 until=9472075
+H118 tw 1.00 until=8568889
+H119 tw 2.00 until=6940621
+holds tw count=12 held=33.00
+hold H120 tw 3.00 until=6969994
+now=6963372
+expire H102 tw 5.00
+expire H119 tw 2.00
+hold H121 tw 4.00 until=6966263
+now=6980396
+expire H121 tw 4.00
+expire H120 tw 3.00
+hold H122 tw 4.00 until=6984636
+hold H123 tw 1.00 until=6988396
+now=7010483
+expire H122 tw 4.00
+expire H123 tw 1.00
+now=7040717
+now=7086725
+now=7107953
+now=7188060
+expire H081 tw 4.00
+now=7259030
+expire H111 tw 5.00
+hold H124 tw 4.00 until=7261135
+hold H125 tw 5.00 until=8639030
+hold H126 tw 1.00 until=7274030
+hold H127 tw 3.00 until=9719030
+hold H128 tw 3.00 until=7262408
+hold H129 tw 3.00 until=7261030
+hold H130 tw 1.00 until=7261236
+H074 tw 4.00 until=7515221
+H078 tw 2.00 until=7641469
+H082 tw 3.00 until=7916531
+H089 tw 1.00 until=7760797
+H101 tw 2.00 until=8076769
+H110 tw 1.00 until=7319075
+H115 tw 3.00 until=9472075
+H118 tw 1.00 until=8568889
+H124 tw 4.00 until=7261135
+H125 tw 5.00 until=8639030
+H126 tw 1.00 until=7274030
+H127 tw 3.00 until=9719030
+H128 tw 3.00 until=7262408
+H129 tw 3.00 until=7261030
+H130 tw 1.00 until=7261236
+holds tw count=15 held=37.00
+H074 tw 4.00 until=7515221
+H078 tw 2.00 until=7641469
+H082 tw 3.00 until=7916531
+H089 tw 1.00 until=7760797
+H101 tw 2.00 until=8076769
+H110 tw 1.00 until=7319075
+H115 tw 3.00 until=9472075
+H118 tw 1.00 until=8568889
+H124 tw 4.00 until=7261135
+H125 tw 5.00 until=8639030
+H126 tw 1.00 until=7274030
+H127 tw 3.00 until=9719030
+H128 tw 3.00 until=7262408
+H129 tw 3.00 until=7261030
+H130 tw 1.00 until=7261236
+holds tw count=15 held=37.00
+now=7297867
+expire H129 tw 3.00
+expire H124 tw 4.00
+expire H130 tw 1.00
+expire H128 tw 3.00
+expire H126 tw 1.00
+hold H131 tw 1.00 until=7298913
+now=7387521
+expire H131 tw 1.00
+expire H110 tw 1.00
+hold H132 tw 5.00 until=7388845
+now=7402289
+expire H132 tw 5.00
+hold H133 tw 3.00 until=7406590
+now=7444952
+expire H133 tw 3.00
+now=7489761
+hold H134 tw 5.00 until=7492150
+hold H135 tw 5.00 until=7504761
+hold H136 tw 2.00 until=7512761
+H074 tw 4.00 until=7515221
+H078 tw 2.00 until=7641469
+H082 tw 3.00 until=7916531
+H089 tw 1.00 until=7760797
+H101 tw 2.00 until=8076769
+H115 tw 3.00 until=9472075
+H118 tw 1.00 until=8568889
+H125 tw 5.00 until=8639030
+H127 tw 3.00 until=9719030
+H134 tw 5.00 until=7492150
+H135 tw 5.00 until=7504761
+H136 tw 2.00 until=7512761
+holds tw count=12 held=36.00
+hold H137 tw 4.00 until=7509761
+now=7542685
+expire H134 tw 5.00
+expire H135 tw 5.00
+expire H137 tw 4.00
+expire H136 tw 2.00
+expire H074 tw 4.00
+now=7558853
+now=7621077
+now=7685988
+expire H078 tw 2.00
+now=7773395
+expire H089 tw 1.00
+hold H138 tw 5.00 until=7777707
+now=7795114
+expire H138 tw 5.00
+now=7863485
+now=7876806
+H082 tw 3.00 until=7916531
+H101 tw 2.00 until=8076769
+H115 tw 3.00 until=9472075
+H118 tw 1.00 until=8568889
+H125 tw 5.00 until=8639030
+H127 tw 3.00 until=9719030
+holds tw count=6 held=17.00
+now=7917919
+expire H082 tw 3.00
+now=7963634
+now=7992942
+now=8069353
+now=8093607
+expire H101 tw 2.00
+hold H139 tw 3.00 until=10673607
+now=8163008
+now=8227598
+hold H140 tw 3.00 until=10207598
+hold H141 tw 2.00 until=9667598
+now=8272112
+hold H142 tw 5.00 until=8276458
+now=8274845
+now=8344769
+expire H142 tw 5.00
+now=8431452
+hold H143 tw 5.00 until=9391452
+now=8431596
+hold H144 tw 3.00 until=11071596
+now=8516006
+hold H145 tw 2.00 until=8520039
+hold H146 tw 5.00 until=8517602
+hold H147 tw 4.00 until=9236006
+hold H148 tw 2.00 until=10016006
+H115 tw 3.00 until=9472075
+H118 tw 1.00 until=8568889
+H125 tw 5.00 until=8639030
+H127 tw 3.00 until=9719030
+H139 tw 3.00 until=10673607
+H140 tw 3.00 until=10207598
+H141 tw 2.00 until=9667598
+H143 tw 5.00 until=9391452
+H144 tw 3.00 until=11071596
+H145 tw 2.00 until=8520039
+H146 tw 5.00 until=8517602
+H147 tw 4.00 until=9236006
+H148 tw 2.00 until=10016006
+holds tw count=13 held=41.00
+now=8527841
+expire H146 tw 5.00
+expire H145 tw 2.00
+hold H149 tw 4.00 until=10927841
+now=8537706
+now=8550657
+now=8615608
+expire H118 tw 1.00
+H115 tw 3.00 until=9472075
+H125 tw 5.00 until=8639030
+H127 tw 3.00 until=9719030
+H139 tw 3.00 until=10673607
+H140 tw 3.00 until=10207598
+H141 tw 2.00 until=9667598
+H143 tw 5.00 until=9391452
+H144 tw 3.00 until=11071596
+H147 tw 4.00 until=9236006
+H148 tw 2.00 until=10016006
+H149 tw 4.00 until=10927841
+holds tw count=11 held=37.00
+hold H150 tw 2.00 until=8661608
+hold H151 tw 3.00 until=10415608
+now=8615660
+H115 tw 3.00 until=9472075
+H125 tw 5.00 until=8639030
+H127 tw 3.00 until=9719030
+H139 tw 3.00 until=10673607
+H140 tw 3.00 until=10207598
+H141 tw 2.00 until=9667598
+H143 tw 5.00 until=9391452
+H144 tw 3.00 until=11071596
+H147 tw 4.00 until=9236006
+H148 tw 2.00 until=10016006
+H149 tw 4.00 until=10927841
+H150 tw 2.00 until=8661608
+H151 tw 3.00 until=10415608
+holds tw count=13 held=42.00
+now=8681324
+expire H125 tw 5.00
+expire H150 tw 2.00
+hold H152 tw 2.00 until=8683176
+hold H153 tw 2.00 until=8683967
+hold H154 tw 1.00 until=10121324
+hold H155 tw 1.00 until=9581324
+now=8689700
+expire H152 tw 2.00
+expire H153 tw 2.00
+now=8715336
+hold H156 tw 4.00 until=8718308
+now=8725033
+expire H156 tw 4.00
+now=8807528
+H115 tw 3.00 until=9472075
+H127 tw 3.00 until=9719030
+H139 tw 3.00 until=10673607
+H140 tw 3.00 until=10207598
+H141 tw 2.00 until=9667598
+H143 tw 5.00 until=9391452
+H144 tw 3.00 until=11071596
+H147 tw 4.00 until=9236006
+H148 tw 2.00 until=10016006
+H149 tw 4.00 until=10927841
+H151 tw 3.00 until=10415608
+H154 tw 1.00 until=10121324
+H155 tw 1.00 until=9581324
+holds tw count=13 held=37.00
+hold H157 tw 5.00 until=8809372
+hold H158 tw 2.00 until=8853528
+hold H159 tw 4.00 until=11567528
+hold H160 tw 5.00 until=9527528
+now=8838447
+expire H157 tw 5.00
+hold H161 tw 1.00 until=8839619
+H115 tw 3.00 until=9472075
+H127 tw 3.00 until=9719030
+H139 tw 3.00 until=10673607
+H140 tw 3.00 until=10207598
+H141 tw 2.00 until=9667598
+H143 tw 5.00 until=9391452
+H144 tw 3.00 until=11071596
+H147 tw 4.00 until=9236006
+H148 tw 2.00 until=10016006
+H149 tw 4.00 until=10927841
+H151 tw 3.00 until=10415608
+H154 tw 1.00 until=10121324
+H155 tw 1.00 until=9581324
+H158 tw 2.00 until=8853528
+H159 tw 4.00 until=11567528
+H160 tw 5.00 until=9527528
+H161 tw 1.00 until=8839619
+holds tw count=17 held=49.00
+hold H162 tw 2.00 until=8842447
+now=8861573
+expire H161 tw 1.00
+expire H162 tw 2.00
+expire H158 tw 2.00
+now=8913153
+now=8990798
+hold H163 tw 5.00 until=11390798
+now=9009923
+hold H164 tw 2.00 until=9022923
+hold H165 tw 5.00 until=9549923
+now=9092574
+expire H164 tw 2.00
+hold H166 tw 1.00 until=9093662
+hold H167 tw 2.00 until=9147574
+hold H168 tw 4.00 until=9094988
+hold H169 tw 5.00 until=9094574
+hold H170 tw 1.00 until=9096601
+hold H171 tw 5.00 until=9102574
+now=9093553
+hold H172 tw 3.00 until=9096389
+now=9175861
+expire H166 tw 1.00
+expire H169 tw 5.00
+expire H168 tw 4.00
+expire H172 tw 3.00
+expire H170 tw 1.00
+expire H171 tw 5.00
+expire H167 tw 2.00
+hold H173 tw 3.00 until=9179873
+hold H174 tw 2.00 until=11095861
+now=9221973
+expire H173 tw 3.00
+hold H175 tw 1.00 until=9225149
+hold H176 tw 2.00 until=9224929
+hold H177 tw 4.00 until=9279973
+now=9250684
+expire H176 tw 2.00
+expire H175 tw 1.00
+expire H147 tw 4.00
+hold H178 tw 4.00 until=9970684
+now=9295356
+expire H177 tw 4.00
+hold H179 tw 1.00 until=9305356
+hold H180 tw 5.00 until=12055356
+hold H181 tw 2.00 until=9298356
+hold H182 tw 5.00 until=9299865
+now=9326479
+expire H181 tw 2.00
+expire H182 tw 5.00
+expire H179 tw 1.00
+hold H183 tw 3.00 until=9329868
+now=9378486
+expire H183 tw 3.00
+hold H184 tw 5.00 until=10638486
+hold H185 tw 3.00 until=9380323
+hold H186 tw 5.00 until=9381711
+hold H187 tw 5.00 until=9438486
+hold H188 tw 1.00 until=9382602
+now=9386267
+expire H185 tw 3.00
+expire H186 tw 5.00
+expire H188 tw 1.00
+hold H189 tw 1.00 until=9434267
+H115 tw 3.00 until=9472075
+H127 tw 3.00 until=9719030
+H139 tw 3.00 until=10673607
+H140 tw 3.00 until=10207598
+H141 tw 2.00 until=9667598
+H143 tw 5.00 until=9391452
+H144 tw 3.00 until=11071596
+H148 tw 2.00 until=10016006
+H149 tw 4.00 until=10927841
+H151 tw 3.00 until=10415608
+H154 tw 1.00 until=10121324
+H155 tw 1.00 until=9581324
+H159 tw 4.00 until=11567528
+H160 tw 5.00 until=9527528
+H163 tw 5.00 until=11390798
+H165 tw 5.00 until=9549923
+H174 tw 2.00 until=11095861
+H178 tw 4.00 until=9970684
+H180 tw 5.00 until=12055356
+H184 tw 5.00 until=10638486
+H187 tw 5.00 until=9438486
+H189 tw 1.00 until=9434267
+holds tw count=22 held=74.00
+now=9434096
+expire H143 tw 5.00
+H115 tw 3.00 until=9472075
+H127 tw 3.00 until=9719030
+H139 tw 3.00 until=10673607
+H140 tw 3.00 until=10207598
+H141 tw 2.00 until=9667598
+H144 tw 3.00 until=11071596
+H148 tw 2.00 until=10016006
+H149 tw 4.00 until=10927841
+H151 tw 3.00 until=10415608
+H154 tw 1.00 until=10121324
+H155 tw 1.00 until=9581324
+H159 tw 4.00 until=11567528
+H160 tw 5.00 until=9527528
+H163 tw 5.00 until=11390798
+H165 tw 5.00 until=9549923
+H174 tw 2.00 until=11095861
+H178 tw 4.00 until=9970684
+H180 tw 5.00 until=12055356
+H184 tw 5.00 until=10638486
+H187 tw 5.00 until=9438486
+H189 tw 1.00 until=9434267
+holds tw count=21 held=69.00
+hold H190 tw 5.00 until=9437877
+now=9463395
+expire H189 tw 1.00
+expire H190 tw 5.00
+expire H187 tw 5.00
+now=9478368
+expire H115 tw 3.00
+hold H191 tw 3.00 until=9482896
+hold H192 tw 2.00 until=9480966
+hold H193 tw 1.00 until=11998368
+now=9532656
+expire H192 tw 2.00
+expire H191 tw 3.00
+expire H160 tw 5.00
+hold H194 tw 3.00 until=9533656
+hold H195 tw 3.00 until=9534081
+hold H196 tw 3.00 until=11632656
+now=9594024
+expire H194 tw 3.00
+expire H195 tw 3.00
+expire H165 tw 5.00
+expire H155 tw 1.00
+now=9624516
+now=9642470
+hold H197 tw 5.00 until=10182470
+hold H198 tw 5.00 until=9646847
+hold H199 tw 3.00 until=9677470
+now=9706322
+expire H198 tw 5.00
+expire H141 tw 2.00
+expire H199 tw 3.00
+now=9740461
+expire H127 tw 3.00
+hold H200 tw 3.00 until=9745403
+hold H201 tw 3.00 until=9742326
+hold H202 tw 4.00 until=9756461
+now=9774112
+expire H201 tw 3.00
+expire H200 tw 3.00
+expire H202 tw 4.00
+hold H203 tw 3.00 until=9795112
+now=9825876
+expire H203 tw 3.00
+now=9880896
+hold H204 tw 3.00 until=9883030
+H139 tw 3.00 until=10673607
+H140 tw 3.00 until=10207598
+H144 tw 3.00 until=11071596
+H148 tw 2.00 until=10016006
+H149 tw 4.00 until=10927841
+H151 tw 3.00 until=10415608
+H154 tw 1.00 until=10121324
+H159 tw 4.00 until=11567528
+H163 tw 5.00 until=11390798
+H174 tw 2.00 until=11095861
+H178 tw 4.00 until=9970684
+H180 tw 5.00 until=12055356
+H184 tw 5.00 until=10638486
+H193 tw 1.00 until=11998368
+H196 tw 3.00 until=11632656
+H197 tw 5.00 until=10182470
+H204 tw 3.00 until=9883030
+holds tw count=17 held=56.00
+now=9903591
+expire H204 tw 3.00
+now=9964139
+hold H205 tw 2.00 until=11404139
+now=9983013
+expire H178 tw 4.00
+now=10053403
+expire H148 tw 2.00
+hold H206 tw 4.00 until=10057297
+now=10115526
+expire H206 tw 4.00
+now=10126914
+expire H154 tw 1.00
+H139 tw 3.00 until=10673607
+H140 tw 3.00 until=10207598
+H144 tw 3.00 until=11071596
+H149 tw 4.00 until=10927841
+H151 tw 3.00 until=10415608
+H159 tw 4.00 until=11567528
+H163 tw 5.00 until=11390798
+H174 tw 2.00 until=11095861
+H180 tw 5.00 until=12055356
+H184 tw 5.00 until=10638486
+H193 tw 1.00 until=11998368
+H196 tw 3.00 until=11632656
+H197 tw 5.00 until=10182470
+H205 tw 2.00 until=11404139
+holds tw count=14 held=48.00
+hold H207 tw 5.00 until=12046914
+hold H208 tw 5.00 until=10166914
+hold H209 tw 4.00 until=10129273
+now=10209051
+expire H209 tw 4.00
+expire H208 tw 5.00
+expire H197 tw 5.00
+expire H140 tw 3.00
+now=10276604
+hold H210 tw 5.00 until=10279382
+now=10283456
+expire H210 tw 5.00
+H139 tw 3.00 until=10673607
+H144 tw 3.00 until=11071596
+H149 tw 4.00 until=10927841
+H151 tw 3.00 until=10415608
+H159 tw 4.00 until=11567528
+H163 tw 5.00 until=11390798
+H174 tw 2.00 until=11095861
+H180 tw 5.00 until=12055356
+H184 tw 5.00 until=10638486
+H193 tw 1.00 until=11998368
+H196 tw 3.00 until=11632656
+H205 tw 2.00 until=11404139
+H207 tw 5.00 until=12046914
+holds tw count=13 held=45.00
+now=10361104
+hold H211 tw 5.00 until=10362341
+hold H212 tw 5.00 until=10362782
+hold H213 tw 3.00 until=12221104
+H139 tw 3.00 until=10673607
+H144 tw 3.00 until=11071596
+H149 tw 4.00 until=10927841
+H151 tw 3.00 until=10415608
+H159 tw 4.00 until=11567528
+H163 tw 5.00 until=11390798
+H174 tw 2.00 until=11095861
+H180 tw 5.00 until=12055356
+H184 tw 5.00 until=10638486
+H193 tw 1.00 until=11998368
+H196 tw 3.00 until=11632656
+H205 tw 2.00 until=11404139
+H207 tw 5.00 until=12046914
+H211 tw 5.00 until=10362341
+H212 tw 5.00 until=10362782
+H213 tw 3.00 until=12221104
+holds tw count=16 held=58.00
+hold H214 tw 3.00 until=10404104
+hold H215 tw 4.00 until=10901104
+H139 tw 3.00 until=10673607
+H144 tw 3.00 until=11071596
+H149 tw 4.00 until=10927841
+H151 tw 3.00 until=10415608
+H159 tw 4.00 until=11567528
+H163 tw 5.00 until=11390798
+H174 tw 2.00 until=11095861
+H180 tw 5.00 until=12055356
+H184 tw 5.00 until=10638486
+H193 tw 1.00 until=11998368
+H196 tw 3.00 until=11632656
+H205 tw 2.00 until=11404139
+H207 tw 5.00 until=12046914
+H211 tw 5.00 until=10362341
+H212 tw 5.00 until=10362782
+H213 tw 3.00 until=12221104
+H214 tw 3.00 until=10404104
+H215 tw 4.00 until=10901104
+holds tw count=18 held=65.00
+now=10407475
+expire H211 tw 5.00
+expire H212 tw 5.00
+expire H214 tw 3.00
+now=10408971
+H139 tw 3.00 until=10673607
+H144 tw 3.00 until=11071596
+H149 tw 4.00 until=10927841
+H151 tw 3.00 until=10415608
+H159 tw 4.00 until=11567528
+H163 tw 5.00 until=11390798
+H174 tw 2.00 until=11095861
+H180 tw 5.00 until=12055356
+H184 tw 5.00 until=10638486
+H193 tw 1.00 until=11998368
+H196 tw 3.00 until=11632656
+H205 tw 2.00 until=11404139
+H207 tw 5.00 until=12046914
+H213 tw 3.00 until=12221104
+H215 tw 4.00 until=10901104
+holds tw count=15 held=52.00
+now=10491440
+expire H151 tw 3.00
+now=10516104
+hold H216 tw 3.00 until=10520855
+now=10545441
+expire H216 tw 3.00
+hold H217 tw 5.00 until=10582441
+hold H218 tw 1.00 until=12285441
+now=10549067
+hold H219 tw 1.00 until=10606067
+now=10617119
+expire H217 tw 5.00
+expire H219 tw 1.00
+hold H220 tw 3.00 until=10619135
+now=10684568
+expire H220 tw 3.00
+expire H184 tw 5.00
+expire H139 tw 3.00
+hold H221 tw 5.00 until=12964568
+hold H222 tw 3.00 until=10687602
+hold H223 tw 4.00 until=10689170
+now=10763408
+expire H222 tw 3.00
+expire H223 tw 4.00
+H144 tw 3.00 until=11071596
+H149 tw 4.00 until=10927841
+H159 tw 4.00 until=11567528
+H163 tw 5.00 until=11390798
+H174 tw 2.00 until=11095861
+H180 tw 5.00 until=12055356
+H193 tw 1.00 until=11998368
+H196 tw 3.00 until=11632656
+H205 tw 2.00 until=11404139
+H207 tw 5.00 until=12046914
+H213 tw 3.00 until=12221104
+H215 tw 4.00 until=10901104
+H218 tw 1.00 until=12285441
+H221 tw 5.00 until=12964568
+holds tw count=14 held=47.00
+now=10772138
+hold H224 tw 5.00 until=11612138
+now=10782556
+hold H225 tw 1.00 until=12462556
+hold H226 tw 4.00 until=10784314
+now=10809098
+expire H226 tw 4.00
+now=10873888
+hold H227 tw 2.00 until=10913888
+hold H228 tw 2.00 until=10876321
+now=10912978
+expire H228 tw 2.00
+expire H215 tw 4.00
+hold H229 tw 5.00 until=12892978
+now=10943583
+expire H227 tw 2.00
+expire H149 tw 4.00
+hold H230 tw 5.00 until=10944877
+now=11013234
+expire H230 tw 5.00
+hold H231 tw 4.00 until=11028234
+hold H232 tw 1.00 until=11017966
+hold H233 tw 1.00 until=11017301
+hold H234 tw 5.00 until=13473234
+now=11091977
+expire H233 tw 1.00
+expire H232 tw 1.00
+expire H231 tw 4.00
+expire H144 tw 3.00
+hold H235 tw 4.00 until=11094832
+hold H236 tw 4.00 until=11096089
+now=11110409
+expire H235 tw 4.00
+expire H174 tw 2.00
+expire H236 tw 4.00
+hold H237 tw 1.00 until=11115368
+now=11143137
+expire H237 tw 1.00
+hold H238 tw 4.00 until=11147966
+hold H239 tw 1.00 until=11167137
+hold H240 tw 1.00 until=11923137
+hold H241 tw 4.00 until=11145156
+hold H242 tw 5.00 until=11183137
+now=11165100
+expire H241 tw 4.00
+expire H238 tw 4.00
+now=11181814
+expire H239 tw 1.00
+hold H243 tw 5.00 until=11183763
+hold H244 tw 2.00 until=11227814
+hold H245 tw 4.00 until=13221814
+H159 tw 4.00 until=11567528
+H163 tw 5.00 until=11390798
+H180 tw 5.00 until=12055356
+H193 tw 1.00 until=11998368
+H196 tw 3.00 until=11632656
+H205 tw 2.00 until=11404139
+H207 tw 5.00 until=12046914
+H213 tw 3.00 until=12221104
+H218 tw 1.00 until=12285441
+H221 tw 5.00 until=12964568
+H224 tw 5.00 until=11612138
+H225 tw 1.00 until=12462556
+H229 tw 5.00 until=12892978
+H234 tw 5.00 until=13473234
+H240 tw 1.00 until=11923137
+H242 tw 5.00 until=11183137
+H243 tw 5.00 until=11183763
+H244 tw 2.00 until=11227814
+H245 tw 4.00 until=13221814
+holds tw count=19 held=67.00
+hold H246 tw 1.00 until=11237814
+H159 tw 4.00 until=11567528
+H163 tw 5.00 until=11390798
+H180 tw 5.00 until=12055356
+H193 tw 1.00 until=11998368
+H196 tw 3.00 until=11632656
+H205 tw 2.00 until=11404139
+H207 tw 5.00 until=12046914
+H213 tw 3.00 until=12221104
+H218 tw 1.00 until=12285441
+H221 tw 5.00 until=12964568
+H224 tw 5.00 until=11612138
+H225 tw 1.00 until=12462556
+H229 tw 5.00 until=12892978
+H234 tw 5.00 until=13473234
+H240 tw 1.00 until=11923137
+H242 tw 5.00 until=11183137
+H243 tw 5.00 until=11183763
+H244 tw 2.00 until=11227814
+H245 tw 4.00 until=13221814
+H246 tw 1.00 until=11237814
+holds tw count=20 held=68.00
+now=11271274
+expire H242 tw 5.00
+expire H243 tw 5.00
+expire H244 tw 2.00
+expire H246 tw 1.00
+now=11358382
+now=11447585
+expire H163 tw 5.00
+expire H205 tw 2.00
+hold H247 tw 4.00 until=11449045
+hold H248 tw 4.00 until=11451724
+hold H249 tw 3.00 until=11506585
+now=11497768
+expire H247 tw 4.00
+expire H248 tw 4.00
+now=11578287
+expire H249 tw 3.00
+expire H159 tw 4.00
+now=11631676
+expire H224 tw 5.00
+hold H250 tw 2.00 until=11635687
+H180 tw 5.00 until=12055356
+H193 tw 1.00 until=11998368
+H196 tw 3.00 until=11632656
+H207 tw 5.00 until=12046914
+H213 tw 3.00 until=12221104
+H218 tw 1.00 until=12285441
+H221 tw 5.00 until=12964568
+H225 tw 1.00 until=12462556
+H229 tw 5.00 until=12892978
+H234 tw 5.00 until=13473234
+H240 tw 1.00 until=11923137
+H245 tw 4.00 until=13221814
+H250 tw 2.00 until=11635687
+holds tw count=13 held=41.00
+now=11678648
+expire H196 tw 3.00
+expire H250 tw 2.00
+now=11741561
+hold H251 tw 2.00 until=11797561
+hold H252 tw 3.00 until=11743242
+hold H253 tw 2.00 until=13001561
+hold H254 tw 5.00 until=11751561
+now=11751022
+expire H252 tw 3.00
+now=11835643
+expire H254 tw 5.00
+expire H251 tw 2.00
+hold H255 tw 5.00 until=12375643
+hold H256 tw 4.00 until=12675643
+now=11893483
+hold H257 tw 3.00 until=12913483
+now=11960735
+expire H240 tw 1.00
+now=11964666
+hold H258 tw 2.00 until=11966949
+hold H259 tw 5.00 until=14724666
+hold H260 tw 5.00 until=14724666
+hold H261 tw 2.00 until=11969173
+hold H262 tw 2.00 until=11995666
+hold H263 tw 2.00 until=12024666
+hold H264 tw 4.00 until=11967464
+hold H265 tw 5.00 until=11969167
+now=11971708
+expire H258 tw 2.00
+expire H264 tw 4.00
+expire H265 tw 5.00
+expire H261 tw 2.00
+now=12036420
+expire H262 tw 2.00
+expire H193 tw 1.00
+expire H263 tw 2.00
+hold H266 tw 1.00 until=12156420
+now=12065994
+expire H207 tw 5.00
+expire H180 tw 5.00
+now=12141194
+now=12165048
+expire H266 tw 1.00
+now=12236277
+expire H213 tw 3.00
+hold H267 tw 3.00 until=14636277
+now=12288065
+expire H218 tw 1.00
+now=12295601
+hold H268 tw 4.00 until=13975601
+hold H269 tw 5.00 until=14515601
+H221 tw 5.00 until=12964568
+H225 tw 1.00 until=12462556
+H229 tw 5.00 until=12892978
+H234 tw 5.00 until=13473234
+H245 tw 4.00 until=13221814
+H253 tw 2.00 until=13001561
+H255 tw 5.00 until=12375643
+H256 tw 4.00 until=12675643
+H257 tw 3.00 until=12913483
+H259 tw 5.00 until=14724666
+H260 tw 5.00 until=14724666
+H267 tw 3.00 until=14636277
+H268 tw 4.00 until=13975601
+H269 tw 5.00 until=14515601
+holds tw count=14 held=56.00
+now=12320361
+now=12358475
+H221 tw 5.00 until=12964568
+H225 tw 1.00 until=12462556
+H229 tw 5.00 until=12892978
+H234 tw 5.00 until=13473234
+H245 tw 4.00 until=13221814
+H253 tw 2.00 until=13001561
+H255 tw 5.00 until=12375643
+H256 tw 4.00 until=12675643
+H257 tw 3.00 until=12913483
+H259 tw 5.00 until=14724666
+H260 tw 5.00 until=14724666
+H267 tw 3.00 until=14636277
+H268 tw 4.00 until=13975601
+H269 tw 5.00 until=14515601
+holds tw count=14 held=56.00
+hold H270 tw 5.00 until=12416475
+now=12408816
+expire H255 tw 5.00
+now=12485349
+expire H270 tw 5.00
+expire H225 tw 1.00
+hold H271 tw 5.00 until=12487349
+hold H272 tw 4.00 until=14885349
+now=12531525
+expire H271 tw 5.00
+hold H273 tw 2.00 until=12535211
+H221 tw 5.00 until=12964568
+H229 tw 5.00 until=12892978
+H234 tw 5.00 until=13473234
+H245 tw 4.00 until=13221814
+H253 tw 2.00 until=13001561
+H256 tw 4.00 until=12675643
+H257 tw 3.00 until=12913483
+H259 tw 5.00 until=14724666
+H260 tw 5.00 until=14724666
+H267 tw 3.00 until=14636277
+H268 tw 4.00 until=13975601
+H269 tw 5.00 until=14515601
+H272 tw 4.00 until=14885349
+H273 tw 2.00 until=12535211
+holds tw count=14 held=56.00
+hold H274 tw 5.00 until=15351525
+now=12560128
+expire H273 tw 2.00
+now=12570728
+now=12609705
+hold H275 tw 5.00 until=15549705
+hold H276 tw 1.00 until=13389705
+now=12686995
+expire H256 tw 4.00
+now=12774276
+hold H277 tw 5.00 until=12778276
+now=12800864
+expire H277 tw 5.00
+H221 tw 5.00 until=12964568
+H229 tw 5.00 until=12892978
+H234 tw 5.00 until=13473234
+H245 tw 4.00 until=13221814
+H253 tw 2.00 until=13001561
+H257 tw 3.00 until=12913483
+H259 tw 5.00 until=14724666
+H260 tw 5.00 until=14724666
+H267 tw 3.00 until=14636277
+H268 tw 4.00 until=13975601
+H269 tw 5.00 until=14515601
+H272 tw 4.00 until=14885349
+H274 tw 5.00 until=15351525
+H275 tw 5.00 until=15549705
+H276 tw 1.00 until=13389705
+holds tw count=15 held=61.00
+now=12823336
+H221 tw 5.00 until=12964568
+H229 tw 5.00 until=12892978
+H234 tw 5.00 until=13473234
+H245 tw 4.00 until=13221814
+H253 tw 2.00 until=13001561
+H257 tw 3.00 until=12913483
+H259 tw 5.00 until=14724666
+H260 tw 5.00 until=14724666
+H267 tw 3.00 until=14636277
+H268 tw 4.00 until=13975601
+H269 tw 5.00 until=14515601
+H272 tw 4.00 until=14885349
+H274 tw 5.00 until=15351525
+H275 tw 5.00 until=15549705
+H276 tw 1.00 until=13389705
+holds tw count=15 held=61.00
+hold H278 tw 5.00 until=12827953
+now=12859607
+expire H278 tw 5.00
+now=12922880
+expire H229 tw 5.00
+expire H257 tw 3.00
+now=12977706
+expire H221 tw 5.00
+hold H279 tw 3.00 until=14357706
+hold H280 tw 1.00 until=12990706
+hold H281 tw 3.00 until=12979225
+hold H282 tw 4.00 until=13019706
+now=12982870
+expire H281 tw 3.00
+hold H283 tw 3.00 until=12986688
+now=13003569
+expire H283 tw 3.00
+expire H280 tw 1.00
+expire H253 tw 2.00
+H234 tw 5.00 until=13473234
+H245 tw 4.00 until=13221814
+H259 tw 5.00 until=14724666
+H260 tw 5.00 until=14724666
+H267 tw 3.00 until=14636277
+H268 tw 4.00 until=13975601
+H269 tw 5.00 until=14515601
+H272 tw 4.00 until=14885349
+H274 tw 5.00 until=15351525
+H275 tw 5.00 until=15549705
+H276 tw 1.00 until=13389705
+H279 tw 3.00 until=14357706
+H282 tw 4.00 until=13019706
+holds tw count=13 held=53.00
+hold H284 tw 1.00 until=13843569
+hold H285 tw 1.00 until=14443569
+now=13044291
+expire H282 tw 4.00
+hold H286 tw 2.00 until=14124291
+now=13045342
+now=13109424
+hold H287 tw 2.00 until=13113943
+hold H288 tw 2.00 until=13165424
+hold H289 tw 2.00 until=15149424
+now=13157075
+expire H287 tw 2.00
+now=13245318
+expire H288 tw 2.00
+expire H245 tw 4.00
+hold H290 tw 1.00 until=13267318
+hold H291 tw 1.00 until=13247318
+now=13283410
+expire H291 tw 1.00
+expire H290 tw 1.00
+now=13335652
+now=13395133
+expire H276 tw 1.00
+now=13469061
+hold H292 tw 5.00 until=13474000
+now=13550671
+expire H234 tw 5.00
+expire H292 tw 5.00
+hold H293 tw 5.00 until=13555004
+hold H294 tw 3.00 until=13555589
+now=13567032
+expire H293 tw 5.00
+expire H294 tw 3.00
+now=13627143
+hold H295 tw 1.00 until=13681143
+hold H296 tw 4.00 until=13660143
+now=13643589
+hold H297 tw 5.00 until=13648589
+now=13699776
+expire H297 tw 5.00
+expire H296 tw 4.00
+expire H295 tw 1.00
+hold H298 tw 4.00 until=13747776
+H259 tw 5.00 until=14724666
+H260 tw 5.00 until=14724666
+H267 tw 3.00 until=14636277
+H268 tw 4.00 until=13975601
+H269 tw 5.00 until=14515601
+H272 tw 4.00 until=14885349
+H274 tw 5.00 until=15351525
+H275 tw 5.00 until=15549705
+H279 tw 3.00 until=14357706
+H284 tw 1.00 until=13843569
+H285 tw 1.00 until=14443569
+H286 tw 2.00 until=14124291
+H289 tw 2.00 until=15149424
+H298 tw 4.00 until=13747776
+holds tw count=14 held=49.00
+hold H299 tw 1.00 until=13756776
+now=13734676
+now=13792320
+expire H298 tw 4.00
+expire H299 tw 1.00
+now=13863533
+expire H284 tw 1.00
+hold H300 tw 1.00 until=13919533
+now=13902515
+now=13991255
+expire H300 tw 1.00
+expire H268 tw 4.00
+hold H301 tw 1.00 until=13996075
+now=14014908
+expire H301 tw 1.00
+now=14096549
+hold H302 tw 2.00 until=14153549
+now=14180731
+expire H286 tw 2.00
+expire H302 tw 2.00
+hold H303 tw 5.00 until=15800731
+now=14258748
+hold H304 tw 2.00 until=14268748
+hold H305 tw 3.00 until=14260626
+H259 tw 5.00 until=14724666
+H260 tw 5.00 until=14724666
+H267 tw 3.00 until=14636277
+H269 tw 5.00 until=14515601
+H272 tw 4.00 until=14885349
+H274 tw 5.00 until=15351525
+H275 tw 5.00 until=15549705
+H279 tw 3.00 until=14357706
+H285 tw 1.00 until=14443569
+H289 tw 2.00 until=15149424
+H303 tw 5.00 until=15800731
+H304 tw 2.00 until=14268748
+H305 tw 3.00 until=14260626
+holds tw count=13 held=48.00
+now=14312592
+expire H305 tw 3.00
+expire H304 tw 2.00
+H259 tw 5.00 until=14724666
+H260 tw 5.00 until=14724666
+H267 tw 3.00 until=14636277
+H269 tw 5.00 until=14515601
+H272 tw 4.00 until=14885349
+H274 tw 5.00 until=15351525
+H275 tw 5.00 until=15549705
+H279 tw 3.00 until=14357706
+H285 tw 1.00 until=14443569
+H289 tw 2.00 until=15149424
+H303 tw 5.00 until=15800731
+holds tw count=11 held=43.00
+now=14349512
+now=14424740
+expire H279 tw 3.00
+now=14426019
+hold H306 tw 4.00 until=14427640
+H259 tw 5.00 until=14724666
+H260 tw 5.00 until=14724666
+H267 tw 3.00 until=14636277
+H269 tw 5.00 until=14515601
+H272 tw 4.00 until=14885349
+H274 tw 5.00 until=15351525
+H275 tw 5.00 until=15549705
+H285 tw 1.00 until=14443569
+H289 tw 2.00 until=15149424
+H303 tw 5.00 until=15800731
+H306 tw 4.00 until=14427640
+holds tw count=11 held=44.00
+now=14440735
+expire H306 tw 4.00
+now=14476186
+expire H285 tw 1.00
+hold H307 tw 4.00 until=14480920
+now=14500174
+expire H307 tw 4.00
+now=14587675
+expire H269 tw 5.00
+now=14632027
+now=14632119
+now=14709297
+expire H267 tw 3.00
+now=14754473
+expire H259 tw 5.00
+expire H260 tw 5.00
+now=14797525
+now=14857086
+hold H308 tw 1.00 until=14860345
+now=14875536
+expire H308 tw 1.00
+now=14922992
+expire H272 tw 4.00
+hold H309 tw 5.00 until=16842992
+H274 tw 5.00 until=15351525
+H275 tw 5.00 until=15549705
+H289 tw 2.00 until=15149424
+H303 tw 5.00 until=15800731
+H309 tw 5.00 until=16842992
+holds tw count=5 held=22.00
+H274 tw 5.00 until=15351525
+H275 tw 5.00 until=15549705
+H289 tw 2.00 until=15149424
+H303 tw 5.00 until=15800731
+H309 tw 5.00 until=16842992
+holds tw count=5 held=22.00
+now=14961989
+hold H310 tw 3.00 until=14971989
+hold H311 tw 3.00 until=15002989
+now=15006212
+expire H310 tw 3.00
+expire H311 tw 3.00
+hold H312 tw 3.00 until=15010659
+H274 tw 5.00 until=15351525
+H275 tw 5.00 until=15549705
+H289 tw 2.00 until=15149424
+H303 tw 5.00 until=15800731
+H309 tw 5.00 until=16842992
+H312 tw 3.00 until=15010659
+holds tw count=6 held=25.00
+now=15038565
+expire H312 tw 3.00
+hold H313 tw 5.00 until=15040068
+now=15115575
+expire H313 tw 5.00
+now=15189749
+expire H289 tw 2.00
+hold H314 tw 2.00 until=16569749
+now=15277869
+hold H315 tw 2.00 until=15286869
+hold H316 tw 4.00 until=15279659
+now=15353435
+expire H316 tw 4.00
+expire H315 tw 2.00
+expire H274 tw 5.00
+now=15381363
+hold H317 tw 2.00 until=15382471
+now=15424106
+expire H317 tw 2.00
+hold H318 tw 2.00 until=16984106
+now=15465280
+hold H319 tw 5.00 until=15467875
+hold H320 tw 2.00 until=15467131
+hold H321 tw 5.00 until=15468367
+now=15468310
+expire H320 tw 2.00
+expire H319 tw 5.00
+now=15469334
+expire H321 tw 5.00
+hold H322 tw 4.00 until=15769334
+now=15557163
+expire H275 tw 5.00
+now=15570092
+H303 tw 5.00 until=15800731
+H309 tw 5.00 until=16842992
+H314 tw 2.00 until=16569749
+H318 tw 2.00 until=16984106
+H322 tw 4.00 until=15769334
+holds tw count=5 held=18.00
+hold H323 tw 4.00 until=15574012
+now=15622823
+expire H323 tw 4.00
+now=15651511
+hold H324 tw 1.00 until=15655321
+now=15718936
+expire H324 tw 1.00
+now=15772778
+expire H322 tw 4.00
+now=15838638
+expire H303 tw 5.00
+now=15868036
+hold H325 tw 5.00 until=15914036
+now=15887834
+now=15906426
+H309 tw 5.00 until=16842992
+H314 tw 2.00 until=16569749
+H318 tw 2.00 until=16984106
+H325 tw 5.00 until=15914036
+holds tw count=4 held=14.00
+hold H326 tw 5.00 until=18006426
+now=15984169
+expire H325 tw 5.00
+now=15990923
+now=16024620
+hold H327 tw 1.00 until=16035620
+now=16094175
+expire H327 tw 1.00
+hold H328 tw 4.00 until=16095994
+now=16155498
+expire H328 tw 4.00
+now=16165591
+hold H329 tw 1.00 until=16166740
+now=16202163
+expire H329 tw 1.00
+hold H330 tw 1.00 until=16206496
+now=16278221
+expire H330 tw 1.00
+hold H331 tw 1.00 until=16293221
+now=16296343
+expire H331 tw 1.00
+now=16334661
+hold H332 tw 5.00 until=17294661
+H309 tw 5.00 until=16842992
+H314 tw 2.00 until=16569749
+H318 tw 2.00 until=16984106
+H326 tw 5.00 until=18006426
+H332 tw 5.00 until=17294661
+holds tw count=5 held=19.00
+now=16387877
+now=16404288
+hold H333 tw 4.00 until=16406740
+now=16468817
+expire H333 tw 4.00
+now=16483002
+now=16530941
+now=16573857
+expire H314 tw 2.00
+now=16593512
+now=16670816
+now=16749850
+hold H334 tw 5.00 until=16786850
+hold H335 tw 4.00 until=16754387
+hold H336 tw 4.00 until=16752941
+now=16770191
+expire H336 tw 4.00
+expire H335 tw 4.00
+now=16792130
+expire H334 tw 5.00
+hold H337 tw 5.00 until=17812130
+now=16797038
+now=16825596
+hold H338 tw 5.00 until=16827584
+now=16903502
+expire H338 tw 5.00
+expire H309 tw 5.00
+hold H339 tw 3.00 until=16935502
+hold H340 tw 2.00 until=16910502
+now=16967584
+expire H340 tw 2.00
+expire H339 tw 3.00
+hold H341 tw 2.00 until=19007584
+hold H342 tw 3.00 until=19547584
+hold H343 tw 4.00 until=19007584
+hold H344 tw 3.00 until=19727584
+now=16990502
+expire H318 tw 2.00
+hold H345 tw 2.00 until=17009502
+hold H346 tw 3.00 until=19690502
+now=16994764
+now=17072721
+expire H345 tw 2.00
+H326 tw 5.00 until=18006426
+H332 tw 5.00 until=17294661
+H337 tw 5.00 until=17812130
+H341 tw 2.00 until=19007584
+H342 tw 3.00 until=19547584
+H343 tw 4.00 until=19007584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+holds tw count=8 held=30.00
+hold H347 tw 3.00 until=17131721
+hold H348 tw 5.00 until=17083721
+hold H349 tw 4.00 until=17076876
+hold H350 tw 3.00 until=17074677
+now=17082191
+expire H350 tw 3.00
+expire H349 tw 4.00
+hold H351 tw 3.00 until=17084006
+now=17140080
+expire H348 tw 5.00
+expire H351 tw 3.00
+expire H347 tw 3.00
+now=17176438
+H326 tw 5.00 until=18006426
+H332 tw 5.00 until=17294661
+H337 tw 5.00 until=17812130
+H341 tw 2.00 until=19007584
+H342 tw 3.00 until=19547584
+H343 tw 4.00 until=19007584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+holds tw count=8 held=30.00
+now=17265533
+hold H352 tw 1.00 until=17325533
+hold H353 tw 1.00 until=17310533
+H326 tw 5.00 until=18006426
+H332 tw 5.00 until=17294661
+H337 tw 5.00 until=17812130
+H341 tw 2.00 until=19007584
+H342 tw 3.00 until=19547584
+H343 tw 4.00 until=19007584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+H352 tw 1.00 until=17325533
+H353 tw 1.00 until=17310533
+holds tw count=10 held=32.00
+now=17277391
+now=17334163
+expire H332 tw 5.00
+expire H353 tw 1.00
+expire H352 tw 1.00
+hold H354 tw 5.00 until=17352163
+now=17413319
+expire H354 tw 5.00
+H326 tw 5.00 until=18006426
+H337 tw 5.00 until=17812130
+H341 tw 2.00 until=19007584
+H342 tw 3.00 until=19547584
+H343 tw 4.00 until=19007584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+holds tw count=7 held=25.00
+H326 tw 5.00 until=18006426
+H337 tw 5.00 until=17812130
+H341 tw 2.00 until=19007584
+H342 tw 3.00 until=19547584
+H343 tw 4.00 until=19007584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+holds tw count=7 held=25.00
+H326 tw 5.00 until=18006426
+H337 tw 5.00 until=17812130
+H341 tw 2.00 until=19007584
+H342 tw 3.00 until=19547584
+H343 tw 4.00 until=19007584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+holds tw count=7 held=25.00
+now=17423461
+H326 tw 5.00 until=18006426
+H337 tw 5.00 until=17812130
+H341 tw 2.00 until=19007584
+H342 tw 3.00 until=19547584
+H343 tw 4.00 until=19007584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+holds tw count=7 held=25.00
+now=17465652
+now=17541651
+hold H355 tw 1.00 until=17580651
+hold H356 tw 4.00 until=17545472
+now=17584767
+expire H356 tw 4.00
+expire H355 tw 1.00
+now=17626303
+hold H357 tw 3.00 until=17641303
+hold H358 tw 2.00 until=18166303
+now=17679798
+expire H357 tw 3.00
+hold H359 tw 3.00 until=19119798
+hold H360 tw 1.00 until=17681424
+now=17748709
+expire H360 tw 1.00
+hold H361 tw 5.00 until=19668709
+H326 tw 5.00 until=18006426
+H337 tw 5.00 until=17812130
+H341 tw 2.00 until=19007584
+H342 tw 3.00 until=19547584
+H343 tw 4.00 until=19007584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+H358 tw 2.00 until=18166303
+H359 tw 3.00 until=19119798
+H361 tw 5.00 until=19668709
+holds tw count=10 held=35.00
+hold H362 tw 4.00 until=17790709
+H326 tw 5.00 until=18006426
+H337 tw 5.00 until=17812130
+H341 tw 2.00 until=19007584
+H342 tw 3.00 until=19547584
+H343 tw 4.00 until=19007584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+H358 tw 2.00 until=18166303
+H359 tw 3.00 until=19119798
+H361 tw 5.00 until=19668709
+H362 tw 4.00 until=17790709
+holds tw count=11 held=39.00
+now=17780690
+hold H363 tw 2.00 until=20660690
+hold H364 tw 1.00 until=20300690
+now=17847529
+expire H362 tw 4.00
+expire H337 tw 5.00
+hold H365 tw 2.00 until=18627529
+now=17869389
+now=17928622
+now=18004750
+hold H366 tw 4.00 until=18009750
+hold H367 tw 5.00 until=18007489
+hold H368 tw 4.00 until=18021750
+hold H369 tw 2.00 until=18007979
+now=18026190
+expire H326 tw 5.00
+expire H367 tw 5.00
+expire H369 tw 2.00
+expire H366 tw 4.00
+expire H368 tw 4.00
+hold H370 tw 1.00 until=18038190
+H341 tw 2.00 until=19007584
+H342 tw 3.00 until=19547584
+H343 tw 4.00 until=19007584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+H358 tw 2.00 until=18166303
+H359 tw 3.00 until=19119798
+H361 tw 5.00 until=19668709
+H363 tw 2.00 until=20660690
+H364 tw 1.00 until=20300690
+H365 tw 2.00 until=18627529
+H370 tw 1.00 until=18038190
+holds tw count=12 held=31.00
+H341 tw 2.00 until=19007584
+H342 tw 3.00 until=19547584
+H343 tw 4.00 until=19007584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+H358 tw 2.00 until=18166303
+H359 tw 3.00 until=19119798
+H361 tw 5.00 until=19668709
+H363 tw 2.00 until=20660690
+H364 tw 1.00 until=20300690
+H365 tw 2.00 until=18627529
+H370 tw 1.00 until=18038190
+holds tw count=12 held=31.00
+hold H371 tw 2.00 until=18045190
+hold H372 tw 4.00 until=18029689
+hold H373 tw 1.00 until=18036190
+now=18046904
+expire H372 tw 4.00
+expire H373 tw 1.00
+expire H370 tw 1.00
+expire H371 tw 2.00
+now=18111404
+hold H374 tw 1.00 until=18113855
+hold H375 tw 2.00 until=18131404
+hold H376 tw 2.00 until=18113238
+now=18172223
+expire H376 tw 2.00
+expire H374 tw 1.00
+expire H375 tw 2.00
+expire H358 tw 2.00
+hold H377 tw 3.00 until=18227223
+now=18241516
+expire H377 tw 3.00
+H341 tw 2.00 until=19007584
+H342 tw 3.00 until=19547584
+H343 tw 4.00 until=19007584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+H359 tw 3.00 until=19119798
+H361 tw 5.00 until=19668709
+H363 tw 2.00 until=20660690
+H364 tw 1.00 until=20300690
+H365 tw 2.00 until=18627529
+holds tw count=10 held=28.00
+hold H378 tw 2.00 until=18901516
+hold H379 tw 1.00 until=18301516
+hold H380 tw 5.00 until=18286516
+now=18304535
+expire H380 tw 5.00
+expire H379 tw 1.00
+now=18360760
+hold H381 tw 3.00 until=18392760
+H341 tw 2.00 until=19007584
+H342 tw 3.00 until=19547584
+H343 tw 4.00 until=19007584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+H359 tw 3.00 until=19119798
+H361 tw 5.00 until=19668709
+H363 tw 2.00 until=20660690
+H364 tw 1.00 until=20300690
+H365 tw 2.00 until=18627529
+H378 tw 2.00 until=18901516
+H381 tw 3.00 until=18392760
+holds tw count=12 held=33.00
+hold H382 tw 5.00 until=18398760
+hold H383 tw 3.00 until=18366760
+hold H384 tw 1.00 until=18411760
+now=18414205
+expire H383 tw 3.00
+expire H381 tw 3.00
+expire H382 tw 5.00
+expire H384 tw 1.00
+now=18460970
+hold H385 tw 5.00 until=18510970
+hold H386 tw 4.00 until=18464823
+hold H387 tw 1.00 until=18700970
+hold H388 tw 5.00 until=19180970
+hold H389 tw 3.00 until=18474970
+H341 tw 2.00 until=19007584
+H342 tw 3.00 until=19547584
+H343 tw 4.00 until=19007584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+H359 tw 3.00 until=19119798
+H361 tw 5.00 until=19668709
+H363 tw 2.00 until=20660690
+H364 tw 1.00 until=20300690
+H365 tw 2.00 until=18627529
+H378 tw 2.00 until=18901516
+H385 tw 5.00 until=18510970
+H386 tw 4.00 until=18464823
+H387 tw 1.00 until=18700970
+H388 tw 5.00 until=19180970
+H389 tw 3.00 until=18474970
+holds tw count=16 held=48.00
+now=18472831
+expire H386 tw 4.00
+now=18559573
+expire H389 tw 3.00
+expire H385 tw 5.00
+now=18619437
+now=18696929
+expire H365 tw 2.00
+now=18700016
+hold H390 tw 5.00 until=19420016
+hold H391 tw 4.00 until=18703216
+now=18764960
+expire H387 tw 1.00
+expire H391 tw 4.00
+now=18773974
+hold H392 tw 5.00 until=18953974
+now=18801184
+H341 tw 2.00 until=19007584
+H342 tw 3.00 until=19547584
+H343 tw 4.00 until=19007584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+H359 tw 3.00 until=19119798
+H361 tw 5.00 until=19668709
+H363 tw 2.00 until=20660690
+H364 tw 1.00 until=20300690
+H378 tw 2.00 until=18901516
+H388 tw 5.00 until=19180970
+H390 tw 5.00 until=19420016
+H392 tw 5.00 until=18953974
+holds tw count=13 held=43.00
+now=18833308
+now=18867464
+hold H393 tw 5.00 until=18869146
+hold H394 tw 2.00 until=18898464
+now=18934443
+expire H393 tw 5.00
+expire H394 tw 2.00
+expire H378 tw 2.00
+H341 tw 2.00 until=19007584
+H342 tw 3.00 until=19547584
+H343 tw 4.00 until=19007584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+H359 tw 3.00 until=19119798
+H361 tw 5.00 until=19668709
+H363 tw 2.00 until=20660690
+H364 tw 1.00 until=20300690
+H388 tw 5.00 until=19180970
+H390 tw 5.00 until=19420016
+H392 tw 5.00 until=18953974
+holds tw count=12 held=41.00
+hold H395 tw 4.00 until=18937968
+hold H396 tw 2.00 until=18937315
+hold H397 tw 5.00 until=18936543
+now=18972284
+expire H397 tw 5.00
+expire H396 tw 2.00
+expire H395 tw 4.00
+expire H392 tw 5.00
+hold H398 tw 5.00 until=18975569
+now=19042685
+expire H398 tw 5.00
+expire H341 tw 2.00
+expire H343 tw 4.00
+hold H399 tw 1.00 until=20002685
+hold H400 tw 3.00 until=21142685
+hold H401 tw 2.00 until=19043936
+now=19048110
+expire H401 tw 2.00
+hold H402 tw 1.00 until=19052038
+now=19086756
+expire H402 tw 1.00
+now=19111553
+now=19182346
+expire H359 tw 3.00
+expire H388 tw 5.00
+hold H403 tw 1.00 until=19213346
+H342 tw 3.00 until=19547584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+H361 tw 5.00 until=19668709
+H363 tw 2.00 until=20660690
+H364 tw 1.00 until=20300690
+H390 tw 5.00 until=19420016
+H399 tw 1.00 until=20002685
+H400 tw 3.00 until=21142685
+H403 tw 1.00 until=19213346
+holds tw count=10 held=27.00
+now=19250142
+expire H403 tw 1.00
+now=19309231
+now=19385533
+now=19427419
+expire H390 tw 5.00
+H342 tw 3.00 until=19547584
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+H361 tw 5.00 until=19668709
+H363 tw 2.00 until=20660690
+H364 tw 1.00 until=20300690
+H399 tw 1.00 until=20002685
+H400 tw 3.00 until=21142685
+holds tw count=8 held=21.00
+now=19455155
+hold H404 tw 4.00 until=19458800
+hold H405 tw 5.00 until=19481155
+hold H406 tw 2.00 until=19482155
+hold H407 tw 5.00 until=19458832
+hold H408 tw 2.00 until=19458898
+now=19538750
+expire H404 tw 4.00
+expire H407 tw 5.00
+expire H408 tw 2.00
+expire H405 tw 5.00
+expire H406 tw 2.00
+hold H409 tw 2.00 until=19540501
+hold H410 tw 4.00 until=19540770
+now=19549604
+expire H409 tw 2.00
+expire H410 tw 4.00
+expire H342 tw 3.00
+hold H411 tw 4.00 until=19550826
+H344 tw 3.00 until=19727584
+H346 tw 3.00 until=19690502
+H361 tw 5.00 until=19668709
+H363 tw 2.00 until=20660690
+H364 tw 1.00 until=20300690
+H399 tw 1.00 until=20002685
+H400 tw 3.00 until=21142685
+H411 tw 4.00 until=19550826
+holds tw count=8 held=22.00
+now=19603403
+expire H411 tw 4.00
+now=19688409
+expire H361 tw 5.00
+now=19737713
+expire H346 tw 3.00
+expire H344 tw 3.00
+now=19792924
+hold H412 tw 3.00 until=19794149
+now=19847306
+expire H412 tw 3.00
+now=19894906
+hold H413 tw 4.00 until=19934906
+now=19981252
+expire H413 tw 4.00
+now=20063074
+expire H399 tw 1.00
+now=20118506
+hold H414 tw 1.00 until=20158506
+hold H415 tw 5.00 until=20718506
+hold H416 tw 4.00 until=20122261
+hold H417 tw 4.00 until=20778506
+hold H418 tw 2.00 until=20133506
+hold H419 tw 3.00 until=20122239
+hold H420 tw 4.00 until=20121180
+now=20134175
+expire H420 tw 4.00
+expire H419 tw 3.00
+expire H416 tw 4.00
+expire H418 tw 2.00
+H363 tw 2.00 until=20660690
+H364 tw 1.00 until=20300690
+H400 tw 3.00 until=21142685
+H414 tw 1.00 until=20158506
+H415 tw 5.00 until=20718506
+H417 tw 4.00 until=20778506
+holds tw count=6 held=16.00
+now=20182842
+expire H414 tw 1.00
+hold H421 tw 1.00 until=20184282
+now=20225227
+expire H421 tw 1.00
+hold H422 tw 3.00 until=22265227
+hold H423 tw 5.00 until=20265227
+hold H424 tw 5.00 until=20228221
+now=20249527
+expire H424 tw 5.00
+hold H425 tw 3.00 until=20281527
+hold H426 tw 1.00 until=20251848
+now=20255232
+expire H426 tw 1.00
+hold H427 tw 5.00 until=20299232
+now=20273554
+expire H423 tw 5.00
+now=20331117
+expire H425 tw 3.00
+expire H427 tw 5.00
+expire H364 tw 1.00
+hold H428 tw 2.00 until=21651117
+now=20379314
+now=20420741
+now=20448429
+hold H429 tw 4.00 until=21708429
+now=20483644
+now=20554602
+now=20627803
+now=20651066
+now=20654519
+now=20713092
+expire H363 tw 2.00
+now=20739074
+expire H415 tw 5.00
+hold H430 tw 1.00 until=20796074
+now=20824228
+expire H417 tw 4.00
+expire H430 tw 1.00
+now=20872624
+hold H431 tw 1.00 until=21232624
+now=20886087
+hold H432 tw 1.00 until=20888548
+now=20923074
+expire H432 tw 1.00
+H400 tw 3.00 until=21142685
+H422 tw 3.00 until=22265227
+H428 tw 2.00 until=21651117
+H429 tw 4.00 until=21708429
+H431 tw 1.00 until=21232624
+holds tw count=5 held=13.00
+now=20995088
+now=21079873
+now=21123731
+hold H433 tw 2.00 until=21129731
+now=21184714
+expire H433 tw 2.00
+expire H400 tw 3.00
+hold H434 tw 4.00 until=23944714
+hold H435 tw 2.00 until=21219714
+now=21201161
+hold H436 tw 3.00 until=21242161
+hold H437 tw 5.00 until=21801161
+hold H438 tw 4.00 until=21232161
+hold H439 tw 1.00 until=21206081
+hold H440 tw 1.00 until=22161161
+now=21218091
+expire H439 tw 1.00
+now=21296192
+expire H435 tw 2.00
+expire H438 tw 4.00
+expire H431 tw 1.00
+expire H436 tw 3.00
+hold H441 tw 2.00 until=21476192
+hold H442 tw 4.00 until=22676192
+hold H443 tw 3.00 until=23096192
+hold H444 tw 1.00 until=21716192
+now=21373000
+hold H445 tw 1.00 until=21375108
+now=21409883
+expire H445 tw 1.00
+hold H446 tw 2.00 until=24049883
+now=21453089
+now=21515862
+expire H441 tw 2.00
+now=21549361
+hold H447 tw 2.00 until=21585361
+now=21554006
+hold H448 tw 2.00 until=21586006
+H422 tw 3.00 until=22265227
+H428 tw 2.00 until=21651117
+H429 tw 4.00 until=21708429
+H434 tw 4.00 until=23944714
+H437 tw 5.00 until=21801161
+H440 tw 1.00 until=22161161
+H442 tw 4.00 until=22676192
+H443 tw 3.00 until=23096192
+H444 tw 1.00 until=21716192
+H446 tw 2.00 until=24049883
+H447 tw 2.00 until=21585361
+H448 tw 2.00 until=21586006
+holds tw count=12 held=33.00
+now=21641382
+expire H447 tw 2.00
+expire H448 tw 2.00
+hold H449 tw 2.00 until=21670382
+hold H450 tw 1.00 until=21686382
+hold H451 tw 5.00 until=21643732
+hold H452 tw 3.00 until=21660382
+hold H453 tw 1.00 until=21645341
+now=21711869
+expire H451 tw 5.00
+expire H453 tw 1.00
+expire H428 tw 2.00
+expire H452 tw 3.00
+expire H449 tw 2.00
+expire H450 tw 1.00
+expire H429 tw 4.00
+now=21720444
+expire H444 tw 1.00
+hold H454 tw 5.00 until=21774444
+hold H455 tw 3.00 until=21744444
+hold H456 tw 5.00 until=24300444
+hold H457 tw 1.00 until=24660444
+now=21767929
+expire H455 tw 3.00
+now=21780428
+expire H454 tw 5.00
+H422 tw 3.00 until=22265227
+H434 tw 4.00 until=23944714
+H437 tw 5.00 until=21801161
+H440 tw 1.00 until=22161161
+H442 tw 4.00 until=22676192
+H443 tw 3.00 until=23096192
+H446 tw 2.00 until=24049883
+H456 tw 5.00 until=24300444
+H457 tw 1.00 until=24660444
+holds tw count=9 held=28.00
+hold H458 tw 2.00 until=23940428
+hold H459 tw 5.00 until=24600428
+now=21804417
+expire H437 tw 5.00
+hold H460 tw 4.00 until=24204417
+now=21844642
+hold H461 tw 1.00 until=21846216
+hold H462 tw 1.00 until=21846317
+H422 tw 3.00 until=22265227
+H434 tw 4.00 until=23944714
+H440 tw 1.00 until=22161161
+H442 tw 4.00 until=22676192
+H443 tw 3.00 until=23096192
+H446 tw 2.00 until=24049883
+H456 tw 5.00 until=24300444
+H457 tw 1.00 until=24660444
+H458 tw 2.00 until=23940428
+H459 tw 5.00 until=24600428
+H460 tw 4.00 until=24204417
+H461 tw 1.00 until=21846216
+H462 tw 1.00 until=21846317
+holds tw count=13 held=36.00
+now=21929644
+expire H461 tw 1.00
+expire H462 tw 1.00
+hold H463 tw 4.00 until=22229644
+now=22014783
+now=22053450
+hold H464 tw 2.00 until=22103450
+now=22085831
+hold H465 tw 3.00 until=22087457
+now=22135423
+expire H465 tw 3.00
+expire H464 tw 2.00
+now=22199398
+expire H440 tw 1.00
+hold H466 tw 4.00 until=22240398
+now=22212607
+H422 tw 3.00 until=22265227
+H434 tw 4.00 until=23944714
+H442 tw 4.00 until=22676192
+H443 tw 3.00 until=23096192
+H446 tw 2.00 until=24049883
+H456 tw 5.00 until=24300444
+H457 tw 1.00 until=24660444
+H458 tw 2.00 until=23940428
+H459 tw 5.00 until=24600428
+H460 tw 4.00 until=24204417
+H463 tw 4.00 until=22229644
+H466 tw 4.00 until=22240398
+holds tw count=12 held=41.00
+now=22267207
+expire H463 tw 4.00
+expire H466 tw 4.00
+expire H422 tw 3.00
+hold H467 tw 5.00 until=22312207
+now=22269265
+hold H468 tw 2.00 until=22298265
+now=22302314
+expire H468 tw 2.00
+now=22361473
+expire H467 tw 5.00
+hold H469 tw 4.00 until=22362580
+H434 tw 4.00 until=23944714
+H442 tw 4.00 until=22676192
+H443 tw 3.00 until=23096192
+H446 tw 2.00 until=24049883
+H456 tw 5.00 until=24300444
+H457 tw 1.00 until=24660444
+H458 tw 2.00 until=23940428
+H459 tw 5.00 until=24600428
+H460 tw 4.00 until=24204417
+H469 tw 4.00 until=22362580
+holds tw count=10 held=34.00
+H434 tw 4.00 until=23944714
+H442 tw 4.00 until=22676192
+H443 tw 3.00 until=23096192
+H446 tw 2.00 until=24049883
+H456 tw 5.00 until=24300444
+H457 tw 1.00 until=24660444
+H458 tw 2.00 until=23940428
+H459 tw 5.00 until=24600428
+H460 tw 4.00 until=24204417
+H469 tw 4.00 until=22362580
+holds tw count=10 held=34.00
+hold H470 tw 4.00 until=22363566
+now=22400465
+expire H469 tw 4.00
+expire H470 tw 4.00
+now=22454883
+now=22489381
+hold H471 tw 5.00 until=22525381
+hold H472 tw 5.00 until=23449381
+H434 tw 4.00 until=23944714
+H442 tw 4.00 until=22676192
+H443 tw 3.00 until=23096192
+H446 tw 2.00 until=24049883
+H456 tw 5.00 until=24300444
+H457 tw 1.00 until=24660444
+H458 tw 2.00 until=23940428
+H459 tw 5.00 until=24600428
+H460 tw 4.00 until=24204417
+H471 tw 5.00 until=22525381
+H472 tw 5.00 until=23449381
+holds tw count=11 held=40.00
+hold H473 tw 1.00 until=24289381
+now=22526254
+expire H471 tw 5.00
+hold H474 tw 3.00 until=22555254
+now=22615014
+expire H474 tw 3.00
+hold H475 tw 2.00 until=22648014
+now=22623380
+hold H476 tw 3.00 until=22626058
+now=22637721
+expire H476 tw 3.00
+hold H477 tw 3.00 until=22657721
+hold H478 tw 1.00 until=22642088
+now=22638372
+hold H479 tw 5.00 until=23478372
+now=22716031
+expire H478 tw 1.00
+expire H475 tw 2.00
+expire H477 tw 3.00
+expire H442 tw 4.00
+hold H480 tw 4.00 until=22720756
+hold H481 tw 1.00 until=25656031
+H434 tw 4.00 until=23944714
+H443 tw 3.00 until=23096192
+H446 tw 2.00 until=24049883
+H456 tw 5.00 until=24300444
+H457 tw 1.00 until=24660444
+H458 tw 2.00 until=23940428
+H459 tw 5.00 until=24600428
+H460 tw 4.00 until=24204417
+H472 tw 5.00 until=23449381
+H473 tw 1.00 until=24289381
+H479 tw 5.00 until=23478372
+H480 tw 4.00 until=22720756
+H481 tw 1.00 until=25656031
+holds tw count=13 held=42.00
+now=22788548
+expire H480 tw 4.00
+H434 tw 4.00 until=23944714
+H443 tw 3.00 until=23096192
+H446 tw 2.00 until=24049883
+H456 tw 5.00 until=24300444
+H457 tw 1.00 until=24660444
+H458 tw 2.00 until=23940428
+H459 tw 5.00 until=24600428
+H460 tw 4.00 until=24204417
+H472 tw 5.00 until=23449381
+H473 tw 1.00 until=24289381
+H479 tw 5.00 until=23478372
+H481 tw 1.00 until=25656031
+holds tw count=12 held=38.00
+H434 tw 4.00 until=23944714
+H443 tw 3.00 until=23096192
+H446 tw 2.00 until=24049883
+H456 tw 5.00 until=24300444
+H457 tw 1.00 until=24660444
+H458 tw 2.00 until=23940428
+H459 tw 5.00 until=24600428
+H460 tw 4.00 until=24204417
+H472 tw 5.00 until=23449381
+H473 tw 1.00 until=24289381
+H479 tw 5.00 until=23478372
+H481 tw 1.00 until=25656031
+holds tw count=12 held=38.00
+now=22846260
+now=22881498
+hold H482 tw 2.00 until=22918498
+now=22893554
+now=22972384
+expire H482 tw 2.00
+hold H483 tw 1.00 until=22977191
+hold H484 tw 2.00 until=22977019
+now=23032852
+expire H484 tw 2.00
+expire H483 tw 1.00
+hold H485 tw 3.00 until=25132852
+now=23084169
+now=23123511
+expire H443 tw 3.00
+hold H486 tw 1.00 until=23127537
+now=23146900
+expire H486 tw 1.00
+hold H487 tw 3.00 until=23193900
+now=23153338
+now=23232805
+expire H487 tw 3.00
+now=23235029
+now=23301669
+now=23309740
+now=23341249
+hold H488 tw 2.00 until=23344744
+now=23377836
+expire H488 tw 2.00
+hold H489 tw 4.00 until=23412836
+now=23401708
+hold H490 tw 5.00 until=23406558
+now=23463060
+expire H490 tw 5.00
+expire H489 tw 4.00
+expire H472 tw 5.00
+now=23519581
+expire H479 tw 5.00
+hold H491 tw 1.00 until=26339581
+now=23551287
+now=23639123
+hold H492 tw 3.00 until=23642630
+hold H493 tw 1.00 until=23642543
+now=23692421
+expire H493 tw 1.00
+expire H492 tw 3.00
+hold H494 tw 2.00 until=23696860
+now=23705736
+expire H494 tw 2.00
+now=23718976
+hold H495 tw 2.00 until=24678976
+H434 tw 4.00 until=23944714
+H446 tw 2.00 until=24049883
+H456 tw 5.00 until=24300444
+H457 tw 1.00 until=24660444
+H458 tw 2.00 until=23940428
+H459 tw 5.00 until=24600428
+H460 tw 4.00 until=24204417
+H473 tw 1.00 until=24289381
+H481 tw 1.00 until=25656031
+H485 tw 3.00 until=25132852
+H491 tw 1.00 until=26339581
+H495 tw 2.00 until=24678976
+holds tw count=12 held=31.00
+now=23727200
+H434 tw 4.00 until=23944714
+H446 tw 2.00 until=24049883
+H456 tw 5.00 until=24300444
+H457 tw 1.00 until=24660444
+H458 tw 2.00 until=23940428
+H459 tw 5.00 until=24600428
+H460 tw 4.00 until=24204417
+H473 tw 1.00 until=24289381
+H481 tw 1.00 until=25656031
+H485 tw 3.00 until=25132852
+H491 tw 1.00 until=26339581
+H495 tw 2.00 until=24678976
+holds tw count=12 held=31.00
+hold H496 tw 4.00 until=26247200
+hold H497 tw 1.00 until=23747200
+hold H498 tw 5.00 until=23729808
+now=23779270
+expire H498 tw 5.00
+expire H497 tw 1.00
+hold H499 tw 1.00 until=23782344
+hold H500 tw 5.00 until=24259270
+now=23852833
+expire H499 tw 1.00
+hold H501 tw 4.00 until=24452833
+hold H502 tw 2.00 until=24632833
+now=23855824
+H434 tw 4.00 until=23944714
+H446 tw 2.00 until=24049883
+H456 tw 5.00 until=24300444
+H457 tw 1.00 until=24660444
+H458 tw 2.00 until=23940428
+H459 tw 5.00 until=24600428
+H460 tw 4.00 until=24204417
+H473 tw 1.00 until=24289381
+H481 tw 1.00 until=25656031
+H485 tw 3.00 until=25132852
+H491 tw 1.00 until=26339581
+H495 tw 2.00 until=24678976
+H496 tw 4.00 until=26247200
+H500 tw 5.00 until=24259270
+H501 tw 4.00 until=24452833
+H502 tw 2.00 until=24632833
+holds tw count=16 held=46.00
+now=23903368
+now=23909175
+now=23954670
+expire H458 tw 2.00
+expire H434 tw 4.00
+hold H503 tw 5.00 until=23976670
+hold H504 tw 5.00 until=23973670
+now=24036300
+expire H504 tw 5.00
+expire H503 tw 5.00
+hold H505 tw 1.00 until=24038219
+now=24036851
+hold H506 tw 1.00 until=24038116
+hold H507 tw 5.00 until=25656851
+now=24107649
+expire H506 tw 1.00
+expire H505 tw 1.00
+expire H446 tw 2.00
+now=24143537
+now=24205596
+expire H460 tw 4.00
+now=24213002
+hold H508 tw 5.00 until=24258002
+H456 tw 5.00 until=24300444
+H457 tw 1.00 until=24660444
+H459 tw 5.00 until=24600428
+H473 tw 1.00 until=24289381
+H481 tw 1.00 until=25656031
+H485 tw 3.00 until=25132852
+H491 tw 1.00 until=26339581
+H495 tw 2.00 until=24678976
+H496 tw 4.00 until=26247200
+H500 tw 5.00 until=24259270
+H501 tw 4.00 until=24452833
+H502 tw 2.00 until=24632833
+H507 tw 5.00 until=25656851
+H508 tw 5.00 until=24258002
+holds tw count=14 held=44.00
+H456 tw 5.00 until=24300444
+H457 tw 1.00 until=24660444
+H459 tw 5.00 until=24600428
+H473 tw 1.00 until=24289381
+H481 tw 1.00 until=25656031
+H485 tw 3.00 until=25132852
+H491 tw 1.00 until=26339581
+H495 tw 2.00 until=24678976
+H496 tw 4.00 until=26247200
+H500 tw 5.00 until=24259270
+H501 tw 4.00 until=24452833
+H502 tw 2.00 until=24632833
+H507 tw 5.00 until=25656851
+H508 tw 5.00 until=24258002
+holds tw count=14 held=44.00
+hold H509 tw 4.00 until=24993002
+hold H510 tw 4.00 until=24215911
+hold H511 tw 5.00 until=25413002
+H456 tw 5.00 until=24300444
+H457 tw 1.00 until=24660444
+H459 tw 5.00 until=24600428
+H473 tw 1.00 until=24289381
+H481 tw 1.00 until=25656031
+H485 tw 3.00 until=25132852
+H491 tw 1.00 until=26339581
+H495 tw 2.00 until=24678976
+H496 tw 4.00 until=26247200
+H500 tw 5.00 until=24259270
+H501 tw 4.00 until=24452833
+H502 tw 2.00 until=24632833
+H507 tw 5.00 until=25656851
+H508 tw 5.00 until=24258002
+H509 tw 4.00 until=24993002
+H510 tw 4.00 until=24215911
+H511 tw 5.00 until=25413002
+holds tw count=17 held=57.00
+hold H512 tw 4.00 until=25833002
+hold H513 tw 2.00 until=24214357
+hold H514 tw 3.00 until=24215409
+hold H515 tw 3.00 until=24271002
+hold H516 tw 2.00 until=24215108
+now=24241463
+expire H513 tw 2.00
+expire H516 tw 2.00
+expire H514 tw 3.00
+expire H510 tw 4.00
+now=24298442
+expire H508 tw 5.00
+expire H500 tw 5.00
+expire H515 tw 3.00
+expire H473 tw 1.00
+hold H517 tw 2.00 until=24838442
+hold H518 tw 4.00 until=24303335
+hold H519 tw 5.00 until=24302222
+now=24350398
+expire H456 tw 5.00
+expire H519 tw 5.00
+expire H518 tw 4.00
+hold H520 tw 2.00 until=24393398
+hold H521 tw 1.00 until=24354840
+now=24418067
+expire H521 tw 1.00
+expire H520 tw 2.00
+hold H522 tw 3.00 until=24470067
+hold H523 tw 5.00 until=24421161
+now=24494118
+expire H523 tw 5.00
+expire H501 tw 4.00
+expire H522 tw 3.00
+now=24506900
+hold H524 tw 3.00 until=24524900
+hold H525 tw 1.00 until=26846900
+H457 tw 1.00 until=24660444
+H459 tw 5.00 until=24600428
+H481 tw 1.00 until=25656031
+H485 tw 3.00 until=25132852
+H491 tw 1.00 until=26339581
+H495 tw 2.00 until=24678976
+H496 tw 4.00 until=26247200
+H502 tw 2.00 until=24632833
+H507 tw 5.00 until=25656851
+H509 tw 4.00 until=24993002
+H511 tw 5.00 until=25413002
+H512 tw 4.00 until=25833002
+H517 tw 2.00 until=24838442
+H524 tw 3.00 until=24524900
+H525 tw 1.00 until=26846900
+holds tw count=15 held=43.00
+now=24566994
+expire H524 tw 3.00
+now=24631852
+expire H459 tw 5.00
+now=24674278
+expire H502 tw 2.00
+expire H457 tw 1.00
+H481 tw 1.00 until=25656031
+H485 tw 3.00 until=25132852
+H491 tw 1.00 until=26339581
+H495 tw 2.00 until=24678976
+H496 tw 4.00 until=26247200
+H507 tw 5.00 until=25656851
+H509 tw 4.00 until=24993002
+H511 tw 5.00 until=25413002
+H512 tw 4.00 until=25833002
+H517 tw 2.00 until=24838442
+H525 tw 1.00 until=26846900
+holds tw count=11 held=32.00
+now=24716971
+expire H495 tw 2.00
+now=24748794
+now=24790272
+now=24827582
+now=24897924
+expire H517 tw 2.00
+now=24917200
+now=24995682
+expire H509 tw 4.00
+hold H526 tw 5.00 until=24998235
+hold H527 tw 1.00 until=25955682
+H481 tw 1.00 until=25656031
+H485 tw 3.00 until=25132852
+H491 tw 1.00 until=26339581
+H496 tw 4.00 until=26247200
+H507 tw 5.00 until=25656851
+H511 tw 5.00 until=25413002
+H512 tw 4.00 until=25833002
+H525 tw 1.00 until=26846900
+H526 tw 5.00 until=24998235
+H527 tw 1.00 until=25955682
+holds tw count=10 held=30.00
+now=25010674
+expire H526 tw 5.00
+now=25053936
+hold H528 tw 5.00 until=25056229
+hold H529 tw 2.00 until=25057549
+now=25093584
+expire H528 tw 5.00
+expire H529 tw 2.00
+hold H530 tw 5.00 until=25094900
+now=25108783
+expire H530 tw 5.00
+hold H531 tw 1.00 until=27628783
+now=25193488
+expire H485 tw 3.00
+now=25232461
+H481 tw 1.00 until=25656031
+H491 tw 1.00 until=26339581
+H496 tw 4.00 until=26247200
+H507 tw 5.00 until=25656851
+H511 tw 5.00 until=25413002
+H512 tw 4.00 until=25833002
+H525 tw 1.00 until=26846900
+H527 tw 1.00 until=25955682
+H531 tw 1.00 until=27628783
+holds tw count=9 held=23.00
+hold H532 tw 4.00 until=25266461
+hold H533 tw 1.00 until=25237411
+now=25245211
+expire H533 tw 1.00
+hold H534 tw 4.00 until=25246259
+hold H535 tw 1.00 until=25246614
+now=25268925
+expire H534 tw 4.00
+expire H535 tw 1.00
+expire H532 tw 4.00
+now=25348634
+now=25354897
+hold H536 tw 1.00 until=25358547
+now=25375526
+expire H536 tw 1.00
+now=25451120
+expire H511 tw 5.00
+now=25499145
+now=25578649
+hold H537 tw 1.00 until=28398649
+hold H538 tw 4.00 until=25580279
+now=25611557
+expire H538 tw 4.00
+hold H539 tw 5.00 until=25632557
+now=25635697
+expire H539 tw 5.00
+H481 tw 1.00 until=25656031
+H491 tw 1.00 until=26339581
+H496 tw 4.00 until=26247200
+H507 tw 5.00 until=25656851
+H512 tw 4.00 until=25833002
+H525 tw 1.00 until=26846900
+H527 tw 1.00 until=25955682
+H531 tw 1.00 until=27628783
+H537 tw 1.00 until=28398649
+holds tw count=9 held=19.00
+hold H540 tw 5.00 until=25637876
+now=25690193
+expire H540 tw 5.00
+expire H481 tw 1.00
+expire H507 tw 5.00
+hold H541 tw 2.00 until=27010193
+hold H542 tw 4.00 until=25726193
+H491 tw 1.00 until=26339581
+H496 tw 4.00 until=26247200
+H512 tw 4.00 until=25833002
+H525 tw 1.00 until=26846900
+H527 tw 1.00 until=25955682
+H531 tw 1.00 until=27628783
+H537 tw 1.00 until=28398649
+H541 tw 2.00 until=27010193
+H542 tw 4.00 until=25726193
+holds tw count=9 held=19.00
+check ok records=1 live=1 accounts=1 holds=9 batches=0

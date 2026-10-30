@@ -1,0 +1,19 @@
+open shop slot=0 gen=0
+ok T0.0 deposit shop 100.00 balance=100.00
+hold H001 shop 30.00 until=10000
+hold H002 shop 50.00 until=never
+deny funds available=20.00
+H001 shop 30.00 until=10000
+H002 shop 50.00 until=never
+holds shop count=2 held=80.00
+shop balance=100.00 held=80.00 available=20.00 spent_today=0.00 debits_last_hour=0
+now=5000
+error: cannot capture to the holding account
+ok T0.1 capture H001 shop 12.00
+now=10000
+H002 shop 50.00 until=never
+holds shop count=1 held=50.00
+release H002 shop 50.00
+holds shop count=0 held=0.00
+shop balance=88.00 held=0.00 available=88.00 spent_today=0.00 debits_last_hour=0
+check ok records=2 live=2 accounts=1 holds=0 batches=0

@@ -1,0 +1,12 @@
+open kim slot=0 gen=0
+ok T0.0 deposit kim 50.00 balance=50.00
+replay T0.0
+deny daily limit=20.00 spent=0.00
+ok T0.1 withdraw kim 15.00 balance=35.00
+replay T0.1
+deny daily limit=20.00 spent=15.00
+ok T0.2 withdraw kim 5.00 balance=30.00
+replay T0.0
+kim balance=30.00 held=0.00 available=30.00 spent_today=20.00 debits_last_hour=2
+idem entries=3 capacity=64 evicted=0
+check ok records=3 live=3 accounts=1 holds=0 batches=0

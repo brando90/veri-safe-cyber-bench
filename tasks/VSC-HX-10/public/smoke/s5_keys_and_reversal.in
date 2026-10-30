@@ -1,0 +1,17 @@
+# idempotency keys and reversals
+open gina
+open hank
+deposit gina 50 key=dep-1
+deposit gina 50 key=dep-1
+transfer gina hank 10 key=t1
+transfer gina hank 99 key=t1
+withdraw hank 3 key=t1
+idem
+reverse T0.1
+reverse T0.1
+show T0.1
+show T0.3
+history hank last=2
+balance gina
+balance hank
+check

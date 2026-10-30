@@ -1,0 +1,7 @@
+user alice added
+published mathlib 1.2.0 (0 KiB)
+error: bad requirement '1.x'
+error: bad requirement '1.x'
+fetched mathlib 1.2.0
+package mathlib visibility=public latest=1.2.0 downloads=1 releases=1
+  1.2.0 0 B by=alice at=0 downloads=1

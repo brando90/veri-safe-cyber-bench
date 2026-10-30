@@ -1,0 +1,28 @@
+open joe slot=0 gen=0
+ok T0.0 deposit joe 100.00 balance=100.00
+now=1000
+hold H001 joe 1.00 until=11000
+hold H002 joe 2.00 until=6000
+now=6000
+expire H002 joe 2.00
+hold H003 joe 3.00 until=11000
+hold H004 joe 4.00 until=13000
+hold H005 joe 5.00 until=19000
+hold H006 joe 6.00 until=never
+now=8000
+now=11000
+expire H001 joe 1.00
+expire H003 joe 3.00
+H004 joe 4.00 until=13000
+H005 joe 5.00 until=19000
+H006 joe 6.00 until=never
+holds joe count=3 held=15.00
+now=13999
+expire H004 joe 4.00
+now=14000
+now=86414000
+expire H005 joe 5.00
+H006 joe 6.00 until=never
+holds joe count=1 held=6.00
+joe balance=100.00 held=6.00 available=94.00 spent_today=0.00 debits_last_hour=0
+check ok records=1 live=1 accounts=1 holds=1 batches=0

@@ -1,0 +1,25 @@
+open qua slot=0 gen=0
+open rex slot=1 gen=0
+ok T0.0 deposit qua 30.00 balance=30.00
+ok T0.1 transfer qua->rex 1.00 balance=29.00
+deny funds available=1.00
+hold H001 qua 5.00 until=never
+ok T0.2 capture H001 qua 5.00 to=rex
+error: unknown transaction T0.3
+ok T0.3 withdraw rex 1.00 balance=5.00
+T0.2 capture qua->rex 5.00 at=0 hold=H001
+T0.1 transfer qua->rex 1.00 at=0
+T0.0 deposit ->qua 30.00 at=0
+T0.3 withdraw rex-> 1.00 at=0
+T0.2 capture qua->rex 5.00 at=0 hold=H001
+T0.1 transfer qua->rex 1.00 at=0
+T0.2 capture qua->rex 5.00 at=0 hold=H001
+T0.1 transfer qua->rex 1.00 at=0
+T0.0 deposit ->qua 30.00 at=0
+T0.3 withdraw rex-> 1.00 at=0
+error: unknown transaction T0.4
+error: unknown transaction T0.6
+error: unknown transaction T0.7
+open sam slot=2 gen=0
+history sam empty
+check ok records=4 live=4 accounts=3 holds=0 batches=0

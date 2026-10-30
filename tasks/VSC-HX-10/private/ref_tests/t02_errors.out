@@ -1,0 +1,38 @@
+error: unknown command frobnicate
+error: usage: open NAME [overdraft=AMOUNT] [daily=AMOUNT] [velocity=N]
+error: bad account name Alice
+error: bad account name toolongaccountname_x
+error: bad overdraft -1
+error: velocity out of range
+error: velocity out of range
+error: bad daily abc
+open al slot=0 gen=0
+error: account al exists
+error: usage: deposit NAME AMOUNT [key=K]
+error: amount must be positive
+error: bad amount 1.234
+error: bad key bad!key
+error: option key given twice
+error: unknown account nobody
+error: unknown option extra
+error: usage: withdraw NAME AMOUNT [key=K]
+error: cannot transfer to the same account
+error: unknown transaction T9.0
+error: bad transaction id X1
+error: unknown transaction T0.0
+error: bad transaction id T0.4096
+error: ttl out of range
+error: ttl out of range
+error: bad hold id H1000
+error: bad hold id H000
+error: unknown hold H001
+error: bad time -5
+error: bad duration 1x
+now=10000
+error: clock cannot move backwards
+error: usage: clock [set TIME | advance DURATION]
+error: last out of range
+error: last out of range
+error: usage: clearing [fail N]
+error: usage: clearing [fail N]
+check ok records=0 live=0 accounts=1 holds=0 batches=0

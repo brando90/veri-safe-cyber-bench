@@ -1,0 +1,18 @@
+user alice added
+published esc 1.0.0 (0 KiB)
+yanked esc 1.0.0
+deprecated esc 1.0.0
+#1 t=0 - user.add alice admin=no
+#2 t=0 alice publish esc version=1.0.0 size=0
+#3 t=0 alice yank esc version=1.0.0 reason="a\b, c	d"
+#4 t=0 alice deprecate esc version=1.0.0 message=" padded "
+seq	time	actor	action	target	detail
+1	0	-	user.add	alice	admin=no
+2	0	alice	publish	esc	version=1.0.0 size=0
+3	0	alice	yank	esc	version=1.0.0 reason="a\\b, c\td"
+4	0	alice	deprecate	esc	version=1.0.0 message=" padded "
+seq,time,actor,action,target,detail
+1,0,-,user.add,alice,admin=no
+2,0,alice,publish,esc,version=1.0.0 size=0
+3,0,alice,yank,esc,"version=1.0.0 reason=""a\b, c	d"""
+4,0,alice,deprecate,esc,"version=1.0.0 message="" padded """

@@ -1,0 +1,12 @@
+user alice added
+user bob added
+user carol added
+published cfg 1.0.0 (0 KiB)
+clock 100
+invited bob to cfg as reader until 700
+invited carol to cfg as owner until 172900
+clock 700
+error: invite for bob to cfg expired
+clock 172900
+error: invite for carol to cfg expired
+roles cfg: alice=owner

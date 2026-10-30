@@ -1,0 +1,19 @@
+open vel slot=0 gen=0
+ok T0.0 deposit vel 100.00 balance=100.00
+ok T0.1 withdraw vel 1.00 balance=99.00
+now=20000
+ok T0.2 withdraw vel 1.00 balance=98.00
+now=59000
+ok T0.3 withdraw vel 1.00 balance=97.00
+deny velocity limit=3
+error: bad time 59m59s
+vel balance=97.00 held=0.00 available=97.00 spent_today=3.00 debits_last_hour=3
+deny velocity limit=3
+now=3600000
+vel balance=97.00 held=0.00 available=97.00 spent_today=3.00 debits_last_hour=0
+ok T0.4 withdraw vel 1.00 balance=96.00
+ok T0.5 withdraw vel 1.00 balance=95.00
+ok T0.6 withdraw vel 1.00 balance=94.00
+deny velocity limit=3
+vel balance=94.00 held=0.00 available=94.00 spent_today=6.00 debits_last_hour=3
+check ok records=7 live=7 accounts=1 holds=0 batches=0

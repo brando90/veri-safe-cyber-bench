@@ -1,0 +1,9 @@
+user alice added
+published webkit 1.0.0 (1 KiB)
+published webkit 1.1.0 (1 KiB)
+tag webkit beta -> 1.1.0
+unpublished webkit 1.1.0
+tags webkit: latest=1.0.0
+error: webkit has no tag beta
+fetched webkit 1.0.0
+check ok (1 users, 1 packages)

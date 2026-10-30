@@ -1,0 +1,17 @@
+user alice added
+published o1 1.0.0 (0 KiB)
+published o2 1.0.0 (0 KiB)
+published o3 1.0.0 (0 KiB)
+lock set (3 packages)
+  o1 1.0.0
+  o2 1.0.0
+  o3 1.0.0
+digest cecd4e6176cb
+published o1 1.1.0 (0 KiB)
+yanked o2 1.0.0
+unpublished o3 1.0.0
+outdated set: 3 of 3
+  o1 1.0.0 -> 1.1.0
+  o2 1.0.0 -> yanked (latest -)
+  o3 1.0.0 -> unpublished (latest -)
+error: no lock named nothing

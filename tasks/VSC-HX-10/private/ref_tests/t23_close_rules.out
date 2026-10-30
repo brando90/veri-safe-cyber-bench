@@ -1,0 +1,18 @@
+open tia slot=0 gen=0
+ok T0.0 deposit tia 5.00 balance=5.00
+error: account tia balance not zero
+hold H001 tia 5.00 until=never
+deny funds available=0.00
+error: account tia has holds
+release H001 tia 5.00
+ok T0.1 withdraw tia 5.00 balance=0.00
+close tia slot=0
+error: unknown account tia
+error: unknown account tia
+open tia slot=1 gen=0
+ok T0.2 withdraw tia 3.00 balance=-3.00
+error: account tia balance not zero
+ok T0.3 deposit tia 3.00 balance=0.00
+close tia slot=1
+accounts open=0
+check ok records=4 live=4 accounts=0 holds=0 batches=0

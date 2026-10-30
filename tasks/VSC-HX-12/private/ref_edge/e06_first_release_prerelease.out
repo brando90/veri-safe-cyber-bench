@@ -1,0 +1,10 @@
+user alice added
+published newlib 0.1.0-alpha.1 (0 KiB)
+tags newlib: none
+error: newlib has no latest version
+fetched newlib 0.1.0-alpha.1
+package newlib visibility=public latest=- downloads=1 releases=1
+  0.1.0-alpha.1 0 B by=alice at=0 downloads=1
+yanked newlib 0.1.0-alpha.1
+unyanked newlib 0.1.0-alpha.1
+tags newlib: none

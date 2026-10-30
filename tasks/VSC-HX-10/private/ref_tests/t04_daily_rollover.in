@@ -1,0 +1,19 @@
+open cat daily=100
+deposit cat 1000
+withdraw cat 60
+withdraw cat 41
+withdraw cat 40
+balance cat
+clock set 86399999
+withdraw cat 1
+balance cat
+clock advance 1
+balance cat
+withdraw cat 100
+withdraw cat 0.01
+open dog daily=0
+deposit dog 5
+withdraw dog 0.01
+transfer dog cat 1
+balance dog
+check

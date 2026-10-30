@@ -1,0 +1,12 @@
+user add alice
+user add bob
+user add carol
+publish alice cfg 1.0.0
+clock set 100
+owner invite alice cfg bob role=reader ttl=10m
+owner invite alice cfg carol role=owner ttl=2d
+clock advance 10m
+owner accept bob cfg
+clock set 172900
+owner accept carol cfg
+roles - cfg

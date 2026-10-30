@@ -1,0 +1,32 @@
+user alice added
+user bob added
+user carol added
+published base 1.0.0 (1 KiB)
+published base 1.4.0 (2 KiB)
+published http 2.0.0 (6 KiB)
+published cli 0.9.0 (3 KiB)
+fetched base 1.4.0
+fetched base 1.4.0
+fetched http 2.0.0
+lock app (3 packages)
+  base 1.4.0
+  cli 0.9.0
+  http 2.0.0
+digest d6f259c4b2ae
+dependents base: cli http
+top downloads:
+  1. base 2
+  2. http 1
+  3. cli 0
+top releases:
+  1. base 2
+  2. cli 1
+  3. http 1
+top dependents:
+  1. base 2
+  2. http 1
+  3. cli 0
+found base latest=1.4.0 releases=2
+published base 1.5.0 (2 KiB)
+outdated app: 1 of 3
+  base 1.4.0 -> 1.5.0

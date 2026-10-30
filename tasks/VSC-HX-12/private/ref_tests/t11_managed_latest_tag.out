@@ -1,0 +1,12 @@
+user alice added
+published tg 1.0.0 (0 KiB)
+published tg 1.1.0 (0 KiB)
+error: tag latest is managed by the registry
+error: tag latest is managed by the registry
+error: invalid tag name 'Bad_Tag'
+tag tg old -> 1.0.0
+tag tg old -> 1.1.0
+error: tg has no tag nope
+tags tg: latest=1.1.0 old=1.1.0
+#4 t=0 alice tag.add tg tag=old version=1.0.0
+#5 t=0 alice tag.add tg tag=old version=1.1.0 was=1.0.0

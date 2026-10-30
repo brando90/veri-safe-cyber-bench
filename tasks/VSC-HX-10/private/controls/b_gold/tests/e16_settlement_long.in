@@ -1,0 +1,1250 @@
+open sa velocity=1000 daily=100000000
+open sb
+deposit sb 9
+deposit sb 37
+deposit sb 11
+deposit sb 10
+deposit sb 24
+clock advance 90s
+deposit sb 48
+deposit sa 41
+settle
+deposit sb 39
+deposit sb 11
+deposit sa 34
+clock advance 240s
+deposit sa 7
+deposit sb 13
+deposit sb 49
+deposit sa 33
+clearing fail 1
+settle
+deposit sb 20
+clock advance 90s
+deposit sa 3
+deposit sa 3
+deposit sa 41
+deposit sb 50
+deposit sa 50
+clock advance 240s
+deposit sb 11
+clearing fail 2
+settle
+deposit sa 12
+deposit sb 28
+deposit sb 35
+deposit sa 15
+clock advance 90s
+deposit sb 6
+deposit sb 1
+deposit sa 17
+settle
+deposit sb 25
+deposit sb 24
+clock advance 30s
+deposit sa 43
+deposit sb 36
+deposit sb 29
+deposit sb 40
+deposit sb 16
+settle
+clock advance 10s
+deposit sa 8
+deposit sa 6
+deposit sa 44
+deposit sb 3
+deposit sb 20
+clock advance 45s
+deposit sb 30
+deposit sb 47
+clearing fail 2
+settle
+deposit sb 6
+deposit sb 31
+deposit sa 21
+clock advance 10s
+deposit sa 11
+deposit sb 9
+deposit sb 10
+deposit sa 2
+settle
+deposit sb 27
+clock advance 10s
+deposit sa 44
+deposit sa 10
+deposit sa 22
+deposit sa 38
+deposit sa 36
+clock advance 10s
+deposit sa 22
+settle
+deposit sb 50
+deposit sb 9
+deposit sb 24
+deposit sb 38
+clock advance 45s
+deposit sa 16
+deposit sb 40
+deposit sa 45
+clearing fail 1
+settle
+deposit sb 47
+deposit sb 28
+clock advance 30s
+deposit sa 38
+deposit sb 3
+deposit sa 16
+deposit sb 4
+deposit sa 2
+settle
+clock advance 90s
+deposit sb 26
+deposit sa 23
+deposit sa 3
+deposit sb 25
+deposit sb 8
+clock advance 45s
+deposit sa 17
+deposit sa 45
+settle
+deposit sa 9
+deposit sb 2
+deposit sa 2
+clock advance 10s
+deposit sa 42
+deposit sb 29
+deposit sb 28
+deposit sa 9
+settle
+deposit sb 3
+clock advance 240s
+deposit sb 25
+deposit sb 3
+deposit sb 5
+deposit sb 44
+deposit sa 9
+clock advance 30s
+deposit sa 48
+settle
+deposit sb 23
+deposit sa 31
+deposit sb 15
+deposit sb 22
+clock advance 45s
+deposit sa 48
+deposit sa 9
+deposit sb 39
+clearing fail 3
+settle
+deposit sa 20
+deposit sb 47
+clock advance 10s
+deposit sb 13
+deposit sa 44
+deposit sb 26
+deposit sa 50
+deposit sa 48
+settle
+clock advance 30s
+deposit sb 34
+deposit sb 47
+deposit sb 20
+deposit sb 8
+deposit sa 23
+clock advance 240s
+deposit sb 18
+deposit sa 44
+settle
+deposit sa 22
+deposit sb 47
+deposit sa 9
+clock advance 30s
+deposit sa 28
+deposit sa 8
+deposit sb 34
+deposit sa 4
+settle
+deposit sa 37
+clock advance 90s
+deposit sb 30
+deposit sb 41
+deposit sb 48
+deposit sa 12
+deposit sa 3
+clock advance 45s
+deposit sb 33
+settle
+deposit sa 28
+deposit sb 18
+deposit sb 1
+deposit sa 45
+clock advance 30s
+deposit sa 25
+deposit sa 28
+deposit sa 21
+settle
+deposit sb 17
+deposit sb 36
+clock advance 90s
+deposit sa 18
+deposit sb 22
+deposit sb 28
+deposit sb 41
+deposit sb 14
+settle
+clock advance 90s
+deposit sa 47
+deposit sa 48
+deposit sa 26
+deposit sa 34
+deposit sa 1
+clock advance 10s
+deposit sa 28
+deposit sb 13
+settle
+deposit sa 34
+deposit sa 37
+deposit sb 16
+clock advance 10s
+deposit sb 42
+deposit sa 8
+deposit sa 29
+deposit sa 22
+settle
+deposit sa 29
+clock advance 30s
+deposit sb 27
+deposit sb 43
+deposit sa 3
+deposit sa 15
+deposit sa 43
+clock advance 45s
+deposit sa 15
+settle
+deposit sa 24
+deposit sa 45
+deposit sa 7
+deposit sb 39
+clock advance 10s
+deposit sa 42
+deposit sb 17
+deposit sb 8
+settle
+deposit sb 22
+deposit sb 27
+clock advance 30s
+deposit sb 43
+deposit sa 25
+deposit sa 17
+deposit sa 31
+deposit sa 20
+settle
+clock advance 90s
+deposit sb 1
+deposit sb 4
+deposit sb 28
+deposit sb 21
+deposit sb 6
+clock advance 10s
+deposit sa 10
+deposit sa 45
+settle
+deposit sa 9
+deposit sb 11
+deposit sa 41
+clock advance 90s
+deposit sb 42
+deposit sa 2
+deposit sa 36
+deposit sb 2
+clearing fail 1
+settle
+deposit sb 14
+clock advance 10s
+deposit sb 32
+deposit sa 33
+deposit sa 36
+deposit sa 9
+deposit sb 1
+clock advance 30s
+deposit sb 13
+settle
+deposit sa 21
+deposit sb 34
+deposit sa 49
+deposit sa 31
+clock advance 240s
+deposit sa 17
+deposit sb 13
+deposit sa 46
+clearing fail 1
+settle
+deposit sa 28
+deposit sa 12
+clock advance 240s
+deposit sa 17
+deposit sa 32
+deposit sa 5
+deposit sa 14
+deposit sb 19
+settle
+clock advance 10s
+deposit sb 33
+deposit sb 26
+deposit sb 29
+deposit sa 22
+deposit sb 28
+clock advance 30s
+deposit sa 7
+deposit sa 9
+settle
+deposit sa 43
+deposit sb 31
+deposit sa 16
+clock advance 45s
+deposit sa 36
+deposit sa 35
+deposit sa 31
+deposit sb 45
+clearing fail 1
+settle
+deposit sa 32
+clock advance 90s
+deposit sb 1
+deposit sb 1
+deposit sb 26
+deposit sb 45
+deposit sa 40
+clock advance 45s
+deposit sb 35
+clearing fail 2
+settle
+deposit sa 3
+deposit sb 16
+deposit sa 25
+deposit sb 48
+clock advance 240s
+deposit sb 46
+deposit sb 17
+deposit sa 44
+clearing fail 3
+settle
+deposit sa 25
+deposit sa 33
+clock advance 10s
+deposit sb 27
+deposit sb 27
+deposit sa 36
+deposit sb 38
+deposit sa 15
+clearing fail 1
+settle
+clock advance 45s
+deposit sa 41
+deposit sb 21
+deposit sa 8
+deposit sb 14
+deposit sa 33
+clock advance 90s
+deposit sa 37
+deposit sb 39
+settle
+deposit sb 11
+deposit sa 47
+deposit sb 17
+clock advance 45s
+deposit sa 39
+deposit sa 26
+deposit sb 17
+deposit sb 34
+settle
+deposit sb 30
+clock advance 30s
+deposit sa 17
+deposit sb 37
+deposit sb 1
+deposit sb 47
+deposit sb 5
+clock advance 90s
+deposit sa 23
+clearing fail 1
+settle
+deposit sa 31
+deposit sa 43
+deposit sb 28
+deposit sa 10
+clock advance 90s
+deposit sa 19
+deposit sb 43
+deposit sb 4
+settle
+deposit sb 44
+deposit sa 17
+clock advance 30s
+deposit sb 47
+deposit sb 36
+deposit sa 19
+deposit sa 50
+deposit sa 15
+settle
+clock advance 240s
+deposit sb 14
+deposit sa 2
+deposit sa 16
+deposit sb 31
+deposit sa 9
+clock advance 30s
+deposit sa 7
+deposit sa 12
+settle
+deposit sb 20
+deposit sa 31
+deposit sb 44
+clock advance 90s
+deposit sa 24
+deposit sa 43
+deposit sa 49
+deposit sb 17
+settle
+deposit sa 49
+clock advance 10s
+deposit sb 5
+deposit sb 18
+deposit sb 26
+deposit sa 24
+deposit sb 11
+clock advance 10s
+deposit sb 6
+settle
+deposit sb 17
+deposit sa 11
+deposit sa 23
+deposit sb 45
+clock advance 90s
+deposit sb 5
+deposit sb 37
+deposit sb 8
+settle
+deposit sb 24
+deposit sa 37
+clock advance 10s
+deposit sa 23
+deposit sb 2
+deposit sb 50
+deposit sb 34
+deposit sb 2
+settle
+clock advance 90s
+deposit sa 21
+deposit sa 45
+deposit sb 25
+deposit sa 28
+deposit sa 50
+clock advance 90s
+deposit sb 17
+deposit sb 48
+settle
+deposit sb 33
+deposit sa 33
+deposit sa 31
+clock advance 10s
+deposit sb 18
+deposit sb 15
+deposit sb 34
+deposit sb 37
+settle
+deposit sa 10
+clock advance 30s
+deposit sa 33
+deposit sa 20
+deposit sb 31
+deposit sb 38
+deposit sb 35
+clock advance 90s
+deposit sb 41
+clearing fail 2
+settle
+deposit sa 16
+deposit sa 21
+deposit sa 21
+deposit sb 37
+clock advance 45s
+deposit sb 45
+deposit sa 46
+deposit sa 9
+settle
+deposit sa 25
+deposit sb 39
+clock advance 10s
+deposit sb 40
+deposit sb 47
+deposit sb 6
+deposit sa 15
+deposit sb 8
+settle
+clock advance 90s
+deposit sa 31
+deposit sa 26
+deposit sa 26
+deposit sb 45
+deposit sa 18
+clock advance 30s
+deposit sa 13
+deposit sa 1
+clearing fail 3
+settle
+deposit sa 29
+deposit sb 28
+deposit sa 42
+clock advance 10s
+deposit sb 8
+deposit sb 16
+deposit sa 4
+deposit sa 25
+settle
+deposit sb 11
+clock advance 90s
+deposit sb 27
+deposit sb 41
+deposit sb 47
+deposit sa 8
+deposit sb 10
+clock advance 90s
+deposit sb 20
+settle
+deposit sa 22
+deposit sb 27
+deposit sb 7
+deposit sa 42
+clock advance 45s
+deposit sb 13
+deposit sb 32
+deposit sb 5
+settle
+deposit sb 28
+deposit sb 43
+clock advance 90s
+deposit sb 35
+deposit sb 3
+deposit sb 41
+deposit sa 15
+deposit sb 7
+clearing fail 1
+settle
+clock advance 240s
+deposit sa 13
+deposit sa 26
+deposit sa 33
+deposit sa 9
+deposit sb 44
+clock advance 30s
+deposit sb 37
+deposit sb 45
+clearing fail 3
+settle
+deposit sa 24
+deposit sa 37
+deposit sa 18
+clock advance 30s
+deposit sb 3
+deposit sa 27
+deposit sb 21
+deposit sa 32
+settle
+deposit sa 27
+clock advance 240s
+deposit sb 8
+deposit sa 35
+deposit sa 44
+deposit sb 36
+deposit sb 39
+clock advance 90s
+deposit sa 34
+settle
+deposit sa 34
+deposit sa 11
+deposit sa 9
+deposit sa 13
+clock advance 45s
+deposit sa 49
+deposit sb 34
+deposit sa 9
+settle
+deposit sb 42
+deposit sb 29
+clock advance 90s
+deposit sa 32
+deposit sb 2
+deposit sa 9
+deposit sb 26
+deposit sa 43
+clearing fail 1
+settle
+clock advance 90s
+deposit sb 1
+deposit sb 14
+deposit sa 48
+deposit sb 8
+deposit sa 47
+clock advance 240s
+deposit sb 23
+deposit sb 35
+clearing fail 1
+settle
+deposit sb 1
+deposit sb 24
+deposit sa 47
+clock advance 90s
+deposit sb 28
+deposit sa 45
+deposit sa 23
+deposit sa 27
+clearing fail 3
+settle
+deposit sb 39
+clock advance 90s
+deposit sa 7
+deposit sa 50
+deposit sb 27
+deposit sa 15
+deposit sa 24
+clock advance 240s
+deposit sb 26
+settle
+deposit sb 11
+deposit sa 9
+deposit sb 39
+deposit sa 35
+clock advance 90s
+deposit sb 9
+deposit sa 11
+deposit sa 1
+settle
+deposit sb 29
+deposit sb 10
+clock advance 90s
+deposit sb 13
+deposit sa 8
+deposit sa 23
+deposit sa 34
+deposit sa 34
+settle
+clock advance 90s
+deposit sa 42
+deposit sb 46
+deposit sb 44
+deposit sa 2
+deposit sa 19
+clock advance 240s
+deposit sb 24
+deposit sa 9
+clearing fail 3
+settle
+deposit sa 36
+deposit sb 38
+deposit sb 44
+clock advance 10s
+deposit sb 42
+deposit sb 2
+deposit sb 9
+deposit sa 29
+settle
+deposit sb 47
+clock advance 90s
+deposit sb 5
+deposit sa 5
+deposit sb 36
+deposit sa 11
+deposit sb 15
+clock advance 10s
+deposit sb 31
+clearing fail 1
+settle
+deposit sb 11
+deposit sb 34
+deposit sa 30
+deposit sa 28
+clock advance 10s
+deposit sa 9
+deposit sb 50
+deposit sb 41
+settle
+deposit sb 6
+deposit sa 47
+clock advance 90s
+deposit sa 4
+deposit sa 32
+deposit sa 22
+deposit sb 1
+deposit sa 27
+settle
+clock advance 45s
+deposit sa 5
+deposit sb 13
+deposit sb 11
+deposit sa 13
+deposit sb 37
+clock advance 45s
+deposit sa 1
+deposit sa 40
+settle
+deposit sa 50
+deposit sa 45
+deposit sb 25
+clock advance 45s
+deposit sa 49
+deposit sa 35
+deposit sb 32
+deposit sb 1
+settle
+deposit sa 8
+clock advance 45s
+deposit sa 47
+deposit sb 4
+deposit sb 13
+deposit sa 25
+deposit sb 10
+clock advance 90s
+deposit sa 39
+settle
+deposit sa 48
+deposit sa 10
+deposit sa 5
+deposit sa 40
+clock advance 10s
+deposit sb 35
+deposit sa 11
+deposit sb 44
+clearing fail 1
+settle
+deposit sb 41
+deposit sa 48
+clock advance 45s
+deposit sb 46
+deposit sb 35
+deposit sa 37
+deposit sa 43
+deposit sb 5
+settle
+clock advance 45s
+deposit sa 24
+deposit sb 26
+deposit sa 26
+deposit sb 13
+deposit sa 43
+clock advance 30s
+deposit sa 45
+deposit sa 26
+clearing fail 1
+settle
+deposit sa 19
+deposit sb 50
+deposit sa 50
+clock advance 30s
+deposit sb 29
+deposit sa 11
+deposit sa 49
+deposit sb 10
+clearing fail 2
+settle
+deposit sb 28
+clock advance 90s
+deposit sa 21
+deposit sa 34
+deposit sa 6
+deposit sa 42
+deposit sa 46
+clock advance 10s
+deposit sa 26
+settle
+deposit sa 2
+deposit sb 9
+deposit sa 31
+deposit sb 10
+clock advance 30s
+deposit sa 23
+deposit sb 9
+deposit sb 18
+clearing fail 2
+settle
+deposit sa 29
+deposit sa 38
+clock advance 10s
+deposit sb 15
+deposit sa 49
+deposit sa 11
+deposit sb 48
+deposit sa 5
+settle
+clock advance 45s
+deposit sa 18
+deposit sb 24
+deposit sa 3
+deposit sa 31
+deposit sb 2
+clock advance 90s
+deposit sa 36
+deposit sa 29
+clearing fail 3
+settle
+deposit sa 21
+deposit sa 9
+deposit sb 12
+clock advance 90s
+deposit sb 44
+deposit sa 22
+deposit sa 19
+deposit sa 47
+settle
+deposit sa 15
+clock advance 90s
+deposit sb 45
+deposit sa 26
+deposit sa 14
+deposit sb 15
+deposit sa 1
+clock advance 240s
+deposit sb 24
+clearing fail 1
+settle
+deposit sa 22
+deposit sb 16
+deposit sa 8
+deposit sa 32
+clock advance 45s
+deposit sb 30
+deposit sb 25
+deposit sb 25
+settle
+deposit sa 16
+deposit sb 27
+clock advance 90s
+deposit sb 6
+deposit sa 20
+deposit sa 9
+deposit sa 28
+deposit sa 23
+clearing fail 1
+settle
+clock advance 45s
+deposit sa 5
+deposit sa 48
+deposit sb 28
+deposit sb 4
+deposit sa 35
+clock advance 45s
+deposit sb 42
+deposit sb 3
+settle
+deposit sb 21
+deposit sa 38
+deposit sb 34
+clock advance 240s
+deposit sb 27
+deposit sb 50
+deposit sb 11
+deposit sa 42
+clearing fail 3
+settle
+deposit sa 44
+clock advance 240s
+deposit sb 41
+deposit sa 5
+deposit sb 10
+deposit sa 19
+deposit sb 2
+clock advance 90s
+deposit sa 27
+settle
+deposit sb 15
+deposit sb 19
+deposit sb 25
+deposit sb 9
+clock advance 30s
+deposit sb 18
+deposit sb 4
+deposit sb 49
+settle
+deposit sa 33
+deposit sa 9
+clock advance 30s
+deposit sa 38
+deposit sb 28
+deposit sa 38
+deposit sa 19
+deposit sa 12
+settle
+clock advance 90s
+deposit sb 40
+deposit sa 29
+deposit sa 8
+deposit sb 6
+deposit sb 40
+clock advance 45s
+deposit sa 43
+deposit sa 28
+settle
+deposit sa 8
+deposit sa 40
+deposit sa 42
+clock advance 10s
+deposit sa 16
+deposit sb 5
+deposit sb 12
+deposit sa 4
+settle
+deposit sb 7
+clock advance 30s
+deposit sb 7
+deposit sb 36
+deposit sa 49
+deposit sa 45
+deposit sa 9
+clock advance 10s
+deposit sa 15
+settle
+deposit sb 25
+deposit sb 4
+deposit sb 49
+deposit sb 10
+clock advance 240s
+deposit sa 33
+deposit sa 39
+deposit sa 21
+settle
+deposit sb 24
+deposit sa 41
+clock advance 10s
+deposit sa 39
+deposit sb 42
+deposit sb 48
+deposit sa 7
+deposit sb 24
+settle
+clock advance 30s
+deposit sb 18
+deposit sb 33
+deposit sb 30
+deposit sa 31
+deposit sa 30
+clock advance 240s
+deposit sb 41
+deposit sa 43
+settle
+deposit sb 36
+deposit sb 39
+deposit sa 10
+clock advance 30s
+deposit sb 18
+deposit sb 18
+deposit sa 34
+deposit sb 40
+settle
+deposit sb 41
+clock advance 30s
+deposit sa 10
+deposit sb 10
+deposit sa 45
+deposit sb 3
+deposit sa 2
+clock advance 10s
+deposit sb 26
+settle
+deposit sb 9
+deposit sb 42
+deposit sb 19
+deposit sa 17
+clock advance 240s
+deposit sb 7
+deposit sa 23
+deposit sa 4
+settle
+deposit sb 27
+deposit sb 7
+clock advance 30s
+deposit sb 41
+deposit sb 23
+deposit sb 16
+deposit sa 6
+deposit sb 9
+settle
+clock advance 90s
+deposit sb 35
+deposit sb 4
+deposit sb 37
+deposit sa 8
+deposit sb 15
+clock advance 45s
+deposit sb 39
+deposit sb 39
+clearing fail 3
+settle
+deposit sa 49
+deposit sa 8
+deposit sa 2
+clock advance 240s
+deposit sa 34
+deposit sb 50
+deposit sb 24
+deposit sa 36
+settle
+deposit sb 3
+clock advance 240s
+deposit sb 47
+deposit sa 33
+deposit sa 28
+deposit sb 42
+deposit sb 35
+clock advance 90s
+deposit sb 23
+settle
+deposit sb 30
+deposit sa 41
+deposit sa 23
+deposit sb 45
+clock advance 90s
+deposit sb 47
+deposit sb 11
+deposit sb 16
+clearing fail 3
+settle
+deposit sb 39
+deposit sb 28
+clock advance 240s
+deposit sb 28
+deposit sa 35
+deposit sa 2
+deposit sb 39
+deposit sb 30
+settle
+clock advance 30s
+deposit sb 6
+deposit sb 21
+deposit sa 46
+deposit sb 28
+deposit sb 34
+clock advance 45s
+deposit sb 50
+deposit sb 33
+clearing fail 2
+settle
+deposit sa 39
+deposit sa 42
+deposit sb 30
+clock advance 10s
+deposit sa 18
+deposit sa 27
+deposit sb 35
+deposit sb 3
+settle
+deposit sa 27
+clock advance 240s
+deposit sa 15
+deposit sb 11
+deposit sb 49
+deposit sa 34
+deposit sb 39
+clock advance 10s
+deposit sa 35
+settle
+deposit sb 22
+deposit sa 43
+deposit sa 27
+deposit sa 13
+clock advance 45s
+deposit sb 49
+deposit sa 36
+deposit sb 4
+settle
+deposit sb 25
+deposit sb 13
+clock advance 30s
+deposit sa 34
+deposit sb 24
+deposit sa 4
+deposit sb 36
+deposit sb 34
+clearing fail 2
+settle
+clock advance 240s
+deposit sa 22
+deposit sb 11
+deposit sb 47
+deposit sb 31
+deposit sb 32
+clock advance 240s
+deposit sb 34
+deposit sa 12
+clearing fail 3
+settle
+deposit sa 22
+deposit sa 9
+deposit sa 13
+clock advance 90s
+deposit sa 18
+deposit sa 42
+deposit sa 29
+deposit sb 22
+settle
+deposit sb 29
+clock advance 90s
+deposit sa 42
+deposit sb 26
+deposit sa 18
+deposit sa 48
+deposit sa 6
+clock advance 10s
+deposit sb 39
+settle
+deposit sa 2
+deposit sa 5
+deposit sb 5
+deposit sa 23
+clock advance 45s
+deposit sb 30
+deposit sb 47
+deposit sb 10
+settle
+deposit sb 35
+deposit sb 37
+clock advance 30s
+deposit sb 15
+deposit sb 22
+deposit sb 17
+deposit sb 12
+deposit sb 5
+clearing fail 2
+settle
+clock advance 45s
+deposit sb 11
+deposit sb 7
+deposit sb 36
+deposit sa 10
+deposit sb 33
+clock advance 10s
+deposit sb 22
+deposit sa 21
+settle
+deposit sa 14
+deposit sa 18
+deposit sb 43
+clock advance 45s
+deposit sb 47
+deposit sb 48
+deposit sa 38
+deposit sa 36
+settle
+deposit sb 48
+clock advance 10s
+deposit sb 17
+deposit sa 38
+deposit sb 19
+deposit sa 46
+deposit sb 4
+clock advance 240s
+deposit sa 42
+settle
+deposit sa 3
+deposit sa 47
+deposit sb 46
+deposit sb 2
+clock advance 90s
+deposit sb 18
+deposit sa 2
+deposit sa 48
+settle
+deposit sb 49
+deposit sa 15
+clock advance 45s
+deposit sa 37
+deposit sb 5
+deposit sb 41
+deposit sb 9
+deposit sa 5
+settle
+clock advance 10s
+deposit sb 24
+deposit sa 14
+deposit sb 32
+deposit sa 1
+deposit sb 41
+clock advance 30s
+deposit sa 37
+deposit sa 28
+settle
+deposit sa 29
+deposit sa 22
+deposit sb 34
+clock advance 45s
+deposit sb 35
+deposit sa 21
+deposit sb 45
+deposit sb 15
+settle
+deposit sb 47
+clock advance 90s
+deposit sb 10
+deposit sa 41
+deposit sa 19
+deposit sb 36
+deposit sb 18
+clock advance 30s
+deposit sa 32
+settle
+deposit sb 10
+deposit sa 9
+deposit sb 25
+deposit sa 39
+clock advance 30s
+deposit sb 27
+deposit sa 6
+deposit sa 28
+clearing fail 2
+settle
+deposit sb 18
+deposit sb 29
+clock advance 90s
+deposit sb 3
+deposit sb 25
+deposit sb 19
+deposit sa 25
+deposit sa 44
+clearing fail 3
+settle
+clock advance 45s
+deposit sa 16
+deposit sb 28
+deposit sa 31
+deposit sb 30
+deposit sb 19
+clock advance 240s
+deposit sa 39
+deposit sa 17
+settle
+deposit sa 16
+deposit sa 2
+deposit sa 19
+clock advance 240s
+deposit sb 8
+deposit sb 34
+deposit sb 11
+deposit sa 17
+settle
+deposit sb 35
+clock advance 10s
+deposit sb 4
+deposit sb 43
+deposit sa 3
+deposit sa 17
+deposit sb 27
+clock advance 90s
+deposit sa 40
+settle
+deposit sb 34
+deposit sb 50
+deposit sb 40
+deposit sb 41
+clock advance 10s
+batches last=40
+clearing
+check

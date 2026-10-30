@@ -1,0 +1,7 @@
+user add alice
+publish alice c-lib 1.0.0 size=3KiB
+publish alice a-lib 1.0.0 size=1KiB
+publish alice a-lib 1.1.0 size=2KiB
+publish alice b-lib 1.0.0 size=3KiB
+top - size n=1
+top - size n=2

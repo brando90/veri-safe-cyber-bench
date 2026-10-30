@@ -1,0 +1,12 @@
+user add root admin
+user add bob
+quota set root bob 3
+publish bob tiny 0.1.0 size=1
+publish bob tiny 0.2.0 size=1
+publish bob tiny 0.3.0 size=1
+yank bob tiny 0.1.0
+yank bob tiny 0.2.0
+prune root tiny
+publish bob tiny 0.4.0 size=1
+publish bob tiny 0.5.0 size=1
+quota bob

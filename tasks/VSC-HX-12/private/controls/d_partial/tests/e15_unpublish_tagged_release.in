@@ -1,0 +1,8 @@
+user add alice
+publish alice sdk 1.0.0 size=1KiB
+publish alice sdk 1.1.0 size=1KiB
+publish alice sdk 2.0.0 size=1KiB
+tag add alice sdk next 1.1.0
+unpublish alice sdk 1.1.0
+tags - sdk
+check

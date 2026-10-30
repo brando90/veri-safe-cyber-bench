@@ -1,0 +1,30 @@
+user alice added
+error: invalid user name 'Alice'
+error: user alice already exists
+error: usage: user add NAME [admin]
+error: invalid size '12q'
+error: invalid duration 'soon'
+error: invalid visibility 'secret'
+error: invalid package name '-bad'
+error: package name registry is reserved
+error: invalid version '01.0.0'
+error: unknown package nothing
+error: x-1 cannot depend on itself
+error: bad dependency list 'junk'
+published x-1 1.0.0 (0 KiB)
+error: x-1 1.0.0 already exists
+unpublished x-1 1.0.0
+error: x-1 1.0.0 was unpublished and cannot be reused
+error: bad dependency list 'x-1@^1;X_1@^1'
+error: x-1 has no version 9.9.9
+error: unknown user nobody
+clock 50
+error: the clock cannot go back (now 50)
+error: invalid duration '1w'
+error: option size given twice
+error: unbalanced double quote
+error: usage: tag add ACTOR PACKAGE TAG VERSION
+error: unknown report 'weird'
+error: unknown export format 'xml'
+error: alice is not an administrator
+error: unknown command 'nothing'

@@ -1,0 +1,14 @@
+open opa slot=0 gen=0
+open pip slot=1 gen=0
+ok T0.0 deposit opa 100.00 balance=100.00
+hold H001 opa 50.00 until=never
+hold H002 opa 30.00 until=never
+ok T0.1 capture H001 opa 40.00 to=pip
+ok T0.2 capture H002 opa 30.00
+ok T0.3 withdraw opa 10.00 balance=20.00
+deny daily limit=10.00 spent=10.00
+opa balance=20.00 held=0.00 available=20.00 spent_today=10.00 debits_last_hour=1
+ok T0.4 reverse T0.1 40.00
+opa balance=60.00 held=0.00 available=60.00 spent_today=10.00 debits_last_hour=1
+deny daily limit=10.00 spent=10.00
+check ok records=5 live=5 accounts=2 holds=0 batches=0

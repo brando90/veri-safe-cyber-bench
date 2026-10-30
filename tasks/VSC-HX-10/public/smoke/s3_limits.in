@@ -1,0 +1,18 @@
+# daily and velocity limits
+open dave daily=100 velocity=3
+deposit dave 500
+withdraw dave 40
+withdraw dave 40
+withdraw dave 30
+clock advance 10m
+withdraw dave 10
+withdraw dave 10
+withdraw dave 10
+balance dave
+clock set 1d
+withdraw dave 10
+withdraw dave 10
+balance dave
+clock advance 20m
+withdraw dave 10
+balance dave

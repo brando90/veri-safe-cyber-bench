@@ -1,0 +1,14 @@
+user root added (admin)
+user alice added
+published pr 1.0.0 (2 KiB)
+published pr 1.1.0 (3 KiB)
+published pr 1.2.0 (1 KiB)
+tag pr old -> 1.0.0
+yanked pr 1.0.0
+yanked pr 1.1.0
+error: alice is not an administrator
+pruned pr: 1.0.0, 1.1.0
+tags pr: latest=1.2.0
+quota alice used=1 KiB limit=10240 KiB
+error: pr 1.1.0 was unpublished and cannot be reused
+pruned pr: nothing

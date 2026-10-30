@@ -1,0 +1,15 @@
+user add root admin
+user add alice
+user add bob
+publish alice left-pad 1.0.0 size=1KiB
+publish alice left-pad 1.1.0 size=1KiB
+owner invite alice left-pad bob
+owner accept bob left-pad
+tag add bob left-pad stable 1.0.0
+user disable root bob
+tag add bob left-pad next 1.1.0
+publish bob left-pad 1.2.0
+tags - left-pad
+user enable root bob
+tag add bob left-pad next 1.1.0
+tags - left-pad

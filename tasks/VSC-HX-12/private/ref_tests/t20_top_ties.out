@@ -1,0 +1,31 @@
+user alice added
+user bob added
+published kb 1.0.0 (0 KiB)
+published ka 1.0.0 (0 KiB)
+published kc 1.0.0 (0 KiB)
+published kd 1.0.0 (0 KiB)
+published ka 1.1.0 (0 KiB)
+published kb 1.1.0 (0 KiB)
+fetched kc 1.0.0
+fetched ka 1.1.0
+fetched kd 1.0.0
+top downloads:
+  1. ka 1
+  2. kc 1
+  3. kd 1
+  4. kb 0
+top releases:
+  1. ka 2
+  2. kb 2
+  3. kc 1
+  4. kd 1
+top dependents:
+  1. kb 2
+  2. ka 1
+  3. kc 0
+  4. kd 0
+top downloads:
+  1. ka 1
+  2. kc 1
+top releases:
+  1. ka 2

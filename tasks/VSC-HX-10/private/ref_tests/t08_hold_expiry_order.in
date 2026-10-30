@@ -1,0 +1,19 @@
+open joe
+deposit joe 100
+clock set 1s
+hold joe 1 ttl=10s
+hold joe 2 ttl=5s
+clock set 6s
+hold joe 3 ttl=5s
+hold joe 4 ttl=7s
+hold joe 5 ttl=13s
+hold joe 6
+clock advance 2s
+clock advance 3s
+holds joe
+clock advance 2999ms
+clock advance 1ms
+clock advance 1d
+holds joe
+balance joe
+check

@@ -1,0 +1,2009 @@
+open hw
+open hx
+deposit hw 5000
+deposit hx 100
+hold hx 5
+hold hw 1 ttl=10m
+release H002
+hold hw 1 ttl=10m
+release H003
+hold hw 1 ttl=10m
+release H004
+hold hw 1 ttl=10m
+release H005
+hold hw 1 ttl=10m
+release H006
+hold hw 1 ttl=10m
+release H007
+hold hw 1 ttl=10m
+release H008
+hold hw 1 ttl=10m
+release H009
+hold hw 1 ttl=10m
+release H010
+hold hw 1 ttl=10m
+release H011
+hold hw 1 ttl=10m
+release H012
+hold hw 1 ttl=10m
+release H013
+hold hw 1 ttl=10m
+release H014
+hold hw 1 ttl=10m
+release H015
+hold hw 1 ttl=10m
+release H016
+hold hw 1 ttl=10m
+release H017
+hold hw 1 ttl=10m
+release H018
+hold hw 1 ttl=10m
+release H019
+hold hw 1 ttl=10m
+release H020
+hold hw 1 ttl=10m
+release H021
+hold hw 1 ttl=10m
+release H022
+hold hw 1 ttl=10m
+release H023
+hold hw 1 ttl=10m
+release H024
+hold hw 1 ttl=10m
+release H025
+hold hw 1 ttl=10m
+release H026
+hold hw 1 ttl=10m
+release H027
+hold hw 1 ttl=10m
+release H028
+hold hw 1 ttl=10m
+release H029
+hold hw 1 ttl=10m
+release H030
+hold hw 1 ttl=10m
+release H031
+hold hw 1 ttl=10m
+release H032
+hold hw 1 ttl=10m
+release H033
+hold hw 1 ttl=10m
+release H034
+hold hw 1 ttl=10m
+release H035
+hold hw 1 ttl=10m
+release H036
+hold hw 1 ttl=10m
+release H037
+hold hw 1 ttl=10m
+release H038
+hold hw 1 ttl=10m
+release H039
+hold hw 1 ttl=10m
+release H040
+hold hw 1 ttl=10m
+release H041
+hold hw 1 ttl=10m
+release H042
+hold hw 1 ttl=10m
+release H043
+hold hw 1 ttl=10m
+release H044
+hold hw 1 ttl=10m
+release H045
+hold hw 1 ttl=10m
+release H046
+hold hw 1 ttl=10m
+release H047
+hold hw 1 ttl=10m
+release H048
+hold hw 1 ttl=10m
+release H049
+hold hw 1 ttl=10m
+release H050
+hold hw 1 ttl=10m
+release H051
+hold hw 1 ttl=10m
+release H052
+hold hw 1 ttl=10m
+release H053
+hold hw 1 ttl=10m
+release H054
+hold hw 1 ttl=10m
+release H055
+hold hw 1 ttl=10m
+release H056
+hold hw 1 ttl=10m
+release H057
+hold hw 1 ttl=10m
+release H058
+hold hw 1 ttl=10m
+release H059
+hold hw 1 ttl=10m
+release H060
+hold hw 1 ttl=10m
+release H061
+hold hw 1 ttl=10m
+release H062
+hold hw 1 ttl=10m
+release H063
+hold hw 1 ttl=10m
+release H064
+hold hw 1 ttl=10m
+release H065
+hold hw 1 ttl=10m
+release H066
+hold hw 1 ttl=10m
+release H067
+hold hw 1 ttl=10m
+release H068
+hold hw 1 ttl=10m
+release H069
+hold hw 1 ttl=10m
+release H070
+hold hw 1 ttl=10m
+release H071
+hold hw 1 ttl=10m
+release H072
+hold hw 1 ttl=10m
+release H073
+hold hw 1 ttl=10m
+release H074
+hold hw 1 ttl=10m
+release H075
+hold hw 1 ttl=10m
+release H076
+hold hw 1 ttl=10m
+release H077
+hold hw 1 ttl=10m
+release H078
+hold hw 1 ttl=10m
+release H079
+hold hw 1 ttl=10m
+release H080
+hold hw 1 ttl=10m
+release H081
+hold hw 1 ttl=10m
+release H082
+hold hw 1 ttl=10m
+release H083
+hold hw 1 ttl=10m
+release H084
+hold hw 1 ttl=10m
+release H085
+hold hw 1 ttl=10m
+release H086
+hold hw 1 ttl=10m
+release H087
+hold hw 1 ttl=10m
+release H088
+hold hw 1 ttl=10m
+release H089
+hold hw 1 ttl=10m
+release H090
+hold hw 1 ttl=10m
+release H091
+hold hw 1 ttl=10m
+release H092
+hold hw 1 ttl=10m
+release H093
+hold hw 1 ttl=10m
+release H094
+hold hw 1 ttl=10m
+release H095
+hold hw 1 ttl=10m
+release H096
+hold hw 1 ttl=10m
+release H097
+hold hw 1 ttl=10m
+release H098
+hold hw 1 ttl=10m
+release H099
+hold hw 1 ttl=10m
+release H100
+hold hw 1 ttl=10m
+release H101
+hold hw 1 ttl=10m
+release H102
+hold hw 1 ttl=10m
+release H103
+hold hw 1 ttl=10m
+release H104
+hold hw 1 ttl=10m
+release H105
+hold hw 1 ttl=10m
+release H106
+hold hw 1 ttl=10m
+release H107
+hold hw 1 ttl=10m
+release H108
+hold hw 1 ttl=10m
+release H109
+hold hw 1 ttl=10m
+release H110
+hold hw 1 ttl=10m
+release H111
+hold hw 1 ttl=10m
+release H112
+hold hw 1 ttl=10m
+release H113
+hold hw 1 ttl=10m
+release H114
+hold hw 1 ttl=10m
+release H115
+hold hw 1 ttl=10m
+release H116
+hold hw 1 ttl=10m
+release H117
+hold hw 1 ttl=10m
+release H118
+hold hw 1 ttl=10m
+release H119
+hold hw 1 ttl=10m
+release H120
+hold hw 1 ttl=10m
+release H121
+hold hw 1 ttl=10m
+release H122
+hold hw 1 ttl=10m
+release H123
+hold hw 1 ttl=10m
+release H124
+hold hw 1 ttl=10m
+release H125
+hold hw 1 ttl=10m
+release H126
+hold hw 1 ttl=10m
+release H127
+hold hw 1 ttl=10m
+release H128
+hold hw 1 ttl=10m
+release H129
+hold hw 1 ttl=10m
+release H130
+hold hw 1 ttl=10m
+release H131
+hold hw 1 ttl=10m
+release H132
+hold hw 1 ttl=10m
+release H133
+hold hw 1 ttl=10m
+release H134
+hold hw 1 ttl=10m
+release H135
+hold hw 1 ttl=10m
+release H136
+hold hw 1 ttl=10m
+release H137
+hold hw 1 ttl=10m
+release H138
+hold hw 1 ttl=10m
+release H139
+hold hw 1 ttl=10m
+release H140
+hold hw 1 ttl=10m
+release H141
+hold hw 1 ttl=10m
+release H142
+hold hw 1 ttl=10m
+release H143
+hold hw 1 ttl=10m
+release H144
+hold hw 1 ttl=10m
+release H145
+hold hw 1 ttl=10m
+release H146
+hold hw 1 ttl=10m
+release H147
+hold hw 1 ttl=10m
+release H148
+hold hw 1 ttl=10m
+release H149
+hold hw 1 ttl=10m
+release H150
+hold hw 1 ttl=10m
+release H151
+hold hw 1 ttl=10m
+release H152
+hold hw 1 ttl=10m
+release H153
+hold hw 1 ttl=10m
+release H154
+hold hw 1 ttl=10m
+release H155
+hold hw 1 ttl=10m
+release H156
+hold hw 1 ttl=10m
+release H157
+hold hw 1 ttl=10m
+release H158
+hold hw 1 ttl=10m
+release H159
+hold hw 1 ttl=10m
+release H160
+hold hw 1 ttl=10m
+release H161
+hold hw 1 ttl=10m
+release H162
+hold hw 1 ttl=10m
+release H163
+hold hw 1 ttl=10m
+release H164
+hold hw 1 ttl=10m
+release H165
+hold hw 1 ttl=10m
+release H166
+hold hw 1 ttl=10m
+release H167
+hold hw 1 ttl=10m
+release H168
+hold hw 1 ttl=10m
+release H169
+hold hw 1 ttl=10m
+release H170
+hold hw 1 ttl=10m
+release H171
+hold hw 1 ttl=10m
+release H172
+hold hw 1 ttl=10m
+release H173
+hold hw 1 ttl=10m
+release H174
+hold hw 1 ttl=10m
+release H175
+hold hw 1 ttl=10m
+release H176
+hold hw 1 ttl=10m
+release H177
+hold hw 1 ttl=10m
+release H178
+hold hw 1 ttl=10m
+release H179
+hold hw 1 ttl=10m
+release H180
+hold hw 1 ttl=10m
+release H181
+hold hw 1 ttl=10m
+release H182
+hold hw 1 ttl=10m
+release H183
+hold hw 1 ttl=10m
+release H184
+hold hw 1 ttl=10m
+release H185
+hold hw 1 ttl=10m
+release H186
+hold hw 1 ttl=10m
+release H187
+hold hw 1 ttl=10m
+release H188
+hold hw 1 ttl=10m
+release H189
+hold hw 1 ttl=10m
+release H190
+hold hw 1 ttl=10m
+release H191
+hold hw 1 ttl=10m
+release H192
+hold hw 1 ttl=10m
+release H193
+hold hw 1 ttl=10m
+release H194
+hold hw 1 ttl=10m
+release H195
+hold hw 1 ttl=10m
+release H196
+hold hw 1 ttl=10m
+release H197
+hold hw 1 ttl=10m
+release H198
+hold hw 1 ttl=10m
+release H199
+hold hw 1 ttl=10m
+release H200
+hold hw 1 ttl=10m
+release H201
+hold hw 1 ttl=10m
+release H202
+hold hw 1 ttl=10m
+release H203
+hold hw 1 ttl=10m
+release H204
+hold hw 1 ttl=10m
+release H205
+hold hw 1 ttl=10m
+release H206
+hold hw 1 ttl=10m
+release H207
+hold hw 1 ttl=10m
+release H208
+hold hw 1 ttl=10m
+release H209
+hold hw 1 ttl=10m
+release H210
+hold hw 1 ttl=10m
+release H211
+hold hw 1 ttl=10m
+release H212
+hold hw 1 ttl=10m
+release H213
+hold hw 1 ttl=10m
+release H214
+hold hw 1 ttl=10m
+release H215
+hold hw 1 ttl=10m
+release H216
+hold hw 1 ttl=10m
+release H217
+hold hw 1 ttl=10m
+release H218
+hold hw 1 ttl=10m
+release H219
+hold hw 1 ttl=10m
+release H220
+hold hw 1 ttl=10m
+release H221
+hold hw 1 ttl=10m
+release H222
+hold hw 1 ttl=10m
+release H223
+hold hw 1 ttl=10m
+release H224
+hold hw 1 ttl=10m
+release H225
+hold hw 1 ttl=10m
+release H226
+hold hw 1 ttl=10m
+release H227
+hold hw 1 ttl=10m
+release H228
+hold hw 1 ttl=10m
+release H229
+hold hw 1 ttl=10m
+release H230
+hold hw 1 ttl=10m
+release H231
+hold hw 1 ttl=10m
+release H232
+hold hw 1 ttl=10m
+release H233
+hold hw 1 ttl=10m
+release H234
+hold hw 1 ttl=10m
+release H235
+hold hw 1 ttl=10m
+release H236
+hold hw 1 ttl=10m
+release H237
+hold hw 1 ttl=10m
+release H238
+hold hw 1 ttl=10m
+release H239
+hold hw 1 ttl=10m
+release H240
+hold hw 1 ttl=10m
+release H241
+hold hw 1 ttl=10m
+release H242
+hold hw 1 ttl=10m
+release H243
+hold hw 1 ttl=10m
+release H244
+hold hw 1 ttl=10m
+release H245
+hold hw 1 ttl=10m
+release H246
+hold hw 1 ttl=10m
+release H247
+hold hw 1 ttl=10m
+release H248
+hold hw 1 ttl=10m
+release H249
+hold hw 1 ttl=10m
+release H250
+hold hw 1 ttl=10m
+release H251
+hold hw 1 ttl=10m
+release H252
+hold hw 1 ttl=10m
+release H253
+hold hw 1 ttl=10m
+release H254
+hold hw 1 ttl=10m
+release H255
+hold hw 1 ttl=10m
+release H256
+hold hw 1 ttl=10m
+release H257
+hold hw 1 ttl=10m
+release H258
+hold hw 1 ttl=10m
+release H259
+hold hw 1 ttl=10m
+release H260
+hold hw 1 ttl=10m
+release H261
+hold hw 1 ttl=10m
+release H262
+hold hw 1 ttl=10m
+release H263
+hold hw 1 ttl=10m
+release H264
+hold hw 1 ttl=10m
+release H265
+hold hw 1 ttl=10m
+release H266
+hold hw 1 ttl=10m
+release H267
+hold hw 1 ttl=10m
+release H268
+hold hw 1 ttl=10m
+release H269
+hold hw 1 ttl=10m
+release H270
+hold hw 1 ttl=10m
+release H271
+hold hw 1 ttl=10m
+release H272
+hold hw 1 ttl=10m
+release H273
+hold hw 1 ttl=10m
+release H274
+hold hw 1 ttl=10m
+release H275
+hold hw 1 ttl=10m
+release H276
+hold hw 1 ttl=10m
+release H277
+hold hw 1 ttl=10m
+release H278
+hold hw 1 ttl=10m
+release H279
+hold hw 1 ttl=10m
+release H280
+hold hw 1 ttl=10m
+release H281
+hold hw 1 ttl=10m
+release H282
+hold hw 1 ttl=10m
+release H283
+hold hw 1 ttl=10m
+release H284
+hold hw 1 ttl=10m
+release H285
+hold hw 1 ttl=10m
+release H286
+hold hw 1 ttl=10m
+release H287
+hold hw 1 ttl=10m
+release H288
+hold hw 1 ttl=10m
+release H289
+hold hw 1 ttl=10m
+release H290
+hold hw 1 ttl=10m
+release H291
+hold hw 1 ttl=10m
+release H292
+hold hw 1 ttl=10m
+release H293
+hold hw 1 ttl=10m
+release H294
+hold hw 1 ttl=10m
+release H295
+hold hw 1 ttl=10m
+release H296
+hold hw 1 ttl=10m
+release H297
+hold hw 1 ttl=10m
+release H298
+hold hw 1 ttl=10m
+release H299
+hold hw 1 ttl=10m
+release H300
+hold hw 1 ttl=10m
+release H301
+hold hw 1 ttl=10m
+release H302
+hold hw 1 ttl=10m
+release H303
+hold hw 1 ttl=10m
+release H304
+hold hw 1 ttl=10m
+release H305
+hold hw 1 ttl=10m
+release H306
+hold hw 1 ttl=10m
+release H307
+hold hw 1 ttl=10m
+release H308
+hold hw 1 ttl=10m
+release H309
+hold hw 1 ttl=10m
+release H310
+hold hw 1 ttl=10m
+release H311
+hold hw 1 ttl=10m
+release H312
+hold hw 1 ttl=10m
+release H313
+hold hw 1 ttl=10m
+release H314
+hold hw 1 ttl=10m
+release H315
+hold hw 1 ttl=10m
+release H316
+hold hw 1 ttl=10m
+release H317
+hold hw 1 ttl=10m
+release H318
+hold hw 1 ttl=10m
+release H319
+hold hw 1 ttl=10m
+release H320
+hold hw 1 ttl=10m
+release H321
+hold hw 1 ttl=10m
+release H322
+hold hw 1 ttl=10m
+release H323
+hold hw 1 ttl=10m
+release H324
+hold hw 1 ttl=10m
+release H325
+hold hw 1 ttl=10m
+release H326
+hold hw 1 ttl=10m
+release H327
+hold hw 1 ttl=10m
+release H328
+hold hw 1 ttl=10m
+release H329
+hold hw 1 ttl=10m
+release H330
+hold hw 1 ttl=10m
+release H331
+hold hw 1 ttl=10m
+release H332
+hold hw 1 ttl=10m
+release H333
+hold hw 1 ttl=10m
+release H334
+hold hw 1 ttl=10m
+release H335
+hold hw 1 ttl=10m
+release H336
+hold hw 1 ttl=10m
+release H337
+hold hw 1 ttl=10m
+release H338
+hold hw 1 ttl=10m
+release H339
+hold hw 1 ttl=10m
+release H340
+hold hw 1 ttl=10m
+release H341
+hold hw 1 ttl=10m
+release H342
+hold hw 1 ttl=10m
+release H343
+hold hw 1 ttl=10m
+release H344
+hold hw 1 ttl=10m
+release H345
+hold hw 1 ttl=10m
+release H346
+hold hw 1 ttl=10m
+release H347
+hold hw 1 ttl=10m
+release H348
+hold hw 1 ttl=10m
+release H349
+hold hw 1 ttl=10m
+release H350
+hold hw 1 ttl=10m
+release H351
+hold hw 1 ttl=10m
+release H352
+hold hw 1 ttl=10m
+release H353
+hold hw 1 ttl=10m
+release H354
+hold hw 1 ttl=10m
+release H355
+hold hw 1 ttl=10m
+release H356
+hold hw 1 ttl=10m
+release H357
+hold hw 1 ttl=10m
+release H358
+hold hw 1 ttl=10m
+release H359
+hold hw 1 ttl=10m
+release H360
+hold hw 1 ttl=10m
+release H361
+hold hw 1 ttl=10m
+release H362
+hold hw 1 ttl=10m
+release H363
+hold hw 1 ttl=10m
+release H364
+hold hw 1 ttl=10m
+release H365
+hold hw 1 ttl=10m
+release H366
+hold hw 1 ttl=10m
+release H367
+hold hw 1 ttl=10m
+release H368
+hold hw 1 ttl=10m
+release H369
+hold hw 1 ttl=10m
+release H370
+hold hw 1 ttl=10m
+release H371
+hold hw 1 ttl=10m
+release H372
+hold hw 1 ttl=10m
+release H373
+hold hw 1 ttl=10m
+release H374
+hold hw 1 ttl=10m
+release H375
+hold hw 1 ttl=10m
+release H376
+hold hw 1 ttl=10m
+release H377
+hold hw 1 ttl=10m
+release H378
+hold hw 1 ttl=10m
+release H379
+hold hw 1 ttl=10m
+release H380
+hold hw 1 ttl=10m
+release H381
+hold hw 1 ttl=10m
+release H382
+hold hw 1 ttl=10m
+release H383
+hold hw 1 ttl=10m
+release H384
+hold hw 1 ttl=10m
+release H385
+hold hw 1 ttl=10m
+release H386
+hold hw 1 ttl=10m
+release H387
+hold hw 1 ttl=10m
+release H388
+hold hw 1 ttl=10m
+release H389
+hold hw 1 ttl=10m
+release H390
+hold hw 1 ttl=10m
+release H391
+hold hw 1 ttl=10m
+release H392
+hold hw 1 ttl=10m
+release H393
+hold hw 1 ttl=10m
+release H394
+hold hw 1 ttl=10m
+release H395
+hold hw 1 ttl=10m
+release H396
+hold hw 1 ttl=10m
+release H397
+hold hw 1 ttl=10m
+release H398
+hold hw 1 ttl=10m
+release H399
+hold hw 1 ttl=10m
+release H400
+hold hw 1 ttl=10m
+release H401
+hold hw 1 ttl=10m
+release H402
+hold hw 1 ttl=10m
+release H403
+hold hw 1 ttl=10m
+release H404
+hold hw 1 ttl=10m
+release H405
+hold hw 1 ttl=10m
+release H406
+hold hw 1 ttl=10m
+release H407
+hold hw 1 ttl=10m
+release H408
+hold hw 1 ttl=10m
+release H409
+hold hw 1 ttl=10m
+release H410
+hold hw 1 ttl=10m
+release H411
+hold hw 1 ttl=10m
+release H412
+hold hw 1 ttl=10m
+release H413
+hold hw 1 ttl=10m
+release H414
+hold hw 1 ttl=10m
+release H415
+hold hw 1 ttl=10m
+release H416
+hold hw 1 ttl=10m
+release H417
+hold hw 1 ttl=10m
+release H418
+hold hw 1 ttl=10m
+release H419
+hold hw 1 ttl=10m
+release H420
+hold hw 1 ttl=10m
+release H421
+hold hw 1 ttl=10m
+release H422
+hold hw 1 ttl=10m
+release H423
+hold hw 1 ttl=10m
+release H424
+hold hw 1 ttl=10m
+release H425
+hold hw 1 ttl=10m
+release H426
+hold hw 1 ttl=10m
+release H427
+hold hw 1 ttl=10m
+release H428
+hold hw 1 ttl=10m
+release H429
+hold hw 1 ttl=10m
+release H430
+hold hw 1 ttl=10m
+release H431
+hold hw 1 ttl=10m
+release H432
+hold hw 1 ttl=10m
+release H433
+hold hw 1 ttl=10m
+release H434
+hold hw 1 ttl=10m
+release H435
+hold hw 1 ttl=10m
+release H436
+hold hw 1 ttl=10m
+release H437
+hold hw 1 ttl=10m
+release H438
+hold hw 1 ttl=10m
+release H439
+hold hw 1 ttl=10m
+release H440
+hold hw 1 ttl=10m
+release H441
+hold hw 1 ttl=10m
+release H442
+hold hw 1 ttl=10m
+release H443
+hold hw 1 ttl=10m
+release H444
+hold hw 1 ttl=10m
+release H445
+hold hw 1 ttl=10m
+release H446
+hold hw 1 ttl=10m
+release H447
+hold hw 1 ttl=10m
+release H448
+hold hw 1 ttl=10m
+release H449
+hold hw 1 ttl=10m
+release H450
+hold hw 1 ttl=10m
+release H451
+hold hw 1 ttl=10m
+release H452
+hold hw 1 ttl=10m
+release H453
+hold hw 1 ttl=10m
+release H454
+hold hw 1 ttl=10m
+release H455
+hold hw 1 ttl=10m
+release H456
+hold hw 1 ttl=10m
+release H457
+hold hw 1 ttl=10m
+release H458
+hold hw 1 ttl=10m
+release H459
+hold hw 1 ttl=10m
+release H460
+hold hw 1 ttl=10m
+release H461
+hold hw 1 ttl=10m
+release H462
+hold hw 1 ttl=10m
+release H463
+hold hw 1 ttl=10m
+release H464
+hold hw 1 ttl=10m
+release H465
+hold hw 1 ttl=10m
+release H466
+hold hw 1 ttl=10m
+release H467
+hold hw 1 ttl=10m
+release H468
+hold hw 1 ttl=10m
+release H469
+hold hw 1 ttl=10m
+release H470
+hold hw 1 ttl=10m
+release H471
+hold hw 1 ttl=10m
+release H472
+hold hw 1 ttl=10m
+release H473
+hold hw 1 ttl=10m
+release H474
+hold hw 1 ttl=10m
+release H475
+hold hw 1 ttl=10m
+release H476
+hold hw 1 ttl=10m
+release H477
+hold hw 1 ttl=10m
+release H478
+hold hw 1 ttl=10m
+release H479
+hold hw 1 ttl=10m
+release H480
+hold hw 1 ttl=10m
+release H481
+hold hw 1 ttl=10m
+release H482
+hold hw 1 ttl=10m
+release H483
+hold hw 1 ttl=10m
+release H484
+hold hw 1 ttl=10m
+release H485
+hold hw 1 ttl=10m
+release H486
+hold hw 1 ttl=10m
+release H487
+hold hw 1 ttl=10m
+release H488
+hold hw 1 ttl=10m
+release H489
+hold hw 1 ttl=10m
+release H490
+hold hw 1 ttl=10m
+release H491
+hold hw 1 ttl=10m
+release H492
+hold hw 1 ttl=10m
+release H493
+hold hw 1 ttl=10m
+release H494
+hold hw 1 ttl=10m
+release H495
+hold hw 1 ttl=10m
+release H496
+hold hw 1 ttl=10m
+release H497
+hold hw 1 ttl=10m
+release H498
+hold hw 1 ttl=10m
+release H499
+hold hw 1 ttl=10m
+release H500
+hold hw 1 ttl=10m
+release H501
+hold hw 1 ttl=10m
+release H502
+hold hw 1 ttl=10m
+release H503
+hold hw 1 ttl=10m
+release H504
+hold hw 1 ttl=10m
+release H505
+hold hw 1 ttl=10m
+release H506
+hold hw 1 ttl=10m
+release H507
+hold hw 1 ttl=10m
+release H508
+hold hw 1 ttl=10m
+release H509
+hold hw 1 ttl=10m
+release H510
+hold hw 1 ttl=10m
+release H511
+hold hw 1 ttl=10m
+release H512
+hold hw 1 ttl=10m
+release H513
+hold hw 1 ttl=10m
+release H514
+hold hw 1 ttl=10m
+release H515
+hold hw 1 ttl=10m
+release H516
+hold hw 1 ttl=10m
+release H517
+hold hw 1 ttl=10m
+release H518
+hold hw 1 ttl=10m
+release H519
+hold hw 1 ttl=10m
+release H520
+hold hw 1 ttl=10m
+release H521
+hold hw 1 ttl=10m
+release H522
+hold hw 1 ttl=10m
+release H523
+hold hw 1 ttl=10m
+release H524
+hold hw 1 ttl=10m
+release H525
+hold hw 1 ttl=10m
+release H526
+hold hw 1 ttl=10m
+release H527
+hold hw 1 ttl=10m
+release H528
+hold hw 1 ttl=10m
+release H529
+hold hw 1 ttl=10m
+release H530
+hold hw 1 ttl=10m
+release H531
+hold hw 1 ttl=10m
+release H532
+hold hw 1 ttl=10m
+release H533
+hold hw 1 ttl=10m
+release H534
+hold hw 1 ttl=10m
+release H535
+hold hw 1 ttl=10m
+release H536
+hold hw 1 ttl=10m
+release H537
+hold hw 1 ttl=10m
+release H538
+hold hw 1 ttl=10m
+release H539
+hold hw 1 ttl=10m
+release H540
+hold hw 1 ttl=10m
+release H541
+hold hw 1 ttl=10m
+release H542
+hold hw 1 ttl=10m
+release H543
+hold hw 1 ttl=10m
+release H544
+hold hw 1 ttl=10m
+release H545
+hold hw 1 ttl=10m
+release H546
+hold hw 1 ttl=10m
+release H547
+hold hw 1 ttl=10m
+release H548
+hold hw 1 ttl=10m
+release H549
+hold hw 1 ttl=10m
+release H550
+hold hw 1 ttl=10m
+release H551
+hold hw 1 ttl=10m
+release H552
+hold hw 1 ttl=10m
+release H553
+hold hw 1 ttl=10m
+release H554
+hold hw 1 ttl=10m
+release H555
+hold hw 1 ttl=10m
+release H556
+hold hw 1 ttl=10m
+release H557
+hold hw 1 ttl=10m
+release H558
+hold hw 1 ttl=10m
+release H559
+hold hw 1 ttl=10m
+release H560
+hold hw 1 ttl=10m
+release H561
+hold hw 1 ttl=10m
+release H562
+hold hw 1 ttl=10m
+release H563
+hold hw 1 ttl=10m
+release H564
+hold hw 1 ttl=10m
+release H565
+hold hw 1 ttl=10m
+release H566
+hold hw 1 ttl=10m
+release H567
+hold hw 1 ttl=10m
+release H568
+hold hw 1 ttl=10m
+release H569
+hold hw 1 ttl=10m
+release H570
+hold hw 1 ttl=10m
+release H571
+hold hw 1 ttl=10m
+release H572
+hold hw 1 ttl=10m
+release H573
+hold hw 1 ttl=10m
+release H574
+hold hw 1 ttl=10m
+release H575
+hold hw 1 ttl=10m
+release H576
+hold hw 1 ttl=10m
+release H577
+hold hw 1 ttl=10m
+release H578
+hold hw 1 ttl=10m
+release H579
+hold hw 1 ttl=10m
+release H580
+hold hw 1 ttl=10m
+release H581
+hold hw 1 ttl=10m
+release H582
+hold hw 1 ttl=10m
+release H583
+hold hw 1 ttl=10m
+release H584
+hold hw 1 ttl=10m
+release H585
+hold hw 1 ttl=10m
+release H586
+hold hw 1 ttl=10m
+release H587
+hold hw 1 ttl=10m
+release H588
+hold hw 1 ttl=10m
+release H589
+hold hw 1 ttl=10m
+release H590
+hold hw 1 ttl=10m
+release H591
+hold hw 1 ttl=10m
+release H592
+hold hw 1 ttl=10m
+release H593
+hold hw 1 ttl=10m
+release H594
+hold hw 1 ttl=10m
+release H595
+hold hw 1 ttl=10m
+release H596
+hold hw 1 ttl=10m
+release H597
+hold hw 1 ttl=10m
+release H598
+hold hw 1 ttl=10m
+release H599
+hold hw 1 ttl=10m
+release H600
+hold hw 1 ttl=10m
+release H601
+hold hw 1 ttl=10m
+release H602
+hold hw 1 ttl=10m
+release H603
+hold hw 1 ttl=10m
+release H604
+hold hw 1 ttl=10m
+release H605
+hold hw 1 ttl=10m
+release H606
+hold hw 1 ttl=10m
+release H607
+hold hw 1 ttl=10m
+release H608
+hold hw 1 ttl=10m
+release H609
+hold hw 1 ttl=10m
+release H610
+hold hw 1 ttl=10m
+release H611
+hold hw 1 ttl=10m
+release H612
+hold hw 1 ttl=10m
+release H613
+hold hw 1 ttl=10m
+release H614
+hold hw 1 ttl=10m
+release H615
+hold hw 1 ttl=10m
+release H616
+hold hw 1 ttl=10m
+release H617
+hold hw 1 ttl=10m
+release H618
+hold hw 1 ttl=10m
+release H619
+hold hw 1 ttl=10m
+release H620
+hold hw 1 ttl=10m
+release H621
+hold hw 1 ttl=10m
+release H622
+hold hw 1 ttl=10m
+release H623
+hold hw 1 ttl=10m
+release H624
+hold hw 1 ttl=10m
+release H625
+hold hw 1 ttl=10m
+release H626
+hold hw 1 ttl=10m
+release H627
+hold hw 1 ttl=10m
+release H628
+hold hw 1 ttl=10m
+release H629
+hold hw 1 ttl=10m
+release H630
+hold hw 1 ttl=10m
+release H631
+hold hw 1 ttl=10m
+release H632
+hold hw 1 ttl=10m
+release H633
+hold hw 1 ttl=10m
+release H634
+hold hw 1 ttl=10m
+release H635
+hold hw 1 ttl=10m
+release H636
+hold hw 1 ttl=10m
+release H637
+hold hw 1 ttl=10m
+release H638
+hold hw 1 ttl=10m
+release H639
+hold hw 1 ttl=10m
+release H640
+hold hw 1 ttl=10m
+release H641
+hold hw 1 ttl=10m
+release H642
+hold hw 1 ttl=10m
+release H643
+hold hw 1 ttl=10m
+release H644
+hold hw 1 ttl=10m
+release H645
+hold hw 1 ttl=10m
+release H646
+hold hw 1 ttl=10m
+release H647
+hold hw 1 ttl=10m
+release H648
+hold hw 1 ttl=10m
+release H649
+hold hw 1 ttl=10m
+release H650
+hold hw 1 ttl=10m
+release H651
+hold hw 1 ttl=10m
+release H652
+hold hw 1 ttl=10m
+release H653
+hold hw 1 ttl=10m
+release H654
+hold hw 1 ttl=10m
+release H655
+hold hw 1 ttl=10m
+release H656
+hold hw 1 ttl=10m
+release H657
+hold hw 1 ttl=10m
+release H658
+hold hw 1 ttl=10m
+release H659
+hold hw 1 ttl=10m
+release H660
+hold hw 1 ttl=10m
+release H661
+hold hw 1 ttl=10m
+release H662
+hold hw 1 ttl=10m
+release H663
+hold hw 1 ttl=10m
+release H664
+hold hw 1 ttl=10m
+release H665
+hold hw 1 ttl=10m
+release H666
+hold hw 1 ttl=10m
+release H667
+hold hw 1 ttl=10m
+release H668
+hold hw 1 ttl=10m
+release H669
+hold hw 1 ttl=10m
+release H670
+hold hw 1 ttl=10m
+release H671
+hold hw 1 ttl=10m
+release H672
+hold hw 1 ttl=10m
+release H673
+hold hw 1 ttl=10m
+release H674
+hold hw 1 ttl=10m
+release H675
+hold hw 1 ttl=10m
+release H676
+hold hw 1 ttl=10m
+release H677
+hold hw 1 ttl=10m
+release H678
+hold hw 1 ttl=10m
+release H679
+hold hw 1 ttl=10m
+release H680
+hold hw 1 ttl=10m
+release H681
+hold hw 1 ttl=10m
+release H682
+hold hw 1 ttl=10m
+release H683
+hold hw 1 ttl=10m
+release H684
+hold hw 1 ttl=10m
+release H685
+hold hw 1 ttl=10m
+release H686
+hold hw 1 ttl=10m
+release H687
+hold hw 1 ttl=10m
+release H688
+hold hw 1 ttl=10m
+release H689
+hold hw 1 ttl=10m
+release H690
+hold hw 1 ttl=10m
+release H691
+hold hw 1 ttl=10m
+release H692
+hold hw 1 ttl=10m
+release H693
+hold hw 1 ttl=10m
+release H694
+hold hw 1 ttl=10m
+release H695
+hold hw 1 ttl=10m
+release H696
+hold hw 1 ttl=10m
+release H697
+hold hw 1 ttl=10m
+release H698
+hold hw 1 ttl=10m
+release H699
+hold hw 1 ttl=10m
+release H700
+hold hw 1 ttl=10m
+release H701
+hold hw 1 ttl=10m
+release H702
+hold hw 1 ttl=10m
+release H703
+hold hw 1 ttl=10m
+release H704
+hold hw 1 ttl=10m
+release H705
+hold hw 1 ttl=10m
+release H706
+hold hw 1 ttl=10m
+release H707
+hold hw 1 ttl=10m
+release H708
+hold hw 1 ttl=10m
+release H709
+hold hw 1 ttl=10m
+release H710
+hold hw 1 ttl=10m
+release H711
+hold hw 1 ttl=10m
+release H712
+hold hw 1 ttl=10m
+release H713
+hold hw 1 ttl=10m
+release H714
+hold hw 1 ttl=10m
+release H715
+hold hw 1 ttl=10m
+release H716
+hold hw 1 ttl=10m
+release H717
+hold hw 1 ttl=10m
+release H718
+hold hw 1 ttl=10m
+release H719
+hold hw 1 ttl=10m
+release H720
+hold hw 1 ttl=10m
+release H721
+hold hw 1 ttl=10m
+release H722
+hold hw 1 ttl=10m
+release H723
+hold hw 1 ttl=10m
+release H724
+hold hw 1 ttl=10m
+release H725
+hold hw 1 ttl=10m
+release H726
+hold hw 1 ttl=10m
+release H727
+hold hw 1 ttl=10m
+release H728
+hold hw 1 ttl=10m
+release H729
+hold hw 1 ttl=10m
+release H730
+hold hw 1 ttl=10m
+release H731
+hold hw 1 ttl=10m
+release H732
+hold hw 1 ttl=10m
+release H733
+hold hw 1 ttl=10m
+release H734
+hold hw 1 ttl=10m
+release H735
+hold hw 1 ttl=10m
+release H736
+hold hw 1 ttl=10m
+release H737
+hold hw 1 ttl=10m
+release H738
+hold hw 1 ttl=10m
+release H739
+hold hw 1 ttl=10m
+release H740
+hold hw 1 ttl=10m
+release H741
+hold hw 1 ttl=10m
+release H742
+hold hw 1 ttl=10m
+release H743
+hold hw 1 ttl=10m
+release H744
+hold hw 1 ttl=10m
+release H745
+hold hw 1 ttl=10m
+release H746
+hold hw 1 ttl=10m
+release H747
+hold hw 1 ttl=10m
+release H748
+hold hw 1 ttl=10m
+release H749
+hold hw 1 ttl=10m
+release H750
+hold hw 1 ttl=10m
+release H751
+hold hw 1 ttl=10m
+release H752
+hold hw 1 ttl=10m
+release H753
+hold hw 1 ttl=10m
+release H754
+hold hw 1 ttl=10m
+release H755
+hold hw 1 ttl=10m
+release H756
+hold hw 1 ttl=10m
+release H757
+hold hw 1 ttl=10m
+release H758
+hold hw 1 ttl=10m
+release H759
+hold hw 1 ttl=10m
+release H760
+hold hw 1 ttl=10m
+release H761
+hold hw 1 ttl=10m
+release H762
+hold hw 1 ttl=10m
+release H763
+hold hw 1 ttl=10m
+release H764
+hold hw 1 ttl=10m
+release H765
+hold hw 1 ttl=10m
+release H766
+hold hw 1 ttl=10m
+release H767
+hold hw 1 ttl=10m
+release H768
+hold hw 1 ttl=10m
+release H769
+hold hw 1 ttl=10m
+release H770
+hold hw 1 ttl=10m
+release H771
+hold hw 1 ttl=10m
+release H772
+hold hw 1 ttl=10m
+release H773
+hold hw 1 ttl=10m
+release H774
+hold hw 1 ttl=10m
+release H775
+hold hw 1 ttl=10m
+release H776
+hold hw 1 ttl=10m
+release H777
+hold hw 1 ttl=10m
+release H778
+hold hw 1 ttl=10m
+release H779
+hold hw 1 ttl=10m
+release H780
+hold hw 1 ttl=10m
+release H781
+hold hw 1 ttl=10m
+release H782
+hold hw 1 ttl=10m
+release H783
+hold hw 1 ttl=10m
+release H784
+hold hw 1 ttl=10m
+release H785
+hold hw 1 ttl=10m
+release H786
+hold hw 1 ttl=10m
+release H787
+hold hw 1 ttl=10m
+release H788
+hold hw 1 ttl=10m
+release H789
+hold hw 1 ttl=10m
+release H790
+hold hw 1 ttl=10m
+release H791
+hold hw 1 ttl=10m
+release H792
+hold hw 1 ttl=10m
+release H793
+hold hw 1 ttl=10m
+release H794
+hold hw 1 ttl=10m
+release H795
+hold hw 1 ttl=10m
+release H796
+hold hw 1 ttl=10m
+release H797
+hold hw 1 ttl=10m
+release H798
+hold hw 1 ttl=10m
+release H799
+hold hw 1 ttl=10m
+release H800
+hold hw 1 ttl=10m
+release H801
+hold hw 1 ttl=10m
+release H802
+hold hw 1 ttl=10m
+release H803
+hold hw 1 ttl=10m
+release H804
+hold hw 1 ttl=10m
+release H805
+hold hw 1 ttl=10m
+release H806
+hold hw 1 ttl=10m
+release H807
+hold hw 1 ttl=10m
+release H808
+hold hw 1 ttl=10m
+release H809
+hold hw 1 ttl=10m
+release H810
+hold hw 1 ttl=10m
+release H811
+hold hw 1 ttl=10m
+release H812
+hold hw 1 ttl=10m
+release H813
+hold hw 1 ttl=10m
+release H814
+hold hw 1 ttl=10m
+release H815
+hold hw 1 ttl=10m
+release H816
+hold hw 1 ttl=10m
+release H817
+hold hw 1 ttl=10m
+release H818
+hold hw 1 ttl=10m
+release H819
+hold hw 1 ttl=10m
+release H820
+hold hw 1 ttl=10m
+release H821
+hold hw 1 ttl=10m
+release H822
+hold hw 1 ttl=10m
+release H823
+hold hw 1 ttl=10m
+release H824
+hold hw 1 ttl=10m
+release H825
+hold hw 1 ttl=10m
+release H826
+hold hw 1 ttl=10m
+release H827
+hold hw 1 ttl=10m
+release H828
+hold hw 1 ttl=10m
+release H829
+hold hw 1 ttl=10m
+release H830
+hold hw 1 ttl=10m
+release H831
+hold hw 1 ttl=10m
+release H832
+hold hw 1 ttl=10m
+release H833
+hold hw 1 ttl=10m
+release H834
+hold hw 1 ttl=10m
+release H835
+hold hw 1 ttl=10m
+release H836
+hold hw 1 ttl=10m
+release H837
+hold hw 1 ttl=10m
+release H838
+hold hw 1 ttl=10m
+release H839
+hold hw 1 ttl=10m
+release H840
+hold hw 1 ttl=10m
+release H841
+hold hw 1 ttl=10m
+release H842
+hold hw 1 ttl=10m
+release H843
+hold hw 1 ttl=10m
+release H844
+hold hw 1 ttl=10m
+release H845
+hold hw 1 ttl=10m
+release H846
+hold hw 1 ttl=10m
+release H847
+hold hw 1 ttl=10m
+release H848
+hold hw 1 ttl=10m
+release H849
+hold hw 1 ttl=10m
+release H850
+hold hw 1 ttl=10m
+release H851
+hold hw 1 ttl=10m
+release H852
+hold hw 1 ttl=10m
+release H853
+hold hw 1 ttl=10m
+release H854
+hold hw 1 ttl=10m
+release H855
+hold hw 1 ttl=10m
+release H856
+hold hw 1 ttl=10m
+release H857
+hold hw 1 ttl=10m
+release H858
+hold hw 1 ttl=10m
+release H859
+hold hw 1 ttl=10m
+release H860
+hold hw 1 ttl=10m
+release H861
+hold hw 1 ttl=10m
+release H862
+hold hw 1 ttl=10m
+release H863
+hold hw 1 ttl=10m
+release H864
+hold hw 1 ttl=10m
+release H865
+hold hw 1 ttl=10m
+release H866
+hold hw 1 ttl=10m
+release H867
+hold hw 1 ttl=10m
+release H868
+hold hw 1 ttl=10m
+release H869
+hold hw 1 ttl=10m
+release H870
+hold hw 1 ttl=10m
+release H871
+hold hw 1 ttl=10m
+release H872
+hold hw 1 ttl=10m
+release H873
+hold hw 1 ttl=10m
+release H874
+hold hw 1 ttl=10m
+release H875
+hold hw 1 ttl=10m
+release H876
+hold hw 1 ttl=10m
+release H877
+hold hw 1 ttl=10m
+release H878
+hold hw 1 ttl=10m
+release H879
+hold hw 1 ttl=10m
+release H880
+hold hw 1 ttl=10m
+release H881
+hold hw 1 ttl=10m
+release H882
+hold hw 1 ttl=10m
+release H883
+hold hw 1 ttl=10m
+release H884
+hold hw 1 ttl=10m
+release H885
+hold hw 1 ttl=10m
+release H886
+hold hw 1 ttl=10m
+release H887
+hold hw 1 ttl=10m
+release H888
+hold hw 1 ttl=10m
+release H889
+hold hw 1 ttl=10m
+release H890
+hold hw 1 ttl=10m
+release H891
+hold hw 1 ttl=10m
+release H892
+hold hw 1 ttl=10m
+release H893
+hold hw 1 ttl=10m
+release H894
+hold hw 1 ttl=10m
+release H895
+hold hw 1 ttl=10m
+release H896
+hold hw 1 ttl=10m
+release H897
+hold hw 1 ttl=10m
+release H898
+hold hw 1 ttl=10m
+release H899
+hold hw 1 ttl=10m
+release H900
+hold hw 1 ttl=10m
+release H901
+hold hw 1 ttl=10m
+release H902
+hold hw 1 ttl=10m
+release H903
+hold hw 1 ttl=10m
+release H904
+hold hw 1 ttl=10m
+release H905
+hold hw 1 ttl=10m
+release H906
+hold hw 1 ttl=10m
+release H907
+hold hw 1 ttl=10m
+release H908
+hold hw 1 ttl=10m
+release H909
+hold hw 1 ttl=10m
+release H910
+hold hw 1 ttl=10m
+release H911
+hold hw 1 ttl=10m
+release H912
+hold hw 1 ttl=10m
+release H913
+hold hw 1 ttl=10m
+release H914
+hold hw 1 ttl=10m
+release H915
+hold hw 1 ttl=10m
+release H916
+hold hw 1 ttl=10m
+release H917
+hold hw 1 ttl=10m
+release H918
+hold hw 1 ttl=10m
+release H919
+hold hw 1 ttl=10m
+release H920
+hold hw 1 ttl=10m
+release H921
+hold hw 1 ttl=10m
+release H922
+hold hw 1 ttl=10m
+release H923
+hold hw 1 ttl=10m
+release H924
+hold hw 1 ttl=10m
+release H925
+hold hw 1 ttl=10m
+release H926
+hold hw 1 ttl=10m
+release H927
+hold hw 1 ttl=10m
+release H928
+hold hw 1 ttl=10m
+release H929
+hold hw 1 ttl=10m
+release H930
+hold hw 1 ttl=10m
+release H931
+hold hw 1 ttl=10m
+release H932
+hold hw 1 ttl=10m
+release H933
+hold hw 1 ttl=10m
+release H934
+hold hw 1 ttl=10m
+release H935
+hold hw 1 ttl=10m
+release H936
+hold hw 1 ttl=10m
+release H937
+hold hw 1 ttl=10m
+release H938
+hold hw 1 ttl=10m
+release H939
+hold hw 1 ttl=10m
+release H940
+hold hw 1 ttl=10m
+release H941
+hold hw 1 ttl=10m
+release H942
+hold hw 1 ttl=10m
+release H943
+hold hw 1 ttl=10m
+release H944
+hold hw 1 ttl=10m
+release H945
+hold hw 1 ttl=10m
+release H946
+hold hw 1 ttl=10m
+release H947
+hold hw 1 ttl=10m
+release H948
+hold hw 1 ttl=10m
+release H949
+hold hw 1 ttl=10m
+release H950
+hold hw 1 ttl=10m
+release H951
+hold hw 1 ttl=10m
+release H952
+hold hw 1 ttl=10m
+release H953
+hold hw 1 ttl=10m
+release H954
+hold hw 1 ttl=10m
+release H955
+hold hw 1 ttl=10m
+release H956
+hold hw 1 ttl=10m
+release H957
+hold hw 1 ttl=10m
+release H958
+hold hw 1 ttl=10m
+release H959
+hold hw 1 ttl=10m
+release H960
+hold hw 1 ttl=10m
+release H961
+hold hw 1 ttl=10m
+release H962
+hold hw 1 ttl=10m
+release H963
+hold hw 1 ttl=10m
+release H964
+hold hw 1 ttl=10m
+release H965
+hold hw 1 ttl=10m
+release H966
+hold hw 1 ttl=10m
+release H967
+hold hw 1 ttl=10m
+release H968
+hold hw 1 ttl=10m
+release H969
+hold hw 1 ttl=10m
+release H970
+hold hw 1 ttl=10m
+release H971
+hold hw 1 ttl=10m
+release H972
+hold hw 1 ttl=10m
+release H973
+hold hw 1 ttl=10m
+release H974
+hold hw 1 ttl=10m
+release H975
+hold hw 1 ttl=10m
+release H976
+hold hw 1 ttl=10m
+release H977
+hold hw 1 ttl=10m
+release H978
+hold hw 1 ttl=10m
+release H979
+hold hw 1 ttl=10m
+release H980
+hold hw 1 ttl=10m
+release H981
+hold hw 1 ttl=10m
+release H982
+hold hw 1 ttl=10m
+release H983
+hold hw 1 ttl=10m
+release H984
+hold hw 1 ttl=10m
+release H985
+hold hw 1 ttl=10m
+release H986
+hold hw 1 ttl=10m
+release H987
+hold hw 1 ttl=10m
+release H988
+hold hw 1 ttl=10m
+release H989
+hold hw 1 ttl=10m
+release H990
+hold hw 1 ttl=10m
+release H991
+hold hw 1 ttl=10m
+release H992
+hold hw 1 ttl=10m
+release H993
+hold hw 1 ttl=10m
+release H994
+hold hw 1 ttl=10m
+release H995
+hold hw 1 ttl=10m
+release H996
+hold hw 1 ttl=10m
+release H997
+hold hw 1 ttl=10m
+release H998
+hold hw 1 ttl=10m
+release H999
+hold hw 2 ttl=10m
+hold hw 3
+holds hx
+holds hw
+release H001
+holds hx
+balance hx
+check

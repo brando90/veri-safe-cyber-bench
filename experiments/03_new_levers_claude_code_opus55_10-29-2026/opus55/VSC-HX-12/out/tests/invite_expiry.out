@@ -1,0 +1,11 @@
+user alice added
+user bob added
+user carol added
+published queue 1.0.0 (0 KiB)
+invited bob to queue as maintainer until 3600
+invited carol to queue as maintainer until 7200
+clock 3600
+invite queue carol role=maintainer until=7200 by=alice
+error: invite for bob to queue expired
+carol is now maintainer of queue
+roles queue: alice=owner carol=maintainer

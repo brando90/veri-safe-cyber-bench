@@ -1,0 +1,20 @@
+open eve velocity=2 daily=10000
+deposit eve 100
+clock set 30s
+withdraw eve 1
+clock set 90s
+withdraw eve 1
+withdraw eve 1
+balance eve
+clock set 59m
+withdraw eve 1
+clock set 60m30s
+withdraw eve 1
+balance eve
+clock set 61m
+withdraw eve 1
+withdraw eve 1
+balance eve
+clock set 3h
+balance eve
+transfer eve eve 1

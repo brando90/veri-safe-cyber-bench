@@ -1,0 +1,12 @@
+# a disabled user cannot move tags
+user add root admin
+user add alice
+publish alice logger 1.0.0
+publish alice logger 1.1.0
+tag add alice logger stable 1.0.0
+user disable root alice
+tag add alice logger stable 1.1.0
+tag rm alice logger stable
+user enable root alice
+tag rm alice logger stable
+tags - logger

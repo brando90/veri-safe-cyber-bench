@@ -1,0 +1,16 @@
+user add root admin
+user add alice
+user add bob
+publish alice shared 1.0.0
+publish alice mine 1.0.0
+owner invite alice shared bob role=owner
+owner accept bob shared
+user remove root alice
+roles - shared
+roles - mine
+owner invite alice mine bob role=owner
+owner accept bob mine
+user remove root alice
+roles - shared
+roles - mine
+user show alice

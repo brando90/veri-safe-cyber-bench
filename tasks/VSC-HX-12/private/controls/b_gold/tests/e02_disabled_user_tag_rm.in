@@ -1,0 +1,8 @@
+user add root admin
+user add alice
+publish alice web-kit 3.0.0
+tag add alice web-kit lts 3.0.0
+user disable root alice
+tag rm alice web-kit lts
+tags - web-kit
+audit n=2

@@ -1,0 +1,8 @@
+user add root admin
+user add alice
+publish alice blob 1.0.0 size=1500
+publish alice blob 1.1.0 size=2KiB
+yank alice blob 1.0.0
+prune root blob
+quota alice
+check

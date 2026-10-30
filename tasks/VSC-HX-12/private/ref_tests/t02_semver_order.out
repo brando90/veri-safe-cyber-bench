@@ -1,0 +1,21 @@
+user alice added
+published ver 1.9.0 (0 KiB)
+published ver 1.10.0 (0 KiB)
+published ver 1.10.0-rc.1 (0 KiB)
+published ver 1.10.0-rc.10 (0 KiB)
+published ver 1.10.0-rc.2 (0 KiB)
+published ver 1.10.0-alpha (0 KiB)
+published ver 1.2.0 (0 KiB)
+package ver visibility=public latest=1.10.0 downloads=0 releases=7
+  1.2.0 0 B by=alice at=0
+  1.9.0 0 B by=alice at=0
+  1.10.0-alpha 0 B by=alice at=0
+  1.10.0-rc.1 0 B by=alice at=0
+  1.10.0-rc.2 0 B by=alice at=0
+  1.10.0-rc.10 0 B by=alice at=0
+  1.10.0 0 B by=alice at=0
+tags ver: latest=1.10.0
+ver ^1 -> 1.10.0
+ver >=1.10.0-rc.1 -> 1.10.0
+ver >=1.10.0-rc.1,<1.10.0 -> 1.10.0-rc.10
+ver =1.10.0-alpha -> 1.10.0-alpha

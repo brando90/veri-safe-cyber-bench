@@ -1,0 +1,3117 @@
+open ha slot=0 gen=0
+open hb slot=1 gen=0
+ok T0.0 deposit ha 100000.00 balance=100000.00
+ok T0.1 deposit hb 100000.00 balance=100000.00
+hold H001 hb 9.00 until=78000
+hold H002 ha 1.00 until=27000
+release H001 hb 9.00
+ok T0.2 capture H002 ha 1.00
+hold H003 ha 4.00 until=never
+hold H004 ha 7.00 until=260000
+hold H005 ha 1.00 until=16000
+hold H006 hb 1.00 until=160000
+ok T0.3 capture H006 hb 1.00
+release H004 ha 7.00
+hold H007 hb 5.00 until=201000
+now=4000
+now=51000
+expire H005 ha 1.00
+now=99000
+release H007 hb 5.00
+now=134000
+hold H008 ha 2.00 until=272000
+hold H009 hb 6.00 until=284000
+hold H010 hb 2.00 until=340000
+release H009 hb 6.00
+release H008 ha 2.00
+now=142000
+hold H011 hb 3.00 until=363000
+hold H012 ha 5.00 until=438000
+hold H013 ha 8.00 until=410000
+hold H014 ha 6.00 until=164000
+release H013 ha 8.00
+hold H015 ha 3.00 until=404000
+now=160000
+now=185000
+expire H014 ha 6.00
+release H010 hb 2.00
+release H015 ha 3.00
+hold H016 hb 7.00 until=468000
+hold H017 hb 4.00 until=255000
+hold H018 ha 8.00 until=363000
+release H012 ha 5.00
+release H017 hb 4.00
+hold H019 hb 3.00 until=264000
+ok T0.4 capture H011 hb 3.00
+release H018 ha 8.00
+hold H020 ha 2.00 until=380000
+hold H021 hb 8.00 until=388000
+hold H022 hb 6.00 until=206000
+hold H023 hb 2.00 until=448000
+hold H024 ha 1.00 until=374000
+now=207000
+expire H022 hb 6.00
+hold H025 hb 2.00 until=382000
+ok T0.5 capture H024 ha 1.00
+release H020 ha 2.00
+hold H026 hb 9.00 until=380000
+hold H027 ha 6.00 until=289000
+now=266000
+expire H019 hb 3.00
+release H027 ha 6.00
+ok T0.6 capture H021 hb 8.00
+release H026 hb 9.00
+hold H028 hb 6.00 until=298000
+release H025 hb 2.00
+release H028 hb 6.00
+hold H029 ha 3.00 until=328000
+ok T0.7 capture H016 hb 7.00
+release H029 ha 3.00
+hold H030 ha 9.00 until=never
+hold H031 hb 7.00 until=381000
+now=321000
+release H023 hb 2.00
+hold H032 hb 2.00 until=596000
+hold H033 hb 8.00 until=409000
+release H031 hb 7.00
+release H033 hb 8.00
+release H032 hb 2.00
+now=344000
+hold H034 hb 1.00 until=375000
+ok T0.8 capture H034 hb 1.00
+hold H035 hb 4.00 until=601000
+hold H036 ha 7.00 until=521000
+now=396000
+ok T0.9 capture H036 ha 7.00
+release H035 hb 4.00
+hold H037 hb 2.00 until=never
+hold H038 hb 6.00 until=660000
+hold H039 hb 7.00 until=659000
+now=409000
+hold H040 hb 1.00 until=660000
+release H039 hb 7.00
+hold H041 hb 1.00 until=445000
+hold H042 ha 4.00 until=595000
+release H038 hb 6.00
+release H042 ha 4.00
+hold H043 hb 7.00 until=421000
+hold H044 ha 9.00 until=668000
+hold H045 ha 4.00 until=573000
+hold H046 ha 2.00 until=never
+hold H047 hb 5.00 until=673000
+hold H048 hb 2.00 until=458000
+hold H049 hb 2.00 until=574000
+hold H050 ha 7.00 until=550000
+hold H051 ha 5.00 until=492000
+hold H052 ha 5.00 until=630000
+now=455000
+expire H043 hb 7.00
+expire H041 hb 1.00
+ok T0.10 capture H045 ha 4.00
+now=463000
+expire H048 hb 2.00
+release H040 hb 1.00
+release H050 ha 7.00
+now=507000
+expire H051 ha 5.00
+now=525000
+hold H053 hb 1.00 until=578000
+release H049 hb 2.00
+now=542000
+release H052 ha 5.00
+release H053 hb 1.00
+hold H054 ha 5.00 until=555000
+ok T0.11 capture H054 ha 5.00
+release H047 hb 5.00
+hold H055 ha 6.00 until=698000
+hold H056 hb 6.00 until=639000
+hold H057 hb 7.00 until=759000
+ok T0.12 capture H055 ha 6.00
+release H044 ha 9.00
+hold H058 ha 8.00 until=never
+now=570000
+hold H059 hb 3.00 until=720000
+hold H060 hb 1.00 until=707000
+hold H061 ha 5.00 until=851000
+release H061 ha 5.00
+release H056 hb 6.00
+hold H062 hb 7.00 until=728000
+release H060 hb 1.00
+release H062 hb 7.00
+release H057 hb 7.00
+release H059 hb 3.00
+hold H063 hb 3.00 until=693000
+now=630000
+ok T0.13 capture H063 hb 3.00
+hold H064 hb 6.00 until=827000
+hold H065 ha 3.00 until=never
+now=661000
+hold H066 ha 6.00 until=710000
+now=680000
+hold H067 hb 8.00 until=717000
+ok T0.14 capture H066 ha 6.00
+hold H068 hb 4.00 until=900000
+hold H069 hb 8.00 until=719000
+release H069 hb 8.00
+hold H070 hb 8.00 until=897000
+hold H071 ha 5.00 until=912000
+hold H072 hb 1.00 until=962000
+hold H073 hb 8.00 until=790000
+ok T0.15 capture H071 ha 5.00
+release H070 hb 8.00
+ok T0.16 capture H064 hb 6.00
+hold H074 hb 8.00 until=763000
+hold H075 ha 9.00 until=925000
+now=696000
+release H075 ha 9.00
+hold H076 hb 1.00 until=948000
+now=718000
+expire H067 hb 8.00
+hold H077 ha 5.00 until=942000
+release H073 hb 8.00
+hold H078 ha 6.00 until=940000
+hold H079 ha 5.00 until=750000
+hold H080 ha 9.00 until=891000
+release H077 ha 5.00
+hold H081 ha 1.00 until=950000
+now=724000
+hold H082 hb 1.00 until=999000
+release H078 ha 6.00
+ok T0.17 capture H076 hb 1.00
+hold H083 ha 5.00 until=990000
+release H081 ha 1.00
+ok T0.18 capture H080 ha 9.00
+hold H084 ha 4.00 until=726000
+ok T0.19 capture H068 hb 4.00
+hold H085 ha 7.00 until=888000
+release H083 ha 5.00
+release H079 ha 5.00
+ok T0.20 capture H084 ha 4.00
+hold H086 ha 3.00 until=973000
+release H072 hb 1.00
+now=743000
+release H085 ha 7.00
+release H086 ha 3.00
+hold H087 hb 7.00 until=994000
+hold H088 ha 7.00 until=837000
+hold H089 hb 2.00 until=929000
+release H082 hb 1.00
+hold H090 hb 1.00 until=815000
+hold H091 hb 1.00 until=922000
+hold H092 ha 6.00 until=909000
+ok T0.21 capture H088 ha 7.00
+hold H093 ha 3.00 until=1000000
+hold H094 ha 7.00 until=952000
+now=778000
+expire H074 hb 8.00
+ok T0.22 capture H093 ha 3.00
+ok T0.23 capture H094 ha 7.00
+hold H095 hb 3.00 until=823000
+ok T0.24 capture H092 ha 6.00
+hold H096 hb 2.00 until=1063000
+release H089 hb 2.00
+hold H097 ha 8.00 until=never
+release H090 hb 1.00
+hold H098 hb 3.00 until=1070000
+now=780000
+hold H099 hb 7.00 until=never
+hold H100 ha 9.00 until=790000
+hold H101 hb 6.00 until=925000
+release H100 ha 9.00
+hold H102 ha 9.00 until=933000
+ok T0.25 capture H095 hb 3.00
+release H098 hb 3.00
+hold H103 hb 6.00 until=968000
+hold H104 hb 4.00 until=863000
+hold H105 ha 7.00 until=809000
+hold H106 hb 5.00 until=957000
+hold H107 hb 8.00 until=857000
+hold H108 ha 6.00 until=1008000
+hold H109 ha 7.00 until=1058000
+hold H110 hb 6.00 until=1074000
+release H096 hb 2.00
+release H106 hb 5.00
+hold H111 ha 9.00 until=933000
+ok T0.26 capture H108 ha 6.00
+release H105 ha 7.00
+hold H112 ha 8.00 until=888000
+now=835000
+hold H113 hb 6.00 until=948000
+release H112 ha 8.00
+release H111 ha 9.00
+hold H114 ha 6.00 until=1099000
+release H110 hb 6.00
+hold H115 ha 1.00 until=never
+release H091 hb 1.00
+release H113 hb 6.00
+now=872000
+expire H107 hb 8.00
+expire H104 hb 4.00
+hold H116 hb 7.00 until=899000
+hold H117 hb 6.00 until=961000
+hold H118 hb 3.00 until=968000
+hold H119 ha 6.00 until=935000
+hold H120 ha 3.00 until=1139000
+hold H121 hb 6.00 until=1150000
+hold H122 hb 3.00 until=874000
+hold H123 hb 7.00 until=1131000
+release H114 ha 6.00
+ok T0.27 capture H109 ha 7.00
+hold H124 ha 9.00 until=887000
+hold H125 ha 7.00 until=1133000
+hold H126 hb 6.00 until=1155000
+hold H127 hb 2.00 until=never
+hold H128 ha 8.00 until=959000
+release H102 ha 9.00
+release H120 ha 3.00
+hold H129 hb 4.00 until=1068000
+now=921000
+expire H122 hb 3.00
+expire H124 ha 9.00
+expire H116 hb 7.00
+hold H130 hb 8.00 until=1131000
+release H130 hb 8.00
+hold H131 hb 5.00 until=933000
+release H119 ha 6.00
+hold H132 hb 3.00 until=931000
+hold H133 hb 6.00 until=1147000
+hold H134 hb 5.00 until=never
+hold H135 hb 1.00 until=1195000
+hold H136 hb 6.00 until=944000
+hold H137 ha 5.00 until=943000
+hold H138 ha 7.00 until=1115000
+release H137 ha 5.00
+now=977000
+expire H101 hb 6.00
+expire H132 hb 3.00
+expire H131 hb 5.00
+expire H136 hb 6.00
+expire H128 ha 8.00
+expire H117 hb 6.00
+expire H103 hb 6.00
+expire H118 hb 3.00
+now=1010000
+expire H087 hb 7.00
+release H126 hb 6.00
+ok T0.28 capture H138 ha 7.00
+hold H139 ha 1.00 until=1090000
+hold H140 ha 9.00 until=1235000
+hold H141 hb 5.00 until=1016000
+release H135 hb 1.00
+hold H142 hb 3.00 until=1212000
+hold H143 hb 5.00 until=1083000
+H003 ha 4.00 until=never
+H030 ha 9.00 until=never
+H046 ha 2.00 until=never
+H058 ha 8.00 until=never
+H065 ha 3.00 until=never
+H097 ha 8.00 until=never
+H115 ha 1.00 until=never
+H125 ha 7.00 until=1133000
+H139 ha 1.00 until=1090000
+H140 ha 9.00 until=1235000
+holds ha count=10 held=52.00
+check ok records=29 live=29 accounts=2 holds=21 batches=0
+release H143 hb 5.00
+release H125 ha 7.00
+release H140 ha 9.00
+hold H144 hb 6.00 until=1083000
+hold H145 hb 5.00 until=1176000
+hold H146 hb 2.00 until=1122000
+release H139 ha 1.00
+hold H147 ha 4.00 until=1191000
+now=1056000
+expire H141 hb 5.00
+hold H148 hb 7.00 until=1309000
+hold H149 ha 5.00 until=1180000
+hold H150 hb 6.00 until=1309000
+hold H151 hb 3.00 until=never
+release H121 hb 6.00
+release H146 hb 2.00
+hold H152 ha 6.00 until=1317000
+hold H153 hb 8.00 until=1221000
+hold H154 hb 5.00 until=1244000
+release H149 ha 5.00
+hold H155 ha 7.00 until=1314000
+hold H156 hb 9.00 until=never
+ok T0.29 capture H152 ha 6.00
+release H142 hb 3.00
+release H145 hb 5.00
+release H133 hb 6.00
+ok T0.30 capture H147 ha 4.00
+hold H157 hb 4.00 until=1330000
+hold H158 hb 9.00 until=1334000
+release H158 hb 9.00
+release H155 ha 7.00
+hold H159 ha 2.00 until=1135000
+release H159 ha 2.00
+hold H160 hb 5.00 until=1351000
+hold H161 hb 9.00 until=1141000
+release H154 hb 5.00
+hold H162 hb 5.00 until=1151000
+now=1094000
+expire H129 hb 4.00
+expire H144 hb 6.00
+hold H163 ha 7.00 until=1243000
+hold H164 ha 3.00 until=1236000
+hold H165 ha 6.00 until=1104000
+now=1103000
+release H123 hb 7.00
+now=1129000
+expire H165 ha 6.00
+release H163 ha 7.00
+release H150 hb 6.00
+hold H166 hb 5.00 until=1152000
+hold H167 hb 8.00 until=1369000
+release H164 ha 3.00
+now=1181000
+expire H161 hb 9.00
+expire H162 hb 5.00
+expire H166 hb 5.00
+hold H168 hb 7.00 until=1437000
+ok T0.31 capture H157 hb 4.00
+hold H169 ha 3.00 until=never
+hold H170 ha 9.00 until=1333000
+ok T0.32 capture H170 ha 9.00
+hold H171 hb 1.00 until=1205000
+hold H172 hb 4.00 until=1183000
+hold H173 hb 8.00 until=1439000
+hold H174 ha 2.00 until=1240000
+release H174 ha 2.00
+hold H175 ha 1.00 until=1205000
+release H175 ha 1.00
+release H167 hb 8.00
+hold H176 hb 6.00 until=never
+hold H177 hb 9.00 until=1476000
+hold H178 ha 9.00 until=1373000
+hold H179 hb 2.00 until=1389000
+hold H180 hb 6.00 until=1363000
+release H179 hb 2.00
+hold H181 ha 4.00 until=1365000
+hold H182 hb 1.00 until=1387000
+ok T0.33 capture H148 hb 7.00
+release H172 hb 4.00
+release H181 ha 4.00
+hold H183 ha 8.00 until=1306000
+now=1240000
+expire H171 hb 1.00
+expire H153 hb 8.00
+now=1287000
+hold H184 hb 6.00 until=1357000
+release H183 ha 8.00
+now=1299000
+release H178 ha 9.00
+now=1342000
+hold H185 ha 4.00 until=1426000
+hold H186 hb 9.00 until=1442000
+release H185 ha 4.00
+now=1382000
+expire H160 hb 5.00
+expire H184 hb 6.00
+expire H180 hb 6.00
+hold H187 ha 6.00 until=1406000
+hold H188 hb 8.00 until=never
+release H186 hb 9.00
+release H187 ha 6.00
+hold H189 ha 5.00 until=never
+hold H190 hb 6.00 until=1445000
+now=1391000
+expire H182 hb 1.00
+hold H191 ha 9.00 until=1431000
+hold H192 hb 8.00 until=1409000
+now=1392000
+hold H193 hb 4.00 until=1395000
+release H191 ha 9.00
+hold H194 hb 5.00 until=1530000
+hold H195 ha 1.00 until=1683000
+ok T0.34 capture H194 hb 5.00
+now=1437000
+expire H193 hb 4.00
+expire H192 hb 8.00
+expire H168 hb 7.00
+hold H196 ha 5.00 until=1589000
+release H196 ha 5.00
+hold H197 ha 5.00 until=1660000
+release H197 ha 5.00
+hold H198 ha 2.00 until=1600000
+release H195 ha 1.00
+now=1486000
+expire H173 hb 8.00
+expire H190 hb 6.00
+expire H177 hb 9.00
+hold H199 hb 1.00 until=1571000
+hold H200 hb 8.00 until=1543000
+hold H201 ha 2.00 until=never
+release H199 hb 1.00
+hold H202 hb 4.00 until=1623000
+now=1545000
+expire H200 hb 8.00
+hold H203 hb 4.00 until=1674000
+release H203 hb 4.00
+release H202 hb 4.00
+hold H204 hb 9.00 until=1676000
+hold H205 ha 1.00 until=never
+hold H206 hb 1.00 until=1780000
+ok T0.35 capture H206 hb 1.00
+ok T0.36 capture H204 hb 9.00
+hold H207 hb 3.00 until=1760000
+hold H208 ha 3.00 until=1808000
+hold H209 hb 7.00 until=1689000
+hold H210 ha 9.00 until=1667000
+release H207 hb 3.00
+release H198 ha 2.00
+ok T0.37 capture H209 hb 7.00
+release H208 ha 3.00
+now=1579000
+hold H211 hb 4.00 until=1785000
+hold H212 hb 5.00 until=1715000
+release H212 hb 5.00
+release H210 ha 9.00
+hold H213 ha 6.00 until=1674000
+release H213 ha 6.00
+release H211 hb 4.00
+hold H214 hb 2.00 until=1686000
+release H214 hb 2.00
+hold H215 ha 3.00 until=1844000
+hold H216 ha 9.00 until=1707000
+now=1601000
+hold H217 hb 3.00 until=1675000
+hold H218 ha 7.00 until=1616000
+hold H219 hb 5.00 until=1647000
+ok T0.38 capture H219 hb 5.00
+hold H220 hb 4.00 until=1741000
+release H220 hb 4.00
+release H218 ha 7.00
+ok T0.39 capture H217 hb 3.00
+hold H221 hb 6.00 until=1740000
+hold H222 ha 8.00 until=1831000
+now=1610000
+hold H223 hb 5.00 until=1740000
+release H216 ha 9.00
+now=1626000
+hold H224 ha 2.00 until=1883000
+hold H225 ha 6.00 until=1688000
+now=1671000
+hold H226 ha 8.00 until=1892000
+ok T0.40 capture H225 ha 6.00
+release H222 ha 8.00
+hold H227 ha 7.00 until=1749000
+hold H228 hb 5.00 until=never
+release H223 hb 5.00
+now=1684000
+release H224 ha 2.00
+now=1740000
+expire H221 hb 6.00
+hold H229 ha 7.00 until=1854000
+release H229 ha 7.00
+release H227 ha 7.00
+hold H230 hb 9.00 until=1768000
+hold H231 ha 5.00 until=1972000
+release H231 ha 5.00
+hold H232 hb 3.00 until=2032000
+ok T0.41 capture H215 ha 3.00
+hold H233 ha 4.00 until=2000000
+hold H234 hb 6.00 until=1825000
+release H233 ha 4.00
+now=1782000
+expire H230 hb 9.00
+release H232 hb 3.00
+now=1789000
+release H226 ha 8.00
+release H234 hb 6.00
+hold H235 hb 4.00 until=1971000
+hold H236 hb 6.00 until=1929000
+hold H237 ha 1.00 until=1796000
+release H237 ha 1.00
+hold H238 hb 5.00 until=1852000
+hold H239 hb 4.00 until=1834000
+hold H240 hb 9.00 until=1908000
+release H239 hb 4.00
+now=1809000
+hold H241 hb 1.00 until=1911000
+now=1835000
+hold H242 hb 4.00 until=1969000
+hold H243 ha 9.00 until=1848000
+hold H244 ha 9.00 until=1969000
+hold H245 ha 6.00 until=never
+release H236 hb 6.00
+now=1860000
+expire H243 ha 9.00
+expire H238 hb 5.00
+hold H246 ha 2.00 until=2082000
+hold H247 hb 5.00 until=1978000
+hold H248 ha 3.00 until=1971000
+release H235 hb 4.00
+release H240 hb 9.00
+hold H249 hb 2.00 until=2130000
+release H249 hb 2.00
+release H241 hb 1.00
+hold H250 ha 2.00 until=2118000
+release H246 ha 2.00
+hold H251 ha 2.00 until=1867000
+now=1867000
+expire H251 ha 2.00
+release H242 hb 4.00
+ok T0.42 capture H247 hb 5.00
+hold H252 hb 4.00 until=1988000
+hold H253 ha 2.00 until=1999000
+release H252 hb 4.00
+hold H254 hb 3.00 until=2139000
+hold H255 hb 4.00 until=2079000
+hold H256 ha 4.00 until=2019000
+release H244 ha 9.00
+hold H257 ha 2.00 until=2109000
+hold H258 ha 8.00 until=2031000
+release H255 hb 4.00
+release H254 hb 3.00
+now=1895000
+hold H259 hb 4.00 until=never
+hold H260 ha 8.00 until=2179000
+now=1914000
+release H256 ha 4.00
+release H257 ha 2.00
+hold H261 ha 1.00 until=1942000
+hold H262 ha 8.00 until=2205000
+now=1937000
+release H253 ha 2.00
+hold H263 ha 9.00 until=1957000
+ok T0.43 capture H262 ha 8.00
+hold H264 ha 8.00 until=2146000
+release H264 ha 8.00
+hold H265 hb 8.00 until=never
+hold H266 ha 7.00 until=never
+ok T0.44 capture H250 ha 2.00
+hold H267 hb 1.00 until=never
+hold H268 ha 1.00 until=2212000
+release H261 ha 1.00
+hold H269 ha 8.00 until=1938000
+now=1990000
+expire H269 ha 8.00
+expire H263 ha 9.00
+expire H248 ha 3.00
+hold H270 hb 1.00 until=2080000
+release H268 ha 1.00
+now=1994000
+hold H271 hb 9.00 until=2144000
+release H258 ha 8.00
+now=2037000
+release H260 ha 8.00
+hold H272 hb 4.00 until=2079000
+hold H273 hb 4.00 until=2194000
+hold H274 hb 4.00 until=2059000
+hold H275 hb 6.00 until=never
+hold H276 hb 1.00 until=2324000
+now=2051000
+hold H277 ha 4.00 until=2136000
+hold H278 hb 5.00 until=2183000
+hold H279 hb 2.00 until=2209000
+hold H280 ha 6.00 until=2242000
+hold H281 ha 2.00 until=2164000
+release H276 hb 1.00
+hold H282 hb 3.00 until=2311000
+hold H283 hb 5.00 until=2297000
+now=2060000
+expire H274 hb 4.00
+H003 ha 4.00 until=never
+H030 ha 9.00 until=never
+H046 ha 2.00 until=never
+H058 ha 8.00 until=never
+H065 ha 3.00 until=never
+H097 ha 8.00 until=never
+H115 ha 1.00 until=never
+H169 ha 3.00 until=never
+H189 ha 5.00 until=never
+H201 ha 2.00 until=never
+H205 ha 1.00 until=never
+H245 ha 6.00 until=never
+H266 ha 7.00 until=never
+H277 ha 4.00 until=2136000
+H280 ha 6.00 until=2242000
+H281 ha 2.00 until=2164000
+holds ha count=16 held=71.00
+check ok records=45 live=45 accounts=2 holds=37 batches=0
+now=2074000
+hold H284 ha 3.00 until=2106000
+release H277 ha 4.00
+release H280 ha 6.00
+hold H285 ha 5.00 until=2209000
+hold H286 hb 2.00 until=2234000
+hold H287 hb 2.00 until=2335000
+hold H288 ha 6.00 until=2302000
+release H286 hb 2.00
+release H287 hb 2.00
+hold H289 hb 7.00 until=2121000
+release H281 ha 2.00
+hold H290 hb 7.00 until=2095000
+hold H291 hb 7.00 until=2369000
+hold H292 ha 3.00 until=2150000
+release H289 hb 7.00
+hold H293 hb 2.00 until=2091000
+hold H294 ha 1.00 until=2209000
+hold H295 ha 6.00 until=2134000
+release H295 ha 6.00
+now=2109000
+expire H272 hb 4.00
+expire H270 hb 1.00
+expire H293 hb 2.00
+expire H290 hb 7.00
+expire H284 ha 3.00
+release H278 hb 5.00
+hold H296 hb 2.00 until=2342000
+hold H297 hb 8.00 until=2252000
+hold H298 ha 4.00 until=2365000
+hold H299 ha 5.00 until=2329000
+hold H300 ha 6.00 until=2229000
+hold H301 hb 8.00 until=2279000
+hold H302 hb 1.00 until=2116000
+hold H303 ha 8.00 until=2212000
+hold H304 hb 5.00 until=2319000
+now=2129000
+expire H302 hb 1.00
+hold H305 hb 6.00 until=2235000
+release H294 ha 1.00
+release H303 ha 8.00
+release H300 ha 6.00
+release H282 hb 3.00
+release H299 ha 5.00
+hold H306 ha 9.00 until=2258000
+hold H307 hb 9.00 until=2330000
+hold H308 ha 6.00 until=2198000
+ok T0.45 capture H298 ha 4.00
+hold H309 ha 5.00 until=2327000
+hold H310 ha 6.00 until=never
+release H304 hb 5.00
+release H283 hb 5.00
+hold H311 hb 3.00 until=2351000
+hold H312 ha 2.00 until=2228000
+hold H313 ha 8.00 until=2151000
+release H312 ha 2.00
+hold H314 hb 4.00 until=2196000
+release H292 ha 3.00
+hold H315 hb 8.00 until=2318000
+hold H316 hb 7.00 until=2423000
+hold H317 ha 3.00 until=2314000
+ok T0.46 capture H313 ha 8.00
+ok T0.47 capture H291 hb 7.00
+hold H318 ha 4.00 until=never
+ok T0.48 capture H306 ha 9.00
+now=2175000
+expire H271 hb 9.00
+release H308 ha 6.00
+hold H319 hb 5.00 until=2283000
+release H307 hb 9.00
+hold H320 ha 4.00 until=never
+release H301 hb 8.00
+hold H321 hb 5.00 until=2467000
+ok T0.49 capture H296 hb 2.00
+release H273 hb 4.00
+hold H322 ha 5.00 until=2235000
+release H309 ha 5.00
+hold H323 ha 5.00 until=2204000
+hold H324 hb 2.00 until=2333000
+release H279 hb 2.00
+release H316 hb 7.00
+hold H325 ha 8.00 until=2261000
+release H319 hb 5.00
+ok T0.50 capture H315 hb 8.00
+release H314 hb 4.00
+release H297 hb 8.00
+hold H326 ha 7.00 until=2276000
+release H311 hb 3.00
+now=2211000
+expire H323 ha 5.00
+expire H285 ha 5.00
+hold H327 hb 1.00 until=2261000
+hold H328 hb 3.00 until=2253000
+now=2214000
+hold H329 ha 9.00 until=2247000
+release H305 hb 6.00
+ok T0.51 capture H324 hb 2.00
+release H328 hb 3.00
+hold H330 ha 5.00 until=never
+release H288 ha 6.00
+hold H331 hb 3.00 until=2423000
+ok T0.52 capture H321 hb 5.00
+hold H332 ha 9.00 until=2454000
+release H322 ha 5.00
+hold H333 hb 4.00 until=2389000
+release H325 ha 8.00
+release H333 hb 4.00
+release H332 ha 9.00
+now=2217000
+hold H334 ha 6.00 until=2396000
+hold H335 hb 3.00 until=2383000
+hold H336 hb 6.00 until=2445000
+now=2262000
+expire H329 ha 9.00
+expire H327 hb 1.00
+release H331 hb 3.00
+release H334 ha 6.00
+release H317 ha 3.00
+hold H337 hb 4.00 until=never
+hold H338 hb 2.00 until=2536000
+release H326 ha 7.00
+hold H339 ha 6.00 until=2542000
+hold H340 ha 4.00 until=2525000
+hold H341 ha 6.00 until=2297000
+hold H342 hb 9.00 until=2381000
+hold H343 ha 7.00 until=2503000
+hold H344 ha 3.00 until=never
+hold H345 hb 5.00 until=2365000
+now=2320000
+expire H341 ha 6.00
+hold H346 ha 1.00 until=2348000
+release H343 ha 7.00
+now=2339000
+hold H347 ha 4.00 until=2461000
+hold H348 ha 6.00 until=2343000
+release H335 hb 3.00
+release H339 ha 6.00
+now=2354000
+expire H348 ha 6.00
+expire H346 ha 1.00
+ok T0.53 capture H340 ha 4.00
+release H347 ha 4.00
+hold H349 hb 4.00 until=2632000
+now=2382000
+expire H345 hb 5.00
+expire H342 hb 9.00
+hold H350 hb 3.00 until=never
+release H349 hb 4.00
+release H338 hb 2.00
+now=2391000
+hold H351 hb 4.00 until=2464000
+hold H352 ha 1.00 until=2541000
+release H336 hb 6.00
+now=2394000
+hold H353 hb 2.00 until=2537000
+hold H354 ha 9.00 until=2489000
+now=2412000
+now=2437000
+hold H355 ha 5.00 until=never
+now=2486000
+expire H351 hb 4.00
+hold H356 hb 4.00 until=2774000
+hold H357 ha 3.00 until=2671000
+hold H358 hb 8.00 until=2606000
+release H358 hb 8.00
+release H356 hb 4.00
+now=2513000
+expire H354 ha 9.00
+release H353 hb 2.00
+hold H359 ha 2.00 until=2718000
+now=2563000
+expire H352 ha 1.00
+hold H360 hb 6.00 until=2794000
+hold H361 hb 6.00 until=2723000
+release H359 ha 2.00
+hold H362 ha 1.00 until=2797000
+hold H363 hb 7.00 until=2594000
+release H362 ha 1.00
+hold H364 hb 3.00 until=never
+hold H365 hb 9.00 until=2713000
+now=2617000
+expire H363 hb 7.00
+hold H366 hb 8.00 until=2858000
+now=2621000
+hold H367 hb 8.00 until=2770000
+hold H368 hb 6.00 until=2851000
+hold H369 ha 7.00 until=2890000
+hold H370 ha 3.00 until=2823000
+release H367 hb 8.00
+hold H371 hb 4.00 until=2647000
+now=2629000
+release H369 ha 7.00
+hold H372 hb 9.00 until=2841000
+release H357 ha 3.00
+hold H373 hb 1.00 until=2709000
+now=2644000
+hold H374 ha 9.00 until=2839000
+hold H375 ha 5.00 until=2756000
+now=2664000
+expire H371 hb 4.00
+hold H376 ha 7.00 until=2753000
+hold H377 ha 9.00 until=2740000
+release H365 hb 9.00
+hold H378 ha 9.00 until=2687000
+hold H379 ha 1.00 until=2686000
+hold H380 hb 5.00 until=2822000
+hold H381 ha 3.00 until=2717000
+hold H382 ha 6.00 until=2871000
+ok T0.54 capture H377 ha 9.00
+hold H383 hb 1.00 until=2861000
+hold H384 ha 2.00 until=2729000
+ok T0.55 capture H373 hb 1.00
+hold H385 hb 7.00 until=2756000
+hold H386 hb 6.00 until=2932000
+release H386 hb 6.00
+hold H387 ha 5.00 until=2905000
+hold H388 ha 8.00 until=2960000
+hold H389 ha 6.00 until=2944000
+hold H390 hb 9.00 until=never
+release H370 ha 3.00
+hold H391 hb 2.00 until=2843000
+ok T0.56 capture H378 ha 9.00
+ok T0.57 capture H361 hb 6.00
+now=2686000
+expire H379 ha 1.00
+release H366 hb 8.00
+release H382 ha 6.00
+release H383 hb 1.00
+release H374 ha 9.00
+now=2688000
+hold H392 ha 9.00 until=2750000
+release H385 hb 7.00
+hold H393 ha 5.00 until=2848000
+hold H394 ha 3.00 until=2915000
+now=2721000
+expire H381 ha 3.00
+hold H395 hb 3.00 until=2830000
+hold H396 hb 6.00 until=2724000
+release H368 hb 6.00
+hold H397 ha 8.00 until=2753000
+hold H398 hb 7.00 until=2733000
+release H396 hb 6.00
+hold H399 hb 1.00 until=2974000
+release H391 hb 2.00
+release H387 ha 5.00
+hold H400 hb 8.00 until=2807000
+hold H401 hb 9.00 until=2789000
+hold H402 ha 4.00 until=2758000
+hold H403 ha 9.00 until=3006000
+release H392 ha 9.00
+release H401 hb 9.00
+release H397 ha 8.00
+hold H404 hb 3.00 until=2763000
+release H384 ha 2.00
+release H395 hb 3.00
+hold H405 hb 3.00 until=2860000
+hold H406 ha 4.00 until=2801000
+release H375 ha 5.00
+hold H407 hb 5.00 until=2786000
+hold H408 ha 7.00 until=2914000
+hold H409 ha 6.00 until=never
+now=2727000
+hold H410 ha 1.00 until=2962000
+release H399 hb 1.00
+ok T0.58 capture H406 ha 4.00
+release H402 ha 4.00
+hold H411 hb 6.00 until=2975000
+release H389 ha 6.00
+ok T0.59 capture H400 hb 8.00
+release H410 ha 1.00
+ok T0.60 capture H407 hb 5.00
+release H411 hb 6.00
+release H388 ha 8.00
+release H360 hb 6.00
+hold H412 hb 8.00 until=3005000
+release H398 hb 7.00
+release H403 ha 9.00
+hold H413 ha 6.00 until=never
+hold H414 ha 3.00 until=2903000
+release H376 ha 7.00
+release H412 hb 8.00
+release H404 hb 3.00
+hold H415 hb 2.00 until=2772000
+release H414 ha 3.00
+release H408 ha 7.00
+hold H416 hb 8.00 until=never
+release H380 hb 5.00
+release H394 ha 3.00
+hold H417 hb 4.00 until=2770000
+ok T0.61 capture H417 hb 4.00
+ok T0.62 capture H415 hb 2.00
+hold H418 ha 2.00 until=never
+hold H419 ha 7.00 until=3002000
+hold H420 hb 4.00 until=3024000
+release H419 ha 7.00
+now=2774000
+release H393 ha 5.00
+hold H421 ha 7.00 until=3067000
+hold H422 ha 9.00 until=3056000
+hold H423 hb 4.00 until=2870000
+release H423 hb 4.00
+hold H424 ha 3.00 until=2848000
+hold H425 ha 2.00 until=2859000
+hold H426 ha 8.00 until=3038000
+release H405 hb 3.00
+hold H427 ha 7.00 until=3025000
+release H420 hb 4.00
+hold H428 hb 2.00 until=3028000
+hold H429 hb 9.00 until=3020000
+release H429 hb 9.00
+release H372 hb 9.00
+hold H430 ha 2.00 until=2869000
+ok T0.63 capture H422 ha 9.00
+now=2788000
+hold H431 hb 5.00 until=never
+hold H432 hb 1.00 until=2936000
+hold H433 hb 5.00 until=2942000
+release H425 ha 2.00
+ok T0.64 capture H433 hb 5.00
+ok T0.65 capture H426 ha 8.00
+ok T0.66 capture H432 hb 1.00
+hold H434 hb 7.00 until=2943000
+H003 ha 4.00 until=never
+H030 ha 9.00 until=never
+H046 ha 2.00 until=never
+H058 ha 8.00 until=never
+H065 ha 3.00 until=never
+H097 ha 8.00 until=never
+H115 ha 1.00 until=never
+H169 ha 3.00 until=never
+H189 ha 5.00 until=never
+H201 ha 2.00 until=never
+H205 ha 1.00 until=never
+H245 ha 6.00 until=never
+H266 ha 7.00 until=never
+H310 ha 6.00 until=never
+H318 ha 4.00 until=never
+H320 ha 4.00 until=never
+H330 ha 5.00 until=never
+H344 ha 3.00 until=never
+H355 ha 5.00 until=never
+H409 ha 6.00 until=never
+H413 ha 6.00 until=never
+H418 ha 2.00 until=never
+H421 ha 7.00 until=3067000
+H424 ha 3.00 until=2848000
+H427 ha 7.00 until=3025000
+H430 ha 2.00 until=2869000
+holds ha count=26 held=119.00
+check ok records=67 live=67 accounts=2 holds=47 batches=0
+hold H435 hb 7.00 until=2946000
+ok T0.67 capture H430 ha 2.00
+ok T0.68 capture H421 ha 7.00
+hold H436 hb 4.00 until=2983000
+release H435 hb 7.00
+ok T0.69 capture H436 hb 4.00
+hold H437 ha 9.00 until=3001000
+hold H438 ha 5.00 until=2929000
+hold H439 hb 4.00 until=2889000
+hold H440 ha 9.00 until=2926000
+ok T0.70 capture H438 ha 5.00
+hold H441 hb 7.00 until=3074000
+ok T0.71 capture H434 hb 7.00
+ok T0.72 capture H440 ha 9.00
+hold H442 hb 4.00 until=2860000
+hold H443 hb 7.00 until=2935000
+release H439 hb 4.00
+hold H444 ha 1.00 until=3011000
+release H441 hb 7.00
+hold H445 hb 7.00 until=2841000
+hold H446 hb 5.00 until=2874000
+hold H447 ha 7.00 until=never
+hold H448 ha 6.00 until=3055000
+hold H449 ha 7.00 until=2941000
+now=2789000
+release H444 ha 1.00
+hold H450 hb 1.00 until=2832000
+release H448 ha 6.00
+release H427 ha 7.00
+release H424 ha 3.00
+release H437 ha 9.00
+release H449 ha 7.00
+hold H451 ha 6.00 until=3005000
+hold H452 hb 1.00 until=2907000
+now=2828000
+hold H453 hb 6.00 until=2939000
+release H451 ha 6.00
+hold H454 hb 1.00 until=2944000
+hold H455 hb 5.00 until=2839000
+release H428 hb 2.00
+hold H456 hb 4.00 until=2996000
+release H450 hb 1.00
+hold H457 hb 6.00 until=2832000
+hold H458 hb 6.00 until=2845000
+now=2867000
+expire H457 hb 6.00
+expire H455 hb 5.00
+expire H445 hb 7.00
+expire H458 hb 6.00
+expire H442 hb 4.00
+ok T0.73 capture H456 hb 4.00
+hold H459 ha 9.00 until=2893000
+release H453 hb 6.00
+hold H460 hb 7.00 until=2953000
+hold H461 ha 8.00 until=3141000
+release H459 ha 9.00
+hold H462 ha 7.00 until=2961000
+now=2876000
+expire H446 hb 5.00
+hold H463 hb 6.00 until=3087000
+release H460 hb 7.00
+hold H464 hb 1.00 until=3142000
+hold H465 ha 3.00 until=3073000
+hold H466 hb 8.00 until=never
+hold H467 ha 1.00 until=3058000
+now=2926000
+expire H452 hb 1.00
+release H454 hb 1.00
+hold H468 hb 7.00 until=2962000
+hold H469 ha 8.00 until=3183000
+hold H470 ha 2.00 until=never
+release H465 ha 3.00
+release H443 hb 7.00
+release H467 ha 1.00
+hold H471 ha 8.00 until=2953000
+hold H472 ha 4.00 until=3003000
+hold H473 hb 8.00 until=never
+hold H474 hb 2.00 until=3144000
+hold H475 ha 9.00 until=3089000
+hold H476 ha 8.00 until=3110000
+release H468 hb 7.00
+release H463 hb 6.00
+hold H477 hb 6.00 until=3102000
+release H476 ha 8.00
+release H462 ha 7.00
+hold H478 ha 7.00 until=3104000
+hold H479 hb 8.00 until=3043000
+hold H480 ha 2.00 until=2943000
+hold H481 hb 5.00 until=3050000
+release H472 ha 4.00
+release H474 hb 2.00
+ok T0.74 capture H464 hb 1.00
+hold H482 hb 6.00 until=3199000
+hold H483 ha 6.00 until=3017000
+hold H484 hb 4.00 until=3177000
+release H477 hb 6.00
+ok T0.75 capture H481 hb 5.00
+hold H485 ha 5.00 until=3056000
+now=2951000
+expire H480 ha 2.00
+now=2995000
+expire H471 ha 8.00
+release H484 hb 4.00
+ok T0.76 capture H479 hb 8.00
+release H485 ha 5.00
+release H483 ha 6.00
+now=3003000
+hold H486 ha 8.00 until=3047000
+hold H487 hb 2.00 until=3245000
+hold H488 ha 9.00 until=3257000
+hold H489 ha 9.00 until=3115000
+now=3041000
+release H487 hb 2.00
+hold H490 hb 8.00 until=3134000
+hold H491 ha 5.00 until=never
+hold H492 hb 9.00 until=3311000
+hold H493 hb 5.00 until=3054000
+hold H494 hb 5.00 until=3115000
+now=3094000
+expire H486 ha 8.00
+expire H493 hb 5.00
+expire H475 ha 9.00
+hold H495 hb 3.00 until=3239000
+now=3122000
+expire H478 ha 7.00
+expire H489 ha 9.00
+expire H494 hb 5.00
+hold H496 hb 7.00 until=3142000
+hold H497 hb 9.00 until=3294000
+hold H498 ha 3.00 until=3375000
+hold H499 hb 8.00 until=3263000
+hold H500 hb 1.00 until=never
+hold H501 ha 9.00 until=3232000
+hold H502 hb 8.00 until=3187000
+now=3136000
+expire H490 hb 8.00
+hold H503 hb 8.00 until=3238000
+hold H504 hb 8.00 until=3158000
+now=3161000
+expire H461 ha 8.00
+expire H496 hb 7.00
+expire H504 hb 8.00
+release H497 hb 9.00
+ok T0.77 capture H502 hb 8.00
+release H469 ha 8.00
+release H495 hb 3.00
+ok T0.78 capture H501 ha 9.00
+release H498 ha 3.00
+release H492 hb 9.00
+release H503 hb 8.00
+ok T0.79 capture H488 ha 9.00
+release H482 hb 6.00
+hold H505 hb 5.00 until=3162000
+now=3184000
+expire H505 hb 5.00
+hold H506 hb 2.00 until=3199000
+now=3221000
+expire H506 hb 2.00
+hold H507 ha 4.00 until=3340000
+hold H508 hb 1.00 until=3297000
+hold H509 hb 5.00 until=3229000
+hold H510 hb 7.00 until=3379000
+hold H511 ha 8.00 until=3343000
+now=3251000
+expire H509 hb 5.00
+hold H512 ha 2.00 until=3505000
+hold H513 ha 3.00 until=3294000
+hold H514 hb 9.00 until=3430000
+hold H515 ha 9.00 until=3453000
+hold H516 ha 8.00 until=3288000
+hold H517 hb 8.00 until=3263000
+release H507 ha 4.00
+release H508 hb 1.00
+release H512 ha 2.00
+release H499 hb 8.00
+ok T0.80 capture H513 ha 3.00
+release H517 hb 8.00
+hold H518 ha 3.00 until=3276000
+ok T0.81 capture H515 ha 9.00
+release H510 hb 7.00
+hold H519 hb 4.00 until=3399000
+hold H520 hb 8.00 until=3417000
+hold H521 hb 4.00 until=3521000
+ok T0.82 capture H518 ha 3.00
+hold H522 hb 1.00 until=3545000
+hold H523 hb 5.00 until=3357000
+hold H524 ha 1.00 until=3399000
+hold H525 hb 7.00 until=3321000
+hold H526 hb 6.00 until=3473000
+hold H527 ha 8.00 until=3505000
+release H511 ha 8.00
+release H522 hb 1.00
+hold H528 hb 9.00 until=3353000
+now=3311000
+expire H516 ha 8.00
+hold H529 hb 2.00 until=3345000
+now=3343000
+expire H525 hb 7.00
+release H524 ha 1.00
+hold H530 ha 9.00 until=3393000
+hold H531 ha 3.00 until=3421000
+hold H532 ha 3.00 until=3556000
+hold H533 ha 6.00 until=3529000
+hold H534 hb 5.00 until=3356000
+hold H535 hb 6.00 until=3614000
+release H514 hb 9.00
+hold H536 hb 4.00 until=3420000
+release H527 ha 8.00
+hold H537 ha 9.00 until=never
+release H533 ha 6.00
+hold H538 hb 5.00 until=3347000
+hold H539 ha 9.00 until=3523000
+release H526 hb 6.00
+now=3383000
+expire H529 hb 2.00
+expire H538 hb 5.00
+expire H528 hb 9.00
+expire H534 hb 5.00
+expire H523 hb 5.00
+release H530 ha 9.00
+hold H540 hb 6.00 until=3677000
+now=3419000
+expire H519 hb 4.00
+expire H520 hb 8.00
+hold H541 hb 7.00 until=3572000
+hold H542 hb 7.00 until=3527000
+release H531 ha 3.00
+hold H543 ha 9.00 until=3574000
+hold H544 hb 4.00 until=3488000
+hold H545 hb 2.00 until=3473000
+hold H546 hb 1.00 until=3479000
+release H539 ha 9.00
+hold H547 ha 5.00 until=3687000
+release H547 ha 5.00
+hold H548 hb 4.00 until=3710000
+hold H549 hb 8.00 until=never
+now=3451000
+expire H536 hb 4.00
+release H543 ha 9.00
+hold H550 ha 7.00 until=3510000
+hold H551 ha 5.00 until=3600000
+release H541 hb 7.00
+hold H552 hb 6.00 until=3644000
+hold H553 hb 6.00 until=3531000
+release H532 ha 3.00
+ok T0.83 capture H550 ha 7.00
+ok T0.84 capture H551 ha 5.00
+hold H554 ha 2.00 until=3545000
+release H542 hb 7.00
+now=3474000
+expire H545 hb 2.00
+hold H555 hb 7.00 until=3627000
+release H554 ha 2.00
+hold H556 ha 2.00 until=3629000
+hold H557 hb 1.00 until=3771000
+release H556 ha 2.00
+now=3511000
+expire H546 hb 1.00
+expire H544 hb 4.00
+hold H558 ha 9.00 until=3714000
+hold H559 hb 6.00 until=3715000
+hold H560 hb 9.00 until=3601000
+hold H561 ha 3.00 until=3638000
+hold H562 ha 1.00 until=3587000
+hold H563 ha 1.00 until=3670000
+hold H564 hb 3.00 until=3614000
+hold H565 ha 2.00 until=3732000
+ok T0.85 capture H540 hb 6.00
+release H561 ha 3.00
+hold H566 ha 8.00 until=3562000
+release H565 ha 2.00
+release H558 ha 9.00
+hold H567 hb 5.00 until=3624000
+hold H568 hb 7.00 until=3784000
+hold H569 ha 2.00 until=never
+now=3515000
+release H552 hb 6.00
+hold H570 ha 1.00 until=3670000
+hold H571 ha 5.00 until=3683000
+release H557 hb 1.00
+release H570 ha 1.00
+release H562 ha 1.00
+ok T0.86 capture H567 hb 5.00
+release H563 ha 1.00
+hold H572 hb 2.00 until=3563000
+now=3565000
+expire H521 hb 4.00
+expire H553 hb 6.00
+expire H566 ha 8.00
+expire H572 hb 2.00
+release H571 ha 5.00
+release H568 hb 7.00
+hold H573 hb 2.00 until=3792000
+hold H574 ha 9.00 until=3790000
+release H559 hb 6.00
+ok T0.87 capture H574 ha 9.00
+hold H575 hb 2.00 until=3695000
+hold H576 ha 1.00 until=3847000
+release H573 hb 2.00
+release H564 hb 3.00
+hold H577 hb 6.00 until=3614000
+hold H578 ha 9.00 until=3860000
+now=3583000
+release H578 ha 9.00
+release H576 ha 1.00
+hold H579 ha 5.00 until=3698000
+hold H580 hb 2.00 until=3880000
+hold H581 hb 8.00 until=3820000
+hold H582 ha 9.00 until=3644000
+release H582 ha 9.00
+hold H583 hb 1.00 until=3764000
+hold H584 hb 9.00 until=3808000
+ok T0.88 capture H577 hb 6.00
+release H580 hb 2.00
+release H584 hb 9.00
+hold H585 hb 2.00 until=3816000
+hold H586 hb 9.00 until=3769000
+ok T0.89 capture H581 hb 8.00
+hold H587 hb 1.00 until=3876000
+hold H588 hb 1.00 until=3722000
+release H579 ha 5.00
+hold H589 ha 2.00 until=3759000
+hold H590 ha 2.00 until=3629000
+hold H591 hb 9.00 until=3639000
+hold H592 hb 4.00 until=3736000
+ok T0.90 capture H586 hb 9.00
+release H555 hb 7.00
+release H590 ha 2.00
+now=3605000
+expire H560 hb 9.00
+hold H593 hb 5.00 until=3626000
+ok T0.91 capture H589 ha 2.00
+hold H594 ha 6.00 until=3788000
+hold H595 hb 3.00 until=3805000
+hold H596 hb 6.00 until=3803000
+H003 ha 4.00 until=never
+H030 ha 9.00 until=never
+H046 ha 2.00 until=never
+H058 ha 8.00 until=never
+H065 ha 3.00 until=never
+H097 ha 8.00 until=never
+H115 ha 1.00 until=never
+H169 ha 3.00 until=never
+H189 ha 5.00 until=never
+H201 ha 2.00 until=never
+H205 ha 1.00 until=never
+H245 ha 6.00 until=never
+H266 ha 7.00 until=never
+H310 ha 6.00 until=never
+H318 ha 4.00 until=never
+H320 ha 4.00 until=never
+H330 ha 5.00 until=never
+H344 ha 3.00 until=never
+H355 ha 5.00 until=never
+H409 ha 6.00 until=never
+H413 ha 6.00 until=never
+H418 ha 2.00 until=never
+H447 ha 7.00 until=never
+H470 ha 2.00 until=never
+H491 ha 5.00 until=never
+H537 ha 9.00 until=never
+H569 ha 2.00 until=never
+H594 ha 6.00 until=3788000
+holds ha count=28 held=131.00
+check ok records=92 live=92 accounts=2 holds=63 batches=0
+ok T0.92 capture H591 hb 9.00
+hold H597 hb 7.00 until=3760000
+release H597 hb 7.00
+ok T0.93 capture H594 ha 6.00
+hold H598 ha 1.00 until=3879000
+hold H599 ha 2.00 until=3631000
+hold H600 hb 6.00 until=3834000
+release H535 hb 6.00
+hold H601 hb 3.00 until=3804000
+hold H602 ha 5.00 until=3783000
+hold H603 hb 6.00 until=3623000
+hold H604 ha 1.00 until=3871000
+ok T0.94 capture H602 ha 5.00
+hold H605 hb 1.00 until=3727000
+hold H606 ha 4.00 until=3717000
+hold H607 hb 2.00 until=3787000
+hold H608 ha 2.00 until=3734000
+now=3648000
+expire H603 hb 6.00
+expire H593 hb 5.00
+expire H599 ha 2.00
+hold H609 hb 6.00 until=3770000
+release H605 hb 1.00
+hold H610 ha 1.00 until=never
+hold H611 ha 8.00 until=never
+hold H612 ha 1.00 until=3945000
+hold H613 hb 3.00 until=3717000
+hold H614 ha 3.00 until=3807000
+hold H615 ha 1.00 until=3694000
+hold H616 hb 4.00 until=3824000
+ok T0.95 capture H614 ha 3.00
+release H585 hb 2.00
+ok T0.96 capture H612 ha 1.00
+hold H617 hb 1.00 until=3685000
+release H587 hb 1.00
+release H598 ha 1.00
+hold H618 ha 9.00 until=3877000
+hold H619 hb 9.00 until=3748000
+hold H620 hb 7.00 until=3839000
+release H600 hb 6.00
+ok T0.97 capture H592 hb 4.00
+hold H621 ha 1.00 until=3715000
+now=3671000
+hold H622 ha 1.00 until=3916000
+hold H623 hb 8.00 until=3902000
+hold H624 ha 7.00 until=3783000
+release H619 hb 9.00
+release H608 ha 2.00
+release H616 hb 4.00
+release H613 hb 3.00
+release H588 hb 1.00
+hold H625 ha 7.00 until=3691000
+hold H626 ha 6.00 until=3722000
+now=3703000
+expire H617 hb 1.00
+expire H625 ha 7.00
+expire H615 ha 1.00
+expire H575 hb 2.00
+now=3737000
+expire H548 hb 4.00
+expire H621 ha 1.00
+expire H606 ha 4.00
+expire H626 ha 6.00
+release H622 ha 1.00
+hold H627 hb 4.00 until=3896000
+release H595 hb 3.00
+now=3767000
+expire H583 hb 1.00
+now=3782000
+expire H609 hb 6.00
+ok T0.98 capture H627 hb 4.00
+release H623 hb 8.00
+hold H628 ha 3.00 until=3874000
+hold H629 ha 8.00 until=4015000
+release H628 ha 3.00
+release H604 ha 1.00
+hold H630 ha 4.00 until=3784000
+release H596 hb 6.00
+hold H631 hb 6.00 until=3868000
+hold H632 hb 8.00 until=3881000
+release H618 ha 9.00
+hold H633 hb 7.00 until=never
+hold H634 hb 8.00 until=3883000
+ok T0.99 capture H630 ha 4.00
+now=3791000
+expire H624 ha 7.00
+expire H607 hb 2.00
+release H629 ha 8.00
+ok T0.100 capture H620 hb 7.00
+hold H635 ha 3.00 until=3802000
+release H634 hb 8.00
+hold H636 ha 1.00 until=3894000
+hold H637 hb 9.00 until=4076000
+hold H638 ha 4.00 until=4030000
+hold H639 ha 1.00 until=4070000
+hold H640 ha 8.00 until=3917000
+ok T0.101 capture H631 hb 6.00
+hold H641 ha 8.00 until=never
+hold H642 hb 2.00 until=3912000
+ok T0.102 capture H632 hb 8.00
+ok T0.103 capture H642 hb 2.00
+hold H643 ha 8.00 until=3942000
+release H635 ha 3.00
+release H636 ha 1.00
+hold H644 hb 5.00 until=3977000
+hold H645 hb 4.00 until=4039000
+hold H646 hb 3.00 until=3858000
+hold H647 hb 1.00 until=3796000
+hold H648 ha 1.00 until=3861000
+release H643 ha 8.00
+hold H649 ha 6.00 until=3814000
+hold H650 hb 4.00 until=3938000
+hold H651 hb 8.00 until=3880000
+now=3844000
+expire H647 hb 1.00
+expire H601 hb 3.00
+expire H649 ha 6.00
+hold H652 ha 4.00 until=4102000
+now=3900000
+expire H646 hb 3.00
+expire H648 ha 1.00
+expire H651 hb 8.00
+hold H653 ha 5.00 until=3901000
+ok T0.104 capture H638 ha 4.00
+release H644 hb 5.00
+ok T0.105 capture H650 hb 4.00
+hold H654 hb 4.00 until=3965000
+hold H655 ha 9.00 until=4025000
+hold H656 ha 1.00 until=4041000
+release H654 hb 4.00
+hold H657 hb 2.00 until=4090000
+hold H658 ha 2.00 until=never
+hold H659 ha 4.00 until=4039000
+hold H660 ha 7.00 until=3994000
+hold H661 ha 9.00 until=4092000
+release H653 ha 5.00
+now=3902000
+release H652 ha 4.00
+release H645 hb 4.00
+release H657 hb 2.00
+release H656 ha 1.00
+release H640 ha 8.00
+release H637 hb 9.00
+release H659 ha 4.00
+release H639 ha 1.00
+hold H662 ha 2.00 until=3960000
+release H662 ha 2.00
+hold H663 hb 4.00 until=4102000
+release H663 hb 4.00
+now=3936000
+release H661 ha 9.00
+release H660 ha 7.00
+hold H664 hb 9.00 until=3967000
+hold H665 ha 2.00 until=4178000
+release H664 hb 9.00
+release H665 ha 2.00
+hold H666 ha 5.00 until=4173000
+release H655 ha 9.00
+release H666 ha 5.00
+hold H667 hb 7.00 until=3985000
+ok T0.106 capture H667 hb 7.00
+hold H668 ha 4.00 until=4002000
+now=3975000
+now=3986000
+hold H669 hb 9.00 until=4175000
+release H669 hb 9.00
+hold H670 hb 5.00 until=4074000
+hold H671 ha 6.00 until=4212000
+release H670 hb 5.00
+hold H672 ha 6.00 until=4234000
+release H672 ha 6.00
+now=3995000
+now=4046000
+expire H668 ha 4.00
+hold H673 ha 3.00 until=4171000
+hold H674 hb 9.00 until=4336000
+release H671 ha 6.00
+now=4081000
+ok T0.107 capture H674 hb 9.00
+hold H675 hb 2.00 until=4354000
+ok T0.108 capture H673 ha 3.00
+ok T0.109 capture H675 hb 2.00
+hold H676 ha 9.00 until=4364000
+hold H677 hb 9.00 until=4108000
+hold H678 ha 6.00 until=4141000
+hold H679 ha 9.00 until=4233000
+hold H680 ha 3.00 until=never
+hold H681 ha 5.00 until=4193000
+release H677 hb 9.00
+hold H682 hb 1.00 until=4337000
+release H682 hb 1.00
+hold H683 ha 5.00 until=4222000
+hold H684 ha 8.00 until=4366000
+hold H685 hb 8.00 until=4260000
+hold H686 ha 2.00 until=4092000
+release H684 ha 8.00
+hold H687 hb 9.00 until=4087000
+hold H688 hb 9.00 until=never
+hold H689 hb 7.00 until=never
+ok T0.110 capture H681 ha 5.00
+release H676 ha 9.00
+hold H690 ha 3.00 until=4340000
+release H685 hb 8.00
+release H687 hb 9.00
+hold H691 hb 5.00 until=4170000
+ok T0.111 capture H686 ha 2.00
+hold H692 hb 6.00 until=never
+ok T0.112 capture H678 ha 6.00
+now=4104000
+release H691 hb 5.00
+now=4157000
+hold H693 hb 7.00 until=4405000
+ok T0.113 capture H693 hb 7.00
+hold H694 hb 1.00 until=4168000
+hold H695 hb 4.00 until=4394000
+hold H696 hb 3.00 until=4317000
+hold H697 hb 4.00 until=4283000
+release H690 ha 3.00
+hold H698 hb 2.00 until=4411000
+hold H699 ha 2.00 until=4434000
+release H695 hb 4.00
+hold H700 ha 8.00 until=4281000
+hold H701 ha 1.00 until=4232000
+hold H702 ha 4.00 until=4404000
+hold H703 ha 5.00 until=4194000
+ok T0.114 capture H696 hb 3.00
+hold H704 hb 6.00 until=4338000
+ok T0.115 capture H698 hb 2.00
+release H697 hb 4.00
+ok T0.116 capture H699 ha 2.00
+hold H705 ha 2.00 until=4290000
+hold H706 ha 4.00 until=4188000
+hold H707 ha 2.00 until=4242000
+release H679 ha 9.00
+release H694 hb 1.00
+release H683 ha 5.00
+hold H708 ha 8.00 until=4256000
+hold H709 ha 6.00 until=never
+release H704 hb 6.00
+hold H710 ha 4.00 until=4444000
+release H707 ha 2.00
+hold H711 hb 3.00 until=4187000
+hold H712 hb 8.00 until=never
+hold H713 hb 5.00 until=4272000
+hold H714 hb 4.00 until=4437000
+hold H715 hb 6.00 until=4310000
+release H713 hb 5.00
+hold H716 ha 3.00 until=4433000
+ok T0.117 capture H702 ha 4.00
+hold H717 ha 8.00 until=4220000
+hold H718 hb 5.00 until=4186000
+ok T0.118 capture H711 hb 3.00
+release H705 ha 2.00
+hold H719 ha 9.00 until=4174000
+release H706 ha 4.00
+hold H720 hb 3.00 until=4421000
+ok T0.119 capture H708 ha 8.00
+hold H721 ha 4.00 until=4311000
+hold H722 hb 6.00 until=4270000
+now=4175000
+expire H719 ha 9.00
+ok T0.120 capture H715 hb 6.00
+hold H723 ha 5.00 until=4461000
+now=4216000
+expire H718 hb 5.00
+expire H703 ha 5.00
+hold H724 ha 7.00 until=4453000
+release H722 hb 6.00
+now=4241000
+expire H717 ha 8.00
+expire H701 ha 1.00
+hold H725 hb 4.00 until=4514000
+hold H726 hb 2.00 until=4501000
+release H725 hb 4.00
+now=4285000
+expire H700 ha 8.00
+hold H727 ha 4.00 until=4552000
+hold H728 ha 1.00 until=4433000
+hold H729 ha 9.00 until=4311000
+release H727 ha 4.00
+ok T0.121 capture H714 hb 4.00
+release H726 hb 2.00
+hold H730 hb 9.00 until=4497000
+release H730 hb 9.00
+hold H731 ha 7.00 until=4423000
+hold H732 ha 4.00 until=4288000
+release H720 hb 3.00
+ok T0.122 capture H731 ha 7.00
+hold H733 ha 8.00 until=4560000
+hold H734 ha 8.00 until=4377000
+release H732 ha 4.00
+hold H735 hb 1.00 until=4432000
+release H735 hb 1.00
+hold H736 ha 4.00 until=4366000
+ok T0.123 capture H716 ha 3.00
+ok T0.124 capture H734 ha 8.00
+release H724 ha 7.00
+hold H737 ha 4.00 until=4576000
+hold H738 ha 8.00 until=4369000
+hold H739 hb 9.00 until=never
+release H729 ha 9.00
+hold H740 hb 2.00 until=4580000
+hold H741 ha 9.00 until=4435000
+hold H742 ha 4.00 until=4578000
+ok T0.125 capture H740 hb 2.00
+hold H743 hb 3.00 until=4336000
+hold H744 hb 6.00 until=4482000
+now=4333000
+expire H721 ha 4.00
+release H741 ha 9.00
+hold H745 hb 5.00 until=4611000
+ok T0.126 capture H736 ha 4.00
+hold H746 ha 4.00 until=4619000
+hold H747 ha 5.00 until=4618000
+release H742 ha 4.00
+H003 ha 4.00 until=never
+H030 ha 9.00 until=never
+H046 ha 2.00 until=never
+H058 ha 8.00 until=never
+H065 ha 3.00 until=never
+H097 ha 8.00 until=never
+H115 ha 1.00 until=never
+H169 ha 3.00 until=never
+H189 ha 5.00 until=never
+H201 ha 2.00 until=never
+H205 ha 1.00 until=never
+H245 ha 6.00 until=never
+H266 ha 7.00 until=never
+H310 ha 6.00 until=never
+H318 ha 4.00 until=never
+H320 ha 4.00 until=never
+H330 ha 5.00 until=never
+H344 ha 3.00 until=never
+H355 ha 5.00 until=never
+H409 ha 6.00 until=never
+H413 ha 6.00 until=never
+H418 ha 2.00 until=never
+H447 ha 7.00 until=never
+H470 ha 2.00 until=never
+H491 ha 5.00 until=never
+H537 ha 9.00 until=never
+H569 ha 2.00 until=never
+H610 ha 1.00 until=never
+H611 ha 8.00 until=never
+H641 ha 8.00 until=never
+H658 ha 2.00 until=never
+H680 ha 3.00 until=never
+H709 ha 6.00 until=never
+H710 ha 4.00 until=4444000
+H723 ha 5.00 until=4461000
+H728 ha 1.00 until=4433000
+H733 ha 8.00 until=4560000
+H737 ha 4.00 until=4576000
+H738 ha 8.00 until=4369000
+H746 ha 4.00 until=4619000
+H747 ha 5.00 until=4618000
+holds ha count=41 held=192.00
+check ok records=127 live=127 accounts=2 holds=73 batches=0
+ok T0.127 capture H745 hb 5.00
+hold H748 hb 4.00 until=4349000
+hold H749 hb 4.00 until=4463000
+hold H750 hb 7.00 until=4502000
+release H749 hb 4.00
+hold H751 ha 6.00 until=4463000
+hold H752 ha 5.00 until=4481000
+now=4364000
+expire H743 hb 3.00
+expire H748 hb 4.00
+hold H753 hb 1.00 until=4466000
+release H744 hb 6.00
+release H738 ha 8.00
+release H751 ha 6.00
+hold H754 hb 3.00 until=4453000
+hold H755 hb 3.00 until=4470000
+hold H756 hb 4.00 until=never
+hold H757 hb 1.00 until=4476000
+hold H758 hb 6.00 until=4423000
+hold H759 hb 8.00 until=4566000
+now=4413000
+ok T0.128 capture H710 ha 4.00
+hold H760 hb 1.00 until=4556000
+ok T0.129 capture H733 ha 8.00
+now=4457000
+expire H758 hb 6.00
+expire H728 ha 1.00
+expire H754 hb 3.00
+hold H761 ha 7.00 until=4756000
+hold H762 ha 4.00 until=4605000
+hold H763 hb 5.00 until=4707000
+hold H764 ha 3.00 until=4680000
+hold H765 hb 2.00 until=4543000
+hold H766 hb 5.00 until=4726000
+hold H767 ha 9.00 until=4497000
+release H747 ha 5.00
+hold H768 hb 3.00 until=4691000
+hold H769 hb 6.00 until=4721000
+hold H770 hb 5.00 until=4548000
+hold H771 ha 2.00 until=4490000
+ok T0.130 capture H723 ha 5.00
+now=4467000
+expire H753 hb 1.00
+ok T0.131 capture H771 ha 2.00
+release H755 hb 3.00
+release H764 ha 3.00
+release H757 hb 1.00
+release H768 hb 3.00
+hold H772 hb 9.00 until=4645000
+hold H773 hb 1.00 until=4505000
+hold H774 ha 3.00 until=4733000
+hold H775 hb 5.00 until=4566000
+hold H776 ha 8.00 until=4747000
+now=4506000
+expire H752 ha 5.00
+expire H767 ha 9.00
+expire H750 hb 7.00
+expire H773 hb 1.00
+hold H777 ha 9.00 until=4651000
+hold H778 hb 1.00 until=4698000
+ok T0.132 capture H772 hb 9.00
+hold H779 ha 7.00 until=4551000
+hold H780 ha 7.00 until=4537000
+release H775 hb 5.00
+ok T0.133 capture H746 ha 4.00
+hold H781 ha 7.00 until=4737000
+ok T0.134 capture H766 hb 5.00
+hold H782 ha 4.00 until=4695000
+hold H783 hb 9.00 until=never
+release H781 ha 7.00
+hold H784 hb 4.00 until=4705000
+hold H785 hb 2.00 until=4534000
+release H759 hb 8.00
+release H770 hb 5.00
+hold H786 ha 8.00 until=never
+hold H787 ha 3.00 until=4528000
+hold H788 hb 8.00 until=4806000
+hold H789 ha 9.00 until=never
+hold H790 ha 6.00 until=4565000
+hold H791 ha 1.00 until=4532000
+hold H792 hb 2.00 until=4537000
+hold H793 hb 4.00 until=4700000
+hold H794 hb 4.00 until=4682000
+hold H795 ha 4.00 until=4526000
+ok T0.135 capture H784 hb 4.00
+hold H796 hb 5.00 until=4710000
+release H760 hb 1.00
+release H776 ha 8.00
+hold H797 hb 9.00 until=4686000
+hold H798 hb 3.00 until=4617000
+hold H799 hb 3.00 until=4804000
+release H761 ha 7.00
+hold H800 hb 1.00 until=4597000
+hold H801 ha 8.00 until=4668000
+hold H802 hb 7.00 until=4562000
+release H762 ha 4.00
+release H777 ha 9.00
+release H791 ha 1.00
+hold H803 hb 3.00 until=4676000
+release H803 hb 3.00
+hold H804 ha 5.00 until=4517000
+hold H805 hb 2.00 until=4552000
+release H780 ha 7.00
+hold H806 hb 8.00 until=4747000
+now=4559000
+expire H804 ha 5.00
+expire H795 ha 4.00
+expire H787 ha 3.00
+expire H785 hb 2.00
+expire H792 hb 2.00
+expire H765 hb 2.00
+expire H779 ha 7.00
+expire H805 hb 2.00
+hold H807 hb 7.00 until=4692000
+release H801 ha 8.00
+ok T0.136 capture H794 hb 4.00
+ok T0.137 capture H737 ha 4.00
+now=4612000
+expire H802 hb 7.00
+expire H790 ha 6.00
+expire H800 hb 1.00
+release H806 hb 8.00
+ok T0.138 capture H782 ha 4.00
+hold H808 hb 3.00 until=4706000
+now=4638000
+expire H798 hb 3.00
+now=4691000
+expire H797 hb 9.00
+hold H809 ha 3.00 until=4961000
+hold H810 hb 9.00 until=4783000
+release H774 ha 3.00
+hold H811 hb 7.00 until=4937000
+release H793 hb 4.00
+hold H812 hb 8.00 until=4986000
+release H812 hb 8.00
+hold H813 ha 3.00 until=4954000
+ok T0.139 capture H813 ha 3.00
+release H809 ha 3.00
+now=4696000
+expire H807 hb 7.00
+ok T0.140 capture H799 hb 3.00
+hold H814 ha 4.00 until=4853000
+hold H815 hb 3.00 until=4985000
+release H814 ha 4.00
+hold H816 hb 5.00 until=4931000
+hold H817 hb 5.00 until=4910000
+hold H818 hb 2.00 until=4756000
+hold H819 hb 1.00 until=4799000
+hold H820 hb 4.00 until=4901000
+release H817 hb 5.00
+hold H821 ha 4.00 until=4699000
+release H821 ha 4.00
+hold H822 hb 4.00 until=never
+hold H823 ha 8.00 until=4928000
+hold H824 hb 3.00 until=4968000
+now=4756000
+expire H778 hb 1.00
+expire H808 hb 3.00
+expire H763 hb 5.00
+expire H796 hb 5.00
+expire H769 hb 6.00
+expire H818 hb 2.00
+hold H825 hb 9.00 until=4962000
+hold H826 hb 8.00 until=4801000
+hold H827 ha 3.00 until=4968000
+now=4812000
+expire H810 hb 9.00
+expire H819 hb 1.00
+expire H826 hb 8.00
+expire H788 hb 8.00
+ok T0.141 capture H823 ha 8.00
+hold H828 ha 3.00 until=5030000
+release H825 hb 9.00
+now=4843000
+hold H829 ha 9.00 until=4945000
+hold H830 hb 6.00 until=4932000
+release H815 hb 3.00
+hold H831 ha 5.00 until=5071000
+hold H832 ha 3.00 until=5058000
+release H829 ha 9.00
+release H820 hb 4.00
+ok T0.142 capture H816 hb 5.00
+release H824 hb 3.00
+hold H833 ha 6.00 until=4973000
+hold H834 hb 4.00 until=4870000
+release H831 ha 5.00
+hold H835 ha 6.00 until=4894000
+hold H836 hb 8.00 until=5047000
+hold H837 ha 4.00 until=4978000
+ok T0.143 capture H828 ha 3.00
+release H834 hb 4.00
+hold H838 hb 7.00 until=5012000
+hold H839 ha 2.00 until=never
+ok T0.144 capture H811 hb 7.00
+hold H840 hb 9.00 until=4995000
+release H837 ha 4.00
+hold H841 hb 1.00 until=5086000
+release H833 ha 6.00
+release H832 ha 3.00
+hold H842 ha 7.00 until=5076000
+hold H843 ha 4.00 until=4845000
+hold H844 ha 7.00 until=4921000
+now=4867000
+expire H843 ha 4.00
+release H835 ha 6.00
+release H838 hb 7.00
+hold H845 ha 9.00 until=4885000
+hold H846 ha 3.00 until=5104000
+hold H847 hb 5.00 until=5041000
+ok T0.145 capture H830 hb 6.00
+hold H848 hb 8.00 until=5145000
+release H841 hb 1.00
+hold H849 hb 2.00 until=5108000
+release H840 hb 9.00
+hold H850 ha 6.00 until=5153000
+release H849 hb 2.00
+release H850 ha 6.00
+ok T0.146 capture H848 hb 8.00
+hold H851 ha 4.00 until=4925000
+hold H852 hb 4.00 until=4994000
+hold H853 hb 1.00 until=4956000
+hold H854 hb 3.00 until=5017000
+now=4871000
+hold H855 ha 1.00 until=4942000
+hold H856 ha 7.00 until=4917000
+release H827 ha 3.00
+hold H857 ha 9.00 until=4933000
+ok T0.147 capture H853 hb 1.00
+ok T0.148 capture H844 ha 7.00
+release H847 hb 5.00
+release H852 hb 4.00
+release H854 hb 3.00
+release H855 ha 1.00
+hold H858 hb 1.00 until=never
+release H836 hb 8.00
+ok T0.149 capture H851 ha 4.00
+hold H859 ha 9.00 until=5060000
+hold H860 hb 9.00 until=4875000
+release H860 hb 9.00
+now=4881000
+hold H861 hb 8.00 until=4894000
+release H861 hb 8.00
+hold H862 hb 8.00 until=5015000
+ok T0.150 capture H862 hb 8.00
+hold H863 hb 5.00 until=5113000
+hold H864 ha 2.00 until=4892000
+hold H865 hb 7.00 until=5038000
+now=4906000
+expire H845 ha 9.00
+expire H864 ha 2.00
+hold H866 ha 5.00 until=5015000
+ok T0.151 capture H863 hb 5.00
+release H866 ha 5.00
+release H859 ha 9.00
+hold H867 ha 5.00 until=4947000
+ok T0.152 capture H856 ha 7.00
+hold H868 ha 2.00 until=4994000
+release H857 ha 9.00
+hold H869 ha 5.00 until=5175000
+release H869 ha 5.00
+ok T0.153 capture H865 hb 7.00
+hold H870 ha 6.00 until=never
+now=4936000
+hold H871 ha 1.00 until=5103000
+hold H872 hb 3.00 until=5032000
+hold H873 ha 9.00 until=5102000
+hold H874 ha 3.00 until=5111000
+hold H875 ha 8.00 until=never
+hold H876 ha 3.00 until=5040000
+release H868 ha 2.00
+release H872 hb 3.00
+hold H877 hb 4.00 until=5198000
+now=4988000
+expire H867 ha 5.00
+now=5013000
+hold H878 ha 4.00 until=5243000
+hold H879 ha 1.00 until=5290000
+hold H880 hb 7.00 until=never
+release H877 hb 4.00
+hold H881 ha 4.00 until=5304000
+now=5070000
+expire H876 ha 3.00
+hold H882 ha 3.00 until=5343000
+release H881 ha 4.00
+release H878 ha 4.00
+now=5073000
+now=5074000
+hold H883 ha 9.00 until=5271000
+hold H884 ha 6.00 until=5205000
+hold H885 hb 9.00 until=5191000
+release H885 hb 9.00
+release H884 ha 6.00
+now=5113000
+expire H842 ha 7.00
+expire H873 ha 9.00
+expire H871 ha 1.00
+expire H846 ha 3.00
+expire H874 ha 3.00
+release H879 ha 1.00
+hold H886 hb 3.00 until=never
+ok T0.154 capture H883 ha 9.00
+hold H887 ha 2.00 until=5265000
+release H882 ha 3.00
+now=5157000
+hold H888 ha 7.00 until=never
+now=5182000
+release H887 ha 2.00
+hold H889 hb 4.00 until=5187000
+hold H890 hb 4.00 until=5239000
+hold H891 hb 7.00 until=never
+hold H892 ha 2.00 until=never
+hold H893 ha 5.00 until=5273000
+release H889 hb 4.00
+hold H894 ha 2.00 until=5224000
+release H893 ha 5.00
+hold H895 hb 8.00 until=5199000
+release H895 hb 8.00
+release H890 hb 4.00
+hold H896 hb 3.00 until=5278000
+release H896 hb 3.00
+hold H897 hb 3.00 until=5435000
+hold H898 ha 5.00 until=5329000
+release H897 hb 3.00
+hold H899 hb 7.00 until=5233000
+hold H900 hb 8.00 until=5366000
+hold H901 ha 2.00 until=5476000
+ok T0.155 capture H899 hb 7.00
+now=5188000
+release H900 hb 8.00
+hold H902 ha 5.00 until=5349000
+hold H903 hb 6.00 until=5230000
+hold H904 hb 4.00 until=5324000
+release H898 ha 5.00
+hold H905 hb 4.00 until=5448000
+release H905 hb 4.00
+ok T0.156 capture H904 hb 4.00
+release H894 ha 2.00
+release H901 ha 2.00
+hold H906 ha 7.00 until=5333000
+H003 ha 4.00 until=never
+H030 ha 9.00 until=never
+H046 ha 2.00 until=never
+H058 ha 8.00 until=never
+H065 ha 3.00 until=never
+H097 ha 8.00 until=never
+H115 ha 1.00 until=never
+H169 ha 3.00 until=never
+H189 ha 5.00 until=never
+H201 ha 2.00 until=never
+H205 ha 1.00 until=never
+H245 ha 6.00 until=never
+H266 ha 7.00 until=never
+H310 ha 6.00 until=never
+H318 ha 4.00 until=never
+H320 ha 4.00 until=never
+H330 ha 5.00 until=never
+H344 ha 3.00 until=never
+H355 ha 5.00 until=never
+H409 ha 6.00 until=never
+H413 ha 6.00 until=never
+H418 ha 2.00 until=never
+H447 ha 7.00 until=never
+H470 ha 2.00 until=never
+H491 ha 5.00 until=never
+H537 ha 9.00 until=never
+H569 ha 2.00 until=never
+H610 ha 1.00 until=never
+H611 ha 8.00 until=never
+H641 ha 8.00 until=never
+H658 ha 2.00 until=never
+H680 ha 3.00 until=never
+H709 ha 6.00 until=never
+H786 ha 8.00 until=never
+H789 ha 9.00 until=never
+H839 ha 2.00 until=never
+H870 ha 6.00 until=never
+H875 ha 8.00 until=never
+H888 ha 7.00 until=never
+H892 ha 2.00 until=never
+H902 ha 5.00 until=5349000
+H906 ha 7.00 until=5333000
+holds ha count=42 held=207.00
+check ok records=157 live=157 accounts=2 holds=79 batches=0
+hold H907 hb 3.00 until=5313000
+hold H908 ha 4.00 until=5280000
+hold H909 hb 1.00 until=never
+hold H910 hb 3.00 until=5379000
+release H910 hb 3.00
+hold H911 ha 2.00 until=5429000
+now=5213000
+release H907 hb 3.00
+now=5261000
+expire H903 hb 6.00
+hold H912 hb 5.00 until=5416000
+ok T0.157 capture H912 hb 5.00
+release H902 ha 5.00
+now=5313000
+expire H908 ha 4.00
+hold H913 hb 4.00 until=5520000
+hold H914 ha 8.00 until=5420000
+now=5340000
+expire H906 ha 7.00
+hold H915 hb 5.00 until=5500000
+ok T0.158 capture H911 ha 2.00
+release H914 ha 8.00
+hold H916 ha 3.00 until=5573000
+hold H917 hb 2.00 until=5368000
+release H915 hb 5.00
+release H916 ha 3.00
+hold H918 ha 6.00 until=5513000
+hold H919 ha 2.00 until=5630000
+release H913 hb 4.00
+release H918 ha 6.00
+now=5384000
+expire H917 hb 2.00
+hold H920 ha 2.00 until=5648000
+hold H921 hb 8.00 until=5549000
+release H921 hb 8.00
+hold H922 ha 6.00 until=5480000
+hold H923 ha 7.00 until=5565000
+hold H924 ha 3.00 until=5387000
+ok T0.159 capture H920 ha 2.00
+hold H925 ha 8.00 until=5570000
+release H922 ha 6.00
+hold H926 hb 8.00 until=5657000
+hold H927 ha 1.00 until=5457000
+ok T0.160 capture H924 ha 3.00
+now=5390000
+hold H928 ha 5.00 until=5413000
+hold H929 ha 4.00 until=5615000
+hold H930 hb 7.00 until=5422000
+hold H931 ha 2.00 until=5649000
+hold H932 ha 4.00 until=5405000
+release H926 hb 8.00
+hold H933 ha 4.00 until=5656000
+ok T0.161 capture H923 ha 7.00
+now=5398000
+release H930 hb 7.00
+release H927 ha 1.00
+release H932 ha 4.00
+ok T0.162 capture H919 ha 2.00
+ok T0.163 capture H933 ha 4.00
+hold H934 hb 4.00 until=5647000
+hold H935 ha 9.00 until=5477000
+hold H936 ha 9.00 until=5645000
+release H934 hb 4.00
+hold H937 hb 6.00 until=5401000
+release H937 hb 6.00
+hold H938 hb 7.00 until=5502000
+hold H939 hb 3.00 until=5443000
+hold H940 hb 3.00 until=5464000
+hold H941 ha 5.00 until=5640000
+hold H942 ha 4.00 until=5493000
+now=5438000
+expire H928 ha 5.00
+release H925 ha 8.00
+now=5445000
+expire H939 hb 3.00
+hold H943 ha 7.00 until=5527000
+now=5460000
+hold H944 hb 8.00 until=5731000
+hold H945 ha 2.00 until=5618000
+hold H946 hb 3.00 until=5730000
+release H929 ha 4.00
+hold H947 ha 3.00 until=5574000
+hold H948 ha 2.00 until=5592000
+release H938 hb 7.00
+now=5519000
+expire H940 hb 3.00
+expire H935 ha 9.00
+expire H942 ha 4.00
+hold H949 hb 2.00 until=5774000
+hold H950 hb 2.00 until=5548000
+release H947 ha 3.00
+hold H951 ha 4.00 until=5747000
+hold H952 ha 6.00 until=5726000
+hold H953 ha 8.00 until=5558000
+now=5573000
+expire H943 ha 7.00
+expire H950 hb 2.00
+expire H953 ha 8.00
+now=5597000
+expire H948 ha 2.00
+release H946 hb 3.00
+now=5645000
+expire H945 ha 2.00
+expire H941 ha 5.00
+expire H936 ha 9.00
+hold H954 hb 3.00 until=5863000
+hold H955 ha 9.00 until=5765000
+release H949 hb 2.00
+hold H956 hb 4.00 until=5689000
+release H956 hb 4.00
+ok T0.164 capture H944 hb 8.00
+release H954 hb 3.00
+ok T0.165 capture H931 ha 2.00
+hold H957 hb 6.00 until=never
+hold H958 hb 6.00 until=5658000
+hold H959 ha 6.00 until=5806000
+hold H960 hb 2.00 until=5927000
+release H960 hb 2.00
+hold H961 hb 5.00 until=5850000
+now=5649000
+hold H962 hb 8.00 until=5844000
+hold H963 hb 6.00 until=5720000
+now=5662000
+expire H958 hb 6.00
+hold H964 ha 4.00 until=5893000
+release H959 ha 6.00
+hold H965 hb 9.00 until=5916000
+release H963 hb 6.00
+hold H966 hb 4.00 until=5789000
+ok T0.166 capture H964 ha 4.00
+release H962 hb 8.00
+release H951 ha 4.00
+ok T0.167 capture H955 ha 9.00
+release H966 hb 4.00
+release H965 hb 9.00
+hold H967 ha 3.00 until=5930000
+release H967 ha 3.00
+hold H968 ha 6.00 until=5829000
+ok T0.168 capture H968 ha 6.00
+now=5664000
+hold H969 ha 4.00 until=5742000
+hold H970 ha 6.00 until=5812000
+hold H971 ha 2.00 until=5941000
+hold H972 ha 4.00 until=5666000
+hold H973 ha 6.00 until=5932000
+release H961 hb 5.00
+hold H974 hb 2.00 until=5867000
+release H974 hb 2.00
+hold H975 ha 8.00 until=5845000
+hold H976 ha 1.00 until=5713000
+hold H977 hb 3.00 until=5832000
+hold H978 hb 6.00 until=5838000
+release H969 ha 4.00
+hold H979 ha 5.00 until=5935000
+release H978 hb 6.00
+release H977 hb 3.00
+hold H980 ha 1.00 until=5941000
+hold H981 hb 9.00 until=5841000
+ok T0.169 capture H981 hb 9.00
+release H980 ha 1.00
+now=5695000
+expire H972 ha 4.00
+ok T0.170 capture H975 ha 8.00
+hold H982 ha 2.00 until=5798000
+hold H983 ha 7.00 until=5865000
+release H982 ha 2.00
+hold H984 hb 6.00 until=5794000
+hold H985 hb 7.00 until=5942000
+release H979 ha 5.00
+release H983 ha 7.00
+ok T0.171 capture H985 hb 7.00
+hold H986 hb 5.00 until=5947000
+hold H987 ha 5.00 until=5992000
+ok T0.172 capture H952 ha 6.00
+now=5736000
+expire H976 ha 1.00
+hold H988 hb 5.00 until=6010000
+hold H989 ha 2.00 until=6012000
+release H984 hb 6.00
+release H973 ha 6.00
+hold H990 ha 5.00 until=5896000
+hold H991 ha 6.00 until=5843000
+hold H992 hb 5.00 until=5815000
+release H991 ha 6.00
+release H992 hb 5.00
+hold H993 hb 6.00 until=5806000
+hold H994 ha 1.00 until=5832000
+ok T0.173 capture H986 hb 5.00
+release H990 ha 5.00
+release H988 hb 5.00
+hold H995 ha 9.00 until=5901000
+hold H996 hb 2.00 until=6018000
+hold H997 ha 6.00 until=5839000
+hold H998 ha 9.00 until=never
+now=5794000
+ok T0.174 capture H993 hb 6.00
+hold H999 ha 5.00 until=5956000
+ok T0.175 capture H996 hb 2.00
+release H970 ha 6.00
+hold H001 ha 1.00 until=5945000
+hold H002 ha 6.00 until=5819000
+hold H004 ha 4.00 until=never
+now=5842000
+expire H002 ha 6.00
+expire H994 ha 1.00
+expire H997 ha 6.00
+hold H005 hb 5.00 until=6056000
+release H005 hb 5.00
+hold H006 hb 6.00 until=6052000
+release H001 ha 1.00
+now=5875000
+hold H007 ha 2.00 until=6101000
+ok T0.176 capture H995 ha 9.00
+hold H008 hb 2.00 until=6136000
+hold H009 ha 1.00 until=6093000
+hold H010 ha 9.00 until=5985000
+ok T0.177 capture H008 hb 2.00
+hold H011 hb 3.00 until=6149000
+ok T0.178 capture H010 ha 9.00
+release H971 ha 2.00
+now=5926000
+hold H012 ha 6.00 until=6139000
+release H989 ha 2.00
+hold H013 ha 7.00 until=6057000
+hold H014 ha 3.00 until=never
+hold H015 hb 7.00 until=6082000
+hold H016 hb 5.00 until=6117000
+release H987 ha 5.00
+release H007 ha 2.00
+hold H017 hb 2.00 until=5955000
+ok T0.179 capture H013 ha 7.00
+release H999 ha 5.00
+hold H018 hb 3.00 until=6219000
+release H009 ha 1.00
+now=5979000
+expire H017 hb 2.00
+hold H019 hb 5.00 until=6026000
+hold H020 hb 1.00 until=never
+hold H021 hb 8.00 until=6248000
+hold H022 hb 5.00 until=6133000
+hold H023 ha 2.00 until=never
+now=6004000
+hold H024 ha 2.00 until=6191000
+hold H025 hb 1.00 until=6092000
+hold H026 ha 7.00 until=6120000
+hold H027 ha 3.00 until=6255000
+now=6024000
+now=6060000
+expire H019 hb 5.00
+expire H006 hb 6.00
+hold H028 hb 1.00 until=6077000
+release H024 ha 2.00
+release H016 hb 5.00
+release H028 hb 1.00
+hold H029 ha 5.00 until=6091000
+ok T0.180 capture H012 ha 6.00
+now=6112000
+expire H015 hb 7.00
+expire H029 ha 5.00
+expire H025 hb 1.00
+release H018 hb 3.00
+ok T0.181 capture H027 ha 3.00
+hold H031 ha 9.00 until=6226000
+release H021 hb 8.00
+hold H032 ha 5.00 until=6368000
+ok T0.182 capture H031 ha 9.00
+now=6135000
+expire H026 ha 7.00
+expire H022 hb 5.00
+hold H033 ha 7.00 until=6411000
+release H011 hb 3.00
+hold H034 ha 1.00 until=6235000
+hold H035 ha 4.00 until=6346000
+release H033 ha 7.00
+hold H036 ha 6.00 until=6319000
+release H036 ha 6.00
+now=6174000
+hold H038 ha 5.00 until=6333000
+hold H039 ha 5.00 until=6448000
+release H032 ha 5.00
+now=6222000
+hold H040 hb 3.00 until=6353000
+release H040 hb 3.00
+hold H041 ha 4.00 until=6509000
+hold H042 ha 9.00 until=6230000
+release H034 ha 1.00
+now=6280000
+expire H042 ha 9.00
+release H041 ha 4.00
+hold H043 ha 8.00 until=6430000
+hold H044 hb 1.00 until=6360000
+release H035 ha 4.00
+now=6285000
+hold H045 hb 2.00 until=6383000
+hold H047 ha 7.00 until=never
+hold H048 ha 5.00 until=never
+hold H049 ha 4.00 until=6357000
+hold H050 hb 5.00 until=6428000
+release H044 hb 1.00
+release H050 hb 5.00
+hold H051 ha 7.00 until=never
+ok T0.183 capture H045 hb 2.00
+now=6342000
+expire H038 ha 5.00
+hold H052 ha 4.00 until=6422000
+hold H053 ha 9.00 until=6587000
+hold H054 hb 4.00 until=6608000
+ok T0.184 capture H054 hb 4.00
+hold H055 hb 2.00 until=6419000
+release H049 ha 4.00
+release H055 hb 2.00
+release H052 ha 4.00
+hold H056 ha 2.00 until=6473000
+release H039 ha 5.00
+release H056 ha 2.00
+hold H057 ha 1.00 until=6427000
+release H057 ha 1.00
+hold H059 ha 5.00 until=6453000
+hold H060 hb 7.00 until=6489000
+release H043 ha 8.00
+hold H061 hb 9.00 until=6481000
+release H060 hb 7.00
+hold H062 hb 8.00 until=6408000
+now=6355000
+release H061 hb 9.00
+H003 ha 4.00 until=never
+H004 ha 4.00 until=never
+H014 ha 3.00 until=never
+H023 ha 2.00 until=never
+H030 ha 9.00 until=never
+H046 ha 2.00 until=never
+H047 ha 7.00 until=never
+H048 ha 5.00 until=never
+H051 ha 7.00 until=never
+H053 ha 9.00 until=6587000
+H058 ha 8.00 until=never
+H059 ha 5.00 until=6453000
+H065 ha 3.00 until=never
+H097 ha 8.00 until=never
+H115 ha 1.00 until=never
+H169 ha 3.00 until=never
+H189 ha 5.00 until=never
+H201 ha 2.00 until=never
+H205 ha 1.00 until=never
+H245 ha 6.00 until=never
+H266 ha 7.00 until=never
+H310 ha 6.00 until=never
+H318 ha 4.00 until=never
+H320 ha 4.00 until=never
+H330 ha 5.00 until=never
+H344 ha 3.00 until=never
+H355 ha 5.00 until=never
+H409 ha 6.00 until=never
+H413 ha 6.00 until=never
+H418 ha 2.00 until=never
+H447 ha 7.00 until=never
+H470 ha 2.00 until=never
+H491 ha 5.00 until=never
+H537 ha 9.00 until=never
+H569 ha 2.00 until=never
+H610 ha 1.00 until=never
+H611 ha 8.00 until=never
+H641 ha 8.00 until=never
+H658 ha 2.00 until=never
+H680 ha 3.00 until=never
+H709 ha 6.00 until=never
+H786 ha 8.00 until=never
+H789 ha 9.00 until=never
+H839 ha 2.00 until=never
+H870 ha 6.00 until=never
+H875 ha 8.00 until=never
+H888 ha 7.00 until=never
+H892 ha 2.00 until=never
+H998 ha 9.00 until=never
+holds ha count=49 held=246.00
+check ok records=185 live=185 accounts=2 holds=89 batches=0
+ok T0.185 capture H053 ha 9.00
+release H062 hb 8.00
+release H059 ha 5.00
+now=6389000
+hold H063 ha 6.00 until=6557000
+release H063 ha 6.00
+hold H064 ha 9.00 until=6439000
+hold H066 hb 5.00 until=never
+hold H067 ha 7.00 until=6564000
+hold H068 hb 1.00 until=6416000
+ok T0.186 capture H068 hb 1.00
+hold H069 ha 8.00 until=6494000
+hold H070 hb 2.00 until=6422000
+hold H071 ha 4.00 until=6630000
+release H070 hb 2.00
+hold H072 hb 6.00 until=6517000
+hold H073 ha 7.00 until=6689000
+ok T0.187 capture H072 hb 6.00
+hold H074 hb 5.00 until=6504000
+hold H075 hb 3.00 until=6579000
+release H075 hb 3.00
+release H067 ha 7.00
+hold H076 ha 6.00 until=6680000
+release H074 hb 5.00
+hold H077 ha 4.00 until=6519000
+hold H078 hb 9.00 until=6547000
+release H078 hb 9.00
+hold H079 ha 4.00 until=6529000
+release H064 ha 9.00
+ok T0.188 capture H073 ha 7.00
+release H077 ha 4.00
+release H076 ha 6.00
+hold H080 ha 2.00 until=6421000
+hold H081 ha 5.00 until=6584000
+ok T0.189 capture H081 ha 5.00
+hold H082 hb 8.00 until=6628000
+hold H083 ha 3.00 until=6587000
+hold H084 ha 8.00 until=6461000
+release H082 hb 8.00
+hold H085 ha 9.00 until=6480000
+hold H086 hb 8.00 until=never
+hold H087 hb 7.00 until=6601000
+hold H088 ha 9.00 until=6414000
+hold H089 ha 7.00 until=6416000
+now=6418000
+expire H088 ha 9.00
+expire H089 ha 7.00
+hold H090 hb 1.00 until=never
+hold H091 ha 4.00 until=6528000
+hold H092 hb 6.00 until=never
+now=6456000
+expire H080 ha 2.00
+ok T0.190 capture H087 hb 7.00
+ok T0.191 capture H079 ha 4.00
+hold H093 hb 1.00 until=6527000
+hold H094 ha 3.00 until=6663000
+hold H095 hb 8.00 until=6505000
+release H069 ha 8.00
+release H091 ha 4.00
+ok T0.192 capture H095 hb 8.00
+release H085 ha 9.00
+hold H096 ha 5.00 until=6561000
+release H093 hb 1.00
+hold H098 hb 4.00 until=6550000
+ok T0.193 capture H071 ha 4.00
+release H098 hb 4.00
+hold H100 ha 7.00 until=6679000
+release H100 ha 7.00
+release H094 ha 3.00
+release H083 ha 3.00
+now=6498000
+expire H084 ha 8.00
+hold H101 hb 7.00 until=6534000
+now=6511000
+release H101 hb 7.00
+hold H102 ha 5.00 until=6613000
+hold H103 ha 7.00 until=6785000
+hold H104 ha 8.00 until=6713000
+hold H105 hb 1.00 until=never
+hold H106 ha 9.00 until=6731000
+hold H107 hb 4.00 until=6618000
+hold H108 ha 7.00 until=6715000
+release H104 ha 8.00
+release H108 ha 7.00
+ok T0.194 capture H107 hb 4.00
+release H096 ha 5.00
+hold H109 ha 7.00 until=6785000
+release H109 ha 7.00
+hold H110 ha 2.00 until=6787000
+hold H111 ha 5.00 until=6755000
+hold H112 hb 4.00 until=6616000
+hold H113 ha 6.00 until=6570000
+hold H114 hb 8.00 until=6591000
+release H112 hb 4.00
+hold H116 ha 4.00 until=6703000
+ok T0.195 capture H114 hb 8.00
+hold H117 ha 1.00 until=6786000
+hold H118 ha 5.00 until=6679000
+hold H119 ha 9.00 until=6639000
+hold H120 hb 4.00 until=6556000
+release H120 hb 4.00
+release H103 ha 7.00
+now=6564000
+hold H121 ha 9.00 until=never
+release H111 ha 5.00
+ok T0.196 capture H118 ha 5.00
+hold H122 ha 1.00 until=6751000
+now=6623000
+expire H113 ha 6.00
+expire H102 ha 5.00
+hold H123 hb 7.00 until=6798000
+release H106 ha 9.00
+hold H124 ha 1.00 until=6801000
+ok T0.197 capture H116 ha 4.00
+now=6665000
+expire H119 ha 9.00
+release H123 hb 7.00
+release H117 ha 1.00
+now=6691000
+release H124 ha 1.00
+ok T0.198 capture H122 ha 1.00
+hold H125 ha 1.00 until=6802000
+hold H126 hb 1.00 until=6808000
+release H126 hb 1.00
+release H125 ha 1.00
+release H110 ha 2.00
+hold H128 hb 8.00 until=6897000
+hold H129 ha 5.00 until=6710000
+release H129 ha 5.00
+release H128 hb 8.00
+hold H130 ha 6.00 until=6783000
+release H130 ha 6.00
+hold H131 ha 1.00 until=6943000
+release H131 ha 1.00
+now=6746000
+now=6747000
+hold H132 hb 9.00 until=6903000
+hold H133 ha 3.00 until=6916000
+hold H135 hb 3.00 until=6998000
+hold H136 ha 2.00 until=6866000
+release H133 ha 3.00
+now=6799000
+hold H137 ha 5.00 until=7082000
+hold H138 ha 3.00 until=6961000
+hold H139 ha 6.00 until=6940000
+hold H140 hb 8.00 until=6919000
+release H136 ha 2.00
+ok T0.199 capture H132 hb 9.00
+release H137 ha 5.00
+hold H141 ha 9.00 until=7054000
+now=6806000
+hold H142 hb 3.00 until=6837000
+release H141 ha 9.00
+release H135 hb 3.00
+release H139 ha 6.00
+ok T0.200 capture H138 ha 3.00
+hold H143 ha 5.00 until=6908000
+ok T0.201 capture H142 hb 3.00
+release H140 hb 8.00
+hold H144 hb 7.00 until=7061000
+release H143 ha 5.00
+hold H145 hb 2.00 until=6889000
+hold H146 ha 1.00 until=6865000
+hold H147 hb 8.00 until=never
+hold H148 ha 7.00 until=6931000
+hold H149 ha 8.00 until=never
+hold H150 hb 1.00 until=6864000
+hold H152 ha 2.00 until=6846000
+hold H153 hb 2.00 until=7024000
+release H146 ha 1.00
+release H148 ha 7.00
+hold H154 hb 3.00 until=6925000
+release H154 hb 3.00
+hold H155 hb 4.00 until=6841000
+release H144 hb 7.00
+now=6862000
+expire H155 hb 4.00
+expire H152 ha 2.00
+hold H157 ha 2.00 until=7003000
+hold H158 hb 1.00 until=7007000
+hold H159 ha 7.00 until=7108000
+release H159 ha 7.00
+release H158 hb 1.00
+hold H160 ha 2.00 until=7139000
+ok T0.202 capture H150 hb 1.00
+release H145 hb 2.00
+release H157 ha 2.00
+hold H161 ha 2.00 until=6922000
+hold H162 hb 9.00 until=7102000
+now=6879000
+hold H163 ha 4.00 until=6918000
+release H161 ha 2.00
+release H153 hb 2.00
+hold H164 ha 9.00 until=7139000
+hold H165 hb 1.00 until=never
+release H162 hb 9.00
+release H163 ha 4.00
+now=6896000
+hold H166 ha 6.00 until=7006000
+hold H167 hb 2.00 until=7189000
+hold H168 ha 3.00 until=6966000
+release H166 ha 6.00
+hold H170 hb 7.00 until=6919000
+hold H171 hb 8.00 until=6968000
+ok T0.203 capture H168 ha 3.00
+release H164 ha 9.00
+hold H172 ha 5.00 until=never
+release H160 ha 2.00
+hold H173 hb 7.00 until=never
+release H171 hb 8.00
+hold H174 ha 5.00 until=7064000
+hold H175 hb 7.00 until=6999000
+release H174 ha 5.00
+hold H177 ha 6.00 until=never
+hold H178 ha 6.00 until=7070000
+now=6906000
+hold H179 ha 2.00 until=never
+ok T0.204 capture H178 ha 6.00
+now=6947000
+expire H170 hb 7.00
+hold H180 ha 4.00 until=never
+hold H181 ha 9.00 until=7151000
+release H181 ha 9.00
+hold H182 hb 8.00 until=7126000
+hold H183 ha 3.00 until=7051000
+hold H184 ha 5.00 until=6997000
+hold H185 ha 6.00 until=7184000
+hold H186 ha 5.00 until=7220000
+hold H187 hb 9.00 until=7026000
+hold H190 ha 1.00 until=7086000
+hold H191 hb 8.00 until=7067000
+release H187 hb 9.00
+release H182 hb 8.00
+release H167 hb 2.00
+release H175 hb 7.00
+hold H192 hb 8.00 until=7197000
+release H191 hb 8.00
+release H186 ha 5.00
+hold H193 ha 2.00 until=7123000
+release H192 hb 8.00
+hold H194 hb 1.00 until=7084000
+hold H195 hb 9.00 until=7050000
+hold H196 hb 2.00 until=6977000
+hold H197 ha 8.00 until=7117000
+hold H198 hb 2.00 until=7117000
+release H197 ha 8.00
+hold H199 ha 3.00 until=7096000
+hold H200 hb 3.00 until=7032000
+release H196 hb 2.00
+hold H202 hb 4.00 until=7207000
+hold H203 hb 3.00 until=never
+hold H204 ha 9.00 until=7070000
+ok T0.205 capture H183 ha 3.00
+ok T0.206 capture H193 ha 2.00
+hold H206 hb 7.00 until=7078000
+now=6995000
+release H202 hb 4.00
+hold H207 hb 4.00 until=7084000
+release H190 ha 1.00
+release H204 ha 9.00
+ok T0.207 capture H198 hb 2.00
+hold H208 ha 4.00 until=7004000
+release H208 ha 4.00
+ok T0.208 capture H184 ha 5.00
+release H194 hb 1.00
+hold H209 ha 8.00 until=7033000
+hold H210 hb 9.00 until=7241000
+hold H211 hb 1.00 until=7073000
+hold H212 hb 1.00 until=7024000
+release H209 ha 8.00
+hold H213 hb 3.00 until=7105000
+release H185 ha 6.00
+hold H214 ha 1.00 until=7184000
+hold H215 hb 2.00 until=7077000
+ok T0.209 capture H206 hb 7.00
+hold H216 hb 9.00 until=7240000
+now=7033000
+expire H212 hb 1.00
+expire H200 hb 3.00
+hold H217 hb 4.00 until=7299000
+hold H218 hb 4.00 until=7297000
+hold H219 hb 8.00 until=never
+hold H220 ha 6.00 until=7268000
+H003 ha 4.00 until=never
+H004 ha 4.00 until=never
+H014 ha 3.00 until=never
+H023 ha 2.00 until=never
+H030 ha 9.00 until=never
+H046 ha 2.00 until=never
+H047 ha 7.00 until=never
+H048 ha 5.00 until=never
+H051 ha 7.00 until=never
+H058 ha 8.00 until=never
+H065 ha 3.00 until=never
+H097 ha 8.00 until=never
+H115 ha 1.00 until=never
+H121 ha 9.00 until=never
+H149 ha 8.00 until=never
+H169 ha 3.00 until=never
+H172 ha 5.00 until=never
+H177 ha 6.00 until=never
+H179 ha 2.00 until=never
+H180 ha 4.00 until=never
+H189 ha 5.00 until=never
+H199 ha 3.00 until=7096000
+H201 ha 2.00 until=never
+H205 ha 1.00 until=never
+H214 ha 1.00 until=7184000
+H220 ha 6.00 until=7268000
+H245 ha 6.00 until=never
+H266 ha 7.00 until=never
+H310 ha 6.00 until=never
+H318 ha 4.00 until=never
+H320 ha 4.00 until=never
+H330 ha 5.00 until=never
+H344 ha 3.00 until=never
+H355 ha 5.00 until=never
+H409 ha 6.00 until=never
+H413 ha 6.00 until=never
+H418 ha 2.00 until=never
+H447 ha 7.00 until=never
+H470 ha 2.00 until=never
+H491 ha 5.00 until=never
+H537 ha 9.00 until=never
+H569 ha 2.00 until=never
+H610 ha 1.00 until=never
+H611 ha 8.00 until=never
+H641 ha 8.00 until=never
+H658 ha 2.00 until=never
+H680 ha 3.00 until=never
+H709 ha 6.00 until=never
+H786 ha 8.00 until=never
+H789 ha 9.00 until=never
+H839 ha 2.00 until=never
+H870 ha 6.00 until=never
+H875 ha 8.00 until=never
+H888 ha 7.00 until=never
+H892 ha 2.00 until=never
+H998 ha 9.00 until=never
+holds ha count=56 held=276.00
+check ok records=210 live=210 accounts=2 holds=114 batches=0
+release H214 ha 1.00
+hold H221 hb 4.00 until=7248000
+hold H222 ha 2.00 until=7157000
+release H199 ha 3.00
+hold H223 ha 9.00 until=7184000
+hold H224 hb 9.00 until=never
+hold H225 ha 8.00 until=never
+release H221 hb 4.00
+hold H226 ha 7.00 until=7216000
+hold H227 ha 5.00 until=7172000
+release H211 hb 1.00
+hold H229 hb 3.00 until=7250000
+hold H230 hb 4.00 until=7222000
+hold H231 ha 7.00 until=7093000
+now=7061000
+expire H195 hb 9.00
+release H226 ha 7.00
+release H227 ha 5.00
+hold H232 hb 3.00 until=7289000
+release H220 ha 6.00
+hold H233 hb 5.00 until=7140000
+release H231 ha 7.00
+release H222 ha 2.00
+release H223 ha 9.00
+release H218 hb 4.00
+hold H234 hb 6.00 until=7248000
+now=7080000
+expire H215 hb 2.00
+hold H235 ha 6.00 until=7333000
+hold H236 hb 9.00 until=7146000
+ok T0.210 capture H213 hb 3.00
+hold H237 hb 1.00 until=7176000
+release H237 hb 1.00
+hold H238 ha 6.00 until=7119000
+ok T0.211 capture H216 hb 9.00
+hold H239 ha 4.00 until=7244000
+hold H240 hb 7.00 until=7123000
+release H240 hb 7.00
+release H234 hb 6.00
+hold H241 hb 8.00 until=7365000
+ok T0.212 capture H238 ha 6.00
+release H241 hb 8.00
+hold H242 hb 5.00 until=7293000
+release H210 hb 9.00
+hold H243 ha 4.00 until=7327000
+hold H244 ha 3.00 until=7289000
+release H232 hb 3.00
+release H242 hb 5.00
+hold H246 ha 1.00 until=7352000
+release H235 ha 6.00
+hold H247 hb 2.00 until=7247000
+release H217 hb 4.00
+hold H248 ha 8.00 until=7342000
+now=7135000
+expire H207 hb 4.00
+now=7142000
+expire H233 hb 5.00
+now=7157000
+expire H236 hb 9.00
+ok T0.213 capture H243 ha 4.00
+now=7204000
+hold H249 ha 2.00 until=7462000
+hold H250 hb 4.00 until=7467000
+release H248 ha 8.00
+release H250 hb 4.00
+release H230 hb 4.00
+hold H251 hb 8.00 until=7498000
+ok T0.214 capture H246 ha 1.00
+release H251 hb 8.00
+hold H252 hb 5.00 until=7272000
+release H229 hb 3.00
+release H252 hb 5.00
+release H244 ha 3.00
+ok T0.215 capture H247 hb 2.00
+hold H253 ha 2.00 until=7308000
+release H253 ha 2.00
+hold H254 hb 3.00 until=7386000
+hold H255 ha 2.00 until=7303000
+hold H256 ha 9.00 until=7450000
+hold H257 hb 8.00 until=7502000
+release H249 ha 2.00
+hold H258 ha 6.00 until=7485000
+release H255 ha 2.00
+now=7236000
+release H258 ha 6.00
+release H256 ha 9.00
+release H239 ha 4.00
+now=7239000
+hold H260 ha 1.00 until=7334000
+hold H261 ha 5.00 until=7279000
+hold H262 ha 9.00 until=7326000
+hold H263 hb 9.00 until=7534000
+release H260 ha 1.00
+hold H264 ha 9.00 until=7431000
+hold H268 hb 4.00 until=7510000
+ok T0.216 capture H263 hb 9.00
+hold H269 ha 2.00 until=never
+now=7266000
+release H257 hb 8.00
+release H264 ha 9.00
+hold H270 hb 8.00 until=7538000
+now=7299000
+expire H261 ha 5.00
+release H270 hb 8.00
+ok T0.217 capture H268 hb 4.00
+release H262 ha 9.00
+release H254 hb 3.00
+hold H271 hb 4.00 until=7349000
+hold H272 hb 7.00 until=7510000
+hold H273 ha 8.00 until=7358000
+hold H274 hb 3.00 until=7534000
+release H273 ha 8.00
+now=7346000
+ok T0.218 capture H271 hb 4.00
+hold H276 hb 6.00 until=7386000
+release H272 hb 7.00
+hold H277 hb 1.00 until=7403000
+ok T0.219 capture H274 hb 3.00
+hold H278 hb 4.00 until=7645000
+release H276 hb 6.00
+now=7383000
+hold H279 ha 7.00 until=never
+hold H280 hb 1.00 until=never
+hold H281 ha 5.00 until=7487000
+ok T0.220 capture H278 hb 4.00
+hold H282 ha 7.00 until=7432000
+hold H283 ha 8.00 until=never
+ok T0.221 capture H282 ha 7.00
+release H277 hb 1.00
+release H281 ha 5.00
+now=7427000
+hold H284 hb 9.00 until=7530000
+hold H285 ha 8.00 until=never
+hold H286 ha 3.00 until=7643000
+hold H287 hb 2.00 until=7515000
+release H286 ha 3.00
+now=7458000
+ok T0.222 capture H284 hb 9.00
+release H287 hb 2.00
+hold H288 hb 5.00 until=7629000
+hold H289 ha 3.00 until=never
+hold H290 hb 8.00 until=7632000
+hold H291 ha 1.00 until=7570000
+hold H292 hb 5.00 until=7634000
+hold H293 hb 1.00 until=7542000
+release H291 ha 1.00
+hold H294 hb 7.00 until=7526000
+hold H295 ha 6.00 until=7559000
+release H288 hb 5.00
+release H292 hb 5.00
+hold H296 hb 6.00 until=7471000
+release H293 hb 1.00
+release H295 ha 6.00
+release H296 hb 6.00
+hold H297 ha 8.00 until=7519000
+release H290 hb 8.00
+hold H298 hb 1.00 until=7726000
+hold H299 hb 9.00 until=7727000
+ok T0.223 capture H294 hb 7.00
+hold H300 ha 3.00 until=7590000
+hold H301 ha 1.00 until=7531000
+ok T0.224 capture H299 hb 9.00
+hold H302 ha 3.00 until=7699000
+hold H303 hb 4.00 until=7510000
+hold H304 hb 2.00 until=never
+hold H305 hb 6.00 until=7743000
+ok T0.225 capture H302 ha 3.00
+release H303 hb 4.00
+release H305 hb 6.00
+release H297 ha 8.00
+hold H306 hb 5.00 until=7494000
+hold H307 ha 6.00 until=7520000
+ok T0.226 capture H298 hb 1.00
+hold H308 ha 8.00 until=7616000
+hold H309 hb 5.00 until=7679000
+now=7500000
+expire H306 hb 5.00
+release H309 hb 5.00
+ok T0.227 capture H300 ha 3.00
+hold H311 hb 3.00 until=7631000
+now=7516000
+release H311 hb 3.00
+ok T0.228 capture H301 ha 1.00
+ok T0.229 capture H308 ha 8.00
+release H307 ha 6.00
+hold H312 hb 5.00 until=never
+hold H313 ha 4.00 until=7778000
+release H313 ha 4.00
+hold H314 hb 3.00 until=7738000
+hold H315 ha 1.00 until=7692000
+hold H316 hb 7.00 until=7569000
+hold H317 ha 6.00 until=7717000
+now=7538000
+H003 ha 4.00 until=never
+H004 ha 4.00 until=never
+H014 ha 3.00 until=never
+H023 ha 2.00 until=never
+H030 ha 9.00 until=never
+H046 ha 2.00 until=never
+H047 ha 7.00 until=never
+H048 ha 5.00 until=never
+H051 ha 7.00 until=never
+H058 ha 8.00 until=never
+H065 ha 3.00 until=never
+H097 ha 8.00 until=never
+H115 ha 1.00 until=never
+H121 ha 9.00 until=never
+H149 ha 8.00 until=never
+H169 ha 3.00 until=never
+H172 ha 5.00 until=never
+H177 ha 6.00 until=never
+H179 ha 2.00 until=never
+H180 ha 4.00 until=never
+H189 ha 5.00 until=never
+H201 ha 2.00 until=never
+H205 ha 1.00 until=never
+H225 ha 8.00 until=never
+H245 ha 6.00 until=never
+H266 ha 7.00 until=never
+H269 ha 2.00 until=never
+H279 ha 7.00 until=never
+H283 ha 8.00 until=never
+H285 ha 8.00 until=never
+H289 ha 3.00 until=never
+H310 ha 6.00 until=never
+H315 ha 1.00 until=7692000
+H317 ha 6.00 until=7717000
+H318 ha 4.00 until=never
+H320 ha 4.00 until=never
+H330 ha 5.00 until=never
+H344 ha 3.00 until=never
+H355 ha 5.00 until=never
+H409 ha 6.00 until=never
+H413 ha 6.00 until=never
+H418 ha 2.00 until=never
+H447 ha 7.00 until=never
+H470 ha 2.00 until=never
+H491 ha 5.00 until=never
+H537 ha 9.00 until=never
+H569 ha 2.00 until=never
+H610 ha 1.00 until=never
+H611 ha 8.00 until=never
+H641 ha 8.00 until=never
+H658 ha 2.00 until=never
+H680 ha 3.00 until=never
+H709 ha 6.00 until=never
+H786 ha 8.00 until=never
+H789 ha 9.00 until=never
+H839 ha 2.00 until=never
+H870 ha 6.00 until=never
+H875 ha 8.00 until=never
+H888 ha 7.00 until=never
+H892 ha 2.00 until=never
+H998 ha 9.00 until=never
+holds ha count=61 held=309.00
+H020 hb 1.00 until=never
+H037 hb 2.00 until=never
+H066 hb 5.00 until=never
+H086 hb 8.00 until=never
+H090 hb 1.00 until=never
+H092 hb 6.00 until=never
+H099 hb 7.00 until=never
+H105 hb 1.00 until=never
+H127 hb 2.00 until=never
+H134 hb 5.00 until=never
+H147 hb 8.00 until=never
+H151 hb 3.00 until=never
+H156 hb 9.00 until=never
+H165 hb 1.00 until=never
+H173 hb 7.00 until=never
+H176 hb 6.00 until=never
+H188 hb 8.00 until=never
+H203 hb 3.00 until=never
+H219 hb 8.00 until=never
+H224 hb 9.00 until=never
+H228 hb 5.00 until=never
+H259 hb 4.00 until=never
+H265 hb 8.00 until=never
+H267 hb 1.00 until=never
+H275 hb 6.00 until=never
+H280 hb 1.00 until=never
+H304 hb 2.00 until=never
+H312 hb 5.00 until=never
+H314 hb 3.00 until=7738000
+H316 hb 7.00 until=7569000
+H337 hb 4.00 until=never
+H350 hb 3.00 until=never
+H364 hb 3.00 until=never
+H390 hb 9.00 until=never
+H416 hb 8.00 until=never
+H431 hb 5.00 until=never
+H466 hb 8.00 until=never
+H473 hb 8.00 until=never
+H500 hb 1.00 until=never
+H549 hb 8.00 until=never
+H633 hb 7.00 until=never
+H688 hb 9.00 until=never
+H689 hb 7.00 until=never
+H692 hb 6.00 until=never
+H712 hb 8.00 until=never
+H739 hb 9.00 until=never
+H756 hb 4.00 until=never
+H783 hb 9.00 until=never
+H822 hb 4.00 until=never
+H858 hb 1.00 until=never
+H880 hb 7.00 until=never
+H886 hb 3.00 until=never
+H891 hb 7.00 until=never
+H909 hb 1.00 until=never
+H957 hb 6.00 until=never
+holds hb count=55 held=287.00
+check ok records=230 live=230 accounts=2 holds=116 batches=0

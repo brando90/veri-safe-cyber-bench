@@ -1,0 +1,8 @@
+user alice added
+published sdk 1.0.0 (1 KiB)
+published sdk 1.1.0 (1 KiB)
+published sdk 2.0.0 (1 KiB)
+tag sdk next -> 1.1.0
+unpublished sdk 1.1.0
+tags sdk: latest=2.0.0
+check ok (1 users, 1 packages)

@@ -1,0 +1,7 @@
+user add alice
+publish alice esc 1.0.0
+yank alice esc 1.0.0 reason="a\b, c	d"
+deprecate alice esc 1.0.0 message=" padded "
+audit
+export audit tsv
+export audit csv

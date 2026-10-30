@@ -1,0 +1,21 @@
+user alice added
+user bob added
+published csv-tool 1.0.0 (4 KiB)
+published csv-tool 1.1.0 (5 KiB)
+published csv-tool 1.2.0 (8 KiB)
+invited bob to csv-tool as maintainer until 86400
+bob is now maintainer of csv-tool
+yanked csv-tool 1.2.0
+tags csv-tool: latest=1.1.0
+csv-tool ^1.0 -> 1.1.0
+deprecated csv-tool 1.0.0
+fetched csv-tool 1.0.0 (deprecated: use 1.1)
+unyanked csv-tool 1.2.0
+unpublished csv-tool 1.1.0
+error: csv-tool 1.1.0 was unpublished and cannot be reused
+quota alice used=12 KiB limit=10240 KiB
+clock 259200
+error: csv-tool 1.0.0 can no longer be unpublished (published at 0)
+package csv-tool visibility=public latest=1.2.0 downloads=1 releases=2
+  1.0.0 4 KiB by=alice at=0 deprecated="use 1.1" downloads=1
+  1.2.0 8 KiB by=alice at=0

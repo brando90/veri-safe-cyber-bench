@@ -1,0 +1,15 @@
+user root added (admin)
+user alice added
+user bob added
+published left-pad 1.0.0 (1 KiB)
+published left-pad 1.1.0 (1 KiB)
+invited bob to left-pad as maintainer until 86400
+bob is now maintainer of left-pad
+tag left-pad stable -> 1.0.0
+user bob disabled
+error: user bob is disabled
+error: user bob is disabled
+tags left-pad: latest=1.1.0 stable=1.0.0
+user bob enabled
+tag left-pad next -> 1.1.0
+tags left-pad: latest=1.1.0 next=1.1.0 stable=1.0.0

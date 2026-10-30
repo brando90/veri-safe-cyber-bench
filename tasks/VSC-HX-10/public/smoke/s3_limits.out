@@ -1,0 +1,17 @@
+open dave slot=0 gen=0
+ok T0.0 deposit dave 500.00 balance=500.00
+ok T0.1 withdraw dave 40.00 balance=460.00
+ok T0.2 withdraw dave 40.00 balance=420.00
+deny daily limit=100.00 spent=80.00
+now=600000
+ok T0.3 withdraw dave 10.00 balance=410.00
+deny velocity limit=3
+deny velocity limit=3
+dave balance=410.00 held=0.00 available=410.00 spent_today=90.00 debits_last_hour=3
+now=86400000
+ok T0.4 withdraw dave 10.00 balance=400.00
+ok T0.5 withdraw dave 10.00 balance=390.00
+dave balance=390.00 held=0.00 available=390.00 spent_today=20.00 debits_last_hour=2
+now=87600000
+ok T0.6 withdraw dave 10.00 balance=380.00
+dave balance=380.00 held=0.00 available=380.00 spent_today=30.00 debits_last_hour=3

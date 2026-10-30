@@ -1,0 +1,80 @@
+open uma velocity=1000 daily=100000
+open vic velocity=1000 daily=100000
+open wes
+deposit uma 1 key=u00
+deposit uma 1 key=u01
+deposit uma 1 key=u02
+deposit uma 1 key=u03
+deposit uma 1 key=u04
+deposit uma 1 key=u05
+deposit uma 1 key=u06
+deposit uma 1 key=u07
+deposit uma 1 key=u08
+deposit uma 1 key=u09
+deposit uma 1 key=u10
+deposit uma 1 key=u11
+deposit uma 1 key=u12
+deposit uma 1 key=u13
+deposit uma 1 key=u14
+deposit uma 1 key=u15
+deposit uma 1 key=u16
+deposit uma 1 key=u17
+deposit uma 1 key=u18
+deposit uma 1 key=u19
+deposit uma 1 key=u20
+deposit uma 1 key=u21
+deposit uma 1 key=u22
+deposit uma 1 key=u23
+deposit uma 1 key=u24
+deposit uma 1 key=u25
+deposit uma 1 key=u26
+deposit uma 1 key=u27
+deposit uma 1 key=u28
+deposit uma 1 key=u29
+deposit uma 1 key=u30
+deposit uma 1 key=u31
+deposit uma 1 key=u32
+deposit uma 1 key=u33
+deposit uma 1 key=u34
+deposit uma 1 key=u35
+deposit uma 1 key=u36
+deposit uma 1 key=u37
+deposit uma 1 key=u38
+deposit uma 1 key=u39
+deposit wes 1 key=w0
+withdraw wes 1 key=w1
+close wes
+deposit vic 1 key=v00
+deposit vic 1 key=v01
+deposit vic 1 key=v02
+deposit vic 1 key=v03
+deposit vic 1 key=v04
+deposit vic 1 key=v05
+deposit vic 1 key=v06
+deposit vic 1 key=v07
+deposit vic 1 key=v08
+deposit vic 1 key=v09
+deposit vic 1 key=v10
+deposit vic 1 key=v11
+deposit vic 1 key=v12
+deposit vic 1 key=v13
+deposit vic 1 key=v14
+deposit vic 1 key=v15
+deposit vic 1 key=v16
+deposit vic 1 key=v17
+deposit vic 1 key=v18
+deposit vic 1 key=v19
+deposit vic 1 key=v20
+deposit vic 1 key=v21
+deposit vic 1 key=v22
+idem
+deposit vic 1 key=v23
+idem
+deposit uma 1 key=u00
+deposit uma 1 key=u01
+deposit uma 1 key=u39
+deposit vic 1 key=v23
+idem
+balance uma
+balance vic
+check

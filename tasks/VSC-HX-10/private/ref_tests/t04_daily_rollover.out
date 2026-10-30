@@ -1,0 +1,19 @@
+open cat slot=0 gen=0
+ok T0.0 deposit cat 1000.00 balance=1000.00
+ok T0.1 withdraw cat 60.00 balance=940.00
+deny daily limit=100.00 spent=60.00
+ok T0.2 withdraw cat 40.00 balance=900.00
+cat balance=900.00 held=0.00 available=900.00 spent_today=100.00 debits_last_hour=2
+now=86399999
+deny daily limit=100.00 spent=100.00
+cat balance=900.00 held=0.00 available=900.00 spent_today=100.00 debits_last_hour=0
+now=86400000
+cat balance=900.00 held=0.00 available=900.00 spent_today=0.00 debits_last_hour=0
+ok T0.3 withdraw cat 100.00 balance=800.00
+deny daily limit=100.00 spent=100.00
+open dog slot=1 gen=0
+ok T0.4 deposit dog 5.00 balance=5.00
+deny daily limit=0.00 spent=0.00
+deny daily limit=0.00 spent=0.00
+dog balance=5.00 held=0.00 available=5.00 spent_today=0.00 debits_last_hour=0
+check ok records=5 live=5 accounts=2 holds=0 batches=0

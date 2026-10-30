@@ -1,0 +1,16 @@
+user root added (admin)
+user alice added
+quota alice limit=10 KiB
+published big 1.0.0 (4 KiB)
+published big 1.1.0 (5 KiB)
+published big 1.2.0 (1 KiB)
+error: quota exceeded for alice: 10 KiB used, 1 KiB more, limit 10 KiB
+quota alice used=10 KiB limit=10 KiB
+unpublished big 1.1.0
+quota alice used=5 KiB limit=10 KiB
+published big 1.3.0 (5 KiB)
+error: alice is not an administrator
+deleted big (3 releases)
+quota alice used=0 KiB limit=10 KiB
+published big 2.0.0 (10 KiB)
+quota alice used=10 KiB limit=10 KiB

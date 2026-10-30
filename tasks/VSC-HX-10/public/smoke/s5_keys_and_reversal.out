@@ -1,0 +1,17 @@
+open gina slot=0 gen=0
+open hank slot=1 gen=0
+ok T0.0 deposit gina 50.00 balance=50.00
+replay T0.0
+ok T0.1 transfer gina->hank 10.00 balance=40.00
+replay T0.1
+ok T0.2 withdraw hank 3.00 balance=7.00
+idem entries=3 capacity=64 evicted=0
+ok T0.3 reverse T0.1 10.00
+error: T0.1 already reversed by T0.3
+T0.1 transfer gina->hank 10.00 at=0 reversed_by=T0.3
+T0.3 reverse hank->gina 10.00 at=0 reverses=T0.1
+T0.3 reverse hank->gina 10.00 at=0 reverses=T0.1
+T0.2 withdraw hank-> 3.00 at=0
+gina balance=50.00 held=0.00 available=50.00 spent_today=10.00 debits_last_hour=1
+hank balance=-3.00 held=0.00 available=-3.00 spent_today=3.00 debits_last_hour=1
+check ok records=4 live=4 accounts=2 holds=0 batches=0

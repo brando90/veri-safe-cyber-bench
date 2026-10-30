@@ -1,0 +1,13 @@
+user alice added
+user bob added
+published lo 1.0.0 (0 KiB)
+error: cannot remove the last owner of lo
+invited bob to lo as owner until 86400
+bob is now owner of lo
+removed alice (owner) from lo
+error: cannot remove the last owner of lo
+invited bob to lo as reader until 86400
+error: cannot remove the last owner of lo
+roles lo: bob=owner
+error: unknown user carol
+error: alice has no role on lo

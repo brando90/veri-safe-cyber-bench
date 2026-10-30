@@ -1,0 +1,29 @@
+open bea slot=0 gen=0
+ok T0.0 deposit bea 10.00 balance=10.00
+clearing fail_next=4 submitted=0 accepted=0
+batch B1 n=1 volume=10.00 first=T0.0 last=T0.0 entry=0
+batch B1 failed attempt=1 retry_at=30000
+now=30000
+batch B1 failed attempt=2 retry_at=90000
+now=90000
+batch B1 failed attempt=3 retry_at=210000
+now=210000
+batch B1 parked attempts=4
+B1 parked n=1 volume=10.00 attempts=4 entry=0
+batches total=1 pending=0 unassigned=0
+ok T0.1 deposit bea 2.00 balance=12.00
+batch B2 n=1 volume=2.00 first=T0.1 last=T0.1 entry=1
+batch B2 settled
+ok T0.2 deposit bea 3.00 balance=15.00
+clearing fail_next=1 submitted=5 accepted=1
+batch B3 n=1 volume=3.00 first=T0.2 last=T0.2 entry=2
+batch B3 failed attempt=1 retry_at=240000
+now=239999
+now=240000
+batch B3 settled
+B1 parked n=1 volume=10.00 attempts=4 entry=0
+B2 settled n=1 volume=2.00 attempts=1 entry=1
+B3 settled n=1 volume=3.00 attempts=2 entry=2
+batches total=3 pending=0 unassigned=0
+clearing fail_next=0 submitted=7 accepted=2
+check ok records=3 live=3 accounts=1 holds=0 batches=3

@@ -1,0 +1,11 @@
+user add alice
+publish alice pin 1.0.0
+publish alice pin 1.1.0
+yank alice pin 1.1.0 reason="data loss"
+resolve - pin ^1.0
+resolve - pin =1.1.0
+resolve - pin >=1.1.0
+fetch - pin =1.1.0
+lock - l pin@=1.1.0
+lock - l2 pin@^1
+tags - pin

@@ -1,0 +1,13 @@
+user add alice
+user add bob
+publish alice yk 1.0.0
+publish alice yk 1.1.0
+owner invite alice yk bob
+owner accept bob yk
+yank bob yk 1.1.0
+yank bob yk 1.1.0
+unyank bob yk 1.1.0
+unpublish bob yk 1.0.0
+unyank alice yk 1.1.0
+unyank alice yk 1.1.0
+tags - yk

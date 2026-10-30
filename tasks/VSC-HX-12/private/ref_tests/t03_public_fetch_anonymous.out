@@ -1,0 +1,14 @@
+user alice added
+user bob added
+published pub-lib 1.0.0 (1 KiB)
+published priv-lib 1.0.0 (1 KiB)
+fetched pub-lib 1.0.0
+fetched pub-lib 1.0.0
+error: unknown package priv-lib
+error: unknown package priv-lib
+error: unknown package priv-lib
+error: unknown package priv-lib
+package pub-lib visibility=public latest=1.0.0 downloads=2 releases=1
+  1.0.0 1 KiB by=alice at=0 downloads=2
+error: unknown package priv-lib
+error: unknown package priv-lib

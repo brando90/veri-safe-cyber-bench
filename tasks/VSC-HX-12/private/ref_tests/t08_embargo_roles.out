@@ -1,0 +1,24 @@
+user alice added
+user bob added
+user carol added
+user dave added
+published sec 1.0.0 (0 KiB)
+invited bob to sec as maintainer until 86400
+bob is now maintainer of sec
+invited dave to sec as reader until 86400
+dave is now reader of sec
+clock 1000
+published sec 1.1.0 (0 KiB)
+sec ^1 -> 1.0.0
+sec ^1 -> 1.1.0
+sec ^1 -> 1.0.0
+error: sec 1.1.0 is under embargo until 8200
+error: sec 1.1.0 is under embargo until 8200
+package sec visibility=public latest=1.1.0 downloads=0 releases=2
+  1.0.0 0 B by=alice at=0
+  1.1.0 0 B by=alice at=1000 embargo=8200
+clock 8199
+sec ^1 -> 1.0.0
+clock 8200
+sec ^1 -> 1.1.0
+fetched sec 1.1.0

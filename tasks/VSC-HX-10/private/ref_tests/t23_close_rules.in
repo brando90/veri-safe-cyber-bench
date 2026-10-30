@@ -1,0 +1,18 @@
+open tia
+deposit tia 5
+close tia
+hold tia 5
+withdraw tia 5
+close tia
+release H001
+withdraw tia 5
+close tia
+close tia
+balance tia
+open tia overdraft=3
+withdraw tia 3
+close tia
+deposit tia 3
+close tia
+accounts
+check

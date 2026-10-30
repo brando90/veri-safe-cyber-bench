@@ -1,0 +1,12 @@
+open ned slot=0 gen=0
+ok T0.0 deposit ned 5.00 balance=5.00
+ok T0.1 withdraw ned 5.00 balance=0.00
+close ned slot=0
+open ned slot=1 gen=0
+ok T0.2 deposit ned 5.00 balance=5.00
+ok T0.3 withdraw ned 5.00 balance=0.00
+replay T0.2
+ned balance=0.00 held=0.00 available=0.00 spent_today=5.00 debits_last_hour=1
+T0.2 deposit ->ned 5.00 at=0
+idem entries=4 capacity=64 evicted=0
+check ok records=4 live=4 accounts=1 holds=0 batches=0

@@ -1,0 +1,15 @@
+user alice added
+published pin 1.0.0 (0 KiB)
+published pin 1.1.0 (0 KiB)
+yanked pin 1.1.0
+pin ^1.0 -> 1.0.0
+pin =1.1.0 -> 1.1.0 (yanked)
+error: no version of pin matches >=1.1.0
+fetched pin 1.1.0 (yanked)
+lock l (1 packages)
+  pin 1.1.0
+digest 97fbb38ad8c6
+lock l2 (1 packages)
+  pin 1.0.0
+digest a68779e00cd7
+tags pin: latest=1.0.0

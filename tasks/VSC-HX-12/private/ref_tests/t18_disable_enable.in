@@ -1,0 +1,18 @@
+user add root admin
+user add alice
+user add bob
+publish alice dz 1.0.0
+user disable root alice
+publish alice dz 1.1.0
+yank alice dz 1.0.0
+fetch alice dz
+info alice dz
+owner invite alice dz bob
+user disable root alice
+user disable alice root
+user show alice
+user enable root alice
+user enable root alice
+publish alice dz 1.1.0
+user disable bob alice
+fetch - dz

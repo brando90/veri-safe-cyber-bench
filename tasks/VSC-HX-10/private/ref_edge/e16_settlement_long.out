@@ -1,0 +1,1487 @@
+open sa slot=0 gen=0
+open sb slot=1 gen=0
+ok T0.0 deposit sb 9.00 balance=9.00
+ok T0.1 deposit sb 37.00 balance=46.00
+ok T0.2 deposit sb 11.00 balance=57.00
+ok T0.3 deposit sb 10.00 balance=67.00
+ok T0.4 deposit sb 24.00 balance=91.00
+now=90000
+ok T0.5 deposit sb 48.00 balance=139.00
+ok T0.6 deposit sa 41.00 balance=41.00
+batch B1 n=7 volume=180.00 first=T0.0 last=T0.6 entry=0
+batch B1 settled
+ok T0.7 deposit sb 39.00 balance=178.00
+ok T0.8 deposit sb 11.00 balance=189.00
+ok T0.9 deposit sa 34.00 balance=75.00
+now=330000
+ok T0.10 deposit sa 7.00 balance=82.00
+ok T0.11 deposit sb 13.00 balance=202.00
+ok T0.12 deposit sb 49.00 balance=251.00
+ok T0.13 deposit sa 33.00 balance=115.00
+clearing fail_next=1 submitted=1 accepted=1
+batch B2 n=7 volume=186.00 first=T0.7 last=T0.13 entry=1
+batch B2 failed attempt=1 retry_at=360000
+ok T0.14 deposit sb 20.00 balance=271.00
+now=420000
+batch B2 settled
+ok T0.15 deposit sa 3.00 balance=118.00
+ok T0.16 deposit sa 3.00 balance=121.00
+ok T0.17 deposit sa 41.00 balance=162.00
+ok T0.18 deposit sb 50.00 balance=321.00
+ok T0.19 deposit sa 50.00 balance=212.00
+now=660000
+ok T0.20 deposit sb 11.00 balance=332.00
+clearing fail_next=2 submitted=3 accepted=2
+batch B3 n=7 volume=178.00 first=T0.14 last=T0.20 entry=2
+batch B3 failed attempt=1 retry_at=690000
+ok T0.21 deposit sa 12.00 balance=224.00
+ok T0.22 deposit sb 28.00 balance=360.00
+ok T0.23 deposit sb 35.00 balance=395.00
+ok T0.24 deposit sa 15.00 balance=239.00
+now=750000
+batch B3 failed attempt=2 retry_at=810000
+ok T0.25 deposit sb 6.00 balance=401.00
+ok T0.26 deposit sb 1.00 balance=402.00
+ok T0.27 deposit sa 17.00 balance=256.00
+batch B4 n=7 volume=114.00 first=T0.21 last=T0.27 entry=3
+batch B4 settled
+ok T0.28 deposit sb 25.00 balance=427.00
+ok T0.29 deposit sb 24.00 balance=451.00
+now=780000
+ok T0.30 deposit sa 43.00 balance=299.00
+ok T0.31 deposit sb 36.00 balance=487.00
+ok T0.32 deposit sb 29.00 balance=516.00
+ok T0.33 deposit sb 40.00 balance=556.00
+ok T0.34 deposit sb 16.00 balance=572.00
+batch B5 n=7 volume=213.00 first=T0.28 last=T0.34 entry=4
+batch B5 settled
+now=790000
+ok T0.35 deposit sa 8.00 balance=307.00
+ok T0.36 deposit sa 6.00 balance=313.00
+ok T0.37 deposit sa 44.00 balance=357.00
+ok T0.38 deposit sb 3.00 balance=575.00
+ok T0.39 deposit sb 20.00 balance=595.00
+now=835000
+batch B3 settled
+ok T0.40 deposit sb 30.00 balance=625.00
+ok T0.41 deposit sb 47.00 balance=672.00
+clearing fail_next=2 submitted=8 accepted=5
+batch B6 n=7 volume=158.00 first=T0.35 last=T0.41 entry=5
+batch B6 failed attempt=1 retry_at=865000
+ok T0.42 deposit sb 6.00 balance=678.00
+ok T0.43 deposit sb 31.00 balance=709.00
+ok T0.44 deposit sa 21.00 balance=378.00
+now=845000
+ok T0.45 deposit sa 11.00 balance=389.00
+ok T0.46 deposit sb 9.00 balance=718.00
+ok T0.47 deposit sb 10.00 balance=728.00
+ok T0.48 deposit sa 2.00 balance=391.00
+batch B7 n=7 volume=90.00 first=T0.42 last=T0.48 entry=6
+batch B7 failed attempt=1 retry_at=875000
+ok T0.49 deposit sb 27.00 balance=755.00
+now=855000
+ok T0.50 deposit sa 44.00 balance=435.00
+ok T0.51 deposit sa 10.00 balance=445.00
+ok T0.52 deposit sa 22.00 balance=467.00
+ok T0.53 deposit sa 38.00 balance=505.00
+ok T0.54 deposit sa 36.00 balance=541.00
+now=865000
+batch B6 settled
+ok T0.55 deposit sa 22.00 balance=563.00
+batch B8 n=7 volume=199.00 first=T0.49 last=T0.55 entry=7
+batch B8 settled
+ok T0.56 deposit sb 50.00 balance=805.00
+ok T0.57 deposit sb 9.00 balance=814.00
+ok T0.58 deposit sb 24.00 balance=838.00
+ok T0.59 deposit sb 38.00 balance=876.00
+now=910000
+batch B7 settled
+ok T0.60 deposit sa 16.00 balance=579.00
+ok T0.61 deposit sb 40.00 balance=916.00
+ok T0.62 deposit sa 45.00 balance=624.00
+clearing fail_next=1 submitted=13 accepted=8
+batch B9 n=7 volume=222.00 first=T0.56 last=T0.62 entry=8
+batch B9 failed attempt=1 retry_at=940000
+ok T0.63 deposit sb 47.00 balance=963.00
+ok T0.64 deposit sb 28.00 balance=991.00
+now=940000
+batch B9 settled
+ok T0.65 deposit sa 38.00 balance=662.00
+ok T0.66 deposit sb 3.00 balance=994.00
+ok T0.67 deposit sa 16.00 balance=678.00
+ok T0.68 deposit sb 4.00 balance=998.00
+ok T0.69 deposit sa 2.00 balance=680.00
+batch B10 n=7 volume=138.00 first=T0.63 last=T0.69 entry=9
+batch B10 settled
+now=1030000
+ok T0.70 deposit sb 26.00 balance=1024.00
+ok T0.71 deposit sa 23.00 balance=703.00
+ok T0.72 deposit sa 3.00 balance=706.00
+ok T0.73 deposit sb 25.00 balance=1049.00
+ok T0.74 deposit sb 8.00 balance=1057.00
+now=1075000
+ok T0.75 deposit sa 17.00 balance=723.00
+ok T0.76 deposit sa 45.00 balance=768.00
+batch B11 n=7 volume=147.00 first=T0.70 last=T0.76 entry=10
+batch B11 settled
+ok T0.77 deposit sa 9.00 balance=777.00
+ok T0.78 deposit sb 2.00 balance=1059.00
+ok T0.79 deposit sa 2.00 balance=779.00
+now=1085000
+ok T0.80 deposit sa 42.00 balance=821.00
+ok T0.81 deposit sb 29.00 balance=1088.00
+ok T0.82 deposit sb 28.00 balance=1116.00
+ok T0.83 deposit sa 9.00 balance=830.00
+batch B12 n=7 volume=121.00 first=T0.77 last=T0.83 entry=11
+batch B12 settled
+ok T0.84 deposit sb 3.00 balance=1119.00
+now=1325000
+ok T0.85 deposit sb 25.00 balance=1144.00
+ok T0.86 deposit sb 3.00 balance=1147.00
+ok T0.87 deposit sb 5.00 balance=1152.00
+ok T0.88 deposit sb 44.00 balance=1196.00
+ok T0.89 deposit sa 9.00 balance=839.00
+now=1355000
+ok T0.90 deposit sa 48.00 balance=887.00
+batch B13 n=7 volume=137.00 first=T0.84 last=T0.90 entry=12
+batch B13 settled
+ok T0.91 deposit sb 23.00 balance=1219.00
+ok T0.92 deposit sa 31.00 balance=918.00
+ok T0.93 deposit sb 15.00 balance=1234.00
+ok T0.94 deposit sb 22.00 balance=1256.00
+now=1400000
+ok T0.95 deposit sa 48.00 balance=966.00
+ok T0.96 deposit sa 9.00 balance=975.00
+ok T0.97 deposit sb 39.00 balance=1295.00
+clearing fail_next=3 submitted=19 accepted=13
+batch B14 n=7 volume=187.00 first=T0.91 last=T0.97 entry=13
+batch B14 failed attempt=1 retry_at=1430000
+ok T0.98 deposit sa 20.00 balance=995.00
+ok T0.99 deposit sb 47.00 balance=1342.00
+now=1410000
+ok T0.100 deposit sb 13.00 balance=1355.00
+ok T0.101 deposit sa 44.00 balance=1039.00
+ok T0.102 deposit sb 26.00 balance=1381.00
+ok T0.103 deposit sa 50.00 balance=1089.00
+ok T0.104 deposit sa 48.00 balance=1137.00
+batch B15 n=7 volume=248.00 first=T0.98 last=T0.104 entry=14
+batch B15 failed attempt=1 retry_at=1440000
+now=1440000
+batch B14 failed attempt=2 retry_at=1500000
+batch B15 settled
+ok T0.105 deposit sb 34.00 balance=1415.00
+ok T0.106 deposit sb 47.00 balance=1462.00
+ok T0.107 deposit sb 20.00 balance=1482.00
+ok T0.108 deposit sb 8.00 balance=1490.00
+ok T0.109 deposit sa 23.00 balance=1160.00
+now=1680000
+batch B14 settled
+ok T0.110 deposit sb 18.00 balance=1508.00
+ok T0.111 deposit sa 44.00 balance=1204.00
+batch B16 n=7 volume=194.00 first=T0.105 last=T0.111 entry=15
+batch B16 settled
+ok T0.112 deposit sa 22.00 balance=1226.00
+ok T0.113 deposit sb 47.00 balance=1555.00
+ok T0.114 deposit sa 9.00 balance=1235.00
+now=1710000
+ok T0.115 deposit sa 28.00 balance=1263.00
+ok T0.116 deposit sa 8.00 balance=1271.00
+ok T0.117 deposit sb 34.00 balance=1589.00
+ok T0.118 deposit sa 4.00 balance=1275.00
+batch B17 n=7 volume=152.00 first=T0.112 last=T0.118 entry=0
+batch B17 settled
+ok T0.119 deposit sa 37.00 balance=1312.00
+now=1800000
+ok T0.120 deposit sb 30.00 balance=1619.00
+ok T0.121 deposit sb 41.00 balance=1660.00
+ok T0.122 deposit sb 48.00 balance=1708.00
+ok T0.123 deposit sa 12.00 balance=1324.00
+ok T0.124 deposit sa 3.00 balance=1327.00
+now=1845000
+ok T0.125 deposit sb 33.00 balance=1741.00
+batch B18 n=7 volume=204.00 first=T0.119 last=T0.125 entry=1
+batch B18 settled
+ok T0.126 deposit sa 28.00 balance=1355.00
+ok T0.127 deposit sb 18.00 balance=1759.00
+ok T0.128 deposit sb 1.00 balance=1760.00
+ok T0.129 deposit sa 45.00 balance=1400.00
+now=1875000
+ok T0.130 deposit sa 25.00 balance=1425.00
+ok T0.131 deposit sa 28.00 balance=1453.00
+ok T0.132 deposit sa 21.00 balance=1474.00
+batch B19 n=7 volume=166.00 first=T0.126 last=T0.132 entry=2
+batch B19 settled
+ok T0.133 deposit sb 17.00 balance=1777.00
+ok T0.134 deposit sb 36.00 balance=1813.00
+now=1965000
+ok T0.135 deposit sa 18.00 balance=1492.00
+ok T0.136 deposit sb 22.00 balance=1835.00
+ok T0.137 deposit sb 28.00 balance=1863.00
+ok T0.138 deposit sb 41.00 balance=1904.00
+ok T0.139 deposit sb 14.00 balance=1918.00
+batch B20 n=7 volume=176.00 first=T0.133 last=T0.139 entry=3
+batch B20 settled
+now=2055000
+ok T0.140 deposit sa 47.00 balance=1539.00
+ok T0.141 deposit sa 48.00 balance=1587.00
+ok T0.142 deposit sa 26.00 balance=1613.00
+ok T0.143 deposit sa 34.00 balance=1647.00
+ok T0.144 deposit sa 1.00 balance=1648.00
+now=2065000
+ok T0.145 deposit sa 28.00 balance=1676.00
+ok T0.146 deposit sb 13.00 balance=1931.00
+batch B21 n=7 volume=197.00 first=T0.140 last=T0.146 entry=4
+batch B21 settled
+ok T0.147 deposit sa 34.00 balance=1710.00
+ok T0.148 deposit sa 37.00 balance=1747.00
+ok T0.149 deposit sb 16.00 balance=1947.00
+now=2075000
+ok T0.150 deposit sb 42.00 balance=1989.00
+ok T0.151 deposit sa 8.00 balance=1755.00
+ok T0.152 deposit sa 29.00 balance=1784.00
+ok T0.153 deposit sa 22.00 balance=1806.00
+batch B22 n=7 volume=188.00 first=T0.147 last=T0.153 entry=5
+batch B22 settled
+ok T0.154 deposit sa 29.00 balance=1835.00
+now=2105000
+ok T0.155 deposit sb 27.00 balance=2016.00
+ok T0.156 deposit sb 43.00 balance=2059.00
+ok T0.157 deposit sa 3.00 balance=1838.00
+ok T0.158 deposit sa 15.00 balance=1853.00
+ok T0.159 deposit sa 43.00 balance=1896.00
+now=2150000
+ok T0.160 deposit sa 15.00 balance=1911.00
+batch B23 n=7 volume=175.00 first=T0.154 last=T0.160 entry=6
+batch B23 settled
+ok T0.161 deposit sa 24.00 balance=1935.00
+ok T0.162 deposit sa 45.00 balance=1980.00
+ok T0.163 deposit sa 7.00 balance=1987.00
+ok T0.164 deposit sb 39.00 balance=2098.00
+now=2160000
+ok T0.165 deposit sa 42.00 balance=2029.00
+ok T0.166 deposit sb 17.00 balance=2115.00
+ok T0.167 deposit sb 8.00 balance=2123.00
+batch B24 n=7 volume=182.00 first=T0.161 last=T0.167 entry=7
+batch B24 settled
+ok T0.168 deposit sb 22.00 balance=2145.00
+ok T0.169 deposit sb 27.00 balance=2172.00
+now=2190000
+ok T0.170 deposit sb 43.00 balance=2215.00
+ok T0.171 deposit sa 25.00 balance=2054.00
+ok T0.172 deposit sa 17.00 balance=2071.00
+ok T0.173 deposit sa 31.00 balance=2102.00
+ok T0.174 deposit sa 20.00 balance=2122.00
+batch B25 n=7 volume=185.00 first=T0.168 last=T0.174 entry=8
+batch B25 settled
+now=2280000
+ok T0.175 deposit sb 1.00 balance=2216.00
+ok T0.176 deposit sb 4.00 balance=2220.00
+ok T0.177 deposit sb 28.00 balance=2248.00
+ok T0.178 deposit sb 21.00 balance=2269.00
+ok T0.179 deposit sb 6.00 balance=2275.00
+now=2290000
+ok T0.180 deposit sa 10.00 balance=2132.00
+ok T0.181 deposit sa 45.00 balance=2177.00
+batch B26 n=7 volume=115.00 first=T0.175 last=T0.181 entry=9
+batch B26 settled
+ok T0.182 deposit sa 9.00 balance=2186.00
+ok T0.183 deposit sb 11.00 balance=2286.00
+ok T0.184 deposit sa 41.00 balance=2227.00
+now=2380000
+ok T0.185 deposit sb 42.00 balance=2328.00
+ok T0.186 deposit sa 2.00 balance=2229.00
+ok T0.187 deposit sa 36.00 balance=2265.00
+ok T0.188 deposit sb 2.00 balance=2330.00
+clearing fail_next=1 submitted=35 accepted=26
+batch B27 n=7 volume=143.00 first=T0.182 last=T0.188 entry=10
+batch B27 failed attempt=1 retry_at=2410000
+ok T0.189 deposit sb 14.00 balance=2344.00
+now=2390000
+ok T0.190 deposit sb 32.00 balance=2376.00
+ok T0.191 deposit sa 33.00 balance=2298.00
+ok T0.192 deposit sa 36.00 balance=2334.00
+ok T0.193 deposit sa 9.00 balance=2343.00
+ok T0.194 deposit sb 1.00 balance=2377.00
+now=2420000
+batch B27 settled
+ok T0.195 deposit sb 13.00 balance=2390.00
+batch B28 n=7 volume=138.00 first=T0.189 last=T0.195 entry=11
+batch B28 settled
+ok T0.196 deposit sa 21.00 balance=2364.00
+ok T0.197 deposit sb 34.00 balance=2424.00
+ok T0.198 deposit sa 49.00 balance=2413.00
+ok T0.199 deposit sa 31.00 balance=2444.00
+now=2660000
+ok T0.200 deposit sa 17.00 balance=2461.00
+ok T0.201 deposit sb 13.00 balance=2437.00
+ok T0.202 deposit sa 46.00 balance=2507.00
+clearing fail_next=1 submitted=38 accepted=28
+batch B29 n=7 volume=211.00 first=T0.196 last=T0.202 entry=12
+batch B29 failed attempt=1 retry_at=2690000
+ok T0.203 deposit sa 28.00 balance=2535.00
+ok T0.204 deposit sa 12.00 balance=2547.00
+now=2900000
+batch B29 settled
+ok T0.205 deposit sa 17.00 balance=2564.00
+ok T0.206 deposit sa 32.00 balance=2596.00
+ok T0.207 deposit sa 5.00 balance=2601.00
+ok T0.208 deposit sa 14.00 balance=2615.00
+ok T0.209 deposit sb 19.00 balance=2456.00
+batch B30 n=7 volume=127.00 first=T0.203 last=T0.209 entry=13
+batch B30 settled
+now=2910000
+ok T0.210 deposit sb 33.00 balance=2489.00
+ok T0.211 deposit sb 26.00 balance=2515.00
+ok T0.212 deposit sb 29.00 balance=2544.00
+ok T0.213 deposit sa 22.00 balance=2637.00
+ok T0.214 deposit sb 28.00 balance=2572.00
+now=2940000
+ok T0.215 deposit sa 7.00 balance=2644.00
+ok T0.216 deposit sa 9.00 balance=2653.00
+batch B31 n=7 volume=154.00 first=T0.210 last=T0.216 entry=14
+batch B31 settled
+ok T0.217 deposit sa 43.00 balance=2696.00
+ok T0.218 deposit sb 31.00 balance=2603.00
+ok T0.219 deposit sa 16.00 balance=2712.00
+now=2985000
+ok T0.220 deposit sa 36.00 balance=2748.00
+ok T0.221 deposit sa 35.00 balance=2783.00
+ok T0.222 deposit sa 31.00 balance=2814.00
+ok T0.223 deposit sb 45.00 balance=2648.00
+clearing fail_next=1 submitted=42 accepted=31
+batch B32 n=7 volume=237.00 first=T0.217 last=T0.223 entry=15
+batch B32 failed attempt=1 retry_at=3015000
+ok T0.224 deposit sa 32.00 balance=2846.00
+now=3075000
+batch B32 settled
+ok T0.225 deposit sb 1.00 balance=2649.00
+ok T0.226 deposit sb 1.00 balance=2650.00
+ok T0.227 deposit sb 26.00 balance=2676.00
+ok T0.228 deposit sb 45.00 balance=2721.00
+ok T0.229 deposit sa 40.00 balance=2886.00
+now=3120000
+ok T0.230 deposit sb 35.00 balance=2756.00
+clearing fail_next=2 submitted=44 accepted=32
+batch B33 n=7 volume=180.00 first=T0.224 last=T0.230 entry=0
+batch B33 failed attempt=1 retry_at=3150000
+ok T0.231 deposit sa 3.00 balance=2889.00
+ok T0.232 deposit sb 16.00 balance=2772.00
+ok T0.233 deposit sa 25.00 balance=2914.00
+ok T0.234 deposit sb 48.00 balance=2820.00
+now=3360000
+batch B33 failed attempt=2 retry_at=3420000
+ok T0.235 deposit sb 46.00 balance=2866.00
+ok T0.236 deposit sb 17.00 balance=2883.00
+ok T0.237 deposit sa 44.00 balance=2958.00
+clearing fail_next=3 submitted=46 accepted=32
+batch B34 n=7 volume=199.00 first=T0.231 last=T0.237 entry=1
+batch B34 failed attempt=1 retry_at=3390000
+ok T0.238 deposit sa 25.00 balance=2983.00
+ok T0.239 deposit sa 33.00 balance=3016.00
+now=3370000
+ok T0.240 deposit sb 27.00 balance=2910.00
+ok T0.241 deposit sb 27.00 balance=2937.00
+ok T0.242 deposit sa 36.00 balance=3052.00
+ok T0.243 deposit sb 38.00 balance=2975.00
+ok T0.244 deposit sa 15.00 balance=3067.00
+clearing fail_next=1 submitted=47 accepted=32
+batch B35 n=7 volume=201.00 first=T0.238 last=T0.244 entry=2
+batch B35 failed attempt=1 retry_at=3400000
+now=3415000
+batch B34 settled
+batch B35 settled
+ok T0.245 deposit sa 41.00 balance=3108.00
+ok T0.246 deposit sb 21.00 balance=2996.00
+ok T0.247 deposit sa 8.00 balance=3116.00
+ok T0.248 deposit sb 14.00 balance=3010.00
+ok T0.249 deposit sa 33.00 balance=3149.00
+now=3505000
+batch B33 settled
+ok T0.250 deposit sa 37.00 balance=3186.00
+ok T0.251 deposit sb 39.00 balance=3049.00
+batch B36 n=7 volume=193.00 first=T0.245 last=T0.251 entry=3
+batch B36 settled
+ok T0.252 deposit sb 11.00 balance=3060.00
+ok T0.253 deposit sa 47.00 balance=3233.00
+ok T0.254 deposit sb 17.00 balance=3077.00
+now=3550000
+ok T0.255 deposit sa 39.00 balance=3272.00
+ok T0.256 deposit sa 26.00 balance=3298.00
+ok T0.257 deposit sb 17.00 balance=3094.00
+ok T0.258 deposit sb 34.00 balance=3128.00
+batch B37 n=7 volume=191.00 first=T0.252 last=T0.258 entry=4
+batch B37 settled
+ok T0.259 deposit sb 30.00 balance=3158.00
+now=3580000
+ok T0.260 deposit sa 17.00 balance=3315.00
+ok T0.261 deposit sb 37.00 balance=3195.00
+ok T0.262 deposit sb 1.00 balance=3196.00
+ok T0.263 deposit sb 47.00 balance=3243.00
+ok T0.264 deposit sb 5.00 balance=3248.00
+now=3670000
+ok T0.265 deposit sa 23.00 balance=3338.00
+clearing fail_next=1 submitted=53 accepted=37
+batch B38 n=7 volume=160.00 first=T0.259 last=T0.265 entry=5
+batch B38 failed attempt=1 retry_at=3700000
+ok T0.266 deposit sa 31.00 balance=3369.00
+ok T0.267 deposit sa 43.00 balance=3412.00
+ok T0.268 deposit sb 28.00 balance=3276.00
+ok T0.269 deposit sa 10.00 balance=3422.00
+now=3760000
+batch B38 settled
+ok T0.270 deposit sa 19.00 balance=3441.00
+ok T0.271 deposit sb 43.00 balance=3319.00
+ok T0.272 deposit sb 4.00 balance=3323.00
+batch B39 n=7 volume=178.00 first=T0.266 last=T0.272 entry=6
+batch B39 settled
+ok T0.273 deposit sb 44.00 balance=3367.00
+ok T0.274 deposit sa 17.00 balance=3458.00
+now=3790000
+ok T0.275 deposit sb 47.00 balance=3414.00
+ok T0.276 deposit sb 36.00 balance=3450.00
+ok T0.277 deposit sa 19.00 balance=3477.00
+ok T0.278 deposit sa 50.00 balance=3527.00
+ok T0.279 deposit sa 15.00 balance=3542.00
+batch B40 n=7 volume=228.00 first=T0.273 last=T0.279 entry=7
+batch B40 settled
+now=4030000
+ok T0.280 deposit sb 14.00 balance=3464.00
+ok T0.281 deposit sa 2.00 balance=3544.00
+ok T0.282 deposit sa 16.00 balance=3560.00
+ok T0.283 deposit sb 31.00 balance=3495.00
+ok T0.284 deposit sa 9.00 balance=3569.00
+now=4060000
+ok T0.285 deposit sa 7.00 balance=3576.00
+ok T0.286 deposit sa 12.00 balance=3588.00
+batch B41 n=7 volume=91.00 first=T0.280 last=T0.286 entry=8
+batch B41 settled
+ok T0.287 deposit sb 20.00 balance=3515.00
+ok T0.288 deposit sa 31.00 balance=3619.00
+ok T0.289 deposit sb 44.00 balance=3559.00
+now=4150000
+ok T0.290 deposit sa 24.00 balance=3643.00
+ok T0.291 deposit sa 43.00 balance=3686.00
+ok T0.292 deposit sa 49.00 balance=3735.00
+ok T0.293 deposit sb 17.00 balance=3576.00
+batch B42 n=7 volume=228.00 first=T0.287 last=T0.293 entry=9
+batch B42 settled
+ok T0.294 deposit sa 49.00 balance=3784.00
+now=4160000
+ok T0.295 deposit sb 5.00 balance=3581.00
+ok T0.296 deposit sb 18.00 balance=3599.00
+ok T0.297 deposit sb 26.00 balance=3625.00
+ok T0.298 deposit sa 24.00 balance=3808.00
+ok T0.299 deposit sb 11.00 balance=3636.00
+now=4170000
+ok T0.300 deposit sb 6.00 balance=3642.00
+batch B43 n=7 volume=139.00 first=T0.294 last=T0.300 entry=10
+batch B43 settled
+ok T0.301 deposit sb 17.00 balance=3659.00
+ok T0.302 deposit sa 11.00 balance=3819.00
+ok T0.303 deposit sa 23.00 balance=3842.00
+ok T0.304 deposit sb 45.00 balance=3704.00
+now=4260000
+ok T0.305 deposit sb 5.00 balance=3709.00
+ok T0.306 deposit sb 37.00 balance=3746.00
+ok T0.307 deposit sb 8.00 balance=3754.00
+batch B44 n=7 volume=146.00 first=T0.301 last=T0.307 entry=11
+batch B44 settled
+ok T0.308 deposit sb 24.00 balance=3778.00
+ok T0.309 deposit sa 37.00 balance=3879.00
+now=4270000
+ok T0.310 deposit sa 23.00 balance=3902.00
+ok T0.311 deposit sb 2.00 balance=3780.00
+ok T0.312 deposit sb 50.00 balance=3830.00
+ok T0.313 deposit sb 34.00 balance=3864.00
+ok T0.314 deposit sb 2.00 balance=3866.00
+batch B45 n=7 volume=172.00 first=T0.308 last=T0.314 entry=12
+batch B45 settled
+now=4360000
+ok T0.315 deposit sa 21.00 balance=3923.00
+ok T0.316 deposit sa 45.00 balance=3968.00
+ok T0.317 deposit sb 25.00 balance=3891.00
+ok T0.318 deposit sa 28.00 balance=3996.00
+ok T0.319 deposit sa 50.00 balance=4046.00
+now=4450000
+ok T0.320 deposit sb 17.00 balance=3908.00
+ok T0.321 deposit sb 48.00 balance=3956.00
+batch B46 n=7 volume=234.00 first=T0.315 last=T0.321 entry=13
+batch B46 settled
+ok T0.322 deposit sb 33.00 balance=3989.00
+ok T0.323 deposit sa 33.00 balance=4079.00
+ok T0.324 deposit sa 31.00 balance=4110.00
+now=4460000
+ok T0.325 deposit sb 18.00 balance=4007.00
+ok T0.326 deposit sb 15.00 balance=4022.00
+ok T0.327 deposit sb 34.00 balance=4056.00
+ok T0.328 deposit sb 37.00 balance=4093.00
+batch B47 n=7 volume=201.00 first=T0.322 last=T0.328 entry=14
+batch B47 settled
+ok T0.329 deposit sa 10.00 balance=4120.00
+now=4490000
+ok T0.330 deposit sa 33.00 balance=4153.00
+ok T0.331 deposit sa 20.00 balance=4173.00
+ok T0.332 deposit sb 31.00 balance=4124.00
+ok T0.333 deposit sb 38.00 balance=4162.00
+ok T0.334 deposit sb 35.00 balance=4197.00
+now=4580000
+ok T0.335 deposit sb 41.00 balance=4238.00
+clearing fail_next=2 submitted=64 accepted=47
+batch B48 n=7 volume=208.00 first=T0.329 last=T0.335 entry=15
+batch B48 failed attempt=1 retry_at=4610000
+ok T0.336 deposit sa 16.00 balance=4189.00
+ok T0.337 deposit sa 21.00 balance=4210.00
+ok T0.338 deposit sa 21.00 balance=4231.00
+ok T0.339 deposit sb 37.00 balance=4275.00
+now=4625000
+batch B48 failed attempt=2 retry_at=4685000
+ok T0.340 deposit sb 45.00 balance=4320.00
+ok T0.341 deposit sa 46.00 balance=4277.00
+ok T0.342 deposit sa 9.00 balance=4286.00
+batch B49 n=7 volume=195.00 first=T0.336 last=T0.342 entry=0
+batch B49 settled
+ok T0.343 deposit sa 25.00 balance=4311.00
+ok T0.344 deposit sb 39.00 balance=4359.00
+now=4635000
+ok T0.345 deposit sb 40.00 balance=4399.00
+ok T0.346 deposit sb 47.00 balance=4446.00
+ok T0.347 deposit sb 6.00 balance=4452.00
+ok T0.348 deposit sa 15.00 balance=4326.00
+ok T0.349 deposit sb 8.00 balance=4460.00
+batch B50 n=7 volume=180.00 first=T0.343 last=T0.349 entry=1
+batch B50 settled
+now=4725000
+batch B48 settled
+ok T0.350 deposit sa 31.00 balance=4357.00
+ok T0.351 deposit sa 26.00 balance=4383.00
+ok T0.352 deposit sa 26.00 balance=4409.00
+ok T0.353 deposit sb 45.00 balance=4505.00
+ok T0.354 deposit sa 18.00 balance=4427.00
+now=4755000
+ok T0.355 deposit sa 13.00 balance=4440.00
+ok T0.356 deposit sa 1.00 balance=4441.00
+clearing fail_next=3 submitted=69 accepted=50
+batch B51 n=7 volume=160.00 first=T0.350 last=T0.356 entry=2
+batch B51 failed attempt=1 retry_at=4785000
+ok T0.357 deposit sa 29.00 balance=4470.00
+ok T0.358 deposit sb 28.00 balance=4533.00
+ok T0.359 deposit sa 42.00 balance=4512.00
+now=4765000
+ok T0.360 deposit sb 8.00 balance=4541.00
+ok T0.361 deposit sb 16.00 balance=4557.00
+ok T0.362 deposit sa 4.00 balance=4516.00
+ok T0.363 deposit sa 25.00 balance=4541.00
+batch B52 n=7 volume=152.00 first=T0.357 last=T0.363 entry=3
+batch B52 failed attempt=1 retry_at=4795000
+ok T0.364 deposit sb 11.00 balance=4568.00
+now=4855000
+batch B51 failed attempt=2 retry_at=4915000
+batch B52 settled
+ok T0.365 deposit sb 27.00 balance=4595.00
+ok T0.366 deposit sb 41.00 balance=4636.00
+ok T0.367 deposit sb 47.00 balance=4683.00
+ok T0.368 deposit sa 8.00 balance=4549.00
+ok T0.369 deposit sb 10.00 balance=4693.00
+now=4945000
+batch B51 settled
+ok T0.370 deposit sb 20.00 balance=4713.00
+batch B53 n=7 volume=164.00 first=T0.364 last=T0.370 entry=4
+batch B53 settled
+ok T0.371 deposit sa 22.00 balance=4571.00
+ok T0.372 deposit sb 27.00 balance=4740.00
+ok T0.373 deposit sb 7.00 balance=4747.00
+ok T0.374 deposit sa 42.00 balance=4613.00
+now=4990000
+ok T0.375 deposit sb 13.00 balance=4760.00
+ok T0.376 deposit sb 32.00 balance=4792.00
+ok T0.377 deposit sb 5.00 balance=4797.00
+batch B54 n=7 volume=148.00 first=T0.371 last=T0.377 entry=5
+batch B54 settled
+ok T0.378 deposit sb 28.00 balance=4825.00
+ok T0.379 deposit sb 43.00 balance=4868.00
+now=5080000
+ok T0.380 deposit sb 35.00 balance=4903.00
+ok T0.381 deposit sb 3.00 balance=4906.00
+ok T0.382 deposit sb 41.00 balance=4947.00
+ok T0.383 deposit sa 15.00 balance=4628.00
+ok T0.384 deposit sb 7.00 balance=4954.00
+clearing fail_next=1 submitted=76 accepted=54
+batch B55 n=7 volume=172.00 first=T0.378 last=T0.384 entry=6
+batch B55 failed attempt=1 retry_at=5110000
+now=5320000
+batch B55 settled
+ok T0.385 deposit sa 13.00 balance=4641.00
+ok T0.386 deposit sa 26.00 balance=4667.00
+ok T0.387 deposit sa 33.00 balance=4700.00
+ok T0.388 deposit sa 9.00 balance=4709.00
+ok T0.389 deposit sb 44.00 balance=4998.00
+now=5350000
+ok T0.390 deposit sb 37.00 balance=5035.00
+ok T0.391 deposit sb 45.00 balance=5080.00
+clearing fail_next=3 submitted=78 accepted=55
+batch B56 n=7 volume=207.00 first=T0.385 last=T0.391 entry=7
+batch B56 failed attempt=1 retry_at=5380000
+ok T0.392 deposit sa 24.00 balance=4733.00
+ok T0.393 deposit sa 37.00 balance=4770.00
+ok T0.394 deposit sa 18.00 balance=4788.00
+now=5380000
+batch B56 failed attempt=2 retry_at=5440000
+ok T0.395 deposit sb 3.00 balance=5083.00
+ok T0.396 deposit sa 27.00 balance=4815.00
+ok T0.397 deposit sb 21.00 balance=5104.00
+ok T0.398 deposit sa 32.00 balance=4847.00
+batch B57 n=7 volume=162.00 first=T0.392 last=T0.398 entry=8
+batch B57 failed attempt=1 retry_at=5410000
+ok T0.399 deposit sa 27.00 balance=4874.00
+now=5620000
+batch B57 settled
+batch B56 settled
+ok T0.400 deposit sb 8.00 balance=5112.00
+ok T0.401 deposit sa 35.00 balance=4909.00
+ok T0.402 deposit sa 44.00 balance=4953.00
+ok T0.403 deposit sb 36.00 balance=5148.00
+ok T0.404 deposit sb 39.00 balance=5187.00
+now=5710000
+ok T0.405 deposit sa 34.00 balance=4987.00
+batch B58 n=7 volume=223.00 first=T0.399 last=T0.405 entry=9
+batch B58 settled
+ok T0.406 deposit sa 34.00 balance=5021.00
+ok T0.407 deposit sa 11.00 balance=5032.00
+ok T0.408 deposit sa 9.00 balance=5041.00
+ok T0.409 deposit sa 13.00 balance=5054.00
+now=5755000
+ok T0.410 deposit sa 49.00 balance=5103.00
+ok T0.411 deposit sb 34.00 balance=5221.00
+ok T0.412 deposit sa 9.00 balance=5112.00
+batch B59 n=7 volume=159.00 first=T0.406 last=T0.412 entry=10
+batch B59 settled
+ok T0.413 deposit sb 42.00 balance=5263.00
+ok T0.414 deposit sb 29.00 balance=5292.00
+now=5845000
+ok T0.415 deposit sa 32.00 balance=5144.00
+ok T0.416 deposit sb 2.00 balance=5294.00
+ok T0.417 deposit sa 9.00 balance=5153.00
+ok T0.418 deposit sb 26.00 balance=5320.00
+ok T0.419 deposit sa 43.00 balance=5196.00
+clearing fail_next=1 submitted=85 accepted=59
+batch B60 n=7 volume=183.00 first=T0.413 last=T0.419 entry=11
+batch B60 failed attempt=1 retry_at=5875000
+now=5935000
+batch B60 settled
+ok T0.420 deposit sb 1.00 balance=5321.00
+ok T0.421 deposit sb 14.00 balance=5335.00
+ok T0.422 deposit sa 48.00 balance=5244.00
+ok T0.423 deposit sb 8.00 balance=5343.00
+ok T0.424 deposit sa 47.00 balance=5291.00
+now=6175000
+ok T0.425 deposit sb 23.00 balance=5366.00
+ok T0.426 deposit sb 35.00 balance=5401.00
+clearing fail_next=1 submitted=87 accepted=60
+batch B61 n=7 volume=176.00 first=T0.420 last=T0.426 entry=12
+batch B61 failed attempt=1 retry_at=6205000
+ok T0.427 deposit sb 1.00 balance=5402.00
+ok T0.428 deposit sb 24.00 balance=5426.00
+ok T0.429 deposit sa 47.00 balance=5338.00
+now=6265000
+batch B61 settled
+ok T0.430 deposit sb 28.00 balance=5454.00
+ok T0.431 deposit sa 45.00 balance=5383.00
+ok T0.432 deposit sa 23.00 balance=5406.00
+ok T0.433 deposit sa 27.00 balance=5433.00
+clearing fail_next=3 submitted=89 accepted=61
+batch B62 n=7 volume=195.00 first=T0.427 last=T0.433 entry=13
+batch B62 failed attempt=1 retry_at=6295000
+ok T0.434 deposit sb 39.00 balance=5493.00
+now=6355000
+batch B62 failed attempt=2 retry_at=6415000
+ok T0.435 deposit sa 7.00 balance=5440.00
+ok T0.436 deposit sa 50.00 balance=5490.00
+ok T0.437 deposit sb 27.00 balance=5520.00
+ok T0.438 deposit sa 15.00 balance=5505.00
+ok T0.439 deposit sa 24.00 balance=5529.00
+now=6595000
+batch B62 failed attempt=3 retry_at=6715000
+ok T0.440 deposit sb 26.00 balance=5546.00
+batch B63 n=7 volume=188.00 first=T0.434 last=T0.440 entry=14
+batch B63 settled
+ok T0.441 deposit sb 11.00 balance=5557.00
+ok T0.442 deposit sa 9.00 balance=5538.00
+ok T0.443 deposit sb 39.00 balance=5596.00
+ok T0.444 deposit sa 35.00 balance=5573.00
+now=6685000
+ok T0.445 deposit sb 9.00 balance=5605.00
+ok T0.446 deposit sa 11.00 balance=5584.00
+ok T0.447 deposit sa 1.00 balance=5585.00
+batch B64 n=7 volume=115.00 first=T0.441 last=T0.447 entry=15
+batch B64 settled
+ok T0.448 deposit sb 29.00 balance=5634.00
+ok T0.449 deposit sb 10.00 balance=5644.00
+now=6775000
+batch B62 settled
+ok T0.450 deposit sb 13.00 balance=5657.00
+ok T0.451 deposit sa 8.00 balance=5593.00
+ok T0.452 deposit sa 23.00 balance=5616.00
+ok T0.453 deposit sa 34.00 balance=5650.00
+ok T0.454 deposit sa 34.00 balance=5684.00
+batch B65 n=7 volume=151.00 first=T0.448 last=T0.454 entry=0
+batch B65 settled
+now=6865000
+ok T0.455 deposit sa 42.00 balance=5726.00
+ok T0.456 deposit sb 46.00 balance=5703.00
+ok T0.457 deposit sb 44.00 balance=5747.00
+ok T0.458 deposit sa 2.00 balance=5728.00
+ok T0.459 deposit sa 19.00 balance=5747.00
+now=7105000
+ok T0.460 deposit sb 24.00 balance=5771.00
+ok T0.461 deposit sa 9.00 balance=5756.00
+clearing fail_next=3 submitted=96 accepted=65
+batch B66 n=7 volume=186.00 first=T0.455 last=T0.461 entry=1
+batch B66 failed attempt=1 retry_at=7135000
+ok T0.462 deposit sa 36.00 balance=5792.00
+ok T0.463 deposit sb 38.00 balance=5809.00
+ok T0.464 deposit sb 44.00 balance=5853.00
+now=7115000
+ok T0.465 deposit sb 42.00 balance=5895.00
+ok T0.466 deposit sb 2.00 balance=5897.00
+ok T0.467 deposit sb 9.00 balance=5906.00
+ok T0.468 deposit sa 29.00 balance=5821.00
+batch B67 n=7 volume=200.00 first=T0.462 last=T0.468 entry=2
+batch B67 failed attempt=1 retry_at=7145000
+ok T0.469 deposit sb 47.00 balance=5953.00
+now=7205000
+batch B66 failed attempt=2 retry_at=7265000
+batch B67 settled
+ok T0.470 deposit sb 5.00 balance=5958.00
+ok T0.471 deposit sa 5.00 balance=5826.00
+ok T0.472 deposit sb 36.00 balance=5994.00
+ok T0.473 deposit sa 11.00 balance=5837.00
+ok T0.474 deposit sb 15.00 balance=6009.00
+now=7215000
+ok T0.475 deposit sb 31.00 balance=6040.00
+clearing fail_next=1 submitted=100 accepted=66
+batch B68 n=7 volume=150.00 first=T0.469 last=T0.475 entry=3
+batch B68 failed attempt=1 retry_at=7245000
+ok T0.476 deposit sb 11.00 balance=6051.00
+ok T0.477 deposit sb 34.00 balance=6085.00
+ok T0.478 deposit sa 30.00 balance=5867.00
+ok T0.479 deposit sa 28.00 balance=5895.00
+now=7225000
+ok T0.480 deposit sa 9.00 balance=5904.00
+ok T0.481 deposit sb 50.00 balance=6135.00
+ok T0.482 deposit sb 41.00 balance=6176.00
+batch B69 n=7 volume=203.00 first=T0.476 last=T0.482 entry=4
+batch B69 settled
+ok T0.483 deposit sb 6.00 balance=6182.00
+ok T0.484 deposit sa 47.00 balance=5951.00
+now=7315000
+batch B68 settled
+batch B66 settled
+ok T0.485 deposit sa 4.00 balance=5955.00
+ok T0.486 deposit sa 32.00 balance=5987.00
+ok T0.487 deposit sa 22.00 balance=6009.00
+ok T0.488 deposit sb 1.00 balance=6183.00
+ok T0.489 deposit sa 27.00 balance=6036.00
+batch B70 n=7 volume=139.00 first=T0.483 last=T0.489 entry=5
+batch B70 settled
+now=7360000
+ok T0.490 deposit sa 5.00 balance=6041.00
+ok T0.491 deposit sb 13.00 balance=6196.00
+ok T0.492 deposit sb 11.00 balance=6207.00
+ok T0.493 deposit sa 13.00 balance=6054.00
+ok T0.494 deposit sb 37.00 balance=6244.00
+now=7405000
+ok T0.495 deposit sa 1.00 balance=6055.00
+ok T0.496 deposit sa 40.00 balance=6095.00
+batch B71 n=7 volume=120.00 first=T0.490 last=T0.496 entry=6
+batch B71 settled
+ok T0.497 deposit sa 50.00 balance=6145.00
+ok T0.498 deposit sa 45.00 balance=6190.00
+ok T0.499 deposit sb 25.00 balance=6269.00
+now=7450000
+ok T0.500 deposit sa 49.00 balance=6239.00
+ok T0.501 deposit sa 35.00 balance=6274.00
+ok T0.502 deposit sb 32.00 balance=6301.00
+ok T0.503 deposit sb 1.00 balance=6302.00
+batch B72 n=7 volume=237.00 first=T0.497 last=T0.503 entry=7
+batch B72 settled
+ok T0.504 deposit sa 8.00 balance=6282.00
+now=7495000
+ok T0.505 deposit sa 47.00 balance=6329.00
+ok T0.506 deposit sb 4.00 balance=6306.00
+ok T0.507 deposit sb 13.00 balance=6319.00
+ok T0.508 deposit sa 25.00 balance=6354.00
+ok T0.509 deposit sb 10.00 balance=6329.00
+now=7585000
+ok T0.510 deposit sa 39.00 balance=6393.00
+batch B73 n=7 volume=146.00 first=T0.504 last=T0.510 entry=8
+batch B73 settled
+ok T0.511 deposit sa 48.00 balance=6441.00
+ok T0.512 deposit sa 10.00 balance=6451.00
+ok T0.513 deposit sa 5.00 balance=6456.00
+ok T0.514 deposit sa 40.00 balance=6496.00
+now=7595000
+ok T0.515 deposit sb 35.00 balance=6364.00
+ok T0.516 deposit sa 11.00 balance=6507.00
+ok T0.517 deposit sb 44.00 balance=6408.00
+clearing fail_next=1 submitted=108 accepted=73
+batch B74 n=7 volume=193.00 first=T0.511 last=T0.517 entry=9
+batch B74 failed attempt=1 retry_at=7625000
+ok T0.518 deposit sb 41.00 balance=6449.00
+ok T0.519 deposit sa 48.00 balance=6555.00
+now=7640000
+batch B74 settled
+ok T0.520 deposit sb 46.00 balance=6495.00
+ok T0.521 deposit sb 35.00 balance=6530.00
+ok T0.522 deposit sa 37.00 balance=6592.00
+ok T0.523 deposit sa 43.00 balance=6635.00
+ok T0.524 deposit sb 5.00 balance=6535.00
+batch B75 n=7 volume=255.00 first=T0.518 last=T0.524 entry=10
+batch B75 settled
+now=7685000
+ok T0.525 deposit sa 24.00 balance=6659.00
+ok T0.526 deposit sb 26.00 balance=6561.00
+ok T0.527 deposit sa 26.00 balance=6685.00
+ok T0.528 deposit sb 13.00 balance=6574.00
+ok T0.529 deposit sa 43.00 balance=6728.00
+now=7715000
+ok T0.530 deposit sa 45.00 balance=6773.00
+ok T0.531 deposit sa 26.00 balance=6799.00
+clearing fail_next=1 submitted=111 accepted=75
+batch B76 n=7 volume=203.00 first=T0.525 last=T0.531 entry=11
+batch B76 failed attempt=1 retry_at=7745000
+ok T0.532 deposit sa 19.00 balance=6818.00
+ok T0.533 deposit sb 50.00 balance=6624.00
+ok T0.534 deposit sa 50.00 balance=6868.00
+now=7745000
+batch B76 settled
+ok T0.535 deposit sb 29.00 balance=6653.00
+ok T0.536 deposit sa 11.00 balance=6879.00
+ok T0.537 deposit sa 49.00 balance=6928.00
+ok T0.538 deposit sb 10.00 balance=6663.00
+clearing fail_next=2 submitted=113 accepted=76
+batch B77 n=7 volume=218.00 first=T0.532 last=T0.538 entry=12
+batch B77 failed attempt=1 retry_at=7775000
+ok T0.539 deposit sb 28.00 balance=6691.00
+now=7835000
+batch B77 failed attempt=2 retry_at=7895000
+ok T0.540 deposit sa 21.00 balance=6949.00
+ok T0.541 deposit sa 34.00 balance=6983.00
+ok T0.542 deposit sa 6.00 balance=6989.00
+ok T0.543 deposit sa 42.00 balance=7031.00
+ok T0.544 deposit sa 46.00 balance=7077.00
+now=7845000
+ok T0.545 deposit sa 26.00 balance=7103.00
+batch B78 n=7 volume=203.00 first=T0.539 last=T0.545 entry=13
+batch B78 settled
+ok T0.546 deposit sa 2.00 balance=7105.00
+ok T0.547 deposit sb 9.00 balance=6700.00
+ok T0.548 deposit sa 31.00 balance=7136.00
+ok T0.549 deposit sb 10.00 balance=6710.00
+now=7875000
+ok T0.550 deposit sa 23.00 balance=7159.00
+ok T0.551 deposit sb 9.00 balance=6719.00
+ok T0.552 deposit sb 18.00 balance=6737.00
+clearing fail_next=2 submitted=116 accepted=77
+batch B79 n=7 volume=102.00 first=T0.546 last=T0.552 entry=14
+batch B79 failed attempt=1 retry_at=7905000
+ok T0.553 deposit sa 29.00 balance=7188.00
+ok T0.554 deposit sa 38.00 balance=7226.00
+now=7885000
+ok T0.555 deposit sb 15.00 balance=6752.00
+ok T0.556 deposit sa 49.00 balance=7275.00
+ok T0.557 deposit sa 11.00 balance=7286.00
+ok T0.558 deposit sb 48.00 balance=6800.00
+ok T0.559 deposit sa 5.00 balance=7291.00
+batch B80 n=7 volume=195.00 first=T0.553 last=T0.559 entry=15
+batch B80 failed attempt=1 retry_at=7915000
+now=7930000
+batch B77 settled
+batch B79 settled
+batch B80 settled
+ok T0.560 deposit sa 18.00 balance=7309.00
+ok T0.561 deposit sb 24.00 balance=6824.00
+ok T0.562 deposit sa 3.00 balance=7312.00
+ok T0.563 deposit sa 31.00 balance=7343.00
+ok T0.564 deposit sb 2.00 balance=6826.00
+now=8020000
+ok T0.565 deposit sa 36.00 balance=7379.00
+ok T0.566 deposit sa 29.00 balance=7408.00
+clearing fail_next=3 submitted=121 accepted=80
+batch B81 n=7 volume=143.00 first=T0.560 last=T0.566 entry=0
+batch B81 failed attempt=1 retry_at=8050000
+ok T0.567 deposit sa 21.00 balance=7429.00
+ok T0.568 deposit sa 9.00 balance=7438.00
+ok T0.569 deposit sb 12.00 balance=6838.00
+now=8110000
+batch B81 failed attempt=2 retry_at=8170000
+ok T0.570 deposit sb 44.00 balance=6882.00
+ok T0.571 deposit sa 22.00 balance=7460.00
+ok T0.572 deposit sa 19.00 balance=7479.00
+ok T0.573 deposit sa 47.00 balance=7526.00
+batch B82 n=7 volume=174.00 first=T0.567 last=T0.573 entry=1
+batch B82 failed attempt=1 retry_at=8140000
+ok T0.574 deposit sa 15.00 balance=7541.00
+now=8200000
+batch B82 settled
+batch B81 settled
+ok T0.575 deposit sb 45.00 balance=6927.00
+ok T0.576 deposit sa 26.00 balance=7567.00
+ok T0.577 deposit sa 14.00 balance=7581.00
+ok T0.578 deposit sb 15.00 balance=6942.00
+ok T0.579 deposit sa 1.00 balance=7582.00
+now=8440000
+ok T0.580 deposit sb 24.00 balance=6966.00
+clearing fail_next=1 submitted=126 accepted=82
+batch B83 n=7 volume=140.00 first=T0.574 last=T0.580 entry=2
+batch B83 failed attempt=1 retry_at=8470000
+ok T0.581 deposit sa 22.00 balance=7604.00
+ok T0.582 deposit sb 16.00 balance=6982.00
+ok T0.583 deposit sa 8.00 balance=7612.00
+ok T0.584 deposit sa 32.00 balance=7644.00
+now=8485000
+batch B83 settled
+ok T0.585 deposit sb 30.00 balance=7012.00
+ok T0.586 deposit sb 25.00 balance=7037.00
+ok T0.587 deposit sb 25.00 balance=7062.00
+batch B84 n=7 volume=158.00 first=T0.581 last=T0.587 entry=3
+batch B84 settled
+ok T0.588 deposit sa 16.00 balance=7660.00
+ok T0.589 deposit sb 27.00 balance=7089.00
+now=8575000
+ok T0.590 deposit sb 6.00 balance=7095.00
+ok T0.591 deposit sa 20.00 balance=7680.00
+ok T0.592 deposit sa 9.00 balance=7689.00
+ok T0.593 deposit sa 28.00 balance=7717.00
+ok T0.594 deposit sa 23.00 balance=7740.00
+clearing fail_next=1 submitted=129 accepted=84
+batch B85 n=7 volume=129.00 first=T0.588 last=T0.594 entry=4
+batch B85 failed attempt=1 retry_at=8605000
+now=8620000
+batch B85 settled
+ok T0.595 deposit sa 5.00 balance=7745.00
+ok T0.596 deposit sa 48.00 balance=7793.00
+ok T0.597 deposit sb 28.00 balance=7123.00
+ok T0.598 deposit sb 4.00 balance=7127.00
+ok T0.599 deposit sa 35.00 balance=7828.00
+now=8665000
+ok T0.600 deposit sb 42.00 balance=7169.00
+ok T0.601 deposit sb 3.00 balance=7172.00
+batch B86 n=7 volume=165.00 first=T0.595 last=T0.601 entry=5
+batch B86 settled
+ok T0.602 deposit sb 21.00 balance=7193.00
+ok T0.603 deposit sa 38.00 balance=7866.00
+ok T0.604 deposit sb 34.00 balance=7227.00
+now=8905000
+ok T0.605 deposit sb 27.00 balance=7254.00
+ok T0.606 deposit sb 50.00 balance=7304.00
+ok T0.607 deposit sb 11.00 balance=7315.00
+ok T0.608 deposit sa 42.00 balance=7908.00
+clearing fail_next=3 submitted=132 accepted=86
+batch B87 n=7 volume=223.00 first=T0.602 last=T0.608 entry=6
+batch B87 failed attempt=1 retry_at=8935000
+ok T0.609 deposit sa 44.00 balance=7952.00
+now=9145000
+batch B87 failed attempt=2 retry_at=9205000
+ok T0.610 deposit sb 41.00 balance=7356.00
+ok T0.611 deposit sa 5.00 balance=7957.00
+ok T0.612 deposit sb 10.00 balance=7366.00
+ok T0.613 deposit sa 19.00 balance=7976.00
+ok T0.614 deposit sb 2.00 balance=7368.00
+now=9235000
+batch B87 failed attempt=3 retry_at=9355000
+ok T0.615 deposit sa 27.00 balance=8003.00
+batch B88 n=7 volume=148.00 first=T0.609 last=T0.615 entry=7
+batch B88 settled
+ok T0.616 deposit sb 15.00 balance=7383.00
+ok T0.617 deposit sb 19.00 balance=7402.00
+ok T0.618 deposit sb 25.00 balance=7427.00
+ok T0.619 deposit sb 9.00 balance=7436.00
+now=9265000
+ok T0.620 deposit sb 18.00 balance=7454.00
+ok T0.621 deposit sb 4.00 balance=7458.00
+ok T0.622 deposit sb 49.00 balance=7507.00
+batch B89 n=7 volume=139.00 first=T0.616 last=T0.622 entry=8
+batch B89 settled
+ok T0.623 deposit sa 33.00 balance=8036.00
+ok T0.624 deposit sa 9.00 balance=8045.00
+now=9295000
+ok T0.625 deposit sa 38.00 balance=8083.00
+ok T0.626 deposit sb 28.00 balance=7535.00
+ok T0.627 deposit sa 38.00 balance=8121.00
+ok T0.628 deposit sa 19.00 balance=8140.00
+ok T0.629 deposit sa 12.00 balance=8152.00
+batch B90 n=7 volume=177.00 first=T0.623 last=T0.629 entry=9
+batch B90 settled
+now=9385000
+batch B87 settled
+ok T0.630 deposit sb 40.00 balance=7575.00
+ok T0.631 deposit sa 29.00 balance=8181.00
+ok T0.632 deposit sa 8.00 balance=8189.00
+ok T0.633 deposit sb 6.00 balance=7581.00
+ok T0.634 deposit sb 40.00 balance=7621.00
+now=9430000
+ok T0.635 deposit sa 43.00 balance=8232.00
+ok T0.636 deposit sa 28.00 balance=8260.00
+batch B91 n=7 volume=194.00 first=T0.630 last=T0.636 entry=10
+batch B91 settled
+ok T0.637 deposit sa 8.00 balance=8268.00
+ok T0.638 deposit sa 40.00 balance=8308.00
+ok T0.639 deposit sa 42.00 balance=8350.00
+now=9440000
+ok T0.640 deposit sa 16.00 balance=8366.00
+ok T0.641 deposit sb 5.00 balance=7626.00
+ok T0.642 deposit sb 12.00 balance=7638.00
+ok T0.643 deposit sa 4.00 balance=8370.00
+batch B92 n=7 volume=127.00 first=T0.637 last=T0.643 entry=11
+batch B92 settled
+ok T0.644 deposit sb 7.00 balance=7645.00
+now=9470000
+ok T0.645 deposit sb 7.00 balance=7652.00
+ok T0.646 deposit sb 36.00 balance=7688.00
+ok T0.647 deposit sa 49.00 balance=8419.00
+ok T0.648 deposit sa 45.00 balance=8464.00
+ok T0.649 deposit sa 9.00 balance=8473.00
+now=9480000
+ok T0.650 deposit sa 15.00 balance=8488.00
+batch B93 n=7 volume=168.00 first=T0.644 last=T0.650 entry=12
+batch B93 settled
+ok T0.651 deposit sb 25.00 balance=7713.00
+ok T0.652 deposit sb 4.00 balance=7717.00
+ok T0.653 deposit sb 49.00 balance=7766.00
+ok T0.654 deposit sb 10.00 balance=7776.00
+now=9720000
+ok T0.655 deposit sa 33.00 balance=8521.00
+ok T0.656 deposit sa 39.00 balance=8560.00
+ok T0.657 deposit sa 21.00 balance=8581.00
+batch B94 n=7 volume=181.00 first=T0.651 last=T0.657 entry=13
+batch B94 settled
+ok T0.658 deposit sb 24.00 balance=7800.00
+ok T0.659 deposit sa 41.00 balance=8622.00
+now=9730000
+ok T0.660 deposit sa 39.00 balance=8661.00
+ok T0.661 deposit sb 42.00 balance=7842.00
+ok T0.662 deposit sb 48.00 balance=7890.00
+ok T0.663 deposit sa 7.00 balance=8668.00
+ok T0.664 deposit sb 24.00 balance=7914.00
+batch B95 n=7 volume=225.00 first=T0.658 last=T0.664 entry=14
+batch B95 settled
+now=9760000
+ok T0.665 deposit sb 18.00 balance=7932.00
+ok T0.666 deposit sb 33.00 balance=7965.00
+ok T0.667 deposit sb 30.00 balance=7995.00
+ok T0.668 deposit sa 31.00 balance=8699.00
+ok T0.669 deposit sa 30.00 balance=8729.00
+now=10000000
+ok T0.670 deposit sb 41.00 balance=8036.00
+ok T0.671 deposit sa 43.00 balance=8772.00
+batch B96 n=7 volume=226.00 first=T0.665 last=T0.671 entry=15
+batch B96 settled
+ok T0.672 deposit sb 36.00 balance=8072.00
+ok T0.673 deposit sb 39.00 balance=8111.00
+ok T0.674 deposit sa 10.00 balance=8782.00
+now=10030000
+ok T0.675 deposit sb 18.00 balance=8129.00
+ok T0.676 deposit sb 18.00 balance=8147.00
+ok T0.677 deposit sa 34.00 balance=8816.00
+ok T0.678 deposit sb 40.00 balance=8187.00
+batch B97 n=7 volume=195.00 first=T0.672 last=T0.678 entry=0
+batch B97 settled
+ok T0.679 deposit sb 41.00 balance=8228.00
+now=10060000
+ok T0.680 deposit sa 10.00 balance=8826.00
+ok T0.681 deposit sb 10.00 balance=8238.00
+ok T0.682 deposit sa 45.00 balance=8871.00
+ok T0.683 deposit sb 3.00 balance=8241.00
+ok T0.684 deposit sa 2.00 balance=8873.00
+now=10070000
+ok T0.685 deposit sb 26.00 balance=8267.00
+batch B98 n=7 volume=137.00 first=T0.679 last=T0.685 entry=1
+batch B98 settled
+ok T0.686 deposit sb 9.00 balance=8276.00
+ok T0.687 deposit sb 42.00 balance=8318.00
+ok T0.688 deposit sb 19.00 balance=8337.00
+ok T0.689 deposit sa 17.00 balance=8890.00
+now=10310000
+ok T0.690 deposit sb 7.00 balance=8344.00
+ok T0.691 deposit sa 23.00 balance=8913.00
+ok T0.692 deposit sa 4.00 balance=8917.00
+batch B99 n=7 volume=121.00 first=T0.686 last=T0.692 entry=2
+batch B99 settled
+ok T0.693 deposit sb 27.00 balance=8371.00
+ok T0.694 deposit sb 7.00 balance=8378.00
+now=10340000
+ok T0.695 deposit sb 41.00 balance=8419.00
+ok T0.696 deposit sb 23.00 balance=8442.00
+ok T0.697 deposit sb 16.00 balance=8458.00
+ok T0.698 deposit sa 6.00 balance=8923.00
+ok T0.699 deposit sb 9.00 balance=8467.00
+batch B100 n=7 volume=129.00 first=T0.693 last=T0.699 entry=3
+batch B100 settled
+now=10430000
+ok T0.700 deposit sb 35.00 balance=8502.00
+ok T0.701 deposit sb 4.00 balance=8506.00
+ok T0.702 deposit sb 37.00 balance=8543.00
+ok T0.703 deposit sa 8.00 balance=8931.00
+ok T0.704 deposit sb 15.00 balance=8558.00
+now=10475000
+ok T0.705 deposit sb 39.00 balance=8597.00
+ok T0.706 deposit sb 39.00 balance=8636.00
+clearing fail_next=3 submitted=149 accepted=100
+batch B101 n=7 volume=177.00 first=T0.700 last=T0.706 entry=4
+batch B101 failed attempt=1 retry_at=10505000
+ok T0.707 deposit sa 49.00 balance=8980.00
+ok T0.708 deposit sa 8.00 balance=8988.00
+ok T0.709 deposit sa 2.00 balance=8990.00
+now=10715000
+batch B101 failed attempt=2 retry_at=10775000
+ok T0.710 deposit sa 34.00 balance=9024.00
+ok T0.711 deposit sb 50.00 balance=8686.00
+ok T0.712 deposit sb 24.00 balance=8710.00
+ok T0.713 deposit sa 36.00 balance=9060.00
+batch B102 n=7 volume=203.00 first=T0.707 last=T0.713 entry=5
+batch B102 failed attempt=1 retry_at=10745000
+ok T0.714 deposit sb 3.00 balance=8713.00
+now=10955000
+batch B102 settled
+batch B101 settled
+ok T0.715 deposit sb 47.00 balance=8760.00
+ok T0.716 deposit sa 33.00 balance=9093.00
+ok T0.717 deposit sa 28.00 balance=9121.00
+ok T0.718 deposit sb 42.00 balance=8802.00
+ok T0.719 deposit sb 35.00 balance=8837.00
+now=11045000
+ok T0.720 deposit sb 23.00 balance=8860.00
+batch B103 n=7 volume=211.00 first=T0.714 last=T0.720 entry=6
+batch B103 settled
+ok T0.721 deposit sb 30.00 balance=8890.00
+ok T0.722 deposit sa 41.00 balance=9162.00
+ok T0.723 deposit sa 23.00 balance=9185.00
+ok T0.724 deposit sb 45.00 balance=8935.00
+now=11135000
+ok T0.725 deposit sb 47.00 balance=8982.00
+ok T0.726 deposit sb 11.00 balance=8993.00
+ok T0.727 deposit sb 16.00 balance=9009.00
+clearing fail_next=3 submitted=155 accepted=103
+batch B104 n=7 volume=213.00 first=T0.721 last=T0.727 entry=7
+batch B104 failed attempt=1 retry_at=11165000
+ok T0.728 deposit sb 39.00 balance=9048.00
+ok T0.729 deposit sb 28.00 balance=9076.00
+now=11375000
+batch B104 failed attempt=2 retry_at=11435000
+ok T0.730 deposit sb 28.00 balance=9104.00
+ok T0.731 deposit sa 35.00 balance=9220.00
+ok T0.732 deposit sa 2.00 balance=9222.00
+ok T0.733 deposit sb 39.00 balance=9143.00
+ok T0.734 deposit sb 30.00 balance=9173.00
+batch B105 n=7 volume=201.00 first=T0.728 last=T0.734 entry=8
+batch B105 failed attempt=1 retry_at=11405000
+now=11405000
+batch B105 settled
+ok T0.735 deposit sb 6.00 balance=9179.00
+ok T0.736 deposit sb 21.00 balance=9200.00
+ok T0.737 deposit sa 46.00 balance=9268.00
+ok T0.738 deposit sb 28.00 balance=9228.00
+ok T0.739 deposit sb 34.00 balance=9262.00
+now=11450000
+batch B104 settled
+ok T0.740 deposit sb 50.00 balance=9312.00
+ok T0.741 deposit sb 33.00 balance=9345.00
+clearing fail_next=2 submitted=160 accepted=105
+batch B106 n=7 volume=218.00 first=T0.735 last=T0.741 entry=9
+batch B106 failed attempt=1 retry_at=11480000
+ok T0.742 deposit sa 39.00 balance=9307.00
+ok T0.743 deposit sa 42.00 balance=9349.00
+ok T0.744 deposit sb 30.00 balance=9375.00
+now=11460000
+ok T0.745 deposit sa 18.00 balance=9367.00
+ok T0.746 deposit sa 27.00 balance=9394.00
+ok T0.747 deposit sb 35.00 balance=9410.00
+ok T0.748 deposit sb 3.00 balance=9413.00
+batch B107 n=7 volume=194.00 first=T0.742 last=T0.748 entry=10
+batch B107 failed attempt=1 retry_at=11490000
+ok T0.749 deposit sa 27.00 balance=9421.00
+now=11700000
+batch B106 settled
+batch B107 settled
+ok T0.750 deposit sa 15.00 balance=9436.00
+ok T0.751 deposit sb 11.00 balance=9424.00
+ok T0.752 deposit sb 49.00 balance=9473.00
+ok T0.753 deposit sa 34.00 balance=9470.00
+ok T0.754 deposit sb 39.00 balance=9512.00
+now=11710000
+ok T0.755 deposit sa 35.00 balance=9505.00
+batch B108 n=7 volume=210.00 first=T0.749 last=T0.755 entry=11
+batch B108 settled
+ok T0.756 deposit sb 22.00 balance=9534.00
+ok T0.757 deposit sa 43.00 balance=9548.00
+ok T0.758 deposit sa 27.00 balance=9575.00
+ok T0.759 deposit sa 13.00 balance=9588.00
+now=11755000
+ok T0.760 deposit sb 49.00 balance=9583.00
+ok T0.761 deposit sa 36.00 balance=9624.00
+ok T0.762 deposit sb 4.00 balance=9587.00
+batch B109 n=7 volume=194.00 first=T0.756 last=T0.762 entry=12
+batch B109 settled
+ok T0.763 deposit sb 25.00 balance=9612.00
+ok T0.764 deposit sb 13.00 balance=9625.00
+now=11785000
+ok T0.765 deposit sa 34.00 balance=9658.00
+ok T0.766 deposit sb 24.00 balance=9649.00
+ok T0.767 deposit sa 4.00 balance=9662.00
+ok T0.768 deposit sb 36.00 balance=9685.00
+ok T0.769 deposit sb 34.00 balance=9719.00
+clearing fail_next=2 submitted=166 accepted=109
+batch B110 n=7 volume=170.00 first=T0.763 last=T0.769 entry=13
+batch B110 failed attempt=1 retry_at=11815000
+now=12025000
+batch B110 failed attempt=2 retry_at=12085000
+ok T0.770 deposit sa 22.00 balance=9684.00
+ok T0.771 deposit sb 11.00 balance=9730.00
+ok T0.772 deposit sb 47.00 balance=9777.00
+ok T0.773 deposit sb 31.00 balance=9808.00
+ok T0.774 deposit sb 32.00 balance=9840.00
+now=12265000
+batch B110 settled
+ok T0.775 deposit sb 34.00 balance=9874.00
+ok T0.776 deposit sa 12.00 balance=9696.00
+clearing fail_next=3 submitted=169 accepted=110
+batch B111 n=7 volume=189.00 first=T0.770 last=T0.776 entry=14
+batch B111 failed attempt=1 retry_at=12295000
+ok T0.777 deposit sa 22.00 balance=9718.00
+ok T0.778 deposit sa 9.00 balance=9727.00
+ok T0.779 deposit sa 13.00 balance=9740.00
+now=12355000
+batch B111 failed attempt=2 retry_at=12415000
+ok T0.780 deposit sa 18.00 balance=9758.00
+ok T0.781 deposit sa 42.00 balance=9800.00
+ok T0.782 deposit sa 29.00 balance=9829.00
+ok T0.783 deposit sb 22.00 balance=9896.00
+batch B112 n=7 volume=155.00 first=T0.777 last=T0.783 entry=15
+batch B112 failed attempt=1 retry_at=12385000
+ok T0.784 deposit sb 29.00 balance=9925.00
+now=12445000
+batch B112 settled
+batch B111 settled
+ok T0.785 deposit sa 42.00 balance=9871.00
+ok T0.786 deposit sb 26.00 balance=9951.00
+ok T0.787 deposit sa 18.00 balance=9889.00
+ok T0.788 deposit sa 48.00 balance=9937.00
+ok T0.789 deposit sa 6.00 balance=9943.00
+now=12455000
+ok T0.790 deposit sb 39.00 balance=9990.00
+batch B113 n=7 volume=208.00 first=T0.784 last=T0.790 entry=0
+batch B113 settled
+ok T0.791 deposit sa 2.00 balance=9945.00
+ok T0.792 deposit sa 5.00 balance=9950.00
+ok T0.793 deposit sb 5.00 balance=9995.00
+ok T0.794 deposit sa 23.00 balance=9973.00
+now=12500000
+ok T0.795 deposit sb 30.00 balance=10025.00
+ok T0.796 deposit sb 47.00 balance=10072.00
+ok T0.797 deposit sb 10.00 balance=10082.00
+batch B114 n=7 volume=122.00 first=T0.791 last=T0.797 entry=1
+batch B114 settled
+ok T0.798 deposit sb 35.00 balance=10117.00
+ok T0.799 deposit sb 37.00 balance=10154.00
+now=12530000
+ok T0.800 deposit sb 15.00 balance=10169.00
+ok T0.801 deposit sb 22.00 balance=10191.00
+ok T0.802 deposit sb 17.00 balance=10208.00
+ok T0.803 deposit sb 12.00 balance=10220.00
+ok T0.804 deposit sb 5.00 balance=10225.00
+clearing fail_next=2 submitted=176 accepted=114
+batch B115 n=7 volume=143.00 first=T0.798 last=T0.804 entry=2
+batch B115 failed attempt=1 retry_at=12560000
+now=12575000
+batch B115 failed attempt=2 retry_at=12635000
+ok T0.805 deposit sb 11.00 balance=10236.00
+ok T0.806 deposit sb 7.00 balance=10243.00
+ok T0.807 deposit sb 36.00 balance=10279.00
+ok T0.808 deposit sa 10.00 balance=9983.00
+ok T0.809 deposit sb 33.00 balance=10312.00
+now=12585000
+ok T0.810 deposit sb 22.00 balance=10334.00
+ok T0.811 deposit sa 21.00 balance=10004.00
+batch B116 n=7 volume=140.00 first=T0.805 last=T0.811 entry=3
+batch B116 settled
+ok T0.812 deposit sa 14.00 balance=10018.00
+ok T0.813 deposit sa 18.00 balance=10036.00
+ok T0.814 deposit sb 43.00 balance=10377.00
+now=12630000
+ok T0.815 deposit sb 47.00 balance=10424.00
+ok T0.816 deposit sb 48.00 balance=10472.00
+ok T0.817 deposit sa 38.00 balance=10074.00
+ok T0.818 deposit sa 36.00 balance=10110.00
+batch B117 n=7 volume=244.00 first=T0.812 last=T0.818 entry=4
+batch B117 settled
+ok T0.819 deposit sb 48.00 balance=10520.00
+now=12640000
+batch B115 settled
+ok T0.820 deposit sb 17.00 balance=10537.00
+ok T0.821 deposit sa 38.00 balance=10148.00
+ok T0.822 deposit sb 19.00 balance=10556.00
+ok T0.823 deposit sa 46.00 balance=10194.00
+ok T0.824 deposit sb 4.00 balance=10560.00
+now=12880000
+ok T0.825 deposit sa 42.00 balance=10236.00
+batch B118 n=7 volume=214.00 first=T0.819 last=T0.825 entry=5
+batch B118 settled
+ok T0.826 deposit sa 3.00 balance=10239.00
+ok T0.827 deposit sa 47.00 balance=10286.00
+ok T0.828 deposit sb 46.00 balance=10606.00
+ok T0.829 deposit sb 2.00 balance=10608.00
+now=12970000
+ok T0.830 deposit sb 18.00 balance=10626.00
+ok T0.831 deposit sa 2.00 balance=10288.00
+ok T0.832 deposit sa 48.00 balance=10336.00
+batch B119 n=7 volume=166.00 first=T0.826 last=T0.832 entry=6
+batch B119 settled
+ok T0.833 deposit sb 49.00 balance=10675.00
+ok T0.834 deposit sa 15.00 balance=10351.00
+now=13015000
+ok T0.835 deposit sa 37.00 balance=10388.00
+ok T0.836 deposit sb 5.00 balance=10680.00
+ok T0.837 deposit sb 41.00 balance=10721.00
+ok T0.838 deposit sb 9.00 balance=10730.00
+ok T0.839 deposit sa 5.00 balance=10393.00
+batch B120 n=7 volume=161.00 first=T0.833 last=T0.839 entry=7
+batch B120 settled
+now=13025000
+ok T0.840 deposit sb 24.00 balance=10754.00
+ok T0.841 deposit sa 14.00 balance=10407.00
+ok T0.842 deposit sb 32.00 balance=10786.00
+ok T0.843 deposit sa 1.00 balance=10408.00
+ok T0.844 deposit sb 41.00 balance=10827.00
+now=13055000
+ok T0.845 deposit sa 37.00 balance=10445.00
+ok T0.846 deposit sa 28.00 balance=10473.00
+batch B121 n=7 volume=177.00 first=T0.840 last=T0.846 entry=8
+batch B121 settled
+ok T0.847 deposit sa 29.00 balance=10502.00
+ok T0.848 deposit sa 22.00 balance=10524.00
+ok T0.849 deposit sb 34.00 balance=10861.00
+now=13100000
+ok T0.850 deposit sb 35.00 balance=10896.00
+ok T0.851 deposit sa 21.00 balance=10545.00
+ok T0.852 deposit sb 45.00 balance=10941.00
+ok T0.853 deposit sb 15.00 balance=10956.00
+batch B122 n=7 volume=201.00 first=T0.847 last=T0.853 entry=9
+batch B122 settled
+ok T0.854 deposit sb 47.00 balance=11003.00
+now=13190000
+ok T0.855 deposit sb 10.00 balance=11013.00
+ok T0.856 deposit sa 41.00 balance=10586.00
+ok T0.857 deposit sa 19.00 balance=10605.00
+ok T0.858 deposit sb 36.00 balance=11049.00
+ok T0.859 deposit sb 18.00 balance=11067.00
+now=13220000
+ok T0.860 deposit sa 32.00 balance=10637.00
+batch B123 n=7 volume=203.00 first=T0.854 last=T0.860 entry=10
+batch B123 settled
+ok T0.861 deposit sb 10.00 balance=11077.00
+ok T0.862 deposit sa 9.00 balance=10646.00
+ok T0.863 deposit sb 25.00 balance=11102.00
+ok T0.864 deposit sa 39.00 balance=10685.00
+now=13250000
+ok T0.865 deposit sb 27.00 balance=11129.00
+ok T0.866 deposit sa 6.00 balance=10691.00
+ok T0.867 deposit sa 28.00 balance=10719.00
+clearing fail_next=2 submitted=187 accepted=123
+batch B124 n=7 volume=144.00 first=T0.861 last=T0.867 entry=11
+batch B124 failed attempt=1 retry_at=13280000
+ok T0.868 deposit sb 18.00 balance=11147.00
+ok T0.869 deposit sb 29.00 balance=11176.00
+now=13340000
+batch B124 failed attempt=2 retry_at=13400000
+ok T0.870 deposit sb 3.00 balance=11179.00
+ok T0.871 deposit sb 25.00 balance=11204.00
+ok T0.872 deposit sb 19.00 balance=11223.00
+ok T0.873 deposit sa 25.00 balance=10744.00
+ok T0.874 deposit sa 44.00 balance=10788.00
+clearing fail_next=3 submitted=189 accepted=123
+batch B125 n=7 volume=163.00 first=T0.868 last=T0.874 entry=12
+batch B125 failed attempt=1 retry_at=13370000
+now=13385000
+batch B125 failed attempt=2 retry_at=13445000
+ok T0.875 deposit sa 16.00 balance=10804.00
+ok T0.876 deposit sb 28.00 balance=11251.00
+ok T0.877 deposit sa 31.00 balance=10835.00
+ok T0.878 deposit sb 30.00 balance=11281.00
+ok T0.879 deposit sb 19.00 balance=11300.00
+now=13625000
+batch B124 failed attempt=3 retry_at=13745000
+batch B125 settled
+ok T0.880 deposit sa 39.00 balance=10874.00
+ok T0.881 deposit sa 17.00 balance=10891.00
+batch B126 n=7 volume=180.00 first=T0.875 last=T0.881 entry=13
+batch B126 settled
+ok T0.882 deposit sa 16.00 balance=10907.00
+ok T0.883 deposit sa 2.00 balance=10909.00
+ok T0.884 deposit sa 19.00 balance=10928.00
+now=13865000
+batch B124 settled
+ok T0.885 deposit sb 8.00 balance=11308.00
+ok T0.886 deposit sb 34.00 balance=11342.00
+ok T0.887 deposit sb 11.00 balance=11353.00
+ok T0.888 deposit sa 17.00 balance=10945.00
+batch B127 n=7 volume=107.00 first=T0.882 last=T0.888 entry=14
+batch B127 settled
+ok T0.889 deposit sb 35.00 balance=11388.00
+now=13875000
+ok T0.890 deposit sb 4.00 balance=11392.00
+ok T0.891 deposit sb 43.00 balance=11435.00
+ok T0.892 deposit sa 3.00 balance=10948.00
+ok T0.893 deposit sa 17.00 balance=10965.00
+ok T0.894 deposit sb 27.00 balance=11462.00
+now=13965000
+ok T0.895 deposit sa 40.00 balance=11005.00
+batch B128 n=7 volume=169.00 first=T0.889 last=T0.895 entry=15
+batch B128 settled
+ok T0.896 deposit sb 34.00 balance=11496.00
+ok T0.897 deposit sb 50.00 balance=11546.00
+ok T0.898 deposit sb 40.00 balance=11586.00
+ok T0.899 deposit sb 41.00 balance=11627.00
+now=13975000
+B89 settled n=7 volume=139.00 attempts=1 entry=8
+B90 settled n=7 volume=177.00 attempts=1 entry=9
+B91 settled n=7 volume=194.00 attempts=1 entry=10
+B92 settled n=7 volume=127.00 attempts=1 entry=11
+B93 settled n=7 volume=168.00 attempts=1 entry=12
+B94 settled n=7 volume=181.00 attempts=1 entry=13
+B95 settled n=7 volume=225.00 attempts=1 entry=14
+B96 settled n=7 volume=226.00 attempts=1 entry=15
+B97 settled n=7 volume=195.00 attempts=1 entry=0
+B98 settled n=7 volume=137.00 attempts=1 entry=1
+B99 settled n=7 volume=121.00 attempts=1 entry=2
+B100 settled n=7 volume=129.00 attempts=1 entry=3
+B101 settled n=7 volume=177.00 attempts=3 entry=4
+B102 settled n=7 volume=203.00 attempts=2 entry=5
+B103 settled n=7 volume=211.00 attempts=1 entry=6
+B104 settled n=7 volume=213.00 attempts=3 entry=7
+B105 settled n=7 volume=201.00 attempts=2 entry=8
+B106 settled n=7 volume=218.00 attempts=2 entry=9
+B107 settled n=7 volume=194.00 attempts=2 entry=10
+B108 settled n=7 volume=210.00 attempts=1 entry=11
+B109 settled n=7 volume=194.00 attempts=1 entry=12
+B110 settled n=7 volume=170.00 attempts=3 entry=13
+B111 settled n=7 volume=189.00 attempts=3 entry=14
+B112 settled n=7 volume=155.00 attempts=2 entry=15
+B113 settled n=7 volume=208.00 attempts=1 entry=0
+B114 settled n=7 volume=122.00 attempts=1 entry=1
+B115 settled n=7 volume=143.00 attempts=3 entry=2
+B116 settled n=7 volume=140.00 attempts=1 entry=3
+B117 settled n=7 volume=244.00 attempts=1 entry=4
+B118 settled n=7 volume=214.00 attempts=1 entry=5
+B119 settled n=7 volume=166.00 attempts=1 entry=6
+B120 settled n=7 volume=161.00 attempts=1 entry=7
+B121 settled n=7 volume=177.00 attempts=1 entry=8
+B122 settled n=7 volume=201.00 attempts=1 entry=9
+B123 settled n=7 volume=203.00 attempts=1 entry=10
+B124 settled n=7 volume=144.00 attempts=4 entry=11
+B125 settled n=7 volume=163.00 attempts=3 entry=12
+B126 settled n=7 volume=180.00 attempts=1 entry=13
+B127 settled n=7 volume=107.00 attempts=1 entry=14
+B128 settled n=7 volume=169.00 attempts=1 entry=15
+batches total=128 pending=0 unassigned=4
+clearing fail_next=0 submitted=197 accepted=128
+check ok records=900 live=132 accounts=2 holds=0 batches=128

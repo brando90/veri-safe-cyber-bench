@@ -1,0 +1,13 @@
+user alice added
+user bob added
+published parser 1.0.0 (0 KiB)
+published parser 1.2.0 (0 KiB)
+error: bad requirement '>=1.0,<'
+error: bad requirement '>=1.0,<'
+error: bad requirement '=1.2'
+error: bad requirement '1.2.0.0'
+error: bad requirement '=1.2'
+fetched parser 1.2.0
+package parser visibility=public latest=1.2.0 downloads=1 releases=2
+  1.0.0 0 B by=alice at=0
+  1.2.0 0 B by=alice at=0 downloads=1

@@ -1,0 +1,38 @@
+frobnicate
+open
+open Alice
+open toolongaccountname_x
+open al overdraft=-1
+open al velocity=0
+open al velocity=1001
+open al daily=abc
+open al
+open al
+deposit al
+deposit al 0
+deposit al 1.234
+deposit al 12 key=bad!key
+deposit al 12 key=a key=b
+deposit nobody 3
+deposit al 3 extra=1
+withdraw al 3 tail
+transfer al al 1
+reverse T9.0
+reverse X1
+show T0.0
+show T0.4096
+hold al 1 ttl=500ms
+hold al 1 ttl=2d
+capture H1000
+capture H000
+release H001
+clock set -5
+clock advance 1x
+clock set 10s
+clock set 5s
+clock sideways 3
+history al last=0
+batches last=0
+clearing fail
+clearing pass 3
+check

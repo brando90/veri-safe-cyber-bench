@@ -1,0 +1,15 @@
+user root added (admin)
+user alice added
+published owned 1.0.0 (1 KiB)
+published owned 1.1.0 (1 KiB)
+yanked owned 1.1.0
+unyanked owned 1.1.0
+unpublished owned 1.1.0
+error: root may not change tags of owned
+error: root may not publish to owned
+invited root to owned as owner until 86400
+root is now owner of owned
+tag owned stable -> 1.0.0
+owned is now private
+roles owned: alice=owner root=owner
+quota alice used=1 KiB limit=10240 KiB

@@ -1,0 +1,11 @@
+user root added (admin)
+user alice added
+user bob added
+published chart 1.0.0 (1 KiB)
+error: cannot remove the last owner of chart
+invited bob to chart as owner until 86400
+bob is now owner of chart
+user alice removed
+roles chart: bob=owner
+user bob admin=no state=active roles=chart:owner
+check ok (2 users, 1 packages)

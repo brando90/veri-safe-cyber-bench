@@ -1,0 +1,3 @@
+# VSC-HX-12 crateyard: root causes and fix (solver's report, saved from its reply)
+Nine places used their own copy of a shared rule: prune storage rounding (units.kib_ceil), unpublish leaving tags (pkg.drop_release), publish making a pre-release latest (pkg.recompute_latest), disabled users moving tags (users.actor), invite deadline (timeutil.expired), fetch with bad requirement (bad_req), user remove of a last owner (last_owner), dependents listing unreadable packages (perms.can read), top size tie order (rank()).
+10 regression tests: 9 fail on the original and pass on the patch, plus ordinary_flow.

@@ -1,0 +1,42 @@
+crateyard: a toy package registry
+commands (ACTOR acts; VIEWER reads, '-' for anonymous):
+  audit [n=N]
+  check
+  clock advance DURATION
+  clock set T
+  clock show
+  dependents VIEWER PACKAGE
+  deprecate ACTOR PACKAGE VERSION [message=TEXT]
+  export audit tsv|csv
+  fetch VIEWER PACKAGE [REQUIREMENT|@TAG]
+  help [COMMAND]
+  info VIEWER PACKAGE
+  invites ACTOR PACKAGE
+  lock VIEWER NAME PACKAGE@REQUIREMENT...
+  outdated VIEWER LOCKNAME
+  owner accept ACTOR PACKAGE
+  owner invite ACTOR PACKAGE USER [role=ROLE] [ttl=DURATION]
+  owner remove ACTOR PACKAGE USER
+  package delete ACTOR PACKAGE
+  prune ACTOR PACKAGE
+  publish ACTOR PACKAGE VERSION [size=SIZE] [deps=LIST] [embargo=DURATION] [visibility=public|private]
+  quota USER
+  quota set ACTOR USER KIB
+  resolve VIEWER PACKAGE REQUIREMENT
+  roles VIEWER PACKAGE
+  search VIEWER TEXT
+  tag add ACTOR PACKAGE TAG VERSION
+  tag rm ACTOR PACKAGE TAG
+  tags VIEWER PACKAGE
+  top VIEWER downloads|releases|dependents|size [n=N]
+  unpublish ACTOR PACKAGE VERSION
+  unyank ACTOR PACKAGE VERSION
+  user add NAME [admin]
+  user disable ACTOR NAME
+  user enable ACTOR NAME
+  user remove ACTOR NAME
+  user show NAME
+  visibility ACTOR PACKAGE public|private
+  yank ACTOR PACKAGE VERSION [reason=TEXT]
+usage: publish ACTOR PACKAGE VERSION [size=SIZE] [deps=LIST] [embargo=DURATION] [visibility=public|private]
+usage: owner invite ACTOR PACKAGE USER [role=ROLE] [ttl=DURATION]

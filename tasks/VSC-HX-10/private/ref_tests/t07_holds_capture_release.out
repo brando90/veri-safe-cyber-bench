@@ -1,0 +1,24 @@
+open hal slot=0 gen=0
+open ivy slot=1 gen=0
+ok T0.0 deposit hal 100.00 balance=100.00
+hold H001 hal 60.00 until=3600000
+deny funds available=40.00
+hold H002 hal 40.00 until=never
+H001 hal 60.00 until=3600000
+H002 hal 40.00 until=never
+holds hal count=2 held=100.00
+error: amount exceeds hold H001
+ok T0.1 capture H001 hal 25.00 to=ivy
+error: unknown hold H001
+error: unknown hold H001
+error: cannot capture to the holding account
+error: unknown account nobody
+release H002 hal 40.00
+error: unknown hold H002
+holds hal count=0 held=0.00
+hal balance=75.00 held=0.00 available=75.00 spent_today=0.00 debits_last_hour=0
+ivy balance=25.00 held=0.00 available=25.00 spent_today=0.00 debits_last_hour=0
+T0.1 capture hal->ivy 25.00 at=0 hold=H001
+T0.1 capture hal->ivy 25.00 at=0 hold=H001
+T0.0 deposit ->hal 100.00 at=0
+check ok records=2 live=2 accounts=2 holds=0 batches=0

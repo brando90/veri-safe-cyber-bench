@@ -1,0 +1,2493 @@
+open ha
+open hb
+deposit ha 100000
+deposit hb 100000
+hold hb 9 ttl=78s
+hold ha 1 ttl=27s
+release H001
+capture H002
+hold ha 4
+hold ha 7 ttl=260s
+hold ha 1 ttl=16s
+hold hb 1 ttl=160s
+capture H006
+release H004
+hold hb 5 ttl=201s
+clock advance 4s
+clock advance 47s
+clock advance 48s
+release H007
+clock advance 35s
+hold ha 2 ttl=138s
+hold hb 6 ttl=150s
+hold hb 2 ttl=206s
+release H009
+release H008
+clock advance 8s
+hold hb 3 ttl=221s
+hold ha 5 ttl=296s
+hold ha 8 ttl=268s
+hold ha 6 ttl=22s
+release H013
+hold ha 3 ttl=262s
+clock advance 18s
+clock advance 25s
+release H010
+release H015
+hold hb 7 ttl=283s
+hold hb 4 ttl=70s
+hold ha 8 ttl=178s
+release H012
+release H017
+hold hb 3 ttl=79s
+capture H011
+release H018
+hold ha 2 ttl=195s
+hold hb 8 ttl=203s
+hold hb 6 ttl=21s
+hold hb 2 ttl=263s
+hold ha 1 ttl=189s
+clock advance 22s
+hold hb 2 ttl=175s
+capture H024
+release H020
+hold hb 9 ttl=173s
+hold ha 6 ttl=82s
+clock advance 59s
+release H027
+capture H021
+release H026
+hold hb 6 ttl=32s
+release H025
+release H028
+hold ha 3 ttl=62s
+capture H016
+release H029
+hold ha 9
+hold hb 7 ttl=115s
+clock advance 55s
+release H023
+hold hb 2 ttl=275s
+hold hb 8 ttl=88s
+release H031
+release H033
+release H032
+clock advance 23s
+hold hb 1 ttl=31s
+capture H034
+hold hb 4 ttl=257s
+hold ha 7 ttl=177s
+clock advance 52s
+capture H036
+release H035
+hold hb 2
+hold hb 6 ttl=264s
+hold hb 7 ttl=263s
+clock advance 13s
+hold hb 1 ttl=251s
+release H039
+hold hb 1 ttl=36s
+hold ha 4 ttl=186s
+release H038
+release H042
+hold hb 7 ttl=12s
+hold ha 9 ttl=259s
+hold ha 4 ttl=164s
+hold ha 2
+hold hb 5 ttl=264s
+hold hb 2 ttl=49s
+hold hb 2 ttl=165s
+hold ha 7 ttl=141s
+hold ha 5 ttl=83s
+hold ha 5 ttl=221s
+clock advance 46s
+capture H045
+clock advance 8s
+release H040
+release H050
+clock advance 44s
+clock advance 18s
+hold hb 1 ttl=53s
+release H049
+clock advance 17s
+release H052
+release H053
+hold ha 5 ttl=13s
+capture H054
+release H047
+hold ha 6 ttl=156s
+hold hb 6 ttl=97s
+hold hb 7 ttl=217s
+capture H055
+release H044
+hold ha 8
+clock advance 28s
+hold hb 3 ttl=150s
+hold hb 1 ttl=137s
+hold ha 5 ttl=281s
+release H061
+release H056
+hold hb 7 ttl=158s
+release H060
+release H062
+release H057
+release H059
+hold hb 3 ttl=123s
+clock advance 60s
+capture H063
+hold hb 6 ttl=197s
+hold ha 3
+clock advance 31s
+hold ha 6 ttl=49s
+clock advance 19s
+hold hb 8 ttl=37s
+capture H066
+hold hb 4 ttl=220s
+hold hb 8 ttl=39s
+release H069
+hold hb 8 ttl=217s
+hold ha 5 ttl=232s
+hold hb 1 ttl=282s
+hold hb 8 ttl=110s
+capture H071
+release H070
+capture H064
+hold hb 8 ttl=83s
+hold ha 9 ttl=245s
+clock advance 16s
+release H075
+hold hb 1 ttl=252s
+clock advance 22s
+hold ha 5 ttl=224s
+release H073
+hold ha 6 ttl=222s
+hold ha 5 ttl=32s
+hold ha 9 ttl=173s
+release H077
+hold ha 1 ttl=232s
+clock advance 6s
+hold hb 1 ttl=275s
+release H078
+capture H076
+hold ha 5 ttl=266s
+release H081
+capture H080
+hold ha 4 ttl=2s
+capture H068
+hold ha 7 ttl=164s
+release H083
+release H079
+capture H084
+hold ha 3 ttl=249s
+release H072
+clock advance 19s
+release H085
+release H086
+hold hb 7 ttl=251s
+hold ha 7 ttl=94s
+hold hb 2 ttl=186s
+release H082
+hold hb 1 ttl=72s
+hold hb 1 ttl=179s
+hold ha 6 ttl=166s
+capture H088
+hold ha 3 ttl=257s
+hold ha 7 ttl=209s
+clock advance 35s
+capture H093
+capture H094
+hold hb 3 ttl=45s
+capture H092
+hold hb 2 ttl=285s
+release H089
+hold ha 8
+release H090
+hold hb 3 ttl=292s
+clock advance 2s
+hold hb 7
+hold ha 9 ttl=10s
+hold hb 6 ttl=145s
+release H100
+hold ha 9 ttl=153s
+capture H095
+release H098
+hold hb 6 ttl=188s
+hold hb 4 ttl=83s
+hold ha 7 ttl=29s
+hold hb 5 ttl=177s
+hold hb 8 ttl=77s
+hold ha 6 ttl=228s
+hold ha 7 ttl=278s
+hold hb 6 ttl=294s
+release H096
+release H106
+hold ha 9 ttl=153s
+capture H108
+release H105
+hold ha 8 ttl=108s
+clock advance 55s
+hold hb 6 ttl=113s
+release H112
+release H111
+hold ha 6 ttl=264s
+release H110
+hold ha 1
+release H091
+release H113
+clock advance 37s
+hold hb 7 ttl=27s
+hold hb 6 ttl=89s
+hold hb 3 ttl=96s
+hold ha 6 ttl=63s
+hold ha 3 ttl=267s
+hold hb 6 ttl=278s
+hold hb 3 ttl=2s
+hold hb 7 ttl=259s
+release H114
+capture H109
+hold ha 9 ttl=15s
+hold ha 7 ttl=261s
+hold hb 6 ttl=283s
+hold hb 2
+hold ha 8 ttl=87s
+release H102
+release H120
+hold hb 4 ttl=196s
+clock advance 49s
+hold hb 8 ttl=210s
+release H130
+hold hb 5 ttl=12s
+release H119
+hold hb 3 ttl=10s
+hold hb 6 ttl=226s
+hold hb 5
+hold hb 1 ttl=274s
+hold hb 6 ttl=23s
+hold ha 5 ttl=22s
+hold ha 7 ttl=194s
+release H137
+clock advance 56s
+clock advance 33s
+release H126
+capture H138
+hold ha 1 ttl=80s
+hold ha 9 ttl=225s
+hold hb 5 ttl=6s
+release H135
+hold hb 3 ttl=202s
+hold hb 5 ttl=73s
+holds ha
+check
+release H143
+release H125
+release H140
+hold hb 6 ttl=73s
+hold hb 5 ttl=166s
+hold hb 2 ttl=112s
+release H139
+hold ha 4 ttl=181s
+clock advance 46s
+hold hb 7 ttl=253s
+hold ha 5 ttl=124s
+hold hb 6 ttl=253s
+hold hb 3
+release H121
+release H146
+hold ha 6 ttl=261s
+hold hb 8 ttl=165s
+hold hb 5 ttl=188s
+release H149
+hold ha 7 ttl=258s
+hold hb 9
+capture H152
+release H142
+release H145
+release H133
+capture H147
+hold hb 4 ttl=274s
+hold hb 9 ttl=278s
+release H158
+release H155
+hold ha 2 ttl=79s
+release H159
+hold hb 5 ttl=295s
+hold hb 9 ttl=85s
+release H154
+hold hb 5 ttl=95s
+clock advance 38s
+hold ha 7 ttl=149s
+hold ha 3 ttl=142s
+hold ha 6 ttl=10s
+clock advance 9s
+release H123
+clock advance 26s
+release H163
+release H150
+hold hb 5 ttl=23s
+hold hb 8 ttl=240s
+release H164
+clock advance 52s
+hold hb 7 ttl=256s
+capture H157
+hold ha 3
+hold ha 9 ttl=152s
+capture H170
+hold hb 1 ttl=24s
+hold hb 4 ttl=2s
+hold hb 8 ttl=258s
+hold ha 2 ttl=59s
+release H174
+hold ha 1 ttl=24s
+release H175
+release H167
+hold hb 6
+hold hb 9 ttl=295s
+hold ha 9 ttl=192s
+hold hb 2 ttl=208s
+hold hb 6 ttl=182s
+release H179
+hold ha 4 ttl=184s
+hold hb 1 ttl=206s
+capture H148
+release H172
+release H181
+hold ha 8 ttl=125s
+clock advance 59s
+clock advance 47s
+hold hb 6 ttl=70s
+release H183
+clock advance 12s
+release H178
+clock advance 43s
+hold ha 4 ttl=84s
+hold hb 9 ttl=100s
+release H185
+clock advance 40s
+hold ha 6 ttl=24s
+hold hb 8
+release H186
+release H187
+hold ha 5
+hold hb 6 ttl=63s
+clock advance 9s
+hold ha 9 ttl=40s
+hold hb 8 ttl=18s
+clock advance 1s
+hold hb 4 ttl=3s
+release H191
+hold hb 5 ttl=138s
+hold ha 1 ttl=291s
+capture H194
+clock advance 45s
+hold ha 5 ttl=152s
+release H196
+hold ha 5 ttl=223s
+release H197
+hold ha 2 ttl=163s
+release H195
+clock advance 49s
+hold hb 1 ttl=85s
+hold hb 8 ttl=57s
+hold ha 2
+release H199
+hold hb 4 ttl=137s
+clock advance 59s
+hold hb 4 ttl=129s
+release H203
+release H202
+hold hb 9 ttl=131s
+hold ha 1
+hold hb 1 ttl=235s
+capture H206
+capture H204
+hold hb 3 ttl=215s
+hold ha 3 ttl=263s
+hold hb 7 ttl=144s
+hold ha 9 ttl=122s
+release H207
+release H198
+capture H209
+release H208
+clock advance 34s
+hold hb 4 ttl=206s
+hold hb 5 ttl=136s
+release H212
+release H210
+hold ha 6 ttl=95s
+release H213
+release H211
+hold hb 2 ttl=107s
+release H214
+hold ha 3 ttl=265s
+hold ha 9 ttl=128s
+clock advance 22s
+hold hb 3 ttl=74s
+hold ha 7 ttl=15s
+hold hb 5 ttl=46s
+capture H219
+hold hb 4 ttl=140s
+release H220
+release H218
+capture H217
+hold hb 6 ttl=139s
+hold ha 8 ttl=230s
+clock advance 9s
+hold hb 5 ttl=130s
+release H216
+clock advance 16s
+hold ha 2 ttl=257s
+hold ha 6 ttl=62s
+clock advance 45s
+hold ha 8 ttl=221s
+capture H225
+release H222
+hold ha 7 ttl=78s
+hold hb 5
+release H223
+clock advance 13s
+release H224
+clock advance 56s
+hold ha 7 ttl=114s
+release H229
+release H227
+hold hb 9 ttl=28s
+hold ha 5 ttl=232s
+release H231
+hold hb 3 ttl=292s
+capture H215
+hold ha 4 ttl=260s
+hold hb 6 ttl=85s
+release H233
+clock advance 42s
+release H232
+clock advance 7s
+release H226
+release H234
+hold hb 4 ttl=182s
+hold hb 6 ttl=140s
+hold ha 1 ttl=7s
+release H237
+hold hb 5 ttl=63s
+hold hb 4 ttl=45s
+hold hb 9 ttl=119s
+release H239
+clock advance 20s
+hold hb 1 ttl=102s
+clock advance 26s
+hold hb 4 ttl=134s
+hold ha 9 ttl=13s
+hold ha 9 ttl=134s
+hold ha 6
+release H236
+clock advance 25s
+hold ha 2 ttl=222s
+hold hb 5 ttl=118s
+hold ha 3 ttl=111s
+release H235
+release H240
+hold hb 2 ttl=270s
+release H249
+release H241
+hold ha 2 ttl=258s
+release H246
+hold ha 2 ttl=7s
+clock advance 7s
+release H242
+capture H247
+hold hb 4 ttl=121s
+hold ha 2 ttl=132s
+release H252
+hold hb 3 ttl=272s
+hold hb 4 ttl=212s
+hold ha 4 ttl=152s
+release H244
+hold ha 2 ttl=242s
+hold ha 8 ttl=164s
+release H255
+release H254
+clock advance 28s
+hold hb 4
+hold ha 8 ttl=284s
+clock advance 19s
+release H256
+release H257
+hold ha 1 ttl=28s
+hold ha 8 ttl=291s
+clock advance 23s
+release H253
+hold ha 9 ttl=20s
+capture H262
+hold ha 8 ttl=209s
+release H264
+hold hb 8
+hold ha 7
+capture H250
+hold hb 1
+hold ha 1 ttl=275s
+release H261
+hold ha 8 ttl=1s
+clock advance 53s
+hold hb 1 ttl=90s
+release H268
+clock advance 4s
+hold hb 9 ttl=150s
+release H258
+clock advance 43s
+release H260
+hold hb 4 ttl=42s
+hold hb 4 ttl=157s
+hold hb 4 ttl=22s
+hold hb 6
+hold hb 1 ttl=287s
+clock advance 14s
+hold ha 4 ttl=85s
+hold hb 5 ttl=132s
+hold hb 2 ttl=158s
+hold ha 6 ttl=191s
+hold ha 2 ttl=113s
+release H276
+hold hb 3 ttl=260s
+hold hb 5 ttl=246s
+clock advance 9s
+holds ha
+check
+clock advance 14s
+hold ha 3 ttl=32s
+release H277
+release H280
+hold ha 5 ttl=135s
+hold hb 2 ttl=160s
+hold hb 2 ttl=261s
+hold ha 6 ttl=228s
+release H286
+release H287
+hold hb 7 ttl=47s
+release H281
+hold hb 7 ttl=21s
+hold hb 7 ttl=295s
+hold ha 3 ttl=76s
+release H289
+hold hb 2 ttl=17s
+hold ha 1 ttl=135s
+hold ha 6 ttl=60s
+release H295
+clock advance 35s
+release H278
+hold hb 2 ttl=233s
+hold hb 8 ttl=143s
+hold ha 4 ttl=256s
+hold ha 5 ttl=220s
+hold ha 6 ttl=120s
+hold hb 8 ttl=170s
+hold hb 1 ttl=7s
+hold ha 8 ttl=103s
+hold hb 5 ttl=210s
+clock advance 20s
+hold hb 6 ttl=106s
+release H294
+release H303
+release H300
+release H282
+release H299
+hold ha 9 ttl=129s
+hold hb 9 ttl=201s
+hold ha 6 ttl=69s
+capture H298
+hold ha 5 ttl=198s
+hold ha 6
+release H304
+release H283
+hold hb 3 ttl=222s
+hold ha 2 ttl=99s
+hold ha 8 ttl=22s
+release H312
+hold hb 4 ttl=67s
+release H292
+hold hb 8 ttl=189s
+hold hb 7 ttl=294s
+hold ha 3 ttl=185s
+capture H313
+capture H291
+hold ha 4
+capture H306
+clock advance 46s
+release H308
+hold hb 5 ttl=108s
+release H307
+hold ha 4
+release H301
+hold hb 5 ttl=292s
+capture H296
+release H273
+hold ha 5 ttl=60s
+release H309
+hold ha 5 ttl=29s
+hold hb 2 ttl=158s
+release H279
+release H316
+hold ha 8 ttl=86s
+release H319
+capture H315
+release H314
+release H297
+hold ha 7 ttl=101s
+release H311
+clock advance 36s
+hold hb 1 ttl=50s
+hold hb 3 ttl=42s
+clock advance 3s
+hold ha 9 ttl=33s
+release H305
+capture H324
+release H328
+hold ha 5
+release H288
+hold hb 3 ttl=209s
+capture H321
+hold ha 9 ttl=240s
+release H322
+hold hb 4 ttl=175s
+release H325
+release H333
+release H332
+clock advance 3s
+hold ha 6 ttl=179s
+hold hb 3 ttl=166s
+hold hb 6 ttl=228s
+clock advance 45s
+release H331
+release H334
+release H317
+hold hb 4
+hold hb 2 ttl=274s
+release H326
+hold ha 6 ttl=280s
+hold ha 4 ttl=263s
+hold ha 6 ttl=35s
+hold hb 9 ttl=119s
+hold ha 7 ttl=241s
+hold ha 3
+hold hb 5 ttl=103s
+clock advance 58s
+hold ha 1 ttl=28s
+release H343
+clock advance 19s
+hold ha 4 ttl=122s
+hold ha 6 ttl=4s
+release H335
+release H339
+clock advance 15s
+capture H340
+release H347
+hold hb 4 ttl=278s
+clock advance 28s
+hold hb 3
+release H349
+release H338
+clock advance 9s
+hold hb 4 ttl=73s
+hold ha 1 ttl=150s
+release H336
+clock advance 3s
+hold hb 2 ttl=143s
+hold ha 9 ttl=95s
+clock advance 18s
+clock advance 25s
+hold ha 5
+clock advance 49s
+hold hb 4 ttl=288s
+hold ha 3 ttl=185s
+hold hb 8 ttl=120s
+release H358
+release H356
+clock advance 27s
+release H353
+hold ha 2 ttl=205s
+clock advance 50s
+hold hb 6 ttl=231s
+hold hb 6 ttl=160s
+release H359
+hold ha 1 ttl=234s
+hold hb 7 ttl=31s
+release H362
+hold hb 3
+hold hb 9 ttl=150s
+clock advance 54s
+hold hb 8 ttl=241s
+clock advance 4s
+hold hb 8 ttl=149s
+hold hb 6 ttl=230s
+hold ha 7 ttl=269s
+hold ha 3 ttl=202s
+release H367
+hold hb 4 ttl=26s
+clock advance 8s
+release H369
+hold hb 9 ttl=212s
+release H357
+hold hb 1 ttl=80s
+clock advance 15s
+hold ha 9 ttl=195s
+hold ha 5 ttl=112s
+clock advance 20s
+hold ha 7 ttl=89s
+hold ha 9 ttl=76s
+release H365
+hold ha 9 ttl=23s
+hold ha 1 ttl=22s
+hold hb 5 ttl=158s
+hold ha 3 ttl=53s
+hold ha 6 ttl=207s
+capture H377
+hold hb 1 ttl=197s
+hold ha 2 ttl=65s
+capture H373
+hold hb 7 ttl=92s
+hold hb 6 ttl=268s
+release H386
+hold ha 5 ttl=241s
+hold ha 8 ttl=296s
+hold ha 6 ttl=280s
+hold hb 9
+release H370
+hold hb 2 ttl=179s
+capture H378
+capture H361
+clock advance 22s
+release H366
+release H382
+release H383
+release H374
+clock advance 2s
+hold ha 9 ttl=62s
+release H385
+hold ha 5 ttl=160s
+hold ha 3 ttl=227s
+clock advance 33s
+hold hb 3 ttl=109s
+hold hb 6 ttl=3s
+release H368
+hold ha 8 ttl=32s
+hold hb 7 ttl=12s
+release H396
+hold hb 1 ttl=253s
+release H391
+release H387
+hold hb 8 ttl=86s
+hold hb 9 ttl=68s
+hold ha 4 ttl=37s
+hold ha 9 ttl=285s
+release H392
+release H401
+release H397
+hold hb 3 ttl=42s
+release H384
+release H395
+hold hb 3 ttl=139s
+hold ha 4 ttl=80s
+release H375
+hold hb 5 ttl=65s
+hold ha 7 ttl=193s
+hold ha 6
+clock advance 6s
+hold ha 1 ttl=235s
+release H399
+capture H406
+release H402
+hold hb 6 ttl=248s
+release H389
+capture H400
+release H410
+capture H407
+release H411
+release H388
+release H360
+hold hb 8 ttl=278s
+release H398
+release H403
+hold ha 6
+hold ha 3 ttl=176s
+release H376
+release H412
+release H404
+hold hb 2 ttl=45s
+release H414
+release H408
+hold hb 8
+release H380
+release H394
+hold hb 4 ttl=43s
+capture H417
+capture H415
+hold ha 2
+hold ha 7 ttl=275s
+hold hb 4 ttl=297s
+release H419
+clock advance 47s
+release H393
+hold ha 7 ttl=293s
+hold ha 9 ttl=282s
+hold hb 4 ttl=96s
+release H423
+hold ha 3 ttl=74s
+hold ha 2 ttl=85s
+hold ha 8 ttl=264s
+release H405
+hold ha 7 ttl=251s
+release H420
+hold hb 2 ttl=254s
+hold hb 9 ttl=246s
+release H429
+release H372
+hold ha 2 ttl=95s
+capture H422
+clock advance 14s
+hold hb 5
+hold hb 1 ttl=148s
+hold hb 5 ttl=154s
+release H425
+capture H433
+capture H426
+capture H432
+hold hb 7 ttl=155s
+holds ha
+check
+hold hb 7 ttl=158s
+capture H430
+capture H421
+hold hb 4 ttl=195s
+release H435
+capture H436
+hold ha 9 ttl=213s
+hold ha 5 ttl=141s
+hold hb 4 ttl=101s
+hold ha 9 ttl=138s
+capture H438
+hold hb 7 ttl=286s
+capture H434
+capture H440
+hold hb 4 ttl=72s
+hold hb 7 ttl=147s
+release H439
+hold ha 1 ttl=223s
+release H441
+hold hb 7 ttl=53s
+hold hb 5 ttl=86s
+hold ha 7
+hold ha 6 ttl=267s
+hold ha 7 ttl=153s
+clock advance 1s
+release H444
+hold hb 1 ttl=43s
+release H448
+release H427
+release H424
+release H437
+release H449
+hold ha 6 ttl=216s
+hold hb 1 ttl=118s
+clock advance 39s
+hold hb 6 ttl=111s
+release H451
+hold hb 1 ttl=116s
+hold hb 5 ttl=11s
+release H428
+hold hb 4 ttl=168s
+release H450
+hold hb 6 ttl=4s
+hold hb 6 ttl=17s
+clock advance 39s
+capture H456
+hold ha 9 ttl=26s
+release H453
+hold hb 7 ttl=86s
+hold ha 8 ttl=274s
+release H459
+hold ha 7 ttl=94s
+clock advance 9s
+hold hb 6 ttl=211s
+release H460
+hold hb 1 ttl=266s
+hold ha 3 ttl=197s
+hold hb 8
+hold ha 1 ttl=182s
+clock advance 50s
+release H454
+hold hb 7 ttl=36s
+hold ha 8 ttl=257s
+hold ha 2
+release H465
+release H443
+release H467
+hold ha 8 ttl=27s
+hold ha 4 ttl=77s
+hold hb 8
+hold hb 2 ttl=218s
+hold ha 9 ttl=163s
+hold ha 8 ttl=184s
+release H468
+release H463
+hold hb 6 ttl=176s
+release H476
+release H462
+hold ha 7 ttl=178s
+hold hb 8 ttl=117s
+hold ha 2 ttl=17s
+hold hb 5 ttl=124s
+release H472
+release H474
+capture H464
+hold hb 6 ttl=273s
+hold ha 6 ttl=91s
+hold hb 4 ttl=251s
+release H477
+capture H481
+hold ha 5 ttl=130s
+clock advance 25s
+clock advance 44s
+release H484
+capture H479
+release H485
+release H483
+clock advance 8s
+hold ha 8 ttl=44s
+hold hb 2 ttl=242s
+hold ha 9 ttl=254s
+hold ha 9 ttl=112s
+clock advance 38s
+release H487
+hold hb 8 ttl=93s
+hold ha 5
+hold hb 9 ttl=270s
+hold hb 5 ttl=13s
+hold hb 5 ttl=74s
+clock advance 53s
+hold hb 3 ttl=145s
+clock advance 28s
+hold hb 7 ttl=20s
+hold hb 9 ttl=172s
+hold ha 3 ttl=253s
+hold hb 8 ttl=141s
+hold hb 1
+hold ha 9 ttl=110s
+hold hb 8 ttl=65s
+clock advance 14s
+hold hb 8 ttl=102s
+hold hb 8 ttl=22s
+clock advance 25s
+release H497
+capture H502
+release H469
+release H495
+capture H501
+release H498
+release H492
+release H503
+capture H488
+release H482
+hold hb 5 ttl=1s
+clock advance 23s
+hold hb 2 ttl=15s
+clock advance 37s
+hold ha 4 ttl=119s
+hold hb 1 ttl=76s
+hold hb 5 ttl=8s
+hold hb 7 ttl=158s
+hold ha 8 ttl=122s
+clock advance 30s
+hold ha 2 ttl=254s
+hold ha 3 ttl=43s
+hold hb 9 ttl=179s
+hold ha 9 ttl=202s
+hold ha 8 ttl=37s
+hold hb 8 ttl=12s
+release H507
+release H508
+release H512
+release H499
+capture H513
+release H517
+hold ha 3 ttl=25s
+capture H515
+release H510
+hold hb 4 ttl=148s
+hold hb 8 ttl=166s
+hold hb 4 ttl=270s
+capture H518
+hold hb 1 ttl=294s
+hold hb 5 ttl=106s
+hold ha 1 ttl=148s
+hold hb 7 ttl=70s
+hold hb 6 ttl=222s
+hold ha 8 ttl=254s
+release H511
+release H522
+hold hb 9 ttl=102s
+clock advance 60s
+hold hb 2 ttl=34s
+clock advance 32s
+release H524
+hold ha 9 ttl=50s
+hold ha 3 ttl=78s
+hold ha 3 ttl=213s
+hold ha 6 ttl=186s
+hold hb 5 ttl=13s
+hold hb 6 ttl=271s
+release H514
+hold hb 4 ttl=77s
+release H527
+hold ha 9
+release H533
+hold hb 5 ttl=4s
+hold ha 9 ttl=180s
+release H526
+clock advance 40s
+release H530
+hold hb 6 ttl=294s
+clock advance 36s
+hold hb 7 ttl=153s
+hold hb 7 ttl=108s
+release H531
+hold ha 9 ttl=155s
+hold hb 4 ttl=69s
+hold hb 2 ttl=54s
+hold hb 1 ttl=60s
+release H539
+hold ha 5 ttl=268s
+release H547
+hold hb 4 ttl=291s
+hold hb 8
+clock advance 32s
+release H543
+hold ha 7 ttl=59s
+hold ha 5 ttl=149s
+release H541
+hold hb 6 ttl=193s
+hold hb 6 ttl=80s
+release H532
+capture H550
+capture H551
+hold ha 2 ttl=94s
+release H542
+clock advance 23s
+hold hb 7 ttl=153s
+release H554
+hold ha 2 ttl=155s
+hold hb 1 ttl=297s
+release H556
+clock advance 37s
+hold ha 9 ttl=203s
+hold hb 6 ttl=204s
+hold hb 9 ttl=90s
+hold ha 3 ttl=127s
+hold ha 1 ttl=76s
+hold ha 1 ttl=159s
+hold hb 3 ttl=103s
+hold ha 2 ttl=221s
+capture H540
+release H561
+hold ha 8 ttl=51s
+release H565
+release H558
+hold hb 5 ttl=113s
+hold hb 7 ttl=273s
+hold ha 2
+clock advance 4s
+release H552
+hold ha 1 ttl=155s
+hold ha 5 ttl=168s
+release H557
+release H570
+release H562
+capture H567
+release H563
+hold hb 2 ttl=48s
+clock advance 50s
+release H571
+release H568
+hold hb 2 ttl=227s
+hold ha 9 ttl=225s
+release H559
+capture H574
+hold hb 2 ttl=130s
+hold ha 1 ttl=282s
+release H573
+release H564
+hold hb 6 ttl=49s
+hold ha 9 ttl=295s
+clock advance 18s
+release H578
+release H576
+hold ha 5 ttl=115s
+hold hb 2 ttl=297s
+hold hb 8 ttl=237s
+hold ha 9 ttl=61s
+release H582
+hold hb 1 ttl=181s
+hold hb 9 ttl=225s
+capture H577
+release H580
+release H584
+hold hb 2 ttl=233s
+hold hb 9 ttl=186s
+capture H581
+hold hb 1 ttl=293s
+hold hb 1 ttl=139s
+release H579
+hold ha 2 ttl=176s
+hold ha 2 ttl=46s
+hold hb 9 ttl=56s
+hold hb 4 ttl=153s
+capture H586
+release H555
+release H590
+clock advance 22s
+hold hb 5 ttl=21s
+capture H589
+hold ha 6 ttl=183s
+hold hb 3 ttl=200s
+hold hb 6 ttl=198s
+holds ha
+check
+capture H591
+hold hb 7 ttl=155s
+release H597
+capture H594
+hold ha 1 ttl=274s
+hold ha 2 ttl=26s
+hold hb 6 ttl=229s
+release H535
+hold hb 3 ttl=199s
+hold ha 5 ttl=178s
+hold hb 6 ttl=18s
+hold ha 1 ttl=266s
+capture H602
+hold hb 1 ttl=122s
+hold ha 4 ttl=112s
+hold hb 2 ttl=182s
+hold ha 2 ttl=129s
+clock advance 43s
+hold hb 6 ttl=122s
+release H605
+hold ha 1
+hold ha 8
+hold ha 1 ttl=297s
+hold hb 3 ttl=69s
+hold ha 3 ttl=159s
+hold ha 1 ttl=46s
+hold hb 4 ttl=176s
+capture H614
+release H585
+capture H612
+hold hb 1 ttl=37s
+release H587
+release H598
+hold ha 9 ttl=229s
+hold hb 9 ttl=100s
+hold hb 7 ttl=191s
+release H600
+capture H592
+hold ha 1 ttl=67s
+clock advance 23s
+hold ha 1 ttl=245s
+hold hb 8 ttl=231s
+hold ha 7 ttl=112s
+release H619
+release H608
+release H616
+release H613
+release H588
+hold ha 7 ttl=20s
+hold ha 6 ttl=51s
+clock advance 32s
+clock advance 34s
+release H622
+hold hb 4 ttl=159s
+release H595
+clock advance 30s
+clock advance 15s
+capture H627
+release H623
+hold ha 3 ttl=92s
+hold ha 8 ttl=233s
+release H628
+release H604
+hold ha 4 ttl=2s
+release H596
+hold hb 6 ttl=86s
+hold hb 8 ttl=99s
+release H618
+hold hb 7
+hold hb 8 ttl=101s
+capture H630
+clock advance 9s
+release H629
+capture H620
+hold ha 3 ttl=11s
+release H634
+hold ha 1 ttl=103s
+hold hb 9 ttl=285s
+hold ha 4 ttl=239s
+hold ha 1 ttl=279s
+hold ha 8 ttl=126s
+capture H631
+hold ha 8
+hold hb 2 ttl=121s
+capture H632
+capture H642
+hold ha 8 ttl=151s
+release H635
+release H636
+hold hb 5 ttl=186s
+hold hb 4 ttl=248s
+hold hb 3 ttl=67s
+hold hb 1 ttl=5s
+hold ha 1 ttl=70s
+release H643
+hold ha 6 ttl=23s
+hold hb 4 ttl=147s
+hold hb 8 ttl=89s
+clock advance 53s
+hold ha 4 ttl=258s
+clock advance 56s
+hold ha 5 ttl=1s
+capture H638
+release H644
+capture H650
+hold hb 4 ttl=65s
+hold ha 9 ttl=125s
+hold ha 1 ttl=141s
+release H654
+hold hb 2 ttl=190s
+hold ha 2
+hold ha 4 ttl=139s
+hold ha 7 ttl=94s
+hold ha 9 ttl=192s
+release H653
+clock advance 2s
+release H652
+release H645
+release H657
+release H656
+release H640
+release H637
+release H659
+release H639
+hold ha 2 ttl=58s
+release H662
+hold hb 4 ttl=200s
+release H663
+clock advance 34s
+release H661
+release H660
+hold hb 9 ttl=31s
+hold ha 2 ttl=242s
+release H664
+release H665
+hold ha 5 ttl=237s
+release H655
+release H666
+hold hb 7 ttl=49s
+capture H667
+hold ha 4 ttl=66s
+clock advance 39s
+clock advance 11s
+hold hb 9 ttl=189s
+release H669
+hold hb 5 ttl=88s
+hold ha 6 ttl=226s
+release H670
+hold ha 6 ttl=248s
+release H672
+clock advance 9s
+clock advance 51s
+hold ha 3 ttl=125s
+hold hb 9 ttl=290s
+release H671
+clock advance 35s
+capture H674
+hold hb 2 ttl=273s
+capture H673
+capture H675
+hold ha 9 ttl=283s
+hold hb 9 ttl=27s
+hold ha 6 ttl=60s
+hold ha 9 ttl=152s
+hold ha 3
+hold ha 5 ttl=112s
+release H677
+hold hb 1 ttl=256s
+release H682
+hold ha 5 ttl=141s
+hold ha 8 ttl=285s
+hold hb 8 ttl=179s
+hold ha 2 ttl=11s
+release H684
+hold hb 9 ttl=6s
+hold hb 9
+hold hb 7
+capture H681
+release H676
+hold ha 3 ttl=259s
+release H685
+release H687
+hold hb 5 ttl=89s
+capture H686
+hold hb 6
+capture H678
+clock advance 23s
+release H691
+clock advance 53s
+hold hb 7 ttl=248s
+capture H693
+hold hb 1 ttl=11s
+hold hb 4 ttl=237s
+hold hb 3 ttl=160s
+hold hb 4 ttl=126s
+release H690
+hold hb 2 ttl=254s
+hold ha 2 ttl=277s
+release H695
+hold ha 8 ttl=124s
+hold ha 1 ttl=75s
+hold ha 4 ttl=247s
+hold ha 5 ttl=37s
+capture H696
+hold hb 6 ttl=181s
+capture H698
+release H697
+capture H699
+hold ha 2 ttl=133s
+hold ha 4 ttl=31s
+hold ha 2 ttl=85s
+release H679
+release H694
+release H683
+hold ha 8 ttl=99s
+hold ha 6
+release H704
+hold ha 4 ttl=287s
+release H707
+hold hb 3 ttl=30s
+hold hb 8
+hold hb 5 ttl=115s
+hold hb 4 ttl=280s
+hold hb 6 ttl=153s
+release H713
+hold ha 3 ttl=276s
+capture H702
+hold ha 8 ttl=63s
+hold hb 5 ttl=29s
+capture H711
+release H705
+hold ha 9 ttl=17s
+release H706
+hold hb 3 ttl=264s
+capture H708
+hold ha 4 ttl=154s
+hold hb 6 ttl=113s
+clock advance 18s
+capture H715
+hold ha 5 ttl=286s
+clock advance 41s
+hold ha 7 ttl=237s
+release H722
+clock advance 25s
+hold hb 4 ttl=273s
+hold hb 2 ttl=260s
+release H725
+clock advance 44s
+hold ha 4 ttl=267s
+hold ha 1 ttl=148s
+hold ha 9 ttl=26s
+release H727
+capture H714
+release H726
+hold hb 9 ttl=212s
+release H730
+hold ha 7 ttl=138s
+hold ha 4 ttl=3s
+release H720
+capture H731
+hold ha 8 ttl=275s
+hold ha 8 ttl=92s
+release H732
+hold hb 1 ttl=147s
+release H735
+hold ha 4 ttl=81s
+capture H716
+capture H734
+release H724
+hold ha 4 ttl=291s
+hold ha 8 ttl=84s
+hold hb 9
+release H729
+hold hb 2 ttl=295s
+hold ha 9 ttl=150s
+hold ha 4 ttl=293s
+capture H740
+hold hb 3 ttl=51s
+hold hb 6 ttl=197s
+clock advance 48s
+release H741
+hold hb 5 ttl=278s
+capture H736
+hold ha 4 ttl=286s
+hold ha 5 ttl=285s
+release H742
+holds ha
+check
+capture H745
+hold hb 4 ttl=16s
+hold hb 4 ttl=130s
+hold hb 7 ttl=169s
+release H749
+hold ha 6 ttl=130s
+hold ha 5 ttl=148s
+clock advance 31s
+hold hb 1 ttl=102s
+release H744
+release H738
+release H751
+hold hb 3 ttl=89s
+hold hb 3 ttl=106s
+hold hb 4
+hold hb 1 ttl=112s
+hold hb 6 ttl=59s
+hold hb 8 ttl=202s
+clock advance 49s
+capture H710
+hold hb 1 ttl=143s
+capture H733
+clock advance 44s
+hold ha 7 ttl=299s
+hold ha 4 ttl=148s
+hold hb 5 ttl=250s
+hold ha 3 ttl=223s
+hold hb 2 ttl=86s
+hold hb 5 ttl=269s
+hold ha 9 ttl=40s
+release H747
+hold hb 3 ttl=234s
+hold hb 6 ttl=264s
+hold hb 5 ttl=91s
+hold ha 2 ttl=33s
+capture H723
+clock advance 10s
+capture H771
+release H755
+release H764
+release H757
+release H768
+hold hb 9 ttl=178s
+hold hb 1 ttl=38s
+hold ha 3 ttl=266s
+hold hb 5 ttl=99s
+hold ha 8 ttl=280s
+clock advance 39s
+hold ha 9 ttl=145s
+hold hb 1 ttl=192s
+capture H772
+hold ha 7 ttl=45s
+hold ha 7 ttl=31s
+release H775
+capture H746
+hold ha 7 ttl=231s
+capture H766
+hold ha 4 ttl=189s
+hold hb 9
+release H781
+hold hb 4 ttl=199s
+hold hb 2 ttl=28s
+release H759
+release H770
+hold ha 8
+hold ha 3 ttl=22s
+hold hb 8 ttl=300s
+hold ha 9
+hold ha 6 ttl=59s
+hold ha 1 ttl=26s
+hold hb 2 ttl=31s
+hold hb 4 ttl=194s
+hold hb 4 ttl=176s
+hold ha 4 ttl=20s
+capture H784
+hold hb 5 ttl=204s
+release H760
+release H776
+hold hb 9 ttl=180s
+hold hb 3 ttl=111s
+hold hb 3 ttl=298s
+release H761
+hold hb 1 ttl=91s
+hold ha 8 ttl=162s
+hold hb 7 ttl=56s
+release H762
+release H777
+release H791
+hold hb 3 ttl=170s
+release H803
+hold ha 5 ttl=11s
+hold hb 2 ttl=46s
+release H780
+hold hb 8 ttl=241s
+clock advance 53s
+hold hb 7 ttl=133s
+release H801
+capture H794
+capture H737
+clock advance 53s
+release H806
+capture H782
+hold hb 3 ttl=94s
+clock advance 26s
+clock advance 53s
+hold ha 3 ttl=270s
+hold hb 9 ttl=92s
+release H774
+hold hb 7 ttl=246s
+release H793
+hold hb 8 ttl=295s
+release H812
+hold ha 3 ttl=263s
+capture H813
+release H809
+clock advance 5s
+capture H799
+hold ha 4 ttl=157s
+hold hb 3 ttl=289s
+release H814
+hold hb 5 ttl=235s
+hold hb 5 ttl=214s
+hold hb 2 ttl=60s
+hold hb 1 ttl=103s
+hold hb 4 ttl=205s
+release H817
+hold ha 4 ttl=3s
+release H821
+hold hb 4
+hold ha 8 ttl=232s
+hold hb 3 ttl=272s
+clock advance 60s
+hold hb 9 ttl=206s
+hold hb 8 ttl=45s
+hold ha 3 ttl=212s
+clock advance 56s
+capture H823
+hold ha 3 ttl=218s
+release H825
+clock advance 31s
+hold ha 9 ttl=102s
+hold hb 6 ttl=89s
+release H815
+hold ha 5 ttl=228s
+hold ha 3 ttl=215s
+release H829
+release H820
+capture H816
+release H824
+hold ha 6 ttl=130s
+hold hb 4 ttl=27s
+release H831
+hold ha 6 ttl=51s
+hold hb 8 ttl=204s
+hold ha 4 ttl=135s
+capture H828
+release H834
+hold hb 7 ttl=169s
+hold ha 2
+capture H811
+hold hb 9 ttl=152s
+release H837
+hold hb 1 ttl=243s
+release H833
+release H832
+hold ha 7 ttl=233s
+hold ha 4 ttl=2s
+hold ha 7 ttl=78s
+clock advance 24s
+release H835
+release H838
+hold ha 9 ttl=18s
+hold ha 3 ttl=237s
+hold hb 5 ttl=174s
+capture H830
+hold hb 8 ttl=278s
+release H841
+hold hb 2 ttl=241s
+release H840
+hold ha 6 ttl=286s
+release H849
+release H850
+capture H848
+hold ha 4 ttl=58s
+hold hb 4 ttl=127s
+hold hb 1 ttl=89s
+hold hb 3 ttl=150s
+clock advance 4s
+hold ha 1 ttl=71s
+hold ha 7 ttl=46s
+release H827
+hold ha 9 ttl=62s
+capture H853
+capture H844
+release H847
+release H852
+release H854
+release H855
+hold hb 1
+release H836
+capture H851
+hold ha 9 ttl=189s
+hold hb 9 ttl=4s
+release H860
+clock advance 10s
+hold hb 8 ttl=13s
+release H861
+hold hb 8 ttl=134s
+capture H862
+hold hb 5 ttl=232s
+hold ha 2 ttl=11s
+hold hb 7 ttl=157s
+clock advance 25s
+hold ha 5 ttl=109s
+capture H863
+release H866
+release H859
+hold ha 5 ttl=41s
+capture H856
+hold ha 2 ttl=88s
+release H857
+hold ha 5 ttl=269s
+release H869
+capture H865
+hold ha 6
+clock advance 30s
+hold ha 1 ttl=167s
+hold hb 3 ttl=96s
+hold ha 9 ttl=166s
+hold ha 3 ttl=175s
+hold ha 8
+hold ha 3 ttl=104s
+release H868
+release H872
+hold hb 4 ttl=262s
+clock advance 52s
+clock advance 25s
+hold ha 4 ttl=230s
+hold ha 1 ttl=277s
+hold hb 7
+release H877
+hold ha 4 ttl=291s
+clock advance 57s
+hold ha 3 ttl=273s
+release H881
+release H878
+clock advance 3s
+clock advance 1s
+hold ha 9 ttl=197s
+hold ha 6 ttl=131s
+hold hb 9 ttl=117s
+release H885
+release H884
+clock advance 39s
+release H879
+hold hb 3
+capture H883
+hold ha 2 ttl=152s
+release H882
+clock advance 44s
+hold ha 7
+clock advance 25s
+release H887
+hold hb 4 ttl=5s
+hold hb 4 ttl=57s
+hold hb 7
+hold ha 2
+hold ha 5 ttl=91s
+release H889
+hold ha 2 ttl=42s
+release H893
+hold hb 8 ttl=17s
+release H895
+release H890
+hold hb 3 ttl=96s
+release H896
+hold hb 3 ttl=253s
+hold ha 5 ttl=147s
+release H897
+hold hb 7 ttl=51s
+hold hb 8 ttl=184s
+hold ha 2 ttl=294s
+capture H899
+clock advance 6s
+release H900
+hold ha 5 ttl=161s
+hold hb 6 ttl=42s
+hold hb 4 ttl=136s
+release H898
+hold hb 4 ttl=260s
+release H905
+capture H904
+release H894
+release H901
+hold ha 7 ttl=145s
+holds ha
+check
+hold hb 3 ttl=125s
+hold ha 4 ttl=92s
+hold hb 1
+hold hb 3 ttl=191s
+release H910
+hold ha 2 ttl=241s
+clock advance 25s
+release H907
+clock advance 48s
+hold hb 5 ttl=155s
+capture H912
+release H902
+clock advance 52s
+hold hb 4 ttl=207s
+hold ha 8 ttl=107s
+clock advance 27s
+hold hb 5 ttl=160s
+capture H911
+release H914
+hold ha 3 ttl=233s
+hold hb 2 ttl=28s
+release H915
+release H916
+hold ha 6 ttl=173s
+hold ha 2 ttl=290s
+release H913
+release H918
+clock advance 44s
+hold ha 2 ttl=264s
+hold hb 8 ttl=165s
+release H921
+hold ha 6 ttl=96s
+hold ha 7 ttl=181s
+hold ha 3 ttl=3s
+capture H920
+hold ha 8 ttl=186s
+release H922
+hold hb 8 ttl=273s
+hold ha 1 ttl=73s
+capture H924
+clock advance 6s
+hold ha 5 ttl=23s
+hold ha 4 ttl=225s
+hold hb 7 ttl=32s
+hold ha 2 ttl=259s
+hold ha 4 ttl=15s
+release H926
+hold ha 4 ttl=266s
+capture H923
+clock advance 8s
+release H930
+release H927
+release H932
+capture H919
+capture H933
+hold hb 4 ttl=249s
+hold ha 9 ttl=79s
+hold ha 9 ttl=247s
+release H934
+hold hb 6 ttl=3s
+release H937
+hold hb 7 ttl=104s
+hold hb 3 ttl=45s
+hold hb 3 ttl=66s
+hold ha 5 ttl=242s
+hold ha 4 ttl=95s
+clock advance 40s
+release H925
+clock advance 7s
+hold ha 7 ttl=82s
+clock advance 15s
+hold hb 8 ttl=271s
+hold ha 2 ttl=158s
+hold hb 3 ttl=270s
+release H929
+hold ha 3 ttl=114s
+hold ha 2 ttl=132s
+release H938
+clock advance 59s
+hold hb 2 ttl=255s
+hold hb 2 ttl=29s
+release H947
+hold ha 4 ttl=228s
+hold ha 6 ttl=207s
+hold ha 8 ttl=39s
+clock advance 54s
+clock advance 24s
+release H946
+clock advance 48s
+hold hb 3 ttl=218s
+hold ha 9 ttl=120s
+release H949
+hold hb 4 ttl=44s
+release H956
+capture H944
+release H954
+capture H931
+hold hb 6
+hold hb 6 ttl=13s
+hold ha 6 ttl=161s
+hold hb 2 ttl=282s
+release H960
+hold hb 5 ttl=205s
+clock advance 4s
+hold hb 8 ttl=195s
+hold hb 6 ttl=71s
+clock advance 13s
+hold ha 4 ttl=231s
+release H959
+hold hb 9 ttl=254s
+release H963
+hold hb 4 ttl=127s
+capture H964
+release H962
+release H951
+capture H955
+release H966
+release H965
+hold ha 3 ttl=268s
+release H967
+hold ha 6 ttl=167s
+capture H968
+clock advance 2s
+hold ha 4 ttl=78s
+hold ha 6 ttl=148s
+hold ha 2 ttl=277s
+hold ha 4 ttl=2s
+hold ha 6 ttl=268s
+release H961
+hold hb 2 ttl=203s
+release H974
+hold ha 8 ttl=181s
+hold ha 1 ttl=49s
+hold hb 3 ttl=168s
+hold hb 6 ttl=174s
+release H969
+hold ha 5 ttl=271s
+release H978
+release H977
+hold ha 1 ttl=277s
+hold hb 9 ttl=177s
+capture H981
+release H980
+clock advance 31s
+capture H975
+hold ha 2 ttl=103s
+hold ha 7 ttl=170s
+release H982
+hold hb 6 ttl=99s
+hold hb 7 ttl=247s
+release H979
+release H983
+capture H985
+hold hb 5 ttl=252s
+hold ha 5 ttl=297s
+capture H952
+clock advance 41s
+hold hb 5 ttl=274s
+hold ha 2 ttl=276s
+release H984
+release H973
+hold ha 5 ttl=160s
+hold ha 6 ttl=107s
+hold hb 5 ttl=79s
+release H991
+release H992
+hold hb 6 ttl=70s
+hold ha 1 ttl=96s
+capture H986
+release H990
+release H988
+hold ha 9 ttl=165s
+hold hb 2 ttl=282s
+hold ha 6 ttl=103s
+hold ha 9
+clock advance 58s
+capture H993
+hold ha 5 ttl=162s
+capture H996
+release H970
+hold ha 1 ttl=151s
+hold ha 6 ttl=25s
+hold ha 4
+clock advance 48s
+hold hb 5 ttl=214s
+release H005
+hold hb 6 ttl=210s
+release H001
+clock advance 33s
+hold ha 2 ttl=226s
+capture H995
+hold hb 2 ttl=261s
+hold ha 1 ttl=218s
+hold ha 9 ttl=110s
+capture H008
+hold hb 3 ttl=274s
+capture H010
+release H971
+clock advance 51s
+hold ha 6 ttl=213s
+release H989
+hold ha 7 ttl=131s
+hold ha 3
+hold hb 7 ttl=156s
+hold hb 5 ttl=191s
+release H987
+release H007
+hold hb 2 ttl=29s
+capture H013
+release H999
+hold hb 3 ttl=293s
+release H009
+clock advance 53s
+hold hb 5 ttl=47s
+hold hb 1
+hold hb 8 ttl=269s
+hold hb 5 ttl=154s
+hold ha 2
+clock advance 25s
+hold ha 2 ttl=187s
+hold hb 1 ttl=88s
+hold ha 7 ttl=116s
+hold ha 3 ttl=251s
+clock advance 20s
+clock advance 36s
+hold hb 1 ttl=17s
+release H024
+release H016
+release H028
+hold ha 5 ttl=31s
+capture H012
+clock advance 52s
+release H018
+capture H027
+hold ha 9 ttl=114s
+release H021
+hold ha 5 ttl=256s
+capture H031
+clock advance 23s
+hold ha 7 ttl=276s
+release H011
+hold ha 1 ttl=100s
+hold ha 4 ttl=211s
+release H033
+hold ha 6 ttl=184s
+release H036
+clock advance 39s
+hold ha 5 ttl=159s
+hold ha 5 ttl=274s
+release H032
+clock advance 48s
+hold hb 3 ttl=131s
+release H040
+hold ha 4 ttl=287s
+hold ha 9 ttl=8s
+release H034
+clock advance 58s
+release H041
+hold ha 8 ttl=150s
+hold hb 1 ttl=80s
+release H035
+clock advance 5s
+hold hb 2 ttl=98s
+hold ha 7
+hold ha 5
+hold ha 4 ttl=72s
+hold hb 5 ttl=143s
+release H044
+release H050
+hold ha 7
+capture H045
+clock advance 57s
+hold ha 4 ttl=80s
+hold ha 9 ttl=245s
+hold hb 4 ttl=266s
+capture H054
+hold hb 2 ttl=77s
+release H049
+release H055
+release H052
+hold ha 2 ttl=131s
+release H039
+release H056
+hold ha 1 ttl=85s
+release H057
+hold ha 5 ttl=111s
+hold hb 7 ttl=147s
+release H043
+hold hb 9 ttl=139s
+release H060
+hold hb 8 ttl=66s
+clock advance 13s
+release H061
+holds ha
+check
+capture H053
+release H062
+release H059
+clock advance 34s
+hold ha 6 ttl=168s
+release H063
+hold ha 9 ttl=50s
+hold hb 5
+hold ha 7 ttl=175s
+hold hb 1 ttl=27s
+capture H068
+hold ha 8 ttl=105s
+hold hb 2 ttl=33s
+hold ha 4 ttl=241s
+release H070
+hold hb 6 ttl=128s
+hold ha 7 ttl=300s
+capture H072
+hold hb 5 ttl=115s
+hold hb 3 ttl=190s
+release H075
+release H067
+hold ha 6 ttl=291s
+release H074
+hold ha 4 ttl=130s
+hold hb 9 ttl=158s
+release H078
+hold ha 4 ttl=140s
+release H064
+capture H073
+release H077
+release H076
+hold ha 2 ttl=32s
+hold ha 5 ttl=195s
+capture H081
+hold hb 8 ttl=239s
+hold ha 3 ttl=198s
+hold ha 8 ttl=72s
+release H082
+hold ha 9 ttl=91s
+hold hb 8
+hold hb 7 ttl=212s
+hold ha 9 ttl=25s
+hold ha 7 ttl=27s
+clock advance 29s
+hold hb 1
+hold ha 4 ttl=110s
+hold hb 6
+clock advance 38s
+capture H087
+capture H079
+hold hb 1 ttl=71s
+hold ha 3 ttl=207s
+hold hb 8 ttl=49s
+release H069
+release H091
+capture H095
+release H085
+hold ha 5 ttl=105s
+release H093
+hold hb 4 ttl=94s
+capture H071
+release H098
+hold ha 7 ttl=223s
+release H100
+release H094
+release H083
+clock advance 42s
+hold hb 7 ttl=36s
+clock advance 13s
+release H101
+hold ha 5 ttl=102s
+hold ha 7 ttl=274s
+hold ha 8 ttl=202s
+hold hb 1
+hold ha 9 ttl=220s
+hold hb 4 ttl=107s
+hold ha 7 ttl=204s
+release H104
+release H108
+capture H107
+release H096
+hold ha 7 ttl=274s
+release H109
+hold ha 2 ttl=276s
+hold ha 5 ttl=244s
+hold hb 4 ttl=105s
+hold ha 6 ttl=59s
+hold hb 8 ttl=80s
+release H112
+hold ha 4 ttl=192s
+capture H114
+hold ha 1 ttl=275s
+hold ha 5 ttl=168s
+hold ha 9 ttl=128s
+hold hb 4 ttl=45s
+release H120
+release H103
+clock advance 53s
+hold ha 9
+release H111
+capture H118
+hold ha 1 ttl=187s
+clock advance 59s
+hold hb 7 ttl=175s
+release H106
+hold ha 1 ttl=178s
+capture H116
+clock advance 42s
+release H123
+release H117
+clock advance 26s
+release H124
+capture H122
+hold ha 1 ttl=111s
+hold hb 1 ttl=117s
+release H126
+release H125
+release H110
+hold hb 8 ttl=206s
+hold ha 5 ttl=19s
+release H129
+release H128
+hold ha 6 ttl=92s
+release H130
+hold ha 1 ttl=252s
+release H131
+clock advance 55s
+clock advance 1s
+hold hb 9 ttl=156s
+hold ha 3 ttl=169s
+hold hb 3 ttl=251s
+hold ha 2 ttl=119s
+release H133
+clock advance 52s
+hold ha 5 ttl=283s
+hold ha 3 ttl=162s
+hold ha 6 ttl=141s
+hold hb 8 ttl=120s
+release H136
+capture H132
+release H137
+hold ha 9 ttl=255s
+clock advance 7s
+hold hb 3 ttl=31s
+release H141
+release H135
+release H139
+capture H138
+hold ha 5 ttl=102s
+capture H142
+release H140
+hold hb 7 ttl=255s
+release H143
+hold hb 2 ttl=83s
+hold ha 1 ttl=59s
+hold hb 8
+hold ha 7 ttl=125s
+hold ha 8
+hold hb 1 ttl=58s
+hold ha 2 ttl=40s
+hold hb 2 ttl=218s
+release H146
+release H148
+hold hb 3 ttl=119s
+release H154
+hold hb 4 ttl=35s
+release H144
+clock advance 56s
+hold ha 2 ttl=141s
+hold hb 1 ttl=145s
+hold ha 7 ttl=246s
+release H159
+release H158
+hold ha 2 ttl=277s
+capture H150
+release H145
+release H157
+hold ha 2 ttl=60s
+hold hb 9 ttl=240s
+clock advance 17s
+hold ha 4 ttl=39s
+release H161
+release H153
+hold ha 9 ttl=260s
+hold hb 1
+release H162
+release H163
+clock advance 17s
+hold ha 6 ttl=110s
+hold hb 2 ttl=293s
+hold ha 3 ttl=70s
+release H166
+hold hb 7 ttl=23s
+hold hb 8 ttl=72s
+capture H168
+release H164
+hold ha 5
+release H160
+hold hb 7
+release H171
+hold ha 5 ttl=168s
+hold hb 7 ttl=103s
+release H174
+hold ha 6
+hold ha 6 ttl=174s
+clock advance 10s
+hold ha 2
+capture H178
+clock advance 41s
+hold ha 4
+hold ha 9 ttl=204s
+release H181
+hold hb 8 ttl=179s
+hold ha 3 ttl=104s
+hold ha 5 ttl=50s
+hold ha 6 ttl=237s
+hold ha 5 ttl=273s
+hold hb 9 ttl=79s
+hold ha 1 ttl=139s
+hold hb 8 ttl=120s
+release H187
+release H182
+release H167
+release H175
+hold hb 8 ttl=250s
+release H191
+release H186
+hold ha 2 ttl=176s
+release H192
+hold hb 1 ttl=137s
+hold hb 9 ttl=103s
+hold hb 2 ttl=30s
+hold ha 8 ttl=170s
+hold hb 2 ttl=170s
+release H197
+hold ha 3 ttl=149s
+hold hb 3 ttl=85s
+release H196
+hold hb 4 ttl=260s
+hold hb 3
+hold ha 9 ttl=123s
+capture H183
+capture H193
+hold hb 7 ttl=131s
+clock advance 48s
+release H202
+hold hb 4 ttl=89s
+release H190
+release H204
+capture H198
+hold ha 4 ttl=9s
+release H208
+capture H184
+release H194
+hold ha 8 ttl=38s
+hold hb 9 ttl=246s
+hold hb 1 ttl=78s
+hold hb 1 ttl=29s
+release H209
+hold hb 3 ttl=110s
+release H185
+hold ha 1 ttl=189s
+hold hb 2 ttl=82s
+capture H206
+hold hb 9 ttl=245s
+clock advance 38s
+hold hb 4 ttl=266s
+hold hb 4 ttl=264s
+hold hb 8
+hold ha 6 ttl=235s
+holds ha
+check
+release H214
+hold hb 4 ttl=215s
+hold ha 2 ttl=124s
+release H199
+hold ha 9 ttl=151s
+hold hb 9
+hold ha 8
+release H221
+hold ha 7 ttl=183s
+hold ha 5 ttl=139s
+release H211
+hold hb 3 ttl=217s
+hold hb 4 ttl=189s
+hold ha 7 ttl=60s
+clock advance 28s
+release H226
+release H227
+hold hb 3 ttl=228s
+release H220
+hold hb 5 ttl=79s
+release H231
+release H222
+release H223
+release H218
+hold hb 6 ttl=187s
+clock advance 19s
+hold ha 6 ttl=253s
+hold hb 9 ttl=66s
+capture H213
+hold hb 1 ttl=96s
+release H237
+hold ha 6 ttl=39s
+capture H216
+hold ha 4 ttl=164s
+hold hb 7 ttl=43s
+release H240
+release H234
+hold hb 8 ttl=285s
+capture H238
+release H241
+hold hb 5 ttl=213s
+release H210
+hold ha 4 ttl=247s
+hold ha 3 ttl=209s
+release H232
+release H242
+hold ha 1 ttl=272s
+release H235
+hold hb 2 ttl=167s
+release H217
+hold ha 8 ttl=262s
+clock advance 55s
+clock advance 7s
+clock advance 15s
+capture H243
+clock advance 47s
+hold ha 2 ttl=258s
+hold hb 4 ttl=263s
+release H248
+release H250
+release H230
+hold hb 8 ttl=294s
+capture H246
+release H251
+hold hb 5 ttl=68s
+release H229
+release H252
+release H244
+capture H247
+hold ha 2 ttl=104s
+release H253
+hold hb 3 ttl=182s
+hold ha 2 ttl=99s
+hold ha 9 ttl=246s
+hold hb 8 ttl=298s
+release H249
+hold ha 6 ttl=281s
+release H255
+clock advance 32s
+release H258
+release H256
+release H239
+clock advance 3s
+hold ha 1 ttl=95s
+hold ha 5 ttl=40s
+hold ha 9 ttl=87s
+hold hb 9 ttl=295s
+release H260
+hold ha 9 ttl=192s
+hold hb 4 ttl=271s
+capture H263
+hold ha 2
+clock advance 27s
+release H257
+release H264
+hold hb 8 ttl=272s
+clock advance 33s
+release H270
+capture H268
+release H262
+release H254
+hold hb 4 ttl=50s
+hold hb 7 ttl=211s
+hold ha 8 ttl=59s
+hold hb 3 ttl=235s
+release H273
+clock advance 47s
+capture H271
+hold hb 6 ttl=40s
+release H272
+hold hb 1 ttl=57s
+capture H274
+hold hb 4 ttl=299s
+release H276
+clock advance 37s
+hold ha 7
+hold hb 1
+hold ha 5 ttl=104s
+capture H278
+hold ha 7 ttl=49s
+hold ha 8
+capture H282
+release H277
+release H281
+clock advance 44s
+hold hb 9 ttl=103s
+hold ha 8
+hold ha 3 ttl=216s
+hold hb 2 ttl=88s
+release H286
+clock advance 31s
+capture H284
+release H287
+hold hb 5 ttl=171s
+hold ha 3
+hold hb 8 ttl=174s
+hold ha 1 ttl=112s
+hold hb 5 ttl=176s
+hold hb 1 ttl=84s
+release H291
+hold hb 7 ttl=68s
+hold ha 6 ttl=101s
+release H288
+release H292
+hold hb 6 ttl=13s
+release H293
+release H295
+release H296
+hold ha 8 ttl=61s
+release H290
+hold hb 1 ttl=268s
+hold hb 9 ttl=269s
+capture H294
+hold ha 3 ttl=132s
+hold ha 1 ttl=73s
+capture H299
+hold ha 3 ttl=241s
+hold hb 4 ttl=52s
+hold hb 2
+hold hb 6 ttl=285s
+capture H302
+release H303
+release H305
+release H297
+hold hb 5 ttl=36s
+hold ha 6 ttl=62s
+capture H298
+hold ha 8 ttl=158s
+hold hb 5 ttl=221s
+clock advance 42s
+release H309
+capture H300
+hold hb 3 ttl=131s
+clock advance 16s
+release H311
+capture H301
+capture H308
+release H307
+hold hb 5
+hold ha 4 ttl=262s
+release H313
+hold hb 3 ttl=222s
+hold ha 1 ttl=176s
+hold hb 7 ttl=53s
+hold ha 6 ttl=201s
+clock advance 22s
+holds ha
+holds hb
+check

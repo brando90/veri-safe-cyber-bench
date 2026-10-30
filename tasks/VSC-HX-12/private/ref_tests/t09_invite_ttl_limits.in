@@ -1,0 +1,15 @@
+user add alice
+user add bob
+user add carol
+publish alice inv 1.0.0
+owner invite alice inv bob role=owner ttl=3d
+owner invite alice inv bob role=owner ttl=2d
+owner invite alice inv carol role=reader ttl=20d
+owner invite alice inv carol role=admin
+owner invite alice inv alice role=owner
+invites alice inv
+clock advance 1d
+owner accept carol inv
+owner accept bob inv
+roles - inv
+invites alice inv

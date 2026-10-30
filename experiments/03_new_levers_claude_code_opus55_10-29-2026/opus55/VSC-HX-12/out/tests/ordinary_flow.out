@@ -1,0 +1,23 @@
+user root added (admin)
+user alice added
+user bob added
+published net 1.0.0 (3 KiB)
+published net 1.1.0 (4 KiB)
+published tool 0.1.0 (1 KiB)
+tag net next -> 1.1.0
+yanked net 1.1.0
+tags net: latest=1.0.0 next=1.1.0
+fetched net 1.0.0
+fetched net 1.1.0 (yanked)
+lock l1 (2 packages)
+  net 1.0.0
+  tool 0.1.0
+digest 992a70ab07dd
+unpublished net 1.0.0
+outdated l1: 1 of 2
+  net 1.0.0 -> unpublished (latest -)
+quota alice used=4 KiB limit=10240 KiB
+pruned net: 1.1.0
+quota alice used=0 KiB limit=10240 KiB
+package net visibility=public latest=- downloads=2 releases=0
+check ok (3 users, 2 packages)

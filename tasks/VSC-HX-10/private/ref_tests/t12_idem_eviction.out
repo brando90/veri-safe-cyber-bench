@@ -1,0 +1,80 @@
+open uma slot=0 gen=0
+open vic slot=1 gen=0
+open wes slot=2 gen=0
+ok T0.0 deposit uma 1.00 balance=1.00
+ok T0.1 deposit uma 1.00 balance=2.00
+ok T0.2 deposit uma 1.00 balance=3.00
+ok T0.3 deposit uma 1.00 balance=4.00
+ok T0.4 deposit uma 1.00 balance=5.00
+ok T0.5 deposit uma 1.00 balance=6.00
+ok T0.6 deposit uma 1.00 balance=7.00
+ok T0.7 deposit uma 1.00 balance=8.00
+ok T0.8 deposit uma 1.00 balance=9.00
+ok T0.9 deposit uma 1.00 balance=10.00
+ok T0.10 deposit uma 1.00 balance=11.00
+ok T0.11 deposit uma 1.00 balance=12.00
+ok T0.12 deposit uma 1.00 balance=13.00
+ok T0.13 deposit uma 1.00 balance=14.00
+ok T0.14 deposit uma 1.00 balance=15.00
+ok T0.15 deposit uma 1.00 balance=16.00
+ok T0.16 deposit uma 1.00 balance=17.00
+ok T0.17 deposit uma 1.00 balance=18.00
+ok T0.18 deposit uma 1.00 balance=19.00
+ok T0.19 deposit uma 1.00 balance=20.00
+ok T0.20 deposit uma 1.00 balance=21.00
+ok T0.21 deposit uma 1.00 balance=22.00
+ok T0.22 deposit uma 1.00 balance=23.00
+ok T0.23 deposit uma 1.00 balance=24.00
+ok T0.24 deposit uma 1.00 balance=25.00
+ok T0.25 deposit uma 1.00 balance=26.00
+ok T0.26 deposit uma 1.00 balance=27.00
+ok T0.27 deposit uma 1.00 balance=28.00
+ok T0.28 deposit uma 1.00 balance=29.00
+ok T0.29 deposit uma 1.00 balance=30.00
+ok T0.30 deposit uma 1.00 balance=31.00
+ok T0.31 deposit uma 1.00 balance=32.00
+ok T0.32 deposit uma 1.00 balance=33.00
+ok T0.33 deposit uma 1.00 balance=34.00
+ok T0.34 deposit uma 1.00 balance=35.00
+ok T0.35 deposit uma 1.00 balance=36.00
+ok T0.36 deposit uma 1.00 balance=37.00
+ok T0.37 deposit uma 1.00 balance=38.00
+ok T0.38 deposit uma 1.00 balance=39.00
+ok T0.39 deposit uma 1.00 balance=40.00
+ok T0.40 deposit wes 1.00 balance=1.00
+ok T0.41 withdraw wes 1.00 balance=0.00
+close wes slot=2
+ok T0.42 deposit vic 1.00 balance=1.00
+ok T0.43 deposit vic 1.00 balance=2.00
+ok T0.44 deposit vic 1.00 balance=3.00
+ok T0.45 deposit vic 1.00 balance=4.00
+ok T0.46 deposit vic 1.00 balance=5.00
+ok T0.47 deposit vic 1.00 balance=6.00
+ok T0.48 deposit vic 1.00 balance=7.00
+ok T0.49 deposit vic 1.00 balance=8.00
+ok T0.50 deposit vic 1.00 balance=9.00
+ok T0.51 deposit vic 1.00 balance=10.00
+ok T0.52 deposit vic 1.00 balance=11.00
+ok T0.53 deposit vic 1.00 balance=12.00
+ok T0.54 deposit vic 1.00 balance=13.00
+ok T0.55 deposit vic 1.00 balance=14.00
+ok T0.56 deposit vic 1.00 balance=15.00
+ok T0.57 deposit vic 1.00 balance=16.00
+ok T0.58 deposit vic 1.00 balance=17.00
+ok T0.59 deposit vic 1.00 balance=18.00
+ok T0.60 deposit vic 1.00 balance=19.00
+ok T0.61 deposit vic 1.00 balance=20.00
+ok T0.62 deposit vic 1.00 balance=21.00
+ok T0.63 deposit vic 1.00 balance=22.00
+ok T0.64 deposit vic 1.00 balance=23.00
+idem entries=64 capacity=64 evicted=1
+ok T0.65 deposit vic 1.00 balance=24.00
+idem entries=64 capacity=64 evicted=2
+ok T0.66 deposit uma 1.00 balance=41.00
+ok T0.67 deposit uma 1.00 balance=42.00
+replay T0.39
+replay T0.65
+idem entries=64 capacity=64 evicted=4
+uma balance=42.00 held=0.00 available=42.00 spent_today=0.00 debits_last_hour=0
+vic balance=24.00 held=0.00 available=24.00 spent_today=0.00 debits_last_hour=0
+check ok records=68 live=68 accounts=2 holds=0 batches=0

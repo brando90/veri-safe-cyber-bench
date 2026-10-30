@@ -1,0 +1,10 @@
+# prune gives back the same storage that publish charged
+user add root admin
+user add alice
+publish alice imgtool 1.0.0 size=1500
+publish alice imgtool 1.1.0 size=2KiB
+yank alice imgtool 1.0.0
+quota alice
+prune root imgtool
+quota alice
+check

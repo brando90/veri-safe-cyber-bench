@@ -1,0 +1,19 @@
+open vel velocity=3 daily=100000
+deposit vel 100
+withdraw vel 1
+clock set 20s
+withdraw vel 1
+clock set 59s
+withdraw vel 1
+withdraw vel 1
+clock set 59m59s
+balance vel
+withdraw vel 1
+clock set 60m
+balance vel
+withdraw vel 1
+withdraw vel 1
+withdraw vel 1
+withdraw vel 1
+balance vel
+check

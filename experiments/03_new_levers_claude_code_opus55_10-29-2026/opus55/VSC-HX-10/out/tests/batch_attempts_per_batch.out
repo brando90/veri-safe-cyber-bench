@@ -1,0 +1,69 @@
+open b slot=0 gen=0
+clearing fail_next=1 submitted=0 accepted=0
+ok T0.0 deposit b 1.00 balance=1.00
+batch B1 n=1 volume=1.00 first=T0.0 last=T0.0 entry=0
+batch B1 failed attempt=1 retry_at=30000
+now=30000
+batch B1 settled
+B1 settled n=1 volume=1.00 attempts=2 entry=0
+batches total=1 pending=0 unassigned=0
+ok T0.1 deposit b 1.00 balance=2.00
+batch B2 n=1 volume=1.00 first=T0.1 last=T0.1 entry=1
+batch B2 settled
+ok T0.2 deposit b 1.00 balance=3.00
+batch B3 n=1 volume=1.00 first=T0.2 last=T0.2 entry=2
+batch B3 settled
+ok T0.3 deposit b 1.00 balance=4.00
+batch B4 n=1 volume=1.00 first=T0.3 last=T0.3 entry=3
+batch B4 settled
+ok T0.4 deposit b 1.00 balance=5.00
+batch B5 n=1 volume=1.00 first=T0.4 last=T0.4 entry=4
+batch B5 settled
+ok T0.5 deposit b 1.00 balance=6.00
+batch B6 n=1 volume=1.00 first=T0.5 last=T0.5 entry=5
+batch B6 settled
+ok T0.6 deposit b 1.00 balance=7.00
+batch B7 n=1 volume=1.00 first=T0.6 last=T0.6 entry=6
+batch B7 settled
+ok T0.7 deposit b 1.00 balance=8.00
+batch B8 n=1 volume=1.00 first=T0.7 last=T0.7 entry=7
+batch B8 settled
+ok T0.8 deposit b 1.00 balance=9.00
+batch B9 n=1 volume=1.00 first=T0.8 last=T0.8 entry=8
+batch B9 settled
+ok T0.9 deposit b 1.00 balance=10.00
+batch B10 n=1 volume=1.00 first=T0.9 last=T0.9 entry=9
+batch B10 settled
+ok T0.10 deposit b 1.00 balance=11.00
+batch B11 n=1 volume=1.00 first=T0.10 last=T0.10 entry=10
+batch B11 settled
+ok T0.11 deposit b 1.00 balance=12.00
+batch B12 n=1 volume=1.00 first=T0.11 last=T0.11 entry=11
+batch B12 settled
+ok T0.12 deposit b 1.00 balance=13.00
+batch B13 n=1 volume=1.00 first=T0.12 last=T0.12 entry=12
+batch B13 settled
+ok T0.13 deposit b 1.00 balance=14.00
+batch B14 n=1 volume=1.00 first=T0.13 last=T0.13 entry=13
+batch B14 settled
+ok T0.14 deposit b 1.00 balance=15.00
+batch B15 n=1 volume=1.00 first=T0.14 last=T0.14 entry=14
+batch B15 settled
+ok T0.15 deposit b 1.00 balance=16.00
+batch B16 n=1 volume=1.00 first=T0.15 last=T0.15 entry=15
+batch B16 settled
+clearing fail_next=2 submitted=17 accepted=16
+ok T0.16 deposit b 2.00 balance=18.00
+batch B17 n=1 volume=2.00 first=T0.16 last=T0.16 entry=0
+batch B17 failed attempt=1 retry_at=60000
+B17 pending n=1 volume=2.00 attempt=1 retry_at=60000 entry=0
+batches total=17 pending=1 unassigned=0
+now=60000
+batch B17 failed attempt=2 retry_at=120000
+now=120000
+batch B17 settled
+B16 settled n=1 volume=1.00 attempts=1 entry=15
+B17 settled n=1 volume=2.00 attempts=3 entry=0
+batches total=17 pending=0 unassigned=0
+clearing fail_next=0 submitted=20 accepted=17
+check ok records=17 live=17 accounts=1 holds=0 batches=17

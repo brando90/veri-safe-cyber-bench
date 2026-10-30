@@ -1,0 +1,1592 @@
+open c000
+open c001
+open c002
+open c003
+open c004
+open c005
+open c006
+open c007
+open c008
+open c009
+open c010
+open c011
+open c012
+open c013
+open c014
+open c015
+open c016
+open c017
+open c018
+open c019
+open c020
+open c021
+open c022
+open c023
+open c024
+open c025
+open c026
+open c027
+open c028
+open c029
+open c030
+open c031
+open c032
+open c033
+open c034
+open c035
+open c036
+open c037
+open c038
+open c039
+open c040
+open c041
+open c042
+open c043
+open c044
+open c045
+open c046
+open c047
+open c048
+open c049
+open c050
+open c051
+open c052
+open c053
+open c054
+open c055
+open c056
+open c057
+open c058
+open c059
+open c060
+open c061
+open c062
+open c063
+open c064
+open c065
+open c066
+open c067
+open c068
+open c069
+open c070
+open c071
+open c072
+open c073
+open c074
+open c075
+open c076
+open c077
+open c078
+open c079
+open c080
+open c081
+open c082
+open c083
+open c084
+open c085
+open c086
+open c087
+open c088
+open c089
+open c090
+open c091
+open c092
+open c093
+open c094
+open c095
+open c096
+open c097
+open c098
+open c099
+open c100
+open c101
+open c102
+open c103
+open c104
+open c105
+open c106
+open c107
+open c108
+open c109
+open c110
+open c111
+open c112
+open c113
+open c114
+open c115
+open c116
+open c117
+open c118
+open c119
+open c120
+open c121
+open c122
+open c123
+open c124
+open c125
+open c126
+open c127
+open c128
+open c129
+open c130
+open c131
+open c132
+open c133
+open c134
+open c135
+open c136
+open c137
+open c138
+open c139
+open c140
+open c141
+open c142
+open c143
+open c144
+open c145
+open c146
+open c147
+open c148
+open c149
+open c150
+open c151
+open c152
+open c153
+open c154
+open c155
+open c156
+open c157
+open c158
+open c159
+open c160
+open c161
+open c162
+open c163
+open c164
+open c165
+open c166
+open c167
+open c168
+open c169
+open c170
+open c171
+open c172
+open c173
+open c174
+open c175
+open c176
+open c177
+open c178
+open c179
+open c180
+open c181
+open c182
+open c183
+open c184
+open c185
+open c186
+open c187
+open c188
+open c189
+open c190
+open c191
+open c192
+open c193
+open c194
+open c195
+open c196
+open c197
+open c198
+open c199
+open c200
+open c201
+open c202
+open c203
+open c204
+open c205
+open c206
+open c207
+open c208
+open c209
+open c210
+open c211
+open c212
+open c213
+open c214
+open c215
+open c216
+open c217
+open c218
+open c219
+open c220
+open c221
+open c222
+open c223
+open c224
+open c225
+open c226
+open c227
+open c228
+open c229
+open c230
+open c231
+open c232
+open c233
+open c234
+open c235
+open c236
+open c237
+open c238
+open c239
+open c240
+open c241
+open c242
+open c243
+open c244
+open c245
+open c246
+open c247
+open c248
+open c249
+open c250
+open c251
+open c252
+open c253
+open c254
+open c255
+deposit c000 441
+withdraw c000 441
+close c000
+open r0001 daily=300
+deposit r0001 1000
+withdraw r0001 90
+balance r0001
+deposit c001 259
+withdraw c001 259
+close c001
+open r0002 daily=100
+deposit r0002 1000
+withdraw r0002 72
+deposit c002 396
+withdraw c002 396
+close c002
+open r0003 daily=300
+deposit r0003 1000
+withdraw r0003 63
+deposit c003 269
+withdraw c003 269
+close c003
+open r0004 daily=300
+deposit r0004 1000
+withdraw r0004 88
+deposit c004 68
+withdraw c004 68
+close c004
+open r0005 daily=500
+deposit r0005 1000
+withdraw r0005 80
+deposit c005 153
+withdraw c005 153
+close c005
+open r0006 daily=100
+deposit r0006 1000
+withdraw r0006 91
+deposit c006 372
+withdraw c006 372
+close c006
+open r0007 daily=500
+deposit r0007 1000
+withdraw r0007 93
+deposit c007 148
+withdraw c007 148
+close c007
+open r0008 daily=300
+deposit r0008 1000
+withdraw r0008 80
+deposit c008 293
+withdraw c008 293
+close c008
+open r0009 daily=100
+deposit r0009 1000
+withdraw r0009 87
+deposit c009 288
+withdraw c009 288
+close c009
+open r0010 daily=500
+deposit r0010 1000
+withdraw r0010 62
+deposit c010 317
+withdraw c010 317
+close c010
+open r0011 daily=100
+deposit r0011 1000
+withdraw r0011 76
+deposit c011 278
+withdraw c011 278
+close c011
+open r0012 daily=300
+deposit r0012 1000
+withdraw r0012 91
+deposit c012 188
+withdraw c012 188
+close c012
+open r0013 daily=100
+deposit r0013 1000
+withdraw r0013 71
+deposit c013 370
+withdraw c013 370
+close c013
+open r0014 daily=100
+deposit r0014 1000
+withdraw r0014 62
+deposit c014 244
+withdraw c014 244
+close c014
+open r0015 daily=300
+deposit r0015 1000
+withdraw r0015 60
+deposit c015 140
+withdraw c015 140
+close c015
+open r0016 daily=100
+deposit r0016 1000
+withdraw r0016 72
+deposit c016 113
+withdraw c016 113
+close c016
+open r0017 daily=300
+deposit r0017 1000
+withdraw r0017 68
+deposit c017 162
+withdraw c017 162
+close c017
+open r0018 daily=500
+deposit r0018 1000
+withdraw r0018 72
+deposit c018 273
+withdraw c018 273
+close c018
+open r0019 daily=100
+deposit r0019 1000
+withdraw r0019 79
+deposit c019 382
+withdraw c019 382
+close c019
+open r0020 daily=300
+deposit r0020 1000
+withdraw r0020 72
+deposit c020 202
+withdraw c020 202
+close c020
+open r0021 daily=300
+deposit r0021 1000
+withdraw r0021 81
+balance r0021
+deposit c021 285
+withdraw c021 285
+close c021
+open r0022 daily=100
+deposit r0022 1000
+withdraw r0022 82
+deposit c022 443
+withdraw c022 443
+close c022
+open r0023 daily=100
+deposit r0023 1000
+withdraw r0023 99
+deposit c023 149
+withdraw c023 149
+close c023
+open r0024 daily=300
+deposit r0024 1000
+withdraw r0024 85
+deposit c024 316
+withdraw c024 316
+close c024
+open r0025 daily=500
+deposit r0025 1000
+withdraw r0025 82
+deposit c025 228
+withdraw c025 228
+close c025
+open r0026 daily=300
+deposit r0026 1000
+withdraw r0026 70
+deposit c026 173
+withdraw c026 173
+close c026
+open r0027 daily=500
+deposit r0027 1000
+withdraw r0027 82
+deposit c027 226
+withdraw c027 226
+close c027
+open r0028 daily=100
+deposit r0028 1000
+withdraw r0028 72
+deposit c028 350
+withdraw c028 350
+close c028
+open r0029 daily=300
+deposit r0029 1000
+withdraw r0029 60
+deposit c029 91
+withdraw c029 91
+close c029
+open r0030 daily=500
+deposit r0030 1000
+withdraw r0030 92
+deposit c030 249
+withdraw c030 249
+close c030
+open r0031 daily=500
+deposit r0031 1000
+withdraw r0031 80
+deposit c031 103
+withdraw c031 103
+close c031
+open r0032 daily=300
+deposit r0032 1000
+withdraw r0032 70
+deposit c032 178
+withdraw c032 178
+close c032
+open r0033 daily=500
+deposit r0033 1000
+withdraw r0033 91
+deposit c033 414
+withdraw c033 414
+close c033
+open r0034 daily=300
+deposit r0034 1000
+withdraw r0034 68
+deposit c034 336
+withdraw c034 336
+close c034
+open r0035 daily=100
+deposit r0035 1000
+withdraw r0035 95
+deposit c035 288
+withdraw c035 288
+close c035
+open r0036 daily=100
+deposit r0036 1000
+withdraw r0036 88
+deposit c036 77
+withdraw c036 77
+close c036
+open r0037 daily=100
+deposit r0037 1000
+withdraw r0037 71
+deposit c037 227
+withdraw c037 227
+close c037
+open r0038 daily=500
+deposit r0038 1000
+withdraw r0038 88
+deposit c038 288
+withdraw c038 288
+close c038
+open r0039 daily=500
+deposit r0039 1000
+withdraw r0039 98
+deposit c039 119
+withdraw c039 119
+close c039
+open r0040 daily=100
+deposit r0040 1000
+withdraw r0040 91
+deposit c040 101
+withdraw c040 101
+close c040
+open r0041 daily=100
+deposit r0041 1000
+withdraw r0041 96
+balance r0041
+deposit c041 130
+withdraw c041 130
+close c041
+open r0042 daily=500
+deposit r0042 1000
+withdraw r0042 60
+deposit c042 81
+withdraw c042 81
+close c042
+open r0043 daily=500
+deposit r0043 1000
+withdraw r0043 65
+deposit c043 304
+withdraw c043 304
+close c043
+open r0044 daily=300
+deposit r0044 1000
+withdraw r0044 60
+deposit c044 237
+withdraw c044 237
+close c044
+open r0045 daily=100
+deposit r0045 1000
+withdraw r0045 93
+deposit c045 398
+withdraw c045 398
+close c045
+open r0046 daily=500
+deposit r0046 1000
+withdraw r0046 65
+deposit c046 155
+withdraw c046 155
+close c046
+open r0047 daily=300
+deposit r0047 1000
+withdraw r0047 89
+deposit c047 68
+withdraw c047 68
+close c047
+open r0048 daily=500
+deposit r0048 1000
+withdraw r0048 76
+deposit c048 437
+withdraw c048 437
+close c048
+open r0049 daily=300
+deposit r0049 1000
+withdraw r0049 91
+deposit c049 174
+withdraw c049 174
+close c049
+open r0050 daily=500
+deposit r0050 1000
+withdraw r0050 74
+clock advance 1h
+deposit c050 391
+withdraw c050 391
+close c050
+open r0051 daily=300
+deposit r0051 1000
+withdraw r0051 98
+deposit c051 138
+withdraw c051 138
+close c051
+open r0052 daily=100
+deposit r0052 1000
+withdraw r0052 74
+deposit c052 282
+withdraw c052 282
+close c052
+open r0053 daily=300
+deposit r0053 1000
+withdraw r0053 99
+deposit c053 169
+withdraw c053 169
+close c053
+open r0054 daily=100
+deposit r0054 1000
+withdraw r0054 95
+deposit c054 156
+withdraw c054 156
+close c054
+open r0055 daily=100
+deposit r0055 1000
+withdraw r0055 62
+deposit c055 263
+withdraw c055 263
+close c055
+open r0056 daily=100
+deposit r0056 1000
+withdraw r0056 80
+deposit c056 309
+withdraw c056 309
+close c056
+open r0057 daily=500
+deposit r0057 1000
+withdraw r0057 98
+deposit c057 310
+withdraw c057 310
+close c057
+open r0058 daily=500
+deposit r0058 1000
+withdraw r0058 84
+deposit c058 251
+withdraw c058 251
+close c058
+open r0059 daily=500
+deposit r0059 1000
+withdraw r0059 91
+deposit c059 240
+withdraw c059 240
+close c059
+open r0060 daily=300
+deposit r0060 1000
+withdraw r0060 69
+deposit c060 177
+withdraw c060 177
+close c060
+open r0061 daily=100
+deposit r0061 1000
+withdraw r0061 66
+balance r0061
+deposit c061 358
+withdraw c061 358
+close c061
+open r0062 daily=500
+deposit r0062 1000
+withdraw r0062 94
+deposit c062 426
+withdraw c062 426
+close c062
+open r0063 daily=500
+deposit r0063 1000
+withdraw r0063 88
+deposit c063 303
+withdraw c063 303
+close c063
+open r0064 daily=300
+deposit r0064 1000
+withdraw r0064 94
+deposit c064 334
+withdraw c064 334
+close c064
+open r0065 daily=100
+deposit r0065 1000
+withdraw r0065 76
+deposit c065 175
+withdraw c065 175
+close c065
+open r0066 daily=500
+deposit r0066 1000
+withdraw r0066 79
+deposit c066 388
+withdraw c066 388
+close c066
+open r0067 daily=300
+deposit r0067 1000
+withdraw r0067 95
+deposit c067 111
+withdraw c067 111
+close c067
+open r0068 daily=500
+deposit r0068 1000
+withdraw r0068 77
+deposit c068 162
+withdraw c068 162
+close c068
+open r0069 daily=300
+deposit r0069 1000
+withdraw r0069 98
+deposit c069 263
+withdraw c069 263
+close c069
+open r0070 daily=500
+deposit r0070 1000
+withdraw r0070 89
+deposit c070 126
+withdraw c070 126
+close c070
+open r0071 daily=100
+deposit r0071 1000
+withdraw r0071 97
+deposit c071 437
+withdraw c071 437
+close c071
+open r0072 daily=500
+deposit r0072 1000
+withdraw r0072 72
+deposit c072 292
+withdraw c072 292
+close c072
+open r0073 daily=300
+deposit r0073 1000
+withdraw r0073 81
+deposit c073 171
+withdraw c073 171
+close c073
+open r0074 daily=500
+deposit r0074 1000
+withdraw r0074 99
+deposit c074 346
+withdraw c074 346
+close c074
+open r0075 daily=100
+deposit r0075 1000
+withdraw r0075 74
+deposit c075 92
+withdraw c075 92
+close c075
+open r0076 daily=300
+deposit r0076 1000
+withdraw r0076 76
+deposit c076 374
+withdraw c076 374
+close c076
+open r0077 daily=100
+deposit r0077 1000
+withdraw r0077 72
+deposit c077 204
+withdraw c077 204
+close c077
+open r0078 daily=100
+deposit r0078 1000
+withdraw r0078 70
+deposit c078 276
+withdraw c078 276
+close c078
+open r0079 daily=100
+deposit r0079 1000
+withdraw r0079 62
+deposit c079 404
+withdraw c079 404
+close c079
+open r0080 daily=300
+deposit r0080 1000
+withdraw r0080 78
+deposit c080 222
+withdraw c080 222
+close c080
+open r0081 daily=100
+deposit r0081 1000
+withdraw r0081 68
+balance r0081
+deposit c081 122
+withdraw c081 122
+close c081
+open r0082 daily=500
+deposit r0082 1000
+withdraw r0082 85
+deposit c082 57
+withdraw c082 57
+close c082
+open r0083 daily=100
+deposit r0083 1000
+withdraw r0083 62
+deposit c083 204
+withdraw c083 204
+close c083
+open r0084 daily=500
+deposit r0084 1000
+withdraw r0084 85
+deposit c084 213
+withdraw c084 213
+close c084
+open r0085 daily=100
+deposit r0085 1000
+withdraw r0085 97
+deposit c085 89
+withdraw c085 89
+close c085
+open r0086 daily=300
+deposit r0086 1000
+withdraw r0086 63
+deposit c086 387
+withdraw c086 387
+close c086
+open r0087 daily=500
+deposit r0087 1000
+withdraw r0087 88
+deposit c087 237
+withdraw c087 237
+close c087
+open r0088 daily=500
+deposit r0088 1000
+withdraw r0088 68
+deposit c088 195
+withdraw c088 195
+close c088
+open r0089 daily=300
+deposit r0089 1000
+withdraw r0089 95
+deposit c089 268
+withdraw c089 268
+close c089
+open r0090 daily=300
+deposit r0090 1000
+withdraw r0090 71
+deposit c090 405
+withdraw c090 405
+close c090
+open r0091 daily=100
+deposit r0091 1000
+withdraw r0091 76
+deposit c091 434
+withdraw c091 434
+close c091
+open r0092 daily=500
+deposit r0092 1000
+withdraw r0092 73
+deposit c092 261
+withdraw c092 261
+close c092
+open r0093 daily=500
+deposit r0093 1000
+withdraw r0093 82
+deposit c093 281
+withdraw c093 281
+close c093
+open r0094 daily=500
+deposit r0094 1000
+withdraw r0094 75
+deposit c094 196
+withdraw c094 196
+close c094
+open r0095 daily=100
+deposit r0095 1000
+withdraw r0095 61
+deposit c095 371
+withdraw c095 371
+close c095
+open r0096 daily=500
+deposit r0096 1000
+withdraw r0096 88
+deposit c096 413
+withdraw c096 413
+close c096
+open r0097 daily=100
+deposit r0097 1000
+withdraw r0097 73
+deposit c097 328
+withdraw c097 328
+close c097
+open r0098 daily=100
+deposit r0098 1000
+withdraw r0098 82
+deposit c098 222
+withdraw c098 222
+close c098
+open r0099 daily=500
+deposit r0099 1000
+withdraw r0099 73
+deposit c099 82
+withdraw c099 82
+close c099
+open r0100 daily=500
+deposit r0100 1000
+withdraw r0100 98
+clock advance 1h
+deposit c100 170
+withdraw c100 170
+close c100
+open r0101 daily=300
+deposit r0101 1000
+withdraw r0101 79
+balance r0101
+deposit c101 152
+withdraw c101 152
+close c101
+open r0102 daily=300
+deposit r0102 1000
+withdraw r0102 99
+deposit c102 197
+withdraw c102 197
+close c102
+open r0103 daily=100
+deposit r0103 1000
+withdraw r0103 88
+deposit c103 353
+withdraw c103 353
+close c103
+open r0104 daily=300
+deposit r0104 1000
+withdraw r0104 83
+deposit c104 271
+withdraw c104 271
+close c104
+open r0105 daily=300
+deposit r0105 1000
+withdraw r0105 97
+deposit c105 189
+withdraw c105 189
+close c105
+open r0106 daily=500
+deposit r0106 1000
+withdraw r0106 94
+deposit c106 149
+withdraw c106 149
+close c106
+open r0107 daily=100
+deposit r0107 1000
+withdraw r0107 65
+deposit c107 238
+withdraw c107 238
+close c107
+open r0108 daily=100
+deposit r0108 1000
+withdraw r0108 74
+deposit c108 390
+withdraw c108 390
+close c108
+open r0109 daily=500
+deposit r0109 1000
+withdraw r0109 71
+deposit c109 409
+withdraw c109 409
+close c109
+open r0110 daily=100
+deposit r0110 1000
+withdraw r0110 75
+deposit c110 264
+withdraw c110 264
+close c110
+open r0111 daily=500
+deposit r0111 1000
+withdraw r0111 76
+deposit c111 298
+withdraw c111 298
+close c111
+open r0112 daily=100
+deposit r0112 1000
+withdraw r0112 60
+deposit c112 84
+withdraw c112 84
+close c112
+open r0113 daily=100
+deposit r0113 1000
+withdraw r0113 91
+deposit c113 88
+withdraw c113 88
+close c113
+open r0114 daily=100
+deposit r0114 1000
+withdraw r0114 80
+deposit c114 243
+withdraw c114 243
+close c114
+open r0115 daily=300
+deposit r0115 1000
+withdraw r0115 93
+deposit c115 197
+withdraw c115 197
+close c115
+open r0116 daily=100
+deposit r0116 1000
+withdraw r0116 76
+deposit c116 61
+withdraw c116 61
+close c116
+open r0117 daily=500
+deposit r0117 1000
+withdraw r0117 83
+deposit c117 415
+withdraw c117 415
+close c117
+open r0118 daily=500
+deposit r0118 1000
+withdraw r0118 75
+deposit c118 81
+withdraw c118 81
+close c118
+open r0119 daily=100
+deposit r0119 1000
+withdraw r0119 81
+deposit c119 329
+withdraw c119 329
+close c119
+open r0120 daily=300
+deposit r0120 1000
+withdraw r0120 93
+deposit c120 152
+withdraw c120 152
+close c120
+open r0121 daily=500
+deposit r0121 1000
+withdraw r0121 81
+balance r0121
+deposit c121 129
+withdraw c121 129
+close c121
+open r0122 daily=100
+deposit r0122 1000
+withdraw r0122 83
+deposit c122 377
+withdraw c122 377
+close c122
+open r0123 daily=500
+deposit r0123 1000
+withdraw r0123 89
+deposit c123 58
+withdraw c123 58
+close c123
+open r0124 daily=500
+deposit r0124 1000
+withdraw r0124 69
+deposit c124 57
+withdraw c124 57
+close c124
+open r0125 daily=100
+deposit r0125 1000
+withdraw r0125 69
+deposit c125 365
+withdraw c125 365
+close c125
+open r0126 daily=100
+deposit r0126 1000
+withdraw r0126 87
+deposit c126 302
+withdraw c126 302
+close c126
+open r0127 daily=500
+deposit r0127 1000
+withdraw r0127 98
+deposit c127 367
+withdraw c127 367
+close c127
+open r0128 daily=300
+deposit r0128 1000
+withdraw r0128 83
+deposit c128 202
+withdraw c128 202
+close c128
+open r0129 daily=500
+deposit r0129 1000
+withdraw r0129 91
+deposit c129 186
+withdraw c129 186
+close c129
+open r0130 daily=100
+deposit r0130 1000
+withdraw r0130 61
+deposit c130 219
+withdraw c130 219
+close c130
+open r0131 daily=300
+deposit r0131 1000
+withdraw r0131 96
+deposit c131 157
+withdraw c131 157
+close c131
+open r0132 daily=300
+deposit r0132 1000
+withdraw r0132 91
+deposit c132 80
+withdraw c132 80
+close c132
+open r0133 daily=300
+deposit r0133 1000
+withdraw r0133 63
+deposit c133 314
+withdraw c133 314
+close c133
+open r0134 daily=500
+deposit r0134 1000
+withdraw r0134 93
+deposit c134 269
+withdraw c134 269
+close c134
+open r0135 daily=300
+deposit r0135 1000
+withdraw r0135 90
+deposit c135 129
+withdraw c135 129
+close c135
+open r0136 daily=500
+deposit r0136 1000
+withdraw r0136 75
+deposit c136 115
+withdraw c136 115
+close c136
+open r0137 daily=300
+deposit r0137 1000
+withdraw r0137 77
+deposit c137 117
+withdraw c137 117
+close c137
+open r0138 daily=500
+deposit r0138 1000
+withdraw r0138 82
+deposit c138 72
+withdraw c138 72
+close c138
+open r0139 daily=500
+deposit r0139 1000
+withdraw r0139 65
+deposit c139 192
+withdraw c139 192
+close c139
+open r0140 daily=300
+deposit r0140 1000
+withdraw r0140 64
+deposit c140 227
+withdraw c140 227
+close c140
+open r0141 daily=100
+deposit r0141 1000
+withdraw r0141 70
+balance r0141
+deposit c141 168
+withdraw c141 168
+close c141
+open r0142 daily=500
+deposit r0142 1000
+withdraw r0142 66
+deposit c142 82
+withdraw c142 82
+close c142
+open r0143 daily=300
+deposit r0143 1000
+withdraw r0143 94
+deposit c143 62
+withdraw c143 62
+close c143
+open r0144 daily=100
+deposit r0144 1000
+withdraw r0144 64
+deposit c144 329
+withdraw c144 329
+close c144
+open r0145 daily=300
+deposit r0145 1000
+withdraw r0145 84
+deposit c145 412
+withdraw c145 412
+close c145
+open r0146 daily=300
+deposit r0146 1000
+withdraw r0146 86
+deposit c146 313
+withdraw c146 313
+close c146
+open r0147 daily=100
+deposit r0147 1000
+withdraw r0147 97
+deposit c147 83
+withdraw c147 83
+close c147
+open r0148 daily=300
+deposit r0148 1000
+withdraw r0148 79
+deposit c148 53
+withdraw c148 53
+close c148
+open r0149 daily=100
+deposit r0149 1000
+withdraw r0149 95
+deposit c149 260
+withdraw c149 260
+close c149
+open r0150 daily=100
+deposit r0150 1000
+withdraw r0150 84
+clock advance 1h
+deposit c150 171
+withdraw c150 171
+close c150
+open r0151 daily=100
+deposit r0151 1000
+withdraw r0151 98
+deposit c151 125
+withdraw c151 125
+close c151
+open r0152 daily=100
+deposit r0152 1000
+withdraw r0152 92
+deposit c152 220
+withdraw c152 220
+close c152
+open r0153 daily=300
+deposit r0153 1000
+withdraw r0153 70
+deposit c153 76
+withdraw c153 76
+close c153
+open r0154 daily=300
+deposit r0154 1000
+withdraw r0154 85
+deposit c154 333
+withdraw c154 333
+close c154
+open r0155 daily=500
+deposit r0155 1000
+withdraw r0155 75
+deposit c155 352
+withdraw c155 352
+close c155
+open r0156 daily=300
+deposit r0156 1000
+withdraw r0156 79
+deposit c156 130
+withdraw c156 130
+close c156
+open r0157 daily=300
+deposit r0157 1000
+withdraw r0157 61
+deposit c157 118
+withdraw c157 118
+close c157
+open r0158 daily=300
+deposit r0158 1000
+withdraw r0158 95
+deposit c158 112
+withdraw c158 112
+close c158
+open r0159 daily=100
+deposit r0159 1000
+withdraw r0159 97
+deposit c159 233
+withdraw c159 233
+close c159
+open r0160 daily=500
+deposit r0160 1000
+withdraw r0160 97
+deposit c160 357
+withdraw c160 357
+close c160
+open r0161 daily=300
+deposit r0161 1000
+withdraw r0161 72
+balance r0161
+deposit c161 101
+withdraw c161 101
+close c161
+open r0162 daily=300
+deposit r0162 1000
+withdraw r0162 68
+deposit c162 97
+withdraw c162 97
+close c162
+open r0163 daily=300
+deposit r0163 1000
+withdraw r0163 95
+deposit c163 246
+withdraw c163 246
+close c163
+open r0164 daily=300
+deposit r0164 1000
+withdraw r0164 62
+deposit c164 274
+withdraw c164 274
+close c164
+open r0165 daily=500
+deposit r0165 1000
+withdraw r0165 78
+deposit c165 427
+withdraw c165 427
+close c165
+open r0166 daily=100
+deposit r0166 1000
+withdraw r0166 63
+deposit c166 233
+withdraw c166 233
+close c166
+open r0167 daily=500
+deposit r0167 1000
+withdraw r0167 61
+deposit c167 64
+withdraw c167 64
+close c167
+open r0168 daily=100
+deposit r0168 1000
+withdraw r0168 98
+deposit c168 249
+withdraw c168 249
+close c168
+open r0169 daily=500
+deposit r0169 1000
+withdraw r0169 69
+deposit c169 208
+withdraw c169 208
+close c169
+open r0170 daily=300
+deposit r0170 1000
+withdraw r0170 79
+deposit c170 208
+withdraw c170 208
+close c170
+open r0171 daily=500
+deposit r0171 1000
+withdraw r0171 90
+deposit c171 270
+withdraw c171 270
+close c171
+open r0172 daily=500
+deposit r0172 1000
+withdraw r0172 94
+deposit c172 109
+withdraw c172 109
+close c172
+open r0173 daily=500
+deposit r0173 1000
+withdraw r0173 90
+deposit c173 76
+withdraw c173 76
+close c173
+open r0174 daily=300
+deposit r0174 1000
+withdraw r0174 67
+deposit c174 121
+withdraw c174 121
+close c174
+open r0175 daily=300
+deposit r0175 1000
+withdraw r0175 70
+deposit c175 235
+withdraw c175 235
+close c175
+open r0176 daily=300
+deposit r0176 1000
+withdraw r0176 89
+deposit c176 247
+withdraw c176 247
+close c176
+open r0177 daily=300
+deposit r0177 1000
+withdraw r0177 97
+deposit c177 229
+withdraw c177 229
+close c177
+open r0178 daily=100
+deposit r0178 1000
+withdraw r0178 86
+deposit c178 58
+withdraw c178 58
+close c178
+open r0179 daily=300
+deposit r0179 1000
+withdraw r0179 71
+deposit c179 271
+withdraw c179 271
+close c179
+open r0180 daily=500
+deposit r0180 1000
+withdraw r0180 97
+deposit c180 108
+withdraw c180 108
+close c180
+open r0181 daily=500
+deposit r0181 1000
+withdraw r0181 96
+balance r0181
+deposit c181 97
+withdraw c181 97
+close c181
+open r0182 daily=300
+deposit r0182 1000
+withdraw r0182 97
+deposit c182 298
+withdraw c182 298
+close c182
+open r0183 daily=100
+deposit r0183 1000
+withdraw r0183 63
+deposit c183 80
+withdraw c183 80
+close c183
+open r0184 daily=500
+deposit r0184 1000
+withdraw r0184 73
+deposit c184 228
+withdraw c184 228
+close c184
+open r0185 daily=300
+deposit r0185 1000
+withdraw r0185 96
+deposit c185 380
+withdraw c185 380
+close c185
+open r0186 daily=100
+deposit r0186 1000
+withdraw r0186 85
+deposit c186 104
+withdraw c186 104
+close c186
+open r0187 daily=100
+deposit r0187 1000
+withdraw r0187 70
+deposit c187 339
+withdraw c187 339
+close c187
+open r0188 daily=300
+deposit r0188 1000
+withdraw r0188 74
+deposit c188 309
+withdraw c188 309
+close c188
+open r0189 daily=500
+deposit r0189 1000
+withdraw r0189 70
+deposit c189 413
+withdraw c189 413
+close c189
+open r0190 daily=500
+deposit r0190 1000
+withdraw r0190 96
+deposit c190 292
+withdraw c190 292
+close c190
+open r0191 daily=300
+deposit r0191 1000
+withdraw r0191 68
+deposit c191 320
+withdraw c191 320
+close c191
+open r0192 daily=300
+deposit r0192 1000
+withdraw r0192 91
+deposit c192 250
+withdraw c192 250
+close c192
+open r0193 daily=100
+deposit r0193 1000
+withdraw r0193 63
+deposit c193 182
+withdraw c193 182
+close c193
+open r0194 daily=300
+deposit r0194 1000
+withdraw r0194 95
+deposit c194 291
+withdraw c194 291
+close c194
+open r0195 daily=100
+deposit r0195 1000
+withdraw r0195 92
+deposit c195 347
+withdraw c195 347
+close c195
+open r0196 daily=500
+deposit r0196 1000
+withdraw r0196 85
+deposit c196 248
+withdraw c196 248
+close c196
+open r0197 daily=300
+deposit r0197 1000
+withdraw r0197 65
+deposit c197 433
+withdraw c197 433
+close c197
+open r0198 daily=300
+deposit r0198 1000
+withdraw r0198 60
+deposit c198 392
+withdraw c198 392
+close c198
+open r0199 daily=100
+deposit r0199 1000
+withdraw r0199 98
+deposit c199 326
+withdraw c199 326
+close c199
+open r0200 daily=500
+deposit r0200 1000
+withdraw r0200 99
+clock advance 1h
+deposit c200 431
+withdraw c200 431
+close c200
+open r0201 daily=300
+deposit r0201 1000
+withdraw r0201 98
+balance r0201
+deposit c201 339
+withdraw c201 339
+close c201
+open r0202 daily=100
+deposit r0202 1000
+withdraw r0202 61
+deposit c202 301
+withdraw c202 301
+close c202
+open r0203 daily=500
+deposit r0203 1000
+withdraw r0203 92
+deposit c203 435
+withdraw c203 435
+close c203
+open r0204 daily=500
+deposit r0204 1000
+withdraw r0204 88
+deposit c204 145
+withdraw c204 145
+close c204
+open r0205 daily=300
+deposit r0205 1000
+withdraw r0205 67
+deposit c205 385
+withdraw c205 385
+close c205
+open r0206 daily=300
+deposit r0206 1000
+withdraw r0206 66
+deposit c206 262
+withdraw c206 262
+close c206
+open r0207 daily=100
+deposit r0207 1000
+withdraw r0207 75
+deposit c207 286
+withdraw c207 286
+close c207
+open r0208 daily=300
+deposit r0208 1000
+withdraw r0208 95
+deposit c208 356
+withdraw c208 356
+close c208
+open r0209 daily=300
+deposit r0209 1000
+withdraw r0209 80
+deposit c209 413
+withdraw c209 413
+close c209
+open r0210 daily=100
+deposit r0210 1000
+withdraw r0210 77
+deposit c210 358
+withdraw c210 358
+close c210
+open r0211 daily=100
+deposit r0211 1000
+withdraw r0211 76
+deposit c211 154
+withdraw c211 154
+close c211
+open r0212 daily=100
+deposit r0212 1000
+withdraw r0212 83
+deposit c212 135
+withdraw c212 135
+close c212
+open r0213 daily=300
+deposit r0213 1000
+withdraw r0213 86
+deposit c213 141
+withdraw c213 141
+close c213
+open r0214 daily=500
+deposit r0214 1000
+withdraw r0214 64
+deposit c214 362
+withdraw c214 362
+close c214
+open r0215 daily=100
+deposit r0215 1000
+withdraw r0215 98
+deposit c215 251
+withdraw c215 251
+close c215
+open r0216 daily=100
+deposit r0216 1000
+withdraw r0216 86
+deposit c216 236
+withdraw c216 236
+close c216
+open r0217 daily=100
+deposit r0217 1000
+withdraw r0217 84
+deposit c217 99
+withdraw c217 99
+close c217
+open r0218 daily=100
+deposit r0218 1000
+withdraw r0218 82
+deposit c218 427
+withdraw c218 427
+close c218
+open r0219 daily=300
+deposit r0219 1000
+withdraw r0219 79
+deposit c219 145
+withdraw c219 145
+close c219
+open r0220 daily=500
+deposit r0220 1000
+withdraw r0220 73
+check

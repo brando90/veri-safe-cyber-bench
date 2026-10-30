@@ -1,0 +1,11 @@
+user alice added
+user bob added
+user carol added
+published log-core 1.0.0 (0 KiB)
+published secret-app 0.1.0 (0 KiB)
+published open-app 0.2.0 (0 KiB)
+dependents log-core: open-app
+dependents log-core: open-app secret-app
+top dependents:
+  1. log-core 1
+  2. open-app 0

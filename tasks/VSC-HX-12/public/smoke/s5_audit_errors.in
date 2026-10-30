@@ -1,0 +1,14 @@
+# refused commands, the audit log and the export
+user add root admin
+user add alice
+publish alice Fast_Hash 1.0.0 size=1500
+publish alice fast-hash 1.0.0
+publish alice core 1.0.0
+publish alice fast.hash 1.0.x
+resolve - nothing ^1
+frobnicate now
+publish alice fast-hash 1.1.0 colour=red
+yank alice fast-hash 1.0.0 reason="bad, very bad"
+audit n=3
+export audit tsv
+check

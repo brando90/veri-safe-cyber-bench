@@ -1,0 +1,2012 @@
+open hw slot=0 gen=0
+open hx slot=1 gen=0
+ok T0.0 deposit hw 5000.00 balance=5000.00
+ok T0.1 deposit hx 100.00 balance=100.00
+hold H001 hx 5.00 until=never
+hold H002 hw 1.00 until=600000
+release H002 hw 1.00
+hold H003 hw 1.00 until=600000
+release H003 hw 1.00
+hold H004 hw 1.00 until=600000
+release H004 hw 1.00
+hold H005 hw 1.00 until=600000
+release H005 hw 1.00
+hold H006 hw 1.00 until=600000
+release H006 hw 1.00
+hold H007 hw 1.00 until=600000
+release H007 hw 1.00
+hold H008 hw 1.00 until=600000
+release H008 hw 1.00
+hold H009 hw 1.00 until=600000
+release H009 hw 1.00
+hold H010 hw 1.00 until=600000
+release H010 hw 1.00
+hold H011 hw 1.00 until=600000
+release H011 hw 1.00
+hold H012 hw 1.00 until=600000
+release H012 hw 1.00
+hold H013 hw 1.00 until=600000
+release H013 hw 1.00
+hold H014 hw 1.00 until=600000
+release H014 hw 1.00
+hold H015 hw 1.00 until=600000
+release H015 hw 1.00
+hold H016 hw 1.00 until=600000
+release H016 hw 1.00
+hold H017 hw 1.00 until=600000
+release H017 hw 1.00
+hold H018 hw 1.00 until=600000
+release H018 hw 1.00
+hold H019 hw 1.00 until=600000
+release H019 hw 1.00
+hold H020 hw 1.00 until=600000
+release H020 hw 1.00
+hold H021 hw 1.00 until=600000
+release H021 hw 1.00
+hold H022 hw 1.00 until=600000
+release H022 hw 1.00
+hold H023 hw 1.00 until=600000
+release H023 hw 1.00
+hold H024 hw 1.00 until=600000
+release H024 hw 1.00
+hold H025 hw 1.00 until=600000
+release H025 hw 1.00
+hold H026 hw 1.00 until=600000
+release H026 hw 1.00
+hold H027 hw 1.00 until=600000
+release H027 hw 1.00
+hold H028 hw 1.00 until=600000
+release H028 hw 1.00
+hold H029 hw 1.00 until=600000
+release H029 hw 1.00
+hold H030 hw 1.00 until=600000
+release H030 hw 1.00
+hold H031 hw 1.00 until=600000
+release H031 hw 1.00
+hold H032 hw 1.00 until=600000
+release H032 hw 1.00
+hold H033 hw 1.00 until=600000
+release H033 hw 1.00
+hold H034 hw 1.00 until=600000
+release H034 hw 1.00
+hold H035 hw 1.00 until=600000
+release H035 hw 1.00
+hold H036 hw 1.00 until=600000
+release H036 hw 1.00
+hold H037 hw 1.00 until=600000
+release H037 hw 1.00
+hold H038 hw 1.00 until=600000
+release H038 hw 1.00
+hold H039 hw 1.00 until=600000
+release H039 hw 1.00
+hold H040 hw 1.00 until=600000
+release H040 hw 1.00
+hold H041 hw 1.00 until=600000
+release H041 hw 1.00
+hold H042 hw 1.00 until=600000
+release H042 hw 1.00
+hold H043 hw 1.00 until=600000
+release H043 hw 1.00
+hold H044 hw 1.00 until=600000
+release H044 hw 1.00
+hold H045 hw 1.00 until=600000
+release H045 hw 1.00
+hold H046 hw 1.00 until=600000
+release H046 hw 1.00
+hold H047 hw 1.00 until=600000
+release H047 hw 1.00
+hold H048 hw 1.00 until=600000
+release H048 hw 1.00
+hold H049 hw 1.00 until=600000
+release H049 hw 1.00
+hold H050 hw 1.00 until=600000
+release H050 hw 1.00
+hold H051 hw 1.00 until=600000
+release H051 hw 1.00
+hold H052 hw 1.00 until=600000
+release H052 hw 1.00
+hold H053 hw 1.00 until=600000
+release H053 hw 1.00
+hold H054 hw 1.00 until=600000
+release H054 hw 1.00
+hold H055 hw 1.00 until=600000
+release H055 hw 1.00
+hold H056 hw 1.00 until=600000
+release H056 hw 1.00
+hold H057 hw 1.00 until=600000
+release H057 hw 1.00
+hold H058 hw 1.00 until=600000
+release H058 hw 1.00
+hold H059 hw 1.00 until=600000
+release H059 hw 1.00
+hold H060 hw 1.00 until=600000
+release H060 hw 1.00
+hold H061 hw 1.00 until=600000
+release H061 hw 1.00
+hold H062 hw 1.00 until=600000
+release H062 hw 1.00
+hold H063 hw 1.00 until=600000
+release H063 hw 1.00
+hold H064 hw 1.00 until=600000
+release H064 hw 1.00
+hold H065 hw 1.00 until=600000
+release H065 hw 1.00
+hold H066 hw 1.00 until=600000
+release H066 hw 1.00
+hold H067 hw 1.00 until=600000
+release H067 hw 1.00
+hold H068 hw 1.00 until=600000
+release H068 hw 1.00
+hold H069 hw 1.00 until=600000
+release H069 hw 1.00
+hold H070 hw 1.00 until=600000
+release H070 hw 1.00
+hold H071 hw 1.00 until=600000
+release H071 hw 1.00
+hold H072 hw 1.00 until=600000
+release H072 hw 1.00
+hold H073 hw 1.00 until=600000
+release H073 hw 1.00
+hold H074 hw 1.00 until=600000
+release H074 hw 1.00
+hold H075 hw 1.00 until=600000
+release H075 hw 1.00
+hold H076 hw 1.00 until=600000
+release H076 hw 1.00
+hold H077 hw 1.00 until=600000
+release H077 hw 1.00
+hold H078 hw 1.00 until=600000
+release H078 hw 1.00
+hold H079 hw 1.00 until=600000
+release H079 hw 1.00
+hold H080 hw 1.00 until=600000
+release H080 hw 1.00
+hold H081 hw 1.00 until=600000
+release H081 hw 1.00
+hold H082 hw 1.00 until=600000
+release H082 hw 1.00
+hold H083 hw 1.00 until=600000
+release H083 hw 1.00
+hold H084 hw 1.00 until=600000
+release H084 hw 1.00
+hold H085 hw 1.00 until=600000
+release H085 hw 1.00
+hold H086 hw 1.00 until=600000
+release H086 hw 1.00
+hold H087 hw 1.00 until=600000
+release H087 hw 1.00
+hold H088 hw 1.00 until=600000
+release H088 hw 1.00
+hold H089 hw 1.00 until=600000
+release H089 hw 1.00
+hold H090 hw 1.00 until=600000
+release H090 hw 1.00
+hold H091 hw 1.00 until=600000
+release H091 hw 1.00
+hold H092 hw 1.00 until=600000
+release H092 hw 1.00
+hold H093 hw 1.00 until=600000
+release H093 hw 1.00
+hold H094 hw 1.00 until=600000
+release H094 hw 1.00
+hold H095 hw 1.00 until=600000
+release H095 hw 1.00
+hold H096 hw 1.00 until=600000
+release H096 hw 1.00
+hold H097 hw 1.00 until=600000
+release H097 hw 1.00
+hold H098 hw 1.00 until=600000
+release H098 hw 1.00
+hold H099 hw 1.00 until=600000
+release H099 hw 1.00
+hold H100 hw 1.00 until=600000
+release H100 hw 1.00
+hold H101 hw 1.00 until=600000
+release H101 hw 1.00
+hold H102 hw 1.00 until=600000
+release H102 hw 1.00
+hold H103 hw 1.00 until=600000
+release H103 hw 1.00
+hold H104 hw 1.00 until=600000
+release H104 hw 1.00
+hold H105 hw 1.00 until=600000
+release H105 hw 1.00
+hold H106 hw 1.00 until=600000
+release H106 hw 1.00
+hold H107 hw 1.00 until=600000
+release H107 hw 1.00
+hold H108 hw 1.00 until=600000
+release H108 hw 1.00
+hold H109 hw 1.00 until=600000
+release H109 hw 1.00
+hold H110 hw 1.00 until=600000
+release H110 hw 1.00
+hold H111 hw 1.00 until=600000
+release H111 hw 1.00
+hold H112 hw 1.00 until=600000
+release H112 hw 1.00
+hold H113 hw 1.00 until=600000
+release H113 hw 1.00
+hold H114 hw 1.00 until=600000
+release H114 hw 1.00
+hold H115 hw 1.00 until=600000
+release H115 hw 1.00
+hold H116 hw 1.00 until=600000
+release H116 hw 1.00
+hold H117 hw 1.00 until=600000
+release H117 hw 1.00
+hold H118 hw 1.00 until=600000
+release H118 hw 1.00
+hold H119 hw 1.00 until=600000
+release H119 hw 1.00
+hold H120 hw 1.00 until=600000
+release H120 hw 1.00
+hold H121 hw 1.00 until=600000
+release H121 hw 1.00
+hold H122 hw 1.00 until=600000
+release H122 hw 1.00
+hold H123 hw 1.00 until=600000
+release H123 hw 1.00
+hold H124 hw 1.00 until=600000
+release H124 hw 1.00
+hold H125 hw 1.00 until=600000
+release H125 hw 1.00
+hold H126 hw 1.00 until=600000
+release H126 hw 1.00
+hold H127 hw 1.00 until=600000
+release H127 hw 1.00
+hold H128 hw 1.00 until=600000
+release H128 hw 1.00
+hold H129 hw 1.00 until=600000
+release H129 hw 1.00
+hold H130 hw 1.00 until=600000
+release H130 hw 1.00
+hold H131 hw 1.00 until=600000
+release H131 hw 1.00
+hold H132 hw 1.00 until=600000
+release H132 hw 1.00
+hold H133 hw 1.00 until=600000
+release H133 hw 1.00
+hold H134 hw 1.00 until=600000
+release H134 hw 1.00
+hold H135 hw 1.00 until=600000
+release H135 hw 1.00
+hold H136 hw 1.00 until=600000
+release H136 hw 1.00
+hold H137 hw 1.00 until=600000
+release H137 hw 1.00
+hold H138 hw 1.00 until=600000
+release H138 hw 1.00
+hold H139 hw 1.00 until=600000
+release H139 hw 1.00
+hold H140 hw 1.00 until=600000
+release H140 hw 1.00
+hold H141 hw 1.00 until=600000
+release H141 hw 1.00
+hold H142 hw 1.00 until=600000
+release H142 hw 1.00
+hold H143 hw 1.00 until=600000
+release H143 hw 1.00
+hold H144 hw 1.00 until=600000
+release H144 hw 1.00
+hold H145 hw 1.00 until=600000
+release H145 hw 1.00
+hold H146 hw 1.00 until=600000
+release H146 hw 1.00
+hold H147 hw 1.00 until=600000
+release H147 hw 1.00
+hold H148 hw 1.00 until=600000
+release H148 hw 1.00
+hold H149 hw 1.00 until=600000
+release H149 hw 1.00
+hold H150 hw 1.00 until=600000
+release H150 hw 1.00
+hold H151 hw 1.00 until=600000
+release H151 hw 1.00
+hold H152 hw 1.00 until=600000
+release H152 hw 1.00
+hold H153 hw 1.00 until=600000
+release H153 hw 1.00
+hold H154 hw 1.00 until=600000
+release H154 hw 1.00
+hold H155 hw 1.00 until=600000
+release H155 hw 1.00
+hold H156 hw 1.00 until=600000
+release H156 hw 1.00
+hold H157 hw 1.00 until=600000
+release H157 hw 1.00
+hold H158 hw 1.00 until=600000
+release H158 hw 1.00
+hold H159 hw 1.00 until=600000
+release H159 hw 1.00
+hold H160 hw 1.00 until=600000
+release H160 hw 1.00
+hold H161 hw 1.00 until=600000
+release H161 hw 1.00
+hold H162 hw 1.00 until=600000
+release H162 hw 1.00
+hold H163 hw 1.00 until=600000
+release H163 hw 1.00
+hold H164 hw 1.00 until=600000
+release H164 hw 1.00
+hold H165 hw 1.00 until=600000
+release H165 hw 1.00
+hold H166 hw 1.00 until=600000
+release H166 hw 1.00
+hold H167 hw 1.00 until=600000
+release H167 hw 1.00
+hold H168 hw 1.00 until=600000
+release H168 hw 1.00
+hold H169 hw 1.00 until=600000
+release H169 hw 1.00
+hold H170 hw 1.00 until=600000
+release H170 hw 1.00
+hold H171 hw 1.00 until=600000
+release H171 hw 1.00
+hold H172 hw 1.00 until=600000
+release H172 hw 1.00
+hold H173 hw 1.00 until=600000
+release H173 hw 1.00
+hold H174 hw 1.00 until=600000
+release H174 hw 1.00
+hold H175 hw 1.00 until=600000
+release H175 hw 1.00
+hold H176 hw 1.00 until=600000
+release H176 hw 1.00
+hold H177 hw 1.00 until=600000
+release H177 hw 1.00
+hold H178 hw 1.00 until=600000
+release H178 hw 1.00
+hold H179 hw 1.00 until=600000
+release H179 hw 1.00
+hold H180 hw 1.00 until=600000
+release H180 hw 1.00
+hold H181 hw 1.00 until=600000
+release H181 hw 1.00
+hold H182 hw 1.00 until=600000
+release H182 hw 1.00
+hold H183 hw 1.00 until=600000
+release H183 hw 1.00
+hold H184 hw 1.00 until=600000
+release H184 hw 1.00
+hold H185 hw 1.00 until=600000
+release H185 hw 1.00
+hold H186 hw 1.00 until=600000
+release H186 hw 1.00
+hold H187 hw 1.00 until=600000
+release H187 hw 1.00
+hold H188 hw 1.00 until=600000
+release H188 hw 1.00
+hold H189 hw 1.00 until=600000
+release H189 hw 1.00
+hold H190 hw 1.00 until=600000
+release H190 hw 1.00
+hold H191 hw 1.00 until=600000
+release H191 hw 1.00
+hold H192 hw 1.00 until=600000
+release H192 hw 1.00
+hold H193 hw 1.00 until=600000
+release H193 hw 1.00
+hold H194 hw 1.00 until=600000
+release H194 hw 1.00
+hold H195 hw 1.00 until=600000
+release H195 hw 1.00
+hold H196 hw 1.00 until=600000
+release H196 hw 1.00
+hold H197 hw 1.00 until=600000
+release H197 hw 1.00
+hold H198 hw 1.00 until=600000
+release H198 hw 1.00
+hold H199 hw 1.00 until=600000
+release H199 hw 1.00
+hold H200 hw 1.00 until=600000
+release H200 hw 1.00
+hold H201 hw 1.00 until=600000
+release H201 hw 1.00
+hold H202 hw 1.00 until=600000
+release H202 hw 1.00
+hold H203 hw 1.00 until=600000
+release H203 hw 1.00
+hold H204 hw 1.00 until=600000
+release H204 hw 1.00
+hold H205 hw 1.00 until=600000
+release H205 hw 1.00
+hold H206 hw 1.00 until=600000
+release H206 hw 1.00
+hold H207 hw 1.00 until=600000
+release H207 hw 1.00
+hold H208 hw 1.00 until=600000
+release H208 hw 1.00
+hold H209 hw 1.00 until=600000
+release H209 hw 1.00
+hold H210 hw 1.00 until=600000
+release H210 hw 1.00
+hold H211 hw 1.00 until=600000
+release H211 hw 1.00
+hold H212 hw 1.00 until=600000
+release H212 hw 1.00
+hold H213 hw 1.00 until=600000
+release H213 hw 1.00
+hold H214 hw 1.00 until=600000
+release H214 hw 1.00
+hold H215 hw 1.00 until=600000
+release H215 hw 1.00
+hold H216 hw 1.00 until=600000
+release H216 hw 1.00
+hold H217 hw 1.00 until=600000
+release H217 hw 1.00
+hold H218 hw 1.00 until=600000
+release H218 hw 1.00
+hold H219 hw 1.00 until=600000
+release H219 hw 1.00
+hold H220 hw 1.00 until=600000
+release H220 hw 1.00
+hold H221 hw 1.00 until=600000
+release H221 hw 1.00
+hold H222 hw 1.00 until=600000
+release H222 hw 1.00
+hold H223 hw 1.00 until=600000
+release H223 hw 1.00
+hold H224 hw 1.00 until=600000
+release H224 hw 1.00
+hold H225 hw 1.00 until=600000
+release H225 hw 1.00
+hold H226 hw 1.00 until=600000
+release H226 hw 1.00
+hold H227 hw 1.00 until=600000
+release H227 hw 1.00
+hold H228 hw 1.00 until=600000
+release H228 hw 1.00
+hold H229 hw 1.00 until=600000
+release H229 hw 1.00
+hold H230 hw 1.00 until=600000
+release H230 hw 1.00
+hold H231 hw 1.00 until=600000
+release H231 hw 1.00
+hold H232 hw 1.00 until=600000
+release H232 hw 1.00
+hold H233 hw 1.00 until=600000
+release H233 hw 1.00
+hold H234 hw 1.00 until=600000
+release H234 hw 1.00
+hold H235 hw 1.00 until=600000
+release H235 hw 1.00
+hold H236 hw 1.00 until=600000
+release H236 hw 1.00
+hold H237 hw 1.00 until=600000
+release H237 hw 1.00
+hold H238 hw 1.00 until=600000
+release H238 hw 1.00
+hold H239 hw 1.00 until=600000
+release H239 hw 1.00
+hold H240 hw 1.00 until=600000
+release H240 hw 1.00
+hold H241 hw 1.00 until=600000
+release H241 hw 1.00
+hold H242 hw 1.00 until=600000
+release H242 hw 1.00
+hold H243 hw 1.00 until=600000
+release H243 hw 1.00
+hold H244 hw 1.00 until=600000
+release H244 hw 1.00
+hold H245 hw 1.00 until=600000
+release H245 hw 1.00
+hold H246 hw 1.00 until=600000
+release H246 hw 1.00
+hold H247 hw 1.00 until=600000
+release H247 hw 1.00
+hold H248 hw 1.00 until=600000
+release H248 hw 1.00
+hold H249 hw 1.00 until=600000
+release H249 hw 1.00
+hold H250 hw 1.00 until=600000
+release H250 hw 1.00
+hold H251 hw 1.00 until=600000
+release H251 hw 1.00
+hold H252 hw 1.00 until=600000
+release H252 hw 1.00
+hold H253 hw 1.00 until=600000
+release H253 hw 1.00
+hold H254 hw 1.00 until=600000
+release H254 hw 1.00
+hold H255 hw 1.00 until=600000
+release H255 hw 1.00
+hold H256 hw 1.00 until=600000
+release H256 hw 1.00
+hold H257 hw 1.00 until=600000
+release H257 hw 1.00
+hold H258 hw 1.00 until=600000
+release H258 hw 1.00
+hold H259 hw 1.00 until=600000
+release H259 hw 1.00
+hold H260 hw 1.00 until=600000
+release H260 hw 1.00
+hold H261 hw 1.00 until=600000
+release H261 hw 1.00
+hold H262 hw 1.00 until=600000
+release H262 hw 1.00
+hold H263 hw 1.00 until=600000
+release H263 hw 1.00
+hold H264 hw 1.00 until=600000
+release H264 hw 1.00
+hold H265 hw 1.00 until=600000
+release H265 hw 1.00
+hold H266 hw 1.00 until=600000
+release H266 hw 1.00
+hold H267 hw 1.00 until=600000
+release H267 hw 1.00
+hold H268 hw 1.00 until=600000
+release H268 hw 1.00
+hold H269 hw 1.00 until=600000
+release H269 hw 1.00
+hold H270 hw 1.00 until=600000
+release H270 hw 1.00
+hold H271 hw 1.00 until=600000
+release H271 hw 1.00
+hold H272 hw 1.00 until=600000
+release H272 hw 1.00
+hold H273 hw 1.00 until=600000
+release H273 hw 1.00
+hold H274 hw 1.00 until=600000
+release H274 hw 1.00
+hold H275 hw 1.00 until=600000
+release H275 hw 1.00
+hold H276 hw 1.00 until=600000
+release H276 hw 1.00
+hold H277 hw 1.00 until=600000
+release H277 hw 1.00
+hold H278 hw 1.00 until=600000
+release H278 hw 1.00
+hold H279 hw 1.00 until=600000
+release H279 hw 1.00
+hold H280 hw 1.00 until=600000
+release H280 hw 1.00
+hold H281 hw 1.00 until=600000
+release H281 hw 1.00
+hold H282 hw 1.00 until=600000
+release H282 hw 1.00
+hold H283 hw 1.00 until=600000
+release H283 hw 1.00
+hold H284 hw 1.00 until=600000
+release H284 hw 1.00
+hold H285 hw 1.00 until=600000
+release H285 hw 1.00
+hold H286 hw 1.00 until=600000
+release H286 hw 1.00
+hold H287 hw 1.00 until=600000
+release H287 hw 1.00
+hold H288 hw 1.00 until=600000
+release H288 hw 1.00
+hold H289 hw 1.00 until=600000
+release H289 hw 1.00
+hold H290 hw 1.00 until=600000
+release H290 hw 1.00
+hold H291 hw 1.00 until=600000
+release H291 hw 1.00
+hold H292 hw 1.00 until=600000
+release H292 hw 1.00
+hold H293 hw 1.00 until=600000
+release H293 hw 1.00
+hold H294 hw 1.00 until=600000
+release H294 hw 1.00
+hold H295 hw 1.00 until=600000
+release H295 hw 1.00
+hold H296 hw 1.00 until=600000
+release H296 hw 1.00
+hold H297 hw 1.00 until=600000
+release H297 hw 1.00
+hold H298 hw 1.00 until=600000
+release H298 hw 1.00
+hold H299 hw 1.00 until=600000
+release H299 hw 1.00
+hold H300 hw 1.00 until=600000
+release H300 hw 1.00
+hold H301 hw 1.00 until=600000
+release H301 hw 1.00
+hold H302 hw 1.00 until=600000
+release H302 hw 1.00
+hold H303 hw 1.00 until=600000
+release H303 hw 1.00
+hold H304 hw 1.00 until=600000
+release H304 hw 1.00
+hold H305 hw 1.00 until=600000
+release H305 hw 1.00
+hold H306 hw 1.00 until=600000
+release H306 hw 1.00
+hold H307 hw 1.00 until=600000
+release H307 hw 1.00
+hold H308 hw 1.00 until=600000
+release H308 hw 1.00
+hold H309 hw 1.00 until=600000
+release H309 hw 1.00
+hold H310 hw 1.00 until=600000
+release H310 hw 1.00
+hold H311 hw 1.00 until=600000
+release H311 hw 1.00
+hold H312 hw 1.00 until=600000
+release H312 hw 1.00
+hold H313 hw 1.00 until=600000
+release H313 hw 1.00
+hold H314 hw 1.00 until=600000
+release H314 hw 1.00
+hold H315 hw 1.00 until=600000
+release H315 hw 1.00
+hold H316 hw 1.00 until=600000
+release H316 hw 1.00
+hold H317 hw 1.00 until=600000
+release H317 hw 1.00
+hold H318 hw 1.00 until=600000
+release H318 hw 1.00
+hold H319 hw 1.00 until=600000
+release H319 hw 1.00
+hold H320 hw 1.00 until=600000
+release H320 hw 1.00
+hold H321 hw 1.00 until=600000
+release H321 hw 1.00
+hold H322 hw 1.00 until=600000
+release H322 hw 1.00
+hold H323 hw 1.00 until=600000
+release H323 hw 1.00
+hold H324 hw 1.00 until=600000
+release H324 hw 1.00
+hold H325 hw 1.00 until=600000
+release H325 hw 1.00
+hold H326 hw 1.00 until=600000
+release H326 hw 1.00
+hold H327 hw 1.00 until=600000
+release H327 hw 1.00
+hold H328 hw 1.00 until=600000
+release H328 hw 1.00
+hold H329 hw 1.00 until=600000
+release H329 hw 1.00
+hold H330 hw 1.00 until=600000
+release H330 hw 1.00
+hold H331 hw 1.00 until=600000
+release H331 hw 1.00
+hold H332 hw 1.00 until=600000
+release H332 hw 1.00
+hold H333 hw 1.00 until=600000
+release H333 hw 1.00
+hold H334 hw 1.00 until=600000
+release H334 hw 1.00
+hold H335 hw 1.00 until=600000
+release H335 hw 1.00
+hold H336 hw 1.00 until=600000
+release H336 hw 1.00
+hold H337 hw 1.00 until=600000
+release H337 hw 1.00
+hold H338 hw 1.00 until=600000
+release H338 hw 1.00
+hold H339 hw 1.00 until=600000
+release H339 hw 1.00
+hold H340 hw 1.00 until=600000
+release H340 hw 1.00
+hold H341 hw 1.00 until=600000
+release H341 hw 1.00
+hold H342 hw 1.00 until=600000
+release H342 hw 1.00
+hold H343 hw 1.00 until=600000
+release H343 hw 1.00
+hold H344 hw 1.00 until=600000
+release H344 hw 1.00
+hold H345 hw 1.00 until=600000
+release H345 hw 1.00
+hold H346 hw 1.00 until=600000
+release H346 hw 1.00
+hold H347 hw 1.00 until=600000
+release H347 hw 1.00
+hold H348 hw 1.00 until=600000
+release H348 hw 1.00
+hold H349 hw 1.00 until=600000
+release H349 hw 1.00
+hold H350 hw 1.00 until=600000
+release H350 hw 1.00
+hold H351 hw 1.00 until=600000
+release H351 hw 1.00
+hold H352 hw 1.00 until=600000
+release H352 hw 1.00
+hold H353 hw 1.00 until=600000
+release H353 hw 1.00
+hold H354 hw 1.00 until=600000
+release H354 hw 1.00
+hold H355 hw 1.00 until=600000
+release H355 hw 1.00
+hold H356 hw 1.00 until=600000
+release H356 hw 1.00
+hold H357 hw 1.00 until=600000
+release H357 hw 1.00
+hold H358 hw 1.00 until=600000
+release H358 hw 1.00
+hold H359 hw 1.00 until=600000
+release H359 hw 1.00
+hold H360 hw 1.00 until=600000
+release H360 hw 1.00
+hold H361 hw 1.00 until=600000
+release H361 hw 1.00
+hold H362 hw 1.00 until=600000
+release H362 hw 1.00
+hold H363 hw 1.00 until=600000
+release H363 hw 1.00
+hold H364 hw 1.00 until=600000
+release H364 hw 1.00
+hold H365 hw 1.00 until=600000
+release H365 hw 1.00
+hold H366 hw 1.00 until=600000
+release H366 hw 1.00
+hold H367 hw 1.00 until=600000
+release H367 hw 1.00
+hold H368 hw 1.00 until=600000
+release H368 hw 1.00
+hold H369 hw 1.00 until=600000
+release H369 hw 1.00
+hold H370 hw 1.00 until=600000
+release H370 hw 1.00
+hold H371 hw 1.00 until=600000
+release H371 hw 1.00
+hold H372 hw 1.00 until=600000
+release H372 hw 1.00
+hold H373 hw 1.00 until=600000
+release H373 hw 1.00
+hold H374 hw 1.00 until=600000
+release H374 hw 1.00
+hold H375 hw 1.00 until=600000
+release H375 hw 1.00
+hold H376 hw 1.00 until=600000
+release H376 hw 1.00
+hold H377 hw 1.00 until=600000
+release H377 hw 1.00
+hold H378 hw 1.00 until=600000
+release H378 hw 1.00
+hold H379 hw 1.00 until=600000
+release H379 hw 1.00
+hold H380 hw 1.00 until=600000
+release H380 hw 1.00
+hold H381 hw 1.00 until=600000
+release H381 hw 1.00
+hold H382 hw 1.00 until=600000
+release H382 hw 1.00
+hold H383 hw 1.00 until=600000
+release H383 hw 1.00
+hold H384 hw 1.00 until=600000
+release H384 hw 1.00
+hold H385 hw 1.00 until=600000
+release H385 hw 1.00
+hold H386 hw 1.00 until=600000
+release H386 hw 1.00
+hold H387 hw 1.00 until=600000
+release H387 hw 1.00
+hold H388 hw 1.00 until=600000
+release H388 hw 1.00
+hold H389 hw 1.00 until=600000
+release H389 hw 1.00
+hold H390 hw 1.00 until=600000
+release H390 hw 1.00
+hold H391 hw 1.00 until=600000
+release H391 hw 1.00
+hold H392 hw 1.00 until=600000
+release H392 hw 1.00
+hold H393 hw 1.00 until=600000
+release H393 hw 1.00
+hold H394 hw 1.00 until=600000
+release H394 hw 1.00
+hold H395 hw 1.00 until=600000
+release H395 hw 1.00
+hold H396 hw 1.00 until=600000
+release H396 hw 1.00
+hold H397 hw 1.00 until=600000
+release H397 hw 1.00
+hold H398 hw 1.00 until=600000
+release H398 hw 1.00
+hold H399 hw 1.00 until=600000
+release H399 hw 1.00
+hold H400 hw 1.00 until=600000
+release H400 hw 1.00
+hold H401 hw 1.00 until=600000
+release H401 hw 1.00
+hold H402 hw 1.00 until=600000
+release H402 hw 1.00
+hold H403 hw 1.00 until=600000
+release H403 hw 1.00
+hold H404 hw 1.00 until=600000
+release H404 hw 1.00
+hold H405 hw 1.00 until=600000
+release H405 hw 1.00
+hold H406 hw 1.00 until=600000
+release H406 hw 1.00
+hold H407 hw 1.00 until=600000
+release H407 hw 1.00
+hold H408 hw 1.00 until=600000
+release H408 hw 1.00
+hold H409 hw 1.00 until=600000
+release H409 hw 1.00
+hold H410 hw 1.00 until=600000
+release H410 hw 1.00
+hold H411 hw 1.00 until=600000
+release H411 hw 1.00
+hold H412 hw 1.00 until=600000
+release H412 hw 1.00
+hold H413 hw 1.00 until=600000
+release H413 hw 1.00
+hold H414 hw 1.00 until=600000
+release H414 hw 1.00
+hold H415 hw 1.00 until=600000
+release H415 hw 1.00
+hold H416 hw 1.00 until=600000
+release H416 hw 1.00
+hold H417 hw 1.00 until=600000
+release H417 hw 1.00
+hold H418 hw 1.00 until=600000
+release H418 hw 1.00
+hold H419 hw 1.00 until=600000
+release H419 hw 1.00
+hold H420 hw 1.00 until=600000
+release H420 hw 1.00
+hold H421 hw 1.00 until=600000
+release H421 hw 1.00
+hold H422 hw 1.00 until=600000
+release H422 hw 1.00
+hold H423 hw 1.00 until=600000
+release H423 hw 1.00
+hold H424 hw 1.00 until=600000
+release H424 hw 1.00
+hold H425 hw 1.00 until=600000
+release H425 hw 1.00
+hold H426 hw 1.00 until=600000
+release H426 hw 1.00
+hold H427 hw 1.00 until=600000
+release H427 hw 1.00
+hold H428 hw 1.00 until=600000
+release H428 hw 1.00
+hold H429 hw 1.00 until=600000
+release H429 hw 1.00
+hold H430 hw 1.00 until=600000
+release H430 hw 1.00
+hold H431 hw 1.00 until=600000
+release H431 hw 1.00
+hold H432 hw 1.00 until=600000
+release H432 hw 1.00
+hold H433 hw 1.00 until=600000
+release H433 hw 1.00
+hold H434 hw 1.00 until=600000
+release H434 hw 1.00
+hold H435 hw 1.00 until=600000
+release H435 hw 1.00
+hold H436 hw 1.00 until=600000
+release H436 hw 1.00
+hold H437 hw 1.00 until=600000
+release H437 hw 1.00
+hold H438 hw 1.00 until=600000
+release H438 hw 1.00
+hold H439 hw 1.00 until=600000
+release H439 hw 1.00
+hold H440 hw 1.00 until=600000
+release H440 hw 1.00
+hold H441 hw 1.00 until=600000
+release H441 hw 1.00
+hold H442 hw 1.00 until=600000
+release H442 hw 1.00
+hold H443 hw 1.00 until=600000
+release H443 hw 1.00
+hold H444 hw 1.00 until=600000
+release H444 hw 1.00
+hold H445 hw 1.00 until=600000
+release H445 hw 1.00
+hold H446 hw 1.00 until=600000
+release H446 hw 1.00
+hold H447 hw 1.00 until=600000
+release H447 hw 1.00
+hold H448 hw 1.00 until=600000
+release H448 hw 1.00
+hold H449 hw 1.00 until=600000
+release H449 hw 1.00
+hold H450 hw 1.00 until=600000
+release H450 hw 1.00
+hold H451 hw 1.00 until=600000
+release H451 hw 1.00
+hold H452 hw 1.00 until=600000
+release H452 hw 1.00
+hold H453 hw 1.00 until=600000
+release H453 hw 1.00
+hold H454 hw 1.00 until=600000
+release H454 hw 1.00
+hold H455 hw 1.00 until=600000
+release H455 hw 1.00
+hold H456 hw 1.00 until=600000
+release H456 hw 1.00
+hold H457 hw 1.00 until=600000
+release H457 hw 1.00
+hold H458 hw 1.00 until=600000
+release H458 hw 1.00
+hold H459 hw 1.00 until=600000
+release H459 hw 1.00
+hold H460 hw 1.00 until=600000
+release H460 hw 1.00
+hold H461 hw 1.00 until=600000
+release H461 hw 1.00
+hold H462 hw 1.00 until=600000
+release H462 hw 1.00
+hold H463 hw 1.00 until=600000
+release H463 hw 1.00
+hold H464 hw 1.00 until=600000
+release H464 hw 1.00
+hold H465 hw 1.00 until=600000
+release H465 hw 1.00
+hold H466 hw 1.00 until=600000
+release H466 hw 1.00
+hold H467 hw 1.00 until=600000
+release H467 hw 1.00
+hold H468 hw 1.00 until=600000
+release H468 hw 1.00
+hold H469 hw 1.00 until=600000
+release H469 hw 1.00
+hold H470 hw 1.00 until=600000
+release H470 hw 1.00
+hold H471 hw 1.00 until=600000
+release H471 hw 1.00
+hold H472 hw 1.00 until=600000
+release H472 hw 1.00
+hold H473 hw 1.00 until=600000
+release H473 hw 1.00
+hold H474 hw 1.00 until=600000
+release H474 hw 1.00
+hold H475 hw 1.00 until=600000
+release H475 hw 1.00
+hold H476 hw 1.00 until=600000
+release H476 hw 1.00
+hold H477 hw 1.00 until=600000
+release H477 hw 1.00
+hold H478 hw 1.00 until=600000
+release H478 hw 1.00
+hold H479 hw 1.00 until=600000
+release H479 hw 1.00
+hold H480 hw 1.00 until=600000
+release H480 hw 1.00
+hold H481 hw 1.00 until=600000
+release H481 hw 1.00
+hold H482 hw 1.00 until=600000
+release H482 hw 1.00
+hold H483 hw 1.00 until=600000
+release H483 hw 1.00
+hold H484 hw 1.00 until=600000
+release H484 hw 1.00
+hold H485 hw 1.00 until=600000
+release H485 hw 1.00
+hold H486 hw 1.00 until=600000
+release H486 hw 1.00
+hold H487 hw 1.00 until=600000
+release H487 hw 1.00
+hold H488 hw 1.00 until=600000
+release H488 hw 1.00
+hold H489 hw 1.00 until=600000
+release H489 hw 1.00
+hold H490 hw 1.00 until=600000
+release H490 hw 1.00
+hold H491 hw 1.00 until=600000
+release H491 hw 1.00
+hold H492 hw 1.00 until=600000
+release H492 hw 1.00
+hold H493 hw 1.00 until=600000
+release H493 hw 1.00
+hold H494 hw 1.00 until=600000
+release H494 hw 1.00
+hold H495 hw 1.00 until=600000
+release H495 hw 1.00
+hold H496 hw 1.00 until=600000
+release H496 hw 1.00
+hold H497 hw 1.00 until=600000
+release H497 hw 1.00
+hold H498 hw 1.00 until=600000
+release H498 hw 1.00
+hold H499 hw 1.00 until=600000
+release H499 hw 1.00
+hold H500 hw 1.00 until=600000
+release H500 hw 1.00
+hold H501 hw 1.00 until=600000
+release H501 hw 1.00
+hold H502 hw 1.00 until=600000
+release H502 hw 1.00
+hold H503 hw 1.00 until=600000
+release H503 hw 1.00
+hold H504 hw 1.00 until=600000
+release H504 hw 1.00
+hold H505 hw 1.00 until=600000
+release H505 hw 1.00
+hold H506 hw 1.00 until=600000
+release H506 hw 1.00
+hold H507 hw 1.00 until=600000
+release H507 hw 1.00
+hold H508 hw 1.00 until=600000
+release H508 hw 1.00
+hold H509 hw 1.00 until=600000
+release H509 hw 1.00
+hold H510 hw 1.00 until=600000
+release H510 hw 1.00
+hold H511 hw 1.00 until=600000
+release H511 hw 1.00
+hold H512 hw 1.00 until=600000
+release H512 hw 1.00
+hold H513 hw 1.00 until=600000
+release H513 hw 1.00
+hold H514 hw 1.00 until=600000
+release H514 hw 1.00
+hold H515 hw 1.00 until=600000
+release H515 hw 1.00
+hold H516 hw 1.00 until=600000
+release H516 hw 1.00
+hold H517 hw 1.00 until=600000
+release H517 hw 1.00
+hold H518 hw 1.00 until=600000
+release H518 hw 1.00
+hold H519 hw 1.00 until=600000
+release H519 hw 1.00
+hold H520 hw 1.00 until=600000
+release H520 hw 1.00
+hold H521 hw 1.00 until=600000
+release H521 hw 1.00
+hold H522 hw 1.00 until=600000
+release H522 hw 1.00
+hold H523 hw 1.00 until=600000
+release H523 hw 1.00
+hold H524 hw 1.00 until=600000
+release H524 hw 1.00
+hold H525 hw 1.00 until=600000
+release H525 hw 1.00
+hold H526 hw 1.00 until=600000
+release H526 hw 1.00
+hold H527 hw 1.00 until=600000
+release H527 hw 1.00
+hold H528 hw 1.00 until=600000
+release H528 hw 1.00
+hold H529 hw 1.00 until=600000
+release H529 hw 1.00
+hold H530 hw 1.00 until=600000
+release H530 hw 1.00
+hold H531 hw 1.00 until=600000
+release H531 hw 1.00
+hold H532 hw 1.00 until=600000
+release H532 hw 1.00
+hold H533 hw 1.00 until=600000
+release H533 hw 1.00
+hold H534 hw 1.00 until=600000
+release H534 hw 1.00
+hold H535 hw 1.00 until=600000
+release H535 hw 1.00
+hold H536 hw 1.00 until=600000
+release H536 hw 1.00
+hold H537 hw 1.00 until=600000
+release H537 hw 1.00
+hold H538 hw 1.00 until=600000
+release H538 hw 1.00
+hold H539 hw 1.00 until=600000
+release H539 hw 1.00
+hold H540 hw 1.00 until=600000
+release H540 hw 1.00
+hold H541 hw 1.00 until=600000
+release H541 hw 1.00
+hold H542 hw 1.00 until=600000
+release H542 hw 1.00
+hold H543 hw 1.00 until=600000
+release H543 hw 1.00
+hold H544 hw 1.00 until=600000
+release H544 hw 1.00
+hold H545 hw 1.00 until=600000
+release H545 hw 1.00
+hold H546 hw 1.00 until=600000
+release H546 hw 1.00
+hold H547 hw 1.00 until=600000
+release H547 hw 1.00
+hold H548 hw 1.00 until=600000
+release H548 hw 1.00
+hold H549 hw 1.00 until=600000
+release H549 hw 1.00
+hold H550 hw 1.00 until=600000
+release H550 hw 1.00
+hold H551 hw 1.00 until=600000
+release H551 hw 1.00
+hold H552 hw 1.00 until=600000
+release H552 hw 1.00
+hold H553 hw 1.00 until=600000
+release H553 hw 1.00
+hold H554 hw 1.00 until=600000
+release H554 hw 1.00
+hold H555 hw 1.00 until=600000
+release H555 hw 1.00
+hold H556 hw 1.00 until=600000
+release H556 hw 1.00
+hold H557 hw 1.00 until=600000
+release H557 hw 1.00
+hold H558 hw 1.00 until=600000
+release H558 hw 1.00
+hold H559 hw 1.00 until=600000
+release H559 hw 1.00
+hold H560 hw 1.00 until=600000
+release H560 hw 1.00
+hold H561 hw 1.00 until=600000
+release H561 hw 1.00
+hold H562 hw 1.00 until=600000
+release H562 hw 1.00
+hold H563 hw 1.00 until=600000
+release H563 hw 1.00
+hold H564 hw 1.00 until=600000
+release H564 hw 1.00
+hold H565 hw 1.00 until=600000
+release H565 hw 1.00
+hold H566 hw 1.00 until=600000
+release H566 hw 1.00
+hold H567 hw 1.00 until=600000
+release H567 hw 1.00
+hold H568 hw 1.00 until=600000
+release H568 hw 1.00
+hold H569 hw 1.00 until=600000
+release H569 hw 1.00
+hold H570 hw 1.00 until=600000
+release H570 hw 1.00
+hold H571 hw 1.00 until=600000
+release H571 hw 1.00
+hold H572 hw 1.00 until=600000
+release H572 hw 1.00
+hold H573 hw 1.00 until=600000
+release H573 hw 1.00
+hold H574 hw 1.00 until=600000
+release H574 hw 1.00
+hold H575 hw 1.00 until=600000
+release H575 hw 1.00
+hold H576 hw 1.00 until=600000
+release H576 hw 1.00
+hold H577 hw 1.00 until=600000
+release H577 hw 1.00
+hold H578 hw 1.00 until=600000
+release H578 hw 1.00
+hold H579 hw 1.00 until=600000
+release H579 hw 1.00
+hold H580 hw 1.00 until=600000
+release H580 hw 1.00
+hold H581 hw 1.00 until=600000
+release H581 hw 1.00
+hold H582 hw 1.00 until=600000
+release H582 hw 1.00
+hold H583 hw 1.00 until=600000
+release H583 hw 1.00
+hold H584 hw 1.00 until=600000
+release H584 hw 1.00
+hold H585 hw 1.00 until=600000
+release H585 hw 1.00
+hold H586 hw 1.00 until=600000
+release H586 hw 1.00
+hold H587 hw 1.00 until=600000
+release H587 hw 1.00
+hold H588 hw 1.00 until=600000
+release H588 hw 1.00
+hold H589 hw 1.00 until=600000
+release H589 hw 1.00
+hold H590 hw 1.00 until=600000
+release H590 hw 1.00
+hold H591 hw 1.00 until=600000
+release H591 hw 1.00
+hold H592 hw 1.00 until=600000
+release H592 hw 1.00
+hold H593 hw 1.00 until=600000
+release H593 hw 1.00
+hold H594 hw 1.00 until=600000
+release H594 hw 1.00
+hold H595 hw 1.00 until=600000
+release H595 hw 1.00
+hold H596 hw 1.00 until=600000
+release H596 hw 1.00
+hold H597 hw 1.00 until=600000
+release H597 hw 1.00
+hold H598 hw 1.00 until=600000
+release H598 hw 1.00
+hold H599 hw 1.00 until=600000
+release H599 hw 1.00
+hold H600 hw 1.00 until=600000
+release H600 hw 1.00
+hold H601 hw 1.00 until=600000
+release H601 hw 1.00
+hold H602 hw 1.00 until=600000
+release H602 hw 1.00
+hold H603 hw 1.00 until=600000
+release H603 hw 1.00
+hold H604 hw 1.00 until=600000
+release H604 hw 1.00
+hold H605 hw 1.00 until=600000
+release H605 hw 1.00
+hold H606 hw 1.00 until=600000
+release H606 hw 1.00
+hold H607 hw 1.00 until=600000
+release H607 hw 1.00
+hold H608 hw 1.00 until=600000
+release H608 hw 1.00
+hold H609 hw 1.00 until=600000
+release H609 hw 1.00
+hold H610 hw 1.00 until=600000
+release H610 hw 1.00
+hold H611 hw 1.00 until=600000
+release H611 hw 1.00
+hold H612 hw 1.00 until=600000
+release H612 hw 1.00
+hold H613 hw 1.00 until=600000
+release H613 hw 1.00
+hold H614 hw 1.00 until=600000
+release H614 hw 1.00
+hold H615 hw 1.00 until=600000
+release H615 hw 1.00
+hold H616 hw 1.00 until=600000
+release H616 hw 1.00
+hold H617 hw 1.00 until=600000
+release H617 hw 1.00
+hold H618 hw 1.00 until=600000
+release H618 hw 1.00
+hold H619 hw 1.00 until=600000
+release H619 hw 1.00
+hold H620 hw 1.00 until=600000
+release H620 hw 1.00
+hold H621 hw 1.00 until=600000
+release H621 hw 1.00
+hold H622 hw 1.00 until=600000
+release H622 hw 1.00
+hold H623 hw 1.00 until=600000
+release H623 hw 1.00
+hold H624 hw 1.00 until=600000
+release H624 hw 1.00
+hold H625 hw 1.00 until=600000
+release H625 hw 1.00
+hold H626 hw 1.00 until=600000
+release H626 hw 1.00
+hold H627 hw 1.00 until=600000
+release H627 hw 1.00
+hold H628 hw 1.00 until=600000
+release H628 hw 1.00
+hold H629 hw 1.00 until=600000
+release H629 hw 1.00
+hold H630 hw 1.00 until=600000
+release H630 hw 1.00
+hold H631 hw 1.00 until=600000
+release H631 hw 1.00
+hold H632 hw 1.00 until=600000
+release H632 hw 1.00
+hold H633 hw 1.00 until=600000
+release H633 hw 1.00
+hold H634 hw 1.00 until=600000
+release H634 hw 1.00
+hold H635 hw 1.00 until=600000
+release H635 hw 1.00
+hold H636 hw 1.00 until=600000
+release H636 hw 1.00
+hold H637 hw 1.00 until=600000
+release H637 hw 1.00
+hold H638 hw 1.00 until=600000
+release H638 hw 1.00
+hold H639 hw 1.00 until=600000
+release H639 hw 1.00
+hold H640 hw 1.00 until=600000
+release H640 hw 1.00
+hold H641 hw 1.00 until=600000
+release H641 hw 1.00
+hold H642 hw 1.00 until=600000
+release H642 hw 1.00
+hold H643 hw 1.00 until=600000
+release H643 hw 1.00
+hold H644 hw 1.00 until=600000
+release H644 hw 1.00
+hold H645 hw 1.00 until=600000
+release H645 hw 1.00
+hold H646 hw 1.00 until=600000
+release H646 hw 1.00
+hold H647 hw 1.00 until=600000
+release H647 hw 1.00
+hold H648 hw 1.00 until=600000
+release H648 hw 1.00
+hold H649 hw 1.00 until=600000
+release H649 hw 1.00
+hold H650 hw 1.00 until=600000
+release H650 hw 1.00
+hold H651 hw 1.00 until=600000
+release H651 hw 1.00
+hold H652 hw 1.00 until=600000
+release H652 hw 1.00
+hold H653 hw 1.00 until=600000
+release H653 hw 1.00
+hold H654 hw 1.00 until=600000
+release H654 hw 1.00
+hold H655 hw 1.00 until=600000
+release H655 hw 1.00
+hold H656 hw 1.00 until=600000
+release H656 hw 1.00
+hold H657 hw 1.00 until=600000
+release H657 hw 1.00
+hold H658 hw 1.00 until=600000
+release H658 hw 1.00
+hold H659 hw 1.00 until=600000
+release H659 hw 1.00
+hold H660 hw 1.00 until=600000
+release H660 hw 1.00
+hold H661 hw 1.00 until=600000
+release H661 hw 1.00
+hold H662 hw 1.00 until=600000
+release H662 hw 1.00
+hold H663 hw 1.00 until=600000
+release H663 hw 1.00
+hold H664 hw 1.00 until=600000
+release H664 hw 1.00
+hold H665 hw 1.00 until=600000
+release H665 hw 1.00
+hold H666 hw 1.00 until=600000
+release H666 hw 1.00
+hold H667 hw 1.00 until=600000
+release H667 hw 1.00
+hold H668 hw 1.00 until=600000
+release H668 hw 1.00
+hold H669 hw 1.00 until=600000
+release H669 hw 1.00
+hold H670 hw 1.00 until=600000
+release H670 hw 1.00
+hold H671 hw 1.00 until=600000
+release H671 hw 1.00
+hold H672 hw 1.00 until=600000
+release H672 hw 1.00
+hold H673 hw 1.00 until=600000
+release H673 hw 1.00
+hold H674 hw 1.00 until=600000
+release H674 hw 1.00
+hold H675 hw 1.00 until=600000
+release H675 hw 1.00
+hold H676 hw 1.00 until=600000
+release H676 hw 1.00
+hold H677 hw 1.00 until=600000
+release H677 hw 1.00
+hold H678 hw 1.00 until=600000
+release H678 hw 1.00
+hold H679 hw 1.00 until=600000
+release H679 hw 1.00
+hold H680 hw 1.00 until=600000
+release H680 hw 1.00
+hold H681 hw 1.00 until=600000
+release H681 hw 1.00
+hold H682 hw 1.00 until=600000
+release H682 hw 1.00
+hold H683 hw 1.00 until=600000
+release H683 hw 1.00
+hold H684 hw 1.00 until=600000
+release H684 hw 1.00
+hold H685 hw 1.00 until=600000
+release H685 hw 1.00
+hold H686 hw 1.00 until=600000
+release H686 hw 1.00
+hold H687 hw 1.00 until=600000
+release H687 hw 1.00
+hold H688 hw 1.00 until=600000
+release H688 hw 1.00
+hold H689 hw 1.00 until=600000
+release H689 hw 1.00
+hold H690 hw 1.00 until=600000
+release H690 hw 1.00
+hold H691 hw 1.00 until=600000
+release H691 hw 1.00
+hold H692 hw 1.00 until=600000
+release H692 hw 1.00
+hold H693 hw 1.00 until=600000
+release H693 hw 1.00
+hold H694 hw 1.00 until=600000
+release H694 hw 1.00
+hold H695 hw 1.00 until=600000
+release H695 hw 1.00
+hold H696 hw 1.00 until=600000
+release H696 hw 1.00
+hold H697 hw 1.00 until=600000
+release H697 hw 1.00
+hold H698 hw 1.00 until=600000
+release H698 hw 1.00
+hold H699 hw 1.00 until=600000
+release H699 hw 1.00
+hold H700 hw 1.00 until=600000
+release H700 hw 1.00
+hold H701 hw 1.00 until=600000
+release H701 hw 1.00
+hold H702 hw 1.00 until=600000
+release H702 hw 1.00
+hold H703 hw 1.00 until=600000
+release H703 hw 1.00
+hold H704 hw 1.00 until=600000
+release H704 hw 1.00
+hold H705 hw 1.00 until=600000
+release H705 hw 1.00
+hold H706 hw 1.00 until=600000
+release H706 hw 1.00
+hold H707 hw 1.00 until=600000
+release H707 hw 1.00
+hold H708 hw 1.00 until=600000
+release H708 hw 1.00
+hold H709 hw 1.00 until=600000
+release H709 hw 1.00
+hold H710 hw 1.00 until=600000
+release H710 hw 1.00
+hold H711 hw 1.00 until=600000
+release H711 hw 1.00
+hold H712 hw 1.00 until=600000
+release H712 hw 1.00
+hold H713 hw 1.00 until=600000
+release H713 hw 1.00
+hold H714 hw 1.00 until=600000
+release H714 hw 1.00
+hold H715 hw 1.00 until=600000
+release H715 hw 1.00
+hold H716 hw 1.00 until=600000
+release H716 hw 1.00
+hold H717 hw 1.00 until=600000
+release H717 hw 1.00
+hold H718 hw 1.00 until=600000
+release H718 hw 1.00
+hold H719 hw 1.00 until=600000
+release H719 hw 1.00
+hold H720 hw 1.00 until=600000
+release H720 hw 1.00
+hold H721 hw 1.00 until=600000
+release H721 hw 1.00
+hold H722 hw 1.00 until=600000
+release H722 hw 1.00
+hold H723 hw 1.00 until=600000
+release H723 hw 1.00
+hold H724 hw 1.00 until=600000
+release H724 hw 1.00
+hold H725 hw 1.00 until=600000
+release H725 hw 1.00
+hold H726 hw 1.00 until=600000
+release H726 hw 1.00
+hold H727 hw 1.00 until=600000
+release H727 hw 1.00
+hold H728 hw 1.00 until=600000
+release H728 hw 1.00
+hold H729 hw 1.00 until=600000
+release H729 hw 1.00
+hold H730 hw 1.00 until=600000
+release H730 hw 1.00
+hold H731 hw 1.00 until=600000
+release H731 hw 1.00
+hold H732 hw 1.00 until=600000
+release H732 hw 1.00
+hold H733 hw 1.00 until=600000
+release H733 hw 1.00
+hold H734 hw 1.00 until=600000
+release H734 hw 1.00
+hold H735 hw 1.00 until=600000
+release H735 hw 1.00
+hold H736 hw 1.00 until=600000
+release H736 hw 1.00
+hold H737 hw 1.00 until=600000
+release H737 hw 1.00
+hold H738 hw 1.00 until=600000
+release H738 hw 1.00
+hold H739 hw 1.00 until=600000
+release H739 hw 1.00
+hold H740 hw 1.00 until=600000
+release H740 hw 1.00
+hold H741 hw 1.00 until=600000
+release H741 hw 1.00
+hold H742 hw 1.00 until=600000
+release H742 hw 1.00
+hold H743 hw 1.00 until=600000
+release H743 hw 1.00
+hold H744 hw 1.00 until=600000
+release H744 hw 1.00
+hold H745 hw 1.00 until=600000
+release H745 hw 1.00
+hold H746 hw 1.00 until=600000
+release H746 hw 1.00
+hold H747 hw 1.00 until=600000
+release H747 hw 1.00
+hold H748 hw 1.00 until=600000
+release H748 hw 1.00
+hold H749 hw 1.00 until=600000
+release H749 hw 1.00
+hold H750 hw 1.00 until=600000
+release H750 hw 1.00
+hold H751 hw 1.00 until=600000
+release H751 hw 1.00
+hold H752 hw 1.00 until=600000
+release H752 hw 1.00
+hold H753 hw 1.00 until=600000
+release H753 hw 1.00
+hold H754 hw 1.00 until=600000
+release H754 hw 1.00
+hold H755 hw 1.00 until=600000
+release H755 hw 1.00
+hold H756 hw 1.00 until=600000
+release H756 hw 1.00
+hold H757 hw 1.00 until=600000
+release H757 hw 1.00
+hold H758 hw 1.00 until=600000
+release H758 hw 1.00
+hold H759 hw 1.00 until=600000
+release H759 hw 1.00
+hold H760 hw 1.00 until=600000
+release H760 hw 1.00
+hold H761 hw 1.00 until=600000
+release H761 hw 1.00
+hold H762 hw 1.00 until=600000
+release H762 hw 1.00
+hold H763 hw 1.00 until=600000
+release H763 hw 1.00
+hold H764 hw 1.00 until=600000
+release H764 hw 1.00
+hold H765 hw 1.00 until=600000
+release H765 hw 1.00
+hold H766 hw 1.00 until=600000
+release H766 hw 1.00
+hold H767 hw 1.00 until=600000
+release H767 hw 1.00
+hold H768 hw 1.00 until=600000
+release H768 hw 1.00
+hold H769 hw 1.00 until=600000
+release H769 hw 1.00
+hold H770 hw 1.00 until=600000
+release H770 hw 1.00
+hold H771 hw 1.00 until=600000
+release H771 hw 1.00
+hold H772 hw 1.00 until=600000
+release H772 hw 1.00
+hold H773 hw 1.00 until=600000
+release H773 hw 1.00
+hold H774 hw 1.00 until=600000
+release H774 hw 1.00
+hold H775 hw 1.00 until=600000
+release H775 hw 1.00
+hold H776 hw 1.00 until=600000
+release H776 hw 1.00
+hold H777 hw 1.00 until=600000
+release H777 hw 1.00
+hold H778 hw 1.00 until=600000
+release H778 hw 1.00
+hold H779 hw 1.00 until=600000
+release H779 hw 1.00
+hold H780 hw 1.00 until=600000
+release H780 hw 1.00
+hold H781 hw 1.00 until=600000
+release H781 hw 1.00
+hold H782 hw 1.00 until=600000
+release H782 hw 1.00
+hold H783 hw 1.00 until=600000
+release H783 hw 1.00
+hold H784 hw 1.00 until=600000
+release H784 hw 1.00
+hold H785 hw 1.00 until=600000
+release H785 hw 1.00
+hold H786 hw 1.00 until=600000
+release H786 hw 1.00
+hold H787 hw 1.00 until=600000
+release H787 hw 1.00
+hold H788 hw 1.00 until=600000
+release H788 hw 1.00
+hold H789 hw 1.00 until=600000
+release H789 hw 1.00
+hold H790 hw 1.00 until=600000
+release H790 hw 1.00
+hold H791 hw 1.00 until=600000
+release H791 hw 1.00
+hold H792 hw 1.00 until=600000
+release H792 hw 1.00
+hold H793 hw 1.00 until=600000
+release H793 hw 1.00
+hold H794 hw 1.00 until=600000
+release H794 hw 1.00
+hold H795 hw 1.00 until=600000
+release H795 hw 1.00
+hold H796 hw 1.00 until=600000
+release H796 hw 1.00
+hold H797 hw 1.00 until=600000
+release H797 hw 1.00
+hold H798 hw 1.00 until=600000
+release H798 hw 1.00
+hold H799 hw 1.00 until=600000
+release H799 hw 1.00
+hold H800 hw 1.00 until=600000
+release H800 hw 1.00
+hold H801 hw 1.00 until=600000
+release H801 hw 1.00
+hold H802 hw 1.00 until=600000
+release H802 hw 1.00
+hold H803 hw 1.00 until=600000
+release H803 hw 1.00
+hold H804 hw 1.00 until=600000
+release H804 hw 1.00
+hold H805 hw 1.00 until=600000
+release H805 hw 1.00
+hold H806 hw 1.00 until=600000
+release H806 hw 1.00
+hold H807 hw 1.00 until=600000
+release H807 hw 1.00
+hold H808 hw 1.00 until=600000
+release H808 hw 1.00
+hold H809 hw 1.00 until=600000
+release H809 hw 1.00
+hold H810 hw 1.00 until=600000
+release H810 hw 1.00
+hold H811 hw 1.00 until=600000
+release H811 hw 1.00
+hold H812 hw 1.00 until=600000
+release H812 hw 1.00
+hold H813 hw 1.00 until=600000
+release H813 hw 1.00
+hold H814 hw 1.00 until=600000
+release H814 hw 1.00
+hold H815 hw 1.00 until=600000
+release H815 hw 1.00
+hold H816 hw 1.00 until=600000
+release H816 hw 1.00
+hold H817 hw 1.00 until=600000
+release H817 hw 1.00
+hold H818 hw 1.00 until=600000
+release H818 hw 1.00
+hold H819 hw 1.00 until=600000
+release H819 hw 1.00
+hold H820 hw 1.00 until=600000
+release H820 hw 1.00
+hold H821 hw 1.00 until=600000
+release H821 hw 1.00
+hold H822 hw 1.00 until=600000
+release H822 hw 1.00
+hold H823 hw 1.00 until=600000
+release H823 hw 1.00
+hold H824 hw 1.00 until=600000
+release H824 hw 1.00
+hold H825 hw 1.00 until=600000
+release H825 hw 1.00
+hold H826 hw 1.00 until=600000
+release H826 hw 1.00
+hold H827 hw 1.00 until=600000
+release H827 hw 1.00
+hold H828 hw 1.00 until=600000
+release H828 hw 1.00
+hold H829 hw 1.00 until=600000
+release H829 hw 1.00
+hold H830 hw 1.00 until=600000
+release H830 hw 1.00
+hold H831 hw 1.00 until=600000
+release H831 hw 1.00
+hold H832 hw 1.00 until=600000
+release H832 hw 1.00
+hold H833 hw 1.00 until=600000
+release H833 hw 1.00
+hold H834 hw 1.00 until=600000
+release H834 hw 1.00
+hold H835 hw 1.00 until=600000
+release H835 hw 1.00
+hold H836 hw 1.00 until=600000
+release H836 hw 1.00
+hold H837 hw 1.00 until=600000
+release H837 hw 1.00
+hold H838 hw 1.00 until=600000
+release H838 hw 1.00
+hold H839 hw 1.00 until=600000
+release H839 hw 1.00
+hold H840 hw 1.00 until=600000
+release H840 hw 1.00
+hold H841 hw 1.00 until=600000
+release H841 hw 1.00
+hold H842 hw 1.00 until=600000
+release H842 hw 1.00
+hold H843 hw 1.00 until=600000
+release H843 hw 1.00
+hold H844 hw 1.00 until=600000
+release H844 hw 1.00
+hold H845 hw 1.00 until=600000
+release H845 hw 1.00
+hold H846 hw 1.00 until=600000
+release H846 hw 1.00
+hold H847 hw 1.00 until=600000
+release H847 hw 1.00
+hold H848 hw 1.00 until=600000
+release H848 hw 1.00
+hold H849 hw 1.00 until=600000
+release H849 hw 1.00
+hold H850 hw 1.00 until=600000
+release H850 hw 1.00
+hold H851 hw 1.00 until=600000
+release H851 hw 1.00
+hold H852 hw 1.00 until=600000
+release H852 hw 1.00
+hold H853 hw 1.00 until=600000
+release H853 hw 1.00
+hold H854 hw 1.00 until=600000
+release H854 hw 1.00
+hold H855 hw 1.00 until=600000
+release H855 hw 1.00
+hold H856 hw 1.00 until=600000
+release H856 hw 1.00
+hold H857 hw 1.00 until=600000
+release H857 hw 1.00
+hold H858 hw 1.00 until=600000
+release H858 hw 1.00
+hold H859 hw 1.00 until=600000
+release H859 hw 1.00
+hold H860 hw 1.00 until=600000
+release H860 hw 1.00
+hold H861 hw 1.00 until=600000
+release H861 hw 1.00
+hold H862 hw 1.00 until=600000
+release H862 hw 1.00
+hold H863 hw 1.00 until=600000
+release H863 hw 1.00
+hold H864 hw 1.00 until=600000
+release H864 hw 1.00
+hold H865 hw 1.00 until=600000
+release H865 hw 1.00
+hold H866 hw 1.00 until=600000
+release H866 hw 1.00
+hold H867 hw 1.00 until=600000
+release H867 hw 1.00
+hold H868 hw 1.00 until=600000
+release H868 hw 1.00
+hold H869 hw 1.00 until=600000
+release H869 hw 1.00
+hold H870 hw 1.00 until=600000
+release H870 hw 1.00
+hold H871 hw 1.00 until=600000
+release H871 hw 1.00
+hold H872 hw 1.00 until=600000
+release H872 hw 1.00
+hold H873 hw 1.00 until=600000
+release H873 hw 1.00
+hold H874 hw 1.00 until=600000
+release H874 hw 1.00
+hold H875 hw 1.00 until=600000
+release H875 hw 1.00
+hold H876 hw 1.00 until=600000
+release H876 hw 1.00
+hold H877 hw 1.00 until=600000
+release H877 hw 1.00
+hold H878 hw 1.00 until=600000
+release H878 hw 1.00
+hold H879 hw 1.00 until=600000
+release H879 hw 1.00
+hold H880 hw 1.00 until=600000
+release H880 hw 1.00
+hold H881 hw 1.00 until=600000
+release H881 hw 1.00
+hold H882 hw 1.00 until=600000
+release H882 hw 1.00
+hold H883 hw 1.00 until=600000
+release H883 hw 1.00
+hold H884 hw 1.00 until=600000
+release H884 hw 1.00
+hold H885 hw 1.00 until=600000
+release H885 hw 1.00
+hold H886 hw 1.00 until=600000
+release H886 hw 1.00
+hold H887 hw 1.00 until=600000
+release H887 hw 1.00
+hold H888 hw 1.00 until=600000
+release H888 hw 1.00
+hold H889 hw 1.00 until=600000
+release H889 hw 1.00
+hold H890 hw 1.00 until=600000
+release H890 hw 1.00
+hold H891 hw 1.00 until=600000
+release H891 hw 1.00
+hold H892 hw 1.00 until=600000
+release H892 hw 1.00
+hold H893 hw 1.00 until=600000
+release H893 hw 1.00
+hold H894 hw 1.00 until=600000
+release H894 hw 1.00
+hold H895 hw 1.00 until=600000
+release H895 hw 1.00
+hold H896 hw 1.00 until=600000
+release H896 hw 1.00
+hold H897 hw 1.00 until=600000
+release H897 hw 1.00
+hold H898 hw 1.00 until=600000
+release H898 hw 1.00
+hold H899 hw 1.00 until=600000
+release H899 hw 1.00
+hold H900 hw 1.00 until=600000
+release H900 hw 1.00
+hold H901 hw 1.00 until=600000
+release H901 hw 1.00
+hold H902 hw 1.00 until=600000
+release H902 hw 1.00
+hold H903 hw 1.00 until=600000
+release H903 hw 1.00
+hold H904 hw 1.00 until=600000
+release H904 hw 1.00
+hold H905 hw 1.00 until=600000
+release H905 hw 1.00
+hold H906 hw 1.00 until=600000
+release H906 hw 1.00
+hold H907 hw 1.00 until=600000
+release H907 hw 1.00
+hold H908 hw 1.00 until=600000
+release H908 hw 1.00
+hold H909 hw 1.00 until=600000
+release H909 hw 1.00
+hold H910 hw 1.00 until=600000
+release H910 hw 1.00
+hold H911 hw 1.00 until=600000
+release H911 hw 1.00
+hold H912 hw 1.00 until=600000
+release H912 hw 1.00
+hold H913 hw 1.00 until=600000
+release H913 hw 1.00
+hold H914 hw 1.00 until=600000
+release H914 hw 1.00
+hold H915 hw 1.00 until=600000
+release H915 hw 1.00
+hold H916 hw 1.00 until=600000
+release H916 hw 1.00
+hold H917 hw 1.00 until=600000
+release H917 hw 1.00
+hold H918 hw 1.00 until=600000
+release H918 hw 1.00
+hold H919 hw 1.00 until=600000
+release H919 hw 1.00
+hold H920 hw 1.00 until=600000
+release H920 hw 1.00
+hold H921 hw 1.00 until=600000
+release H921 hw 1.00
+hold H922 hw 1.00 until=600000
+release H922 hw 1.00
+hold H923 hw 1.00 until=600000
+release H923 hw 1.00
+hold H924 hw 1.00 until=600000
+release H924 hw 1.00
+hold H925 hw 1.00 until=600000
+release H925 hw 1.00
+hold H926 hw 1.00 until=600000
+release H926 hw 1.00
+hold H927 hw 1.00 until=600000
+release H927 hw 1.00
+hold H928 hw 1.00 until=600000
+release H928 hw 1.00
+hold H929 hw 1.00 until=600000
+release H929 hw 1.00
+hold H930 hw 1.00 until=600000
+release H930 hw 1.00
+hold H931 hw 1.00 until=600000
+release H931 hw 1.00
+hold H932 hw 1.00 until=600000
+release H932 hw 1.00
+hold H933 hw 1.00 until=600000
+release H933 hw 1.00
+hold H934 hw 1.00 until=600000
+release H934 hw 1.00
+hold H935 hw 1.00 until=600000
+release H935 hw 1.00
+hold H936 hw 1.00 until=600000
+release H936 hw 1.00
+hold H937 hw 1.00 until=600000
+release H937 hw 1.00
+hold H938 hw 1.00 until=600000
+release H938 hw 1.00
+hold H939 hw 1.00 until=600000
+release H939 hw 1.00
+hold H940 hw 1.00 until=600000
+release H940 hw 1.00
+hold H941 hw 1.00 until=600000
+release H941 hw 1.00
+hold H942 hw 1.00 until=600000
+release H942 hw 1.00
+hold H943 hw 1.00 until=600000
+release H943 hw 1.00
+hold H944 hw 1.00 until=600000
+release H944 hw 1.00
+hold H945 hw 1.00 until=600000
+release H945 hw 1.00
+hold H946 hw 1.00 until=600000
+release H946 hw 1.00
+hold H947 hw 1.00 until=600000
+release H947 hw 1.00
+hold H948 hw 1.00 until=600000
+release H948 hw 1.00
+hold H949 hw 1.00 until=600000
+release H949 hw 1.00
+hold H950 hw 1.00 until=600000
+release H950 hw 1.00
+hold H951 hw 1.00 until=600000
+release H951 hw 1.00
+hold H952 hw 1.00 until=600000
+release H952 hw 1.00
+hold H953 hw 1.00 until=600000
+release H953 hw 1.00
+hold H954 hw 1.00 until=600000
+release H954 hw 1.00
+hold H955 hw 1.00 until=600000
+release H955 hw 1.00
+hold H956 hw 1.00 until=600000
+release H956 hw 1.00
+hold H957 hw 1.00 until=600000
+release H957 hw 1.00
+hold H958 hw 1.00 until=600000
+release H958 hw 1.00
+hold H959 hw 1.00 until=600000
+release H959 hw 1.00
+hold H960 hw 1.00 until=600000
+release H960 hw 1.00
+hold H961 hw 1.00 until=600000
+release H961 hw 1.00
+hold H962 hw 1.00 until=600000
+release H962 hw 1.00
+hold H963 hw 1.00 until=600000
+release H963 hw 1.00
+hold H964 hw 1.00 until=600000
+release H964 hw 1.00
+hold H965 hw 1.00 until=600000
+release H965 hw 1.00
+hold H966 hw 1.00 until=600000
+release H966 hw 1.00
+hold H967 hw 1.00 until=600000
+release H967 hw 1.00
+hold H968 hw 1.00 until=600000
+release H968 hw 1.00
+hold H969 hw 1.00 until=600000
+release H969 hw 1.00
+hold H970 hw 1.00 until=600000
+release H970 hw 1.00
+hold H971 hw 1.00 until=600000
+release H971 hw 1.00
+hold H972 hw 1.00 until=600000
+release H972 hw 1.00
+hold H973 hw 1.00 until=600000
+release H973 hw 1.00
+hold H974 hw 1.00 until=600000
+release H974 hw 1.00
+hold H975 hw 1.00 until=600000
+release H975 hw 1.00
+hold H976 hw 1.00 until=600000
+release H976 hw 1.00
+hold H977 hw 1.00 until=600000
+release H977 hw 1.00
+hold H978 hw 1.00 until=600000
+release H978 hw 1.00
+hold H979 hw 1.00 until=600000
+release H979 hw 1.00
+hold H980 hw 1.00 until=600000
+release H980 hw 1.00
+hold H981 hw 1.00 until=600000
+release H981 hw 1.00
+hold H982 hw 1.00 until=600000
+release H982 hw 1.00
+hold H983 hw 1.00 until=600000
+release H983 hw 1.00
+hold H984 hw 1.00 until=600000
+release H984 hw 1.00
+hold H985 hw 1.00 until=600000
+release H985 hw 1.00
+hold H986 hw 1.00 until=600000
+release H986 hw 1.00
+hold H987 hw 1.00 until=600000
+release H987 hw 1.00
+hold H988 hw 1.00 until=600000
+release H988 hw 1.00
+hold H989 hw 1.00 until=600000
+release H989 hw 1.00
+hold H990 hw 1.00 until=600000
+release H990 hw 1.00
+hold H991 hw 1.00 until=600000
+release H991 hw 1.00
+hold H992 hw 1.00 until=600000
+release H992 hw 1.00
+hold H993 hw 1.00 until=600000
+release H993 hw 1.00
+hold H994 hw 1.00 until=600000
+release H994 hw 1.00
+hold H995 hw 1.00 until=600000
+release H995 hw 1.00
+hold H996 hw 1.00 until=600000
+release H996 hw 1.00
+hold H997 hw 1.00 until=600000
+release H997 hw 1.00
+hold H998 hw 1.00 until=600000
+release H998 hw 1.00
+hold H999 hw 1.00 until=600000
+release H999 hw 1.00
+hold H002 hw 2.00 until=600000
+hold H003 hw 3.00 until=never
+H001 hx 5.00 until=never
+holds hx count=1 held=5.00
+H002 hw 2.00 until=600000
+H003 hw 3.00 until=never
+holds hw count=2 held=5.00
+release H001 hx 5.00
+holds hx count=0 held=0.00
+hx balance=100.00 held=0.00 available=100.00 spent_today=0.00 debits_last_hour=0
+check ok records=2 live=2 accounts=2 holds=2 batches=0

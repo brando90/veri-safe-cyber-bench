@@ -1,0 +1,143 @@
+open ada slot=0 gen=0
+ok T0.0 deposit ada 100.00 balance=100.00
+clearing fail_next=40 submitted=0 accepted=0
+ok T0.1 deposit ada 1.00 balance=101.00
+batch B1 n=2 volume=101.00 first=T0.0 last=T0.1 entry=0
+batch B1 failed attempt=1 retry_at=30000
+now=1000
+ok T0.2 deposit ada 1.00 balance=102.00
+batch B2 n=1 volume=1.00 first=T0.2 last=T0.2 entry=1
+batch B2 failed attempt=1 retry_at=31000
+now=3000
+ok T0.3 deposit ada 1.00 balance=103.00
+batch B3 n=1 volume=1.00 first=T0.3 last=T0.3 entry=2
+batch B3 failed attempt=1 retry_at=33000
+now=6000
+ok T0.4 deposit ada 1.00 balance=104.00
+batch B4 n=1 volume=1.00 first=T0.4 last=T0.4 entry=3
+batch B4 failed attempt=1 retry_at=36000
+now=7000
+ok T0.5 deposit ada 1.00 balance=105.00
+batch B5 n=1 volume=1.00 first=T0.5 last=T0.5 entry=4
+batch B5 failed attempt=1 retry_at=37000
+now=9000
+ok T0.6 deposit ada 1.00 balance=106.00
+batch B6 n=1 volume=1.00 first=T0.6 last=T0.6 entry=5
+batch B6 failed attempt=1 retry_at=39000
+now=12000
+ok T0.7 deposit ada 1.00 balance=107.00
+batch B7 n=1 volume=1.00 first=T0.7 last=T0.7 entry=6
+batch B7 failed attempt=1 retry_at=42000
+now=13000
+ok T0.8 deposit ada 1.00 balance=108.00
+batch B8 n=1 volume=1.00 first=T0.8 last=T0.8 entry=7
+batch B8 failed attempt=1 retry_at=43000
+now=15000
+ok T0.9 deposit ada 1.00 balance=109.00
+batch B9 n=1 volume=1.00 first=T0.9 last=T0.9 entry=8
+batch B9 failed attempt=1 retry_at=45000
+now=18000
+ok T0.10 deposit ada 1.00 balance=110.00
+batch B10 n=1 volume=1.00 first=T0.10 last=T0.10 entry=9
+batch B10 failed attempt=1 retry_at=48000
+now=19000
+ok T0.11 deposit ada 1.00 balance=111.00
+batch B11 n=1 volume=1.00 first=T0.11 last=T0.11 entry=10
+batch B11 failed attempt=1 retry_at=49000
+now=21000
+ok T0.12 deposit ada 1.00 balance=112.00
+batch B12 n=1 volume=1.00 first=T0.12 last=T0.12 entry=11
+batch B12 failed attempt=1 retry_at=51000
+now=24000
+ok T0.13 deposit ada 1.00 balance=113.00
+batch B13 n=1 volume=1.00 first=T0.13 last=T0.13 entry=12
+batch B13 failed attempt=1 retry_at=54000
+now=25000
+ok T0.14 deposit ada 1.00 balance=114.00
+batch B14 n=1 volume=1.00 first=T0.14 last=T0.14 entry=13
+batch B14 failed attempt=1 retry_at=55000
+now=27000
+ok T0.15 deposit ada 1.00 balance=115.00
+batch B15 n=1 volume=1.00 first=T0.15 last=T0.15 entry=14
+batch B15 failed attempt=1 retry_at=57000
+now=30000
+batch B1 failed attempt=2 retry_at=90000
+ok T0.16 deposit ada 1.00 balance=116.00
+batch B16 n=1 volume=1.00 first=T0.16 last=T0.16 entry=15
+batch B16 failed attempt=1 retry_at=60000
+now=31000
+batch B2 failed attempt=2 retry_at=91000
+ok T0.17 deposit ada 1.00 balance=117.00
+error: settlement backlog full
+B1 pending n=2 volume=101.00 attempt=2 retry_at=90000 entry=0
+B2 pending n=1 volume=1.00 attempt=2 retry_at=91000 entry=1
+B3 pending n=1 volume=1.00 attempt=1 retry_at=33000 entry=2
+B4 pending n=1 volume=1.00 attempt=1 retry_at=36000 entry=3
+B5 pending n=1 volume=1.00 attempt=1 retry_at=37000 entry=4
+B6 pending n=1 volume=1.00 attempt=1 retry_at=39000 entry=5
+B7 pending n=1 volume=1.00 attempt=1 retry_at=42000 entry=6
+B8 pending n=1 volume=1.00 attempt=1 retry_at=43000 entry=7
+B9 pending n=1 volume=1.00 attempt=1 retry_at=45000 entry=8
+B10 pending n=1 volume=1.00 attempt=1 retry_at=48000 entry=9
+B11 pending n=1 volume=1.00 attempt=1 retry_at=49000 entry=10
+B12 pending n=1 volume=1.00 attempt=1 retry_at=51000 entry=11
+B13 pending n=1 volume=1.00 attempt=1 retry_at=54000 entry=12
+B14 pending n=1 volume=1.00 attempt=1 retry_at=55000 entry=13
+B15 pending n=1 volume=1.00 attempt=1 retry_at=57000 entry=14
+B16 pending n=1 volume=1.00 attempt=1 retry_at=60000 entry=15
+batches total=16 pending=16 unassigned=1
+now=56000
+batch B3 failed attempt=2 retry_at=116000
+batch B4 failed attempt=2 retry_at=116000
+batch B5 failed attempt=2 retry_at=116000
+batch B6 failed attempt=2 retry_at=116000
+batch B7 failed attempt=2 retry_at=116000
+batch B8 failed attempt=2 retry_at=116000
+batch B9 failed attempt=2 retry_at=116000
+batch B10 failed attempt=2 retry_at=116000
+batch B11 failed attempt=2 retry_at=116000
+batch B12 failed attempt=2 retry_at=116000
+batch B13 failed attempt=2 retry_at=116000
+batch B14 failed attempt=2 retry_at=116000
+now=86000
+batch B15 failed attempt=2 retry_at=146000
+batch B16 failed attempt=2 retry_at=146000
+clearing fail_next=0 submitted=32 accepted=0
+now=386000
+batch B1 settled
+batch B2 settled
+batch B3 settled
+batch B4 settled
+batch B5 settled
+batch B6 settled
+batch B7 settled
+batch B8 settled
+batch B9 settled
+batch B10 settled
+batch B11 settled
+batch B12 settled
+batch B13 settled
+batch B14 settled
+batch B15 settled
+batch B16 settled
+batch B17 n=1 volume=1.00 first=T0.17 last=T0.17 entry=0
+batch B17 settled
+B1 settled n=2 volume=101.00 attempts=3 entry=0
+B2 settled n=1 volume=1.00 attempts=3 entry=1
+B3 settled n=1 volume=1.00 attempts=3 entry=2
+B4 settled n=1 volume=1.00 attempts=3 entry=3
+B5 settled n=1 volume=1.00 attempts=3 entry=4
+B6 settled n=1 volume=1.00 attempts=3 entry=5
+B7 settled n=1 volume=1.00 attempts=3 entry=6
+B8 settled n=1 volume=1.00 attempts=3 entry=7
+B9 settled n=1 volume=1.00 attempts=3 entry=8
+B10 settled n=1 volume=1.00 attempts=3 entry=9
+B11 settled n=1 volume=1.00 attempts=3 entry=10
+B12 settled n=1 volume=1.00 attempts=3 entry=11
+B13 settled n=1 volume=1.00 attempts=3 entry=12
+B14 settled n=1 volume=1.00 attempts=3 entry=13
+B15 settled n=1 volume=1.00 attempts=3 entry=14
+B16 settled n=1 volume=1.00 attempts=3 entry=15
+B17 settled n=1 volume=1.00 attempts=1 entry=0
+batches total=17 pending=0 unassigned=0
+check ok records=18 live=18 accounts=1 holds=0 batches=17

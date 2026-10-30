@@ -1,0 +1,22 @@
+user add alice
+user add bob
+user add carol
+user add dave
+publish alice sec 1.0.0
+owner invite alice sec bob
+owner accept bob sec
+owner invite alice sec dave role=reader
+owner accept dave sec
+clock set 1000
+publish alice sec 1.1.0 embargo=2h
+resolve carol sec ^1
+resolve bob sec ^1
+resolve dave sec ^1
+resolve carol sec =1.1.0
+fetch carol sec
+info alice sec
+clock set 8199
+resolve carol sec ^1
+clock set 8200
+resolve carol sec ^1
+fetch carol sec

@@ -1,0 +1,14 @@
+user add root admin
+user add alice
+publish alice pr 1.0.0 size=2KiB
+publish alice pr 1.1.0 size=3KiB
+publish alice pr 1.2.0 size=1KiB
+tag add alice pr old 1.0.0
+yank alice pr 1.0.0
+yank alice pr 1.1.0
+prune alice pr
+prune root pr
+tags - pr
+quota alice
+publish alice pr 1.1.0
+prune root pr

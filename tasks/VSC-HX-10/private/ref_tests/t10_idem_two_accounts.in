@@ -1,0 +1,12 @@
+open lea
+open max
+deposit lea 10 key=same
+deposit max 10 key=same
+deposit lea 10 key=same
+transfer lea max 1 key=tx
+transfer max lea 1 key=tx
+transfer lea max 1 key=tx
+withdraw max 1 key=tx
+balance lea
+balance max
+idem

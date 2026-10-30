@@ -1,0 +1,7 @@
+open m slot=0 gen=0
+ok T0.0 deposit m 1000000000.00 balance=1000000000.00
+error: balance too large
+open n slot=1 gen=0
+n balance=0.00 held=0.00 available=1000000000.00 spent_today=0.00 debits_last_hour=0
+ok T0.1 withdraw m 100.00 balance=999999900.00
+check ok records=2 live=2 accounts=2 holds=0 batches=0

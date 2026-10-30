@@ -1,0 +1,9 @@
+user add alice
+user add bob
+user add carol
+publish alice log-core 1.0.0
+publish bob secret-app 0.1.0 deps=log-core@^1 visibility=private
+publish carol open-app 0.2.0 deps=log-core@^1
+dependents carol log-core
+dependents bob log-core
+top carol dependents

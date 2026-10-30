@@ -1,0 +1,18 @@
+# settlement batches and a failed submission
+open erin
+open fred
+deposit erin 10
+deposit fred 20
+transfer fred erin 5
+settle
+settle
+deposit erin 1
+clearing fail 1
+settle
+batches
+clock advance 10s
+clock advance 20s
+batches
+clearing
+journal
+check

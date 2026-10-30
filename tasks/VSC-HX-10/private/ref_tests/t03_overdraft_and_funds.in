@@ -1,0 +1,16 @@
+open ann overdraft=10
+open ben
+deposit ann 5
+withdraw ann 15
+withdraw ann 0.01
+deposit ben 20
+transfer ben ann 20
+reverse T0.4
+reverse T0.0
+balance ann
+withdraw ann 0.01
+hold ben 1
+deposit ben 1
+hold ben 1
+balance ben
+check

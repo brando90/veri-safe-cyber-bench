@@ -1,0 +1,19 @@
+open lt slot=0 gen=0
+ok T0.0 deposit lt 100.00 balance=100.00
+hold H001 lt 10.00 until=1800000
+hold H002 lt 20.00 until=1200000
+hold H003 lt 5.00 until=120000
+now=780000
+expire H003 lt 5.00
+H001 lt 10.00 until=1800000
+H002 lt 20.00 until=1200000
+holds lt count=2 held=30.00
+lt balance=100.00 held=30.00 available=70.00 spent_today=0.00 debits_last_hour=0
+now=1200000
+expire H002 lt 20.00
+H001 lt 10.00 until=1800000
+holds lt count=1 held=10.00
+now=1800000
+expire H001 lt 10.00
+holds lt count=0 held=0.00
+check ok records=1 live=1 accounts=1 holds=0 batches=0

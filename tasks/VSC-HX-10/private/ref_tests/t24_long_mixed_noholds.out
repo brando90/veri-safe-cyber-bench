@@ -1,0 +1,2451 @@
+open m0001 slot=0 gen=0
+ok T0.0 deposit m0001 580.00 balance=580.00
+open m0002 slot=1 gen=0
+ok T0.1 deposit m0002 882.00 balance=882.00
+open m0003 slot=2 gen=0
+ok T0.2 deposit m0003 244.00 balance=244.00
+open m0004 slot=3 gen=0
+ok T0.3 deposit m0004 144.00 balance=144.00
+open m0005 slot=4 gen=0
+ok T0.4 deposit m0005 215.00 balance=215.00
+open m0006 slot=5 gen=0
+ok T0.5 deposit m0006 337.00 balance=337.00
+open m0007 slot=6 gen=0
+ok T0.6 deposit m0007 875.00 balance=875.00
+open m0008 slot=7 gen=0
+ok T0.7 deposit m0008 250.00 balance=250.00
+open m0009 slot=8 gen=0
+ok T0.8 deposit m0009 133.00 balance=133.00
+open m0010 slot=9 gen=0
+ok T0.9 deposit m0010 162.00 balance=162.00
+open m0011 slot=10 gen=0
+ok T0.10 deposit m0011 336.00 balance=336.00
+open m0012 slot=11 gen=0
+ok T0.11 deposit m0012 849.00 balance=849.00
+ok T0.12 transfer m0007->m0004 3.15 balance=871.85
+ok T0.13 deposit m0007 14.42 balance=886.27
+ok T0.14 withdraw m0010 4.00 balance=158.00
+ok T0.15 deposit m0004 43.70 balance=190.85
+ok T0.16 deposit m0001 23.17 balance=603.17
+ok T0.17 deposit m0007 56.56 balance=942.83
+now=27000
+open m0013 slot=12 gen=0
+ok T0.18 deposit m0013 238.00 balance=238.00
+ok T0.19 deposit m0011 31.05 balance=367.05
+ok T0.20 withdraw m0005 6.00 balance=209.00
+ok T0.21 transfer m0008->m0011 11.27 balance=238.73
+open m0014 slot=13 gen=0
+ok T0.22 deposit m0014 140.00 balance=140.00
+ok T0.23 transfer m0009->m0014 3.22 balance=129.78
+ok T0.24 deposit m0013 45.12 balance=283.12
+now=144000
+ok T0.25 withdraw m0014 4.00 balance=139.22
+ok T0.26 deposit m0004 29.51 balance=220.36
+open m0015 slot=14 gen=0
+ok T0.27 deposit m0015 415.00 balance=415.00
+ok T0.28 deposit m0002 41.15 balance=923.15
+ok T0.29 withdraw m0012 3.00 balance=846.00
+ok T0.30 transfer m0008->m0010 9.47 balance=229.26
+now=254000
+ok T0.31 deposit m0003 39.88 balance=283.88
+ok T0.32 transfer m0014->m0013 16.97 balance=122.25
+open m0016 slot=15 gen=0
+ok T0.33 deposit m0016 228.00 balance=228.00
+ok T0.34 withdraw m0004 7.00 balance=213.36
+ok T0.35 transfer m0015->m0006 5.15 balance=409.85
+ok T0.36 transfer m0002->m0007 10.88 balance=912.27
+ok T0.37 deposit m0015 33.67 balance=443.52
+now=284000
+ok T0.38 transfer m0015->m0010 15.41 balance=428.11
+ok T0.39 deposit m0004 23.95 balance=237.31
+ok T0.40 deposit m0010 38.98 balance=221.86
+ok T0.41 deposit m0004 14.18 balance=251.49
+ok T0.42 withdraw m0010 4.00 balance=217.86
+ok T0.43 transfer m0010->m0008 9.94 balance=207.92
+ok T0.44 deposit m0009 53.89 balance=183.67
+ok T0.45 withdraw m0013 1.00 balance=299.09
+holds m0013 count=0 held=0.00
+ok T0.46 deposit m0007 20.89 balance=974.60
+open m0017 slot=16 gen=0
+ok T0.47 deposit m0017 177.00 balance=177.00
+now=289000
+ok T0.48 deposit m0005 1.00 balance=210.00
+ok T0.49 withdraw m0009 5.00 balance=178.67
+ok T0.50 withdraw m0008 10.00 balance=229.20
+ok T0.51 withdraw m0008 4.00 balance=225.20
+now=398000
+replay T0.17
+ok T0.52 transfer m0009->m0010 13.86 balance=164.81
+ok T0.53 deposit m0008 4.73 balance=229.93
+ok T0.54 withdraw m0008 1.00 balance=228.93
+T0.34 withdraw m0004-> 7.00 at=254000
+ok T0.55 withdraw m0004 9.00 balance=242.49
+clearing fail_next=1 submitted=0 accepted=0
+batch B1 n=56 volume=6878.17 first=T0.0 last=T0.55 entry=0
+batch B1 failed attempt=1 retry_at=428000
+now=417000
+ok T0.56 withdraw m0010 221.78 balance=0.00
+close m0010 slot=9
+ok T0.57 withdraw m0002 7.00 balance=905.27
+ok T0.58 withdraw m0016 9.00 balance=219.00
+ok T0.59 deposit m0001 31.56 balance=634.73
+ok T0.60 withdraw m0017 1.00 balance=176.00
+ok T0.61 withdraw m0003 8.00 balance=275.88
+ok T0.62 reverse T0.2 244.00
+ok T0.63 transfer m0012->m0014 8.07 balance=837.93
+now=422000
+ok T0.64 transfer m0014->m0005 17.40 balance=112.92
+ok T0.65 transfer m0009->m0003 5.74 balance=159.07
+ok T0.66 withdraw m0007 3.00 balance=971.60
+now=452000
+batch B1 settled
+ok T0.67 withdraw m0012 7.00 balance=830.93
+open m0018 slot=17 gen=0
+ok T0.68 deposit m0018 356.00 balance=356.00
+ok T0.69 transfer m0015->m0012 8.33 balance=419.78
+m0006 balance=342.15 held=0.00 available=392.15 spent_today=0.00 debits_last_hour=0
+ok T0.70 withdraw m0004 242.49 balance=0.00
+close m0004 slot=3
+now=487000
+now=543000
+ok T0.71 deposit m0005 58.69 balance=286.09
+ok T0.72 withdraw m0016 8.00 balance=211.00
+ok T0.73 deposit m0011 21.39 balance=399.71
+ok T0.74 transfer m0013->m0005 20.89 balance=278.20
+ok T0.75 withdraw m0012 7.00 balance=832.26
+ok T0.76 transfer m0013->m0011 20.21 balance=257.99
+ok T0.77 deposit m0006 35.92 balance=378.07
+T0.77 deposit ->m0006 35.92 at=543000
+T0.35 transfer m0015->m0006 5.15 at=254000
+T0.5 deposit ->m0006 337.00 at=0
+ok T0.78 transfer m0006->m0014 16.25 balance=361.82
+m0013 balance=257.99 held=0.00 available=257.99 spent_today=42.10 debits_last_hour=3
+ok T0.79 transfer m0008->m0006 10.20 balance=218.73
+ok T0.80 deposit m0005 38.63 balance=345.61
+ok T0.81 withdraw m0006 2.00 balance=370.02
+ok T0.82 withdraw m0012 832.26 balance=0.00
+close m0012 slot=11
+m0002 balance=905.27 held=0.00 available=905.27 spent_today=17.88 debits_last_hour=2
+ok T0.83 deposit m0001 23.72 balance=658.45
+ok T0.84 deposit m0002 27.38 balance=932.65
+ok T0.85 transfer m0006->m0008 3.12 balance=366.90
+ok T0.86 transfer m0011->m0006 2.44 balance=417.48
+ok T0.87 deposit m0003 19.98 balance=57.60
+now=556000
+ok T0.88 withdraw m0005 10.00 balance=335.61
+ok T0.89 transfer m0016->m0007 14.91 balance=196.09
+ok T0.90 deposit m0006 41.71 balance=411.05
+ok T0.91 withdraw m0005 10.00 balance=325.61
+ok T0.92 deposit m0015 42.85 balance=462.63
+ok T0.93 deposit m0018 15.44 balance=371.44
+ok T0.94 transfer m0006->m0009 8.35 balance=402.70
+now=591000
+ok T0.95 withdraw m0014 7.00 balance=122.17
+ok T0.96 deposit m0008 47.05 balance=268.90
+ok T0.97 deposit m0011 52.75 balance=470.23
+batch B2 n=42 volume=2568.51 first=T0.56 last=T0.97 entry=1
+batch B2 settled
+ok T0.98 transfer m0015->m0013 15.62 balance=447.01
+ok T0.99 transfer m0016->m0011 8.64 balance=187.45
+now=702000
+ok T0.100 withdraw m0008 5.00 balance=263.90
+ok T0.101 deposit m0005 26.23 balance=351.84
+now=719000
+ok T0.102 transfer m0015->m0013 11.04 balance=435.97
+ok T0.103 withdraw m0006 2.00 balance=400.70
+ok T0.104 deposit m0008 30.85 balance=294.75
+ok T0.105 transfer m0009->m0002 15.81 balance=151.61
+now=758000
+ok T0.106 deposit m0007 39.36 balance=1025.87
+ok T0.107 withdraw m0018 3.00 balance=368.44
+ok T0.108 deposit m0006 5.85 balance=406.55
+ok T0.109 deposit m0001 29.27 balance=687.72
+ok T0.110 withdraw m0015 1.00 balance=434.97
+ok T0.111 withdraw m0008 294.75 balance=0.00
+close m0008 slot=7
+ok T0.112 deposit m0005 36.10 balance=387.94
+ok T0.113 deposit m0002 21.48 balance=969.94
+open m0019 slot=18 gen=0
+ok T0.114 deposit m0019 216.00 balance=216.00
+ok T0.115 deposit m0017 40.06 balance=216.06
+ok T0.116 reverse T0.88 10.00
+T0.82 withdraw m0012-> 832.26 at=543000
+ok T0.117 withdraw m0011 4.00 balance=474.87
+ok T0.118 transfer m0015->m0018 2.89 balance=432.08
+ok T0.119 transfer m0007->m0019 8.79 balance=1017.08
+ok T0.120 withdraw m0001 8.00 balance=679.72
+ok T0.121 deposit m0013 38.47 balance=323.12
+ok T0.122 deposit m0006 34.37 balance=440.92
+now=876000
+ok T0.123 withdraw m0007 2.00 balance=1015.08
+ok T0.124 withdraw m0001 3.00 balance=676.72
+ok T0.125 withdraw m0019 3.00 balance=221.79
+m0005 balance=397.94 held=0.00 available=397.94 spent_today=26.00 debits_last_hour=3
+ok T0.126 transfer m0016->m0017 12.75 balance=174.70
+T0.126 transfer m0016->m0017 12.75 at=876000
+T0.99 transfer m0016->m0011 8.64 at=591000
+T0.89 transfer m0016->m0007 14.91 at=556000
+ok T0.127 deposit m0019 25.36 balance=247.15
+holds m0013 count=0 held=0.00
+ok T0.128 withdraw m0019 6.00 balance=241.15
+ok T0.129 deposit m0016 28.73 balance=203.43
+ok T0.130 withdraw m0016 5.00 balance=198.43
+ok T0.131 transfer m0017->m0015 8.71 balance=220.10
+ok T0.132 transfer m0002->m0018 17.38 balance=952.56
+ok T0.133 reverse T0.86 2.44
+ok T0.134 transfer m0014->m0017 12.64 balance=109.53
+ok T0.135 transfer m0014->m0001 19.27 balance=90.26
+ok T0.136 transfer m0002->m0013 10.41 balance=942.15
+ok T0.137 withdraw m0001 7.00 balance=688.99
+ok T0.138 deposit m0015 38.95 balance=479.74
+ok T0.139 withdraw m0009 7.00 balance=144.61
+now=932000
+now=1027000
+T0.101 deposit ->m0005 26.23 at=702000
+m0016 balance=198.43 held=0.00 available=198.43 spent_today=58.30 debits_last_hour=6
+ok T0.140 withdraw m0002 4.00 balance=938.15
+batch B3 n=43 volume=1122.22 first=T0.98 last=T0.140 entry=2
+batch B3 settled
+ok T0.141 transfer m0013->m0016 9.68 balance=323.85
+ok T0.142 deposit m0002 16.54 balance=954.69
+now=1093000
+ok T0.143 withdraw m0018 3.00 balance=385.71
+holds m0007 count=0 held=0.00
+now=1137000
+ok T0.144 transfer m0013->m0018 20.46 balance=303.39
+now=1174000
+now=1256000
+ok T0.145 transfer m0018->m0017 19.93 balance=386.24
+ok T0.146 deposit m0018 36.86 balance=423.10
+ok T0.147 deposit m0002 3.88 balance=958.57
+ok T0.148 transfer m0007->m0019 9.64 balance=1005.44
+ok T0.149 transfer m0019->m0003 7.86 balance=242.93
+open m0020 slot=19 gen=0
+ok T0.150 deposit m0020 52.00 balance=52.00
+ok T0.151 deposit m0020 19.61 balance=71.61
+ok T0.152 deposit m0005 2.48 balance=400.42
+ok T0.153 transfer m0011->m0013 11.34 balance=465.97
+ok T0.154 withdraw m0006 5.00 balance=433.48
+ok T0.155 transfer m0006->m0016 16.24 balance=417.24
+ok T0.156 withdraw m0014 10.00 balance=80.26
+ok T0.157 transfer m0002->m0013 3.76 balance=954.81
+ok T0.158 deposit m0016 32.06 balance=256.41
+ok T0.159 transfer m0002->m0005 7.01 balance=947.80
+now=1279000
+ok T0.160 transfer m0013->m0014 12.17 balance=306.32
+open m0021 slot=20 gen=0
+ok T0.161 deposit m0021 355.00 balance=355.00
+now=1358000
+ok T0.162 withdraw m0021 1.00 balance=354.00
+ok T0.163 transfer m0003->m0016 20.38 balance=45.08
+now=1394000
+ok T0.164 deposit m0011 23.52 balance=489.49
+ok T0.165 deposit m0014 52.50 balance=144.93
+now=1476000
+ok T0.166 deposit m0011 12.56 balance=502.05
+ok T0.167 withdraw m0011 4.00 balance=498.05
+ok T0.168 deposit m0018 48.30 balance=471.40
+ok T0.169 deposit m0005 55.60 balance=463.03
+ok T0.170 deposit m0007 38.66 balance=1044.10
+now=1542000
+ok T0.171 withdraw m0009 1.00 balance=143.61
+ok T0.172 withdraw m0001 9.00 balance=679.99
+ok T0.173 transfer m0020->m0017 19.92 balance=51.69
+ok T0.174 withdraw m0007 1.00 balance=1043.10
+ok T0.175 withdraw m0003 3.00 balance=42.08
+ok T0.176 deposit m0017 47.90 balance=320.49
+now=1592000
+ok T0.177 deposit m0001 44.78 balance=724.77
+batch B4 n=37 volume=1037.64 first=T0.141 last=T0.177 entry=3
+batch B4 settled
+ok T0.178 deposit m0019 59.03 balance=301.96
+ok T0.179 transfer m0017->m0006 17.57 balance=302.92
+ok T0.180 withdraw m0013 306.32 balance=0.00
+close m0013 slot=12
+ok T0.181 deposit m0017 57.32 balance=360.24
+T0.155 transfer m0006->m0016 16.24 at=1256000
+ok T0.182 deposit m0015 1.23 balance=480.97
+journal records=183 folded=0 live=183 segments=2 sealed=1 compactions=0
+idem entries=22 capacity=64 evicted=0
+check ok records=183 live=183 accounts=16 holds=0 batches=4
+open m0022 slot=21 gen=0
+ok T0.183 deposit m0022 486.00 balance=486.00
+ok T0.184 transfer m0001->m0002 14.36 balance=710.41
+ok T0.185 withdraw m0016 6.00 balance=270.79
+ok T0.186 withdraw m0001 7.00 balance=703.41
+now=1698000
+now=1804000
+now=1819000
+now=1897000
+m0005 balance=463.03 held=0.00 available=463.03 spent_today=26.00 debits_last_hour=3
+ok T0.187 transfer m0018->m0017 15.58 balance=455.82
+ok T0.188 deposit m0016 30.78 balance=301.57
+ok T0.189 withdraw m0017 3.00 balance=372.82
+ok T0.190 transfer m0006->m0001 9.56 balance=425.25
+ok T0.191 transfer m0017->m0001 16.78 balance=356.04
+ok T0.192 deposit m0015 16.80 balance=497.77
+ok T0.193 deposit m0009 2.99 balance=146.60
+ok T0.194 withdraw m0021 1.00 balance=353.00
+ok T0.195 deposit m0011 1.55 balance=499.60
+now=1921000
+now=1974000
+ok T0.196 deposit m0001 9.20 balance=738.95
+ok T0.197 withdraw m0009 6.00 balance=140.60
+ok T0.198 transfer m0018->m0022 6.55 balance=449.27
+ok T0.199 withdraw m0022 492.55 balance=0.00
+close m0022 slot=21
+ok T0.200 withdraw m0020 7.00 balance=44.69
+ok T0.201 deposit m0021 17.17 balance=370.17
+ok T0.202 deposit m0001 13.17 balance=752.12
+ok T0.203 withdraw m0001 5.00 balance=747.12
+now=2015000
+ok T0.204 withdraw m0003 1.00 balance=41.08
+ok T0.205 deposit m0020 28.39 balance=73.08
+ok T0.206 deposit m0011 27.72 balance=527.32
+ok T0.207 withdraw m0016 6.00 balance=295.57
+ok T0.208 deposit m0015 4.50 balance=502.27
+ok T0.209 deposit m0015 13.90 balance=516.17
+ok T0.210 transfer m0006->m0009 1.02 balance=424.23
+ok T0.211 withdraw m0011 6.00 balance=521.32
+ok T0.212 deposit m0007 28.09 balance=1071.19
+ok T0.213 deposit m0007 27.14 balance=1098.33
+open m0023 slot=22 gen=0
+ok T0.214 deposit m0023 231.00 balance=231.00
+ok T0.215 deposit m0017 1.84 balance=357.88
+now=2030000
+ok T0.216 transfer m0001->m0014 14.80 balance=732.32
+now=2126000
+ok T0.217 transfer m0021->m0009 11.41 balance=358.76
+batch B5 n=40 volume=2012.32 first=T0.178 last=T0.217 entry=4
+batch B5 settled
+ok T0.218 transfer m0019->m0020 14.23 balance=287.73
+ok T0.219 withdraw m0006 424.23 balance=0.00
+close m0006 slot=5
+now=2236000
+ok T0.220 withdraw m0014 7.00 balance=152.73
+ok T0.221 withdraw m0003 10.00 balance=31.08
+now=2332000
+T0.217 transfer m0021->m0009 11.41 at=2126000
+T0.210 transfer m0006->m0009 1.02 at=2015000
+T0.197 withdraw m0009-> 6.00 at=1974000
+ok T0.222 withdraw m0015 8.00 balance=508.17
+T0.218 transfer m0019->m0020 14.23 at=2126000
+T0.178 deposit ->m0019 59.03 at=1592000
+T0.149 transfer m0019->m0003 7.86 at=1256000
+ok T0.223 withdraw m0009 4.00 balance=149.03
+ok T0.224 transfer m0018->m0016 4.63 balance=444.64
+ok T0.225 deposit m0009 10.24 balance=159.27
+open m0024 slot=23 gen=0
+ok T0.226 deposit m0024 275.00 balance=275.00
+now=2412000
+ok T0.227 deposit m0002 46.60 balance=1008.76
+now=2511000
+ok T0.228 withdraw m0024 2.00 balance=273.00
+now=2591000
+now=2608000
+ok T0.229 deposit m0024 22.98 balance=295.98
+ok T0.230 deposit m0011 11.57 balance=532.89
+ok T0.231 transfer m0001->m0005 2.09 balance=730.23
+now=2690000
+ok T0.232 transfer m0003->m0023 19.03 balance=12.05
+ok T0.233 withdraw m0015 3.00 balance=505.17
+ok T0.234 withdraw m0021 2.00 balance=356.76
+ok T0.235 deposit m0007 42.82 balance=1141.15
+ok T0.236 withdraw m0014 7.00 balance=145.73
+ok T0.237 deposit m0011 40.18 balance=573.07
+now=2797000
+ok T0.238 deposit m0014 24.32 balance=170.05
+ok T0.239 transfer m0019->m0007 14.83 balance=272.90
+ok T0.240 withdraw m0001 9.00 balance=721.23
+ok T0.241 reverse T0.222 8.00
+now=2913000
+now=2943000
+ok T0.242 transfer m0011->m0020 15.75 balance=557.32
+ok T0.243 deposit m0020 32.09 balance=135.15
+ok T0.244 withdraw m0001 10.00 balance=711.23
+ok T0.245 deposit m0023 44.35 balance=294.38
+ok T0.246 deposit m0011 50.96 balance=608.28
+ok T0.247 transfer m0017->m0020 16.23 balance=341.65
+ok T0.248 deposit m0017 18.48 balance=360.13
+ok T0.249 withdraw m0005 465.12 balance=0.00
+close m0005 slot=4
+ok T0.250 deposit m0017 50.76 balance=410.89
+ok T0.251 transfer m0014->m0016 12.42 balance=157.63
+ok T0.252 transfer m0021->m0001 18.64 balance=338.12
+now=3041000
+ok T0.253 withdraw m0020 151.38 balance=0.00
+close m0020 slot=19
+ok T0.254 deposit m0009 3.16 balance=162.43
+now=3136000
+now=3230000
+ok T0.255 deposit m0024 56.04 balance=352.02
+ok T0.256 withdraw m0018 1.00 balance=443.64
+now=3235000
+ok T0.257 deposit m0007 12.07 balance=1168.05
+ok T0.258 withdraw m0017 5.00 balance=405.89
+ok T0.259 reverse T0.201 17.17
+batch B6 n=42 volume=1993.37 first=T0.218 last=T0.259 entry=5
+batch B6 settled
+ok T0.260 withdraw m0017 6.00 balance=399.89
+ok T0.261 withdraw m0017 6.00 balance=393.89
+ok T0.262 transfer m0015->m0014 8.95 balance=504.22
+ok T0.263 withdraw m0011 6.00 balance=602.28
+ok T0.264 withdraw m0015 4.00 balance=500.22
+ok T0.265 deposit m0007 21.65 balance=1189.70
+ok T0.266 reverse T0.233 3.00
+now=3323000
+ok T0.267 deposit m0011 52.30 balance=654.58
+now=3382000
+ok T0.268 transfer m0017->m0001 18.34 balance=375.55
+ok T0.269 deposit m0019 2.14 balance=275.04
+now=3489000
+ok T0.270 transfer m0003->m0016 5.53 balance=6.52
+ok T0.271 transfer m0009->m0024 18.98 balance=143.45
+ok T0.272 deposit m0017 5.39 balance=380.94
+ok T0.273 transfer m0021->m0001 10.93 balance=310.02
+ok T0.274 deposit m0016 42.80 balance=360.95
+ok T0.275 transfer m0009->m0023 18.91 balance=124.54
+ok T0.276 withdraw m0017 8.00 balance=372.94
+ok T0.277 withdraw m0002 7.00 balance=1001.76
+ok T0.278 withdraw m0018 3.00 balance=440.64
+ok T0.279 withdraw m0001 4.00 balance=755.14
+ok T0.280 withdraw m0018 6.00 balance=434.64
+now=3606000
+ok T0.281 deposit m0023 10.95 balance=324.24
+ok T0.282 deposit m0017 1.16 balance=374.10
+ok T0.283 withdraw m0007 9.00 balance=1180.70
+open m0025 slot=24 gen=0
+ok T0.284 deposit m0025 291.00 balance=291.00
+ok T0.285 withdraw m0025 9.00 balance=282.00
+T0.255 deposit ->m0024 56.04 at=3230000
+ok T0.286 reverse T0.235 42.82
+ok T0.287 withdraw m0014 7.00 balance=159.58
+ok T0.288 transfer m0018->m0019 10.85 balance=423.79
+ok T0.289 deposit m0011 36.20 balance=690.78
+holds m0014 count=0 held=0.00
+now=3719000
+ok T0.290 deposit m0003 7.20 balance=13.72
+ok T0.291 deposit m0007 53.31 balance=1191.19
+ok T0.292 deposit m0003 16.86 balance=30.58
+ok T0.293 transfer m0018->m0001 12.77 balance=411.02
+ok T0.294 withdraw m0015 5.00 balance=498.22
+ok T0.295 deposit m0025 32.50 balance=314.50
+ok T0.296 withdraw m0016 3.00 balance=357.95
+ok T0.297 withdraw m0001 767.91 balance=0.00
+close m0001 slot=0
+now=3793000
+ok T0.298 withdraw m0018 2.00 balance=409.02
+ok T0.299 withdraw m0024 9.00 balance=362.00
+ok T0.300 transfer m0018->m0015 3.38 balance=405.64
+ok T0.301 deposit m0014 50.20 balance=209.78
+ok T0.302 transfer m0018->m0017 4.86 balance=400.78
+ok T0.303 withdraw m0014 209.78 balance=0.00
+close m0014 slot=13
+ok T0.304 transfer m0024->m0003 20.25 balance=341.75
+ok T0.305 transfer m0011->m0018 15.99 balance=674.79
+ok T0.306 deposit m0009 9.84 balance=134.38
+ok T0.307 deposit m0025 18.19 balance=332.69
+batch B7 n=48 volume=1918.94 first=T0.260 last=T0.307 entry=6
+batch B7 settled
+ok T0.308 withdraw m0019 1.00 balance=284.89
+ok T0.309 withdraw m0011 674.79 balance=0.00
+close m0011 slot=10
+ok T0.310 deposit m0007 5.76 balance=1196.95
+holds m0017 count=0 held=0.00
+ok T0.311 deposit m0019 50.50 balance=335.39
+ok T0.312 withdraw m0019 335.39 balance=0.00
+close m0019 slot=18
+ok T0.313 withdraw m0003 8.00 balance=42.83
+ok T0.314 deposit m0023 11.89 balance=336.13
+ok T0.315 deposit m0016 51.84 balance=409.79
+ok T0.316 transfer m0017->m0023 15.57 balance=363.39
+ok T0.317 deposit m0016 15.55 balance=425.34
+ok T0.318 deposit m0021 52.85 balance=362.87
+ok T0.319 withdraw m0002 2.00 balance=999.76
+ok T0.320 deposit m0024 41.89 balance=383.64
+ok T0.321 transfer m0018->m0023 3.17 balance=413.60
+ok T0.322 deposit m0009 11.85 balance=146.23
+ok T0.323 transfer m0023->m0017 8.70 balance=346.17
+now=3907000
+ok T0.324 transfer m0002->m0024 1.80 balance=997.96
+now=4023000
+now=4099000
+ok T0.325 withdraw m0017 372.09 balance=0.00
+close m0017 slot=16
+ok T0.326 transfer m0023->m0009 10.10 balance=336.07
+ok T0.327 transfer m0016->m0015 10.42 balance=414.92
+now=4199000
+holds m0025 count=0 held=0.00
+ok T0.328 deposit m0002 36.73 balance=1034.69
+ok T0.329 withdraw m0018 10.00 balance=403.60
+ok T0.330 deposit m0016 15.54 balance=430.46
+ok T0.331 withdraw m0018 7.00 balance=396.60
+ok T0.332 withdraw m0007 4.00 balance=1192.95
+now=4253000
+ok T0.333 deposit m0016 30.31 balance=460.77
+ok T0.334 transfer m0007->m0015 17.71 balance=1175.24
+ok T0.335 withdraw m0021 3.00 balance=359.87
+ok T0.336 withdraw m0021 2.00 balance=357.87
+ok T0.337 deposit m0024 2.46 balance=387.90
+ok T0.338 transfer m0003->m0025 2.44 balance=40.39
+ok T0.339 transfer m0002->m0007 3.07 balance=1031.62
+ok T0.340 deposit m0002 45.53 balance=1077.15
+now=4365000
+ok T0.341 withdraw m0018 7.00 balance=389.60
+ok T0.342 withdraw m0002 1077.15 balance=0.00
+close m0002 slot=1
+ok T0.343 transfer m0009->m0007 17.64 balance=138.69
+now=4478000
+ok T0.344 deposit m0016 44.18 balance=504.95
+ok T0.345 deposit m0009 39.17 balance=177.86
+ok T0.346 deposit m0018 8.43 balance=398.03
+ok T0.347 transfer m0025->m0024 13.28 balance=321.85
+batch B8 n=40 volume=3071.80 first=T0.308 last=T0.347 entry=7
+batch B8 settled
+ok T0.348 withdraw m0018 10.00 balance=388.03
+ok T0.349 transfer m0016->m0018 11.89 balance=493.06
+ok T0.350 transfer m0024->m0025 17.25 balance=383.93
+ok T0.351 transfer m0009->m0003 5.39 balance=172.47
+ok T0.352 deposit m0007 36.40 balance=1232.35
+ok T0.353 deposit m0023 41.25 balance=377.32
+open m0026 slot=25 gen=0
+ok T0.354 deposit m0026 266.00 balance=266.00
+ok T0.355 deposit m0016 30.89 balance=523.95
+ok T0.356 deposit m0025 52.34 balance=391.44
+m0018 balance=399.92 held=0.00 available=399.92 spent_today=133.72 debits_last_hour=18
+ok T0.357 withdraw m0016 5.00 balance=518.95
+now=4573000
+ok T0.358 transfer m0024->m0021 7.58 balance=376.35
+ok T0.359 transfer m0007->m0024 14.21 balance=1218.14
+ok T0.360 deposit m0026 43.35 balance=309.35
+ok T0.361 deposit m0003 49.68 balance=95.46
+ok T0.362 deposit m0015 36.80 balance=566.53
+ok T0.363 withdraw m0015 2.00 balance=564.53
+ok T0.364 transfer m0021->m0025 18.61 balance=346.84
+ok T0.365 withdraw m0018 6.00 balance=393.92
+now=4623000
+ok T0.366 withdraw m0007 8.00 balance=1210.14
+ok T0.367 deposit m0018 43.22 balance=437.14
+now=4721000
+ok T0.368 withdraw m0021 10.00 balance=336.84
+ok T0.369 withdraw m0003 6.00 balance=89.46
+ok T0.370 deposit m0024 24.81 balance=415.37
+holds m0021 count=0 held=0.00
+ok T0.371 deposit m0025 8.44 balance=418.49
+ok T0.372 deposit m0025 40.57 balance=459.06
+ok T0.373 withdraw m0018 2.00 balance=435.14
+now=4730000
+ok T0.374 withdraw m0016 9.00 balance=509.95
+ok T0.375 transfer m0018->m0003 16.36 balance=418.78
+ok T0.376 reverse T0.357 5.00
+ok T0.377 withdraw m0016 10.00 balance=504.95
+ok T0.378 deposit m0003 43.40 balance=149.22
+ok T0.379 withdraw m0021 9.00 balance=327.84
+ok T0.380 deposit m0018 20.26 balance=439.04
+ok T0.381 deposit m0023 58.26 balance=435.58
+ok T0.382 withdraw m0023 4.00 balance=431.58
+ok T0.383 deposit m0009 19.07 balance=191.54
+holds m0025 count=0 held=0.00
+ok T0.384 withdraw m0025 1.00 balance=458.06
+now=4769000
+ok T0.385 deposit m0025 22.39 balance=480.45
+ok T0.386 withdraw m0024 10.00 balance=405.37
+ok T0.387 deposit m0026 39.74 balance=349.09
+now=4833000
+ok T0.388 transfer m0025->m0009 5.03 balance=475.42
+ok T0.389 withdraw m0016 2.00 balance=502.95
+now=4917000
+ok T0.390 transfer m0015->m0023 16.77 balance=547.76
+ok T0.391 transfer m0015->m0003 2.76 balance=545.00
+batch B9 n=44 volume=1091.72 first=T0.348 last=T0.391 entry=8
+batch B9 settled
+ok T0.392 deposit m0023 53.78 balance=502.13
+ok T0.393 withdraw m0009 196.57 balance=0.00
+close m0009 slot=8
+ok T0.394 transfer m0016->m0021 11.56 balance=491.39
+ok T0.395 withdraw m0021 4.00 balance=335.40
+ok T0.396 withdraw m0023 5.00 balance=497.13
+ok T0.397 transfer m0015->m0003 15.29 balance=529.71
+ok T0.398 deposit m0023 4.38 balance=501.51
+ok T0.399 withdraw m0021 335.40 balance=0.00
+close m0021 slot=20
+ok T0.400 deposit m0016 18.65 balance=510.04
+ok T0.401 withdraw m0025 10.00 balance=465.42
+ok T0.402 withdraw m0024 2.00 balance=403.37
+ok T0.403 withdraw m0007 1210.14 balance=0.00
+close m0007 slot=6
+ok T0.404 withdraw m0018 9.00 balance=430.04
+ok T0.405 deposit m0015 6.36 balance=536.07
+ok T0.406 deposit m0025 41.57 balance=506.99
+ok T0.407 withdraw m0024 4.00 balance=399.37
+ok T0.408 transfer m0018->m0016 8.07 balance=421.97
+ok T0.409 deposit m0025 39.71 balance=546.70
+now=4997000
+now=5069000
+ok T0.410 withdraw m0025 10.00 balance=536.70
+ok T0.411 transfer m0023->m0026 5.39 balance=496.12
+now=5168000
+ok T0.412 deposit m0026 1.10 balance=355.58
+ok T0.413 transfer m0003->m0026 19.37 balance=147.90
+ok T0.414 withdraw m0016 3.00 balance=515.11
+ok T0.415 deposit m0023 33.80 balance=529.92
+ok T0.416 withdraw m0016 8.00 balance=507.11
+ok T0.417 withdraw m0016 4.00 balance=503.11
+ok T0.418 withdraw m0026 7.00 balance=367.95
+ok T0.419 transfer m0018->m0015 9.83 balance=412.14
+ok T0.420 withdraw m0023 6.00 balance=523.92
+ok T0.421 deposit m0026 35.08 balance=403.03
+ok T0.422 withdraw m0015 6.00 balance=539.90
+ok T0.423 transfer m0003->m0018 4.93 balance=142.97
+ok T0.424 deposit m0016 40.27 balance=543.38
+ok T0.425 transfer m0023->m0026 5.38 balance=518.54
+ok T0.426 deposit m0023 51.76 balance=570.30
+ok T0.427 transfer m0024->m0003 14.76 balance=384.61
+ok T0.428 withdraw m0003 2.00 balance=155.73
+ok T0.429 withdraw m0015 6.00 balance=533.90
+ok T0.430 transfer m0015->m0025 15.00 balance=518.90
+ok T0.431 withdraw m0024 5.00 balance=379.61
+now=5194000
+T0.416 withdraw m0016-> 8.00 at=5168000
+ok T0.432 transfer m0025->m0018 6.22 balance=545.48
+T0.401 withdraw m0025-> 10.00 at=4917000
+open m0027 slot=26 gen=0
+ok T0.433 deposit m0027 445.00 balance=445.00
+now=5292000
+ok T0.434 deposit m0024 52.55 balance=432.16
+now=5317000
+batch B10 n=43 volume=2772.92 first=T0.392 last=T0.434 entry=9
+batch B10 settled
+ok T0.435 deposit m0003 11.33 balance=167.06
+ok T0.436 withdraw m0015 10.00 balance=508.90
+ok T0.437 transfer m0015->m0023 6.34 balance=502.56
+ok T0.438 withdraw m0023 576.64 balance=0.00
+close m0023 slot=22
+ok T0.439 deposit m0027 13.71 balance=458.71
+ok T0.440 withdraw m0025 2.00 balance=543.48
+now=5428000
+ok T0.441 transfer m0025->m0027 13.64 balance=529.84
+ok T0.442 deposit m0026 53.58 balance=461.99
+ok T0.443 transfer m0025->m0016 8.59 balance=521.25
+ok T0.444 withdraw m0018 6.00 balance=417.29
+now=5440000
+ok T0.445 withdraw m0026 5.00 balance=456.99
+ok T0.446 transfer m0016->m0003 2.52 balance=549.45
+now=5491000
+ok T0.447 withdraw m0027 472.35 balance=0.00
+close m0027 slot=26
+now=5546000
+ok T0.448 transfer m0026->m0003 1.94 balance=455.05
+ok T0.449 deposit m0025 14.87 balance=536.12
+ok T0.450 deposit m0025 1.62 balance=537.74
+ok T0.451 deposit m0016 35.55 balance=585.00
+ok T0.452 withdraw m0025 3.00 balance=534.74
+ok T0.453 withdraw m0024 432.16 balance=0.00
+close m0024 slot=23
+ok T0.454 deposit m0003 6.27 balance=177.79
+ok T0.455 transfer m0003->m0018 10.35 balance=167.44
+ok T0.456 transfer m0015->m0003 2.57 balance=499.99
+ok T0.457 deposit m0018 5.59 balance=433.23
+ok T0.458 transfer m0015->m0016 7.99 balance=492.00
+ok T0.459 deposit m0026 52.80 balance=507.85
+ok T0.460 transfer m0003->m0016 9.82 balance=160.19
+m0003 balance=160.19 held=0.00 available=160.19 spent_today=129.85 debits_last_hour=12
+ok T0.461 deposit m0015 13.83 balance=505.83
+ok T0.462 withdraw m0003 9.00 balance=151.19
+ok T0.463 withdraw m0018 1.00 balance=432.23
+ok T0.464 deposit m0026 1.24 balance=509.09
+ok T0.465 withdraw m0016 8.00 balance=594.81
+now=5642000
+ok T0.466 deposit m0016 25.72 balance=620.53
+ok T0.467 deposit m0003 7.53 balance=158.72
+now=5689000
+ok T0.468 transfer m0018->m0016 3.03 balance=429.20
+ok T0.469 withdraw m0025 7.00 balance=527.74
+ok T0.470 deposit m0026 31.81 balance=540.90
+ok T0.471 transfer m0003->m0025 10.15 balance=148.57
+ok T0.472 deposit m0018 33.08 balance=462.28
+ok T0.473 withdraw m0018 7.00 balance=455.28
+ok T0.474 deposit m0015 43.49 balance=549.32
+now=5708000
+ok T0.475 deposit m0026 7.21 balance=548.11
+ok T0.476 deposit m0025 30.84 balance=568.73
+ok T0.477 transfer m0003->m0026 20.55 balance=128.02
+ok T0.478 withdraw m0025 8.00 balance=560.73
+ok T0.479 withdraw m0016 7.00 balance=616.56
+batch B11 n=45 volume=2041.71 first=T0.435 last=T0.479 entry=10
+batch B11 settled
+ok T0.480 deposit m0026 23.24 balance=591.90
+open m0028 slot=27 gen=0
+ok T0.481 deposit m0028 229.00 balance=229.00
+now=5796000
+ok T0.482 transfer m0003->m0028 10.87 balance=117.15
+ok T0.483 transfer m0015->m0025 11.35 balance=537.97
+ok T0.484 deposit m0003 39.84 balance=156.99
+ok T0.485 withdraw m0025 572.08 balance=0.00
+close m0025 slot=24
+ok T0.486 transfer m0015->m0016 13.60 balance=524.37
+ok T0.487 deposit m0018 13.93 balance=469.21
+ok T0.488 withdraw m0015 2.00 balance=522.37
+ok T0.489 deposit m0015 30.12 balance=552.49
+ok T0.490 withdraw m0003 3.00 balance=153.99
+now=5829000
+open m0029 slot=28 gen=0
+ok T0.491 deposit m0029 81.00 balance=81.00
+ok T0.492 deposit m0028 14.84 balance=254.71
+ok T0.493 transfer m0018->m0016 19.56 balance=449.65
+ok T0.494 deposit m0028 4.29 balance=259.00
+now=5928000
+ok T0.495 transfer m0028->m0029 16.15 balance=242.85
+now=6046000
+ok T0.496 transfer m0015->m0026 10.40 balance=542.09
+ok T0.497 withdraw m0028 1.00 balance=241.85
+ok T0.498 withdraw m0029 4.00 balance=93.15
+ok T0.499 transfer m0018->m0026 13.53 balance=436.12
+ok T0.500 withdraw m0016 2.00 balance=647.72
+ok T0.501 transfer m0029->m0028 5.23 balance=87.92
+ok T0.502 deposit m0026 44.29 balance=660.12
+ok T0.503 transfer m0026->m0003 8.60 balance=651.52
+T0.496 transfer m0015->m0026 10.40 at=6046000
+T0.489 deposit ->m0015 30.12 at=5796000
+T0.488 withdraw m0015-> 2.00 at=5796000
+ok T0.504 deposit m0003 1.51 balance=164.10
+ok T0.505 withdraw m0028 4.00 balance=243.08
+open m0030 slot=29 gen=0
+ok T0.506 deposit m0030 383.00 balance=383.00
+T0.497 withdraw m0028-> 1.00 at=6046000
+now=6139000
+ok T0.507 withdraw m0029 5.00 balance=82.92
+ok T0.508 deposit m0018 55.90 balance=492.02
+ok T0.509 deposit m0029 44.10 balance=127.02
+now=6259000
+now=6369000
+holds m0015 count=0 held=0.00
+ok T0.510 withdraw m0030 5.00 balance=378.00
+ok T0.511 withdraw m0028 10.00 balance=233.08
+ok T0.512 reverse T0.494 4.29
+open m0031 slot=30 gen=0
+ok T0.513 deposit m0031 151.00 balance=151.00
+now=6470000
+ok T0.514 transfer m0015->m0003 8.84 balance=533.25
+ok T0.515 deposit m0016 7.01 balance=654.73
+now=6503000
+ok T0.516 deposit m0029 55.73 balance=182.75
+ok T0.517 deposit m0030 4.84 balance=382.84
+ok T0.518 deposit m0030 1.39 balance=384.23
+ok T0.519 deposit m0029 13.87 balance=196.62
+now=6545000
+ok T0.520 transfer m0029->m0016 16.64 balance=179.98
+batch B12 n=41 volume=1946.04 first=T0.480 last=T0.520 entry=11
+batch B12 settled
+ok T0.521 withdraw m0028 5.00 balance=223.79
+ok T0.522 withdraw m0029 179.98 balance=0.00
+close m0029 slot=28
+ok T0.523 transfer m0030->m0018 8.39 balance=375.84
+open m0032 slot=31 gen=0
+ok T0.524 deposit m0032 236.00 balance=236.00
+ok T0.525 withdraw m0015 7.00 balance=526.25
+ok T0.526 transfer m0031->m0018 8.49 balance=142.51
+now=6622000
+ok T0.527 withdraw m0016 8.00 balance=663.37
+ok T0.528 deposit m0018 15.00 balance=523.90
+ok T0.529 withdraw m0026 7.00 balance=644.52
+ok T0.530 deposit m0030 15.48 balance=391.32
+now=6716000
+now=6816000
+now=6849000
+ok T0.531 withdraw m0032 4.00 balance=232.00
+ok T0.532 transfer m0030->m0026 16.09 balance=375.23
+ok T0.533 withdraw m0031 6.00 balance=136.51
+ok T0.534 deposit m0003 9.53 balance=182.47
+ok T0.535 transfer m0003->m0015 12.41 balance=170.06
+journal records=536 folded=384 live=152 segments=2 sealed=1 compactions=1
+idem entries=64 capacity=64 evicted=13
+check ok records=536 live=152 accounts=9 holds=0 batches=12
+ok T0.536 transfer m0015->m0026 6.31 balance=532.35
+ok T0.537 transfer m0032->m0028 8.79 balance=223.21
+T0.536 transfer m0015->m0026 6.31 at=6849000
+T0.535 transfer m0003->m0015 12.41 at=6849000
+T0.525 withdraw m0015-> 7.00 at=6545000
+now=6904000
+ok T0.538 withdraw m0003 7.00 balance=163.06
+ok T0.539 withdraw m0015 6.00 balance=526.35
+ok T0.540 withdraw m0031 5.00 balance=131.51
+now=6963000
+ok T0.541 withdraw m0026 666.92 balance=0.00
+close m0026 slot=25
+now=7064000
+ok T0.542 deposit m0015 60.35 balance=586.70
+ok T0.543 deposit m0032 6.03 balance=229.24
+ok T0.544 deposit m0003 5.72 balance=168.78
+now=7170000
+ok T0.545 withdraw m0003 10.00 balance=158.78
+now=7249000
+ok T0.546 transfer m0016->m0018 14.66 balance=648.71
+ok T0.547 deposit m0030 34.64 balance=409.87
+now=7278000
+error: account m0026 is closed
+ok T0.548 deposit m0015 54.98 balance=641.68
+ok T0.549 deposit m0031 20.94 balance=152.45
+now=7331000
+ok T0.550 transfer m0031->m0018 6.86 balance=145.59
+open m0033 slot=32 gen=0
+ok T0.551 deposit m0033 226.00 balance=226.00
+ok T0.552 transfer m0028->m0032 7.57 balance=225.01
+ok T0.553 transfer m0016->m0003 15.95 balance=632.76
+now=7417000
+ok T0.554 deposit m0028 30.73 balance=255.74
+now=7452000
+ok T0.555 transfer m0032->m0016 6.11 balance=230.70
+ok T0.556 transfer m0015->m0028 9.71 balance=631.97
+now=7479000
+ok T0.557 transfer m0033->m0015 20.48 balance=205.52
+ok T0.558 transfer m0030->m0033 5.75 balance=404.12
+ok T0.559 deposit m0003 32.24 balance=206.97
+batch B13 n=39 volume=1807.11 first=T0.521 last=T0.559 entry=12
+batch B13 settled
+ok T0.560 withdraw m0033 7.00 balance=204.27
+ok T0.561 withdraw m0015 8.00 balance=644.45
+ok T0.562 deposit m0030 35.19 balance=439.31
+ok T0.563 transfer m0032->m0028 3.13 balance=227.57
+error: account m0026 is closed
+T0.558 transfer m0030->m0033 5.75 at=7479000
+ok T0.564 transfer m0033->m0028 14.80 balance=189.47
+now=7519000
+ok T0.565 transfer m0030->m0031 17.43 balance=421.88
+now=7614000
+ok T0.566 deposit m0016 47.13 balance=686.00
+holds m0018 count=0 held=0.00
+ok T0.567 reverse T0.543 6.03
+ok T0.568 withdraw m0032 8.00 balance=213.54
+ok T0.569 withdraw m0032 7.00 balance=206.54
+now=7708000
+ok T0.570 withdraw m0030 421.88 balance=0.00
+close m0030 slot=29
+ok T0.571 reverse T0.528 15.00
+ok T0.572 transfer m0003->m0033 19.92 balance=187.05
+now=7750000
+ok T0.573 withdraw m0003 3.00 balance=184.05
+now=7790000
+now=7886000
+ok T0.574 deposit m0003 45.57 balance=229.62
+ok T0.575 withdraw m0028 1.00 balance=282.38
+ok T0.576 withdraw m0031 9.00 balance=154.02
+ok T0.577 withdraw m0031 3.00 balance=151.02
+now=7946000
+ok T0.578 transfer m0028->m0032 2.93 balance=279.45
+now=8054000
+ok T0.579 deposit m0031 21.89 balance=172.91
+ok T0.580 transfer m0028->m0015 8.79 balance=270.66
+ok T0.581 deposit m0016 46.52 balance=732.52
+ok T0.582 withdraw m0031 172.91 balance=0.00
+close m0031 slot=30
+m0015 balance=653.24 held=0.00 available=653.24 spent_today=262.32 debits_last_hour=21
+ok T0.583 withdraw m0032 4.00 balance=205.47
+ok T0.584 transfer m0016->m0033 20.33 balance=712.19
+T0.547 deposit ->m0030 34.64 at=7249000
+now=8083000
+ok T0.585 deposit m0015 11.01 balance=664.25
+ok T0.586 deposit m0033 40.63 balance=270.35
+ok T0.587 deposit m0016 30.05 balance=742.24
+now=8172000
+T0.575 withdraw m0028-> 1.00 at=7886000
+ok T0.588 transfer m0033->m0016 20.98 balance=249.37
+ok T0.589 withdraw m0033 7.00 balance=242.37
+ok T0.590 deposit m0028 13.16 balance=283.82
+error: account m0026 is closed
+ok T0.591 transfer m0032->m0003 13.14 balance=192.33
+batch B14 n=32 volume=1085.42 first=T0.560 last=T0.591 entry=13
+batch B14 settled
+ok T0.592 deposit m0033 20.31 balance=262.68
+now=8180000
+ok T0.593 transfer m0003->m0016 12.41 balance=230.35
+now=8221000
+ok T0.594 transfer m0018->m0003 15.04 balance=515.38
+T0.592 deposit ->m0033 20.31 at=8172000
+T0.589 withdraw m0033-> 7.00 at=8172000
+T0.588 transfer m0033->m0016 20.98 at=8172000
+ok T0.595 withdraw m0028 283.82 balance=0.00
+close m0028 slot=27
+ok T0.596 transfer m0018->m0003 7.61 balance=507.77
+ok T0.597 transfer m0016->m0015 16.55 balance=759.08
+ok T0.598 deposit m0003 33.20 balance=286.20
+ok T0.599 transfer m0016->m0033 19.91 balance=739.17
+ok T0.600 withdraw m0003 5.00 balance=281.20
+ok T0.601 withdraw m0015 1.00 balance=679.80
+ok T0.602 transfer m0033->m0015 8.99 balance=273.60
+ok T0.603 withdraw m0032 10.00 balance=182.33
+ok T0.604 withdraw m0018 7.00 balance=500.77
+ok T0.605 withdraw m0033 7.00 balance=266.60
+ok T0.606 transfer m0032->m0003 16.32 balance=166.01
+ok T0.607 transfer m0016->m0032 7.39 balance=731.78
+ok T0.608 withdraw m0015 1.00 balance=687.79
+open m0034 slot=33 gen=0
+ok T0.609 deposit m0034 319.00 balance=319.00
+ok T0.610 withdraw m0018 6.00 balance=494.77
+now=8317000
+ok T0.611 withdraw m0034 7.00 balance=312.00
+ok T0.612 transfer m0018->m0003 17.59 balance=477.18
+ok T0.613 withdraw m0003 5.00 balance=310.11
+now=8382000
+ok T0.614 withdraw m0033 2.00 balance=264.60
+ok T0.615 withdraw m0034 8.00 balance=304.00
+now=8388000
+ok T0.616 withdraw m0016 6.00 balance=725.78
+ok T0.617 transfer m0034->m0033 12.36 balance=291.64
+ok T0.618 transfer m0033->m0003 11.65 balance=265.31
+holds m0033 count=0 held=0.00
+ok T0.619 deposit m0032 29.28 balance=202.68
+ok T0.620 transfer m0032->m0018 5.67 balance=197.01
+open m0035 slot=34 gen=0
+ok T0.621 deposit m0035 380.00 balance=380.00
+ok T0.622 transfer m0003->m0016 5.38 balance=316.38
+ok T0.623 transfer m0035->m0016 6.76 balance=373.24
+ok T0.624 transfer m0033->m0015 9.15 balance=256.16
+now=8487000
+ok T0.625 withdraw m0034 1.00 balance=290.64
+ok T0.626 transfer m0016->m0033 10.47 balance=727.45
+ok T0.627 transfer m0016->m0034 6.44 balance=721.01
+now=8531000
+now=8607000
+ok T0.628 deposit m0035 59.64 balance=432.88
+ok T0.629 transfer m0034->m0015 4.73 balance=292.35
+ok T0.630 transfer m0033->m0003 3.63 balance=263.00
+ok T0.631 transfer m0003->m0032 12.96 balance=307.05
+ok T0.632 deposit m0016 34.86 balance=755.87
+now=8691000
+ok T0.633 deposit m0033 53.31 balance=316.31
+ok T0.634 withdraw m0035 2.00 balance=430.88
+batch B15 n=43 volume=1492.43 first=T0.592 last=T0.634 entry=14
+batch B15 settled
+ok T0.635 deposit m0032 57.36 balance=267.33
+now=8779000
+ok T0.636 withdraw m0034 292.35 balance=0.00
+close m0034 slot=33
+ok T0.637 transfer m0018->m0033 5.17 balance=477.68
+ok T0.638 deposit m0035 59.39 balance=490.27
+ok T0.639 transfer m0033->m0035 1.04 balance=320.44
+ok T0.640 withdraw m0003 2.00 balance=305.05
+ok T0.641 deposit m0015 44.13 balance=745.80
+ok T0.642 deposit m0015 14.55 balance=760.35
+ok T0.643 transfer m0016->m0003 3.89 balance=751.98
+ok T0.644 withdraw m0018 2.00 balance=475.68
+ok T0.645 deposit m0035 23.96 balance=515.27
+ok T0.646 deposit m0018 57.17 balance=532.85
+ok T0.647 withdraw m0003 2.00 balance=306.94
+ok T0.648 transfer m0018->m0032 6.36 balance=526.49
+ok T0.649 transfer m0018->m0003 2.83 balance=523.66
+ok T0.650 transfer m0003->m0035 2.13 balance=307.64
+ok T0.651 deposit m0032 37.71 balance=311.40
+now=8784000
+ok T0.652 withdraw m0016 4.00 balance=747.98
+ok T0.653 deposit m0016 52.20 balance=800.18
+ok T0.654 deposit m0016 44.92 balance=845.10
+ok T0.655 transfer m0035->m0033 9.30 balance=508.10
+holds m0033 count=0 held=0.00
+ok T0.656 deposit m0035 49.11 balance=557.21
+ok T0.657 withdraw m0003 5.00 balance=302.64
+ok T0.658 deposit m0016 34.40 balance=879.50
+ok T0.659 deposit m0018 54.86 balance=578.52
+ok T0.660 withdraw m0032 7.00 balance=304.40
+ok T0.661 deposit m0016 29.42 balance=908.92
+ok T0.662 withdraw m0016 908.92 balance=0.00
+close m0016 slot=15
+ok T0.663 transfer m0018->m0015 10.08 balance=568.44
+ok T0.664 withdraw m0015 8.00 balance=762.43
+ok T0.665 withdraw m0003 10.00 balance=292.64
+holds m0018 count=0 held=0.00
+ok T0.666 withdraw m0035 3.00 balance=554.21
+holds m0033 count=0 held=0.00
+ok T0.667 deposit m0018 44.18 balance=612.62
+ok T0.668 deposit m0032 33.28 balance=337.68
+ok T0.669 withdraw m0018 1.00 balance=611.62
+ok T0.670 transfer m0033->m0015 2.80 balance=326.94
+ok T0.671 deposit m0015 54.61 balance=819.84
+now=8825000
+ok T0.672 transfer m0032->m0035 20.91 balance=316.77
+ok T0.673 withdraw m0033 2.00 balance=324.94
+ok T0.674 deposit m0032 1.68 balance=318.45
+ok T0.675 transfer m0035->m0003 13.94 balance=561.18
+ok T0.676 transfer m0003->m0035 17.04 balance=289.54
+error: account m0034 is closed
+ok T0.677 deposit m0032 29.51 balance=347.96
+ok T0.678 deposit m0018 48.50 balance=660.12
+ok T0.679 transfer m0018->m0003 16.31 balance=643.81
+batch B16 n=45 volume=2130.01 first=T0.635 last=T0.679 entry=15
+batch B16 settled
+ok T0.680 deposit m0018 30.63 balance=674.44
+ok T0.681 deposit m0015 17.74 balance=837.58
+ok T0.682 deposit m0032 4.80 balance=352.76
+ok T0.683 deposit m0003 30.74 balance=336.59
+ok T0.684 withdraw m0018 5.00 balance=669.44
+ok T0.685 withdraw m0032 10.00 balance=342.76
+now=8926000
+ok T0.686 withdraw m0018 6.00 balance=663.44
+ok T0.687 deposit m0035 51.82 balance=630.04
+open m0036 slot=35 gen=0
+ok T0.688 deposit m0036 317.00 balance=317.00
+ok T0.689 deposit m0018 43.12 balance=706.56
+ok T0.690 deposit m0036 53.95 balance=370.95
+ok T0.691 withdraw m0033 7.00 balance=317.94
+ok T0.692 withdraw m0036 4.00 balance=366.95
+ok T0.693 transfer m0015->m0036 14.74 balance=822.84
+ok T0.694 deposit m0015 23.40 balance=846.24
+ok T0.695 deposit m0033 12.67 balance=330.61
+ok T0.696 withdraw m0003 10.00 balance=326.59
+T0.695 deposit ->m0033 12.67 at=8926000
+T0.691 withdraw m0033-> 7.00 at=8926000
+T0.673 withdraw m0033-> 2.00 at=8825000
+ok T0.697 deposit m0015 31.56 balance=877.80
+ok T0.698 withdraw m0018 7.00 balance=699.56
+open m0037 slot=36 gen=0
+ok T0.699 deposit m0037 319.00 balance=319.00
+ok T0.700 withdraw m0033 5.00 balance=325.61
+ok T0.701 transfer m0032->m0003 13.11 balance=329.65
+ok T0.702 withdraw m0018 10.00 balance=689.56
+ok T0.703 withdraw m0037 9.00 balance=310.00
+ok T0.704 transfer m0037->m0033 18.64 balance=291.36
+ok T0.705 reverse T0.702 10.00
+now=8999000
+now=9038000
+ok T0.706 withdraw m0036 381.69 balance=0.00
+close m0036 slot=35
+ok T0.707 withdraw m0032 3.00 balance=326.65
+ok T0.708 deposit m0018 24.64 balance=724.20
+ok T0.709 deposit m0015 31.82 balance=909.62
+ok T0.710 deposit m0033 42.93 balance=387.18
+ok T0.711 deposit m0003 3.37 balance=343.07
+now=9040000
+ok T0.712 transfer m0037->m0035 7.53 balance=283.83
+now=9104000
+ok T0.713 transfer m0033->m0037 9.99 balance=377.19
+ok T0.714 withdraw m0018 724.20 balance=0.00
+close m0018 slot=17
+open m0038 slot=37 gen=0
+ok T0.715 deposit m0038 459.00 balance=459.00
+ok T0.716 withdraw m0032 3.00 balance=323.65
+ok T0.717 withdraw m0032 7.00 balance=316.65
+now=9122000
+now=9136000
+ok T0.718 withdraw m0035 7.00 balance=630.57
+ok T0.719 withdraw m0035 9.00 balance=621.57
+ok T0.720 transfer m0015->m0035 19.00 balance=890.62
+ok T0.721 transfer m0015->m0037 11.90 balance=878.72
+ok T0.722 withdraw m0015 9.00 balance=869.72
+now=9194000
+ok T0.723 withdraw m0015 7.00 balance=862.72
+ok T0.724 deposit m0035 32.93 balance=673.50
+holds m0033 count=0 held=0.00
+T0.723 withdraw m0015-> 7.00 at=9194000
+T0.722 withdraw m0015-> 9.00 at=9136000
+T0.721 transfer m0015->m0037 11.90 at=9136000
+ok T0.725 reverse T0.683 30.74
+batch B17 n=46 volume=2890.66 first=T0.680 last=T0.725 entry=0
+batch B17 settled
+ok T0.726 deposit m0032 36.91 balance=353.56
+T0.687 deposit ->m0035 51.82 at=8926000
+ok T0.727 transfer m0033->m0038 3.89 balance=373.30
+ok T0.728 deposit m0038 21.75 balance=484.64
+ok T0.729 transfer m0003->m0033 20.15 balance=292.18
+ok T0.730 withdraw m0032 353.56 balance=0.00
+close m0032 slot=31
+ok T0.731 transfer m0037->m0015 19.29 balance=286.43
+open m0039 slot=38 gen=0
+ok T0.732 deposit m0039 208.00 balance=208.00
+ok T0.733 withdraw m0015 2.00 balance=880.01
+ok T0.734 withdraw m0003 10.00 balance=282.18
+ok T0.735 deposit m0037 35.03 balance=321.46
+ok T0.736 withdraw m0003 7.00 balance=275.18
+ok T0.737 deposit m0003 60.57 balance=335.75
+error: T0.702 already reversed by T0.705
+ok T0.738 deposit m0037 50.40 balance=371.86
+now=9282000
+ok T0.739 transfer m0038->m0039 2.48 balance=482.16
+ok T0.740 transfer m0037->m0039 8.98 balance=362.88
+holds m0003 count=0 held=0.00
+ok T0.741 withdraw m0033 6.00 balance=387.45
+ok T0.742 deposit m0015 40.69 balance=920.70
+ok T0.743 transfer m0035->m0039 8.31 balance=665.19
+ok T0.744 transfer m0039->m0033 13.39 balance=214.38
+ok T0.745 withdraw m0033 400.84 balance=0.00
+close m0033 slot=32
+ok T0.746 deposit m0037 53.84 balance=416.72
+ok T0.747 withdraw m0035 2.00 balance=663.19
+ok T0.748 deposit m0038 47.81 balance=529.97
+now=9340000
+T0.744 transfer m0039->m0033 13.39 at=9282000
+T0.743 transfer m0035->m0039 8.31 at=9282000
+T0.740 transfer m0037->m0039 8.98 at=9282000
+open m0040 slot=39 gen=0
+ok T0.749 deposit m0040 206.00 balance=206.00
+now=9412000
+now=9472000
+T0.741 withdraw m0033-> 6.00 at=9282000
+ok T0.750 deposit m0015 23.21 balance=943.91
+now=9576000
+ok T0.751 deposit m0003 12.25 balance=348.00
+ok T0.752 withdraw m0037 7.00 balance=409.72
+ok T0.753 withdraw m0015 8.00 balance=935.91
+ok T0.754 deposit m0003 38.11 balance=386.11
+ok T0.755 transfer m0035->m0038 5.40 balance=657.79
+ok T0.756 deposit m0040 40.00 balance=246.00
+ok T0.757 withdraw m0038 10.00 balance=525.37
+ok T0.758 withdraw m0038 4.00 balance=521.37
+open m0041 slot=40 gen=0
+ok T0.759 deposit m0041 185.00 balance=185.00
+ok T0.760 withdraw m0035 9.00 balance=648.79
+ok T0.761 withdraw m0041 4.00 balance=181.00
+ok T0.762 transfer m0040->m0041 3.32 balance=242.68
+ok T0.763 withdraw m0038 3.00 balance=518.37
+ok T0.764 reverse T0.753 8.00
+ok T0.765 withdraw m0035 3.00 balance=645.79
+ok T0.766 withdraw m0035 645.79 balance=0.00
+close m0035 slot=34
+open m0042 slot=41 gen=0
+ok T0.767 deposit m0042 361.00 balance=361.00
+batch B18 n=42 volume=2988.97 first=T0.726 last=T0.767 entry=1
+batch B18 settled
+ok T0.768 withdraw m0038 4.00 balance=514.37
+ok T0.769 deposit m0037 47.71 balance=457.43
+ok T0.770 transfer m0038->m0015 12.83 balance=501.54
+ok T0.771 withdraw m0003 6.00 balance=380.11
+ok T0.772 withdraw m0040 2.00 balance=240.68
+ok T0.773 transfer m0039->m0040 14.69 balance=199.69
+now=9661000
+ok T0.774 deposit m0015 9.09 balance=965.83
+ok T0.775 transfer m0042->m0003 9.19 balance=351.81
+ok T0.776 transfer m0015->m0037 3.07 balance=962.76
+ok T0.777 withdraw m0042 351.81 balance=0.00
+close m0042 slot=41
+ok T0.778 deposit m0037 51.73 balance=512.23
+ok T0.779 deposit m0038 60.33 balance=561.87
+ok T0.780 withdraw m0040 255.37 balance=0.00
+close m0040 slot=39
+open m0043 slot=42 gen=0
+ok T0.781 deposit m0043 293.00 balance=293.00
+ok T0.782 withdraw m0041 8.00 balance=176.32
+now=9697000
+m0041 balance=176.32 held=0.00 available=176.32 spent_today=12.00 debits_last_hour=2
+ok T0.783 transfer m0037->m0015 10.89 balance=501.34
+ok T0.784 withdraw m0038 10.00 balance=551.87
+ok T0.785 withdraw m0015 5.00 balance=968.65
+now=9764000
+ok T0.786 deposit m0043 31.62 balance=324.62
+ok T0.787 transfer m0038->m0043 18.09 balance=533.78
+ok T0.788 deposit m0039 10.17 balance=209.86
+ok T0.789 transfer m0037->m0015 4.62 balance=496.72
+ok T0.790 withdraw m0015 9.00 balance=964.27
+ok T0.791 deposit m0043 3.05 balance=345.76
+ok T0.792 withdraw m0037 10.00 balance=486.72
+ok T0.793 deposit m0003 60.31 balance=449.61
+ok T0.794 transfer m0037->m0041 5.74 balance=480.98
+ok T0.795 deposit m0039 36.12 balance=245.98
+T0.794 transfer m0037->m0041 5.74 at=9764000
+T0.792 withdraw m0037-> 10.00 at=9764000
+T0.789 transfer m0037->m0015 4.62 at=9764000
+ok T0.796 deposit m0043 41.57 balance=387.33
+ok T0.797 deposit m0015 53.23 balance=1017.50
+ok T0.798 deposit m0037 16.43 balance=497.41
+ok T0.799 deposit m0043 40.38 balance=427.71
+ok T0.800 deposit m0015 40.01 balance=1057.51
+ok T0.801 withdraw m0038 5.00 balance=528.78
+now=9785000
+ok T0.802 withdraw m0003 10.00 balance=439.61
+ok T0.803 withdraw m0039 9.00 balance=236.98
+ok T0.804 transfer m0043->m0015 6.58 balance=421.13
+ok T0.805 transfer m0003->m0041 12.78 balance=426.83
+ok T0.806 withdraw m0003 10.00 balance=416.83
+ok T0.807 transfer m0003->m0043 3.23 balance=413.60
+T0.805 transfer m0003->m0041 12.78 at=9785000
+T0.794 transfer m0037->m0041 5.74 at=9764000
+T0.782 withdraw m0041-> 8.00 at=9661000
+ok T0.808 transfer m0003->m0015 15.39 balance=398.21
+ok T0.809 deposit m0039 17.99 balance=254.97
+ok T0.810 deposit m0038 48.79 balance=577.57
+ok T0.811 deposit m0041 3.25 balance=198.09
+ok T0.812 transfer m0038->m0043 3.91 balance=573.66
+ok T0.813 deposit m0003 19.57 balance=417.78
+ok T0.814 deposit m0015 15.51 balance=1094.99
+batch B19 n=47 volume=1716.05 first=T0.768 last=T0.814 entry=2
+batch B19 settled
+ok T0.815 transfer m0041->m0037 4.62 balance=193.47
+ok T0.816 transfer m0043->m0038 18.49 balance=409.78
+ok T0.817 deposit m0003 33.02 balance=450.80
+now=9809000
+now=9860000
+now=9870000
+ok T0.818 deposit m0038 57.29 balance=649.44
+ok T0.819 deposit m0043 28.77 balance=438.55
+ok T0.820 withdraw m0037 7.00 balance=495.03
+holds m0043 count=0 held=0.00
+ok T0.821 deposit m0037 34.33 balance=529.36
+now=9950000
+ok T0.822 transfer m0041->m0038 15.62 balance=177.85
+open m0044 slot=43 gen=0
+ok T0.823 deposit m0044 336.00 balance=336.00
+ok T0.824 deposit m0037 30.53 balance=559.89
+ok T0.825 withdraw m0044 8.00 balance=328.00
+ok T0.826 withdraw m0037 7.00 balance=552.89
+ok T0.827 withdraw m0003 5.00 balance=445.80
+ok T0.828 withdraw m0038 4.00 balance=661.06
+ok T0.829 transfer m0044->m0039 9.41 balance=318.59
+ok T0.830 transfer m0039->m0037 9.57 balance=254.81
+ok T0.831 deposit m0043 45.97 balance=484.52
+ok T0.832 withdraw m0043 3.00 balance=481.52
+ok T0.833 deposit m0003 60.21 balance=506.01
+ok T0.834 deposit m0044 19.12 balance=337.71
+now=9998000
+now=10098000
+ok T0.835 withdraw m0037 562.46 balance=0.00
+close m0037 slot=36
+ok T0.836 deposit m0039 21.27 balance=276.08
+ok T0.837 transfer m0044->m0039 17.63 balance=320.08
+T0.829 transfer m0044->m0039 9.41 at=9950000
+now=10180000
+now=10253000
+ok T0.838 withdraw m0003 4.00 balance=502.01
+ok T0.839 deposit m0041 58.35 balance=236.20
+ok T0.840 deposit m0003 60.44 balance=562.45
+ok T0.841 transfer m0044->m0043 18.17 balance=301.91
+ok T0.842 transfer m0038->m0043 8.71 balance=652.35
+ok T0.843 deposit m0043 27.16 balance=535.56
+ok T0.844 withdraw m0015 1094.99 balance=0.00
+close m0015 slot=14
+ok T0.845 transfer m0044->m0043 7.41 balance=294.50
+open m0045 slot=44 gen=0
+ok T0.846 deposit m0045 222.00 balance=222.00
+ok T0.847 deposit m0003 22.12 balance=584.57
+ok T0.848 withdraw m0003 5.00 balance=579.57
+ok T0.849 withdraw m0038 2.00 balance=650.35
+ok T0.850 deposit m0044 17.62 balance=312.12
+ok T0.851 transfer m0041->m0045 7.57 balance=228.63
+ok T0.852 transfer m0044->m0038 7.67 balance=304.45
+ok T0.853 reverse T0.817 33.02
+ok T0.854 deposit m0043 19.52 balance=562.49
+ok T0.855 withdraw m0044 4.00 balance=300.45
+ok T0.856 withdraw m0041 10.00 balance=218.63
+ok T0.857 deposit m0041 54.12 balance=272.75
+ok T0.858 transfer m0041->m0043 18.23 balance=254.52
+batch B20 n=44 volume=3040.41 first=T0.815 last=T0.858 entry=3
+batch B20 settled
+ok T0.859 deposit m0043 29.85 balance=610.57
+now=10338000
+now=10441000
+ok T0.860 transfer m0003->m0041 13.44 balance=533.11
+ok T0.861 withdraw m0041 1.00 balance=266.96
+ok T0.862 withdraw m0039 6.00 balance=287.71
+ok T0.863 transfer m0044->m0003 13.87 balance=286.58
+ok T0.864 deposit m0045 7.33 balance=236.90
+ok T0.865 transfer m0044->m0003 3.01 balance=283.57
+ok T0.866 withdraw m0044 8.00 balance=275.57
+ok T0.867 transfer m0043->m0003 6.13 balance=604.44
+ok T0.868 withdraw m0003 556.12 balance=0.00
+close m0003 slot=2
+ok T0.869 withdraw m0045 3.00 balance=233.90
+ok T0.870 transfer m0043->m0041 15.96 balance=588.48
+ok T0.871 withdraw m0039 3.00 balance=284.71
+ok T0.872 transfer m0038->m0045 8.64 balance=649.38
+ok T0.873 transfer m0044->m0045 10.89 balance=264.68
+ok T0.874 deposit m0044 51.43 balance=316.11
+ok T0.875 transfer m0041->m0043 3.02 balance=279.90
+open m0046 slot=45 gen=0
+ok T0.876 deposit m0046 466.00 balance=466.00
+ok T0.877 withdraw m0044 7.00 balance=309.11
+ok T0.878 transfer m0046->m0043 18.63 balance=447.37
+open m0047 slot=46 gen=0
+ok T0.879 deposit m0047 454.00 balance=454.00
+ok T0.880 withdraw m0047 4.00 balance=450.00
+ok T0.881 deposit m0044 32.03 balance=341.14
+journal records=882 folded=384 live=498 segments=4 sealed=3 compactions=1
+idem entries=64 capacity=64 evicted=72
+check ok records=882 live=498 accounts=8 holds=0 batches=20
+ok T0.882 transfer m0038->m0044 8.49 balance=640.89
+ok T0.883 transfer m0043->m0047 14.76 balance=595.37
+ok T0.884 deposit m0039 42.26 balance=326.97
+ok T0.885 deposit m0043 20.35 balance=615.72
+ok T0.886 transfer m0039->m0045 12.14 balance=314.83
+open m0048 slot=47 gen=0
+ok T0.887 deposit m0048 325.00 balance=325.00
+ok T0.888 deposit m0043 42.43 balance=658.15
+open m0049 slot=48 gen=0
+ok T0.889 deposit m0049 77.00 balance=77.00
+ok T0.890 transfer m0044->m0038 9.81 balance=339.82
+ok T0.891 deposit m0046 16.94 balance=464.31
+now=10495000
+ok T0.892 withdraw m0038 10.00 balance=640.70
+ok T0.893 deposit m0043 15.47 balance=673.62
+ok T0.894 deposit m0041 22.82 balance=302.72
+ok T0.895 withdraw m0044 5.00 balance=334.82
+ok T0.896 transfer m0039->m0041 15.91 balance=298.92
+ok T0.897 withdraw m0048 10.00 balance=315.00
+ok T0.898 deposit m0039 15.00 balance=313.92
+now=10570000
+now=10644000
+ok T0.899 transfer m0045->m0048 12.22 balance=253.35
+batch B21 n=41 volume=2397.95 first=T0.859 last=T0.899 entry=4
+batch B21 settled
+m0047 balance=464.76 held=0.00 available=464.76 spent_today=4.00 debits_last_hour=1
+holds m0045 count=0 held=0.00
+now=10675000
+ok T0.900 withdraw m0045 2.00 balance=251.35
+open m0050 slot=49 gen=0
+ok T0.901 deposit m0050 440.00 balance=440.00
+ok T0.902 withdraw m0049 5.00 balance=72.00
+ok T0.903 withdraw m0044 9.00 balance=325.82
+now=10704000
+ok T0.904 deposit m0043 13.14 balance=686.76
+ok T0.905 deposit m0043 26.28 balance=713.04
+now=10723000
+now=10778000
+ok T0.906 transfer m0039->m0043 6.53 balance=307.39
+ok T0.907 withdraw m0043 1.00 balance=718.57
+ok T0.908 deposit m0041 58.08 balance=376.71
+ok T0.909 transfer m0041->m0038 3.29 balance=373.42
+ok T0.910 transfer m0044->m0049 8.39 balance=317.43
+T0.910 transfer m0044->m0049 8.39 at=10778000
+T0.910 transfer m0044->m0049 8.39 at=10778000
+T0.902 withdraw m0049-> 5.00 at=10675000
+T0.889 deposit ->m0049 77.00 at=10441000
+ok T0.911 deposit m0050 55.35 balance=495.35
+open m0051 slot=50 gen=0
+ok T0.912 deposit m0051 56.00 balance=56.00
+ok T0.913 transfer m0049->m0038 7.97 balance=72.42
+now=10825000
+ok T0.914 transfer m0045->m0048 7.59 balance=243.76
+ok T0.915 withdraw m0038 7.00 balance=644.96
+now=10839000
+ok T0.916 withdraw m0039 7.00 balance=300.39
+ok T0.917 withdraw m0039 4.00 balance=296.39
+holds m0047 count=0 held=0.00
+open m0052 slot=51 gen=0
+ok T0.918 deposit m0052 294.00 balance=294.00
+ok T0.919 deposit m0049 40.15 balance=112.57
+ok T0.920 transfer m0048->m0043 2.14 balance=332.67
+now=10931000
+ok T0.921 deposit m0047 32.32 balance=497.08
+ok T0.922 transfer m0041->m0048 9.22 balance=364.20
+ok T0.923 withdraw m0047 10.00 balance=487.08
+m0052 balance=294.00 held=0.00 available=294.00 spent_today=0.00 debits_last_hour=0
+ok T0.924 withdraw m0046 7.00 balance=457.31
+ok T0.925 transfer m0052->m0050 11.54 balance=282.46
+ok T0.926 deposit m0048 28.57 balance=370.46
+ok T0.927 withdraw m0041 5.00 balance=359.20
+open m0053 slot=52 gen=0
+ok T0.928 deposit m0053 139.00 balance=139.00
+now=11038000
+ok T0.929 deposit m0043 5.01 balance=725.72
+ok T0.930 transfer m0047->m0041 8.90 balance=478.18
+T0.900 withdraw m0045-> 2.00 at=10675000
+batch B22 n=31 volume=1310.47 first=T0.900 last=T0.930 entry=5
+batch B22 settled
+ok T0.931 withdraw m0047 478.18 balance=0.00
+close m0047 slot=46
+now=11043000
+T0.895 withdraw m0044-> 5.00 at=10495000
+ok T0.932 withdraw m0038 3.00 balance=641.96
+ok T0.933 deposit m0048 54.18 balance=424.64
+ok T0.934 deposit m0051 3.11 balance=59.11
+ok T0.935 deposit m0050 4.34 balance=511.23
+ok T0.936 withdraw m0045 10.00 balance=233.76
+ok T0.937 transfer m0053->m0049 20.70 balance=118.30
+now=11137000
+ok T0.938 withdraw m0045 9.00 balance=224.76
+now=11169000
+now=11245000
+ok T0.939 deposit m0052 58.99 balance=341.45
+ok T0.940 deposit m0046 59.06 balance=516.37
+ok T0.941 deposit m0044 6.30 balance=323.73
+ok T0.942 withdraw m0048 3.00 balance=421.64
+now=11335000
+ok T0.943 withdraw m0050 6.00 balance=505.23
+T0.911 deposit ->m0050 55.35 at=10778000
+ok T0.944 deposit m0041 37.38 balance=405.48
+ok T0.945 withdraw m0048 9.00 balance=412.64
+ok T0.946 transfer m0039->m0038 4.10 balance=292.29
+now=11354000
+ok T0.947 withdraw m0048 4.00 balance=408.64
+ok T0.948 transfer m0041->m0046 4.56 balance=400.92
+ok T0.949 deposit m0044 53.22 balance=376.95
+ok T0.950 deposit m0046 42.53 balance=563.46
+ok T0.951 deposit m0051 19.05 balance=78.16
+now=11397000
+holds m0038 count=0 held=0.00
+ok T0.952 reverse T0.935 4.34
+now=11457000
+ok T0.953 deposit m0044 20.01 balance=396.96
+ok T0.954 withdraw m0039 10.00 balance=282.29
+ok T0.955 transfer m0038->m0049 7.44 balance=638.62
+open m0054 slot=53 gen=0
+ok T0.956 deposit m0054 80.00 balance=80.00
+now=11511000
+ok T0.957 transfer m0053->m0050 4.56 balance=113.74
+ok T0.958 deposit m0050 6.52 balance=511.97
+ok T0.959 deposit m0054 16.85 balance=96.85
+ok T0.960 deposit m0048 11.75 balance=420.39
+ok T0.961 transfer m0041->m0043 6.49 balance=394.43
+ok T0.962 withdraw m0038 2.00 balance=636.62
+ok T0.963 transfer m0048->m0052 7.32 balance=413.07
+now=11626000
+now=11742000
+ok T0.964 deposit m0050 50.19 balance=562.16
+now=11817000
+now=11876000
+ok T0.965 deposit m0051 27.04 balance=105.20
+ok T0.966 withdraw m0045 1.00 balance=223.76
+ok T0.967 deposit m0039 43.12 balance=325.41
+batch B23 n=37 volume=1188.33 first=T0.931 last=T0.967 entry=6
+batch B23 settled
+ok T0.968 withdraw m0046 563.46 balance=0.00
+close m0046 slot=45
+ok T0.969 transfer m0044->m0054 9.21 balance=387.75
+ok T0.970 withdraw m0053 9.00 balance=104.74
+now=11973000
+ok T0.971 transfer m0048->m0041 13.55 balance=399.52
+now=12056000
+ok T0.972 deposit m0044 39.47 balance=427.22
+open m0055 slot=54 gen=0
+ok T0.973 deposit m0055 168.00 balance=168.00
+ok T0.974 deposit m0045 59.93 balance=283.69
+ok T0.975 withdraw m0039 6.00 balance=319.41
+ok T0.976 transfer m0039->m0052 14.45 balance=304.96
+m0048 balance=399.52 held=0.00 available=399.52 spent_today=49.01 debits_last_hour=7
+now=12091000
+ok T0.977 withdraw m0051 10.00 balance=95.20
+ok T0.978 deposit m0055 8.11 balance=176.11
+ok T0.979 transfer m0050->m0049 8.52 balance=553.64
+ok T0.980 transfer m0052->m0053 1.05 balance=362.17
+ok T0.981 transfer m0038->m0050 7.78 balance=628.84
+ok T0.982 transfer m0050->m0045 14.53 balance=546.89
+ok T0.983 withdraw m0045 10.00 balance=288.22
+ok T0.984 withdraw m0054 9.00 balance=97.06
+ok T0.985 withdraw m0048 399.52 balance=0.00
+close m0048 slot=47
+ok T0.986 deposit m0041 40.75 balance=448.73
+ok T0.987 withdraw m0045 7.00 balance=281.22
+ok T0.988 withdraw m0038 7.00 balance=621.84
+ok T0.989 deposit m0043 42.33 balance=774.54
+ok T0.990 withdraw m0053 4.00 balance=101.79
+ok T0.991 withdraw m0050 1.00 balance=545.89
+ok T0.992 withdraw m0054 97.06 balance=0.00
+close m0054 slot=53
+ok T0.993 withdraw m0053 10.00 balance=91.79
+ok T0.994 withdraw m0051 9.00 balance=86.20
+now=12122000
+ok T0.995 withdraw m0051 9.00 balance=77.20
+ok T0.996 withdraw m0043 774.54 balance=0.00
+close m0043 slot=42
+ok T0.997 deposit m0041 32.74 balance=481.47
+ok T0.998 withdraw m0045 8.00 balance=273.22
+ok T0.999 deposit m0050 59.24 balance=605.13
+ok T0.1000 withdraw m0039 7.00 balance=297.96
+ok T0.1001 withdraw m0041 8.00 balance=473.47
+ok T0.1002 deposit m0051 43.51 balance=120.71
+ok T0.1003 reverse T0.970 9.00
+ok T0.1004 withdraw m0038 3.00 balance=618.84
+ok T0.1005 transfer m0039->m0051 11.23 balance=286.73
+open m0056 slot=55 gen=0
+ok T0.1006 deposit m0056 108.00 balance=108.00
+ok T0.1007 deposit m0041 37.16 balance=510.63
+ok T0.1008 deposit m0050 50.36 balance=655.49
+ok T0.1009 withdraw m0052 2.00 balance=360.17
+ok T0.1010 withdraw m0053 100.79 balance=0.00
+close m0053 slot=52
+now=12149000
+ok T0.1011 transfer m0044->m0041 16.93 balance=410.29
+batch B24 n=44 volume=2850.22 first=T0.968 last=T0.1011 entry=7
+batch B24 settled
+now=12269000
+ok T0.1012 deposit m0050 25.80 balance=681.29
+ok T0.1013 deposit m0052 49.46 balance=409.63
+ok T0.1014 withdraw m0055 6.00 balance=170.11
+now=12370000
+T0.994 withdraw m0051-> 9.00 at=12091000
+now=12419000
+now=12494000
+ok T0.1015 deposit m0045 56.67 balance=329.89
+ok T0.1016 transfer m0055->m0045 4.16 balance=165.95
+now=12597000
+ok T0.1017 deposit m0038 52.99 balance=671.83
+ok T0.1018 deposit m0038 32.80 balance=704.63
+ok T0.1019 deposit m0052 28.01 balance=437.64
+ok T0.1020 withdraw m0055 165.95 balance=0.00
+close m0055 slot=54
+ok T0.1021 withdraw m0056 1.00 balance=107.00
+ok T0.1022 deposit m0045 6.47 balance=340.52
+now=12681000
+ok T0.1023 transfer m0056->m0052 13.74 balance=93.26
+m0045 balance=340.52 held=0.00 available=340.52 spent_today=69.81 debits_last_hour=10
+ok T0.1024 deposit m0041 22.91 balance=550.47
+ok T0.1025 withdraw m0050 4.00 balance=677.29
+ok T0.1026 transfer m0052->m0041 2.83 balance=448.55
+ok T0.1027 transfer m0045->m0038 12.69 balance=327.83
+ok T0.1028 deposit m0044 18.08 balance=428.37
+ok T0.1029 withdraw m0049 4.00 balance=145.23
+ok T0.1030 reverse T0.1008 50.36
+open m0057 slot=56 gen=0
+ok T0.1031 deposit m0057 103.00 balance=103.00
+now=12765000
+ok T0.1032 deposit m0051 45.59 balance=177.53
+ok T0.1033 transfer m0056->m0039 7.56 balance=85.70
+now=12884000
+ok T0.1034 withdraw m0050 626.93 balance=0.00
+close m0050 slot=49
+ok T0.1035 deposit m0051 58.53 balance=236.06
+ok T0.1036 transfer m0052->m0057 12.47 balance=436.08
+ok T0.1037 deposit m0057 10.01 balance=125.48
+now=12947000
+ok T0.1038 deposit m0049 58.23 balance=203.46
+now=12956000
+ok T0.1039 deposit m0041 30.10 balance=583.40
+ok T0.1040 withdraw m0056 7.00 balance=78.70
+ok T0.1041 withdraw m0038 5.00 balance=712.32
+error: account m0050 is closed
+ok T0.1042 transfer m0039->m0045 13.41 balance=280.88
+ok T0.1043 deposit m0044 11.74 balance=440.11
+ok T0.1044 withdraw m0056 6.00 balance=72.70
+now=13039000
+ok T0.1045 deposit m0052 18.74 balance=454.82
+ok T0.1046 transfer m0041->m0052 2.45 balance=580.95
+now=13054000
+ok T0.1047 withdraw m0049 9.00 balance=194.46
+ok T0.1048 transfer m0045->m0039 17.65 balance=323.59
+now=13119000
+ok T0.1049 deposit m0041 14.76 balance=595.71
+batch B25 n=38 volume=1616.09 first=T0.1012 last=T0.1049 entry=8
+batch B25 settled
+now=13173000
+T0.1016 transfer m0055->m0045 4.16 at=12494000
+ok T0.1050 transfer m0044->m0041 3.36 balance=436.75
+now=13264000
+ok T0.1051 deposit m0056 8.75 balance=81.45
+T0.1016 transfer m0055->m0045 4.16 at=12494000
+ok T0.1052 transfer m0039->m0056 4.84 balance=293.69
+now=13354000
+ok T0.1053 withdraw m0056 9.00 balance=77.29
+ok T0.1054 withdraw m0041 599.07 balance=0.00
+close m0041 slot=40
+ok T0.1055 withdraw m0044 7.00 balance=429.75
+ok T0.1056 transfer m0038->m0049 15.91 balance=696.41
+ok T0.1057 transfer m0044->m0038 18.38 balance=411.37
+ok T0.1058 deposit m0038 39.08 balance=753.87
+ok T0.1059 withdraw m0049 210.37 balance=0.00
+close m0049 slot=48
+ok T0.1060 deposit m0051 1.07 balance=237.13
+ok T0.1061 withdraw m0056 2.00 balance=75.29
+ok T0.1062 withdraw m0051 8.00 balance=229.13
+now=13410000
+ok T0.1063 deposit m0051 46.84 balance=275.97
+now=13435000
+open m0058 slot=57 gen=0
+ok T0.1064 deposit m0058 264.00 balance=264.00
+ok T0.1065 withdraw m0044 2.00 balance=409.37
+now=13547000
+ok T0.1066 transfer m0051->m0038 2.80 balance=273.17
+ok T0.1067 deposit m0044 15.08 balance=424.45
+now=13609000
+now=13611000
+ok T0.1068 withdraw m0058 264.00 balance=0.00
+close m0058 slot=57
+ok T0.1069 transfer m0045->m0052 15.62 balance=307.97
+ok T0.1070 deposit m0057 46.89 balance=172.37
+T0.1059 withdraw m0049-> 210.37 at=13354000
+ok T0.1071 deposit m0051 44.57 balance=317.74
+ok T0.1072 withdraw m0051 6.00 balance=311.74
+ok T0.1073 withdraw m0057 1.00 balance=171.37
+ok T0.1074 deposit m0056 57.94 balance=133.23
+T0.1053 withdraw m0056-> 9.00 at=13354000
+ok T0.1075 transfer m0044->m0056 9.59 balance=414.86
+error: account m0055 is closed
+now=13721000
+ok T0.1076 transfer m0051->m0044 2.17 balance=309.57
+ok T0.1077 deposit m0038 53.72 balance=810.39
+ok T0.1078 deposit m0056 19.95 balance=162.77
+ok T0.1079 deposit m0052 5.08 balance=477.97
+ok T0.1080 withdraw m0045 5.00 balance=302.97
+ok T0.1081 transfer m0044->m0052 17.15 balance=399.88
+ok T0.1082 transfer m0056->m0044 16.33 balance=146.44
+ok T0.1083 withdraw m0038 3.00 balance=807.39
+ok T0.1084 transfer m0038->m0056 3.77 balance=803.62
+open m0059 slot=58 gen=0
+ok T0.1085 deposit m0059 197.00 balance=197.00
+batch B26 n=36 volume=2026.33 first=T0.1050 last=T0.1085 entry=9
+batch B26 settled
+ok T0.1086 withdraw m0059 4.00 balance=193.00
+T0.1055 withdraw m0044-> 7.00 at=13354000
+ok T0.1087 deposit m0045 31.23 balance=334.20
+now=13814000
+ok T0.1088 withdraw m0059 8.00 balance=185.00
+ok T0.1089 deposit m0051 3.95 balance=313.52
+ok T0.1090 transfer m0038->m0056 16.84 balance=786.78
+ok T0.1091 deposit m0045 5.12 balance=339.32
+now=13853000
+error: account m0049 is closed
+ok T0.1092 withdraw m0038 7.00 balance=779.78
+now=13932000
+now=14029000
+ok T0.1093 transfer m0057->m0059 18.45 balance=152.92
+now=14079000
+ok T0.1094 withdraw m0051 1.00 balance=312.52
+ok T0.1095 withdraw m0044 10.00 balance=406.21
+ok T0.1096 deposit m0059 19.14 balance=222.59
+ok T0.1097 deposit m0059 43.88 balance=266.47
+now=14093000
+ok T0.1098 withdraw m0039 2.00 balance=291.69
+now=14097000
+ok T0.1099 withdraw m0059 4.00 balance=262.47
+ok T0.1100 deposit m0052 19.32 balance=514.44
+ok T0.1101 withdraw m0045 1.00 balance=338.32
+ok T0.1102 transfer m0057->m0051 8.11 balance=144.81
+now=14159000
+ok T0.1103 deposit m0051 48.28 balance=368.91
+ok T0.1104 withdraw m0056 167.05 balance=0.00
+close m0056 slot=55
+now=14174000
+ok T0.1105 deposit m0039 21.36 balance=313.05
+now=14186000
+open m0060 slot=59 gen=0
+ok T0.1106 deposit m0060 54.00 balance=54.00
+ok T0.1107 transfer m0052->m0039 11.13 balance=503.31
+now=14301000
+open m0061 slot=60 gen=0
+ok T0.1108 deposit m0061 351.00 balance=351.00
+now=14379000
+ok T0.1109 transfer m0057->m0059 12.26 balance=132.55
+ok T0.1110 deposit m0059 46.66 balance=321.39
+ok T0.1111 transfer m0039->m0044 15.28 balance=308.90
+ok T0.1112 transfer m0051->m0057 20.89 balance=348.02
+ok T0.1113 withdraw m0039 9.00 balance=299.90
+ok T0.1114 deposit m0060 17.24 balance=71.24
+ok T0.1115 transfer m0061->m0060 18.30 balance=332.70
+ok T0.1116 deposit m0061 36.02 balance=368.72
+ok T0.1117 transfer m0051->m0044 19.10 balance=328.92
+ok T0.1118 withdraw m0051 3.00 balance=325.92
+ok T0.1119 reverse T0.1081 17.15
+ok T0.1120 deposit m0045 50.98 balance=389.30
+ok T0.1121 transfer m0038->m0052 8.65 balance=771.13
+batch B27 n=36 volume=1130.39 first=T0.1086 last=T0.1121 entry=10
+batch B27 settled
+ok T0.1122 withdraw m0045 5.00 balance=384.30
+ok T0.1123 transfer m0060->m0044 16.29 balance=73.25
+ok T0.1124 withdraw m0061 5.00 balance=363.72
+ok T0.1125 reverse T0.1069 15.62
+ok T0.1126 withdraw m0057 10.00 balance=143.44
+ok T0.1127 deposit m0059 35.44 balance=356.83
+ok T0.1128 transfer m0051->m0039 14.01 balance=311.91
+ok T0.1129 transfer m0045->m0038 6.24 balance=393.68
+ok T0.1130 transfer m0057->m0061 13.11 balance=130.33
+now=14494000
+now=14564000
+ok T0.1131 withdraw m0061 8.00 balance=368.83
+ok T0.1132 transfer m0052->m0059 4.25 balance=474.94
+ok T0.1133 withdraw m0039 2.00 balance=311.91
+ok T0.1134 transfer m0052->m0057 4.75 balance=470.19
+ok T0.1135 transfer m0044->m0060 17.83 balance=456.20
+now=14624000
+ok T0.1136 transfer m0061->m0060 19.91 balance=348.92
+ok T0.1137 transfer m0052->m0038 10.69 balance=459.50
+open m0062 slot=61 gen=0
+ok T0.1138 deposit m0062 152.00 balance=152.00
+ok T0.1139 transfer m0044->m0039 7.42 balance=448.78
+ok T0.1140 deposit m0059 46.28 balance=407.36
+ok T0.1141 deposit m0038 21.42 balance=809.48
+now=14625000
+now=14713000
+ok T0.1142 deposit m0044 57.69 balance=506.47
+T0.1139 transfer m0044->m0039 7.42 at=14624000
+ok T0.1143 withdraw m0045 5.00 balance=388.68
+ok T0.1144 reverse T0.1134 4.75
+m0038 balance=809.48 held=0.00 available=809.48 spent_today=212.54 debits_last_hour=12
+ok T0.1145 withdraw m0038 3.00 balance=806.48
+now=14792000
+ok T0.1146 deposit m0038 8.00 balance=814.48
+ok T0.1147 transfer m0044->m0051 17.76 balance=488.71
+now=14843000
+ok T0.1148 deposit m0044 31.35 balance=520.06
+ok T0.1149 transfer m0039->m0060 1.55 balance=317.78
+now=14876000
+ok T0.1150 transfer m0062->m0061 13.07 balance=138.93
+ok T0.1151 withdraw m0059 4.00 balance=403.36
+ok T0.1152 withdraw m0045 5.00 balance=383.68
+ok T0.1153 withdraw m0061 4.00 balance=357.99
+ok T0.1154 deposit m0057 58.27 balance=188.60
+ok T0.1155 withdraw m0061 2.00 balance=355.99
+now=14989000
+ok T0.1156 withdraw m0057 2.00 balance=186.60
+ok T0.1157 deposit m0061 40.24 balance=396.23
+ok T0.1158 transfer m0051->m0057 11.50 balance=318.17
+ok T0.1159 withdraw m0062 9.00 balance=129.93
+ok T0.1160 withdraw m0052 8.00 balance=456.25
+ok T0.1161 deposit m0057 21.27 balance=219.37
+batch B28 n=40 volume=722.71 first=T0.1122 last=T0.1161 entry=11
+batch B28 settled
+now=15060000
+ok T0.1162 transfer m0039->m0057 14.00 balance=303.78
+ok T0.1163 deposit m0038 32.07 balance=846.55
+ok T0.1164 transfer m0038->m0059 12.12 balance=834.43
+ok T0.1165 deposit m0044 20.36 balance=540.42
+ok T0.1166 deposit m0060 26.81 balance=139.35
+ok T0.1167 deposit m0039 8.07 balance=311.85
+now=15103000
+ok T0.1168 withdraw m0052 4.00 balance=452.25
+ok T0.1169 deposit m0038 14.10 balance=848.53
+now=15122000
+ok T0.1170 withdraw m0059 7.00 balance=408.48
+now=15201000
+ok T0.1171 transfer m0045->m0051 16.29 balance=367.39
+now=15281000
+ok T0.1172 transfer m0039->m0044 18.83 balance=293.02
+ok T0.1173 withdraw m0045 8.00 balance=359.39
+ok T0.1174 withdraw m0045 1.00 balance=358.39
+ok T0.1175 withdraw m0062 3.00 balance=126.93
+ok T0.1176 deposit m0045 42.64 balance=401.03
+ok T0.1177 withdraw m0038 2.00 balance=846.53
+ok T0.1178 deposit m0045 13.47 balance=414.50
+ok T0.1179 deposit m0057 39.58 balance=272.95
+ok T0.1180 deposit m0044 46.28 balance=605.53
+T0.1145 withdraw m0038-> 3.00 at=14713000
+ok T0.1181 deposit m0060 35.03 balance=174.38
+ok T0.1182 deposit m0039 49.58 balance=342.60
+ok T0.1183 deposit m0059 8.78 balance=417.26
+ok T0.1184 transfer m0060->m0062 13.80 balance=160.58
+ok T0.1185 transfer m0051->m0052 3.02 balance=331.44
+T0.1179 deposit ->m0057 39.58 at=15281000
+open m0063 slot=62 gen=0
+ok T0.1186 deposit m0063 353.00 balance=353.00
+T0.1153 withdraw m0061-> 4.00 at=14876000
+ok T0.1187 deposit m0044 1.39 balance=606.92
+journal records=1188 folded=768 live=420 segments=4 sealed=3 compactions=2
+idem entries=64 capacity=64 evicted=108
+check ok records=1188 live=420 accounts=12 holds=0 batches=28
+ok T0.1188 withdraw m0060 5.00 balance=155.58
+open m0064 slot=63 gen=0
+ok T0.1189 deposit m0064 123.00 balance=123.00
+ok T0.1190 withdraw m0051 4.00 balance=327.44
+T0.1163 deposit ->m0038 32.07 at=15060000
+ok T0.1191 deposit m0057 60.64 balance=333.59
+ok T0.1192 withdraw m0059 8.00 balance=409.26
+ok T0.1193 transfer m0057->m0039 19.42 balance=314.17
+now=15296000
+ok T0.1194 withdraw m0059 7.00 balance=402.26
+now=15384000
+T0.1184 transfer m0060->m0062 13.80 at=15281000
+T0.1175 withdraw m0062-> 3.00 at=15281000
+T0.1159 withdraw m0062-> 9.00 at=14989000
+ok T0.1195 transfer m0039->m0059 9.07 balance=352.95
+ok T0.1196 deposit m0059 3.12 balance=414.45
+ok T0.1197 transfer m0052->m0062 15.76 balance=439.51
+ok T0.1198 withdraw m0045 10.00 balance=404.50
+ok T0.1199 transfer m0044->m0061 2.87 balance=604.05
+batch B29 n=38 volume=1062.10 first=T0.1162 last=T0.1199 entry=12
+batch B29 settled
+now=15499000
+ok T0.1200 transfer m0059->m0057 14.63 balance=399.82
+ok T0.1201 transfer m0062->m0059 13.30 balance=143.19
+ok T0.1202 deposit m0057 10.95 balance=339.75
+ok T0.1203 deposit m0060 39.08 balance=194.66
+now=15507000
+ok T0.1204 deposit m0038 45.26 balance=891.79
+ok T0.1205 withdraw m0045 404.50 balance=0.00
+close m0045 slot=44
+ok T0.1206 transfer m0062->m0063 20.63 balance=122.56
+ok T0.1207 deposit m0062 54.87 balance=177.43
+ok T0.1208 deposit m0063 60.78 balance=434.41
+ok T0.1209 transfer m0057->m0052 13.51 balance=326.24
+ok T0.1210 deposit m0052 21.16 balance=474.18
+ok T0.1211 deposit m0059 47.33 balance=460.45
+ok T0.1212 transfer m0051->m0061 16.32 balance=311.12
+now=15522000
+ok T0.1213 withdraw m0064 6.00 balance=117.00
+now=15532000
+now=15583000
+ok T0.1214 withdraw m0038 2.00 balance=889.79
+ok T0.1215 deposit m0064 7.09 balance=124.09
+now=15589000
+ok T0.1216 withdraw m0059 8.00 balance=452.45
+ok T0.1217 deposit m0039 42.34 balance=395.29
+now=15639000
+ok T0.1218 deposit m0039 42.42 balance=437.71
+now=15676000
+now=15747000
+ok T0.1219 deposit m0038 16.24 balance=906.03
+ok T0.1220 deposit m0038 48.89 balance=954.92
+ok T0.1221 withdraw m0064 124.09 balance=0.00
+close m0064 slot=63
+open m0065 slot=64 gen=0
+ok T0.1222 deposit m0065 74.00 balance=74.00
+ok T0.1223 transfer m0052->m0044 5.44 balance=468.74
+ok T0.1224 withdraw m0062 5.00 balance=172.43
+ok T0.1225 deposit m0063 6.59 balance=441.00
+ok T0.1226 withdraw m0062 5.00 balance=167.43
+now=15824000
+now=15940000
+ok T0.1227 transfer m0051->m0063 9.62 balance=301.50
+ok T0.1228 deposit m0052 42.83 balance=511.57
+ok T0.1229 transfer m0044->m0051 11.26 balance=598.23
+ok T0.1230 withdraw m0059 5.00 balance=447.45
+T0.1213 withdraw m0064-> 6.00 at=15522000
+ok T0.1231 withdraw m0061 9.00 balance=406.42
+ok T0.1232 transfer m0052->m0044 11.49 balance=500.08
+now=16011000
+now=16085000
+ok T0.1233 transfer m0061->m0063 16.51 balance=389.91
+ok T0.1234 withdraw m0057 10.00 balance=316.24
+ok T0.1235 transfer m0065->m0052 1.47 balance=72.53
+now=16163000
+ok T0.1236 transfer m0063->m0051 9.28 balance=457.85
+now=16173000
+batch B30 n=37 volume=1281.88 first=T0.1200 last=T0.1236 entry=13
+batch B30 settled
+ok T0.1237 deposit m0051 30.78 balance=352.82
+ok T0.1238 transfer m0039->m0059 17.57 balance=420.14
+ok T0.1239 transfer m0059->m0052 15.37 balance=449.65
+holds m0063 count=0 held=0.00
+now=16272000
+T0.1213 withdraw m0064-> 6.00 at=15522000
+ok T0.1240 withdraw m0057 4.00 balance=312.24
+T0.1231 withdraw m0061-> 9.00 at=15940000
+now=16294000
+now=16402000
+ok T0.1241 transfer m0065->m0060 8.97 balance=63.56
+ok T0.1242 deposit m0059 22.53 balance=472.18
+ok T0.1243 reverse T0.1191 60.64
+ok T0.1244 deposit m0063 25.29 balance=483.14
+ok T0.1245 deposit m0063 57.98 balance=541.12
+ok T0.1246 deposit m0051 18.93 balance=371.75
+ok T0.1247 transfer m0060->m0052 9.85 balance=193.78
+now=16449000
+now=16462000
+T0.1212 transfer m0051->m0061 16.32 at=15507000
+open m0066 slot=65 gen=0
+ok T0.1248 deposit m0066 464.00 balance=464.00
+ok T0.1249 deposit m0061 24.55 balance=414.46
+ok T0.1250 deposit m0060 39.61 balance=233.39
+ok T0.1251 withdraw m0057 1.00 balance=250.60
+ok T0.1252 withdraw m0065 10.00 balance=53.56
+ok T0.1253 deposit m0059 30.48 balance=502.66
+ok T0.1254 deposit m0061 39.26 balance=453.72
+T0.1226 withdraw m0062-> 5.00 at=15747000
+ok T0.1255 withdraw m0060 7.00 balance=226.39
+ok T0.1256 deposit m0066 20.57 balance=484.57
+ok T0.1257 withdraw m0051 5.00 balance=366.75
+open m0067 slot=66 gen=0
+ok T0.1258 deposit m0067 491.00 balance=491.00
+ok T0.1259 withdraw m0039 2.00 balance=418.14
+ok T0.1260 withdraw m0038 8.00 balance=946.92
+ok T0.1261 withdraw m0057 5.00 balance=245.60
+ok T0.1262 deposit m0038 40.77 balance=987.69
+now=16578000
+ok T0.1263 reverse T0.1233 16.51
+ok T0.1264 deposit m0038 40.99 balance=1028.68
+now=16638000
+ok T0.1265 withdraw m0057 245.60 balance=0.00
+close m0057 slot=56
+ok T0.1266 deposit m0062 18.57 balance=186.00
+now=16753000
+ok T0.1267 withdraw m0038 1.00 balance=1027.68
+ok T0.1268 withdraw m0060 6.00 balance=220.39
+ok T0.1269 withdraw m0062 1.00 balance=185.00
+now=16809000
+ok T0.1270 withdraw m0066 5.00 balance=479.57
+ok T0.1271 transfer m0062->m0067 12.13 balance=172.87
+T0.1269 withdraw m0062-> 1.00 at=16753000
+now=16837000
+ok T0.1272 deposit m0060 25.36 balance=245.75
+batch B31 n=36 volume=1832.31 first=T0.1237 last=T0.1272 entry=14
+batch B31 settled
+ok T0.1273 transfer m0063->m0061 17.71 balance=506.90
+ok T0.1274 withdraw m0066 2.00 balance=477.57
+now=16921000
+ok T0.1275 deposit m0065 22.57 balance=76.13
+ok T0.1276 transfer m0051->m0066 7.80 balance=358.95
+ok T0.1277 withdraw m0067 1.00 balance=502.13
+ok T0.1278 withdraw m0038 3.00 balance=1024.68
+ok T0.1279 deposit m0059 8.83 balance=511.49
+ok T0.1280 deposit m0051 18.91 balance=377.86
+ok T0.1281 deposit m0052 53.38 balance=580.15
+ok T0.1282 deposit m0066 13.03 balance=498.40
+open m0068 slot=67 gen=0
+ok T0.1283 deposit m0068 340.00 balance=340.00
+ok T0.1284 deposit m0060 51.34 balance=297.09
+now=17015000
+ok T0.1285 withdraw m0059 5.00 balance=506.49
+ok T0.1286 deposit m0067 27.45 balance=529.58
+ok T0.1287 withdraw m0066 498.40 balance=0.00
+close m0066 slot=65
+ok T0.1288 transfer m0039->m0065 10.20 balance=407.94
+ok T0.1289 withdraw m0067 529.58 balance=0.00
+close m0067 slot=66
+now=17118000
+ok T0.1290 withdraw m0059 4.00 balance=502.49
+ok T0.1291 transfer m0039->m0038 3.51 balance=404.43
+open m0069 slot=68 gen=0
+ok T0.1292 deposit m0069 303.00 balance=303.00
+now=17220000
+ok T0.1293 withdraw m0038 9.00 balance=1019.19
+ok T0.1294 transfer m0069->m0052 17.13 balance=285.87
+ok T0.1295 withdraw m0062 4.00 balance=168.87
+ok T0.1296 transfer m0068->m0065 17.19 balance=322.81
+now=17244000
+ok T0.1297 reverse T0.1252 10.00
+ok T0.1298 withdraw m0060 9.00 balance=288.09
+ok T0.1299 transfer m0059->m0038 4.82 balance=497.67
+open m0070 slot=69 gen=0
+ok T0.1300 deposit m0070 149.00 balance=149.00
+ok T0.1301 transfer m0060->m0052 4.39 balance=283.70
+ok T0.1302 deposit m0065 35.65 balance=149.17
+ok T0.1303 deposit m0059 21.04 balance=518.71
+ok T0.1304 transfer m0039->m0044 7.23 balance=397.20
+now=17294000
+ok T0.1305 transfer m0039->m0062 2.88 balance=394.32
+ok T0.1306 deposit m0063 48.38 balance=555.28
+T0.1301 transfer m0060->m0052 4.39 at=17244000
+T0.1294 transfer m0069->m0052 17.13 at=17220000
+T0.1281 deposit ->m0052 53.38 at=16921000
+now=17310000
+ok T0.1307 deposit m0051 47.81 balance=425.67
+ok T0.1308 transfer m0070->m0065 8.30 balance=140.70
+now=17385000
+ok T0.1309 deposit m0063 31.29 balance=586.57
+now=17443000
+ok T0.1310 deposit m0038 35.60 balance=1059.61
+ok T0.1311 transfer m0070->m0059 7.52 balance=133.18
+ok T0.1312 withdraw m0070 133.18 balance=0.00
+close m0070 slot=69
+ok T0.1313 transfer m0044->m0063 16.09 balance=600.86
+ok T0.1314 deposit m0044 46.56 balance=647.42
+batch B32 n=42 volume=2586.77 first=T0.1273 last=T0.1314 entry=15
+batch B32 settled
+ok T0.1315 deposit m0060 51.03 balance=334.73
+ok T0.1316 deposit m0051 26.56 balance=452.23
+ok T0.1317 withdraw m0069 6.00 balance=279.87
+now=17469000
+ok T0.1318 transfer m0044->m0052 7.58 balance=639.84
+ok T0.1319 transfer m0060->m0069 14.46 balance=320.27
+ok T0.1320 withdraw m0044 1.00 balance=638.84
+ok T0.1321 deposit m0061 34.96 balance=522.90
+ok T0.1322 transfer m0051->m0059 14.39 balance=437.84
+ok T0.1323 deposit m0061 45.89 balance=568.79
+ok T0.1324 transfer m0065->m0062 2.65 balance=154.82
+now=17494000
+ok T0.1325 withdraw m0059 6.00 balance=534.62
+ok T0.1326 deposit m0063 12.91 balance=615.57
+ok T0.1327 withdraw m0062 3.00 balance=171.40
+ok T0.1328 transfer m0059->m0060 18.94 balance=515.68
+ok T0.1329 deposit m0044 59.32 balance=698.16
+ok T0.1330 deposit m0069 52.68 balance=347.01
+ok T0.1331 withdraw m0039 394.32 balance=0.00
+close m0039 slot=38
+ok T0.1332 deposit m0068 41.82 balance=364.63
+ok T0.1333 transfer m0052->m0059 15.70 balance=593.55
+open m0071 slot=70 gen=0
+ok T0.1334 deposit m0071 318.00 balance=318.00
+ok T0.1335 deposit m0063 36.53 balance=652.10
+now=17524000
+now=17549000
+ok T0.1336 deposit m0071 24.98 balance=342.98
+ok T0.1337 deposit m0038 39.30 balance=1098.91
+ok T0.1338 withdraw m0068 3.00 balance=361.63
+ok T0.1339 withdraw m0068 7.00 balance=354.63
+open m0072 slot=71 gen=0
+ok T0.1340 deposit m0072 100.00 balance=100.00
+holds m0038 count=0 held=0.00
+ok T0.1341 deposit m0044 44.43 balance=742.59
+now=17600000
+ok T0.1342 transfer m0072->m0038 7.15 balance=92.85
+now=17654000
+open m0073 slot=72 gen=0
+ok T0.1343 deposit m0073 126.00 balance=126.00
+ok T0.1344 deposit m0059 7.82 balance=539.20
+ok T0.1345 transfer m0072->m0071 11.24 balance=81.61
+ok T0.1346 withdraw m0068 4.00 balance=350.63
+ok T0.1347 deposit m0069 20.81 balance=367.82
+ok T0.1348 transfer m0051->m0061 11.96 balance=425.88
+ok T0.1349 transfer m0044->m0060 1.50 balance=741.09
+ok T0.1350 withdraw m0062 7.00 balance=164.40
+ok T0.1351 transfer m0063->m0073 5.56 balance=646.54
+now=17751000
+now=17815000
+ok T0.1352 withdraw m0072 2.00 balance=79.61
+ok T0.1353 withdraw m0063 1.00 balance=645.54
+ok T0.1354 withdraw m0073 8.00 balance=123.56
+ok T0.1355 transfer m0065->m0062 6.63 balance=148.19
+ok T0.1356 withdraw m0063 6.00 balance=639.54
+holds m0052 count=0 held=0.00
+ok T0.1357 transfer m0051->m0060 13.28 balance=412.60
+batch B33 n=43 volume=1622.40 first=T0.1315 last=T0.1357 entry=0
+batch B33 settled
+ok T0.1358 withdraw m0073 1.00 balance=122.56
+replay T0.1264
+ok T0.1359 withdraw m0068 3.00 balance=347.63
+now=17893000
+ok T0.1360 transfer m0059->m0063 20.56 balance=518.64
+ok T0.1361 deposit m0038 40.67 balance=1146.73
+ok T0.1362 transfer m0061->m0060 12.65 balance=568.10
+now=17914000
+ok T0.1363 deposit m0072 31.68 balance=111.29
+now=17919000
+ok T0.1364 withdraw m0063 3.00 balance=657.10
+now=18008000
+now=18067000
+ok T0.1365 transfer m0052->m0069 13.42 balance=580.13
+ok T0.1366 withdraw m0061 8.00 balance=560.10
+ok T0.1367 deposit m0052 52.03 balance=632.16
+ok T0.1368 deposit m0068 29.70 balance=377.33
+ok T0.1369 transfer m0072->m0068 9.53 balance=101.76
+ok T0.1370 deposit m0072 10.85 balance=112.61
+ok T0.1371 withdraw m0060 7.00 balance=359.64
+ok T0.1372 deposit m0063 47.83 balance=704.93
+ok T0.1373 withdraw m0059 10.00 balance=508.64
+ok T0.1374 reverse T0.1359 3.00
+ok T0.1375 transfer m0059->m0073 10.30 balance=498.34
+ok T0.1376 transfer m0063->m0038 7.49 balance=697.44
+ok T0.1377 withdraw m0044 2.00 balance=739.09
+ok T0.1378 withdraw m0063 5.00 balance=692.44
+now=18123000
+now=18164000
+ok T0.1379 withdraw m0061 7.00 balance=553.10
+ok T0.1380 deposit m0072 11.35 balance=123.96
+ok T0.1381 transfer m0071->m0038 8.99 balance=345.23
+now=18230000
+ok T0.1382 withdraw m0060 10.00 balance=349.64
+ok T0.1383 transfer m0071->m0059 11.67 balance=333.56
+ok T0.1384 transfer m0059->m0065 10.78 balance=499.23
+now=18268000
+ok T0.1385 withdraw m0068 1.00 balance=388.86
+ok T0.1386 withdraw m0071 4.00 balance=329.56
+ok T0.1387 transfer m0068->m0051 1.07 balance=387.79
+ok T0.1388 deposit m0051 4.55 balance=418.22
+ok T0.1389 withdraw m0060 4.00 balance=345.64
+ok T0.1390 withdraw m0068 387.79 balance=0.00
+close m0068 slot=67
+ok T0.1391 transfer m0044->m0059 10.58 balance=728.51
+ok T0.1392 deposit m0059 32.46 balance=542.27
+ok T0.1393 transfer m0044->m0059 9.23 balance=719.28
+ok T0.1394 deposit m0063 39.11 balance=731.55
+now=18328000
+now=18448000
+batch B34 n=37 volume=882.29 first=T0.1358 last=T0.1394 entry=1
+batch B34 settled
+ok T0.1395 transfer m0051->m0038 15.82 balance=402.40
+ok T0.1396 withdraw m0063 6.00 balance=725.55
+now=18524000
+ok T0.1397 deposit m0060 19.73 balance=365.37
+ok T0.1398 transfer m0069->m0044 5.70 balance=375.54
+T0.1391 transfer m0044->m0059 10.58 at=18268000
+ok T0.1399 transfer m0051->m0071 8.19 balance=394.21
+now=18579000
+ok T0.1400 deposit m0052 3.59 balance=635.75
+open m0074 slot=73 gen=0
+ok T0.1401 deposit m0074 169.00 balance=169.00
+ok T0.1402 withdraw m0044 6.00 balance=718.98
+now=18690000
+ok T0.1403 reverse T0.1376 7.49
+ok T0.1404 withdraw m0073 2.00 balance=130.86
+now=18755000
+ok T0.1405 withdraw m0061 553.10 balance=0.00
+close m0061 slot=60
+ok T0.1406 withdraw m0073 10.00 balance=120.86
+ok T0.1407 deposit m0065 22.89 balance=181.86
+ok T0.1408 deposit m0065 59.81 balance=241.67
+ok T0.1409 transfer m0052->m0059 2.27 balance=633.48
+now=18815000
+now=18921000
+ok T0.1410 transfer m0060->m0072 16.18 balance=349.19
+ok T0.1411 deposit m0074 19.64 balance=188.64
+ok T0.1412 withdraw m0065 8.00 balance=233.67
+ok T0.1413 withdraw m0069 10.00 balance=365.54
+open m0075 slot=74 gen=0
+ok T0.1414 deposit m0075 162.00 balance=162.00
+ok T0.1415 withdraw m0073 4.00 balance=116.86
+now=18994000
+ok T0.1416 deposit m0073 22.82 balance=139.68
+now=19035000
+open m0076 slot=75 gen=0
+ok T0.1417 deposit m0076 476.00 balance=476.00
+ok T0.1418 deposit m0059 19.68 balance=573.45
+ok T0.1419 transfer m0076->m0071 11.85 balance=464.15
+ok T0.1420 transfer m0044->m0076 6.16 balance=712.82
+now=19138000
+ok T0.1421 deposit m0072 34.60 balance=174.74
+ok T0.1422 deposit m0072 38.99 balance=213.73
+ok T0.1423 deposit m0060 34.87 balance=384.06
+ok T0.1424 withdraw m0075 7.00 balance=155.00
+now=19233000
+now=19337000
+T0.1404 withdraw m0073-> 2.00 at=18690000
+ok T0.1425 deposit m0060 26.34 balance=410.40
+ok T0.1426 transfer m0060->m0069 16.95 balance=393.45
+ok T0.1427 deposit m0062 24.03 balance=195.06
+ok T0.1428 withdraw m0060 9.00 balance=384.45
+ok T0.1429 deposit m0071 47.70 balance=397.30
+open m0077 slot=76 gen=0
+ok T0.1430 deposit m0077 305.00 balance=305.00
+batch B35 n=36 volume=2192.40 first=T0.1395 last=T0.1430 entry=2
+batch B35 settled
+ok T0.1431 transfer m0038->m0075 1.19 balance=1170.35
+ok T0.1432 withdraw m0059 9.00 balance=564.45
+ok T0.1433 withdraw m0065 10.00 balance=223.67
+ok T0.1434 deposit m0065 8.96 balance=232.63
+ok T0.1435 transfer m0062->m0076 5.78 balance=189.28
+ok T0.1436 reverse T0.1418 19.68
+ok T0.1437 transfer m0073->m0072 18.91 balance=120.77
+now=19383000
+now=19436000
+ok T0.1438 transfer m0060->m0074 4.93 balance=379.52
+ok T0.1439 deposit m0044 49.22 balance=762.04
+ok T0.1440 withdraw m0071 397.30 balance=0.00
+close m0071 slot=70
+ok T0.1441 deposit m0074 33.39 balance=226.96
+ok T0.1442 deposit m0060 59.93 balance=439.45
+ok T0.1443 transfer m0065->m0038 1.34 balance=231.29
+ok T0.1444 transfer m0063->m0072 18.12 balance=714.92
+ok T0.1445 withdraw m0075 2.00 balance=154.19
+ok T0.1446 deposit m0077 28.95 balance=333.95
+now=19518000
+ok T0.1447 withdraw m0062 189.28 balance=0.00
+close m0062 slot=61
+ok T0.1448 deposit m0052 20.34 balance=653.82
+T0.1425 deposit ->m0060 26.34 at=19337000
+ok T0.1449 transfer m0069->m0073 17.84 balance=364.65
+ok T0.1450 transfer m0073->m0072 2.40 balance=136.21
+now=19619000
+ok T0.1451 deposit m0060 13.55 balance=453.00
+ok T0.1452 deposit m0075 18.84 balance=173.03
+ok T0.1453 withdraw m0069 9.00 balance=355.65
+ok T0.1454 withdraw m0044 7.00 balance=755.04
+ok T0.1455 deposit m0077 19.83 balance=353.78
+ok T0.1456 deposit m0077 8.53 balance=362.31
+ok T0.1457 withdraw m0038 8.00 balance=1163.69
+now=19636000
+now=19662000
+error: account m0062 is closed
+ok T0.1458 withdraw m0060 2.00 balance=451.00
+ok T0.1459 deposit m0044 59.89 balance=814.93
+ok T0.1460 deposit m0059 41.86 balance=586.63
+ok T0.1461 deposit m0077 32.39 balance=394.70
+ok T0.1462 deposit m0072 9.80 balance=262.96
+ok T0.1463 deposit m0044 25.71 balance=840.64
+ok T0.1464 transfer m0076->m0069 9.94 balance=466.15
+ok T0.1465 withdraw m0077 8.00 balance=386.70
+now=19777000
+ok T0.1466 withdraw m0063 5.00 balance=709.92
+now=19797000
+ok T0.1467 withdraw m0063 3.00 balance=706.92
+ok T0.1468 deposit m0063 15.46 balance=722.38
+ok T0.1469 transfer m0076->m0072 2.31 balance=463.84
+ok T0.1470 withdraw m0038 3.00 balance=1160.69
+ok T0.1471 transfer m0074->m0059 4.76 balance=222.20
+batch B36 n=41 volume=1206.43 first=T0.1431 last=T0.1471 entry=3
+batch B36 settled
+ok T0.1472 deposit m0074 3.10 balance=225.30
+ok T0.1473 withdraw m0051 3.00 balance=391.21
+ok T0.1474 deposit m0038 45.51 balance=1206.20
+ok T0.1475 withdraw m0044 10.00 balance=830.64
+ok T0.1476 deposit m0065 31.94 balance=263.23
+ok T0.1477 deposit m0072 22.33 balance=287.60
+ok T0.1478 withdraw m0069 3.00 balance=362.59
+ok T0.1479 withdraw m0075 3.00 balance=170.03
+ok T0.1480 transfer m0044->m0074 6.38 balance=824.26
+ok T0.1481 deposit m0038 24.25 balance=1230.45
+ok T0.1482 transfer m0069->m0065 11.74 balance=350.85
+T0.1461 deposit ->m0077 32.39 at=19662000
+ok T0.1483 withdraw m0063 3.00 balance=719.38
+now=19834000
+ok T0.1484 transfer m0076->m0074 16.96 balance=446.88
+ok T0.1485 deposit m0063 49.94 balance=769.32
+ok T0.1486 deposit m0076 27.08 balance=473.96
+T0.1459 deposit ->m0044 59.89 at=19662000
+ok T0.1487 transfer m0060->m0076 14.70 balance=436.30
+ok T0.1488 deposit m0069 12.83 balance=363.68
+ok T0.1489 deposit m0059 51.43 balance=642.82
+ok T0.1490 deposit m0076 7.15 balance=495.81
+ok T0.1491 withdraw m0052 2.00 balance=651.82
+ok T0.1492 deposit m0063 13.10 balance=782.42
+ok T0.1493 transfer m0069->m0073 20.25 balance=343.43
+ok T0.1494 transfer m0075->m0051 12.09 balance=157.94
+ok T0.1495 deposit m0051 54.34 balance=457.64
+ok T0.1496 deposit m0076 13.93 balance=509.74
+now=19927000
+now=20043000
+open m0078 slot=77 gen=0
+ok T0.1497 deposit m0078 350.00 balance=350.00
+ok T0.1498 transfer m0038->m0074 5.63 balance=1224.82
+ok T0.1499 transfer m0052->m0038 13.77 balance=638.05
+ok T0.1500 deposit m0051 20.56 balance=478.20
+ok T0.1501 deposit m0060 53.68 balance=489.98
+ok T0.1502 transfer m0076->m0059 2.92 balance=506.82
+ok T0.1503 withdraw m0060 6.00 balance=483.98
+T0.1465 withdraw m0077-> 8.00 at=19662000
+ok T0.1504 deposit m0051 41.29 balance=519.49
+ok T0.1505 withdraw m0073 4.00 balance=152.46
+ok T0.1506 deposit m0063 57.44 balance=839.86
+m0038 balance=1238.59 held=0.00 available=1238.59 spent_today=270.48 debits_last_hour=7
+ok T0.1507 withdraw m0072 5.00 balance=282.60
+ok T0.1508 transfer m0038->m0076 15.40 balance=1223.19
+ok T0.1509 deposit m0065 6.59 balance=281.56
+journal records=1510 folded=1152 live=358 segments=3 sealed=2 compactions=3
+idem entries=64 capacity=64 evicted=161
+check ok records=1510 live=358 accounts=16 holds=0 batches=36
+ok T0.1510 withdraw m0038 7.00 balance=1216.19
+ok T0.1511 deposit m0077 14.45 balance=401.15
+ok T0.1512 transfer m0051->m0076 10.43 balance=509.06
+ok T0.1513 deposit m0077 54.55 balance=455.70
+batch B37 n=42 volume=1131.76 first=T0.1472 last=T0.1513 entry=4
+batch B37 settled
+now=20155000
+ok T0.1514 deposit m0069 54.35 balance=397.78
+ok T0.1515 deposit m0059 47.11 balance=692.85
+ok T0.1516 deposit m0069 60.01 balance=457.79
+ok T0.1517 withdraw m0065 4.00 balance=277.56
+ok T0.1518 deposit m0077 58.89 balance=514.59
+ok T0.1519 deposit m0065 57.27 balance=334.83
+ok T0.1520 withdraw m0072 2.00 balance=280.60
+ok T0.1521 transfer m0074->m0078 13.88 balance=240.39
+ok T0.1522 withdraw m0060 5.00 balance=478.98
+now=20166000
+ok T0.1523 transfer m0069->m0078 13.29 balance=444.50
+ok T0.1524 withdraw m0052 10.00 balance=628.05
+ok T0.1525 withdraw m0065 10.00 balance=324.83
+ok T0.1526 withdraw m0051 8.00 balance=501.06
+ok T0.1527 withdraw m0077 8.00 balance=506.59
+ok T0.1528 withdraw m0073 10.00 balance=142.46
+ok T0.1529 deposit m0078 2.38 balance=379.55
+ok T0.1530 deposit m0074 13.00 balance=253.39
+now=20283000
+ok T0.1531 transfer m0063->m0074 19.65 balance=820.21
+holds m0074 count=0 held=0.00
+ok T0.1532 deposit m0072 5.47 balance=286.07
+ok T0.1533 withdraw m0060 5.00 balance=473.98
+ok T0.1534 withdraw m0072 2.00 balance=284.07
+ok T0.1535 transfer m0059->m0069 14.57 balance=678.28
+m0059 balance=678.28 held=0.00 available=678.28 spent_today=198.97 debits_last_hour=11
+ok T0.1536 transfer m0075->m0077 7.95 balance=149.99
+ok T0.1537 withdraw m0078 8.00 balance=371.55
+now=20289000
+ok T0.1538 transfer m0069->m0078 7.04 balance=452.03
+now=20378000
+ok T0.1539 transfer m0078->m0063 6.93 balance=371.66
+ok T0.1540 deposit m0063 11.90 balance=839.04
+now=20463000
+ok T0.1541 withdraw m0073 142.46 balance=0.00
+close m0073 slot=72
+T0.1537 withdraw m0078-> 8.00 at=20283000
+open m0079 slot=78 gen=0
+ok T0.1542 deposit m0079 227.00 balance=227.00
+now=20543000
+ok T0.1543 deposit m0069 50.26 balance=502.29
+m0078 balance=371.66 held=0.00 available=371.66 spent_today=14.93 debits_last_hour=2
+now=20609000
+ok T0.1544 reverse T0.1490 7.15
+now=20709000
+ok T0.1545 deposit m0074 52.94 balance=325.98
+ok T0.1546 transfer m0051->m0078 7.89 balance=493.17
+ok T0.1547 deposit m0077 44.94 balance=559.48
+holds m0072 count=0 held=0.00
+ok T0.1548 deposit m0078 37.19 balance=416.74
+ok T0.1549 transfer m0075->m0069 5.40 balance=144.59
+batch B38 n=36 volume=1040.92 first=T0.1514 last=T0.1549 entry=5
+batch B38 settled
+ok T0.1550 transfer m0076->m0065 19.19 balance=506.31
+ok T0.1551 withdraw m0051 9.00 balance=484.17
+holds m0060 count=0 held=0.00
+ok T0.1552 deposit m0044 8.09 balance=832.35
+ok T0.1553 transfer m0078->m0044 11.40 balance=405.34
+now=20778000
+ok T0.1554 deposit m0051 25.22 balance=509.39
+ok T0.1555 deposit m0079 6.81 balance=233.81
+ok T0.1556 transfer m0038->m0069 9.07 balance=1207.12
+ok T0.1557 deposit m0052 43.10 balance=671.15
+ok T0.1558 transfer m0078->m0063 11.57 balance=393.77
+ok T0.1559 deposit m0044 24.93 balance=868.68
+ok T0.1560 transfer m0075->m0063 17.59 balance=127.00
+ok T0.1561 deposit m0044 22.25 balance=890.93
+ok T0.1562 transfer m0077->m0065 14.13 balance=545.35
+ok T0.1563 transfer m0074->m0044 11.64 balance=314.34
+ok T0.1564 deposit m0076 40.17 balance=546.48
+ok T0.1565 deposit m0069 53.50 balance=570.26
+ok T0.1566 reverse T0.1551 9.00
+ok T0.1567 deposit m0051 48.01 balance=566.40
+ok T0.1568 withdraw m0063 6.00 balance=862.20
+ok T0.1569 withdraw m0076 10.00 balance=536.48
+ok T0.1570 deposit m0069 30.70 balance=600.96
+ok T0.1571 transfer m0059->m0075 14.98 balance=663.30
+ok T0.1572 deposit m0063 27.27 balance=889.47
+ok T0.1573 withdraw m0051 5.00 balance=561.40
+ok T0.1574 deposit m0069 13.97 balance=614.93
+T0.1556 transfer m0038->m0069 9.07 at=20778000
+ok T0.1575 deposit m0065 44.13 balance=402.28
+ok T0.1576 deposit m0075 6.29 balance=148.27
+now=20856000
+ok T0.1577 deposit m0078 40.65 balance=434.42
+ok T0.1578 transfer m0059->m0078 16.60 balance=646.70
+T0.1578 transfer m0059->m0078 16.60 at=20856000
+T0.1577 deposit ->m0078 40.65 at=20856000
+T0.1558 transfer m0078->m0063 11.57 at=20778000
+ok T0.1579 transfer m0077->m0044 9.00 balance=536.35
+now=20974000
+ok T0.1580 deposit m0077 44.62 balance=580.97
+ok T0.1581 transfer m0069->m0079 15.72 balance=599.21
+now=20987000
+now=21057000
+ok T0.1582 deposit m0060 22.66 balance=496.64
+now=21101000
+ok T0.1583 withdraw m0072 1.00 balance=283.07
+ok T0.1584 withdraw m0038 2.00 balance=1205.12
+ok T0.1585 reverse T0.1534 2.00
+ok T0.1586 withdraw m0072 3.00 balance=282.07
+now=21179000
+ok T0.1587 transfer m0069->m0079 20.01 balance=579.20
+ok T0.1588 withdraw m0044 3.00 balance=908.57
+ok T0.1589 transfer m0077->m0051 6.91 balance=574.06
+ok T0.1590 deposit m0078 44.68 balance=495.70
+clearing fail_next=1 submitted=39 accepted=38
+batch B39 n=41 volume=774.86 first=T0.1550 last=T0.1590 entry=6
+batch B39 failed attempt=1 retry_at=21209000
+ok T0.1591 deposit m0078 29.03 balance=524.73
+ok T0.1592 withdraw m0052 1.00 balance=670.15
+ok T0.1593 withdraw m0038 8.00 balance=1197.12
+ok T0.1594 transfer m0044->m0051 14.01 balance=894.56
+ok T0.1595 deposit m0044 49.29 balance=943.85
+ok T0.1596 transfer m0051->m0077 8.14 balance=574.18
+ok T0.1597 transfer m0077->m0076 6.60 balance=575.60
+now=21191000
+ok T0.1598 deposit m0063 45.74 balance=935.21
+ok T0.1599 transfer m0079->m0076 7.82 balance=261.72
+ok T0.1600 deposit m0069 57.92 balance=637.12
+ok T0.1601 transfer m0051->m0059 8.49 balance=565.69
+open m0080 slot=79 gen=0
+ok T0.1602 deposit m0080 78.00 balance=78.00
+now=21230000
+batch B39 settled
+ok T0.1603 deposit m0080 28.10 balance=106.10
+ok T0.1604 transfer m0075->m0051 6.62 balance=141.65
+ok T0.1605 transfer m0063->m0074 12.13 balance=923.08
+ok T0.1606 withdraw m0052 8.00 balance=662.15
+ok T0.1607 reverse T0.1600 57.92
+ok T0.1608 deposit m0078 24.85 balance=549.58
+now=21334000
+now=21409000
+ok T0.1609 transfer m0038->m0080 10.83 balance=1186.29
+ok T0.1610 deposit m0075 32.51 balance=174.16
+open m0081 slot=80 gen=0
+ok T0.1611 deposit m0081 319.00 balance=319.00
+ok T0.1612 withdraw m0065 1.00 balance=401.28
+now=21468000
+T0.1593 withdraw m0038-> 8.00 at=21179000
+ok T0.1613 transfer m0072->m0069 5.31 balance=276.76
+now=21492000
+now=21581000
+ok T0.1614 transfer m0079->m0052 17.54 balance=244.18
+T0.1587 transfer m0069->m0079 20.01 at=21179000
+ok T0.1615 transfer m0038->m0060 18.85 balance=1167.44
+ok T0.1616 withdraw m0079 1.00 balance=243.18
+now=21585000
+ok T0.1617 deposit m0076 41.55 balance=592.45
+ok T0.1618 withdraw m0077 4.00 balance=571.60
+open m0082 slot=81 gen=0
+ok T0.1619 deposit m0082 228.00 balance=228.00
+ok T0.1620 transfer m0063->m0044 9.82 balance=913.26
+ok T0.1621 deposit m0060 32.14 balance=547.63
+ok T0.1622 reverse T0.1581 15.72
+T0.1621 deposit ->m0060 32.14 at=21585000
+T0.1615 transfer m0038->m0060 18.85 at=21581000
+T0.1582 deposit ->m0060 22.66 at=21057000
+ok T0.1623 deposit m0060 19.70 balance=567.33
+ok T0.1624 transfer m0075->m0038 11.98 balance=162.18
+error: T0.1566 is a reversal
+ok T0.1625 deposit m0059 53.00 balance=708.19
+T0.1620 transfer m0063->m0044 9.82 at=21585000
+T0.1605 transfer m0063->m0074 12.13 at=21230000
+T0.1598 deposit ->m0063 45.74 at=21191000
+ok T0.1626 deposit m0082 58.61 balance=286.61
+ok T0.1627 deposit m0044 12.84 balance=966.51
+T0.1611 deposit ->m0081 319.00 at=21409000
+batch B40 n=37 volume=1345.06 first=T0.1591 last=T0.1627 entry=7
+batch B40 settled
+ok T0.1628 transfer m0076->m0077 1.46 balance=590.99
+ok T0.1629 deposit m0082 24.60 balance=311.21
+ok T0.1630 deposit m0080 45.24 balance=162.17
+T0.1608 deposit ->m0078 24.85 at=21230000
+ok T0.1631 deposit m0069 38.17 balance=638.40
+ok T0.1632 withdraw m0072 276.76 balance=0.00
+close m0072 slot=71
+m0080 balance=162.17 held=0.00 available=162.17 spent_today=0.00 debits_last_hour=0
+ok T0.1633 withdraw m0082 5.00 balance=306.21
+ok T0.1634 transfer m0052->m0065 9.47 balance=670.22
+open m0083 slot=82 gen=0
+ok T0.1635 deposit m0083 360.00 balance=360.00
+now=21674000
+ok T0.1636 withdraw m0059 8.00 balance=700.19
+now=21758000
+ok T0.1637 withdraw m0052 8.00 balance=662.22
+ok T0.1638 deposit m0083 56.47 balance=416.47
+ok T0.1639 withdraw m0044 2.00 balance=964.51
+ok T0.1640 withdraw m0074 6.00 balance=320.47
+ok T0.1641 transfer m0077->m0060 1.45 balance=571.61
+ok T0.1642 deposit m0076 4.87 balance=595.86
+ok T0.1643 transfer m0076->m0078 7.68 balance=588.18
+ok T0.1644 withdraw m0069 8.00 balance=630.40
+ok T0.1645 withdraw m0044 1.00 balance=963.51
+now=21814000
+m0065 balance=410.75 held=0.00 available=410.75 spent_today=64.06 debits_last_hour=6
+ok T0.1646 withdraw m0065 2.00 balance=408.75
+ok T0.1647 transfer m0052->m0044 4.35 balance=657.87
+now=21906000
+m0081 balance=319.00 held=0.00 available=319.00 spent_today=0.00 debits_last_hour=0
+ok T0.1648 withdraw m0069 8.00 balance=622.40
+ok T0.1649 deposit m0078 17.01 balance=574.27
+now=21918000
+ok T0.1650 withdraw m0075 5.00 balance=157.18
+ok T0.1651 deposit m0081 6.98 balance=325.98
+ok T0.1652 deposit m0079 42.16 balance=269.62
+T0.1641 transfer m0077->m0060 1.45 at=21758000
+now=21922000
+ok T0.1653 withdraw m0080 4.00 balance=158.17
+ok T0.1654 withdraw m0079 9.00 balance=260.62
+ok T0.1655 transfer m0074->m0075 14.13 balance=306.34
+ok T0.1656 deposit m0078 34.95 balance=609.22
+T0.1645 withdraw m0044-> 1.00 at=21758000
+ok T0.1657 withdraw m0052 3.00 balance=654.87
+ok T0.1658 withdraw m0063 7.00 balance=906.26
+ok T0.1659 reverse T0.1611 319.00
+ok T0.1660 withdraw m0065 10.00 balance=398.75
+ok T0.1661 transfer m0076->m0065 8.58 balance=579.60
+open m0084 slot=83 gen=0
+ok T0.1662 deposit m0084 301.00 balance=301.00
+ok T0.1663 deposit m0063 49.95 balance=956.21
+ok T0.1664 withdraw m0038 2.00 balance=1177.42
+ok T0.1665 withdraw m0052 2.00 balance=652.87
+ok T0.1666 withdraw m0051 572.31 balance=0.00
+close m0051 slot=50
+ok T0.1667 deposit m0063 31.62 balance=987.83
+T0.1643 transfer m0076->m0078 7.68 at=21758000
+ok T0.1668 withdraw m0052 4.00 balance=648.87
+m0038 slot=37 gen=0 balance=1177.42 held=0.00 ops=98
+m0044 slot=43 gen=0 balance=967.86 held=0.00 ops=91
+m0052 slot=51 gen=0 balance=648.87 held=0.00 ops=61
+m0059 slot=58 gen=0 balance=700.19 held=0.00 ops=63
+m0060 slot=59 gen=0 balance=568.78 held=0.00 ops=50
+m0063 slot=62 gen=0 balance=987.83 held=0.00 ops=48
+m0065 slot=64 gen=0 balance=407.33 held=0.00 ops=33
+m0069 slot=68 gen=0 balance=622.40 held=0.00 ops=37
+m0074 slot=73 gen=0 balance=306.34 held=0.00 ops=17
+m0075 slot=74 gen=0 balance=171.31 held=0.00 ops=17
+m0076 slot=75 gen=0 balance=579.60 held=0.00 ops=25
+m0077 slot=76 gen=0 balance=571.61 held=0.00 ops=21
+m0078 slot=77 gen=0 balance=609.22 held=0.00 ops=19
+m0079 slot=78 gen=0 balance=260.62 held=0.00 ops=10
+m0080 slot=79 gen=0 balance=158.17 held=0.00 ops=5
+m0081 slot=80 gen=0 balance=6.98 held=0.00 ops=3
+m0082 slot=81 gen=0 balance=306.21 held=0.00 ops=4
+m0083 slot=82 gen=0 balance=416.47 held=0.00 ops=2
+m0084 slot=83 gen=0 balance=301.00 held=0.00 ops=1
+accounts open=19
+journal records=1669 folded=1536 live=133 segments=2 sealed=1 compactions=4
+B36 settled n=41 volume=1206.43 attempts=1 entry=3
+B37 settled n=42 volume=1131.76 attempts=1 entry=4
+B38 settled n=36 volume=1040.92 attempts=1 entry=5
+B39 settled n=41 volume=774.86 attempts=2 entry=6
+B40 settled n=37 volume=1345.06 attempts=1 entry=7
+batches total=40 pending=0 unassigned=41
+idem entries=64 capacity=64 evicted=183
+check ok records=1669 live=133 accounts=19 holds=0 batches=40

@@ -1,0 +1,9 @@
+user root added (admin)
+user alice added
+published imgtool 1.0.0 (2 KiB)
+published imgtool 1.1.0 (2 KiB)
+yanked imgtool 1.0.0
+quota alice used=4 KiB limit=10240 KiB
+pruned imgtool: 1.0.0
+quota alice used=2 KiB limit=10240 KiB
+check ok (2 users, 1 packages)

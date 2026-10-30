@@ -1,0 +1,10 @@
+user add alice
+user add bob
+publish alice inner 1.0.0 visibility=private
+publish bob outer 1.0.0 deps=inner@^1
+owner invite alice inner bob role=reader
+owner accept bob inner
+publish bob outer 1.0.0 deps=inner@^1
+lock bob l outer@*
+lock - l outer@*
+fetch - outer

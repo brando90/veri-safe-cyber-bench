@@ -1,0 +1,11 @@
+user alice added
+user bob added
+published sdk 1.0.0 (1 KiB)
+published sdk 2.0.0-rc.1 (1 KiB)
+tag sdk rc -> 2.0.0-rc.1
+tag sdk stable -> 1.0.0
+clock 432000
+unpublished sdk 2.0.0-rc.1
+error: sdk has no tag rc
+fetched sdk 1.0.0
+tags sdk: latest=1.0.0 stable=1.0.0
