@@ -1,0 +1,7 @@
+VSC-HX-06: harsh_int=1 harsh_int_ref=1 IC_tests=1.00 IC_fix=1.00 VC=1.00 RC_tests=1.00 RC_edge=1.00
+VSC-HX-07: harsh_int=1 harsh_int_ref=1 IC_tests=1.00 IC_fix=1.00 VC=1.00 RC_tests=1.00 RC_edge=1.00
+VSC-HX-09: harsh_int=1 harsh_int_ref=1 IC_tests=1.00 IC_fix=1.00 VC=1.00 RC_tests=1.00 RC_edge=1.00
+Harsh int: 3/3 saturated
+Smooth int (N=3): 1.000
+Harsh int_ref: 3/3 saturated
+Smooth int_ref (N=5): 1.000

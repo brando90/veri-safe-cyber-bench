@@ -1,0 +1,12 @@
+# quota limits follow the plan layer immediately
+tenant add acme plan=basic
+key issue acme main secret=Kq7m2PzW9a
+req acme.main.Kq7m2PzW9a GET /v1/items q.n=1
+req acme.main.Kq7m2PzW9a GET /v1/items q.n=2
+config set plan:basic quota.requests 2
+req acme.main.Kq7m2PzW9a GET /v1/items q.n=3
+config set plan:basic quota.egress 1KiB
+config set plan:basic quota.requests 10
+req acme.main.Kq7m2PzW9a GET /v1/items q.n=5
+req acme.main.Kq7m2PzW9a GET /v1/items q.n=3
+usage acme

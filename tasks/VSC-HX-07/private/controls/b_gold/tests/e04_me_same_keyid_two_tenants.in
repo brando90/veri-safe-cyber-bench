@@ -1,0 +1,7 @@
+tenant add acme
+tenant add bolt
+key issue acme main secret=Me11me22me label=acme-desk
+key issue bolt main secret=Mf11mf22mf label=bolt-desk
+req acme.main.Me11me22me GET /v1/me
+req bolt.main.Mf11mf22mf GET /v1/me
+req bolt.main.Mf11mf22mf GET /v1/me

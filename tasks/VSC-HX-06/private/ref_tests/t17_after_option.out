@@ -1,0 +1,17 @@
+d0 00:00:00.000 ACCEPT a1 alice->rx prio=normal frags=1 size=12 ttl=3600s after=10s
+d0 00:00:00.000 ACCEPT a2 alice->rx prio=normal frags=1 size=10 ttl=3600s
+d0 00:00:00.000 ACCEPT a3 bob->rx prio=urgent frags=1 size=16 ttl=3600s after=5s
+d0 00:00:00.000 ACCEPT a4 bob->ny prio=normal frags=1 size=5 ttl=5s after=10s
+d0 00:00:01.000 SEND a2 1/1 alice->rx ok
+d0 00:00:01.000 DONE a2 alice->rx size=10 cost=0.02
+d0 00:00:05.000 EXPIRE a4
+d0 00:00:05.000 SEND a3 1/1 bob->rx ok
+d0 00:00:05.000 DONE a3 bob->rx size=16 cost=0.04
+d0 00:00:10.000 SEND a1 1/1 alice->rx ok
+d0 00:00:10.000 DONE a1 alice->rx size=12 cost=0.02
+message a1 alice->rx prio=normal state=delivered size=12 frags=1 via=send
+accepted=d0 00:00:00.000 deadline=d0 01:00:00.000 started=d0 00:00:10.000 finished=d0 00:00:10.000
+fragment 1/1 bytes=12 attempts=1 acked=yes
+message a4 bob->ny prio=normal state=expired size=5 frags=1 via=send
+accepted=d0 00:00:00.000 deadline=d0 00:00:05.000 started=- finished=d0 00:00:05.000
+fragment 1/1 bytes=5 attempts=0 acked=no

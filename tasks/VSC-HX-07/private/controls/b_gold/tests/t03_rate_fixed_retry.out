@@ -1,0 +1,19 @@
+tenant acme plan=free
+key acme.k1 issued expires=never
+key acme.k2 issued expires=never
+config tenant:acme rate.limit=3
+now=12300
+ok 200 miss 600B items tenant=acme n=5
+ok 200 hit 600B items tenant=acme n=5
+ok 200 miss 120B items tenant=acme n=1
+deny rate retry_after=8
+now=19001
+deny rate retry_after=1
+now=20000
+ok 200 hit 600B items tenant=acme n=5
+rate acme mode=fixed limit=3 window=10s in_window=1
+window 20000..30000
+accepted t=20000
+usage acme period=0 requests=4/200 egress=1920B/64KiB
+rate acme mode=fixed limit=3 window=10s in_window=1
+meter acme api=4 jobs=0 egress=1920B

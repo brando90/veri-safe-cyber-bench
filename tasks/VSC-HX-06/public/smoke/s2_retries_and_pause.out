@@ -1,0 +1,35 @@
+d0 00:00:00.000 ACCEPT r1 alice->rx prio=normal frags=1 size=15 ttl=3600s
+d0 00:00:01.000 SEND r1 1/1 alice->rx fail
+d0 00:00:01.000 RETRY r1 1/1 at d0 00:00:03.000
+d0 00:00:03.000 SEND r1 1/1 alice->rx fail
+d0 00:00:03.000 RETRY r1 1/1 at d0 00:00:07.000
+queue at d0 00:00:04.000: 1 entries
+r1 1/1 alice->rx prio=normal attempts=2 not-before=d0 00:00:07.000
+d0 00:00:07.000 SEND r1 1/1 alice->rx fail
+d0 00:00:07.000 PAUSE rx until d0 00:00:37.000
+d0 00:00:07.000 RETRY r1 1/1 at d0 00:00:15.000
+d0 00:00:37.000 RESUME rx
+d0 00:00:37.000 SEND r1 1/1 alice->rx ok
+d0 00:00:37.000 DONE r1 alice->rx size=15 cost=0.02
+#1 d0 00:00:00.000 sender name=alice plan=basic
+#2 d0 00:00:00.000 sender name=bob plan=pro
+#3 d0 00:00:00.000 sender name=cora plan=bulk
+#4 d0 00:00:00.000 recipient name=rx tz=+00:00
+#5 d0 00:00:00.000 recipient name=ny tz=-05:00
+#6 d0 00:00:00.000 recipient name=tokyo tz=+09:00
+#7 d0 00:00:00.000 link recipient=rx script=fail count=3
+#8 d0 00:00:07.000 pause recipient=rx until=d0/00:00:37.000
+#9 d0 00:00:37.000 resume recipient=rx
+d0 00:00:44.000 ACCEPT r2 bob->ny prio=high frags=1 size=19 ttl=3600s
+d0 00:00:45.000 SEND r2 1/1 bob->ny fail
+d0 00:00:45.000 RETRY r2 1/1 at d0 00:00:47.000
+d0 00:00:47.000 SEND r2 1/1 bob->ny ok
+d0 00:00:47.000 DONE r2 bob->ny size=19 cost=0.03
+stats at d0 00:00:54.000
+accepted=2 rejected=0 duplicates=0
+delivered=2 failed=0 expired=0 cancelled=0 pending=0
+attempts=6 retries=4 bytes=34
+revenue=0.05
+recipient ny delivered=1 bytes=19 today=1 today-bytes=19 hour=1 fails-in-row=0 last=d0 00:00:47.000
+recipient rx delivered=1 bytes=15 today=1 today-bytes=15 hour=1 fails-in-row=0 last=d0 00:00:37.000
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-

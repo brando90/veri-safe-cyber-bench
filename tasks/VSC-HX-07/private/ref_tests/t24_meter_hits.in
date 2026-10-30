@@ -1,0 +1,6 @@
+tenant add acme
+key issue acme k secret=Mh11mh22mh
+req acme.k.Mh11mh22mh GET /v1/blob q.size=1500
+req acme.k.Mh11mh22mh GET /v1/blob q.size=1500
+usage acme
+bill acme

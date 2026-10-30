@@ -1,0 +1,8 @@
+tenant add acme
+key issue acme w secret=Or11or22or
+job submit acme.w.Or11or22or /v1/report q.fail=1
+job submit acme.w.Or11or22or /v1/report delay=1000
+jobs run
+clock set 1000
+jobs list
+jobs run

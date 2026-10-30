@@ -1,0 +1,39 @@
+OK set base
+OK set prod
+OK set admin
+OK set ops
+OK attr ann.dept
+OK attr ann.role
+OK attr bob.dept
+OK attr bob.role
+OK attr cy.dept
+OK attr cy.role
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+SET admin mode=admin parent=- rules=1
+SET base mode=standard parent=- rules=2
+SET ops mode=standard parent=admin rules=2
+SET prod mode=standard parent=base rules=1
+SET prod mode=standard chain=prod>base
+  R3 allow doc:write /docs/team/* when subject.role == "editor"
+SET ops mode=standard chain=ops>admin
+  R5 allow ops:* /svc/**
+  R6 deny ops:restart /svc/core/* when req.change != "approved"
+DECISION allow by=R1 steps=3
+DECISION deny by=R2 steps=3
+DECISION allow by=R3 steps=3
+DECISION deny by=default steps=3
+DECISION deny by=default steps=0
+R1 allow set=base cond=always
+R2 deny set=base cond=true
+#1 t=0 prod ann doc:read /docs/hr/a -> allow by=R1 steps=3
+#2 t=0 prod bob doc:read /docs/hr/a -> deny by=R2 steps=3
+#3 t=0 prod cy doc:write /docs/team/plan -> allow by=R3 steps=3
+#4 t=0 prod bob doc:write /docs/team/plan -> deny by=default steps=3
+#5 t=0 prod cy doc:write /docs/team/x/y -> deny by=default steps=0
+#4 t=0 prod bob doc:write /docs/team/plan -> deny by=default steps=3
+#5 t=0 prod cy doc:write /docs/team/x/y -> deny by=default steps=0

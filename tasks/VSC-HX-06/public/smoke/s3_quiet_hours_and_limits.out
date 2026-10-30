@@ -1,0 +1,32 @@
+d0 04:00:00.000 ACCEPT q1 alice->ny prio=normal frags=1 size=18 ttl=43200s
+d0 04:00:00.000 ACCEPT q2 bob->ny prio=urgent frags=1 size=29 ttl=3600s
+d0 04:00:00.000 ACCEPT l1 cora->tokyo prio=normal frags=1 size=11 ttl=3600s
+d0 04:00:00.000 ACCEPT l2 cora->tokyo prio=normal frags=1 size=12 ttl=43200s
+d0 04:00:01.000 SEND q2 1/1 bob->ny ok
+d0 04:00:01.000 DONE q2 bob->ny size=29 cost=0.04
+d0 04:00:01.000 SEND l1 1/1 cora->tokyo ok
+d0 04:00:01.000 DONE l1 cora->tokyo size=11 cost=0.01
+d0 12:00:00.000 SEND q1 1/1 alice->ny ok
+d0 12:00:00.000 DONE q1 alice->ny size=18 cost=0.02
+d0 15:00:00.000 SEND l2 1/1 cora->tokyo ok
+d0 15:00:00.000 DONE l2 cora->tokyo size=12 cost=0.01
+inbox ny: 2 messages
+q2 from bob: Wake up, the build is on fire
+q1 from alice: Good night message
+inbox tokyo: 2 messages
+l1 from cora: first today
+l2 from cora: second today
+config for ny
+breaker.pause_s 30 s default
+breaker.threshold 3 count default
+dedup.window_s 300 s default
+dispatch.per_recipient 1 count default
+limit.daily 0 count default
+limit.daily_kib 0 kib default
+limit.hourly 0 count default
+queue.max_pending 50 count default
+quiet.end 07:00 hhmm recipient
+quiet.start 22:00 hhmm recipient
+retry.max_attempts 4 count default
+ttl.default_s 3600 s default
+ttl.max_s 86400 s default

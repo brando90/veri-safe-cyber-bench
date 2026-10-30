@@ -1,0 +1,25 @@
+d0 00:00:00.000 ACCEPT p1 bob->rx prio=normal frags=1 size=7 ttl=3600s
+d0 00:00:00.000 ACCEPT p2 bob->ny prio=normal frags=1 size=7 ttl=3600s
+d0 00:00:00.000 ACCEPT p3 bob->tokyo prio=normal frags=1 size=9 ttl=3600s
+d0 00:00:01.000 SEND p1 1/1 bob->rx ok
+d0 00:00:01.000 DONE p1 bob->rx size=7 cost=0.03
+d0 00:00:01.000 SEND p2 1/1 bob->ny ok
+d0 00:00:01.000 DONE p2 bob->ny size=7 cost=0.03
+d0 00:00:01.000 SEND p3 1/1 bob->tokyo ok
+d0 00:00:01.000 DONE p3 bob->tokyo size=9 cost=0.03
+stats at d0 00:00:05.000
+accepted=3 rejected=0 duplicates=0
+delivered=3 failed=0 expired=0 cancelled=0 pending=0
+attempts=3 retries=0 bytes=23
+revenue=0.09
+recipient ny delivered=1 bytes=7 today=1 today-bytes=7 hour=1 fails-in-row=0 last=d0 00:00:01.000
+recipient rx delivered=1 bytes=7 today=1 today-bytes=7 hour=1 fails-in-row=0 last=d0 00:00:01.000
+recipient tokyo delivered=1 bytes=9 today=1 today-bytes=9 hour=1 fails-in-row=0 last=d0 00:00:01.000
+plan basic messages=0 revenue=0.00
+plan bulk messages=0 revenue=0.00
+plan pro messages=3 revenue=0.09
+all messages=3 revenue=0.09
+senders
+sender bob plan=pro delivered=3 revenue=0.09 last-attempt=d0 00:00:01.000
+sender alice plan=basic delivered=0 revenue=0.00 last-attempt=-
+sender cora plan=bulk delivered=0 revenue=0.00 last-attempt=-

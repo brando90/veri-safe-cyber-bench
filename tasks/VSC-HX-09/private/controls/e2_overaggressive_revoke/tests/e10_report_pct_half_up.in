@@ -1,0 +1,35 @@
+set create base
+set create prod parent=base
+set create admin mode=admin
+set create ops parent=admin
+attr set ann dept hr
+attr set ann role editor
+attr set bob dept eng
+attr set bob role viewer
+attr set cy dept eng
+attr set cy role editor
+rule add base allow doc:read /docs/**
+rule add base deny doc:* /docs/hr/** when subject.dept != "hr"
+rule add prod allow doc:write /docs/team/* when subject.role == "editor"
+rule add admin override doc:* /docs/hr/audit/** when subject.id == "auditor"
+rule add ops allow ops:* /svc/**
+rule add ops deny ops:restart /svc/core/* when req.change != "approved"
+check prod bob doc:read /docs/a
+check prod bob doc:read /docs/hr/x0
+check prod bob doc:read /docs/hr/x1
+check prod bob doc:read /docs/hr/x2
+check prod bob doc:read /docs/hr/x3
+check prod bob doc:read /docs/hr/x4
+check prod bob doc:read /docs/hr/x5
+check prod bob doc:read /docs/hr/x6
+check prod bob doc:read /docs/hr/x7
+check prod bob doc:read /docs/hr/x8
+check prod bob doc:read /docs/hr/x9
+check prod bob doc:read /docs/hr/x10
+check prod bob doc:read /docs/hr/x11
+check prod bob doc:read /docs/hr/x12
+check prod bob doc:read /docs/hr/x13
+check prod bob doc:read /docs/hr/x14
+report text
+report html
+stats

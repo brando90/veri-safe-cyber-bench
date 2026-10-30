@@ -1,0 +1,11 @@
+set create base
+approve request bob doc:read /docs/* 1h
+approve grant A1 ann
+check base bob doc:read /docs/a/b
+approve list
+check base bob doc:read /docs/a
+approve request bob doc:read /team/** 1h
+approve grant A2 ann
+check base bob doc:read /teamx
+check base bob doc:read /team
+approve list

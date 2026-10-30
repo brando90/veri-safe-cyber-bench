@@ -1,0 +1,18 @@
+tenant add acme plan=basic
+key issue acme k secret=Dl11dl22dl
+config set default rate.window 1m
+req acme.k.Dl11dl22dl GET /v1/items q.n=1
+req acme.k.Dl11dl22dl GET /v1/items q.n=2
+req acme.k.Dl11dl22dl GET /v1/items q.n=3
+config set default quota.requests 2
+config set tenant:acme quota.requests 4
+req acme.k.Dl11dl22dl GET /v1/items q.n=4
+req acme.k.Dl11dl22dl GET /v1/items q.n=5
+config set default rate.limit 1
+config set tenant:acme quota.requests 10
+req acme.k.Dl11dl22dl GET /v1/items q.n=5
+config set default rate.limit 4
+req acme.k.Dl11dl22dl GET /v1/items q.n=5
+config set default cache.ttl 0
+req acme.k.Dl11dl22dl GET /v1/catalog
+usage acme

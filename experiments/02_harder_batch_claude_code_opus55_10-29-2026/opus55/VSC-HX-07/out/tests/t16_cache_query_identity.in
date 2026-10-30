@@ -1,0 +1,8 @@
+# distinct parameter sets never share a cache entry; parameter order does not matter
+tenant add acme
+key issue acme main secret=Kq7m2PzW9a
+req acme.main.Kq7m2PzW9a GET /v1/items q.a="1&n=7"
+req acme.main.Kq7m2PzW9a GET /v1/items q.a=1 q.n=7
+req acme.main.Kq7m2PzW9a GET /v1/items q.n=7 q.a=1
+req acme.main.Kq7m2PzW9a GET //v1/items/ q.a=1&n=7 nonce=k1 ts=0
+cache list

@@ -1,0 +1,9 @@
+OK A1 pending until=600
+OK A2 pending until=600
+CLOCK 300
+OK A2 until=900
+CLOCK 600
+ERROR approval: A1 has expired
+OK A2 until=1200
+A1 expired bob doc:read /docs/**
+A2 pending cy doc:read /docs/** left=10m

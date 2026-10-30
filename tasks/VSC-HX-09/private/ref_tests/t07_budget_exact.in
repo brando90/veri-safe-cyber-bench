@@ -1,0 +1,11 @@
+cond define l64 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+cond define l40 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+cond define heavy count(@l64, 0) == 64
+eval @heavy and @heavy and @heavy and count(@l40, 0) == 40 and true and true and true
+eval @heavy and @heavy and @heavy and count(@l40, 0) == 40 and true and true and true and true
+set create s
+rule add s allow doc:read /r/* when @heavy and @heavy and @heavy and count(@l40, 0) == 40 and true and true and true
+check s u doc:read /r/a
+rule add s deny doc:read /r/* when false
+check s u doc:read /r/a
+explain s u doc:read /r/a

@@ -1,0 +1,26 @@
+tenant add acme plan=pro
+tenant add bolt
+config set tenant:acme rate.limit 7
+config set tenant:acme rate.window 90000
+config set tenant:acme quota.egress 2048
+config set tenant:acme cache.capacity 1MiB
+config set default cache.capacity 300000
+config set plan:nope rate.limit 1
+config set tenant:zzz rate.limit 1
+config set tenant:acme rate.mode burst
+config set tenant:acme jobs.max_attempts 11
+config set tenant:acme no.such 1
+config load tenant:bolt rate.limit=4 quota.period=1h replay.required=on
+config load tenant:bolt rate.limit=9 quota.period=0
+config get bolt rate.limit
+config get bolt quota.period
+config show acme
+config explain bolt quota.period
+config explain acme cache.capacity
+config unset default rate.limit
+config unset tenant:acme rate.limit
+config unset tenant:acme rate.limit
+config explain acme rate.limit
+config layers
+audit -
+audit acme event=config

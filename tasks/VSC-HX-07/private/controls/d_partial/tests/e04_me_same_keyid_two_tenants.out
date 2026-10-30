@@ -1,0 +1,7 @@
+tenant acme plan=free
+tenant bolt plan=free
+key acme.main issued expires=never
+key bolt.main issued expires=never
+ok 200 miss 256B me tenant=acme key=main label=acme-desk
+ok 200 miss 256B me tenant=bolt key=main label=bolt-desk
+ok 200 hit 256B me tenant=bolt key=main label=bolt-desk

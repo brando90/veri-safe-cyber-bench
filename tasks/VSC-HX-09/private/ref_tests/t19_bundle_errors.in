@@ -1,0 +1,52 @@
+set create base
+set create prod parent=base
+set create admin mode=admin
+set create ops parent=admin
+attr set ann dept hr
+attr set ann role editor
+attr set bob dept eng
+attr set bob role viewer
+attr set cy dept eng
+attr set cy role editor
+rule add base allow doc:read /docs/**
+rule add base deny doc:* /docs/hr/** when subject.dept != "hr"
+rule add prod allow doc:write /docs/team/* when subject.role == "editor"
+rule add admin override doc:* /docs/hr/audit/** when subject.id == "auditor"
+rule add ops allow ops:* /svc/**
+rule add ops deny ops:restart /svc/core/* when req.change != "approved"
+set create staging
+bundle import staging
+policyforge-bundle 2
+checksum 0
+.end
+bundle import staging
+policyforge-bundle 1
+set prod mode=standard parent=base
+.end
+bundle import staging
+policyforge-bundle 1
+set prod mode=standard parent=base
+rule R1 allow doc:read
+checksum 3ac2f4bd030e1f0f
+.end
+bundle import staging
+policyforge-bundle 1
+set prod mode=standard parent=base
+rule R1 allow doc:read /docs/*
+rule R2 override doc:read /docs/*
+checksum a812b7bf6a034387
+.end
+bundle import staging
+policyforge-bundle 1
+set prod mode=standard parent=base
+rule R1 allow doc:read /docs/* when @undefined
+checksum c0fb35a52931aa4d
+.end
+bundle import nowhere
+policyforge-bundle 1
+set prod mode=standard parent=base
+rule R3 allow doc:write /docs/team/* when subject.role == "editor"
+checksum c1aa0b1c0e424fa0
+.end
+set show staging
+bundle export nowhere

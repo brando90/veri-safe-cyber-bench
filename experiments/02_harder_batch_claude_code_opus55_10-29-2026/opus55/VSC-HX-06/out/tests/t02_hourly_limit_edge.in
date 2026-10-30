@@ -1,0 +1,13 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set-for rx limit.hourly 1
+send h1 alice rx first of the hour
+send h2 alice rx ttl=2h second of the hour
+advance 1h
+explain h2
+advance 1s
+stats rx

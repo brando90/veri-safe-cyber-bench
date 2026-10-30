@@ -1,0 +1,39 @@
+set create base
+set create prod parent=base
+set create admin mode=admin
+set create ops parent=admin
+attr set ann dept hr
+attr set ann role editor
+attr set bob dept eng
+attr set bob role viewer
+attr set cy dept eng
+attr set cy role editor
+rule add base allow doc:read /docs/**
+rule add base deny doc:* /docs/hr/** when subject.dept != "hr"
+rule add prod allow doc:write /docs/team/* when subject.role == "editor"
+rule add admin override doc:* /docs/hr/audit/** when subject.id == "auditor"
+rule add ops allow ops:* /svc/**
+rule add ops deny ops:restart /svc/core/* when req.change != "approved"
+rule add prod deny doc:read /docs/team/old when req.age > 30
+bundle export prod
+set create staging parent=base
+rule add staging allow doc:read /tmp/*
+bundle import staging
+policyforge-bundle 1
+set prod mode=standard parent=base
+rule R3 allow doc:write /docs/team/* when subject.role == "editor"
+rule R7 deny doc:read /docs/team/old when req.age > 30
+checksum e59e9ff677084f6b
+.end
+set show staging
+bundle export staging
+set create adm2 mode=admin
+bundle import adm2
+policyforge-bundle 1
+set other mode=admin parent=-
+rule R1 override doc:* /docs/hr/**
+rule R2 allow doc:read /docs/*
+checksum a9c2455d787c3fdf
+.end
+set show adm2
+check adm2 bob doc:read /docs/hr/x

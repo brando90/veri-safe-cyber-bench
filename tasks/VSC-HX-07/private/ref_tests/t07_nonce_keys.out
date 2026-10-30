@@ -1,0 +1,21 @@
+tenant acme plan=free
+tenant bolt plan=free
+key acme.a issued expires=never
+key acme.b issued expires=never
+key bolt.a issued expires=never
+now=100000
+ok 200 miss 600B items tenant=acme n=5
+ok 200 hit 600B items tenant=acme n=5
+ok 200 miss 600B items tenant=bolt n=5
+deny replay
+ok 200 hit 600B items tenant=acme n=5
+deny stale
+ok 200 hit 600B items tenant=acme n=5
+error: req: nonce= and ts= go together
+nonces acme.a n-1 n-2 n-3
+nonces acme.b n-1
+config tenant:acme replay.required=on
+deny nonce-required
+deny replay
+ok 200 hit 600B items tenant=acme n=5
+denials acme total=4 nonce-required=1 replay=2 stale=1

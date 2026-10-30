@@ -1,0 +1,15 @@
+RESULT 1 steps=1
+ERROR parse: expression nested deeper than 32
+RESULT true steps=33
+ERROR parse: expression nested deeper than 32
+RESULT [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[1]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] steps=33
+ERROR parse: expected ) at column 10
+ERROR parse: unexpected character at column 3
+ERROR parse: expression longer than 400 characters
+ERROR parse: expression longer than 400 characters
+ERROR parse: list literal longer than 64 items
+RESULT false steps=68
+ERROR parse: expected ) at column 3
+ERROR parse: unexpected ']' at column 1
+ERROR parse: unexpected end of expression at column 5
+ERROR parse: unexpected character at column 1

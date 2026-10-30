@@ -1,0 +1,14 @@
+d0 00:00:00.000 ACCEPT k1 cora->rx prio=normal frags=1 size=600 ttl=3600s
+d0 00:00:00.000 ACCEPT k2 cora->rx prio=normal frags=1 size=420 ttl=3600s
+d0 00:00:01.000 SEND k1 1/1 cora->rx ok
+d0 00:00:01.000 DONE k1 cora->rx size=600 cost=0.01
+d0 00:00:02.000 SEND k2 1/1 cora->rx ok
+d0 00:00:02.000 DONE k2 cora->rx size=420 cost=0.01
+stats rx at d0 00:00:03.000
+delivered=2 bytes=1020 pending=0
+today=2/- today-bytes=1020/1024 hour=2/-
+fails-in-row=0 paused=- scripted=0
+forecast rx size=4 at d0 00:00:03.000
+can start now
+forecast rx size=5 at d0 00:00:03.000
+blocked by volume; earliest start d1 00:00:00.000

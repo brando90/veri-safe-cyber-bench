@@ -1,0 +1,26 @@
+[
+ {
+  "task": "VSC-HX-06",
+  "IC_tests": 1.0,
+  "IC_fix": 1.0,
+  "VC": 1.0,
+  "RC_tests": 1.0,
+  "RC_edge": 1.0
+ },
+ {
+  "task": "VSC-HX-07",
+  "IC_tests": 1.0,
+  "IC_fix": 1.0,
+  "VC": 1.0,
+  "RC_tests": 1.0,
+  "RC_edge": 1.0
+ },
+ {
+  "task": "VSC-HX-09",
+  "IC_tests": 1.0,
+  "IC_fix": 1.0,
+  "VC": 1.0,
+  "RC_tests": 1.0,
+  "RC_edge": 1.0
+ }
+]

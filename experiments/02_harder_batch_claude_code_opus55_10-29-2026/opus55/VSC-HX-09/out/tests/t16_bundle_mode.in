@@ -1,0 +1,22 @@
+set create admin mode=admin
+rule add admin override doc:* /docs/hr/audit/** when subject.id == "auditor"
+rule add admin allow doc:read /docs/**
+set create team
+set create ops2 mode=admin
+bundle import team
+policyforge-bundle 1
+set admin mode=admin parent=-
+rule R1 override doc:* /docs/hr/audit/** when subject.id == "auditor"
+rule R2 allow doc:read /docs/**
+checksum f79601d80393059f
+.end
+set list
+bundle import ops2
+policyforge-bundle 1
+set admin mode=admin parent=-
+rule R1 override doc:* /docs/hr/audit/** when subject.id == "auditor"
+rule R2 allow doc:read /docs/**
+checksum f79601d80393059f
+.end
+set show ops2
+verify

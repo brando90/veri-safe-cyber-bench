@@ -1,0 +1,11 @@
+# a refused request does not use up its nonce
+tenant add acme
+key issue acme main secret=Kq7m2PzW9a
+config set tenant:acme rate.limit 1
+req acme.main.Kq7m2PzW9a GET /v1/catalog
+req acme.main.Kq7m2PzW9a GET /v1/catalog nonce=abc ts=0
+nonce list acme main
+clock set 10s
+req acme.main.Kq7m2PzW9a GET /v1/catalog nonce=abc ts=10
+req acme.main.Kq7m2PzW9a GET /v1/catalog nonce=abc ts=10
+nonce list acme main

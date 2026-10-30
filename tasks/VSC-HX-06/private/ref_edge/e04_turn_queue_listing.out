@@ -1,0 +1,22 @@
+d0 00:00:00.000 ACCEPT x1 cora->tokyo prio=normal frags=1 size=10 ttl=3600s
+d0 00:00:00.000 ACCEPT x2 bob->ny prio=high frags=1 size=8 ttl=3600s
+d0 00:00:00.000 ACCEPT x3 alice->rx prio=high frags=1 size=10 ttl=3600s
+d0 00:00:00.000 ACCEPT x4 cora->rx prio=normal frags=1 size=11 ttl=3600s
+d0 00:00:00.000 ACCEPT x5 alice->tokyo prio=normal frags=1 size=12 ttl=3600s
+d0 00:00:00.000 ACCEPT x6 bob->ny prio=normal frags=1 size=10 ttl=3600s
+d0 00:00:01.000 SEND x2 1/1 bob->ny ok
+d0 00:00:01.000 DONE x2 bob->ny size=8 cost=0.03
+d0 00:00:01.000 SEND x3 1/1 alice->rx ok
+d0 00:00:01.000 DONE x3 alice->rx size=10 cost=0.02
+d0 00:00:01.000 SEND x1 1/1 cora->tokyo ok
+d0 00:00:01.000 DONE x1 cora->tokyo size=10 cost=0.01
+queue at d0 00:00:01.000: 3 entries
+x6 1/1 bob->ny prio=normal attempts=0 not-before=d0 00:00:00.000
+x5 1/1 alice->tokyo prio=normal attempts=0 not-before=d0 00:00:00.000
+x4 1/1 cora->rx prio=normal attempts=0 not-before=d0 00:00:00.000
+d0 00:00:02.000 SEND x6 1/1 bob->ny ok
+d0 00:00:02.000 DONE x6 bob->ny size=10 cost=0.03
+d0 00:00:02.000 SEND x5 1/1 alice->tokyo ok
+d0 00:00:02.000 DONE x5 alice->tokyo size=12 cost=0.02
+d0 00:00:02.000 SEND x4 1/1 cora->rx ok
+d0 00:00:02.000 DONE x4 cora->rx size=11 cost=0.01

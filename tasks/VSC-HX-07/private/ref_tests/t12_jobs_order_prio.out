@@ -1,0 +1,29 @@
+tenant acme plan=free
+tenant bolt plan=free
+key acme.k issued expires=never
+key bolt.k issued expires=never
+job j1 queued due=0
+job j2 queued due=0
+job j3 queued due=0
+job j4 queued due=1000
+job j5 queued due=500
+job j6 queued due=10000
+job j6 cancelled
+error: job: j6 is not queued
+job j3 tenant=acme path=/v1/items due=0 prio=5 attempts=0
+job j2 tenant=bolt path=/v1/report due=0 prio=0 attempts=0
+job j1 tenant=acme path=/v1/report due=0 prio=-1 attempts=0
+job j5 tenant=acme path=/v1/report due=500 prio=0 attempts=0
+job j4 tenant=bolt path=/v1/catalog due=1000 prio=9 attempts=0
+job j3 done 200 120B items tenant=acme n=1
+job j2 done 200 1500B report tenant=bolt attempt=1
+job j1 done 200 1500B report tenant=acme attempt=1
+now=1000
+job j5 tenant=acme path=/v1/report due=500 prio=0 attempts=0
+job j4 tenant=bolt path=/v1/catalog due=1000 prio=9 attempts=0
+job j5 done 200 1500B report tenant=acme attempt=1
+job j4 done 200 2048B catalog items=12 rev=3
+jobs none due
+error: job: j9 is not queued
+1 acme requests=3 egress=3120B
+2 bolt requests=2 egress=3548B

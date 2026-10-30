@@ -1,0 +1,13 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set frag.size_bytes 8
+set-for rx limit.daily 1
+send s1 alice rx a message of many fragments
+send s2 alice rx next one waits
+advance 20s
+stats
+queue

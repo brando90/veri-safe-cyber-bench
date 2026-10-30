@@ -1,0 +1,34 @@
+tenant acme plan=free
+rate.limit=5 (plan:free)
+config tenant:acme rate.limit=3
+config default quota.period=1h
+backend.token="" (default)
+cache.capacity=256KiB (default)
+cache.ttl=30s (default)
+jobs.backoff=1s (default)
+jobs.max_attempts=3 (default)
+price.kib=500 (plan:free)
+price.request=2000 (plan:free)
+quota.egress=64KiB (plan:free)
+quota.period=1h (default)
+quota.requests=200 (plan:free)
+rate.limit=3 (tenant:acme)
+rate.mode=fixed (default)
+rate.window=10s (default)
+replay.required=off (default)
+replay.skew=30s (default)
+replay.window=5m (default)
+webhook.secret="" (default)
+webhook.url="" (default)
+* tenant:acme rate.limit=3
+  plan:free rate.limit=5
+  default rate.limit=10
+config tenant:acme rate.limit unset
+rate.limit=5 (plan:free)
+error: rate.window must be at least 1ms
+config tenant:acme webhook.url=https://hooks.example/acme
+layer default settings=18 version=2
+layer plan:basic settings=3 version=1
+layer plan:free settings=5 version=1
+layer plan:pro settings=8 version=1
+layer tenant:acme settings=1 version=3

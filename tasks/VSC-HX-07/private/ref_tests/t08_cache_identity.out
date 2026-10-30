@@ -1,0 +1,15 @@
+tenant acme plan=free
+key acme.k issued expires=never
+config tenant:acme rate.limit=50
+ok 200 miss 2000B blob tenant=acme size=2000
+ok 200 hit 2000B blob tenant=acme size=2000
+ok 200 miss 2000B blob tenant=acme size=2000
+ok 200 hit 2000B blob tenant=acme size=2000
+ok 200 hit 2000B blob tenant=acme size=2000
+ok 200 hit 2000B blob tenant=acme size=2000
+ok 400 miss 43B bad request: bad n abc (expected an integer)
+ok 400 miss 43B bad request: bad n abc (expected an integer)
+ok 400 miss 27B bad request: size above 1MiB
+entry acme GET /v1/blob?size=2000&tag=x size=2KiB expires=30000 hits=1
+entry acme GET /v1/blob?size=2000 size=2KiB expires=30000 hits=3
+cache entries=2 used=4KiB capacity=256KiB hits=4 misses=5 evictions=0

@@ -1,0 +1,20 @@
+tenant add acme
+tenant add bolt
+key issue acme k secret=Jo11jo22jo
+key issue bolt k secret=Jp11jp22jp
+job submit acme.k.Jo11jo22jo /v1/report prio=-1
+job submit bolt.k.Jp11jp22jp /v1/report
+job submit acme.k.Jo11jo22jo /v1/items prio=5 q.n=1
+job submit bolt.k.Jp11jp22jp /v1/catalog delay=1s prio=9
+job submit acme.k.Jo11jo22jo /v1/report delay=500
+job submit acme.k.Jo11jo22jo /v1/report delay=10s
+job cancel j6
+job cancel j6
+jobs list
+jobs run
+clock set 1s
+jobs list
+jobs run
+jobs run
+job cancel j9
+top

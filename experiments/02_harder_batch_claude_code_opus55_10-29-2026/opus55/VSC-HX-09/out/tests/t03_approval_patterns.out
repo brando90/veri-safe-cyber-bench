@@ -1,0 +1,12 @@
+OK set base
+OK A1 pending until=3600
+OK A1 approved by=ann
+DECISION deny by=default steps=0
+A1 approved bob doc:read /docs/* left=1h by=ann
+DECISION allow by=A1 steps=0
+OK A2 pending until=3600
+OK A2 approved by=ann
+DECISION deny by=default steps=0
+DECISION allow by=A2 steps=0
+A1 used bob doc:read /docs/* by=ann
+A2 used bob doc:read /team/** by=ann

@@ -1,0 +1,10 @@
+# a key issued at 0 with ttl=10s is valid while now < 10000
+tenant add acme
+key issue acme main secret=Kq7m2PzW9a ttl=10s
+clock set 9999
+req acme.main.Kq7m2PzW9a GET /v1/items
+clock set 10000
+req acme.main.Kq7m2PzW9a GET /v1/items
+key list acme
+job submit acme.main.Kq7m2PzW9a /v1/items
+tenant list

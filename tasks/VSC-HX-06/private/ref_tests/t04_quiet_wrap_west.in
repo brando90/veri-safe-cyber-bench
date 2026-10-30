@@ -1,0 +1,19 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+recipient la tz=-08:00
+set-for la quiet.start 20:00
+set-for la quiet.end 08:00
+set-for la limit.daily 2
+send w1 alice la one
+send w2 alice la two
+send w3 alice la ttl=2d three
+advance 30s
+at d0 16:00
+at d0 16:00:10
+at d1 16:00:10
+stats
+report daily la

@@ -1,0 +1,33 @@
+now=1500
+now=61500
+now=7261500
+now=7261500
+tenant acme plan=free
+config tenant:acme rate.window=1h
+config tenant:acme rate.window=61s
+error: rate.window must be at most 1h
+config tenant:acme quota.egress=1MiB
+config tenant:acme quota.egress=1025B
+config tenant:acme cache.ttl=0s
+config tenant:acme quota.period=2d
+error: quota.period must be at most 30d
+config tenant:acme replay.skew=1500ms
+error: bad replay.required yes (expected on or off)
+backend.token="" (default)
+cache.capacity=256KiB (default)
+cache.ttl=0s (tenant:acme)
+jobs.backoff=1s (default)
+jobs.max_attempts=3 (default)
+price.kib=500 (plan:free)
+price.request=2000 (plan:free)
+quota.egress=1025B (tenant:acme)
+quota.period=2d (tenant:acme)
+quota.requests=200 (plan:free)
+rate.limit=5 (plan:free)
+rate.mode=fixed (default)
+rate.window=61s (tenant:acme)
+replay.required=off (default)
+replay.skew=1500ms (tenant:acme)
+replay.window=5m (default)
+webhook.secret="" (default)
+webhook.url="" (default)

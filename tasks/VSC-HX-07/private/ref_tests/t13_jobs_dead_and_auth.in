@@ -1,0 +1,20 @@
+tenant add acme
+key issue acme k secret=Jd11jd22jd ttl=5s
+key issue acme r secret=Jr11jr22jr
+job submit acme.k.Jd11jd22jd /v1/report q.fail=5
+job submit acme.r.Jr11jr22jr /v1/report delay=1s
+key revoke acme r
+jobs run
+clock set 1000
+jobs run
+clock set 3000
+jobs run
+job submit acme.k.Jd11jd22jd /v1/report delay=10s
+clock set 13000
+jobs run
+job submit acme.k.Jd11jd22jd /v1/report
+key issue acme s secret=Js11js22js
+job submit acme.s.Js11js22js /v1/report
+tenant suspend acme
+jobs run
+audit acme event=job

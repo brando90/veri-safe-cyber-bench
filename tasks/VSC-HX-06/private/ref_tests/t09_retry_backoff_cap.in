@@ -1,0 +1,16 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set retry.base_ms 1500
+set retry.factor 3
+set retry.cap_s 10
+set-for rx retry.max_attempts 5
+set-for rx breaker.threshold 10
+link rx fail 4
+send k1 alice rx keep trying
+advance 40s
+history k1
+report retry

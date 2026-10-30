@@ -1,0 +1,22 @@
+d0 00:00:00.000 ACCEPT h1 alice->rx prio=normal frags=1 size=13 ttl=3600s
+d0 00:00:00.000 ACCEPT h2 alice->rx prio=normal frags=1 size=14 ttl=7200s
+d0 00:00:01.000 SEND h1 1/1 alice->rx ok
+d0 00:00:01.000 DONE h1 alice->rx size=13 cost=0.02
+stats at d0 01:00:00.000
+accepted=2 rejected=0 duplicates=0
+delivered=1 failed=0 expired=0 cancelled=0 pending=1
+attempts=1 retries=0 bytes=13
+revenue=0.02
+recipient ny delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient rx delivered=1 bytes=13 today=1 today-bytes=13 hour=1 fails-in-row=0 last=d0 00:00:01.000
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+d0 01:00:01.000 SEND h2 1/1 alice->rx ok
+d0 01:00:01.000 DONE h2 alice->rx size=14 cost=0.02
+stats at d0 01:00:05.000
+accepted=2 rejected=0 duplicates=0
+delivered=2 failed=0 expired=0 cancelled=0 pending=0
+attempts=2 retries=0 bytes=27
+revenue=0.04
+recipient ny delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient rx delivered=2 bytes=27 today=2 today-bytes=27 hour=1 fails-in-row=0 last=d0 01:00:01.000
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-

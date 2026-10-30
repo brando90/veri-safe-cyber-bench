@@ -1,0 +1,74 @@
+OK set base
+OK set prod
+OK set admin
+OK set ops
+OK attr ann.dept
+OK attr ann.role
+OK attr bob.dept
+OK attr bob.role
+OK attr cy.dept
+OK attr cy.role
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+DECISION allow by=R1 steps=0
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+#1 t=0 prod bob doc:read /docs/a -> allow by=R1 steps=0
+#2 t=0 prod bob doc:read /docs/hr/x0 -> deny by=R2 steps=3
+#3 t=0 prod bob doc:read /docs/hr/x1 -> deny by=R2 steps=3
+#4 t=0 prod bob doc:read /docs/hr/x2 -> deny by=R2 steps=3
+#5 t=0 prod bob doc:read /docs/hr/x3 -> deny by=R2 steps=3
+#6 t=0 prod bob doc:read /docs/hr/x4 -> deny by=R2 steps=3
+#7 t=0 prod bob doc:read /docs/hr/x5 -> deny by=R2 steps=3
+#8 t=0 prod bob doc:read /docs/hr/x6 -> deny by=R2 steps=3
+#9 t=0 prod bob doc:read /docs/hr/x7 -> deny by=R2 steps=3
+#10 t=0 prod bob doc:read /docs/hr/x8 -> deny by=R2 steps=3
+#11 t=0 prod bob doc:read /docs/hr/x9 -> deny by=R2 steps=3
+#12 t=0 prod bob doc:read /docs/hr/x10 -> deny by=R2 steps=3
+#13 t=0 prod bob doc:read /docs/hr/x11 -> deny by=R2 steps=3
+#14 t=0 prod bob doc:read /docs/hr/x12 -> deny by=R2 steps=3
+#15 t=0 prod bob doc:read /docs/hr/x13 -> deny by=R2 steps=3
+#16 t=0 prod bob doc:read /docs/hr/x14 -> deny by=R2 steps=3
+-- 16 decisions, 6.3% allowed
+<table class="decisions">
+<tr><th>seq</th><th>time</th><th>set</th><th>subject</th><th>action</th><th>resource</th><th>effect</th><th>by</th><th>steps</th><th>note</th><th>context</th></tr>
+<tr><td class="seq">1</td><td class="time">0</td><td class="set">prod</td><td class="subject">bob</td><td class="action">doc:read</td><td class="resource">/docs/a</td><td class="effect">allow</td><td class="by">R1</td><td class="steps">0</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">2</td><td class="time">0</td><td class="set">prod</td><td class="subject">bob</td><td class="action">doc:read</td><td class="resource">/docs/hr/x0</td><td class="effect">deny</td><td class="by">R2</td><td class="steps">3</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">3</td><td class="time">0</td><td class="set">prod</td><td class="subject">bob</td><td class="action">doc:read</td><td class="resource">/docs/hr/x1</td><td class="effect">deny</td><td class="by">R2</td><td class="steps">3</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">4</td><td class="time">0</td><td class="set">prod</td><td class="subject">bob</td><td class="action">doc:read</td><td class="resource">/docs/hr/x2</td><td class="effect">deny</td><td class="by">R2</td><td class="steps">3</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">5</td><td class="time">0</td><td class="set">prod</td><td class="subject">bob</td><td class="action">doc:read</td><td class="resource">/docs/hr/x3</td><td class="effect">deny</td><td class="by">R2</td><td class="steps">3</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">6</td><td class="time">0</td><td class="set">prod</td><td class="subject">bob</td><td class="action">doc:read</td><td class="resource">/docs/hr/x4</td><td class="effect">deny</td><td class="by">R2</td><td class="steps">3</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">7</td><td class="time">0</td><td class="set">prod</td><td class="subject">bob</td><td class="action">doc:read</td><td class="resource">/docs/hr/x5</td><td class="effect">deny</td><td class="by">R2</td><td class="steps">3</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">8</td><td class="time">0</td><td class="set">prod</td><td class="subject">bob</td><td class="action">doc:read</td><td class="resource">/docs/hr/x6</td><td class="effect">deny</td><td class="by">R2</td><td class="steps">3</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">9</td><td class="time">0</td><td class="set">prod</td><td class="subject">bob</td><td class="action">doc:read</td><td class="resource">/docs/hr/x7</td><td class="effect">deny</td><td class="by">R2</td><td class="steps">3</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">10</td><td class="time">0</td><td class="set">prod</td><td class="subject">bob</td><td class="action">doc:read</td><td class="resource">/docs/hr/x8</td><td class="effect">deny</td><td class="by">R2</td><td class="steps">3</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">11</td><td class="time">0</td><td class="set">prod</td><td class="subject">bob</td><td class="action">doc:read</td><td class="resource">/docs/hr/x9</td><td class="effect">deny</td><td class="by">R2</td><td class="steps">3</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">12</td><td class="time">0</td><td class="set">prod</td><td class="subject">bob</td><td class="action">doc:read</td><td class="resource">/docs/hr/x10</td><td class="effect">deny</td><td class="by">R2</td><td class="steps">3</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">13</td><td class="time">0</td><td class="set">prod</td><td class="subject">bob</td><td class="action">doc:read</td><td class="resource">/docs/hr/x11</td><td class="effect">deny</td><td class="by">R2</td><td class="steps">3</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">14</td><td class="time">0</td><td class="set">prod</td><td class="subject">bob</td><td class="action">doc:read</td><td class="resource">/docs/hr/x12</td><td class="effect">deny</td><td class="by">R2</td><td class="steps">3</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">15</td><td class="time">0</td><td class="set">prod</td><td class="subject">bob</td><td class="action">doc:read</td><td class="resource">/docs/hr/x13</td><td class="effect">deny</td><td class="by">R2</td><td class="steps">3</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">16</td><td class="time">0</td><td class="set">prod</td><td class="subject">bob</td><td class="action">doc:read</td><td class="resource">/docs/hr/x14</td><td class="effect">deny</td><td class="by">R2</td><td class="steps">3</td><td class="note">-</td><td class="context"></td></tr>
+<tr class="summary"><td colspan="11">16 decisions, 6.3% allowed</td></tr>
+</table>
+ALL decisions=16 allow=1 deny=15 allowed=6.3% avg_steps=3
+SET admin decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+SET base decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+SET ops decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+SET prod decisions=16 allow=1 deny=15 allowed=6.3% avg_steps=3

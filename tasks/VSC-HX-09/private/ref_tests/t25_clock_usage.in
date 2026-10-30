@@ -1,0 +1,23 @@
+clock show
+clock set 100
+clock set 50
+clock advance 90
+clock advance 2m
+clock advance 1h
+clock advance 1d
+clock advance 0
+clock advance 10w
+clock set x
+clock
+frobnicate
+check
+check nowhere u doc:read /a
+set create s
+check s u doc /a
+check s u doc:read a
+check s u doc:read /a k
+check s u doc:read /a k=1 k=2
+check s bad/subject doc:read /a
+verify
+help check
+help nope

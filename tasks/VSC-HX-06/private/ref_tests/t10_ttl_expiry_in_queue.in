@@ -1,0 +1,13 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set-for rx quiet.start 00:00
+set-for rx quiet.end 01:00
+send e1 alice rx ttl=30m expires before quiet ends
+send e2 alice rx ttl=1h lives exactly to the end
+send e3 alice rx ttl=2h delivered later
+advance 2h
+stats

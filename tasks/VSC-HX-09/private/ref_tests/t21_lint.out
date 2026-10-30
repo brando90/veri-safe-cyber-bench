@@ -1,0 +1,29 @@
+OK set base
+OK set prod
+OK set admin
+OK set ops
+OK attr ann.dept
+OK attr ann.role
+OK attr bob.dept
+OK attr bob.role
+OK attr cy.dept
+OK attr cy.role
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+OK R7
+OK R8
+OK R9
+OK R10
+OK R11
+LINT R9 is shadowed by R8
+LINT R11 refers to unknown secret api
+LINT R1 duplicates R10
+OK secret api
+LINT R9 is shadowed by R8
+LINT R1 duplicates R10
+LINT ok
+ERROR set: unknown set nowhere

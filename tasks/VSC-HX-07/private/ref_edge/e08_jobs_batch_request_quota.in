@@ -1,0 +1,9 @@
+tenant add acme
+key issue acme w secret=Qb11qb22qb
+config set tenant:acme quota.requests 3
+req acme.w.Qb11qb22qb GET /v1/items
+job submit acme.w.Qb11qb22qb /v1/report
+job submit acme.w.Qb11qb22qb /v1/report
+job submit acme.w.Qb11qb22qb /v1/report
+jobs run
+usage acme

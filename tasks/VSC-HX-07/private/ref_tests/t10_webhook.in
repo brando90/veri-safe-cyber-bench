@@ -1,0 +1,18 @@
+tenant add acme
+key issue acme w secret=Wh11wh22wh
+config set tenant:acme webhook.url https://hooks.example/acme
+config set tenant:acme webhook.secret topsecret-1
+config set tenant:acme jobs.max_attempts 2
+job submit acme.w.Wh11wh22wh /v1/report
+job submit acme.w.Wh11wh22wh /v1/report q.fail=9
+jobs run
+clock advance 1s
+jobs run
+webhook list acme
+config set tenant:acme webhook.secret ""
+job submit acme.w.Wh11wh22wh /v1/catalog
+jobs run
+webhook list acme
+webhook clear acme
+webhook list acme
+config show acme

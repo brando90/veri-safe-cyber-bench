@@ -1,0 +1,15 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+send r1 bob rx pro normal line
+send r2 bob rx prio=low pro low line
+send r3 alice rx basic short
+send r4 cora ny prio=high bulk high
+advance 5s
+invoice bob
+invoice alice
+invoice cora
+export billing

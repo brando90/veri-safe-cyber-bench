@@ -1,0 +1,26 @@
+OK set base
+OK set prod
+OK set admin
+OK set ops
+OK attr ann.dept
+OK attr ann.role
+OK attr bob.dept
+OK attr bob.role
+OK attr cy.dept
+OK attr cy.role
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+OK set strict
+OK R7
+DIFF 1 allow>deny by=R3|R7
+SAME 2 allow by=R1|R1
+BAD 3 bad resource docs
+DIFF 4 allow>deny by=R3|R7
+BAD 5 bad attribute x
+-- 3 requests, 2 different (66.7%)
+ERROR set: unknown set nowhere
+no entries

@@ -1,0 +1,13 @@
+tenant acme plan=basic
+key acme.main issued expires=never
+ok 200 miss 120B items tenant=acme n=1
+ok 200 miss 240B items tenant=acme n=2
+config plan:basic quota.requests=2
+deny quota-requests
+config plan:basic quota.egress=1KiB
+config plan:basic quota.requests=10
+ok 200 miss 600B items tenant=acme n=5
+deny quota-egress
+usage acme period=0 requests=3/10 egress=960B/1KiB
+rate acme mode=fixed limit=20 window=10s in_window=3
+meter acme api=3 jobs=0 egress=960B

@@ -1,0 +1,31 @@
+OK set base
+OK set prod
+OK set admin
+OK set ops
+OK attr ann.dept
+OK attr ann.role
+OK attr bob.dept
+OK attr bob.role
+OK attr cy.dept
+OK attr cy.role
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+DECISION allow by=R1 steps=0
+DECISION allow by=R1 steps=3
+OK template t1
+1:/docs/ab:BO:-
+2:/docs/hr:AN:-
+1:/docs/ab:BO:ok
+2:/docs/hr:AN:ok
+ERROR template: unknown field nope
+ERROR template: unknown filter wide
+ERROR template: trunc needs a length from 1 to 200
+ERROR template: template has no placeholder
+ERROR template: unbalanced braces
+TEMPLATE t1: {{seq}}:{{resource|trunc:8}}:{{subject|upper|trunc:2}}:{{note|default:ok}}
+ERROR template: unknown template missing
+ERROR usage: unknown format yaml

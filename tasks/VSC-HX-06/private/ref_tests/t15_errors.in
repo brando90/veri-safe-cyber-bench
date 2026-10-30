@@ -1,0 +1,29 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+sender alice basic
+sender Zed basic
+sender zed gold
+recipient bad tz=+15:00
+send m1 alice rx
+send m1 alice rx prio=extreme hi
+send bad/id alice rx hi
+send m1 alice rx ttl=0s hi
+send m1 alice rx prio=low prio=high hi
+send m1 alice rx hi
+send m1 alice rx hi again
+advance soon
+at d0 00:00
+advance 2s
+at d0 00:00:01
+link rx explode 1
+batch alice rx
+z1 ok text
+only-id
+z1 duplicate id
+.end
+advance 2s
+audit 2

@@ -1,0 +1,22 @@
+d0 00:00:00.000 ACCEPT c1 alice->rx prio=normal frags=5 size=28 ttl=3600s
+d0 00:00:01.000 SEND c1 1/5 alice->rx ok
+d0 00:00:02.000 SEND c1 2/5 alice->rx ok
+d0 00:00:02.000 CANCEL c1
+ERROR cancel: message c1 is cancelled
+ERROR cancel: unknown message nope
+d0 00:00:02.000 DUP c2 of c1
+message c1 alice->rx prio=normal state=cancelled size=28 frags=5 via=send
+accepted=d0 00:00:00.000 deadline=d0 01:00:00.000 started=d0 00:00:01.000 finished=d0 00:00:02.000
+fragment 1/5 bytes=6 attempts=1 acked=yes
+fragment 2/5 bytes=6 attempts=1 acked=yes
+fragment 3/5 bytes=6 attempts=0 acked=no
+fragment 4/5 bytes=6 attempts=0 acked=no
+fragment 5/5 bytes=4 attempts=0 acked=no
+stats at d0 00:01:02.000
+accepted=1 rejected=0 duplicates=1
+delivered=0 failed=0 expired=0 cancelled=1 pending=0
+attempts=2 retries=0 bytes=0
+revenue=0.00
+recipient ny delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient rx delivered=0 bytes=0 today=1 today-bytes=28 hour=1 fails-in-row=0 last=-
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-

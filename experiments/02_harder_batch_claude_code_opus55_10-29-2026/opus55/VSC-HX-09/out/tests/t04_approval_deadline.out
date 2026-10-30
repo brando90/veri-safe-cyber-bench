@@ -1,0 +1,10 @@
+OK set base
+OK A1 pending until=600
+OK A1 approved by=ann
+CLOCK 599
+A1 approved bob doc:read /docs/** left=1s by=ann
+CLOCK 600
+DECISION deny by=default steps=0
+A1 expired bob doc:read /docs/** by=ann
+ERROR approval: A1 has expired
+OK A1 revoked

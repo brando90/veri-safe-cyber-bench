@@ -1,0 +1,16 @@
+tenant acme plan=free
+tenant bolt plan=basic
+tenant cobalt plan=pro
+key acme.ops issued expires=never
+key acme.dev issued expires=never
+key bolt.ops issued expires=never
+key cobalt.ops issued expires=never
+ok 200 miss 256B me tenant=acme key=ops label=-
+ok 200 miss 256B me tenant=acme key=dev label=-
+ok 200 miss 256B me tenant=cobalt key=ops label=-
+ok 200 miss 256B me tenant=bolt key=ops label=-
+ok 200 hit 256B me tenant=acme key=ops label=-
+entry acme/dev GET /v1/me? size=1KiB expires=30000 hits=0
+entry cobalt/ops GET /v1/me? size=1KiB expires=120000 hits=0
+entry bolt/ops GET /v1/me? size=1KiB expires=30000 hits=0
+entry acme/ops GET /v1/me? size=1KiB expires=30000 hits=1

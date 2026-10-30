@@ -1,0 +1,10 @@
+OK attr ann.dept
+OK cond staff
+OK cond big
+RESULT true steps=9
+RESULT true steps=19
+OK set base
+OK R1
+DECISION allow by=R1 steps=10
+R1 allow set=base cond=true
+#1 t=0 base ann doc:read /docs/a -> allow by=R1 steps=10

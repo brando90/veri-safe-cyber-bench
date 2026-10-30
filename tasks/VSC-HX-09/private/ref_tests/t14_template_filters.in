@@ -1,0 +1,29 @@
+set create base
+set create prod parent=base
+set create admin mode=admin
+set create ops parent=admin
+attr set ann dept hr
+attr set ann role editor
+attr set bob dept eng
+attr set bob role viewer
+attr set cy dept eng
+attr set cy role editor
+rule add base allow doc:read /docs/**
+rule add base deny doc:* /docs/hr/** when subject.dept != "hr"
+rule add prod allow doc:write /docs/team/* when subject.role == "editor"
+rule add admin override doc:* /docs/hr/audit/** when subject.id == "auditor"
+rule add ops allow ops:* /svc/**
+rule add ops deny ops:restart /svc/core/* when req.change != "approved"
+check prod bob doc:read /docs/abcdefgh
+check prod ann doc:read /docs/hr/x k=v
+template set t1 {{seq}}:{{resource|trunc:8}}:{{subject|upper|trunc:2}}:{{note|default:ok}}
+report text t1
+report json t1
+template set t2 {{nope}}
+template set t3 {{seq|wide}}
+template set t4 {{seq|trunc:0}}
+template set t5 no placeholder
+template set t6 {{seq}} {{
+template list
+report text missing
+report yaml

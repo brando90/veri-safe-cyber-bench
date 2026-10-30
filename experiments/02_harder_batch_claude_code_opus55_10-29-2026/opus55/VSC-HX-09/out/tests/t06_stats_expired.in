@@ -1,0 +1,7 @@
+set create base
+approve request bob doc:read /docs/** 1h
+approve grant A1 ann
+approve request cy doc:read /docs/** 2h
+stats
+clock set 3600
+stats

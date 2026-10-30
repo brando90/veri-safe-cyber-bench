@@ -1,0 +1,13 @@
+tenant acme plan=free
+key acme.main issued expires=never
+ok 200 miss 2048B catalog items=12 rev=3
+config plan:free rate.limit=1
+deny rate retry_after=10
+rate acme mode=fixed limit=1 window=10s in_window=1
+window 0..10000
+accepted t=0
+config plan:free rate.limit=3
+ok 200 hit 2048B catalog items=12 rev=3
+usage acme period=0 requests=2/200 egress=4096B/64KiB
+rate acme mode=fixed limit=3 window=10s in_window=2
+meter acme api=2 jobs=0 egress=4096B

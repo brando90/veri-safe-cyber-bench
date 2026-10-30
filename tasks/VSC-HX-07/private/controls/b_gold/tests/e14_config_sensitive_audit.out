@@ -1,0 +1,7 @@
+tenant acme plan=free
+config tenant:acme backend.token=***
+config default webhook.secret=***
+backend.token=*** (tenant:acme)
+#1 t=0 acme tenant.add plan=free
+#2 t=0 acme config.set layer=tenant:acme name=backend.token value=***
+#3 t=0 - config.set layer=default name=webhook.secret value=***

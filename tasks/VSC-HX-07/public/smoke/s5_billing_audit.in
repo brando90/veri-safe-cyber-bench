@@ -1,0 +1,11 @@
+# metering, bills and the audit log
+tenant add acme plan=basic
+key issue acme main secret=Bl88qwErty
+req acme.main.Bl88qwErty GET /v1/catalog
+req acme.main.Bl88qwErty GET /v1/blob q.size=3KiB
+req acme.main.Bl88qwErty GET /v1/blob q.size=3KiB
+req acme.main.Bl88qwErty GET /v1/items q.n=7
+bill acme
+top
+audit acme last=3
+check

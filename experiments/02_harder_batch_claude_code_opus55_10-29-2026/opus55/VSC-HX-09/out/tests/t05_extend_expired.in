@@ -1,0 +1,8 @@
+approve request bob doc:read /docs/** 10m
+approve request cy doc:read /docs/** 10m
+clock advance 5m
+approve extend A2 5m
+clock advance 5m
+approve extend A1 5m
+approve extend A2 5m
+approve list

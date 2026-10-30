@@ -1,0 +1,26 @@
+d0 00:00:00.000 ACCEPT v1 alice->rx prio=normal frags=2 size=900 ttl=3600s
+d0 00:00:00.000 ACCEPT v2 alice->rx prio=normal frags=2 size=900 ttl=3600s
+d0 00:00:00.000 ACCEPT v3 alice->rx prio=normal frags=2 size=900 ttl=86400s
+d0 00:00:01.000 SEND v1 1/2 alice->rx ok
+d0 00:00:02.000 SEND v1 2/2 alice->rx ok
+d0 00:00:02.000 DONE v1 alice->rx size=900 cost=0.02
+d0 00:00:03.000 SEND v2 1/2 alice->rx ok
+d0 00:00:04.000 SEND v2 2/2 alice->rx ok
+d0 00:00:04.000 DONE v2 alice->rx size=900 cost=0.02
+stats at d0 00:00:10.000
+accepted=3 rejected=0 duplicates=0
+delivered=2 failed=0 expired=0 cancelled=0 pending=1
+attempts=4 retries=0 bytes=1800
+revenue=0.04
+recipient ny delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient rx delivered=2 bytes=1800 today=2 today-bytes=1800 hour=2 fails-in-row=0 last=d0 00:00:04.000
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+d1 00:00:00.000 EXPIRE v3
+stats at d1 00:00:02.000
+accepted=3 rejected=0 duplicates=0
+delivered=2 failed=0 expired=1 cancelled=0 pending=0
+attempts=4 retries=0 bytes=1800
+revenue=0.04
+recipient ny delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient rx delivered=2 bytes=1800 today=0 today-bytes=0 hour=0 fails-in-row=0 last=d0 00:00:04.000
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-

@@ -1,0 +1,11 @@
+set create beta
+set create alpha
+clock set 10
+check beta ann doc:read /docs/a
+check alpha bob doc:read /docs/b
+check beta cy doc:read /docs/c
+clock set 20
+check alpha ann doc:read /docs/d
+log show
+log show 3
+report csv

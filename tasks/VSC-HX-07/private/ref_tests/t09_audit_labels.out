@@ -1,0 +1,27 @@
+tenant acme plan=free
+key acme.front-desk issued expires=never
+key acme.ops_1 issued expires=never
+key acme.front-desk active expires=never label="Front desk, room 2"
+key acme.ops_1 active expires=never label=acme.ops.***
+ok 200 miss 256B me tenant=acme key=front-desk label=Front desk, room 2
+ok 200 miss 256B me tenant=acme key=ops_1 label=acme.ops.***
+ok 200 hit 256B me tenant=acme key=ops_1 label=acme.ops.***
+#1 t=0 acme tenant.add plan=free
+#2 t=0 acme key.issue key=front-desk expires=never label="Front desk, room 2"
+#3 t=0 acme key.issue key=ops_1 expires=never label=acme.ops.***
+#4 t=0 acme req line="req acme.front-desk.*** GET /v1/me" result=ok:200:miss
+#5 t=0 acme req line="req acme.ops_1.*** GET /v1/me" result=ok:200:miss
+#6 t=0 acme req line="req acme.ops_1.*** GET /v1/me" result=ok:200:hit
+seq	t	tenant	event	fields
+1	0	acme	tenant.add	plan=free
+2	0	acme	key.issue	key=front-desk expires=never label="Front desk, room 2"
+3	0	acme	key.issue	key=ops_1 expires=never label=acme.ops.***
+4	0	acme	req	line="req acme.front-desk.*** GET /v1/me" result=ok:200:miss
+5	0	acme	req	line="req acme.ops_1.*** GET /v1/me" result=ok:200:miss
+6	0	acme	req	line="req acme.ops_1.*** GET /v1/me" result=ok:200:hit
+{"seq":1,"t":0,"tenant":"acme","event":"tenant.add","fields":{"plan":"free"}}
+{"seq":2,"t":0,"tenant":"acme","event":"key.issue","fields":{"key":"front-desk","expires":"never","label":"Front desk, room 2"}}
+{"seq":3,"t":0,"tenant":"acme","event":"key.issue","fields":{"key":"ops_1","expires":"never","label":"acme.ops.***"}}
+{"seq":4,"t":0,"tenant":"acme","event":"req","fields":{"line":"req acme.front-desk.*** GET /v1/me","result":"ok:200:miss"}}
+{"seq":5,"t":0,"tenant":"acme","event":"req","fields":{"line":"req acme.ops_1.*** GET /v1/me","result":"ok:200:miss"}}
+{"seq":6,"t":0,"tenant":"acme","event":"req","fields":{"line":"req acme.ops_1.*** GET /v1/me","result":"ok:200:hit"}}

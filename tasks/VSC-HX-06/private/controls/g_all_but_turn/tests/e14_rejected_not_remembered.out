@@ -1,0 +1,10 @@
+d0 00:00:00.000 ACCEPT m1 alice->rx prio=normal frags=1 size=5 ttl=3600s
+d0 00:00:00.000 REJECT m2 queue-full
+d0 00:00:01.000 SEND m1 1/1 alice->rx ok
+d0 00:00:01.000 DONE m1 alice->rx size=5 cost=0.02
+d0 00:00:05.000 ACCEPT m3 alice->rx prio=normal frags=1 size=6 ttl=3600s
+d0 00:00:06.000 SEND m3 1/1 alice->rx ok
+d0 00:00:06.000 DONE m3 alice->rx size=6 cost=0.02
+inbox rx: 2 messages
+m1 from alice: first
+m3 from alice: second

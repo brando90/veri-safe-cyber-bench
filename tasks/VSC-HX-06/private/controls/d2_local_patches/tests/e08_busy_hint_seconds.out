@@ -1,0 +1,11 @@
+d0 00:00:00.000 ACCEPT b1 alice->rx prio=normal frags=1 size=11 ttl=3600s
+d0 00:00:01.000 SEND b1 1/1 alice->rx busy
+d0 00:00:01.000 RETRY b1 1/1 at d0 00:00:11.000
+d0 00:00:11.000 SEND b1 1/1 alice->rx ok
+d0 00:00:11.000 DONE b1 alice->rx size=11 cost=0.02
+history b1: 5 events
+d0 00:00:00.000 ACCEPT b1 alice->rx prio=normal frags=1 size=11 ttl=3600s
+d0 00:00:01.000 SEND b1 1/1 alice->rx busy
+d0 00:00:01.000 RETRY b1 1/1 at d0 00:00:11.000
+d0 00:00:11.000 SEND b1 1/1 alice->rx ok
+d0 00:00:11.000 DONE b1 alice->rx size=11 cost=0.02

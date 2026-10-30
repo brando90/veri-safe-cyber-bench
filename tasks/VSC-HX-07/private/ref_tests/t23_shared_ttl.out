@@ -1,0 +1,13 @@
+tenant acme plan=pro
+tenant bolt plan=free
+key acme.k issued expires=never
+key bolt.k issued expires=never
+ok 200 miss 2048B catalog items=12 rev=3
+now=20000
+ok 200 hit 2048B catalog items=12 rev=3
+now=40000
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 miss 600B items tenant=acme n=5
+now=100000
+ok 200 hit 600B items tenant=acme n=5
+entry acme GET /v1/items? size=1KiB expires=160000 hits=1

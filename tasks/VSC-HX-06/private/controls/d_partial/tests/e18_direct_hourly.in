@@ -1,0 +1,13 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set-for ny limit.hourly 1
+send m1 bob ny prio=urgent first
+send m2 bob ny prio=urgent second
+advance 2s
+send m3 bob ny prio=urgent ttl=3h third
+advance 1s
+stats

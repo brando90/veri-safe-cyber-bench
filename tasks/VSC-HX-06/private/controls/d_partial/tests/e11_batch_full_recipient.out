@@ -1,0 +1,10 @@
+d0 00:00:00.000 ACCEPT m1 alice->rx prio=normal frags=1 size=3 ttl=3600s
+d0 00:00:00.000 REJECT b1 queue-full
+stats at d0 00:00:00.000
+accepted=1 rejected=1 duplicates=0
+delivered=0 failed=0 expired=0 cancelled=0 pending=1
+attempts=0 retries=0 bytes=0
+revenue=0.00
+recipient ny delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient rx delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-

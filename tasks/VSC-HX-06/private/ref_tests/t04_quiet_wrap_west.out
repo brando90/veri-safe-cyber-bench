@@ -1,0 +1,21 @@
+d0 00:00:00.000 ACCEPT w1 alice->la prio=normal frags=1 size=3 ttl=3600s
+d0 00:00:00.000 ACCEPT w2 alice->la prio=normal frags=1 size=3 ttl=3600s
+d0 00:00:00.000 ACCEPT w3 alice->la prio=normal frags=1 size=5 ttl=86400s
+d0 00:00:01.000 SEND w1 1/1 alice->la ok
+d0 00:00:01.000 DONE w1 alice->la size=3 cost=0.02
+d0 00:00:02.000 SEND w2 1/1 alice->la ok
+d0 00:00:02.000 DONE w2 alice->la size=3 cost=0.02
+d0 16:00:00.000 SEND w3 1/1 alice->la ok
+d0 16:00:00.000 DONE w3 alice->la size=5 cost=0.02
+stats at d1 16:00:10.000
+accepted=3 rejected=0 duplicates=0
+delivered=3 failed=0 expired=0 cancelled=0 pending=0
+attempts=3 retries=0 bytes=11
+revenue=0.06
+recipient la delivered=3 bytes=11 today=0 today-bytes=0 hour=0 fails-in-row=0 last=d0 16:00:00.000
+recipient ny delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient rx delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+daily la tz=-08:00
+local-day -1 delivered=2 bytes=6
+local-day 0 delivered=1 bytes=5

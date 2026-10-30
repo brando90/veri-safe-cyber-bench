@@ -1,0 +1,8 @@
+RESULT 1 steps=33
+ERROR parse: expression nested deeper than 32
+ERROR parse: expression nested deeper than 32
+ERROR parse: expression has more than 160 tokens
+ERROR parse: expression nested deeper than 32
+OK set base
+ERROR parse: expression nested deeper than 32
+OK R1

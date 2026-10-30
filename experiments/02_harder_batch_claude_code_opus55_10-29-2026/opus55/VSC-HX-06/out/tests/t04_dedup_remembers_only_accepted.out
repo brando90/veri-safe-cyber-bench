@@ -1,0 +1,16 @@
+d0 00:00:00.000 ACCEPT a1 alice->rx prio=normal frags=1 size=14 ttl=3600s
+d0 00:00:00.000 REJECT a2 queue-full
+d0 00:00:00.000 CANCEL a1
+d0 00:00:00.000 ACCEPT a3 alice->rx prio=normal frags=1 size=11 ttl=3600s
+d0 00:00:01.000 SEND a3 1/1 alice->rx ok
+d0 00:00:01.000 DONE a3 alice->rx size=11 cost=0.02
+inbox rx: 1 messages
+a3 from alice: Hello there
+stats at d0 00:00:02.000
+accepted=2 rejected=1 duplicates=0
+delivered=1 failed=0 expired=0 cancelled=1 pending=0
+attempts=1 retries=0 bytes=11
+revenue=0.02
+recipient ny delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient rx delivered=1 bytes=11 today=1 today-bytes=11 hour=1 fails-in-row=0 last=d0 00:00:01.000
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-

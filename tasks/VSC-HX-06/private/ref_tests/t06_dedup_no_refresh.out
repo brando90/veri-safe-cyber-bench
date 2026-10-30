@@ -1,0 +1,21 @@
+d0 00:00:00.000 ACCEPT d1 alice->rx prio=normal frags=1 size=9 ttl=3600s
+d0 00:00:01.000 SEND d1 1/1 alice->rx ok
+d0 00:00:01.000 DONE d1 alice->rx size=9 cost=0.02
+d0 00:01:00.000 DUP d2 of d1
+d0 00:01:50.000 ACCEPT d3 alice->rx prio=normal frags=1 size=9 ttl=3600s
+d0 00:01:50.000 ACCEPT d4 alice->ny prio=normal frags=1 size=9 ttl=3600s
+d0 00:01:50.000 ACCEPT d5 bob->rx prio=normal frags=1 size=9 ttl=3600s
+d0 00:01:51.000 SEND d5 1/1 bob->rx ok
+d0 00:01:51.000 DONE d5 bob->rx size=9 cost=0.03
+d0 00:01:51.000 SEND d4 1/1 alice->ny ok
+d0 00:01:51.000 DONE d4 alice->ny size=9 cost=0.02
+d0 00:01:52.000 SEND d3 1/1 alice->rx ok
+d0 00:01:52.000 DONE d3 alice->rx size=9 cost=0.02
+stats at d0 00:02:00.000
+accepted=4 rejected=0 duplicates=1
+delivered=4 failed=0 expired=0 cancelled=0 pending=0
+attempts=4 retries=0 bytes=36
+revenue=0.09
+recipient ny delivered=1 bytes=9 today=1 today-bytes=9 hour=1 fails-in-row=0 last=d0 00:01:51.000
+recipient rx delivered=3 bytes=27 today=3 today-bytes=27 hour=3 fails-in-row=0 last=d0 00:01:52.000
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-

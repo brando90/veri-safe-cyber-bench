@@ -1,0 +1,15 @@
+# two tenants each have a key called main; /v1/me is cached per key
+tenant add acme
+tenant add bolt
+key issue acme main secret=Acme1234xy label=shop
+key issue bolt main secret=Bolt1234xy label=office
+key issue acme second secret=Acme5678xy
+req acme.main.Acme1234xy GET /v1/me
+req bolt.main.Bolt1234xy GET /v1/me
+req acme.main.Acme1234xy GET /v1/me
+req acme.second.Acme5678xy GET /v1/me
+req bolt.main.Bolt1234xy GET /v1/me
+req bolt.main.Bolt1234xy GET /v1/catalog
+req acme.main.Acme1234xy GET /v1/catalog
+cache stats
+check

@@ -1,0 +1,10 @@
+# freshness is measured in milliseconds: ts=0 at 30500 is 30.5s away
+tenant add acme
+key issue acme main secret=Kq7m2PzW9a
+clock set 30000
+req acme.main.Kq7m2PzW9a GET /v1/catalog nonce=a1 ts=0
+clock set 30500
+req acme.main.Kq7m2PzW9a GET /v1/catalog nonce=a2 ts=0
+req acme.main.Kq7m2PzW9a GET /v1/catalog nonce=a3 ts=1
+req acme.main.Kq7m2PzW9a GET /v1/catalog nonce=a4 ts=61
+req acme.main.Kq7m2PzW9a GET /v1/catalog nonce=a5 ts=60

@@ -1,0 +1,13 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+send a1 alice rx after=10s later please
+send a2 alice rx right away
+send a3 bob rx prio=urgent after=5s urgent but later
+send a4 bob ny ttl=5s after=10s never
+advance 20s
+show a1
+show a4

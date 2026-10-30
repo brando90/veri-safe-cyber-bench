@@ -1,0 +1,9 @@
+{
+  "id": "VSC-HX-09",
+  "split": "test",
+  "language": "python3.12",
+  "bug_class": "consistency of limits, conventions and output layering across modules: nesting limit not applied to list literals, named conditions evaluated with a fresh step budget, approval extend skipping the expiry check, shared expiry helper off by one at the deadline, report percentage rounded differently from the documented rule, approvals using their own wildcard matcher, shared /** fast path matching on string prefix instead of segments, decision-log merge not stable for equal times, redaction missing on the condition-error note path, HTML report redacting after escaping, bundle import trusting the declared set mode, HTML context escaped twice when a template is used",
+  "summary": "policyforge, a toy access-policy and rule engine (expression language with depth and step budgets, policy sets with deny/allow/override precedence and inheritance, decision log, approvals state machine with expiry, text/JSON/CSV/HTML reports and templates, secret redaction, checksummed policy bundles, consistency check exiting 86) driven by stdin command lines. Twelve independent defects across 11 of 25 modules, each locally plausible and wrong only against a general README rule (one matching rule; limits hold on every path; half-open time windows; recording order; exact half-up percentages; escape exactly once; redact before escaping and in every message; bundles checked like local changes).",
+  "K": 12,
+  "time_cap_min": 45
+}

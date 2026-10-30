@@ -1,0 +1,42 @@
+OK set base
+OK set prod
+OK set admin
+OK set ops
+OK attr ann.dept
+OK attr ann.role
+OK attr bob.dept
+OK attr bob.role
+OK attr cy.dept
+OK attr cy.role
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+OK set team
+OK set sub
+OK R7
+DECISION deny by=R7 steps=3
+DECISION allow by=R3 steps=3
+DECISION deny by=R2 steps=3
+SET sub mode=standard chain=sub>team>prod>base
+ERROR set: base cannot inherit from sub (cycle)
+OK set team parent=-
+SET sub mode=standard chain=sub>team
+DECISION deny by=default steps=0
+ERROR set: set team already exists
+ERROR set: bad set name bad!
+ERROR set: unknown set nope
+ERROR rule: override rules need an admin set
+ERROR rule: override rules need an admin set
+ERROR rule: bad effect maybe
+ERROR rule: bad action pattern doc
+ERROR rule: bad resource pattern docs/**
+ERROR rule: ** must be the last segment in /docs/**/x
+SET admin mode=admin parent=- rules=1
+SET base mode=standard parent=- rules=2
+SET ops mode=standard parent=admin rules=2
+SET prod mode=standard parent=base rules=1
+SET sub mode=standard parent=team rules=0
+SET team mode=standard parent=- rules=1

@@ -1,0 +1,14 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set-for rx breaker.threshold 2
+set-for rx breaker.pause_s 10
+link rx fail 2
+send p1 alice rx paused soon
+send p2 bob rx prio=urgent waits for resume
+advance 20s
+audit
+stats

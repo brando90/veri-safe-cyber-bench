@@ -1,0 +1,10 @@
+cond define w count([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 1) > 0
+cond define w2 @w and @w and @w and @w
+cond define w3 @w2 and @w2 and @w2
+eval @w2
+eval @w3
+set create base
+rule add base allow doc:read /docs/** when @w3
+check base ann doc:read /docs/a
+log show
+log replay 1

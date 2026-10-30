@@ -1,0 +1,26 @@
+d0 00:00:00.000 ACCEPT x1 alice->rx prio=normal frags=1 size=17 ttl=3600s
+d0 00:00:00.000 ACCEPT x2 alice->rx prio=normal frags=1 size=13 ttl=3600s
+d0 00:00:00.000 ACCEPT x3 alice->rx prio=normal frags=1 size=10 ttl=3600s
+d0 00:00:00.000 ACCEPT x4 bob->ny prio=normal frags=1 size=23 ttl=3600s
+d0 00:00:01.000 SEND x1 1/1 alice->rx ok
+d0 00:00:01.000 DONE x1 alice->rx size=17 cost=0.02
+d0 00:00:01.000 SEND x4 1/1 bob->ny ok
+d0 00:00:01.000 DONE x4 bob->ny size=23 cost=0.03
+d0 00:00:02.000 SEND x2 1/1 alice->rx ok
+d0 00:00:02.000 DONE x2 alice->rx size=13 cost=0.02
+d0 00:00:03.000 SEND x3 1/1 alice->rx ok
+d0 00:00:03.000 DONE x3 alice->rx size=10 cost=0.02
+id,sender,recipient,prio,size,frags,attempts,accepted,finished,body
+x1,alice,rx,normal,17,1,1,d0 00:00:00.000,d0 00:00:01.000,"plain, with comma"
+x2,alice,rx,normal,13,1,1,d0 00:00:00.000,d0 00:00:02.000,"she said ""hi"""
+x3,alice,rx,normal,10,1,1,d0 00:00:00.000,d0 00:00:03.000,tab	inside
+x4,bob,ny,normal,23,1,1,d0 00:00:00.000,d0 00:00:01.000,semi;colon and 'single'
+id,sender,recipient,prio,size,frags,attempts,accepted,finished,body
+x4,bob,ny,normal,23,1,1,d0 00:00:00.000,d0 00:00:01.000,semi;colon and 'single'
+n,at,action,detail
+1,d0 00:00:00.000,sender,name=alice plan=basic
+2,d0 00:00:00.000,sender,name=bob plan=pro
+3,d0 00:00:00.000,sender,name=cora plan=bulk
+4,d0 00:00:00.000,recipient,name=rx tz=+00:00
+5,d0 00:00:00.000,recipient,name=ny tz=-05:00
+6,d0 00:00:00.000,recipient,name=tokyo tz=+09:00

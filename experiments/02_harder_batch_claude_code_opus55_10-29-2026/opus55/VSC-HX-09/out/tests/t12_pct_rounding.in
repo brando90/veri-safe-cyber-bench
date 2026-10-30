@@ -1,0 +1,22 @@
+set create base
+rule add base allow doc:read /docs/**
+check base ann doc:read /docs/a
+check base ann doc:write /docs/a
+check base ann doc:write /docs/a
+check base ann doc:write /docs/a
+check base ann doc:write /docs/a
+check base ann doc:write /docs/a
+check base ann doc:write /docs/a
+check base ann doc:write /docs/a
+check base ann doc:write /docs/a
+check base ann doc:write /docs/a
+check base ann doc:write /docs/a
+check base ann doc:write /docs/a
+check base ann doc:write /docs/a
+check base ann doc:write /docs/a
+check base ann doc:write /docs/a
+check base ann doc:write /docs/a
+report text
+report json
+report html
+stats

@@ -1,0 +1,20 @@
+d0 00:00:00.000 ACCEPT b1 cora->rx prio=low frags=1 size=18 ttl=7200s
+d0 00:00:00.000 ACCEPT b2 cora->rx prio=low frags=1 size=18 ttl=7200s
+d0 00:00:00.000 DUP b3 of b1
+d0 00:00:00.000 DUP b4 of b1
+d0 00:00:01.000 SEND b1 1/1 cora->rx ok
+d0 00:00:01.000 DONE b1 cora->rx size=18 cost=0.01
+d0 00:00:02.000 SEND b2 1/1 cora->rx ok
+d0 00:00:02.000 DONE b2 cora->rx size=18 cost=0.01
+d0 00:00:30.000 DUP b5 of b1
+d0 00:02:30.000 ACCEPT b6 cora->rx prio=normal frags=1 size=18 ttl=3600s
+d0 00:02:31.000 SEND b6 1/1 cora->rx ok
+d0 00:02:31.000 DONE b6 cora->rx size=18 cost=0.01
+inbox rx: 3 messages
+b1 from cora: Order 1001 shipped
+b2 from cora: Order 1002 shipped
+b6 from cora: Order 1001 shipped
+id,sender,recipient,prio,size,frags,attempts,accepted,finished,body
+b1,cora,rx,low,18,1,1,d0 00:00:00.000,d0 00:00:01.000,Order 1001 shipped
+b2,cora,rx,low,18,1,1,d0 00:00:00.000,d0 00:00:02.000,Order 1002 shipped
+b6,cora,rx,normal,18,1,1,d0 00:02:30.000,d0 00:02:31.000,Order 1001 shipped

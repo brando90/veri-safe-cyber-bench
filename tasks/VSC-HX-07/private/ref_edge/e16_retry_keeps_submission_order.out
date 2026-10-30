@@ -1,0 +1,10 @@
+tenant acme plan=free
+key acme.w issued expires=never
+job j1 queued due=0
+job j2 queued due=1000
+job j1 retry attempt=1 next=1000
+now=1000
+job j1 tenant=acme path=/v1/report due=1000 prio=0 attempts=1
+job j2 tenant=acme path=/v1/report due=1000 prio=0 attempts=0
+job j1 done 200 1500B report tenant=acme attempt=2
+job j2 done 200 1500B report tenant=acme attempt=1

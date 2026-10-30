@@ -1,0 +1,177 @@
+OK set base
+OK set prod
+OK set admin
+OK set ops
+OK attr ann.dept
+OK attr ann.role
+OK attr bob.dept
+OK attr bob.role
+OK attr cy.dept
+OK attr cy.role
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+DECISION allow by=R1 steps=0
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+DECISION deny by=R2 steps=3
+{"seq":1,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/a","effect":"allow","by":"R1","steps":0,"note":"","context":""}
+{"seq":2,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x0","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":3,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x1","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":4,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x2","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":5,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x3","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":6,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x4","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":7,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x5","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":8,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x6","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":9,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x7","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":10,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x8","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":11,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x9","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":12,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x10","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":13,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x11","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":14,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x12","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":15,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x13","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":16,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x14","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":17,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x15","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":18,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x16","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":19,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x17","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":20,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x18","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":21,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x19","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":22,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x20","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":23,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x21","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":24,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x22","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":25,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x23","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":26,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x24","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":27,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x25","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":28,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x26","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":29,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x27","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":30,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x28","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":31,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x29","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":32,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x30","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":33,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x31","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":34,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x32","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":35,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x33","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":36,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x34","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":37,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x35","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":38,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x36","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":39,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x37","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":40,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x38","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":41,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x39","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":42,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x40","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":43,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x41","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":44,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x42","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":45,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x43","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":46,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x44","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":47,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x45","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":48,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x46","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":49,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x47","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":50,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x48","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":51,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x49","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":52,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x50","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":53,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x51","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":54,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x52","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":55,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x53","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":56,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x54","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":57,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x55","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":58,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x56","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":59,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x57","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":60,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x58","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":61,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x59","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":62,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x60","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":63,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x61","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":64,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x62","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":65,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x63","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":66,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x64","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":67,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x65","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":68,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x66","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":69,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x67","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":70,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x68","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":71,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x69","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":72,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x70","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":73,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x71","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":74,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x72","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":75,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x73","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":76,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x74","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":77,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x75","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":78,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x76","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":79,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x77","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"seq":80,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/hr/x78","effect":"deny","by":"R2","steps":3,"note":"","context":""}
+{"decisions":80,"allowed_pct":"1.3"}

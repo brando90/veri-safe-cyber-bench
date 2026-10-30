@@ -1,0 +1,21 @@
+d0 00:00:00.000 ACCEPT m1 alice->rx prio=normal frags=1 size=5 ttl=3600s
+d0 00:00:01.000 SEND m1 1/1 alice->rx fail
+d0 00:00:01.000 RETRY m1 1/1 at d0 00:00:03.000
+d0 00:00:03.000 SEND m1 1/1 alice->rx fail
+d0 00:00:03.000 FAIL m1 1/1 attempts=2
+d0 00:00:05.000 ACCEPT m2 alice->rx prio=urgent frags=1 size=6 ttl=3600s
+d0 00:00:05.000 SEND m2 1/1 alice->rx ok direct
+d0 00:00:05.000 DONE m2 alice->rx size=6 cost=0.02
+d0 00:00:05.000 ACCEPT m3 alice->rx prio=normal frags=1 size=5 ttl=3600s
+d0 00:00:06.000 SEND m3 1/1 alice->rx fail
+d0 00:00:06.000 RETRY m3 1/1 at d0 00:00:08.000
+d0 00:00:08.000 SEND m3 1/1 alice->rx ok
+d0 00:00:08.000 DONE m3 alice->rx size=5 cost=0.02
+stats at d0 00:00:15.000
+accepted=3 rejected=0 duplicates=0
+delivered=2 failed=1 expired=0 cancelled=0 pending=0
+attempts=5 retries=2 bytes=11
+revenue=0.04
+recipient ny delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient rx delivered=2 bytes=11 today=2 today-bytes=11 hour=2 fails-in-row=0 last=d0 00:00:08.000
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-

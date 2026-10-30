@@ -1,0 +1,17 @@
+d0 00:00:00.000 ACCEPT q1 alice->rx prio=normal frags=2 size=15 ttl=3600s
+d0 00:00:00.000 ACCEPT q2 bob->rx prio=normal frags=3 size=17 ttl=3600s
+d0 00:00:00.000 ACCEPT q3 cora->ny prio=normal frags=1 size=8 ttl=3600s
+d0 00:00:01.000 SEND q1 1/2 alice->rx ok
+d0 00:00:01.000 SEND q2 1/3 bob->rx ok
+d0 00:00:01.000 SEND q3 1/1 cora->ny ok
+d0 00:00:01.000 DONE q3 cora->ny size=8 cost=0.01
+d0 00:00:02.000 SEND q1 2/2 alice->rx ok
+d0 00:00:02.000 DONE q1 alice->rx size=15 cost=0.02
+d0 00:00:02.000 SEND q2 2/3 bob->rx ok
+d0 00:00:03.000 SEND q2 3/3 bob->rx ok
+d0 00:00:03.000 DONE q2 bob->rx size=17 cost=0.03
+d0 00:00:04.000 ACCEPT q4 alice->tokyo prio=normal frags=3 size=23 ttl=3600s
+d0 00:00:04.250 SEND q4 1/3 alice->tokyo ok
+d0 00:00:04.500 SEND q4 2/3 alice->tokyo ok
+d0 00:00:04.750 SEND q4 3/3 alice->tokyo ok
+d0 00:00:04.750 DONE q4 alice->tokyo size=23 cost=0.02

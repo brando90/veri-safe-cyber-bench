@@ -1,0 +1,13 @@
+d0 00:00:00.000 ACCEPT m1 bob->ny prio=urgent frags=1 size=5 ttl=3600s
+d0 00:00:00.000 SEND m1 1/1 bob->ny ok direct
+d0 00:00:00.000 DONE m1 bob->ny size=5 cost=0.04
+d0 00:00:00.000 ACCEPT m2 bob->ny prio=urgent frags=1 size=6 ttl=3600s
+d0 00:00:02.000 ACCEPT m3 bob->ny prio=urgent frags=1 size=5 ttl=10800s
+stats at d0 00:00:03.000
+accepted=3 rejected=0 duplicates=0
+delivered=1 failed=0 expired=0 cancelled=0 pending=2
+attempts=1 retries=0 bytes=5
+revenue=0.04
+recipient ny delivered=1 bytes=5 today=1 today-bytes=5 hour=1 fails-in-row=0 last=d0 00:00:00.000
+recipient rx delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-

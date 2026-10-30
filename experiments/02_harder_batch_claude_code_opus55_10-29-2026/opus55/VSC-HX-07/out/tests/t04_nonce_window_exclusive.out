@@ -1,0 +1,9 @@
+tenant acme plan=free
+key acme.main issued expires=never
+ok 200 miss 2048B catalog items=12 rev=3
+now=299999
+deny replay
+nonces acme.main n1
+now=300000
+nonces none
+ok 200 miss 2048B catalog items=12 rev=3

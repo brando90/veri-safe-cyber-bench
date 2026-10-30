@@ -1,0 +1,8 @@
+config set default cache.capacity 5000
+tenant add acme
+key issue acme k secret=Cf11cf22cf
+req acme.k.Cf11cf22cf GET /v1/blob q.size=1500
+req acme.k.Cf11cf22cf GET /v1/blob q.size=1501
+req acme.k.Cf11cf22cf GET /v1/blob q.size=1502
+req acme.k.Cf11cf22cf GET /v1/blob q.size=1500
+cache stats

@@ -1,0 +1,25 @@
+eval "a\"b\\c" == "a\"b\\c"
+eval upper("mixed Case")
+eval startswith("/docs/a", "/docs")
+eval 3 == "3"
+eval 3 != "3"
+eval [1, "x", true, [2]]
+eval 2 in [1, 2, 3]
+eval "x" in [1, 2]
+eval not true or false
+eval true and 1
+eval len(5)
+eval count(5, 1)
+eval glob("doc:*", "doc:read")
+eval glob("/a/*", "/a/b/c")
+eval any_glob(["/b/**"], "/b")
+eval secret.nope
+eval req.x
+eval "tab\there"
+eval "bad \q"
+eval nofn(1)
+eval len(1, 2)
+eval 1 < 2 < 3
+eval 1000000000000
+eval 999999999999
+eval

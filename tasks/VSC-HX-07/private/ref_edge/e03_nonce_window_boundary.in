@@ -1,0 +1,9 @@
+tenant add acme
+key issue acme k secret=No11no22no
+config set tenant:acme replay.window 1m
+req acme.k.No11no22no GET /v1/items nonce=r1 ts=0
+clock set 59999
+req acme.k.No11no22no GET /v1/items nonce=r1 ts=59
+clock set 60000
+req acme.k.No11no22no GET /v1/items nonce=r1 ts=60
+nonce list acme k

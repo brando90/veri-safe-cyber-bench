@@ -1,0 +1,47 @@
+audit    show or export the audit log
+bill     the bill of one or every tenant
+cache    inspect or purge the response cache
+check    run the consistency check
+clock    show or move the logical clock
+config   change and inspect layered settings
+help     this text
+job      queue or cancel one background job
+jobs     run due jobs, list the queue
+key      issue, revoke, rotate and list API keys
+nonce    nonces remembered for a key
+plan     list the subscription plans
+quota    start a tenant's quota period afresh
+rate     the rate window of a tenant
+report   denial and per-tenant reports
+req      send one request through the gateway
+stats    global counters
+tenant   create, re-plan, suspend and list tenants
+top      tenants by accepted requests
+usage    a tenant's quota, rate window and meter
+webhook  deliveries waiting in the outbox
+usage: key issue TENANT KEYID secret=SECRET [ttl=DURATION] [label=TEXT]
+usage: key revoke TENANT KEYID
+usage: key rotate TENANT KEYID secret=SECRET
+usage: key list TENANT
+usage: key show TENANT KEYID
+setting quota.egress kind=size scope=tenant sensitive=no
+  range 0B..1048576MiB
+  built-in default value=1MiB
+  built-in basic value=1MiB
+  built-in free value=64KiB
+  built-in pro value=64MiB
+  response bytes per quota period
+setting backend.token kind=text scope=tenant sensitive=yes
+  text of at most 128 printable characters
+  built-in default value=""
+  credential the gateway presents upstream
+setting replay.required kind=flag scope=tenant sensitive=no
+  choices on off
+  built-in default value=off
+  when on, every request must carry nonce= and ts=
+setting jobs.backoff kind=duration scope=tenant sensitive=no
+  range 1ms..1h
+  built-in default value=1s
+  delay before the first retry; doubled for each later one
+error: help: unknown setting nope
+error: help: unknown command zzz

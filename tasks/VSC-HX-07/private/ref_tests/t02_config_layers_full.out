@@ -1,0 +1,57 @@
+tenant acme plan=pro
+tenant bolt plan=free
+config tenant:acme rate.limit=7
+config tenant:acme rate.window=90s
+config tenant:acme quota.egress=2KiB
+error: config: cache.capacity can only be set on the default layer
+config default cache.capacity=300000B
+error: config: unknown layer plan:nope
+error: unknown tenant zzz
+error: bad rate.mode burst (expected fixed or sliding)
+error: jobs.max_attempts must be at most 10
+error: config: unknown setting no.such
+config tenant:bolt quota.period=1h
+config tenant:bolt rate.limit=4
+config tenant:bolt replay.required=on
+error: quota.period must be at least 1s
+rate.limit=4 (tenant:bolt)
+quota.period=1h (tenant:bolt)
+backend.token="" (default)
+cache.capacity=300000B (default)
+cache.ttl=2m (plan:pro)
+jobs.backoff=1s (default)
+jobs.max_attempts=3 (default)
+price.kib=250 (plan:pro)
+price.request=1000 (plan:pro)
+quota.egress=2KiB (tenant:acme)
+quota.period=1d (default)
+quota.requests=100000 (plan:pro)
+rate.limit=7 (tenant:acme)
+rate.mode=sliding (plan:pro)
+rate.window=90s (tenant:acme)
+replay.required=off (default)
+replay.skew=30s (default)
+replay.window=5m (default)
+webhook.secret="" (default)
+webhook.url="" (default)
+* tenant:bolt quota.period=1h
+  plan:free (not set)
+  default quota.period=1d
+* default cache.capacity=300000B
+error: config: default values cannot be removed
+config tenant:acme rate.limit unset
+error: config: rate.limit is not set on tenant:acme
+  tenant:acme (not set)
+* plan:pro rate.limit=50
+  default rate.limit=10
+layer default settings=18 version=2
+layer plan:basic settings=3 version=1
+layer plan:free settings=5 version=1
+layer plan:pro settings=8 version=1
+layer tenant:acme settings=2 version=4
+layer tenant:bolt settings=3 version=3
+#6 t=0 - config.set layer=default name=cache.capacity value=300000B
+#3 t=0 acme config.set layer=tenant:acme name=rate.limit value=7
+#4 t=0 acme config.set layer=tenant:acme name=rate.window value=90s
+#5 t=0 acme config.set layer=tenant:acme name=quota.egress value=2KiB
+#10 t=0 acme config.unset layer=tenant:acme name=rate.limit

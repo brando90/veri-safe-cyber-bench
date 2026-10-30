@@ -1,0 +1,32 @@
+OK set base
+OK set prod
+OK set admin
+OK set ops
+OK attr ann.dept
+OK attr ann.role
+OK attr bob.dept
+OK attr bob.role
+OK attr cy.dept
+OK attr cy.role
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+policyforge-bundle 1
+set prod mode=standard parent=base
+rule R3 allow doc:write /docs/team/* when subject.role == "editor"
+checksum c1aa0b1c0e424fa0
+OK set staging
+OK imported 1 rule from prod into staging (R7)
+SET staging mode=standard chain=staging>base
+  R7 allow doc:write /docs/team/* when subject.role == "editor"
+ERROR bundle: checksum mismatch
+LINT ok
+SAME 1 allow by=R3|R7
+SAME 2 deny by=default|default
+SAME 3 allow by=R1|R1
+-- 3 requests, 0 different (0.0%)
+USAGE bundle export SET
+USAGE bundle import SET   (block up to .end)

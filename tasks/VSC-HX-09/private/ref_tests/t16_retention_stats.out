@@ -1,0 +1,41 @@
+OK set base
+OK set prod
+OK set admin
+OK set ops
+OK attr ann.dept
+OK attr ann.role
+OK attr bob.dept
+OK attr bob.role
+OK attr cy.dept
+OK attr cy.role
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+DECISION allow by=R1 steps=0
+DECISION allow by=R1 steps=0
+DECISION deny by=default steps=0
+DECISION allow by=R5 steps=0
+CLOCK 60
+DECISION deny by=R6 steps=2 note: R6: unknown name req.change
+ALL decisions=5 allow=3 deny=2 allowed=60.0% avg_steps=0
+SET admin decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+SET base decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+SET ops decisions=2 allow=1 deny=1 allowed=50.0% avg_steps=1
+SET prod decisions=3 allow=2 deny=1 allowed=66.7% avg_steps=0
+OK retain 2
+#2 t=0 prod bob doc:read /docs/b -> allow by=R1 steps=0
+#3 t=0 prod bob doc:write /docs/c -> deny by=default steps=0
+#4 t=0 ops bob ops:status /svc/a -> allow by=R5 steps=0
+#5 t=60 ops bob ops:restart /svc/core/a -> deny by=R6 steps=2 note: R6: unknown name req.change
+ALL decisions=4 allow=2 deny=2 allowed=50.0% avg_steps=1
+SET admin decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+SET base decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+SET ops decisions=2 allow=1 deny=1 allowed=50.0% avg_steps=1
+SET prod decisions=2 allow=1 deny=1 allowed=50.0% avg_steps=0
+DROPPED 1
+ERROR log: retention must be at least 1
+no entries
+#5 t=60 ops bob ops:restart /svc/core/a -> deny by=R6 steps=2 note: R6: unknown name req.change

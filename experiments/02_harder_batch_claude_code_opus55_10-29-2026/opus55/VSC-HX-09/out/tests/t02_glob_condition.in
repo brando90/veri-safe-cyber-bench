@@ -1,0 +1,5 @@
+eval glob("/docs/**", "/docsx")
+eval glob("/docs/**", "/docs")
+eval glob("/docs/**", "/docs/a/b")
+eval any_glob(["/team/**", "/docs/*"], "/teamx/a")
+eval any_glob(["/team/**", "/docs/*"], "/docs/a")

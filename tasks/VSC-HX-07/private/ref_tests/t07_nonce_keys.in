@@ -1,0 +1,21 @@
+tenant add acme
+tenant add bolt
+key issue acme a secret=Na11na22na
+key issue acme b secret=Nb11nb22nb
+key issue bolt a secret=Nc11nc22nc
+clock set 100s
+req acme.a.Na11na22na GET /v1/items nonce=n-1 ts=100
+req acme.b.Nb11nb22nb GET /v1/items nonce=n-1 ts=100
+req bolt.a.Nc11nc22nc GET /v1/items nonce=n-1 ts=100
+req acme.a.Na11na22na GET /v1/items nonce=n-1 ts=101
+req acme.a.Na11na22na GET /v1/items nonce=n-2 ts=129
+req acme.a.Na11na22na GET /v1/items nonce=n-3 ts=69
+req acme.a.Na11na22na GET /v1/items nonce=n-3 ts=70
+req acme.a.Na11na22na GET /v1/items nonce=n-4
+nonce list acme a
+nonce list acme b
+config set tenant:acme replay.required on
+req acme.b.Nb11nb22nb GET /v1/items
+req acme.b.Nb11nb22nb GET /v1/items nonce=n-1 ts=100
+req acme.b.Nb11nb22nb GET /v1/items nonce=n-9 ts=100
+report denials

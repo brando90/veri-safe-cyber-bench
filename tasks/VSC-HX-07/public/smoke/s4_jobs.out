@@ -1,0 +1,20 @@
+tenant acme plan=free
+key acme.worker issued expires=never
+job j1 queued due=0
+job j2 queued due=0
+job j3 queued due=5000
+job j1 tenant=acme path=/v1/report due=0 prio=1 attempts=0
+job j2 tenant=acme path=/v1/report due=0 prio=0 attempts=0
+job j3 tenant=acme path=/v1/items due=5000 prio=0 attempts=0
+job j1 done 200 1500B report tenant=acme attempt=1
+job j2 retry attempt=1 next=1000
+now=1000
+job j2 retry attempt=2 next=3000
+now=3000
+job j2 done 200 1500B report tenant=acme attempt=3
+now=5000
+job j3 done 200 240B items tenant=acme n=2
+jobs none queued
+usage acme period=0 requests=3/200 egress=3240B/64KiB
+rate acme mode=fixed limit=5 window=10s in_window=0
+meter acme api=0 jobs=3 egress=3240B

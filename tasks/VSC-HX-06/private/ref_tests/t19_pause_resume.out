@@ -1,0 +1,31 @@
+d0 00:00:00.000 ACCEPT p1 alice->rx prio=normal frags=1 size=11 ttl=3600s
+d0 00:00:00.000 ACCEPT p2 bob->rx prio=urgent frags=1 size=16 ttl=3600s
+d0 00:00:01.000 SEND p2 1/1 bob->rx fail
+d0 00:00:01.000 RETRY p2 1/1 at d0 00:00:03.000
+d0 00:00:02.000 SEND p1 1/1 alice->rx fail
+d0 00:00:02.000 PAUSE rx until d0 00:00:12.000
+d0 00:00:02.000 RETRY p1 1/1 at d0 00:00:04.000
+d0 00:00:12.000 RESUME rx
+d0 00:00:12.000 SEND p2 1/1 bob->rx ok
+d0 00:00:12.000 DONE p2 bob->rx size=16 cost=0.04
+d0 00:00:13.000 SEND p1 1/1 alice->rx ok
+d0 00:00:13.000 DONE p1 alice->rx size=11 cost=0.02
+#1 d0 00:00:00.000 sender name=alice plan=basic
+#2 d0 00:00:00.000 sender name=bob plan=pro
+#3 d0 00:00:00.000 sender name=cora plan=bulk
+#4 d0 00:00:00.000 recipient name=rx tz=+00:00
+#5 d0 00:00:00.000 recipient name=ny tz=-05:00
+#6 d0 00:00:00.000 recipient name=tokyo tz=+09:00
+#7 d0 00:00:00.000 set-for recipient=rx key=breaker.threshold value=2
+#8 d0 00:00:00.000 set-for recipient=rx key=breaker.pause_s value=10
+#9 d0 00:00:00.000 link recipient=rx script=fail count=2
+#10 d0 00:00:02.000 pause recipient=rx until=d0/00:00:12.000
+#11 d0 00:00:12.000 resume recipient=rx
+stats at d0 00:00:20.000
+accepted=2 rejected=0 duplicates=0
+delivered=2 failed=0 expired=0 cancelled=0 pending=0
+attempts=4 retries=2 bytes=27
+revenue=0.06
+recipient ny delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient rx delivered=2 bytes=27 today=2 today-bytes=27 hour=2 fails-in-row=0 last=d0 00:00:13.000
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-

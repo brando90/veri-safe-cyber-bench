@@ -1,0 +1,12 @@
+OK set base
+OK R1
+DECISION allow by=R1 steps=0
+<table class="decisions">
+<tr><th>seq</th><th>time</th><th>set</th><th>subject</th><th>action</th><th>resource</th><th>effect</th><th>by</th><th>steps</th><th>note</th><th>context</th></tr>
+<tr><td class="seq">1</td><td class="time">0</td><td class="set">base</td><td class="subject">ann</td><td class="action">doc:read</td><td class="resource">/docs/a</td><td class="effect">allow</td><td class="by">R1</td><td class="steps">0</td><td class="note">-</td><td class="context">reason=a&lt;b&amp;c&#39;d</td></tr>
+<tr class="summary"><td colspan="11">1 decision, 100.0% allowed</td></tr>
+</table>
+OK template row
+<tr><td>reason=a&lt;b&amp;c&#39;d</td></tr>
+<tr><td>reason=a<b&c'd</td></tr>
+<tr><td>reason=a<b&c'd</td></tr>

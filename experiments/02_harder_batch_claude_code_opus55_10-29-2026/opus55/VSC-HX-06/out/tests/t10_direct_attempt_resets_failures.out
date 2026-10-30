@@ -1,0 +1,17 @@
+d0 00:00:00.000 ACCEPT x1 alice->rx prio=normal frags=1 size=9 ttl=3600s
+d0 00:00:01.000 SEND x1 1/1 alice->rx fail
+d0 00:00:01.000 FAIL x1 1/1 attempts=1
+d0 00:00:02.000 ACCEPT x2 bob->rx prio=urgent frags=1 size=10 ttl=3600s
+d0 00:00:02.000 SEND x2 1/1 bob->rx ok direct
+d0 00:00:02.000 DONE x2 bob->rx size=10 cost=0.04
+d0 00:00:02.000 ACCEPT x3 alice->rx prio=normal frags=1 size=9 ttl=3600s
+d0 00:00:03.000 SEND x3 1/1 alice->rx fail
+d0 00:00:03.000 FAIL x3 1/1 attempts=1
+stats at d0 00:00:04.000
+accepted=3 rejected=0 duplicates=0
+delivered=1 failed=2 expired=0 cancelled=0 pending=0
+attempts=3 retries=0 bytes=10
+revenue=0.04
+recipient ny delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient rx delivered=1 bytes=10 today=1 today-bytes=10 hour=1 fails-in-row=1 last=d0 00:00:02.000
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-

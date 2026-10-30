@@ -1,0 +1,18 @@
+d0 00:00:00.000 ACCEPT c1 cora->rx prio=normal frags=1 size=8 ttl=3600s
+d0 00:00:00.000 ACCEPT c2 cora->rx prio=normal frags=1 size=8 ttl=3600s
+d0 00:00:00.000 REJECT c3 queue-full
+d0 00:00:01.000 SEND c1 1/1 cora->rx ok
+d0 00:00:01.000 DONE c1 cora->rx size=8 cost=0.01
+d0 00:00:02.000 SEND c2 1/1 cora->rx ok
+d0 00:00:02.000 DONE c2 cora->rx size=8 cost=0.01
+inbox rx: 2 messages
+c1 from cora: line one
+c2 from cora: line two
+stats at d0 00:00:03.000
+accepted=2 rejected=1 duplicates=0
+delivered=2 failed=0 expired=0 cancelled=0 pending=0
+attempts=2 retries=0 bytes=16
+revenue=0.02
+recipient ny delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient rx delivered=2 bytes=16 today=2 today-bytes=16 hour=2 fails-in-row=0 last=d0 00:00:02.000
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-

@@ -1,0 +1,9 @@
+tenant acme plan=free
+key acme.k issued expires=never
+config tenant:acme quota.egress=2KiB
+deny quota-egress
+ok 200 miss 1024B blob tenant=acme size=1024
+nonces acme.k b1
+usage acme period=0 requests=1/200 egress=1024B/2KiB
+rate acme mode=fixed limit=5 window=10s in_window=1
+meter acme api=1 jobs=0 egress=1024B

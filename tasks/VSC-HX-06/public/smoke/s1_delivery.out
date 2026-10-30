@@ -1,0 +1,25 @@
+d0 00:00:00.000 ACCEPT m1 alice->rx prio=normal frags=2 size=48 ttl=3600s
+d0 00:00:00.000 ACCEPT m2 alice->ny prio=normal frags=1 size=11 ttl=3600s
+d0 00:00:00.000 ACCEPT m3 bob->tokyo prio=high frags=2 size=35 ttl=3600s
+d0 00:00:01.000 SEND m3 1/2 bob->tokyo ok
+d0 00:00:01.000 SEND m1 1/2 alice->rx ok
+d0 00:00:01.000 SEND m2 1/1 alice->ny ok
+d0 00:00:01.000 DONE m2 alice->ny size=11 cost=0.02
+d0 00:00:02.000 SEND m3 2/2 bob->tokyo ok
+d0 00:00:02.000 DONE m3 bob->tokyo size=35 cost=0.03
+d0 00:00:02.000 SEND m1 2/2 alice->rx ok
+d0 00:00:02.000 DONE m1 alice->rx size=48 cost=0.02
+inbox rx: 1 messages
+m1 from alice: Hello from alice, this body needs two fragments.
+inbox tokyo: 1 messages
+m3 from bob: Status report: all systems nominal.
+message m1 alice->rx prio=normal state=delivered size=48 frags=2 via=send
+accepted=d0 00:00:00.000 deadline=d0 01:00:00.000 started=d0 00:00:01.000 finished=d0 00:00:02.000
+fragment 1/2 bytes=32 attempts=1 acked=yes
+fragment 2/2 bytes=16 attempts=1 acked=yes
+history m3: 4 events
+d0 00:00:00.000 ACCEPT m3 bob->tokyo prio=high frags=2 size=35 ttl=3600s
+d0 00:00:01.000 SEND m3 1/2 bob->tokyo ok
+d0 00:00:02.000 SEND m3 2/2 bob->tokyo ok
+d0 00:00:02.000 DONE m3 bob->tokyo size=35 cost=0.03
+now d0 00:00:05.000

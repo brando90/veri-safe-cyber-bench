@@ -1,0 +1,16 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+link rx fail 3
+send r1 alice rx Retry me please
+advance 4s
+queue
+advance 40s
+audit
+send r2 bob ny prio=high High priority hello
+link ny fail 1
+advance 10s
+stats

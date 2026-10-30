@@ -1,0 +1,11 @@
+tenant add acme
+key issue acme k secret=Ro11ro22ro ttl=1h
+req acme.k.Ro11ro22ro GET /v1/me
+key rotate acme k secret=Ro33ro44ro
+req acme.k.Ro11ro22ro GET /v1/me
+req acme.k.Ro33ro44ro GET /v1/me
+key revoke acme k
+key rotate acme k secret=Ro55ro66ro
+key show acme k
+key show acme zz
+audit acme event=key

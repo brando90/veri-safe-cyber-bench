@@ -1,0 +1,23 @@
+CLOCK 0
+CLOCK 100
+ERROR clock: clock cannot go backwards (now 100)
+CLOCK 190
+CLOCK 310
+CLOCK 3910
+CLOCK 90310
+ERROR usage: duration must be positive
+ERROR usage: bad duration 10w
+ERROR usage: bad time x
+ERROR usage: usage: clock set N | clock advance DURATION | clock show
+ERROR usage: unknown command frobnicate
+ERROR usage: usage: check SET SUBJECT ACTION RESOURCE [KEY=VALUE ...]
+ERROR set: unknown set nowhere
+OK set s
+ERROR rule: bad action doc
+ERROR rule: bad resource a
+ERROR usage: bad attribute k
+ERROR usage: attribute k given twice
+ERROR usage: bad subject bad/subject
+OK consistent
+USAGE check SET SUBJECT ACTION RESOURCE [KEY=VALUE ...]
+no help for nope

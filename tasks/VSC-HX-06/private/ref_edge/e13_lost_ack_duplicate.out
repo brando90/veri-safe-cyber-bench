@@ -1,0 +1,9 @@
+d0 00:00:00.000 ACCEPT m1 alice->rx prio=normal frags=3 size=19 ttl=3600s
+d0 00:00:01.000 SEND m1 1/3 alice->rx lost-ack
+d0 00:00:01.000 RETRY m1 1/3 at d0 00:00:03.000
+d0 00:00:02.000 SEND m1 2/3 alice->rx ok
+d0 00:00:03.000 SEND m1 1/3 alice->rx ok
+d0 00:00:04.000 SEND m1 3/3 alice->rx ok
+d0 00:00:04.000 DONE m1 alice->rx size=19 cost=0.02
+inbox rx: 1 messages
+m1 from alice: 0123456789abcdefXYZ

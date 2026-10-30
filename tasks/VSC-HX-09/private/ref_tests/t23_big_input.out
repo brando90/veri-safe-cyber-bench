@@ -1,0 +1,758 @@
+OK set big
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+OK R7
+OK R8
+OK R9
+OK R10
+OK R11
+OK R12
+OK R13
+OK R14
+OK R15
+OK R16
+OK R17
+OK R18
+OK R19
+OK R20
+OK R21
+OK R22
+OK R23
+OK R24
+OK R25
+OK R26
+OK R27
+OK R28
+OK R29
+OK R30
+OK R31
+OK R32
+OK R33
+OK R34
+OK R35
+OK R36
+OK R37
+OK R38
+OK R39
+OK R40
+OK R41
+OK R42
+OK R43
+OK R44
+OK R45
+OK R46
+OK R47
+OK R48
+OK R49
+OK R50
+OK R51
+OK R52
+OK R53
+OK R54
+OK R55
+OK R56
+OK R57
+OK R58
+OK R59
+OK R60
+OK R61
+OK R62
+OK R63
+OK R64
+OK R65
+OK R66
+OK R67
+OK R68
+OK R69
+OK R70
+OK R71
+OK R72
+OK R73
+OK R74
+OK R75
+OK R76
+OK R77
+OK R78
+OK R79
+OK R80
+OK R81
+OK R82
+OK R83
+OK R84
+OK R85
+OK R86
+OK R87
+OK R88
+OK R89
+OK R90
+OK R91
+OK R92
+OK R93
+OK R94
+OK R95
+OK R96
+OK R97
+OK R98
+OK R99
+OK R100
+OK R101
+OK R102
+OK R103
+OK R104
+OK R105
+OK R106
+OK R107
+OK R108
+OK R109
+OK R110
+OK R111
+OK R112
+OK R113
+OK R114
+OK R115
+OK R116
+OK R117
+OK R118
+OK R119
+OK R120
+OK R121
+OK R122
+OK R123
+OK R124
+OK R125
+OK R126
+OK R127
+OK R128
+OK R129
+OK R130
+OK R131
+OK R132
+OK R133
+OK R134
+OK R135
+OK R136
+OK R137
+OK R138
+OK R139
+OK R140
+OK R141
+OK R142
+OK R143
+OK R144
+OK R145
+OK R146
+OK R147
+OK R148
+OK R149
+OK R150
+OK R151
+OK R152
+OK R153
+OK R154
+OK R155
+OK R156
+OK R157
+OK R158
+OK R159
+OK R160
+OK R161
+OK R162
+OK R163
+OK R164
+OK R165
+OK R166
+OK R167
+OK R168
+OK R169
+OK R170
+OK R171
+OK R172
+OK R173
+OK R174
+OK R175
+OK R176
+OK R177
+OK R178
+OK R179
+OK R180
+OK R181
+OK R182
+OK R183
+OK R184
+OK R185
+OK R186
+OK R187
+OK R188
+OK R189
+OK R190
+OK R191
+OK R192
+OK R193
+OK R194
+OK R195
+OK R196
+OK R197
+OK R198
+OK R199
+OK R200
+OK R201
+OK R202
+OK R203
+OK R204
+OK R205
+OK R206
+OK R207
+OK R208
+OK R209
+OK R210
+OK R211
+OK R212
+OK R213
+OK R214
+OK R215
+OK R216
+OK R217
+OK R218
+OK R219
+OK R220
+OK R221
+OK R222
+OK R223
+OK R224
+OK R225
+OK R226
+OK R227
+OK R228
+OK R229
+OK R230
+OK R231
+OK R232
+OK R233
+OK R234
+OK R235
+OK R236
+OK R237
+OK R238
+OK R239
+OK R240
+OK R241
+OK R242
+OK R243
+OK R244
+OK R245
+OK R246
+OK R247
+OK R248
+OK R249
+OK R250
+OK R251
+OK R252
+OK R253
+OK R254
+OK R255
+OK R256
+OK R257
+OK R258
+OK R259
+OK R260
+OK R261
+OK R262
+OK R263
+OK R264
+OK R265
+OK R266
+OK R267
+OK R268
+OK R269
+OK R270
+OK R271
+OK R272
+OK R273
+OK R274
+OK R275
+OK R276
+OK R277
+OK R278
+OK R279
+OK R280
+OK R281
+OK R282
+OK R283
+OK R284
+OK R285
+OK R286
+OK R287
+OK R288
+OK R289
+OK R290
+OK R291
+OK R292
+OK R293
+OK R294
+OK R295
+OK R296
+OK R297
+OK R298
+OK R299
+OK R300
+DECISION allow by=R1 steps=3
+DECISION allow by=R2 steps=3
+DECISION allow by=R3 steps=3
+DECISION allow by=R4 steps=3
+DECISION allow by=R5 steps=3
+DECISION allow by=R6 steps=3
+DECISION allow by=R7 steps=3
+DECISION allow by=R8 steps=3
+DECISION allow by=R9 steps=3
+DECISION deny by=R160 steps=3
+DECISION deny by=R161 steps=3
+DECISION deny by=R162 steps=3
+DECISION deny by=R163 steps=3
+DECISION deny by=R164 steps=3
+DECISION allow by=R15 steps=3
+DECISION allow by=R16 steps=3
+DECISION allow by=R17 steps=3
+DECISION allow by=R18 steps=3
+DECISION deny by=R169 steps=3
+DECISION deny by=R170 steps=3
+DECISION deny by=R171 steps=3
+DECISION allow by=R22 steps=3
+DECISION allow by=R23 steps=3
+DECISION allow by=R24 steps=3
+DECISION allow by=R25 steps=3
+DECISION allow by=R26 steps=3
+DECISION allow by=R27 steps=3
+DECISION deny by=R178 steps=3
+DECISION allow by=R29 steps=3
+DECISION allow by=R30 steps=3
+DECISION allow by=R31 steps=3
+DECISION allow by=R32 steps=3
+DECISION allow by=R33 steps=3
+DECISION allow by=R34 steps=3
+DECISION allow by=R35 steps=3
+DECISION allow by=R36 steps=3
+DECISION deny by=R187 steps=3
+DECISION deny by=R188 steps=3
+DECISION deny by=R189 steps=3
+DECISION deny by=R190 steps=3
+DECISION deny by=R191 steps=3
+DECISION deny by=R192 steps=3
+DECISION allow by=R43 steps=3
+DECISION allow by=R44 steps=3
+DECISION allow by=R45 steps=3
+DECISION deny by=R196 steps=3
+DECISION deny by=R197 steps=3
+DECISION deny by=R198 steps=3
+DECISION deny by=R199 steps=3
+DECISION allow by=R50 steps=3
+DECISION allow by=R51 steps=3
+DECISION allow by=R52 steps=3
+DECISION allow by=R53 steps=3
+DECISION allow by=R54 steps=3
+DECISION deny by=R205 steps=3
+DECISION deny by=R206 steps=3
+DECISION allow by=R57 steps=3
+DECISION allow by=R58 steps=3
+DECISION allow by=R59 steps=3
+DECISION allow by=R60 steps=3
+DECISION allow by=R61 steps=3
+DECISION allow by=R62 steps=3
+DECISION allow by=R63 steps=3
+DECISION allow by=R64 steps=3
+DECISION allow by=R65 steps=3
+DECISION allow by=R66 steps=3
+DECISION allow by=R67 steps=3
+DECISION allow by=R68 steps=3
+DECISION allow by=R69 steps=3
+DECISION allow by=R70 steps=3
+DECISION allow by=R71 steps=3
+DECISION allow by=R72 steps=3
+DECISION deny by=R223 steps=3
+DECISION deny by=R224 steps=3
+DECISION deny by=R225 steps=3
+DECISION deny by=R226 steps=3
+DECISION deny by=R227 steps=3
+DECISION allow by=R78 steps=3
+DECISION allow by=R79 steps=3
+DECISION allow by=R80 steps=3
+DECISION allow by=R81 steps=3
+DECISION deny by=R232 steps=3
+DECISION deny by=R233 steps=3
+DECISION deny by=R234 steps=3
+DECISION allow by=R85 steps=3
+DECISION allow by=R86 steps=3
+DECISION allow by=R87 steps=3
+DECISION allow by=R88 steps=3
+DECISION allow by=R89 steps=3
+DECISION allow by=R90 steps=3
+DECISION deny by=R241 steps=3
+DECISION allow by=R92 steps=3
+DECISION allow by=R93 steps=3
+DECISION allow by=R94 steps=3
+DECISION allow by=R95 steps=3
+DECISION allow by=R96 steps=3
+DECISION allow by=R97 steps=3
+DECISION allow by=R98 steps=3
+DECISION allow by=R99 steps=3
+DECISION deny by=R250 steps=3
+DECISION deny by=R251 steps=3
+DECISION deny by=R252 steps=3
+DECISION deny by=R253 steps=3
+DECISION deny by=R254 steps=3
+DECISION deny by=R255 steps=3
+DECISION allow by=R106 steps=3
+DECISION allow by=R107 steps=3
+DECISION allow by=R108 steps=3
+DECISION deny by=R259 steps=3
+DECISION deny by=R260 steps=3
+DECISION deny by=R261 steps=3
+DECISION deny by=R262 steps=3
+DECISION allow by=R113 steps=3
+DECISION allow by=R114 steps=3
+DECISION allow by=R115 steps=3
+DECISION allow by=R116 steps=3
+DECISION allow by=R117 steps=3
+DECISION deny by=R268 steps=3
+DECISION deny by=R269 steps=3
+DECISION allow by=R120 steps=3
+DECISION allow by=R121 steps=3
+DECISION allow by=R122 steps=3
+DECISION allow by=R123 steps=3
+DECISION allow by=R124 steps=3
+DECISION allow by=R125 steps=3
+DECISION allow by=R126 steps=3
+DECISION allow by=R127 steps=3
+DECISION allow by=R128 steps=3
+DECISION allow by=R129 steps=3
+DECISION allow by=R130 steps=3
+DECISION allow by=R131 steps=3
+DECISION allow by=R132 steps=3
+DECISION allow by=R133 steps=3
+DECISION allow by=R134 steps=3
+DECISION allow by=R135 steps=3
+DECISION deny by=R286 steps=3
+DECISION deny by=R287 steps=3
+DECISION deny by=R288 steps=3
+DECISION deny by=R289 steps=3
+DECISION deny by=R290 steps=3
+DECISION allow by=R141 steps=3
+DECISION allow by=R142 steps=3
+DECISION allow by=R143 steps=3
+DECISION allow by=R144 steps=3
+DECISION deny by=R295 steps=3
+DECISION deny by=R296 steps=3
+DECISION deny by=R297 steps=3
+DECISION allow by=R148 steps=3
+DECISION allow by=R149 steps=3
+DECISION allow by=R150 steps=3
+DECISION allow by=R1 steps=3
+DECISION allow by=R2 steps=3
+DECISION allow by=R3 steps=3
+DECISION deny by=R154 steps=3
+DECISION deny by=R155 steps=3
+DECISION deny by=R156 steps=3
+DECISION deny by=R157 steps=3
+DECISION allow by=R8 steps=3
+DECISION allow by=R9 steps=3
+DECISION allow by=R10 steps=3
+DECISION allow by=R11 steps=3
+DECISION allow by=R12 steps=3
+DECISION deny by=R163 steps=3
+DECISION deny by=R164 steps=3
+DECISION allow by=R15 steps=3
+DECISION allow by=R16 steps=3
+DECISION allow by=R17 steps=3
+DECISION allow by=R18 steps=3
+DECISION allow by=R19 steps=3
+DECISION allow by=R20 steps=3
+DECISION allow by=R21 steps=3
+DECISION allow by=R22 steps=3
+DECISION allow by=R23 steps=3
+DECISION allow by=R24 steps=3
+DECISION allow by=R25 steps=3
+DECISION allow by=R26 steps=3
+DECISION allow by=R27 steps=3
+DECISION allow by=R28 steps=3
+DECISION allow by=R29 steps=3
+DECISION allow by=R30 steps=3
+DECISION deny by=R181 steps=3
+DECISION deny by=R182 steps=3
+DECISION deny by=R183 steps=3
+DECISION deny by=R184 steps=3
+DECISION deny by=R185 steps=3
+DECISION allow by=R36 steps=3
+DECISION allow by=R37 steps=3
+DECISION allow by=R38 steps=3
+DECISION allow by=R39 steps=3
+DECISION deny by=R190 steps=3
+DECISION deny by=R191 steps=3
+DECISION deny by=R192 steps=3
+DECISION allow by=R43 steps=3
+DECISION allow by=R44 steps=3
+DECISION allow by=R45 steps=3
+DECISION allow by=R46 steps=3
+DECISION allow by=R47 steps=3
+DECISION allow by=R48 steps=3
+DECISION deny by=R199 steps=3
+DECISION allow by=R50 steps=3
+DECISION allow by=R51 steps=3
+DECISION allow by=R52 steps=3
+DECISION allow by=R53 steps=3
+DECISION allow by=R54 steps=3
+DECISION allow by=R55 steps=3
+DECISION allow by=R56 steps=3
+DECISION allow by=R57 steps=3
+DECISION deny by=R208 steps=3
+DECISION deny by=R209 steps=3
+DECISION deny by=R210 steps=3
+DECISION deny by=R211 steps=3
+DECISION deny by=R212 steps=3
+DECISION deny by=R213 steps=3
+DECISION allow by=R64 steps=3
+DECISION allow by=R65 steps=3
+DECISION allow by=R66 steps=3
+DECISION deny by=R217 steps=3
+DECISION deny by=R218 steps=3
+DECISION deny by=R219 steps=3
+DECISION deny by=R220 steps=3
+DECISION allow by=R71 steps=3
+DECISION allow by=R72 steps=3
+DECISION allow by=R73 steps=3
+DECISION allow by=R74 steps=3
+DECISION allow by=R75 steps=3
+DECISION deny by=R226 steps=3
+DECISION deny by=R227 steps=3
+DECISION allow by=R78 steps=3
+DECISION allow by=R79 steps=3
+DECISION allow by=R80 steps=3
+DECISION allow by=R81 steps=3
+DECISION allow by=R82 steps=3
+DECISION allow by=R83 steps=3
+DECISION allow by=R84 steps=3
+DECISION allow by=R85 steps=3
+DECISION allow by=R86 steps=3
+DECISION allow by=R87 steps=3
+DECISION allow by=R88 steps=3
+DECISION allow by=R89 steps=3
+DECISION allow by=R90 steps=3
+DECISION allow by=R91 steps=3
+DECISION allow by=R92 steps=3
+DECISION allow by=R93 steps=3
+DECISION deny by=R244 steps=3
+DECISION deny by=R245 steps=3
+DECISION deny by=R246 steps=3
+DECISION deny by=R247 steps=3
+DECISION deny by=R248 steps=3
+DECISION allow by=R99 steps=3
+DECISION allow by=R100 steps=3
+ALL decisions=200 allow=137 deny=63 allowed=68.5% avg_steps=3
+SET big decisions=200 allow=137 deny=63 allowed=68.5% avg_steps=3
+DROPPED 50
+#248 t=0 big u247 doc:read /area97/private/f -> deny by=R248 steps=3 [lvl=4]
+#249 t=0 big u248 doc:read /area98/private/f -> allow by=R99 steps=3 [lvl=5]
+#250 t=0 big u249 doc:read /area99/private/f -> allow by=R100 steps=3 [lvl=6]
+seq,time,set,subject,action,resource,effect,by,steps,note,context
+51,0,big,u50,doc:read,/area50/private/f,allow,R51,3,,lvl=5
+52,0,big,u51,doc:read,/area51/private/f,allow,R52,3,,lvl=6
+53,0,big,u52,doc:read,/area52/private/f,allow,R53,3,,lvl=7
+54,0,big,u53,doc:read,/area53/private/f,allow,R54,3,,lvl=8
+55,0,big,u54,doc:read,/area54/private/f,deny,R205,3,,lvl=0
+56,0,big,u55,doc:read,/area55/private/f,deny,R206,3,,lvl=1
+57,0,big,u56,doc:read,/area56/private/f,allow,R57,3,,lvl=2
+58,0,big,u57,doc:read,/area57/private/f,allow,R58,3,,lvl=3
+59,0,big,u58,doc:read,/area58/private/f,allow,R59,3,,lvl=4
+60,0,big,u59,doc:read,/area59/private/f,allow,R60,3,,lvl=5
+61,0,big,u60,doc:read,/area60/private/f,allow,R61,3,,lvl=6
+62,0,big,u61,doc:read,/area61/private/f,allow,R62,3,,lvl=7
+63,0,big,u62,doc:read,/area62/private/f,allow,R63,3,,lvl=8
+64,0,big,u63,doc:read,/area63/private/f,allow,R64,3,,lvl=0
+65,0,big,u64,doc:read,/area64/private/f,allow,R65,3,,lvl=1
+66,0,big,u65,doc:read,/area65/private/f,allow,R66,3,,lvl=2
+67,0,big,u66,doc:read,/area66/private/f,allow,R67,3,,lvl=3
+68,0,big,u67,doc:read,/area67/private/f,allow,R68,3,,lvl=4
+69,0,big,u68,doc:read,/area68/private/f,allow,R69,3,,lvl=5
+70,0,big,u69,doc:read,/area69/private/f,allow,R70,3,,lvl=6
+71,0,big,u70,doc:read,/area70/private/f,allow,R71,3,,lvl=7
+72,0,big,u71,doc:read,/area71/private/f,allow,R72,3,,lvl=8
+73,0,big,u72,doc:read,/area72/private/f,deny,R223,3,,lvl=0
+74,0,big,u73,doc:read,/area73/private/f,deny,R224,3,,lvl=1
+75,0,big,u74,doc:read,/area74/private/f,deny,R225,3,,lvl=2
+76,0,big,u75,doc:read,/area75/private/f,deny,R226,3,,lvl=3
+77,0,big,u76,doc:read,/area76/private/f,deny,R227,3,,lvl=4
+78,0,big,u77,doc:read,/area77/private/f,allow,R78,3,,lvl=5
+79,0,big,u78,doc:read,/area78/private/f,allow,R79,3,,lvl=6
+80,0,big,u79,doc:read,/area79/private/f,allow,R80,3,,lvl=7
+81,0,big,u80,doc:read,/area80/private/f,allow,R81,3,,lvl=8
+82,0,big,u81,doc:read,/area81/private/f,deny,R232,3,,lvl=0
+83,0,big,u82,doc:read,/area82/private/f,deny,R233,3,,lvl=1
+84,0,big,u83,doc:read,/area83/private/f,deny,R234,3,,lvl=2
+85,0,big,u84,doc:read,/area84/private/f,allow,R85,3,,lvl=3
+86,0,big,u85,doc:read,/area85/private/f,allow,R86,3,,lvl=4
+87,0,big,u86,doc:read,/area86/private/f,allow,R87,3,,lvl=5
+88,0,big,u87,doc:read,/area87/private/f,allow,R88,3,,lvl=6
+89,0,big,u88,doc:read,/area88/private/f,allow,R89,3,,lvl=7
+90,0,big,u89,doc:read,/area89/private/f,allow,R90,3,,lvl=8
+91,0,big,u90,doc:read,/area90/private/f,deny,R241,3,,lvl=0
+92,0,big,u91,doc:read,/area91/private/f,allow,R92,3,,lvl=1
+93,0,big,u92,doc:read,/area92/private/f,allow,R93,3,,lvl=2
+94,0,big,u93,doc:read,/area93/private/f,allow,R94,3,,lvl=3
+95,0,big,u94,doc:read,/area94/private/f,allow,R95,3,,lvl=4
+96,0,big,u95,doc:read,/area95/private/f,allow,R96,3,,lvl=5
+97,0,big,u96,doc:read,/area96/private/f,allow,R97,3,,lvl=6
+98,0,big,u97,doc:read,/area97/private/f,allow,R98,3,,lvl=7
+99,0,big,u98,doc:read,/area98/private/f,allow,R99,3,,lvl=8
+100,0,big,u99,doc:read,/area99/private/f,deny,R250,3,,lvl=0
+101,0,big,u100,doc:read,/area100/private/f,deny,R251,3,,lvl=1
+102,0,big,u101,doc:read,/area101/private/f,deny,R252,3,,lvl=2
+103,0,big,u102,doc:read,/area102/private/f,deny,R253,3,,lvl=3
+104,0,big,u103,doc:read,/area103/private/f,deny,R254,3,,lvl=4
+105,0,big,u104,doc:read,/area104/private/f,deny,R255,3,,lvl=5
+106,0,big,u105,doc:read,/area105/private/f,allow,R106,3,,lvl=6
+107,0,big,u106,doc:read,/area106/private/f,allow,R107,3,,lvl=7
+108,0,big,u107,doc:read,/area107/private/f,allow,R108,3,,lvl=8
+109,0,big,u108,doc:read,/area108/private/f,deny,R259,3,,lvl=0
+110,0,big,u109,doc:read,/area109/private/f,deny,R260,3,,lvl=1
+111,0,big,u110,doc:read,/area110/private/f,deny,R261,3,,lvl=2
+112,0,big,u111,doc:read,/area111/private/f,deny,R262,3,,lvl=3
+113,0,big,u112,doc:read,/area112/private/f,allow,R113,3,,lvl=4
+114,0,big,u113,doc:read,/area113/private/f,allow,R114,3,,lvl=5
+115,0,big,u114,doc:read,/area114/private/f,allow,R115,3,,lvl=6
+116,0,big,u115,doc:read,/area115/private/f,allow,R116,3,,lvl=7
+117,0,big,u116,doc:read,/area116/private/f,allow,R117,3,,lvl=8
+118,0,big,u117,doc:read,/area117/private/f,deny,R268,3,,lvl=0
+119,0,big,u118,doc:read,/area118/private/f,deny,R269,3,,lvl=1
+120,0,big,u119,doc:read,/area119/private/f,allow,R120,3,,lvl=2
+121,0,big,u120,doc:read,/area120/private/f,allow,R121,3,,lvl=3
+122,0,big,u121,doc:read,/area121/private/f,allow,R122,3,,lvl=4
+123,0,big,u122,doc:read,/area122/private/f,allow,R123,3,,lvl=5
+124,0,big,u123,doc:read,/area123/private/f,allow,R124,3,,lvl=6
+125,0,big,u124,doc:read,/area124/private/f,allow,R125,3,,lvl=7
+126,0,big,u125,doc:read,/area125/private/f,allow,R126,3,,lvl=8
+127,0,big,u126,doc:read,/area126/private/f,allow,R127,3,,lvl=0
+128,0,big,u127,doc:read,/area127/private/f,allow,R128,3,,lvl=1
+129,0,big,u128,doc:read,/area128/private/f,allow,R129,3,,lvl=2
+130,0,big,u129,doc:read,/area129/private/f,allow,R130,3,,lvl=3
+131,0,big,u130,doc:read,/area130/private/f,allow,R131,3,,lvl=4
+132,0,big,u131,doc:read,/area131/private/f,allow,R132,3,,lvl=5
+133,0,big,u132,doc:read,/area132/private/f,allow,R133,3,,lvl=6
+134,0,big,u133,doc:read,/area133/private/f,allow,R134,3,,lvl=7
+135,0,big,u134,doc:read,/area134/private/f,allow,R135,3,,lvl=8
+136,0,big,u135,doc:read,/area135/private/f,deny,R286,3,,lvl=0
+137,0,big,u136,doc:read,/area136/private/f,deny,R287,3,,lvl=1
+138,0,big,u137,doc:read,/area137/private/f,deny,R288,3,,lvl=2
+139,0,big,u138,doc:read,/area138/private/f,deny,R289,3,,lvl=3
+140,0,big,u139,doc:read,/area139/private/f,deny,R290,3,,lvl=4
+141,0,big,u140,doc:read,/area140/private/f,allow,R141,3,,lvl=5
+142,0,big,u141,doc:read,/area141/private/f,allow,R142,3,,lvl=6
+143,0,big,u142,doc:read,/area142/private/f,allow,R143,3,,lvl=7
+144,0,big,u143,doc:read,/area143/private/f,allow,R144,3,,lvl=8
+145,0,big,u144,doc:read,/area144/private/f,deny,R295,3,,lvl=0
+146,0,big,u145,doc:read,/area145/private/f,deny,R296,3,,lvl=1
+147,0,big,u146,doc:read,/area146/private/f,deny,R297,3,,lvl=2
+148,0,big,u147,doc:read,/area147/private/f,allow,R148,3,,lvl=3
+149,0,big,u148,doc:read,/area148/private/f,allow,R149,3,,lvl=4
+150,0,big,u149,doc:read,/area149/private/f,allow,R150,3,,lvl=5
+151,0,big,u150,doc:read,/area0/private/f,allow,R1,3,,lvl=6
+152,0,big,u151,doc:read,/area1/private/f,allow,R2,3,,lvl=7
+153,0,big,u152,doc:read,/area2/private/f,allow,R3,3,,lvl=8
+154,0,big,u153,doc:read,/area3/private/f,deny,R154,3,,lvl=0
+155,0,big,u154,doc:read,/area4/private/f,deny,R155,3,,lvl=1
+156,0,big,u155,doc:read,/area5/private/f,deny,R156,3,,lvl=2
+157,0,big,u156,doc:read,/area6/private/f,deny,R157,3,,lvl=3
+158,0,big,u157,doc:read,/area7/private/f,allow,R8,3,,lvl=4
+159,0,big,u158,doc:read,/area8/private/f,allow,R9,3,,lvl=5
+160,0,big,u159,doc:read,/area9/private/f,allow,R10,3,,lvl=6
+161,0,big,u160,doc:read,/area10/private/f,allow,R11,3,,lvl=7
+162,0,big,u161,doc:read,/area11/private/f,allow,R12,3,,lvl=8
+163,0,big,u162,doc:read,/area12/private/f,deny,R163,3,,lvl=0
+164,0,big,u163,doc:read,/area13/private/f,deny,R164,3,,lvl=1
+165,0,big,u164,doc:read,/area14/private/f,allow,R15,3,,lvl=2
+166,0,big,u165,doc:read,/area15/private/f,allow,R16,3,,lvl=3
+167,0,big,u166,doc:read,/area16/private/f,allow,R17,3,,lvl=4
+168,0,big,u167,doc:read,/area17/private/f,allow,R18,3,,lvl=5
+169,0,big,u168,doc:read,/area18/private/f,allow,R19,3,,lvl=6
+170,0,big,u169,doc:read,/area19/private/f,allow,R20,3,,lvl=7
+171,0,big,u170,doc:read,/area20/private/f,allow,R21,3,,lvl=8
+172,0,big,u171,doc:read,/area21/private/f,allow,R22,3,,lvl=0
+173,0,big,u172,doc:read,/area22/private/f,allow,R23,3,,lvl=1
+174,0,big,u173,doc:read,/area23/private/f,allow,R24,3,,lvl=2
+175,0,big,u174,doc:read,/area24/private/f,allow,R25,3,,lvl=3
+176,0,big,u175,doc:read,/area25/private/f,allow,R26,3,,lvl=4
+177,0,big,u176,doc:read,/area26/private/f,allow,R27,3,,lvl=5
+178,0,big,u177,doc:read,/area27/private/f,allow,R28,3,,lvl=6
+179,0,big,u178,doc:read,/area28/private/f,allow,R29,3,,lvl=7
+180,0,big,u179,doc:read,/area29/private/f,allow,R30,3,,lvl=8
+181,0,big,u180,doc:read,/area30/private/f,deny,R181,3,,lvl=0
+182,0,big,u181,doc:read,/area31/private/f,deny,R182,3,,lvl=1
+183,0,big,u182,doc:read,/area32/private/f,deny,R183,3,,lvl=2
+184,0,big,u183,doc:read,/area33/private/f,deny,R184,3,,lvl=3
+185,0,big,u184,doc:read,/area34/private/f,deny,R185,3,,lvl=4
+186,0,big,u185,doc:read,/area35/private/f,allow,R36,3,,lvl=5
+187,0,big,u186,doc:read,/area36/private/f,allow,R37,3,,lvl=6
+188,0,big,u187,doc:read,/area37/private/f,allow,R38,3,,lvl=7
+189,0,big,u188,doc:read,/area38/private/f,allow,R39,3,,lvl=8
+190,0,big,u189,doc:read,/area39/private/f,deny,R190,3,,lvl=0
+191,0,big,u190,doc:read,/area40/private/f,deny,R191,3,,lvl=1
+192,0,big,u191,doc:read,/area41/private/f,deny,R192,3,,lvl=2
+193,0,big,u192,doc:read,/area42/private/f,allow,R43,3,,lvl=3
+194,0,big,u193,doc:read,/area43/private/f,allow,R44,3,,lvl=4
+195,0,big,u194,doc:read,/area44/private/f,allow,R45,3,,lvl=5
+196,0,big,u195,doc:read,/area45/private/f,allow,R46,3,,lvl=6
+197,0,big,u196,doc:read,/area46/private/f,allow,R47,3,,lvl=7
+198,0,big,u197,doc:read,/area47/private/f,allow,R48,3,,lvl=8
+199,0,big,u198,doc:read,/area48/private/f,deny,R199,3,,lvl=0
+200,0,big,u199,doc:read,/area49/private/f,allow,R50,3,,lvl=1
+201,0,big,u200,doc:read,/area50/private/f,allow,R51,3,,lvl=2
+202,0,big,u201,doc:read,/area51/private/f,allow,R52,3,,lvl=3
+203,0,big,u202,doc:read,/area52/private/f,allow,R53,3,,lvl=4
+204,0,big,u203,doc:read,/area53/private/f,allow,R54,3,,lvl=5
+205,0,big,u204,doc:read,/area54/private/f,allow,R55,3,,lvl=6
+206,0,big,u205,doc:read,/area55/private/f,allow,R56,3,,lvl=7
+207,0,big,u206,doc:read,/area56/private/f,allow,R57,3,,lvl=8
+208,0,big,u207,doc:read,/area57/private/f,deny,R208,3,,lvl=0
+209,0,big,u208,doc:read,/area58/private/f,deny,R209,3,,lvl=1
+210,0,big,u209,doc:read,/area59/private/f,deny,R210,3,,lvl=2
+211,0,big,u210,doc:read,/area60/private/f,deny,R211,3,,lvl=3
+212,0,big,u211,doc:read,/area61/private/f,deny,R212,3,,lvl=4
+213,0,big,u212,doc:read,/area62/private/f,deny,R213,3,,lvl=5
+214,0,big,u213,doc:read,/area63/private/f,allow,R64,3,,lvl=6
+215,0,big,u214,doc:read,/area64/private/f,allow,R65,3,,lvl=7
+216,0,big,u215,doc:read,/area65/private/f,allow,R66,3,,lvl=8
+217,0,big,u216,doc:read,/area66/private/f,deny,R217,3,,lvl=0
+218,0,big,u217,doc:read,/area67/private/f,deny,R218,3,,lvl=1
+219,0,big,u218,doc:read,/area68/private/f,deny,R219,3,,lvl=2
+220,0,big,u219,doc:read,/area69/private/f,deny,R220,3,,lvl=3
+221,0,big,u220,doc:read,/area70/private/f,allow,R71,3,,lvl=4
+222,0,big,u221,doc:read,/area71/private/f,allow,R72,3,,lvl=5
+223,0,big,u222,doc:read,/area72/private/f,allow,R73,3,,lvl=6
+224,0,big,u223,doc:read,/area73/private/f,allow,R74,3,,lvl=7
+225,0,big,u224,doc:read,/area74/private/f,allow,R75,3,,lvl=8
+226,0,big,u225,doc:read,/area75/private/f,deny,R226,3,,lvl=0
+227,0,big,u226,doc:read,/area76/private/f,deny,R227,3,,lvl=1
+228,0,big,u227,doc:read,/area77/private/f,allow,R78,3,,lvl=2
+229,0,big,u228,doc:read,/area78/private/f,allow,R79,3,,lvl=3
+230,0,big,u229,doc:read,/area79/private/f,allow,R80,3,,lvl=4
+231,0,big,u230,doc:read,/area80/private/f,allow,R81,3,,lvl=5
+232,0,big,u231,doc:read,/area81/private/f,allow,R82,3,,lvl=6
+233,0,big,u232,doc:read,/area82/private/f,allow,R83,3,,lvl=7
+234,0,big,u233,doc:read,/area83/private/f,allow,R84,3,,lvl=8
+235,0,big,u234,doc:read,/area84/private/f,allow,R85,3,,lvl=0
+236,0,big,u235,doc:read,/area85/private/f,allow,R86,3,,lvl=1
+237,0,big,u236,doc:read,/area86/private/f,allow,R87,3,,lvl=2
+238,0,big,u237,doc:read,/area87/private/f,allow,R88,3,,lvl=3
+239,0,big,u238,doc:read,/area88/private/f,allow,R89,3,,lvl=4
+240,0,big,u239,doc:read,/area89/private/f,allow,R90,3,,lvl=5
+241,0,big,u240,doc:read,/area90/private/f,allow,R91,3,,lvl=6
+242,0,big,u241,doc:read,/area91/private/f,allow,R92,3,,lvl=7
+243,0,big,u242,doc:read,/area92/private/f,allow,R93,3,,lvl=8
+244,0,big,u243,doc:read,/area93/private/f,deny,R244,3,,lvl=0
+245,0,big,u244,doc:read,/area94/private/f,deny,R245,3,,lvl=1
+246,0,big,u245,doc:read,/area95/private/f,deny,R246,3,,lvl=2
+247,0,big,u246,doc:read,/area96/private/f,deny,R247,3,,lvl=3
+248,0,big,u247,doc:read,/area97/private/f,deny,R248,3,,lvl=4
+249,0,big,u248,doc:read,/area98/private/f,allow,R99,3,,lvl=5
+250,0,big,u249,doc:read,/area99/private/f,allow,R100,3,,lvl=6

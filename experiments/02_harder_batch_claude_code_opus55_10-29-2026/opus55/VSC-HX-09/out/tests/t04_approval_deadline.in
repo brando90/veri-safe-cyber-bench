@@ -1,0 +1,10 @@
+set create base
+approve request bob doc:read /docs/** 10m
+approve grant A1 ann
+clock set 599
+approve list
+clock set 600
+check base bob doc:read /docs/a
+approve list
+approve grant A1 cy
+approve revoke A1

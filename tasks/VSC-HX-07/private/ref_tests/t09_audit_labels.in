@@ -1,0 +1,10 @@
+tenant add acme
+key issue acme front-desk secret=Lb11lb22lb label="Front desk, room 2"
+key issue acme ops_1 secret=Lc11lc22lc label=acme.ops.notasecret
+key list acme
+req acme.front-desk.Lb11lb22lb GET /v1/me
+req acme.ops_1.Lc11lc22lc GET /v1/me
+req acme.ops_1.Lc11lc22lc GET /v1/me
+audit acme
+audit export acme format=tsv
+audit export acme format=jsonl

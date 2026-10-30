@@ -1,0 +1,23 @@
+d0 00:00:00.000 ACCEPT t1 cora->tokyo prio=normal frags=1 size=3 ttl=3600s
+d0 00:00:00.000 ACCEPT t2 cora->tokyo prio=normal frags=1 size=3 ttl=3600s
+d0 00:00:00.000 ACCEPT t3 cora->tokyo prio=normal frags=1 size=5 ttl=86400s
+d0 00:00:00.000 ACCEPT t4 cora->tokyo prio=normal frags=1 size=4 ttl=86400s
+d0 00:00:01.000 SEND t1 1/1 cora->tokyo ok
+d0 00:00:01.000 DONE t1 cora->tokyo size=3 cost=0.01
+d0 00:00:02.000 SEND t2 1/1 cora->tokyo ok
+d0 00:00:02.000 DONE t2 cora->tokyo size=3 cost=0.01
+d0 15:00:00.000 SEND t3 1/1 cora->tokyo ok
+d0 15:00:00.000 DONE t3 cora->tokyo size=5 cost=0.01
+d0 15:00:01.000 SEND t4 1/1 cora->tokyo ok
+d0 15:00:01.000 DONE t4 cora->tokyo size=4 cost=0.01
+stats at d0 15:00:03.000
+accepted=4 rejected=0 duplicates=0
+delivered=4 failed=0 expired=0 cancelled=0 pending=0
+attempts=4 retries=0 bytes=15
+revenue=0.04
+recipient ny delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient rx delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient tokyo delivered=4 bytes=15 today=2 today-bytes=9 hour=2 fails-in-row=0 last=d0 15:00:01.000
+daily tokyo tz=+09:00
+local-day 0 delivered=2 bytes=6
+local-day 1 delivered=2 bytes=9

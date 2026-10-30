@@ -1,0 +1,18 @@
+OK set s
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+DECISION allow by=R5 steps=0
+OK deleted R5
+DECISION allow by=R6 steps=0
+OK deleted R6
+DECISION allow by=R3 steps=0
+DECISION allow by=R3 steps=0
+DECISION allow by=R3 steps=0
+DECISION allow by=R2 steps=0
+DECISION allow by=R2 steps=0
+ERROR rule: unknown rule R6
+ERROR rule: unknown rule R9

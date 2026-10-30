@@ -1,0 +1,22 @@
+d0 00:00:00.000 ACCEPT a1 alice->rx prio=normal frags=1 size=9 ttl=3600s
+d0 00:00:00.000 ACCEPT a2 alice->rx prio=normal frags=1 size=9 ttl=3600s
+d0 00:00:00.000 ACCEPT a3 alice->rx prio=normal frags=1 size=11 ttl=3600s
+d0 00:00:00.000 ACCEPT b1 bob->rx prio=normal frags=1 size=7 ttl=3600s
+d0 00:00:00.000 ACCEPT b2 bob->rx prio=normal frags=1 size=7 ttl=3600s
+d0 00:00:00.000 ACCEPT c1 cora->rx prio=normal frags=1 size=8 ttl=3600s
+d0 00:00:01.000 SEND a1 1/1 alice->rx ok
+d0 00:00:01.000 DONE a1 alice->rx size=9 cost=0.02
+d0 00:00:01.000 SEND b1 1/1 bob->rx ok
+d0 00:00:01.000 DONE b1 bob->rx size=7 cost=0.03
+d0 00:00:02.000 SEND c1 1/1 cora->rx ok
+d0 00:00:02.000 DONE c1 cora->rx size=8 cost=0.01
+d0 00:00:02.000 SEND a2 1/1 alice->rx ok
+d0 00:00:02.000 DONE a2 alice->rx size=9 cost=0.02
+d0 00:00:03.000 SEND b2 1/1 bob->rx ok
+d0 00:00:03.000 DONE b2 bob->rx size=7 cost=0.03
+d0 00:00:03.000 SEND a3 1/1 alice->rx ok
+d0 00:00:03.000 DONE a3 alice->rx size=11 cost=0.02
+senders
+sender alice plan=basic delivered=3 revenue=0.06 last-attempt=d0 00:00:03.000
+sender bob plan=pro delivered=2 revenue=0.06 last-attempt=d0 00:00:03.000
+sender cora plan=bulk delivered=1 revenue=0.01 last-attempt=d0 00:00:02.000

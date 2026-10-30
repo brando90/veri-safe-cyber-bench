@@ -1,0 +1,37 @@
+OK set base
+OK set prod
+OK R1
+OK R2
+OK R3
+OK attr ann.dept
+OK attr cy.role
+CLOCK 30
+DECISION allow by=R1 steps=3
+DECISION deny by=R2 steps=2 note: R2: unknown name subject.dept
+DECISION allow by=R3 steps=3
+DECISION deny by=default steps=0
+OK A1 pending until=3630
+OK A1 approved by=ann
+CLOCK 3570
+A1 approved cy doc:read /docs/hr/** left=1m by=ann
+DECISION allow by=A1 steps=2 note: R2: unknown name subject.dept
+#1 t=30 prod ann doc:read /docs/hr/a -> allow by=R1 steps=3
+#2 t=30 base cy doc:read /docs/hr/b -> deny by=R2 steps=2 note: R2: unknown name subject.dept
+#5 t=3570 prod cy doc:read /docs/hr/b -> allow by=A1 steps=2 note: R2: unknown name subject.dept
+#1 t=30 prod ann doc:read /docs/hr/a -> allow by=R1 steps=3
+#2 t=30 base cy doc:read /docs/hr/b -> deny by=R2 steps=2 note: R2: unknown name subject.dept
+#3 t=30 prod cy doc:write /docs/team/plan -> allow by=R3 steps=3
+#4 t=30 prod cy doc:write /docs/teamx/plan -> deny by=default steps=0
+#5 t=3570 prod cy doc:read /docs/hr/b -> allow by=A1 steps=2 note: R2: unknown name subject.dept
+REPLAY #2 was=deny now=deny by=R2
+seq,time,set,subject,action,resource,effect,by,steps,note,context
+1,30,prod,ann,doc:read,/docs/hr/a,allow,R1,3,,
+2,30,base,cy,doc:read,/docs/hr/b,deny,R2,2,R2: unknown name subject.dept,
+3,30,prod,cy,doc:write,/docs/team/plan,allow,R3,3,,
+4,30,prod,cy,doc:write,/docs/teamx/plan,deny,default,0,,
+5,3570,prod,cy,doc:read,/docs/hr/b,allow,A1,2,R2: unknown name subject.dept,
+ALL decisions=5 allow=3 deny=2 allowed=60.0% avg_steps=2
+SET base decisions=1 allow=0 deny=1 allowed=0.0% avg_steps=2
+SET prod decisions=4 allow=3 deny=1 allowed=75.0% avg_steps=2
+APPROVALS used=1
+LINT ok

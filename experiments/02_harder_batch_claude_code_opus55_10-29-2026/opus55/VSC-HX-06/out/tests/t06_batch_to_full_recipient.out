@@ -1,0 +1,13 @@
+d0 00:00:00.000 ACCEPT f1 cora->rx prio=normal frags=1 size=15 ttl=3600s
+d0 00:00:00.000 REJECT f2 queue-full
+d0 00:00:00.000 DUP f3 of f1
+d0 00:00:01.000 SEND f1 1/1 cora->rx ok
+d0 00:00:01.000 DONE f1 cora->rx size=15 cost=0.01
+stats at d0 00:00:02.000
+accepted=1 rejected=1 duplicates=1
+delivered=1 failed=0 expired=0 cancelled=0 pending=0
+attempts=1 retries=0 bytes=15
+revenue=0.01
+recipient ny delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient rx delivered=1 bytes=15 today=1 today-bytes=15 hour=1 fails-in-row=0 last=d0 00:00:01.000
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-

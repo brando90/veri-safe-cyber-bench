@@ -1,0 +1,42 @@
+OK set base
+OK set prod
+OK set admin
+OK set ops
+OK attr ann.dept
+OK attr ann.role
+OK attr bob.dept
+OK attr bob.role
+OK attr cy.dept
+OK attr cy.role
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+CLOCK 100
+OK A1 pending until=3700
+ERROR approval: bob cannot approve their own request
+OK A1 approved by=ann
+A1 approved bob doc:write /docs/team/* left=1h by=ann
+DECISION allow by=A1 steps=3
+DECISION deny by=default steps=3
+OK A2 pending until=1900
+OK A2 approved by=ann
+CLOCK 700
+OK A2 until=3700
+A1 used bob doc:write /docs/team/* by=ann
+A2 approved cy ops:restart /svc/core/* left=50m by=ann
+OK A2 revoked
+OK A3 pending until=1300
+CLOCK 1900
+A1 used bob doc:write /docs/team/* by=ann
+A2 revoked cy ops:restart /svc/core/* by=ann
+A3 expired bob doc:read /x/**
+ERROR approval: A3 has expired
+ALL decisions=2 allow=1 deny=1 allowed=50.0% avg_steps=3
+SET admin decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+SET base decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+SET ops decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+SET prod decisions=2 allow=1 deny=1 allowed=50.0% avg_steps=3
+APPROVALS expired=1 revoked=1 used=1

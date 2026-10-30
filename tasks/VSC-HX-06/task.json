@@ -1,0 +1,9 @@
+{
+  "id": "VSC-HX-06",
+  "split": "train",
+  "language": "python3.12",
+  "bug_class": "logic and consistency defects in a stateful scheduler: dispatch-order tie-break and retry placement, half-open window and TTL edges in shared helpers, seconds-vs-milliseconds and KiB-vs-kB unit mismatches, a failure counter reset on one attempt path only, duplicate fragments counted twice in reassembly, dedup remembering rejected submissions, totals rounded on the aggregate instead of per line, a capacity check and limits enforced on one entry path only",
+  "summary": "relaydesk, a toy message-delivery simulator on a logical clock (stdin commands; priority queue with per-sender fairness, fragmentation and reassembly, retries with backoff, pauses, dedup window, per-recipient limits and quiet hours with time zones, TTL, billing, stats, audit, CSV export, layered config; consistency check exiting 86). Twelve independent defects in 9 of 35 modules, each locally plausible and wrong only against a general README rule; two of them live in shared helpers (timewin.within, money.total) where the visible caller's local patch is wrong.",
+  "K": 12,
+  "time_cap_min": 45
+}

@@ -1,0 +1,86 @@
+d0 00:00:00.000 ACCEPT d1 alice->ny prio=normal frags=1 size=18 ttl=10800s
+d0 00:00:00.000 ACCEPT d2 bob->ny prio=normal frags=1 size=10 ttl=3600s
+explain d1 at d0 00:00:00.000: deadline d0 03:00:00.000
+fragment 1/1 ready for the next round
+d0 00:00:01.000 SEND d1 1/1 alice->ny busy
+d0 00:00:01.000 RETRY d1 1/1 at d0 00:00:21.000
+d0 00:00:02.000 SEND d2 1/1 bob->ny ok
+d0 00:00:02.000 DONE d2 bob->ny size=10 cost=0.03
+d0 00:00:21.000 SEND d1 1/1 alice->ny ok
+d0 00:00:21.000 DONE d1 alice->ny size=18 cost=0.02
+explain d1: delivered
+forecast ny size=100 at d0 00:00:30.000
+blocked by hourly; earliest start d0 01:00:02.000
+stats ny at d0 00:00:30.000
+delivered=2 bytes=28 pending=0
+today=2/- today-bytes=28/- hour=2/2
+fails-in-row=0 paused=- scripted=0
+timeline d1 alice->ny state=delivered attempts=2
+  +0s ACCEPT d1 alice->ny prio=normal frags=1 size=18 ttl=10800s
+  +1s SEND d1 1/1 alice->ny busy
+  +1s RETRY d1 1/1 at d0 00:00:21.000
+  +21s SEND d1 1/1 alice->ny ok
+  +21s DONE d1 alice->ny size=18 cost=0.02
+  total 21s
+latency all delivered=2
+p50=2s p90=21s p99=21s p100=21s
+min=2s mean=11500ms
+  <=10s    1
+  <=1min   1
+latency ny delivered=2
+p50=2s p90=21s p99=21s p100=21s
+min=2s mean=11500ms
+  <=10s    1
+  <=1min   1
+doctor: 0 warnings
+snapshot at d0 00:02:30.000
+[config]
+recipient ny limit.hourly=2
+recipient ny quiet.end=07:00
+recipient ny quiet.start=22:00
+[parties]
+sender alice plan=basic since=d0 00:00:00.000
+sender bob plan=pro since=d0 00:00:00.000
+sender cora plan=bulk since=d0 00:00:00.000
+recipient ny tz=-05:00 local-day=-1 state=active scripted=0 inbox=2
+recipient rx tz=+00:00 local-day=0 state=active scripted=0 inbox=0
+recipient tokyo tz=+09:00 local-day=0 state=active scripted=0 inbox=0
+[messages]
+d1 seq=1 delivered alice->ny prio=normal acked=1/1 deadline=d0 03:00:00.000
+d2 seq=2 delivered bob->ny prio=normal acked=1/1 deadline=d0 01:00:00.000
+[end]
+forecast RECIPIENT SIZE  -  earliest instant the limits let a message start
+setup:
+  sender NAME PLAN  -  register a sender; PLAN is basic, bulk or pro
+  recipient NAME [tz=OFFSET]  -  register a recipient with a fixed UTC offset
+  set KEY VALUE  -  global configuration override
+  set-for RECIPIENT KEY VALUE  -  per-recipient override (recipient keys)
+  unset-for RECIPIENT KEY  -  remove a per-recipient override
+  link RECIPIENT ok|fail N|lost N|busy N SECONDS  -  script link outcomes
+messages:
+  send ID SENDER RECIPIENT [prio=P] [ttl=D] [after=D] TEXT  -  submit one message
+  batch SENDER RECIPIENT [prio=P] [ttl=D] [after=D]  -  submit ID TEXT lines up to .end
+  cancel ID  -  cancel a pending message
+clock:
+  advance DURATION  -  move the clock forward, running dispatch rounds
+  at dN HH:MM[:SS[.mmm]]  -  move the clock to an instant
+  now  -  print the clock
+listings:
+  queue  -  fragments waiting, in dispatch order
+  show ID  -  one message and its fragments
+  history ID  -  events of one message
+  explain ID  -  why a pending message is not being attempted
+  inbox RECIPIENT  -  delivered messages of a recipient
+  config [RECIPIENT]  -  effective configuration
+  stats [RECIPIENT]  -  counters and per-recipient figures
+  snapshot  -  deterministic dump of the whole state
+  latency [RECIPIENT]  -  delivery-time percentiles and histogram
+  timeline ID  -  events of one message with time since acceptance
+  forecast RECIPIENT SIZE  -  earliest instant the limits let a message start
+  invoice SENDER  -  bill the open lines of a sender
+  plans  -  revenue per plan
+  report daily RECIPIENT|senders|retry  -  other reports
+  export deliveries|billing|audit [NAME]  -  CSV exports
+  audit [N]  -  audit log
+  doctor  -  configuration warnings
+  help [COMMAND]  -  this text

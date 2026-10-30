@@ -1,0 +1,15 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set-for rx queue.max_pending 2
+send m1 alice rx one
+batch alice rx
+b1 two
+b2 three
+b3 four
+.end
+advance 5s
+stats

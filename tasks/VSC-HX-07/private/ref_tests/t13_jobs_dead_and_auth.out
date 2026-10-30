@@ -1,0 +1,31 @@
+tenant acme plan=free
+key acme.k issued expires=5000
+key acme.r issued expires=never
+job j1 queued due=0
+job j2 queued due=1000
+key acme.r revoked
+job j1 retry attempt=1 next=1000
+now=1000
+job j1 retry attempt=2 next=3000
+job j2 failed auth revoked
+now=3000
+job j1 dead attempts=3
+job j3 queued due=13000
+now=13000
+job j3 failed auth expired
+deny auth expired cred=acme.k.***
+key acme.s issued expires=never
+job j4 queued due=13000
+tenant acme suspended
+job j4 failed auth suspended
+#4 t=0 acme job.submit job=j1 line="job submit acme.k.*** /v1/report q.fail=5"
+#5 t=0 acme job.submit job=j2 line="job submit acme.r.*** /v1/report delay=1s"
+#7 t=0 acme job.retry job=j1 attempt=1 next=1000
+#8 t=1000 acme job.retry job=j1 attempt=2 next=3000
+#9 t=1000 acme job.failed job=j2 reason=auth:revoked
+#10 t=3000 acme job.dead job=j1 attempts=3 status=503
+#11 t=3000 acme job.submit job=j3 line="job submit acme.k.*** /v1/report delay=10s"
+#12 t=13000 acme job.failed job=j3 reason=auth:expired
+#13 t=13000 acme job.submit line="job submit acme.k.*** /v1/report" result=deny:auth
+#15 t=13000 acme job.submit job=j4 line="job submit acme.s.*** /v1/report"
+#17 t=13000 acme job.failed job=j4 reason=auth:suspended

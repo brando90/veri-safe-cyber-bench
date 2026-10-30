@@ -1,0 +1,14 @@
+d0 00:00:00.000 ACCEPT v1 alice->rx prio=normal frags=1 size=1000 ttl=3600s
+d0 00:00:00.000 ACCEPT v2 alice->rx prio=normal frags=1 size=24 ttl=3600s
+d0 00:00:01.000 SEND v1 1/1 alice->rx ok
+d0 00:00:01.000 DONE v1 alice->rx size=1000 cost=0.02
+d0 00:00:02.000 SEND v2 1/1 alice->rx ok
+d0 00:00:02.000 DONE v2 alice->rx size=24 cost=0.02
+stats at d0 00:00:05.000
+accepted=2 rejected=0 duplicates=0
+delivered=2 failed=0 expired=0 cancelled=0 pending=0
+attempts=2 retries=0 bytes=1024
+revenue=0.04
+recipient ny delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient rx delivered=2 bytes=1024 today=2 today-bytes=1024 hour=2 fails-in-row=0 last=d0 00:00:02.000
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-

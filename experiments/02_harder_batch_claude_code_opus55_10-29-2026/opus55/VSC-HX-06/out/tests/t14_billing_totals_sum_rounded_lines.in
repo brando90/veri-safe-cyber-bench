@@ -1,0 +1,13 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+send m1 alice rx Short note.
+send m2 alice ny Short note.
+advance 2s
+stats
+plans
+report senders
+invoice alice

@@ -1,0 +1,15 @@
+tenant add acme
+tenant add bolt plan=pro
+tenant add cobalt plan=basic
+key issue acme k secret=Br11br22br
+key issue bolt k secret=Bs11bs22bs
+config set tenant:acme price.request 1366
+config set tenant:acme price.kib 333
+config set tenant:bolt price.request 2500
+req acme.k.Br11br22br GET /v1/catalog
+req acme.k.Br11br22br GET /v1/catalog
+req acme.k.Br11br22br GET /v1/catalog
+req bolt.k.Bs11bs22bs GET /v1/items q.n=1
+bill
+bill bolt
+top

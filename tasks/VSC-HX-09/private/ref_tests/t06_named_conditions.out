@@ -1,0 +1,44 @@
+OK set base
+OK set prod
+OK set admin
+OK set ops
+OK attr ann.dept
+OK attr ann.role
+OK attr bob.dept
+OK attr bob.role
+OK attr cy.dept
+OK attr cy.role
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+OK cond c1
+OK cond c2
+OK cond c3
+OK cond c4
+OK cond c5
+OK cond c6
+OK cond c7
+OK cond c8
+OK cond c9
+RESULT true steps=23
+ERROR budget: conditions nested deeper than 8 at @c1
+ERROR usage: condition c1 is already defined
+ERROR parse: unknown condition @c11
+ERROR usage: bad condition name Bad
+OK R7
+OK R8
+DECISION allow by=R7 steps=23
+DECISION deny by=budget steps=17 note: conditions nested deeper than 8 at @c1
+ERROR parse: unknown condition @nope
+COND c1: true
+COND c2: @c1 and true
+COND c3: @c2 and true
+COND c4: @c3 and true
+COND c5: @c4 and true
+COND c6: @c5 and true
+COND c7: @c6 and true
+COND c8: @c7 and true
+COND c9: @c8 and true

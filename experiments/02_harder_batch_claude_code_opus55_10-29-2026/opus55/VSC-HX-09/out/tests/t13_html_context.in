@@ -1,0 +1,8 @@
+set create base
+rule add base allow doc:read /docs/**
+check base ann doc:read /docs/a reason=a<b&c'd
+report html
+template set row <tr><td>{{context}}</td></tr>
+report html row
+report json row
+report csv row

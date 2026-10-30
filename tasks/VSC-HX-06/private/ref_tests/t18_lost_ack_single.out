@@ -1,0 +1,26 @@
+d0 00:00:00.000 ACCEPT l1 alice->rx prio=normal frags=1 size=15 ttl=3600s
+d0 00:00:01.000 SEND l1 1/1 alice->rx lost-ack
+d0 00:00:01.000 DONE l1 alice->rx size=15 cost=0.02
+d0 00:00:05.000 ACCEPT l2 alice->ny prio=normal frags=2 size=18 ttl=3600s
+d0 00:00:06.000 SEND l2 1/2 alice->ny lost-ack
+d0 00:00:06.000 RETRY l2 1/2 at d0 00:00:08.000
+d0 00:00:07.000 SEND l2 2/2 alice->ny lost-ack
+d0 00:00:07.000 DONE l2 alice->ny size=18 cost=0.02
+history l1: 3 events
+d0 00:00:00.000 ACCEPT l1 alice->rx prio=normal frags=1 size=15 ttl=3600s
+d0 00:00:01.000 SEND l1 1/1 alice->rx lost-ack
+d0 00:00:01.000 DONE l1 alice->rx size=15 cost=0.02
+history l2: 5 events
+d0 00:00:05.000 ACCEPT l2 alice->ny prio=normal frags=2 size=18 ttl=3600s
+d0 00:00:06.000 SEND l2 1/2 alice->ny lost-ack
+d0 00:00:06.000 RETRY l2 1/2 at d0 00:00:08.000
+d0 00:00:07.000 SEND l2 2/2 alice->ny lost-ack
+d0 00:00:07.000 DONE l2 alice->ny size=18 cost=0.02
+stats at d0 00:00:15.000
+accepted=2 rejected=0 duplicates=0
+delivered=2 failed=0 expired=0 cancelled=0 pending=0
+attempts=3 retries=1 bytes=33
+revenue=0.04
+recipient ny delivered=1 bytes=18 today=1 today-bytes=18 hour=1 fails-in-row=2 last=d0 00:00:07.000
+recipient rx delivered=1 bytes=15 today=1 today-bytes=15 hour=1 fails-in-row=1 last=d0 00:00:01.000
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-

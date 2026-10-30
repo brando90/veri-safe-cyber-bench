@@ -1,0 +1,27 @@
+d0 00:00:00.000 ACCEPT h1 bob->rx prio=high frags=1 size=14 ttl=3600s
+d0 00:00:00.000 ACCEPT h2 bob->ny prio=high frags=1 size=20 ttl=3600s
+d0 00:00:00.000 ACCEPT h3 cora->rx prio=normal frags=32 size=1024 ttl=3600s
+d0 00:00:01.000 SEND h1 1/1 bob->rx ok
+d0 00:00:01.000 DONE h1 bob->rx size=14 cost=0.03
+d0 00:00:01.000 SEND h2 1/1 bob->ny ok
+d0 00:00:01.000 DONE h2 bob->ny size=20 cost=0.03
+d0 00:00:02.000 SEND h3 1/32 cora->rx ok
+d0 00:00:03.000 SEND h3 2/32 cora->rx ok
+d0 00:00:04.000 SEND h3 3/32 cora->rx ok
+d0 00:00:05.000 SEND h3 4/32 cora->rx ok
+stats at d0 00:00:05.000
+accepted=3 rejected=0 duplicates=0
+delivered=2 failed=0 expired=0 cancelled=0 pending=1
+attempts=6 retries=0 bytes=34
+revenue=0.06
+recipient ny delivered=1 bytes=20 today=1 today-bytes=20 hour=1 fails-in-row=0 last=d0 00:00:01.000
+recipient rx delivered=1 bytes=14 today=2 today-bytes=1038 hour=2 fails-in-row=0 last=d0 00:00:01.000
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+plan basic messages=0 revenue=0.00
+plan bulk messages=0 revenue=0.00
+plan pro messages=2 revenue=0.06
+all messages=2 revenue=0.06
+senders
+sender bob plan=pro delivered=2 revenue=0.06 last-attempt=d0 00:00:01.000
+sender alice plan=basic delivered=0 revenue=0.00 last-attempt=-
+sender cora plan=bulk delivered=0 revenue=0.00 last-attempt=d0 00:00:05.000

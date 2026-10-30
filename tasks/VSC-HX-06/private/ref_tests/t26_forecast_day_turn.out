@@ -1,0 +1,18 @@
+d0 00:00:00.000 ACCEPT f1 alice->tokyo prio=normal frags=1 size=3 ttl=3600s
+d0 00:00:00.000 ACCEPT f2 bob->tokyo prio=normal frags=1 size=3 ttl=3600s
+d0 00:00:01.000 SEND f1 1/1 alice->tokyo ok
+d0 00:00:01.000 DONE f1 alice->tokyo size=3 cost=0.02
+d0 00:00:02.000 SEND f2 1/1 bob->tokyo ok
+d0 00:00:02.000 DONE f2 bob->tokyo size=3 cost=0.03
+forecast tokyo size=10 at d0 00:00:10.000
+blocked by daily; earliest start d0 15:00:00.000
+forecast tokyo size=2000 at d0 00:00:10.000
+never: larger than the daily volume of 1024 bytes
+forecast tokyo size=10 at d0 14:59:59.000
+blocked by daily; earliest start d0 15:00:00.000
+forecast tokyo size=10 at d0 15:00:00.000
+can start now
+stats tokyo at d0 15:00:00.000
+delivered=2 bytes=6 pending=0
+today=0/2 today-bytes=0/1024 hour=0/-
+fails-in-row=0 paused=- scripted=0

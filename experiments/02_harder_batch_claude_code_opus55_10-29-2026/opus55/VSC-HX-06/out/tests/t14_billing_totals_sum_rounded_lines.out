@@ -1,0 +1,26 @@
+d0 00:00:00.000 ACCEPT m1 alice->rx prio=normal frags=1 size=11 ttl=3600s
+d0 00:00:00.000 ACCEPT m2 alice->ny prio=normal frags=1 size=11 ttl=3600s
+d0 00:00:01.000 SEND m1 1/1 alice->rx ok
+d0 00:00:01.000 DONE m1 alice->rx size=11 cost=0.02
+d0 00:00:01.000 SEND m2 1/1 alice->ny ok
+d0 00:00:01.000 DONE m2 alice->ny size=11 cost=0.02
+stats at d0 00:00:02.000
+accepted=2 rejected=0 duplicates=0
+delivered=2 failed=0 expired=0 cancelled=0 pending=0
+attempts=2 retries=0 bytes=22
+revenue=0.04
+recipient ny delivered=1 bytes=11 today=1 today-bytes=11 hour=1 fails-in-row=0 last=d0 00:00:01.000
+recipient rx delivered=1 bytes=11 today=1 today-bytes=11 hour=1 fails-in-row=0 last=d0 00:00:01.000
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+plan basic messages=2 revenue=0.04
+plan bulk messages=0 revenue=0.00
+plan pro messages=0 revenue=0.00
+all messages=2 revenue=0.04
+senders
+sender alice plan=basic delivered=2 revenue=0.04 last-attempt=d0 00:00:01.000
+sender bob plan=pro delivered=0 revenue=0.00 last-attempt=-
+sender cora plan=bulk delivered=0 revenue=0.00 last-attempt=-
+invoice alice #1 plan=basic
+m1 d0 00:00:01.000 rx size=11 prio=normal 0.02
+m2 d0 00:00:01.000 ny size=11 prio=normal 0.02
+total=0.04 lines=2

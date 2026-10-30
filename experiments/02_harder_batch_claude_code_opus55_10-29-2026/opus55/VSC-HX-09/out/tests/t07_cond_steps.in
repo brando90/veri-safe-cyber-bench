@@ -1,0 +1,10 @@
+attr set ann dept hr
+cond define staff subject.dept in ["hr", "eng", "ops"]
+cond define big len([1, 2, 3, 4]) > 3
+eval @big
+eval @big and @big
+set create base
+rule add base allow doc:read /docs/** when @staff
+check base ann doc:read /docs/a
+explain base ann doc:read /docs/a
+log show

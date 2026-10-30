@@ -1,0 +1,14 @@
+tenant add acme
+key issue acme k secret=Ci11ci22ci
+config set tenant:acme rate.limit 50
+req acme.k.Ci11ci22ci GET /v1/blob q.size=2000 q.tag=x
+req acme.k.Ci11ci22ci GET /v1/blob q.tag=x q.size=2000
+req acme.k.Ci11ci22ci GET /v1/blob q.size=2000
+req acme.k.Ci11ci22ci GET //v1/blob/ q.size=2000
+req acme.k.Ci11ci22ci GET /v1/blob q.size=2000 nonce=c1 ts=0
+req acme.k.Ci11ci22ci GET /v1/blob q.size=2000 nonce=c2 ts=0
+req acme.k.Ci11ci22ci GET /v1/items q.n=abc
+req acme.k.Ci11ci22ci GET /v1/items q.n=abc
+req acme.k.Ci11ci22ci GET /v1/blob q.size=2MiB
+cache list
+cache stats

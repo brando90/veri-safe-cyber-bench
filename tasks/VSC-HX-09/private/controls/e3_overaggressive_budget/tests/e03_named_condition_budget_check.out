@@ -1,0 +1,7 @@
+OK cond l64
+OK cond l40
+OK cond heavy
+OK set s
+OK R1
+DECISION deny by=budget steps=542 note: step limit 500 exceeded
+#1 t=0 s u doc:read /r/a -> deny by=budget steps=542 note: step limit 500 exceeded

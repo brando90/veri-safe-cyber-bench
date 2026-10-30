@@ -1,0 +1,8 @@
+tenant add acme plan=basic
+key issue acme k secret=Pm11pm22pm
+req acme.k.Pm11pm22pm GET /v1/items q.n=1
+req acme.k.Pm11pm22pm GET /v1/items q.n=2
+req acme.k.Pm11pm22pm GET /v1/items q.n=3
+config set plan:basic quota.requests 3
+req acme.k.Pm11pm22pm GET /v1/items q.n=4
+usage acme

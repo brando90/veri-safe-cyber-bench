@@ -1,0 +1,20 @@
+tenant add acme plan=pro
+key issue acme k secret=Ss11ss22ss
+config set tenant:acme rate.limit 3
+config set tenant:acme rate.window 10s
+clock set 1000
+req acme.k.Ss11ss22ss GET /v1/items
+clock set 2500
+req acme.k.Ss11ss22ss GET /v1/items
+clock set 4000
+req acme.k.Ss11ss22ss GET /v1/items
+clock set 5000
+req acme.k.Ss11ss22ss GET /v1/items
+clock set 10999
+req acme.k.Ss11ss22ss GET /v1/items
+clock set 11000
+req acme.k.Ss11ss22ss GET /v1/items
+req acme.k.Ss11ss22ss GET /v1/items
+config set tenant:acme rate.limit 4
+req acme.k.Ss11ss22ss GET /v1/items
+rate show acme

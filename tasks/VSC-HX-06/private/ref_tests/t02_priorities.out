@@ -1,0 +1,24 @@
+d0 00:00:00.000 ACCEPT p1 alice->rx prio=normal frags=1 size=7 ttl=3600s
+d0 00:00:00.000 ACCEPT p2 alice->rx prio=low frags=1 size=7 ttl=3600s
+d0 00:00:00.000 ACCEPT p3 alice->ny prio=high frags=1 size=10 ttl=3600s
+d0 00:00:00.000 ACCEPT p4 alice->tokyo prio=urgent frags=1 size=11 ttl=3600s
+d0 00:00:00.000 SEND p4 1/1 alice->tokyo ok direct
+d0 00:00:00.000 DONE p4 alice->tokyo size=11 cost=0.02
+d0 00:00:00.000 ACCEPT p5 alice->rx prio=urgent frags=1 size=11 ttl=3600s
+d0 00:00:00.000 ACCEPT p6 alice->ny prio=normal frags=1 size=10 ttl=3600s
+queue at d0 00:00:00.000: 5 entries
+p5 1/1 alice->rx prio=urgent attempts=0 not-before=d0 00:00:00.000
+p3 1/1 alice->ny prio=high attempts=0 not-before=d0 00:00:00.000
+p1 1/1 alice->rx prio=normal attempts=0 not-before=d0 00:00:00.000
+p6 1/1 alice->ny prio=normal attempts=0 not-before=d0 00:00:00.000
+p2 1/1 alice->rx prio=low attempts=0 not-before=d0 00:00:00.000
+d0 00:00:01.000 SEND p5 1/1 alice->rx ok
+d0 00:00:01.000 DONE p5 alice->rx size=11 cost=0.02
+d0 00:00:02.000 SEND p3 1/1 alice->ny ok
+d0 00:00:02.000 DONE p3 alice->ny size=10 cost=0.02
+d0 00:00:03.000 SEND p1 1/1 alice->rx ok
+d0 00:00:03.000 DONE p1 alice->rx size=7 cost=0.02
+d0 00:00:04.000 SEND p6 1/1 alice->ny ok
+d0 00:00:04.000 DONE p6 alice->ny size=10 cost=0.02
+d0 00:00:05.000 SEND p2 1/1 alice->rx ok
+d0 00:00:05.000 DONE p2 alice->rx size=7 cost=0.02

@@ -1,0 +1,11 @@
+d0 00:00:00.000 ACCEPT p1 alice->rx prio=normal frags=1 size=13 ttl=3600s
+d0 00:00:00.000 ACCEPT p2 alice->rx prio=normal frags=1 size=14 ttl=3600s after=3s
+d0 00:00:01.000 SEND p1 1/1 alice->rx fail
+d0 00:00:01.000 RETRY p1 1/1 at d0 00:00:03.000
+d0 00:00:03.000 SEND p1 1/1 alice->rx ok
+d0 00:00:03.000 DONE p1 alice->rx size=13 cost=0.02
+d0 00:00:04.000 SEND p2 1/1 alice->rx ok
+d0 00:00:04.000 DONE p2 alice->rx size=14 cost=0.02
+inbox rx: 2 messages
+p1 from alice: First message
+p2 from alice: Second message

@@ -1,0 +1,9 @@
+{
+  "id": "VSC-HX-07",
+  "split": "val",
+  "language": "python3.12",
+  "bug_class": "multi-tenant gateway consistency across modules: tenant isolation of shared cache keys, exclusive-deadline off-by-one in a shared time helper, check-then-commit gap in an admission stage, per-command quota view carried across a job batch, settings-cache stamp missing a config layer, KiB/byte unit mismatch, per-response vs aggregate rounding in billing, retry ordering stability, secrets echoed into audit/output through a narrow scrub pattern and an unmasked config audit value, second/millisecond truncation in a skew check",
+  "summary": "quotagate, a toy multi-tenant API-gateway simulator (stdin command lines, injectable logical clock, API keys with expiry, layered config with per-layer versions, fixed/sliding rate windows, per-period quotas, LRU response cache sized in KiB, nonce replay window, job queue with retries and backoff, metering and billing in millicents, audit log with TSV/JSONL export, consistency check exiting 86). 33 Python modules, about 3,000 lines plus a README that is the specification. Eleven independent defects spread over 9 modules, each locally plausible and wrong only against a general README rule; three of them need the shared helper changed rather than the visible call site.",
+  "K": 11,
+  "time_cap_min": 45
+}

@@ -1,0 +1,12 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set-for rx limit.daily 1
+send m1 alice rx first
+advance 3s
+send m2 alice rx prio=urgent second
+advance 3s
+stats

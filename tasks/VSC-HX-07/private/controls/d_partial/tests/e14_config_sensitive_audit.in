@@ -1,0 +1,6 @@
+tenant add acme
+config set tenant:acme backend.token tk-998877
+config set default webhook.secret base-secret
+config get acme backend.token
+audit acme
+audit -

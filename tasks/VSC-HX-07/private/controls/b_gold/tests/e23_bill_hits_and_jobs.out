@@ -1,0 +1,15 @@
+tenant acme plan=pro
+key acme.k issued expires=never
+ok 200 miss 360B items tenant=acme n=3
+ok 200 hit 360B items tenant=acme n=3
+job j1 queued due=0
+job j1 done 200 1500B report tenant=acme attempt=1
+ok 200 miss 0B blob tenant=acme size=0
+bill acme plan=pro
+  api 3 x 1000mc = 0.03
+  jobs 1 x 1000mc = 0.01
+  egress 4KiB x 250mc = 0.01
+  total 0.05
+usage acme period=0 requests=4/100000 egress=2220B/64MiB
+rate acme mode=sliding limit=50 window=1m in_window=3
+meter acme api=3 jobs=1 egress=2220B

@@ -1,0 +1,20 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set-for ny quiet.start 22:00
+set-for ny quiet.end 07:00
+set-for tokyo limit.daily 1
+at d0 04:00
+send q1 alice ny ttl=12h Good night message
+send q2 bob ny prio=urgent Wake up, the build is on fire
+send l1 cora tokyo first today
+send l2 cora tokyo ttl=12h second today
+advance 10s
+at d0 12:00
+at d0 15:00:05
+inbox ny
+inbox tokyo
+config ny

@@ -1,0 +1,22 @@
+tenant add acme
+tenant add bolt
+key issue acme main secret=Aa11bb22cc ttl=1m
+key issue acme old secret=Dd33ee44ff
+key revoke acme old
+req acme.main.Aa11bb22cc GET /v1/items
+req acme.main.Aa11bb22cX GET /v1/items
+req acme.nokey.Aa11bb22cc GET /v1/items
+req nobody.main.Aa11bb22cc GET /v1/items
+req acme.old.Dd33ee44ff GET /v1/items
+req garbage GET /v1/items
+req acme..xyz GET /v1/items
+tenant suspend acme
+req acme.main.Aa11bb22cc GET /v1/items
+tenant list
+tenant resume acme
+req acme.main.Aa11bb22cc GET /v1/items
+clock set 2m
+req acme.main.Aa11bb22cc GET /v1/items
+key list acme
+audit acme
+report denials

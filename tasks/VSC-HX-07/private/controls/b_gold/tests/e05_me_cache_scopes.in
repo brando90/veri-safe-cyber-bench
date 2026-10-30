@@ -1,0 +1,13 @@
+tenant add acme
+tenant add bolt plan=basic
+tenant add cobalt plan=pro
+key issue acme ops secret=Sc11sc22sc
+key issue acme dev secret=Sd11sd22sd
+key issue bolt ops secret=Se11se22se
+key issue cobalt ops secret=Sf11sf22sf
+req acme.ops.Sc11sc22sc GET /v1/me
+req acme.dev.Sd11sd22sd GET /v1/me
+req cobalt.ops.Sf11sf22sf GET /v1/me
+req bolt.ops.Se11se22se GET /v1/me
+req acme.ops.Sc11sc22sc GET /v1/me
+cache list

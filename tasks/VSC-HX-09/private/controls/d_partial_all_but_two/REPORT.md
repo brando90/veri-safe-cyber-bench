@@ -1,0 +1,1 @@
+control d_partial_all_but_two

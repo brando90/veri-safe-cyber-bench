@@ -1,0 +1,11 @@
+OK set base
+OK A1 pending until=3600
+OK A1 approved by=ann
+OK A2 pending until=7200
+ALL decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+SET base decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+APPROVALS approved=1 pending=1
+CLOCK 3600
+ALL decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+SET base decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+APPROVALS expired=1 pending=1

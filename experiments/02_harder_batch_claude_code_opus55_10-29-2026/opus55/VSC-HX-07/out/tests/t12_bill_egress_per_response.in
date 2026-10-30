@@ -1,0 +1,10 @@
+# egress is billed per response, each rounded up to whole KiB
+tenant add acme
+key issue acme main secret=Kq7m2PzW9a
+config set tenant:acme price.kib 1000
+req acme.main.Kq7m2PzW9a GET /v1/blob q.size=100
+req acme.main.Kq7m2PzW9a GET /v1/blob q.size=200
+req acme.main.Kq7m2PzW9a GET /v1/blob q.size=300
+req acme.main.Kq7m2PzW9a GET /v1/blob q.size=0
+bill acme
+check

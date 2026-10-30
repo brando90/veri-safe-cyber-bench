@@ -1,0 +1,14 @@
+# quota rules apply to every job of one batch as if run one at a time
+tenant add acme
+key issue acme worker secret=Jb44xYq9Rt
+config set tenant:acme quota.requests 2
+job submit acme.worker.Jb44xYq9Rt /v1/items q.n=1
+job submit acme.worker.Jb44xYq9Rt /v1/items q.n=2
+job submit acme.worker.Jb44xYq9Rt /v1/items q.n=3
+jobs run
+config set tenant:acme quota.requests 10
+config set tenant:acme quota.egress 3000
+job submit acme.worker.Jb44xYq9Rt /v1/report
+job submit acme.worker.Jb44xYq9Rt /v1/report
+jobs run
+usage acme

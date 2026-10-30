@@ -1,0 +1,16 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set dispatch.batch 3
+send x1 cora tokyo cora first
+send x2 bob ny prio=high bob high
+send x3 alice rx prio=high alice high
+send x4 cora rx cora second
+send x5 alice tokyo alice second
+send x6 bob ny bob second
+advance 1s
+queue
+advance 2s

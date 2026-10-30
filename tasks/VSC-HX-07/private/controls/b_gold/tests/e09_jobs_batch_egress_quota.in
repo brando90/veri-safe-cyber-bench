@@ -1,0 +1,12 @@
+tenant add acme
+tenant add bolt
+key issue acme w secret=Qe11qe22qe
+key issue bolt w secret=Qf11qf22qf
+config set tenant:acme quota.egress 4000
+job submit acme.w.Qe11qe22qe /v1/report
+job submit bolt.w.Qf11qf22qf /v1/report
+job submit acme.w.Qe11qe22qe /v1/report
+job submit acme.w.Qe11qe22qe /v1/report
+jobs run
+usage acme
+usage bolt

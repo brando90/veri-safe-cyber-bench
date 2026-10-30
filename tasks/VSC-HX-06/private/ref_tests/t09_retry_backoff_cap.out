@@ -1,0 +1,27 @@
+d0 00:00:00.000 ACCEPT k1 alice->rx prio=normal frags=1 size=11 ttl=3600s
+d0 00:00:01.000 SEND k1 1/1 alice->rx fail
+d0 00:00:01.000 RETRY k1 1/1 at d0 00:00:02.500
+d0 00:00:03.000 SEND k1 1/1 alice->rx fail
+d0 00:00:03.000 RETRY k1 1/1 at d0 00:00:07.500
+d0 00:00:08.000 SEND k1 1/1 alice->rx fail
+d0 00:00:08.000 RETRY k1 1/1 at d0 00:00:18.000
+d0 00:00:18.000 SEND k1 1/1 alice->rx fail
+d0 00:00:18.000 RETRY k1 1/1 at d0 00:00:28.000
+d0 00:00:28.000 SEND k1 1/1 alice->rx ok
+d0 00:00:28.000 DONE k1 alice->rx size=11 cost=0.02
+history k1: 11 events
+d0 00:00:00.000 ACCEPT k1 alice->rx prio=normal frags=1 size=11 ttl=3600s
+d0 00:00:01.000 SEND k1 1/1 alice->rx fail
+d0 00:00:01.000 RETRY k1 1/1 at d0 00:00:02.500
+d0 00:00:03.000 SEND k1 1/1 alice->rx fail
+d0 00:00:03.000 RETRY k1 1/1 at d0 00:00:07.500
+d0 00:00:08.000 SEND k1 1/1 alice->rx fail
+d0 00:00:08.000 RETRY k1 1/1 at d0 00:00:18.000
+d0 00:00:18.000 SEND k1 1/1 alice->rx fail
+d0 00:00:18.000 RETRY k1 1/1 at d0 00:00:28.000
+d0 00:00:28.000 SEND k1 1/1 alice->rx ok
+d0 00:00:28.000 DONE k1 alice->rx size=11 cost=0.02
+retry max_attempts=4
+after-failure 1 wait=1500ms
+after-failure 2 wait=4500ms
+after-failure 3 wait=10s

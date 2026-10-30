@@ -1,0 +1,15 @@
+tenant acme plan=free
+key acme.k issued expires=never
+key acme.k active expires=never label="tab	here \back"
+ok 200 miss 256B me tenant=acme key=k label=tab	here \back
+seq	t	tenant	event	fields
+1	0	acme	tenant.add	plan=free
+2	0	acme	key.issue	key=k expires=never label="tab\there \\back"
+3	0	acme	req	line="req acme.k.*** GET /v1/me" result=ok:200:miss
+{"seq":1,"t":0,"tenant":"acme","event":"tenant.add","fields":{"plan":"free"}}
+{"seq":2,"t":0,"tenant":"acme","event":"key.issue","fields":{"key":"k","expires":"never","label":"tab\there \\back"}}
+{"seq":3,"t":0,"tenant":"acme","event":"req","fields":{"line":"req acme.k.*** GET /v1/me","result":"ok:200:miss"}}
+seq	t	tenant	event	fields
+1	0	acme	tenant.add	plan=free
+2	0	acme	key.issue	key=k expires=never label="tab\there \\back"
+3	0	acme	req	line="req acme.k.*** GET /v1/me" result=ok:200:miss

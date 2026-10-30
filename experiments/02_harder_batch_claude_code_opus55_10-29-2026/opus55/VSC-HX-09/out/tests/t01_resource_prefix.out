@@ -1,0 +1,8 @@
+OK set base
+OK R1
+DECISION allow by=R1 steps=0
+DECISION allow by=R1 steps=0
+DECISION deny by=default steps=0
+DECISION deny by=default steps=0
+#1 t=0 base ann doc:read /docs -> allow by=R1 steps=0
+#2 t=0 base ann doc:read /docs/a/b -> allow by=R1 steps=0

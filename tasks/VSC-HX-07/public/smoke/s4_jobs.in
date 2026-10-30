@@ -1,0 +1,16 @@
+# background jobs with a retry
+tenant add acme
+key issue acme worker secret=Jb44xYq9Rt
+job submit acme.worker.Jb44xYq9Rt /v1/report prio=1
+job submit acme.worker.Jb44xYq9Rt /v1/report q.fail=2
+job submit acme.worker.Jb44xYq9Rt /v1/items delay=5s q.n=2
+jobs list
+jobs run
+clock advance 1s
+jobs run
+clock advance 2s
+jobs run
+clock advance 2s
+jobs run
+jobs list
+usage acme

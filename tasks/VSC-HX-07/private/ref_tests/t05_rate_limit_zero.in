@@ -1,0 +1,11 @@
+tenant add acme
+key issue acme k secret=Zz00zz00zz
+config set tenant:acme rate.limit 0
+req acme.k.Zz00zz00zz GET /v1/items
+config set tenant:acme rate.mode sliding
+req acme.k.Zz00zz00zz GET /v1/items
+config unset tenant:acme rate.limit
+req acme.k.Zz00zz00zz GET /v1/items
+config unset tenant:acme rate.mode
+usage acme
+report denials

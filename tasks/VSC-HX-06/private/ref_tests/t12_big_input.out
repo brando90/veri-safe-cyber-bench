@@ -1,0 +1,530 @@
+d0 00:00:00.000 ACCEPT g001 alice->ny prio=low frags=2 size=34 ttl=86400s
+d0 00:00:00.000 ACCEPT g002 alice->tokyo prio=high frags=2 size=35 ttl=86400s
+d0 00:00:00.000 ACCEPT g003 bob->rx prio=normal frags=2 size=36 ttl=86400s
+d0 00:00:00.000 ACCEPT g004 bob->ny prio=normal frags=2 size=37 ttl=86400s
+d0 00:00:00.000 ACCEPT g005 bob->tokyo prio=low frags=2 size=38 ttl=86400s
+d0 00:00:00.000 ACCEPT g006 cora->rx prio=high frags=2 size=39 ttl=86400s
+d0 00:00:00.000 ACCEPT g007 cora->ny prio=normal frags=2 size=40 ttl=86400s
+d0 00:00:00.000 ACCEPT g008 cora->tokyo prio=normal frags=2 size=41 ttl=86400s
+d0 00:00:00.000 ACCEPT g009 alice->rx prio=low frags=2 size=42 ttl=86400s
+d0 00:00:00.000 ACCEPT g010 alice->ny prio=high frags=2 size=44 ttl=86400s
+d0 00:00:00.000 ACCEPT g011 alice->tokyo prio=normal frags=2 size=45 ttl=86400s
+d0 00:00:00.000 ACCEPT g012 bob->rx prio=normal frags=2 size=46 ttl=86400s
+d0 00:00:00.000 ACCEPT g013 bob->ny prio=low frags=2 size=47 ttl=86400s
+d0 00:00:00.000 ACCEPT g014 bob->tokyo prio=high frags=2 size=48 ttl=86400s
+d0 00:00:00.000 ACCEPT g015 cora->rx prio=normal frags=2 size=49 ttl=86400s
+d0 00:00:00.000 ACCEPT g016 cora->ny prio=normal frags=2 size=50 ttl=86400s
+d0 00:00:00.000 ACCEPT g017 cora->tokyo prio=low frags=2 size=51 ttl=86400s
+d0 00:00:00.000 ACCEPT g018 alice->rx prio=high frags=2 size=52 ttl=86400s
+d0 00:00:00.000 ACCEPT g019 alice->ny prio=normal frags=2 size=53 ttl=86400s
+d0 00:00:00.000 ACCEPT g020 alice->tokyo prio=normal frags=2 size=54 ttl=86400s
+d0 00:00:00.000 ACCEPT g021 bob->rx prio=low frags=2 size=55 ttl=86400s
+d0 00:00:00.000 ACCEPT g022 bob->ny prio=high frags=2 size=56 ttl=86400s
+d0 00:00:00.000 ACCEPT g023 bob->tokyo prio=normal frags=2 size=57 ttl=86400s
+d0 00:00:00.000 ACCEPT g024 cora->rx prio=normal frags=2 size=58 ttl=86400s
+d0 00:00:00.000 ACCEPT g025 cora->ny prio=low frags=2 size=59 ttl=86400s
+d0 00:00:00.000 ACCEPT g026 cora->tokyo prio=high frags=2 size=60 ttl=86400s
+d0 00:00:00.000 ACCEPT g027 alice->rx prio=normal frags=2 size=61 ttl=86400s
+d0 00:00:00.000 ACCEPT g028 alice->ny prio=normal frags=2 size=62 ttl=86400s
+d0 00:00:00.000 ACCEPT g029 alice->tokyo prio=low frags=2 size=63 ttl=86400s
+d0 00:00:00.000 ACCEPT g030 bob->rx prio=high frags=2 size=64 ttl=86400s
+d0 00:00:00.000 ACCEPT g031 bob->ny prio=normal frags=3 size=65 ttl=86400s
+d0 00:00:00.000 ACCEPT g032 bob->tokyo prio=normal frags=3 size=66 ttl=86400s
+d0 00:00:00.000 ACCEPT g033 cora->rx prio=low frags=3 size=67 ttl=86400s
+d0 00:00:00.000 ACCEPT g034 cora->ny prio=high frags=3 size=68 ttl=86400s
+d0 00:00:00.000 ACCEPT g035 cora->tokyo prio=normal frags=3 size=69 ttl=86400s
+d0 00:00:00.000 ACCEPT g036 alice->rx prio=normal frags=3 size=70 ttl=86400s
+d0 00:00:00.000 ACCEPT g037 alice->ny prio=low frags=3 size=71 ttl=86400s
+d0 00:00:00.000 ACCEPT g038 alice->tokyo prio=high frags=3 size=72 ttl=86400s
+d0 00:00:00.000 ACCEPT g039 bob->rx prio=normal frags=3 size=73 ttl=86400s
+d0 00:00:00.000 ACCEPT g040 bob->ny prio=normal frags=2 size=33 ttl=86400s
+d0 00:00:00.000 ACCEPT g041 bob->tokyo prio=low frags=2 size=35 ttl=86400s
+d0 00:00:00.000 ACCEPT g042 cora->rx prio=high frags=2 size=36 ttl=86400s
+d0 00:00:00.000 ACCEPT g043 cora->ny prio=normal frags=2 size=37 ttl=86400s
+d0 00:00:00.000 ACCEPT g044 cora->tokyo prio=normal frags=2 size=38 ttl=86400s
+d0 00:00:00.000 ACCEPT g045 alice->rx prio=low frags=2 size=39 ttl=86400s
+d0 00:00:00.000 ACCEPT g046 alice->ny prio=high frags=2 size=40 ttl=86400s
+d0 00:00:00.000 ACCEPT g047 alice->tokyo prio=normal frags=2 size=41 ttl=86400s
+d0 00:00:00.000 ACCEPT g048 bob->rx prio=normal frags=2 size=42 ttl=86400s
+d0 00:00:00.000 ACCEPT g049 bob->ny prio=low frags=2 size=43 ttl=86400s
+d0 00:00:00.000 ACCEPT g050 bob->tokyo prio=high frags=2 size=44 ttl=86400s
+d0 00:00:00.000 ACCEPT g051 cora->rx prio=normal frags=2 size=45 ttl=86400s
+d0 00:00:00.000 ACCEPT g052 cora->ny prio=normal frags=2 size=46 ttl=86400s
+d0 00:00:00.000 ACCEPT g053 cora->tokyo prio=low frags=2 size=47 ttl=86400s
+d0 00:00:00.000 ACCEPT g054 alice->rx prio=high frags=2 size=48 ttl=86400s
+d0 00:00:00.000 ACCEPT g055 alice->ny prio=normal frags=2 size=49 ttl=86400s
+d0 00:00:00.000 ACCEPT g056 alice->tokyo prio=normal frags=2 size=50 ttl=86400s
+d0 00:00:00.000 ACCEPT g057 bob->rx prio=low frags=2 size=51 ttl=86400s
+d0 00:00:00.000 ACCEPT g058 bob->ny prio=high frags=2 size=52 ttl=86400s
+d0 00:00:00.000 ACCEPT g059 bob->tokyo prio=normal frags=2 size=53 ttl=86400s
+d0 00:00:00.000 ACCEPT g060 cora->rx prio=normal frags=2 size=54 ttl=86400s
+d0 00:00:00.000 ACCEPT g061 cora->ny prio=low frags=2 size=55 ttl=86400s
+d0 00:00:00.000 ACCEPT g062 cora->tokyo prio=high frags=2 size=56 ttl=86400s
+d0 00:00:00.000 ACCEPT g063 alice->rx prio=normal frags=2 size=57 ttl=86400s
+d0 00:00:00.000 ACCEPT g064 alice->ny prio=normal frags=2 size=58 ttl=86400s
+d0 00:00:00.000 ACCEPT g065 alice->tokyo prio=low frags=2 size=59 ttl=86400s
+d0 00:00:00.000 ACCEPT g066 bob->rx prio=high frags=2 size=60 ttl=86400s
+d0 00:00:00.000 ACCEPT g067 bob->ny prio=normal frags=2 size=61 ttl=86400s
+d0 00:00:00.000 ACCEPT g068 bob->tokyo prio=normal frags=2 size=62 ttl=86400s
+d0 00:00:00.000 ACCEPT g069 cora->rx prio=low frags=2 size=63 ttl=86400s
+d0 00:00:00.000 ACCEPT g070 cora->ny prio=high frags=2 size=64 ttl=86400s
+d0 00:00:00.000 ACCEPT g071 cora->tokyo prio=normal frags=3 size=65 ttl=86400s
+d0 00:00:00.000 ACCEPT g072 alice->rx prio=normal frags=3 size=66 ttl=86400s
+d0 00:00:00.000 ACCEPT g073 alice->ny prio=low frags=3 size=67 ttl=86400s
+d0 00:00:00.000 ACCEPT g074 alice->tokyo prio=high frags=3 size=68 ttl=86400s
+d0 00:00:00.000 ACCEPT g075 bob->rx prio=normal frags=3 size=69 ttl=86400s
+d0 00:00:00.000 ACCEPT g076 bob->ny prio=normal frags=3 size=70 ttl=86400s
+d0 00:00:00.000 ACCEPT g077 bob->tokyo prio=low frags=3 size=71 ttl=86400s
+d0 00:00:00.000 ACCEPT g078 cora->rx prio=high frags=3 size=72 ttl=86400s
+d0 00:00:00.000 ACCEPT g079 cora->ny prio=normal frags=3 size=73 ttl=86400s
+d0 00:00:00.000 ACCEPT g080 cora->tokyo prio=normal frags=2 size=33 ttl=86400s
+d0 00:00:00.000 ACCEPT g081 alice->rx prio=low frags=2 size=35 ttl=86400s
+d0 00:00:00.000 ACCEPT g082 alice->ny prio=high frags=2 size=36 ttl=86400s
+d0 00:00:00.000 ACCEPT g083 alice->tokyo prio=normal frags=2 size=37 ttl=86400s
+d0 00:00:00.000 ACCEPT g084 bob->rx prio=normal frags=2 size=38 ttl=86400s
+d0 00:00:00.000 ACCEPT g085 bob->ny prio=low frags=2 size=39 ttl=86400s
+d0 00:00:00.000 ACCEPT g086 bob->tokyo prio=high frags=2 size=40 ttl=86400s
+d0 00:00:00.000 ACCEPT g087 cora->rx prio=normal frags=2 size=41 ttl=86400s
+d0 00:00:00.000 ACCEPT g088 cora->ny prio=normal frags=2 size=42 ttl=86400s
+d0 00:00:00.000 ACCEPT g089 cora->tokyo prio=low frags=2 size=43 ttl=86400s
+d0 00:00:00.000 ACCEPT g090 alice->rx prio=high frags=2 size=44 ttl=86400s
+d0 00:00:00.000 ACCEPT g091 alice->ny prio=normal frags=2 size=45 ttl=86400s
+d0 00:00:00.000 ACCEPT g092 alice->tokyo prio=normal frags=2 size=46 ttl=86400s
+d0 00:00:00.000 ACCEPT g093 bob->rx prio=low frags=2 size=47 ttl=86400s
+d0 00:00:00.000 ACCEPT g094 bob->ny prio=high frags=2 size=48 ttl=86400s
+d0 00:00:00.000 ACCEPT g095 bob->tokyo prio=normal frags=2 size=49 ttl=86400s
+d0 00:00:00.000 ACCEPT g096 cora->rx prio=normal frags=2 size=50 ttl=86400s
+d0 00:00:00.000 ACCEPT g097 cora->ny prio=low frags=2 size=51 ttl=86400s
+d0 00:00:00.000 ACCEPT g098 cora->tokyo prio=high frags=2 size=52 ttl=86400s
+d0 00:00:00.000 ACCEPT g099 alice->rx prio=normal frags=2 size=53 ttl=86400s
+d0 00:00:00.000 ACCEPT g100 alice->ny prio=normal frags=2 size=55 ttl=86400s
+d0 00:00:00.000 ACCEPT g101 alice->tokyo prio=low frags=2 size=56 ttl=86400s
+d0 00:00:00.000 ACCEPT g102 bob->rx prio=high frags=2 size=57 ttl=86400s
+d0 00:00:00.000 ACCEPT g103 bob->ny prio=normal frags=2 size=58 ttl=86400s
+d0 00:00:00.000 ACCEPT g104 bob->tokyo prio=normal frags=2 size=59 ttl=86400s
+d0 00:00:00.000 ACCEPT g105 cora->rx prio=low frags=2 size=60 ttl=86400s
+d0 00:00:00.000 ACCEPT g106 cora->ny prio=high frags=2 size=61 ttl=86400s
+d0 00:00:00.000 ACCEPT g107 cora->tokyo prio=normal frags=2 size=62 ttl=86400s
+d0 00:00:00.000 ACCEPT g108 alice->rx prio=normal frags=2 size=63 ttl=86400s
+d0 00:00:00.000 ACCEPT g109 alice->ny prio=low frags=2 size=64 ttl=86400s
+d0 00:00:00.000 ACCEPT g110 alice->tokyo prio=high frags=3 size=65 ttl=86400s
+d0 00:00:00.000 ACCEPT g111 bob->rx prio=normal frags=3 size=66 ttl=86400s
+d0 00:00:00.000 ACCEPT g112 bob->ny prio=normal frags=3 size=67 ttl=86400s
+d0 00:00:00.000 ACCEPT g113 bob->tokyo prio=low frags=3 size=68 ttl=86400s
+d0 00:00:00.000 ACCEPT g114 cora->rx prio=high frags=3 size=69 ttl=86400s
+d0 00:00:00.000 ACCEPT g115 cora->ny prio=normal frags=3 size=70 ttl=86400s
+d0 00:00:00.000 ACCEPT g116 cora->tokyo prio=normal frags=3 size=71 ttl=86400s
+d0 00:00:00.000 ACCEPT g117 alice->rx prio=low frags=3 size=72 ttl=86400s
+d0 00:00:00.000 ACCEPT g118 alice->ny prio=high frags=3 size=73 ttl=86400s
+d0 00:00:00.000 ACCEPT g119 alice->tokyo prio=normal frags=3 size=74 ttl=86400s
+d0 00:00:00.000 ACCEPT g120 bob->rx prio=normal frags=2 size=34 ttl=86400s
+d0 00:00:01.000 SEND g002 1/2 alice->tokyo ok
+d0 00:00:01.000 SEND g006 1/2 cora->rx ok
+d0 00:00:01.000 SEND g022 1/2 bob->ny ok
+d0 00:00:02.000 SEND g002 2/2 alice->tokyo ok
+d0 00:00:02.000 DONE g002 alice->tokyo size=35 cost=0.02
+d0 00:00:02.000 SEND g006 2/2 cora->rx ok
+d0 00:00:02.000 DONE g006 cora->rx size=39 cost=0.01
+d0 00:00:02.000 SEND g022 2/2 bob->ny ok
+d0 00:00:02.000 DONE g022 bob->ny size=56 cost=0.03
+d0 00:00:03.000 SEND g010 1/2 alice->ny ok
+d0 00:00:03.000 SEND g026 1/2 cora->tokyo ok
+d0 00:00:03.000 SEND g030 1/2 bob->rx ok
+d0 00:00:04.000 SEND g010 2/2 alice->ny ok
+d0 00:00:04.000 DONE g010 alice->ny size=44 cost=0.02
+d0 00:00:04.000 SEND g026 2/2 cora->tokyo ok
+d0 00:00:04.000 DONE g026 cora->tokyo size=60 cost=0.01
+d0 00:00:04.000 SEND g030 2/2 bob->rx ok
+d0 00:00:04.000 DONE g030 bob->rx size=64 cost=0.03
+d0 00:00:05.000 SEND g018 1/2 alice->rx ok
+d0 00:00:05.000 SEND g034 1/3 cora->ny ok
+d0 00:00:05.000 SEND g014 1/2 bob->tokyo ok
+d0 00:00:06.000 SEND g018 2/2 alice->rx ok
+d0 00:00:06.000 DONE g018 alice->rx size=52 cost=0.02
+d0 00:00:06.000 SEND g034 2/3 cora->ny ok
+d0 00:00:06.000 SEND g014 2/2 bob->tokyo ok
+d0 00:00:06.000 DONE g014 bob->tokyo size=48 cost=0.03
+d0 00:00:07.000 SEND g038 1/3 alice->tokyo ok
+d0 00:00:07.000 SEND g034 3/3 cora->ny ok
+d0 00:00:07.000 DONE g034 cora->ny size=68 cost=0.01
+d0 00:00:07.000 SEND g066 1/2 bob->rx ok
+d0 00:00:08.000 SEND g038 2/3 alice->tokyo ok
+d0 00:00:08.000 SEND g042 1/2 cora->rx ok
+d0 00:00:08.000 SEND g058 1/2 bob->ny ok
+d0 00:00:09.000 SEND g038 3/3 alice->tokyo ok
+d0 00:00:09.000 DONE g038 alice->tokyo size=72 cost=0.02
+d0 00:00:09.000 SEND g042 2/2 cora->rx ok
+d0 00:00:09.000 DONE g042 cora->rx size=36 cost=0.01
+d0 00:00:09.000 SEND g058 2/2 bob->ny ok
+d0 00:00:09.000 DONE g058 bob->ny size=52 cost=0.03
+d0 00:00:10.000 SEND g046 1/2 alice->ny ok
+d0 00:00:10.000 SEND g062 1/2 cora->tokyo ok
+d0 00:00:10.000 SEND g066 2/2 bob->rx ok
+d0 00:00:10.000 DONE g066 bob->rx size=60 cost=0.03
+d0 00:00:11.000 SEND g046 2/2 alice->ny ok
+d0 00:00:11.000 DONE g046 alice->ny size=40 cost=0.02
+d0 00:00:11.000 SEND g062 2/2 cora->tokyo ok
+d0 00:00:11.000 DONE g062 cora->tokyo size=56 cost=0.01
+d0 00:00:11.000 SEND g102 1/2 bob->rx ok
+d0 00:00:12.000 SEND g054 1/2 alice->rx ok
+d0 00:00:12.000 SEND g070 1/2 cora->ny ok
+d0 00:00:12.000 SEND g050 1/2 bob->tokyo ok
+d0 00:00:13.000 SEND g054 2/2 alice->rx ok
+d0 00:00:13.000 DONE g054 alice->rx size=48 cost=0.02
+d0 00:00:13.000 SEND g070 2/2 cora->ny ok
+d0 00:00:13.000 DONE g070 cora->ny size=64 cost=0.01
+d0 00:00:13.000 SEND g050 2/2 bob->tokyo ok
+d0 00:00:13.000 DONE g050 bob->tokyo size=44 cost=0.03
+d0 00:00:14.000 SEND g074 1/3 alice->tokyo ok
+d0 00:00:14.000 SEND g078 1/3 cora->rx ok
+d0 00:00:14.000 SEND g094 1/2 bob->ny ok
+d0 00:00:15.000 SEND g074 2/3 alice->tokyo ok
+d0 00:00:15.000 SEND g078 2/3 cora->rx ok
+d0 00:00:15.000 SEND g094 2/2 bob->ny ok
+d0 00:00:15.000 DONE g094 bob->ny size=48 cost=0.03
+d0 00:00:16.000 SEND g074 3/3 alice->tokyo ok
+d0 00:00:16.000 DONE g074 alice->tokyo size=68 cost=0.02
+d0 00:00:16.000 SEND g078 3/3 cora->rx ok
+d0 00:00:16.000 DONE g078 cora->rx size=72 cost=0.01
+d0 00:00:16.000 SEND g082 1/2 alice->ny ok
+d0 00:00:17.000 SEND g086 1/2 bob->tokyo ok
+d0 00:00:17.000 SEND g106 1/2 cora->ny ok
+d0 00:00:17.000 SEND g090 1/2 alice->rx ok
+d0 00:00:18.000 SEND g086 2/2 bob->tokyo ok
+d0 00:00:18.000 DONE g086 bob->tokyo size=40 cost=0.03
+d0 00:00:18.000 SEND g106 2/2 cora->ny ok
+d0 00:00:18.000 DONE g106 cora->ny size=61 cost=0.01
+d0 00:00:18.000 SEND g090 2/2 alice->rx ok
+d0 00:00:18.000 DONE g090 alice->rx size=44 cost=0.02
+d0 00:00:19.000 SEND g102 2/2 bob->rx ok
+d0 00:00:19.000 DONE g102 bob->rx size=57 cost=0.03
+d0 00:00:19.000 SEND g098 1/2 cora->tokyo ok
+d0 00:00:19.000 SEND g082 2/2 alice->ny ok
+d0 00:00:19.000 DONE g082 alice->ny size=36 cost=0.02
+d0 00:00:20.000 SEND g098 2/2 cora->tokyo ok
+d0 00:00:20.000 DONE g098 cora->tokyo size=52 cost=0.01
+d0 00:00:20.000 SEND g118 1/3 alice->ny ok
+d0 00:00:20.000 SEND g114 1/3 cora->rx ok
+d0 00:00:21.000 SEND g110 1/3 alice->tokyo ok
+d0 00:00:21.000 SEND g114 2/3 cora->rx ok
+d0 00:00:21.000 SEND g118 2/3 alice->ny ok
+d0 00:00:22.000 SEND g114 3/3 cora->rx ok
+d0 00:00:22.000 DONE g114 cora->rx size=69 cost=0.01
+d0 00:00:22.000 SEND g110 2/3 alice->tokyo ok
+d0 00:00:22.000 SEND g118 3/3 alice->ny ok
+d0 00:00:22.000 DONE g118 alice->ny size=73 cost=0.02
+d0 00:00:23.000 SEND g110 3/3 alice->tokyo ok
+d0 00:00:23.000 DONE g110 alice->tokyo size=65 cost=0.02
+d0 00:00:23.000 SEND g003 1/2 bob->rx ok
+d0 00:00:23.000 SEND g007 1/2 cora->ny ok
+d0 00:00:24.000 SEND g011 1/2 alice->tokyo ok
+d0 00:00:24.000 SEND g003 2/2 bob->rx ok
+d0 00:00:24.000 DONE g003 bob->rx size=36 cost=0.03
+d0 00:00:24.000 SEND g007 2/2 cora->ny ok
+d0 00:00:24.000 DONE g007 cora->ny size=40 cost=0.01
+d0 00:00:25.000 SEND g011 2/2 alice->tokyo ok
+d0 00:00:25.000 DONE g011 alice->tokyo size=45 cost=0.02
+d0 00:00:25.000 SEND g004 1/2 bob->ny ok
+d0 00:00:25.000 SEND g015 1/2 cora->rx ok
+d0 00:00:26.000 SEND g019 1/2 alice->ny ok
+d0 00:00:26.000 SEND g012 1/2 bob->rx ok
+d0 00:00:26.000 SEND g008 1/2 cora->tokyo ok
+d0 00:00:27.000 SEND g019 2/2 alice->ny ok
+d0 00:00:27.000 DONE g019 alice->ny size=53 cost=0.02
+d0 00:00:27.000 SEND g012 2/2 bob->rx ok
+d0 00:00:27.000 DONE g012 bob->rx size=46 cost=0.03
+d0 00:00:27.000 SEND g008 2/2 cora->tokyo ok
+d0 00:00:27.000 DONE g008 cora->tokyo size=41 cost=0.01
+d0 00:00:28.000 SEND g020 1/2 alice->tokyo ok
+d0 00:00:28.000 SEND g004 2/2 bob->ny ok
+d0 00:00:28.000 DONE g004 bob->ny size=37 cost=0.03
+d0 00:00:28.000 SEND g015 2/2 cora->rx ok
+d0 00:00:28.000 DONE g015 cora->rx size=49 cost=0.01
+d0 00:00:29.000 SEND g020 2/2 alice->tokyo ok
+d0 00:00:29.000 DONE g020 alice->tokyo size=54 cost=0.02
+d0 00:00:29.000 SEND g031 1/3 bob->ny ok
+d0 00:00:29.000 SEND g024 1/2 cora->rx ok
+d0 00:00:30.000 SEND g027 1/2 alice->rx ok
+d0 00:00:30.000 SEND g023 1/2 bob->tokyo ok
+d0 00:00:30.000 SEND g016 1/2 cora->ny ok
+d0 00:00:31.000 SEND g027 2/2 alice->rx ok
+d0 00:00:31.000 DONE g027 alice->rx size=61 cost=0.02
+d0 00:00:31.000 SEND g023 2/2 bob->tokyo ok
+d0 00:00:31.000 DONE g023 bob->tokyo size=57 cost=0.03
+d0 00:00:31.000 SEND g016 2/2 cora->ny ok
+d0 00:00:31.000 DONE g016 cora->ny size=50 cost=0.01
+d0 00:00:32.000 SEND g028 1/2 alice->ny ok
+d0 00:00:32.000 SEND g032 1/3 bob->tokyo ok
+d0 00:00:32.000 SEND g024 2/2 cora->rx ok
+d0 00:00:32.000 DONE g024 cora->rx size=58 cost=0.01
+d0 00:00:33.000 SEND g028 2/2 alice->ny ok
+d0 00:00:33.000 DONE g028 alice->ny size=62 cost=0.02
+d0 00:00:33.000 SEND g032 2/3 bob->tokyo ok
+d0 00:00:33.000 SEND g051 1/2 cora->rx ok
+d0 00:00:34.000 SEND g036 1/3 alice->rx ok
+d0 00:00:34.000 SEND g031 2/3 bob->ny ok
+d0 00:00:34.000 SEND g035 1/3 cora->tokyo ok
+d0 00:00:35.000 SEND g036 2/3 alice->rx ok
+d0 00:00:35.000 SEND g031 3/3 bob->ny ok
+d0 00:00:35.000 DONE g031 bob->ny size=65 cost=0.03
+d0 00:00:35.000 SEND g035 2/3 cora->tokyo ok
+d0 00:00:36.000 SEND g036 3/3 alice->rx ok
+d0 00:00:36.000 DONE g036 alice->rx size=70 cost=0.02
+d0 00:00:36.000 SEND g032 3/3 bob->tokyo ok
+d0 00:00:36.000 DONE g032 bob->tokyo size=66 cost=0.03
+d0 00:00:36.000 SEND g043 1/2 cora->ny ok
+d0 00:00:37.000 SEND g047 1/2 alice->tokyo ok
+d0 00:00:37.000 SEND g039 1/3 bob->rx ok
+d0 00:00:37.000 SEND g043 2/2 cora->ny ok
+d0 00:00:37.000 DONE g043 cora->ny size=37 cost=0.01
+d0 00:00:38.000 SEND g047 2/2 alice->tokyo ok
+d0 00:00:38.000 DONE g047 alice->tokyo size=41 cost=0.02
+d0 00:00:38.000 SEND g039 2/3 bob->rx ok
+d0 00:00:38.000 SEND g052 1/2 cora->ny ok
+d0 00:00:39.000 SEND g055 1/2 alice->ny ok
+d0 00:00:39.000 SEND g039 3/3 bob->rx ok
+d0 00:00:39.000 DONE g039 bob->rx size=73 cost=0.03
+d0 00:00:39.000 SEND g035 3/3 cora->tokyo ok
+d0 00:00:39.000 DONE g035 cora->tokyo size=69 cost=0.01
+d0 00:00:40.000 SEND g055 2/2 alice->ny ok
+d0 00:00:40.000 DONE g055 alice->ny size=49 cost=0.02
+d0 00:00:40.000 SEND g048 1/2 bob->rx ok
+d0 00:00:40.000 SEND g044 1/2 cora->tokyo ok
+d0 00:00:41.000 SEND g056 1/2 alice->tokyo ok
+d0 00:00:41.000 SEND g040 1/2 bob->ny ok
+d0 00:00:41.000 SEND g051 2/2 cora->rx ok
+d0 00:00:41.000 DONE g051 cora->rx size=45 cost=0.01
+d0 00:00:42.000 SEND g056 2/2 alice->tokyo ok
+d0 00:00:42.000 DONE g056 alice->tokyo size=50 cost=0.02
+d0 00:00:42.000 SEND g040 2/2 bob->ny ok
+d0 00:00:42.000 DONE g040 bob->ny size=33 cost=0.03
+d0 00:00:42.000 SEND g060 1/2 cora->rx ok
+d0 00:00:43.000 SEND g063 1/2 alice->rx ok
+d0 00:00:43.000 SEND g059 1/2 bob->tokyo ok
+d0 00:00:43.000 SEND g052 2/2 cora->ny ok
+d0 00:00:43.000 DONE g052 cora->ny size=46 cost=0.01
+d0 00:00:44.000 SEND g063 2/2 alice->rx ok
+d0 00:00:44.000 DONE g063 alice->rx size=57 cost=0.02
+d0 00:00:44.000 SEND g059 2/2 bob->tokyo ok
+d0 00:00:44.000 DONE g059 bob->tokyo size=53 cost=0.03
+d0 00:00:44.000 SEND g079 1/3 cora->ny ok
+d0 00:00:45.000 SEND g064 1/2 alice->ny ok
+d0 00:00:45.000 SEND g048 2/2 bob->rx ok
+d0 00:00:45.000 DONE g048 bob->rx size=42 cost=0.03
+d0 00:00:45.000 SEND g044 2/2 cora->tokyo ok
+d0 00:00:45.000 DONE g044 cora->tokyo size=38 cost=0.01
+d0 00:00:46.000 SEND g064 2/2 alice->ny ok
+d0 00:00:46.000 DONE g064 alice->ny size=58 cost=0.02
+d0 00:00:46.000 SEND g068 1/2 bob->tokyo ok
+d0 00:00:46.000 SEND g060 2/2 cora->rx ok
+d0 00:00:46.000 DONE g060 cora->rx size=54 cost=0.01
+d0 00:00:47.000 SEND g072 1/3 alice->rx ok
+d0 00:00:47.000 SEND g067 1/2 bob->ny ok
+d0 00:00:47.000 SEND g071 1/3 cora->tokyo ok
+d0 00:00:48.000 SEND g072 2/3 alice->rx ok
+d0 00:00:48.000 SEND g067 2/2 bob->ny ok
+d0 00:00:48.000 DONE g067 bob->ny size=61 cost=0.03
+d0 00:00:48.000 SEND g071 2/3 cora->tokyo ok
+d0 00:00:49.000 SEND g072 3/3 alice->rx ok
+d0 00:00:49.000 DONE g072 alice->rx size=66 cost=0.02
+d0 00:00:49.000 SEND g068 2/2 bob->tokyo ok
+d0 00:00:49.000 DONE g068 bob->tokyo size=62 cost=0.03
+d0 00:00:49.000 SEND g079 2/3 cora->ny ok
+d0 00:00:50.000 SEND g083 1/2 alice->tokyo ok
+d0 00:00:50.000 SEND g075 1/3 bob->rx ok
+d0 00:00:50.000 SEND g079 3/3 cora->ny ok
+d0 00:00:50.000 DONE g079 cora->ny size=73 cost=0.01
+d0 00:00:51.000 SEND g083 2/2 alice->tokyo ok
+d0 00:00:51.000 DONE g083 alice->tokyo size=37 cost=0.02
+d0 00:00:51.000 SEND g075 2/3 bob->rx ok
+d0 00:00:51.000 SEND g088 1/2 cora->ny ok
+d0 00:00:52.000 SEND g091 1/2 alice->ny ok
+d0 00:00:52.000 SEND g075 3/3 bob->rx ok
+d0 00:00:52.000 DONE g075 bob->rx size=69 cost=0.03
+d0 00:00:52.000 SEND g071 3/3 cora->tokyo ok
+d0 00:00:52.000 DONE g071 cora->tokyo size=65 cost=0.01
+d0 00:00:53.000 SEND g091 2/2 alice->ny ok
+d0 00:00:53.000 DONE g091 alice->ny size=45 cost=0.02
+d0 00:00:53.000 SEND g084 1/2 bob->rx ok
+d0 00:00:53.000 SEND g080 1/2 cora->tokyo ok
+d0 00:00:54.000 SEND g092 1/2 alice->tokyo ok
+d0 00:00:54.000 SEND g076 1/3 bob->ny ok
+d0 00:00:54.000 SEND g087 1/2 cora->rx ok
+d0 00:00:55.000 SEND g092 2/2 alice->tokyo ok
+d0 00:00:55.000 DONE g092 alice->tokyo size=46 cost=0.02
+d0 00:00:55.000 SEND g076 2/3 bob->ny ok
+d0 00:00:55.000 SEND g087 2/2 cora->rx ok
+d0 00:00:55.000 DONE g087 cora->rx size=41 cost=0.01
+d0 00:00:56.000 SEND g100 1/2 alice->ny ok
+d0 00:00:56.000 SEND g084 2/2 bob->rx ok
+d0 00:00:56.000 DONE g084 bob->rx size=38 cost=0.03
+d0 00:00:56.000 SEND g080 2/2 cora->tokyo ok
+d0 00:00:56.000 DONE g080 cora->tokyo size=33 cost=0.01
+d0 00:00:57.000 SEND g100 2/2 alice->ny ok
+d0 00:00:57.000 DONE g100 alice->ny size=55 cost=0.02
+d0 00:00:57.000 SEND g095 1/2 bob->tokyo ok
+d0 00:00:58.000 SEND g088 2/2 cora->ny ok
+d0 00:00:58.000 DONE g088 cora->ny size=42 cost=0.01
+d0 00:00:58.000 SEND g119 1/3 alice->tokyo ok
+d0 00:00:59.000 SEND g076 3/3 bob->ny ok
+d0 00:00:59.000 DONE g076 bob->ny size=70 cost=0.03
+d0 00:00:59.000 SEND g107 1/2 cora->tokyo ok
+d0 00:01:00.000 SEND g119 2/3 alice->tokyo ok
+d0 00:01:00.000 SEND g103 1/2 bob->ny ok
+d0 00:01:01.000 SEND g107 2/2 cora->tokyo ok
+d0 00:01:01.000 DONE g107 cora->tokyo size=62 cost=0.01
+d0 00:01:01.000 SEND g103 2/2 bob->ny ok
+d0 00:01:01.000 DONE g103 bob->ny size=58 cost=0.03
+d0 00:01:02.000 SEND g119 3/3 alice->tokyo ok
+d0 00:01:02.000 DONE g119 alice->tokyo size=74 cost=0.02
+d0 00:01:02.000 SEND g115 1/3 cora->ny ok
+d0 00:01:03.000 SEND g095 2/2 bob->tokyo ok
+d0 00:01:03.000 DONE g095 bob->tokyo size=49 cost=0.03
+d0 00:01:03.000 SEND g115 2/3 cora->ny ok
+d0 00:01:04.000 SEND g104 1/2 bob->tokyo ok
+d0 00:01:04.000 SEND g115 3/3 cora->ny ok
+d0 00:01:04.000 DONE g115 cora->ny size=70 cost=0.01
+d0 00:01:05.000 SEND g104 2/2 bob->tokyo ok
+d0 00:01:05.000 DONE g104 bob->tokyo size=59 cost=0.03
+d0 00:01:05.000 SEND g112 1/3 bob->ny ok
+d0 00:01:06.000 SEND g116 1/3 cora->tokyo ok
+d0 00:01:06.000 SEND g112 2/3 bob->ny ok
+d0 00:01:07.000 SEND g116 2/3 cora->tokyo ok
+d0 00:01:07.000 SEND g112 3/3 bob->ny ok
+d0 00:01:07.000 DONE g112 bob->ny size=67 cost=0.03
+d0 00:01:08.000 SEND g116 3/3 cora->tokyo ok
+d0 00:01:08.000 DONE g116 cora->tokyo size=71 cost=0.01
+d0 00:01:08.000 SEND g001 1/2 alice->ny ok
+d0 00:01:09.000 SEND g013 1/2 bob->ny ok
+d0 00:01:10.000 SEND g025 1/2 cora->ny ok
+d0 00:01:11.000 SEND g001 2/2 alice->ny ok
+d0 00:01:11.000 DONE g001 alice->ny size=34 cost=0.02
+d0 00:01:12.000 SEND g013 2/2 bob->ny ok
+d0 00:01:12.000 DONE g013 bob->ny size=47 cost=0.03
+d0 00:01:13.000 SEND g025 2/2 cora->ny ok
+d0 00:01:13.000 DONE g025 cora->ny size=59 cost=0.01
+d0 00:01:14.000 SEND g037 1/3 alice->ny ok
+d0 00:01:15.000 SEND g049 1/2 bob->ny ok
+d0 00:01:16.000 SEND g061 1/2 cora->ny ok
+d0 00:01:17.000 SEND g037 2/3 alice->ny ok
+d0 00:01:18.000 SEND g049 2/2 bob->ny ok
+d0 00:01:18.000 DONE g049 bob->ny size=43 cost=0.03
+d0 00:01:19.000 SEND g061 2/2 cora->ny ok
+d0 00:01:19.000 DONE g061 cora->ny size=55 cost=0.01
+d0 00:01:20.000 SEND g037 3/3 alice->ny ok
+d0 00:01:20.000 DONE g037 alice->ny size=71 cost=0.02
+d0 00:01:21.000 SEND g085 1/2 bob->ny ok
+d0 00:01:22.000 SEND g097 1/2 cora->ny ok
+d0 00:01:23.000 SEND g073 1/3 alice->ny ok
+d0 00:01:24.000 SEND g085 2/2 bob->ny ok
+d0 00:01:24.000 DONE g085 bob->ny size=39 cost=0.03
+d0 00:01:25.000 SEND g097 2/2 cora->ny ok
+d0 00:01:25.000 DONE g097 cora->ny size=51 cost=0.01
+d0 00:01:26.000 SEND g073 2/3 alice->ny ok
+d0 00:01:27.000 SEND g073 3/3 alice->ny ok
+d0 00:01:27.000 DONE g073 alice->ny size=67 cost=0.02
+d0 00:01:28.000 SEND g109 1/2 alice->ny ok
+d0 00:01:29.000 SEND g109 2/2 alice->ny ok
+d0 00:01:29.000 DONE g109 alice->ny size=64 cost=0.02
+d0 01:00:01.000 SEND g111 1/3 bob->rx ok
+d0 01:00:02.000 SEND g111 2/3 bob->rx ok
+d0 01:00:03.000 SEND g096 1/2 cora->rx ok
+d0 01:00:04.000 SEND g111 3/3 bob->rx ok
+d0 01:00:04.000 DONE g111 bob->rx size=66 cost=0.03
+d0 01:00:05.000 SEND g099 1/2 alice->rx ok
+d0 01:00:06.000 SEND g096 2/2 cora->rx ok
+d0 01:00:06.000 DONE g096 cora->rx size=50 cost=0.01
+d0 01:00:07.000 SEND g120 1/2 bob->rx ok
+d0 01:00:08.000 SEND g099 2/2 alice->rx ok
+d0 01:00:08.000 DONE g099 alice->rx size=53 cost=0.02
+d0 01:00:09.000 SEND g120 2/2 bob->rx ok
+d0 01:00:09.000 DONE g120 bob->rx size=34 cost=0.03
+d0 01:00:10.000 SEND g108 1/2 alice->rx ok
+d0 01:00:11.000 SEND g108 2/2 alice->rx ok
+d0 01:00:11.000 DONE g108 alice->rx size=63 cost=0.02
+d0 01:00:12.000 SEND g033 1/3 cora->rx ok
+d0 01:00:13.000 SEND g021 1/2 bob->rx ok
+d0 01:00:14.000 SEND g009 1/2 alice->rx ok
+d0 01:00:15.000 SEND g033 2/3 cora->rx ok
+d0 01:00:16.000 SEND g021 2/2 bob->rx ok
+d0 01:00:16.000 DONE g021 bob->rx size=55 cost=0.03
+d0 01:00:17.000 SEND g009 2/2 alice->rx ok
+d0 01:00:17.000 DONE g009 alice->rx size=42 cost=0.02
+d0 01:00:18.000 SEND g033 3/3 cora->rx ok
+d0 01:00:18.000 DONE g033 cora->rx size=67 cost=0.01
+d0 01:00:19.000 SEND g057 1/2 bob->rx ok
+d0 01:00:20.000 SEND g045 1/2 alice->rx ok
+d0 01:00:21.000 SEND g057 2/2 bob->rx ok
+d0 01:00:21.000 DONE g057 bob->rx size=51 cost=0.03
+d0 01:00:22.000 SEND g045 2/2 alice->rx ok
+d0 01:00:22.000 DONE g045 alice->rx size=39 cost=0.02
+d0 01:00:23.000 SEND g069 1/2 cora->rx ok
+d0 01:00:24.000 SEND g069 2/2 cora->rx ok
+d0 01:00:24.000 DONE g069 cora->rx size=63 cost=0.01
+d0 01:00:25.000 SEND g093 1/2 bob->rx ok
+d0 01:00:26.000 SEND g081 1/2 alice->rx ok
+d0 01:00:27.000 SEND g093 2/2 bob->rx ok
+d0 01:00:27.000 DONE g093 bob->rx size=47 cost=0.03
+d0 01:00:28.000 SEND g081 2/2 alice->rx ok
+d0 01:00:28.000 DONE g081 alice->rx size=35 cost=0.02
+d0 01:00:29.000 SEND g105 1/2 cora->rx ok
+d0 01:00:30.000 SEND g117 1/3 alice->rx ok
+d0 01:00:31.000 SEND g105 2/2 cora->rx ok
+d0 01:00:31.000 DONE g105 cora->rx size=60 cost=0.01
+d0 01:00:32.000 SEND g117 2/3 alice->rx ok
+d0 01:00:33.000 SEND g117 3/3 alice->rx ok
+d0 01:00:33.000 DONE g117 alice->rx size=72 cost=0.02
+d0 15:00:00.000 SEND g005 1/2 bob->tokyo ok
+d0 15:00:01.000 SEND g017 1/2 cora->tokyo ok
+d0 15:00:02.000 SEND g029 1/2 alice->tokyo ok
+d0 15:00:03.000 SEND g005 2/2 bob->tokyo ok
+d0 15:00:03.000 DONE g005 bob->tokyo size=38 cost=0.03
+d0 15:00:04.000 SEND g017 2/2 cora->tokyo ok
+d0 15:00:04.000 DONE g017 cora->tokyo size=51 cost=0.01
+d0 15:00:05.000 SEND g029 2/2 alice->tokyo ok
+d0 15:00:05.000 DONE g029 alice->tokyo size=63 cost=0.02
+d0 15:00:06.000 SEND g041 1/2 bob->tokyo ok
+d0 15:00:07.000 SEND g053 1/2 cora->tokyo ok
+d0 15:00:08.000 SEND g065 1/2 alice->tokyo ok
+d0 15:00:09.000 SEND g041 2/2 bob->tokyo ok
+d0 15:00:09.000 DONE g041 bob->tokyo size=35 cost=0.03
+d0 15:00:10.000 SEND g053 2/2 cora->tokyo ok
+d0 15:00:10.000 DONE g053 cora->tokyo size=47 cost=0.01
+d0 15:00:11.000 SEND g065 2/2 alice->tokyo ok
+d0 15:00:11.000 DONE g065 alice->tokyo size=59 cost=0.02
+d0 15:00:12.000 SEND g077 1/3 bob->tokyo ok
+d0 15:00:13.000 SEND g089 1/2 cora->tokyo ok
+d0 15:00:14.000 SEND g101 1/2 alice->tokyo ok
+d0 15:00:15.000 SEND g077 2/3 bob->tokyo ok
+d0 15:00:16.000 SEND g089 2/2 cora->tokyo ok
+d0 15:00:16.000 DONE g089 cora->tokyo size=43 cost=0.01
+d0 15:00:17.000 SEND g101 2/2 alice->tokyo ok
+d0 15:00:17.000 DONE g101 alice->tokyo size=56 cost=0.02
+d0 15:00:18.000 SEND g077 3/3 bob->tokyo ok
+d0 15:00:18.000 DONE g077 bob->tokyo size=71 cost=0.03
+d0 15:00:19.000 SEND g113 1/3 bob->tokyo ok
+d0 15:00:20.000 SEND g113 2/3 bob->tokyo ok
+d0 15:00:21.000 SEND g113 3/3 bob->tokyo ok
+d0 15:00:21.000 DONE g113 bob->tokyo size=68 cost=0.03
+stats at d2 00:00:00.000
+accepted=120 rejected=0 duplicates=0
+delivered=120 failed=0 expired=0 cancelled=0 pending=0
+attempts=268 retries=0 bytes=6429
+revenue=2.41
+recipient ny delivered=40 bytes=2143 today=0 today-bytes=0 hour=0 fails-in-row=0 last=d0 00:01:29.000
+recipient rx delivered=40 bytes=2143 today=0 today-bytes=0 hour=0 fails-in-row=0 last=d0 01:00:33.000
+recipient tokyo delivered=40 bytes=2143 today=0 today-bytes=0 hour=0 fails-in-row=0 last=d0 15:00:21.000
+daily ny tz=-05:00
+local-day -1 delivered=40 bytes=2143
+daily tokyo tz=+09:00
+local-day 0 delivered=30 bytes=1612
+local-day 1 delivered=10 bytes=531
+plan basic messages=41 revenue=0.82
+plan bulk messages=39 revenue=0.39
+plan pro messages=40 revenue=1.20
+all messages=120 revenue=2.41
+senders
+sender bob plan=pro delivered=40 revenue=1.20 last-attempt=d0 15:00:21.000
+sender alice plan=basic delivered=41 revenue=0.82 last-attempt=d0 15:00:17.000
+sender cora plan=bulk delivered=39 revenue=0.39 last-attempt=d0 15:00:16.000
+queue at d2 00:00:00.000: 0 entries

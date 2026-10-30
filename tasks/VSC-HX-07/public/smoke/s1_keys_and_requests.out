@@ -1,0 +1,20 @@
+tenant acme plan=free
+tenant bolt plan=basic
+key acme.web issued expires=never
+key bolt.app issued expires=3600000
+key acme.web active expires=never label="web shop"
+ok 200 miss 480B items tenant=acme n=4
+ok 200 hit 480B items tenant=acme n=4
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 201 off 64B created tenant=bolt
+ok 404 off 9B not found
+deny auth bad-secret cred=acme.web.***
+ok 200 miss 4096B blob tenant=acme size=4096
+now=2000
+usage acme period=0 requests=4/200 egress=7104B/64KiB
+rate acme mode=fixed limit=5 window=10s in_window=4
+meter acme api=4 jobs=0 egress=7104B
+entry acme GET /v1/items?n=4 size=1KiB expires=30000 hits=1
+entry * GET /v1/catalog? size=2KiB expires=30000 hits=1
+entry acme GET /v1/blob?size=4KiB size=4KiB expires=30000 hits=0

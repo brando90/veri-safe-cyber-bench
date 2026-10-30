@@ -1,0 +1,7 @@
+tenant acme plan=free
+key acme.k issued expires=10000
+now=9999
+ok 200 miss 600B items tenant=acme n=5
+now=10000
+deny auth expired cred=acme.k.***
+key acme.k expired expires=10000 label=""

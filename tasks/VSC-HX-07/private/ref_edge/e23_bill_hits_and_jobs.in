@@ -1,0 +1,9 @@
+tenant add acme plan=pro
+key issue acme k secret=Bh11bh22bh
+req acme.k.Bh11bh22bh GET /v1/items q.n=3
+req acme.k.Bh11bh22bh GET /v1/items q.n=3
+job submit acme.k.Bh11bh22bh /v1/report
+jobs run
+req acme.k.Bh11bh22bh GET /v1/blob q.size=0
+bill acme
+usage acme

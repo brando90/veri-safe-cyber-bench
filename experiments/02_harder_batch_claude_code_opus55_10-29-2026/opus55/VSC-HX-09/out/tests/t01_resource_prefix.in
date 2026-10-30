@@ -1,0 +1,7 @@
+set create base
+rule add base allow doc:read /docs/**
+check base ann doc:read /docs
+check base ann doc:read /docs/a/b
+check base ann doc:read /docsx
+check base ann doc:read /docsx/a
+log filter resource=/docs/**

@@ -1,0 +1,22 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set dedup.window_s 30
+set-for rx queue.max_pending 2
+link rx busy 1 4
+send m1 alice rx morning report
+send m2 bob rx prio=high status
+batch alice rx
+m3 extra
+.end
+advance 3s
+send m4 alice rx extra
+advance 30s
+send m5 alice rx morning report
+advance 10s
+invoice alice
+invoice bob
+stats

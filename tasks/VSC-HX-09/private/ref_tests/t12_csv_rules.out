@@ -1,0 +1,28 @@
+OK set base
+OK set prod
+OK set admin
+OK set ops
+OK attr ann.dept
+OK attr ann.role
+OK attr bob.dept
+OK attr bob.role
+OK attr cy.dept
+OK attr cy.role
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+DECISION allow by=R1 steps=0
+DECISION allow by=R1 steps=0
+OK R7
+DECISION deny by=R7 steps=3 note: R7: cannot compare text "many" with number 1
+seq,time,set,subject,action,resource,effect,by,steps,note,context
+1,0,prod,bob,doc:read,/docs/a,allow,R1,0,,"tags=a,b"
+2,0,prod,bob,doc:read,/docs/b,allow,R1,0,,"apos=it's; quote=say""hi""; semi=a;b"
+3,0,prod,bob,doc:read,/docs/c,deny,R7,3,"R7: cannot compare text ""many"" with number 1",n=many
+OK template c
+bob,none,"tags=a,b"
+bob,none,"apos=it's; quote=say""hi""; semi=a;b"
+bob,"R7: cannot compare text ""many"" with number 1",n=many

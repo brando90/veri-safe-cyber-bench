@@ -1,0 +1,13 @@
+tenant acme plan=free
+key acme.k issued expires=never
+config tenant:acme rate.limit=0
+deny rate
+config tenant:acme rate.mode=sliding
+deny rate
+config tenant:acme rate.limit unset
+ok 200 miss 600B items tenant=acme n=5
+config tenant:acme rate.mode unset
+usage acme period=0 requests=1/200 egress=600B/64KiB
+rate acme mode=fixed limit=5 window=10s in_window=1
+meter acme api=1 jobs=0 egress=600B
+denials acme total=2 rate=2

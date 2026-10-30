@@ -1,0 +1,17 @@
+# two tenants, their keys and a few requests
+tenant add acme
+tenant add bolt plan=basic
+key issue acme web secret=Wq83kdLm2x label="web shop"
+key issue bolt app secret=Zr55plmQ01 ttl=1h
+key list acme
+req acme.web.Wq83kdLm2x GET /v1/items q.n=4
+req acme.web.Wq83kdLm2x GET /v1/items q.n=4
+req acme.web.Wq83kdLm2x GET /v1/catalog
+req bolt.app.Zr55plmQ01 GET /v1/catalog
+req bolt.app.Zr55plmQ01 POST /v1/items
+req bolt.app.Zr55plmQ01 GET /v1/nothing
+req acme.web.Wrong55secret GET /v1/items
+req acme.web.Wq83kdLm2x GET /v1/blob q.size=4KiB
+clock advance 2s
+usage acme
+cache list

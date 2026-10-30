@@ -1,0 +1,554 @@
+set create big
+rule add big allow doc:read /area0/**
+rule add big allow doc:read /area1/**
+rule add big allow doc:read /area2/**
+rule add big allow doc:read /area3/**
+rule add big allow doc:read /area4/**
+rule add big allow doc:read /area5/**
+rule add big allow doc:read /area6/**
+rule add big allow doc:read /area7/**
+rule add big allow doc:read /area8/**
+rule add big allow doc:read /area9/**
+rule add big allow doc:read /area10/**
+rule add big allow doc:read /area11/**
+rule add big allow doc:read /area12/**
+rule add big allow doc:read /area13/**
+rule add big allow doc:read /area14/**
+rule add big allow doc:read /area15/**
+rule add big allow doc:read /area16/**
+rule add big allow doc:read /area17/**
+rule add big allow doc:read /area18/**
+rule add big allow doc:read /area19/**
+rule add big allow doc:read /area20/**
+rule add big allow doc:read /area21/**
+rule add big allow doc:read /area22/**
+rule add big allow doc:read /area23/**
+rule add big allow doc:read /area24/**
+rule add big allow doc:read /area25/**
+rule add big allow doc:read /area26/**
+rule add big allow doc:read /area27/**
+rule add big allow doc:read /area28/**
+rule add big allow doc:read /area29/**
+rule add big allow doc:read /area30/**
+rule add big allow doc:read /area31/**
+rule add big allow doc:read /area32/**
+rule add big allow doc:read /area33/**
+rule add big allow doc:read /area34/**
+rule add big allow doc:read /area35/**
+rule add big allow doc:read /area36/**
+rule add big allow doc:read /area37/**
+rule add big allow doc:read /area38/**
+rule add big allow doc:read /area39/**
+rule add big allow doc:read /area40/**
+rule add big allow doc:read /area41/**
+rule add big allow doc:read /area42/**
+rule add big allow doc:read /area43/**
+rule add big allow doc:read /area44/**
+rule add big allow doc:read /area45/**
+rule add big allow doc:read /area46/**
+rule add big allow doc:read /area47/**
+rule add big allow doc:read /area48/**
+rule add big allow doc:read /area49/**
+rule add big allow doc:read /area50/**
+rule add big allow doc:read /area51/**
+rule add big allow doc:read /area52/**
+rule add big allow doc:read /area53/**
+rule add big allow doc:read /area54/**
+rule add big allow doc:read /area55/**
+rule add big allow doc:read /area56/**
+rule add big allow doc:read /area57/**
+rule add big allow doc:read /area58/**
+rule add big allow doc:read /area59/**
+rule add big allow doc:read /area60/**
+rule add big allow doc:read /area61/**
+rule add big allow doc:read /area62/**
+rule add big allow doc:read /area63/**
+rule add big allow doc:read /area64/**
+rule add big allow doc:read /area65/**
+rule add big allow doc:read /area66/**
+rule add big allow doc:read /area67/**
+rule add big allow doc:read /area68/**
+rule add big allow doc:read /area69/**
+rule add big allow doc:read /area70/**
+rule add big allow doc:read /area71/**
+rule add big allow doc:read /area72/**
+rule add big allow doc:read /area73/**
+rule add big allow doc:read /area74/**
+rule add big allow doc:read /area75/**
+rule add big allow doc:read /area76/**
+rule add big allow doc:read /area77/**
+rule add big allow doc:read /area78/**
+rule add big allow doc:read /area79/**
+rule add big allow doc:read /area80/**
+rule add big allow doc:read /area81/**
+rule add big allow doc:read /area82/**
+rule add big allow doc:read /area83/**
+rule add big allow doc:read /area84/**
+rule add big allow doc:read /area85/**
+rule add big allow doc:read /area86/**
+rule add big allow doc:read /area87/**
+rule add big allow doc:read /area88/**
+rule add big allow doc:read /area89/**
+rule add big allow doc:read /area90/**
+rule add big allow doc:read /area91/**
+rule add big allow doc:read /area92/**
+rule add big allow doc:read /area93/**
+rule add big allow doc:read /area94/**
+rule add big allow doc:read /area95/**
+rule add big allow doc:read /area96/**
+rule add big allow doc:read /area97/**
+rule add big allow doc:read /area98/**
+rule add big allow doc:read /area99/**
+rule add big allow doc:read /area100/**
+rule add big allow doc:read /area101/**
+rule add big allow doc:read /area102/**
+rule add big allow doc:read /area103/**
+rule add big allow doc:read /area104/**
+rule add big allow doc:read /area105/**
+rule add big allow doc:read /area106/**
+rule add big allow doc:read /area107/**
+rule add big allow doc:read /area108/**
+rule add big allow doc:read /area109/**
+rule add big allow doc:read /area110/**
+rule add big allow doc:read /area111/**
+rule add big allow doc:read /area112/**
+rule add big allow doc:read /area113/**
+rule add big allow doc:read /area114/**
+rule add big allow doc:read /area115/**
+rule add big allow doc:read /area116/**
+rule add big allow doc:read /area117/**
+rule add big allow doc:read /area118/**
+rule add big allow doc:read /area119/**
+rule add big allow doc:read /area120/**
+rule add big allow doc:read /area121/**
+rule add big allow doc:read /area122/**
+rule add big allow doc:read /area123/**
+rule add big allow doc:read /area124/**
+rule add big allow doc:read /area125/**
+rule add big allow doc:read /area126/**
+rule add big allow doc:read /area127/**
+rule add big allow doc:read /area128/**
+rule add big allow doc:read /area129/**
+rule add big allow doc:read /area130/**
+rule add big allow doc:read /area131/**
+rule add big allow doc:read /area132/**
+rule add big allow doc:read /area133/**
+rule add big allow doc:read /area134/**
+rule add big allow doc:read /area135/**
+rule add big allow doc:read /area136/**
+rule add big allow doc:read /area137/**
+rule add big allow doc:read /area138/**
+rule add big allow doc:read /area139/**
+rule add big allow doc:read /area140/**
+rule add big allow doc:read /area141/**
+rule add big allow doc:read /area142/**
+rule add big allow doc:read /area143/**
+rule add big allow doc:read /area144/**
+rule add big allow doc:read /area145/**
+rule add big allow doc:read /area146/**
+rule add big allow doc:read /area147/**
+rule add big allow doc:read /area148/**
+rule add big allow doc:read /area149/**
+rule add big deny doc:read /area0/private/* when req.lvl < 0
+rule add big deny doc:read /area1/private/* when req.lvl < 1
+rule add big deny doc:read /area2/private/* when req.lvl < 2
+rule add big deny doc:read /area3/private/* when req.lvl < 3
+rule add big deny doc:read /area4/private/* when req.lvl < 4
+rule add big deny doc:read /area5/private/* when req.lvl < 5
+rule add big deny doc:read /area6/private/* when req.lvl < 6
+rule add big deny doc:read /area7/private/* when req.lvl < 0
+rule add big deny doc:read /area8/private/* when req.lvl < 1
+rule add big deny doc:read /area9/private/* when req.lvl < 2
+rule add big deny doc:read /area10/private/* when req.lvl < 3
+rule add big deny doc:read /area11/private/* when req.lvl < 4
+rule add big deny doc:read /area12/private/* when req.lvl < 5
+rule add big deny doc:read /area13/private/* when req.lvl < 6
+rule add big deny doc:read /area14/private/* when req.lvl < 0
+rule add big deny doc:read /area15/private/* when req.lvl < 1
+rule add big deny doc:read /area16/private/* when req.lvl < 2
+rule add big deny doc:read /area17/private/* when req.lvl < 3
+rule add big deny doc:read /area18/private/* when req.lvl < 4
+rule add big deny doc:read /area19/private/* when req.lvl < 5
+rule add big deny doc:read /area20/private/* when req.lvl < 6
+rule add big deny doc:read /area21/private/* when req.lvl < 0
+rule add big deny doc:read /area22/private/* when req.lvl < 1
+rule add big deny doc:read /area23/private/* when req.lvl < 2
+rule add big deny doc:read /area24/private/* when req.lvl < 3
+rule add big deny doc:read /area25/private/* when req.lvl < 4
+rule add big deny doc:read /area26/private/* when req.lvl < 5
+rule add big deny doc:read /area27/private/* when req.lvl < 6
+rule add big deny doc:read /area28/private/* when req.lvl < 0
+rule add big deny doc:read /area29/private/* when req.lvl < 1
+rule add big deny doc:read /area30/private/* when req.lvl < 2
+rule add big deny doc:read /area31/private/* when req.lvl < 3
+rule add big deny doc:read /area32/private/* when req.lvl < 4
+rule add big deny doc:read /area33/private/* when req.lvl < 5
+rule add big deny doc:read /area34/private/* when req.lvl < 6
+rule add big deny doc:read /area35/private/* when req.lvl < 0
+rule add big deny doc:read /area36/private/* when req.lvl < 1
+rule add big deny doc:read /area37/private/* when req.lvl < 2
+rule add big deny doc:read /area38/private/* when req.lvl < 3
+rule add big deny doc:read /area39/private/* when req.lvl < 4
+rule add big deny doc:read /area40/private/* when req.lvl < 5
+rule add big deny doc:read /area41/private/* when req.lvl < 6
+rule add big deny doc:read /area42/private/* when req.lvl < 0
+rule add big deny doc:read /area43/private/* when req.lvl < 1
+rule add big deny doc:read /area44/private/* when req.lvl < 2
+rule add big deny doc:read /area45/private/* when req.lvl < 3
+rule add big deny doc:read /area46/private/* when req.lvl < 4
+rule add big deny doc:read /area47/private/* when req.lvl < 5
+rule add big deny doc:read /area48/private/* when req.lvl < 6
+rule add big deny doc:read /area49/private/* when req.lvl < 0
+rule add big deny doc:read /area50/private/* when req.lvl < 1
+rule add big deny doc:read /area51/private/* when req.lvl < 2
+rule add big deny doc:read /area52/private/* when req.lvl < 3
+rule add big deny doc:read /area53/private/* when req.lvl < 4
+rule add big deny doc:read /area54/private/* when req.lvl < 5
+rule add big deny doc:read /area55/private/* when req.lvl < 6
+rule add big deny doc:read /area56/private/* when req.lvl < 0
+rule add big deny doc:read /area57/private/* when req.lvl < 1
+rule add big deny doc:read /area58/private/* when req.lvl < 2
+rule add big deny doc:read /area59/private/* when req.lvl < 3
+rule add big deny doc:read /area60/private/* when req.lvl < 4
+rule add big deny doc:read /area61/private/* when req.lvl < 5
+rule add big deny doc:read /area62/private/* when req.lvl < 6
+rule add big deny doc:read /area63/private/* when req.lvl < 0
+rule add big deny doc:read /area64/private/* when req.lvl < 1
+rule add big deny doc:read /area65/private/* when req.lvl < 2
+rule add big deny doc:read /area66/private/* when req.lvl < 3
+rule add big deny doc:read /area67/private/* when req.lvl < 4
+rule add big deny doc:read /area68/private/* when req.lvl < 5
+rule add big deny doc:read /area69/private/* when req.lvl < 6
+rule add big deny doc:read /area70/private/* when req.lvl < 0
+rule add big deny doc:read /area71/private/* when req.lvl < 1
+rule add big deny doc:read /area72/private/* when req.lvl < 2
+rule add big deny doc:read /area73/private/* when req.lvl < 3
+rule add big deny doc:read /area74/private/* when req.lvl < 4
+rule add big deny doc:read /area75/private/* when req.lvl < 5
+rule add big deny doc:read /area76/private/* when req.lvl < 6
+rule add big deny doc:read /area77/private/* when req.lvl < 0
+rule add big deny doc:read /area78/private/* when req.lvl < 1
+rule add big deny doc:read /area79/private/* when req.lvl < 2
+rule add big deny doc:read /area80/private/* when req.lvl < 3
+rule add big deny doc:read /area81/private/* when req.lvl < 4
+rule add big deny doc:read /area82/private/* when req.lvl < 5
+rule add big deny doc:read /area83/private/* when req.lvl < 6
+rule add big deny doc:read /area84/private/* when req.lvl < 0
+rule add big deny doc:read /area85/private/* when req.lvl < 1
+rule add big deny doc:read /area86/private/* when req.lvl < 2
+rule add big deny doc:read /area87/private/* when req.lvl < 3
+rule add big deny doc:read /area88/private/* when req.lvl < 4
+rule add big deny doc:read /area89/private/* when req.lvl < 5
+rule add big deny doc:read /area90/private/* when req.lvl < 6
+rule add big deny doc:read /area91/private/* when req.lvl < 0
+rule add big deny doc:read /area92/private/* when req.lvl < 1
+rule add big deny doc:read /area93/private/* when req.lvl < 2
+rule add big deny doc:read /area94/private/* when req.lvl < 3
+rule add big deny doc:read /area95/private/* when req.lvl < 4
+rule add big deny doc:read /area96/private/* when req.lvl < 5
+rule add big deny doc:read /area97/private/* when req.lvl < 6
+rule add big deny doc:read /area98/private/* when req.lvl < 0
+rule add big deny doc:read /area99/private/* when req.lvl < 1
+rule add big deny doc:read /area100/private/* when req.lvl < 2
+rule add big deny doc:read /area101/private/* when req.lvl < 3
+rule add big deny doc:read /area102/private/* when req.lvl < 4
+rule add big deny doc:read /area103/private/* when req.lvl < 5
+rule add big deny doc:read /area104/private/* when req.lvl < 6
+rule add big deny doc:read /area105/private/* when req.lvl < 0
+rule add big deny doc:read /area106/private/* when req.lvl < 1
+rule add big deny doc:read /area107/private/* when req.lvl < 2
+rule add big deny doc:read /area108/private/* when req.lvl < 3
+rule add big deny doc:read /area109/private/* when req.lvl < 4
+rule add big deny doc:read /area110/private/* when req.lvl < 5
+rule add big deny doc:read /area111/private/* when req.lvl < 6
+rule add big deny doc:read /area112/private/* when req.lvl < 0
+rule add big deny doc:read /area113/private/* when req.lvl < 1
+rule add big deny doc:read /area114/private/* when req.lvl < 2
+rule add big deny doc:read /area115/private/* when req.lvl < 3
+rule add big deny doc:read /area116/private/* when req.lvl < 4
+rule add big deny doc:read /area117/private/* when req.lvl < 5
+rule add big deny doc:read /area118/private/* when req.lvl < 6
+rule add big deny doc:read /area119/private/* when req.lvl < 0
+rule add big deny doc:read /area120/private/* when req.lvl < 1
+rule add big deny doc:read /area121/private/* when req.lvl < 2
+rule add big deny doc:read /area122/private/* when req.lvl < 3
+rule add big deny doc:read /area123/private/* when req.lvl < 4
+rule add big deny doc:read /area124/private/* when req.lvl < 5
+rule add big deny doc:read /area125/private/* when req.lvl < 6
+rule add big deny doc:read /area126/private/* when req.lvl < 0
+rule add big deny doc:read /area127/private/* when req.lvl < 1
+rule add big deny doc:read /area128/private/* when req.lvl < 2
+rule add big deny doc:read /area129/private/* when req.lvl < 3
+rule add big deny doc:read /area130/private/* when req.lvl < 4
+rule add big deny doc:read /area131/private/* when req.lvl < 5
+rule add big deny doc:read /area132/private/* when req.lvl < 6
+rule add big deny doc:read /area133/private/* when req.lvl < 0
+rule add big deny doc:read /area134/private/* when req.lvl < 1
+rule add big deny doc:read /area135/private/* when req.lvl < 2
+rule add big deny doc:read /area136/private/* when req.lvl < 3
+rule add big deny doc:read /area137/private/* when req.lvl < 4
+rule add big deny doc:read /area138/private/* when req.lvl < 5
+rule add big deny doc:read /area139/private/* when req.lvl < 6
+rule add big deny doc:read /area140/private/* when req.lvl < 0
+rule add big deny doc:read /area141/private/* when req.lvl < 1
+rule add big deny doc:read /area142/private/* when req.lvl < 2
+rule add big deny doc:read /area143/private/* when req.lvl < 3
+rule add big deny doc:read /area144/private/* when req.lvl < 4
+rule add big deny doc:read /area145/private/* when req.lvl < 5
+rule add big deny doc:read /area146/private/* when req.lvl < 6
+rule add big deny doc:read /area147/private/* when req.lvl < 0
+rule add big deny doc:read /area148/private/* when req.lvl < 1
+rule add big deny doc:read /area149/private/* when req.lvl < 2
+check big u0 doc:read /area0/private/f lvl=0
+check big u1 doc:read /area1/private/f lvl=1
+check big u2 doc:read /area2/private/f lvl=2
+check big u3 doc:read /area3/private/f lvl=3
+check big u4 doc:read /area4/private/f lvl=4
+check big u5 doc:read /area5/private/f lvl=5
+check big u6 doc:read /area6/private/f lvl=6
+check big u7 doc:read /area7/private/f lvl=7
+check big u8 doc:read /area8/private/f lvl=8
+check big u9 doc:read /area9/private/f lvl=0
+check big u10 doc:read /area10/private/f lvl=1
+check big u11 doc:read /area11/private/f lvl=2
+check big u12 doc:read /area12/private/f lvl=3
+check big u13 doc:read /area13/private/f lvl=4
+check big u14 doc:read /area14/private/f lvl=5
+check big u15 doc:read /area15/private/f lvl=6
+check big u16 doc:read /area16/private/f lvl=7
+check big u17 doc:read /area17/private/f lvl=8
+check big u18 doc:read /area18/private/f lvl=0
+check big u19 doc:read /area19/private/f lvl=1
+check big u20 doc:read /area20/private/f lvl=2
+check big u21 doc:read /area21/private/f lvl=3
+check big u22 doc:read /area22/private/f lvl=4
+check big u23 doc:read /area23/private/f lvl=5
+check big u24 doc:read /area24/private/f lvl=6
+check big u25 doc:read /area25/private/f lvl=7
+check big u26 doc:read /area26/private/f lvl=8
+check big u27 doc:read /area27/private/f lvl=0
+check big u28 doc:read /area28/private/f lvl=1
+check big u29 doc:read /area29/private/f lvl=2
+check big u30 doc:read /area30/private/f lvl=3
+check big u31 doc:read /area31/private/f lvl=4
+check big u32 doc:read /area32/private/f lvl=5
+check big u33 doc:read /area33/private/f lvl=6
+check big u34 doc:read /area34/private/f lvl=7
+check big u35 doc:read /area35/private/f lvl=8
+check big u36 doc:read /area36/private/f lvl=0
+check big u37 doc:read /area37/private/f lvl=1
+check big u38 doc:read /area38/private/f lvl=2
+check big u39 doc:read /area39/private/f lvl=3
+check big u40 doc:read /area40/private/f lvl=4
+check big u41 doc:read /area41/private/f lvl=5
+check big u42 doc:read /area42/private/f lvl=6
+check big u43 doc:read /area43/private/f lvl=7
+check big u44 doc:read /area44/private/f lvl=8
+check big u45 doc:read /area45/private/f lvl=0
+check big u46 doc:read /area46/private/f lvl=1
+check big u47 doc:read /area47/private/f lvl=2
+check big u48 doc:read /area48/private/f lvl=3
+check big u49 doc:read /area49/private/f lvl=4
+check big u50 doc:read /area50/private/f lvl=5
+check big u51 doc:read /area51/private/f lvl=6
+check big u52 doc:read /area52/private/f lvl=7
+check big u53 doc:read /area53/private/f lvl=8
+check big u54 doc:read /area54/private/f lvl=0
+check big u55 doc:read /area55/private/f lvl=1
+check big u56 doc:read /area56/private/f lvl=2
+check big u57 doc:read /area57/private/f lvl=3
+check big u58 doc:read /area58/private/f lvl=4
+check big u59 doc:read /area59/private/f lvl=5
+check big u60 doc:read /area60/private/f lvl=6
+check big u61 doc:read /area61/private/f lvl=7
+check big u62 doc:read /area62/private/f lvl=8
+check big u63 doc:read /area63/private/f lvl=0
+check big u64 doc:read /area64/private/f lvl=1
+check big u65 doc:read /area65/private/f lvl=2
+check big u66 doc:read /area66/private/f lvl=3
+check big u67 doc:read /area67/private/f lvl=4
+check big u68 doc:read /area68/private/f lvl=5
+check big u69 doc:read /area69/private/f lvl=6
+check big u70 doc:read /area70/private/f lvl=7
+check big u71 doc:read /area71/private/f lvl=8
+check big u72 doc:read /area72/private/f lvl=0
+check big u73 doc:read /area73/private/f lvl=1
+check big u74 doc:read /area74/private/f lvl=2
+check big u75 doc:read /area75/private/f lvl=3
+check big u76 doc:read /area76/private/f lvl=4
+check big u77 doc:read /area77/private/f lvl=5
+check big u78 doc:read /area78/private/f lvl=6
+check big u79 doc:read /area79/private/f lvl=7
+check big u80 doc:read /area80/private/f lvl=8
+check big u81 doc:read /area81/private/f lvl=0
+check big u82 doc:read /area82/private/f lvl=1
+check big u83 doc:read /area83/private/f lvl=2
+check big u84 doc:read /area84/private/f lvl=3
+check big u85 doc:read /area85/private/f lvl=4
+check big u86 doc:read /area86/private/f lvl=5
+check big u87 doc:read /area87/private/f lvl=6
+check big u88 doc:read /area88/private/f lvl=7
+check big u89 doc:read /area89/private/f lvl=8
+check big u90 doc:read /area90/private/f lvl=0
+check big u91 doc:read /area91/private/f lvl=1
+check big u92 doc:read /area92/private/f lvl=2
+check big u93 doc:read /area93/private/f lvl=3
+check big u94 doc:read /area94/private/f lvl=4
+check big u95 doc:read /area95/private/f lvl=5
+check big u96 doc:read /area96/private/f lvl=6
+check big u97 doc:read /area97/private/f lvl=7
+check big u98 doc:read /area98/private/f lvl=8
+check big u99 doc:read /area99/private/f lvl=0
+check big u100 doc:read /area100/private/f lvl=1
+check big u101 doc:read /area101/private/f lvl=2
+check big u102 doc:read /area102/private/f lvl=3
+check big u103 doc:read /area103/private/f lvl=4
+check big u104 doc:read /area104/private/f lvl=5
+check big u105 doc:read /area105/private/f lvl=6
+check big u106 doc:read /area106/private/f lvl=7
+check big u107 doc:read /area107/private/f lvl=8
+check big u108 doc:read /area108/private/f lvl=0
+check big u109 doc:read /area109/private/f lvl=1
+check big u110 doc:read /area110/private/f lvl=2
+check big u111 doc:read /area111/private/f lvl=3
+check big u112 doc:read /area112/private/f lvl=4
+check big u113 doc:read /area113/private/f lvl=5
+check big u114 doc:read /area114/private/f lvl=6
+check big u115 doc:read /area115/private/f lvl=7
+check big u116 doc:read /area116/private/f lvl=8
+check big u117 doc:read /area117/private/f lvl=0
+check big u118 doc:read /area118/private/f lvl=1
+check big u119 doc:read /area119/private/f lvl=2
+check big u120 doc:read /area120/private/f lvl=3
+check big u121 doc:read /area121/private/f lvl=4
+check big u122 doc:read /area122/private/f lvl=5
+check big u123 doc:read /area123/private/f lvl=6
+check big u124 doc:read /area124/private/f lvl=7
+check big u125 doc:read /area125/private/f lvl=8
+check big u126 doc:read /area126/private/f lvl=0
+check big u127 doc:read /area127/private/f lvl=1
+check big u128 doc:read /area128/private/f lvl=2
+check big u129 doc:read /area129/private/f lvl=3
+check big u130 doc:read /area130/private/f lvl=4
+check big u131 doc:read /area131/private/f lvl=5
+check big u132 doc:read /area132/private/f lvl=6
+check big u133 doc:read /area133/private/f lvl=7
+check big u134 doc:read /area134/private/f lvl=8
+check big u135 doc:read /area135/private/f lvl=0
+check big u136 doc:read /area136/private/f lvl=1
+check big u137 doc:read /area137/private/f lvl=2
+check big u138 doc:read /area138/private/f lvl=3
+check big u139 doc:read /area139/private/f lvl=4
+check big u140 doc:read /area140/private/f lvl=5
+check big u141 doc:read /area141/private/f lvl=6
+check big u142 doc:read /area142/private/f lvl=7
+check big u143 doc:read /area143/private/f lvl=8
+check big u144 doc:read /area144/private/f lvl=0
+check big u145 doc:read /area145/private/f lvl=1
+check big u146 doc:read /area146/private/f lvl=2
+check big u147 doc:read /area147/private/f lvl=3
+check big u148 doc:read /area148/private/f lvl=4
+check big u149 doc:read /area149/private/f lvl=5
+check big u150 doc:read /area0/private/f lvl=6
+check big u151 doc:read /area1/private/f lvl=7
+check big u152 doc:read /area2/private/f lvl=8
+check big u153 doc:read /area3/private/f lvl=0
+check big u154 doc:read /area4/private/f lvl=1
+check big u155 doc:read /area5/private/f lvl=2
+check big u156 doc:read /area6/private/f lvl=3
+check big u157 doc:read /area7/private/f lvl=4
+check big u158 doc:read /area8/private/f lvl=5
+check big u159 doc:read /area9/private/f lvl=6
+check big u160 doc:read /area10/private/f lvl=7
+check big u161 doc:read /area11/private/f lvl=8
+check big u162 doc:read /area12/private/f lvl=0
+check big u163 doc:read /area13/private/f lvl=1
+check big u164 doc:read /area14/private/f lvl=2
+check big u165 doc:read /area15/private/f lvl=3
+check big u166 doc:read /area16/private/f lvl=4
+check big u167 doc:read /area17/private/f lvl=5
+check big u168 doc:read /area18/private/f lvl=6
+check big u169 doc:read /area19/private/f lvl=7
+check big u170 doc:read /area20/private/f lvl=8
+check big u171 doc:read /area21/private/f lvl=0
+check big u172 doc:read /area22/private/f lvl=1
+check big u173 doc:read /area23/private/f lvl=2
+check big u174 doc:read /area24/private/f lvl=3
+check big u175 doc:read /area25/private/f lvl=4
+check big u176 doc:read /area26/private/f lvl=5
+check big u177 doc:read /area27/private/f lvl=6
+check big u178 doc:read /area28/private/f lvl=7
+check big u179 doc:read /area29/private/f lvl=8
+check big u180 doc:read /area30/private/f lvl=0
+check big u181 doc:read /area31/private/f lvl=1
+check big u182 doc:read /area32/private/f lvl=2
+check big u183 doc:read /area33/private/f lvl=3
+check big u184 doc:read /area34/private/f lvl=4
+check big u185 doc:read /area35/private/f lvl=5
+check big u186 doc:read /area36/private/f lvl=6
+check big u187 doc:read /area37/private/f lvl=7
+check big u188 doc:read /area38/private/f lvl=8
+check big u189 doc:read /area39/private/f lvl=0
+check big u190 doc:read /area40/private/f lvl=1
+check big u191 doc:read /area41/private/f lvl=2
+check big u192 doc:read /area42/private/f lvl=3
+check big u193 doc:read /area43/private/f lvl=4
+check big u194 doc:read /area44/private/f lvl=5
+check big u195 doc:read /area45/private/f lvl=6
+check big u196 doc:read /area46/private/f lvl=7
+check big u197 doc:read /area47/private/f lvl=8
+check big u198 doc:read /area48/private/f lvl=0
+check big u199 doc:read /area49/private/f lvl=1
+check big u200 doc:read /area50/private/f lvl=2
+check big u201 doc:read /area51/private/f lvl=3
+check big u202 doc:read /area52/private/f lvl=4
+check big u203 doc:read /area53/private/f lvl=5
+check big u204 doc:read /area54/private/f lvl=6
+check big u205 doc:read /area55/private/f lvl=7
+check big u206 doc:read /area56/private/f lvl=8
+check big u207 doc:read /area57/private/f lvl=0
+check big u208 doc:read /area58/private/f lvl=1
+check big u209 doc:read /area59/private/f lvl=2
+check big u210 doc:read /area60/private/f lvl=3
+check big u211 doc:read /area61/private/f lvl=4
+check big u212 doc:read /area62/private/f lvl=5
+check big u213 doc:read /area63/private/f lvl=6
+check big u214 doc:read /area64/private/f lvl=7
+check big u215 doc:read /area65/private/f lvl=8
+check big u216 doc:read /area66/private/f lvl=0
+check big u217 doc:read /area67/private/f lvl=1
+check big u218 doc:read /area68/private/f lvl=2
+check big u219 doc:read /area69/private/f lvl=3
+check big u220 doc:read /area70/private/f lvl=4
+check big u221 doc:read /area71/private/f lvl=5
+check big u222 doc:read /area72/private/f lvl=6
+check big u223 doc:read /area73/private/f lvl=7
+check big u224 doc:read /area74/private/f lvl=8
+check big u225 doc:read /area75/private/f lvl=0
+check big u226 doc:read /area76/private/f lvl=1
+check big u227 doc:read /area77/private/f lvl=2
+check big u228 doc:read /area78/private/f lvl=3
+check big u229 doc:read /area79/private/f lvl=4
+check big u230 doc:read /area80/private/f lvl=5
+check big u231 doc:read /area81/private/f lvl=6
+check big u232 doc:read /area82/private/f lvl=7
+check big u233 doc:read /area83/private/f lvl=8
+check big u234 doc:read /area84/private/f lvl=0
+check big u235 doc:read /area85/private/f lvl=1
+check big u236 doc:read /area86/private/f lvl=2
+check big u237 doc:read /area87/private/f lvl=3
+check big u238 doc:read /area88/private/f lvl=4
+check big u239 doc:read /area89/private/f lvl=5
+check big u240 doc:read /area90/private/f lvl=6
+check big u241 doc:read /area91/private/f lvl=7
+check big u242 doc:read /area92/private/f lvl=8
+check big u243 doc:read /area93/private/f lvl=0
+check big u244 doc:read /area94/private/f lvl=1
+check big u245 doc:read /area95/private/f lvl=2
+check big u246 doc:read /area96/private/f lvl=3
+check big u247 doc:read /area97/private/f lvl=4
+check big u248 doc:read /area98/private/f lvl=5
+check big u249 doc:read /area99/private/f lvl=6
+stats
+log show 3
+report csv

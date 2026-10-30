@@ -1,0 +1,9 @@
+config default cache.capacity=4KiB
+tenant acme plan=free
+key acme.k issued expires=never
+ok 200 miss 5000B blob tenant=acme size=5000
+ok 200 miss 5000B blob tenant=acme size=5000
+ok 200 miss 4096B blob tenant=acme size=4096
+ok 200 hit 4096B blob tenant=acme size=4096
+cache entries=1 used=4KiB capacity=4KiB hits=1 misses=3 evictions=0
+entry acme GET /v1/blob?size=4096 size=4KiB expires=30000 hits=1

@@ -1,0 +1,52 @@
+OK set base
+OK set prod
+OK set admin
+OK set ops
+OK attr ann.dept
+OK attr ann.role
+OK attr bob.dept
+OK attr bob.role
+OK attr cy.dept
+OK attr cy.role
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+CLOCK 50
+OK secret deploy
+DECISION allow by=R5 steps=3
+DECISION deny by=R6 steps=2 note: R6: unknown name req.change
+DECISION allow by=R5 steps=0
+#1 t=50 ops cy ops:restart /svc/core/api -> allow by=R5 steps=3 [change=approved; ticket=T-17]
+#2 t=50 ops cy ops:restart /svc/core/db -> deny by=R6 steps=2 note: R6: unknown name req.change [token=[secret:deploy]]
+#3 t=50 ops bob ops:status /svc/web -> allow by=R5 steps=0 [ticket=T-18]
+#1 t=50 ops cy ops:restart /svc/core/api -> allow by=R5 steps=3 [change=approved; ticket=T-17]
+#2 t=50 ops cy ops:restart /svc/core/db -> deny by=R6 steps=2 note: R6: unknown name req.change [token=[secret:deploy]]
+#3 t=50 ops bob ops:status /svc/web -> allow by=R5 steps=0 [ticket=T-18]
+-- 3 decisions, 66.7% allowed
+{"seq":1,"time":50,"set":"ops","subject":"cy","action":"ops:restart","resource":"/svc/core/api","effect":"allow","by":"R5","steps":3,"note":"","context":"change=approved; ticket=T-17"}
+{"seq":2,"time":50,"set":"ops","subject":"cy","action":"ops:restart","resource":"/svc/core/db","effect":"deny","by":"R6","steps":2,"note":"R6: unknown name req.change","context":"token=[secret:deploy]"}
+{"seq":3,"time":50,"set":"ops","subject":"bob","action":"ops:status","resource":"/svc/web","effect":"allow","by":"R5","steps":0,"note":"","context":"ticket=T-18"}
+{"decisions":3,"allowed_pct":"66.7"}
+seq,time,set,subject,action,resource,effect,by,steps,note,context
+1,50,ops,cy,ops:restart,/svc/core/api,allow,R5,3,,change=approved; ticket=T-17
+2,50,ops,cy,ops:restart,/svc/core/db,deny,R6,2,R6: unknown name req.change,token=[secret:deploy]
+3,50,ops,bob,ops:status,/svc/web,allow,R5,0,,ticket=T-18
+<table class="decisions">
+<tr><th>seq</th><th>time</th><th>set</th><th>subject</th><th>action</th><th>resource</th><th>effect</th><th>by</th><th>steps</th><th>note</th><th>context</th></tr>
+<tr><td class="seq">1</td><td class="time">50</td><td class="set">ops</td><td class="subject">cy</td><td class="action">ops:restart</td><td class="resource">/svc/core/api</td><td class="effect">allow</td><td class="by">R5</td><td class="steps">3</td><td class="note">-</td><td class="context">change=approved; ticket=T-17</td></tr>
+<tr><td class="seq">2</td><td class="time">50</td><td class="set">ops</td><td class="subject">cy</td><td class="action">ops:restart</td><td class="resource">/svc/core/db</td><td class="effect">deny</td><td class="by">R6</td><td class="steps">2</td><td class="note">R6: unknown name req.change</td><td class="context">token=[secret:deploy]</td></tr>
+<tr><td class="seq">3</td><td class="time">50</td><td class="set">ops</td><td class="subject">bob</td><td class="action">ops:status</td><td class="resource">/svc/web</td><td class="effect">allow</td><td class="by">R5</td><td class="steps">0</td><td class="note">-</td><td class="context">ticket=T-18</td></tr>
+<tr class="summary"><td colspan="11">3 decisions, 66.7% allowed</td></tr>
+</table>
+OK template brief
+1 CY allow change=approved; ticket=T-17
+2 CY deny token=[secret:deploy]
+3 BOB allow ticket=T-18
+ALL decisions=3 allow=2 deny=1 allowed=66.7% avg_steps=2
+SET admin decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+SET base decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+SET ops decisions=3 allow=2 deny=1 allowed=66.7% avg_steps=2
+SET prod decisions=0 allow=0 deny=0 allowed=- avg_steps=-

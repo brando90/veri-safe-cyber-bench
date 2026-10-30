@@ -1,0 +1,16 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set dispatch.batch 3
+set-for rx dispatch.per_recipient 2
+set frag.size_bytes 8
+send q1 alice rx sixteen bytes!!
+send q2 bob rx another sixteen..
+send q3 cora ny eight by
+advance 4s
+set dispatch.interval_ms 250
+send q4 alice tokyo twenty four bytes long!
+advance 1s

@@ -1,0 +1,14 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+send x1 alice rx plain, with comma
+send x2 alice rx she said "hi"
+send x3 alice rx tab	inside
+send x4 bob ny semi;colon and 'single'
+advance 5s
+export deliveries
+export deliveries ny
+export audit

@@ -1,0 +1,11 @@
+tenant acme plan=free
+key acme.k issued expires=never
+config tenant:acme cache.ttl=0s
+ok 200 off 1100B blob tenant=acme size=1100
+ok 200 off 1100B blob tenant=acme size=1100
+ok 200 off 1100B blob tenant=acme size=1100
+bill acme plan=free
+  api 3 x 2000mc = 0.06
+  jobs 0 x 2000mc = 0.00
+  egress 6KiB x 500mc = 0.03
+  total 0.09

@@ -1,0 +1,20 @@
+OK set beta
+OK set alpha
+CLOCK 10
+DECISION deny by=default steps=0
+DECISION deny by=default steps=0
+DECISION deny by=default steps=0
+CLOCK 20
+DECISION deny by=default steps=0
+#1 t=10 beta ann doc:read /docs/a -> deny by=default steps=0
+#2 t=10 alpha bob doc:read /docs/b -> deny by=default steps=0
+#3 t=10 beta cy doc:read /docs/c -> deny by=default steps=0
+#4 t=20 alpha ann doc:read /docs/d -> deny by=default steps=0
+#2 t=10 alpha bob doc:read /docs/b -> deny by=default steps=0
+#3 t=10 beta cy doc:read /docs/c -> deny by=default steps=0
+#4 t=20 alpha ann doc:read /docs/d -> deny by=default steps=0
+seq,time,set,subject,action,resource,effect,by,steps,note,context
+1,10,beta,ann,doc:read,/docs/a,deny,default,0,,
+2,10,alpha,bob,doc:read,/docs/b,deny,default,0,,
+3,10,beta,cy,doc:read,/docs/c,deny,default,0,,
+4,20,alpha,ann,doc:read,/docs/d,deny,default,0,,

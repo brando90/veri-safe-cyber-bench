@@ -1,0 +1,4 @@
+tenant add acme
+config load tenant:acme webhook.url=https://hooks.example/a webhook.secret=wh-5521
+audit acme event=config
+audit export acme format=jsonl

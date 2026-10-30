@@ -1,0 +1,16 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+# one sender, fragmented messages, two recipients
+send m1 alice rx Hello from alice, this body needs two fragments.
+send m2 alice ny Short note.
+send m3 bob tokyo prio=high Status report: all systems nominal.
+advance 5s
+inbox rx
+inbox tokyo
+show m1
+history m3
+now

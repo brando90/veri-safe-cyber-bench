@@ -1,0 +1,21 @@
+OK set base
+OK set prod
+OK set admin
+OK set ops
+OK attr ann.dept
+OK attr ann.role
+OK attr bob.dept
+OK attr bob.role
+OK attr cy.dept
+OK attr cy.role
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+CLOCK 1000
+OK A1 pending until=1600
+CLOCK 1600
+ERROR approval: A1 has expired
+A1 expired bob doc:write /docs/team/*

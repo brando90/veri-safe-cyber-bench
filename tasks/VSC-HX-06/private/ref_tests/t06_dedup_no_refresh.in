@@ -1,0 +1,16 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set dedup.window_s 100
+send d1 alice rx same text
+advance 60s
+send d2 alice rx same text
+advance 50s
+send d3 alice rx same text
+send d4 alice ny same text
+send d5 bob rx same text
+advance 10s
+stats

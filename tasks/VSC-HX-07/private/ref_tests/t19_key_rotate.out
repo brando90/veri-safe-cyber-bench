@@ -1,0 +1,16 @@
+tenant acme plan=free
+key acme.k issued expires=3600000
+ok 200 miss 256B me tenant=acme key=k label=-
+key acme.k rotated
+deny auth bad-secret cred=acme.k.***
+ok 200 hit 256B me tenant=acme key=k label=-
+key acme.k revoked
+error: key: acme.k is revoked
+key acme.k state=revoked issued=0 expires=3600000 label=""
+key acme.k remaining=1h
+key acme.k revoked_at=0
+key acme.k queued_jobs=0 nonces=0
+error: key: unknown key acme.zz
+#2 t=0 acme key.issue key=k expires=3600000 label=""
+#4 t=0 acme key.rotate key=k
+#7 t=0 acme key.revoke key=k

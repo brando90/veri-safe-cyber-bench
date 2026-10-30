@@ -1,0 +1,23 @@
+ERROR sender: sender alice exists
+ERROR sender: bad sender name Zed
+ERROR sender: unknown plan gold
+ERROR recipient: bad offset +15:00
+ERROR send: usage: send ID SENDER RECIPIENT [prio=P] [ttl=DURATION] [after=DURATION] TEXT
+ERROR send: bad priority extreme
+ERROR send: bad message id bad/id
+ERROR send: bad ttl 0s
+ERROR send: repeated option prio
+d0 00:00:00.000 ACCEPT m1 alice->rx prio=normal frags=1 size=2 ttl=3600s
+ERROR send: message id m1 already used
+ERROR advance: bad duration soon
+d0 00:00:01.000 SEND m1 1/1 alice->rx ok
+d0 00:00:01.000 DONE m1 alice->rx size=2 cost=0.02
+ERROR at: d0 00:00:01.000 is before now (d0 00:00:02.000)
+ERROR link: usage: link RECIPIENT ok | fail N | lost N | busy N SECONDS
+d0 00:00:02.000 ACCEPT z1 alice->rx prio=normal frags=1 size=7 ttl=3600s
+ERROR batch: line 2: usage: ID TEXT
+ERROR batch: line 3: message id z1 already used
+d0 00:00:03.000 SEND z1 1/1 alice->rx ok
+d0 00:00:03.000 DONE z1 alice->rx size=7 cost=0.02
+#5 d0 00:00:00.000 recipient name=ny tz=-05:00
+#6 d0 00:00:00.000 recipient name=tokyo tz=+09:00

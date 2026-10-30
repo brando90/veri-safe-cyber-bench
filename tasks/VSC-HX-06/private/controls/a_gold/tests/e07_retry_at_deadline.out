@@ -1,0 +1,6 @@
+d0 00:00:00.000 ACCEPT t1 alice->rx prio=normal frags=1 size=11 ttl=3s
+d0 00:00:01.000 SEND t1 1/1 alice->rx fail
+d0 00:00:01.000 EXPIRE t1
+message t1 alice->rx prio=normal state=expired size=11 frags=1 via=send
+accepted=d0 00:00:00.000 deadline=d0 00:00:03.000 started=- finished=d0 00:00:01.000
+fragment 1/1 bytes=11 attempts=1 acked=no

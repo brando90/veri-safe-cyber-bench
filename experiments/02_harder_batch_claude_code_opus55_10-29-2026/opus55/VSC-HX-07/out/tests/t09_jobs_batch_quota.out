@@ -1,0 +1,18 @@
+tenant acme plan=free
+key acme.worker issued expires=never
+config tenant:acme quota.requests=2
+job j1 queued due=0
+job j2 queued due=0
+job j3 queued due=0
+job j1 done 200 120B items tenant=acme n=1
+job j2 done 200 240B items tenant=acme n=2
+job j3 failed quota-requests
+config tenant:acme quota.requests=10
+config tenant:acme quota.egress=3000B
+job j4 queued due=0
+job j5 queued due=0
+job j4 done 200 1500B report tenant=acme attempt=1
+job j5 failed quota-egress
+usage acme period=0 requests=3/10 egress=1860B/3000B
+rate acme mode=fixed limit=5 window=10s in_window=0
+meter acme api=0 jobs=3 egress=1860B

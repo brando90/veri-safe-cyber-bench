@@ -1,0 +1,97 @@
+set create base
+set create prod parent=base
+set create admin mode=admin
+set create ops parent=admin
+attr set ann dept hr
+attr set ann role editor
+attr set bob dept eng
+attr set bob role viewer
+attr set cy dept eng
+attr set cy role editor
+rule add base allow doc:read /docs/**
+rule add base deny doc:* /docs/hr/** when subject.dept != "hr"
+rule add prod allow doc:write /docs/team/* when subject.role == "editor"
+rule add admin override doc:* /docs/hr/audit/** when subject.id == "auditor"
+rule add ops allow ops:* /svc/**
+rule add ops deny ops:restart /svc/core/* when req.change != "approved"
+check prod bob doc:read /docs/a
+check prod bob doc:read /docs/hr/x0
+check prod bob doc:read /docs/hr/x1
+check prod bob doc:read /docs/hr/x2
+check prod bob doc:read /docs/hr/x3
+check prod bob doc:read /docs/hr/x4
+check prod bob doc:read /docs/hr/x5
+check prod bob doc:read /docs/hr/x6
+check prod bob doc:read /docs/hr/x7
+check prod bob doc:read /docs/hr/x8
+check prod bob doc:read /docs/hr/x9
+check prod bob doc:read /docs/hr/x10
+check prod bob doc:read /docs/hr/x11
+check prod bob doc:read /docs/hr/x12
+check prod bob doc:read /docs/hr/x13
+check prod bob doc:read /docs/hr/x14
+check prod bob doc:read /docs/hr/x15
+check prod bob doc:read /docs/hr/x16
+check prod bob doc:read /docs/hr/x17
+check prod bob doc:read /docs/hr/x18
+check prod bob doc:read /docs/hr/x19
+check prod bob doc:read /docs/hr/x20
+check prod bob doc:read /docs/hr/x21
+check prod bob doc:read /docs/hr/x22
+check prod bob doc:read /docs/hr/x23
+check prod bob doc:read /docs/hr/x24
+check prod bob doc:read /docs/hr/x25
+check prod bob doc:read /docs/hr/x26
+check prod bob doc:read /docs/hr/x27
+check prod bob doc:read /docs/hr/x28
+check prod bob doc:read /docs/hr/x29
+check prod bob doc:read /docs/hr/x30
+check prod bob doc:read /docs/hr/x31
+check prod bob doc:read /docs/hr/x32
+check prod bob doc:read /docs/hr/x33
+check prod bob doc:read /docs/hr/x34
+check prod bob doc:read /docs/hr/x35
+check prod bob doc:read /docs/hr/x36
+check prod bob doc:read /docs/hr/x37
+check prod bob doc:read /docs/hr/x38
+check prod bob doc:read /docs/hr/x39
+check prod bob doc:read /docs/hr/x40
+check prod bob doc:read /docs/hr/x41
+check prod bob doc:read /docs/hr/x42
+check prod bob doc:read /docs/hr/x43
+check prod bob doc:read /docs/hr/x44
+check prod bob doc:read /docs/hr/x45
+check prod bob doc:read /docs/hr/x46
+check prod bob doc:read /docs/hr/x47
+check prod bob doc:read /docs/hr/x48
+check prod bob doc:read /docs/hr/x49
+check prod bob doc:read /docs/hr/x50
+check prod bob doc:read /docs/hr/x51
+check prod bob doc:read /docs/hr/x52
+check prod bob doc:read /docs/hr/x53
+check prod bob doc:read /docs/hr/x54
+check prod bob doc:read /docs/hr/x55
+check prod bob doc:read /docs/hr/x56
+check prod bob doc:read /docs/hr/x57
+check prod bob doc:read /docs/hr/x58
+check prod bob doc:read /docs/hr/x59
+check prod bob doc:read /docs/hr/x60
+check prod bob doc:read /docs/hr/x61
+check prod bob doc:read /docs/hr/x62
+check prod bob doc:read /docs/hr/x63
+check prod bob doc:read /docs/hr/x64
+check prod bob doc:read /docs/hr/x65
+check prod bob doc:read /docs/hr/x66
+check prod bob doc:read /docs/hr/x67
+check prod bob doc:read /docs/hr/x68
+check prod bob doc:read /docs/hr/x69
+check prod bob doc:read /docs/hr/x70
+check prod bob doc:read /docs/hr/x71
+check prod bob doc:read /docs/hr/x72
+check prod bob doc:read /docs/hr/x73
+check prod bob doc:read /docs/hr/x74
+check prod bob doc:read /docs/hr/x75
+check prod bob doc:read /docs/hr/x76
+check prod bob doc:read /docs/hr/x77
+check prod bob doc:read /docs/hr/x78
+report json

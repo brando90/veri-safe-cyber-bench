@@ -1,0 +1,7 @@
+tenant add acme
+key issue acme k secret=Be11be22be
+config set tenant:acme cache.ttl 0
+req acme.k.Be11be22be GET /v1/blob q.size=1100
+req acme.k.Be11be22be GET /v1/blob q.size=1100
+req acme.k.Be11be22be GET /v1/blob q.size=1100
+bill acme

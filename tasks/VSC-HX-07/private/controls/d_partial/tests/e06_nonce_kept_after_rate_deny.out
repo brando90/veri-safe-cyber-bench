@@ -1,0 +1,8 @@
+tenant acme plan=free
+key acme.k issued expires=never
+config tenant:acme rate.limit=1
+ok 200 miss 600B items tenant=acme n=5
+deny rate retry_after=10
+now=10000
+ok 200 hit 600B items tenant=acme n=5
+nonces acme.k a1 a2

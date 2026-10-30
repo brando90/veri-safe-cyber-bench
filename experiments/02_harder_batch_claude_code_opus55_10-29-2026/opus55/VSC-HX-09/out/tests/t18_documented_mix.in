@@ -1,0 +1,23 @@
+set create base
+set create prod parent=base
+rule add base allow doc:read /docs/**
+rule add base deny doc:* /docs/hr/** when subject.dept != "hr"
+rule add prod allow doc:write /docs/team/* when subject.role == "editor"
+attr set ann dept hr
+attr set cy role editor
+clock set 30
+check prod ann doc:read /docs/hr/a
+check base cy doc:read /docs/hr/b
+check prod cy doc:write /docs/team/plan
+check prod cy doc:write /docs/teamx/plan
+approve request cy doc:read /docs/hr/** 1h
+approve grant A1 ann
+clock advance 59m
+approve list
+check prod cy doc:read /docs/hr/b
+log filter resource=/docs/hr/**
+log filter action=doc:*
+log replay 2
+report csv
+stats
+lint prod

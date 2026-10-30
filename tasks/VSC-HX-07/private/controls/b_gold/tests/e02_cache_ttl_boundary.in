@@ -1,0 +1,9 @@
+tenant add acme
+key issue acme k secret=Ca11ca22ca
+config set tenant:acme rate.limit 50
+req acme.k.Ca11ca22ca GET /v1/items
+clock set 29999
+req acme.k.Ca11ca22ca GET /v1/items
+clock set 30000
+req acme.k.Ca11ca22ca GET /v1/items
+cache list

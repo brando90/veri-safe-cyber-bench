@@ -1,0 +1,30 @@
+tenant acme plan=free
+key acme.k issued expires=never
+config tenant:acme rate.window=1m
+ok 200 miss 120B items tenant=acme n=1
+ok 200 miss 240B items tenant=acme n=2
+ok 200 miss 360B items tenant=acme n=3
+ok 200 miss 480B items tenant=acme n=4
+ok 200 miss 600B items tenant=acme n=5
+deny rate retry_after=60
+tenant acme plan=basic
+ok 200 miss 720B items tenant=acme n=6
+usage acme period=0 requests=6/5000 egress=2520B/1MiB
+rate acme mode=fixed limit=20 window=1m in_window=6
+meter acme api=6 jobs=0 egress=2520B
+tenant acme plan=pro
+rate acme mode=sliding limit=50 window=1m in_window=6
+accepted t=0
+accepted t=0
+accepted t=0
+accepted t=0
+accepted t=0
+accepted t=0
+bill acme plan=pro
+  api 6 x 1000mc = 0.06
+  jobs 0 x 1000mc = 0.00
+  egress 6KiB x 250mc = 0.02
+  total 0.08
+plan basic title=Basic tenants=0
+plan free title=Free tenants=0
+plan pro title=Pro tenants=1

@@ -1,0 +1,18 @@
+OK cond c1
+OK cond c2
+OK cond c3
+OK cond c4
+OK cond c5
+OK cond c6
+OK cond c7
+OK cond c8
+OK cond c9
+OK cond c10
+RESULT true steps=25
+ERROR budget: conditions nested deeper than 8 at @c1
+OK set base
+OK R1
+OK R2
+DECISION deny by=budget steps=42 note: conditions nested deeper than 8 at @c2
+R1 allow set=base cond=true
+R2 deny set=base cond=budget

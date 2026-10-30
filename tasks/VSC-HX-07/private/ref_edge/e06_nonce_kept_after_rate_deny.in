@@ -1,0 +1,8 @@
+tenant add acme
+key issue acme k secret=Nr11nr22nr
+config set tenant:acme rate.limit 1
+req acme.k.Nr11nr22nr GET /v1/items nonce=a1 ts=0
+req acme.k.Nr11nr22nr GET /v1/items nonce=a2 ts=0
+clock set 10s
+req acme.k.Nr11nr22nr GET /v1/items nonce=a2 ts=10
+nonce list acme k

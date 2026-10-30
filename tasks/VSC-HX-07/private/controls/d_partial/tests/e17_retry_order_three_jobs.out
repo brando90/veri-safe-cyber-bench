@@ -1,0 +1,13 @@
+tenant acme plan=free
+key acme.w issued expires=never
+job j1 queued due=0
+job j2 queued due=0
+job j3 queued due=1000
+job j4 queued due=1000
+job j1 retry attempt=1 next=1000
+job j2 retry attempt=1 next=1000
+now=1000
+job j4 done 200 2048B catalog items=12 rev=3
+job j1 done 200 1500B report tenant=acme attempt=2
+job j2 done 200 1500B report tenant=acme attempt=2
+job j3 done 200 1500B report tenant=acme attempt=1

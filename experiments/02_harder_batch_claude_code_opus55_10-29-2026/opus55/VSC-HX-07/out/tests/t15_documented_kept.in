@@ -1,0 +1,18 @@
+# documented behaviour: shared cache, nonces per key, sliding retry_after
+tenant add acme plan=pro
+tenant add bolt plan=pro
+key issue acme main secret=Kq7m2PzW9a
+key issue bolt main secret=Zr55plmQ01
+config set tenant:acme rate.limit 2
+req acme.main.Kq7m2PzW9a GET /v1/catalog nonce=x ts=0
+req bolt.main.Zr55plmQ01 GET /v1/catalog nonce=x ts=0
+clock set 20s
+req acme.main.Kq7m2PzW9a GET /v1/items q.n=2 nonce=y ts=20
+req acme.main.Kq7m2PzW9a GET /v1/items q.n=2 nonce=z ts=20
+clock set 59999
+req acme.main.Kq7m2PzW9a GET /v1/items q.n=2
+clock set 60000
+req acme.main.Kq7m2PzW9a GET /v1/items q.n=2
+req bolt.main.Zr55plmQ01 GET /v1/items q.n=2
+cache list
+check

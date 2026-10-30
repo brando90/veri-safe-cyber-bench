@@ -1,0 +1,16 @@
+tenant add acme
+key issue acme k secret=Qq11qq22qq
+config set tenant:acme quota.requests 3
+config set tenant:acme quota.egress 3000
+config set tenant:acme rate.limit 100
+req acme.k.Qq11qq22qq GET /v1/blob q.size=1000
+req acme.k.Qq11qq22qq GET /v1/blob q.size=1000
+req acme.k.Qq11qq22qq GET /v1/blob q.size=1001
+req acme.k.Qq11qq22qq GET /v1/blob q.size=1000
+req acme.k.Qq11qq22qq GET /v1/items q.n=1
+usage acme
+config set tenant:acme quota.period 1h
+req acme.k.Qq11qq22qq GET /v1/items q.n=1
+usage acme
+clock set 1h
+usage acme

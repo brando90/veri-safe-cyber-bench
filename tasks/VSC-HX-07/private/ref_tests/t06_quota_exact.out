@@ -1,0 +1,22 @@
+tenant acme plan=free
+key acme.k issued expires=never
+config tenant:acme quota.requests=3
+config tenant:acme quota.egress=3000B
+config tenant:acme rate.limit=100
+ok 200 miss 1000B blob tenant=acme size=1000
+ok 200 hit 1000B blob tenant=acme size=1000
+deny quota-egress
+ok 200 hit 1000B blob tenant=acme size=1000
+deny quota-requests
+usage acme period=0 requests=3/3 egress=3000B/3000B
+rate acme mode=fixed limit=100 window=10s in_window=3
+meter acme api=3 jobs=0 egress=3000B
+config tenant:acme quota.period=1h
+ok 200 miss 120B items tenant=acme n=1
+usage acme period=0 requests=1/3 egress=120B/3000B
+rate acme mode=fixed limit=100 window=10s in_window=4
+meter acme api=4 jobs=0 egress=3120B
+now=3600000
+usage acme period=1 requests=0/3 egress=0B/3000B
+rate acme mode=fixed limit=100 window=10s in_window=0
+meter acme api=4 jobs=0 egress=3120B

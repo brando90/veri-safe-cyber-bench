@@ -1,0 +1,51 @@
+config
+breaker.pause_s 30 s default
+breaker.threshold 3 count default
+dedup.window_s 300 s default
+dispatch.batch 4 count default
+dispatch.interval_ms 1000 ms default
+dispatch.per_recipient 1 count default
+frag.size_bytes 32 bytes default
+limit.daily 0 count default
+limit.daily_kib 0 kib default
+limit.hourly 0 count default
+queue.max_pending 50 count default
+quiet.end - hhmm default
+quiet.start - hhmm default
+retry.base_ms 2000 ms default
+retry.cap_s 60 s default
+retry.factor 2 count default
+retry.max_attempts 4 count default
+ttl.default_s 3600 s default
+ttl.max_s 86400 s default
+ERROR set: value 0 out of range for retry.cap_s (1..86400)
+ERROR set-for: key dispatch.batch cannot be set per recipient
+retry max_attempts=4
+after-failure 1 wait=500ms
+after-failure 2 wait=1500ms
+after-failure 3 wait=4500ms
+doctor: 0 warnings
+d0 00:00:00.000 ACCEPT p1 bob->rx prio=high frags=1 size=13 ttl=3600s
+d0 00:00:00.000 ACCEPT p2 bob->ny prio=high frags=1 size=13 ttl=7200s
+d0 00:00:01.000 SEND p1 1/1 bob->rx ok
+d0 00:00:01.000 DONE p1 bob->rx size=13 cost=0.03
+d0 00:00:01.000 SEND p2 1/1 bob->ny ok
+d0 00:00:01.000 DONE p2 bob->ny size=13 cost=0.03
+invoice bob #1 plan=pro
+p1 d0 00:00:01.000 rx size=13 prio=high 0.03
+p2 d0 00:00:01.000 ny size=13 prio=high 0.03
+total=0.06 lines=2
+invoice bob: nothing to bill
+plan basic messages=0 revenue=0.00
+plan bulk messages=0 revenue=0.00
+plan pro messages=2 revenue=0.06
+all messages=2 revenue=0.06
+senders
+sender bob plan=pro delivered=2 revenue=0.06 last-attempt=d0 00:00:01.000
+sender alice plan=basic delivered=0 revenue=0.00 last-attempt=-
+sender cora plan=bulk delivered=0 revenue=0.00 last-attempt=-
+id,sender,plan,recipient,size,prio,amount,invoice
+p1,bob,pro,rx,13,high,0.03,1
+p2,bob,pro,ny,13,high,0.03,1
+ERROR bogus: unknown command
+ERROR send: unknown sender nobody

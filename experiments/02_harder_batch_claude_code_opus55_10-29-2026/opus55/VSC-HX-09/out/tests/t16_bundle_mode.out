@@ -1,0 +1,14 @@
+OK set admin
+OK R1
+OK R2
+OK set team
+OK set ops2
+ERROR rule: line 3: override rules need an admin set
+SET admin mode=admin parent=- rules=2
+SET ops2 mode=admin parent=- rules=0
+SET team mode=standard parent=- rules=0
+OK imported 2 rules from admin into ops2 (R3-R4)
+SET ops2 mode=admin chain=ops2
+  R3 override doc:* /docs/hr/audit/** when subject.id == "auditor"
+  R4 allow doc:read /docs/**
+OK consistent

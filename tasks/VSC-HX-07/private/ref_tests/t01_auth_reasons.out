@@ -1,0 +1,37 @@
+tenant acme plan=free
+tenant bolt plan=free
+key acme.main issued expires=60000
+key acme.old issued expires=never
+key acme.old revoked
+ok 200 miss 600B items tenant=acme n=5
+deny auth bad-secret cred=acme.main.***
+deny auth unknown-key cred=acme.nokey.***
+deny auth unknown-tenant cred=nobody.main.***
+deny auth revoked cred=acme.old.***
+deny auth malformed cred=<malformed>
+deny auth malformed cred=<malformed>
+tenant acme suspended
+deny auth suspended cred=acme.main.***
+tenant acme plan=free keys=2 active=1 suspended
+tenant bolt plan=free keys=0 active=0
+tenant acme active
+ok 200 hit 600B items tenant=acme n=5
+now=120000
+deny auth expired cred=acme.main.***
+key acme.main expired expires=60000 label=""
+key acme.old revoked expires=never label=""
+#1 t=0 acme tenant.add plan=free
+#3 t=0 acme key.issue key=main expires=60000 label=""
+#4 t=0 acme key.issue key=old expires=never label=""
+#5 t=0 acme key.revoke key=old
+#6 t=0 acme req line="req acme.main.*** GET /v1/items" result=ok:200:miss
+#7 t=0 acme req line="req acme.main.*** GET /v1/items" result=deny:auth
+#8 t=0 acme req line="req acme.nokey.*** GET /v1/items" result=deny:auth
+#10 t=0 acme req line="req acme.old.*** GET /v1/items" result=deny:auth
+#13 t=0 acme tenant.suspend
+#14 t=0 acme req line="req acme.main.*** GET /v1/items" result=deny:auth
+#15 t=0 acme tenant.resume
+#16 t=0 acme req line="req acme.main.*** GET /v1/items" result=ok:200:hit
+#17 t=120000 acme req line="req acme.main.*** GET /v1/items" result=deny:auth
+denials - total=3 auth=3
+denials acme total=5 auth=5

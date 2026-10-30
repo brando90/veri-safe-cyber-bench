@@ -1,0 +1,15 @@
+tenant acme plan=free
+tenant bolt plan=free
+key acme.k issued expires=never
+key bolt.k issued expires=never
+ok 200 miss 600B items tenant=acme n=5
+ok 200 hit 600B items tenant=acme n=5
+ok 200 miss 600B items tenant=bolt n=5
+ok 201 off 64B created tenant=acme
+ok 200 miss 600B items tenant=acme n=5
+ok 200 hit 600B items tenant=bolt n=5
+cache purged 1 entries of bolt
+ok 200 miss 600B items tenant=bolt n=5
+entry acme GET /v1/items? size=1KiB expires=30000 hits=0
+entry bolt GET /v1/items? size=1KiB expires=30000 hits=0
+#11 t=0 bolt cache.purge entries=1

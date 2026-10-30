@@ -1,0 +1,13 @@
+# capacity is counted in whole KiB (rounded down); LRU entries are evicted
+tenant add acme plan=pro
+key issue acme main secret=Kq7m2PzW9a
+config set default cache.capacity 5000
+req acme.main.Kq7m2PzW9a GET /v1/blob q.size=2KiB
+req acme.main.Kq7m2PzW9a GET /v1/blob q.size=1000
+req acme.main.Kq7m2PzW9a GET /v1/blob q.size=2KiB
+req acme.main.Kq7m2PzW9a GET /v1/blob q.size=1025
+cache list
+cache stats
+req acme.main.Kq7m2PzW9a GET /v1/blob q.size=5KiB
+cache stats
+check

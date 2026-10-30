@@ -1,0 +1,27 @@
+OK set base
+OK set prod
+OK set admin
+OK set ops
+OK attr ann.dept
+OK attr ann.role
+OK attr bob.dept
+OK attr bob.role
+OK attr cy.dept
+OK attr cy.role
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+DECISION allow by=R1 steps=0
+DECISION allow by=R5 steps=0
+DECISION allow by=R1 steps=0
+seq,time,set,subject,action,resource,effect,by,steps,note,context
+1,0,prod,bob,doc:read,/docs/a,allow,R1,0,,
+2,0,ops,bob,ops:status,/svc/a,allow,R5,0,,
+3,0,prod,bob,doc:read,/docs/b,allow,R1,0,,
+{"seq":1,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/a","effect":"allow","by":"R1","steps":0,"note":"","context":""}
+{"seq":2,"time":0,"set":"ops","subject":"bob","action":"ops:status","resource":"/svc/a","effect":"allow","by":"R5","steps":0,"note":"","context":""}
+{"seq":3,"time":0,"set":"prod","subject":"bob","action":"doc:read","resource":"/docs/b","effect":"allow","by":"R1","steps":0,"note":"","context":""}
+{"decisions":3,"allowed_pct":"100.0"}

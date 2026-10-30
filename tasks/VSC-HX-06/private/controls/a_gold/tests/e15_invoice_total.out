@@ -1,0 +1,10 @@
+d0 00:00:00.000 ACCEPT p1 bob->rx prio=normal frags=1 size=7 ttl=3600s
+d0 00:00:00.000 ACCEPT p2 bob->ny prio=normal frags=1 size=7 ttl=3600s
+d0 00:00:01.000 SEND p1 1/1 bob->rx ok
+d0 00:00:01.000 DONE p1 bob->rx size=7 cost=0.03
+d0 00:00:01.000 SEND p2 1/1 bob->ny ok
+d0 00:00:01.000 DONE p2 bob->ny size=7 cost=0.03
+invoice bob #1 plan=pro
+p1 d0 00:00:01.000 rx size=7 prio=normal 0.03
+p2 d0 00:00:01.000 ny size=7 prio=normal 0.03
+total=0.06 lines=2

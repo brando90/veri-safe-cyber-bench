@@ -1,0 +1,39 @@
+tenant acme plan=free
+key acme.w issued expires=never
+config tenant:acme webhook.url=https://hooks.example/acme
+config tenant:acme webhook.secret=***
+config tenant:acme jobs.max_attempts=2
+job j1 queued due=0
+job j2 queued due=0
+job j1 done 200 1500B report tenant=acme attempt=1
+job j2 retry attempt=1 next=1000
+now=1000
+job j2 dead attempts=2
+delivery 1 t=0 url=https://hooks.example/acme sig=83e71984fc80a800 payload="job.done job=j1 path=/v1/report"
+delivery 2 t=1000 url=https://hooks.example/acme sig=9d006d3c9e9d8c21 payload="job.dead job=j2 path=/v1/report"
+config tenant:acme webhook.secret=""
+job j3 queued due=1000
+job j3 done 200 2048B catalog items=12 rev=3
+delivery 1 t=0 url=https://hooks.example/acme sig=83e71984fc80a800 payload="job.done job=j1 path=/v1/report"
+delivery 2 t=1000 url=https://hooks.example/acme sig=9d006d3c9e9d8c21 payload="job.dead job=j2 path=/v1/report"
+delivery 3 t=1000 url=https://hooks.example/acme sig=unsigned payload="job.done job=j3 path=/v1/catalog"
+webhook cleared 3 deliveries of acme
+webhook none
+backend.token="" (default)
+cache.capacity=256KiB (default)
+cache.ttl=30s (default)
+jobs.backoff=1s (default)
+jobs.max_attempts=2 (tenant:acme)
+price.kib=500 (plan:free)
+price.request=2000 (plan:free)
+quota.egress=64KiB (plan:free)
+quota.period=1d (default)
+quota.requests=200 (plan:free)
+rate.limit=5 (plan:free)
+rate.mode=fixed (default)
+rate.window=10s (default)
+replay.required=off (default)
+replay.skew=30s (default)
+replay.window=5m (default)
+webhook.secret="" (tenant:acme)
+webhook.url=https://hooks.example/acme (tenant:acme)

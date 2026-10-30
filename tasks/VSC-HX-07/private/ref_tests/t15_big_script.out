@@ -1,0 +1,3334 @@
+tenant acme plan=pro
+tenant bolt plan=basic
+tenant cobalt plan=free
+key acme.a issued expires=never
+key acme.b issued expires=never
+key bolt.a issued expires=never
+key cobalt.a issued expires=never
+config tenant:cobalt quota.requests=400
+config default cache.capacity=64KiB
+now=100
+ok 200 miss 256B me tenant=acme key=b label=-
+ok 200 miss 2160B items tenant=acme n=18
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 360B items tenant=acme n=3
+ok 200 miss 960B items tenant=cobalt n=8
+job j1 queued due=100
+ok 200 off 1500B report tenant=acme attempt=1
+job j1 done 200 600B items tenant=cobalt n=5
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 2280B items tenant=acme n=19
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 6900B blob tenant=acme size=6900
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 2040B items tenant=acme n=17
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=10
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=bolt attempt=1
+deny rate retry_after=10
+deny rate retry_after=10
+ok 200 off 1500B report tenant=bolt attempt=1
+deny rate retry_after=10
+deny rate retry_after=10
+deny rate retry_after=10
+ok 200 miss 256B me tenant=acme key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=b label=-
+deny rate retry_after=10
+deny rate retry_after=10
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 256B me tenant=bolt key=a label=-
+now=28100
+ok 200 miss 1500B blob tenant=cobalt size=1500
+ok 200 miss 2400B blob tenant=acme size=2400
+ok 200 miss 1920B items tenant=acme n=16
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 4200B blob tenant=acme size=4200
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 6900B blob tenant=bolt size=6900
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 256B me tenant=cobalt key=a label=-
+ok 200 miss 1920B items tenant=cobalt n=16
+ok 200 miss 840B items tenant=cobalt n=7
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 120B items tenant=acme n=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 6000B blob tenant=acme size=6000
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 256B me tenant=cobalt key=a label=-
+ok 200 miss 1200B blob tenant=acme size=1200
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 1080B items tenant=bolt n=9
+ok 200 miss 3600B blob tenant=bolt size=3600
+ok 200 miss 6000B blob tenant=bolt size=6000
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 5100B blob tenant=acme size=5100
+ok 200 miss 120B items tenant=bolt n=1
+deny rate retry_after=2
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 960B items tenant=acme n=8
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=2
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 480B items tenant=bolt n=4
+now=57600
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=cobalt key=a label=-
+ok 200 miss 1800B blob tenant=acme size=1800
+ok 200 miss 5700B blob tenant=acme size=5700
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 120B items tenant=acme n=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 1080B items tenant=acme n=9
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 600B blob tenant=cobalt size=600
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=cobalt attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=a label=-
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=3
+ok 200 off 1500B report tenant=bolt attempt=1
+job j2 queued due=57600
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=3
+ok 200 off 1500B report tenant=bolt attempt=1
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=3
+ok 200 miss 4500B blob tenant=bolt size=4500
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+now=79800
+job j2 done 200 600B items tenant=cobalt n=5
+ok 200 miss 256B me tenant=cobalt key=a label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 8700B blob tenant=acme size=8700
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 2700B blob tenant=acme size=2700
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 720B items tenant=bolt n=6
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 1080B items tenant=acme n=9
+ok 200 miss 1320B items tenant=cobalt n=11
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 2040B items tenant=acme n=17
+ok 200 miss 720B items tenant=acme n=6
+ok 200 miss 2100B blob tenant=acme size=2100
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2040B items tenant=acme n=17
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+deny rate retry_after=1
+deny rate retry_after=1
+ok 200 miss 3300B blob tenant=acme size=3300
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 300B blob tenant=acme size=300
+ok 200 hit 256B me tenant=bolt key=a label=-
+deny rate retry_after=9
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 1800B items tenant=bolt n=15
+deny rate retry_after=9
+deny rate retry_after=9
+ok 200 off 1500B report tenant=bolt attempt=1
+deny rate retry_after=9
+ok 200 miss 300B blob tenant=bolt size=300
+now=95800
+ok 200 miss 1920B items tenant=cobalt n=16
+ok 200 hit 5100B blob tenant=acme size=5100
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 2280B items tenant=acme n=19
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 2040B items tenant=acme n=17
+ok 200 off 1500B report tenant=cobalt attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 120B items tenant=acme n=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=cobalt key=a label=-
+ok 200 miss 2160B items tenant=acme n=18
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 7200B blob tenant=bolt size=7200
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 1920B items tenant=cobalt n=16
+ok 200 miss 2400B items tenant=bolt n=20
+ok 200 miss 2400B items tenant=acme n=20
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 1920B items tenant=acme n=16
+deny rate retry_after=5
+ok 200 miss 6600B blob tenant=acme size=6600
+ok 200 off 1500B report tenant=bolt attempt=1
+deny rate retry_after=5
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 1920B items tenant=bolt n=16
+ok 200 hit 256B me tenant=bolt key=a label=-
+deny rate retry_after=5
+ok 200 miss 900B blob tenant=acme size=900
+ok 200 miss 7200B blob tenant=acme size=7200
+job j3 queued due=95800
+now=127100
+ok 200 miss 1440B items tenant=bolt n=12
+ok 200 miss 256B me tenant=cobalt key=a label=-
+ok 200 hit 300B blob tenant=acme size=300
+ok 200 hit 256B me tenant=cobalt key=a label=-
+ok 200 miss 256B me tenant=acme key=b label=-
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 miss 1320B items tenant=bolt n=11
+ok 200 miss 840B items tenant=cobalt n=7
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 1560B items tenant=bolt n=13
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 1080B items tenant=bolt n=9
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 2700B blob tenant=acme size=2700
+ok 200 miss 7500B blob tenant=bolt size=7500
+ok 200 miss 1560B items tenant=cobalt n=13
+ok 200 miss 240B items tenant=acme n=2
+deny rate retry_after=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=13
+deny rate retry_after=3
+deny rate retry_after=13
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=13
+deny rate retry_after=13
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=13
+job j3 done 200 2048B catalog items=12 rev=3
+deny rate retry_after=3
+deny rate retry_after=13
+ok 200 miss 6600B blob tenant=bolt size=6600
+deny rate retry_after=13
+deny rate retry_after=3
+deny rate retry_after=3
+now=151100
+ok 200 miss 600B blob tenant=acme size=600
+ok 200 off 1500B report tenant=cobalt attempt=1
+ok 200 miss 1560B items tenant=acme n=13
+ok 200 hit 256B me tenant=cobalt key=a label=-
+ok 200 miss 1500B blob tenant=acme size=1500
+ok 200 miss 256B me tenant=acme key=a label=-
+ok 200 miss 600B items tenant=acme n=5
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 480B items tenant=cobalt n=4
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 120B items tenant=bolt n=1
+ok 200 hit 256B me tenant=cobalt key=a label=-
+ok 200 hit 6600B blob tenant=bolt size=6600
+ok 200 miss 4800B blob tenant=bolt size=4800
+ok 200 miss 256B me tenant=bolt key=a label=-
+deny rate retry_after=9
+ok 200 miss 4800B blob tenant=acme size=4800
+ok 200 miss 2400B blob tenant=bolt size=2400
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 4800B blob tenant=acme size=4800
+ok 200 off 1500B report tenant=acme attempt=1
+deny rate retry_after=9
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 3900B blob tenant=acme size=3900
+ok 200 miss 360B items tenant=bolt n=3
+ok 200 miss 1800B blob tenant=bolt size=1800
+deny rate retry_after=9
+deny rate retry_after=9
+deny rate retry_after=9
+deny rate retry_after=5
+ok 200 hit 256B me tenant=bolt key=a label=-
+now=168300
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 miss 1680B items tenant=cobalt n=14
+ok 200 miss 1560B items tenant=cobalt n=13
+ok 200 miss 240B items tenant=cobalt n=2
+ok 200 miss 2400B items tenant=acme n=20
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 960B items tenant=acme n=8
+ok 200 miss 256B me tenant=cobalt key=a label=-
+ok 200 hit 256B me tenant=bolt key=a label=-
+job j4 queued due=168300
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 4200B blob tenant=bolt size=4200
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 1200B blob tenant=acme size=1200
+ok 200 hit 256B me tenant=cobalt key=a label=-
+ok 200 miss 4200B blob tenant=acme size=4200
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 4500B blob tenant=bolt size=4500
+ok 200 miss 2400B blob tenant=acme size=2400
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 1560B items tenant=bolt n=13
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 1800B items tenant=acme n=15
+ok 200 miss 1920B items tenant=acme n=16
+now=187700
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 1200B blob tenant=bolt size=1200
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 1440B items tenant=acme n=12
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 480B items tenant=bolt n=4
+ok 200 miss 600B blob tenant=bolt size=600
+ok 200 hit 600B blob tenant=bolt size=600
+ok 200 miss 2400B items tenant=bolt n=20
+ok 200 miss 1320B items tenant=acme n=11
+ok 200 miss 6000B blob tenant=bolt size=6000
+ok 200 miss 600B blob tenant=acme size=600
+ok 200 hit 1680B items tenant=cobalt n=14
+ok 200 off 1500B report tenant=cobalt attempt=1
+ok 200 miss 3900B blob tenant=acme size=3900
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 256B me tenant=cobalt key=a label=-
+ok 200 miss 3900B blob tenant=bolt size=3900
+ok 200 miss 300B blob tenant=cobalt size=300
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 240B items tenant=acme n=2
+ok 200 hit 256B me tenant=acme key=b label=-
+job j4 done 200 256B me tenant=acme key=b label=-
+deny rate retry_after=24
+deny rate retry_after=24
+deny rate retry_after=24
+deny rate retry_after=24
+deny rate retry_after=24
+deny rate retry_after=24
+deny rate retry_after=3
+deny rate retry_after=24
+deny rate retry_after=24
+deny rate retry_after=24
+deny rate retry_after=24
+deny rate retry_after=24
+deny rate retry_after=24
+now=216900
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=cobalt attempt=1
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 300B blob tenant=cobalt size=300
+ok 200 miss 256B me tenant=cobalt key=a label=-
+ok 200 off 1500B report tenant=cobalt attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 600B items tenant=acme n=5
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=4
+ok 200 hit 600B items tenant=acme n=5
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 360B items tenant=acme n=3
+ok 200 miss 1500B blob tenant=acme size=1500
+ok 200 miss 6600B blob tenant=bolt size=6600
+ok 200 hit 1440B items tenant=acme n=12
+ok 200 miss 3300B blob tenant=bolt size=3300
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 1800B blob tenant=acme size=1800
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 2040B items tenant=bolt n=17
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=4
+deny rate retry_after=4
+ok 200 hit 2048B catalog items=12 rev=3
+job j5 queued due=216900
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 240B items tenant=bolt n=2
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=4
+now=242500
+ok 200 miss 600B items tenant=bolt n=5
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 240B items tenant=acme n=2
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 off 1500B report tenant=cobalt attempt=1
+ok 200 miss 3600B blob tenant=acme size=3600
+ok 200 miss 1500B blob tenant=cobalt size=1500
+ok 200 miss 4500B blob tenant=acme size=4500
+ok 200 miss 8400B blob tenant=acme size=8400
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 miss 2160B items tenant=acme n=18
+deny quota-egress
+deny quota-egress
+ok 200 hit 2160B items tenant=acme n=18
+deny quota-egress
+ok 200 miss 120B items tenant=acme n=1
+ok 200 miss 4200B blob tenant=acme size=4200
+deny quota-egress
+ok 200 miss 1200B items tenant=bolt n=10
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 miss 1080B items tenant=acme n=9
+ok 200 miss 1320B items tenant=acme n=11
+ok 200 miss 1080B items tenant=bolt n=9
+deny quota-egress
+ok 200 miss 900B blob tenant=bolt size=900
+ok 200 miss 2700B blob tenant=acme size=2700
+ok 200 miss 7200B blob tenant=acme size=7200
+ok 200 miss 256B me tenant=acme key=b label=-
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 256B me tenant=cobalt key=a label=-
+ok 200 miss 1680B items tenant=acme n=14
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 120B items tenant=acme n=1
+deny rate retry_after=6
+ok 200 miss 6900B blob tenant=bolt size=6900
+now=270200
+ok 200 miss 600B items tenant=acme n=5
+ok 200 miss 240B items tenant=acme n=2
+ok 200 miss 8100B blob tenant=bolt size=8100
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 2100B blob tenant=acme size=2100
+ok 200 miss 360B items tenant=acme n=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 840B items tenant=acme n=7
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 miss 1440B items tenant=bolt n=12
+ok 200 hit 1440B items tenant=bolt n=12
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 2280B items tenant=acme n=19
+ok 200 hit 256B me tenant=acme key=b label=-
+deny rate retry_after=7
+job j5 done 200 256B me tenant=acme key=a label=-
+deny rate retry_after=7
+deny rate retry_after=7
+ok 200 off 1500B report tenant=bolt attempt=1
+deny rate retry_after=7
+deny rate retry_after=7
+deny rate retry_after=7
+deny rate retry_after=7
+deny rate retry_after=7
+deny rate retry_after=7
+deny rate retry_after=7
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=7
+deny rate retry_after=7
+deny rate retry_after=7
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+ok 200 miss 4500B blob tenant=bolt size=4500
+ok 200 off 1500B report tenant=bolt attempt=1
+deny rate retry_after=7
+deny rate retry_after=7
+now=298800
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 2400B blob tenant=acme size=2400
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 2400B blob tenant=bolt size=2400
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 6600B blob tenant=acme size=6600
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 miss 480B items tenant=acme n=4
+job j6 queued due=298800
+ok 200 miss 1560B items tenant=acme n=13
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 miss 6300B blob tenant=acme size=6300
+ok 200 miss 256B me tenant=cobalt key=a label=-
+ok 200 miss 1680B items tenant=bolt n=14
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 6900B blob tenant=acme size=6900
+ok 200 miss 2280B items tenant=bolt n=19
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+deny quota-egress
+deny quota-egress
+ok 200 miss 1080B items tenant=bolt n=9
+deny quota-egress
+ok 200 miss 1680B items tenant=acme n=14
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 3000B blob tenant=acme size=3000
+deny quota-egress
+deny quota-egress
+now=329900
+ok 200 miss 9000B blob tenant=acme size=9000
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 3600B blob tenant=acme size=3600
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 840B items tenant=acme n=7
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 7500B blob tenant=acme size=7500
+ok 200 miss 2100B blob tenant=bolt size=2100
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 4800B blob tenant=bolt size=4800
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 256B me tenant=acme key=a label=-
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 miss 8100B blob tenant=acme size=8100
+deny quota-egress
+ok 200 hit 256B me tenant=bolt key=a label=-
+deny quota-egress
+ok 200 miss 6300B blob tenant=acme size=6300
+ok 200 miss 2400B items tenant=acme n=20
+ok 200 miss 2040B items tenant=bolt n=17
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+now=355600
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 6300B blob tenant=bolt size=6300
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 1560B items tenant=acme n=13
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 240B items tenant=acme n=2
+job j6 done 200 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 600B blob tenant=acme size=600
+deny quota-egress
+ok 200 miss 1680B items tenant=acme n=14
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 1680B items tenant=acme n=14
+deny quota-egress
+deny rate retry_after=4
+job j7 queued due=355600
+deny rate retry_after=4
+deny rate retry_after=4
+deny rate retry_after=4
+deny rate retry_after=4
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+ok 200 miss 7200B blob tenant=bolt size=7200
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+ok 200 miss 240B items tenant=bolt n=2
+deny rate retry_after=4
+deny quota-egress
+now=383100
+ok 200 miss 256B me tenant=acme key=b label=-
+ok 200 miss 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 7800B blob tenant=acme size=7800
+ok 200 hit 6300B blob tenant=bolt size=6300
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 6000B blob tenant=acme size=6000
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 3900B blob tenant=acme size=3900
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+ok 200 miss 2100B blob tenant=acme size=2100
+ok 200 hit 7800B blob tenant=acme size=7800
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 600B blob tenant=acme size=600
+ok 200 miss 1440B items tenant=bolt n=12
+deny quota-egress
+deny rate retry_after=7
+deny rate retry_after=7
+deny quota-egress
+deny rate retry_after=7
+deny quota-egress
+now=411500
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 1800B blob tenant=bolt size=1800
+ok 200 hit 240B items tenant=acme n=2
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 7200B blob tenant=bolt size=7200
+ok 200 miss 1080B items tenant=acme n=9
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 840B items tenant=bolt n=7
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 1800B items tenant=acme n=15
+ok 200 miss 720B items tenant=acme n=6
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 7200B blob tenant=bolt size=7200
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 300B blob tenant=acme size=300
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 5100B blob tenant=acme size=5100
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 1080B items tenant=bolt n=9
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 1200B blob tenant=acme size=1200
+now=427600
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+job j8 queued due=427600
+job j7 done 200 256B me tenant=acme key=b label=-
+job j8 failed quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 5100B blob tenant=acme size=5100
+ok 200 hit 6000B blob tenant=acme size=6000
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 6000B blob tenant=acme size=6000
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 360B items tenant=acme n=3
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 120B items tenant=cobalt n=1
+deny quota-egress
+ok 200 hit 1800B blob tenant=bolt size=1800
+ok 200 miss 720B items tenant=bolt n=6
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 1920B items tenant=bolt n=16
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 960B items tenant=acme n=8
+deny rate retry_after=16
+deny rate retry_after=16
+deny rate retry_after=16
+deny rate retry_after=16
+deny quota-egress
+deny quota-egress
+deny rate retry_after=16
+deny quota-egress
+ok 200 miss 480B items tenant=bolt n=4
+deny quota-egress
+now=459000
+ok 200 miss 1500B blob tenant=acme size=1500
+deny quota-egress
+ok 200 miss 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 8400B blob tenant=bolt size=8400
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 1320B items tenant=acme n=11
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 1500B blob tenant=acme size=1500
+deny quota-egress
+ok 200 hit 240B items tenant=acme n=2
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 2040B items tenant=bolt n=17
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 240B items tenant=acme n=2
+ok 200 miss 1800B items tenant=bolt n=15
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=13
+deny quota-egress
+deny rate retry_after=13
+deny rate retry_after=13
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 3000B blob tenant=bolt size=3000
+now=486600
+ok 200 miss 5400B blob tenant=acme size=5400
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 6600B blob tenant=bolt size=6600
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 5400B blob tenant=bolt size=5400
+ok 200 hit 256B me tenant=acme key=b label=-
+job j9 queued due=486600
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+deny quota-egress
+ok 200 miss 2400B items tenant=bolt n=20
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 miss 4200B blob tenant=acme size=4200
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 3600B blob tenant=acme size=3600
+job j9 failed quota-egress
+ok 200 miss 1200B items tenant=acme n=10
+now=515400
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 1800B blob tenant=acme size=1800
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 5100B blob tenant=acme size=5100
+ok 200 miss 480B items tenant=acme n=4
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 2280B items tenant=acme n=19
+ok 200 hit 3600B blob tenant=acme size=3600
+ok 200 miss 1080B items tenant=acme n=9
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 4500B blob tenant=bolt size=4500
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny rate retry_after=4
+deny rate retry_after=4
+deny quota-egress
+ok 200 miss 256B me tenant=bolt key=a label=-
+deny rate retry_after=4
+deny rate retry_after=4
+deny quota-egress
+deny rate retry_after=4
+ok 200 hit 256B me tenant=bolt key=a label=-
+deny rate retry_after=4
+ok 200 miss 1320B items tenant=bolt n=11
+deny quota-egress
+deny rate retry_after=4
+deny rate retry_after=4
+deny quota-egress
+now=535000
+ok 200 miss 256B me tenant=acme key=b label=-
+ok 200 hit 1320B items tenant=bolt n=11
+ok 200 miss 900B blob tenant=acme size=900
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 8400B blob tenant=acme size=8400
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 8400B blob tenant=acme size=8400
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 1560B items tenant=bolt n=13
+ok 200 miss 7500B blob tenant=acme size=7500
+ok 200 miss 6600B blob tenant=bolt size=6600
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 900B blob tenant=bolt size=900
+ok 200 miss 960B items tenant=bolt n=8
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+deny quota-egress
+ok 200 miss 720B items tenant=bolt n=6
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 1560B items tenant=acme n=13
+deny rate retry_after=12
+ok 200 miss 3900B blob tenant=bolt size=3900
+deny rate retry_after=12
+deny rate retry_after=12
+deny quota-egress
+deny quota-egress
+deny rate retry_after=12
+deny rate retry_after=12
+job j10 queued due=535000
+ok 200 miss 1680B items tenant=bolt n=14
+now=554000
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 720B items tenant=acme n=6
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 6000B blob tenant=acme size=6000
+deny quota-egress
+ok 200 miss 1440B items tenant=bolt n=12
+ok 200 miss 240B items tenant=acme n=2
+ok 200 miss 1200B blob tenant=bolt size=1200
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 5400B blob tenant=bolt size=5400
+ok 200 miss 1800B items tenant=acme n=15
+job j10 done 200 2048B catalog items=12 rev=3
+ok 200 miss 1920B items tenant=bolt n=16
+deny quota-egress
+ok 200 hit 1440B items tenant=bolt n=12
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 900B blob tenant=bolt size=900
+ok 200 hit 1560B items tenant=acme n=13
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=22
+now=587500
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 miss 5400B blob tenant=bolt size=5400
+ok 200 miss 600B blob tenant=bolt size=600
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 6900B blob tenant=acme size=6900
+ok 200 miss 4500B blob tenant=acme size=4500
+deny quota-egress
+deny quota-egress
+ok 200 miss 240B items tenant=bolt n=2
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 1320B items tenant=acme n=11
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 2400B blob tenant=acme size=2400
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 8700B blob tenant=acme size=8700
+ok 200 miss 8400B blob tenant=acme size=8400
+ok 200 miss 5100B blob tenant=acme size=5100
+ok 200 hit 256B me tenant=bolt key=a label=-
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny rate retry_after=8
+now=626000
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 5700B blob tenant=acme size=5700
+ok 200 miss 3600B blob tenant=acme size=3600
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 3600B blob tenant=bolt size=3600
+ok 200 miss 1080B items tenant=bolt n=9
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 256B me tenant=bolt key=a label=-
+job j11 queued due=626000
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 2700B blob tenant=acme size=2700
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 miss 1080B items tenant=acme n=9
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 360B items tenant=acme n=3
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 1800B blob tenant=acme size=1800
+deny quota-egress
+deny quota-egress
+ok 200 miss 1320B items tenant=bolt n=11
+deny quota-egress
+ok 200 miss 4500B blob tenant=acme size=4500
+ok 200 miss 7200B blob tenant=acme size=7200
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 2040B items tenant=bolt n=17
+now=640700
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 2160B items tenant=acme n=18
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 6600B blob tenant=acme size=6600
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 7800B blob tenant=bolt size=7800
+ok 200 miss 1500B blob tenant=bolt size=1500
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 miss 5700B blob tenant=bolt size=5700
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 840B items tenant=bolt n=7
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 6300B blob tenant=acme size=6300
+job j11 done 200 600B items tenant=bolt n=5
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 2400B blob tenant=acme size=2400
+ok 200 miss 6000B blob tenant=acme size=6000
+deny rate retry_after=7
+deny rate retry_after=7
+deny rate retry_after=7
+deny rate retry_after=7
+deny rate retry_after=7
+ok 200 miss 600B blob tenant=bolt size=600
+deny rate retry_after=7
+deny quota-egress
+ok 200 miss 256B me tenant=bolt key=a label=-
+deny rate retry_after=7
+ok 200 miss 1680B items tenant=bolt n=14
+now=670100
+ok 200 miss 900B blob tenant=bolt size=900
+ok 200 miss 1500B blob tenant=acme size=1500
+ok 200 miss 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 7200B blob tenant=bolt size=7200
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 2700B blob tenant=bolt size=2700
+deny quota-egress
+ok 200 miss 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 2160B items tenant=acme n=18
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 8400B blob tenant=acme size=8400
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 4500B blob tenant=bolt size=4500
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 360B items tenant=acme n=3
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 1080B items tenant=acme n=9
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+job j12 queued due=670100
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 1920B items tenant=bolt n=16
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny rate retry_after=16
+deny quota-egress
+ok 200 miss 480B items tenant=bolt n=4
+now=693400
+ok 200 miss 9000B blob tenant=acme size=9000
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 720B items tenant=bolt n=6
+deny quota-egress
+deny quota-egress
+ok 200 miss 7800B blob tenant=acme size=7800
+ok 200 miss 600B items tenant=acme n=5
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 240B items tenant=acme n=2
+ok 200 miss 480B items tenant=acme n=4
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 2400B blob tenant=acme size=2400
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 1080B items tenant=acme n=9
+ok 200 hit 1080B items tenant=acme n=9
+ok 200 miss 840B items tenant=acme n=7
+ok 200 miss 256B me tenant=acme key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 1800B items tenant=bolt n=15
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 960B items tenant=acme n=8
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+ok 200 miss 2400B items tenant=acme n=20
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 2160B items tenant=bolt n=18
+now=734600
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+ok 200 miss 2040B items tenant=acme n=17
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 6600B blob tenant=bolt size=6600
+ok 200 miss 256B me tenant=acme key=b label=-
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+job j12 failed quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+deny quota-egress
+deny quota-egress
+ok 200 miss 1800B items tenant=bolt n=15
+ok 200 miss 1200B items tenant=bolt n=10
+deny quota-egress
+ok 200 miss 3900B blob tenant=bolt size=3900
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 840B items tenant=bolt n=7
+ok 200 miss 1800B items tenant=acme n=15
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+now=759200
+ok 200 hit 1800B items tenant=acme n=15
+deny quota-egress
+ok 200 miss 3900B blob tenant=acme size=3900
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 960B items tenant=acme n=8
+ok 200 miss 1920B items tenant=acme n=16
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 6900B blob tenant=acme size=6900
+job j13 queued due=759200
+deny quota-egress
+deny quota-egress
+ok 200 miss 5100B blob tenant=bolt size=5100
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 1320B items tenant=bolt n=11
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 840B items tenant=acme n=7
+ok 200 hit 256B me tenant=bolt key=a label=-
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 1080B items tenant=bolt n=9
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+ok 200 miss 4200B blob tenant=acme size=4200
+ok 200 miss 600B items tenant=acme n=5
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 5400B blob tenant=bolt size=5400
+ok 200 miss 5100B blob tenant=acme size=5100
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+now=783600
+ok 200 miss 256B me tenant=bolt key=a label=-
+deny quota-egress
+ok 200 miss 720B items tenant=acme n=6
+ok 200 miss 8400B blob tenant=bolt size=8400
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 3900B blob tenant=acme size=3900
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 6300B blob tenant=bolt size=6300
+ok 200 miss 4500B blob tenant=acme size=4500
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 miss 6300B blob tenant=acme size=6300
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 1920B items tenant=bolt n=16
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 1500B blob tenant=acme size=1500
+ok 200 miss 5700B blob tenant=bolt size=5700
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 1440B items tenant=acme n=12
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 1440B items tenant=bolt n=12
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=11
+deny quota-egress
+ok 200 miss 480B items tenant=bolt n=4
+deny rate retry_after=11
+deny rate retry_after=11
+deny rate retry_after=11
+now=803800
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 3000B blob tenant=bolt size=3000
+ok 200 miss 9000B blob tenant=acme size=9000
+ok 200 miss 120B items tenant=acme n=1
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 900B blob tenant=acme size=900
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 2280B items tenant=acme n=19
+job j13 failed quota-egress
+ok 200 hit 900B blob tenant=acme size=900
+ok 200 miss 240B items tenant=bolt n=2
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 1320B items tenant=acme n=11
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny rate retry_after=16
+deny rate retry_after=16
+ok 200 miss 120B items tenant=bolt n=1
+deny rate retry_after=16
+ok 200 miss 2400B items tenant=bolt n=20
+deny rate retry_after=16
+deny rate retry_after=16
+deny rate retry_after=16
+job j14 queued due=803800
+deny quota-egress
+ok 200 miss 1800B items tenant=bolt n=15
+deny rate retry_after=16
+ok 200 off 1500B report tenant=bolt attempt=1
+deny rate retry_after=16
+deny rate retry_after=16
+deny rate retry_after=16
+deny rate retry_after=16
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 1200B items tenant=bolt n=10
+deny rate retry_after=16
+now=840600
+deny quota-egress
+deny quota-egress
+ok 200 hit 1440B items tenant=acme n=12
+deny quota-egress
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 miss 6900B blob tenant=bolt size=6900
+deny quota-egress
+ok 200 miss 6600B blob tenant=acme size=6600
+ok 200 miss 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 3900B blob tenant=acme size=3900
+ok 200 miss 720B items tenant=acme n=6
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 240B items tenant=bolt n=2
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 1080B items tenant=acme n=9
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 3000B blob tenant=bolt size=3000
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 5100B blob tenant=acme size=5100
+now=870300
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 840B items tenant=bolt n=7
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 1080B items tenant=bolt n=9
+ok 200 miss 2160B items tenant=acme n=18
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 1560B items tenant=acme n=13
+ok 200 hit 256B me tenant=bolt key=a label=-
+deny quota-egress
+ok 200 miss 5400B blob tenant=acme size=5400
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 1500B blob tenant=bolt size=1500
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 1560B items tenant=bolt n=13
+ok 200 miss 256B me tenant=acme key=b label=-
+ok 200 miss 2400B items tenant=bolt n=20
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 2040B items tenant=bolt n=17
+now=898300
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 256B me tenant=acme key=b label=-
+job j15 queued due=898300
+ok 200 hit 2160B items tenant=acme n=18
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 5400B blob tenant=acme size=5400
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 7500B blob tenant=acme size=7500
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 2280B items tenant=bolt n=19
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 1920B items tenant=bolt n=16
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 hit 1560B items tenant=acme n=13
+ok 200 miss 900B blob tenant=bolt size=900
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2400B items tenant=bolt n=20
+ok 200 miss 1440B items tenant=acme n=12
+deny quota-egress
+ok 200 miss 5700B blob tenant=bolt size=5700
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 720B items tenant=acme n=6
+ok 200 miss 256B me tenant=bolt key=a label=-
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+deny rate retry_after=3
+deny rate retry_after=3
+deny quota-egress
+deny quota-egress
+deny rate retry_after=3
+now=919700
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 960B items tenant=acme n=8
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+deny quota-egress
+ok 200 miss 1920B items tenant=acme n=16
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 960B items tenant=acme n=8
+ok 200 miss 240B items tenant=acme n=2
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 2160B items tenant=acme n=18
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 2040B items tenant=bolt n=17
+ok 200 miss 120B items tenant=acme n=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2160B items tenant=acme n=18
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 720B items tenant=acme n=6
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+deny rate retry_after=11
+ok 200 miss 360B items tenant=bolt n=3
+deny rate retry_after=11
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 4800B blob tenant=bolt size=4800
+ok 200 miss 300B blob tenant=bolt size=300
+deny rate retry_after=11
+deny rate retry_after=11
+now=952500
+deny quota-egress
+ok 200 hit 120B items tenant=acme n=1
+ok 200 miss 8400B blob tenant=acme size=8400
+ok 200 miss 6000B blob tenant=acme size=6000
+deny quota-egress
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 miss 1320B items tenant=bolt n=11
+ok 200 miss 4500B blob tenant=acme size=4500
+deny quota-egress
+ok 200 miss 300B blob tenant=bolt size=300
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 240B items tenant=acme n=2
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 2100B blob tenant=acme size=2100
+job j16 queued due=952500
+ok 200 hit 6000B blob tenant=acme size=6000
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 840B items tenant=acme n=7
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 2400B items tenant=acme n=20
+deny quota-egress
+deny rate retry_after=6
+deny rate retry_after=6
+deny rate retry_after=6
+deny quota-egress
+ok 200 miss 256B me tenant=bolt key=a label=-
+deny rate retry_after=6
+deny quota-egress
+deny rate retry_after=6
+job j14 done 200 256B me tenant=acme key=b label=-
+job j15 done 200 256B me tenant=acme key=a label=-
+job j16 done 200 2048B catalog items=12 rev=3
+ok 200 hit 300B blob tenant=bolt size=300
+deny rate retry_after=6
+ok 200 hit 2048B catalog items=12 rev=3
+now=977500
+ok 200 miss 900B blob tenant=acme size=900
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 600B blob tenant=bolt size=600
+deny quota-egress
+ok 200 miss 2280B items tenant=bolt n=19
+ok 200 miss 360B items tenant=acme n=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 3600B blob tenant=acme size=3600
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 9000B blob tenant=acme size=9000
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 8700B blob tenant=acme size=8700
+deny quota-egress
+deny quota-egress
+ok 200 miss 1560B items tenant=acme n=13
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 1800B items tenant=acme n=15
+deny quota-egress
+deny quota-egress
+ok 200 miss 256B me tenant=acme key=b label=-
+ok 200 hit 840B items tenant=acme n=7
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 2040B items tenant=acme n=17
+deny quota-egress
+deny quota-egress
+ok 200 miss 5100B blob tenant=acme size=5100
+ok 200 miss 1200B blob tenant=bolt size=1200
+deny quota-egress
+deny quota-egress
+ok 200 miss 840B items tenant=bolt n=7
+ok 200 miss 480B items tenant=bolt n=4
+deny quota-egress
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=3
+now=1000700
+ok 200 miss 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 300B blob tenant=acme size=300
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 3000B blob tenant=acme size=3000
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 256B me tenant=acme key=a label=-
+ok 200 miss 1440B items tenant=acme n=12
+ok 200 miss 1920B items tenant=acme n=16
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 8100B blob tenant=acme size=8100
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 5100B blob tenant=acme size=5100
+ok 200 miss 720B items tenant=bolt n=6
+deny quota-egress
+deny quota-egress
+ok 200 miss 7200B blob tenant=acme size=7200
+deny quota-egress
+ok 200 miss 1200B items tenant=acme n=10
+ok 200 miss 8400B blob tenant=bolt size=8400
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+job j17 queued due=1000700
+deny rate retry_after=12
+ok 200 miss 240B items tenant=bolt n=2
+now=1021900
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 4500B blob tenant=bolt size=4500
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+deny quota-egress
+ok 200 miss 8700B blob tenant=acme size=8700
+ok 200 miss 2040B items tenant=acme n=17
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 miss 1200B items tenant=bolt n=10
+ok 200 miss 6900B blob tenant=acme size=6900
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 8100B blob tenant=bolt size=8100
+deny quota-egress
+ok 200 miss 2400B items tenant=acme n=20
+deny quota-egress
+ok 200 miss 120B items tenant=acme n=1
+ok 200 miss 300B blob tenant=acme size=300
+ok 200 miss 2700B blob tenant=acme size=2700
+ok 200 hit 120B items tenant=acme n=1
+ok 200 miss 840B items tenant=acme n=7
+job j17 done 200 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 360B items tenant=bolt n=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=16
+ok 200 miss 7800B blob tenant=bolt size=7800
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny rate retry_after=16
+deny quota-egress
+now=1049300
+ok 200 miss 3000B blob tenant=acme size=3000
+deny quota-egress
+ok 200 miss 7800B blob tenant=acme size=7800
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 miss 1800B items tenant=acme n=15
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 120B items tenant=bolt n=1
+ok 200 miss 5100B blob tenant=acme size=5100
+ok 200 miss 256B me tenant=acme key=b label=-
+ok 200 miss 2100B blob tenant=acme size=2100
+ok 200 miss 1800B blob tenant=bolt size=1800
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 miss 2400B items tenant=bolt n=20
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 9000B blob tenant=acme size=9000
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 480B items tenant=bolt n=4
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 1800B items tenant=acme n=15
+ok 200 miss 600B blob tenant=bolt size=600
+ok 200 hit 1800B items tenant=acme n=15
+deny rate retry_after=12
+deny rate retry_after=12
+deny rate retry_after=12
+deny rate retry_after=12
+deny rate retry_after=12
+deny rate retry_after=12
+deny quota-egress
+deny quota-egress
+now=1076400
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 1080B items tenant=acme n=9
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 7200B blob tenant=acme size=7200
+deny quota-egress
+ok 200 hit 1080B items tenant=acme n=9
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 6600B blob tenant=bolt size=6600
+ok 200 miss 960B items tenant=acme n=8
+ok 200 miss 1080B items tenant=bolt n=9
+job j18 queued due=1076400
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 960B items tenant=bolt n=8
+deny quota-egress
+ok 200 miss 7500B blob tenant=acme size=7500
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 2400B blob tenant=bolt size=2400
+ok 200 miss 1440B items tenant=bolt n=12
+ok 200 miss 8400B blob tenant=bolt size=8400
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 480B items tenant=acme n=4
+ok 200 miss 120B items tenant=bolt n=1
+ok 200 miss 2400B items tenant=bolt n=20
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 256B me tenant=acme key=a label=-
+deny quota-egress
+now=1100900
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 miss 2280B items tenant=bolt n=19
+deny quota-egress
+deny quota-egress
+ok 200 miss 5100B blob tenant=acme size=5100
+ok 200 hit 960B items tenant=bolt n=8
+ok 200 miss 3600B blob tenant=acme size=3600
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 256B me tenant=acme key=b label=-
+ok 200 miss 6000B blob tenant=acme size=6000
+ok 200 miss 300B blob tenant=acme size=300
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 840B items tenant=acme n=7
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 6300B blob tenant=acme size=6300
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+job j18 done 200 600B items tenant=acme n=5
+ok 200 miss 7200B blob tenant=bolt size=7200
+ok 200 miss 5100B blob tenant=bolt size=5100
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+deny quota-egress
+ok 200 miss 5400B blob tenant=acme size=5400
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 miss 4500B blob tenant=acme size=4500
+deny rate retry_after=9
+deny rate retry_after=9
+deny rate retry_after=9
+now=1127800
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 1440B items tenant=acme n=12
+deny quota-egress
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 1920B items tenant=acme n=16
+deny quota-egress
+ok 200 miss 5400B blob tenant=bolt size=5400
+ok 200 hit 6300B blob tenant=acme size=6300
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 2400B items tenant=acme n=20
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 1440B items tenant=bolt n=12
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+deny quota-egress
+ok 200 miss 600B items tenant=acme n=5
+ok 200 miss 2400B blob tenant=bolt size=2400
+deny quota-egress
+ok 200 hit 5400B blob tenant=acme size=5400
+job j19 queued due=1127800
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 360B items tenant=bolt n=3
+deny rate retry_after=9
+ok 200 miss 1200B blob tenant=bolt size=1200
+deny rate retry_after=9
+ok 200 miss 3600B blob tenant=bolt size=3600
+now=1150800
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 1800B blob tenant=acme size=1800
+ok 200 miss 1800B items tenant=bolt n=15
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 2160B items tenant=acme n=18
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=11
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=bolt attempt=1
+deny rate retry_after=11
+deny quota-egress
+deny quota-egress
+deny rate retry_after=11
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+deny rate retry_after=11
+deny rate retry_after=11
+deny quota-egress
+deny quota-egress
+deny rate retry_after=11
+ok 200 miss 900B blob tenant=bolt size=900
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=11
+deny quota-egress
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 256B me tenant=bolt key=a label=-
+deny quota-egress
+deny rate retry_after=11
+now=1191600
+ok 200 miss 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 360B items tenant=acme n=3
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 hit 6300B blob tenant=acme size=6300
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 1800B blob tenant=bolt size=1800
+deny quota-egress
+ok 200 hit 1800B blob tenant=acme size=1800
+ok 200 miss 1560B items tenant=bolt n=13
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+job j19 done 200 1024B blob tenant=acme size=1024
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 3300B blob tenant=bolt size=3300
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 4500B blob tenant=bolt size=4500
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 5100B blob tenant=acme size=5100
+ok 200 miss 6600B blob tenant=acme size=6600
+ok 200 miss 840B items tenant=bolt n=7
+ok 200 hit 2048B catalog items=12 rev=3
+now=1220200
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 2280B items tenant=acme n=19
+ok 200 miss 1200B blob tenant=acme size=1200
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 2400B items tenant=acme n=20
+job j20 queued due=1220200
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 240B items tenant=acme n=2
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 1800B blob tenant=acme size=1800
+ok 200 hit 2280B items tenant=acme n=19
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 960B items tenant=acme n=8
+ok 200 miss 9000B blob tenant=acme size=9000
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 256B me tenant=acme key=a label=-
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 2400B items tenant=acme n=20
+ok 200 miss 1080B items tenant=acme n=9
+ok 200 miss 1320B items tenant=bolt n=11
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 1800B blob tenant=acme size=1800
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 6600B blob tenant=acme size=6600
+now=1247300
+deny quota-egress
+deny quota-egress
+ok 200 hit 6600B blob tenant=acme size=6600
+ok 200 miss 4200B blob tenant=acme size=4200
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 600B blob tenant=bolt size=600
+deny quota-egress
+ok 200 miss 360B items tenant=acme n=3
+deny rate retry_after=5
+deny rate retry_after=5
+deny quota-egress
+deny rate retry_after=5
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny rate retry_after=5
+deny rate retry_after=5
+deny rate retry_after=5
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 miss 4500B blob tenant=bolt size=4500
+deny rate retry_after=5
+deny quota-egress
+ok 200 miss 480B items tenant=bolt n=4
+deny rate retry_after=5
+deny rate retry_after=5
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+deny rate retry_after=5
+deny rate retry_after=5
+ok 200 miss 3600B blob tenant=bolt size=3600
+deny rate retry_after=5
+deny rate retry_after=5
+deny quota-egress
+deny rate retry_after=5
+ok 200 miss 1800B items tenant=bolt n=15
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=bolt key=a label=-
+now=1276600
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 7200B blob tenant=bolt size=7200
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 1440B items tenant=bolt n=12
+ok 200 miss 7800B blob tenant=acme size=7800
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+job j20 failed quota-egress
+ok 200 miss 3300B blob tenant=bolt size=3300
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 3600B blob tenant=acme size=3600
+ok 200 miss 3300B blob tenant=acme size=3300
+ok 200 miss 1680B items tenant=acme n=14
+ok 200 miss 7500B blob tenant=acme size=7500
+ok 200 miss 1080B items tenant=acme n=9
+deny quota-egress
+ok 200 miss 256B me tenant=acme key=a label=-
+ok 200 miss 256B me tenant=acme key=b label=-
+ok 200 miss 1320B items tenant=bolt n=11
+job j21 queued due=1276600
+ok 200 miss 300B blob tenant=acme size=300
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 2400B blob tenant=acme size=2400
+ok 200 miss 240B items tenant=bolt n=2
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 2100B blob tenant=acme size=2100
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 1200B blob tenant=acme size=1200
+deny quota-egress
+deny rate retry_after=4
+deny rate retry_after=4
+deny rate retry_after=4
+ok 200 hit 2048B catalog items=12 rev=3
+now=1303400
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 360B items tenant=acme n=3
+ok 200 miss 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 2040B items tenant=acme n=17
+deny quota-egress
+ok 200 miss 8700B blob tenant=acme size=8700
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 1440B items tenant=bolt n=12
+ok 200 hit 3300B blob tenant=bolt size=3300
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 7800B blob tenant=acme size=7800
+deny quota-egress
+ok 200 miss 1560B items tenant=acme n=13
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 miss 6900B blob tenant=acme size=6900
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 2700B blob tenant=acme size=2700
+ok 200 miss 5400B blob tenant=bolt size=5400
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 256B me tenant=bolt key=a label=-
+now=1333500
+ok 200 miss 480B items tenant=acme n=4
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 2100B blob tenant=acme size=2100
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 120B items tenant=acme n=1
+ok 200 miss 720B items tenant=acme n=6
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 4500B blob tenant=acme size=4500
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 2160B items tenant=bolt n=18
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 hit 2700B blob tenant=acme size=2700
+deny rate retry_after=4
+deny quota-egress
+deny rate retry_after=4
+deny quota-egress
+deny quota-egress
+ok 200 miss 256B me tenant=bolt key=a label=-
+deny rate retry_after=4
+deny quota-egress
+deny quota-egress
+deny rate retry_after=4
+deny rate retry_after=4
+deny rate retry_after=4
+ok 200 miss 1920B items tenant=bolt n=16
+deny quota-egress
+deny rate retry_after=4
+deny rate retry_after=4
+deny rate retry_after=4
+deny rate retry_after=4
+deny rate retry_after=4
+deny quota-egress
+deny rate retry_after=4
+now=1359000
+ok 200 hit 2048B catalog items=12 rev=3
+job j21 done 200 600B items tenant=acme n=5
+job j22 queued due=1359000
+ok 200 miss 4800B blob tenant=acme size=4800
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 2700B blob tenant=bolt size=2700
+ok 200 miss 2280B items tenant=acme n=19
+ok 200 hit 2100B blob tenant=acme size=2100
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 miss 1200B items tenant=bolt n=10
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 miss 1320B items tenant=bolt n=11
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 1440B items tenant=acme n=12
+ok 200 miss 1080B items tenant=acme n=9
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+now=1386800
+ok 200 miss 360B items tenant=acme n=3
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 hit 360B items tenant=acme n=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 6000B blob tenant=bolt size=6000
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 256B me tenant=bolt key=a label=-
+deny quota-egress
+ok 200 miss 2280B items tenant=bolt n=19
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 1200B blob tenant=bolt size=1200
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 480B items tenant=acme n=4
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 600B items tenant=acme n=5
+ok 200 hit 360B items tenant=acme n=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 3000B blob tenant=acme size=3000
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 480B items tenant=acme n=4
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=bolt attempt=1
+now=1416200
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 3600B blob tenant=bolt size=3600
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 1200B items tenant=acme n=10
+ok 200 hit 4800B blob tenant=acme size=4800
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 256B me tenant=bolt key=a label=-
+job j23 queued due=1416200
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 960B items tenant=acme n=8
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 8400B blob tenant=bolt size=8400
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=3
+deny quota-egress
+job j22 done 200 600B items tenant=acme n=5
+job j23 failed quota-egress
+deny quota-egress
+deny rate retry_after=3
+deny rate retry_after=3
+deny quota-egress
+deny rate retry_after=3
+now=1442900
+ok 200 hit 1440B items tenant=acme n=12
+ok 200 hit 2280B items tenant=acme n=19
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 miss 2040B items tenant=bolt n=17
+ok 200 miss 1320B items tenant=acme n=11
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 7200B blob tenant=acme size=7200
+ok 200 miss 1500B blob tenant=acme size=1500
+deny quota-egress
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 miss 8100B blob tenant=acme size=8100
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 256B me tenant=acme key=a label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 2400B items tenant=bolt n=20
+ok 200 miss 3300B blob tenant=acme size=3300
+deny rate retry_after=4
+deny quota-egress
+deny rate retry_after=4
+ok 200 miss 1560B items tenant=bolt n=13
+ok 200 hit 256B me tenant=bolt key=a label=-
+deny rate retry_after=4
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny rate retry_after=4
+now=1464500
+ok 200 hit 2400B items tenant=bolt n=20
+ok 200 miss 1920B items tenant=bolt n=16
+ok 200 off 1500B report tenant=bolt attempt=1
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 3300B blob tenant=acme size=3300
+ok 200 miss 300B blob tenant=acme size=300
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 hit 960B items tenant=acme n=8
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 hit 8100B blob tenant=acme size=8100
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 3900B blob tenant=acme size=3900
+ok 200 off 1500B report tenant=bolt attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+ok 200 miss 8700B blob tenant=bolt size=8700
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 9000B blob tenant=bolt size=9000
+ok 200 hit 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 6000B blob tenant=acme size=6000
+job j24 queued due=1464500
+ok 200 miss 840B items tenant=acme n=7
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+now=1503500
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 360B items tenant=acme n=3
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 2400B blob tenant=bolt size=2400
+deny quota-egress
+ok 200 miss 8700B blob tenant=bolt size=8700
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 4200B blob tenant=acme size=4200
+deny quota-egress
+deny quota-egress
+ok 200 miss 1800B items tenant=acme n=15
+deny quota-egress
+deny quota-egress
+ok 200 miss 5100B blob tenant=acme size=5100
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 1920B items tenant=acme n=16
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 256B me tenant=acme key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+job j24 done 200 1024B blob tenant=acme size=1024
+ok 200 miss 9000B blob tenant=acme size=9000
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 hit 360B items tenant=acme n=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+now=1537800
+deny quota-egress
+ok 200 miss 6300B blob tenant=acme size=6300
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 720B items tenant=acme n=6
+deny quota-egress
+ok 200 miss 4800B blob tenant=acme size=4800
+deny quota-egress
+ok 200 hit 360B items tenant=acme n=3
+ok 200 miss 1560B items tenant=acme n=13
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 miss 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 1800B items tenant=acme n=15
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 256B me tenant=bolt key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 256B me tenant=acme key=b label=-
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+now=1560700
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 miss 1200B items tenant=acme n=10
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 3300B blob tenant=acme size=3300
+deny quota-egress
+deny quota-egress
+deny quota-egress
+job j25 queued due=1560700
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 miss 8700B blob tenant=acme size=8700
+ok 200 hit 9000B blob tenant=acme size=9000
+ok 200 miss 840B items tenant=acme n=7
+ok 200 miss 5400B blob tenant=acme size=5400
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 miss 360B items tenant=bolt n=3
+deny quota-egress
+ok 200 miss 2040B items tenant=acme n=17
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=3
+now=1591800
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 hit 4800B blob tenant=acme size=4800
+ok 200 miss 8400B blob tenant=acme size=8400
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 300B blob tenant=acme size=300
+deny quota-egress
+job j25 failed quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 7500B blob tenant=acme size=7500
+deny quota-egress
+deny quota-egress
+ok 200 hit 1800B items tenant=acme n=15
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 360B items tenant=acme n=3
+deny rate retry_after=6
+deny rate retry_after=6
+deny rate retry_after=6
+deny rate retry_after=6
+deny rate retry_after=6
+deny quota-egress
+deny rate retry_after=6
+deny rate retry_after=6
+now=1620300
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 1080B items tenant=acme n=9
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 8400B blob tenant=acme size=8400
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 miss 1800B blob tenant=acme size=1800
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 1800B items tenant=acme n=15
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+job j26 queued due=1620300
+ok 200 hit 1080B items tenant=acme n=9
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=1
+deny quota-egress
+deny quota-egress
+deny rate retry_after=1
+now=1647000
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 hit 8700B blob tenant=acme size=8700
+deny quota-egress
+ok 200 hit 1800B blob tenant=acme size=1800
+deny quota-egress
+ok 200 miss 256B me tenant=acme key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 1200B items tenant=acme n=10
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 5700B blob tenant=acme size=5700
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 4800B blob tenant=acme size=4800
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 360B items tenant=acme n=3
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+deny quota-egress
+deny rate retry_after=5
+deny quota-egress
+deny quota-egress
+deny rate retry_after=5
+deny rate retry_after=5
+deny rate retry_after=5
+deny rate retry_after=5
+now=1666000
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 8700B blob tenant=acme size=8700
+job j26 done 200 2048B catalog items=12 rev=3
+ok 200 miss 720B items tenant=acme n=6
+deny quota-egress
+ok 200 miss 7200B blob tenant=acme size=7200
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 1200B items tenant=acme n=10
+ok 200 miss 6600B blob tenant=acme size=6600
+ok 200 miss 2040B items tenant=acme n=17
+ok 200 hit 256B me tenant=acme key=b label=-
+deny rate retry_after=15
+deny rate retry_after=15
+deny rate retry_after=15
+deny rate retry_after=15
+deny quota-egress
+deny rate retry_after=15
+deny quota-egress
+deny rate retry_after=15
+deny quota-egress
+deny quota-egress
+deny rate retry_after=15
+deny rate retry_after=15
+now=1694300
+deny quota-egress
+ok 200 miss 1320B items tenant=acme n=11
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+job j27 queued due=1694300
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 2400B blob tenant=acme size=2400
+ok 200 miss 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 2040B items tenant=acme n=17
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 miss 1800B items tenant=acme n=15
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 2280B items tenant=acme n=19
+deny quota-egress
+deny quota-egress
+ok 200 miss 1440B items tenant=acme n=12
+deny quota-egress
+deny quota-egress
+ok 200 miss 2160B items tenant=acme n=18
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=13
+now=1717700
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 5400B blob tenant=acme size=5400
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 1800B items tenant=acme n=15
+ok 200 miss 9000B blob tenant=acme size=9000
+deny quota-egress
+deny quota-egress
+ok 200 miss 120B items tenant=acme n=1
+ok 200 miss 7800B blob tenant=acme size=7800
+deny quota-egress
+deny quota-egress
+ok 200 hit 2160B items tenant=acme n=18
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 120B items tenant=acme n=1
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 5700B blob tenant=acme size=5700
+deny quota-egress
+ok 200 miss 960B items tenant=acme n=8
+ok 200 hit 256B me tenant=acme key=a label=-
+deny rate retry_after=9
+deny quota-egress
+deny quota-egress
+deny rate retry_after=9
+deny quota-egress
+deny rate retry_after=9
+deny quota-egress
+deny rate retry_after=9
+deny rate retry_after=9
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny rate retry_after=9
+deny rate retry_after=9
+deny rate retry_after=9
+deny quota-egress
+deny quota-egress
+now=1750100
+ok 200 hit 2400B blob tenant=acme size=2400
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+deny quota-egress
+deny quota-egress
+job j27 failed quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 hit 1200B items tenant=acme n=10
+ok 200 miss 1560B items tenant=acme n=13
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+job j28 queued due=1750100
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 720B items tenant=acme n=6
+ok 200 miss 3300B blob tenant=acme size=3300
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=5
+deny rate retry_after=5
+deny rate retry_after=5
+deny quota-egress
+deny rate retry_after=5
+deny quota-egress
+deny rate retry_after=5
+now=1773300
+ok 200 miss 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 600B items tenant=acme n=5
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 miss 480B items tenant=acme n=4
+ok 200 hit 720B items tenant=acme n=6
+ok 200 hit 2160B items tenant=acme n=18
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 1320B items tenant=acme n=11
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 8100B blob tenant=acme size=8100
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 1500B blob tenant=acme size=1500
+deny rate retry_after=5
+deny rate retry_after=5
+deny rate retry_after=5
+deny rate retry_after=5
+now=1793300
+deny quota-egress
+deny quota-egress
+ok 200 hit 480B items tenant=acme n=4
+ok 200 miss 1440B items tenant=acme n=12
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 hit 5700B blob tenant=acme size=5700
+deny quota-egress
+ok 200 miss 1920B items tenant=acme n=16
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 720B items tenant=acme n=6
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 1500B blob tenant=acme size=1500
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 5400B blob tenant=acme size=5400
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny rate retry_after=17
+deny rate retry_after=17
+job j28 done 200 256B me tenant=acme key=b label=-
+now=1822700
+deny quota-egress
+job j29 queued due=1822700
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 720B items tenant=acme n=6
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 4800B blob tenant=acme size=4800
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 6300B blob tenant=acme size=6300
+deny quota-egress
+ok 200 miss 6900B blob tenant=acme size=6900
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 3900B blob tenant=acme size=3900
+deny quota-egress
+ok 200 miss 2400B blob tenant=acme size=2400
+ok 200 miss 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 1500B blob tenant=acme size=1500
+deny quota-egress
+ok 200 miss 360B items tenant=acme n=3
+ok 200 miss 7200B blob tenant=acme size=7200
+ok 200 miss 600B blob tenant=acme size=600
+ok 200 miss 1560B items tenant=acme n=13
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny rate retry_after=11
+deny quota-egress
+deny quota-egress
+deny rate retry_after=11
+deny rate retry_after=11
+deny rate retry_after=11
+deny rate retry_after=11
+deny quota-egress
+deny rate retry_after=11
+now=1846900
+ok 200 hit 360B items tenant=acme n=3
+deny quota-egress
+ok 200 hit 480B items tenant=acme n=4
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 6000B blob tenant=acme size=6000
+deny quota-egress
+ok 200 hit 480B items tenant=acme n=4
+ok 200 hit 360B items tenant=acme n=3
+ok 200 miss 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 miss 2280B items tenant=acme n=19
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 300B blob tenant=acme size=300
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 miss 1200B items tenant=acme n=10
+deny quota-egress
+deny quota-egress
+ok 200 miss 1800B items tenant=acme n=15
+ok 200 miss 840B items tenant=acme n=7
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 2400B items tenant=acme n=20
+deny quota-egress
+ok 200 hit 1560B items tenant=acme n=13
+now=1874200
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 1560B items tenant=acme n=13
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 1080B items tenant=acme n=9
+deny quota-egress
+ok 200 miss 8400B blob tenant=acme size=8400
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 8700B blob tenant=acme size=8700
+ok 200 hit 2280B items tenant=acme n=19
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+job j30 queued due=1874200
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 1800B blob tenant=acme size=1800
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+deny rate retry_after=9
+deny quota-egress
+deny rate retry_after=9
+deny quota-egress
+job j29 failed quota-egress
+job j30 done 200 256B me tenant=acme key=b label=-
+deny quota-egress
+deny rate retry_after=9
+deny rate retry_after=9
+deny rate retry_after=9
+deny quota-egress
+deny rate retry_after=9
+deny quota-egress
+now=1910600
+ok 200 miss 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+ok 200 miss 5400B blob tenant=acme size=5400
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 480B items tenant=acme n=4
+deny quota-egress
+ok 200 miss 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 hit 840B items tenant=acme n=7
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 1320B items tenant=acme n=11
+ok 200 miss 7500B blob tenant=acme size=7500
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 240B items tenant=acme n=2
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 1680B items tenant=acme n=14
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+now=1933200
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 4500B blob tenant=acme size=4500
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 8400B blob tenant=acme size=8400
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+job j31 queued due=1933200
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 miss 6300B blob tenant=acme size=6300
+ok 200 off 1500B report tenant=acme attempt=1
+now=1953800
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 5700B blob tenant=acme size=5700
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 6300B blob tenant=acme size=6300
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 miss 8100B blob tenant=acme size=8100
+ok 200 miss 1200B blob tenant=acme size=1200
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 miss 600B items tenant=acme n=5
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+job j31 done 200 600B items tenant=acme n=5
+ok 200 miss 120B items tenant=acme n=1
+deny quota-egress
+ok 200 hit 240B items tenant=acme n=2
+ok 200 hit 600B items tenant=acme n=5
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+deny rate retry_after=17
+deny quota-egress
+deny rate retry_after=17
+deny rate retry_after=17
+deny quota-egress
+now=1984300
+deny quota-egress
+ok 200 miss 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 9000B blob tenant=acme size=9000
+ok 200 miss 3600B blob tenant=acme size=3600
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 900B blob tenant=acme size=900
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 4800B blob tenant=acme size=4800
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 hit 900B blob tenant=acme size=900
+ok 200 miss 2100B blob tenant=acme size=2100
+ok 200 miss 840B items tenant=acme n=7
+deny quota-egress
+deny rate retry_after=9
+deny rate retry_after=9
+deny rate retry_after=9
+deny rate retry_after=9
+deny rate retry_after=9
+deny rate retry_after=9
+deny quota-egress
+deny quota-egress
+now=2005600
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 6300B blob tenant=acme size=6300
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+ok 200 miss 4500B blob tenant=acme size=4500
+deny quota-egress
+job j32 queued due=2005600
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny rate retry_after=9
+deny rate retry_after=9
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny rate retry_after=9
+deny quota-egress
+deny rate retry_after=9
+deny rate retry_after=9
+deny rate retry_after=9
+deny rate retry_after=9
+deny rate retry_after=9
+now=2037300
+deny quota-egress
+ok 200 miss 960B items tenant=acme n=8
+ok 200 miss 2160B items tenant=acme n=18
+ok 200 miss 256B me tenant=acme key=a label=-
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 6600B blob tenant=acme size=6600
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 miss 1920B items tenant=acme n=16
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+job j32 done 200 600B items tenant=acme n=5
+ok 200 miss 1500B blob tenant=acme size=1500
+deny quota-egress
+deny quota-egress
+ok 200 hit 2100B blob tenant=acme size=2100
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 2040B items tenant=acme n=17
+ok 200 hit 1200B blob tenant=acme size=1200
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 9000B blob tenant=acme size=9000
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny rate retry_after=7
+deny rate retry_after=7
+deny quota-egress
+now=2077000
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+ok 200 miss 5100B blob tenant=acme size=5100
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 2048B catalog items=12 rev=3
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=b label=-
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 240B items tenant=acme n=2
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 miss 7500B blob tenant=acme size=7500
+deny quota-egress
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 1200B items tenant=acme n=10
+job j33 queued due=2077000
+ok 200 miss 7200B blob tenant=acme size=7200
+ok 200 miss 2400B blob tenant=acme size=2400
+ok 200 hit 2160B items tenant=acme n=18
+ok 200 hit 2100B blob tenant=acme size=2100
+ok 200 hit 1200B items tenant=acme n=10
+ok 200 hit 6600B blob tenant=acme size=6600
+ok 200 hit 256B me tenant=acme key=a label=-
+deny quota-egress
+deny quota-egress
+ok 200 miss 480B items tenant=acme n=4
+now=2110100
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 256B me tenant=acme key=b label=-
+ok 200 miss 600B items tenant=acme n=5
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 2700B blob tenant=acme size=2700
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 hit 2040B items tenant=acme n=17
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 5700B blob tenant=acme size=5700
+ok 200 miss 9000B blob tenant=acme size=9000
+deny quota-egress
+deny quota-egress
+deny quota-egress
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+ok 200 hit 2040B items tenant=acme n=17
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 1800B blob tenant=acme size=1800
+deny quota-egress
+ok 200 hit 256B me tenant=acme key=b label=-
+ok 200 miss 1680B items tenant=acme n=14
+ok 200 hit 600B items tenant=acme n=5
+ok 200 hit 2048B catalog items=12 rev=3
+deny quota-egress
+ok 200 off 1500B report tenant=acme attempt=1
+ok 200 miss 3900B blob tenant=acme size=3900
+now=2134000
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+ok 200 miss 2280B items tenant=acme n=19
+ok 200 hit 256B me tenant=acme key=a label=-
+ok 200 off 1500B report tenant=acme attempt=1
+deny quota-egress
+deny rate retry_after=3
+deny quota-egress
+deny quota-egress
+deny rate retry_after=3
+deny rate retry_after=3
+job j33 done 200 1500B report tenant=acme attempt=1
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=3
+deny rate retry_after=3
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny rate retry_after=3
+deny quota-egress
+deny quota-egress
+deny rate retry_after=3
+deny quota-egress
+deny quota-egress
+deny rate retry_after=3
+deny rate retry_after=3
+deny quota-egress
+deny quota-egress
+deny rate retry_after=3
+deny rate retry_after=3
+deny quota-egress
+deny rate retry_after=3
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny quota-egress
+deny rate retry_after=3
+deny rate retry_after=3
+usage acme period=0 requests=1350/100000 egress=2613648B/64MiB
+rate acme mode=sliding limit=50 window=1m in_window=50
+meter acme api=1330 jobs=20 egress=2613648B
+usage bolt period=0 requests=571/5000 egress=1048556B/1MiB
+rate bolt mode=fixed limit=20 window=10s in_window=0
+meter bolt api=569 jobs=2 egress=1048556B
+usage cobalt period=0 requests=57/400 egress=65452B/64KiB
+rate cobalt mode=fixed limit=5 window=10s in_window=0
+meter cobalt api=55 jobs=2 egress=65452B
+bill acme plan=pro
+  api 1330 x 1000mc = 13.30
+  jobs 20 x 1000mc = 0.20
+  egress 3174KiB x 250mc = 7.94
+  total 21.44
+bill bolt plan=basic
+  api 569 x 1500mc = 8.54
+  jobs 2 x 1500mc = 0.03
+  egress 1300KiB x 400mc = 5.20
+  total 13.77
+bill cobalt plan=free
+  api 55 x 2000mc = 1.10
+  jobs 2 x 2000mc = 0.04
+  egress 88KiB x 500mc = 0.44
+  total 1.58
+1 acme requests=1350 egress=2613648B
+2 bolt requests=571 egress=1048556B
+3 cobalt requests=57 egress=65452B
+cache entries=18 used=60KiB capacity=64KiB hits=970 misses=1285 evictions=628
+denials acme total=280 rate=280
+denials bolt total=208 quota-egress=208
+denials cobalt total=697 quota-egress=659 rate=38
+stats now=2134000 tenants=3 served=1954 refused=1185 upstream=1884
+stats cache_hits=970 cache_misses=1285 jobs_queued=0 audit=3214
+#3205 t=2134000 acme req line="req acme.a.*** GET /v1/report" result=deny:rate
+#3206 t=2134000 acme req line="req acme.b.*** GET /v1/items q.n=13" result=deny:rate
+#3208 t=2134000 acme req line="req acme.b.*** GET /v1/report" result=deny:rate
+#3213 t=2134000 acme req line="req acme.b.*** GET /v1/report" result=deny:rate
+#3214 t=2134000 acme req line="req acme.a.*** GET /v1/items q.n=6" result=deny:rate
+jobs none queued
+check ok records=3214

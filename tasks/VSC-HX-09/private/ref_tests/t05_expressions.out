@@ -1,0 +1,25 @@
+RESULT true steps=3
+RESULT "MIXED CASE" steps=2
+RESULT true steps=3
+RESULT false steps=3
+RESULT true steps=3
+RESULT [1, "x", true, [2]] steps=6
+RESULT true steps=9
+RESULT false steps=7
+RESULT false steps=4
+ERROR eval: expected true or false, got number 1
+ERROR eval: len expects text or list, got number 5
+ERROR eval: count expects list, got number 5
+RESULT true steps=3
+RESULT false steps=3
+RESULT true steps=5
+ERROR eval: unknown name secret.nope
+ERROR eval: unknown name req.x
+RESULT "tab	here" steps=1
+ERROR parse: unknown escape \q at column 6
+ERROR parse: unknown function nofn at column 1
+ERROR parse: len takes 1 argument
+ERROR parse: comparisons cannot be chained (column 7)
+ERROR parse: number too large at column 1
+RESULT 999999999999 steps=1
+ERROR usage: usage: eval EXPR

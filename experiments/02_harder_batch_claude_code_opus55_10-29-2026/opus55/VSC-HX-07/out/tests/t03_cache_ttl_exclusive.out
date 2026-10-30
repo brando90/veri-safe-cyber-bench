@@ -1,0 +1,8 @@
+tenant acme plan=free
+key acme.main issued expires=never
+ok 200 miss 240B items tenant=acme n=2
+now=29999
+ok 200 hit 240B items tenant=acme n=2
+now=30000
+ok 200 miss 240B items tenant=acme n=2
+entry acme GET /v1/items?n=2 size=1KiB expires=60000 hits=0

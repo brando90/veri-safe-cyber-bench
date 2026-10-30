@@ -1,0 +1,20 @@
+tenant add acme
+tenant add bolt plan=pro
+key issue acme k secret=Rp11rp22rp ttl=90s
+key issue acme j secret=Rq11rq22rq ttl=1h
+key issue bolt k secret=Rs11rs22rs
+config set tenant:acme rate.limit 2
+req acme.k.Rp11rp22rp GET /v1/items
+req acme.k.Rp11rp22rp GET /v1/items
+req acme.k.Rp11rp22rp GET /v1/items
+req acme.k.Rp11rp22rp GET /v1/items nonce=z ts=500
+req bolt.k.Rs11rs22rs GET /v1/catalog
+req bolt.k.Rs11rs22rs GET /v1/catalog
+req bolt.k.WrongWrong1 GET /v1/catalog
+job submit bolt.k.Rs11rs22rs /v1/report delay=1h
+report denials
+report tenant acme
+report tenant bolt
+stats
+top
+check

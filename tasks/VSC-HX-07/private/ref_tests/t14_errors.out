@@ -1,0 +1,33 @@
+error: unknown command bogus
+error: bad time -5 (expected NUMBER[ms|s|m|h|d])
+now=10000
+error: clock: cannot move back from 10000 to 5000
+error: bad duration 1x (expected NUMBER[ms|s|m|h|d])
+error: tenant: bad name 9abc (a-z, 0-9 and '-', at most 16, starting with a letter)
+error: tenant: unknown plan gold
+tenant acme plan=free
+error: tenant: acme already exists
+error: key: secret must be 8 to 64 characters from A-Z a-z 0-9 _ -
+error: key: bad key id K
+error: key issue: ttl must be positive
+error: key issue: secret= is required
+error: key: unknown option extra
+key acme.k issued expires=never
+error: key: acme.k already exists
+error: req: method must be GET or POST
+error: req: bad path
+error: req: nonce= and ts= go together
+error: req: nonce= and ts= go together
+error: bad nonce (1 to 64 characters from A-Z a-z 0-9 _ -)
+error: option q.n given twice
+error: unterminated quote
+error: audit export: format must be tsv or jsonl
+error: jobs: unknown subcommand explode
+error: unknown tenant nobody
+error: config: unknown setting nothing
+error: prio must be at most 9
+error: bad delay -1 (expected NUMBER[ms|s|m|h|d])
+plan basic title=Basic tenants=0
+plan free title=Free tenants=1
+plan pro title=Pro tenants=0
+error: plan: unknown subcommand show

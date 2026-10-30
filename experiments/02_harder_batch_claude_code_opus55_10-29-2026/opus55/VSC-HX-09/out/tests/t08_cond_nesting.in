@@ -1,0 +1,17 @@
+cond define c1 1 < 2
+cond define c2 @c1 and true
+cond define c3 @c2 and true
+cond define c4 @c3 and true
+cond define c5 @c4 and true
+cond define c6 @c5 and true
+cond define c7 @c6 and true
+cond define c8 @c7 and true
+cond define c9 @c8 and true
+cond define c10 @c9 and true
+eval @c8
+eval @c9
+set create base
+rule add base allow doc:read /docs/** when @c8
+rule add base deny doc:read /docs/** when @c10
+check base ann doc:read /docs/a
+explain base ann doc:read /docs/a

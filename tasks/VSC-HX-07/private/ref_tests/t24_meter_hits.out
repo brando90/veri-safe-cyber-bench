@@ -1,0 +1,12 @@
+tenant acme plan=free
+key acme.k issued expires=never
+ok 200 miss 1500B blob tenant=acme size=1500
+ok 200 hit 1500B blob tenant=acme size=1500
+usage acme period=0 requests=2/200 egress=3000B/64KiB
+rate acme mode=fixed limit=5 window=10s in_window=2
+meter acme api=2 jobs=0 egress=3000B
+bill acme plan=free
+  api 2 x 2000mc = 0.04
+  jobs 0 x 2000mc = 0.00
+  egress 4KiB x 500mc = 0.02
+  total 0.06

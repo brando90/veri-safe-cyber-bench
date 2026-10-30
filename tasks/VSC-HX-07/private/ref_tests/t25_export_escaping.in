@@ -1,0 +1,7 @@
+tenant add acme
+key issue acme k secret=Ex11ex22ex label="tab	here \back"
+key list acme
+req acme.k.Ex11ex22ex GET /v1/me
+audit export acme format=tsv
+audit export acme format=jsonl
+audit export format=tsv

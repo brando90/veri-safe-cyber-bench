@@ -1,0 +1,13 @@
+# fixed window rate limit and the request quota
+tenant add acme
+key issue acme main secret=Kq7m2PzW9a
+config set tenant:acme rate.limit 2
+config set tenant:acme quota.requests 3
+clock set 1000
+req acme.main.Kq7m2PzW9a GET /v1/items
+req acme.main.Kq7m2PzW9a GET /v1/items q.n=2
+req acme.main.Kq7m2PzW9a GET /v1/items q.n=3
+clock set 10s
+req acme.main.Kq7m2PzW9a GET /v1/items q.n=3
+req acme.main.Kq7m2PzW9a GET /v1/items q.n=4
+usage acme

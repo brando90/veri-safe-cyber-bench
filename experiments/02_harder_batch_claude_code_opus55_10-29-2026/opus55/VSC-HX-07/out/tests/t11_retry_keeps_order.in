@@ -1,0 +1,9 @@
+# a job put back for a retry keeps its submission order
+tenant add acme
+key issue acme worker secret=Jb44xYq9Rt
+job submit acme.worker.Jb44xYq9Rt /v1/report q.fail=1
+job submit acme.worker.Jb44xYq9Rt /v1/report delay=1s
+jobs run
+jobs list
+clock advance 1s
+jobs run

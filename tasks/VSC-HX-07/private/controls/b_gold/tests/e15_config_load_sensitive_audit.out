@@ -1,0 +1,8 @@
+tenant acme plan=free
+config tenant:acme webhook.secret=***
+config tenant:acme webhook.url=https://hooks.example/a
+#2 t=0 acme config.set layer=tenant:acme name=webhook.secret value=***
+#3 t=0 acme config.set layer=tenant:acme name=webhook.url value=https://hooks.example/a
+{"seq":1,"t":0,"tenant":"acme","event":"tenant.add","fields":{"plan":"free"}}
+{"seq":2,"t":0,"tenant":"acme","event":"config.set","fields":{"layer":"tenant:acme","name":"webhook.secret","value":"***"}}
+{"seq":3,"t":0,"tenant":"acme","event":"config.set","fields":{"layer":"tenant:acme","name":"webhook.url","value":"https://hooks.example/a"}}

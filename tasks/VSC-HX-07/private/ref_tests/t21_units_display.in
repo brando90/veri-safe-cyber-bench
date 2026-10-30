@@ -1,0 +1,16 @@
+clock set 1500ms
+clock advance 1m
+clock advance 2h
+clock
+tenant add acme
+config set tenant:acme rate.window 3600000
+config set tenant:acme rate.window 61s
+config set tenant:acme rate.window 2h
+config set tenant:acme quota.egress 1048576
+config set tenant:acme quota.egress 1025
+config set tenant:acme cache.ttl 0
+config set tenant:acme quota.period 2d
+config set tenant:acme quota.period 31d
+config set tenant:acme replay.skew 1500
+config set tenant:acme replay.required yes
+config show acme

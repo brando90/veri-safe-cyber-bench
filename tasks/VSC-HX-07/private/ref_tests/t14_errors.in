@@ -1,0 +1,31 @@
+bogus
+clock set -5
+clock set 10s
+clock set 5s
+clock advance 1x
+tenant add 9abc
+tenant add acme plan=gold
+tenant add acme
+tenant add acme
+key issue acme k secret=short
+key issue acme K secret=Ok11ok22ok
+key issue acme k secret=Ok11ok22ok ttl=0
+key issue acme k
+key issue acme k secret=Ok11ok22ok extra=1
+key issue acme k secret=Ok11ok22ok
+key issue acme k secret=Ok11ok22ok
+req acme.k.Ok11ok22ok PUT /v1/items
+req acme.k.Ok11ok22ok GET v1/items
+req acme.k.Ok11ok22ok GET /v1/items nonce=x
+req acme.k.Ok11ok22ok GET /v1/items ts=1
+req acme.k.Ok11ok22ok GET /v1/items nonce=bad! ts=1
+req acme.k.Ok11ok22ok GET /v1/items q.n=1 q.n=2
+req acme.k.Ok11ok22ok GET /v1/items "unterminated
+audit export format=xml
+jobs explode
+usage nobody
+config get acme nothing
+job submit acme.k.Ok11ok22ok /v1/report prio=10
+job submit acme.k.Ok11ok22ok /v1/report delay=-1
+plan list
+plan show

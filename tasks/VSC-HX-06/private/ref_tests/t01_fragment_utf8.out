@@ -1,0 +1,41 @@
+d0 00:00:00.000 ACCEPT u1 alice->rx prio=normal frags=7 size=30 ttl=3600s
+d0 00:00:00.000 ACCEPT u2 alice->rx prio=normal frags=8 size=24 ttl=3600s
+d0 00:00:01.000 SEND u1 1/7 alice->rx ok
+d0 00:00:02.000 SEND u1 2/7 alice->rx ok
+d0 00:00:03.000 SEND u1 3/7 alice->rx ok
+d0 00:00:04.000 SEND u1 4/7 alice->rx ok
+d0 00:00:05.000 SEND u1 5/7 alice->rx ok
+d0 00:00:06.000 SEND u1 6/7 alice->rx ok
+d0 00:00:07.000 SEND u1 7/7 alice->rx ok
+d0 00:00:07.000 DONE u1 alice->rx size=30 cost=0.02
+d0 00:00:08.000 SEND u2 1/8 alice->rx ok
+d0 00:00:09.000 SEND u2 2/8 alice->rx ok
+d0 00:00:10.000 SEND u2 3/8 alice->rx ok
+d0 00:00:11.000 SEND u2 4/8 alice->rx ok
+d0 00:00:12.000 SEND u2 5/8 alice->rx ok
+d0 00:00:13.000 SEND u2 6/8 alice->rx ok
+d0 00:00:14.000 SEND u2 7/8 alice->rx ok
+d0 00:00:15.000 SEND u2 8/8 alice->rx ok
+d0 00:00:15.000 DONE u2 alice->rx size=24 cost=0.02
+message u1 alice->rx prio=normal state=delivered size=30 frags=7 via=send
+accepted=d0 00:00:00.000 deadline=d0 01:00:00.000 started=d0 00:00:01.000 finished=d0 00:00:07.000
+fragment 1/7 bytes=5 attempts=1 acked=yes
+fragment 2/7 bytes=5 attempts=1 acked=yes
+fragment 3/7 bytes=4 attempts=1 acked=yes
+fragment 4/7 bytes=5 attempts=1 acked=yes
+fragment 5/7 bytes=5 attempts=1 acked=yes
+fragment 6/7 bytes=3 attempts=1 acked=yes
+fragment 7/7 bytes=3 attempts=1 acked=yes
+message u2 alice->rx prio=normal state=delivered size=24 frags=8 via=send
+accepted=d0 00:00:00.000 deadline=d0 01:00:00.000 started=d0 00:00:08.000 finished=d0 00:00:15.000
+fragment 1/8 bytes=3 attempts=1 acked=yes
+fragment 2/8 bytes=3 attempts=1 acked=yes
+fragment 3/8 bytes=3 attempts=1 acked=yes
+fragment 4/8 bytes=3 attempts=1 acked=yes
+fragment 5/8 bytes=3 attempts=1 acked=yes
+fragment 6/8 bytes=3 attempts=1 acked=yes
+fragment 7/8 bytes=3 attempts=1 acked=yes
+fragment 8/8 bytes=3 attempts=1 acked=yes
+inbox rx: 2 messages
+u1 from alice: héllo wörld ünïcode ✓✓
+u2 from alice: 日本語のテキスト

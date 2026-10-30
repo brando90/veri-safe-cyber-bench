@@ -1,0 +1,11 @@
+d0 23:00:00.000 ACCEPT u0 alice->rx prio=normal frags=1 size=15 ttl=3600s
+d0 23:00:01.000 SEND u0 1/1 alice->rx ok
+d0 23:00:01.000 DONE u0 alice->rx size=15 cost=0.02
+d0 23:00:02.000 ACCEPT u1 bob->rx prio=urgent frags=1 size=25 ttl=7200s
+explain u1 at d0 23:00:02.000: deadline d1 01:00:02.000
+fragment 1/1 waits: limit daily
+d1 00:00:00.000 SEND u1 1/1 bob->rx ok
+d1 00:00:00.000 DONE u1 bob->rx size=25 cost=0.04
+inbox rx: 2 messages
+u0 from alice: Daily allowance
+u1 from bob: Urgent but over the limit

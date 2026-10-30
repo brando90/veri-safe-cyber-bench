@@ -1,0 +1,13 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set frag.size_bytes 5
+send u1 alice rx héllo wörld ünïcode ✓✓
+send u2 alice rx 日本語のテキスト
+advance 30s
+show u1
+show u2
+inbox rx

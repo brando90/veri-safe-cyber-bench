@@ -1,0 +1,14 @@
+tenant add acme
+tenant add bolt
+key issue acme k secret=Pp11pp22pp
+key issue bolt k secret=Pq11pq22pq
+req acme.k.Pp11pp22pp GET /v1/items
+req acme.k.Pp11pp22pp GET /v1/items
+req bolt.k.Pq11pq22pq GET /v1/items
+req acme.k.Pp11pp22pp POST /v1/items
+req acme.k.Pp11pp22pp GET /v1/items
+req bolt.k.Pq11pq22pq GET /v1/items
+cache purge bolt
+req bolt.k.Pq11pq22pq GET /v1/items
+cache list
+audit bolt event=cache

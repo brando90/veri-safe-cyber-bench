@@ -1,0 +1,10 @@
+# a change to the plan layer applies to the very next request
+tenant add acme
+key issue acme main secret=Kq7m2PzW9a
+req acme.main.Kq7m2PzW9a GET /v1/catalog
+config set plan:free rate.limit 1
+req acme.main.Kq7m2PzW9a GET /v1/catalog
+rate show acme
+config set plan:free rate.limit 3
+req acme.main.Kq7m2PzW9a GET /v1/catalog
+usage acme

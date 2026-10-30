@@ -1,0 +1,74 @@
+OK set base
+OK R1
+DECISION allow by=R1 steps=0
+DECISION deny by=default steps=0
+DECISION deny by=default steps=0
+DECISION deny by=default steps=0
+DECISION deny by=default steps=0
+DECISION deny by=default steps=0
+DECISION deny by=default steps=0
+DECISION deny by=default steps=0
+DECISION deny by=default steps=0
+DECISION deny by=default steps=0
+DECISION deny by=default steps=0
+DECISION deny by=default steps=0
+DECISION deny by=default steps=0
+DECISION deny by=default steps=0
+DECISION deny by=default steps=0
+DECISION deny by=default steps=0
+#1 t=0 base ann doc:read /docs/a -> allow by=R1 steps=0
+#2 t=0 base ann doc:write /docs/a -> deny by=default steps=0
+#3 t=0 base ann doc:write /docs/a -> deny by=default steps=0
+#4 t=0 base ann doc:write /docs/a -> deny by=default steps=0
+#5 t=0 base ann doc:write /docs/a -> deny by=default steps=0
+#6 t=0 base ann doc:write /docs/a -> deny by=default steps=0
+#7 t=0 base ann doc:write /docs/a -> deny by=default steps=0
+#8 t=0 base ann doc:write /docs/a -> deny by=default steps=0
+#9 t=0 base ann doc:write /docs/a -> deny by=default steps=0
+#10 t=0 base ann doc:write /docs/a -> deny by=default steps=0
+#11 t=0 base ann doc:write /docs/a -> deny by=default steps=0
+#12 t=0 base ann doc:write /docs/a -> deny by=default steps=0
+#13 t=0 base ann doc:write /docs/a -> deny by=default steps=0
+#14 t=0 base ann doc:write /docs/a -> deny by=default steps=0
+#15 t=0 base ann doc:write /docs/a -> deny by=default steps=0
+#16 t=0 base ann doc:write /docs/a -> deny by=default steps=0
+-- 16 decisions, 6.3% allowed
+{"seq":1,"time":0,"set":"base","subject":"ann","action":"doc:read","resource":"/docs/a","effect":"allow","by":"R1","steps":0,"note":"","context":""}
+{"seq":2,"time":0,"set":"base","subject":"ann","action":"doc:write","resource":"/docs/a","effect":"deny","by":"default","steps":0,"note":"","context":""}
+{"seq":3,"time":0,"set":"base","subject":"ann","action":"doc:write","resource":"/docs/a","effect":"deny","by":"default","steps":0,"note":"","context":""}
+{"seq":4,"time":0,"set":"base","subject":"ann","action":"doc:write","resource":"/docs/a","effect":"deny","by":"default","steps":0,"note":"","context":""}
+{"seq":5,"time":0,"set":"base","subject":"ann","action":"doc:write","resource":"/docs/a","effect":"deny","by":"default","steps":0,"note":"","context":""}
+{"seq":6,"time":0,"set":"base","subject":"ann","action":"doc:write","resource":"/docs/a","effect":"deny","by":"default","steps":0,"note":"","context":""}
+{"seq":7,"time":0,"set":"base","subject":"ann","action":"doc:write","resource":"/docs/a","effect":"deny","by":"default","steps":0,"note":"","context":""}
+{"seq":8,"time":0,"set":"base","subject":"ann","action":"doc:write","resource":"/docs/a","effect":"deny","by":"default","steps":0,"note":"","context":""}
+{"seq":9,"time":0,"set":"base","subject":"ann","action":"doc:write","resource":"/docs/a","effect":"deny","by":"default","steps":0,"note":"","context":""}
+{"seq":10,"time":0,"set":"base","subject":"ann","action":"doc:write","resource":"/docs/a","effect":"deny","by":"default","steps":0,"note":"","context":""}
+{"seq":11,"time":0,"set":"base","subject":"ann","action":"doc:write","resource":"/docs/a","effect":"deny","by":"default","steps":0,"note":"","context":""}
+{"seq":12,"time":0,"set":"base","subject":"ann","action":"doc:write","resource":"/docs/a","effect":"deny","by":"default","steps":0,"note":"","context":""}
+{"seq":13,"time":0,"set":"base","subject":"ann","action":"doc:write","resource":"/docs/a","effect":"deny","by":"default","steps":0,"note":"","context":""}
+{"seq":14,"time":0,"set":"base","subject":"ann","action":"doc:write","resource":"/docs/a","effect":"deny","by":"default","steps":0,"note":"","context":""}
+{"seq":15,"time":0,"set":"base","subject":"ann","action":"doc:write","resource":"/docs/a","effect":"deny","by":"default","steps":0,"note":"","context":""}
+{"seq":16,"time":0,"set":"base","subject":"ann","action":"doc:write","resource":"/docs/a","effect":"deny","by":"default","steps":0,"note":"","context":""}
+{"decisions":16,"allowed_pct":"6.3"}
+<table class="decisions">
+<tr><th>seq</th><th>time</th><th>set</th><th>subject</th><th>action</th><th>resource</th><th>effect</th><th>by</th><th>steps</th><th>note</th><th>context</th></tr>
+<tr><td class="seq">1</td><td class="time">0</td><td class="set">base</td><td class="subject">ann</td><td class="action">doc:read</td><td class="resource">/docs/a</td><td class="effect">allow</td><td class="by">R1</td><td class="steps">0</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">2</td><td class="time">0</td><td class="set">base</td><td class="subject">ann</td><td class="action">doc:write</td><td class="resource">/docs/a</td><td class="effect">deny</td><td class="by">default</td><td class="steps">0</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">3</td><td class="time">0</td><td class="set">base</td><td class="subject">ann</td><td class="action">doc:write</td><td class="resource">/docs/a</td><td class="effect">deny</td><td class="by">default</td><td class="steps">0</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">4</td><td class="time">0</td><td class="set">base</td><td class="subject">ann</td><td class="action">doc:write</td><td class="resource">/docs/a</td><td class="effect">deny</td><td class="by">default</td><td class="steps">0</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">5</td><td class="time">0</td><td class="set">base</td><td class="subject">ann</td><td class="action">doc:write</td><td class="resource">/docs/a</td><td class="effect">deny</td><td class="by">default</td><td class="steps">0</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">6</td><td class="time">0</td><td class="set">base</td><td class="subject">ann</td><td class="action">doc:write</td><td class="resource">/docs/a</td><td class="effect">deny</td><td class="by">default</td><td class="steps">0</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">7</td><td class="time">0</td><td class="set">base</td><td class="subject">ann</td><td class="action">doc:write</td><td class="resource">/docs/a</td><td class="effect">deny</td><td class="by">default</td><td class="steps">0</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">8</td><td class="time">0</td><td class="set">base</td><td class="subject">ann</td><td class="action">doc:write</td><td class="resource">/docs/a</td><td class="effect">deny</td><td class="by">default</td><td class="steps">0</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">9</td><td class="time">0</td><td class="set">base</td><td class="subject">ann</td><td class="action">doc:write</td><td class="resource">/docs/a</td><td class="effect">deny</td><td class="by">default</td><td class="steps">0</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">10</td><td class="time">0</td><td class="set">base</td><td class="subject">ann</td><td class="action">doc:write</td><td class="resource">/docs/a</td><td class="effect">deny</td><td class="by">default</td><td class="steps">0</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">11</td><td class="time">0</td><td class="set">base</td><td class="subject">ann</td><td class="action">doc:write</td><td class="resource">/docs/a</td><td class="effect">deny</td><td class="by">default</td><td class="steps">0</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">12</td><td class="time">0</td><td class="set">base</td><td class="subject">ann</td><td class="action">doc:write</td><td class="resource">/docs/a</td><td class="effect">deny</td><td class="by">default</td><td class="steps">0</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">13</td><td class="time">0</td><td class="set">base</td><td class="subject">ann</td><td class="action">doc:write</td><td class="resource">/docs/a</td><td class="effect">deny</td><td class="by">default</td><td class="steps">0</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">14</td><td class="time">0</td><td class="set">base</td><td class="subject">ann</td><td class="action">doc:write</td><td class="resource">/docs/a</td><td class="effect">deny</td><td class="by">default</td><td class="steps">0</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">15</td><td class="time">0</td><td class="set">base</td><td class="subject">ann</td><td class="action">doc:write</td><td class="resource">/docs/a</td><td class="effect">deny</td><td class="by">default</td><td class="steps">0</td><td class="note">-</td><td class="context"></td></tr>
+<tr><td class="seq">16</td><td class="time">0</td><td class="set">base</td><td class="subject">ann</td><td class="action">doc:write</td><td class="resource">/docs/a</td><td class="effect">deny</td><td class="by">default</td><td class="steps">0</td><td class="note">-</td><td class="context"></td></tr>
+<tr class="summary"><td colspan="11">16 decisions, 6.3% allowed</td></tr>
+</table>
+ALL decisions=16 allow=1 deny=15 allowed=6.3% avg_steps=0
+SET base decisions=16 allow=1 deny=15 allowed=6.3% avg_steps=0

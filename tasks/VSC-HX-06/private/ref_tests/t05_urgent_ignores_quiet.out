@@ -1,0 +1,11 @@
+d0 00:00:00.000 ACCEPT n1 alice->rx prio=normal frags=1 size=12 ttl=3600s
+d0 00:00:00.000 ACCEPT n2 bob->rx prio=urgent frags=1 size=11 ttl=3600s
+d0 00:00:00.000 ACCEPT n3 bob->rx prio=urgent frags=1 size=13 ttl=3600s
+d0 00:00:01.000 SEND n2 1/1 bob->rx ok
+d0 00:00:01.000 DONE n2 bob->rx size=11 cost=0.04
+d0 00:00:02.000 SEND n3 1/1 bob->rx ok
+d0 00:00:02.000 DONE n3 bob->rx size=13 cost=0.04
+d0 01:00:00.000 EXPIRE n1
+inbox rx: 2 messages
+n2 from bob: urgent goes
+n3 from bob: urgent second

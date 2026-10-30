@@ -1,0 +1,10 @@
+OK cond w
+OK cond w2
+OK cond w3
+RESULT true steps=348
+ERROR budget: step limit 500 exceeded
+OK set base
+OK R1
+DECISION deny by=budget steps=526 note: step limit 500 exceeded
+#1 t=0 base ann doc:read /docs/a -> deny by=budget steps=526 note: step limit 500 exceeded
+REPLAY #1 was=deny now=deny by=budget

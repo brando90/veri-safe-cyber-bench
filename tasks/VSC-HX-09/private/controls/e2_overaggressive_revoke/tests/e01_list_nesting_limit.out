@@ -1,0 +1,2 @@
+ERROR parse: expression nested deeper than 32
+RESULT [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[1]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] steps=33

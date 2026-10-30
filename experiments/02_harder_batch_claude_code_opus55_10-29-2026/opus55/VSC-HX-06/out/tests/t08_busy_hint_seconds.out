@@ -1,0 +1,13 @@
+d0 00:00:00.000 ACCEPT w1 bob->rx prio=normal frags=1 size=11 ttl=3600s
+d0 00:00:01.000 SEND w1 1/1 bob->rx busy
+d0 00:00:01.000 RETRY w1 1/1 at d0 00:00:11.000
+queue at d0 00:00:04.000: 1 entries
+w1 1/1 bob->rx prio=normal attempts=1 not-before=d0 00:00:11.000
+d0 00:00:11.000 SEND w1 1/1 bob->rx ok
+d0 00:00:11.000 DONE w1 bob->rx size=11 cost=0.03
+history w1: 5 events
+d0 00:00:00.000 ACCEPT w1 bob->rx prio=normal frags=1 size=11 ttl=3600s
+d0 00:00:01.000 SEND w1 1/1 bob->rx busy
+d0 00:00:01.000 RETRY w1 1/1 at d0 00:00:11.000
+d0 00:00:11.000 SEND w1 1/1 bob->rx ok
+d0 00:00:11.000 DONE w1 bob->rx size=11 cost=0.03

@@ -1,0 +1,10 @@
+d0 00:00:00.000 ACCEPT m1 alice->rx prio=normal frags=2 size=16 ttl=3600s
+d0 00:00:00.000 ACCEPT m2 alice->rx prio=normal frags=1 size=8 ttl=3600s
+d0 00:00:01.000 SEND m1 1/2 alice->rx fail
+d0 00:00:01.000 RETRY m1 1/2 at d0 00:00:03.000
+d0 00:00:02.000 SEND m1 2/2 alice->rx ok
+d0 00:00:03.000 SEND m1 1/2 alice->rx ok
+d0 00:00:03.000 DONE m1 alice->rx size=16 cost=0.02
+d0 00:00:04.000 SEND m2 1/1 alice->rx ok
+d0 00:00:04.000 DONE m2 alice->rx size=8 cost=0.02
+queue at d0 00:00:06.000: 0 entries

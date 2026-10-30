@@ -1,0 +1,7 @@
+tenant add acme
+key issue acme k secret=Ne11ne22ne
+config set tenant:acme quota.egress 2KiB
+req acme.k.Ne11ne22ne GET /v1/blob q.size=3KiB nonce=b1 ts=0
+req acme.k.Ne11ne22ne GET /v1/blob q.size=1KiB nonce=b1 ts=0
+nonce list acme k
+usage acme

@@ -1,0 +1,37 @@
+ERROR set-for: key dispatch.interval_ms cannot be set per recipient
+ERROR set-for: unknown key nosuch.key
+ERROR set: value 0 out of range for queue.max_pending (1..10000)
+ERROR set-for: bad time of day 7:00
+config for rx
+breaker.pause_s 30 s default
+breaker.threshold 3 count default
+dedup.window_s 90 s recipient
+dispatch.per_recipient 1 count default
+limit.daily 0 count default
+limit.daily_kib 0 kib default
+limit.hourly 0 count default
+queue.max_pending 3 count global
+quiet.end - hhmm default
+quiet.start 07:00 hhmm recipient
+retry.max_attempts 4 count default
+ttl.default_s 3600 s default
+ttl.max_s 86400 s default
+ERROR unset-for: no override of dedup.window_s for rx
+config for rx
+breaker.pause_s 30 s default
+breaker.threshold 3 count default
+dedup.window_s 30 s global
+dispatch.per_recipient 1 count default
+limit.daily 0 count default
+limit.daily_kib 0 kib default
+limit.hourly 0 count default
+queue.max_pending 3 count global
+quiet.end - hhmm default
+quiet.start 07:00 hhmm recipient
+retry.max_attempts 4 count default
+ttl.default_s 3600 s default
+ttl.max_s 86400 s default
+#8 d0 00:00:00.000 set-for recipient=rx key=dedup.window_s value=90
+#9 d0 00:00:00.000 set key=queue.max_pending value=3
+#10 d0 00:00:00.000 set-for recipient=rx key=quiet.start value=07:00
+#11 d0 00:00:00.000 unset-for recipient=rx key=dedup.window_s

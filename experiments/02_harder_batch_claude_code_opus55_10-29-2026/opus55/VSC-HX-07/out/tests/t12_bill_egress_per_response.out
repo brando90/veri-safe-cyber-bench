@@ -1,0 +1,13 @@
+tenant acme plan=free
+key acme.main issued expires=never
+config tenant:acme price.kib=1000
+ok 200 miss 100B blob tenant=acme size=100
+ok 200 miss 200B blob tenant=acme size=200
+ok 200 miss 300B blob tenant=acme size=300
+ok 200 miss 0B blob tenant=acme size=0
+bill acme plan=free
+  api 4 x 2000mc = 0.08
+  jobs 0 x 2000mc = 0.00
+  egress 3KiB x 1000mc = 0.03
+  total 0.11
+check ok records=7

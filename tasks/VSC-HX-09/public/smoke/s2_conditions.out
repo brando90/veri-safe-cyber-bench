@@ -1,0 +1,34 @@
+OK set base
+OK set prod
+OK set admin
+OK set ops
+OK attr ann.dept
+OK attr ann.role
+OK attr bob.dept
+OK attr bob.role
+OK attr cy.dept
+OK attr cy.role
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+RESULT true steps=7
+RESULT 3 steps=5
+RESULT true steps=4
+RESULT true steps=3
+RESULT true steps=7
+RESULT 2 steps=9
+RESULT true steps=5
+CLOCK 75
+RESULT 75 steps=1
+OK cond staff
+OK cond senior
+COND senior: @staff and subject.role == "editor"
+COND staff: subject.dept in ["hr", "eng"]
+ERROR eval: cannot compare number 1 with text "a"
+ERROR parse: expected ) at column 3
+OK R7
+DECISION allow by=R7 steps=3
+DECISION deny by=default steps=3

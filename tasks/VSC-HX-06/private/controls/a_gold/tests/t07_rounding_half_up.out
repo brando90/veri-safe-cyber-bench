@@ -1,0 +1,27 @@
+d0 00:00:00.000 ACCEPT r1 bob->rx prio=normal frags=1 size=15 ttl=3600s
+d0 00:00:00.000 ACCEPT r2 bob->rx prio=low frags=1 size=12 ttl=3600s
+d0 00:00:00.000 ACCEPT r3 alice->rx prio=normal frags=1 size=11 ttl=3600s
+d0 00:00:00.000 ACCEPT r4 cora->ny prio=high frags=1 size=9 ttl=3600s
+d0 00:00:01.000 SEND r4 1/1 cora->ny ok
+d0 00:00:01.000 DONE r4 cora->ny size=9 cost=0.01
+d0 00:00:01.000 SEND r1 1/1 bob->rx ok
+d0 00:00:01.000 DONE r1 bob->rx size=15 cost=0.03
+d0 00:00:02.000 SEND r3 1/1 alice->rx ok
+d0 00:00:02.000 DONE r3 alice->rx size=11 cost=0.02
+d0 00:00:03.000 SEND r2 1/1 bob->rx ok
+d0 00:00:03.000 DONE r2 bob->rx size=12 cost=0.03
+invoice bob #1 plan=pro
+r1 d0 00:00:01.000 rx size=15 prio=normal 0.03
+r2 d0 00:00:03.000 rx size=12 prio=low 0.03
+total=0.06 lines=2
+invoice alice #1 plan=basic
+r3 d0 00:00:02.000 rx size=11 prio=normal 0.02
+total=0.02 lines=1
+invoice cora #1 plan=bulk
+r4 d0 00:00:01.000 ny size=9 prio=high 0.01
+total=0.01 lines=1
+id,sender,plan,recipient,size,prio,amount,invoice
+r4,cora,bulk,ny,9,high,0.01,1
+r1,bob,pro,rx,15,normal,0.03,1
+r3,alice,basic,rx,11,normal,0.02,1
+r2,bob,pro,rx,12,low,0.03,1

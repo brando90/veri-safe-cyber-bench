@@ -1,0 +1,12 @@
+# effective settings come from tenant, plan, default layers
+tenant add acme
+config get acme rate.limit
+config set tenant:acme rate.limit 3
+config set default quota.period 1h
+config show acme
+config explain acme rate.limit
+config unset tenant:acme rate.limit
+config get acme rate.limit
+config set tenant:acme rate.window 0
+config set tenant:acme webhook.url https://hooks.example/acme
+config layers

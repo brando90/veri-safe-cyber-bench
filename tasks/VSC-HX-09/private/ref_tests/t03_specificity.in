@@ -1,0 +1,18 @@
+set create s
+rule add s allow doc:* /a/**
+rule add s allow doc:read /a/**
+rule add s allow doc:* /a/*/c
+rule add s allow doc:* /a/b/*
+rule add s allow doc:read /a/b/c
+rule add s allow doc:read /a/b/c
+check s u doc:read /a/b/c
+rule del R5
+check s u doc:read /a/b/c
+rule del R6
+check s u doc:read /a/b/c
+check s u doc:write /a/b/c
+check s u doc:write /a/x/c
+check s u doc:read /a
+check s u doc:read /a/x/y/z
+rule del R6
+rule del R9

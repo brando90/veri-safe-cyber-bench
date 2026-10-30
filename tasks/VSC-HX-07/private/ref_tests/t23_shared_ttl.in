@@ -1,0 +1,13 @@
+tenant add acme plan=pro
+tenant add bolt
+key issue acme k secret=Sh11sh22sh
+key issue bolt k secret=Si11si22si
+req acme.k.Sh11sh22sh GET /v1/catalog
+clock set 20s
+req bolt.k.Si11si22si GET /v1/catalog
+clock set 40s
+req acme.k.Sh11sh22sh GET /v1/catalog
+req acme.k.Sh11sh22sh GET /v1/items
+clock set 100s
+req acme.k.Sh11sh22sh GET /v1/items
+cache list

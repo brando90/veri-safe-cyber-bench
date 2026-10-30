@@ -1,0 +1,19 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set dedup.window_s 30
+set-for rx dedup.window_s 90
+set-for rx dispatch.interval_ms 500
+set-for rx nosuch.key 1
+set queue.max_pending 0
+set queue.max_pending 3
+set-for rx quiet.start 7:00
+set-for rx quiet.start 07:00
+config rx
+unset-for rx dedup.window_s
+unset-for rx dedup.window_s
+config rx
+audit 4

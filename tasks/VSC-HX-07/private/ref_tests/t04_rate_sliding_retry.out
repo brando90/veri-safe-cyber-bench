@@ -1,0 +1,24 @@
+tenant acme plan=pro
+key acme.k issued expires=never
+config tenant:acme rate.limit=3
+config tenant:acme rate.window=10s
+now=1000
+ok 200 miss 600B items tenant=acme n=5
+now=2500
+ok 200 hit 600B items tenant=acme n=5
+now=4000
+ok 200 hit 600B items tenant=acme n=5
+now=5000
+deny rate retry_after=6
+now=10999
+deny rate retry_after=1
+now=11000
+ok 200 hit 600B items tenant=acme n=5
+deny rate retry_after=2
+config tenant:acme rate.limit=4
+ok 200 hit 600B items tenant=acme n=5
+rate acme mode=sliding limit=4 window=10s in_window=4
+accepted t=2500
+accepted t=4000
+accepted t=11000
+accepted t=11000

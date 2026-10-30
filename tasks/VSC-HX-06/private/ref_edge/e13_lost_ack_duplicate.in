@@ -1,0 +1,11 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set frag.size_bytes 8
+link rx lost 1
+send m1 alice rx 0123456789abcdefXYZ
+advance 6s
+inbox rx

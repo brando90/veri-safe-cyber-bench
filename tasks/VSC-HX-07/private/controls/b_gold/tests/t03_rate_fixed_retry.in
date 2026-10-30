@@ -1,0 +1,15 @@
+tenant add acme
+key issue acme k1 secret=Rr11ss22tt
+key issue acme k2 secret=Uu33vv44ww
+config set tenant:acme rate.limit 3
+clock set 12300
+req acme.k1.Rr11ss22tt GET /v1/items
+req acme.k1.Rr11ss22tt GET /v1/items
+req acme.k2.Uu33vv44ww GET /v1/items q.n=1
+req acme.k1.Rr11ss22tt GET /v1/items
+clock set 19001
+req acme.k2.Uu33vv44ww GET /v1/items
+clock set 20000
+req acme.k2.Uu33vv44ww GET /v1/items
+rate show acme
+usage acme

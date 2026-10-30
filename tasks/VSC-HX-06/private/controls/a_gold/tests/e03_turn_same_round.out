@@ -1,0 +1,13 @@
+d0 00:00:00.000 ACCEPT b1 bob->ny prio=normal frags=3 size=24 ttl=3600s
+d0 00:00:00.000 ACCEPT a1 alice->rx prio=high frags=1 size=8 ttl=3600s
+d0 00:00:00.000 ACCEPT a2 alice->tokyo prio=normal frags=3 size=24 ttl=3600s
+d0 00:00:01.000 SEND a1 1/1 alice->rx ok
+d0 00:00:01.000 DONE a1 alice->rx size=8 cost=0.02
+d0 00:00:01.000 SEND b1 1/3 bob->ny ok
+d0 00:00:02.000 SEND a2 1/3 alice->tokyo ok
+d0 00:00:02.000 SEND b1 2/3 bob->ny ok
+d0 00:00:03.000 SEND a2 2/3 alice->tokyo ok
+d0 00:00:03.000 SEND b1 3/3 bob->ny ok
+d0 00:00:03.000 DONE b1 bob->ny size=24 cost=0.03
+d0 00:00:04.000 SEND a2 3/3 alice->tokyo ok
+d0 00:00:04.000 DONE a2 alice->tokyo size=24 cost=0.02

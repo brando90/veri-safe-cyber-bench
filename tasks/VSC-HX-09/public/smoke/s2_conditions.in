@@ -1,0 +1,33 @@
+set create base
+set create prod parent=base
+set create admin mode=admin
+set create ops parent=admin
+attr set ann dept hr
+attr set ann role editor
+attr set bob dept eng
+attr set bob role viewer
+attr set cy dept eng
+attr set cy role editor
+rule add base allow doc:read /docs/**
+rule add base deny doc:* /docs/hr/** when subject.dept != "hr"
+rule add prod allow doc:write /docs/team/* when subject.role == "editor"
+rule add admin override doc:* /docs/hr/audit/** when subject.id == "auditor"
+rule add ops allow ops:* /svc/**
+rule add ops deny ops:restart /svc/core/* when req.change != "approved"
+eval 1 < 2 and "ab" in "cab"
+eval len([1, 2, 3])
+eval lower("ABC") == "abc"
+eval glob("/docs/*", "/docs/a")
+eval any_glob(["/a/*", "/docs/**"], "/docs/x/y")
+eval count([1, 2, 1], 1)
+eval hours(2) == minutes(120)
+clock set 75
+eval now
+cond define staff subject.dept in ["hr", "eng"]
+cond define senior @staff and subject.role == "editor"
+cond list
+eval 1 < "a"
+eval (1
+rule add prod allow doc:read /reports/* when subject.role == "editor"
+check prod cy doc:read /reports/q1
+check prod bob doc:read /reports/q1

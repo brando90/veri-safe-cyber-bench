@@ -1,0 +1,12 @@
+OK cond l64
+OK cond l40
+OK cond heavy
+RESULT true steps=500
+ERROR budget: step limit 500 exceeded
+OK set s
+OK R1
+DECISION allow by=R1 steps=500
+OK R2
+DECISION deny by=budget steps=501 note: step limit 500 exceeded
+R1 allow set=s cond=true
+R2 deny set=s cond=budget

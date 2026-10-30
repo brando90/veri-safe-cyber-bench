@@ -1,0 +1,16 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set-for tokyo limit.daily 2
+send t1 cora tokyo one
+send t2 cora tokyo two
+send t3 cora tokyo ttl=1d three
+send t4 cora tokyo ttl=1d four
+advance 1m
+at d0 14:59
+at d0 15:00:03
+stats
+report daily tokyo

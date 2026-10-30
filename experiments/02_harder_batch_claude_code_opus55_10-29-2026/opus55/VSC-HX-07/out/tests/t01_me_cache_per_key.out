@@ -1,0 +1,14 @@
+tenant acme plan=free
+tenant bolt plan=free
+key acme.main issued expires=never
+key bolt.main issued expires=never
+key acme.second issued expires=never
+ok 200 miss 256B me tenant=acme key=main label=shop
+ok 200 miss 256B me tenant=bolt key=main label=office
+ok 200 hit 256B me tenant=acme key=main label=shop
+ok 200 miss 256B me tenant=acme key=second label=-
+ok 200 hit 256B me tenant=bolt key=main label=office
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 hit 2048B catalog items=12 rev=3
+cache entries=4 used=5KiB capacity=256KiB hits=3 misses=4 evictions=0
+check ok records=12

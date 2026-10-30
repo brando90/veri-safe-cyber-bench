@@ -1,0 +1,16 @@
+tenant acme plan=basic
+key acme.main issued expires=never
+ok 200 miss 2048B catalog items=12 rev=3
+ok 200 miss 3072B blob tenant=acme size=3072
+ok 200 hit 3072B blob tenant=acme size=3072
+ok 200 miss 840B items tenant=acme n=7
+bill acme plan=basic
+  api 4 x 1500mc = 0.06
+  jobs 0 x 1500mc = 0.00
+  egress 9KiB x 400mc = 0.04
+  total 0.10
+1 acme requests=4 egress=9032B
+#4 t=0 acme req line="req acme.main.*** GET /v1/blob q.size=3KiB" result=ok:200:miss
+#5 t=0 acme req line="req acme.main.*** GET /v1/blob q.size=3KiB" result=ok:200:hit
+#6 t=0 acme req line="req acme.main.*** GET /v1/items q.n=7" result=ok:200:miss
+check ok records=6

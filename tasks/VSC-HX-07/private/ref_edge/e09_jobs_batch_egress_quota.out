@@ -1,0 +1,19 @@
+tenant acme plan=free
+tenant bolt plan=free
+key acme.w issued expires=never
+key bolt.w issued expires=never
+config tenant:acme quota.egress=4000B
+job j1 queued due=0
+job j2 queued due=0
+job j3 queued due=0
+job j4 queued due=0
+job j1 done 200 1500B report tenant=acme attempt=1
+job j2 done 200 1500B report tenant=bolt attempt=1
+job j3 done 200 1500B report tenant=acme attempt=1
+job j4 failed quota-egress
+usage acme period=0 requests=2/200 egress=3000B/4000B
+rate acme mode=fixed limit=5 window=10s in_window=0
+meter acme api=0 jobs=2 egress=3000B
+usage bolt period=0 requests=1/200 egress=1500B/64KiB
+rate bolt mode=fixed limit=5 window=10s in_window=0
+meter bolt api=0 jobs=1 egress=1500B

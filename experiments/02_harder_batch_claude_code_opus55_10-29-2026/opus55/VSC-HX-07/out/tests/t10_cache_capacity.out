@@ -1,0 +1,13 @@
+tenant acme plan=pro
+key acme.main issued expires=never
+config default cache.capacity=5000B
+ok 200 miss 2048B blob tenant=acme size=2048
+ok 200 miss 1000B blob tenant=acme size=1000
+ok 200 hit 2048B blob tenant=acme size=2048
+ok 200 miss 1025B blob tenant=acme size=1025
+entry acme GET /v1/blob?size=2KiB size=2KiB expires=120000 hits=1
+entry acme GET /v1/blob?size=1025 size=2KiB expires=120000 hits=0
+cache entries=2 used=4KiB capacity=5000B hits=1 misses=3 evictions=1
+ok 200 miss 5120B blob tenant=acme size=5120
+cache entries=2 used=4KiB capacity=5000B hits=1 misses=4 evictions=1
+check ok records=8

@@ -1,0 +1,137 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set-for ny quiet.start 21:00
+set-for ny quiet.end 06:30
+set-for tokyo limit.daily 30
+set-for rx limit.hourly 25
+send g001 alice ny prio=low ttl=2d Bulk item 1 of the nightly feed, x
+send g002 alice tokyo prio=high ttl=2d Bulk item 2 of the nightly feed, xx
+send g003 bob rx prio=normal ttl=2d Bulk item 3 of the nightly feed, xxx
+send g004 bob ny prio=normal ttl=2d Bulk item 4 of the nightly feed, xxxx
+send g005 bob tokyo prio=low ttl=2d Bulk item 5 of the nightly feed, xxxxx
+send g006 cora rx prio=high ttl=2d Bulk item 6 of the nightly feed, xxxxxx
+send g007 cora ny prio=normal ttl=2d Bulk item 7 of the nightly feed, xxxxxxx
+send g008 cora tokyo prio=normal ttl=2d Bulk item 8 of the nightly feed, xxxxxxxx
+send g009 alice rx prio=low ttl=2d Bulk item 9 of the nightly feed, xxxxxxxxx
+send g010 alice ny prio=high ttl=2d Bulk item 10 of the nightly feed, xxxxxxxxxx
+send g011 alice tokyo prio=normal ttl=2d Bulk item 11 of the nightly feed, xxxxxxxxxxx
+send g012 bob rx prio=normal ttl=2d Bulk item 12 of the nightly feed, xxxxxxxxxxxx
+send g013 bob ny prio=low ttl=2d Bulk item 13 of the nightly feed, xxxxxxxxxxxxx
+send g014 bob tokyo prio=high ttl=2d Bulk item 14 of the nightly feed, xxxxxxxxxxxxxx
+send g015 cora rx prio=normal ttl=2d Bulk item 15 of the nightly feed, xxxxxxxxxxxxxxx
+send g016 cora ny prio=normal ttl=2d Bulk item 16 of the nightly feed, xxxxxxxxxxxxxxxx
+send g017 cora tokyo prio=low ttl=2d Bulk item 17 of the nightly feed, xxxxxxxxxxxxxxxxx
+send g018 alice rx prio=high ttl=2d Bulk item 18 of the nightly feed, xxxxxxxxxxxxxxxxxx
+send g019 alice ny prio=normal ttl=2d Bulk item 19 of the nightly feed, xxxxxxxxxxxxxxxxxxx
+send g020 alice tokyo prio=normal ttl=2d Bulk item 20 of the nightly feed, xxxxxxxxxxxxxxxxxxxx
+send g021 bob rx prio=low ttl=2d Bulk item 21 of the nightly feed, xxxxxxxxxxxxxxxxxxxxx
+send g022 bob ny prio=high ttl=2d Bulk item 22 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxx
+send g023 bob tokyo prio=normal ttl=2d Bulk item 23 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxx
+send g024 cora rx prio=normal ttl=2d Bulk item 24 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxx
+send g025 cora ny prio=low ttl=2d Bulk item 25 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxx
+send g026 cora tokyo prio=high ttl=2d Bulk item 26 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxx
+send g027 alice rx prio=normal ttl=2d Bulk item 27 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g028 alice ny prio=normal ttl=2d Bulk item 28 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g029 alice tokyo prio=low ttl=2d Bulk item 29 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g030 bob rx prio=high ttl=2d Bulk item 30 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g031 bob ny prio=normal ttl=2d Bulk item 31 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g032 bob tokyo prio=normal ttl=2d Bulk item 32 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g033 cora rx prio=low ttl=2d Bulk item 33 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g034 cora ny prio=high ttl=2d Bulk item 34 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g035 cora tokyo prio=normal ttl=2d Bulk item 35 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g036 alice rx prio=normal ttl=2d Bulk item 36 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g037 alice ny prio=low ttl=2d Bulk item 37 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g038 alice tokyo prio=high ttl=2d Bulk item 38 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g039 bob rx prio=normal ttl=2d Bulk item 39 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g040 bob ny prio=normal ttl=2d Bulk item 40 of the nightly feed, 
+send g041 bob tokyo prio=low ttl=2d Bulk item 41 of the nightly feed, x
+send g042 cora rx prio=high ttl=2d Bulk item 42 of the nightly feed, xx
+send g043 cora ny prio=normal ttl=2d Bulk item 43 of the nightly feed, xxx
+send g044 cora tokyo prio=normal ttl=2d Bulk item 44 of the nightly feed, xxxx
+send g045 alice rx prio=low ttl=2d Bulk item 45 of the nightly feed, xxxxx
+send g046 alice ny prio=high ttl=2d Bulk item 46 of the nightly feed, xxxxxx
+send g047 alice tokyo prio=normal ttl=2d Bulk item 47 of the nightly feed, xxxxxxx
+send g048 bob rx prio=normal ttl=2d Bulk item 48 of the nightly feed, xxxxxxxx
+send g049 bob ny prio=low ttl=2d Bulk item 49 of the nightly feed, xxxxxxxxx
+send g050 bob tokyo prio=high ttl=2d Bulk item 50 of the nightly feed, xxxxxxxxxx
+send g051 cora rx prio=normal ttl=2d Bulk item 51 of the nightly feed, xxxxxxxxxxx
+send g052 cora ny prio=normal ttl=2d Bulk item 52 of the nightly feed, xxxxxxxxxxxx
+send g053 cora tokyo prio=low ttl=2d Bulk item 53 of the nightly feed, xxxxxxxxxxxxx
+send g054 alice rx prio=high ttl=2d Bulk item 54 of the nightly feed, xxxxxxxxxxxxxx
+send g055 alice ny prio=normal ttl=2d Bulk item 55 of the nightly feed, xxxxxxxxxxxxxxx
+send g056 alice tokyo prio=normal ttl=2d Bulk item 56 of the nightly feed, xxxxxxxxxxxxxxxx
+send g057 bob rx prio=low ttl=2d Bulk item 57 of the nightly feed, xxxxxxxxxxxxxxxxx
+send g058 bob ny prio=high ttl=2d Bulk item 58 of the nightly feed, xxxxxxxxxxxxxxxxxx
+send g059 bob tokyo prio=normal ttl=2d Bulk item 59 of the nightly feed, xxxxxxxxxxxxxxxxxxx
+send g060 cora rx prio=normal ttl=2d Bulk item 60 of the nightly feed, xxxxxxxxxxxxxxxxxxxx
+send g061 cora ny prio=low ttl=2d Bulk item 61 of the nightly feed, xxxxxxxxxxxxxxxxxxxxx
+send g062 cora tokyo prio=high ttl=2d Bulk item 62 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxx
+send g063 alice rx prio=normal ttl=2d Bulk item 63 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxx
+send g064 alice ny prio=normal ttl=2d Bulk item 64 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxx
+send g065 alice tokyo prio=low ttl=2d Bulk item 65 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxx
+send g066 bob rx prio=high ttl=2d Bulk item 66 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxx
+send g067 bob ny prio=normal ttl=2d Bulk item 67 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g068 bob tokyo prio=normal ttl=2d Bulk item 68 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g069 cora rx prio=low ttl=2d Bulk item 69 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g070 cora ny prio=high ttl=2d Bulk item 70 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g071 cora tokyo prio=normal ttl=2d Bulk item 71 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g072 alice rx prio=normal ttl=2d Bulk item 72 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g073 alice ny prio=low ttl=2d Bulk item 73 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g074 alice tokyo prio=high ttl=2d Bulk item 74 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g075 bob rx prio=normal ttl=2d Bulk item 75 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g076 bob ny prio=normal ttl=2d Bulk item 76 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g077 bob tokyo prio=low ttl=2d Bulk item 77 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g078 cora rx prio=high ttl=2d Bulk item 78 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g079 cora ny prio=normal ttl=2d Bulk item 79 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g080 cora tokyo prio=normal ttl=2d Bulk item 80 of the nightly feed, 
+send g081 alice rx prio=low ttl=2d Bulk item 81 of the nightly feed, x
+send g082 alice ny prio=high ttl=2d Bulk item 82 of the nightly feed, xx
+send g083 alice tokyo prio=normal ttl=2d Bulk item 83 of the nightly feed, xxx
+send g084 bob rx prio=normal ttl=2d Bulk item 84 of the nightly feed, xxxx
+send g085 bob ny prio=low ttl=2d Bulk item 85 of the nightly feed, xxxxx
+send g086 bob tokyo prio=high ttl=2d Bulk item 86 of the nightly feed, xxxxxx
+send g087 cora rx prio=normal ttl=2d Bulk item 87 of the nightly feed, xxxxxxx
+send g088 cora ny prio=normal ttl=2d Bulk item 88 of the nightly feed, xxxxxxxx
+send g089 cora tokyo prio=low ttl=2d Bulk item 89 of the nightly feed, xxxxxxxxx
+send g090 alice rx prio=high ttl=2d Bulk item 90 of the nightly feed, xxxxxxxxxx
+send g091 alice ny prio=normal ttl=2d Bulk item 91 of the nightly feed, xxxxxxxxxxx
+send g092 alice tokyo prio=normal ttl=2d Bulk item 92 of the nightly feed, xxxxxxxxxxxx
+send g093 bob rx prio=low ttl=2d Bulk item 93 of the nightly feed, xxxxxxxxxxxxx
+send g094 bob ny prio=high ttl=2d Bulk item 94 of the nightly feed, xxxxxxxxxxxxxx
+send g095 bob tokyo prio=normal ttl=2d Bulk item 95 of the nightly feed, xxxxxxxxxxxxxxx
+send g096 cora rx prio=normal ttl=2d Bulk item 96 of the nightly feed, xxxxxxxxxxxxxxxx
+send g097 cora ny prio=low ttl=2d Bulk item 97 of the nightly feed, xxxxxxxxxxxxxxxxx
+send g098 cora tokyo prio=high ttl=2d Bulk item 98 of the nightly feed, xxxxxxxxxxxxxxxxxx
+send g099 alice rx prio=normal ttl=2d Bulk item 99 of the nightly feed, xxxxxxxxxxxxxxxxxxx
+send g100 alice ny prio=normal ttl=2d Bulk item 100 of the nightly feed, xxxxxxxxxxxxxxxxxxxx
+send g101 alice tokyo prio=low ttl=2d Bulk item 101 of the nightly feed, xxxxxxxxxxxxxxxxxxxxx
+send g102 bob rx prio=high ttl=2d Bulk item 102 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxx
+send g103 bob ny prio=normal ttl=2d Bulk item 103 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxx
+send g104 bob tokyo prio=normal ttl=2d Bulk item 104 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxx
+send g105 cora rx prio=low ttl=2d Bulk item 105 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxx
+send g106 cora ny prio=high ttl=2d Bulk item 106 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxx
+send g107 cora tokyo prio=normal ttl=2d Bulk item 107 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g108 alice rx prio=normal ttl=2d Bulk item 108 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g109 alice ny prio=low ttl=2d Bulk item 109 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g110 alice tokyo prio=high ttl=2d Bulk item 110 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g111 bob rx prio=normal ttl=2d Bulk item 111 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g112 bob ny prio=normal ttl=2d Bulk item 112 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g113 bob tokyo prio=low ttl=2d Bulk item 113 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g114 cora rx prio=high ttl=2d Bulk item 114 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g115 cora ny prio=normal ttl=2d Bulk item 115 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g116 cora tokyo prio=normal ttl=2d Bulk item 116 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g117 alice rx prio=low ttl=2d Bulk item 117 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g118 alice ny prio=high ttl=2d Bulk item 118 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g119 alice tokyo prio=normal ttl=2d Bulk item 119 of the nightly feed, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+send g120 bob rx prio=normal ttl=2d Bulk item 120 of the nightly feed, 
+advance 2d
+stats
+report daily ny
+report daily tokyo
+plans
+report senders
+queue

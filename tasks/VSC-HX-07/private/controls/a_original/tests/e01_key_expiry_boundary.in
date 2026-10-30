@@ -1,0 +1,7 @@
+tenant add acme
+key issue acme k secret=Ke11ke22ke ttl=10s
+clock set 9999
+req acme.k.Ke11ke22ke GET /v1/items
+clock set 10000
+req acme.k.Ke11ke22ke GET /v1/items
+key list acme

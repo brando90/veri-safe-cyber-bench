@@ -1,0 +1,44 @@
+OK set base
+OK set prod
+OK set admin
+OK set ops
+OK attr ann.dept
+OK attr ann.role
+OK attr bob.dept
+OK attr bob.role
+OK attr cy.dept
+OK attr cy.role
+OK R1
+OK R2
+OK R3
+OK R4
+OK R5
+OK R6
+CLOCK 1000
+OK A1 pending until=8200
+OK A2 pending until=87400
+OK A1 approved by=ann
+A1 approved bob doc:write /docs/team/** left=2h by=ann
+A2 pending cy doc:read /docs/hr/** left=1d
+CLOCK 4600
+A1 approved bob doc:write /docs/team/** left=1h by=ann
+A2 pending cy doc:read /docs/hr/** left=23h
+DECISION allow by=A1 steps=0
+ERROR approval: A1 is used
+OK A2 approved by=ann
+OK A2 until=91000
+CLOCK 177400
+A1 used bob doc:write /docs/team/** by=ann
+A2 expired cy doc:read /docs/hr/** by=ann
+OK A2 revoked
+A1 used bob doc:write /docs/team/** by=ann
+A2 revoked cy doc:read /docs/hr/** by=ann
+ERROR approval: A2 is revoked
+ERROR approval: unknown approval A9
+ERROR approval: bad approval id B1
+ALL decisions=1 allow=1 deny=0 allowed=100.0% avg_steps=0
+SET admin decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+SET base decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+SET ops decisions=0 allow=0 deny=0 allowed=- avg_steps=-
+SET prod decisions=1 allow=1 deny=0 allowed=100.0% avg_steps=0
+APPROVALS revoked=1 used=1

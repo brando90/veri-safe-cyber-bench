@@ -1,0 +1,9 @@
+# an entry stored at 0 with ttl 30s is served while now < 30000
+tenant add acme
+key issue acme main secret=Kq7m2PzW9a
+req acme.main.Kq7m2PzW9a GET /v1/items q.n=2
+clock set 29999
+req acme.main.Kq7m2PzW9a GET /v1/items q.n=2
+clock set 30000
+req acme.main.Kq7m2PzW9a GET /v1/items q.n=2
+cache list

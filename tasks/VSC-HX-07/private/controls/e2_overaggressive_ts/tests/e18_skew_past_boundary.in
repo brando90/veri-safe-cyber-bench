@@ -1,0 +1,8 @@
+tenant add acme
+key issue acme k secret=Sk11sk22sk
+config set tenant:acme replay.skew 5s
+clock set 15999
+req acme.k.Sk11sk22sk GET /v1/items nonce=s1 ts=10
+req acme.k.Sk11sk22sk GET /v1/items nonce=s2 ts=11
+clock set 16000
+req acme.k.Sk11sk22sk GET /v1/items nonce=s3 ts=11

@@ -1,0 +1,20 @@
+tenant acme plan=basic
+key acme.k issued expires=never
+config default rate.window=1m
+ok 200 miss 120B items tenant=acme n=1
+ok 200 miss 240B items tenant=acme n=2
+ok 200 miss 360B items tenant=acme n=3
+config default quota.requests=2
+config tenant:acme quota.requests=4
+ok 200 miss 480B items tenant=acme n=4
+deny quota-requests
+config default rate.limit=1
+config tenant:acme quota.requests=10
+ok 200 miss 600B items tenant=acme n=5
+config default rate.limit=4
+ok 200 hit 600B items tenant=acme n=5
+config default cache.ttl=0s
+ok 200 off 2048B catalog items=12 rev=3
+usage acme period=0 requests=7/10 egress=4448B/1MiB
+rate acme mode=fixed limit=20 window=1m in_window=7
+meter acme api=7 jobs=0 egress=4448B

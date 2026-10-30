@@ -1,0 +1,12 @@
+d0 00:00:00.000 ACCEPT h1 alice->rx prio=normal frags=1 size=17 ttl=3600s
+d0 00:00:00.000 ACCEPT h2 alice->rx prio=normal frags=1 size=18 ttl=7200s
+d0 00:00:01.000 SEND h1 1/1 alice->rx ok
+d0 00:00:01.000 DONE h1 alice->rx size=17 cost=0.02
+explain h2 at d0 01:00:00.000: deadline d0 02:00:00.000
+fragment 1/1 waits: limit hourly
+d0 01:00:01.000 SEND h2 1/1 alice->rx ok
+d0 01:00:01.000 DONE h2 alice->rx size=18 cost=0.02
+stats rx at d0 01:00:01.000
+delivered=2 bytes=35 pending=0
+today=2/- today-bytes=35/- hour=1/1
+fails-in-row=0 paused=- scripted=0

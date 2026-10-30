@@ -1,0 +1,5 @@
+d0 00:00:00.000 ACCEPT c1 alice->rx prio=normal frags=1 size=18 ttl=60s
+d0 00:00:00.000 ACCEPT c2 alice->rx prio=normal frags=1 size=15 ttl=60s
+d0 00:00:00.000 ACCEPT c3 alice->ny prio=normal frags=1 size=10 ttl=3600s
+doctor: 1 warnings
+warning recipient rx: ttl.default_s above ttl.max_s; new messages get ttl.max_s

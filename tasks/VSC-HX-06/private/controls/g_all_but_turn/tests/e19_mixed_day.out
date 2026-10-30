@@ -1,0 +1,31 @@
+d0 00:00:00.000 ACCEPT m1 alice->rx prio=normal frags=1 size=14 ttl=3600s
+d0 00:00:00.000 ACCEPT m2 bob->rx prio=high frags=1 size=6 ttl=3600s
+d0 00:00:00.000 REJECT m3 queue-full
+d0 00:00:01.000 SEND m2 1/1 bob->rx busy
+d0 00:00:01.000 RETRY m2 1/1 at d0 00:00:05.000
+d0 00:00:02.000 SEND m1 1/1 alice->rx ok
+d0 00:00:02.000 DONE m1 alice->rx size=14 cost=0.02
+d0 00:00:03.000 ACCEPT m4 alice->rx prio=normal frags=1 size=5 ttl=3600s
+d0 00:00:04.000 SEND m4 1/1 alice->rx ok
+d0 00:00:04.000 DONE m4 alice->rx size=5 cost=0.02
+d0 00:00:05.000 SEND m2 1/1 bob->rx ok
+d0 00:00:05.000 DONE m2 bob->rx size=6 cost=0.03
+d0 00:00:33.000 ACCEPT m5 alice->rx prio=normal frags=1 size=14 ttl=3600s
+d0 00:00:34.000 SEND m5 1/1 alice->rx ok
+d0 00:00:34.000 DONE m5 alice->rx size=14 cost=0.02
+invoice alice #1 plan=basic
+m1 d0 00:00:02.000 rx size=14 prio=normal 0.02
+m4 d0 00:00:04.000 rx size=5 prio=normal 0.02
+m5 d0 00:00:34.000 rx size=14 prio=normal 0.02
+total=0.06 lines=3
+invoice bob #1 plan=pro
+m2 d0 00:00:05.000 rx size=6 prio=high 0.03
+total=0.03 lines=1
+stats at d0 00:00:43.000
+accepted=4 rejected=1 duplicates=0
+delivered=4 failed=0 expired=0 cancelled=0 pending=0
+attempts=5 retries=1 bytes=39
+revenue=0.09
+recipient ny delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-
+recipient rx delivered=4 bytes=39 today=4 today-bytes=39 hour=4 fails-in-row=0 last=d0 00:00:34.000
+recipient tokyo delivered=0 bytes=0 today=0 today-bytes=0 hour=0 fails-in-row=0 last=-

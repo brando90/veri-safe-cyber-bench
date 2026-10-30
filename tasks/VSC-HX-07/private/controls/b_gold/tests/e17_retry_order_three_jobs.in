@@ -1,0 +1,9 @@
+tenant add acme
+key issue acme w secret=Os11os22os
+job submit acme.w.Os11os22os /v1/report q.fail=1
+job submit acme.w.Os11os22os /v1/report q.fail=1
+job submit acme.w.Os11os22os /v1/report delay=1s
+job submit acme.w.Os11os22os /v1/catalog delay=1s prio=1
+jobs run
+clock set 1s
+jobs run

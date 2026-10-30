@@ -1,0 +1,10 @@
+# a nonce accepted at 0 is remembered until 300000 (5m), not at 300000
+tenant add acme
+key issue acme main secret=Kq7m2PzW9a
+req acme.main.Kq7m2PzW9a GET /v1/catalog nonce=n1 ts=0
+clock set 299999
+req acme.main.Kq7m2PzW9a GET /v1/catalog nonce=n1 ts=300
+nonce list acme main
+clock set 300000
+nonce list acme main
+req acme.main.Kq7m2PzW9a GET /v1/catalog nonce=n1 ts=300

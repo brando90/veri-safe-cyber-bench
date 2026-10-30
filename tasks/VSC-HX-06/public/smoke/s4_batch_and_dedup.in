@@ -1,0 +1,21 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+set dedup.window_s 120
+batch cora rx prio=low ttl=2h
+b1 Order 1001 shipped
+b2 Order 1002 shipped
+# comment lines are skipped
+b3 Order 1001 shipped
+.end
+send b4 cora rx Order 1001 shipped
+advance 30s
+send b5 cora rx Order 1001 shipped
+advance 2m
+send b6 cora rx Order 1001 shipped
+advance 5s
+inbox rx
+export deliveries rx

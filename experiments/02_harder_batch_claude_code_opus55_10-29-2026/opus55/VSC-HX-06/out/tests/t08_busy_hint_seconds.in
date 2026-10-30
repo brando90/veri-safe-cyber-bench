@@ -1,0 +1,12 @@
+sender alice basic
+sender bob pro
+sender cora bulk
+recipient rx
+recipient ny tz=-05:00
+recipient tokyo tz=+09:00
+link rx busy 1 10
+send w1 bob rx Please wait
+advance 4s
+queue
+advance 10s
+history w1

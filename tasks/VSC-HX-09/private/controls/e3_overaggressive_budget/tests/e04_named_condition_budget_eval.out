@@ -1,0 +1,6 @@
+OK cond l64
+OK cond l40
+OK cond heavy
+OK cond twice
+ERROR budget: step limit 500 exceeded
+RESULT true steps=272

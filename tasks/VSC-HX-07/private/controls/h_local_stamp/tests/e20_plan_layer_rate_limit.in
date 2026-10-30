@@ -1,0 +1,7 @@
+tenant add acme
+key issue acme k secret=Pl11pl22pl
+req acme.k.Pl11pl22pl GET /v1/items q.n=1
+req acme.k.Pl11pl22pl GET /v1/items q.n=2
+config set plan:free rate.limit 2
+req acme.k.Pl11pl22pl GET /v1/items q.n=3
+usage acme
