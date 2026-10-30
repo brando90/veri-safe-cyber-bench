@@ -1,0 +1,25 @@
+ok site AMS
+ok site LHR
+ok route R2 stops=2
+ok set keep=2
+ok set gap=90
+ok ship S1
+refused S1 t=180 cap
+window S1 n=2
+  60 4.5 hum=41
+  120 7.0 hum=70
+rollup S1 hours=2
+hour 0 n=3 min=4.0 max=7.0 avg=5.2 hum=50
+hour 1 n=2 min=1.0 max=6.0 avg=3.5 hum=-
+alert S1 gap t=3600 gap=3480s
+alert S1 gap t=3700 gap=100s
+alerts total=2
+excursions S1 n=1
+  low start=3700 end=3700 dur=0s peak=1.0 open
+dry prune would_remove=1
+ok prune removed=1
+window S1 n=4
+  60 4.5 hum=41
+  120 7.0 hum=70
+  3600 6.0
+  3700 1.0

@@ -1,0 +1,28 @@
+clock set to 2026-03-10T12:00:00Z
+logged #1
+logged #2
+logged #3
+logged #4
+logged #5
+logged #6
+logged #7
+logged #8
+report at 2026-03-10T12:00:00Z
+records: 8 (bytes 0)
+sources: 1, average 8 records per source
+by source:
+  a                  8  100.0%
+by user (top 3):
+  u                  8  100.0%
+by domain:
+  -                  8  100.0%
+by level:
+  error              2   25.0%
+  warn               1   12.5%
+  info               2   25.0%
+  debug              1   12.5%
+  audit              1   12.5%
+  fatal              1   12.5%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  none

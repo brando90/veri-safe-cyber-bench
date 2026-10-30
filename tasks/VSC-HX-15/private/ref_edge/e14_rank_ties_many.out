@@ -1,0 +1,24 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok ship S2
+ok ship S3
+ok ship S9
+ok ship S10
+ok ship S11
+rank 1 S3 10.3%
+rank 2 S10 10.3%
+rank 3 S1 17.9%
+rank 4 S2 17.9%
+rank 5 S11 82.1%
+rank 6 S9 89.7%
+sla S1 17.9% 5/28
+sla S2 17.9% 7/39
+sla S3 10.3% 3/29
+sla S9 89.7% 26/29
+sla S10 10.3% 4/39
+sla S11 82.1% 23/28

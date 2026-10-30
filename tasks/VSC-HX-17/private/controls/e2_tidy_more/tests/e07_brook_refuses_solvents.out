@@ -1,0 +1,18 @@
+customer c-b1 added region=brook tier=basic
+received lot L0001 birch thinner-1l units 120 expiry -
+received lot L0002 birch charger-20 units 40 expiry -
+error: region brook does not accept hazard class 3 (thinner-1l)
+order ORD-0001 customer c-b1 goods 88.00 status open
+  charger-20 qty=4 allocated=4 backorder=0
+error: region brook does not accept hazard class 3 (thinner-1l)
+ORD-0001 c-b1 day 0 88.00 open
+1 orders
+region brook Brook Valley
+  zone 2
+  no delivery on Sat,Sun
+  refuses hazard class 3 and above
+  duty 700 bp on goods above 120.00, 1 extra days
+  remote fee 1.50 per shipment
+  L0002 birch charger-20 qty=40 reserved=4 expiry=- received=0
+  L0001 birch thinner-1l qty=120 reserved=0 expiry=- received=0
+2 lots, 160 units

@@ -1,0 +1,88 @@
+clock set to 2026-03-10T12:00:00Z
+logged #1
+logged #2
+logged #3
+logged #4
+logged #5
+report at 2026-03-10T12:00:00Z
+records: 5 (bytes 0)
+sources: 2, average 2 records per source
+by source:
+  a                  3   60.0%
+  b                  2   40.0%
+by user (top 3):
+  u1                 5  100.0%
+by domain:
+  -                  5  100.0%
+by level:
+  info               5  100.0%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  none
+logged #6
+logged #7
+report at 2026-03-10T12:00:00Z
+records: 7 (bytes 0)
+sources: 2, average 4 records per source
+by source:
+  a                  4   57.1%
+  b                  3   42.9%
+by user (top 3):
+  u1                 7  100.0%
+by domain:
+  -                  7  100.0%
+by level:
+  info               7  100.0%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  none
+logged #8
+logged #9
+report at 2026-03-10T12:00:00Z
+records: 9 (bytes 0)
+sources: 2, average 4 records per source
+by source:
+  a                  5   55.6%
+  b                  4   44.4%
+by user (top 3):
+  u1                 9  100.0%
+by domain:
+  -                  9  100.0%
+by level:
+  info               9  100.0%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  none
+logged #10
+report at 2026-03-10T12:00:00Z
+records: 10 (bytes 0)
+sources: 2, average 5 records per source
+by source:
+  a                  6   60.0%
+  b                  4   40.0%
+by user (top 3):
+  u1                10  100.0%
+by domain:
+  -                 10  100.0%
+by level:
+  info              10  100.0%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  none
+logged #11
+report at 2026-03-10T12:00:00Z
+records: 11 (bytes 0)
+sources: 3, average 4 records per source
+by source:
+  a                  6   54.5%
+  b                  4   36.4%
+  c                  1    9.1%
+by user (top 3):
+  u1                11  100.0%
+by domain:
+  -                 11  100.0%
+by level:
+  info              11  100.0%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  none

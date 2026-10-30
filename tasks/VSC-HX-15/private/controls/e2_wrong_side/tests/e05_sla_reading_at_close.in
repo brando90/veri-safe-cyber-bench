@@ -1,0 +1,18 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Close box" route=R3 class=chilled
+read S1 t=100 temp=5.0
+read S1 t=200 temp=5.0
+read S1 t=300 temp=9.0
+read S1 t=500 temp=9.5
+arrive S1 stop=1 t=100
+arrive S1 stop=2 t=250
+arrive S1 stop=3 t=500
+sla S1
+report S1
+fleet
+board

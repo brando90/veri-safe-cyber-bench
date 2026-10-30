@@ -1,0 +1,12 @@
+customer add c-acme arden
+receive alder crisps-50 48
+receive alder bar-oat 48
+tick 165
+order add c-acme crisps-50:24
+tick 1
+order add c-acme crisps-50:24
+order add c-acme bar-oat:24
+tick 1
+order add c-acme bar-oat:24
+report low_stock
+stock alder

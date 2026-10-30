@@ -1,0 +1,11 @@
+clock set to 2026-03-10T12:00:00Z
+strict mode on
+rule added: keep level
+rule added: keep trace
+rule added: keep path
+logged #1
+#1 2026-03-09T10:00:00Z web bob level=info path=/p?q=1&r=2 x-trace=a=b zz=[redacted]
+    changed: zz
+exported 1 records, 1 fields changed
+#1 2026-03-09T10:00:00Z web bob level=info path=/p?q=1&r=2 x-trace=a=b zz=[redacted]
+    changed: zz

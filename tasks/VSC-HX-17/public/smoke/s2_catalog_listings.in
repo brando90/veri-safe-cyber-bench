@@ -1,0 +1,13 @@
+# reference data
+sku list
+sku show milk-1l
+warehouse list
+warehouse show alder
+category list
+category show dairy
+carrier list
+carrier show swift
+region list
+region show arden
+tier list
+help order

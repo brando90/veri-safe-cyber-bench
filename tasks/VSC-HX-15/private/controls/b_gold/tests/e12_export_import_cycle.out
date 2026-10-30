@@ -1,0 +1,36 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok ship S2
+error: corrected time is before the start of the run
+ok arrive S1 stop 1 AMS
+ok plan S1 stop 2
+begin export
+ship	S1	Ends with \\	R4	8.0	15.0	7	-	-	2	0.1
+r	58000	91	33
+arr	1	0
+plan	2	100000
+end export
+begin export
+ship	S2	a\\nb \\t c \\\\ d	R3	2.0	8.0	-	-	10	0	0.0
+end export
+ok remove S1
+ok remove S2
+ok import readings=2
+ok import readings=0
+ship S1 "Ends with \" route=R4 class=- band=8.0..15.0 hold=7m cap=600 hmax=- skew=2s offset=0.1
+ship S2 "a\nb \t c \\ d" route=R3 class=- band=2.0..8.0 hold=10m cap=600 hmax=10% skew=0s offset=0.0
+begin export
+ship	S1	Ends with \\	R4	8.0	15.0	7	-	-	2	0.1
+r	0	100	-
+r	60000	90	33
+arr	1	0
+plan	2	100000
+end export
+begin export
+ship	S2	a\\nb \\t c \\\\ d	R3	2.0	8.0	-	-	10	0	0.0
+end export

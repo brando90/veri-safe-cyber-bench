@@ -1,0 +1,23 @@
+clock set to 2026-03-10T12:00:00Z
+retention set to 5 days
+logged #1
+logged #2
+logged #3
+logged #4
+purged 2 records (ids 1, 2), 2 kept
+clock set to 2026-03-20T00:00:00Z
+purged 2 records (ids 3, 4), 0 kept
+report at 2026-03-20T00:00:00Z
+records: 0 (bytes 0)
+sources: 0
+by source:
+  none
+by user (top 3):
+  none
+by domain:
+  none
+by level:
+  none
+alerts (window 60s):
+  none
+exported 0 records, 0 fields changed

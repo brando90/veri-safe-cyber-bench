@@ -1,0 +1,16 @@
+now 2026-03-10T12:00:00Z
+rule keep level
+rule keep ip
+log 2026-03-09T10:00:00Z web bob level=info ip=10.0.0.1 note=hello
+export
+strict on
+export
+rule redact ip
+rule mask note
+rule keep note
+export
+strict off
+unrule ip
+unrule nothing
+export
+rules

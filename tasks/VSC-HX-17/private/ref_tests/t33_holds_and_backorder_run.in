@@ -1,0 +1,25 @@
+customer add c-arden arden tier=basic
+customer add c-crest crest tier=basic
+receive harbor paper-a4 100
+receive alder paper-a4 30
+receive cedar cable-usb 100
+customer add c-hold crest tier=gold
+set hold c-hold yes
+order add c-hold paper-a4:10
+set hold c-hold no
+order add c-hold paper-a4:20
+order add c-hold paper-a4:500
+set hold c-hold yes
+order add c-arden paper-a4:200
+order add c-crest paper-a4:100
+ship ORD-0001 carrier=swift
+order show ORD-0001
+tick 1
+receive harbor paper-a4 400
+backorder run
+order list state=backorder
+order list state=partial
+set hold c-hold no
+backorder run
+order list
+report backorders

@@ -1,0 +1,7 @@
+now 2026-03-10T12:00:00Z
+strict on
+rule keep level
+log 2026-03-09T10:00:00Z auth alice@example.com level=info ip=10.0.0.1 note=n1
+export keep=ip,note
+export
+rules

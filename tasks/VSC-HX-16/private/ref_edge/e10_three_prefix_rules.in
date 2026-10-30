@@ -1,0 +1,9 @@
+now 2026-03-10T12:00:00Z
+rule prefix tmp_ redact
+rule prefix dbg drop
+rule prefix usr mask
+rule mask dbg_level
+rule pseudo usr_name
+salt s1
+log 2026-03-09T10:00:00Z web bob tmp_a=1 dbg_x=2 dbg_level=verbose usr_name=alice usr_mail=alice@example.com keep=3
+export

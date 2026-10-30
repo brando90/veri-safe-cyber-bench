@@ -1,0 +1,17 @@
+now 2026-03-10T12:00:00Z
+log 2026-03-09T10:00:00Z a u1
+log 2026-03-09T10:00:01Z a u1
+log 2026-03-09T10:00:02Z a u1
+log 2026-03-09T10:00:03Z b u1
+log 2026-03-09T10:00:04Z b u1
+report
+log 2026-03-09T10:00:05Z a u1
+log 2026-03-09T10:00:06Z b u1
+report
+log 2026-03-09T10:00:07Z a u1
+log 2026-03-09T10:00:08Z b u1
+report
+log 2026-03-09T10:00:09Z a u1
+report
+log 2026-03-09T10:00:10Z c u1
+report

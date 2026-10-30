@@ -1,0 +1,24 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Shift box" route=R3
+ship add S2 "Static box" route=R3
+read S1 t=100 temp=5.0
+read S1 t=160 temp=6.0
+read S1 t=220.5 temp=7.0
+read S2 t=100 temp=1.0
+shift S1 seconds=60
+window S1
+shift S1 seconds=-160
+window S1
+shift S1 seconds=-1
+window S1
+shift S1 seconds=x
+shift S9 seconds=1
+window S2
+shift S2 seconds=0
+shift S2 seconds=2592000
+window S2

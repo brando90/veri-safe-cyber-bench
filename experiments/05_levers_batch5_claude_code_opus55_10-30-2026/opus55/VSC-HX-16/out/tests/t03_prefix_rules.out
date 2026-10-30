@@ -1,0 +1,10 @@
+clock set to 2026-03-10T12:00:00Z
+rule added: prefix sess
+rule added: prefix tmp
+logged #1
+#1 2026-03-09T10:00:00Z web bob session=[redacted] tmpfile=******gh -- hi
+    changed: session, tmpfile
+exported 1 records, 2 fields changed
+prefix sess: redact
+prefix tmp: mask
+strict: off

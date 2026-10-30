@@ -1,0 +1,22 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Csv hot" route=R3 offset=-5.0
+ship add S2 "Csv cold" route=R3 offset=0.5
+load S1
+t,temp
+0,70.0
+60,65.5
+120,50.0
+end load
+load S2
+0,-40.5
+60,-45.0
+end load
+window S1
+window S2
+histogram S1 step=100
+sla S1

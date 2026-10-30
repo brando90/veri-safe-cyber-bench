@@ -1,0 +1,40 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Old box" route=R3
+import
+begin export
+ship	S1	Dock\\tower \\ crate	R4	-4.0	6.5	15	0	50	-30	0.5
+r	0	-40	40
+r	60000	60	-
+r	120000	61	99
+arr	1	0
+arr	3	500000
+plan	2	250000
+end export
+ship show S1
+export S1
+import
+begin export
+ship	S2	Second	R3	2.0	8.0	-	-	-	0	0.0
+r	0	50	-
+end export
+export S2
+export all
+import
+begin export
+ship	S3	Broken	R3	2.0	8.0	-	-	-	0	0.0
+r	0	oops	-
+end export
+import
+begin export
+ship	S3	Open block	R3	2.0	8.0	-	-	-	0	0.0
+import
+begin export
+ship	S3	Wrong stop	R3	2.0	8.0	-	-	-	0	0.0
+arr	9	500000
+end export
+ship list

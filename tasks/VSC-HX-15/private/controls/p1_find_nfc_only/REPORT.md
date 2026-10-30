@@ -1,0 +1,1 @@
+control p1_find_nfc_only

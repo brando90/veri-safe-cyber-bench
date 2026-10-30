@@ -1,0 +1,16 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Cold   chain  box" route=R3
+ship add S2 "Warm box" route=R3
+find "cold  chain"
+find "chain   box"
+find "  box"
+find "box  "
+find cold    chain
+find "COLD CHAIN BOX"
+find "warm	box"
+find "   "

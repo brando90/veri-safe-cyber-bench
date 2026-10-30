@@ -1,0 +1,21 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Rounding box" route=R3 min=-10.0 max=10.0
+read S1 t=0 temp=2.0 hum=45
+read S1 t=1 temp=2.1 hum=46
+read S1 t=3599.999 temp=-2.1
+read S1 t=3600 temp=-2.2 hum=10
+read S1 t=3601 temp=-2.1
+read S1 t=7199.999 temp=0.0
+read S1 t=7200 temp=0.1 hum=99
+read S1 t=7260 temp=-0.1 hum=100
+read S1 t=10800 temp=9.9 hum=0
+read S1 t=10860 temp=-9.9
+rollup S1
+ship add S2 "Empty" route=R3
+rollup S2
+rollup S9

@@ -1,0 +1,37 @@
+sku list
+sku show bolt-m6
+sku show nothing
+warehouse list
+warehouse show cedar
+warehouse show juniper
+warehouse show elm
+warehouse show larch
+warehouse show kelp
+category list
+category show cables
+category show fasteners
+category show medicine
+category show lumber
+category show glassware
+category show paper
+carrier list
+carrier show nord
+carrier show gull
+carrier show zed
+carrier show tern
+carrier show haul
+region list
+region show delta
+region show depot
+region show haven
+tier list
+help
+help ship
+help order add
+help nothing
+today
+tick 3
+today
+tick 0
+tick x
+tick 400000

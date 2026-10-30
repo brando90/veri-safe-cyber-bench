@@ -1,0 +1,402 @@
+clock set to 2026-03-10T12:00:00Z
+retention set to 7 days
+window set to 600 seconds
+default limit set to 2
+salt set
+limit for batch set to 0
+rule added: drop xff
+rule added: drop note
+logged #1
+report at 2026-03-10T12:00:00Z
+records: 1 (bytes 83693)
+sources: 1, average 1 records per source
+by source:
+  auth               1  100.0%
+by user (top 3):
+  bob                1  100.0%
+by domain:
+  -                  1  100.0%
+by level:
+  info               1  100.0%
+largest record: #1 (83693 bytes)
+alerts (window 600s):
+  none
+future:
+  #1 is 1 day ahead
+logged #2
+logged #3
+purged 1 records (ids 3), 2 kept
+logged #4
+#1 2026-03-10T23:27:57Z auth bob api-key=8brgoqu8zef69ui bytes=83693 ip=i55rdhqfitcg x-xhop=7e4lt0ye -- yfp Apikey=******pg f9w z4v kjv42 h15bnv
+#2 2026-03-07T17:54:44Z api dave@example.com ip=jp0fen8u7x password=46wm4oh6t x-secret=k2f3q2ncvnj=rp x-xhop=tue3m72 -- jq1dh
+    changed: note
+#4 2026-03-05T13:50:09Z auth erin bytes=98980 path=dciky3f4 secret=zbxx8z2cc x-trace=bheb4qlin=30b -- Apikey=*****b mpb4gv apikey=***
+    changed: note
+exported 3 records, 2 fields changed
+logged #5
+logged #6
+report at 2026-03-10T12:00:00Z
+records: 5 (bytes 182673)
+sources: 4, average 1 records per source
+by source:
+  auth               2   40.0%
+  api                1   20.0%
+  batch              1   20.0%
+  mail               1   20.0%
+by user (top 3):
+  erin               2   40.0%
+  bob                1   20.0%
+  dave@example.com     1   20.0%
+by domain:
+  -                  3   60.0%
+  corp.test          1   20.0%
+  example.com        1   20.0%
+by level:
+  info               5  100.0%
+largest record: #4 (98980 bytes)
+alerts (window 600s):
+  ALERT batch peak 1 limit 0
+future:
+  #1 is 1 day ahead
+logged #7
+logged #8
+report at 2026-03-10T12:00:00Z
+records: 7 (bytes 182673)
+sources: 5, average 1 records per source
+by source:
+  api                2   28.6%
+  auth               2   28.6%
+  batch              1   14.3%
+  db                 1   14.3%
+  mail               1   14.3%
+by user (top 3):
+  dave@example.com     2   28.6%
+  erin               2   28.6%
+  bob                1   14.3%
+by domain:
+  -                  3   42.9%
+  corp.test          2   28.6%
+  example.com        2   28.6%
+by level:
+  info               7  100.0%
+largest record: #4 (98980 bytes)
+alerts (window 600s):
+  ALERT batch peak 1 limit 0
+future:
+  #1 is 1 day ahead
+logged #9
+logged #10
+logged #11
+logged #12
+logged #13
+logged #14
+logged #15
+logged #16
+logged #17
+logged #18
+limit for mail set to 3
+logged #19
+logged #20
+logged #21
+logged #22
+logged #23
+report at 2026-03-10T12:00:00Z
+records: 22 (bytes 266215)
+sources: 6, average 4 records per source
+by source:
+  db                 6   27.3%
+  api                4   18.2%
+  auth               4   18.2%
+  mail               4   18.2%
+  batch              2    9.1%
+  web                2    9.1%
+by user (top 3):
+  erin               7   31.8%
+  frank@corp.test     5   22.7%
+  dave@example.com     4   18.2%
+by domain:
+  -                  9   40.9%
+  corp.test          7   31.8%
+  example.com        6   27.3%
+by level:
+  info              21   95.5%
+  debug              1    4.5%
+largest record: #4 (98980 bytes)
+alerts (window 600s):
+  ALERT batch peak 1 limit 0
+future:
+  #1 is 1 day ahead
+  #14 is 3 days ahead
+purged 8 records (ids 6, 8, 12, 15, 17, 18, 20, 23), 14 kept
+logged #24
+logged #25
+logged #26
+logged #27
+purged 2 records (ids 26, 27), 16 kept
+purged 0 records, 16 kept
+logged #28
+logged #29
+limit for batch set to 2
+logged #30
+logged #31
+logged #32
+limit for batch set to 2
+logged #33
+report at 2026-03-10T12:00:00Z
+records: 22 (bytes 301971)
+sources: 6, average 4 records per source
+by source:
+  db                 7   31.8%
+  api                5   22.7%
+  auth               5   22.7%
+  batch              2    9.1%
+  mail               2    9.1%
+  web                1    4.5%
+by user (top 3):
+  dave@example.com     6   27.3%
+  erin               6   27.3%
+  bob                4   18.2%
+by domain:
+  -                 10   45.5%
+  example.com        8   36.4%
+  corp.test          4   18.2%
+by level:
+  error              1    4.5%
+  info              20   90.9%
+  debug              1    4.5%
+largest record: #4 (98980 bytes)
+alerts (window 600s):
+  none
+future:
+  #1 is 1 day ahead
+  #14 is 3 days ahead
+  #24 is 1 day ahead
+  #32 is 2 days ahead
+logged #34
+logged #35
+report at 2026-03-10T12:00:00Z
+records: 24 (bytes 301971)
+sources: 6, average 4 records per source
+by source:
+  db                 7   29.2%
+  api                5   20.8%
+  auth               5   20.8%
+  batch              3   12.5%
+  mail               3   12.5%
+  web                1    4.2%
+by user (top 3):
+  dave@example.com     6   25.0%
+  erin               6   25.0%
+  bob                4   16.7%
+by domain:
+  -                 10   41.7%
+  example.com        9   37.5%
+  corp.test          5   20.8%
+by level:
+  error              1    4.2%
+  info              22   91.7%
+  debug              1    4.2%
+largest record: #4 (98980 bytes)
+alerts (window 600s):
+  none
+future:
+  #1 is 1 day ahead
+  #14 is 3 days ahead
+  #24 is 1 day ahead
+  #32 is 2 days ahead
+logged #36
+#1 2026-03-10T23:27:57Z auth bob api-key=8brgoqu8zef69ui bytes=83693 ip=i55rdhqfitcg x-xhop=7e4lt0ye -- yfp Apikey=******pg f9w z4v kjv42 h15bnv
+#2 2026-03-07T17:54:44Z api dave@example.com ip=jp0fen8u7x password=46wm4oh6t x-secret=k2f3q2ncvnj=rp x-xhop=tue3m72 -- jq1dh
+    changed: note
+#4 2026-03-05T13:50:09Z auth erin bytes=98980 path=dciky3f4 secret=zbxx8z2cc x-trace=bheb4qlin=30b -- Apikey=*****b mpb4gv apikey=***
+    changed: note
+#5 2026-03-05T01:54:51Z batch erin level=info token=zkf85=j21u x-forwarded=bt=1z39 x-trace=mf5k7tcvf -- fi5p4gy a6hz 7nt7apc xm5h4o *********vjg
+#7 2026-03-09T17:56:07Z api dave@example.com ip=zss5p6hrr1 -- secret=******lw secret=*******43 Token=********s9 5e5th0
+    changed: note
+#9 2026-03-10T00:12:19Z db dave@example.com
+#10 2026-03-10T01:38:47Z db erin
+#11 2026-03-10T10:40:29Z db dave@example.com path=apvu4o x-forwarded=drfrgh3o7eun=os0r -- passwd=*******8c c0ao64u6 6x5a Secret=*****q
+#13 2026-03-05T20:50:26Z api erin level=debug path=0xh0n5k5 region=stim0 token=thvpinoqa7719f xid=qgucgpds0tg6=rn
+#14 2026-03-12T17:24:08Z auth bob -- fao
+    changed: xff
+#16 2026-03-07T11:16:21Z auth erin bytes=83542 password=yua6jzcw1z9wc region=g9ng5un5bhr
+#19 2026-03-08T22:25:21Z mail alice@example.com api-key=5wpx2=8si4smyqf9r ip=zbq6704hxf=hl3m path=a05v53yg=ji secret=91roq9sfb -- 3o29i9 password=*******md wj4 ezfz0 ************yej
+#21 2026-03-06T23:04:24Z api alice@example.com password=x2uzx=bydghyeyb
+#22 2026-03-09T05:10:24Z db frank@corp.test x-trace=b9wiqkqrg6=ry -- dmc7 amtuboc Password=******er
+#24 2026-03-11T09:57:43Z web bob region=151pzif0l=c session=il8siuiv=8 x-secret=tfon9j x-trace=mwc6=b xid=z12=iic -- nsv skhj u9vrp yto4oh 2lggegh
+#25 2026-03-05T07:31:06Z api frank@corp.test api-key=drow2505l2pz0rh8 level=error path=ftlul secret=hy1coonku ua=8vnk6095j55 -- 5wele 79ksa u56tf token=******s
+#28 2026-03-07T18:32:11Z auth dave@example.com -- j4tc nr8 k9q 0b8 secret=*******jc bmvzjy Token=*******w7
+#29 2026-03-07T12:20:41Z db dave@example.com bytes=35756 token=73yf0d2bawkwz48j x-xhop=48mals8u2p xid=fbngj
+#30 2026-02-11T03:07:28Z batch erin xid=48hre3=8 -- token=*****u passwd=******l3
+#31 2026-03-04T12:50:16Z mail bob -- passwd=*******wn urwwznq c1350c 1i8n7e46
+#32 2026-03-12T10:26:12Z db frank@corp.test ip=v87lu2ro
+#33 2026-02-01T16:30:07Z db carol@corp.test api-key=uyzsb51o8s8 ip=jf0yz password=niq86qip10wk x-xhop=wn51le -- i2eewqt ***********zj6
+#34 2026-03-07T16:25:33Z batch frank@corp.test api-key=6hfvke8naf ip=s6svr -- zm7 zy8apsu lh8nef izq Password=******h jq6v *********yf8
+    changed: xff
+#35 2026-02-24T18:52:51Z mail alice@example.com token=0aiqgoolfipgcii ua=228juu x-forwarded=irbsb0kw9y=b5jw -- Password=********zp
+#36 2026-01-27T13:52:47Z mail bob level=debug xid=9whcatmgp -- ef2e5e2 apikey=******u Apikey=******l tja **************fljk
+    changed: xff
+exported 25 records, 6 fields changed
+logged #37
+logged #38
+logged #39
+rule added: pseudo level
+logged #40
+error: no record #3
+logged #41
+logged #42
+#1 2026-03-10T23:27:57Z auth bob api-key=8brgoqu8zef69ui bytes=83693 ip=i55rdhqfitcg x-xhop=7e4lt0ye -- yfp Apikey=******pg f9w z4v kjv42 h15bnv
+#2 2026-03-07T17:54:44Z api dave@example.com ip=jp0fen8u7x password=46wm4oh6t x-secret=k2f3q2ncvnj=rp x-xhop=tue3m72 -- jq1dh
+    changed: note
+#4 2026-03-05T13:50:09Z auth erin bytes=98980 path=dciky3f4 secret=zbxx8z2cc x-trace=bheb4qlin=30b -- Apikey=*****b mpb4gv apikey=***
+    changed: note
+#5 2026-03-05T01:54:51Z batch erin level=p-dbe45619 token=zkf85=j21u x-forwarded=bt=1z39 x-trace=mf5k7tcvf -- fi5p4gy a6hz 7nt7apc xm5h4o *********vjg
+    changed: level
+#7 2026-03-09T17:56:07Z api dave@example.com ip=zss5p6hrr1 -- secret=******lw secret=*******43 Token=********s9 5e5th0
+    changed: note
+#9 2026-03-10T00:12:19Z db dave@example.com
+#10 2026-03-10T01:38:47Z db erin
+#11 2026-03-10T10:40:29Z db dave@example.com path=apvu4o x-forwarded=drfrgh3o7eun=os0r -- passwd=*******8c c0ao64u6 6x5a Secret=*****q
+#13 2026-03-05T20:50:26Z api erin level=p-29320faf path=0xh0n5k5 region=stim0 token=thvpinoqa7719f xid=qgucgpds0tg6=rn
+    changed: level
+#14 2026-03-12T17:24:08Z auth bob -- fao
+    changed: xff
+#16 2026-03-07T11:16:21Z auth erin bytes=83542 password=yua6jzcw1z9wc region=g9ng5un5bhr
+#19 2026-03-08T22:25:21Z mail alice@example.com api-key=5wpx2=8si4smyqf9r ip=zbq6704hxf=hl3m path=a05v53yg=ji secret=91roq9sfb -- 3o29i9 password=*******md wj4 ezfz0 ************yej
+#21 2026-03-06T23:04:24Z api alice@example.com password=x2uzx=bydghyeyb
+#22 2026-03-09T05:10:24Z db frank@corp.test x-trace=b9wiqkqrg6=ry -- dmc7 amtuboc Password=******er
+#24 2026-03-11T09:57:43Z web bob region=151pzif0l=c session=il8siuiv=8 x-secret=tfon9j x-trace=mwc6=b xid=z12=iic -- nsv skhj u9vrp yto4oh 2lggegh
+#25 2026-03-05T07:31:06Z api frank@corp.test api-key=drow2505l2pz0rh8 level=p-8aaedb4d path=ftlul secret=hy1coonku ua=8vnk6095j55 -- 5wele 79ksa u56tf token=******s
+    changed: level
+#28 2026-03-07T18:32:11Z auth dave@example.com -- j4tc nr8 k9q 0b8 secret=*******jc bmvzjy Token=*******w7
+#29 2026-03-07T12:20:41Z db dave@example.com bytes=35756 token=73yf0d2bawkwz48j x-xhop=48mals8u2p xid=fbngj
+#30 2026-02-11T03:07:28Z batch erin xid=48hre3=8 -- token=*****u passwd=******l3
+#31 2026-03-04T12:50:16Z mail bob -- passwd=*******wn urwwznq c1350c 1i8n7e46
+#32 2026-03-12T10:26:12Z db frank@corp.test ip=v87lu2ro
+#33 2026-02-01T16:30:07Z db carol@corp.test api-key=uyzsb51o8s8 ip=jf0yz password=niq86qip10wk x-xhop=wn51le -- i2eewqt ***********zj6
+#34 2026-03-07T16:25:33Z batch frank@corp.test api-key=6hfvke8naf ip=s6svr -- zm7 zy8apsu lh8nef izq Password=******h jq6v *********yf8
+    changed: xff
+#35 2026-02-24T18:52:51Z mail alice@example.com token=0aiqgoolfipgcii ua=228juu x-forwarded=irbsb0kw9y=b5jw -- Password=********zp
+#36 2026-01-27T13:52:47Z mail bob level=p-29320faf xid=9whcatmgp -- ef2e5e2 apikey=******u Apikey=******l tja **************fljk
+    changed: level, xff
+#37 2026-03-10T06:28:18Z batch erin x-trace=fhtop8r=n6h
+    changed: note
+#38 2026-02-28T03:41:39Z db carol@corp.test -- apikey=** o9o6w65 u1fn1cz 5mu x341 camo secret=*****0
+#39 2026-03-08T20:32:21Z batch erin level=p-56543be8 x-secret=6i1sx7hnrk x-trace=10usqnvkh -- token=*******zw 2n5o 3s2k hieozf3r k3eg5xs 8xgfm
+    changed: level
+#40 2026-03-10T08:26:37Z batch alice@example.com level=p-29320faf password=0hajcwsl3o4 path=rw=f2g6 x-xhop=fe
+    changed: level, note
+#41 2026-02-08T10:40:26Z web carol@corp.test
+#42 2026-02-24T05:12:40Z web frank@corp.test -- wnkq9dk 1w45zhxa password=*****z passwd=******q6 re7grsic g9qkbpk1 1dy7qqn
+exported 31 records, 14 fields changed
+clock set to 2026-03-14T18:00:00Z
+#24 2026-03-11T09:57:43Z web bob region=151pzif0l=c session=il8siuiv=8 x-secret=tfon9j x-trace=mwc6=b xid=z12=iic -- nsv skhj u9vrp yto4oh 2lggegh
+report at 2026-03-14T18:00:00Z
+records: 31 (bytes 301971)
+sources: 6, average 5 records per source
+by source:
+  db                 8   25.8%
+  batch              6   19.4%
+  api                5   16.1%
+  auth               5   16.1%
+  mail               4   12.9%
+  web                3    9.7%
+by user (top 3):
+  erin               8   25.8%
+  dave@example.com     6   19.4%
+  bob                5   16.1%
+by domain:
+  -                 13   41.9%
+  example.com       10   32.3%
+  corp.test          8   25.8%
+by level:
+  error              1    3.2%
+  info              26   83.9%
+  debug              3    9.7%
+  notice             1    3.2%
+largest record: #4 (98980 bytes)
+alerts (window 600s):
+  none
+logged #43
+logged #44
+logged #45
+logged #46
+purged 20 records (ids 2, 4, 5, 13, 16, 21, 25, 29, 30, 31, 33, 34, 35, 36, 38, 41, 42, 43, 44, 46), 15 kept
+logged #47
+logged #48
+#1 2026-03-10T23:27:57Z auth bob api-key=8brgoqu8zef69ui bytes=83693 ip=i55rdhqfitcg x-xhop=7e4lt0ye -- yfp Apikey=******pg f9w z4v kjv42 h15bnv
+#7 2026-03-09T17:56:07Z api dave@example.com ip=zss5p6hrr1 -- secret=******lw secret=*******43 Token=********s9 5e5th0
+    changed: note
+#9 2026-03-10T00:12:19Z db dave@example.com
+#10 2026-03-10T01:38:47Z db erin
+#11 2026-03-10T10:40:29Z db dave@example.com path=apvu4o x-forwarded=drfrgh3o7eun=os0r -- passwd=*******8c c0ao64u6 6x5a Secret=*****q
+#14 2026-03-12T17:24:08Z auth bob -- fao
+    changed: xff
+#19 2026-03-08T22:25:21Z mail alice@example.com api-key=5wpx2=8si4smyqf9r ip=zbq6704hxf=hl3m path=a05v53yg=ji secret=91roq9sfb -- 3o29i9 password=*******md wj4 ezfz0 ************yej
+#22 2026-03-09T05:10:24Z db frank@corp.test x-trace=b9wiqkqrg6=ry -- dmc7 amtuboc Password=******er
+#24 2026-03-11T09:57:43Z web bob region=151pzif0l=c session=il8siuiv=8 x-secret=tfon9j x-trace=mwc6=b xid=z12=iic -- nsv skhj u9vrp yto4oh 2lggegh
+#28 2026-03-07T18:32:11Z auth dave@example.com -- j4tc nr8 k9q 0b8 secret=*******jc bmvzjy Token=*******w7
+#32 2026-03-12T10:26:12Z db frank@corp.test ip=v87lu2ro
+#37 2026-03-10T06:28:18Z batch erin x-trace=fhtop8r=n6h
+    changed: note
+#39 2026-03-08T20:32:21Z batch erin level=p-56543be8 x-secret=6i1sx7hnrk x-trace=10usqnvkh -- token=*******zw 2n5o 3s2k hieozf3r k3eg5xs 8xgfm
+    changed: level
+#40 2026-03-10T08:26:37Z batch alice@example.com level=p-29320faf password=0hajcwsl3o4 path=rw=f2g6 x-xhop=fe
+    changed: level, note
+#45 2026-03-07T18:57:50Z auth dave@example.com token=muxy99z66xbz4xt -- srqi1k2 secret=*****x fxowr ti6h09 qihd l9vbkj secret=******pq **************...
+#47 2026-02-21T15:50:47Z batch carol@corp.test secret=xf86z94bag1gt7y x-xhop=9vddc -- hj9ng5 i7gym
+    changed: note
+#48 2026-01-29T10:46:27Z batch erin api-key=5jvez=sw5k ip=a4wahu3w8 region=cwk9ik -- 57q5g4pg 4bh6p u5e0rk 4tzqv
+    changed: xff
+exported 17 records, 8 fields changed
+#1 2026-03-10T23:27:57Z auth bob api-key=8brgoqu8zef69ui bytes=83693 ip=i55rdhqfitcg x-xhop=7e4lt0ye -- yfp Apikey=******pg f9w z4v kjv42 h15bnv
+#7 2026-03-09T17:56:07Z api dave@example.com ip=zss5p6hrr1 -- secret=******lw secret=*******43 Token=********s9 5e5th0
+    changed: note
+#9 2026-03-10T00:12:19Z db dave@example.com
+#10 2026-03-10T01:38:47Z db erin
+#11 2026-03-10T10:40:29Z db dave@example.com path=apvu4o x-forwarded=drfrgh3o7eun=os0r -- passwd=*******8c c0ao64u6 6x5a Secret=*****q
+#14 2026-03-12T17:24:08Z auth bob -- fao
+    changed: xff
+#19 2026-03-08T22:25:21Z mail alice@example.com api-key=5wpx2=8si4smyqf9r ip=zbq6704hxf=hl3m path=a05v53yg=ji secret=91roq9sfb -- 3o29i9 password=*******md wj4 ezfz0 ************yej
+#22 2026-03-09T05:10:24Z db frank@corp.test x-trace=b9wiqkqrg6=ry -- dmc7 amtuboc Password=******er
+#24 2026-03-11T09:57:43Z web bob region=151pzif0l=c session=il8siuiv=8 x-secret=tfon9j x-trace=mwc6=b xid=z12=iic -- nsv skhj u9vrp yto4oh 2lggegh
+#28 2026-03-07T18:32:11Z auth dave@example.com -- j4tc nr8 k9q 0b8 secret=*******jc bmvzjy Token=*******w7
+#32 2026-03-12T10:26:12Z db frank@corp.test ip=v87lu2ro
+#37 2026-03-10T06:28:18Z batch erin x-trace=fhtop8r=n6h
+    changed: note
+#39 2026-03-08T20:32:21Z batch erin level=p-56543be8 x-secret=6i1sx7hnrk x-trace=10usqnvkh -- token=*******zw 2n5o 3s2k hieozf3r k3eg5xs 8xgfm
+    changed: level
+#40 2026-03-10T08:26:37Z batch alice@example.com level=p-29320faf password=0hajcwsl3o4 path=rw=f2g6 x-xhop=fe
+    changed: level, note
+#45 2026-03-07T18:57:50Z auth dave@example.com token=muxy99z66xbz4xt -- srqi1k2 secret=*****x fxowr ti6h09 qihd l9vbkj secret=******pq **************...
+#47 2026-02-21T15:50:47Z batch carol@corp.test secret=xf86z94bag1gt7y x-xhop=9vddc -- hj9ng5 i7gym
+    changed: note
+#48 2026-01-29T10:46:27Z batch erin api-key=5jvez=sw5k ip=a4wahu3w8 region=cwk9ik -- 57q5g4pg 4bh6p u5e0rk 4tzqv
+    changed: xff
+exported 17 records, 8 fields changed
+report at 2026-03-14T18:00:00Z
+records: 17 (bytes 83693)
+sources: 6, average 3 records per source
+by source:
+  batch              5   29.4%
+  db                 5   29.4%
+  auth               4   23.5%
+  api                1    5.9%
+  mail               1    5.9%
+  web                1    5.9%
+by user (top 3):
+  dave@example.com     5   29.4%
+  erin               4   23.5%
+  bob                3   17.6%
+by domain:
+  -                  7   41.2%
+  example.com        7   41.2%
+  corp.test          3   17.6%
+by level:
+  info              15   88.2%
+  debug              1    5.9%
+  notice             1    5.9%
+largest record: #1 (83693 bytes)
+alerts (window 600s):
+  none
+check ok

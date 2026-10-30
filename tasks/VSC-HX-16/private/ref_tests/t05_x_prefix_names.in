@@ -1,0 +1,8 @@
+now 2026-03-10T12:00:00Z
+rule redact auth
+rule mask X-Session
+log 2026-03-09T10:00:00Z web bob X-Auth=aaaa auth=bbbb AUTH=cccc x-session=abcdefgh1234 session=abcdefgh1234 x-trace=t1 trace=t2
+export
+rules
+unrule X-AUTH
+export

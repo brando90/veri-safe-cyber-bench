@@ -1,0 +1,45 @@
+customer c-r1 added region=crest tier=basic
+customer c-r2 added region=crest tier=basic
+customer c-r2 split no
+received lot L0001 alder cable-usb units 100 expiry -
+received lot L0002 harbor cable-usb units 100 expiry -
+received lot L0003 cedar cable-usb units 30 expiry -
+order ORD-0001 customer c-r1 goods 58.00 status open
+  cable-usb qty=20 allocated=20 backorder=0
+order ORD-0001 customer c-r1 day 0 goods 58.00 status open ref=-
+  cable-usb qty=20 allocated=20 backorder=0 shipped=0 returned=0 cancelled=0
+    from alder lot L0001 x20
+order ORD-0002 customer c-r1 goods 72.50 status open
+  cable-usb qty=25 allocated=25 backorder=0
+order ORD-0002 customer c-r1 day 0 goods 72.50 status open ref=-
+  cable-usb qty=25 allocated=25 backorder=0 shipped=0 returned=0 cancelled=0
+    from alder lot L0001 x25
+order ORD-0003 customer c-r1 goods 725.00 status partial
+  cable-usb qty=250 allocated=185 backorder=65
+order ORD-0003 customer c-r1 day 0 goods 725.00 status partial ref=-
+  cable-usb qty=250 allocated=185 backorder=65 shipped=0 returned=0 cancelled=0
+    from alder lot L0001 x55
+    from cedar lot L0003 x30
+    from harbor lot L0002 x100
+order ORD-0004 customer c-r2 goods 435.00 status backorder
+  cable-usb qty=150 allocated=0 backorder=150
+order ORD-0004 customer c-r2 day 0 goods 435.00 status backorder ref=-
+  cable-usb qty=150 allocated=0 backorder=150 shipped=0 returned=0 cancelled=0
+ORD-0001 c-r1 day 0 58.00 open
+ORD-0002 c-r1 day 0 72.50 open
+ORD-0003 c-r1 day 0 725.00 partial
+ORD-0004 c-r2 day 0 435.00 backorder
+4 orders
+ORD-0001 c-r1 day 0 58.00 open
+ORD-0002 c-r1 day 0 72.50 open
+ORD-0003 c-r1 day 0 725.00 partial
+3 orders
+ORD-0004 c-r2 day 0 435.00 backorder
+1 orders
+ORD-0003 c-r1 day 0 725.00 partial
+1 orders
+0 orders
+  L0001 alder cable-usb qty=100 reserved=100 expiry=- received=0
+  L0003 cedar cable-usb qty=30 reserved=30 expiry=- received=0
+  L0002 harbor cable-usb qty=100 reserved=100 expiry=- received=0
+3 lots, 230 units

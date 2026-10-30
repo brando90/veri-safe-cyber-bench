@@ -1,0 +1,10 @@
+now 2026-03-10T12:00:00Z
+log 2026-03-09T23:30:00-0200 web bob -- negative whole hours
+log 2026-03-09T00:30:00+0100 web bob -- positive crossing back
+log 2026-03-09T12:00:00+0530 web bob -- half hour
+log 2026-03-09T12:00:00-0330 web bob -- negative half hour
+log 2026-03-09T12:00:00+0000 web bob -- zero offset
+log 2026-03-09T23:59:59 web bob -- no zone
+log 2026-03-01T00:00:00+1400 web bob -- month edge
+days
+export

@@ -1,0 +1,9 @@
+customer add c-acme arden name="Acme Works"
+set email c-acme info@acme.example
+customer close c-acme
+set email c-acme sales@acme.example
+set email c-acme -
+set po c-acme PO-77
+set note c-acme "call before delivery"
+customer show c-acme
+customer history c-acme

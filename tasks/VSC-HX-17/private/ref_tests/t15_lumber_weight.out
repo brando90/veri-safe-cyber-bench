@@ -1,0 +1,15 @@
+customer c-b1 added region=crest tier=basic
+received lot L0001 alder plank-2m units 100 expiry -
+received lot L0002 alder beam-3m units 50 expiry -
+received lot L0003 alder paper-a4 units 50 expiry -
+order ORD-0001 customer c-b1 goods 23.40 status open
+  plank-2m qty=3 allocated=3 backorder=0
+order ORD-0002 customer c-b1 goods 80.00 status open
+  beam-3m qty=4 allocated=4 backorder=0
+order ORD-0003 customer c-b1 goods 257.60 status open
+  plank-2m qty=5 allocated=5 backorder=0
+  beam-3m qty=10 allocated=10 backorder=0
+  paper-a4 qty=3 allocated=3 backorder=0
+shipment SHP-0001 order ORD-0001 from alder carrier parcelo weight 8000g goods 23.40 freight 9.49 handling 1.60 duty 0.00 dispatch day 0 eta day 2
+shipment SHP-0002 order ORD-0002 from alder carrier parcelo weight 10000g goods 80.00 freight 9.49 handling 1.60 duty 0.00 dispatch day 0 eta day 2
+shipment SHP-0003 order ORD-0003 from alder carrier parcelo weight 37350g goods 257.60 freight 0.00 handling 2.40 duty 20.61 dispatch day 0 eta day 4

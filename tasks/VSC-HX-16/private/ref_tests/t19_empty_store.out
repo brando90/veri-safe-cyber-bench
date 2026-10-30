@@ -1,0 +1,22 @@
+report at 2026-01-01T00:00:00Z
+records: 0 (bytes 0)
+sources: 0
+by source:
+  none
+by user (top 3):
+  none
+by domain:
+  none
+by level:
+  none
+alerts (window 60s):
+  none
+no records
+fields:
+  none
+exported 0 records, 0 fields changed
+exported 0 records, 0 fields changed
+purged 0 records, 0 kept
+strict: off
+check ok
+error: no rule for zed

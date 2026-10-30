@@ -1,0 +1,19 @@
+site add AMS "Amsterdam"
+site add LHR "London"
+route add R1 AMS LHR
+ship add S1 "Insulin Pens" route=R1
+ship add S2 "Straße samples" route=R1
+ship add S3 "INSULIN (frozen)" route=R1
+ship add S10 "Plain  box" route=R1
+ship add S4 "Naïve crate" route=R1
+find insulin
+find INSULIN pens
+find "insulin pens"
+find strasse
+find STRASSE
+find "naïve"
+find box
+find plain box
+find xyz
+find (frozen)
+find ""

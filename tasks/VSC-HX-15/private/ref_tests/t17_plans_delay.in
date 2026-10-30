@@ -1,0 +1,25 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+set slack 0
+ship add S1 "Plan box" route=R4
+plan S1 stop=1 t=1000
+plan S1 stop=2 t=2000
+plan S1 stop=3 t=3000
+plan S1 stop=4 t=4000
+plan S1 stop=5 t=4000
+arrive S1 stop=1 t=910
+arrive S1 stop=2 t=2059
+arrive S1 stop=3 t=3061
+plans S1
+alerts kind=late
+set slack 1
+alerts kind=late
+set slack 2
+alerts kind=late
+report S1
+ship add S2 "No plan" route=R3
+plans S2

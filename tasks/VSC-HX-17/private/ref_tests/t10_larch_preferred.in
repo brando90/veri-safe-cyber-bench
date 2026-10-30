@@ -1,0 +1,11 @@
+customer add c-l1 gale
+customer add c-l2 forge
+customer add c-l3 ember
+receive larch paper-a4 100
+receive elm paper-a4 100
+order add c-l1 paper-a4:10
+order add c-l2 paper-a4:10
+order add c-l3 paper-a4:10
+order show ORD-0001
+order show ORD-0002
+order show ORD-0003

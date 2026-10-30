@@ -1,0 +1,9 @@
+clock set to 2026-03-10T12:00:00Z
+rule added: redact q
+logged #1
+#1 2026-03-09T10:00:00Z web bob path=/x?y=1 q=[redacted]
+    changed: q
+exported 1 records, 1 fields changed
+fields:
+  path               1  100.0%
+  q                  1  100.0%

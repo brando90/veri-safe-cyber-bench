@@ -1,0 +1,10 @@
+clock set to 2026-03-10T12:00:00Z
+rule added: redact auth
+logged #1
+#1 2026-03-09T10:00:00Z web bob x-auth=[redacted] x-x-auth=other xauth=plain -- hello
+    changed: x-auth
+exported 1 records, 1 fields changed
+fields:
+  auth               1  100.0%
+  x-auth             1  100.0%
+  xauth              1  100.0%

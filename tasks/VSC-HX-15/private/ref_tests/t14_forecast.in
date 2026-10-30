@@ -1,0 +1,33 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Rising" route=R3 min=2.0 max=8.0
+ship add S2 "Falling" route=R3 min=-10.0 max=10.0
+ship add S3 "Flat" route=R3
+ship add S4 "One" route=R3
+read S1 t=0 temp=4.0
+read S1 t=600 temp=4.7
+read S1 t=1200 temp=5.4
+read S2 t=0 temp=1.0
+read S2 t=100 temp=0.7
+read S2 t=200 temp=0.2
+read S2 t=300 temp=-0.4
+read S2 t=400 temp=-0.9
+read S2 t=500 temp=-1.5
+read S2 t=600 temp=-2.0
+read S3 t=0 temp=5.0
+read S3 t=1000 temp=5.0
+read S4 t=0 temp=5.0
+forecast S1
+forecast S1 minutes=1
+forecast S1 minutes=240
+forecast S1 minutes=2000
+forecast S2 minutes=7
+forecast S2 minutes=500
+forecast S3
+forecast S4
+forecast S9
+forecast S1 minutes=0

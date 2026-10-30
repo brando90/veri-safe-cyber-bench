@@ -1,0 +1,53 @@
+customer c-t1 added region=arden tier=basic
+received lot L0001 harbor hammer-1 units 102 expiry -
+received lot L0002 harbor tumbler-6 units 120 expiry -
+error: warehouse harbor does not stock milk-1l
+received lot L0003 dune milk-1l units 120 expiry 21
+received lot L0004 dune apple-1k units 100 expiry 7
+received lot L0005 harbor crisps-50 units 240 expiry 180
+error: warehouse harbor does not stock thinner-1l
+received lot L0006 birch thinner-1l units 60 expiry -
+received lot L0007 harbor plank-2m units 100 expiry -
+order ORD-0001 customer c-t1 goods 267.60 status open
+  hammer-1 qty=12 allocated=12 backorder=0
+  tumbler-6 qty=24 allocated=24 backorder=0
+order ORD-0002 customer c-t1 goods 40.40 status open
+  milk-1l qty=12 allocated=12 backorder=0
+  apple-1k qty=10 allocated=10 backorder=0
+order ORD-0003 customer c-t1 goods 97.20 status open
+  crisps-50 qty=24 allocated=24 backorder=0
+  plank-2m qty=10 allocated=10 backorder=0
+order ORD-0004 customer c-t1 goods 108.00 status open
+  thinner-1l qty=12 allocated=12 backorder=0
+shipment SHP-0001 order ORD-0001 from harbor carrier parcelo weight 26640g goods 267.60 freight 0.00 handling 1.66 duty 13.38 dispatch day 0 eta day 3
+shipment SHP-0002 order ORD-0002 from dune carrier parcelo weight 14000g goods 40.40 freight 8.24 handling 2.70 duty 0.00 dispatch day 0 eta day 3
+shipment SHP-0003 order ORD-0003 from harbor carrier parcelo weight 26880g goods 97.20 freight 14.98 handling 1.66 duty 0.00 dispatch day 0 eta day 2
+shipment SHP-0004 order ORD-0004 from birch carrier haul weight 13200g goods 108.00 freight 16.41 handling 1.55 duty 0.00 dispatch day 0 eta day 7
+return ORD-0001 hammer-1 x3 restocked at harbor
+return ORD-0001 hammer-1 x3 scrapped at harbor
+error: only 6 units of hammer-1 can still be returned on ORD-0001
+error: the return window for milk-1l has closed
+return ORD-0002 apple-1k x2 scrapped at dune
+return ORD-0003 crisps-50 x4 scrapped at harbor
+return ORD-0003 plank-2m x4 restocked at harbor
+return ORD-0004 thinner-1l x6 scrapped at birch
+return ORD-0004 thinner-1l x6 scrapped at birch
+  L0006 birch thinner-1l qty=48 reserved=0 expiry=- received=0
+  L0004 dune apple-1k qty=90 reserved=0 expiry=7 received=0
+  L0003 dune milk-1l qty=108 reserved=0 expiry=21 received=0
+  L0005 harbor crisps-50 qty=216 reserved=0 expiry=180 received=0
+  L0001 harbor hammer-1 qty=90 reserved=0 expiry=- received=0
+  L0008 harbor hammer-1 qty=3 reserved=0 expiry=- received=0
+  L0007 harbor plank-2m qty=90 reserved=0 expiry=- received=0
+  L0009 harbor plank-2m qty=4 reserved=0 expiry=- received=0
+  L0002 harbor tumbler-6 qty=96 reserved=0 expiry=- received=0
+9 lots, 745 units
+  #15 day 0 return harbor hammer-1 +3 ORD-0001
+  #19 day 0 return harbor plank-2m +4 ORD-0003
+2 movements
+  #16 day 0 scrap harbor hammer-1 +0 ORD-0001
+  #17 day 0 scrap dune apple-1k +0 ORD-0002
+  #18 day 0 scrap harbor crisps-50 +0 ORD-0003
+  #20 day 0 scrap birch thinner-1l +0 ORD-0004
+  #21 day 0 scrap birch thinner-1l +0 ORD-0004
+5 movements

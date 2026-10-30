@@ -1,0 +1,20 @@
+clock set to 2026-03-10T12:00:00Z
+strict mode on
+rule added: keep level
+rule added: prefix s_
+rule added: prefix t_
+rule added: keep xid
+logged #1
+#1 2026-03-09T10:00:00Z web bob level=info s_a=******gh t_b=[redacted] xid=1
+    changed: s_a, t_b
+exported 1 records, 2 fields changed
+#1 2026-03-09T10:00:00Z web bob level=info s_a=******gh t_b=[redacted] xid=1
+    changed: s_a, t_b
+exported 1 records, 2 fields changed
+rules removed for s_
+#1 2026-03-09T10:00:00Z web bob level=info s_a=[redacted] t_b=[redacted] xid=1
+    changed: s_a, t_b
+exported 1 records, 2 fields changed
+keep: level xid
+prefix t_: redact
+strict: on

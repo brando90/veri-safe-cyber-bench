@@ -1,0 +1,16 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Slow logger" route=R3 skew=-45
+ship add S2 "Hour slow" route=R3 skew=-3600
+read S1 t=0 temp=5.0
+read S1 t=60 temp=5.5
+read S2 t=0 temp=5.0
+read S2 t=30 temp=5.5
+window S1
+window S2
+rollup S2
+export S1

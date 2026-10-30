@@ -1,0 +1,37 @@
+now 2026-03-10T12:00:00Z
+now
+now yesterday
+now 2026-03-10T12:00:00Z extra
+retain
+retain -3
+retain 3.5
+retain 5
+window 0
+limit
+limit a
+limit a b
+limit A 3
+limit * 7
+top
+salt
+strict maybe
+strict on
+rule
+rule redact
+rule shred x
+rule redact a b
+rule redact x-
+rule prefix
+rule prefix a b c d
+rule prefix a shred
+rule prefix a keep
+rule prefix A mask
+unrule
+unrule a b
+export a b
+frobnicate
+help
+# comment
+
+   
+check

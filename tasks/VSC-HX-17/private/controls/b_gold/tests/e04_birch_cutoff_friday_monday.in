@@ -1,0 +1,10 @@
+customer add c-ember ember tier=basic
+receive birch paper-a4 400
+tick 4
+order add c-ember paper-a4:10
+ship ORD-0001 at=15
+tick 3
+order add c-ember paper-a4:10
+ship ORD-0002 at=15
+order add c-ember paper-a4:10
+ship ORD-0003 at=13

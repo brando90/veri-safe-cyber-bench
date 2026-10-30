@@ -1,0 +1,21 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok ship S2
+window S1 n=2
+  45 5.0
+  105 5.5
+window S2 n=2
+  3600 5.0
+  3630 5.5
+rollup S2 hours=1
+hour 1 n=2 min=5.0 max=5.5 avg=5.3 hum=-
+begin export
+ship	S1	Slow logger	R3	2.0	8.0	-	-	-	-45	0.0
+r	45000	50	-
+r	105000	55	-
+end export

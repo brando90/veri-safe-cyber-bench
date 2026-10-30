@@ -1,0 +1,23 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Edge box" route=R3 class=chilled
+ship add S2 "Second edge" route=R3 class=chilled
+read S1 t=0 temp=5.0
+read S1 t=100 temp=5.0
+read S1 t=200 temp=9.0
+read S1 t=300 temp=5.0
+read S2 t=0 temp=9.0
+read S2 t=100 temp=9.0
+read S2 t=200 temp=9.0
+arrive S1 stop=1 t=0
+arrive S1 stop=3 t=300
+arrive S2 stop=1 t=0
+arrive S2 stop=3 t=200
+sla S1
+sla S2
+rank
+fleet

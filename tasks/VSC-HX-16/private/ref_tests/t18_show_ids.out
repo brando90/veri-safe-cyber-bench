@@ -1,0 +1,14 @@
+clock set to 2026-03-10T12:00:00Z
+logged #1
+logged #2
+logged #3
+#2 2026-03-09T10:00:01Z a u k=2
+#3 2026-03-09T10:00:02Z a u k=3
+#1 2026-03-09T10:00:00Z a u k=1
+error: no record #4
+error: bad number 0
+error: bad number 
+error: bad number x1
+error: usage: show ID
+error: usage: show ID
+error: no record #7

@@ -1,0 +1,17 @@
+clock set to 2026-03-10T12:00:00Z
+strict mode on
+rule added: keep level
+rule added: keep source
+rule added: mask session
+logged #1
+logged #2
+#1 2026-03-09T10:00:00Z auth alice@example.com ip=[redacted] level=info session=*********456 source=web
+    changed: ip, session
+#2 2026-03-09T10:01:00Z web bob level=error note=[redacted] region=[redacted]
+    changed: note, region
+exported 2 records, 4 fields changed
+#1 2026-03-09T10:00:00Z auth alice@example.com ip=10.1.1.1 level=info session=*********456 source=web
+    changed: session
+#2 2026-03-09T10:01:00Z web bob level=error note=hello region=[redacted]
+    changed: region
+exported 2 records, 2 fields changed

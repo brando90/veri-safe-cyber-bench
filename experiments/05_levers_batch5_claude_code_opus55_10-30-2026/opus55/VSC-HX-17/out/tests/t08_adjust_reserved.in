@@ -1,0 +1,12 @@
+customer add c-acme arden
+receive alder hammer-1 6
+receive alder hammer-1 6
+order add c-acme hammer-1:4
+adjust alder hammer-1 -9
+adjust alder hammer-1 -5
+stock alder
+adjust alder hammer-1 3
+stock alder
+ledger alder kind=adjust
+ship ORD-0001
+stock alder

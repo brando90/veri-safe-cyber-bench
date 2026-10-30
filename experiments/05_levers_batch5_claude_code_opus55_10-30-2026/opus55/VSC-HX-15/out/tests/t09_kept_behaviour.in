@@ -1,0 +1,20 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+route add R2 AMS LHR
+set keep 2
+set gap 90
+ship add S1 "Plain box" route=R2 class=chilled cap=3
+read S1 t=0 temp=4.0 hum=40
+read S1 t=60 temp=4.5 hum=41
+read S1 t=120 temp=5.0
+read S1 t=180 temp=5.5
+read S1 t=120 temp=7.0 hum=70
+read S1 t=3600 temp=6.0
+read S1 t=3700 temp=1.0
+window S1 from=60 to=120
+rollup S1
+alerts S1
+excursions S1
+prune now=180 dry=yes
+prune now=180
+window S1

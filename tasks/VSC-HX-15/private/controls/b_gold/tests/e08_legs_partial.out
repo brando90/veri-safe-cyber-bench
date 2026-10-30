@@ -1,0 +1,25 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok ship S2
+leg 1 AMS>LHR pending
+leg 2 LHR>JFK pending
+leg 3 JFK>SFO pending
+ok arrive S1 stop 1 AMS
+leg 1 AMS>LHR pending
+leg 2 LHR>JFK pending
+leg 3 JFK>SFO pending
+ok arrive S1 stop 2 LHR
+leg 1 AMS>LHR depart=10 arrive=140 mins=2 n=3 avg=4.5
+leg 2 LHR>JFK pending
+leg 3 JFK>SFO pending
+leg 1 AMS>LHR pending
+leg 2 LHR>JFK pending
+ok arrive S1 stop 4 SFO
+leg 1 AMS>LHR depart=10 arrive=140 mins=2 n=3 avg=4.5
+leg 2 LHR>JFK pending
+leg 3 JFK>SFO pending

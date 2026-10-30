@@ -1,0 +1,53 @@
+customer c-arden added region=arden tier=basic
+received lot L0001 harbor hammer-1 units 102 expiry -
+received lot L0002 harbor tumbler-6 units 108 expiry -
+received lot L0003 harbor plank-2m units 100 expiry -
+received lot L0004 dune apple-1k units 100 expiry 7
+received lot L0005 harbor charger-20 units 40 expiry -
+order ORD-0001 customer c-arden goods 637.60 status open
+  hammer-1 qty=20 allocated=20 backorder=0
+  tumbler-6 qty=24 allocated=24 backorder=0
+  plank-2m qty=10 allocated=10 backorder=0
+  charger-20 qty=8 allocated=8 backorder=0
+shipment SHP-0001 order ORD-0001 from harbor carrier haul weight 60640g goods 637.60 freight 0.00 handling 2.42 duty 31.88 dispatch day 0 eta day 4
+day 7 Mon
+return ORD-0001 tumbler-6 x1 restocked at harbor
+day 8 Tue
+error: the return window for tumbler-6 has closed
+return ORD-0001 charger-20 x1 restocked at harbor
+day 14 Mon
+return ORD-0001 charger-20 x1 restocked at harbor
+day 15 Tue
+error: the return window for charger-20 has closed
+return ORD-0001 plank-2m x2 restocked at harbor
+error: only 20 units of hammer-1 can still be returned on ORD-0001
+return ORD-0001 hammer-1 x19 restocked at harbor
+day 30 Wed
+return ORD-0001 hammer-1 x1 restocked at harbor
+return ORD-0001 plank-2m x1 restocked at harbor
+day 31 Thu
+error: the return window for plank-2m has closed
+error: invalid condition 'bad'
+error: unknown order ORD-0009
+error: unknown sku 'teleporter'
+error: unknown sku 'paper-a4'
+  #10 day 7 return harbor tumbler-6 +1 ORD-0001
+  #11 day 8 return harbor charger-20 +1 ORD-0001
+  #12 day 14 return harbor charger-20 +1 ORD-0001
+  #13 day 15 return harbor plank-2m +2 ORD-0001
+  #14 day 15 return harbor hammer-1 +19 ORD-0001
+  #15 day 30 return harbor hammer-1 +1 ORD-0001
+  #16 day 30 return harbor plank-2m +1 ORD-0001
+7 movements
+  L0005 harbor charger-20 qty=32 reserved=0 expiry=- received=0
+  L0007 harbor charger-20 qty=1 reserved=0 expiry=- received=8
+  L0008 harbor charger-20 qty=1 reserved=0 expiry=- received=14
+  L0001 harbor hammer-1 qty=82 reserved=0 expiry=- received=0
+  L0010 harbor hammer-1 qty=19 reserved=0 expiry=- received=15
+  L0011 harbor hammer-1 qty=1 reserved=0 expiry=- received=30
+  L0003 harbor plank-2m qty=90 reserved=0 expiry=- received=0
+  L0009 harbor plank-2m qty=2 reserved=0 expiry=- received=15
+  L0012 harbor plank-2m qty=1 reserved=0 expiry=- received=30
+  L0002 harbor tumbler-6 qty=84 reserved=0 expiry=- received=0
+  L0006 harbor tumbler-6 qty=1 reserved=0 expiry=- received=7
+11 lots, 314 units

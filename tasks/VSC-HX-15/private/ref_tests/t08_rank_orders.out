@@ -1,0 +1,38 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok ship S2
+ok ship S10
+ok ship S3
+ok ship S4
+ok ship S5
+rank 1 S1 50.0%
+rank 2 S2 50.0%
+rank 3 S10 50.0%
+rank 4 S4 75.0%
+rank 5 S3 100.0%
+rank 6 S5 n/a
+rank 1 S1 0
+rank 2 S2 0
+rank 3 S3 0
+rank 4 S4 0
+rank 5 S5 0
+rank 6 S10 0
+rank 1 S2 1.0
+rank 2 S10 1.0
+rank 3 S1 0.0
+rank 4 S3 0.0
+rank 5 S4 0.0
+rank 6 S5 0.0
+error: rank mode must be one of sla, exposure, alerts
+ok set slack=0
+rank 1 S1 0
+rank 2 S2 0
+rank 3 S3 0
+rank 4 S4 0
+rank 5 S5 0
+rank 6 S10 0

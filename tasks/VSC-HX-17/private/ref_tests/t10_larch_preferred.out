@@ -1,0 +1,20 @@
+customer c-l1 added region=gale tier=basic
+customer c-l2 added region=forge tier=basic
+customer c-l3 added region=ember tier=basic
+received lot L0001 larch paper-a4 units 100 expiry -
+received lot L0002 elm paper-a4 units 100 expiry -
+order ORD-0001 customer c-l1 goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+order ORD-0002 customer c-l2 goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+order ORD-0003 customer c-l3 goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+order ORD-0001 customer c-l1 day 0 goods 62.00 status open ref=-
+  paper-a4 qty=10 allocated=10 backorder=0 shipped=0 returned=0 cancelled=0
+    from larch lot L0001 x10
+order ORD-0002 customer c-l2 day 0 goods 62.00 status open ref=-
+  paper-a4 qty=10 allocated=10 backorder=0 shipped=0 returned=0 cancelled=0
+    from larch lot L0001 x10
+order ORD-0003 customer c-l3 day 0 goods 62.00 status open ref=-
+  paper-a4 qty=10 allocated=10 backorder=0 shipped=0 returned=0 cancelled=0
+    from elm lot L0002 x10

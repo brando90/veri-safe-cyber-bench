@@ -1,0 +1,23 @@
+customer add c-q1 arden
+receive dune milk-1l 120
+receive dune apple-1k 100
+receive dune pizza-fr 80
+receive dune vitamin-c 40 exp=100
+tick 6
+order add c-q1 apple-1k:10
+tick 1
+order add c-q1 apple-1k:10
+tick 11
+order add c-q1 milk-1l:12
+tick 1
+order add c-q1 milk-1l:12
+tick 51
+order add c-q1 vitamin-c:20
+tick 1
+order add c-q1 vitamin-c:20
+tick 39
+order add c-q1 pizza-fr:8
+tick 1
+order add c-q1 pizza-fr:8
+order list
+stock dune

@@ -1,0 +1,45 @@
+site add lhr "  London   Heathrow  "
+site add AMS "Amsterdam hub"
+site add ams "again"
+site add X "x"
+site list
+route add R1 AMS LHR
+route add R1 AMS LHR
+route add R2 AMS
+route add R3 AMS ZZZ
+ship add S1 "Box one" route=R1
+ship add S2 "Box two" route=R1 min=1.0 max=7.5 maxexc=30 cap=0 hmax=60 skew=-20 offset=-0.5
+ship add S10 "Box ten" route=R1 class=ambient cap=5
+ship add S3 "Bad band" route=R1 min=9.0 max=3.0
+ship add S3 "Bad class" route=R1 class=tropical
+ship add S3 "No route"
+ship add S3 "Odd route" route=NOPE
+ship add S1 "Dup" route=R1
+ship show S1
+ship show S2
+ship show S10
+ship list
+set hold 15
+set cap 0
+set cap 700
+set slack 0
+set spike 25
+set keep 90
+set gap 45
+set hold 0
+set bogus 1
+set hold 5x
+config
+ship show S1
+ship edit S2 cap=inherit maxexc=inherit hmax=inherit skew=5
+ship edit S10 class=cool
+ship edit S10 min=9.5
+ship edit S10 bogus=1
+ship rename S1 "  Renamed   box "
+ship show S2
+ship show S10
+ship show S1
+profiles
+ship remove S2
+ship list
+ship show S2

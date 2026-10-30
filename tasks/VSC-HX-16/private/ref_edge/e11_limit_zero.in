@@ -1,0 +1,7 @@
+now 2026-03-10T12:00:00Z
+limit auth 0
+limit * 5
+log 2026-03-10T10:00:00Z auth alice@example.com
+log 2026-03-10T10:00:00Z web bob
+log 2026-03-10T10:00:10Z web bob
+report

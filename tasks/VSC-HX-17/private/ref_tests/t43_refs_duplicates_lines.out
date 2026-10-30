@@ -1,0 +1,27 @@
+customer c-arden added region=arden tier=basic
+customer c-delta added region=delta tier=basic
+received lot L0001 alder paper-a4 units 300 expiry -
+received lot L0002 alder cable-usb units 300 expiry -
+order ORD-0001 customer c-arden goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+error: duplicate order reference po-1
+order ORD-0002 customer c-delta goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+order ORD-0003 customer c-arden goods 94.70 status open
+  paper-a4 qty=12 allocated=12 backorder=0
+  cable-usb qty=7 allocated=7 backorder=0
+order ORD-0003 customer c-arden day 0 goods 94.70 status open ref=-
+  paper-a4 qty=12 allocated=12 backorder=0 shipped=0 returned=0 cancelled=0
+    from alder lot L0001 x12
+  cable-usb qty=7 allocated=7 backorder=0 shipped=0 returned=0 cancelled=0
+    from alder lot L0002 x7
+error: invalid value 'bad/ref'
+order ORD-0004 customer c-arden goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+order ORD-0001 cancelled 10 units, status cancelled
+error: duplicate order reference po-1
+error: invalid order line 'paper-a4:x'
+error: option 'bogus' is not valid here
+error: unknown order ORD-0099
+0 orders
+0 orders

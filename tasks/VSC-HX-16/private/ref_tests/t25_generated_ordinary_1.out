@@ -1,0 +1,343 @@
+clock set to 2026-03-10T12:00:00Z
+retention set to 14 days
+window set to 600 seconds
+default limit set to 2
+salt set
+rule added: drop ip
+rule added: prefix api
+rule added: pseudo bytes
+rule added: drop bytes
+strict mode on
+rule added: keep level
+exported 0 records, 0 fields changed
+logged #1
+2026-03-10    1 records, bytes 0
+logged #2
+logged #3
+error: no record #14
+logged #4
+rule added: keep region
+#1 2026-03-10T13:30:36Z api alice@example.com level=warn note=[redacted] region=s79hmsyuo x-forwarded=[redacted] -- token=********op
+    changed: bytes, note, x-forwarded
+#2 2026-03-06T00:28:17Z mail dave@example.com -- tdc mgvm gei9 n9vgn *************bpj7
+#3 2026-03-06T08:24:31Z db dave@example.com note=[redacted] path=[redacted] session=[redacted]
+    changed: note, path, session
+#4 2026-03-05T15:57:30Z web bob session=[redacted]
+    changed: session
+exported 4 records, 7 fields changed
+error: no record #25
+logged #5
+clock set to 2026-03-12T00:00:00Z
+logged #6
+#1 2026-03-10T13:30:36Z api alice@example.com level=warn note=[redacted] region=s79hmsyuo x-forwarded=[redacted] -- token=********op
+    changed: bytes, note, x-forwarded
+#2 2026-03-06T00:28:17Z mail dave@example.com -- tdc mgvm gei9 n9vgn *************bpj7
+#3 2026-03-06T08:24:31Z db dave@example.com note=[redacted] path=[redacted] session=[redacted]
+    changed: note, path, session
+#4 2026-03-05T15:57:30Z web bob session=[redacted]
+    changed: session
+#5 2026-03-09T13:55:29Z auth alice@example.com password=[redacted] region=2s2sm
+    changed: password
+#6 2026-03-10T00:45:05Z web frank@corp.test note=[redacted] password=[redacted] -- password=******i
+    changed: bytes, note, password
+exported 6 records, 11 fields changed
+#1 2026-03-10T13:30:36Z api alice@example.com level=warn note=[redacted] region=s79hmsyuo x-forwarded=[redacted] -- token=********op
+    changed: bytes, note, x-forwarded
+exported 1 records, 3 fields changed
+logged #7
+limit for db set to 1
+logged #8
+logged #9
+logged #10
+#1 2026-03-10T13:30:36Z api alice@example.com level=warn note=[redacted] region=s79hmsyuo x-forwarded=[redacted] -- token=********op
+    changed: bytes, note, x-forwarded
+#2 2026-03-06T00:28:17Z mail dave@example.com -- tdc mgvm gei9 n9vgn *************bpj7
+#3 2026-03-06T08:24:31Z db dave@example.com note=[redacted] path=[redacted] session=[redacted]
+    changed: note, path, session
+#4 2026-03-05T15:57:30Z web bob session=[redacted]
+    changed: session
+#5 2026-03-09T13:55:29Z auth alice@example.com password=[redacted] region=2s2sm
+    changed: password
+#6 2026-03-10T00:45:05Z web frank@corp.test note=[redacted] password=[redacted] -- password=******i
+    changed: bytes, note, password
+#7 2026-03-05T23:38:53Z batch dave@example.com
+#8 2026-03-07T05:35:34Z db bob note=[redacted] path=[redacted] region=yfxxjux7 x-trace=[redacted]
+    changed: note, path, x-trace
+#9 2026-03-06T19:13:09Z web bob api-key=*********zt -- fzh3 token=*******eo 16w5 v9vc password=*******nf
+    changed: api-key
+#10 2026-03-07T15:06:00Z api carol@corp.test
+    changed: bytes
+exported 10 records, 16 fields changed
+logged #11
+logged #12
+logged #13
+clock set to 2026-03-16T13:00:00Z
+logged #14
+drop: bytes ip
+pseudo: bytes
+keep: level region
+prefix api: mask
+strict: on
+logged #15
+purged 0 records, 15 kept
+logged #16
+purged 0 records, 16 kept
+error: no record #22
+logged #17
+purged 0 records, 17 kept
+#1 2026-03-10T13:30:36Z api alice@example.com level=warn note=[redacted] region=s79hmsyuo x-forwarded=[redacted] -- token=********op
+    changed: bytes, note, x-forwarded
+#2 2026-03-06T00:28:17Z mail dave@example.com -- tdc mgvm gei9 n9vgn *************bpj7
+#3 2026-03-06T08:24:31Z db dave@example.com note=[redacted] path=[redacted] session=[redacted]
+    changed: note, path, session
+#4 2026-03-05T15:57:30Z web bob session=[redacted]
+    changed: session
+#5 2026-03-09T13:55:29Z auth alice@example.com password=[redacted] region=2s2sm
+    changed: password
+#6 2026-03-10T00:45:05Z web frank@corp.test note=[redacted] password=[redacted] -- password=******i
+    changed: bytes, note, password
+#7 2026-03-05T23:38:53Z batch dave@example.com
+#8 2026-03-07T05:35:34Z db bob note=[redacted] path=[redacted] region=yfxxjux7 x-trace=[redacted]
+    changed: note, path, x-trace
+#9 2026-03-06T19:13:09Z web bob api-key=*********zt -- fzh3 token=*******eo 16w5 v9vc password=*******nf
+    changed: api-key
+#10 2026-03-07T15:06:00Z api carol@corp.test
+    changed: bytes
+#11 2026-03-09T19:19:23Z db alice@example.com level=error note=[redacted] password=[redacted] x-forwarded=[redacted]
+    changed: ip, note, password, x-forwarded
+#12 2026-03-09T17:54:30Z web bob note=[redacted] password=[redacted] x-forwarded=[redacted] -- vr6uf wxu password=********7c utl513aq
+    changed: note, password, x-forwarded
+#13 2026-03-08T10:29:50Z web erin
+#14 2026-03-05T03:29:26Z db carol@corp.test -- 95xt 14l 238k7 mqgc apikey=********67 *************pho2
+#15 2026-03-07T17:44:47Z api frank@corp.test api-key=************ao2
+    changed: api-key, bytes, ip
+#16 2026-03-08T02:02:14Z batch alice@example.com path=[redacted] session=[redacted] -- password=*****0 m6ic *************lqfd
+    changed: ip, path, session
+#17 2026-03-07T21:50:59Z db erin
+exported 17 records, 29 fields changed
+logged #18
+logged #19
+purged 1 records (ids 18), 18 kept
+logged #20
+logged #21
+logged #22
+logged #23
+#2 2026-03-06T00:28:17Z mail dave@example.com -- tdc mgvm gei9 n9vgn *************bpj7
+#20 2026-03-07T23:01:37Z mail bob x-forwarded=[redacted] -- 1u3 n7603r c3nf29 zutw apikey=*****q 890190z
+    changed: x-forwarded
+exported 2 records, 1 fields changed
+logged #24
+purged 1 records (ids 21), 22 kept
+logged #25
+#1 2026-03-10T13:30:36Z api alice@example.com level=warn note=[redacted] region=s79hmsyuo x-forwarded=[redacted] -- token=********op
+    changed: bytes, note, x-forwarded
+#10 2026-03-07T15:06:00Z api carol@corp.test
+    changed: bytes
+#15 2026-03-07T17:44:47Z api frank@corp.test api-key=************ao2
+    changed: api-key, bytes, ip
+exported 3 records, 7 fields changed
+logged #26
+logged #27
+2026-03-05    3 records, bytes 0
+2026-03-06    4 records, bytes 0
+2026-03-07    6 records, bytes 133310
+2026-03-08    3 records, bytes 0
+2026-03-09    6 records, bytes 59834
+2026-03-10    3 records, bytes 0
+drop: bytes ip
+pseudo: bytes
+keep: level region
+prefix api: mask
+strict: on
+logged #28
+rule added: keep path
+logged #29
+rule added: keep path
+logged #30
+logged #31
+#1 2026-03-10T13:30:36Z api alice@example.com level=warn note=[redacted] region=s79hmsyuo x-forwarded=[redacted] -- token=********op
+    changed: bytes, note, x-forwarded
+#2 2026-03-06T00:28:17Z mail dave@example.com -- tdc mgvm gei9 n9vgn *************bpj7
+#3 2026-03-06T08:24:31Z db dave@example.com note=[redacted] path=nb1gsnvov session=[redacted]
+    changed: note, session
+#4 2026-03-05T15:57:30Z web bob session=[redacted]
+    changed: session
+#5 2026-03-09T13:55:29Z auth alice@example.com password=[redacted] region=2s2sm
+    changed: password
+#6 2026-03-10T00:45:05Z web frank@corp.test note=[redacted] password=[redacted] -- password=******i
+    changed: bytes, note, password
+#7 2026-03-05T23:38:53Z batch dave@example.com
+#8 2026-03-07T05:35:34Z db bob note=[redacted] path=ro1o9or region=yfxxjux7 x-trace=[redacted]
+    changed: note, x-trace
+#9 2026-03-06T19:13:09Z web bob api-key=*********zt -- fzh3 token=*******eo 16w5 v9vc password=*******nf
+    changed: api-key
+#10 2026-03-07T15:06:00Z api carol@corp.test
+    changed: bytes
+#11 2026-03-09T19:19:23Z db alice@example.com level=error note=[redacted] password=[redacted] x-forwarded=[redacted]
+    changed: ip, note, password, x-forwarded
+#12 2026-03-09T17:54:30Z web bob note=[redacted] password=[redacted] x-forwarded=[redacted] -- vr6uf wxu password=********7c utl513aq
+    changed: note, password, x-forwarded
+#13 2026-03-08T10:29:50Z web erin
+#14 2026-03-05T03:29:26Z db carol@corp.test -- 95xt 14l 238k7 mqgc apikey=********67 *************pho2
+#15 2026-03-07T17:44:47Z api frank@corp.test api-key=************ao2
+    changed: api-key, bytes, ip
+#16 2026-03-08T02:02:14Z batch alice@example.com path=5b94icr6 session=[redacted] -- password=*****0 m6ic *************lqfd
+    changed: ip, session
+#17 2026-03-07T21:50:59Z db erin
+#19 2026-03-09T07:49:39Z web frank@corp.test path=f0m7cqe00hi -- apikey=******cp pgpxx
+#20 2026-03-07T23:01:37Z mail bob x-forwarded=[redacted] -- 1u3 n7603r c3nf29 zutw apikey=*****q 890190z
+    changed: x-forwarded
+#22 2026-03-09T08:29:28Z db carol@corp.test -- passwd=******vq passwd=********oh f1z9hk1w w176o1u6 cxr8
+#23 2026-03-09T10:45:49Z web bob note=[redacted] path=gx79um -- p4b1 u7h ************8mst
+    changed: bytes, note
+#24 2026-03-10T04:42:05Z mail carol@corp.test api-key=******tt level=error session=[redacted] ua=[redacted] x-trace=[redacted] -- 0gaj
+    changed: api-key, session, ua, x-trace
+#25 2026-03-07T13:17:14Z db erin -- secret=*****y 6in3cc 2er1q jgy qmzp1p
+    changed: ip
+#26 2026-03-06T04:34:39Z mail carol@corp.test password=[redacted] region=oeiouot
+    changed: password
+#27 2026-03-08T23:23:01Z db bob api-key=******gh level=error region=5w90pdsg -- mry0gj6 secret=*******y8 fmwiz token=********uj nc5qdhjs 2u2ibnk ************...
+    changed: api-key, ip
+#28 2026-02-02T14:07:20Z api alice@example.com region=d34ytqo -- password=******8i apikey=********66 y8h y63vwl
+    changed: bytes, ip
+#29 2026-03-04T17:30:44Z batch erin api-key=************me3 path=4qarp1odcfsf region=gpzz4pgz0
+    changed: api-key, bytes
+#30 2026-03-06T09:42:23Z api carol@corp.test level=debug -- 4bmfz
+    changed: ip
+#31 2026-03-06T18:41:48Z mail bob -- mp4i6 z4mtrl qtb9 11cl
+exported 29 records, 42 fields changed
+purged 1 records (ids 28), 28 kept
+logged #32
+logged #33
+2026-03-04    1 records, bytes 54319
+2026-03-05    3 records, bytes 0
+2026-03-06    6 records, bytes 0
+2026-03-07    7 records, bytes 227134
+2026-03-08    3 records, bytes 0
+2026-03-09    7 records, bytes 59834
+2026-03-10    3 records, bytes 0
+logged #34
+logged #35
+logged #36
+logged #37
+#1 2026-03-10T13:30:36Z api alice@example.com level=warn note=[redacted] region=s79hmsyuo x-forwarded=[redacted] -- token=********op
+    changed: bytes, note, x-forwarded
+#2 2026-03-06T00:28:17Z mail dave@example.com -- tdc mgvm gei9 n9vgn *************bpj7
+#3 2026-03-06T08:24:31Z db dave@example.com note=[redacted] path=nb1gsnvov session=[redacted]
+    changed: note, session
+#4 2026-03-05T15:57:30Z web bob session=[redacted]
+    changed: session
+#5 2026-03-09T13:55:29Z auth alice@example.com password=[redacted] region=2s2sm
+    changed: password
+#6 2026-03-10T00:45:05Z web frank@corp.test note=[redacted] password=[redacted] -- password=******i
+    changed: bytes, note, password
+#7 2026-03-05T23:38:53Z batch dave@example.com
+#8 2026-03-07T05:35:34Z db bob note=[redacted] path=ro1o9or region=yfxxjux7 x-trace=[redacted]
+    changed: note, x-trace
+#9 2026-03-06T19:13:09Z web bob api-key=*********zt -- fzh3 token=*******eo 16w5 v9vc password=*******nf
+    changed: api-key
+#10 2026-03-07T15:06:00Z api carol@corp.test
+    changed: bytes
+#11 2026-03-09T19:19:23Z db alice@example.com level=error note=[redacted] password=[redacted] x-forwarded=[redacted]
+    changed: ip, note, password, x-forwarded
+#12 2026-03-09T17:54:30Z web bob note=[redacted] password=[redacted] x-forwarded=[redacted] -- vr6uf wxu password=********7c utl513aq
+    changed: note, password, x-forwarded
+#13 2026-03-08T10:29:50Z web erin
+#14 2026-03-05T03:29:26Z db carol@corp.test -- 95xt 14l 238k7 mqgc apikey=********67 *************pho2
+#15 2026-03-07T17:44:47Z api frank@corp.test api-key=************ao2
+    changed: api-key, bytes, ip
+#16 2026-03-08T02:02:14Z batch alice@example.com path=5b94icr6 session=[redacted] -- password=*****0 m6ic *************lqfd
+    changed: ip, session
+#17 2026-03-07T21:50:59Z db erin
+#19 2026-03-09T07:49:39Z web frank@corp.test path=f0m7cqe00hi -- apikey=******cp pgpxx
+#20 2026-03-07T23:01:37Z mail bob x-forwarded=[redacted] -- 1u3 n7603r c3nf29 zutw apikey=*****q 890190z
+    changed: x-forwarded
+#22 2026-03-09T08:29:28Z db carol@corp.test -- passwd=******vq passwd=********oh f1z9hk1w w176o1u6 cxr8
+#23 2026-03-09T10:45:49Z web bob note=[redacted] path=gx79um -- p4b1 u7h ************8mst
+    changed: bytes, note
+#24 2026-03-10T04:42:05Z mail carol@corp.test api-key=******tt level=error session=[redacted] ua=[redacted] x-trace=[redacted] -- 0gaj
+    changed: api-key, session, ua, x-trace
+#25 2026-03-07T13:17:14Z db erin -- secret=*****y 6in3cc 2er1q jgy qmzp1p
+    changed: ip
+#26 2026-03-06T04:34:39Z mail carol@corp.test password=[redacted] region=oeiouot
+    changed: password
+#27 2026-03-08T23:23:01Z db bob api-key=******gh level=error region=5w90pdsg -- mry0gj6 secret=*******y8 fmwiz token=********uj nc5qdhjs 2u2ibnk ************...
+    changed: api-key, ip
+#29 2026-03-04T17:30:44Z batch erin api-key=************me3 path=4qarp1odcfsf region=gpzz4pgz0
+    changed: api-key, bytes
+#30 2026-03-06T09:42:23Z api carol@corp.test level=debug -- 4bmfz
+    changed: ip
+#31 2026-03-06T18:41:48Z mail bob -- mp4i6 z4mtrl qtb9 11cl
+#32 2026-03-09T03:39:44Z api frank@corp.test -- 8s1 8tgbu 53xsi4 5kmpsc nlx ************6ekn
+#33 2026-03-07T06:02:42Z batch dave@example.com level=error session=[redacted] ua=[redacted] -- bwvu egn7kf u4b *************xmh5
+    changed: bytes, session, ua
+#34 2026-03-06T06:21:59Z web alice@example.com note=[redacted] session=[redacted] -- r8s8q dk3dmr15 passwd=*****2 f1ck
+    changed: note, session
+#35 2026-03-10T22:37:58Z mail alice@example.com level=error ua=[redacted]
+    changed: bytes, ua
+#36 2026-03-10T08:05:29Z batch bob password=[redacted] session=[redacted] x-forwarded=[redacted]
+    changed: password, session, x-forwarded
+#37 2026-03-09T19:39:24Z web frank@corp.test note=[redacted] session=[redacted] ua=[redacted] x-trace=[redacted]
+    changed: ip, note, session, ua, x-trace
+exported 34 records, 55 fields changed
+rule added: keep password
+#1 2026-03-10T13:30:36Z api alice@example.com level=warn note=[redacted] region=s79hmsyuo x-forwarded=[redacted] -- token=********op
+    changed: bytes, note, x-forwarded
+#2 2026-03-06T00:28:17Z mail dave@example.com -- tdc mgvm gei9 n9vgn *************bpj7
+#3 2026-03-06T08:24:31Z db dave@example.com note=[redacted] path=nb1gsnvov session=[redacted]
+    changed: note, session
+#4 2026-03-05T15:57:30Z web bob session=[redacted]
+    changed: session
+#5 2026-03-09T13:55:29Z auth alice@example.com password=fz78n3xy9 region=2s2sm
+#6 2026-03-10T00:45:05Z web frank@corp.test note=[redacted] password=0curomwh8i16a5j -- password=******i
+    changed: bytes, note
+#7 2026-03-05T23:38:53Z batch dave@example.com
+#8 2026-03-07T05:35:34Z db bob note=[redacted] path=ro1o9or region=yfxxjux7 x-trace=[redacted]
+    changed: note, x-trace
+#9 2026-03-06T19:13:09Z web bob api-key=*********zt -- fzh3 token=*******eo 16w5 v9vc password=*******nf
+    changed: api-key
+#10 2026-03-07T15:06:00Z api carol@corp.test
+    changed: bytes
+#11 2026-03-09T19:19:23Z db alice@example.com level=error note=[redacted] password=2war6rd1jqspz x-forwarded=[redacted]
+    changed: ip, note, x-forwarded
+#12 2026-03-09T17:54:30Z web bob note=[redacted] password=2bbgvdol6uo9ca x-forwarded=[redacted] -- vr6uf wxu password=********7c utl513aq
+    changed: note, x-forwarded
+#13 2026-03-08T10:29:50Z web erin
+#14 2026-03-05T03:29:26Z db carol@corp.test -- 95xt 14l 238k7 mqgc apikey=********67 *************pho2
+#15 2026-03-07T17:44:47Z api frank@corp.test api-key=************ao2
+    changed: api-key, bytes, ip
+#16 2026-03-08T02:02:14Z batch alice@example.com path=5b94icr6 session=[redacted] -- password=*****0 m6ic *************lqfd
+    changed: ip, session
+#17 2026-03-07T21:50:59Z db erin
+#19 2026-03-09T07:49:39Z web frank@corp.test path=f0m7cqe00hi -- apikey=******cp pgpxx
+#20 2026-03-07T23:01:37Z mail bob x-forwarded=[redacted] -- 1u3 n7603r c3nf29 zutw apikey=*****q 890190z
+    changed: x-forwarded
+#22 2026-03-09T08:29:28Z db carol@corp.test -- passwd=******vq passwd=********oh f1z9hk1w w176o1u6 cxr8
+#23 2026-03-09T10:45:49Z web bob note=[redacted] path=gx79um -- p4b1 u7h ************8mst
+    changed: bytes, note
+#24 2026-03-10T04:42:05Z mail carol@corp.test api-key=******tt level=error session=[redacted] ua=[redacted] x-trace=[redacted] -- 0gaj
+    changed: api-key, session, ua, x-trace
+#25 2026-03-07T13:17:14Z db erin -- secret=*****y 6in3cc 2er1q jgy qmzp1p
+    changed: ip
+#26 2026-03-06T04:34:39Z mail carol@corp.test password=z4eudpo2 region=oeiouot
+#27 2026-03-08T23:23:01Z db bob api-key=******gh level=error region=5w90pdsg -- mry0gj6 secret=*******y8 fmwiz token=********uj nc5qdhjs 2u2ibnk ************...
+    changed: api-key, ip
+#29 2026-03-04T17:30:44Z batch erin api-key=************me3 path=4qarp1odcfsf region=gpzz4pgz0
+    changed: api-key, bytes
+#30 2026-03-06T09:42:23Z api carol@corp.test level=debug -- 4bmfz
+    changed: ip
+#31 2026-03-06T18:41:48Z mail bob -- mp4i6 z4mtrl qtb9 11cl
+#32 2026-03-09T03:39:44Z api frank@corp.test -- 8s1 8tgbu 53xsi4 5kmpsc nlx ************6ekn
+#33 2026-03-07T06:02:42Z batch dave@example.com level=error session=[redacted] ua=[redacted] -- bwvu egn7kf u4b *************xmh5
+    changed: bytes, session, ua
+#34 2026-03-06T06:21:59Z web alice@example.com note=[redacted] session=[redacted] -- r8s8q dk3dmr15 passwd=*****2 f1ck
+    changed: note, session
+#35 2026-03-10T22:37:58Z mail alice@example.com level=error ua=[redacted]
+    changed: bytes, ua
+#36 2026-03-10T08:05:29Z batch bob password=6ofwc2fkn353p session=[redacted] x-forwarded=[redacted]
+    changed: session, x-forwarded
+#37 2026-03-09T19:39:24Z web frank@corp.test note=[redacted] session=[redacted] ua=[redacted] x-trace=[redacted]
+    changed: ip, note, session, ua, x-trace
+exported 34 records, 49 fields changed
+logged #38
+check ok

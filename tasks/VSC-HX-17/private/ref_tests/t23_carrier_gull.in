@@ -1,0 +1,35 @@
+customer add c-arden arden tier=basic
+customer add c-brook brook tier=basic
+customer add c-delta delta tier=basic
+customer add c-gale gale tier=basic
+receive harbor paper-a4 600
+receive harbor plank-2m 200
+receive harbor hammer-1 120
+order add c-arden paper-a4:1
+ship ORD-0001 carrier=gull
+order add c-delta paper-a4:8
+ship ORD-0002 carrier=gull
+order add c-gale paper-a4:20
+ship ORD-0003 carrier=gull
+order add c-arden plank-2m:2
+ship ORD-0004 carrier=gull
+order add c-delta plank-2m:7
+ship ORD-0005 carrier=gull
+order add c-gale plank-2m:25
+ship ORD-0006 carrier=gull
+order add c-gale paper-a4:3
+ship ORD-0007 carrier=gull
+order add c-arden plank-2m:12
+ship ORD-0008 carrier=gull
+order add c-delta paper-a4:1
+ship ORD-0009 carrier=gull
+order add c-gale hammer-1:4
+ship ORD-0010 carrier=gull
+order add c-delta hammer-1:11
+ship ORD-0011 carrier=gull
+order add c-brook plank-2m:3
+ship ORD-0012 carrier=gull
+order add c-brook paper-a4:5
+ship ORD-0013 carrier=gull
+order add c-brook hammer-1:1
+ship ORD-0014 carrier=gull

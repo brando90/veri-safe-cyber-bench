@@ -1,0 +1,21 @@
+received lot L0001 alder shirt-m units 40 expiry -
+received lot L0002 alder shirt-m units 40 expiry -
+received lot L0003 alder jacket-l units 20 expiry -
+received lot L0004 alder hammer-1 units 12 expiry -
+received lot L0005 alder cable-usb units 33 expiry -
+  L0005 alder cable-usb qty=33 reserved=0 expiry=- received=0
+  L0004 alder hammer-1 qty=12 reserved=0 expiry=- received=0
+  L0003 alder jacket-l qty=20 reserved=0 expiry=- received=0
+  L0001 alder shirt-m qty=40 reserved=0 expiry=- received=0
+  L0002 alder shirt-m qty=40 reserved=0 expiry=- received=0
+5 lots, 145 units
+report stock_cat
+  apparel 100
+  cables 33
+  tools 12
+  total 145
+end
+  alder cable-usb available=33 reorder=100 suggest=167
+  alder hammer-1 available=12 reorder=12 suggest=12
+  alder jacket-l available=20 reorder=60 suggest=100
+3 suggestions

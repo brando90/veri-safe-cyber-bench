@@ -1,0 +1,26 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Chain box" route=R3
+handoff S1 "Zoë Müller" t=100
+handoff S1 "Dock crew" t=100.5
+handoff S1 "Dock crew" t=50
+handoff S1 "" t=200
+handoff S1 "A name that is much too long to be stored" t=300
+handoff S1 "  Spaced   out  " t=86400
+handoff S9 "X" t=1
+custody S1
+custody S9
+verify S1 1 sig=0
+verify S1 2 sig=0
+verify S1 3 sig=0
+verify S1 4 sig=0
+verify S1 0 sig=0
+verify S1 1 sig=100
+report S1
+ship remove S1
+ship add S1 "Chain box" route=R3
+custody S1

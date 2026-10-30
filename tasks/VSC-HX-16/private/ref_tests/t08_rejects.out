@@ -1,0 +1,28 @@
+clock set to 2026-03-10T12:00:00Z
+rejected: bad timestamp
+logged #1
+rejected: bad timestamp
+rejected: missing fields
+rejected: bad timestamp
+rejected: bad source
+rejected: bad field novalue
+rejected: bad field =novalue
+rejected: bad bytes
+rejected: bad bytes
+rejected: bad bytes
+logged #2
+error: usage: log TIMESTAMP SOURCE USER [NAME=VALUE ...] [-- MESSAGE]
+report at 2026-03-10T12:00:00Z
+records: 2 (bytes 0)
+sources: 1, average 2 records per source
+by source:
+  web                2  100.0%
+by user (top 3):
+  bob                2  100.0%
+by domain:
+  -                  2  100.0%
+by level:
+  info               2  100.0%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  none

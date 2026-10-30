@@ -1,0 +1,20 @@
+ok site AMS
+ok site LHR
+ok route R1 stops=2
+ok ship S1
+ok ship S2
+ok ship S3
+ok ship S10
+ok ship S4
+find S1 "Insulin Pens"
+find S3 "INSULIN (frozen)"
+find S1 "Insulin Pens"
+find S1 "Insulin Pens"
+find S2 "Straße samples"
+find S2 "Straße samples"
+find S4 "Naïve crate"
+find S10 "Plain box"
+find S10 "Plain box"
+find none
+find S3 "INSULIN (frozen)"
+error: empty query

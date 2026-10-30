@@ -1,0 +1,11 @@
+receive cedar paper-a4 3300
+receive harbor paper-a4 500
+transfer harbor cedar paper-a4 100
+transfer harbor cedar paper-a4 100
+stock cedar
+transfer harbor dune paper-a4 10
+transfer harbor cedar paper-a4 0
+transfer harbor cedar paper-a4 500
+transfer cedar harbor paper-a4 200
+transfer harbor harbor paper-a4 10
+ledger harbor

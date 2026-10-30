@@ -1,0 +1,376 @@
+clock set to 2026-03-10T12:00:00Z
+retention set to 14 days
+window set to 600 seconds
+default limit set to 1
+salt set
+limit for auth set to 0
+rule added: redact secret
+rule added: pseudo trace
+rule added: pseudo region
+rule added: redact xhop
+strict mode on
+rule added: keep level
+rule added: redact api-key
+purged 0 records, 0 kept
+logged #1
+logged #2
+logged #3
+logged #4
+logged #5
+logged #6
+logged #7
+exported 0 records, 0 fields changed
+purged 3 records (ids 1, 5, 6), 4 kept
+#2 2026-03-05T00:26:31Z mail frank@corp.test x-forwarded=[redacted] -- Apikey=*****l password=******d ************snvy
+    changed: x-forwarded
+#3 2026-03-12T01:26:25Z mail frank@corp.test -- token=********y7 ar8 neg3 45mhdva secret=******0y 1t8jb **************0zfg
+#4 2026-02-25T10:28:11Z batch bob -- 485dq lpt8ml passwd=******9i tgh apikey=********ib pol75gh **************fcsd
+#7 2026-03-08T21:33:31Z auth erin bytes=[redacted] ip=[redacted] region=p-66d4772f x-trace=p-5c393008 -- passwd=******j
+    changed: bytes, ip, region, x-trace
+exported 4 records, 5 fields changed
+report at 2026-03-10T12:00:00Z
+records: 4 (bytes 54459)
+sources: 3, average 1 records per source
+by source:
+  mail               2   50.0%
+  auth               1   25.0%
+  batch              1   25.0%
+by user (top 3):
+  frank@corp.test     2   50.0%
+  bob                1   25.0%
+  erin               1   25.0%
+by domain:
+  -                  2   50.0%
+  corp.test          2   50.0%
+by level:
+  info               4  100.0%
+largest record: #7 (54459 bytes)
+alerts (window 600s):
+  ALERT auth peak 1 limit 0
+  at limit batch
+  at limit mail
+future:
+  #3 is 2 days ahead
+logged #8
+report at 2026-03-10T12:00:00Z
+records: 5 (bytes 54459)
+sources: 4, average 1 records per source
+by source:
+  mail               2   40.0%
+  auth               1   20.0%
+  batch              1   20.0%
+  web                1   20.0%
+by user (top 3):
+  frank@corp.test     2   40.0%
+  alice@example.com     1   20.0%
+  bob                1   20.0%
+by domain:
+  -                  2   40.0%
+  corp.test          2   40.0%
+  example.com        1   20.0%
+by level:
+  info               5  100.0%
+largest record: #7 (54459 bytes)
+alerts (window 600s):
+  ALERT auth peak 1 limit 0
+  at limit batch
+  at limit mail
+  at limit web
+future:
+  #3 is 2 days ahead
+limit for db set to 4
+logged #9
+logged #10
+2026-02-18    1 records, bytes 0
+2026-02-25    1 records, bytes 0
+2026-03-05    1 records, bytes 0
+2026-03-08    3 records, bytes 54459
+2026-03-12    1 records, bytes 0
+clock set to 2026-03-22T10:00:00Z
+rule added: redact xff
+report at 2026-03-22T10:00:00Z
+records: 7 (bytes 54459)
+sources: 6, average 1 records per source
+by source:
+  mail               2   28.6%
+  api                1   14.3%
+  auth               1   14.3%
+  batch              1   14.3%
+  db                 1   14.3%
+  web                1   14.3%
+by user (top 3):
+  bob                2   28.6%
+  frank@corp.test     2   28.6%
+  alice@example.com     1   14.3%
+by domain:
+  -                  3   42.9%
+  corp.test          3   42.9%
+  example.com        1   14.3%
+by level:
+  info               7  100.0%
+largest record: #7 (54459 bytes)
+alerts (window 600s):
+  ALERT auth peak 1 limit 0
+  at limit api
+  at limit batch
+  at limit mail
+  at limit web
+logged #11
+logged #12
+logged #13
+report at 2026-03-22T10:00:00Z
+records: 10 (bytes 54459)
+sources: 6, average 2 records per source
+by source:
+  batch              2   20.0%
+  db                 2   20.0%
+  mail               2   20.0%
+  web                2   20.0%
+  api                1   10.0%
+  auth               1   10.0%
+by user (top 3):
+  frank@corp.test     4   40.0%
+  alice@example.com     2   20.0%
+  bob                2   20.0%
+by domain:
+  corp.test          5   50.0%
+  -                  3   30.0%
+  example.com        2   20.0%
+by level:
+  info              10  100.0%
+largest record: #7 (54459 bytes)
+alerts (window 600s):
+  ALERT auth peak 1 limit 0
+  at limit api
+  at limit batch
+  at limit mail
+  at limit web
+fields:
+  secret             3   30.0%
+  forwarded          2   20.0%
+  ip                 2   20.0%
+  note               2   20.0%
+  region             2   20.0%
+  ua                 2   20.0%
+  bytes              1   10.0%
+  level              1   10.0%
+  password           1   10.0%
+  session            1   10.0%
+  token              1   10.0%
+  trace              1   10.0%
+  xff                1   10.0%
+  xhop               1   10.0%
+  xid                1   10.0%
+report at 2026-03-22T10:00:00Z
+records: 10 (bytes 54459)
+sources: 6, average 2 records per source
+by source:
+  batch              2   20.0%
+  db                 2   20.0%
+  mail               2   20.0%
+  web                2   20.0%
+  api                1   10.0%
+  auth               1   10.0%
+by user (top 3):
+  frank@corp.test     4   40.0%
+  alice@example.com     2   20.0%
+  bob                2   20.0%
+by domain:
+  corp.test          5   50.0%
+  -                  3   30.0%
+  example.com        2   20.0%
+by level:
+  info              10  100.0%
+largest record: #7 (54459 bytes)
+alerts (window 600s):
+  ALERT auth peak 1 limit 0
+  at limit api
+  at limit batch
+  at limit mail
+  at limit web
+logged #14
+logged #15
+logged #16
+purged 9 records (ids 2, 4, 9, 10, 11, 12, 13, 14, 15), 4 kept
+logged #17
+logged #18
+logged #19
+rule added: keep bytes
+logged #20
+logged #21
+report at 2026-03-22T10:00:00Z
+records: 9 (bytes 62853)
+sources: 6, average 2 records per source
+by source:
+  api                2   22.2%
+  auth               2   22.2%
+  web                2   22.2%
+  batch              1   11.1%
+  db                 1   11.1%
+  mail               1   11.1%
+by user (top 3):
+  erin               3   33.3%
+  bob                2   22.2%
+  dave@example.com     2   22.2%
+by domain:
+  -                  5   55.6%
+  example.com        3   33.3%
+  corp.test          1   11.1%
+by level:
+  info               9  100.0%
+largest record: #7 (54459 bytes)
+alerts (window 600s):
+  ALERT auth peak 1 limit 0
+  at limit api
+  at limit batch
+  at limit mail
+  at limit web
+logged #22
+logged #23
+#3 2026-03-12T01:26:25Z mail frank@corp.test -- token=********y7 ar8 neg3 45mhdva secret=******0y 1t8jb **************0zfg
+#7 2026-03-08T21:33:31Z auth erin bytes=54459 ip=[redacted] region=p-66d4772f x-trace=p-5c393008 -- passwd=******j
+    changed: ip, region, x-trace
+#8 2026-03-08T15:14:24Z web alice@example.com note=[redacted] secret=[redacted] ua=[redacted] x-xhop=[redacted] -- passwd=******w token=********6k djsn qm2v1aji *********ac9
+    changed: note, secret, ua, x-xhop
+#16 2026-03-09T12:44:17Z batch erin -- 2k86 coj 3hq passwd=********o8 2byw d5iu96wz
+#17 2026-03-10T02:52:16Z api dave@example.com path=[redacted] session=[redacted]
+    changed: path, session
+#18 2026-02-20T08:56:44Z api bob -- Secret=****h hxu gmlyr4 3v1 yure x1zud
+#19 2026-03-08T06:01:08Z auth dave@example.com bytes=8394 region=p-9558ed4f ua=[redacted] -- qxb 8gv token=*******dz
+    changed: region, ua
+#20 2026-02-07T15:54:16Z web erin x-secret=[redacted] x-xhop=[redacted] -- passwd=*******pf qdzd
+    changed: x-secret, x-xhop
+#21 2026-03-08T20:31:28Z db bob ip=[redacted] token=[redacted] -- password=*****6 aojawb Token=******4i Passwd=******j
+    changed: ip, token
+#22 2026-03-06T01:28:09Z db frank@corp.test api-key=[redacted] secret=[redacted] token=[redacted] x-xhop=[redacted] xid=[redacted] -- password=******3s apikey=******c 4r7bk ************jfj0
+    changed: api-key, secret, token, x-xhop, xid
+#23 2026-03-10T04:21:07Z auth bob api-key=[redacted] bytes=50345 ip=[redacted] x-trace=p-dc9e3bbf -- 6kof ih9cn2t 9cwsxq nmk4ri
+    changed: api-key, ip, x-trace
+exported 11 records, 23 fields changed
+logged #24
+logged #25
+purged 6 records (ids 18, 19, 20, 22, 24, 25), 7 kept
+logged #26
+logged #27
+rule added: pseudo token
+purged 2 records (ids 26, 27), 7 kept
+logged #28
+logged #29
+limit for web set to 1
+logged #30
+logged #31
+logged #32
+logged #33
+logged #34
+report at 2026-03-22T10:00:00Z
+records: 14 (bytes 198385)
+sources: 6, average 2 records per source
+by source:
+  db                 4   28.6%
+  api                3   21.4%
+  mail               3   21.4%
+  auth               2   14.3%
+  batch              1    7.1%
+  web                1    7.1%
+by user (top 3):
+  bob                5   35.7%
+  frank@corp.test     3   21.4%
+  alice@example.com     2   14.3%
+by domain:
+  -                  7   50.0%
+  example.com        4   28.6%
+  corp.test          3   21.4%
+by level:
+  info              14  100.0%
+largest record: #34 (87372 bytes)
+alerts (window 600s):
+  ALERT auth peak 1 limit 0
+  at limit api
+  at limit batch
+  at limit mail
+  at limit web
+logged #35
+logged #36
+logged #37
+#17 2026-03-10T02:52:16Z api dave@example.com path=[redacted] session=[redacted]
+    changed: path, session
+#28 2026-02-12T09:38:11Z api bob bytes=6209 password=[redacted] secret=[redacted] session=[redacted] x-xhop=[redacted]
+    changed: password, secret, session, x-xhop
+#33 2026-02-14T05:38:49Z api alice@example.com api-key=[redacted] ua=[redacted] x-forwarded=[redacted] x-trace=p-98edd113 -- Apikey=********n3 fpix haci7 password=*****d
+    changed: api-key, ua, x-forwarded, x-trace
+exported 3 records, 10 fields changed
+logged #38
+#3 2026-03-12T01:26:25Z mail frank@corp.test -- token=********y7 ar8 neg3 45mhdva secret=******0y 1t8jb **************0zfg
+#7 2026-03-08T21:33:31Z auth erin bytes=54459 ip=[redacted] region=p-66d4772f x-trace=p-5c393008 -- passwd=******j
+    changed: ip, region, x-trace
+#8 2026-03-08T15:14:24Z web alice@example.com note=[redacted] secret=[redacted] ua=[redacted] x-xhop=[redacted] -- passwd=******w token=********6k djsn qm2v1aji *********ac9
+    changed: note, secret, ua, x-xhop
+#16 2026-03-09T12:44:17Z batch erin -- 2k86 coj 3hq passwd=********o8 2byw d5iu96wz
+#17 2026-03-10T02:52:16Z api dave@example.com path=[redacted] session=[redacted]
+    changed: path, session
+#21 2026-03-08T20:31:28Z db bob ip=[redacted] token=p-4c28d418 -- password=*****6 aojawb Token=******4i Passwd=******j
+    changed: ip, token
+#23 2026-03-10T04:21:07Z auth bob api-key=[redacted] bytes=50345 ip=[redacted] x-trace=p-dc9e3bbf -- 6kof ih9cn2t 9cwsxq nmk4ri
+    changed: api-key, ip, x-trace
+#28 2026-02-12T09:38:11Z api bob bytes=6209 password=[redacted] secret=[redacted] session=[redacted] x-xhop=[redacted]
+    changed: password, secret, session, x-xhop
+#29 2026-03-04T21:06:09Z db frank@corp.test password=[redacted] path=[redacted]
+    changed: password, path
+#30 2026-01-26T02:32:33Z mail bob api-key=[redacted] password=[redacted] secret=[redacted] x-secret=[redacted] xff=[redacted] -- Secret=********xw
+    changed: api-key, password, secret, x-secret, xff
+#31 2026-03-01T06:53:45Z db frank@corp.test -- p1t3 apikey=*****n *********6wa
+#32 2026-02-13T06:20:55Z mail bob note=[redacted] path=[redacted] region=p-59d9ed6e x-trace=p-72d280e9 xff=[redacted] -- password=********z9
+    changed: note, path, region, x-trace, xff
+#33 2026-02-14T05:38:49Z api alice@example.com api-key=[redacted] ua=[redacted] x-forwarded=[redacted] x-trace=p-98edd113 -- Apikey=********n3 fpix haci7 password=*****d
+    changed: api-key, ua, x-forwarded, x-trace
+#34 2026-03-09T10:23:53Z db dave@example.com api-key=[redacted] bytes=87372 note=[redacted] path=[redacted] xff=[redacted]
+    changed: api-key, note, path, xff
+#35 2026-01-30T11:59:59Z web bob region=p-a4a2eba7 -- token=*****k apikey=*******ur ywy39ez d4l4m3
+    changed: region
+#36 2026-03-09T19:29:06Z auth erin note=[redacted] secret=[redacted] x-xhop=[redacted]
+    changed: note, secret, x-xhop
+#37 2026-01-25T15:24:44Z auth frank@corp.test bytes=8847 region=p-7191d1f5 x-forwarded=[redacted] x-secret=[redacted] -- Apikey=*****u Secret=*****a
+    changed: region, x-forwarded, x-secret
+#38 2026-03-05T03:48:27Z batch carol@corp.test secret=[redacted] x-xhop=[redacted] xid=[redacted] -- f7la5r2 8904 Secret=******te ud9h *********9cm
+    changed: secret, x-xhop, xid
+exported 18 records, 48 fields changed
+logged #39
+#3 2026-03-12T01:26:25Z mail frank@corp.test -- token=********y7 ar8 neg3 45mhdva secret=******0y 1t8jb **************0zfg
+#30 2026-01-26T02:32:33Z mail bob api-key=[redacted] password=[redacted] secret=[redacted] x-secret=[redacted] xff=[redacted] -- Secret=********xw
+    changed: api-key, password, secret, x-secret, xff
+#32 2026-02-13T06:20:55Z mail bob note=[redacted] path=[redacted] region=p-59d9ed6e x-trace=p-72d280e9 xff=[redacted] -- password=********z9
+    changed: note, path, region, x-trace, xff
+exported 3 records, 10 fields changed
+logged #40
+purged 9 records (ids 28, 29, 30, 31, 32, 33, 35, 37, 38), 11 kept
+logged #41
+logged #42
+report at 2026-03-22T10:00:00Z
+records: 13 (bytes 192176)
+sources: 6, average 2 records per source
+by source:
+  auth               4   30.8%
+  batch              3   23.1%
+  db                 2   15.4%
+  mail               2   15.4%
+  api                1    7.7%
+  web                1    7.7%
+by user (top 3):
+  erin               4   30.8%
+  bob                3   23.1%
+  dave@example.com     3   23.1%
+by domain:
+  -                  7   53.8%
+  example.com        5   38.5%
+  corp.test          1    7.7%
+by level:
+  error              1    7.7%
+  info              12   92.3%
+largest record: #34 (87372 bytes)
+alerts (window 600s):
+  ALERT auth peak 1 limit 0
+  at limit api
+  at limit batch
+  at limit mail
+  at limit web
+check ok

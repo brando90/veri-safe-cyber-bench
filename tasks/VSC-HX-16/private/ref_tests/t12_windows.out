@@ -1,0 +1,76 @@
+clock set to 2026-03-10T12:00:00Z
+window set to 60 seconds
+default limit set to 2
+logged #1
+logged #2
+logged #3
+logged #4
+logged #5
+logged #6
+logged #7
+logged #8
+logged #9
+logged #10
+logged #11
+logged #12
+logged #13
+logged #14
+report at 2026-03-10T12:00:00Z
+records: 14 (bytes 0)
+sources: 4, average 4 records per source
+by source:
+  d                  5   35.7%
+  c                  4   28.6%
+  a                  3   21.4%
+  b                  2   14.3%
+by user (top 3):
+  u                 14  100.0%
+by domain:
+  -                 14  100.0%
+by level:
+  info              14  100.0%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  ALERT c peak 4 limit 2
+  ALERT d peak 5 limit 2
+  at limit b
+window set to 61 seconds
+report at 2026-03-10T12:00:00Z
+records: 14 (bytes 0)
+sources: 4, average 4 records per source
+by source:
+  d                  5   35.7%
+  c                  4   28.6%
+  a                  3   21.4%
+  b                  2   14.3%
+by user (top 3):
+  u                 14  100.0%
+by domain:
+  -                 14  100.0%
+by level:
+  info              14  100.0%
+largest record: #1 (0 bytes)
+alerts (window 61s):
+  ALERT c peak 4 limit 2
+  ALERT d peak 5 limit 2
+  at limit a
+  at limit b
+error: bad number 0
+window set to 1 seconds
+report at 2026-03-10T12:00:00Z
+records: 14 (bytes 0)
+sources: 4, average 4 records per source
+by source:
+  d                  5   35.7%
+  c                  4   28.6%
+  a                  3   21.4%
+  b                  2   14.3%
+by user (top 3):
+  u                 14  100.0%
+by domain:
+  -                 14  100.0%
+by level:
+  info              14  100.0%
+largest record: #1 (0 bytes)
+alerts (window 1s):
+  ALERT d peak 5 limit 2

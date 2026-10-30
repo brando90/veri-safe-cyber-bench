@@ -1,0 +1,11 @@
+now 2026-03-10T12:00:00Z
+strict on
+rule keep level
+rule keep x-trace
+rule prefix xfer drop
+rule prefix tok mask
+rule mask cookie
+log 2026-03-09T10:00:00Z web alice@example.com x-trace=a=b== xfer_id=1 tok_a=abcdefgh== tokb=xy cookie=ab= level=info xlevel=warn
+export
+stats
+report

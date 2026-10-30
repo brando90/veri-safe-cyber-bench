@@ -1,0 +1,15 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok route R3 stops=3
+ok ship S1
+ok ship S2
+ok ship S3
+find S1 "Cold chain box"
+find S1 "Cold chain box"
+find S1 "Cold chain box"
+find S1 "Cold chain box"
+find S2 "Warm box"
+find S3 "Café crème"
+find S3 "Café crème"
+find none

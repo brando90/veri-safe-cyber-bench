@@ -1,0 +1,21 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok route R3 stops=3
+ok ship S1
+ok ship S2
+ship S1 "C:\new\box" route=R3 class=chilled band=2.0..8.0 hold=10m cap=600 hmax=- skew=0s offset=0.0
+ship S2 "Tab\tbox" route=R3 class=chilled band=2.0..8.0 hold=10m cap=600 hmax=- skew=0s offset=0.0
+begin export
+ship	S1	C:\\new\\box	R3	2.0	8.0	-	-	-	0	0.0
+r	0	40	-
+end export
+begin export
+ship	S2	Tab\\tbox	R3	2.0	8.0	-	-	-	0	0.0
+end export
+ok import readings=1
+ship S3 "D:\temp\x" route=R3 class=- band=2.0..8.0 hold=10m cap=600 hmax=- skew=0s offset=0.0
+begin export
+ship	S3	D:\\temp\\x	R3	2.0	8.0	-	-	-	0	0.0
+r	0	40	-
+end export

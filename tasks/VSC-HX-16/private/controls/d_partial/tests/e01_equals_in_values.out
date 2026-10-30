@@ -1,0 +1,17 @@
+clock set to 2026-03-10T12:00:00Z
+rule added: redact secret
+rule added: mask session
+rule added: drop cursor
+logged #1
+logged #2
+#1 2026-03-09T10:00:00Z web alice@example.com level=info note=a=b=c secret=[redacted] session=*********345
+    changed: cursor, secret, session
+#2 2026-03-09T10:00:01Z web bob note==x secret=[redacted] session=**
+    changed: secret, session
+exported 2 records, 5 fields changed
+fields:
+  note               2  100.0%
+  secret             2  100.0%
+  session            2  100.0%
+  cursor             1   50.0%
+  level              1   50.0%

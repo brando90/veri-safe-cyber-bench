@@ -1,0 +1,31 @@
+customer add c-a1 arden
+set po c-a1 PO-77
+set name c-a1 "Alpha One"
+set tier c-a1 gold
+set split c-a1 no
+set hold c-a1 yes
+set hold c-a1 no
+set carrier c-a1 swift
+set carrier c-a1 auto
+set email c-a1 a@x.io
+set email c-a1 -
+set note c-a1 hello
+set note c-a1 -
+set po c-a1 -
+set tier c-a1 platinum
+set split c-a1 maybe
+set carrier c-a1 zzz
+set po c-a1 PO-77
+set po c-a1 PO-77
+customer show c-a1
+customer history c-a1
+customer add c-a1 arden
+customer add bad_id arden
+customer add c-a2 nowhere
+customer add c-a2 crest tier=silver
+customer add c-a3 gale tier=gold name="Gale Gold"
+customer list
+customer list tier=gold
+customer list region=arden status=active
+set region c-a1 crest
+set region c-a1 crest

@@ -1,0 +1,29 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok set cap=2
+ok ship S1
+ok ship S2
+refused S1 t=3601 cap
+refused S2 t=20 cap
+stats ships=2 readings=6 refused=2 sites=4 routes=2
+window S1 n=4
+  3599.998 5.0
+  3599.999 5.2
+  3600 5.6
+  3600.5 5.4
+window S2 n=2
+  10 1.0
+  3700 3.0
+ok ship S2
+refused S2 t=40 cap
+refused S2 t=50 cap
+window S2 n=2
+  10 1.0
+  30 4.0
+ok ship S1
+refused S1 t=7303 cap
+stats ships=2 readings=10 refused=5 sites=4 routes=2

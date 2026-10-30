@@ -1,0 +1,21 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok set cap=4
+ok ship S1
+ok load S1 accepted=4 refused=1 bad=3
+window S1 n=4
+  0 5.3 hum=40
+  60 5.8 hum=41
+  120 6.3
+  180 6.8
+stats ships=1 readings=4 refused=1 sites=4 routes=2
+error: no such shipment S9
+ok load S1 accepted=2 refused=0 bad=0
+window S1 n=2
+  7200 5.3
+  7260 5.3
+error: block is not closed

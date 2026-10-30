@@ -1,0 +1,16 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok set hold=60
+ok ship S1
+ok ship S2
+alert S1 excursion t=10 dur=120s limit=120s
+alert S2 excursion t=10 dur=4990s limit=3600s
+alerts total=2
+ok ship S1
+alerts total=0
+ok ship S1
+alerts total=0

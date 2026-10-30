@@ -1,0 +1,21 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok ship S2
+ok load S1 accepted=3 refused=0 bad=0
+ok load S2 accepted=2 refused=0 bad=0
+window S1 n=3
+  0 60.0
+  60 60.0
+  120 45.0
+window S2 n=2
+  0 -40.0
+  60 -40.0
+histogram S1 step=10.0 buckets=2
+  [40.0,50.0) 1
+  [60.0,70.0) 2
+sla S1 0.0% 0/3

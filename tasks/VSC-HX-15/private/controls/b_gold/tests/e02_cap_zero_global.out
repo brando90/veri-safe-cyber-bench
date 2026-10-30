@@ -1,0 +1,22 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok set cap=0
+config hold=10 keep=0 gap=0 cap=0 slack=15 spike=0
+ok ship S1
+ok ship S2
+ship S1 "Global unlimited" route=R3 class=- band=2.0..8.0 hold=10m cap=unlimited hmax=- skew=0s offset=0.0
+refused S2 t=1 cap
+stats ships=2 readings=13 refused=1 sites=4 routes=2
+rollup S1 hours=1
+hour 0 n=12 min=5.0 max=5.0 avg=5.0 hum=-
+ok set cap=3
+refused S1 t=100 cap
+refused S1 t=101 cap
+stats ships=2 readings=13 refused=3 sites=4 routes=2
+ok ship S2
+refused S2 t=7 cap
+stats ships=2 readings=15 refused=4 sites=4 routes=2

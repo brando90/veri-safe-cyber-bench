@@ -1,0 +1,8 @@
+now 2026-03-10T12:00:00Z
+strict on
+rule keep id
+rule keep level
+log 2026-03-09T10:00:00Z web bob xid=77 x-id=88 id=99 level=info x-level=warn
+log 2026-03-09T10:00:01Z web bob xxid=1 -id=2 x-xid=3 -x-id=4
+export
+stats

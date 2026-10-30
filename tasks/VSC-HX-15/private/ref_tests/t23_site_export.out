@@ -1,0 +1,21 @@
+ok site AAA
+ok site BBB
+ok site CCC
+ok site DDD
+begin export sites
+site	AAA	Plain depot
+site	BBB	Dock\\tower
+site	CCC	Back\\\\slash \\n end
+site	DDD	Zoë's café
+end export sites
+ok route R1 stops=2
+ok ship S1
+error: unknown command arr_note
+begin export
+ship	S1	Plain label	R1	2.0	8.0	-	-	-	0	0.0
+r	1000	50	40
+end export
+begin export
+ship	S1	Plain label	R1	2.0	8.0	-	-	-	0	0.0
+r	1000	50	40
+end export

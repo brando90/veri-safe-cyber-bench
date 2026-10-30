@@ -1,0 +1,14 @@
+now 2026-03-10T12:00:00Z
+retain 14
+log 2026-02-01T09:00:00Z auth alice@example.com -- very old
+log 2026-03-08T09:00:00Z auth bob -- recent
+log 2026-02-10T09:00:00Z web carol@corp.test -- old
+log 2026-02-24T12:00:00Z web bob -- exactly fourteen days
+log 2026-03-12T09:00:00Z db erin -- dated after the clock
+log 2026-03-09T09:00:00Z auth bob -- recent again
+log 2026-03-09T10:00:00Z auth bob -- and again
+log 2026-03-09T11:00:00Z web bob -- web fresh
+purge
+report
+export
+check

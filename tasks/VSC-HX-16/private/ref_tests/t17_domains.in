@@ -1,0 +1,18 @@
+now 2026-03-10T12:00:00Z
+log 2026-03-09T10:00:00Z a a@b@c.org
+log 2026-03-09T10:00:01Z a a@b@c.org
+log 2026-03-09T10:00:02Z a a@b@c.org
+log 2026-03-09T10:00:03Z a a@b@c.org
+log 2026-03-09T10:00:04Z a a@b@c.org
+log 2026-03-09T10:01:00Z a bob@
+log 2026-03-09T10:01:01Z a bob@
+log 2026-03-09T10:01:02Z a bob@
+log 2026-03-09T10:01:03Z a bob@
+log 2026-03-09T10:02:00Z a plain
+log 2026-03-09T10:02:01Z a plain
+log 2026-03-09T10:02:02Z a plain
+log 2026-03-09T10:03:00Z a @x.net
+log 2026-03-09T10:03:01Z a @x.net
+log 2026-03-09T10:04:00Z a z@c.org
+top 5
+report

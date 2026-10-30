@@ -1,0 +1,19 @@
+clock set to 2026-03-10T12:00:00Z
+rule added: redact password
+rule added: drop ua
+rule added: pseudo ip
+rule added: mask card
+salt set
+logged #1
+logged #2
+#1 2026-03-09T10:00:00Z auth alice@example.com card=************4444 ip=p-dc83f97b level=info password=[redacted]
+    changed: card, ip, password, ua
+#2 2026-03-09T10:00:01Z auth bob card=*********777 ip=p-dc83f97b
+    changed: card, ip
+exported 2 records, 6 fields changed
+salt set
+#1 2026-03-09T10:00:00Z auth alice@example.com card=************4444 ip=p-14e89224 level=info password=[redacted]
+    changed: card, ip, password, ua
+#2 2026-03-09T10:00:01Z auth bob card=*********777 ip=p-14e89224
+    changed: card, ip
+exported 2 records, 6 fields changed

@@ -1,0 +1,58 @@
+customer c-delta added region=delta tier=basic
+customer c-ember added region=ember tier=basic
+customer c-gale added region=gale tier=basic
+customer c-haven added region=haven tier=basic
+customer c-arden added region=arden tier=basic
+received lot L0001 harbor paper-a3 units 300 expiry -
+received lot L0002 harbor paper-a4 units 300 expiry -
+received lot L0003 harbor hammer-1 units 102 expiry -
+order ORD-0001 customer c-gale goods 89.10 status open
+  paper-a3 qty=9 allocated=9 backorder=0
+shipment SHP-0001 order ORD-0001 from harbor carrier swift weight 4050g goods 89.10 freight 16.61 handling 1.28 duty 0.00 dispatch day 0 eta day 3
+order ORD-0002 customer c-gale goods 6.20 status open
+  paper-a4 qty=1 allocated=1 backorder=0
+shipment SHP-0002 order ORD-0002 from harbor carrier swift weight 450g goods 6.20 freight 10.50 handling 1.28 duty 0.00 dispatch day 0 eta day 3
+order ORD-0003 customer c-gale goods 158.40 status open
+  paper-a3 qty=16 allocated=16 backorder=0
+shipment SHP-0003 order ORD-0003 from harbor carrier swift weight 7200g goods 158.40 freight 21.20 handling 1.28 duty 0.00 dispatch day 0 eta day 3
+order ORD-0004 customer c-gale goods 58.00 status open
+  hammer-1 qty=4 allocated=4 backorder=0
+shipment SHP-0004 order ORD-0004 from harbor carrier swift weight 3600g goods 58.00 freight 15.85 handling 1.28 duty 0.00 dispatch day 0 eta day 3
+order ORD-0005 customer c-gale goods 29.70 status open
+  paper-a3 qty=3 allocated=3 backorder=0
+shipment SHP-0005 order ORD-0005 from harbor carrier swift weight 1350g goods 29.70 freight 12.02 handling 1.28 duty 0.00 dispatch day 0 eta day 3
+order ORD-0006 customer c-haven goods 89.10 status open
+  paper-a3 qty=9 allocated=9 backorder=0
+shipment SHP-0006 order ORD-0006 from harbor carrier swift weight 4050g goods 89.10 freight 17.44 handling 1.28 duty 8.02 dispatch day 0 eta day 7
+order ORD-0007 customer c-haven goods 6.20 status open
+  paper-a4 qty=1 allocated=1 backorder=0
+shipment SHP-0007 order ORD-0007 from harbor carrier swift weight 450g goods 6.20 freight 11.16 handling 1.28 duty 0.56 dispatch day 0 eta day 7
+order ORD-0008 customer c-haven goods 158.40 status open
+  paper-a3 qty=16 allocated=16 backorder=0
+shipment SHP-0008 order ORD-0008 from harbor carrier swift weight 7200g goods 158.40 freight 22.15 handling 1.28 duty 14.26 dispatch day 0 eta day 7
+order ORD-0009 customer c-haven goods 58.00 status open
+  hammer-1 qty=4 allocated=4 backorder=0
+shipment SHP-0009 order ORD-0009 from harbor carrier swift weight 3600g goods 58.00 freight 16.65 handling 1.28 duty 5.22 dispatch day 0 eta day 7
+order ORD-0010 customer c-haven goods 29.70 status open
+  paper-a3 qty=3 allocated=3 backorder=0
+shipment SHP-0010 order ORD-0010 from harbor carrier swift weight 1350g goods 29.70 freight 12.73 handling 1.28 duty 2.67 dispatch day 0 eta day 7
+order ORD-0011 customer c-arden goods 89.10 status open
+  paper-a3 qty=9 allocated=9 backorder=0
+shipment SHP-0011 order ORD-0011 from harbor carrier swift weight 4050g goods 89.10 freight 10.69 handling 1.28 duty 0.00 dispatch day 0 eta day 1
+order ORD-0012 customer c-arden goods 6.20 status open
+  paper-a4 qty=1 allocated=1 backorder=0
+shipment SHP-0012 order ORD-0012 from harbor carrier swift weight 450g goods 6.20 freight 6.00 handling 1.28 duty 0.00 dispatch day 0 eta day 1
+order ORD-0013 customer c-arden goods 158.40 status open
+  paper-a3 qty=16 allocated=16 backorder=0
+shipment SHP-0013 order ORD-0013 from harbor carrier swift weight 7200g goods 158.40 freight 14.58 handling 1.28 duty 7.92 dispatch day 0 eta day 2
+order ORD-0014 customer c-arden goods 58.00 status open
+  hammer-1 qty=4 allocated=4 backorder=0
+shipment SHP-0014 order ORD-0014 from harbor carrier swift weight 3600g goods 58.00 freight 10.04 handling 1.28 duty 0.00 dispatch day 0 eta day 1
+order ORD-0015 customer c-arden goods 29.70 status open
+  paper-a3 qty=3 allocated=3 backorder=0
+shipment SHP-0015 order ORD-0015 from harbor carrier swift weight 1350g goods 29.70 freight 6.80 handling 1.28 duty 0.00 dispatch day 0 eta day 1
+report duty_region
+  arden 7.92
+  haven 30.73
+  total 38.65
+end

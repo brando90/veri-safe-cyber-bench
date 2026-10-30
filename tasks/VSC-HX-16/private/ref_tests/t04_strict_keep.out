@@ -1,0 +1,25 @@
+clock set to 2026-03-10T12:00:00Z
+rule added: keep level
+rule added: keep ip
+logged #1
+#1 2026-03-09T10:00:00Z web bob ip=10.0.0.1 level=info note=hello
+exported 1 records, 0 fields changed
+strict mode on
+#1 2026-03-09T10:00:00Z web bob ip=10.0.0.1 level=info note=[redacted]
+    changed: note
+exported 1 records, 1 fields changed
+rule added: redact ip
+rule added: mask note
+rule added: keep note
+#1 2026-03-09T10:00:00Z web bob ip=[redacted] level=info note=****o
+    changed: ip, note
+exported 1 records, 2 fields changed
+strict mode off
+rules removed for ip
+error: no rule for nothing
+#1 2026-03-09T10:00:00Z web bob ip=10.0.0.1 level=info note=****o
+    changed: note
+exported 1 records, 1 fields changed
+mask: note
+keep: level note
+strict: off

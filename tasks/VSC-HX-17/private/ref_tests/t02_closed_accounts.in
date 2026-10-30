@@ -1,0 +1,19 @@
+customer add c-cl1 arden
+receive harbor paper-a4 200
+order add c-cl1 paper-a4:10
+customer close c-cl1
+set po c-cl1 X1
+set name c-cl1 Renamed
+set tier c-cl1 gold
+set split c-cl1 no
+set hold c-cl1 yes
+set carrier c-cl1 swift
+set region c-cl1 crest
+set note c-cl1 "late note"
+set note c-cl1 "later note"
+audit
+order add c-cl1 paper-a4:5
+customer close c-cl1
+customer show c-cl1
+customer history c-cl1
+customer list status=closed

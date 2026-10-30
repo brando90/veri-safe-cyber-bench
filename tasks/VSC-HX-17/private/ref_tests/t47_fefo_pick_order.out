@@ -1,0 +1,53 @@
+customer c-arden added region=arden tier=basic
+received lot L0001 harbor paper-a4 units 100 expiry -
+received lot L0002 dune vitamin-c units 20 expiry 50
+received lot L0003 dune vitamin-c units 20 expiry 30
+received lot L0004 dune vitamin-c units 20 expiry 90
+received lot L0005 dune vitamin-c units 20 expiry 30
+received lot L0006 dune vitamin-c units 20 expiry 100
+received lot L0007 harbor paper-a3 units 50 expiry -
+received lot L0008 harbor paper-a3 units 50 expiry -
+received lot L0009 harbor paper-a4 units 30 expiry -
+order ORD-0001 customer c-arden goods 156.00 status open
+  vitamin-c qty=30 allocated=30 backorder=0
+order ORD-0001 customer c-arden day 0 goods 156.00 status open ref=-
+  vitamin-c qty=30 allocated=30 backorder=0 shipped=0 returned=0 cancelled=0
+    from dune lot L0003 x20
+    from dune lot L0005 x10
+order ORD-0002 customer c-arden goods 208.00 status open
+  vitamin-c qty=40 allocated=40 backorder=0
+order ORD-0002 customer c-arden day 0 goods 208.00 status open ref=-
+  vitamin-c qty=40 allocated=40 backorder=0 shipped=0 returned=0 cancelled=0
+    from dune lot L0005 x10
+    from dune lot L0002 x20
+    from dune lot L0004 x10
+order ORD-0003 customer c-arden goods 693.00 status open
+  paper-a3 qty=70 allocated=70 backorder=0
+order ORD-0003 customer c-arden day 0 goods 693.00 status open ref=-
+  paper-a3 qty=70 allocated=70 backorder=0 shipped=0 returned=0 cancelled=0
+    from harbor lot L0007 x50
+    from harbor lot L0008 x20
+order ORD-0004 customer c-arden goods 682.00 status open
+  paper-a4 qty=110 allocated=110 backorder=0
+order ORD-0004 customer c-arden day 0 goods 682.00 status open ref=-
+  paper-a4 qty=110 allocated=110 backorder=0 shipped=0 returned=0 cancelled=0
+    from harbor lot L0001 x100
+    from harbor lot L0009 x10
+  L0002 dune vitamin-c qty=20 reserved=20 expiry=50 received=0
+  L0003 dune vitamin-c qty=20 reserved=20 expiry=30 received=0
+  L0004 dune vitamin-c qty=20 reserved=10 expiry=90 received=0
+  L0005 dune vitamin-c qty=20 reserved=20 expiry=30 received=0
+  L0006 dune vitamin-c qty=20 reserved=0 expiry=100 received=0
+5 lots, 100 units
+  L0007 harbor paper-a3 qty=50 reserved=50 expiry=- received=0
+  L0008 harbor paper-a3 qty=50 reserved=20 expiry=- received=0
+2 lots, 100 units
+  L0001 harbor paper-a4 qty=100 reserved=100 expiry=- received=0
+  L0009 harbor paper-a4 qty=30 reserved=10 expiry=- received=0
+2 lots, 130 units
+order ORD-0003 cancelled 70 units, status cancelled
+order ORD-0005 customer c-arden goods 99.00 status open
+  paper-a3 qty=10 allocated=10 backorder=0
+order ORD-0005 customer c-arden day 0 goods 99.00 status open ref=-
+  paper-a3 qty=10 allocated=10 backorder=0 shipped=0 returned=0 cancelled=0
+    from harbor lot L0007 x10

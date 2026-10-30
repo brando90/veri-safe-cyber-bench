@@ -1,0 +1,15 @@
+clock set to 2026-03-10T12:00:00Z
+logged #1
+logged #2
+logged #3
+logged #4
+fields:
+  trace              4  100.0%
+  level              3   75.0%
+  zone               2   50.0%
+  alpha              1   25.0%
+#1 2026-03-09T10:00:00Z a u alpha=1 level=info trace=2 x-trace=1 zone=1
+#2 2026-03-09T10:00:01Z a u level=error trace=3 zone=2
+#3 2026-03-09T10:00:02Z a u level=debug trace=4
+#4 2026-03-09T10:00:03Z a u x-trace=4
+exported 4 records, 0 fields changed

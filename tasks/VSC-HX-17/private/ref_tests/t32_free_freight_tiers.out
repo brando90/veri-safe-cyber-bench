@@ -1,0 +1,43 @@
+customer c-arden added region=arden tier=basic
+received lot L0001 harbor paper-a3 units 300 expiry -
+received lot L0002 harbor paper-a4 units 300 expiry -
+received lot L0003 harbor hammer-1 units 204 expiry -
+received lot L0004 harbor plier-9 units 102 expiry -
+received lot L0005 harbor wrench-set units 102 expiry -
+received lot L0006 harbor cable-usb units 200 expiry -
+received lot L0007 harbor plank-2m units 100 expiry -
+customer c-gld added region=arden tier=gold
+customer c-slv added region=arden tier=silver
+order ORD-0001 customer c-gld goods 50.00 status open
+  plier-9 qty=1 allocated=1 backorder=0
+  cable-usb qty=6 allocated=6 backorder=0
+  plank-2m qty=2 allocated=2 backorder=0
+shipment SHP-0001 order ORD-0001 from harbor carrier swift weight 6410g goods 50.00 freight 0.00 handling 2.04 duty 0.00 dispatch day 0 eta day 1
+order ORD-0002 customer c-gld goods 49.90 status open
+  paper-a4 qty=1 allocated=1 backorder=0
+  cable-usb qty=7 allocated=7 backorder=0
+  plank-2m qty=3 allocated=3 backorder=0
+shipment SHP-0002 order ORD-0002 from harbor carrier swift weight 9045g goods 49.90 freight 17.17 handling 2.04 duty 0.00 dispatch day 0 eta day 1
+order ORD-0003 customer c-slv goods 100.00 status open
+  paper-a4 qty=3 allocated=3 backorder=0
+  hammer-1 qty=4 allocated=4 backorder=0
+  plank-2m qty=3 allocated=3 backorder=0
+shipment SHP-0003 order ORD-0003 from harbor carrier swift weight 12950g goods 100.00 freight 0.00 handling 2.04 duty 0.00 dispatch day 0 eta day 1
+order ORD-0004 customer c-slv goods 99.90 status open
+  paper-a3 qty=1 allocated=1 backorder=0
+  plier-9 qty=3 allocated=3 backorder=0
+  wrench-set qty=1 allocated=1 backorder=0
+shipment SHP-0004 order ORD-0004 from harbor carrier swift weight 4050g goods 99.90 freight 10.69 handling 2.04 duty 0.00 dispatch day 0 eta day 1
+order ORD-0005 customer c-arden goods 200.00 status open
+  paper-a4 qty=3 allocated=3 backorder=0
+  plier-9 qty=7 allocated=7 backorder=0
+  plank-2m qty=8 allocated=8 backorder=0
+shipment SHP-0005 order ORD-0005 from harbor carrier swift weight 26650g goods 200.00 freight 0.00 handling 2.04 duty 10.00 dispatch day 0 eta day 2
+order ORD-0006 customer c-arden goods 199.90 status open
+  paper-a3 qty=1 allocated=1 backorder=0
+  plier-9 qty=2 allocated=2 backorder=0
+  wrench-set qty=4 allocated=4 backorder=0
+shipment SHP-0006 order ORD-0006 from harbor carrier swift weight 5850g goods 199.90 freight 12.64 handling 2.04 duty 10.00 dispatch day 0 eta day 2
+gold rank=0 free_freight_from=50.00
+silver rank=1 free_freight_from=100.00
+basic rank=2 free_freight_from=200.00

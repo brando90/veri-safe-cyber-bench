@@ -1,0 +1,9 @@
+{
+  "id": "VSC-HX-15",
+  "split": "test",
+  "language": "python3.12",
+  "bug_class": "nine mismatches between two modules' conventions where each module alone is idiomatic and consistent: an intake cap where 0 means unlimited read by the counter as zero, a hold limit in minutes compared in the wrong unit against an excursion length in seconds, a half-open window end used with a journey close instant, a 1-based stop number used as a 0-based index in a leg view, a logger clock skew applied with the wrong sign, a label written to tab-separated text without the escaping the reader undoes, a rank sort key using the raw ratio where the shown percent in tenths is the contract, a find query not cleaned like stored labels, a sensor clamp applied before the calibration offset instead of after",
+  "summary": "chillroute, a toy cold-chain shipment monitor (stdin command lines, integer-millisecond instants and integer-tenth temperatures, shipments on routes with readings, excursions, five alert kinds, sla share, ranking, legs, custody chain, tab-separated export and import, csv load, retention, forecast, audit log). 35 Python modules, about 2,020 lines plus a README whose single table of module-boundary conventions names the owning side. Nine independent defects, each a one-line disagreement between two (four of them across three) modules; fixing the owning module instead of the adapting one changes documented behaviour and fails ref_tests. Many decoys: a range adapter, an index adapter, a half-open window at the leg boundary, a documented prune cutoff rule, ASCII-only blank collapsing, literal zero for slack and hmax, truncated delays, half-up averages, and an escaped site export.",
+  "K": 9,
+  "time_cap_min": 45
+}

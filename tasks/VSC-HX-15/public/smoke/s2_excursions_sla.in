@@ -1,0 +1,31 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+set gap 400
+ship add S1 "Insulin" route=R3 class=chilled
+ship add S2 "Serum" route=R3 min=2.0 max=8.0
+read S1 t=0 temp=4.0 hum=40
+read S1 t=60 temp=4.5 hum=41
+read S1 t=120 temp=9.0 hum=60
+read S1 t=180 temp=9.5 hum=63
+read S1 t=240 temp=5.0 hum=50
+read S1 t=300 temp=5.0 hum=52
+read S1 t=900 temp=4.0 hum=49
+read S2 t=0 temp=3.0
+read S2 t=60 temp=3.5
+read S2 t=120 temp=4.0
+read S2 t=180 temp=4.5
+arrive S1 stop=1 t=0
+arrive S1 stop=2 t=100
+arrive S1 stop=3 t=950
+arrive S2 stop=1 t=10
+excursions S1
+alerts
+sla S1
+sla S2
+report S1
+fleet
+board

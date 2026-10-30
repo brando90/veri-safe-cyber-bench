@@ -1,0 +1,20 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok ship S2
+ok ship S3
+ok ship S4
+forecast S1 +30m temp=7.5 in
+forecast S1 +1m temp=5.5 in
+forecast S1 +240m temp=22.2 above
+error: minutes out of range
+forecast S2 +7m temp=-4.3 in
+forecast S2 +500m temp=-40.0 below
+forecast S3 +30m temp=5.0 in
+error: need at least two readings
+error: no such shipment S9
+error: minutes out of range

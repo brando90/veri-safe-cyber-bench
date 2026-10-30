@@ -1,0 +1,10 @@
+now 2026-03-10T12:00:00Z
+log 2026-03-09T10:00:00Z a u level=debug
+log 2026-03-09T10:00:01Z a u level=ERROR
+log 2026-03-09T10:00:02Z a u
+log 2026-03-09T10:00:03Z a u level=fatal
+log 2026-03-09T10:00:04Z a u level=warn
+log 2026-03-09T10:00:05Z a u level=error
+log 2026-03-09T10:00:06Z a u level=info
+log 2026-03-09T10:00:07Z a u level=audit
+report

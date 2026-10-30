@@ -1,0 +1,19 @@
+# stock, two customers, orders and shipments
+customer add c-acme delta tier=gold name="Acme Works"
+customer add c-bolt arden
+receive alder paper-a4 400
+receive alder hammer-1 60
+receive harbor paper-a4 200
+receive dune milk-1l 120
+stock alder
+order add c-acme paper-a4:50 hammer-1:6
+order show ORD-0001
+order add c-bolt paper-a4:30
+order add c-bolt milk-1l:24 ref=m-1
+order list
+tick 1
+ship ORD-0001
+ship ORD-0002 at=9
+ship ORD-0003
+order list state=shipped
+customer show c-acme

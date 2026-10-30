@@ -1,0 +1,37 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+exposure S1 10.2 degmin worst_hour=0 (4 readings)
+histogram S1 step=1.0 buckets=5
+  [0.0,1.0) 1
+  [1.0,2.0) 1
+  [5.0,6.0) 3
+  [9.0,10.0) 3
+  [10.0,11.0) 1
+histogram S1 step=2.5 buckets=4
+  [0.0,2.5) 2
+  [5.0,7.5) 3
+  [7.5,10.0) 3
+  [10.0,12.5) 1
+error: step out of range
+ok ship S2
+exposure S2 11.2 degmin worst_hour=0 (3 readings)
+histogram S2 step=1.0 buckets=5
+  [-32.0,-31.0) 1
+  [-30.0,-29.0) 1
+  [-20.0,-19.0) 2
+  [-10.0,-9.0) 1
+  [-1.0,0.0) 1
+histogram S2 step=0.3 buckets=5
+  [-31.2,-30.9) 1
+  [-30.0,-29.7) 1
+  [-20.1,-19.8) 2
+  [-9.9,-9.6) 1
+  [-0.3,0.0) 1
+ok ship S3
+exposure S3 0.0 degmin
+histogram S3 step=1.0 buckets=0

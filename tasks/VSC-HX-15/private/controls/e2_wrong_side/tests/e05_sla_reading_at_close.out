@@ -1,0 +1,24 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok arrive S1 stop 1 AMS
+ok arrive S1 stop 2 LHR
+ok arrive S1 stop 3 JFK
+sla S1 50.0% 2/4
+report S1 "Close box"
+  stop 1 AMS arrived 100
+  stop 2 LHR arrived 250
+  stop 3 JFK arrived 500
+  readings 4
+  excursions 1 longest 200s
+  alerts 0
+  handoffs 0
+  late stops 0
+  sla 50.0%
+fleet planned=0 moving=0 delivered=1 avg_sla=50.0%
+board
+  S1       Close box        delivered   50.0%   4

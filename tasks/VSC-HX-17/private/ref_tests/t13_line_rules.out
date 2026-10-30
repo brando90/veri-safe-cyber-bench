@@ -1,0 +1,34 @@
+customer c-n1 added region=arden tier=basic
+received lot L0001 harbor bolt-m6 units 3000 expiry -
+error: unknown sku 'tools-x'
+received lot L0002 harbor hammer-1 units 504 expiry -
+received lot L0003 harbor paper-a4 units 700 expiry -
+received lot L0004 harbor cable-usb units 2000 expiry -
+received lot L0005 harbor tumbler-6 units 408 expiry -
+error: fasteners is sold in whole packs of 100, got 50
+order ORD-0001 customer c-n1 goods 45.00 status open
+  bolt-m6 qty=300 allocated=300 backorder=0
+order ORD-0002 customer c-n1 goods 750.00 status partial
+  bolt-m6 qty=5000 allocated=2700 backorder=2300
+error: line limit for fasteners is 5000, got 5100
+order ORD-0003 customer c-n1 goods 17400.00 status partial
+  hammer-1 qty=1200 allocated=504 backorder=696
+order ORD-0004 customer c-n1 goods 3720.00 status open
+  paper-a4 qty=600 allocated=600 backorder=0
+error: line limit for paper is 600, got 601
+order ORD-0005 customer c-n1 goods 5800.00 status open
+  cable-usb qty=2000 allocated=2000 backorder=0
+error: line limit for cables is 2000, got 2001
+order ORD-0006 customer c-n1 goods 1170.00 status open
+  tumbler-6 qty=300 allocated=300 backorder=0
+error: line limit for glassware is 300, got 301
+error: invalid order line 'bolt-m6:0'
+error: invalid order line 'bolt-m6'
+error: usage: order add CUSTOMER SKU:QTY... [ref=TEXT]
+ORD-0001 c-n1 day 0 45.00 open
+ORD-0002 c-n1 day 0 750.00 partial
+ORD-0003 c-n1 day 0 17400.00 partial
+ORD-0004 c-n1 day 0 3720.00 open
+ORD-0005 c-n1 day 0 5800.00 open
+ORD-0006 c-n1 day 0 1170.00 open
+6 orders

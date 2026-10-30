@@ -1,0 +1,51 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+window S1 n=7
+  10.5 4.0 hum=40
+  11 4.5
+  12 5.0 hum=44
+  12.001 5.5
+  20 6.0
+  3600 7.5
+  90061.25 3.0
+window S1 n=6
+  11 4.5
+  12 5.0 hum=44
+  12.001 5.5
+  20 6.0
+  3600 7.5
+  90061.25 3.0
+window S1 n=3
+  10.5 4.0 hum=40
+  11 4.5
+  12 5.0 hum=44
+window S1 n=2
+  11 4.5
+  12 5.0 hum=44
+window S1 n=1
+  10.5 4.0 hum=40
+window S1 n=2
+  12 5.0 hum=44
+  12.001 5.5
+window S1 n=0
+error: empty range
+error: bad time x
+timeline S1 n=7
+  d1 00:00:10.500 4.0 hum=40
+  d1 00:00:11 4.5
+  d1 00:00:12 5.0 hum=44
+  d1 00:00:12.001 5.5
+  d1 00:00:20 6.0
+  d1 01:00:00 7.5
+  d2 01:01:01.250 3.0
+timeline S1 n=2
+  d1 01:00:00 7.5
+  d2 01:01:01.250 3.0
+describe S1 n=5 min=4.5 p50=5.5 p90=7.5 max=7.5 mean=5.7
+describe S1 empty
+describe S1 n=7 min=3.0 p50=5.0 p90=7.5 max=7.5 mean=5.1

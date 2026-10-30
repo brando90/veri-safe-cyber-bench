@@ -1,0 +1,31 @@
+customer add c-arden arden tier=basic
+receive harbor hammer-1 100
+receive harbor tumbler-6 100
+receive harbor plank-2m 100
+receive dune apple-1k 100
+receive harbor charger-20 40
+order add c-arden hammer-1:20 tumbler-6:24 plank-2m:10 charger-20:8
+ship ORD-0001
+tick 7
+return ORD-0001 tumbler-6 1
+tick 1
+return ORD-0001 tumbler-6 1
+return ORD-0001 charger-20 1
+tick 6
+return ORD-0001 charger-20 1
+tick 1
+return ORD-0001 charger-20 1
+return ORD-0001 plank-2m 2
+return ORD-0001 hammer-1 21
+return ORD-0001 hammer-1 19
+tick 15
+return ORD-0001 hammer-1 1
+return ORD-0001 plank-2m 1
+tick 1
+return ORD-0001 plank-2m 1
+return ORD-0001 plank-2m 1 cond=bad
+return ORD-0009 plank-2m 1
+return ORD-0001 teleporter 1
+return ORD-0001 paper-a4 1
+ledger harbor kind=return
+stock harbor

@@ -1,0 +1,35 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Mixed box" route=R3 min=2.0 max=8.0
+read S1 t=0 temp=5.0
+read S1 t=60 temp=9.0
+read S1 t=120 temp=9.5
+read S1 t=180 temp=1.0
+read S1 t=240 temp=5.0
+read S1 t=300 temp=1.5
+read S1 t=360 temp=5.0
+read S1 t=420 temp=8.1
+read S1 t=480 temp=8.1
+read S1 t=540 temp=5.0
+read S1 t=600 temp=7.0
+read S1 t=660 temp=-3.0
+read S1 t=720 temp=-3.0
+excursions S1
+ship add S2 "Steady" route=R3
+read S2 t=0 temp=5.0
+read S2 t=60 temp=5.5
+excursions S2
+ship add S3 "Single" route=R3
+read S3 t=5 temp=30.0
+excursions S3
+ship add S4 "Frozen" route=R3 class=frozen
+read S4 t=0 temp=-20.0
+read S4 t=100 temp=-10.0
+read S4 t=200 temp=-12.0
+read S4 t=300 temp=-30.0
+read S4 t=400 temp=-20.0
+excursions S4

@@ -1,0 +1,21 @@
+customer c-arden added region=arden tier=basic
+received lot L0001 alder paper-a4 units 300 expiry -
+customer c-s1 added region=arden tier=silver
+order ORD-0001 customer c-arden goods 124.00 status open
+  paper-a4 qty=20 allocated=20 backorder=0
+order ORD-0002 customer c-s1 goods 186.00 status open
+  paper-a4 qty=30 allocated=30 backorder=0
+order ORD-0003 customer c-s1 goods 248.00 status open
+  paper-a4 qty=40 allocated=40 backorder=0
+shipment SHP-0001 order ORD-0003 from alder carrier swift weight 18000g goods 248.00 freight 0.00 handling 1.60 duty 12.40 dispatch day 0 eta day 2
+order ORD-0001 cancelled 20 units, status cancelled
+order ORD-0002 cancelled 30 units, status cancelled
+report goods_tier
+  silver 248.00
+  total 248.00
+end
+report status
+  shipped 1
+  cancelled 2
+  total 3
+end

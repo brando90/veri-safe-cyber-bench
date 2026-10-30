@@ -1,0 +1,22 @@
+customer c-b1 added region=brook tier=basic
+customer c-b2 added region=ember tier=basic
+customer c-b3 added region=crest tier=basic
+received lot L0001 grove cleaner-5l units 60 expiry -
+received lot L0002 birch thinner-1l units 60 expiry -
+error: region brook does not accept hazard class 3 (cleaner-5l)
+error: region ember does not accept hazard class 3 (cleaner-5l)
+error: region crest does not accept hazard class 3 (cleaner-5l)
+error: region brook does not accept hazard class 3 (thinner-1l)
+error: region ember does not accept hazard class 3 (thinner-1l)
+region ember Ember Plains
+  zone 5
+  no delivery on Sat,Sun
+  refuses hazard class 3 and above
+  duty 1200 bp on goods above 80.00, 2 extra days
+  remote fee 3.00 per shipment
+region brook Brook Valley
+  zone 2
+  no delivery on Sat,Sun
+  refuses hazard class 3 and above
+  duty 700 bp on goods above 120.00, 1 extra days
+  remote fee 1.50 per shipment

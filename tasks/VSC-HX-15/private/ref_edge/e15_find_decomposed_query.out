@@ -1,0 +1,14 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok ship S2
+ok ship S3
+find S1 "Épées de Paris"
+find S1 "Épées de Paris"
+find S2 "Crème brûlée"
+find S2 "Crème brûlée"
+find S3 "Plain"

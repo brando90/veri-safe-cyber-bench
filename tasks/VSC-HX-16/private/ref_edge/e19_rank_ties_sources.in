@@ -1,0 +1,10 @@
+now 2026-03-10T12:00:00Z
+log 2026-03-09T10:00:00Z web u1
+log 2026-03-09T10:00:01Z db u1
+log 2026-03-09T10:00:02Z auth u1
+log 2026-03-09T10:00:03Z mail u1
+log 2026-03-09T10:00:04Z batch u1
+log 2026-03-09T10:00:05Z web u1
+log 2026-03-09T10:00:06Z db u1
+log 2026-03-09T10:00:07Z auth u1
+report

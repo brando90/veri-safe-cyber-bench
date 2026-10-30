@@ -1,0 +1,20 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S2
+ok ship S10
+ok ship S3
+ok ship S4
+rank 1 S2 2.9%
+rank 2 S10 2.9%
+rank 3 S3 97.1%
+rank 4 S4 97.1%
+board
+  S2       TS2              planned      2.9%  34
+  S3       TS3              planned     97.1%  35
+  S4       TS4              planned     97.1%  34
+  S10      TS10             planned      2.9%  35
+fleet planned=4 moving=0 delivered=0 avg_sla=50.0%

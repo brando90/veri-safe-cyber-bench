@@ -1,0 +1,283 @@
+clock set to 2026-03-10T12:00:00Z
+retention set to 14 days
+window set to 30 seconds
+default limit set to 5
+salt set
+rule added: mask api-key
+rule added: pseudo bytes
+rule added: mask note
+logged #1
+2026-03-09    1 records, bytes 0
+error: no record #23
+2026-03-09    1 records, bytes 0
+logged #2
+logged #3
+error: no record #25
+logged #4
+logged #5
+logged #6
+logged #7
+logged #8
+logged #9
+#4 2026-03-05T08:07:47Z auth alice@example.com note=****a path=t24hepb8m417 -- ug58es 7e1t5
+    changed: note
+exported 1 records, 1 fields changed
+logged #10
+logged #11
+logged #12
+logged #13
+logged #14
+logged #15
+logged #16
+logged #17
+logged #18
+pseudo: bytes
+mask: api-key note
+strict: off
+logged #19
+#1 2026-03-09T17:29:54Z batch bob
+#2 2026-03-05T15:20:24Z api bob level=notice ua=3cdsgtahcgh x-trace=8abhjitp
+#3 2026-03-04T15:28:08Z mail bob level=error region=380zjmcoa x-trace=wm14jrjbnu -- password=*****0 n09 ***********hmj
+#4 2026-03-05T08:07:47Z auth alice@example.com note=****a path=t24hepb8m417 -- ug58es 7e1t5
+    changed: note
+#5 2026-03-08T02:21:12Z api carol@corp.test -- token=*******ls token=******1 **********o42
+#6 2026-03-06T08:21:59Z web carol@corp.test level=info -- secret=********xu q61a6 jjml
+#7 2026-03-10T06:05:33Z api carol@corp.test level=info password=j7wbhg25l ua=cqdbwi x-trace=m358u9 -- j1h u705jtz zc0jp7x o2ks2a 690l6y
+#8 2026-03-08T14:30:01Z mail bob bytes=p-45d7832f path=3d0s05 ua=6szzc50l -- g3n9l8 j0xgwd 04i0 7qrs nmdy3p token=*****m *********mfa
+    changed: bytes
+#9 2026-03-10T08:56:02Z web erin -- apcdfigl apikey=*******a5 48ns9 80j2bzh2
+#10 2026-03-08T01:56:18Z api erin ua=c0emz3v13 -- zedhxt xgrgz0x 8qeo token=******ve 3iod **********xyr
+#11 2026-03-06T03:53:07Z mail dave@example.com -- qbfkdq 3mee 0q6jn secret=******w passwd=******a s8gwrrny
+#12 2026-03-07T09:41:52Z db bob ip=gvac10a x-forwarded=5zbj74ba8 -- sx9l 9otb 2ni passwd=******u3 token=********kr ie3m 2gp9xedt ************hyt
+#13 2026-03-08T08:29:48Z batch frank@corp.test level=info region=qzdbs87
+#14 2026-03-07T11:18:07Z api carol@corp.test api-key=********nf ip=2xl875 note=*******10 x-forwarded=go0e6zhmhsn x-trace=b9aeyh4584 -- egu hste
+    changed: api-key, note
+#15 2026-03-07T02:12:36Z batch dave@example.com bytes=p-2374270c region=iqbtjqi690yd session=3x7n3vndra -- 81li i31opof e3v590 **********oc2
+    changed: bytes
+#16 2026-03-07T21:23:16Z web carol@corp.test ip=cq85fc password=bve112wqgn94m99 -- 7z1ona rda9lmtu qgnmy apikey=********7o password=*******k1 ************ts5
+#17 2026-03-07T06:20:42Z auth alice@example.com ip=vn6esr436 note=******i x-forwarded=mwjf0 -- 2ji0f zhywu7 sbw21dbr 68sumlmh apikey=********kc
+    changed: note
+#18 2026-03-09T00:01:41Z mail carol@corp.test
+#19 2026-03-09T19:16:11Z api bob bytes=p-2374270c path=dtk38b4p8p region=rrl896 x-trace=6tmy99 -- 22my passwd=******tz utlz55 b2vv
+    changed: bytes
+exported 19 records, 7 fields changed
+logged #20
+logged #21
+logged #22
+logged #23
+logged #24
+logged #25
+purged 1 records (ids 25), 24 kept
+logged #26
+logged #27
+logged #28
+logged #29
+logged #30
+logged #31
+logged #32
+logged #33
+logged #34
+2026-02-11    2 records, bytes 0
+2026-02-20    1 records, bytes 0
+2026-03-04    2 records, bytes 0
+2026-03-05    4 records, bytes 0
+2026-03-06    3 records, bytes 0
+2026-03-07    7 records, bytes 16351
+2026-03-08    6 records, bytes 98385
+2026-03-09    4 records, bytes 10237
+2026-03-10    2 records, bytes 0
+2026-03-12    2 records, bytes 95485
+clock set to 2026-03-13T16:00:00Z
+#1 2026-03-09T17:29:54Z batch bob
+#2 2026-03-05T15:20:24Z api bob level=notice ua=3cdsgtahcgh x-trace=8abhjitp
+#3 2026-03-04T15:28:08Z mail bob level=error region=380zjmcoa x-trace=wm14jrjbnu -- password=*****0 n09 ***********hmj
+#4 2026-03-05T08:07:47Z auth alice@example.com note=****a path=t24hepb8m417 -- ug58es 7e1t5
+    changed: note
+#5 2026-03-08T02:21:12Z api carol@corp.test -- token=*******ls token=******1 **********o42
+#6 2026-03-06T08:21:59Z web carol@corp.test level=info -- secret=********xu q61a6 jjml
+#7 2026-03-10T06:05:33Z api carol@corp.test level=info password=j7wbhg25l ua=cqdbwi x-trace=m358u9 -- j1h u705jtz zc0jp7x o2ks2a 690l6y
+#8 2026-03-08T14:30:01Z mail bob bytes=p-45d7832f path=3d0s05 ua=6szzc50l -- g3n9l8 j0xgwd 04i0 7qrs nmdy3p token=*****m *********mfa
+    changed: bytes
+#9 2026-03-10T08:56:02Z web erin -- apcdfigl apikey=*******a5 48ns9 80j2bzh2
+#10 2026-03-08T01:56:18Z api erin ua=c0emz3v13 -- zedhxt xgrgz0x 8qeo token=******ve 3iod **********xyr
+#11 2026-03-06T03:53:07Z mail dave@example.com -- qbfkdq 3mee 0q6jn secret=******w passwd=******a s8gwrrny
+#12 2026-03-07T09:41:52Z db bob ip=gvac10a x-forwarded=5zbj74ba8 -- sx9l 9otb 2ni passwd=******u3 token=********kr ie3m 2gp9xedt ************hyt
+#13 2026-03-08T08:29:48Z batch frank@corp.test level=info region=qzdbs87
+#14 2026-03-07T11:18:07Z api carol@corp.test api-key=********nf ip=2xl875 note=*******10 x-forwarded=go0e6zhmhsn x-trace=b9aeyh4584 -- egu hste
+    changed: api-key, note
+#15 2026-03-07T02:12:36Z batch dave@example.com bytes=p-2374270c region=iqbtjqi690yd session=3x7n3vndra -- 81li i31opof e3v590 **********oc2
+    changed: bytes
+#16 2026-03-07T21:23:16Z web carol@corp.test ip=cq85fc password=bve112wqgn94m99 -- 7z1ona rda9lmtu qgnmy apikey=********7o password=*******k1 ************ts5
+#17 2026-03-07T06:20:42Z auth alice@example.com ip=vn6esr436 note=******i x-forwarded=mwjf0 -- 2ji0f zhywu7 sbw21dbr 68sumlmh apikey=********kc
+    changed: note
+#18 2026-03-09T00:01:41Z mail carol@corp.test
+#19 2026-03-09T19:16:11Z api bob bytes=p-2374270c path=dtk38b4p8p region=rrl896 x-trace=6tmy99 -- 22my passwd=******tz utlz55 b2vv
+    changed: bytes
+#20 2026-03-09T21:39:33Z mail alice@example.com bytes=p-b9743c7c level=debug ua=9ao55 x-trace=5nl2fs66y2d
+    changed: bytes
+#21 2026-03-05T16:25:10Z api dave@example.com api-key=********4v password=rd0iwlwy3ovqi74y path=lkfbtxuu2mu region=symgdgpzyjsb ua=5b4j267qjhfp
+    changed: api-key
+#22 2026-03-12T13:23:24Z web frank@corp.test api-key=*******dg bytes=p-78d6e1eb ip=mc6zafxvk session=12hma7s65oa x-forwarded=o7f8469x3 -- los9qo5k i8idho d5k7bj3v 5jrpa xh37qhpx
+    changed: api-key, bytes
+#23 2026-03-07T02:11:14Z batch alice@example.com level=error note=*****g -- 9kh4 hgeh1 elmlyh6 en66kyf7 qg6
+    changed: note
+#24 2026-03-05T22:04:17Z db carol@corp.test -- l4go9
+#26 2026-03-04T20:58:33Z mail dave@example.com -- passwd=*******iq 8bov wtrvz09h iu8j apikey=*******i5 i1x5kfr **********qyy
+#27 2026-03-12T07:51:19Z web bob level=notice session=11d8xklv ua=tyc9oatl4aq8 x-trace=g67li6ioii7 -- fez5e token=******s ************qeyp
+#28 2026-02-20T11:09:11Z mail dave@example.com x-forwarded=g369i
+#29 2026-03-08T00:01:52Z db carol@corp.test note=******c1 password=97rakpup2doz5ww session=vcf9f1sv14uo -- token=********90 tr7ri vii huc ghuqb7 2z8wze
+    changed: note
+#30 2026-03-06T19:01:04Z db dave@example.com api-key=**********wmt note=*******hp path=pl5wpckws session=wc2xn5v x-trace=qm0qxhkz4tk -- mlz vsu2x password=*******t5 hadd8e lje
+    changed: api-key, note
+#31 2026-02-11T04:28:39Z auth frank@corp.test api-key=***********la7 level=warn note=*********3k x-forwarded=v6f719kyff77 -- apikey=*******2o secret=*******k5
+    changed: api-key, note
+#32 2026-03-08T04:21:47Z auth alice@example.com ip=f0oir9t8mp ua=tl28hwv6974 -- kl9yybh agzwif passwd=*****u *************p6rz
+#33 2026-02-11T03:39:37Z db frank@corp.test -- mqzc 6crv 9jk3
+#34 2026-03-07T10:43:34Z db alice@example.com bytes=p-0b30c5d7 level=info -- aotfn lnfey3 yccii xygv7
+    changed: bytes
+exported 33 records, 18 fields changed
+2026-02-11    2 records, bytes 0
+2026-02-20    1 records, bytes 0
+2026-03-04    2 records, bytes 0
+2026-03-05    4 records, bytes 0
+2026-03-06    3 records, bytes 0
+2026-03-07    7 records, bytes 16351
+2026-03-08    6 records, bytes 98385
+2026-03-09    4 records, bytes 10237
+2026-03-10    2 records, bytes 0
+2026-03-12    2 records, bytes 95485
+logged #35
+#12 2026-03-07T09:41:52Z db bob ip=gvac10a x-forwarded=5zbj74ba8 -- sx9l 9otb 2ni passwd=******u3 token=********kr ie3m 2gp9xedt ************hyt
+logged #36
+2026-02-11    2 records, bytes 0
+2026-02-20    1 records, bytes 0
+2026-02-23    1 records, bytes 0
+2026-03-04    2 records, bytes 0
+2026-03-05    4 records, bytes 0
+2026-03-06    3 records, bytes 0
+2026-03-07    8 records, bytes 16351
+2026-03-08    6 records, bytes 98385
+2026-03-09    4 records, bytes 10237
+2026-03-10    2 records, bytes 0
+2026-03-12    2 records, bytes 95485
+logged #37
+logged #38
+logged #39
+logged #40
+logged #41
+2026-02-11    2 records, bytes 0
+2026-02-20    1 records, bytes 0
+2026-02-23    1 records, bytes 0
+2026-03-04    3 records, bytes 0
+2026-03-05    5 records, bytes 0
+2026-03-06    5 records, bytes 5379
+2026-03-07    8 records, bytes 16351
+2026-03-08    6 records, bytes 98385
+2026-03-09    5 records, bytes 59502
+2026-03-10    2 records, bytes 0
+2026-03-12    2 records, bytes 95485
+logged #42
+#4 2026-03-05T08:07:47Z auth alice@example.com note=****a path=t24hepb8m417 -- ug58es 7e1t5
+    changed: note
+logged #43
+logged #44
+logged #45
+#9 2026-03-10T08:56:02Z web erin -- apcdfigl apikey=*******a5 48ns9 80j2bzh2
+logged #46
+#1 2026-03-09T17:29:54Z batch bob
+#2 2026-03-05T15:20:24Z api bob level=notice ua=3cdsgtahcgh x-trace=8abhjitp
+#3 2026-03-04T15:28:08Z mail bob level=error region=380zjmcoa x-trace=wm14jrjbnu -- password=*****0 n09 ***********hmj
+#4 2026-03-05T08:07:47Z auth alice@example.com note=****a path=t24hepb8m417 -- ug58es 7e1t5
+    changed: note
+#5 2026-03-08T02:21:12Z api carol@corp.test -- token=*******ls token=******1 **********o42
+#6 2026-03-06T08:21:59Z web carol@corp.test level=info -- secret=********xu q61a6 jjml
+#7 2026-03-10T06:05:33Z api carol@corp.test level=info password=j7wbhg25l ua=cqdbwi x-trace=m358u9 -- j1h u705jtz zc0jp7x o2ks2a 690l6y
+#8 2026-03-08T14:30:01Z mail bob bytes=p-45d7832f path=3d0s05 ua=6szzc50l -- g3n9l8 j0xgwd 04i0 7qrs nmdy3p token=*****m *********mfa
+    changed: bytes
+#9 2026-03-10T08:56:02Z web erin -- apcdfigl apikey=*******a5 48ns9 80j2bzh2
+#10 2026-03-08T01:56:18Z api erin ua=c0emz3v13 -- zedhxt xgrgz0x 8qeo token=******ve 3iod **********xyr
+#11 2026-03-06T03:53:07Z mail dave@example.com -- qbfkdq 3mee 0q6jn secret=******w passwd=******a s8gwrrny
+#12 2026-03-07T09:41:52Z db bob ip=gvac10a x-forwarded=5zbj74ba8 -- sx9l 9otb 2ni passwd=******u3 token=********kr ie3m 2gp9xedt ************hyt
+#13 2026-03-08T08:29:48Z batch frank@corp.test level=info region=qzdbs87
+#14 2026-03-07T11:18:07Z api carol@corp.test api-key=********nf ip=2xl875 note=*******10 x-forwarded=go0e6zhmhsn x-trace=b9aeyh4584 -- egu hste
+    changed: api-key, note
+#15 2026-03-07T02:12:36Z batch dave@example.com bytes=p-2374270c region=iqbtjqi690yd session=3x7n3vndra -- 81li i31opof e3v590 **********oc2
+    changed: bytes
+#16 2026-03-07T21:23:16Z web carol@corp.test ip=cq85fc password=bve112wqgn94m99 -- 7z1ona rda9lmtu qgnmy apikey=********7o password=*******k1 ************ts5
+#17 2026-03-07T06:20:42Z auth alice@example.com ip=vn6esr436 note=******i x-forwarded=mwjf0 -- 2ji0f zhywu7 sbw21dbr 68sumlmh apikey=********kc
+    changed: note
+#18 2026-03-09T00:01:41Z mail carol@corp.test
+#19 2026-03-09T19:16:11Z api bob bytes=p-2374270c path=dtk38b4p8p region=rrl896 x-trace=6tmy99 -- 22my passwd=******tz utlz55 b2vv
+    changed: bytes
+#20 2026-03-09T21:39:33Z mail alice@example.com bytes=p-b9743c7c level=debug ua=9ao55 x-trace=5nl2fs66y2d
+    changed: bytes
+#21 2026-03-05T16:25:10Z api dave@example.com api-key=********4v password=rd0iwlwy3ovqi74y path=lkfbtxuu2mu region=symgdgpzyjsb ua=5b4j267qjhfp
+    changed: api-key
+#22 2026-03-12T13:23:24Z web frank@corp.test api-key=*******dg bytes=p-78d6e1eb ip=mc6zafxvk session=12hma7s65oa x-forwarded=o7f8469x3 -- los9qo5k i8idho d5k7bj3v 5jrpa xh37qhpx
+    changed: api-key, bytes
+#23 2026-03-07T02:11:14Z batch alice@example.com level=error note=*****g -- 9kh4 hgeh1 elmlyh6 en66kyf7 qg6
+    changed: note
+#24 2026-03-05T22:04:17Z db carol@corp.test -- l4go9
+#26 2026-03-04T20:58:33Z mail dave@example.com -- passwd=*******iq 8bov wtrvz09h iu8j apikey=*******i5 i1x5kfr **********qyy
+#27 2026-03-12T07:51:19Z web bob level=notice session=11d8xklv ua=tyc9oatl4aq8 x-trace=g67li6ioii7 -- fez5e token=******s ************qeyp
+#28 2026-02-20T11:09:11Z mail dave@example.com x-forwarded=g369i
+#29 2026-03-08T00:01:52Z db carol@corp.test note=******c1 password=97rakpup2doz5ww session=vcf9f1sv14uo -- token=********90 tr7ri vii huc ghuqb7 2z8wze
+    changed: note
+#30 2026-03-06T19:01:04Z db dave@example.com api-key=**********wmt note=*******hp path=pl5wpckws session=wc2xn5v x-trace=qm0qxhkz4tk -- mlz vsu2x password=*******t5 hadd8e lje
+    changed: api-key, note
+#31 2026-02-11T04:28:39Z auth frank@corp.test api-key=***********la7 level=warn note=*********3k x-forwarded=v6f719kyff77 -- apikey=*******2o secret=*******k5
+    changed: api-key, note
+#32 2026-03-08T04:21:47Z auth alice@example.com ip=f0oir9t8mp ua=tl28hwv6974 -- kl9yybh agzwif passwd=*****u *************p6rz
+#33 2026-02-11T03:39:37Z db frank@corp.test -- mqzc 6crv 9jk3
+#34 2026-03-07T10:43:34Z db alice@example.com bytes=p-0b30c5d7 level=info -- aotfn lnfey3 yccii xygv7
+    changed: bytes
+#35 2026-03-07T21:45:13Z api bob level=warn
+#36 2026-02-23T02:31:08Z db alice@example.com api-key=********a2 level=error session=pmjgb ua=3r528d9yazx x-forwarded=f0l2fae
+    changed: api-key
+#37 2026-03-09T05:04:24Z db carol@corp.test api-key=*********9f5 bytes=p-7929ccc3 level=error path=pyefxkyl session=besvpa -- tb50 token=********m4
+    changed: api-key, bytes
+#38 2026-03-06T06:58:51Z auth alice@example.com bytes=p-07cb41f7 path=c11xfin8og -- if0u9jah 99kbeh rdn gqho4j2 7j37z
+    changed: bytes
+#39 2026-03-05T20:14:15Z auth carol@corp.test api-key=**********sgg ip=fysps ua=0kgf93uf x-forwarded=7jwwhj0cb -- passwd=******2 2q3 rh9fdn
+    changed: api-key
+#40 2026-03-06T21:07:46Z db frank@corp.test session=62bilgz -- 0qvs9cf 8kx4q zkx secret=******1
+#41 2026-03-04T21:45:26Z web bob level=warn -- vhr4ji0 r6pmrsn 69n4w3 zclz ***********tjg
+#42 2026-03-06T14:40:16Z batch erin ip=mtbyosduobyv level=info path=1qgod region=7yqwco x-forwarded=ub4a0ykbiabo -- aldm3 ftwsnil
+#43 2026-03-10T04:55:41Z web carol@corp.test note=*****2 ua=ea73r5civxb x-forwarded=cj1mnuu9
+    changed: note
+#44 2026-03-05T02:18:00Z web bob api-key=*********ba x-forwarded=q8w9t x-trace=5k7pm408hq2o
+    changed: api-key
+#45 2026-03-07T17:40:02Z batch carol@corp.test -- token=*******3v
+#46 2026-01-24T17:11:41Z web alice@example.com ip=gibguam95 level=error session=ax60is8s7 x-trace=6xn4mwb7bsa
+exported 45 records, 25 fields changed
+clock set to 2026-03-17T16:00:00Z
+logged #47
+logged #48
+#4 2026-03-05T08:07:47Z auth alice@example.com note=****a path=t24hepb8m417 -- ug58es 7e1t5
+    changed: note
+#17 2026-03-07T06:20:42Z auth alice@example.com ip=vn6esr436 note=******i x-forwarded=mwjf0 -- 2ji0f zhywu7 sbw21dbr 68sumlmh apikey=********kc
+    changed: note
+#31 2026-02-11T04:28:39Z auth frank@corp.test api-key=***********la7 level=warn note=*********3k x-forwarded=v6f719kyff77 -- apikey=*******2o secret=*******k5
+    changed: api-key, note
+#32 2026-03-08T04:21:47Z auth alice@example.com ip=f0oir9t8mp ua=tl28hwv6974 -- kl9yybh agzwif passwd=*****u *************p6rz
+#38 2026-03-06T06:58:51Z auth alice@example.com bytes=p-07cb41f7 path=c11xfin8og -- if0u9jah 99kbeh rdn gqho4j2 7j37z
+    changed: bytes
+#39 2026-03-05T20:14:15Z auth carol@corp.test api-key=**********sgg ip=fysps ua=0kgf93uf x-forwarded=7jwwhj0cb -- passwd=******2 2q3 rh9fdn
+    changed: api-key
+exported 6 records, 6 fields changed
+logged #49
+2026-01-24    1 records, bytes 0
+2026-02-11    2 records, bytes 0
+2026-02-16    1 records, bytes 0
+2026-02-20    1 records, bytes 0
+2026-02-23    1 records, bytes 0
+2026-03-04    4 records, bytes 0
+2026-03-05    6 records, bytes 0
+2026-03-06    6 records, bytes 5379
+2026-03-07    9 records, bytes 16351
+2026-03-08    6 records, bytes 98385
+2026-03-09    5 records, bytes 59502
+2026-03-10    3 records, bytes 0
+2026-03-11    1 records, bytes 31624
+2026-03-12    2 records, bytes 95485
+check ok

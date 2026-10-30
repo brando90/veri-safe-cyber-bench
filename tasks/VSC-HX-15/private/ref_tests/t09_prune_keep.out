@@ -1,0 +1,37 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok ship S2
+ok prune removed=0
+ok set keep=60
+ok prune removed=0
+dry prune would_remove=4
+error: dry must be yes or no
+window S1 n=6
+  0 5.0
+  1000 5.0
+  3599.999 5.0
+  3600 5.0
+  3600.001 5.0
+  7000 5.0
+ok prune removed=4
+window S1 n=3
+  3600 5.0
+  3600.001 5.0
+  7000 5.0
+window S2 n=2
+  3600 6.0
+  9000 7.0
+ok prune removed=0
+ok set keep=0
+ok prune removed=0
+stats ships=2 readings=5 refused=0 sites=4 routes=2
+ok set keep=1
+ok prune removed=0
+ok prune removed=4
+window S2 n=1
+  9000 7.0

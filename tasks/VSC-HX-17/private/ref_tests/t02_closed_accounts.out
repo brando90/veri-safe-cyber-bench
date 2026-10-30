@@ -1,0 +1,30 @@
+customer c-cl1 added region=arden tier=basic
+received lot L0001 harbor paper-a4 units 200 expiry -
+order ORD-0001 customer c-cl1 goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+customer c-cl1 closed
+error: customer c-cl1 is closed
+error: customer c-cl1 is closed
+error: customer c-cl1 is closed
+error: customer c-cl1 is closed
+error: customer c-cl1 is closed
+error: customer c-cl1 is closed
+error: customer c-cl1 is closed
+customer c-cl1 note late note
+customer c-cl1 note later note
+  #1 day 0 customer add c-cl1 arden basic
+  #2 day 0 receive harbor paper-a4 200
+  #3 day 0 order add c-cl1 ORD-0001 6200
+  #4 day 0 customer close c-cl1 
+4 entries
+error: customer c-cl1 is closed
+error: customer c-cl1 is already closed
+customer c-cl1
+  name=c-cl1 region=arden tier=basic carrier=auto split=yes hold=no
+  po=- email=- note=later note
+  status=closed since day 0
+  #1 day 0 customer add arden basic
+  #3 day 0 order add ORD-0001 6200
+  #4 day 0 customer close 
+c-cl1 arden basic closed
+1 customers

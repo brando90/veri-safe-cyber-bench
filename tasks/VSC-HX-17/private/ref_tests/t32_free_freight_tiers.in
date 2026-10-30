@@ -1,0 +1,23 @@
+customer add c-arden arden tier=basic
+receive harbor paper-a3 300
+receive harbor paper-a4 300
+receive harbor hammer-1 200
+receive harbor plier-9 100
+receive harbor wrench-set 100
+receive harbor cable-usb 200
+receive harbor plank-2m 100
+customer add c-gld arden tier=gold
+customer add c-slv arden tier=silver
+order add c-gld plier-9:1 cable-usb:6 plank-2m:2
+ship ORD-0001 carrier=swift
+order add c-gld paper-a4:1 cable-usb:7 plank-2m:3
+ship ORD-0002 carrier=swift
+order add c-slv paper-a4:3 hammer-1:4 plank-2m:3
+ship ORD-0003 carrier=swift
+order add c-slv paper-a3:1 plier-9:3 wrench-set:1
+ship ORD-0004 carrier=swift
+order add c-arden paper-a4:3 plier-9:7 plank-2m:8
+ship ORD-0005 carrier=swift
+order add c-arden paper-a3:1 plier-9:2 wrench-set:4
+ship ORD-0006 carrier=swift
+tier list

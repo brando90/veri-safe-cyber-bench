@@ -1,0 +1,13 @@
+clock set to 2026-03-10T12:00:00Z
+retention set to 10 days
+logged #1
+logged #2
+logged #3
+logged #4
+purged 1 records (ids 2), 3 kept
+purged 0 records, 3 kept
+retention set to 0 days
+clock set to 2026-03-10T12:00:01Z
+purged 2 records (ids 1, 4), 1 kept
+#3 2026-03-10T12:00:01Z web bob -- one second ahead
+exported 1 records, 0 fields changed

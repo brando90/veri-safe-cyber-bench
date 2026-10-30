@@ -1,0 +1,10 @@
+customer add c-arden arden tier=basic
+receive harbor paper-a4 50
+receive harbor paper-a4 50
+receive harbor paper-a4 50
+order add c-arden paper-a4:40
+adjust harbor paper-a4 -30
+stock harbor
+adjust harbor paper-a4 -60
+stock harbor
+ledger harbor kind=adjust

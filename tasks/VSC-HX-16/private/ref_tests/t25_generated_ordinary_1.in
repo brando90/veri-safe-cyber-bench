@@ -1,0 +1,82 @@
+now 2026-03-10T12:00:00Z
+retain 14
+window 600
+limit * 2
+salt pepper
+rule drop ip
+rule prefix api mask
+rule pseudo bytes
+rule drop bytes
+strict on
+rule keep level
+export
+log 2026-03-10T10:00:36-0330 api alice@example.com bytes= level=warn note=qksfau region=s79hmsyuo x-forwarded=sy3x5r -- token=vwvs4mzeop
+days
+log 2026-03-06T05:58:17+0530 mail dave@example.com -- tdc mgvm gei9 n9vgn tok_xkf5ronrbbpj7
+log 2026-03-06T03:24:31-0500 db dave@example.com note=c3dye path=nb1gsnvov session=c854jjy
+show #14
+log 2026-03-05T16:57:30+0100 web bob session=shqi2zk4oqq
+rule keep region
+export
+show 25
+log 2026-03-09T14:55:29+0100 auth alice@example.com password=fz78n3xy9 region=2s2sm
+now 2026-03-12T00:00:00Z
+log 2026-03-09T21:15:05-0330 web frank@corp.test bytes= note=pe51xpidn password=0curomwh8i16a5j -- password=y0ol78i
+export
+export api
+log 2026-03-05T20:08:53-0330 batch dave@example.com
+limit db 1
+log 2026-03-07T05:35:34 db bob note=ywnpwk47dv path=ro1o9or region=yfxxjux7 x-trace=lu0t6ggvm
+log 2026-03-06T19:13:09Z web bob api-key=tmgvhmj9gzt -- fzh3 token=mzsrlkneo 16w5 v9vc password=k2mldj8nf
+log 2026-03-07T11:36:00-0330 api carol@corp.test bytes=94493
+export
+log 2026-03-09T19:19:23 db alice@example.com ip=ghtxnf level=error note=nl51s9ifra password=2war6rd1jqspz x-forwarded=ok0usb
+log 2026-03-09T12:54:30-0500 web bob note=muhco69i26 password=2bbgvdol6uo9ca x-forwarded=qf24ct5c -- vr6uf wxu password=albtokrs7c utl513aq
+log 2026-03-08T05:29:50-0500 web erin
+now 2026-03-16T13:00:00Z
+log 2026-03-04T22:29:26-0500 db carol@corp.test -- 95xt 14l 238k7 mqgc apikey=q0yaemob67 tok_84z236hwzpho2
+rules
+log 2026-03-07T17:44:47Z api frank@corp.test api-key=fh7dvhr4ko6aao2 bytes=38817 ip=20b4ppo9k
+purge
+log 2026-03-08T07:32:14+0530 batch alice@example.com ip=1eo15o8 path=5b94icr6 session=cbo63 -- password=nqf0t0 m6ic tok_xouwmuef7lqfd
+purge
+show 22
+log 2026-03-07T23:50:59+0200 db erin
+purge
+export
+log 2026-02-01T04:14:29+0200 batch carol@corp.test session=fysyl2ly ua=umlp5o4fko -- passwd=12x33heb tok_x9uwz29acq08hm
+log 2026-03-09T09:49:39+0200 web frank@corp.test path=f0m7cqe00hi -- apikey=phgwhqcp pgpxx
+purge
+log 2026-03-08T00:01:37+0100 mail bob x-forwarded=1nvlw8 -- 1u3 n7603r c3nf29 zutw apikey=qoaesq 890190z
+log 2026-02-04T04:21:44+0530 auth carol@corp.test level=notice -- mh84bp wygb1qt token=6j6ppn6e e81i5
+log 2026-03-09T10:29:28+0200 db carol@corp.test -- passwd=jjd0exvq passwd=cb7yoe00oh f1z9hk1w w176o1u6 cxr8
+log 2026-03-09T10:45:49Z web bob bytes=59834 note=3qyegu path=gx79um -- p4b1 u7h tok_8fq6dfk48mst
+export mail
+log 2026-03-09T23:42:05-0500 mail carol@corp.test api-key=nyei5qtt level=error session=lgj126n73i1 ua=eo4m6z x-trace=cz12d2q3p0cw -- 0gaj
+purge
+log 2026-03-07T09:47:14-0330 db erin ip=a3iov -- secret=2d5d7y 6in3cc 2er1q jgy qmzp1p
+export api
+log 2026-03-06T10:04:39+0530 mail carol@corp.test password=z4eudpo2 region=oeiouot
+log 2026-03-08T23:23:01Z db bob api-key=h5g1vugh ip=lo73c5z level=error region=5w90pdsg -- mry0gj6 secret=o2b3kh6y8 fmwiz token=x4f9f3dvuj nc5qdhjs 2u2ibnk tok_ygso48dabbpv
+days
+rules
+log 2026-02-02T10:37:20-0330 api alice@example.com bytes=50618 ip=epdrsr region=d34ytqo -- password=cbhr5i8i apikey=1rmwg59866 y8h y63vwl
+rule keep path
+log 2026-03-04T19:30:44+0200 batch erin api-key=7qjet8gz9i2jme3 bytes=54319 path=4qarp1odcfsf region=gpzz4pgz0
+rule keep path
+log 2026-03-06T09:42:23Z api carol@corp.test ip=o4n6enp level=debug -- 4bmfz
+log 2026-03-07T00:11:48+0530 mail bob -- mp4i6 z4mtrl qtb9 11cl
+export
+purge
+log 2026-03-08T22:39:44-0500 api frank@corp.test -- 8s1 8tgbu 53xsi4 5kmpsc nlx tok_n51zlysj6ekn
+log 2026-03-07T07:02:42+0100 batch dave@example.com bytes=93824 level=error session=naw22j ua=e7oiizg2 -- bwvu egn7kf u4b tok_ug0b4gvyxxmh5
+days
+log 2026-03-06T11:51:59+0530 web alice@example.com note=mlw32pk session=hcvdnck5t9im -- r8s8q dk3dmr15 passwd=ndwb82 f1ck
+log 2026-03-10T22:37:58Z mail alice@example.com bytes=93548 level=error ua=ozrqf6vi8
+log 2026-03-10T09:05:29+0100 batch bob password=6ofwc2fkn353p session=k78wpp4h x-forwarded=2bjewkxzawe
+log 2026-03-09T21:39:24+0200 web frank@corp.test ip=q0qdre note=equpm8 session=mw2u2namhsu ua=bbuuadsv4 x-trace=xl362ed68
+export
+rule keep password
+export
+log 2026-03-06T04:19:12 auth bob region=ntn0w9je6zoo -- token=0gkfouszf
+check

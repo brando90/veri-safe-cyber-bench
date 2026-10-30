@@ -1,0 +1,10 @@
+customer add c-b1 crest
+receive alder plank-2m 100
+receive alder beam-3m 50
+receive alder paper-a4 50
+order add c-b1 plank-2m:3
+order add c-b1 beam-3m:4
+order add c-b1 plank-2m:5 beam-3m:10 paper-a4:3
+ship ORD-0001
+ship ORD-0002
+ship ORD-0003

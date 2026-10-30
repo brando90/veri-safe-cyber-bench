@@ -1,0 +1,6 @@
+now 2026-03-10T12:00:00Z
+log 2026-03-09T10:00:00Z web bob -- user said password=abcdefgh and moved on
+log 2026-03-09T10:00:01Z web bob -- a secret=zzzzzzzz then tok_ABCDEFGH1234 end
+log 2026-03-09T10:00:02Z web bob -- tok_short tok_12345678 xtok_12345678abc apikey=KEYKEYKEYKEY1
+log 2026-03-09T10:00:03Z web bob -- no pair here: password= and token
+export

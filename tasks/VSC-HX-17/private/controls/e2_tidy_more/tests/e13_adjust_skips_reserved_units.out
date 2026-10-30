@@ -1,0 +1,20 @@
+customer c-arden added region=arden tier=basic
+received lot L0001 harbor paper-a4 units 50 expiry -
+received lot L0002 harbor paper-a4 units 50 expiry -
+received lot L0003 harbor paper-a4 units 50 expiry -
+order ORD-0001 customer c-arden goods 248.00 status open
+  paper-a4 qty=40 allocated=40 backorder=0
+adjusted harbor paper-a4 by -30, on hand 120
+  L0001 harbor paper-a4 qty=40 reserved=40 expiry=- received=0
+  L0002 harbor paper-a4 qty=30 reserved=0 expiry=- received=0
+  L0003 harbor paper-a4 qty=50 reserved=0 expiry=- received=0
+3 lots, 120 units
+adjusted harbor paper-a4 by -60, on hand 60
+  L0001 harbor paper-a4 qty=40 reserved=40 expiry=- received=0
+  L0003 harbor paper-a4 qty=20 reserved=0 expiry=- received=0
+2 lots, 60 units
+  #4 day 0 adjust harbor paper-a4 -10 L0001
+  #5 day 0 adjust harbor paper-a4 -20 L0002
+  #6 day 0 adjust harbor paper-a4 -30 L0002
+  #7 day 0 adjust harbor paper-a4 -30 L0003
+4 movements

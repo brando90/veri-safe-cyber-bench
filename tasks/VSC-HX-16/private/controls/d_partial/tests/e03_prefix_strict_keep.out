@@ -1,0 +1,18 @@
+clock set to 2026-03-10T12:00:00Z
+strict mode on
+rule added: keep id
+rule added: keep level
+logged #1
+logged #2
+#1 2026-03-09T10:00:00Z web bob id=99 level=info x-id=88 x-level=warn xid=[redacted]
+    changed: xid
+#2 2026-03-09T10:00:01Z web bob -id=[redacted] -x-id=[redacted] x-xid=[redacted] xxid=[redacted]
+    changed: -id, -x-id, x-xid, xxid
+exported 2 records, 5 fields changed
+fields:
+  xid                2  100.0%
+  -id                1   50.0%
+  -x-id              1   50.0%
+  id                 1   50.0%
+  level              1   50.0%
+  xxid               1   50.0%

@@ -1,0 +1,35 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok ship S2
+ok ship S3
+ok ship S4
+ok ship S5
+board
+  S1       A very long s... planned       n/a   0
+  S2       Ünïcödé label... planned       n/a   0
+  S3       Short            planned       n/a   0
+  S4       Exactly sixte... planned       n/a   0
+  S5       Fifteen chars!!  planned       n/a   0
+ok arrive S1 stop 1 AMS
+ok arrive S2 stop 1 AMS
+ok arrive S2 stop 3 JFK
+fleet planned=3 moving=1 delivered=1 avg_sla=58.3%
+board
+  S1       A very long s... moving      75.0%   4
+  S2       Ünïcödé label... delivered  100.0%   2
+  S3       Short            planned      0.0%   1
+  S4       Exactly sixte... planned       n/a   0
+  S5       Fifteen chars!!  planned       n/a   0
+ok remove S1
+fleet planned=3 moving=0 delivered=1 avg_sla=50.0%
+ok remove S2
+ok remove S3
+ok remove S4
+ok remove S5
+fleet planned=0 moving=0 delivered=0 avg_sla=n/a
+board

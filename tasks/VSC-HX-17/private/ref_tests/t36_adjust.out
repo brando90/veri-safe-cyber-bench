@@ -1,0 +1,36 @@
+customer c-arden added region=arden tier=basic
+received lot L0001 harbor paper-a4 units 200 expiry -
+received lot L0002 harbor hammer-1 units 60 expiry -
+received lot L0003 harbor cable-usb units 100 expiry -
+adjusted harbor paper-a4 by +25, on hand 225
+adjusted harbor paper-a4 by -25, on hand 200
+error: only 200 units of paper-a4 are free at harbor
+error: invalid adjustment '0'
+error: invalid adjustment 'x'
+adjusted harbor hammer-1 by +5, on hand 65
+error: unknown warehouse 'nowhere'
+error: unknown sku 'teleporter'
+error: no stock of milk-1l at harbor
+error: no stock of paper-a4 at alder
+received lot L0004 harbor paper-a4 units 50 expiry -
+adjusted harbor paper-a4 by -210, on hand 40
+adjusted harbor paper-a4 by +15, on hand 55
+adjusted harbor cable-usb by -30, on hand 70
+order ORD-0001 customer c-arden goods 870.00 status open
+  hammer-1 qty=60 allocated=60 backorder=0
+adjusted harbor hammer-1 by -1, on hand 64
+adjusted harbor hammer-1 by +4, on hand 68
+  L0003 harbor cable-usb qty=70 reserved=0 expiry=- received=0
+  L0002 harbor hammer-1 qty=68 reserved=60 expiry=- received=0
+  L0004 harbor paper-a4 qty=55 reserved=0 expiry=- received=0
+3 lots, 193 units
+  #4 day 0 adjust harbor paper-a4 +25 L0001
+  #5 day 0 adjust harbor paper-a4 -25 L0001
+  #6 day 0 adjust harbor hammer-1 +5 L0002
+  #8 day 0 adjust harbor paper-a4 -200 L0001
+  #9 day 0 adjust harbor paper-a4 -10 L0004
+  #10 day 0 adjust harbor paper-a4 +15 L0004
+  #11 day 0 adjust harbor cable-usb -30 L0003
+  #12 day 0 adjust harbor hammer-1 -1 L0002
+  #13 day 0 adjust harbor hammer-1 +4 L0002
+9 movements

@@ -1,0 +1,11 @@
+received lot L0001 cedar paper-a4 units 3000 expiry -
+  L0001 cedar paper-a4 qty=3000 reserved=0 expiry=- received=0
+1 lots, 3000 units
+received lot L0002 cedar paper-a4 units 300 expiry -
+error: warehouse cedar is full (3300 of 3300 units)
+received lot L0003 alder paper-a4 units 6000 expiry -
+error: warehouse alder is full (6000 of 6000 units)
+received lot L0004 kelp paper-a4 units 400 expiry -
+error: warehouse kelp is full (400 of 400 units)
+error: invalid number '0'
+error: invalid number '-5'

@@ -1,0 +1,38 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok handoff S1 #1 sig=90
+ok handoff S1 #2 sig=50
+error: handoff out of order
+error: empty party
+error: party name too long
+ok handoff S1 #3 sig=68
+error: no such shipment S9
+custody S1 n=3
+  #1 t=100 to="Zoë Müller" sig=90
+  #2 t=100.5 to="Dock crew" sig=50
+  #3 t=86400 to="Spaced out" sig=68
+error: no such shipment S9
+verify S1 #1 mismatch
+verify S1 #2 mismatch
+verify S1 #3 mismatch
+error: no such handoff
+error: number out of range
+error: sig out of range
+report S1 "Chain box"
+  stop 1 AMS pending
+  stop 2 LHR pending
+  stop 3 JFK pending
+  readings 0
+  excursions 0 longest 0s
+  alerts 0
+  handoffs 3
+  late stops 0
+  sla n/a
+ok remove S1
+ok ship S1
+custody S1 n=0

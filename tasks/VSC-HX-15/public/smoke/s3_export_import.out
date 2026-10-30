@@ -1,0 +1,32 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok arrive S1 stop 1 AMS
+ok plan S1 stop 2
+begin export
+ship	S1	Cold box 7	R3	8.0	15.0	20	100	-	0	0.0
+r	0	100	50
+r	60000	110	51
+r	120000	125	-
+arr	1	0
+plan	2	900000
+end export
+ok import readings=3
+ship S9 "Imported box" route=R4 class=- band=1.0..6.0 hold=10m cap=600 hmax=- skew=0s offset=0.0
+window S9 n=3
+  0 3.0 hum=40
+  60 3.5
+  120 7.0 hum=42
+excursions S9 n=1
+  high start=120 end=120 dur=0s peak=7.0 open
+begin export
+ship	S9	Imported box	R4	1.0	6.0	-	-	-	0	0.0
+r	0	30	40
+r	60000	35	-
+r	120000	70	42
+arr	1	0
+end export

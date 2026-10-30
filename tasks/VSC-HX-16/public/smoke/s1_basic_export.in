@@ -1,0 +1,10 @@
+# redact and mask fields on export
+now 2026-03-10T12:00:00Z
+rule redact password
+rule mask api-key
+rule drop ua
+log 2026-03-09T10:15:00Z auth alice@example.com level=info password=hunter2go api-key=K9XQ72LMZP41 ua=curl/8.0 ip=10.0.0.7 -- login ok
+log 2026-03-09T11:00:00+0200 web bob level=warn ip=10.0.0.9 path=/admin -- slow response 912ms
+export
+show #2
+rules

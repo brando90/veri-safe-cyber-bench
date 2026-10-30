@@ -1,0 +1,15 @@
+customer add c-h1 gale
+customer add c-h2 arden
+receive harbor paper-a4 400
+receive fjord paper-a3 400
+order add c-h1 paper-a3:20
+order add c-h2 paper-a4:20
+order add c-h1 paper-a3:20
+order add c-h2 paper-a4:20
+ship ORD-0001
+ship ORD-0002 at=20
+tick 5
+ship ORD-0004 at=20
+tick 1
+ship ORD-0003 at=10
+today

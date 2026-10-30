@@ -1,0 +1,18 @@
+customer add c-arden arden tier=basic
+customer add c-gale gale tier=basic
+receive alder paper-a4 300
+receive harbor cable-usb 200
+customer add c-old arden
+order add c-arden paper-a4:10
+ship ORD-0001
+order add c-gale cable-usb:10
+ship ORD-0002
+customer close c-old
+report goods_customer cust=c-old
+report goods_region cust=c-old
+report goods_customer cust=c-arden
+report goods_customer cust=c-nobody
+report goods_customer cur=usd
+report stock_wh wh=alder
+report stock_wh wh=nowhere
+report cancelled cust=c-old

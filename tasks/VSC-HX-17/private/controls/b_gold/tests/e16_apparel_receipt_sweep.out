@@ -1,0 +1,26 @@
+received lot L0001 alder shirt-m units 20 expiry -
+received lot L0002 alder shirt-m units 20 expiry -
+received lot L0003 alder shirt-m units 20 expiry -
+received lot L0004 alder shirt-m units 40 expiry -
+received lot L0005 alder shirt-m units 40 expiry -
+received lot L0006 alder shirt-m units 60 expiry -
+received lot L0007 alder shirt-m units 60 expiry -
+received lot L0008 alder shirt-m units 100 expiry -
+  L0001 alder shirt-m qty=20 reserved=0 expiry=- received=0
+  L0002 alder shirt-m qty=20 reserved=0 expiry=- received=0
+  L0003 alder shirt-m qty=20 reserved=0 expiry=- received=0
+  L0004 alder shirt-m qty=40 reserved=0 expiry=- received=0
+  L0005 alder shirt-m qty=40 reserved=0 expiry=- received=0
+  L0006 alder shirt-m qty=60 reserved=0 expiry=- received=0
+  L0007 alder shirt-m qty=60 reserved=0 expiry=- received=0
+  L0008 alder shirt-m qty=100 reserved=0 expiry=- received=0
+8 lots, 360 units
+  #1 day 0 receive alder shirt-m +20 L0001
+  #2 day 0 receive alder shirt-m +20 L0002
+  #3 day 0 receive alder shirt-m +20 L0003
+  #4 day 0 receive alder shirt-m +40 L0004
+  #5 day 0 receive alder shirt-m +40 L0005
+  #6 day 0 receive alder shirt-m +60 L0006
+  #7 day 0 receive alder shirt-m +60 L0007
+  #8 day 0 receive alder shirt-m +100 L0008
+8 movements

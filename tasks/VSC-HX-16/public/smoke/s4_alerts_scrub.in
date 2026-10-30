@@ -1,0 +1,11 @@
+now 2026-03-10T12:00:00Z
+window 60
+limit auth 2
+limit * 5
+log 2026-03-10T10:00:00Z auth alice@example.com -- try 1 password=abcd1234
+log 2026-03-10T10:00:20Z auth alice@example.com -- try 2 token=zzzz9999 tok_AAAABBBB1234
+log 2026-03-10T10:00:40Z auth alice@example.com -- try 3
+log 2026-03-10T10:05:00Z web bob
+log 2026-03-10T10:05:10Z web bob
+report
+export auth

@@ -1,0 +1,25 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok ship S2
+ok ship S3
+error: band needs min below max
+ship S1 "Class box" route=R3 class=vaccine band=2.0..8.0 hold=10m cap=600 hmax=- skew=0s offset=0.0
+ship S2 "Class override" route=R3 class=ambient band=18.0..25.0 hold=10m cap=600 hmax=- skew=0s offset=0.0
+ship S3 "Explicit first" route=R3 class=cool band=8.0..9.0 hold=10m cap=600 hmax=- skew=0s offset=0.0
+error: no such shipment S4
+ok ship S1
+ship S1 "Class box" route=R3 class=frozen band=-25.0..-15.0 hold=10m cap=600 hmax=- skew=0s offset=0.0
+error: unknown class nonsense
+ship S1 "Class box" route=R3 class=frozen band=-25.0..-15.0 hold=10m cap=600 hmax=- skew=0s offset=0.0
+error: no such shipment S4
+error: no such shipment S4
+error: no such shipment S4
+error: no such shipment S4
+error: no such shipment S4
+error: no such shipment S4
+error: no such shipment S4

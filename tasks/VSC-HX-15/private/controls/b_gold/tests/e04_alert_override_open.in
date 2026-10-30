@@ -1,0 +1,21 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+set hold 60
+ship add S1 "Short hold" route=R3 class=chilled maxexc=2
+ship add S2 "Default hold" route=R3 class=chilled
+read S1 t=0 temp=5.0
+read S1 t=10 temp=9.0
+read S1 t=80 temp=9.0
+read S1 t=130 temp=9.0
+read S2 t=0 temp=5.0
+read S2 t=10 temp=9.0
+read S2 t=5000 temp=9.0
+alerts
+ship edit S1 maxexc=inherit
+alerts S1
+ship edit S1 maxexc=3
+alerts S1

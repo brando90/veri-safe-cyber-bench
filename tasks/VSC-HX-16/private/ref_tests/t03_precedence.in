@@ -1,0 +1,10 @@
+now 2026-03-10T12:00:00Z
+rule mask session
+rule prefix sess
+rule redact sessionid
+rule pseudo sessionid
+rule drop token
+rule mask token
+log 2026-03-09T10:00:00Z web bob session=abcdefghijkl sessionid=zzzzzzzzzzzz sessiontoken=qqqqqqqqqqqq token=wwwwwwwwwwww other=keep
+export
+rules

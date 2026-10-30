@@ -1,0 +1,14 @@
+customer add c-k1 delta
+receive iris paper-a4 100
+receive kelp paper-a3 100
+order add c-k1 paper-a4:10
+order add c-k1 paper-a3:10
+ship ORD-0001 at=23
+tick 3
+ship ORD-0002 at=0
+today
+order add c-k1 paper-a4:10
+ship ORD-0003 at=23
+tick 1
+order add c-k1 paper-a3:10
+ship ORD-0004 at=0

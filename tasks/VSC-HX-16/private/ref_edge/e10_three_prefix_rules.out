@@ -1,0 +1,11 @@
+clock set to 2026-03-10T12:00:00Z
+rule added: prefix tmp_
+rule added: prefix dbg
+rule added: prefix usr
+rule added: mask dbg_level
+rule added: pseudo usr_name
+salt set
+logged #1
+#1 2026-03-09T10:00:00Z web bob keep=3 tmp_a=[redacted] usr_mail=*************.com usr_name=p-c25169c7
+    changed: dbg_level, dbg_x, tmp_a, usr_mail, usr_name
+exported 1 records, 5 fields changed

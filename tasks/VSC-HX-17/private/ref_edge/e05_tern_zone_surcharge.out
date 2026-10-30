@@ -1,0 +1,25 @@
+customer c-delta added region=delta tier=basic
+customer c-ember added region=ember tier=basic
+customer c-forge added region=forge tier=basic
+customer c-brook added region=brook tier=basic
+customer c-arden added region=arden tier=basic
+received lot L0001 alder paper-a4 units 400 expiry -
+received lot L0002 alder plank-2m units 100 expiry -
+order ORD-0001 customer c-delta goods 18.60 status open
+  paper-a4 qty=3 allocated=3 backorder=0
+shipment SHP-0001 order ORD-0001 from alder carrier tern weight 1350g goods 18.60 freight 10.01 handling 1.60 duty 0.00 dispatch day 0 eta day 2
+order ORD-0002 customer c-ember goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+shipment SHP-0002 order ORD-0002 from alder carrier tern weight 4500g goods 62.00 freight 15.19 handling 1.60 duty 0.00 dispatch day 0 eta day 2
+order ORD-0003 customer c-forge goods 124.00 status open
+  paper-a4 qty=20 allocated=20 backorder=0
+shipment SHP-0003 order ORD-0003 from alder carrier tern weight 9000g goods 124.00 freight 22.93 handling 1.60 duty 18.60 dispatch day 0 eta day 6
+order ORD-0004 customer c-brook goods 31.20 status open
+  plank-2m qty=4 allocated=4 backorder=0
+shipment SHP-0004 order ORD-0004 from alder carrier tern weight 10000g goods 31.20 freight 21.30 handling 1.60 duty 0.00 dispatch day 0 eta day 2
+order ORD-0005 customer c-arden goods 31.00 status open
+  paper-a4 qty=5 allocated=5 backorder=0
+shipment SHP-0005 order ORD-0005 from alder carrier tern weight 2250g goods 31.00 freight 9.21 handling 1.60 duty 0.00 dispatch day 0 eta day 2
+order ORD-0006 customer c-delta goods 117.00 status open
+  plank-2m qty=15 allocated=15 backorder=0
+shipment SHP-0006 order ORD-0006 from alder carrier tern weight 36000g goods 117.00 freight 65.24 handling 1.60 duty 11.70 dispatch day 0 eta day 4

@@ -1,0 +1,10 @@
+customer add c-acme brook
+customer add c-bolt delta
+customer add c-cove crest
+receive birch thinner-1l 12
+receive birch charger-20 8
+order add c-acme thinner-1l:6
+order add c-acme charger-20:4
+order add c-bolt thinner-1l:6
+order add c-cove charger-20:4
+order list

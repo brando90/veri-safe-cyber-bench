@@ -1,0 +1,11 @@
+now 2026-03-10T12:00:00Z
+retain 10
+log 2026-01-01T10:00:00Z web u1 -- old 1
+log 2026-01-02T10:00:00Z web u1 -- old 2
+log 2026-01-03T10:00:00Z web u1 -- old 3
+log 2026-01-04T10:00:00Z web u1 -- old 4
+log 2026-01-05T10:00:00Z web u1 -- old 5
+log 2026-03-09T10:00:00Z web u1 -- fresh 6
+purge
+report
+export

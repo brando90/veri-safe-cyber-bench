@@ -1,0 +1,258 @@
+apple-1k category=produce cost=1.20 price=2.60
+bandage-50 category=medicine cost=1.80 price=4.50
+bar-oat category=snacks cost=0.25 price=0.70
+beam-3m category=lumber cost=9.00 price=20.00
+bolt-m6 category=fasteners cost=0.08 price=0.15
+cable-hdmi category=cables cost=2.10 price=4.80
+cable-usb category=cables cost=1.20 price=2.90
+charger-20 category=electronics cost=9.00 price=22.00
+cleaner-5l category=solvents cost=9.00 price=19.00
+crisps-50 category=snacks cost=0.30 price=0.80
+hammer-1 category=tools cost=7.00 price=14.50
+jacket-l category=apparel cost=23.00 price=55.00
+lettuce-1 category=produce cost=0.50 price=1.30
+milk-1l category=dairy cost=0.60 price=1.20
+paper-a3 category=paper cost=6.10 price=9.90
+paper-a4 category=paper cost=3.50 price=6.20
+peas-fr category=frozen cost=0.90 price=2.00
+pizza-fr category=frozen cost=1.80 price=4.20
+plank-2m category=lumber cost=3.50 price=7.80
+plier-9 category=tools cost=8.00 price=17.00
+screw-w4 category=fasteners cost=0.05 price=0.09
+shirt-m category=apparel cost=5.00 price=14.00
+speaker-bt category=electronics cost=24.00 price=59.00
+thinner-1l category=solvents cost=4.00 price=9.00
+tumbler-6 category=glassware cost=1.50 price=3.90
+vase-30 category=glassware cost=11.00 price=26.00
+vitamin-c category=medicine cost=2.00 price=5.20
+wrench-set category=tools cost=19.00 price=39.00
+yogurt-4 category=dairy cost=1.40 price=2.90
+bolt-m6 category=fasteners cost=0.08 price=0.15
+  category fasteners Fasteners
+    group dry pack 100 unit_weight 12g haz 0
+    shelf none margin 0
+    max_line 5000 reorder 400
+    return_window 30 restock always
+error: unknown sku 'nothing'
+alder zone=3 cutoff=16 open=Mon,Tue,Wed,Thu,Fri capacity=6000 haz_max=1 accepts=dry,bulk
+birch zone=5 cutoff=15 open=Mon,Tue,Wed,Thu,Fri capacity=4000 haz_max=3 accepts=dry,haz
+cedar zone=2 cutoff=17 open=Mon,Tue,Wed,Thu,Fri capacity=3000 haz_max=1 accepts=dry,bulk
+dune zone=6 cutoff=14 open=Mon,Tue,Wed,Thu,Fri capacity=2500 haz_max=0 accepts=cold,frozen
+elm zone=4 cutoff=16 open=Mon,Tue,Wed,Thu,Fri,Sat capacity=3500 haz_max=1 accepts=dry
+fjord zone=7 cutoff=13 open=Tue,Wed,Thu,Fri,Sat capacity=2800 haz_max=0 accepts=cold,frozen,dry
+grove zone=8 cutoff=15 open=Mon,Tue,Wed,Thu,Fri capacity=2000 haz_max=3 accepts=haz
+harbor zone=1 cutoff=18 open=Mon,Tue,Wed,Thu,Fri,Sat,Sun capacity=7000 haz_max=1 accepts=dry,bulk
+iris zone=4 cutoff=24 open=Mon,Tue,Wed,Thu,Fri capacity=3200 haz_max=1 accepts=dry
+juniper zone=5 cutoff=14 open=Mon,Tue,Wed,Thu,Fri capacity=3000 haz_max=0 accepts=dry,cold
+kelp zone=9 cutoff=0 open=Mon,Tue,Wed,Thu,Fri capacity=400 haz_max=1 accepts=dry
+larch zone=3 cutoff=15 open=Mon,Tue,Wed,Thu,Fri,Sat capacity=4500 haz_max=1 accepts=dry,bulk
+warehouse cedar Cedar Overflow Yard
+  zone 2
+  cutoff 17
+  open Mon,Tue,Wed,Thu,Fri
+  capacity 3000
+  haz_max 1
+  accepts dry,bulk
+  pick_fee 0.35 pack_fee 1.00
+warehouse juniper Juniper Bulk Pick
+  zone 5
+  cutoff 14
+  open Mon,Tue,Wed,Thu,Fri
+  capacity 3000
+  haz_max 0
+  accepts dry,cold
+  pick_fee 0.05 pack_fee 0.95
+warehouse elm Elm Street Centre
+  zone 4
+  cutoff 16
+  open Mon,Tue,Wed,Thu,Fri,Sat
+  capacity 3500
+  haz_max 1
+  accepts dry
+  pick_fee 0.42 pack_fee 1.15
+warehouse larch Larch Preferred Yard
+  zone 3
+  cutoff 15
+  open Mon,Tue,Wed,Thu,Fri,Sat
+  capacity 4500
+  haz_max 1
+  accepts dry,bulk
+  pick_fee 0.41 pack_fee 1.12
+warehouse kelp Kelp Late Dispatch
+  zone 9
+  cutoff 0
+  open Mon,Tue,Wed,Thu,Fri
+  capacity 400
+  haz_max 1
+  accepts dry
+  pick_fee 0.50 pack_fee 1.25
+apparel group=dry pack=20 shelf=none margin=0 max_line=1000 reorder=60 haz=0
+cables group=dry pack=50 shelf=none margin=0 max_line=2000 reorder=100 haz=0
+dairy group=cold pack=12 shelf=21 days margin=3 max_line=500 reorder=36 haz=0
+electronics group=dry pack=4 shelf=none margin=0 max_line=200 reorder=20 haz=1
+fasteners group=dry pack=100 shelf=none margin=0 max_line=5000 reorder=400 haz=0
+frozen group=frozen pack=8 shelf=120 days margin=10 max_line=300 reorder=24 haz=0
+glassware group=dry pack=12 shelf=none margin=0 max_line=300 reorder=24 haz=0
+lumber group=bulk pack=10 shelf=none margin=0 max_line=800 reorder=50 haz=0
+medicine group=cold pack=20 shelf=none margin=30 max_line=100 reorder=40 haz=0
+paper group=dry pack=10 shelf=none margin=0 max_line=600 reorder=40 haz=0
+produce group=cold pack=10 shelf=7 days margin=1 max_line=400 reorder=30 haz=0
+snacks group=dry pack=24 shelf=180 days margin=14 max_line=2000 reorder=96 haz=0
+solvents group=haz pack=6 shelf=none margin=0 max_line=120 reorder=12 haz=3
+tools group=dry pack=6 shelf=none margin=0 max_line=none reorder=12 haz=0
+category cables Cables sold loose
+  group dry pack 50 unit_weight 85g haz 0
+  shelf none margin 0
+  max_line 2000 reorder 100
+  return_window 30 restock always
+category fasteners Fasteners
+  group dry pack 100 unit_weight 12g haz 0
+  shelf none margin 0
+  max_line 5000 reorder 400
+  return_window 30 restock always
+category medicine Medicine
+  group cold pack 20 unit_weight 150g haz 0
+  shelf none margin 30
+  max_line 100 reorder 40
+  return_window 14 restock never
+category lumber Lumber
+  group bulk pack 10 unit_weight 2350g haz 0
+  shelf none margin 0
+  max_line 800 reorder 50
+  return_window 30 restock always
+category glassware Glassware
+  group dry pack 12 unit_weight 600g haz 0
+  shelf none margin 0
+  max_line 300 reorder 24
+  return_window 7 restock always
+category paper Paper
+  group dry pack 10 unit_weight 450g haz 0
+  shelf none margin 0
+  max_line 600 reorder 40
+  return_window 14 restock always
+aero base=12.00 step=500g/0.90 max_parcel=15000 max_total=0 haz_max=1 covers=all
+gull base=4.00 step=500g/0.50 max_parcel=18000 max_total=0 haz_max=1 covers=all
+haul base=9.00 step=1000g/0.40 max_parcel=0 max_total=0 haz_max=3 covers=all
+nord base=5.00 step=500g/0.55 max_parcel=20000 max_total=0 haz_max=3 covers=all
+parcelo base=7.00 step=1000g/0.00 max_parcel=25000 max_total=0 haz_max=0 covers=all
+pony base=3.00 step=250g/0.45 max_parcel=5000 max_total=5000 haz_max=0 covers=all
+swift base=4.50 step=500g/0.60 max_parcel=20000 max_total=0 haz_max=1 covers=all
+tern base=4.80 step=500g/0.65 max_parcel=20000 max_total=0 haz_max=3 covers=arden,brook,crest,delta,ember,forge
+zed base=5.50 step=500g/0.70 max_parcel=22000 max_total=0 haz_max=3 covers=all
+carrier nord Nord Carrier
+  base 5.00 per parcel, 0.55 per started 500g
+  parcel limit 20000 total limit 0 minimum 6.50
+  zone surcharge 250 bp per zone, fuel 850 bp
+  transit 2 days plus 1 per 3 zones
+  haz_max 3 covers all
+carrier gull Gull Post
+  base 4.00 per parcel, 0.50 per started 500g
+  parcel limit 18000 total limit 0 minimum 5.00
+  zone surcharge 350 bp per zone, fuel 750 bp
+  transit 2 days plus 1 per 2 zones
+  haz_max 1 covers all
+carrier zed Zed Logistics
+  base 5.50 per parcel, 0.70 per started 500g
+  parcel limit 22000 total limit 0 minimum 9.00
+  zone surcharge 280 bp per zone, fuel 820 bp
+  transit 2 days plus 1 per 3 zones
+  haz_max 3 covers all
+carrier tern Tern Regional
+  base 4.80 per parcel, 0.65 per started 500g
+  parcel limit 20000 total limit 0 minimum 6.00
+  zone surcharge 300 bp per zone, fuel 800 bp
+  transit 2 days plus 1 per 4 zones
+  haz_max 3 covers arden,brook,crest,delta,ember,forge
+carrier haul Haul Freight
+  base 9.00 per parcel, 0.40 per started 1000g
+  parcel limit 0 total limit 0 minimum 15.00
+  zone surcharge 150 bp per zone, fuel 600 bp
+  transit 3 days plus 1 per 2 zones
+  haz_max 3 covers all
+arden zone=1 weekend=Sat,Sun ban_haz=4 duty_free=150.00 duty_bp=500 customs_days=1 remote_fee=0.00
+brook zone=2 weekend=Sat,Sun ban_haz=3 duty_free=120.00 duty_bp=700 customs_days=1 remote_fee=1.50
+crest zone=3 weekend=Sat,Sun ban_haz=2 duty_free=100.00 duty_bp=800 customs_days=2 remote_fee=2.00
+delta zone=4 weekend=Sat,Sun ban_haz=4 duty_free=80.00 duty_bp=1000 customs_days=2 remote_fee=2.50
+depot zone=0 weekend=Sat,Sun ban_haz=4 duty_free=0.00 duty_bp=0 customs_days=0 remote_fee=0.00
+ember zone=5 weekend=Sat,Sun ban_haz=3 duty_free=80.00 duty_bp=1200 customs_days=2 remote_fee=3.00
+forge zone=6 weekend=Fri,Sat ban_haz=2 duty_free=60.00 duty_bp=1500 customs_days=3 remote_fee=3.50
+gale zone=7 weekend=Sat,Sun ban_haz=1 duty_free=50.00 duty_bp=0 customs_days=0 remote_fee=4.00
+haven zone=8 weekend=Sat,Sun ban_haz=4 duty_free=0.00 duty_bp=900 customs_days=3 remote_fee=4.50
+region delta Delta Basin
+  zone 4
+  no delivery on Sat,Sun
+  refuses hazard class 4 and above
+  duty 1000 bp on goods above 80.00, 2 extra days
+  remote fee 2.50 per shipment
+region depot Depot Collection Point
+  zone 0
+  no delivery on Sat,Sun
+  refuses hazard class 4 and above
+  duty 0 bp on goods above 0.00, 0 extra days
+  remote fee 0.00 per shipment
+region haven Haven Territories
+  zone 8
+  no delivery on Sat,Sun
+  refuses hazard class 4 and above
+  duty 900 bp on goods above 0.00, 3 extra days
+  remote fee 4.50 per shipment
+gold rank=0 free_freight_from=50.00
+silver rank=1 free_freight_from=100.00
+basic rank=2 free_freight_from=200.00
+adjust WAREHOUSE SKU DELTA
+audit [COUNT] [action=TEXT] [subject=TEXT]
+backorder run
+carrier list
+carrier show CARRIER
+category list
+category show CATEGORY
+customer add ID REGION [tier=TIER] [name=TEXT]
+customer close ID
+customer history ID
+customer list [tier=TIER] [region=REGION] [status=active|closed]
+customer show ID
+expire [WAREHOUSE]
+export KIND FORMAT
+help [COMMAND]
+ledger [WAREHOUSE] [kind=KIND] [sku=SKU]
+order add CUSTOMER SKU:QTY... [ref=TEXT]
+order cancel NUMBER
+order list [CUSTOMER] [state=STATE]
+order show NUMBER
+receive WAREHOUSE SKU UNITS [exp=DAY]
+region list
+region show REGION
+replenish [WAREHOUSE]
+report NAME [ARGS]
+return NUMBER SKU QTY [cond=good|damaged]
+set carrier ID CARRIER|auto
+set email ID ADDRESS
+set hold ID yes|no
+set name ID TEXT
+set note ID TEXT
+set po ID TEXT
+set region ID REGION
+set split ID yes|no
+set tier ID TIER
+ship NUMBER [at=HOUR] [carrier=CARRIER]
+sku list
+sku show SKU
+stock [WAREHOUSE] [sku=SKU]
+tick DAYS
+tier list
+today
+transfer FROM TO SKU UNITS
+warehouse list
+warehouse show WAREHOUSE
+ship NUMBER [at=HOUR] [carrier=CARRIER]
+order add CUSTOMER SKU:QTY... [ref=TEXT]
+order cancel NUMBER
+order list [CUSTOMER] [state=STATE]
+order show NUMBER
+error: unknown command 'nothing'
+day 0 Mon
+day 3 Thu
+day 3 Thu
+error: invalid number '0'
+error: invalid number 'x'
+error: invalid number '400000'

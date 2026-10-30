@@ -1,0 +1,13 @@
+customer add c-arden arden tier=basic
+receive harbor bar-oat 240
+tick 10
+receive harbor crisps-50 240
+tick 156
+order add c-arden bar-oat:24
+tick 10
+order add c-arden crisps-50:24
+tick 1
+order add c-arden crisps-50:24
+order list state=backorder
+order list state=open
+ledger harbor

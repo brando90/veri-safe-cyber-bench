@@ -1,0 +1,12 @@
+customer c-m1 added region=arden tier=basic
+customer c-m1 email old@x.io
+customer c-m1 closed
+error: customer c-m1 is closed
+customer c-m1
+  name=c-m1 region=arden tier=basic carrier=auto split=yes hold=no
+  po=- email=old@x.io note=-
+  status=closed since day 0
+  #1 day 0 customer add c-m1 arden basic
+  #2 day 0 set email c-m1 - old@x.io
+  #3 day 0 customer close c-m1 
+3 entries

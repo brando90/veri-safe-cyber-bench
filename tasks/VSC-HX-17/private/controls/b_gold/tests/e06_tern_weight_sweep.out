@@ -1,0 +1,44 @@
+customer c-brook added region=brook tier=basic
+customer c-forge added region=forge tier=basic
+received lot L0001 alder paper-a4 units 400 expiry -
+received lot L0002 harbor paper-a4 units 400 expiry -
+received lot L0003 harbor hammer-1 units 102 expiry -
+order ORD-0001 customer c-forge goods 12.40 status open
+  paper-a4 qty=2 allocated=2 backorder=0
+shipment SHP-0001 order ORD-0001 from alder carrier tern weight 900g goods 12.40 freight 10.68 handling 1.60 duty 0.00 dispatch day 0 eta day 2
+order ORD-0002 customer c-forge goods 24.80 status open
+  paper-a4 qty=4 allocated=4 backorder=0
+shipment SHP-0002 order ORD-0002 from alder carrier tern weight 1800g goods 24.80 freight 12.22 handling 1.60 duty 0.00 dispatch day 0 eta day 2
+order ORD-0003 customer c-forge goods 37.20 status open
+  paper-a4 qty=6 allocated=6 backorder=0
+shipment SHP-0003 order ORD-0003 from alder carrier tern weight 2700g goods 37.20 freight 13.74 handling 1.60 duty 0.00 dispatch day 0 eta day 2
+order ORD-0004 customer c-forge goods 49.60 status open
+  paper-a4 qty=8 allocated=8 backorder=0
+shipment SHP-0004 order ORD-0004 from alder carrier tern weight 3600g goods 49.60 freight 15.27 handling 1.60 duty 0.00 dispatch day 0 eta day 2
+order ORD-0005 customer c-forge goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+shipment SHP-0005 order ORD-0005 from alder carrier tern weight 4500g goods 62.00 freight 16.04 handling 1.60 duty 9.30 dispatch day 0 eta day 6
+order ORD-0006 customer c-forge goods 74.40 status open
+  paper-a4 qty=12 allocated=12 backorder=0
+shipment SHP-0006 order ORD-0006 from alder carrier tern weight 5400g goods 74.40 freight 17.57 handling 1.60 duty 11.16 dispatch day 0 eta day 6
+order ORD-0007 customer c-forge goods 86.80 status open
+  paper-a4 qty=14 allocated=14 backorder=0
+shipment SHP-0007 order ORD-0007 from alder carrier tern weight 6300g goods 86.80 freight 19.10 handling 1.60 duty 13.02 dispatch day 0 eta day 6
+order ORD-0008 customer c-forge goods 99.20 status open
+  paper-a4 qty=16 allocated=16 backorder=0
+shipment SHP-0008 order ORD-0008 from alder carrier tern weight 7200g goods 99.20 freight 20.63 handling 1.60 duty 14.88 dispatch day 0 eta day 6
+order ORD-0009 customer c-forge goods 111.60 status open
+  paper-a4 qty=18 allocated=18 backorder=0
+shipment SHP-0009 order ORD-0009 from alder carrier tern weight 8100g goods 111.60 freight 22.16 handling 1.60 duty 16.74 dispatch day 0 eta day 6
+order ORD-0010 customer c-forge goods 124.00 status open
+  paper-a4 qty=20 allocated=20 backorder=0
+shipment SHP-0010 order ORD-0010 from alder carrier tern weight 9000g goods 124.00 freight 22.93 handling 1.60 duty 18.60 dispatch day 0 eta day 6
+order ORD-0011 customer c-forge goods 136.40 status open
+  paper-a4 qty=22 allocated=22 backorder=0
+shipment SHP-0011 order ORD-0011 from alder carrier tern weight 9900g goods 136.40 freight 24.45 handling 1.60 duty 20.46 dispatch day 0 eta day 6
+order ORD-0012 customer c-brook goods 174.00 status open
+  hammer-1 qty=12 allocated=12 backorder=0
+shipment SHP-0012 order ORD-0012 from harbor carrier tern weight 10800g goods 174.00 freight 22.74 handling 1.28 duty 12.18 dispatch day 0 eta day 3
+order ORD-0013 customer c-brook goods 29.00 status open
+  hammer-1 qty=2 allocated=2 backorder=0
+shipment SHP-0013 order ORD-0013 from harbor carrier tern weight 1800g goods 29.00 freight 9.73 handling 1.28 duty 0.00 dispatch day 0 eta day 2

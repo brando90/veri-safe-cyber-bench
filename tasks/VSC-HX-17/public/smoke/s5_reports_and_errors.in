@@ -1,0 +1,27 @@
+# reports and refused commands
+customer add c-r1 forge
+customer add c-r2 gale tier=gold
+receive alder cable-usb 500
+receive alder charger-20 100
+receive larch plank-2m 200
+order add c-r1 cable-usb:100 plank-2m:20
+order add c-r2 cable-usb:80
+ship ORD-0001
+ship ORD-0002
+report goods_region
+report goods_customer
+report freight_carrier
+report duty_region
+report stock_wh
+report value_wh
+report status
+report low_stock
+order add c-nobody cable-usb:1
+order add c-r1 teleporter:1
+order add c-r1 cable-usb:abc
+ship ORD-0009
+receive alder dairy 5
+receive nowhere paper-a4 5
+frobnicate now
+export orders csv
+export shipments tsv

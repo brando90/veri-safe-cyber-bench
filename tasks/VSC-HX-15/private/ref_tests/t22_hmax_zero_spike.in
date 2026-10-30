@@ -1,0 +1,28 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+set spike 0
+ship add S1 "Humid zero" route=R3 hmax=0
+ship add S2 "Humid hundred" route=R3 hmax=100
+ship add S3 "No ceiling" route=R3
+read S1 t=0 temp=5.0 hum=0
+read S1 t=60 temp=5.0 hum=1
+read S1 t=120 temp=5.0 hum=0
+read S1 t=180 temp=5.0
+read S1 t=240 temp=5.0 hum=50
+read S2 t=0 temp=5.0 hum=100
+read S2 t=60 temp=5.0 hum=100
+read S3 t=0 temp=5.0 hum=100
+read S3 t=60 temp=20.0 hum=100
+alerts kind=humid
+alerts kind=spike
+set spike 100
+alerts kind=spike
+set spike 1000
+alerts kind=spike
+set spike 0
+set gap 0
+alerts kind=gap

@@ -1,0 +1,15 @@
+customer add c-acme delta
+receive elm hammer-1 60
+receive iris paper-a4 100
+receive kelp paper-a3 100
+tick 5
+today
+order add c-acme hammer-1:6
+order add c-acme hammer-1:6
+ship ORD-0001 at=11
+ship ORD-0002 at=12
+tick 2
+order add c-acme paper-a4:10
+ship ORD-0003 at=23
+order add c-acme paper-a3:10
+ship ORD-0004 at=0

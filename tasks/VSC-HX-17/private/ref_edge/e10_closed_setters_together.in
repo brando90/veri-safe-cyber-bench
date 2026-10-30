@@ -1,0 +1,11 @@
+customer add c-m1 arden
+customer add c-m2 crest
+customer close c-m1
+set po c-m1 P1
+set email c-m1 a@b.c
+set note c-m1 n1
+set name c-m1 Z
+set email c-m2 b@b.c
+customer show c-m1
+customer show c-m2
+audit

@@ -1,0 +1,19 @@
+customer add c-delta delta tier=basic
+customer add c-ember ember tier=basic
+customer add c-forge forge tier=basic
+customer add c-brook brook tier=basic
+customer add c-arden arden tier=basic
+receive alder paper-a4 400
+receive alder plank-2m 100
+order add c-delta paper-a4:3
+ship ORD-0001 carrier=tern
+order add c-ember paper-a4:10
+ship ORD-0002 carrier=tern
+order add c-forge paper-a4:20
+ship ORD-0003 carrier=tern
+order add c-brook plank-2m:4
+ship ORD-0004 carrier=tern
+order add c-arden paper-a4:5
+ship ORD-0005 carrier=tern
+order add c-delta plank-2m:15
+ship ORD-0006 carrier=tern

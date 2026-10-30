@@ -1,0 +1,13 @@
+customer c-s1 added region=arden tier=basic
+received lot L0001 alder crisps-50 units 240 expiry 180
+day 166 Sat
+order ORD-0001 customer c-s1 goods 19.20 status open
+  crisps-50 qty=24 allocated=24 backorder=0
+order ORD-0001 customer c-s1 day 166 goods 19.20 status open ref=-
+  crisps-50 qty=24 allocated=24 backorder=0 shipped=0 returned=0 cancelled=0
+    from alder lot L0001 x24
+day 167 Sun
+order ORD-0002 customer c-s1 goods 19.20 status backorder
+  crisps-50 qty=24 allocated=0 backorder=24
+order ORD-0002 customer c-s1 day 167 goods 19.20 status backorder ref=-
+  crisps-50 qty=24 allocated=0 backorder=24 shipped=0 returned=0 cancelled=0

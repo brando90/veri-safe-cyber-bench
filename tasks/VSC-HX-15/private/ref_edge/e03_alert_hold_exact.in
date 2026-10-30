@@ -1,0 +1,21 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+set hold 5
+ship add S1 "Hold box" route=R3 class=chilled
+read S1 t=0 temp=5.0
+read S1 t=60 temp=9.0
+read S1 t=120 temp=9.5
+read S1 t=360 temp=5.0
+read S1 t=400 temp=5.0
+read S1 t=460 temp=9.0
+read S1 t=700 temp=5.0
+read S1 t=760 temp=9.0
+read S1 t=1100 temp=9.9
+excursions S1
+alerts
+alerts kind=excursion
+report S1

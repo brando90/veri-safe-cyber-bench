@@ -1,0 +1,13 @@
+clock set to 2026-03-10T12:00:00Z
+rule added: mask a
+rule added: mask b
+rule added: mask c
+rule added: mask d
+rule added: mask e
+rule added: mask f
+rule added: mask g
+rule added: mask h
+logged #1
+#1 2026-03-09T10:00:00Z web bob a= b=* c=** d=*** e=***z f=******g g=******gh h=****************qrstu
+    changed: a, b, c, d, e, f, g, h
+exported 1 records, 8 fields changed

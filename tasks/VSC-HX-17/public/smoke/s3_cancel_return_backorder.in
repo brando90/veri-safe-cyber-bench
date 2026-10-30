@@ -1,0 +1,18 @@
+# a short order, a cancellation, a return and a backorder
+customer add c-one brook
+customer add c-two crest tier=silver
+receive alder shirt-m 60
+receive alder tumbler-6 24
+order add c-one shirt-m:40 tumbler-6:12
+order add c-two shirt-m:40
+order show ORD-0002
+order cancel ORD-0001
+order show ORD-0001
+backorder run
+order show ORD-0002
+ship ORD-0002
+tick 3
+return ORD-0002 shirt-m 5
+return ORD-0002 shirt-m 2 cond=damaged
+stock alder
+ledger alder

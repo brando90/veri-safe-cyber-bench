@@ -1,0 +1,4 @@
+now 2026-03-10T12:00:00Z
+log 2026-03-09T10:00:00Z web bob -- login password=ab token=xyz other words
+log 2026-03-09T10:00:01Z web bob -- pin secret=7 and apikey=abcd
+export

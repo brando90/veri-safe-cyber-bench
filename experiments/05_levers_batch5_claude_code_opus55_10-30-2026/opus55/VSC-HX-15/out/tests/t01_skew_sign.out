@@ -1,0 +1,16 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok route R3 stops=3
+ok ship S1
+ok ship S2
+error: corrected time is before the start of the run
+window S1 n=2
+  90 4.0
+  150.5 4.5
+window S2 n=2
+  5 5.0
+  65 5.5
+timeline S1 n=2
+  d1 00:01:30 4.0
+  d1 00:02:30.500 4.5

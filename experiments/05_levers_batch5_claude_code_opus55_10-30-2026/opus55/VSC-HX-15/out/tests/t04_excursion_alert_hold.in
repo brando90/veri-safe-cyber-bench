@@ -1,0 +1,25 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+route add R3 AMS LHR JFK
+set hold 2
+ship add S1 "Long trip" route=R3 class=chilled
+ship add S2 "Short hold" route=R3 class=chilled maxexc=1
+read S1 t=0 temp=5.0
+read S1 t=60 temp=9.0
+read S1 t=120 temp=9.5
+read S1 t=180 temp=5.0
+read S1 t=240 temp=10.0
+read S1 t=300 temp=5.0
+read S2 t=0 temp=5.0
+read S2 t=60 temp=1.0
+read S2 t=119 temp=1.5
+read S2 t=120 temp=5.0
+read S2 t=180 temp=0.5
+read S2 t=240 temp=0.0
+excursions S1
+excursions S2
+alerts
+alerts S2 kind=excursion
+report S1
+rank by=alerts

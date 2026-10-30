@@ -1,0 +1,38 @@
+clock set to 2026-03-10T12:00:00Z
+retention set to 14 days
+logged #1
+logged #2
+logged #3
+logged #4
+logged #5
+logged #6
+logged #7
+logged #8
+purged 2 records (ids 1, 3), 6 kept
+report at 2026-03-10T12:00:00Z
+records: 6 (bytes 0)
+sources: 3, average 2 records per source
+by source:
+  auth               3   50.0%
+  web                2   33.3%
+  db                 1   16.7%
+by user (top 3):
+  bob                5   83.3%
+  erin               1   16.7%
+by domain:
+  -                  6  100.0%
+by level:
+  info               6  100.0%
+largest record: #2 (0 bytes)
+alerts (window 60s):
+  none
+future:
+  #5 is 2 days ahead
+#2 2026-03-08T09:00:00Z auth bob -- recent
+#4 2026-02-24T12:00:00Z web bob -- exactly fourteen days
+#5 2026-03-12T09:00:00Z db erin -- dated after the clock
+#6 2026-03-09T09:00:00Z auth bob -- recent again
+#7 2026-03-09T10:00:00Z auth bob -- and again
+#8 2026-03-09T11:00:00Z web bob -- web fresh
+exported 6 records, 0 fields changed
+check ok

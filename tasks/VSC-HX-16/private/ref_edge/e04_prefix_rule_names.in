@@ -1,0 +1,9 @@
+now 2026-03-10T12:00:00Z
+rule prefix xfer
+rule redact xray
+log 2026-03-09T10:00:00Z web bob xfer_id=1 x-ferry=2 fer_b=3 xfers=4 ray=5 xray=6 x-xray=7 x-x-ray=8
+export
+stats
+rules
+unrule xray
+export

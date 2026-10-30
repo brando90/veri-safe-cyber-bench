@@ -1,0 +1,25 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Class box" route=R3 class=vaccine
+ship add S2 "Class override" route=R3 class=ambient min=18.0
+ship add S3 "Explicit first" route=R3 max=9.0 class=cool
+ship add S4 "Order" route=R3 min=1.0 class=frozen
+ship show S1
+ship show S2
+ship show S3
+ship show S4
+ship edit S1 class=frozen
+ship show S1
+ship edit S1 class=nonsense
+ship show S1
+read S4 t=0 temp=-20.0
+read S4 t=1 temp=-14.9
+read S4 t=2 temp=-15.0
+read S4 t=3 temp=1.0
+read S4 t=4 temp=-25.1
+excursions S4
+sla S4

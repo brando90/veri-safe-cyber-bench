@@ -1,0 +1,20 @@
+customer add c-arden arden tier=basic
+customer add c-brook brook tier=basic
+customer add c-ember ember tier=basic
+customer add c-forge forge tier=basic
+receive alder paper-a4 400
+receive alder shirt-m 100
+customer add c-gold1 ember tier=gold
+receive alder shirt-m 30
+order add c-arden shirt-m:10
+ship ORD-0001 carrier=tern
+order add c-ember paper-a4:7 shirt-m:3
+ship ORD-0002 carrier=tern
+order add c-gold1 paper-a4:10
+ship ORD-0003 carrier=tern at=15
+order add c-forge shirt-m:5
+order cancel ORD-0004
+report goods_tier
+customer close c-forge
+set email c-forge x@y.z
+stock alder

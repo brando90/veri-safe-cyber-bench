@@ -1,0 +1,73 @@
+customer c-arden added region=arden tier=basic
+received lot L0001 alder paper-a4 units 10 expiry -
+received lot L0002 alder bolt-m6 units 300 expiry -
+received lot L0003 alder cable-usb units 100 expiry -
+received lot L0004 alder hammer-1 units 12 expiry -
+received lot L0005 alder charger-20 units 20 expiry -
+received lot L0006 alder tumbler-6 units 24 expiry -
+received lot L0007 alder shirt-m units 60 expiry -
+received lot L0008 alder crisps-50 units 96 expiry 180
+received lot L0009 alder plank-2m units 50 expiry -
+received lot L0010 harbor paper-a3 units 10 expiry -
+received lot L0011 harbor cable-hdmi units 101 expiry -
+received lot L0012 harbor bolt-m6 units 500 expiry -
+received lot L0013 dune milk-1l units 36 expiry 21
+received lot L0014 dune vitamin-c units 40 expiry 200
+  alder bolt-m6 available=300 reorder=400 suggest=500
+  alder cable-usb available=100 reorder=100 suggest=100
+  alder charger-20 available=20 reorder=20 suggest=20
+  alder crisps-50 available=96 reorder=96 suggest=96
+  alder hammer-1 available=12 reorder=12 suggest=12
+  alder plank-2m available=50 reorder=50 suggest=50
+  alder shirt-m available=60 reorder=60 suggest=60
+  alder tumbler-6 available=24 reorder=24 suggest=24
+  dune milk-1l available=36 reorder=36 suggest=36
+  dune vitamin-c available=40 reorder=40 suggest=40
+10 suggestions
+  alder bolt-m6 available=300 reorder=400 suggest=500
+  alder cable-usb available=100 reorder=100 suggest=100
+  alder charger-20 available=20 reorder=20 suggest=20
+  alder crisps-50 available=96 reorder=96 suggest=96
+  alder hammer-1 available=12 reorder=12 suggest=12
+  alder plank-2m available=50 reorder=50 suggest=50
+  alder shirt-m available=60 reorder=60 suggest=60
+  alder tumbler-6 available=24 reorder=24 suggest=24
+8 suggestions
+report low_stock
+  alder bolt-m6 available=300 reorder=400
+  alder cable-usb available=100 reorder=100
+  alder charger-20 available=20 reorder=20
+  alder crisps-50 available=96 reorder=96
+  alder hammer-1 available=12 reorder=12
+  alder plank-2m available=50 reorder=50
+  alder shirt-m available=60 reorder=60
+  alder tumbler-6 available=24 reorder=24
+  dune milk-1l available=36 reorder=36
+  dune vitamin-c available=40 reorder=40
+end
+report low_stock
+  alder bolt-m6 available=300 reorder=400
+  alder cable-usb available=100 reorder=100
+  alder charger-20 available=20 reorder=20
+  alder crisps-50 available=96 reorder=96
+  alder hammer-1 available=12 reorder=12
+  alder plank-2m available=50 reorder=50
+  alder shirt-m available=60 reorder=60
+  alder tumbler-6 available=24 reorder=24
+end
+order ORD-0001 customer c-arden goods 17.90 status open
+  bolt-m6 qty=100 allocated=100 backorder=0
+  cable-usb qty=1 allocated=1 backorder=0
+  alder bolt-m6 available=200 reorder=400 suggest=600
+  alder cable-usb available=99 reorder=100 suggest=101
+  alder charger-20 available=20 reorder=20 suggest=20
+  alder crisps-50 available=96 reorder=96 suggest=96
+  alder hammer-1 available=12 reorder=12 suggest=12
+  alder plank-2m available=50 reorder=50 suggest=50
+  alder shirt-m available=60 reorder=60 suggest=60
+  alder tumbler-6 available=24 reorder=24 suggest=24
+8 suggestions
+error: unknown warehouse 'nowhere'
+received lot L0015 dune vitamin-c units 20 expiry 300
+  dune milk-1l available=36 reorder=36 suggest=36
+1 suggestions

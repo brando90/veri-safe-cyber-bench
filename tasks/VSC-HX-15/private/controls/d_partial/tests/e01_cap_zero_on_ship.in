@@ -1,0 +1,22 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+set cap 2
+ship add S1 "Unlimited box" route=R3 cap=0
+ship add S2 "Limited box" route=R3
+ship show S1
+ship show S2
+read S1 t=0 temp=5.0
+read S1 t=10 temp=5.1
+read S1 t=20 temp=5.2
+read S1 t=30 temp=5.3
+read S1 t=40 temp=5.4
+read S2 t=0 temp=5.0
+read S2 t=10 temp=5.1
+read S2 t=20 temp=5.2
+window S1
+window S2
+stats

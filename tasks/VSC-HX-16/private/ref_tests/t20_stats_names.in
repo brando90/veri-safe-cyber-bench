@@ -1,0 +1,7 @@
+now 2026-03-10T12:00:00Z
+log 2026-03-09T10:00:00Z a u x-trace=1 trace=2 level=info zone=1 alpha=1
+log 2026-03-09T10:00:01Z a u Trace=3 level=warn level=error zone=2
+log 2026-03-09T10:00:02Z a u trace=4 level=debug
+log 2026-03-09T10:00:03Z a u x-trace=4
+stats
+export

@@ -1,0 +1,27 @@
+now 2026-03-10T12:00:00Z
+retain 7
+limit * 2
+limit web 0
+window 30
+log 2026-03-03T10:00:00Z web bob
+log 2026-03-03T10:01:00Z db amy@a.org
+log 2026-03-03T10:02:00Z auth zed@z.org
+log 2026-03-03T10:03:00Z mail mia@a.org
+log 2026-03-03T10:04:00Z web bob
+log 2026-03-03T10:05:00Z db amy@a.org
+log 2026-03-09T10:06:00Z auth zed@z.org
+log 2026-03-09T10:07:00Z mail mia@a.org
+log 2026-03-09T10:08:00Z web bob
+log 2026-03-09T10:09:00Z db amy@a.org
+log 2026-03-09T10:10:00Z auth zed@z.org
+log 2026-03-09T10:11:00Z mail mia@a.org
+log 2026-03-09T10:12:00Z web bob
+log 2026-03-09T10:13:00Z db amy@a.org
+log 2026-03-09T10:14:00Z auth zed@z.org
+log 2026-03-09T10:15:00Z mail mia@a.org
+purge
+report
+stats
+export keep=ip
+export
+rules

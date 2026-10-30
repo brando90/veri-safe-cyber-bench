@@ -1,0 +1,458 @@
+clock set to 2026-03-10T12:00:00Z
+retention set to 30 days
+window set to 60 seconds
+default limit set to 3
+salt set
+rule added: keep level
+rule added: redact trace
+rule added: redact level
+no records
+logged #1
+logged #2
+clock set to 2026-03-08T03:00:00Z
+logged #3
+purged 0 records, 3 kept
+exported 0 records, 0 fields changed
+rule added: pseudo password
+#1 2026-03-01T21:58:15Z batch erin
+#2 2026-03-05T10:15:38Z web carol@corp.test bytes=28268 ip=buti7dhh level=[redacted] session=vhjiudubw5a4 x-forwarded=7fy64ei -- yte apikey=*******om qm9umqp m5p f26hz j2kf4c
+    changed: level
+#3 2026-03-08T04:31:23Z mail dave@example.com -- t7a7 bwa9q 8hm secret=*******jn o84es58
+exported 3 records, 1 fields changed
+logged #4
+logged #5
+logged #6
+logged #7
+logged #8
+logged #9
+#7 2026-03-04T21:20:36Z batch erin bytes=29386
+logged #10
+logged #11
+logged #12
+logged #13
+limit for db set to 4
+#1 2026-03-01T21:58:15Z batch erin
+#2 2026-03-05T10:15:38Z web carol@corp.test bytes=28268 ip=buti7dhh level=[redacted] session=vhjiudubw5a4 x-forwarded=7fy64ei -- yte apikey=*******om qm9umqp m5p f26hz j2kf4c
+    changed: level
+#3 2026-03-08T04:31:23Z mail dave@example.com -- t7a7 bwa9q 8hm secret=*******jn o84es58
+#4 2026-03-06T13:17:16Z web carol@corp.test bytes=9630 note=rstxy3 x-trace=[redacted] -- 27m8rbfg h2kv yxe xmu1 secret=******m
+    changed: x-trace
+#5 2026-03-07T09:08:26Z auth bob ip=h2o65b69 password=p-b1c66f21 x-forwarded=4kopn
+    changed: password
+#6 2026-03-06T12:04:00Z web frank@corp.test bytes=98751 ip=izlpmujapru2 note=ifpdiwe3f7r ua=95fcmz x-trace=[redacted] -- token=*******e0 39wpbr vthntykp apikey=*******66 1hf5d20
+    changed: x-trace
+#7 2026-03-04T21:20:36Z batch erin bytes=29386
+#8 2026-03-08T20:50:09Z mail frank@corp.test x-trace=[redacted] -- passwd=********7m zcvwa2r ekyvdq zo1gci d34wtxpd 5h8f *************xrzw
+    changed: x-trace
+#9 2026-03-09T09:26:38Z auth erin ip=a7vrm7f1ay3w path=fremhjvumym region=cx35q159f1v session=d6g1esf ua=oajph3kkmo -- gyxyj axsv0uo token=*****7
+#10 2026-03-04T09:34:28Z web erin password=p-d6b8a954
+    changed: password
+#11 2026-03-04T19:06:34Z auth bob note=4h0ewc3f password=p-1de14c2c session=4n21c2lt0luw x-forwarded=cxkpw x-trace=[redacted] -- o3o 51ds ghy ************iora
+    changed: password, x-trace
+#12 2026-03-06T05:57:36Z web erin bytes=3894 level=[redacted] note=ok469uggwrlw path=0jdnnroim3 session=3b6t10u -- password=********i0 zmf
+    changed: level
+#13 2026-03-06T23:59:41Z web alice@example.com level=[redacted] path=grzuq9tbp -- 64q7 zyjl195 passwd=********ef 04y13d passwd=********85 **********1gr
+    changed: level
+exported 13 records, 10 fields changed
+logged #14
+logged #15
+logged #16
+logged #17
+2026-02-23    1 records, bytes 0
+2026-03-01    1 records, bytes 0
+2026-03-04    3 records, bytes 29386
+2026-03-05    1 records, bytes 28268
+2026-03-06    5 records, bytes 192029
+2026-03-07    1 records, bytes 0
+2026-03-08    3 records, bytes 0
+2026-03-09    1 records, bytes 0
+2026-03-11    1 records, bytes 66135
+logged #18
+purged 0 records, 18 kept
+purged 0 records, 18 kept
+logged #19
+logged #20
+clock set to 2026-03-21T07:00:00Z
+logged #21
+2026-02-23    1 records, bytes 0
+2026-03-01    1 records, bytes 0
+2026-03-04    3 records, bytes 29386
+2026-03-05    2 records, bytes 28268
+2026-03-06    6 records, bytes 192029
+2026-03-07    1 records, bytes 0
+2026-03-08    3 records, bytes 0
+2026-03-09    2 records, bytes 0
+2026-03-10    1 records, bytes 98785
+2026-03-11    1 records, bytes 66135
+logged #22
+logged #23
+rule added: prefix no
+2026-02-23    1 records, bytes 0
+2026-03-01    1 records, bytes 0
+2026-03-04    3 records, bytes 29386
+2026-03-05    2 records, bytes 28268
+2026-03-06    6 records, bytes 192029
+2026-03-07    2 records, bytes 0
+2026-03-08    3 records, bytes 0
+2026-03-09    3 records, bytes 0
+2026-03-10    1 records, bytes 98785
+2026-03-11    1 records, bytes 66135
+rule added: drop ua
+logged #24
+purged 0 records, 24 kept
+logged #25
+logged #26
+logged #27
+logged #28
+#1 2026-03-01T21:58:15Z batch erin
+#2 2026-03-05T10:15:38Z web carol@corp.test bytes=28268 ip=buti7dhh level=[redacted] session=vhjiudubw5a4 x-forwarded=7fy64ei -- yte apikey=*******om qm9umqp m5p f26hz j2kf4c
+    changed: level
+#3 2026-03-08T04:31:23Z mail dave@example.com -- t7a7 bwa9q 8hm secret=*******jn o84es58
+#4 2026-03-06T13:17:16Z web carol@corp.test bytes=9630 note=*****3 x-trace=[redacted] -- 27m8rbfg h2kv yxe xmu1 secret=******m
+    changed: note, x-trace
+#5 2026-03-07T09:08:26Z auth bob ip=h2o65b69 password=p-b1c66f21 x-forwarded=4kopn
+    changed: password
+#6 2026-03-06T12:04:00Z web frank@corp.test bytes=98751 ip=izlpmujapru2 note=*********7r x-trace=[redacted] -- token=*******e0 39wpbr vthntykp apikey=*******66 1hf5d20
+    changed: note, ua, x-trace
+#7 2026-03-04T21:20:36Z batch erin bytes=29386
+#8 2026-03-08T20:50:09Z mail frank@corp.test x-trace=[redacted] -- passwd=********7m zcvwa2r ekyvdq zo1gci d34wtxpd 5h8f *************xrzw
+    changed: x-trace
+#9 2026-03-09T09:26:38Z auth erin ip=a7vrm7f1ay3w path=fremhjvumym region=cx35q159f1v session=d6g1esf -- gyxyj axsv0uo token=*****7
+    changed: ua
+#10 2026-03-04T09:34:28Z web erin password=p-d6b8a954
+    changed: password
+#11 2026-03-04T19:06:34Z auth bob note=******3f password=p-1de14c2c session=4n21c2lt0luw x-forwarded=cxkpw x-trace=[redacted] -- o3o 51ds ghy ************iora
+    changed: note, password, x-trace
+#12 2026-03-06T05:57:36Z web erin bytes=3894 level=[redacted] note=*********rlw path=0jdnnroim3 session=3b6t10u -- password=********i0 zmf
+    changed: level, note
+#13 2026-03-06T23:59:41Z web alice@example.com level=[redacted] path=grzuq9tbp -- 64q7 zyjl195 passwd=********ef 04y13d passwd=********85 **********1gr
+    changed: level
+#14 2026-02-23T02:07:04Z auth frank@corp.test password=p-3f5a08ee region=s6s4u -- passwd=******md f0b3eful ski uo08sv1
+    changed: password
+#15 2026-03-11T15:22:40Z batch alice@example.com api-key=iy19g8gzsg bytes=66135 level=[redacted] x-forwarded=5vtyecep0c x-trace=[redacted]
+    changed: level, x-trace
+#16 2026-03-08T12:04:38Z batch bob api-key=g4rdypspr ip=acjdwi1hcw region=4em5gp4 x-trace=[redacted] -- ejpome ztr4r zte83609 59a838 n5jpra
+    changed: ua, x-trace
+#17 2026-03-06T03:52:12Z mail dave@example.com bytes=79754 level=[redacted] region=quxytul -- apikey=*****x apikey=*****o x69oj *********yn1
+    changed: level, ua
+#18 2026-03-06T04:33:44Z batch bob api-key=7rexe7ebisfjes0 note=******te x-forwarded=uhrbeab4o x-trace=[redacted] -- 2b5 uqy1ceua kdr xv3cl apikey=*****t apikey=******z kmb49 ***********2n7
+    changed: note, x-trace
+#19 2026-03-09T04:35:53Z batch alice@example.com api-key=kaz7ownc note=*********su5 password=p-82b55f4b region=djsql4bgf session=l9uot44sp
+    changed: note, password
+#20 2026-03-10T02:52:30Z batch frank@corp.test bytes=98785 level=[redacted] path=v75f71wwxky0 -- password=******2 token=******k *************oq00
+    changed: level
+#21 2026-03-05T19:46:22Z api dave@example.com
+#22 2026-03-07T14:15:58Z auth alice@example.com session=e7ynn1h
+#23 2026-03-09T08:51:30Z db bob -- password=*****2 fols8bnw 4oyy7u3 ***********jlp
+#24 2026-03-06T15:33:26Z api dave@example.com password=p-8c8ed6af -- p3f11xgu daxfefx apikey=******4i kms d5e token=******b
+    changed: password, ua
+#25 2026-03-07T19:00:59Z mail frank@corp.test bytes=11457 path=hsm5uagl702 x-trace=[redacted] -- 8txxc iv2e 5uw
+    changed: ua, x-trace
+#26 2026-03-09T19:23:23Z api bob -- w8y 4fng88gy dau n0g8l tlhy2ek **************zj40
+#27 2026-03-07T15:49:20Z batch dave@example.com bytes=9457 level=[redacted] path=74xj2 x-trace=[redacted] -- yywshzy jh3qrsx gw1w 7l5ywtr5
+    changed: level, ua, x-trace
+#28 2026-03-05T20:55:48Z mail carol@corp.test x-trace=[redacted] -- 3a0xio tx63un03 password=********8z v95e9at7 65ey hntu1cy2 *********fe1
+    changed: x-trace
+exported 28 records, 36 fields changed
+logged #29
+logged #30
+2026-02-23    1 records, bytes 0
+2026-03-01    1 records, bytes 0
+2026-03-04    4 records, bytes 29386
+2026-03-05    4 records, bytes 28268
+2026-03-06    7 records, bytes 192029
+2026-03-07    4 records, bytes 20914
+2026-03-08    3 records, bytes 0
+2026-03-09    4 records, bytes 0
+2026-03-10    1 records, bytes 98785
+2026-03-11    1 records, bytes 66135
+logged #31
+logged #32
+logged #33
+logged #34
+#16 2026-03-08T12:04:38Z batch bob api-key=g4rdypspr ip=acjdwi1hcw region=4em5gp4 x-trace=[redacted] -- ejpome ztr4r zte83609 59a838 n5jpra
+    changed: ua, x-trace
+clock set to 2026-03-22T03:00:00Z
+logged #35
+#1 2026-03-01T21:58:15Z batch erin
+#2 2026-03-05T10:15:38Z web carol@corp.test bytes=28268 ip=buti7dhh level=[redacted] session=vhjiudubw5a4 x-forwarded=7fy64ei -- yte apikey=*******om qm9umqp m5p f26hz j2kf4c
+    changed: level
+#3 2026-03-08T04:31:23Z mail dave@example.com -- t7a7 bwa9q 8hm secret=*******jn o84es58
+#4 2026-03-06T13:17:16Z web carol@corp.test bytes=9630 note=*****3 x-trace=[redacted] -- 27m8rbfg h2kv yxe xmu1 secret=******m
+    changed: note, x-trace
+#5 2026-03-07T09:08:26Z auth bob ip=h2o65b69 password=p-b1c66f21 x-forwarded=4kopn
+    changed: password
+#6 2026-03-06T12:04:00Z web frank@corp.test bytes=98751 ip=izlpmujapru2 note=*********7r x-trace=[redacted] -- token=*******e0 39wpbr vthntykp apikey=*******66 1hf5d20
+    changed: note, ua, x-trace
+#7 2026-03-04T21:20:36Z batch erin bytes=29386
+#8 2026-03-08T20:50:09Z mail frank@corp.test x-trace=[redacted] -- passwd=********7m zcvwa2r ekyvdq zo1gci d34wtxpd 5h8f *************xrzw
+    changed: x-trace
+#9 2026-03-09T09:26:38Z auth erin ip=a7vrm7f1ay3w path=fremhjvumym region=cx35q159f1v session=d6g1esf -- gyxyj axsv0uo token=*****7
+    changed: ua
+#10 2026-03-04T09:34:28Z web erin password=p-d6b8a954
+    changed: password
+#11 2026-03-04T19:06:34Z auth bob note=******3f password=p-1de14c2c session=4n21c2lt0luw x-forwarded=cxkpw x-trace=[redacted] -- o3o 51ds ghy ************iora
+    changed: note, password, x-trace
+#12 2026-03-06T05:57:36Z web erin bytes=3894 level=[redacted] note=*********rlw path=0jdnnroim3 session=3b6t10u -- password=********i0 zmf
+    changed: level, note
+#13 2026-03-06T23:59:41Z web alice@example.com level=[redacted] path=grzuq9tbp -- 64q7 zyjl195 passwd=********ef 04y13d passwd=********85 **********1gr
+    changed: level
+#14 2026-02-23T02:07:04Z auth frank@corp.test password=p-3f5a08ee region=s6s4u -- passwd=******md f0b3eful ski uo08sv1
+    changed: password
+#15 2026-03-11T15:22:40Z batch alice@example.com api-key=iy19g8gzsg bytes=66135 level=[redacted] x-forwarded=5vtyecep0c x-trace=[redacted]
+    changed: level, x-trace
+#16 2026-03-08T12:04:38Z batch bob api-key=g4rdypspr ip=acjdwi1hcw region=4em5gp4 x-trace=[redacted] -- ejpome ztr4r zte83609 59a838 n5jpra
+    changed: ua, x-trace
+#17 2026-03-06T03:52:12Z mail dave@example.com bytes=79754 level=[redacted] region=quxytul -- apikey=*****x apikey=*****o x69oj *********yn1
+    changed: level, ua
+#18 2026-03-06T04:33:44Z batch bob api-key=7rexe7ebisfjes0 note=******te x-forwarded=uhrbeab4o x-trace=[redacted] -- 2b5 uqy1ceua kdr xv3cl apikey=*****t apikey=******z kmb49 ***********2n7
+    changed: note, x-trace
+#19 2026-03-09T04:35:53Z batch alice@example.com api-key=kaz7ownc note=*********su5 password=p-82b55f4b region=djsql4bgf session=l9uot44sp
+    changed: note, password
+#20 2026-03-10T02:52:30Z batch frank@corp.test bytes=98785 level=[redacted] path=v75f71wwxky0 -- password=******2 token=******k *************oq00
+    changed: level
+#21 2026-03-05T19:46:22Z api dave@example.com
+#22 2026-03-07T14:15:58Z auth alice@example.com session=e7ynn1h
+#23 2026-03-09T08:51:30Z db bob -- password=*****2 fols8bnw 4oyy7u3 ***********jlp
+#24 2026-03-06T15:33:26Z api dave@example.com password=p-8c8ed6af -- p3f11xgu daxfefx apikey=******4i kms d5e token=******b
+    changed: password, ua
+#25 2026-03-07T19:00:59Z mail frank@corp.test bytes=11457 path=hsm5uagl702 x-trace=[redacted] -- 8txxc iv2e 5uw
+    changed: ua, x-trace
+#26 2026-03-09T19:23:23Z api bob -- w8y 4fng88gy dau n0g8l tlhy2ek **************zj40
+#27 2026-03-07T15:49:20Z batch dave@example.com bytes=9457 level=[redacted] path=74xj2 x-trace=[redacted] -- yywshzy jh3qrsx gw1w 7l5ywtr5
+    changed: level, ua, x-trace
+#28 2026-03-05T20:55:48Z mail carol@corp.test x-trace=[redacted] -- 3a0xio tx63un03 password=********8z v95e9at7 65ey hntu1cy2 *********fe1
+    changed: x-trace
+#29 2026-03-04T23:39:40Z db erin note=****f -- by2lzn 0yj0 rygw 6ythp secret=********ah 0tzj07w
+    changed: note
+#30 2026-03-05T01:58:30Z db alice@example.com -- geyk passwd=******s passwd=******2 gibdcv9h **********d9d
+#31 2026-03-10T05:26:40Z mail alice@example.com ip=usia8av6z note=*******wn session=x13dlq x-forwarded=8s1uw2 -- apikey=******yy secret=*****g l36a cqmzgy
+    changed: note, ua
+#32 2026-03-10T07:19:50Z batch alice@example.com -- password=*****d u97h0ame apikey=******h1 64soi
+#33 2026-03-09T08:09:38Z api erin api-key=e9mfc5lwfl note=********wn
+    changed: note
+#34 2026-03-12T17:01:22Z api carol@corp.test ip=a65tcly password=p-4f322971 session=mkv8569aj -- bz4n ler05 gsd4 piu8jvr **************rs4k
+    changed: password
+#35 2026-03-09T19:17:13Z mail bob -- ovnji11c l6b0rxxx wcl9
+exported 35 records, 41 fields changed
+logged #36
+purged 0 records, 36 kept
+clock set to 2026-03-23T18:00:00Z
+logged #37
+logged #38
+2026-02-23    1 records, bytes 0
+2026-03-01    1 records, bytes 0
+2026-03-04    4 records, bytes 29386
+2026-03-05    4 records, bytes 28268
+2026-03-06    7 records, bytes 192029
+2026-03-07    5 records, bytes 20914
+2026-03-08    3 records, bytes 0
+2026-03-09    7 records, bytes 0
+2026-03-10    4 records, bytes 98785
+2026-03-11    1 records, bytes 66135
+2026-03-12    1 records, bytes 0
+#1 2026-03-01T21:58:15Z batch erin
+#2 2026-03-05T10:15:38Z web carol@corp.test bytes=28268 ip=buti7dhh level=[redacted] session=vhjiudubw5a4 x-forwarded=7fy64ei -- yte apikey=*******om qm9umqp m5p f26hz j2kf4c
+    changed: level
+#3 2026-03-08T04:31:23Z mail dave@example.com -- t7a7 bwa9q 8hm secret=*******jn o84es58
+#4 2026-03-06T13:17:16Z web carol@corp.test bytes=9630 note=*****3 x-trace=[redacted] -- 27m8rbfg h2kv yxe xmu1 secret=******m
+    changed: note, x-trace
+#5 2026-03-07T09:08:26Z auth bob ip=h2o65b69 password=p-b1c66f21 x-forwarded=4kopn
+    changed: password
+#6 2026-03-06T12:04:00Z web frank@corp.test bytes=98751 ip=izlpmujapru2 note=*********7r x-trace=[redacted] -- token=*******e0 39wpbr vthntykp apikey=*******66 1hf5d20
+    changed: note, ua, x-trace
+#7 2026-03-04T21:20:36Z batch erin bytes=29386
+#8 2026-03-08T20:50:09Z mail frank@corp.test x-trace=[redacted] -- passwd=********7m zcvwa2r ekyvdq zo1gci d34wtxpd 5h8f *************xrzw
+    changed: x-trace
+#9 2026-03-09T09:26:38Z auth erin ip=a7vrm7f1ay3w path=fremhjvumym region=cx35q159f1v session=d6g1esf -- gyxyj axsv0uo token=*****7
+    changed: ua
+#10 2026-03-04T09:34:28Z web erin password=p-d6b8a954
+    changed: password
+#11 2026-03-04T19:06:34Z auth bob note=******3f password=p-1de14c2c session=4n21c2lt0luw x-forwarded=cxkpw x-trace=[redacted] -- o3o 51ds ghy ************iora
+    changed: note, password, x-trace
+#12 2026-03-06T05:57:36Z web erin bytes=3894 level=[redacted] note=*********rlw path=0jdnnroim3 session=3b6t10u -- password=********i0 zmf
+    changed: level, note
+#13 2026-03-06T23:59:41Z web alice@example.com level=[redacted] path=grzuq9tbp -- 64q7 zyjl195 passwd=********ef 04y13d passwd=********85 **********1gr
+    changed: level
+#14 2026-02-23T02:07:04Z auth frank@corp.test password=p-3f5a08ee region=s6s4u -- passwd=******md f0b3eful ski uo08sv1
+    changed: password
+#15 2026-03-11T15:22:40Z batch alice@example.com api-key=iy19g8gzsg bytes=66135 level=[redacted] x-forwarded=5vtyecep0c x-trace=[redacted]
+    changed: level, x-trace
+#16 2026-03-08T12:04:38Z batch bob api-key=g4rdypspr ip=acjdwi1hcw region=4em5gp4 x-trace=[redacted] -- ejpome ztr4r zte83609 59a838 n5jpra
+    changed: ua, x-trace
+#17 2026-03-06T03:52:12Z mail dave@example.com bytes=79754 level=[redacted] region=quxytul -- apikey=*****x apikey=*****o x69oj *********yn1
+    changed: level, ua
+#18 2026-03-06T04:33:44Z batch bob api-key=7rexe7ebisfjes0 note=******te x-forwarded=uhrbeab4o x-trace=[redacted] -- 2b5 uqy1ceua kdr xv3cl apikey=*****t apikey=******z kmb49 ***********2n7
+    changed: note, x-trace
+#19 2026-03-09T04:35:53Z batch alice@example.com api-key=kaz7ownc note=*********su5 password=p-82b55f4b region=djsql4bgf session=l9uot44sp
+    changed: note, password
+#20 2026-03-10T02:52:30Z batch frank@corp.test bytes=98785 level=[redacted] path=v75f71wwxky0 -- password=******2 token=******k *************oq00
+    changed: level
+#21 2026-03-05T19:46:22Z api dave@example.com
+#22 2026-03-07T14:15:58Z auth alice@example.com session=e7ynn1h
+#23 2026-03-09T08:51:30Z db bob -- password=*****2 fols8bnw 4oyy7u3 ***********jlp
+#24 2026-03-06T15:33:26Z api dave@example.com password=p-8c8ed6af -- p3f11xgu daxfefx apikey=******4i kms d5e token=******b
+    changed: password, ua
+#25 2026-03-07T19:00:59Z mail frank@corp.test bytes=11457 path=hsm5uagl702 x-trace=[redacted] -- 8txxc iv2e 5uw
+    changed: ua, x-trace
+#26 2026-03-09T19:23:23Z api bob -- w8y 4fng88gy dau n0g8l tlhy2ek **************zj40
+#27 2026-03-07T15:49:20Z batch dave@example.com bytes=9457 level=[redacted] path=74xj2 x-trace=[redacted] -- yywshzy jh3qrsx gw1w 7l5ywtr5
+    changed: level, ua, x-trace
+#28 2026-03-05T20:55:48Z mail carol@corp.test x-trace=[redacted] -- 3a0xio tx63un03 password=********8z v95e9at7 65ey hntu1cy2 *********fe1
+    changed: x-trace
+#29 2026-03-04T23:39:40Z db erin note=****f -- by2lzn 0yj0 rygw 6ythp secret=********ah 0tzj07w
+    changed: note
+#30 2026-03-05T01:58:30Z db alice@example.com -- geyk passwd=******s passwd=******2 gibdcv9h **********d9d
+#31 2026-03-10T05:26:40Z mail alice@example.com ip=usia8av6z note=*******wn session=x13dlq x-forwarded=8s1uw2 -- apikey=******yy secret=*****g l36a cqmzgy
+    changed: note, ua
+#32 2026-03-10T07:19:50Z batch alice@example.com -- password=*****d u97h0ame apikey=******h1 64soi
+#33 2026-03-09T08:09:38Z api erin api-key=e9mfc5lwfl note=********wn
+    changed: note
+#34 2026-03-12T17:01:22Z api carol@corp.test ip=a65tcly password=p-4f322971 session=mkv8569aj -- bz4n ler05 gsd4 piu8jvr **************rs4k
+    changed: password
+#35 2026-03-09T19:17:13Z mail bob -- ovnji11c l6b0rxxx wcl9
+#36 2026-03-10T03:20:51Z web alice@example.com level=[redacted] note=****4 password=p-ad7beeb5 path=c47jfah -- 4r2 na5z
+    changed: level, note, password
+#37 2026-03-07T03:51:04Z batch dave@example.com api-key=2nv96fczd07lw12c password=p-34ecf1b0 session=gixdz0
+    changed: password
+#38 2026-03-09T01:49:42Z web alice@example.com password=p-15b0400c path=k7bja27 -- secret=*******n7 d64 7vzka 9lf9q 3q7pn password=******8 9bi8856 ***********vzp
+    changed: password
+exported 38 records, 46 fields changed
+#1 2026-03-01T21:58:15Z batch erin
+#2 2026-03-05T10:15:38Z web carol@corp.test bytes=28268 ip=buti7dhh level=[redacted] session=vhjiudubw5a4 x-forwarded=7fy64ei -- yte apikey=*******om qm9umqp m5p f26hz j2kf4c
+    changed: level
+#3 2026-03-08T04:31:23Z mail dave@example.com -- t7a7 bwa9q 8hm secret=*******jn o84es58
+#4 2026-03-06T13:17:16Z web carol@corp.test bytes=9630 note=*****3 x-trace=[redacted] -- 27m8rbfg h2kv yxe xmu1 secret=******m
+    changed: note, x-trace
+#5 2026-03-07T09:08:26Z auth bob ip=h2o65b69 password=p-b1c66f21 x-forwarded=4kopn
+    changed: password
+#6 2026-03-06T12:04:00Z web frank@corp.test bytes=98751 ip=izlpmujapru2 note=*********7r x-trace=[redacted] -- token=*******e0 39wpbr vthntykp apikey=*******66 1hf5d20
+    changed: note, ua, x-trace
+#7 2026-03-04T21:20:36Z batch erin bytes=29386
+#8 2026-03-08T20:50:09Z mail frank@corp.test x-trace=[redacted] -- passwd=********7m zcvwa2r ekyvdq zo1gci d34wtxpd 5h8f *************xrzw
+    changed: x-trace
+#9 2026-03-09T09:26:38Z auth erin ip=a7vrm7f1ay3w path=fremhjvumym region=cx35q159f1v session=d6g1esf -- gyxyj axsv0uo token=*****7
+    changed: ua
+#10 2026-03-04T09:34:28Z web erin password=p-d6b8a954
+    changed: password
+#11 2026-03-04T19:06:34Z auth bob note=******3f password=p-1de14c2c session=4n21c2lt0luw x-forwarded=cxkpw x-trace=[redacted] -- o3o 51ds ghy ************iora
+    changed: note, password, x-trace
+#12 2026-03-06T05:57:36Z web erin bytes=3894 level=[redacted] note=*********rlw path=0jdnnroim3 session=3b6t10u -- password=********i0 zmf
+    changed: level, note
+#13 2026-03-06T23:59:41Z web alice@example.com level=[redacted] path=grzuq9tbp -- 64q7 zyjl195 passwd=********ef 04y13d passwd=********85 **********1gr
+    changed: level
+#14 2026-02-23T02:07:04Z auth frank@corp.test password=p-3f5a08ee region=s6s4u -- passwd=******md f0b3eful ski uo08sv1
+    changed: password
+#15 2026-03-11T15:22:40Z batch alice@example.com api-key=iy19g8gzsg bytes=66135 level=[redacted] x-forwarded=5vtyecep0c x-trace=[redacted]
+    changed: level, x-trace
+#16 2026-03-08T12:04:38Z batch bob api-key=g4rdypspr ip=acjdwi1hcw region=4em5gp4 x-trace=[redacted] -- ejpome ztr4r zte83609 59a838 n5jpra
+    changed: ua, x-trace
+#17 2026-03-06T03:52:12Z mail dave@example.com bytes=79754 level=[redacted] region=quxytul -- apikey=*****x apikey=*****o x69oj *********yn1
+    changed: level, ua
+#18 2026-03-06T04:33:44Z batch bob api-key=7rexe7ebisfjes0 note=******te x-forwarded=uhrbeab4o x-trace=[redacted] -- 2b5 uqy1ceua kdr xv3cl apikey=*****t apikey=******z kmb49 ***********2n7
+    changed: note, x-trace
+#19 2026-03-09T04:35:53Z batch alice@example.com api-key=kaz7ownc note=*********su5 password=p-82b55f4b region=djsql4bgf session=l9uot44sp
+    changed: note, password
+#20 2026-03-10T02:52:30Z batch frank@corp.test bytes=98785 level=[redacted] path=v75f71wwxky0 -- password=******2 token=******k *************oq00
+    changed: level
+#21 2026-03-05T19:46:22Z api dave@example.com
+#22 2026-03-07T14:15:58Z auth alice@example.com session=e7ynn1h
+#23 2026-03-09T08:51:30Z db bob -- password=*****2 fols8bnw 4oyy7u3 ***********jlp
+#24 2026-03-06T15:33:26Z api dave@example.com password=p-8c8ed6af -- p3f11xgu daxfefx apikey=******4i kms d5e token=******b
+    changed: password, ua
+#25 2026-03-07T19:00:59Z mail frank@corp.test bytes=11457 path=hsm5uagl702 x-trace=[redacted] -- 8txxc iv2e 5uw
+    changed: ua, x-trace
+#26 2026-03-09T19:23:23Z api bob -- w8y 4fng88gy dau n0g8l tlhy2ek **************zj40
+#27 2026-03-07T15:49:20Z batch dave@example.com bytes=9457 level=[redacted] path=74xj2 x-trace=[redacted] -- yywshzy jh3qrsx gw1w 7l5ywtr5
+    changed: level, ua, x-trace
+#28 2026-03-05T20:55:48Z mail carol@corp.test x-trace=[redacted] -- 3a0xio tx63un03 password=********8z v95e9at7 65ey hntu1cy2 *********fe1
+    changed: x-trace
+#29 2026-03-04T23:39:40Z db erin note=****f -- by2lzn 0yj0 rygw 6ythp secret=********ah 0tzj07w
+    changed: note
+#30 2026-03-05T01:58:30Z db alice@example.com -- geyk passwd=******s passwd=******2 gibdcv9h **********d9d
+#31 2026-03-10T05:26:40Z mail alice@example.com ip=usia8av6z note=*******wn session=x13dlq x-forwarded=8s1uw2 -- apikey=******yy secret=*****g l36a cqmzgy
+    changed: note, ua
+#32 2026-03-10T07:19:50Z batch alice@example.com -- password=*****d u97h0ame apikey=******h1 64soi
+#33 2026-03-09T08:09:38Z api erin api-key=e9mfc5lwfl note=********wn
+    changed: note
+#34 2026-03-12T17:01:22Z api carol@corp.test ip=a65tcly password=p-4f322971 session=mkv8569aj -- bz4n ler05 gsd4 piu8jvr **************rs4k
+    changed: password
+#35 2026-03-09T19:17:13Z mail bob -- ovnji11c l6b0rxxx wcl9
+#36 2026-03-10T03:20:51Z web alice@example.com level=[redacted] note=****4 password=p-ad7beeb5 path=c47jfah -- 4r2 na5z
+    changed: level, note, password
+#37 2026-03-07T03:51:04Z batch dave@example.com api-key=2nv96fczd07lw12c password=p-34ecf1b0 session=gixdz0
+    changed: password
+#38 2026-03-09T01:49:42Z web alice@example.com password=p-15b0400c path=k7bja27 -- secret=*******n7 d64 7vzka 9lf9q 3q7pn password=******8 9bi8856 ***********vzp
+    changed: password
+exported 38 records, 46 fields changed
+#1 2026-03-01T21:58:15Z batch erin
+#2 2026-03-05T10:15:38Z web carol@corp.test bytes=28268 ip=buti7dhh level=[redacted] session=vhjiudubw5a4 x-forwarded=7fy64ei -- yte apikey=*******om qm9umqp m5p f26hz j2kf4c
+    changed: level
+#3 2026-03-08T04:31:23Z mail dave@example.com -- t7a7 bwa9q 8hm secret=*******jn o84es58
+#4 2026-03-06T13:17:16Z web carol@corp.test bytes=9630 note=*****3 x-trace=[redacted] -- 27m8rbfg h2kv yxe xmu1 secret=******m
+    changed: note, x-trace
+#5 2026-03-07T09:08:26Z auth bob ip=h2o65b69 password=p-b1c66f21 x-forwarded=4kopn
+    changed: password
+#6 2026-03-06T12:04:00Z web frank@corp.test bytes=98751 ip=izlpmujapru2 note=*********7r x-trace=[redacted] -- token=*******e0 39wpbr vthntykp apikey=*******66 1hf5d20
+    changed: note, ua, x-trace
+#7 2026-03-04T21:20:36Z batch erin bytes=29386
+#8 2026-03-08T20:50:09Z mail frank@corp.test x-trace=[redacted] -- passwd=********7m zcvwa2r ekyvdq zo1gci d34wtxpd 5h8f *************xrzw
+    changed: x-trace
+#9 2026-03-09T09:26:38Z auth erin ip=a7vrm7f1ay3w path=fremhjvumym region=cx35q159f1v session=d6g1esf -- gyxyj axsv0uo token=*****7
+    changed: ua
+#10 2026-03-04T09:34:28Z web erin password=p-d6b8a954
+    changed: password
+#11 2026-03-04T19:06:34Z auth bob note=******3f password=p-1de14c2c session=4n21c2lt0luw x-forwarded=cxkpw x-trace=[redacted] -- o3o 51ds ghy ************iora
+    changed: note, password, x-trace
+#12 2026-03-06T05:57:36Z web erin bytes=3894 level=[redacted] note=*********rlw path=0jdnnroim3 session=3b6t10u -- password=********i0 zmf
+    changed: level, note
+#13 2026-03-06T23:59:41Z web alice@example.com level=[redacted] path=grzuq9tbp -- 64q7 zyjl195 passwd=********ef 04y13d passwd=********85 **********1gr
+    changed: level
+#14 2026-02-23T02:07:04Z auth frank@corp.test password=p-3f5a08ee region=s6s4u -- passwd=******md f0b3eful ski uo08sv1
+    changed: password
+#15 2026-03-11T15:22:40Z batch alice@example.com api-key=iy19g8gzsg bytes=66135 level=[redacted] x-forwarded=5vtyecep0c x-trace=[redacted]
+    changed: level, x-trace
+#16 2026-03-08T12:04:38Z batch bob api-key=g4rdypspr ip=acjdwi1hcw region=4em5gp4 x-trace=[redacted] -- ejpome ztr4r zte83609 59a838 n5jpra
+    changed: ua, x-trace
+#17 2026-03-06T03:52:12Z mail dave@example.com bytes=79754 level=[redacted] region=quxytul -- apikey=*****x apikey=*****o x69oj *********yn1
+    changed: level, ua
+#18 2026-03-06T04:33:44Z batch bob api-key=7rexe7ebisfjes0 note=******te x-forwarded=uhrbeab4o x-trace=[redacted] -- 2b5 uqy1ceua kdr xv3cl apikey=*****t apikey=******z kmb49 ***********2n7
+    changed: note, x-trace
+#19 2026-03-09T04:35:53Z batch alice@example.com api-key=kaz7ownc note=*********su5 password=p-82b55f4b region=djsql4bgf session=l9uot44sp
+    changed: note, password
+#20 2026-03-10T02:52:30Z batch frank@corp.test bytes=98785 level=[redacted] path=v75f71wwxky0 -- password=******2 token=******k *************oq00
+    changed: level
+#21 2026-03-05T19:46:22Z api dave@example.com
+#22 2026-03-07T14:15:58Z auth alice@example.com session=e7ynn1h
+#23 2026-03-09T08:51:30Z db bob -- password=*****2 fols8bnw 4oyy7u3 ***********jlp
+#24 2026-03-06T15:33:26Z api dave@example.com password=p-8c8ed6af -- p3f11xgu daxfefx apikey=******4i kms d5e token=******b
+    changed: password, ua
+#25 2026-03-07T19:00:59Z mail frank@corp.test bytes=11457 path=hsm5uagl702 x-trace=[redacted] -- 8txxc iv2e 5uw
+    changed: ua, x-trace
+#26 2026-03-09T19:23:23Z api bob -- w8y 4fng88gy dau n0g8l tlhy2ek **************zj40
+#27 2026-03-07T15:49:20Z batch dave@example.com bytes=9457 level=[redacted] path=74xj2 x-trace=[redacted] -- yywshzy jh3qrsx gw1w 7l5ywtr5
+    changed: level, ua, x-trace
+#28 2026-03-05T20:55:48Z mail carol@corp.test x-trace=[redacted] -- 3a0xio tx63un03 password=********8z v95e9at7 65ey hntu1cy2 *********fe1
+    changed: x-trace
+#29 2026-03-04T23:39:40Z db erin note=****f -- by2lzn 0yj0 rygw 6ythp secret=********ah 0tzj07w
+    changed: note
+#30 2026-03-05T01:58:30Z db alice@example.com -- geyk passwd=******s passwd=******2 gibdcv9h **********d9d
+#31 2026-03-10T05:26:40Z mail alice@example.com ip=usia8av6z note=*******wn session=x13dlq x-forwarded=8s1uw2 -- apikey=******yy secret=*****g l36a cqmzgy
+    changed: note, ua
+#32 2026-03-10T07:19:50Z batch alice@example.com -- password=*****d u97h0ame apikey=******h1 64soi
+#33 2026-03-09T08:09:38Z api erin api-key=e9mfc5lwfl note=********wn
+    changed: note
+#34 2026-03-12T17:01:22Z api carol@corp.test ip=a65tcly password=p-4f322971 session=mkv8569aj -- bz4n ler05 gsd4 piu8jvr **************rs4k
+    changed: password
+#35 2026-03-09T19:17:13Z mail bob -- ovnji11c l6b0rxxx wcl9
+#36 2026-03-10T03:20:51Z web alice@example.com level=[redacted] note=****4 password=p-ad7beeb5 path=c47jfah -- 4r2 na5z
+    changed: level, note, password
+#37 2026-03-07T03:51:04Z batch dave@example.com api-key=2nv96fczd07lw12c password=p-34ecf1b0 session=gixdz0
+    changed: password
+#38 2026-03-09T01:49:42Z web alice@example.com password=p-15b0400c path=k7bja27 -- secret=*******n7 d64 7vzka 9lf9q 3q7pn password=******8 9bi8856 ***********vzp
+    changed: password
+exported 38 records, 46 fields changed
+logged #39
+clock set to 2026-03-19T20:00:00Z
+clock set to 2026-03-08T06:00:00Z
+check ok

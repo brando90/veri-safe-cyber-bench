@@ -1,0 +1,21 @@
+customer add c-arden arden tier=basic
+customer add c-crest crest tier=basic
+receive dune milk-1l 120
+receive dune pizza-fr 80
+receive fjord milk-1l 60
+receive juniper milk-1l 24
+receive harbor paper-a4 100
+order add c-arden milk-1l:36 pizza-fr:16
+order add c-crest milk-1l:12
+tick 21
+expire fjord
+expire
+tick 1
+expire juniper
+expire fjord
+expire
+order list
+order show ORD-0001
+stock
+ledger kind=expire
+expire nowhere

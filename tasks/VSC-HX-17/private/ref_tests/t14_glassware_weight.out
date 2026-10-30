@@ -1,0 +1,15 @@
+customer c-w1 added region=crest tier=basic
+received lot L0001 alder tumbler-6 units 120 expiry -
+received lot L0002 alder vase-30 units 36 expiry -
+received lot L0003 alder paper-a4 units 50 expiry -
+order ORD-0001 customer c-w1 goods 19.50 status open
+  tumbler-6 qty=5 allocated=5 backorder=0
+order ORD-0002 customer c-w1 goods 182.00 status open
+  vase-30 qty=7 allocated=7 backorder=0
+order ORD-0003 customer c-w1 goods 151.90 status open
+  tumbler-6 qty=11 allocated=11 backorder=0
+  vase-30 qty=3 allocated=3 backorder=0
+  paper-a4 qty=5 allocated=5 backorder=0
+shipment SHP-0001 order ORD-0001 from alder carrier parcelo weight 3300g goods 19.50 freight 9.49 handling 1.60 duty 0.00 dispatch day 0 eta day 2
+shipment SHP-0002 order ORD-0002 from alder carrier parcelo weight 4620g goods 182.00 freight 9.49 handling 1.60 duty 14.56 dispatch day 0 eta day 4
+shipment SHP-0003 order ORD-0003 from alder carrier parcelo weight 11490g goods 151.90 freight 9.49 handling 2.40 duty 12.15 dispatch day 0 eta day 4

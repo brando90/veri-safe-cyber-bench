@@ -1,0 +1,38 @@
+customer c-g1 added region=arden tier=basic
+customer c-g2 added region=gale tier=basic
+received lot L0001 harbor paper-a4 units 300 expiry -
+received lot L0002 alder cable-usb units 300 expiry -
+order ORD-0001 customer c-g1 goods 124.00 status open
+  paper-a4 qty=20 allocated=20 backorder=0
+error: customer c-g1 has open orders
+customer c-g1 carrier tern
+error: carrier tern does not serve region gale
+customer c-g2 carrier swift
+shipment SHP-0001 order ORD-0001 from harbor carrier tern weight 9000g goods 124.00 freight 17.82 handling 1.28 duty 0.00 dispatch day 0 eta day 2
+customer c-g1 region crest
+customer c-g1 carrier unchanged
+customer c-g1
+  name=c-g1 region=crest tier=basic carrier=tern split=yes hold=no
+  po=- email=- note=-
+  status=active since day 0
+customer c-g1 region gale
+order ORD-0002 customer c-g1 goods 145.00 status open
+  cable-usb qty=50 allocated=50 backorder=0
+error: carrier tern cannot take the shipment from alder to gale
+customer c-g1
+  name=c-g1 region=gale tier=basic carrier=tern split=yes hold=no
+  po=- email=- note=-
+  status=active since day 0
+customer c-g1 carrier auto
+shipment SHP-0002 order ORD-0002 from alder carrier parcelo weight 4250g goods 145.00 freight 12.09 handling 1.60 duty 0.00 dispatch day 0 eta day 3
+  #4 day 0 receive alder cable-usb 300
+  #5 day 0 order add c-g1 ORD-0001 12400
+  #6 day 0 set carrier c-g1 auto tern
+  #7 day 0 set carrier c-g2 auto swift
+  #8 day 0 ship c-g1 ORD-0001 1
+  #9 day 0 set region c-g1 arden crest
+  #10 day 0 set region c-g1 crest gale
+  #11 day 0 order add c-g1 ORD-0002 14500
+  #12 day 0 set carrier c-g1 tern auto
+  #13 day 0 ship c-g1 ORD-0002 1
+13 entries

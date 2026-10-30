@@ -1,0 +1,41 @@
+customer c-arden added region=arden tier=basic
+customer c-gale added region=gale tier=basic
+customer c-delta added region=delta tier=basic
+received lot L0001 alder paper-a4 units 300 expiry -
+received lot L0002 harbor cable-usb units 200 expiry -
+received lot L0003 elm hammer-1 units 102 expiry -
+customer c-gold1 added region=gale tier=gold
+order ORD-0001 customer c-arden goods 124.00 status open
+  paper-a4 qty=20 allocated=20 backorder=0
+order ORD-0002 customer c-gale goods 116.00 status open
+  cable-usb qty=40 allocated=40 backorder=0
+order ORD-0003 customer c-delta goods 145.00 status open
+  hammer-1 qty=10 allocated=10 backorder=0
+order ORD-0004 customer c-gold1 goods 91.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+  cable-usb qty=10 allocated=10 backorder=0
+order ORD-0005 customer c-arden goods 31.00 status open
+  paper-a4 qty=5 allocated=5 backorder=0
+order ORD-0006 customer c-delta goods 29.00 status open
+  cable-usb qty=10 allocated=10 backorder=0
+order ORD-0005 cancelled 5 units, status cancelled
+shipment SHP-0001 order ORD-0001 from alder carrier parcelo weight 9000g goods 124.00 freight 7.79 handling 1.60 duty 0.00 dispatch day 0 eta day 2
+shipment SHP-0002 order ORD-0002 from harbor carrier gull weight 3400g goods 116.00 freight 12.70 handling 1.28 duty 0.00 dispatch day 0 eta day 7
+shipment SHP-0003 order ORD-0004 from alder carrier parcelo weight 4500g goods 62.00 freight 0.00 handling 1.60 duty 0.00 dispatch day 0 eta day 3
+shipment SHP-0004 order ORD-0004 from harbor carrier gull weight 850g goods 29.00 freight 0.00 handling 1.28 duty 0.00 dispatch day 0 eta day 7
+order ORD-0006 cancelled 10 units, status cancelled
+error: order ORD-0001 has nothing to ship or cancel
+report cancelled
+  ORD-0005 c-arden day 0 goods 31.00
+  ORD-0006 c-delta day 0 goods 29.00
+  2 cancelled
+end
+report status
+  open 1
+  shipped 3
+  cancelled 2
+  total 6
+end
+ORD-0005 c-arden day 0 31.00 cancelled
+ORD-0006 c-delta day 0 29.00 cancelled
+2 orders

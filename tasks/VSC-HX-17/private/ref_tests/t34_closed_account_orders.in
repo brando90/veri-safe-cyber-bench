@@ -1,0 +1,28 @@
+customer add c-arden arden tier=basic
+customer add c-crest crest tier=basic
+receive harbor paper-a4 100
+receive harbor hammer-1 100
+customer add c-gone crest
+customer add c-gone2 arden
+customer add c-gone3 arden
+order add c-gone paper-a4:40
+order add c-gone paper-a4:100
+order add c-gone hammer-1:6
+order add c-gone2 hammer-1:12
+order add c-gone3 paper-a4:20
+ship ORD-0001
+return ORD-0001 paper-a4 5
+customer close c-gone
+customer close c-gone2
+ship ORD-0003
+return ORD-0001 paper-a4 5
+return ORD-0003 hammer-1 1 cond=damaged
+order cancel ORD-0004
+order cancel ORD-0004
+receive harbor paper-a4 300
+backorder run
+order show ORD-0002
+ship ORD-0002
+order list c-gone
+order add c-gone paper-a4:1
+customer show c-gone

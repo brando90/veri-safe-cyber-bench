@@ -1,0 +1,14 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok route R3 stops=3
+ok ship S1
+ok ship S2
+window S1 n=3
+  0 59.0
+  60 60.0
+  120 57.0
+window S2 n=3
+  0 -39.5
+  60 -40.0
+  120 -37.5

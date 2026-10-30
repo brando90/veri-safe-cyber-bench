@@ -1,0 +1,14 @@
+now 2026-03-10T12:00:00Z
+log 2026-03-09T10:00:00Z auth alice@example.com bytes=120
+log 2026-03-09T10:05:00Z auth alice@example.com bytes=80 level=error
+log 2026-03-09T10:07:00Z auth alice@example.com bytes=40
+log 2026-03-09T10:09:00Z auth alice@example.com
+log 2026-03-09T11:00:00Z web bob bytes=1500 level=warn
+log 2026-03-09T11:30:00Z web bob
+log 2026-03-09T11:45:00Z web bob level=info
+log 2026-03-08T23:30:00-0200 db carol@corp.test bytes=3
+log 2026-03-09T01:30:00+0100 db carol@corp.test
+log 2026-03-10T08:00:00Z batch dave@example.com bytes=7 level=debug
+report
+days
+stats

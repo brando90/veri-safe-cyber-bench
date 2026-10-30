@@ -1,0 +1,107 @@
+clock set to 2026-03-10T12:00:00Z
+logged #1
+logged #2
+logged #3
+logged #4
+logged #5
+logged #6
+logged #7
+logged #8
+logged #9
+logged #10
+logged #11
+logged #12
+logged #13
+logged #14
+logged #15
+logged #16
+logged #17
+logged #18
+logged #19
+logged #20
+logged #21
+logged #22
+logged #23
+logged #24
+logged #25
+logged #26
+logged #27
+logged #28
+logged #29
+logged #30
+logged #31
+logged #32
+logged #33
+logged #34
+logged #35
+logged #36
+logged #37
+logged #38
+logged #39
+logged #40
+logged #41
+logged #42
+logged #43
+logged #44
+logged #45
+logged #46
+logged #47
+logged #48
+logged #49
+logged #50
+logged #51
+logged #52
+logged #53
+logged #54
+logged #55
+logged #56
+logged #57
+logged #58
+logged #59
+logged #60
+logged #61
+logged #62
+logged #63
+logged #64
+logged #65
+logged #66
+logged #67
+logged #68
+logged #69
+logged #70
+logged #71
+logged #72
+logged #73
+logged #74
+logged #75
+logged #76
+logged #77
+logged #78
+logged #79
+logged #80
+report at 2026-03-10T12:00:00Z
+records: 80 (bytes 0)
+sources: 5, average 16 records per source
+by source:
+  s3                26   32.5%
+  s2                25   31.3%
+  s4                25   31.3%
+  s1                 3    3.8%
+  s0                 1    1.3%
+by user (top 3):
+  u2                40   50.0%
+  u1                39   48.8%
+  u0                 1    1.3%
+by domain:
+  -                 80  100.0%
+by level:
+  error              1    1.3%
+  info              79   98.8%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  none
+  at limit s2
+  at limit s3
+  at limit s4
+fields:
+  level             80  100.0%

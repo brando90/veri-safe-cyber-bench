@@ -1,0 +1,31 @@
+clock set to 2026-03-10T12:00:00Z
+top set to 4
+logged #1
+logged #2
+logged #3
+logged #4
+logged #5
+logged #6
+report at 2026-03-10T12:00:00Z
+records: 6 (bytes 0)
+sources: 1, average 6 records per source
+by source:
+  a                  6  100.0%
+by user (top 4):
+  amy@a.org          2   33.3%
+  zed@z.org          2   33.3%
+  bob                1   16.7%
+  mia@m.org          1   16.7%
+by domain:
+  a.org              2   33.3%
+  z.org              2   33.3%
+  -                  1   16.7%
+  m.org              1   16.7%
+by level:
+  info               6  100.0%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  none
+fields:
+  j                  3   50.0%
+  k                  2   33.3%

@@ -1,0 +1,22 @@
+customer add c-n1 arden
+receive harbor bolt-m6 3000
+receive harbor tools-x 1
+receive harbor hammer-1 500
+receive harbor paper-a4 700
+receive harbor cable-usb 2000
+receive harbor tumbler-6 400
+order add c-n1 bolt-m6:50
+order add c-n1 bolt-m6:300
+order add c-n1 bolt-m6:5000
+order add c-n1 bolt-m6:5100
+order add c-n1 hammer-1:1200
+order add c-n1 paper-a4:600
+order add c-n1 paper-a4:601
+order add c-n1 cable-usb:2000
+order add c-n1 cable-usb:2001
+order add c-n1 tumbler-6:300
+order add c-n1 tumbler-6:301
+order add c-n1 bolt-m6:0
+order add c-n1 bolt-m6
+order add c-n1
+order list

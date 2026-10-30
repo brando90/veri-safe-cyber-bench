@@ -1,0 +1,58 @@
+customer c-arden added region=arden tier=basic
+customer c-brook added region=brook tier=basic
+customer c-delta added region=delta tier=basic
+customer c-gale added region=gale tier=basic
+received lot L0001 harbor paper-a4 units 600 expiry -
+received lot L0002 harbor plank-2m units 200 expiry -
+received lot L0003 harbor hammer-1 units 120 expiry -
+order ORD-0001 customer c-arden goods 6.20 status open
+  paper-a4 qty=1 allocated=1 backorder=0
+shipment SHP-0001 order ORD-0001 from harbor carrier zed weight 450g goods 6.20 freight 9.74 handling 1.28 duty 0.00 dispatch day 0 eta day 2
+order ORD-0002 customer c-delta goods 49.60 status open
+  paper-a4 qty=8 allocated=8 backorder=0
+shipment SHP-0002 order ORD-0002 from harbor carrier zed weight 3600g goods 49.60 freight 15.52 handling 1.28 duty 0.00 dispatch day 0 eta day 3
+order ORD-0003 customer c-gale goods 124.00 status open
+  paper-a4 qty=20 allocated=20 backorder=0
+shipment SHP-0003 order ORD-0003 from harbor carrier zed weight 9000g goods 124.00 freight 26.87 handling 1.28 duty 0.00 dispatch day 0 eta day 4
+order ORD-0004 customer c-arden goods 15.60 status open
+  plank-2m qty=2 allocated=2 backorder=0
+shipment SHP-0004 order ORD-0004 from harbor carrier zed weight 5000g goods 15.60 freight 13.53 handling 1.28 duty 0.00 dispatch day 0 eta day 2
+order ORD-0005 customer c-delta goods 54.60 status open
+  plank-2m qty=7 allocated=7 backorder=0
+shipment SHP-0005 order ORD-0005 from harbor carrier zed weight 17000g goods 54.60 freight 36.86 handling 1.28 duty 0.00 dispatch day 0 eta day 3
+order ORD-0006 customer c-gale goods 195.00 status open
+  plank-2m qty=25 allocated=25 backorder=0
+shipment SHP-0006 order ORD-0006 from harbor carrier zed weight 59000g goods 195.00 freight 129.24 handling 1.28 duty 0.00 dispatch day 0 eta day 4
+order ORD-0007 customer c-gale goods 18.60 status open
+  paper-a4 qty=3 allocated=3 backorder=0
+shipment SHP-0007 order ORD-0007 from harbor carrier zed weight 1350g goods 18.60 freight 15.37 handling 1.28 duty 0.00 dispatch day 0 eta day 4
+order ORD-0008 customer c-arden goods 93.60 status open
+  plank-2m qty=12 allocated=12 backorder=0
+shipment SHP-0008 order ORD-0008 from harbor carrier zed weight 29000g goods 93.60 freight 55.83 handling 1.28 duty 0.00 dispatch day 0 eta day 2
+order ORD-0009 customer c-delta goods 6.20 status open
+  paper-a4 qty=1 allocated=1 backorder=0
+shipment SHP-0009 order ORD-0009 from harbor carrier zed weight 450g goods 6.20 freight 13.06 handling 1.28 duty 0.00 dispatch day 0 eta day 3
+order ORD-0010 customer c-gale goods 58.00 status open
+  hammer-1 qty=4 allocated=4 backorder=0
+shipment SHP-0010 order ORD-0010 from harbor carrier zed weight 3600g goods 58.00 freight 18.02 handling 1.28 duty 0.00 dispatch day 0 eta day 4
+order ORD-0011 customer c-delta goods 159.50 status open
+  hammer-1 qty=11 allocated=11 backorder=0
+shipment SHP-0011 order ORD-0011 from harbor carrier zed weight 9900g goods 159.50 freight 25.37 handling 1.28 duty 15.96 dispatch day 0 eta day 7
+order ORD-0012 customer c-brook goods 23.40 status open
+  plank-2m qty=3 allocated=3 backorder=0
+shipment SHP-0012 order ORD-0012 from harbor carrier zed weight 8000g goods 23.40 freight 20.08 handling 1.28 duty 0.00 dispatch day 0 eta day 2
+order ORD-0013 customer c-brook goods 31.00 status open
+  paper-a4 qty=5 allocated=5 backorder=0
+shipment SHP-0013 order ORD-0013 from harbor carrier zed weight 2250g goods 31.00 freight 11.51 handling 1.28 duty 0.00 dispatch day 0 eta day 2
+order ORD-0014 customer c-brook goods 14.50 status open
+  hammer-1 qty=1 allocated=1 backorder=0
+shipment SHP-0014 order ORD-0014 from harbor carrier zed weight 900g goods 14.50 freight 11.51 handling 1.28 duty 0.00 dispatch day 0 eta day 2
+order ORD-0015 customer c-delta goods 12.40 status open
+  paper-a4 qty=2 allocated=2 backorder=0
+shipment SHP-0015 order ORD-0015 from harbor carrier zed weight 900g goods 12.40 freight 13.06 handling 1.28 duty 0.00 dispatch day 0 eta day 3
+order ORD-0016 customer c-gale goods 12.40 status open
+  paper-a4 qty=2 allocated=2 backorder=0
+shipment SHP-0016 order ORD-0016 from harbor carrier zed weight 900g goods 12.40 freight 15.37 handling 1.28 duty 0.00 dispatch day 0 eta day 4
+order ORD-0017 customer c-brook goods 12.40 status open
+  paper-a4 qty=2 allocated=2 backorder=0
+shipment SHP-0017 order ORD-0017 from harbor carrier zed weight 900g goods 12.40 freight 11.51 handling 1.28 duty 0.00 dispatch day 0 eta day 2

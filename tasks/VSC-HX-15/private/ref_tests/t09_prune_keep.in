@@ -1,0 +1,34 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Prune box" route=R3
+ship add S2 "Prune two" route=R3
+read S1 t=0 temp=5
+read S1 t=1000 temp=5
+read S1 t=3599.999 temp=5
+read S1 t=3600 temp=5
+read S1 t=3600.001 temp=5
+read S1 t=7000 temp=5
+read S2 t=10 temp=5
+read S2 t=3600 temp=6
+read S2 t=9000 temp=7
+prune now=7200
+set keep 60
+prune now=3000
+prune now=7200 dry=yes
+prune now=7200 dry=maybe
+window S1
+prune now=7200
+window S1
+window S2
+prune now=7200
+set keep 0
+prune now=999999
+stats
+set keep 1
+prune now=60.5
+prune now=9000.5
+window S2

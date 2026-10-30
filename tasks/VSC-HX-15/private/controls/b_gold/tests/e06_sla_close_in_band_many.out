@@ -1,0 +1,17 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok ship S2
+ok arrive S1 stop 1 AMS
+ok arrive S1 stop 3 JFK
+ok arrive S2 stop 1 AMS
+ok arrive S2 stop 3 JFK
+sla S1 75.0% 3/4
+sla S2 0.0% 0/3
+rank 1 S2 0.0%
+rank 2 S1 75.0%
+fleet planned=0 moving=0 delivered=2 avg_sla=37.5%

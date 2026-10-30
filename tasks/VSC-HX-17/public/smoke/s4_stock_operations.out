@@ -1,0 +1,39 @@
+customer c-st added region=arden tier=basic
+received lot L0001 alder bolt-m6 units 1000 expiry -
+received lot L0002 elm bolt-m6 units 500 expiry -
+received lot L0003 dune yogurt-4 units 60 expiry 21
+received lot L0004 dune pizza-fr units 40 expiry 120
+received lot L0005 fjord pizza-fr units 16 expiry 120
+adjusted alder bolt-m6 by -50, on hand 950
+adjusted elm bolt-m6 by +25, on hand 525
+transferred 300 bolt-m6 from alder to harbor
+transferred 24 yogurt-4 from dune to fjord
+  L0001 alder bolt-m6 qty=650 reserved=0 expiry=- received=0
+  L0004 dune pizza-fr qty=40 reserved=0 expiry=120 received=0
+  L0003 dune yogurt-4 qty=36 reserved=0 expiry=21 received=0
+  L0002 elm bolt-m6 qty=525 reserved=0 expiry=- received=0
+  L0005 fjord pizza-fr qty=16 reserved=0 expiry=120 received=0
+  L0007 fjord yogurt-4 qty=24 reserved=0 expiry=21 received=0
+  L0006 harbor bolt-m6 qty=300 reserved=0 expiry=- received=0
+7 lots, 1591 units
+order ORD-0001 customer c-st goods 58.00 status open
+  yogurt-4 qty=20 allocated=20 backorder=0
+day 25 Fri
+expired lot L0003 dune yogurt-4 qty 36 requeued 20
+expired lot L0007 fjord yogurt-4 qty 24 requeued 0
+2 lots expired
+  dune yogurt-4 available=0 reorder=36 suggest=72
+  fjord pizza-fr available=16 reorder=24 suggest=32
+  fjord yogurt-4 available=0 reorder=36 suggest=72
+  harbor bolt-m6 available=300 reorder=400 suggest=500
+4 suggestions
+  #1 day 0 receive alder bolt-m6 +1000 L0001
+  #6 day 0 adjust alder bolt-m6 -50 L0001
+  #8 day 0 transfer_out alder bolt-m6 -300 harbor
+3 movements
+  #8 day 0 adjust elm bolt-m6 25
+  #9 day 0 transfer alder bolt-m6 300 harbor
+  #10 day 0 transfer dune yogurt-4 24 fjord
+  #11 day 0 order add c-st ORD-0001 5800
+  #12 day 25 expire all 2
+12 entries

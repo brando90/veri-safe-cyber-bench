@@ -1,0 +1,32 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+set cap 4
+ship add S1 "Csv box" route=R3 offset=0.3
+load S1
+t,temp,hum
+0,5.0,40
+60, 5.5 , 41
+
+120,6.0,
+180,6.5
+240,7.0
+bad row
+300,x,1
+360,5.0,200
+end load
+window S1
+stats
+load S9
+1,1
+end load
+load S1
+7200,5.0
+7260,5.0
+end load
+window S1 from=7000
+load S1
+1,1

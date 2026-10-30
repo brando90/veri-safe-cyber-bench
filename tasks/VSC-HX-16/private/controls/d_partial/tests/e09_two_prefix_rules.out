@@ -1,0 +1,10 @@
+clock set to 2026-03-10T12:00:00Z
+rule added: prefix auth_
+rule added: prefix cred
+logged #1
+#1 2026-03-09T10:00:00Z web bob cred_id=********ij other=keep
+    changed: auth_pw, auth_user, cred_id
+exported 1 records, 3 fields changed
+prefix auth_: drop
+prefix cred: mask
+strict: off

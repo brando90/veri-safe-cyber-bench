@@ -1,0 +1,19 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+route add R3 AMS LHR JFK
+ship add S1 "Three stops" route=R3 class=chilled
+ship add S2 "Half way" route=R3 class=chilled
+read S1 t=0 temp=4.0
+read S1 t=60 temp=5.0
+read S1 t=120 temp=6.0
+read S1 t=180 temp=7.0
+read S1 t=240 temp=3.0
+arrive S1 stop=1 t=0
+arrive S1 stop=2 t=120
+arrive S1 stop=3 t=300
+arrive S2 stop=1 t=10
+arrive S2 stop=2 t=70.5
+legs S1
+legs S2
+report S1

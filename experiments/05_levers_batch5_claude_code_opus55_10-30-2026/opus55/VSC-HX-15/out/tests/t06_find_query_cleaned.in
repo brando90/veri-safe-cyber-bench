@@ -1,0 +1,14 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+route add R3 AMS LHR JFK
+ship add S1 "Cold   chain box" route=R3 class=chilled
+ship add S2 "Warm box" route=R3 class=ambient
+ship add S3 "Café crème" route=R3 class=cool
+find "cold  chain"
+find "  COLD\tCHAIN "
+find "chain box"
+find BOX
+find "café"
+find "Café"
+find "warm chain"

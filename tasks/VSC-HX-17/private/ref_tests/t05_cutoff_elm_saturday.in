@@ -1,0 +1,11 @@
+customer add c-e1 delta
+receive elm paper-a4 400
+order add c-e1 paper-a4:10
+order add c-e1 paper-a4:10
+order add c-e1 paper-a4:10
+tick 4
+ship ORD-0001 at=15
+tick 1
+today
+ship ORD-0002 at=11
+ship ORD-0003 at=13

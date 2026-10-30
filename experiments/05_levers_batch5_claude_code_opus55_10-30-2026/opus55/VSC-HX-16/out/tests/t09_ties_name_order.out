@@ -1,0 +1,22 @@
+clock set to 2026-03-10T12:00:00Z
+logged #1
+logged #2
+logged #3
+logged #4
+report at 2026-03-10T12:00:00Z
+records: 4 (bytes 0)
+sources: 3, average 1 records per source
+by source:
+  db                 2   50.0%
+  auth               1   25.0%
+  web                1   25.0%
+by user (top 3):
+  amy                2   50.0%
+  zed                2   50.0%
+by domain:
+  -                  4  100.0%
+by level:
+  info               4  100.0%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  none

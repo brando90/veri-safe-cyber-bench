@@ -1,0 +1,22 @@
+customer add c-m1 arden
+receive dune vitamin-c 40
+receive dune vitamin-c 40 exp=-3
+receive dune vitamin-c 40 exp=x
+receive dune vitamin-c 100 exp=45
+receive dune bandage-50 40 exp=60
+receive dune milk-1l 24 exp=30
+receive dune pizza-fr 16 exp=30
+receive alder paper-a4 20 exp=30
+tick 10
+order add c-m1 vitamin-c:20
+order show ORD-0001
+tick 5
+order add c-m1 vitamin-c:20
+order show ORD-0002
+tick 1
+order add c-m1 bandage-50:20
+order add c-m1 vitamin-c:20
+order show ORD-0003
+order show ORD-0004
+stock dune
+expire

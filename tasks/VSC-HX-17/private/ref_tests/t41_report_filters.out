@@ -1,0 +1,37 @@
+customer c-arden added region=arden tier=basic
+customer c-gale added region=gale tier=basic
+received lot L0001 alder paper-a4 units 300 expiry -
+received lot L0002 harbor cable-usb units 200 expiry -
+customer c-old added region=arden tier=basic
+order ORD-0001 customer c-arden goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+shipment SHP-0001 order ORD-0001 from alder carrier parcelo weight 4500g goods 62.00 freight 7.79 handling 1.60 duty 0.00 dispatch day 0 eta day 2
+order ORD-0002 customer c-gale goods 29.00 status open
+  cable-usb qty=10 allocated=10 backorder=0
+shipment SHP-0002 order ORD-0002 from harbor carrier gull weight 850g goods 29.00 freight 10.20 handling 1.28 duty 0.00 dispatch day 0 eta day 7
+customer c-old closed
+report goods_customer
+  (none)
+  total 0.00
+end
+report goods_region
+  (none)
+  total 0.00
+end
+report goods_customer
+  c-arden 62.00
+  total 62.00
+end
+report goods_customer
+error: unknown customer c-nobody
+report goods_customer
+error: option 'cur' is not valid here
+report stock_wh
+  alder 290
+  total 290
+end
+report stock_wh
+error: unknown warehouse 'nowhere'
+report cancelled
+  0 cancelled
+end

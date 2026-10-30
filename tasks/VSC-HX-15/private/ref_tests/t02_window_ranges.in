@@ -1,0 +1,29 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Range box" route=R3
+read S1 t=10.5 temp=4.0 hum=40
+read S1 t=11 temp=4.5
+read S1 t=12 temp=5.0 hum=44
+read S1 t=12.001 temp=5.5
+read S1 t=20 temp=6.0
+read S1 t=3600 temp=6.5
+read S1 t=3600 temp=7.5
+read S1 t=90061.25 temp=3.0
+window S1
+window S1 from=11
+window S1 to=12
+window S1 from=11 to=12
+window S1 from=10.5 to=10.5
+window S1 from=12 to=12.001
+window S1 from=12.5 to=19.999
+window S1 from=12 to=11
+window S1 from=x
+timeline S1
+timeline S1 from=3600 to=100000
+describe S1 from=11 to=3600
+describe S1 from=100 to=200
+describe S1

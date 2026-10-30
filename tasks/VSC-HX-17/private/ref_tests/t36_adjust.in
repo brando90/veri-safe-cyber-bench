@@ -1,0 +1,23 @@
+customer add c-arden arden tier=basic
+receive harbor paper-a4 200
+receive harbor hammer-1 60
+receive harbor cable-usb 100
+adjust harbor paper-a4 25
+adjust harbor paper-a4 -25
+adjust harbor paper-a4 -300
+adjust harbor paper-a4 0
+adjust harbor paper-a4 x
+adjust harbor hammer-1 5
+adjust nowhere hammer-1 5
+adjust harbor teleporter 5
+adjust harbor milk-1l 5
+adjust alder paper-a4 5
+receive harbor paper-a4 50
+adjust harbor paper-a4 -210
+adjust harbor paper-a4 15
+adjust harbor cable-usb -30
+order add c-arden hammer-1:60
+adjust harbor hammer-1 -1
+adjust harbor hammer-1 4
+stock harbor
+ledger harbor kind=adjust

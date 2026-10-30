@@ -1,0 +1,62 @@
+customer c-r1 added region=forge tier=basic
+customer c-r2 added region=gale tier=gold
+received lot L0001 alder cable-usb units 500 expiry -
+received lot L0002 alder charger-20 units 100 expiry -
+received lot L0003 larch plank-2m units 200 expiry -
+order ORD-0001 customer c-r1 goods 446.00 status open
+  cable-usb qty=100 allocated=100 backorder=0
+  plank-2m qty=20 allocated=20 backorder=0
+order ORD-0002 customer c-r2 goods 232.00 status open
+  cable-usb qty=80 allocated=80 backorder=0
+shipment SHP-0001 order ORD-0001 from alder carrier parcelo weight 8500g goods 290.00 freight 0.00 handling 1.60 duty 43.50 dispatch day 0 eta day 6
+shipment SHP-0002 order ORD-0001 from larch carrier parcelo weight 47000g goods 156.00 freight 0.00 handling 1.53 duty 23.40 dispatch day 0 eta day 6
+shipment SHP-0003 order ORD-0002 from alder carrier parcelo weight 6800g goods 232.00 freight 0.00 handling 1.60 duty 0.00 dispatch day 0 eta day 3
+report goods_region
+  forge 446.00
+  gale 232.00
+  total 678.00
+end
+report goods_customer
+  c-r1 446.00
+  c-r2 232.00
+  total 678.00
+end
+report freight_carrier
+  (none)
+  total 0.00
+end
+report duty_region
+  forge 66.90
+  total 66.90
+end
+report stock_wh
+  alder 420
+  larch 180
+  total 600
+end
+report value_wh
+  alder 1284.00
+  larch 630.00
+  total 1914.00
+end
+report status
+  shipped 2
+  total 2
+end
+report low_stock
+  (none)
+end
+error: unknown customer c-nobody
+error: unknown sku 'teleporter'
+error: invalid order line 'cable-usb:abc'
+error: unknown order ORD-0009
+error: unknown sku 'dairy'
+error: unknown warehouse 'nowhere'
+error: unknown command 'frobnicate'
+number,customer,day,goods,status
+ORD-0001,c-r1,0,44600,shipped
+ORD-0002,c-r2,0,23200,shipped
+id	order	warehouse	carrier	weight	goods	freight	handling	duty	eta
+SHP-0001	ORD-0001	alder	parcelo	8500	29000	0	160	4350	6
+SHP-0002	ORD-0001	larch	parcelo	47000	15600	0	153	2340	6
+SHP-0003	ORD-0002	alder	parcelo	6800	23200	0	160	0	3

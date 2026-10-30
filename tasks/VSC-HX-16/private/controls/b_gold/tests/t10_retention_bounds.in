@@ -1,0 +1,12 @@
+now 2026-03-10T12:00:00Z
+retain 10
+log 2026-02-28T12:00:00Z web bob -- exactly ten days
+log 2026-02-28T11:59:59Z web bob -- one second over
+log 2026-03-10T12:00:01Z web bob -- one second ahead
+log 2026-03-01T12:00:00Z web carol@corp.test -- nine days
+purge
+purge
+retain 0
+now 2026-03-10T12:00:01Z
+purge
+export

@@ -1,0 +1,60 @@
+customer c-arden added region=arden tier=basic
+customer c-delta added region=delta tier=basic
+received lot L0001 alder paper-a4 units 300 expiry -
+received lot L0002 harbor cable-usb units 200 expiry -
+received lot L0003 dune milk-1l units 60 expiry 21
+order ORD-0001 customer c-arden goods 138.50 status open
+  paper-a4 qty=20 allocated=20 backorder=0
+  cable-usb qty=5 allocated=5 backorder=0
+shipment SHP-0001 order ORD-0001 from alder carrier parcelo weight 9000g goods 124.00 freight 7.79 handling 1.60 duty 0.00 dispatch day 0 eta day 2
+shipment SHP-0002 order ORD-0001 from harbor carrier pony weight 425g goods 14.50 freight 4.10 handling 1.28 duty 0.00 dispatch day 0 eta day 3
+order ORD-0002 customer c-delta goods 14.40 status open
+  milk-1l qty=12 allocated=12 backorder=0
+shipment SHP-0003 order ORD-0002 from dune carrier parcelo weight 6000g goods 14.40 freight 10.29 handling 2.10 duty 0.00 dispatch day 0 eta day 2
+order ORD-0003 customer c-delta goods 8.70 status open
+  cable-usb qty=3 allocated=3 backorder=0
+return ORD-0001 paper-a4 x2 restocked at alder
+number,customer,day,goods,status
+ORD-0001,c-arden,0,13850,shipped
+ORD-0002,c-delta,0,1440,shipped
+ORD-0003,c-delta,0,870,open
+number	customer	day	goods	status
+ORD-0001	c-arden	0	13850	shipped
+ORD-0002	c-delta	0	1440	shipped
+ORD-0003	c-delta	0	870	open
+lot,warehouse,sku,qty,reserved,expiry
+L0001,alder,paper-a4,280,0,
+L0002,harbor,cable-usb,195,3,
+L0003,dune,milk-1l,48,0,21
+L0004,alder,paper-a4,2,0,
+lot	warehouse	sku	qty	reserved	expiry
+L0001	alder	paper-a4	280	0	
+L0002	harbor	cable-usb	195	3	
+L0003	dune	milk-1l	48	0	21
+L0004	alder	paper-a4	2	0	
+id,order,warehouse,carrier,weight,goods,freight,handling,duty,eta
+SHP-0001,ORD-0001,alder,parcelo,9000,12400,779,160,0,2
+SHP-0002,ORD-0001,harbor,pony,425,1450,410,128,0,3
+SHP-0003,ORD-0002,dune,parcelo,6000,1440,1029,210,0,2
+id	order	warehouse	carrier	weight	goods	freight	handling	duty	eta
+SHP-0001	ORD-0001	alder	parcelo	9000	12400	779	160	0	2
+SHP-0002	ORD-0001	harbor	pony	425	1450	410	128	0	3
+SHP-0003	ORD-0002	dune	parcelo	6000	1440	1029	210	0	2
+seq,day,kind,warehouse,sku,delta,qty,ref
+1,0,receive,alder,paper-a4,300,300,L0001
+2,0,receive,harbor,cable-usb,200,200,L0002
+3,0,receive,dune,milk-1l,60,60,L0003
+4,0,ship,alder,paper-a4,-20,20,SHP-0001
+5,0,ship,harbor,cable-usb,-5,5,SHP-0002
+6,0,ship,dune,milk-1l,-12,12,SHP-0003
+7,0,return,alder,paper-a4,2,2,ORD-0001
+seq	day	kind	warehouse	sku	delta	qty	ref
+1	0	receive	alder	paper-a4	300	300	L0001
+2	0	receive	harbor	cable-usb	200	200	L0002
+3	0	receive	dune	milk-1l	60	60	L0003
+4	0	ship	alder	paper-a4	-20	20	SHP-0001
+5	0	ship	harbor	cable-usb	-5	5	SHP-0002
+6	0	ship	dune	milk-1l	-12	12	SHP-0003
+7	0	return	alder	paper-a4	2	2	ORD-0001
+error: unknown export format 'json'
+error: unknown export 'invoices'

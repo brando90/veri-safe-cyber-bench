@@ -1,0 +1,20 @@
+customer add c-r1 crest
+customer add c-r2 crest
+set split c-r2 no
+receive alder cable-usb 100
+receive harbor cable-usb 100
+receive cedar cable-usb 30
+order add c-r1 cable-usb:20
+order show ORD-0001
+order add c-r1 cable-usb:10 cable-usb:15
+order show ORD-0002
+order add c-r1 cable-usb:250
+order show ORD-0003
+order add c-r2 cable-usb:150
+order show ORD-0004
+order list
+order list c-r1
+order list state=backorder
+order list state=partial
+order list c-r2 state=open
+stock

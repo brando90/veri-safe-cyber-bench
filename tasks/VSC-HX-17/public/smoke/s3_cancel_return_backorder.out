@@ -1,0 +1,35 @@
+customer c-one added region=brook tier=basic
+customer c-two added region=crest tier=silver
+received lot L0001 alder shirt-m units 60 expiry -
+received lot L0002 alder tumbler-6 units 24 expiry -
+order ORD-0001 customer c-one goods 606.80 status open
+  shirt-m qty=40 allocated=40 backorder=0
+  tumbler-6 qty=12 allocated=12 backorder=0
+order ORD-0002 customer c-two goods 560.00 status partial
+  shirt-m qty=40 allocated=20 backorder=20
+order ORD-0002 customer c-two day 0 goods 560.00 status partial ref=-
+  shirt-m qty=40 allocated=20 backorder=20 shipped=0 returned=0 cancelled=0
+    from alder lot L0001 x20
+order ORD-0001 cancelled 52 units, status cancelled
+order ORD-0001 customer c-one day 0 goods 606.80 status cancelled ref=-
+  shirt-m qty=40 allocated=0 backorder=0 shipped=0 returned=0 cancelled=40
+  tumbler-6 qty=12 allocated=0 backorder=0 shipped=0 returned=0 cancelled=12
+backorder ORD-0002 allocated 20 units, status open
+1 orders checked, 1 filled
+order ORD-0002 customer c-two day 0 goods 560.00 status open ref=-
+  shirt-m qty=40 allocated=40 backorder=0 shipped=0 returned=0 cancelled=0
+    from alder lot L0001 x40
+shipment SHP-0001 order ORD-0002 from alder carrier parcelo weight 12000g goods 560.00 freight 0.00 handling 1.60 duty 44.80 dispatch day 0 eta day 4
+day 3 Thu
+return ORD-0002 shirt-m x5 restocked at alder
+return ORD-0002 shirt-m x2 scrapped at alder
+  L0001 alder shirt-m qty=20 reserved=0 expiry=- received=0
+  L0003 alder shirt-m qty=5 reserved=0 expiry=- received=3
+  L0002 alder tumbler-6 qty=24 reserved=0 expiry=- received=0
+3 lots, 49 units
+  #1 day 0 receive alder shirt-m +60 L0001
+  #2 day 0 receive alder tumbler-6 +24 L0002
+  #3 day 0 ship alder shirt-m -40 SHP-0001
+  #4 day 3 return alder shirt-m +5 ORD-0002
+  #5 day 3 scrap alder shirt-m +0 ORD-0002
+5 movements

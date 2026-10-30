@@ -1,0 +1,19 @@
+customer c-a1 added region=arden tier=basic
+received lot L0001 alder shirt-m units 40 expiry -
+received lot L0002 alder shirt-m units 40 expiry -
+received lot L0003 alder jacket-l units 20 expiry -
+received lot L0004 harbor jacket-l units 80 expiry -
+  L0003 alder jacket-l qty=20 reserved=0 expiry=- received=0
+  L0001 alder shirt-m qty=40 reserved=0 expiry=- received=0
+  L0002 alder shirt-m qty=40 reserved=0 expiry=- received=0
+  L0004 harbor jacket-l qty=80 reserved=0 expiry=- received=0
+4 lots, 180 units
+order ORD-0001 customer c-a1 goods 2065.00 status open
+  shirt-m qty=65 allocated=65 backorder=0
+  jacket-l qty=21 allocated=21 backorder=0
+order ORD-0001 customer c-a1 day 0 goods 2065.00 status open ref=-
+  shirt-m qty=65 allocated=65 backorder=0 shipped=0 returned=0 cancelled=0
+    from alder lot L0001 x40
+    from alder lot L0002 x25
+  jacket-l qty=21 allocated=21 backorder=0 shipped=0 returned=0 cancelled=0
+    from harbor lot L0004 x21

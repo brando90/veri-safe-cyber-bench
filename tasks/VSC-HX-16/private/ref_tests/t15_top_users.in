@@ -1,0 +1,13 @@
+now 2026-03-10T12:00:00Z
+top 2
+log 2026-03-09T10:00:00Z a alpha
+log 2026-03-09T10:00:01Z a alpha
+log 2026-03-09T10:00:02Z a alpha
+log 2026-03-09T10:00:03Z a beta
+log 2026-03-09T10:00:04Z a beta
+log 2026-03-09T10:00:05Z a gamma
+report
+top 5
+report
+top 0
+top x

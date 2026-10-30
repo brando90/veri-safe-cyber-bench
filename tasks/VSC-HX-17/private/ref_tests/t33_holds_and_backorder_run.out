@@ -1,0 +1,41 @@
+customer c-arden added region=arden tier=basic
+customer c-crest added region=crest tier=basic
+received lot L0001 harbor paper-a4 units 100 expiry -
+received lot L0002 alder paper-a4 units 30 expiry -
+received lot L0003 cedar cable-usb units 100 expiry -
+customer c-hold added region=crest tier=gold
+customer c-hold hold yes
+error: customer c-hold is on hold
+customer c-hold hold no
+order ORD-0001 customer c-hold goods 124.00 status open
+  paper-a4 qty=20 allocated=20 backorder=0
+order ORD-0002 customer c-hold goods 3100.00 status partial
+  paper-a4 qty=500 allocated=110 backorder=390
+customer c-hold hold yes
+order ORD-0003 customer c-arden goods 1240.00 status backorder
+  paper-a4 qty=200 allocated=0 backorder=200
+order ORD-0004 customer c-crest goods 620.00 status backorder
+  paper-a4 qty=100 allocated=0 backorder=100
+shipment SHP-0001 order ORD-0001 from alder carrier swift weight 9000g goods 124.00 freight 0.00 handling 1.60 duty 9.92 dispatch day 0 eta day 3
+order ORD-0001 customer c-hold day 0 goods 124.00 status shipped ref=-
+  paper-a4 qty=20 allocated=0 backorder=0 shipped=20 returned=0 cancelled=0
+day 1 Tue
+received lot L0004 harbor paper-a4 units 400 expiry -
+backorder ORD-0003 allocated 200 units, status open
+backorder ORD-0004 allocated 100 units, status open
+2 orders checked, 2 filled
+0 orders
+ORD-0002 c-hold day 0 3100.00 partial
+1 orders
+customer c-hold hold no
+backorder ORD-0002 allocated 100 units, status partial
+1 orders checked, 1 filled
+ORD-0001 c-hold day 0 124.00 shipped
+ORD-0002 c-hold day 0 3100.00 partial
+ORD-0003 c-arden day 0 1240.00 open
+ORD-0004 c-crest day 0 620.00 open
+4 orders
+report backorders
+  paper-a4 290
+  total 290
+end

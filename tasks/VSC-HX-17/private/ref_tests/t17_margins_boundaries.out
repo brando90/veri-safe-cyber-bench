@@ -1,0 +1,43 @@
+customer c-q1 added region=arden tier=basic
+received lot L0001 dune milk-1l units 120 expiry 21
+received lot L0002 dune apple-1k units 100 expiry 7
+received lot L0003 dune pizza-fr units 80 expiry 120
+received lot L0004 dune vitamin-c units 40 expiry 100
+day 6 Sun
+order ORD-0001 customer c-q1 goods 26.00 status open
+  apple-1k qty=10 allocated=10 backorder=0
+day 7 Mon
+order ORD-0002 customer c-q1 goods 26.00 status backorder
+  apple-1k qty=10 allocated=0 backorder=10
+day 18 Fri
+order ORD-0003 customer c-q1 goods 14.40 status open
+  milk-1l qty=12 allocated=12 backorder=0
+day 19 Sat
+order ORD-0004 customer c-q1 goods 14.40 status backorder
+  milk-1l qty=12 allocated=0 backorder=12
+day 70 Mon
+order ORD-0005 customer c-q1 goods 104.00 status open
+  vitamin-c qty=20 allocated=20 backorder=0
+day 71 Tue
+order ORD-0006 customer c-q1 goods 104.00 status backorder
+  vitamin-c qty=20 allocated=0 backorder=20
+day 110 Sat
+order ORD-0007 customer c-q1 goods 33.60 status open
+  pizza-fr qty=8 allocated=8 backorder=0
+day 111 Sun
+order ORD-0008 customer c-q1 goods 33.60 status backorder
+  pizza-fr qty=8 allocated=0 backorder=8
+ORD-0001 c-q1 day 6 26.00 open
+ORD-0002 c-q1 day 7 26.00 backorder
+ORD-0003 c-q1 day 18 14.40 open
+ORD-0004 c-q1 day 19 14.40 backorder
+ORD-0005 c-q1 day 70 104.00 open
+ORD-0006 c-q1 day 71 104.00 backorder
+ORD-0007 c-q1 day 110 33.60 open
+ORD-0008 c-q1 day 111 33.60 backorder
+8 orders
+  L0002 dune apple-1k qty=100 reserved=10 expiry=7 received=0
+  L0001 dune milk-1l qty=120 reserved=12 expiry=21 received=0
+  L0003 dune pizza-fr qty=80 reserved=8 expiry=120 received=0
+  L0004 dune vitamin-c qty=40 reserved=20 expiry=100 received=0
+4 lots, 340 units

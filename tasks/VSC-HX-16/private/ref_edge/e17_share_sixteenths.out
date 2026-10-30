@@ -1,0 +1,40 @@
+clock set to 2026-03-10T12:00:00Z
+logged #1
+logged #2
+logged #3
+logged #4
+logged #5
+logged #6
+logged #7
+logged #8
+logged #9
+logged #10
+logged #11
+logged #12
+logged #13
+logged #14
+logged #15
+logged #16
+report at 2026-03-10T12:00:00Z
+records: 16 (bytes 0)
+sources: 6, average 3 records per source
+by source:
+  e                  5   31.3%
+  a                  4   25.0%
+  f                  4   25.0%
+  b                  1    6.3%
+  c                  1    6.3%
+  d                  1    6.3%
+by user (top 3):
+  u2                 5   31.3%
+  u1                 4   25.0%
+  u9                 4   25.0%
+by domain:
+  -                 16  100.0%
+by level:
+  info              16  100.0%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  none
+fields:
+  none

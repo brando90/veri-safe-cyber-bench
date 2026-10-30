@@ -1,0 +1,23 @@
+clock set to 2026-03-10T12:00:00Z
+limit for auth set to 0
+default limit set to 5
+logged #1
+logged #2
+logged #3
+report at 2026-03-10T12:00:00Z
+records: 3 (bytes 0)
+sources: 2, average 2 records per source
+by source:
+  web                2   66.7%
+  auth               1   33.3%
+by user (top 3):
+  bob                2   66.7%
+  alice@example.com     1   33.3%
+by domain:
+  -                  2   66.7%
+  example.com        1   33.3%
+by level:
+  info               3  100.0%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  ALERT auth peak 1 limit 0

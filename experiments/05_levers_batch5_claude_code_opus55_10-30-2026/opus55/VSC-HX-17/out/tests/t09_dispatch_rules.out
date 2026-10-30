@@ -1,0 +1,19 @@
+customer c-acme added region=delta tier=basic
+received lot L0001 elm hammer-1 units 60 expiry -
+received lot L0002 iris paper-a4 units 100 expiry -
+received lot L0003 kelp paper-a3 units 100 expiry -
+day 5 Sat
+day 5 Sat
+order ORD-0001 customer c-acme goods 87.00 status open
+  hammer-1 qty=6 allocated=6 backorder=0
+order ORD-0002 customer c-acme goods 87.00 status open
+  hammer-1 qty=6 allocated=6 backorder=0
+shipment SHP-0001 order ORD-0001 from elm carrier parcelo weight 5400g goods 87.00 freight 9.99 handling 1.57 duty 8.70 dispatch day 5 eta day 9
+shipment SHP-0002 order ORD-0002 from elm carrier parcelo weight 5400g goods 87.00 freight 9.99 handling 1.57 duty 8.70 dispatch day 7 eta day 11
+day 7 Mon
+order ORD-0003 customer c-acme goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+shipment SHP-0003 order ORD-0003 from iris carrier parcelo weight 4500g goods 62.00 freight 9.99 handling 1.49 duty 0.00 dispatch day 7 eta day 9
+order ORD-0004 customer c-acme goods 99.00 status open
+  paper-a3 qty=10 allocated=10 backorder=0
+shipment SHP-0004 order ORD-0004 from kelp carrier parcelo weight 4500g goods 99.00 freight 10.74 handling 1.75 duty 9.90 dispatch day 8 eta day 14

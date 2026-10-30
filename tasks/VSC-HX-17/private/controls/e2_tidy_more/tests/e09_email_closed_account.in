@@ -1,0 +1,6 @@
+customer add c-m1 arden
+set email c-m1 old@x.io
+customer close c-m1
+set email c-m1 new@x.io
+customer show c-m1
+audit 4 subject=c-m1

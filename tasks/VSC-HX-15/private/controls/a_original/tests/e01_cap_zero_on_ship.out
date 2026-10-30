@@ -1,0 +1,22 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok set cap=2
+ok ship S1
+ok ship S2
+ship S1 "Unlimited box" route=R3 class=- band=2.0..8.0 hold=10m cap=unlimited hmax=- skew=0s offset=0.0
+ship S2 "Limited box" route=R3 class=- band=2.0..8.0 hold=10m cap=2 hmax=- skew=0s offset=0.0
+refused S2 t=20 cap
+window S1 n=5
+  0 5.0
+  10 5.1
+  20 5.2
+  30 5.3
+  40 5.4
+window S2 n=2
+  0 5.0
+  10 5.1
+stats ships=2 readings=7 refused=1 sites=4 routes=2

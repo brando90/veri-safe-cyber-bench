@@ -1,0 +1,11 @@
+customer add c-arden arden tier=basic
+receive alder paper-a4 300
+customer add c-s1 arden tier=silver
+order add c-arden paper-a4:20
+order add c-s1 paper-a4:30
+order add c-s1 paper-a4:40
+ship ORD-0003 carrier=swift
+order cancel ORD-0001
+order cancel ORD-0002
+report goods_tier
+report status

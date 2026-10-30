@@ -1,0 +1,30 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok ship S2
+ship S1 "Vaccine box" route=R3 class=chilled band=2.0..8.0 hold=10m cap=600 hmax=- skew=0s offset=0.0
+ship S2 "Frozen plasma" route=R4 class=frozen band=-25.0..-15.0 hold=10m cap=600 hmax=70% skew=0s offset=0.0
+ship S1 planned readings=0
+ship S2 planned readings=0
+window S1 n=5
+  0 4.0 hum=40
+  60 4.5 hum=42
+  120 5.0 hum=45
+  180 5.5 hum=47
+  240 6.0 hum=50
+window S1 n=3
+  60 4.5 hum=42
+  120 5.0 hum=45
+  180 5.5 hum=47
+timeline S2 n=3
+  d1 00:00:00 -20.0
+  d1 00:05:00 -19.5
+  d1 00:10:00 -18.0
+rollup S1 hours=1
+hour 0 n=5 min=4.0 max=6.0 avg=5.0 hum=45
+describe S1 n=5 min=4.0 p50=5.0 p90=6.0 max=6.0 mean=5.0
+stats ships=2 readings=8 refused=0 sites=4 routes=2

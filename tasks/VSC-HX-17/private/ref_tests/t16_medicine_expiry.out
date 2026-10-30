@@ -1,0 +1,35 @@
+customer c-m1 added region=arden tier=basic
+error: medicine needs the exp= option
+error: invalid number '-3'
+error: invalid number 'x'
+received lot L0001 dune vitamin-c units 100 expiry 45
+received lot L0002 dune bandage-50 units 40 expiry 60
+error: option 'exp' is not valid here
+error: option 'exp' is not valid here
+error: option 'exp' is not valid here
+day 10 Thu
+order ORD-0001 customer c-m1 goods 104.00 status open
+  vitamin-c qty=20 allocated=20 backorder=0
+order ORD-0001 customer c-m1 day 10 goods 104.00 status open ref=-
+  vitamin-c qty=20 allocated=20 backorder=0 shipped=0 returned=0 cancelled=0
+    from dune lot L0001 x20
+day 15 Tue
+order ORD-0002 customer c-m1 goods 104.00 status open
+  vitamin-c qty=20 allocated=20 backorder=0
+order ORD-0002 customer c-m1 day 15 goods 104.00 status open ref=-
+  vitamin-c qty=20 allocated=20 backorder=0 shipped=0 returned=0 cancelled=0
+    from dune lot L0001 x20
+day 16 Wed
+order ORD-0003 customer c-m1 goods 90.00 status open
+  bandage-50 qty=20 allocated=20 backorder=0
+order ORD-0004 customer c-m1 goods 104.00 status backorder
+  vitamin-c qty=20 allocated=0 backorder=20
+order ORD-0003 customer c-m1 day 16 goods 90.00 status open ref=-
+  bandage-50 qty=20 allocated=20 backorder=0 shipped=0 returned=0 cancelled=0
+    from dune lot L0002 x20
+order ORD-0004 customer c-m1 day 16 goods 104.00 status backorder ref=-
+  vitamin-c qty=20 allocated=0 backorder=20 shipped=0 returned=0 cancelled=0
+  L0002 dune bandage-50 qty=40 reserved=20 expiry=60 received=0
+  L0001 dune vitamin-c qty=100 reserved=40 expiry=45 received=0
+2 lots, 140 units
+0 lots expired

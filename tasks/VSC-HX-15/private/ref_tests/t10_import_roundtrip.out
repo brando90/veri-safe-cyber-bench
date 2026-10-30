@@ -1,0 +1,40 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok import readings=3
+ship S1 "Dock\tower \ crate" route=R4 class=- band=-4.0..6.5 hold=15m cap=unlimited hmax=50% skew=-30s offset=0.5
+begin export
+ship	S1	Dock\\tower \\ crate	R4	-4.0	6.5	15	0	50	-30	0.5
+r	0	-40	40
+r	60000	60	-
+r	120000	61	99
+arr	1	0
+arr	3	500000
+plan	2	250000
+end export
+ok import readings=1
+begin export
+ship	S2	Second	R3	2.0	8.0	-	-	-	0	0.0
+r	0	50	-
+end export
+begin export
+ship	S1	Dock\\tower \\ crate	R4	-4.0	6.5	15	0	50	-30	0.5
+r	0	-40	40
+r	60000	60	-
+r	120000	61	99
+arr	1	0
+arr	3	500000
+plan	2	250000
+end export
+begin export
+ship	S2	Second	R3	2.0	8.0	-	-	-	0	0.0
+r	0	50	-
+end export
+error: bad number for temp
+error: bad import block
+ship S1 moving readings=3
+ship S2 planned readings=1

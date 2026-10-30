@@ -1,0 +1,24 @@
+customer add c-arden arden tier=basic
+receive alder paper-a4 10
+receive alder bolt-m6 300
+receive alder cable-usb 100
+receive alder hammer-1 12
+receive alder charger-20 20
+receive alder tumbler-6 24
+receive alder shirt-m 60
+receive alder crisps-50 96
+receive alder plank-2m 50
+receive harbor paper-a3 10
+receive harbor cable-hdmi 101
+receive harbor bolt-m6 500
+receive dune milk-1l 36
+receive dune vitamin-c 40 exp=200
+replenish
+replenish alder
+report low_stock
+report low_stock wh=alder
+order add c-arden bolt-m6:100 cable-usb:1
+replenish alder
+replenish nowhere
+receive dune vitamin-c 20 exp=300
+replenish dune

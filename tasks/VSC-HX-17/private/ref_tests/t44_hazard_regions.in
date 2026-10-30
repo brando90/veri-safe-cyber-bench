@@ -1,0 +1,36 @@
+customer add c-arden arden tier=basic
+customer add c-brook brook tier=basic
+customer add c-crest crest tier=basic
+customer add c-gale gale tier=basic
+customer add c-haven haven tier=basic
+customer add c-delta delta tier=basic
+customer add c-depot depot tier=basic
+receive birch thinner-1l 200
+receive birch charger-20 100
+receive grove cleaner-5l 100
+receive harbor paper-a4 100
+receive alder charger-20 100
+receive fjord paper-a4 100
+order add c-arden thinner-1l:6
+order add c-arden charger-20:4
+order add c-arden paper-a4:4 cleaner-5l:6
+order add c-crest thinner-1l:6
+order add c-crest charger-20:4
+order add c-crest paper-a4:4 cleaner-5l:6
+order add c-gale thinner-1l:6
+order add c-gale charger-20:4
+order add c-gale paper-a4:4 cleaner-5l:6
+order add c-haven thinner-1l:6
+order add c-haven charger-20:4
+order add c-haven paper-a4:4 cleaner-5l:6
+order add c-delta thinner-1l:6
+order add c-delta charger-20:4
+order add c-delta paper-a4:4 cleaner-5l:6
+order add c-depot thinner-1l:6
+order add c-depot charger-20:4
+order add c-depot paper-a4:4 cleaner-5l:6
+region show crest
+region show gale
+region show arden
+region list
+order list

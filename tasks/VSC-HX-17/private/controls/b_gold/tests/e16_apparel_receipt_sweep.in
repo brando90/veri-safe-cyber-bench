@@ -1,0 +1,10 @@
+receive alder shirt-m 1
+receive alder shirt-m 19
+receive alder shirt-m 20
+receive alder shirt-m 21
+receive alder shirt-m 39
+receive alder shirt-m 41
+receive alder shirt-m 59
+receive alder shirt-m 99
+stock alder
+ledger alder kind=receive

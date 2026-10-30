@@ -1,0 +1,25 @@
+clock set to 2026-03-10T12:00:00Z
+retention set to 10 days
+logged #1
+logged #2
+logged #3
+logged #4
+logged #5
+logged #6
+purged 5 records (ids 1, 2, 3, 4, 5), 1 kept
+report at 2026-03-10T12:00:00Z
+records: 1 (bytes 0)
+sources: 1, average 1 records per source
+by source:
+  web                1  100.0%
+by user (top 3):
+  u1                 1  100.0%
+by domain:
+  -                  1  100.0%
+by level:
+  info               1  100.0%
+largest record: #6 (0 bytes)
+alerts (window 60s):
+  none
+#6 2026-03-09T10:00:00Z web u1 -- fresh 6
+exported 1 records, 0 fields changed

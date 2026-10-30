@@ -1,0 +1,15 @@
+clock set to 2026-03-10T12:00:00Z
+rule added: redact password
+rule added: mask api-key
+rule added: drop ua
+logged #1
+logged #2
+#1 2026-03-09T10:15:00Z auth alice@example.com api-key=*********P41 ip=10.0.0.7 level=info password=[redacted] -- login ok
+    changed: api-key, password, ua
+#2 2026-03-09T09:00:00Z web bob ip=10.0.0.9 level=warn path=/admin -- slow response 912ms
+exported 2 records, 3 fields changed
+#2 2026-03-09T09:00:00Z web bob ip=10.0.0.9 level=warn path=/admin -- slow response 912ms
+drop: ua
+redact: password
+mask: api-key
+strict: off

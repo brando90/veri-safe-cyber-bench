@@ -1,0 +1,19 @@
+customer c-h1 added region=gale tier=basic
+customer c-h2 added region=arden tier=basic
+received lot L0001 harbor paper-a4 units 400 expiry -
+received lot L0002 fjord paper-a3 units 400 expiry -
+order ORD-0001 customer c-h1 goods 198.00 status open
+  paper-a3 qty=20 allocated=20 backorder=0
+order ORD-0002 customer c-h2 goods 124.00 status open
+  paper-a4 qty=20 allocated=20 backorder=0
+order ORD-0003 customer c-h1 goods 198.00 status open
+  paper-a3 qty=20 allocated=20 backorder=0
+order ORD-0004 customer c-h2 goods 124.00 status open
+  paper-a4 qty=20 allocated=20 backorder=0
+shipment SHP-0001 order ORD-0001 from fjord carrier parcelo weight 9000g goods 198.00 freight 11.49 handling 1.85 duty 0.00 dispatch day 1 eta day 3
+shipment SHP-0002 order ORD-0002 from harbor carrier parcelo weight 9000g goods 124.00 freight 7.49 handling 1.28 duty 0.00 dispatch day 1 eta day 3
+day 5 Sat
+shipment SHP-0003 order ORD-0004 from harbor carrier parcelo weight 9000g goods 124.00 freight 7.49 handling 1.28 duty 0.00 dispatch day 6 eta day 8
+day 6 Sun
+shipment SHP-0004 order ORD-0003 from fjord carrier parcelo weight 9000g goods 198.00 freight 11.49 handling 1.85 duty 0.00 dispatch day 8 eta day 10
+day 6 Sun

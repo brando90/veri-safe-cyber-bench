@@ -1,0 +1,31 @@
+customer add c-brook brook tier=basic
+customer add c-forge forge tier=basic
+receive alder paper-a4 400
+receive harbor paper-a4 400
+receive harbor hammer-1 100
+order add c-forge paper-a4:2
+ship ORD-0001 carrier=tern
+order add c-forge paper-a4:4
+ship ORD-0002 carrier=tern
+order add c-forge paper-a4:6
+ship ORD-0003 carrier=tern
+order add c-forge paper-a4:8
+ship ORD-0004 carrier=tern
+order add c-forge paper-a4:10
+ship ORD-0005 carrier=tern
+order add c-forge paper-a4:12
+ship ORD-0006 carrier=tern
+order add c-forge paper-a4:14
+ship ORD-0007 carrier=tern
+order add c-forge paper-a4:16
+ship ORD-0008 carrier=tern
+order add c-forge paper-a4:18
+ship ORD-0009 carrier=tern
+order add c-forge paper-a4:20
+ship ORD-0010 carrier=tern
+order add c-forge paper-a4:22
+ship ORD-0011 carrier=tern
+order add c-brook hammer-1:12
+ship ORD-0012 carrier=tern
+order add c-brook hammer-1:2
+ship ORD-0013 carrier=tern

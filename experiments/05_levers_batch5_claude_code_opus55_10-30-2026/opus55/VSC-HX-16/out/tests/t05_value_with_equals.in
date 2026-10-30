@@ -1,0 +1,5 @@
+now 2026-03-10T12:00:00Z
+rule redact q
+log 2026-03-09T10:00:00Z web bob q=a=b path=/x?y=1
+export
+stats

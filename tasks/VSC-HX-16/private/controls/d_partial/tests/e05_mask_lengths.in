@@ -1,0 +1,11 @@
+now 2026-03-10T12:00:00Z
+rule mask a
+rule mask b
+rule mask c
+rule mask d
+rule mask e
+rule mask f
+rule mask g
+rule mask h
+log 2026-03-09T10:00:00Z web bob a= b=x c=xy d=xyz e=wxyz f=abcdefg g=abcdefgh h=abcdefghijklmnopqrstu
+export

@@ -1,0 +1,42 @@
+customer c-p1 added region=arden tier=gold
+error: unbalanced double quote
+error: option tier given twice
+error: option 'extra' is not valid here
+customer c-p1
+  name="Quoted Name" region=arden tier=gold carrier=auto split=yes hold=no
+  po=- email=- note=-
+  status=active since day 0
+customer c-p1 note two words here
+customer c-p1 note plain
+error: usage: set note ID TEXT
+customer c-p1 po quote inside
+customer c-p1
+  name="Quoted Name" region=arden tier=gold carrier=auto split=yes hold=no
+  po=quote inside email=- note=plain
+  status=active since day 0
+error: unknown command 'unknowncmd'
+error: unknown command 'set'
+error: unknown command 'set'
+error: unknown command 'order'
+error: usage: order add CUSTOMER SKU:QTY... [ref=TEXT]
+error: usage: order add CUSTOMER SKU:QTY... [ref=TEXT]
+order ORD-0001 customer c-p1 goods 6.20 status backorder
+  paper-a4 qty=1 allocated=0 backorder=1
+error: usage: receive WAREHOUSE SKU UNITS [exp=DAY]
+error: usage: receive WAREHOUSE SKU UNITS [exp=DAY]
+error: usage: ship NUMBER [at=HOUR] [carrier=CARRIER]
+error: order ORD-0001 has nothing to ship or cancel
+error: usage: return NUMBER SKU QTY [cond=good|damaged]
+error: usage: transfer FROM TO SKU UNITS
+error: usage: adjust WAREHOUSE SKU DELTA
+error: unknown warehouse 'nowhere'
+0 movements
+error: invalid number 'x'
+0 entries
+  #2 day 0 set po c-p1 - quote inside
+  #3 day 0 order add c-p1 ORD-0001 620
+3 entries
+error: usage: export KIND FORMAT
+error: usage: report NAME [ARGS]
+error: unknown command 'backorder'
+error: unknown command 'backorder'

@@ -1,0 +1,37 @@
+clock set to 2026-03-10T12:00:00Z
+logged #1
+logged #2
+logged #3
+logged #4
+logged #5
+logged #6
+logged #7
+logged #8
+logged #9
+logged #10
+logged #11
+logged #12
+logged #13
+logged #14
+logged #15
+top set to 5
+report at 2026-03-10T12:00:00Z
+records: 15 (bytes 0)
+sources: 1, average 15 records per source
+by source:
+  a                 15  100.0%
+by user (top 5):
+  a@b@c.org          5   33.3%
+  bob@               4   26.7%
+  plain              3   20.0%
+  @x.net             2   13.3%
+  z@c.org            1    6.7%
+by domain:
+  -                  7   46.7%
+  c.org              6   40.0%
+  x.net              2   13.3%
+by level:
+  info              15  100.0%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  none

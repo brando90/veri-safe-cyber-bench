@@ -1,0 +1,13 @@
+customer add c-arden arden tier=basic
+customer add c-gale gale tier=basic
+receive alder paper-a4 300
+receive harbor cable-usb 200
+customer add c-g1 gale tier=gold
+order add c-arden paper-a4:20
+order add c-gale cable-usb:40
+order add c-g1 paper-a4:10
+report goods_tier
+order cancel ORD-0002
+report goods_tier
+report goods_region
+report goods_customer

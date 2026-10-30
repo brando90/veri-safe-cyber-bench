@@ -1,0 +1,32 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "A very long shipment label that is cut" route=R3
+ship add S2 "Ünïcödé label ünïcödé label" route=R3
+ship add S3 "Short" route=R3
+ship add S4 "Exactly sixteen!!" route=R3
+ship add S5 "Fifteen chars!!" route=R3
+board
+read S1 t=0 temp=5.0
+read S1 t=60 temp=9.0
+read S1 t=120 temp=5.0
+read S1 t=180 temp=5.0
+read S2 t=0 temp=5.0
+read S2 t=60 temp=5.0
+read S3 t=0 temp=9.0
+arrive S1 stop=1 t=0
+arrive S2 stop=1 t=0
+arrive S2 stop=3 t=100
+fleet
+board
+ship remove S1
+fleet
+ship remove S2
+ship remove S3
+ship remove S4
+ship remove S5
+fleet
+board

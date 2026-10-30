@@ -1,0 +1,18 @@
+received lot L0001 cedar paper-a4 units 3300 expiry -
+received lot L0002 harbor paper-a4 units 500 expiry -
+transferred 100 paper-a4 from harbor to cedar
+transferred 100 paper-a4 from harbor to cedar
+  L0001 cedar paper-a4 qty=3300 reserved=0 expiry=- received=0
+  L0003 cedar paper-a4 qty=100 reserved=0 expiry=- received=0
+  L0004 cedar paper-a4 qty=100 reserved=0 expiry=- received=0
+3 lots, 3500 units
+error: warehouse dune does not stock paper-a4
+error: invalid number '0'
+error: only 300 units of paper-a4 are free at harbor
+transferred 200 paper-a4 from cedar to harbor
+error: source and destination are both harbor
+  #2 day 0 receive harbor paper-a4 +500 L0002
+  #3 day 0 transfer_out harbor paper-a4 -100 cedar
+  #5 day 0 transfer_out harbor paper-a4 -100 cedar
+  #8 day 0 transfer_in harbor paper-a4 +200 cedar
+4 movements

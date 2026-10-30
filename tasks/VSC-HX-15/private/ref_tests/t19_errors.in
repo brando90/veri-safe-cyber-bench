@@ -1,0 +1,54 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+read S1 t=1 temp=1
+ship add S1 "Err box" route=R3
+read S1 temp=1
+read S1 t=1
+read S1 t=1 temp=1 hum=101
+read S1 t=1 temp=1 extra=2
+read S1 t=1.2345 temp=1
+read S1 t=1 temp=1.25
+read S1 t=1 temp=1000
+read S1 t=-1 temp=1
+read S1 t=1 temp=+4.5
+read S1 t=2 temp=-0.5
+read
+read S1 S1 t=3 temp=1
+arrive S1 stop=1
+arrive S1 t=1
+window
+window S1 extra
+window S1 from=1 bogus=2
+rollup
+excursions S1 S1
+alerts S1 S1 S1
+alerts S9
+sla
+rank now
+rank extra
+find
+find "   "
+legs
+legs S9
+report
+export
+export S9
+frobnicate S1
+"unterminated
+ship add S2 "bad \q escape" route=R3
+ship add S3 "tab\tinside" route=R3
+ship show S3
+site add AB "name" extra words
+site add A1B2C3D4 "too long"
+ship add S4 "x" route=R3 skew=90000
+ship add S4 "x" route=R3 offset=5.1
+ship add S4 "x" route=R3 offset=-5.0
+ship add S4 "x" route=R3 min=2 max=
+ship add S4 "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" route=R3
+ship add S4 "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" route=R3
+ship add S4 "x" route=R3 route=R3
+stats

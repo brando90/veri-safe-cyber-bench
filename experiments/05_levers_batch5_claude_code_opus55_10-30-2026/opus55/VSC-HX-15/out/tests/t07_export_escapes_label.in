@@ -1,0 +1,18 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+route add R3 AMS LHR JFK
+ship add S1 "C:\\new\\box" route=R3 class=chilled
+ship add S2 "Tab\\tbox" route=R3 class=chilled
+read S1 t=0 temp=4.0
+ship show S1
+ship show S2
+export S1
+export S2
+import
+begin export
+ship	S3	D:\\temp\\x	R3	2.0	8.0	-	-	-	0	0.0
+r	0	40	-
+end export
+ship show S3
+export S3

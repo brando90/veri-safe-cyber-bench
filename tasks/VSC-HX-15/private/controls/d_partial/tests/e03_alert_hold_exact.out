@@ -1,0 +1,28 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok set hold=5
+ok ship S1
+excursions S1 n=3
+  high start=60 end=360 dur=300s peak=9.5
+  high start=460 end=700 dur=240s peak=9.0
+  high start=760 end=1100 dur=340s peak=9.9 open
+alert S1 excursion t=60 dur=300s limit=300s
+alert S1 excursion t=760 dur=340s limit=300s
+alerts total=2
+alert S1 excursion t=60 dur=300s limit=300s
+alert S1 excursion t=760 dur=340s limit=300s
+alerts total=2
+report S1 "Hold box"
+  stop 1 AMS pending
+  stop 2 LHR pending
+  stop 3 JFK pending
+  readings 9
+  excursions 3 longest 340s
+  alerts 2
+  handoffs 0
+  late stops 0
+  sla 44.4%

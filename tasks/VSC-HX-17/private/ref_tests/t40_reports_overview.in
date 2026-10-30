@@ -1,0 +1,45 @@
+customer add c-arden arden tier=basic
+customer add c-gale gale tier=basic
+customer add c-delta delta tier=basic
+receive alder paper-a4 300
+receive harbor cable-usb 200
+receive elm hammer-1 100
+receive dune milk-1l 60
+receive alder plank-2m 40
+customer add c-gold1 gale tier=gold
+customer add c-silv1 delta tier=silver
+order add c-arden paper-a4:20
+ship ORD-0001
+order add c-gale cable-usb:40
+ship ORD-0002 carrier=gull
+order add c-delta hammer-1:10
+ship ORD-0003
+order add c-gold1 paper-a4:10 cable-usb:10 plank-2m:4
+ship ORD-0004
+order add c-silv1 milk-1l:24
+ship ORD-0005
+order add c-arden hammer-1:10
+tick 2
+return ORD-0001 paper-a4 3
+return ORD-0003 hammer-1 4 cond=damaged
+return ORD-0005 milk-1l 2
+report goods_region
+report goods_customer
+report goods_tier
+report freight_carrier
+report freight_region
+report duty_region
+report stock_cat
+report stock_wh
+report value_wh
+report status
+report backorders
+report returns_cat
+report scrap_cat
+report expiring
+report cancelled
+report expiring days=30
+report stock_wh wh=alder
+report goods_customer cust=c-gale
+report list
+report nosuch

@@ -1,0 +1,40 @@
+customer c-forge added region=forge tier=basic
+received lot L0001 harbor paper-a4 units 400 expiry -
+order ORD-0001 customer c-forge goods 31.00 status open
+  paper-a4 qty=5 allocated=5 backorder=0
+shipment SHP-0001 order ORD-0001 from harbor carrier swift weight 2250g goods 31.00 freight 12.82 handling 1.28 duty 0.00 dispatch day 0 eta day 2
+day 1 Tue
+order ORD-0002 customer c-forge goods 31.00 status open
+  paper-a4 qty=5 allocated=5 backorder=0
+shipment SHP-0002 order ORD-0002 from harbor carrier swift weight 2250g goods 31.00 freight 12.82 handling 1.28 duty 0.00 dispatch day 1 eta day 3
+day 2 Wed
+order ORD-0003 customer c-forge goods 31.00 status open
+  paper-a4 qty=5 allocated=5 backorder=0
+shipment SHP-0003 order ORD-0003 from harbor carrier swift weight 2250g goods 31.00 freight 12.82 handling 1.28 duty 0.00 dispatch day 2 eta day 6
+day 3 Thu
+order ORD-0004 customer c-forge goods 31.00 status open
+  paper-a4 qty=5 allocated=5 backorder=0
+shipment SHP-0004 order ORD-0004 from harbor carrier swift weight 2250g goods 31.00 freight 12.82 handling 1.28 duty 0.00 dispatch day 3 eta day 6
+day 4 Fri
+order ORD-0005 customer c-forge goods 31.00 status open
+  paper-a4 qty=5 allocated=5 backorder=0
+shipment SHP-0005 order ORD-0005 from harbor carrier swift weight 2250g goods 31.00 freight 12.82 handling 1.28 duty 0.00 dispatch day 4 eta day 6
+day 5 Sat
+order ORD-0006 customer c-forge goods 31.00 status open
+  paper-a4 qty=5 allocated=5 backorder=0
+shipment SHP-0006 order ORD-0006 from harbor carrier swift weight 2250g goods 31.00 freight 12.82 handling 1.28 duty 0.00 dispatch day 5 eta day 7
+day 6 Sun
+order ORD-0007 customer c-forge goods 31.00 status open
+  paper-a4 qty=5 allocated=5 backorder=0
+shipment SHP-0007 order ORD-0007 from harbor carrier swift weight 2250g goods 31.00 freight 12.82 handling 1.28 duty 0.00 dispatch day 6 eta day 8
+day 7 Mon
+order ORD-0008 customer c-forge goods 31.00 status open
+  paper-a4 qty=5 allocated=5 backorder=0
+shipment SHP-0008 order ORD-0008 from harbor carrier swift weight 2250g goods 31.00 freight 12.82 handling 1.28 duty 0.00 dispatch day 7 eta day 9
+day 8 Tue
+region forge Forge Reach
+  zone 6
+  no delivery on Fri,Sat
+  refuses hazard class 2 and above
+  duty 1500 bp on goods above 60.00, 3 extra days
+  remote fee 3.50 per shipment

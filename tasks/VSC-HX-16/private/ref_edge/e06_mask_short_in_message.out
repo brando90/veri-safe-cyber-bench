@@ -1,0 +1,6 @@
+clock set to 2026-03-10T12:00:00Z
+logged #1
+logged #2
+#1 2026-03-09T10:00:00Z web bob -- login password=** token=*** other words
+#2 2026-03-09T10:00:01Z web bob -- pin secret=* and apikey=***d
+exported 2 records, 0 fields changed

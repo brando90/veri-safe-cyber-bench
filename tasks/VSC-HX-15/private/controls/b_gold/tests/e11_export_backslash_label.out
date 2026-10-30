@@ -1,0 +1,24 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok ship S2
+begin export
+ship	S1	C:\\temp\\new	R3	2.0	8.0	-	-	-	0	0.0
+r	0	50	-
+r	60000	60	40
+end export
+begin export
+ship	S2	Plain	R3	2.0	8.0	-	-	-	0	0.0
+end export
+begin export
+ship	S1	C:\\temp\\new	R3	2.0	8.0	-	-	-	0	0.0
+r	0	50	-
+r	60000	60	40
+end export
+begin export
+ship	S2	Plain	R3	2.0	8.0	-	-	-	0	0.0
+end export

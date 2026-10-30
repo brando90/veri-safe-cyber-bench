@@ -1,0 +1,18 @@
+customer c-k1 added region=delta tier=basic
+received lot L0001 iris paper-a4 units 100 expiry -
+received lot L0002 kelp paper-a3 units 100 expiry -
+order ORD-0001 customer c-k1 goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+order ORD-0002 customer c-k1 goods 99.00 status open
+  paper-a3 qty=10 allocated=10 backorder=0
+shipment SHP-0001 order ORD-0001 from iris carrier parcelo weight 4500g goods 62.00 freight 9.99 handling 1.49 duty 0.00 dispatch day 0 eta day 2
+day 3 Thu
+shipment SHP-0002 order ORD-0002 from kelp carrier parcelo weight 4500g goods 99.00 freight 10.74 handling 1.75 duty 9.90 dispatch day 4 eta day 9
+day 3 Thu
+order ORD-0003 customer c-k1 goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+shipment SHP-0003 order ORD-0003 from iris carrier parcelo weight 4500g goods 62.00 freight 9.99 handling 1.49 duty 0.00 dispatch day 3 eta day 7
+day 4 Fri
+order ORD-0004 customer c-k1 goods 99.00 status open
+  paper-a3 qty=10 allocated=10 backorder=0
+shipment SHP-0004 order ORD-0004 from kelp carrier parcelo weight 4500g goods 99.00 freight 10.74 handling 1.75 duty 9.90 dispatch day 7 eta day 14

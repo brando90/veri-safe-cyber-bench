@@ -1,0 +1,10 @@
+customer add c-acme delta
+customer add c-bolt forge
+receive alder hammer-1 60
+order add c-acme hammer-1:6
+order add c-acme hammer-1:6
+order add c-bolt hammer-1:6
+ship ORD-0001 carrier=tern
+ship ORD-0002 carrier=swift
+ship ORD-0003 carrier=tern
+report freight_carrier

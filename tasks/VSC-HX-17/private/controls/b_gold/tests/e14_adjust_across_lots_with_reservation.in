@@ -1,0 +1,11 @@
+customer add c-arden arden tier=basic
+receive harbor cable-usb 30
+receive harbor cable-usb 100
+order add c-arden cable-usb:25
+adjust harbor cable-usb -20
+order show ORD-0001
+adjust harbor cable-usb -100
+adjust harbor cable-usb -105
+stock harbor
+ship ORD-0001
+stock harbor

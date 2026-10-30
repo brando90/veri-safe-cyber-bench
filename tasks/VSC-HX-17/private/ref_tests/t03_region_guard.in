@@ -1,0 +1,20 @@
+customer add c-g1 arden
+customer add c-g2 gale
+receive harbor paper-a4 300
+receive alder cable-usb 300
+order add c-g1 paper-a4:20
+set region c-g1 crest
+set carrier c-g1 tern
+set carrier c-g2 tern
+set carrier c-g2 swift
+ship ORD-0001
+set region c-g1 crest
+set carrier c-g1 tern
+customer show c-g1
+set region c-g1 gale
+order add c-g1 cable-usb:50
+ship ORD-0002
+customer show c-g1
+set carrier c-g1 auto
+ship ORD-0002
+audit

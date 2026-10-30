@@ -1,0 +1,21 @@
+received lot L0001 alder bolt-m6 units 200 expiry -
+received lot L0002 alder cable-usb units 37 expiry -
+received lot L0003 alder paper-a4 units 20 expiry -
+received lot L0004 alder hammer-1 units 12 expiry -
+received lot L0005 alder charger-20 units 8 expiry -
+received lot L0006 alder tumbler-6 units 24 expiry -
+received lot L0007 alder shirt-m units 40 expiry -
+received lot L0008 alder plank-2m units 20 expiry -
+received lot L0009 harbor cable-hdmi units 1 expiry -
+  L0001 alder bolt-m6 qty=200 reserved=0 expiry=- received=0
+  L0002 alder cable-usb qty=37 reserved=0 expiry=- received=0
+  L0005 alder charger-20 qty=8 reserved=0 expiry=- received=0
+  L0004 alder hammer-1 qty=12 reserved=0 expiry=- received=0
+  L0003 alder paper-a4 qty=20 reserved=0 expiry=- received=0
+  L0008 alder plank-2m qty=20 reserved=0 expiry=- received=0
+  L0007 alder shirt-m qty=40 reserved=0 expiry=- received=0
+  L0006 alder tumbler-6 qty=24 reserved=0 expiry=- received=0
+8 lots, 361 units
+error: invalid number '0'
+error: invalid number 'x'
+error: unknown sku 'teleporter'

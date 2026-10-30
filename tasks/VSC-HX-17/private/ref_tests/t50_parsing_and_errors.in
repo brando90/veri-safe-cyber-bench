@@ -1,0 +1,35 @@
+# comment line
+   
+customer add c-p1 arden name="Quoted Name" tier=gold
+customer add c-p2 arden name="unbalanced
+customer add c-p3 arden tier=gold tier=basic
+customer add c-p4 arden extra=1
+customer show c-p1 extra=1
+set note c-p1 "two words here"
+set note c-p1 plain
+set note c-p1
+set po c-p1 "quote ""inside"
+customer show c-p1
+unknowncmd
+set
+set color c-p1 red
+order
+order add
+order add c-p1
+order add c-p1 paper-a4:1 ref=
+receive alder
+receive alder paper-a4
+ship
+ship ORD-0001
+return ORD-0001
+transfer alder
+adjust alder
+ledger nowhere
+ledger kind=weird
+audit x
+audit 3 action=set
+audit 2 subject=c-p1
+export
+report
+backorder
+backorder walk

@@ -1,0 +1,20 @@
+customer add c-depot depot tier=basic
+customer add c-arden arden tier=basic
+receive harbor paper-a4 100
+receive alder paper-a4 100
+order add c-depot paper-a4:10
+ship ORD-0001
+order add c-depot paper-a4:40
+ship ORD-0002
+order add c-depot paper-a4:10
+ship ORD-0003 carrier=haul
+set carrier c-depot swift
+set region c-depot arden
+set region c-arden depot
+order add c-arden paper-a4:6
+ship ORD-0004
+order add c-depot paper-a4:6
+ship ORD-0005
+customer show c-depot
+region show depot
+report freight_region

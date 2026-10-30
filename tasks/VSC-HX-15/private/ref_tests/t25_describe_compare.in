@@ -1,0 +1,34 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Odd count" route=R3
+ship add S2 "Even count" route=R3
+ship add S3 "Empty" route=R3
+read S1 t=0 temp=5.0
+read S1 t=10 temp=3.1
+read S1 t=20 temp=7.7
+read S1 t=30 temp=4.4
+read S1 t=40 temp=6.0
+read S1 t=50 temp=5.5
+read S1 t=60 temp=2.2
+read S2 t=0 temp=5.0
+read S2 t=10 temp=3.0
+read S2 t=20 temp=7.1
+read S2 t=30 temp=4.0
+read S2 t=40 temp=6.0
+read S2 t=50 temp=5.5
+read S2 t=60 temp=2.2
+read S2 t=70 temp=9.9
+read S2 t=80 temp=1.1
+read S2 t=90 temp=8.8
+describe S1
+describe S2
+describe S3
+describe S2 from=20 to=60
+compare S1 S2
+compare S1 S3
+compare S3 S3
+compare S1 S9

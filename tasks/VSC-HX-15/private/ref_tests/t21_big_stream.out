@@ -1,0 +1,456 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok set gap=900
+ok set spike=40
+ok set slack=3
+ok ship S1
+ok ship S2
+ok ship S3
+ok ship S10
+ok ship S11
+ok ship S12
+ok arrive S1 stop 1 AMS
+ok plan S1 stop 2
+ok arrive S1 stop 2 LHR
+ok arrive S1 stop 3 JFK
+ok arrive S2 stop 1 AMS
+ok plan S2 stop 2
+ok arrive S2 stop 2 LHR
+ok arrive S2 stop 3 JFK
+ok arrive S3 stop 1 AMS
+ok plan S3 stop 2
+ok arrive S3 stop 2 LHR
+ok arrive S3 stop 3 JFK
+ok arrive S10 stop 1 AMS
+ok plan S10 stop 2
+ok arrive S10 stop 2 LHR
+ok arrive S10 stop 3 JFK
+ok arrive S11 stop 1 AMS
+ok plan S11 stop 2
+ok arrive S11 stop 2 LHR
+ok arrive S11 stop 3 JFK
+ok arrive S12 stop 1 AMS
+ok plan S12 stop 2
+ok arrive S12 stop 2 LHR
+ok arrive S12 stop 3 JFK
+fleet planned=0 moving=6 delivered=0 avg_sla=26.0%
+rank 1 S12 3.1%
+rank 2 S11 13.3%
+rank 3 S10 18.1%
+rank 4 S3 22.1%
+rank 5 S2 27.4%
+rank 6 S1 71.9%
+rank 1 S11 10763.2
+rank 2 S12 10653.3
+rank 3 S3 8917.1
+rank 4 S10 7332.7
+rank 5 S2 5146.0
+rank 6 S1 1006.4
+rank 1 S1 188
+rank 2 S3 175
+rank 3 S2 170
+rank 4 S11 146
+rank 5 S10 145
+rank 6 S12 100
+board
+  S1       Bulk shipment 0  moving      71.9% 420
+  S2       Bulk shipment 1  moving      27.4% 420
+  S3       Bulk shipment 2  moving      22.1% 420
+  S10      Bulk shipment 3  moving      18.1% 420
+  S11      Bulk shipment 4  moving      13.3% 420
+  S12      Bulk shipment 5  moving       3.1% 420
+alert S10 late t=7541 stop=2 late=4m
+alert S11 late t=7688 stop=2 late=6m
+alert S12 late t=7835 stop=2 late=8m
+alerts total=3
+rollup S1 hours=35
+hour 0 n=10 min=5.9 max=8.9 avg=7.2 hum=56
+hour 1 n=24 min=0.9 max=6.8 avg=4.3 hum=50
+hour 2 n=15 min=0.8 max=4.1 avg=2.4 hum=57
+hour 3 n=18 min=2.9 max=5.5 avg=4.2 hum=62
+hour 4 n=9 min=1.3 max=4.7 avg=3.0 hum=48
+hour 5 n=10 min=0.6 max=2.5 avg=1.6 hum=61
+hour 6 n=11 min=-2.8 max=1.2 avg=-0.6 hum=51
+hour 7 n=4 min=-2.8 max=-1.9 avg=-2.2 hum=27
+hour 8 n=10 min=-1.2 max=3.2 avg=1.3 hum=55
+hour 9 n=13 min=1.2 max=4.4 avg=2.6 hum=63
+hour 10 n=13 min=2.2 max=4.6 avg=3.6 hum=47
+hour 11 n=18 min=-1.0 max=2.8 avg=1.0 hum=61
+hour 12 n=7 min=2.3 max=3.4 avg=2.9 hum=53
+hour 13 n=4 min=2.4 max=5.0 avg=3.8 hum=70
+hour 14 n=9 min=1.0 max=4.5 avg=2.4 hum=55
+hour 15 n=6 min=0.8 max=2.3 avg=1.5 hum=59
+hour 16 n=7 min=1.8 max=3.3 avg=2.6 hum=42
+hour 17 n=9 min=-1.6 max=3.2 avg=1.2 hum=56
+hour 18 n=22 min=-2.8 max=2.8 avg=0.1 hum=54
+hour 19 n=7 min=2.3 max=5.7 avg=3.9 hum=62
+hour 20 n=24 min=4.0 max=7.7 avg=5.7 hum=53
+hour 21 n=16 min=1.8 max=5.7 avg=3.6 hum=50
+hour 22 n=9 min=1.3 max=4.9 avg=2.8 hum=62
+hour 23 n=17 min=3.4 max=6.6 avg=4.9 hum=55
+hour 24 n=10 min=3.3 max=6.7 avg=5.1 hum=48
+hour 25 n=27 min=0.3 max=5.0 avg=2.0 hum=52
+hour 26 n=11 min=2.7 max=4.4 avg=3.7 hum=56
+hour 27 n=15 min=4.6 max=8.0 avg=6.6 hum=55
+hour 28 n=8 min=4.9 max=8.0 avg=6.3 hum=41
+hour 29 n=5 min=7.0 max=7.7 avg=7.2 hum=60
+hour 30 n=12 min=4.5 max=7.3 avg=6.1 hum=54
+hour 31 n=4 min=2.9 max=4.7 avg=3.7 hum=48
+hour 32 n=17 min=2.6 max=4.7 avg=3.9 hum=50
+hour 33 n=6 min=2.2 max=3.4 avg=2.8 hum=54
+hour 34 n=13 min=-3.0 max=1.3 avg=-1.1 hum=57
+sla S1 71.9% 302/420
+describe S1 n=420 min=-3.0 p50=3.3 p90=6.5 max=8.9 mean=3.2
+exposure S1 1006.4 degmin worst_hour=25 (17 readings)
+histogram S1 step=5.0 buckets=3
+  [-5.0,0.0) 39
+  [0.0,5.0) 287
+  [5.0,10.0) 94
+excursions S1 n=25
+  high start=288 end=2688 dur=2400s peak=8.9
+  low start=5598 end=5928 dur=330s peak=0.9
+  low start=8628 end=9858 dur=1230s peak=0.9
+  low start=9918 end=10338 dur=420s peak=0.8
+  low start=15168 end=16368 dur=1200s peak=1.8
+  low start=17688 end=18888 dur=1200s peak=1.3
+  low start=20658 end=29538 dur=8880s peak=-2.8
+  low start=30738 end=30858 dur=120s peak=1.5
+  low start=33648 end=33768 dur=120s peak=1.6
+  low start=33828 end=34008 dur=180s peak=1.2
+  low start=40338 end=41748 dur=1410s peak=-1.0
+  low start=43038 end=43158 dur=120s peak=1.7
+  low start=52368 end=53568 dur=1200s peak=1.2
+  low start=53748 end=55038 dur=1290s peak=1.0
+  low start=55128 end=57708 dur=2580s peak=0.8
+  low start=60258 end=60288 dur=30s peak=1.8
+  low start=62298 end=67248 dur=4950s peak=-2.8
+  low start=67638 end=67788 dur=150s peak=0.9
+  low start=68148 end=69348 dur=1200s peak=1.6
+  low start=78888 end=78948 dur=60s peak=1.9
+  low start=79188 end=79218 dur=30s peak=1.8
+  low start=79278 end=82098 dur=2820s peak=1.3
+  low start=90918 end=91398 dur=480s peak=0.6
+  low start=92718 end=93558 dur=840s peak=0.3
+  low start=122418 end=125658 dur=3240s peak=-3.0 open
+leg 1 AMS>LHR depart=100 arrive=7100 mins=116 n=33 avg=5.2
+leg 2 LHR>JFK depart=7100 arrive=20100 mins=216 n=45 avg=3.2
+leg 3 JFK>SFO pending
+rollup S2 hours=33
+hour 0 n=19 min=1.9 max=5.4 avg=4.0 hum=44
+hour 1 n=5 min=1.6 max=2.7 avg=2.2 hum=46
+hour 2 n=14 min=1.6 max=3.5 avg=2.3 hum=54
+hour 3 n=7 min=-2.1 max=0.8 avg=-0.5 hum=43
+hour 4 n=16 min=-5.5 max=-1.3 avg=-3.2 hum=60
+hour 5 n=17 min=-6.0 max=-1.4 avg=-3.5 hum=48
+hour 6 n=20 min=-5.2 max=-1.1 avg=-2.9 hum=48
+hour 7 n=18 min=-6.0 max=-2.6 avg=-3.8 hum=54
+hour 8 n=17 min=-6.0 max=-3.8 avg=-5.0 hum=56
+hour 9 n=13 min=-5.9 max=-3.7 avg=-4.7 hum=53
+hour 10 n=18 min=-4.4 max=-0.9 avg=-2.6 hum=65
+hour 11 n=19 min=-2.3 max=2.1 avg=-0.3 hum=54
+hour 12 n=13 min=0.6 max=2.4 avg=1.6 hum=43
+hour 13 n=9 min=0.4 max=2.7 avg=1.5 hum=58
+hour 14 n=9 min=-0.7 max=2.4 avg=0.8 hum=58
+hour 15 n=6 min=-3.6 max=-1.9 avg=-2.8 hum=64
+hour 16 n=15 min=-3.6 max=-1.0 avg=-2.1 hum=54
+hour 17 n=15 min=-2.8 max=0.9 avg=-0.7 hum=59
+hour 18 n=9 min=-3.2 max=-1.6 avg=-2.3 hum=57
+hour 19 n=9 min=-2.8 max=0.7 avg=-1.1 hum=62
+hour 20 n=14 min=1.1 max=5.5 avg=3.1 hum=56
+hour 21 n=17 min=-2.6 max=1.8 avg=-0.3 hum=50
+hour 22 n=13 min=-4.9 max=-1.6 avg=-2.9 hum=50
+hour 23 n=5 min=-4.7 max=-3.4 avg=-4.0 hum=41
+hour 24 n=17 min=-3.8 max=-0.3 avg=-2.2 hum=52
+hour 25 n=7 min=0.0 max=2.5 avg=1.2 hum=47
+hour 26 n=17 min=-0.4 max=3.0 avg=1.3 hum=54
+hour 27 n=14 min=1.0 max=3.1 avg=2.3 hum=54
+hour 28 n=9 min=1.7 max=4.9 avg=2.8 hum=41
+hour 29 n=12 min=4.3 max=6.3 avg=5.6 hum=45
+hour 30 n=3 min=3.6 max=4.9 avg=4.1 hum=57
+hour 31 n=15 min=1.9 max=5.7 avg=3.5 hum=60
+hour 32 n=9 min=3.4 max=5.2 avg=4.2 hum=51
+sla S2 27.4% 115/420
+describe S2 n=420 min=-6.0 p50=-0.7 p90=3.9 max=6.3 mean=-0.4
+exposure S2 5146.0 degmin worst_hour=6 (20 readings)
+histogram S2 step=5.0 buckets=4
+  [-10.0,-5.0) 21
+  [-5.0,0.0) 210
+  [0.0,5.0) 174
+  [5.0,10.0) 15
+excursions S2 n=19
+  low start=3407 end=5807 dur=2400s peak=1.6
+  low start=9047 end=9347 dur=300s peak=1.6
+  low start=9497 end=43187 dur=33690s peak=-6.0
+  low start=43277 end=44597 dur=1320s peak=1.5
+  low start=44657 end=44957 dur=300s peak=1.9
+  low start=45047 end=45077 dur=30s peak=1.7
+  low start=45197 end=48167 dur=2970s peak=0.4
+  low start=48677 end=50567 dur=1890s peak=0.5
+  low start=50717 end=73007 dur=22290s peak=-3.6
+  low start=73067 end=73187 dur=120s peak=1.5
+  low start=76667 end=92807 dur=16140s peak=-4.9
+  low start=94097 end=94217 dur=120s peak=1.7
+  low start=94397 end=94517 dur=120s peak=1.0
+  low start=94577 end=96287 dur=1710s peak=-0.4
+  low start=97727 end=97817 dur=90s peak=1.5
+  low start=98327 end=98567 dur=240s peak=1.0
+  low start=101507 end=101867 dur=360s peak=1.7
+  low start=103127 end=103427 dur=300s peak=1.9
+  low start=112997 end=113057 dur=60s peak=1.9
+leg 1 AMS>LHR depart=150 arrive=7247 mins=118 n=24 avg=3.6
+leg 2 LHR>JFK depart=7247 arrive=20150 mins=215 n=39 avg=-0.8
+leg 3 JFK>SFO pending
+rollup S3 hours=34
+hour 0 n=6 min=9.7 max=11.8 avg=10.7 hum=65
+hour 1 n=24 min=8.6 max=13.6 avg=11.2 hum=51
+hour 2 n=12 min=2.9 max=8.5 avg=5.2 hum=59
+hour 3 n=11 min=3.0 max=6.2 avg=4.5 hum=55
+hour 4 n=11 min=4.4 max=7.6 avg=5.9 hum=55
+hour 5 n=6 min=5.8 max=7.7 avg=7.0 hum=40
+hour 6 n=13 min=6.9 max=9.0 avg=7.9 hum=59
+hour 7 n=17 min=5.8 max=10.1 avg=8.2 hum=54
+hour 8 n=14 min=7.4 max=13.7 avg=10.5 hum=52
+hour 9 n=18 min=13.1 max=16.1 avg=14.6 hum=67
+hour 10 n=13 min=12.8 max=16.5 avg=14.8 hum=57
+hour 11 n=9 min=16.2 max=19.6 avg=17.9 hum=52
+hour 12 n=15 min=13.8 max=18.6 avg=16.0 hum=44
+hour 13 n=10 min=13.6 max=16.6 avg=14.8 hum=71
+hour 14 n=9 min=15.9 max=17.0 avg=16.5 hum=60
+hour 15 n=10 min=15.1 max=18.4 avg=16.6 hum=54
+hour 16 n=14 min=17.9 max=20.5 avg=19.2 hum=57
+hour 17 n=8 min=17.4 max=18.7 avg=18.2 hum=47
+hour 18 n=15 min=15.8 max=18.1 avg=17.2 hum=63
+hour 19 n=12 min=16.9 max=22.9 avg=19.6 hum=54
+hour 20 n=11 min=21.0 max=22.9 avg=22.0 hum=55
+hour 21 n=13 min=18.5 max=21.1 avg=19.7 hum=56
+hour 22 n=11 min=17.6 max=20.8 avg=18.7 hum=56
+hour 23 n=12 min=20.4 max=24.2 avg=21.7 hum=53
+hour 24 n=21 min=21.0 max=25.3 avg=23.7 hum=59
+hour 25 n=13 min=21.2 max=23.7 avg=22.2 hum=57
+hour 26 n=7 min=21.2 max=22.0 avg=21.6 hum=51
+hour 27 n=15 min=20.4 max=24.4 avg=22.5 hum=52
+hour 28 n=20 min=22.6 max=25.7 avg=24.3 hum=57
+hour 29 n=5 min=23.3 max=25.3 avg=24.5 hum=53
+hour 30 n=20 min=23.0 max=29.1 avg=25.4 hum=55
+hour 31 n=6 min=27.5 max=29.5 avg=28.7 hum=56
+hour 32 n=8 min=26.6 max=29.2 avg=27.8 hum=58
+hour 33 n=11 min=29.0 max=30.0 avg=29.9 hum=52
+sla S3 22.1% 93/420
+describe S3 n=420 min=2.9 p50=17.8 p90=25.1 max=30.0 mean=17.2
+exposure S3 8917.1 degmin worst_hour=24 (21 readings)
+histogram S3 step=5.0 buckets=7
+  [0.0,5.0) 16
+  [5.0,10.0) 64
+  [10.0,15.0) 66
+  [15.0,20.0) 110
+  [20.0,25.0) 119
+  [25.0,30.0) 37
+  [30.0,35.0) 8
+excursions S3 n=10
+  low start=8421 end=22251 dur=13830s peak=2.9
+  low start=22401 end=23421 dur=1020s peak=6.9
+  low start=23721 end=23841 dur=120s peak=7.9
+  low start=27231 end=27291 dur=60s peak=7.6
+  low start=27351 end=29421 dur=2070s peak=5.8
+  high start=35691 end=35871 dur=180s peak=16.1
+  high start=35991 end=36351 dur=360s peak=16.5
+  high start=38331 end=44721 dur=6390s peak=19.6
+  high start=46311 end=46401 dur=90s peak=15.8
+  high start=49761 end=121101 dur=71340s peak=30.0 open
+leg 1 AMS>LHR depart=200 arrive=7394 mins=119 n=30 avg=11.1
+leg 2 LHR>JFK depart=7394 arrive=20200 mins=213 n=39 avg=5.4
+leg 3 JFK>SFO pending
+alert S1 excursion t=288 dur=2400s limit=600s
+alert S1 humid t=288 peak=56%
+alert S1 gap t=1488 gap=1200s
+alert S1 gap t=2688 gap=1200s
+alert S1 humid t=2748 peak=82%
+alert S1 humid t=2838 peak=73%
+alert S1 humid t=3018 peak=62%
+alert S1 humid t=3708 peak=80%
+alert S1 gap t=5508 gap=1200s
+alert S1 humid t=5598 peak=60%
+alert S1 humid t=6048 peak=88%
+alert S1 humid t=6408 peak=62%
+alert S1 humid t=6768 peak=59%
+alert S1 humid t=6978 peak=65%
+alert S1 humid t=7248 peak=86%
+alert S1 gap t=8448 gap=1200s
+alert S1 excursion t=8628 dur=1230s limit=600s
+alert S1 gap t=9828 gap=1200s
+alert S1 humid t=9828 peak=64%
+alert S1 humid t=9918 peak=64%
+alert S1 humid t=10488 peak=70%
+alert S1 humid t=10728 peak=81%
+alert S1 humid t=11388 peak=71%
+alert S1 gap t=12588 gap=1200s
+alert S1 humid t=13008 peak=86%
+alert S1 humid t=13458 peak=86%
+alert S1 humid t=14838 peak=83%
+alert S1 excursion t=15168 dur=1200s limit=600s
+alert S1 gap t=16368 gap=1200s
+alert S1 excursion t=17688 dur=1200s limit=600s
+alert S1 gap t=17688 gap=1200s
+alert S1 gap t=18888 gap=1200s
+alert S1 gap t=20208 gap=1200s
+alert S1 humid t=20208 peak=88%
+alert S1 excursion t=20658 dur=8880s limit=600s
+alert S1 humid t=20658 peak=81%
+alert S1 humid t=21168 peak=89%
+alert S1 gap t=22368 gap=1200s
+alert S1 humid t=22908 peak=74%
+alert S1 gap t=24138 gap=1200s
+alert S1 humid t=24198 peak=61%
+alert S1 humid t=24558 peak=71%
+alert S1 gap t=26478 gap=1200s
+alert S1 gap t=27678 gap=1200s
+alert S1 gap t=28998 gap=1200s
+alert S1 humid t=29238 peak=83%
+alert S1 gap t=30738 gap=1200s
+alert S1 humid t=30858 peak=80%
+alert S1 gap t=32148 gap=1200s
+alert S1 gap t=33348 gap=1200s
+alert S1 humid t=33648 peak=71%
+alert S1 humid t=33828 peak=89%
+alert S1 humid t=34218 peak=81%
+alert S1 gap t=35418 gap=1200s
+alert S1 humid t=35628 peak=77%
+alert S1 gap t=36828 gap=1200s
+alert S1 gap t=38028 gap=1200s
+alert S1 humid t=38028 peak=66%
+alert S1 humid t=38298 peak=83%
+alert S1 humid t=38778 peak=66%
+alert S1 excursion t=40338 dur=1410s limit=600s
+alert S1 gap t=40338 gap=1200s
+alert S1 humid t=40398 peak=89%
+alert S1 humid t=41418 peak=67%
+alert S1 gap t=42948 gap=1200s
+alert S1 humid t=43008 peak=84%
+alert S1 gap t=44358 gap=1200s
+alert S1 gap t=45618 gap=1200s
+alert S1 humid t=45618 peak=79%
+alert S1 humid t=45948 peak=89%
+alert S1 gap t=47148 gap=1200s
+alert S1 gap t=48348 gap=1200s
+alert S1 humid t=48468 peak=70%
+alert S1 gap t=49668 gap=1200s
+alert S1 gap t=50868 gap=1200s
+alert S1 humid t=50988 peak=58%
+alert S1 excursion t=52368 dur=1200s limit=600s
+alert S1 gap t=52368 gap=1200s
+alert S1 humid t=52368 peak=60%
+alert S1 gap t=53568 gap=1200s
+alert S1 humid t=53628 peak=87%
+alert S1 excursion t=53748 dur=1290s limit=600s
+alert S1 humid t=53808 peak=78%
+alert S1 gap t=55008 gap=1200s
+alert S1 humid t=55038 peak=76%
+alert S1 excursion t=55128 dur=2580s limit=600s
+alert S1 humid t=55308 peak=72%
+alert S1 gap t=56508 gap=1200s
+alert S1 gap t=57708 gap=1200s
+alert S1 gap t=59058 gap=1200s
+alert S1 gap t=60258 gap=1200s
+alert S1 gap t=61518 gap=1200s
+alert S1 humid t=61878 peak=68%
+alert S1 excursion t=62298 dur=4950s limit=600s
+alert S1 gap t=63498 gap=1200s
+alert S1 humid t=63498 peak=81%
+alert S1 gap t=64968 gap=1200s
+alert S1 gap t=66168 gap=1200s
+alert S1 humid t=66198 peak=63%
+alert S1 humid t=66438 peak=67%
+alert S1 humid t=66798 peak=87%
+alert S1 humid t=67548 peak=79%
+alert S1 humid t=68088 peak=84%
+alert S1 excursion t=68148 dur=1200s limit=600s
+alert S1 gap t=69348 gap=1200s
+alert S1 humid t=69348 peak=86%
+alert S1 gap t=70848 gap=1200s
+alert S1 humid t=71748 peak=88%
+alert S1 humid t=72168 peak=83%
+alert S1 humid t=72498 peak=56%
+alert S1 humid t=72708 peak=64%
+alert S1 humid t=72828 peak=83%
+alert S1 humid t=73518 peak=83%
+alert S1 humid t=73758 peak=74%
+alert S1 gap t=74958 gap=1200s
+alert S1 humid t=75018 peak=79%
+alert S1 gap t=76218 gap=1200s
+alert S1 gap t=77958 gap=1200s
+alert S1 humid t=78258 peak=87%
+alert S1 humid t=78738 peak=84%
+alert S1 humid t=78978 peak=89%
+alert S1 excursion t=79278 dur=2820s limit=600s
+alert S1 gap t=80478 gap=1200s
+alert S1 gap t=81798 gap=1200s
+alert S1 humid t=82188 peak=81%
+alert S1 gap t=83508 gap=1200s
+alert S1 humid t=83868 peak=56%
+alert S1 humid t=84228 peak=81%
+alert S1 humid t=84558 peak=73%
+alert S1 humid t=85008 peak=85%
+alert S1 gap t=86298 gap=1200s
+alert S1 gap t=87918 gap=1200s
+alert S1 humid t=88218 peak=87%
+alert S1 humid t=88728 peak=68%
+alert S1 gap t=90168 gap=1200s
+alert S1 humid t=90228 peak=66%
+alert S1 humid t=90528 peak=68%
+alert S1 humid t=90918 peak=83%
+alert S1 humid t=91338 peak=84%
+alert S1 gap t=92598 gap=1200s
+alert S1 excursion t=92718 dur=840s limit=600s
+alert S1 humid t=93288 peak=59%
+alert S1 humid t=93528 peak=70%
+alert S1 humid t=93618 peak=84%
+alert S1 gap t=94938 gap=1200s
+alert S1 humid t=94938 peak=72%
+alert S1 gap t=96258 gap=1200s
+alert S1 humid t=96408 peak=76%
+alert S1 gap t=97608 gap=1200s
+alert S1 humid t=98148 peak=66%
+alert S1 gap t=99438 gap=1200s
+alert S1 humid t=99468 peak=87%
+alert S1 humid t=99798 peak=77%
+alert S1 gap t=100998 gap=1200s
+alert S1 gap t=102408 gap=1200s
+alert S1 gap t=103638 gap=1200s
+alert S1 humid t=103638 peak=58%
+alert S1 gap t=105228 gap=1200s
+alert S1 humid t=105318 peak=69%
+alert S1 gap t=106518 gap=1200s
+alert S1 gap t=108078 gap=1200s
+alert S1 gap t=109278 gap=1200s
+alert S1 humid t=109278 peak=88%
+alert S1 gap t=110478 gap=1200s
+alert S1 humid t=110778 peak=83%
+alert S1 humid t=110958 peak=83%
+alert S1 humid t=111318 peak=86%
+alert S1 gap t=112578 gap=1200s
+alert S1 gap t=113778 gap=1200s
+alert S1 humid t=113778 peak=64%
+alert S1 gap t=114978 gap=1200s
+alert S1 humid t=115098 peak=86%
+alert S1 gap t=116598 gap=1200s
+alert S1 humid t=116598 peak=64%
+alert S1 humid t=116778 peak=86%
+alert S1 humid t=117828 peak=58%
+alert S1 humid t=118158 peak=80%
+alert S1 gap t=119508 gap=1200s
+alert S1 humid t=119658 peak=73%
+alert S1 gap t=120858 gap=1200s
+alert S1 humid t=121158 peak=87%
+alert S1 gap t=122358 gap=1200s
+alert S1 excursion t=122418 dur=3240s limit=600s
+alert S1 humid t=122898 peak=70%
+alert S1 humid t=123078 peak=83%
+alert S1 gap t=124278 gap=1200s
+alert S1 humid t=124338 peak=85%
+alert S1 gap t=125658 gap=1200s
+alerts total=188
+stats ships=6 readings=2520 refused=0 sites=4 routes=2

@@ -1,0 +1,22 @@
+clock set to 2026-03-10T12:00:00Z
+rule added: prefix xfer
+rule added: redact xray
+logged #1
+#1 2026-03-09T10:00:00Z web bob fer_b=3 ray=5 x-ferry=2 x-x-ray=8 x-xray=[redacted] xfer_id=[redacted] xfers=[redacted] xray=[redacted]
+    changed: x-xray, xfer_id, xfers, xray
+exported 1 records, 4 fields changed
+fields:
+  fer_b              1  100.0%
+  ferry              1  100.0%
+  ray                1  100.0%
+  x-ray              1  100.0%
+  xfer_id            1  100.0%
+  xfers              1  100.0%
+  xray               1  100.0%
+redact: xray
+prefix xfer: redact
+strict: off
+rules removed for xray
+#1 2026-03-09T10:00:00Z web bob fer_b=3 ray=5 x-ferry=2 x-x-ray=8 x-xray=7 xfer_id=[redacted] xfers=[redacted] xray=6
+    changed: xfer_id, xfers
+exported 1 records, 2 fields changed

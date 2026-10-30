@@ -1,0 +1,14 @@
+clock set to 2026-03-10T12:00:00Z
+logged #1
+logged #2
+logged #3
+logged #4
+logged #5
+logged #6
+#1 2026-03-09T10:00:00Z auth Alice@Example.com alpha=2 bytes=10 ip=10.0.0.1 level=INFO zeta=1 -- padded message
+#2 2026-03-09T10:00:01Z web.eu_1 bob k=2
+#3 2026-03-09T10:00:02Z web bob -- -- after dashes
+#4 2026-03-09T10:00:03Z web bob k=v
+#5 2026-03-09T10:00:04Z web bob k=v -- one -- two
+#6 2026-03-09T10:00:04Z web bob
+exported 6 records, 0 fields changed

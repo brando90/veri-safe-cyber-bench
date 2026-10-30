@@ -1,0 +1,9 @@
+customer add c-b1 brook
+receive birch thinner-1l 120
+receive birch charger-20 40
+order add c-b1 thinner-1l:6
+order add c-b1 charger-20:4
+order add c-b1 thinner-1l:6 charger-20:4
+order list
+region show brook
+stock birch

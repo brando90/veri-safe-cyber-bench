@@ -1,0 +1,89 @@
+customer c-arden added region=arden tier=basic
+customer c-brook added region=brook tier=basic
+customer c-crest added region=crest tier=basic
+customer c-gale added region=gale tier=basic
+customer c-haven added region=haven tier=basic
+customer c-delta added region=delta tier=basic
+customer c-depot added region=depot tier=basic
+received lot L0001 birch thinner-1l units 204 expiry -
+received lot L0002 birch charger-20 units 100 expiry -
+received lot L0003 grove cleaner-5l units 102 expiry -
+received lot L0004 harbor paper-a4 units 100 expiry -
+received lot L0005 alder charger-20 units 100 expiry -
+received lot L0006 fjord paper-a4 units 100 expiry -
+order ORD-0001 customer c-arden goods 54.00 status open
+  thinner-1l qty=6 allocated=6 backorder=0
+order ORD-0002 customer c-arden goods 88.00 status open
+  charger-20 qty=4 allocated=4 backorder=0
+order ORD-0003 customer c-arden goods 138.80 status open
+  paper-a4 qty=4 allocated=4 backorder=0
+  cleaner-5l qty=6 allocated=6 backorder=0
+error: region crest does not accept hazard class 3 (thinner-1l)
+order ORD-0004 customer c-crest goods 88.00 status open
+  charger-20 qty=4 allocated=4 backorder=0
+error: region crest does not accept hazard class 3 (cleaner-5l)
+error: region gale does not accept hazard class 3 (thinner-1l)
+error: region gale does not accept hazard class 1 (charger-20)
+error: region gale does not accept hazard class 3 (cleaner-5l)
+order ORD-0005 customer c-haven goods 54.00 status open
+  thinner-1l qty=6 allocated=6 backorder=0
+order ORD-0006 customer c-haven goods 88.00 status open
+  charger-20 qty=4 allocated=4 backorder=0
+order ORD-0007 customer c-haven goods 138.80 status open
+  paper-a4 qty=4 allocated=4 backorder=0
+  cleaner-5l qty=6 allocated=6 backorder=0
+order ORD-0008 customer c-delta goods 54.00 status open
+  thinner-1l qty=6 allocated=6 backorder=0
+order ORD-0009 customer c-delta goods 88.00 status open
+  charger-20 qty=4 allocated=4 backorder=0
+order ORD-0010 customer c-delta goods 138.80 status open
+  paper-a4 qty=4 allocated=4 backorder=0
+  cleaner-5l qty=6 allocated=6 backorder=0
+order ORD-0011 customer c-depot goods 54.00 status open
+  thinner-1l qty=6 allocated=6 backorder=0
+order ORD-0012 customer c-depot goods 88.00 status open
+  charger-20 qty=4 allocated=4 backorder=0
+order ORD-0013 customer c-depot goods 138.80 status open
+  paper-a4 qty=4 allocated=4 backorder=0
+  cleaner-5l qty=6 allocated=6 backorder=0
+region crest Crest Highlands
+  zone 3
+  no delivery on Sat,Sun
+  refuses hazard class 2 and above
+  duty 800 bp on goods above 100.00, 2 extra days
+  remote fee 2.00 per shipment
+region gale Gale Islands
+  zone 7
+  no delivery on Sat,Sun
+  refuses hazard class 1 and above
+  duty 0 bp on goods above 50.00, 0 extra days
+  remote fee 4.00 per shipment
+region arden Arden Coast
+  zone 1
+  no delivery on Sat,Sun
+  refuses hazard class 4 and above
+  duty 500 bp on goods above 150.00, 1 extra days
+  remote fee 0.00 per shipment
+arden zone=1 weekend=Sat,Sun ban_haz=4 duty_free=150.00 duty_bp=500 customs_days=1 remote_fee=0.00
+brook zone=2 weekend=Sat,Sun ban_haz=3 duty_free=120.00 duty_bp=700 customs_days=1 remote_fee=1.50
+crest zone=3 weekend=Sat,Sun ban_haz=2 duty_free=100.00 duty_bp=800 customs_days=2 remote_fee=2.00
+delta zone=4 weekend=Sat,Sun ban_haz=4 duty_free=80.00 duty_bp=1000 customs_days=2 remote_fee=2.50
+depot zone=0 weekend=Sat,Sun ban_haz=4 duty_free=0.00 duty_bp=0 customs_days=0 remote_fee=0.00
+ember zone=5 weekend=Sat,Sun ban_haz=3 duty_free=80.00 duty_bp=1200 customs_days=2 remote_fee=3.00
+forge zone=6 weekend=Fri,Sat ban_haz=2 duty_free=60.00 duty_bp=1500 customs_days=3 remote_fee=3.50
+gale zone=7 weekend=Sat,Sun ban_haz=1 duty_free=50.00 duty_bp=0 customs_days=0 remote_fee=4.00
+haven zone=8 weekend=Sat,Sun ban_haz=4 duty_free=0.00 duty_bp=900 customs_days=3 remote_fee=4.50
+ORD-0001 c-arden day 0 54.00 open
+ORD-0002 c-arden day 0 88.00 open
+ORD-0003 c-arden day 0 138.80 open
+ORD-0004 c-crest day 0 88.00 open
+ORD-0005 c-haven day 0 54.00 open
+ORD-0006 c-haven day 0 88.00 open
+ORD-0007 c-haven day 0 138.80 open
+ORD-0008 c-delta day 0 54.00 open
+ORD-0009 c-delta day 0 88.00 open
+ORD-0010 c-delta day 0 138.80 open
+ORD-0011 c-depot day 0 54.00 open
+ORD-0012 c-depot day 0 88.00 open
+ORD-0013 c-depot day 0 138.80 open
+13 orders

@@ -1,0 +1,25 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Cold box 7" route=R3 class=cool maxexc=20 cap=100
+read S1 t=0 temp=10.0 hum=50
+read S1 t=60 temp=11.0 hum=51
+read S1 t=120 temp=12.5
+arrive S1 stop=1 t=0
+plan S1 stop=2 t=900
+export S1
+import
+begin export
+ship	S9	Imported box	R4	1.0	6.0	-	-	-	0	0.0
+r	0	30	40
+r	60000	35	-
+r	120000	70	42
+arr	1	0
+end export
+ship show S9
+window S9
+excursions S9
+export S9

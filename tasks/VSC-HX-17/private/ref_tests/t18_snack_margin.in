@@ -1,0 +1,19 @@
+customer add c-s1 arden
+receive alder crisps-50 240
+receive alder bar-oat 240
+tick 100
+order add c-s1 crisps-50:24
+tick 50
+order add c-s1 crisps-50:24
+order add c-s1 bar-oat:24
+tick 15
+order add c-s1 bar-oat:24
+tick 2
+order add c-s1 crisps-50:24
+order show ORD-0004
+order show ORD-0005
+order list state=backorder
+tick 14
+expire
+order list
+stock alder

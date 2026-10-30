@@ -1,0 +1,52 @@
+customer c-a1 added region=arden tier=basic
+customer c-a1 po PO-77
+customer c-a1 name "Alpha One"
+customer c-a1 tier gold
+customer c-a1 split no
+customer c-a1 hold yes
+customer c-a1 hold no
+customer c-a1 carrier swift
+customer c-a1 carrier auto
+customer c-a1 email a@x.io
+customer c-a1 email -
+customer c-a1 note hello
+customer c-a1 note -
+customer c-a1 po -
+error: unknown tier 'platinum'
+error: expected yes or no, got 'maybe'
+error: unknown carrier 'zzz'
+customer c-a1 po PO-77
+customer c-a1 po unchanged
+customer c-a1
+  name="Alpha One" region=arden tier=gold carrier=auto split=no hold=no
+  po=PO-77 email=- note=-
+  status=active since day 0
+  #1 day 0 customer add arden basic
+  #2 day 0 set po - PO-77
+  #3 day 0 set name c-a1 "Alpha One"
+  #4 day 0 set tier basic gold
+  #5 day 0 set split yes no
+  #6 day 0 set hold no yes
+  #7 day 0 set hold yes no
+  #8 day 0 set carrier auto swift
+  #9 day 0 set carrier swift auto
+  #10 day 0 set email - a@x.io
+  #11 day 0 set email a@x.io -
+  #12 day 0 set po PO-77 -
+  #13 day 0 set po - PO-77
+error: customer c-a1 already exists
+error: invalid customer id 'bad_id'
+error: unknown region 'nowhere'
+customer c-a2 added region=crest tier=silver
+customer c-a3 added region=gale tier=gold
+c-a1 arden gold active
+c-a2 crest silver active
+c-a3 gale gold active
+3 customers
+c-a1 arden gold active
+c-a3 gale gold active
+2 customers
+c-a1 arden gold active
+1 customers
+customer c-a1 region crest
+customer c-a1 region unchanged

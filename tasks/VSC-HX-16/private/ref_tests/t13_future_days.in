@@ -1,0 +1,10 @@
+now 2026-03-10T12:00:00Z
+log 2026-03-10T12:00:01Z a u -- one second
+log 2026-03-11T12:00:00Z a u -- exactly a day
+log 2026-03-11T12:00:01Z a u -- a day and a second
+log 2026-03-13T11:00:00Z a u -- almost three days
+log 2026-03-10T12:00:00Z a u -- now
+log 2026-03-10T11:59:59Z a u -- past
+report
+now 2026-03-12T12:00:00Z
+report

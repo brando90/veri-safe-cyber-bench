@@ -1,0 +1,36 @@
+customer c-depot added region=depot tier=basic
+customer c-arden added region=arden tier=basic
+received lot L0001 harbor paper-a4 units 100 expiry -
+received lot L0002 alder paper-a4 units 100 expiry -
+order ORD-0001 customer c-depot goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+shipment SHP-0001 order ORD-0001 from harbor carrier pickup weight 4500g goods 62.00 freight 0.00 handling 1.28 duty 0.00 dispatch day 0 eta day 0
+order ORD-0002 customer c-depot goods 248.00 status open
+  paper-a4 qty=40 allocated=40 backorder=0
+shipment SHP-0002 order ORD-0002 from harbor carrier pickup weight 18000g goods 248.00 freight 0.00 handling 1.28 duty 0.00 dispatch day 0 eta day 0
+order ORD-0003 customer c-depot goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+shipment SHP-0003 order ORD-0003 from harbor carrier pickup weight 4500g goods 62.00 freight 0.00 handling 1.28 duty 0.00 dispatch day 0 eta day 0
+customer c-depot carrier swift
+customer c-depot region arden
+customer c-arden region depot
+order ORD-0004 customer c-arden goods 37.20 status open
+  paper-a4 qty=6 allocated=6 backorder=0
+shipment SHP-0004 order ORD-0004 from harbor carrier pickup weight 2700g goods 37.20 freight 0.00 handling 1.28 duty 0.00 dispatch day 0 eta day 0
+order ORD-0005 customer c-depot goods 37.20 status open
+  paper-a4 qty=6 allocated=6 backorder=0
+shipment SHP-0005 order ORD-0005 from harbor carrier swift weight 2700g goods 37.20 freight 8.75 handling 1.28 duty 0.00 dispatch day 0 eta day 1
+customer c-depot
+  name=c-depot region=arden tier=basic carrier=swift split=yes hold=no
+  po=- email=- note=-
+  status=active since day 0
+region depot Depot Collection Point
+  zone 0
+  no delivery on Sat,Sun
+  refuses hazard class 4 and above
+  duty 0 bp on goods above 0.00, 0 extra days
+  remote fee 0.00 per shipment
+report freight_region
+  arden 8.75
+  total 8.75
+end

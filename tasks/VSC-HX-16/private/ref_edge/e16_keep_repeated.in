@@ -1,0 +1,9 @@
+now 2026-03-10T12:00:00Z
+strict on
+log 2026-03-09T10:00:00Z auth alice@example.com level=info ip=10.0.0.1 note=n1
+log 2026-03-09T10:00:01Z web bob level=warn ip=10.0.0.2 note=n2
+export auth keep=ip
+export web keep=note
+export
+show 1
+rules

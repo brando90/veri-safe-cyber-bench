@@ -1,0 +1,33 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Expo box" route=R3 min=2.0 max=8.0
+read S1 t=0 temp=5.0
+read S1 t=60 temp=9.0
+read S1 t=150 temp=10.5
+read S1 t=210 temp=5.0
+read S1 t=300 temp=1.0
+read S1 t=390 temp=0.0
+read S1 t=480 temp=5.0
+read S1 t=3700 temp=9.0
+read S1 t=3800 temp=9.0
+exposure S1
+histogram S1
+histogram S1 step=25
+histogram S1 step=0
+ship add S2 "Neg" route=R3 min=-30.0 max=-10.0
+read S2 t=0 temp=-20.0
+read S2 t=60 temp=-31.2
+read S2 t=120 temp=-30.0
+read S2 t=180 temp=-9.9
+read S2 t=240 temp=-0.1
+read S2 t=300 temp=-20.0
+exposure S2
+histogram S2 step=10
+histogram S2 step=3
+ship add S3 "Empty" route=R3
+exposure S3
+histogram S3

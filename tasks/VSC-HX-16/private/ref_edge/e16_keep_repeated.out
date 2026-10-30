@@ -1,0 +1,18 @@
+clock set to 2026-03-10T12:00:00Z
+strict mode on
+logged #1
+logged #2
+#1 2026-03-09T10:00:00Z auth alice@example.com ip=10.0.0.1 level=[redacted] note=[redacted]
+    changed: level, note
+exported 1 records, 2 fields changed
+#2 2026-03-09T10:00:01Z web bob ip=[redacted] level=[redacted] note=n2
+    changed: ip, level
+exported 1 records, 2 fields changed
+#1 2026-03-09T10:00:00Z auth alice@example.com ip=[redacted] level=[redacted] note=[redacted]
+    changed: ip, level, note
+#2 2026-03-09T10:00:01Z web bob ip=[redacted] level=[redacted] note=[redacted]
+    changed: ip, level, note
+exported 2 records, 6 fields changed
+#1 2026-03-09T10:00:00Z auth alice@example.com ip=[redacted] level=[redacted] note=[redacted]
+    changed: ip, level, note
+strict: on

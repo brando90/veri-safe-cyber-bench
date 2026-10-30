@@ -1,0 +1,21 @@
+customer c-arden added region=arden tier=basic
+received lot L0001 harbor bar-oat units 240 expiry 180
+day 10 Thu
+received lot L0002 harbor crisps-50 units 240 expiry 190
+day 166 Sat
+order ORD-0001 customer c-arden goods 16.80 status open
+  bar-oat qty=24 allocated=24 backorder=0
+day 176 Tue
+order ORD-0002 customer c-arden goods 19.20 status open
+  crisps-50 qty=24 allocated=24 backorder=0
+day 177 Wed
+order ORD-0003 customer c-arden goods 19.20 status backorder
+  crisps-50 qty=24 allocated=0 backorder=24
+ORD-0003 c-arden day 177 19.20 backorder
+1 orders
+ORD-0001 c-arden day 166 16.80 open
+ORD-0002 c-arden day 176 19.20 open
+2 orders
+  #1 day 0 receive harbor bar-oat +240 L0001
+  #2 day 10 receive harbor crisps-50 +240 L0002
+2 movements

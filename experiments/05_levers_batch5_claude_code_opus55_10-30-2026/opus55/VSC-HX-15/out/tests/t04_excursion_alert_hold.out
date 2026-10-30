@@ -1,0 +1,32 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok route R3 stops=3
+ok set hold=2
+ok ship S1
+ok ship S2
+excursions S1 n=2
+  high start=60 end=180 dur=120s peak=9.5
+  high start=240 end=300 dur=60s peak=10.0
+excursions S2 n=2
+  low start=60 end=120 dur=60s peak=1.0
+  low start=180 end=240 dur=60s peak=0.0 open
+alert S1 excursion t=60 dur=120s limit=120s
+alert S2 excursion t=60 dur=60s limit=60s
+alert S2 excursion t=180 dur=60s limit=60s
+alerts total=3
+alert S2 excursion t=60 dur=60s limit=60s
+alert S2 excursion t=180 dur=60s limit=60s
+alerts total=2
+report S1 "Long trip"
+  stop 1 AMS pending
+  stop 2 LHR pending
+  stop 3 JFK pending
+  readings 6
+  excursions 2 longest 120s
+  alerts 1
+  handoffs 0
+  late stops 0
+  sla 50.0%
+rank 1 S2 2
+rank 2 S1 1

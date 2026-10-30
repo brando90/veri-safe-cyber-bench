@@ -1,0 +1,24 @@
+customer add c-arden arden tier=basic
+receive harbor paper-a4 100
+receive dune vitamin-c 20 exp=50
+receive dune vitamin-c 20 exp=30
+receive dune vitamin-c 20 exp=90
+receive dune vitamin-c 20 exp=30
+receive dune vitamin-c 20 exp=100
+receive harbor paper-a3 50
+receive harbor paper-a3 50
+receive harbor paper-a4 30
+order add c-arden vitamin-c:30
+order show ORD-0001
+order add c-arden vitamin-c:40
+order show ORD-0002
+order add c-arden paper-a3:70
+order show ORD-0003
+order add c-arden paper-a4:110
+order show ORD-0004
+stock dune
+stock harbor sku=paper-a3
+stock sku=paper-a4
+order cancel ORD-0003
+order add c-arden paper-a3:10
+order show ORD-0005

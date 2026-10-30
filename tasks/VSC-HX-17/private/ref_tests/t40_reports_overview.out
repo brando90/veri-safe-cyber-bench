@@ -1,0 +1,142 @@
+customer c-arden added region=arden tier=basic
+customer c-gale added region=gale tier=basic
+customer c-delta added region=delta tier=basic
+received lot L0001 alder paper-a4 units 300 expiry -
+received lot L0002 harbor cable-usb units 200 expiry -
+received lot L0003 elm hammer-1 units 102 expiry -
+received lot L0004 dune milk-1l units 60 expiry 21
+received lot L0005 alder plank-2m units 40 expiry -
+customer c-gold1 added region=gale tier=gold
+customer c-silv1 added region=delta tier=silver
+order ORD-0001 customer c-arden goods 124.00 status open
+  paper-a4 qty=20 allocated=20 backorder=0
+shipment SHP-0001 order ORD-0001 from alder carrier parcelo weight 9000g goods 124.00 freight 7.79 handling 1.60 duty 0.00 dispatch day 0 eta day 2
+order ORD-0002 customer c-gale goods 116.00 status open
+  cable-usb qty=40 allocated=40 backorder=0
+shipment SHP-0002 order ORD-0002 from harbor carrier gull weight 3400g goods 116.00 freight 12.70 handling 1.28 duty 0.00 dispatch day 0 eta day 7
+order ORD-0003 customer c-delta goods 145.00 status open
+  hammer-1 qty=10 allocated=10 backorder=0
+shipment SHP-0003 order ORD-0003 from elm carrier parcelo weight 9000g goods 145.00 freight 9.99 handling 1.57 duty 14.50 dispatch day 0 eta day 4
+order ORD-0004 customer c-gold1 goods 122.20 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+  cable-usb qty=10 allocated=10 backorder=0
+  plank-2m qty=4 allocated=4 backorder=0
+shipment SHP-0004 order ORD-0004 from alder carrier parcelo weight 14500g goods 93.20 freight 0.00 handling 2.00 duty 0.00 dispatch day 0 eta day 3
+shipment SHP-0005 order ORD-0004 from harbor carrier gull weight 850g goods 29.00 freight 0.00 handling 1.28 duty 0.00 dispatch day 0 eta day 7
+order ORD-0005 customer c-silv1 goods 28.80 status open
+  milk-1l qty=24 allocated=24 backorder=0
+shipment SHP-0006 order ORD-0005 from dune carrier parcelo weight 12000g goods 28.80 freight 10.29 handling 2.10 duty 0.00 dispatch day 0 eta day 2
+order ORD-0006 customer c-arden goods 145.00 status open
+  hammer-1 qty=10 allocated=10 backorder=0
+day 2 Wed
+return ORD-0001 paper-a4 x3 restocked at alder
+return ORD-0003 hammer-1 x4 scrapped at elm
+error: the return window for milk-1l has closed
+report goods_region
+  arden 269.00
+  delta 173.80
+  gale 238.20
+  total 681.00
+end
+report goods_customer
+  c-arden 269.00
+  c-delta 145.00
+  c-gale 116.00
+  c-gold1 122.20
+  c-silv1 28.80
+  total 681.00
+end
+report goods_tier
+  basic 530.00
+  gold 122.20
+  silver 28.80
+  total 681.00
+end
+report freight_carrier
+  gull 12.70
+  parcelo 28.07
+  total 40.77
+end
+report freight_region
+  arden 7.79
+  delta 20.28
+  gale 12.70
+  total 40.77
+end
+report duty_region
+  delta 14.50
+  total 14.50
+end
+report stock_cat
+  cables 150
+  dairy 36
+  lumber 36
+  paper 273
+  tools 92
+  total 587
+end
+report stock_wh
+  alder 309
+  dune 36
+  elm 92
+  harbor 150
+  total 587
+end
+report value_wh
+  alder 1081.50
+  dune 21.60
+  elm 644.00
+  harbor 180.00
+  total 1927.10
+end
+report status
+  open 1
+  shipped 5
+  total 6
+end
+report backorders
+  (none)
+  total 0
+end
+report returns_cat
+  paper 3
+  total 3
+end
+report scrap_cat
+  tools 4
+  total 4
+end
+report expiring
+  (none)
+end
+report cancelled
+  0 cancelled
+end
+report expiring
+  L0004 dune milk-1l qty=36 expiry=21 days_left=19
+end
+report stock_wh
+  alder 309
+  total 309
+end
+report goods_customer
+  c-gale 116.00
+  total 116.00
+end
+backorders Units on backorder per sku
+cancelled Orders that were cancelled
+duty_region Import duty charged per destination region
+expiring Lots that expire within N days (default 7)
+freight_carrier Freight charged per carrier
+freight_region Freight charged per destination region
+goods_customer Goods value ordered per customer
+goods_region Goods value ordered per destination region
+goods_tier Goods value ordered per customer tier
+low_stock Slots at or below their reorder point
+returns_cat Units returned and restocked per category
+scrap_cat Units scrapped, expired or written off per category
+status Orders per status
+stock_cat Units on hand per category
+stock_wh Units on hand per warehouse
+value_wh Stock value at cost per warehouse
+error: unknown report 'nosuch'

@@ -1,0 +1,11 @@
+site add AAA "Plain depot"
+site add BBB "Dock\\tower"
+site add CCC "Back\\\\slash \\n end"
+site add DDD "Zoë's café"
+site export
+route add R1 AAA BBB
+ship add S1 "Plain label" route=R1
+read S1 t=1 temp=5.0 hum=40
+arr_note
+export S1
+export all

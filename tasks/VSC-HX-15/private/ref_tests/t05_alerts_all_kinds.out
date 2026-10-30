@@ -1,0 +1,61 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok set hold=3
+ok set gap=100
+ok set spike=30
+ok set slack=5
+ok ship S1
+ok ship S2
+ok arrive S1 stop 1 AMS
+ok plan S1 stop 2
+ok arrive S1 stop 2 LHR
+ok plan S1 stop 3
+ok arrive S1 stop 3 JFK
+ok plan S2 stop 1
+ok arrive S2 stop 1 AMS
+alert S2 spike t=60 change=4.0 in 60s
+alert S1 excursion t=120 dur=180s limit=180s
+alert S1 spike t=120 change=3.5 in 60s
+alert S1 humid t=120 peak=80%
+alert S1 spike t=300 change=-4.5 in 60s
+alert S2 spike t=300 change=-4.0 in 60s
+alert S1 gap t=500 gap=200s
+alert S2 late t=500 stop=1 late=6m
+alert S1 humid t=560 peak=70%
+alert S1 late t=1000 stop=2 late=6m
+alerts total=10
+alert S1 excursion t=120 dur=180s limit=180s
+alert S1 spike t=120 change=3.5 in 60s
+alert S1 humid t=120 peak=80%
+alert S1 spike t=300 change=-4.5 in 60s
+alert S1 gap t=500 gap=200s
+alert S1 humid t=560 peak=70%
+alert S1 late t=1000 stop=2 late=6m
+alerts total=7
+alert S2 spike t=60 change=4.0 in 60s
+alert S2 spike t=300 change=-4.0 in 60s
+alert S2 late t=500 stop=1 late=6m
+alerts total=3
+alert S1 gap t=500 gap=200s
+alerts total=1
+alert S2 spike t=60 change=4.0 in 60s
+alert S1 spike t=120 change=3.5 in 60s
+alert S1 spike t=300 change=-4.5 in 60s
+alert S2 spike t=300 change=-4.0 in 60s
+alerts total=4
+alert S1 late t=1000 stop=2 late=6m
+alerts total=1
+error: unknown alert kind bogus
+ok ship S2
+alert S2 excursion t=60 dur=240s limit=240s
+alert S2 spike t=60 change=4.0 in 60s
+alert S2 spike t=300 change=-4.0 in 60s
+alert S2 late t=500 stop=1 late=6m
+alerts total=4
+ok ship S2
+alert S2 excursion t=60 dur=240s limit=180s
+alerts total=1

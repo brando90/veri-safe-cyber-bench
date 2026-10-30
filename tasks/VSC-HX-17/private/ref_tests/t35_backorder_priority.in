@@ -1,0 +1,22 @@
+receive harbor paper-a4 100
+customer add c-bas1 arden tier=basic
+customer add c-sil1 arden tier=silver
+customer add c-gol1 arden tier=gold
+customer add c-bas2 arden tier=basic
+customer add c-gol2 arden tier=gold
+customer add c-sil2 arden tier=silver
+order add c-bas1 paper-a4:30
+order add c-sil1 paper-a4:30
+order add c-gol1 paper-a4:30
+order add c-bas2 paper-a4:30
+order add c-gol2 paper-a4:30
+order add c-sil2 paper-a4:30
+order list
+tick 2
+receive harbor paper-a4 70
+backorder run
+order list
+receive harbor paper-a4 100
+backorder run
+order list state=backorder
+stock harbor

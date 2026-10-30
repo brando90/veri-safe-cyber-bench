@@ -1,0 +1,12 @@
+now 2026-03-10T12:00:00Z
+strict on
+rule keep level
+rule prefix s_ mask
+rule prefix t_ redact
+rule keep xid
+log 2026-03-09T10:00:00Z web bob s_a=abcdefgh t_b=zz=z xid=1 level=info
+export keep=s_a,xid
+export
+unrule s_
+export
+rules

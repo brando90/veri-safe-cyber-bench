@@ -1,0 +1,349 @@
+customer c-r0 added region=delta tier=basic
+customer c-r1 added region=ember tier=basic
+customer c-r2 added region=arden tier=gold
+customer c-r3 added region=ember tier=gold
+customer c-r4 added region=delta tier=gold
+received lot L0001 alder tumbler-6 units 60 expiry -
+error: warehouse alder does not stock peas-fr
+error: warehouse alder does not stock yogurt-4
+error: warehouse alder does not stock thinner-1l
+error: warehouse harbor does not stock milk-1l
+received lot L0002 harbor bolt-m6 units 100 expiry -
+error: warehouse harbor does not stock apple-1k
+error: warehouse harbor does not stock yogurt-4
+received lot L0003 cedar cable-usb units 40 expiry -
+error: warehouse cedar does not stock peas-fr
+received lot L0004 cedar plier-9 units 24 expiry -
+received lot L0005 cedar plank-2m units 40 expiry -
+received lot L0006 larch hammer-1 units 240 expiry -
+error: warehouse larch does not stock milk-1l
+received lot L0007 larch jacket-l units 40 expiry -
+error: warehouse larch does not stock apple-1k
+received lot L0008 birch shirt-m units 40 expiry -
+error: warehouse birch does not stock apple-1k
+error: warehouse birch does not stock yogurt-4
+received lot L0009 birch bolt-m6 units 100 expiry -
+error: warehouse dune does not stock cable-hdmi
+error: warehouse dune does not stock bolt-m6
+error: warehouse dune does not stock screw-w4
+received lot L0010 dune apple-1k units 40 expiry 7
+error: warehouse juniper does not stock pizza-fr
+error: warehouse juniper does not stock peas-fr
+received lot L0011 juniper plier-9 units 102 expiry -
+received lot L0012 juniper paper-a4 units 20 expiry -
+error: warehouse elm does not stock peas-fr
+received lot L0013 elm cable-hdmi units 40 expiry -
+error: warehouse elm does not stock apple-1k
+error: warehouse elm does not stock thinner-1l
+day 9 Wed
+error: warehouse elm does not stock plank-2m
+order ORD-0001 customer c-r4 goods 20.80 status backorder
+  apple-1k qty=8 allocated=0 backorder=8
+customer c-r1 tier silver
+error: order ORD-0001 has nothing to ship or cancel
+error: warehouse elm does not stock plank-2m
+error: order ORD-0001 has nothing to ship or cancel
+customer c-r4 tier unchanged
+error: order ORD-0001 has nothing to ship or cancel
+order ORD-0002 customer c-r4 goods 17.00 status open
+  plier-9 qty=1 allocated=1 backorder=0
+order ORD-0003 customer c-r4 goods 110.00 status open
+  jacket-l qty=2 allocated=2 backorder=0
+error: order ORD-0001 has nothing to ship or cancel
+shipment SHP-0001 order ORD-0002 from juniper carrier pony weight 900g goods 17.00 freight 7.74 handling 1.00 duty 0.00 dispatch day 10 eta day 14
+error: order ORD-0002 has nothing to ship or cancel
+day 10 Thu
+error: warehouse grove does not stock yogurt-4
+error: unknown sku 'plier-9'
+shipment SHP-0002 order ORD-0003 from larch carrier aero weight 600g goods 110.00 freight 0.00 handling 1.53 duty 11.00 dispatch day 10 eta day 14
+1 orders checked, 0 filled
+day 11 Fri
+error: warehouse birch does not stock plank-2m
+error: order ORD-0002 has nothing to ship or cancel
+received lot L0014 alder paper-a3 units 20 expiry -
+order ORD-0004 customer c-r4 goods 100.00 status backorder
+  beam-3m qty=5 allocated=0 backorder=5
+error: order ORD-0001 has nothing to ship or cancel
+2 orders checked, 0 filled
+2 orders checked, 0 filled
+error: unknown sku 'cable-usb'
+order ORD-0005 customer c-r0 goods 147.20 status partial
+  thinner-1l qty=8 allocated=0 backorder=8
+  shirt-m qty=5 allocated=5 backorder=0
+  apple-1k qty=2 allocated=0 backorder=2
+error: order ORD-0004 has nothing to ship or cancel
+order ORD-0006 customer c-r2 goods 208.40 status open
+  paper-a3 qty=5 allocated=5 backorder=0
+  cable-usb qty=1 allocated=1 backorder=0
+  tumbler-6 qty=40 allocated=40 backorder=0
+order ORD-0007 customer c-r1 goods 181.80 status partial
+  paper-a3 qty=12 allocated=12 backorder=0
+  milk-1l qty=40 allocated=0 backorder=40
+  bolt-m6 qty=100 allocated=100 backorder=0
+order ORD-0008 customer c-r0 goods 67.60 status backorder
+  yogurt-4 qty=20 allocated=0 backorder=20
+  milk-1l qty=8 allocated=0 backorder=8
+received lot L0015 alder vase-30 units 60 expiry -
+order ORD-0009 customer c-r4 goods 927.00 status open
+  vase-30 qty=8 allocated=8 backorder=0
+  plank-2m qty=5 allocated=5 backorder=0
+  plier-9 qty=40 allocated=40 backorder=0
+order ORD-0010 customer c-r4 goods 33.60 status backorder
+  pizza-fr qty=8 allocated=0 backorder=8
+shipment SHP-0003 order ORD-0006 from alder carrier gull weight 28650g goods 205.50 freight 0.00 handling 2.00 duty 10.28 dispatch day 11 eta day 15
+shipment SHP-0004 order ORD-0006 from cedar carrier gull weight 85g goods 2.90 freight 0.00 handling 1.35 duty 0.00 dispatch day 11 eta day 14
+error: order ORD-0004 has nothing to ship or cancel
+error: order ORD-0002 has nothing to ship or cancel
+error: order ORD-0004 has nothing to ship or cancel
+order ORD-0011 customer c-r3 goods 46.80 status open
+  tumbler-6 qty=12 allocated=12 backorder=0
+error: only 1 units of cable-usb can still be returned on ORD-0006
+order ORD-0012 customer c-r3 goods 23.20 status open
+  cable-usb qty=8 allocated=8 backorder=0
+6 orders checked, 0 filled
+shipment SHP-0005 order ORD-0009 from alder carrier parcelo weight 5280g goods 208.00 freight 0.00 handling 1.60 duty 20.80 dispatch day 11 eta day 15
+shipment SHP-0006 order ORD-0009 from cedar carrier parcelo weight 12000g goods 39.00 freight 0.00 handling 1.35 duty 0.00 dispatch day 11 eta day 14
+shipment SHP-0007 order ORD-0009 from juniper carrier parcelo weight 36000g goods 680.00 freight 0.00 handling 2.95 duty 68.00 dispatch day 11 eta day 15
+error: order ORD-0009 has nothing to ship or cancel
+order ORD-0013 customer c-r4 goods 162.80 status partial
+  yogurt-4 qty=40 allocated=0 backorder=40
+  tumbler-6 qty=12 allocated=8 backorder=4
+error: carrier pony cannot take the shipment from alder to ember
+error: warehouse kelp does not stock plank-2m
+7 orders checked, 0 filled
+error: order ORD-0004 has nothing to ship or cancel
+day 14 Mon
+received lot L0016 birch tumbler-6 units 60 expiry -
+day 15 Tue
+report status
+  open 2
+  partial 3
+  backorder 4
+  shipped 4
+  total 13
+end
+report duty_region
+  arden 10.28
+  delta 99.80
+  total 110.08
+end
+order ORD-0014 customer c-r4 goods 113.00 status backorder
+  apple-1k qty=40 allocated=0 backorder=40
+  screw-w4 qty=100 allocated=0 backorder=100
+expired lot L0010 dune apple-1k qty 40 requeued 0
+1 lots expired
+backorder ORD-0013 allocated 4 units, status partial
+8 orders checked, 1 filled
+error: order ORD-0010 has nothing to ship or cancel
+shipment SHP-0008 order ORD-0007 from alder carrier zed weight 5400g goods 118.80 freight 0.00 handling 1.60 duty 14.26 dispatch day 15 eta day 21
+shipment SHP-0009 order ORD-0007 from birch carrier zed weight 1200g goods 15.00 freight 0.00 handling 1.55 duty 0.00 dispatch day 15 eta day 17
+day 16 Wed
+order ORD-0015 customer c-r1 goods 728.00 status partial
+  shirt-m qty=40 allocated=35 backorder=5
+  pizza-fr qty=40 allocated=0 backorder=40
+day 17 Thu
+error: order ORD-0007 has nothing to ship or cancel
+error: order ORD-0014 has nothing to ship or cancel
+order ORD-0016 customer c-r3 goods 30.00 status partial
+  bolt-m6 qty=200 allocated=100 backorder=100
+day 26 Sat
+day 35 Mon
+order ORD-0017 customer c-r2 goods 64.40 status partial
+  milk-1l qty=2 allocated=0 backorder=2
+  peas-fr qty=5 allocated=0 backorder=5
+  vase-30 qty=2 allocated=2 backorder=0
+order ORD-0018 customer c-r1 goods 96.00 status open
+  cable-hdmi qty=20 allocated=20 backorder=0
+shipment SHP-0010 order ORD-0012 from cedar carrier parcelo weight 680g goods 23.20 freight 10.94 handling 1.35 duty 0.00 dispatch day 36 eta day 39
+error: unknown sku 'jacket-l'
+error: unknown sku 'charger-20'
+11 orders checked, 0 filled
+error: order ORD-0003 has nothing to ship or cancel
+shipment SHP-0011 order ORD-0016 from harbor carrier zed weight 1200g goods 15.00 freight 13.83 handling 1.28 duty 0.00 dispatch day 36 eta day 39
+order ORD-0019 customer c-r1 goods 52.10 status partial
+  apple-1k qty=1 allocated=0 backorder=1
+  paper-a3 qty=5 allocated=3 backorder=2
+error: unknown sku 'thinner-1l'
+error: order ORD-0006 has nothing to ship or cancel
+customer c-r2 carrier unchanged
+day 40 Sat
+error: order ORD-0004 has nothing to ship or cancel
+error: customer c-r4 has open orders
+error: customer c-r2 has open orders
+0 lots expired
+error: order ORD-0006 has nothing to ship or cancel
+shipment SHP-0012 order ORD-0018 from elm carrier haul weight 1700g goods 96.00 freight 18.00 handling 1.57 duty 11.52 dispatch day 40 eta day 45
+customer c-r3 carrier zed
+error: order ORD-0010 has nothing to ship or cancel
+error: no stock of plank-2m at kelp
+error: unknown sku 'paper-a4'
+received lot L0017 kelp paper-a3 units 20 expiry -
+error: only 0 units of shirt-m are free at fjord
+error: customer c-r4 has open orders
+order ORD-0004 cancelled 5 units, status cancelled
+day 41 Sun
+received lot L0018 iris screw-w4 units 100 expiry -
+error: order ORD-0018 has nothing to ship or cancel
+order ORD-0020 customer c-r2 goods 468.40 status partial
+  jacket-l qty=8 allocated=8 backorder=0
+  milk-1l qty=2 allocated=0 backorder=2
+  vase-30 qty=1 allocated=1 backorder=0
+error: order ORD-0014 has nothing to ship or cancel
+day 43 Tue
+error: warehouse larch does not stock milk-1l
+order ORD-0021 customer c-r1 goods 17.00 status open
+  plier-9 qty=1 allocated=1 backorder=0
+shipment SHP-0013 order ORD-0020 from alder carrier pony weight 660g goods 26.00 freight 0.00 handling 1.60 duty 0.00 dispatch day 43 eta day 49
+shipment SHP-0014 order ORD-0020 from larch carrier gull weight 2400g goods 440.00 freight 0.00 handling 1.53 duty 22.00 dispatch day 43 eta day 49
+order ORD-0022 customer c-r1 goods 200.90 status partial
+  hammer-1 qty=5 allocated=5 backorder=0
+  paper-a3 qty=12 allocated=12 backorder=0
+  milk-1l qty=8 allocated=0 backorder=8
+order ORD-0023 customer c-r4 goods 119.00 status backorder
+  apple-1k qty=40 allocated=0 backorder=40
+  bolt-m6 qty=100 allocated=0 backorder=100
+error: order ORD-0023 has nothing to ship or cancel
+received lot L0019 harbor bolt-m6 units 100 expiry -
+error: warehouse dune does not stock thinner-1l
+0 lots expired
+error: only 0 units of milk-1l are free at birch
+order ORD-0024 customer c-r1 goods 68.00 status partial
+  cable-hdmi qty=5 allocated=5 backorder=0
+  charger-20 qty=2 allocated=0 backorder=2
+shipment SHP-0015 order ORD-0011 from alder carrier parcelo weight 7920g goods 46.80 freight 10.79 handling 1.60 duty 0.00 dispatch day 44 eta day 46
+error: order ORD-0001 has nothing to ship or cancel
+day 46 Fri
+order ORD-0021 cancelled 1 units, status cancelled
+day 47 Sat
+error: order ORD-0011 has nothing to ship or cancel
+shipment SHP-0016 order ORD-0005 from birch carrier zed weight 1500g goods 70.00 freight 12.51 handling 1.55 duty 0.00 dispatch day 49 eta day 51
+order ORD-0025 customer c-r3 goods 12.40 status open
+  paper-a4 qty=2 allocated=2 backorder=0
+customer c-r0 split unchanged
+received lot L0020 alder vase-30 units 204 expiry -
+backorder ORD-0014 allocated 100 units, status partial
+backorder ORD-0016 allocated 100 units, status open
+backorder ORD-0019 allocated 2 units, status partial
+15 orders checked, 3 filled
+error: only 0 units of yogurt-4 are free at kelp
+14 orders checked, 0 filled
+order ORD-0026 customer c-r1 goods 9.00 status backorder
+  screw-w4 qty=100 allocated=0 backorder=100
+shipment SHP-0017 order ORD-0015 from birch carrier aero weight 10500g goods 490.00 freight 0.00 handling 1.55 duty 58.80 dispatch day 49 eta day 52
+order ORD-0027 customer c-r4 goods 30.00 status backorder
+  bolt-m6 qty=200 allocated=0 backorder=200
+16 orders checked, 0 filled
+order ORD-0028 customer c-r1 goods 875.60 status partial
+  beam-3m qty=40 allocated=0 backorder=40
+  cable-hdmi qty=12 allocated=12 backorder=0
+  screw-w4 qty=200 allocated=0 backorder=200
+report returns_cat
+  (none)
+  total 0
+end
+shipment SHP-0018 order ORD-0019 from alder carrier nord weight 1350g goods 29.70 freight 10.57 handling 1.60 duty 0.00 dispatch day 49 eta day 51
+shipment SHP-0019 order ORD-0019 from kelp carrier nord weight 900g goods 19.80 freight 10.28 handling 1.75 duty 0.00 dispatch day 49 eta day 52
+order ORD-0022 cancelled 25 units, status cancelled
+16 orders checked, 0 filled
+day 50 Tue
+error: order ORD-0009 has nothing to ship or cancel
+0 lots expired
+customer c-r2 tier basic
+order ORD-0029 customer c-r4 goods 432.00 status partial
+  beam-3m qty=1 allocated=0 backorder=1
+  thinner-1l qty=8 allocated=0 backorder=8
+  plier-9 qty=20 allocated=20 backorder=0
+received lot L0021 larch paper-a3 units 60 expiry -
+error: order ORD-0018 has nothing to ship or cancel
+error: order ORD-0005 has nothing to ship or cancel
+0 lots expired
+error: order ORD-0023 has nothing to ship or cancel
+order ORD-0030 customer c-r4 goods 14.50 status open
+  cable-usb qty=5 allocated=5 backorder=0
+order ORD-0031 customer c-r1 goods 51.20 status backorder
+  shirt-m qty=2 allocated=0 backorder=2
+  yogurt-4 qty=8 allocated=0 backorder=8
+18 orders checked, 0 filled
+18 orders checked, 0 filled
+report low_stock
+  alder tumbler-6 available=0 reorder=24
+  birch bolt-m6 available=0 reorder=400
+  birch shirt-m available=0 reorder=60
+  cedar cable-usb available=26 reorder=100
+  cedar plank-2m available=35 reorder=50
+  dune apple-1k available=0 reorder=30
+  elm cable-hdmi available=3 reorder=100
+  harbor bolt-m6 available=0 reorder=400
+  iris screw-w4 available=0 reorder=400
+  larch jacket-l available=30 reorder=60
+end
+ORD-0001 c-r4 day 9 20.80 backorder
+ORD-0002 c-r4 day 9 17.00 shipped
+ORD-0003 c-r4 day 9 110.00 shipped
+ORD-0004 c-r4 day 11 100.00 cancelled
+ORD-0005 c-r0 day 11 147.20 partial
+ORD-0006 c-r2 day 11 208.40 shipped
+ORD-0007 c-r1 day 11 181.80 partial
+ORD-0008 c-r0 day 11 67.60 backorder
+ORD-0009 c-r4 day 11 927.00 shipped
+ORD-0010 c-r4 day 11 33.60 backorder
+ORD-0011 c-r3 day 11 46.80 shipped
+ORD-0012 c-r3 day 11 23.20 shipped
+ORD-0013 c-r4 day 11 162.80 partial
+ORD-0014 c-r4 day 15 113.00 partial
+ORD-0015 c-r1 day 16 728.00 partial
+ORD-0016 c-r3 day 17 30.00 open
+ORD-0017 c-r2 day 35 64.40 partial
+ORD-0018 c-r1 day 35 96.00 shipped
+ORD-0019 c-r1 day 35 52.10 partial
+ORD-0020 c-r2 day 41 468.40 partial
+ORD-0021 c-r1 day 43 17.00 cancelled
+ORD-0022 c-r1 day 43 200.90 cancelled
+ORD-0023 c-r4 day 43 119.00 backorder
+ORD-0024 c-r1 day 43 68.00 partial
+ORD-0025 c-r3 day 47 12.40 open
+ORD-0026 c-r1 day 47 9.00 backorder
+ORD-0027 c-r4 day 47 30.00 backorder
+ORD-0028 c-r1 day 47 875.60 partial
+ORD-0029 c-r4 day 50 432.00 partial
+ORD-0030 c-r4 day 50 14.50 open
+ORD-0031 c-r1 day 50 51.20 backorder
+31 orders
+  L0001 alder tumbler-6 qty=8 reserved=8 expiry=- received=0
+  L0015 alder vase-30 qty=51 reserved=2 expiry=- received=11
+  L0020 alder vase-30 qty=204 reserved=0 expiry=- received=47
+  L0016 birch tumbler-6 qty=60 reserved=4 expiry=- received=14
+  L0003 cedar cable-usb qty=31 reserved=5 expiry=- received=0
+  L0005 cedar plank-2m qty=35 reserved=0 expiry=- received=0
+  L0004 cedar plier-9 qty=24 reserved=0 expiry=- received=0
+  L0013 elm cable-hdmi qty=20 reserved=17 expiry=- received=0
+  L0019 harbor bolt-m6 qty=100 reserved=100 expiry=- received=43
+  L0018 iris screw-w4 qty=100 reserved=100 expiry=- received=41
+  L0012 juniper paper-a4 qty=20 reserved=2 expiry=- received=0
+  L0011 juniper plier-9 qty=61 reserved=20 expiry=- received=0
+  L0017 kelp paper-a3 qty=18 reserved=0 expiry=- received=40
+  L0006 larch hammer-1 qty=240 reserved=0 expiry=- received=0
+  L0007 larch jacket-l qty=30 reserved=0 expiry=- received=0
+  L0021 larch paper-a3 qty=60 reserved=0 expiry=- received=50
+16 lots, 1062 units
+report status
+  open 3
+  partial 11
+  backorder 7
+  shipped 7
+  cancelled 3
+  total 31
+end
+  #70 day 47 ship c-r1 ORD-0015 1
+  #71 day 47 order add c-r4 ORD-0027 3000
+  #72 day 47 order add c-r1 ORD-0028 87560
+  #73 day 47 ship c-r1 ORD-0019 2
+  #74 day 47 order cancel c-r1 ORD-0022 25
+  #75 day 50 expire dune 0
+  #76 day 50 set tier c-r2 gold basic
+  #77 day 50 order add c-r4 ORD-0029 43200
+  #78 day 50 receive larch paper-a3 60
+  #79 day 50 expire juniper 0
+  #80 day 50 order add c-r4 ORD-0030 1450
+  #81 day 50 order add c-r1 ORD-0031 5120
+81 entries

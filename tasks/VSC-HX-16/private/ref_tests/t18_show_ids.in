@@ -1,0 +1,14 @@
+now 2026-03-10T12:00:00Z
+log 2026-03-09T10:00:00Z a u k=1
+log 2026-03-09T10:00:01Z a u k=2
+log 2026-03-09T10:00:02Z a u k=3
+show 2
+show #3
+show ##1
+show 4
+show 0
+show #
+show x1
+show
+show 1 2
+show 007

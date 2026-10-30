@@ -1,0 +1,8 @@
+now 2026-03-10T12:00:00Z
+strict on
+rule keep level
+rule keep x-trace
+rule keep path
+log 2026-03-09T10:00:00Z web bob x-trace=a=b level=info zz=c=d path=/p?q=1&r=2
+export
+show 1

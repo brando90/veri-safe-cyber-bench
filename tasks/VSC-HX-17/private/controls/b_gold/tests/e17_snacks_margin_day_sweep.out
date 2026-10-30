@@ -1,0 +1,38 @@
+customer c-arden added region=arden tier=basic
+received lot L0001 alder crisps-50 units 480 expiry 180
+day 160 Sun
+order ORD-0001 customer c-arden goods 19.20 status open
+  crisps-50 qty=24 allocated=24 backorder=0
+day 161 Mon
+order ORD-0002 customer c-arden goods 19.20 status open
+  crisps-50 qty=24 allocated=24 backorder=0
+day 162 Tue
+order ORD-0003 customer c-arden goods 19.20 status open
+  crisps-50 qty=24 allocated=24 backorder=0
+day 163 Wed
+order ORD-0004 customer c-arden goods 19.20 status open
+  crisps-50 qty=24 allocated=24 backorder=0
+day 164 Thu
+order ORD-0005 customer c-arden goods 19.20 status open
+  crisps-50 qty=24 allocated=24 backorder=0
+day 165 Fri
+order ORD-0006 customer c-arden goods 19.20 status open
+  crisps-50 qty=24 allocated=24 backorder=0
+day 166 Sat
+order ORD-0007 customer c-arden goods 19.20 status open
+  crisps-50 qty=24 allocated=24 backorder=0
+day 167 Sun
+order ORD-0008 customer c-arden goods 19.20 status backorder
+  crisps-50 qty=24 allocated=0 backorder=24
+day 168 Mon
+order ORD-0009 customer c-arden goods 19.20 status backorder
+  crisps-50 qty=24 allocated=0 backorder=24
+day 169 Tue
+order ORD-0010 customer c-arden goods 19.20 status backorder
+  crisps-50 qty=24 allocated=0 backorder=24
+day 170 Wed
+order ORD-0011 customer c-arden goods 19.20 status backorder
+  crisps-50 qty=24 allocated=0 backorder=24
+day 171 Thu
+order ORD-0012 customer c-arden goods 19.20 status backorder
+  crisps-50 qty=24 allocated=0 backorder=24

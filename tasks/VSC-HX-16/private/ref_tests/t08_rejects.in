@@ -1,0 +1,15 @@
+now 2026-03-10T12:00:00Z
+log 2026-13-09T10:00:00Z web bob
+log 2026-03-09T10:00:00 web bob k=v
+log 2026-03-09 web bob
+log 2026-03-09T10:00:00Z web
+log 2026-03-09T10:00:00+2460 web bob
+log 2026-03-09T10:00:00Z we$b bob
+log 2026-03-09T10:00:00Z web bob novalue
+log 2026-03-09T10:00:00Z web bob =novalue
+log 2026-03-09T10:00:00Z web bob bytes=12x
+log 2026-03-09T10:00:00Z web bob bytes=-5
+log 2026-03-09T10:00:00Z web bob bytes=1_0
+log 2026-03-09T10:00:00Z web bob bytes=
+log
+report

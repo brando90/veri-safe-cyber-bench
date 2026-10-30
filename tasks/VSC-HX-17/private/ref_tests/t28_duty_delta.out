@@ -1,0 +1,27 @@
+customer c-delta added region=delta tier=basic
+customer c-ember added region=ember tier=basic
+customer c-gale added region=gale tier=basic
+customer c-haven added region=haven tier=basic
+customer c-arden added region=arden tier=basic
+received lot L0001 harbor paper-a3 units 300 expiry -
+received lot L0002 harbor paper-a4 units 300 expiry -
+received lot L0003 harbor hammer-1 units 102 expiry -
+order ORD-0001 customer c-delta goods 89.10 status open
+  paper-a3 qty=9 allocated=9 backorder=0
+shipment SHP-0001 order ORD-0001 from harbor carrier swift weight 4050g goods 89.10 freight 14.15 handling 1.28 duty 8.92 dispatch day 0 eta day 4
+order ORD-0002 customer c-delta goods 128.70 status open
+  paper-a3 qty=13 allocated=13 backorder=0
+shipment SHP-0002 order ORD-0002 from harbor carrier swift weight 5850g goods 128.70 freight 16.27 handling 1.28 duty 12.88 dispatch day 0 eta day 4
+order ORD-0003 customer c-delta goods 79.20 status open
+  paper-a3 qty=8 allocated=8 backorder=0
+shipment SHP-0003 order ORD-0003 from harbor carrier swift weight 3600g goods 79.20 freight 13.45 handling 1.28 duty 0.00 dispatch day 0 eta day 2
+order ORD-0004 customer c-delta goods 85.40 status open
+  paper-a3 qty=8 allocated=8 backorder=0
+  paper-a4 qty=1 allocated=1 backorder=0
+shipment SHP-0004 order ORD-0004 from harbor carrier swift weight 4050g goods 85.40 freight 14.15 handling 1.66 duty 8.54 dispatch day 0 eta day 4
+order ORD-0005 customer c-delta goods 87.00 status open
+  hammer-1 qty=6 allocated=6 backorder=0
+shipment SHP-0005 order ORD-0005 from harbor carrier swift weight 5400g goods 87.00 freight 15.57 handling 1.28 duty 8.70 dispatch day 0 eta day 4
+order ORD-0006 customer c-delta goods 86.80 status open
+  paper-a4 qty=14 allocated=14 backorder=0
+shipment SHP-0006 order ORD-0006 from harbor carrier swift weight 6300g goods 86.80 freight 16.98 handling 1.28 duty 8.68 dispatch day 0 eta day 4

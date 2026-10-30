@@ -1,0 +1,43 @@
+clock set to 2026-03-10T12:00:00Z
+logged #1
+logged #2
+logged #3
+logged #4
+logged #5
+logged #6
+report at 2026-03-10T12:00:00Z
+records: 6 (bytes 0)
+sources: 1, average 6 records per source
+by source:
+  a                  6  100.0%
+by user (top 3):
+  u                  6  100.0%
+by domain:
+  -                  6  100.0%
+by level:
+  info               6  100.0%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  none
+future:
+  #1 is 1 day ahead
+  #2 is 1 day ahead
+  #3 is 2 days ahead
+  #4 is 3 days ahead
+clock set to 2026-03-12T12:00:00Z
+report at 2026-03-12T12:00:00Z
+records: 6 (bytes 0)
+sources: 1, average 6 records per source
+by source:
+  a                  6  100.0%
+by user (top 3):
+  u                  6  100.0%
+by domain:
+  -                  6  100.0%
+by level:
+  info               6  100.0%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  none
+future:
+  #4 is 1 day ahead

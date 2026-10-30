@@ -1,0 +1,22 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok set spike=0
+ok ship S1
+ok ship S2
+ok ship S3
+alert S1 humid t=60 peak=1%
+alert S1 humid t=240 peak=50%
+alerts total=2
+alerts total=0
+ok set spike=100
+alert S3 spike t=60 change=15.0 in 60s
+alerts total=1
+ok set spike=1000
+alerts total=0
+ok set spike=0
+ok set gap=0
+alerts total=0

@@ -1,0 +1,17 @@
+customer add c-acme arden tier=gold
+customer add c-bolt brook
+customer add c-cove crest tier=silver
+receive alder hammer-1 60
+receive alder paper-a4 100
+order add c-acme hammer-1:6
+order add c-acme paper-a4:20
+order add c-bolt hammer-1:12
+order add c-cove paper-a4:10
+order cancel ORD-0002
+order cancel ORD-0004
+report goods_tier
+report goods_tier cust=c-acme
+report goods_region
+report goods_customer
+report cancelled
+report status

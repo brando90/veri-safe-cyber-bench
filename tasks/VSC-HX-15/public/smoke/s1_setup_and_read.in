@@ -1,0 +1,25 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Vaccine box" route=R3 class=chilled
+ship add S2 "Frozen plasma" route=R4 class=frozen hmax=70
+ship show S1
+ship show S2
+ship list
+read S1 t=0 temp=4.0 hum=40
+read S1 t=60 temp=4.5 hum=42
+read S1 t=120 temp=5.0 hum=45
+read S1 t=180 temp=5.5 hum=47
+read S1 t=240 temp=6.0 hum=50
+read S2 t=0 temp=-20.0
+read S2 t=300 temp=-19.5
+read S2 t=600 temp=-18.0
+window S1
+window S1 from=60 to=180
+timeline S2
+rollup S1
+describe S1
+stats

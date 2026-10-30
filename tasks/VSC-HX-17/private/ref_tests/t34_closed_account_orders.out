@@ -1,0 +1,46 @@
+customer c-arden added region=arden tier=basic
+customer c-crest added region=crest tier=basic
+received lot L0001 harbor paper-a4 units 100 expiry -
+received lot L0002 harbor hammer-1 units 102 expiry -
+customer c-gone added region=crest tier=basic
+customer c-gone2 added region=arden tier=basic
+customer c-gone3 added region=arden tier=basic
+order ORD-0001 customer c-gone goods 248.00 status open
+  paper-a4 qty=40 allocated=40 backorder=0
+order ORD-0002 customer c-gone goods 620.00 status partial
+  paper-a4 qty=100 allocated=60 backorder=40
+order ORD-0003 customer c-gone goods 87.00 status open
+  hammer-1 qty=6 allocated=6 backorder=0
+order ORD-0004 customer c-gone2 goods 174.00 status open
+  hammer-1 qty=12 allocated=12 backorder=0
+order ORD-0005 customer c-gone3 goods 124.00 status backorder
+  paper-a4 qty=20 allocated=0 backorder=20
+shipment SHP-0001 order ORD-0001 from harbor carrier parcelo weight 18000g goods 248.00 freight 0.00 handling 1.28 duty 19.84 dispatch day 0 eta day 4
+return ORD-0001 paper-a4 x5 restocked at harbor
+customer c-gone closed
+customer c-gone2 closed
+shipment SHP-0002 order ORD-0003 from harbor carrier parcelo weight 5400g goods 87.00 freight 9.79 handling 1.28 duty 0.00 dispatch day 0 eta day 2
+return ORD-0001 paper-a4 x5 restocked at harbor
+return ORD-0003 hammer-1 x1 scrapped at harbor
+order ORD-0004 cancelled 12 units, status cancelled
+error: order ORD-0004 has nothing to ship or cancel
+received lot L0005 harbor paper-a4 units 300 expiry -
+backorder ORD-0002 allocated 40 units, status open
+backorder ORD-0005 allocated 20 units, status open
+2 orders checked, 2 filled
+order ORD-0002 customer c-gone day 0 goods 620.00 status open ref=-
+  paper-a4 qty=100 allocated=100 backorder=0 shipped=0 returned=0 cancelled=0
+    from harbor lot L0001 x60
+    from harbor lot L0003 x5
+    from harbor lot L0004 x5
+    from harbor lot L0005 x30
+shipment SHP-0003 order ORD-0002 from harbor carrier parcelo weight 45000g goods 620.00 freight 0.00 handling 1.28 duty 49.60 dispatch day 0 eta day 4
+ORD-0001 c-gone day 0 248.00 shipped
+ORD-0002 c-gone day 0 620.00 shipped
+ORD-0003 c-gone day 0 87.00 shipped
+3 orders
+error: customer c-gone is closed
+customer c-gone
+  name=c-gone region=crest tier=basic carrier=auto split=yes hold=no
+  po=- email=- note=-
+  status=closed since day 0

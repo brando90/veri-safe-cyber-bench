@@ -1,0 +1,52 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+error: no such shipment S1
+ok ship S1
+error: read needs t= and temp=
+error: read needs t= and temp=
+error: hum out of range
+error: unknown field extra
+error: bad time 1.2345
+error: bad temperature 1.25
+error: bad temperature 1000
+error: bad time -1
+error: usage: read SID t=SECONDS temp=DEGREES [hum=PERCENT]
+error: usage: read SID t=SECONDS temp=DEGREES [hum=PERCENT]
+error: missing t=
+error: missing stop=
+error: usage: window SID [from=SECONDS] [to=SECONDS]
+error: usage: window SID [from=SECONDS] [to=SECONDS]
+error: unknown option bogus (usage: window SID [from=SECONDS] [to=SECONDS])
+error: usage: rollup SID
+error: usage: excursions SID
+error: usage: alerts [SID] [kind=KIND]
+error: no such shipment S9
+error: usage: sla SID
+error: usage: rank [by=sla|exposure|alerts]
+error: usage: rank [by=sla|exposure|alerts]
+error: usage: find TEXT
+error: empty query
+error: usage: legs SID
+error: no such shipment S9
+error: usage: report SID
+error: usage: export SID | export all
+error: no such shipment S9
+error: unknown command frobnicate
+error: unterminated quote
+error: bad escape
+ok ship S3
+ship S3 "tab inside" route=R3 class=- band=2.0..8.0 hold=10m cap=600 hmax=- skew=0s offset=0.0
+ok site AB
+error: bad site code
+error: skew out of range
+error: offset out of range
+ok ship S4
+error: duplicate shipment S4
+error: duplicate shipment S4
+error: duplicate shipment S4
+error: duplicate option route
+stats ships=3 readings=2 refused=0 sites=5 routes=2

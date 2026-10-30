@@ -1,0 +1,37 @@
+customer c-acme added region=delta tier=gold
+customer c-bolt added region=arden tier=basic
+received lot L0001 alder paper-a4 units 400 expiry -
+received lot L0002 alder hammer-1 units 60 expiry -
+received lot L0003 harbor paper-a4 units 200 expiry -
+received lot L0004 dune milk-1l units 120 expiry 21
+  L0002 alder hammer-1 qty=60 reserved=0 expiry=- received=0
+  L0001 alder paper-a4 qty=400 reserved=0 expiry=- received=0
+2 lots, 460 units
+order ORD-0001 customer c-acme goods 397.00 status open
+  paper-a4 qty=50 allocated=50 backorder=0
+  hammer-1 qty=6 allocated=6 backorder=0
+order ORD-0001 customer c-acme day 0 goods 397.00 status open ref=-
+  paper-a4 qty=50 allocated=50 backorder=0 shipped=0 returned=0 cancelled=0
+    from alder lot L0001 x50
+  hammer-1 qty=6 allocated=6 backorder=0 shipped=0 returned=0 cancelled=0
+    from alder lot L0002 x6
+order ORD-0002 customer c-bolt goods 186.00 status open
+  paper-a4 qty=30 allocated=30 backorder=0
+order ORD-0003 customer c-bolt goods 28.80 status open
+  milk-1l qty=24 allocated=24 backorder=0
+ORD-0001 c-acme day 0 397.00 open
+ORD-0002 c-bolt day 0 186.00 open
+ORD-0003 c-bolt day 0 28.80 open
+3 orders
+day 1 Tue
+shipment SHP-0001 order ORD-0001 from alder carrier parcelo weight 27900g goods 397.00 freight 0.00 handling 2.00 duty 39.70 dispatch day 1 eta day 7
+shipment SHP-0002 order ORD-0002 from harbor carrier parcelo weight 13500g goods 186.00 freight 7.49 handling 1.28 duty 9.30 dispatch day 1 eta day 4
+shipment SHP-0003 order ORD-0003 from dune carrier parcelo weight 12000g goods 28.80 freight 8.24 handling 2.10 duty 0.00 dispatch day 1 eta day 4
+ORD-0001 c-acme day 0 397.00 shipped
+ORD-0002 c-bolt day 0 186.00 shipped
+ORD-0003 c-bolt day 0 28.80 shipped
+3 orders
+customer c-acme
+  name="Acme Works" region=delta tier=gold carrier=auto split=yes hold=no
+  po=- email=- note=-
+  status=active since day 0

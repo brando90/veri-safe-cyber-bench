@@ -1,0 +1,20 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+excursions S1 n=4
+  mixed start=60 end=240 dur=180s peak=9.5
+  low start=300 end=360 dur=60s peak=1.5
+  high start=420 end=540 dur=120s peak=8.1
+  low start=660 end=720 dur=60s peak=-3.0 open
+ok ship S2
+excursions S2 n=0
+ok ship S3
+excursions S3 n=1
+  high start=5 end=5 dur=0s peak=30.0 open
+ok ship S4
+excursions S4 n=1
+  mixed start=100 end=400 dur=300s peak=-10.0

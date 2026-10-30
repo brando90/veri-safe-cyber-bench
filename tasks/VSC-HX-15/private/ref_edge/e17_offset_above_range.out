@@ -1,0 +1,29 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok ship S2
+ok ship S3
+window S1 n=4
+  0 60.0
+  60 59.9
+  120 60.0
+  180 60.0
+window S2 n=3
+  0 -40.0
+  60 -40.0
+  120 -39.5
+window S3 n=2
+  0 60.0
+  60 -40.0
+excursions S1 n=1
+  high start=0 end=180 dur=180s peak=60.0 open
+begin export
+ship	S2	Cold logger	R3	0.0	50.0	-	-	-	0	1.0
+r	0	-400	-
+r	60000	-400	-
+r	120000	-395	-
+end export

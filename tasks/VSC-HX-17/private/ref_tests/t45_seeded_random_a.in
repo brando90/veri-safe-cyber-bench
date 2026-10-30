@@ -1,0 +1,191 @@
+customer add c-r0 delta tier=basic
+customer add c-r1 ember tier=basic
+customer add c-r2 arden tier=gold
+customer add c-r3 ember tier=gold
+customer add c-r4 delta tier=gold
+receive alder tumbler-6 60
+receive alder peas-fr 40
+receive alder yogurt-4 60
+receive alder thinner-1l 100
+receive harbor milk-1l 20
+receive harbor bolt-m6 20
+receive harbor apple-1k 40
+receive harbor yogurt-4 240
+receive cedar cable-usb 40
+receive cedar peas-fr 100
+receive cedar plier-9 20
+receive cedar plank-2m 40
+receive larch hammer-1 240
+receive larch milk-1l 100
+receive larch jacket-l 40
+receive larch apple-1k 20
+receive birch shirt-m 40
+receive birch apple-1k 40
+receive birch yogurt-4 40
+receive birch bolt-m6 60
+receive dune cable-hdmi 20
+receive dune bolt-m6 20
+receive dune screw-w4 20
+receive dune apple-1k 40
+receive juniper pizza-fr 20
+receive juniper peas-fr 40
+receive juniper plier-9 100
+receive juniper paper-a4 20
+receive elm peas-fr 240
+receive elm cable-hdmi 40
+receive elm apple-1k 40
+receive elm thinner-1l 240
+tick 9
+receive elm plank-2m 60
+order add c-r4 apple-1k:8
+set tier c-r1 silver
+ship ORD-0001 at=6
+receive elm plank-2m 200
+ship ORD-0001 at=20
+set tier c-r4 gold
+ship ORD-0001 at=6
+order add c-r4 plier-9:1
+order add c-r4 jacket-l:2
+ship ORD-0001 at=16
+ship ORD-0002 at=18
+ship ORD-0002 at=0 carrier=swift
+tick 1
+receive grove yogurt-4 20
+return ORD-0003 plier-9 1
+ship ORD-0003 at=6 carrier=aero
+backorder run
+tick 1
+receive birch plank-2m 10
+ship ORD-0002 at=20
+receive alder paper-a3 20
+order add c-r4 beam-3m:5
+ship ORD-0001 at=13 carrier=nord
+backorder run
+backorder run
+return ORD-0001 cable-usb 2
+order add c-r0 thinner-1l:8 shirt-m:5 apple-1k:2
+ship ORD-0004 at=10 carrier=gull
+order add c-r2 paper-a3:5 cable-usb:1 tumbler-6:40
+order add c-r1 paper-a3:12 milk-1l:40 bolt-m6:100
+order add c-r0 yogurt-4:20 milk-1l:8
+receive alder vase-30 60
+order add c-r4 vase-30:8 plank-2m:5 plier-9:40
+order add c-r4 pizza-fr:8
+ship ORD-0006 at=10 carrier=gull
+ship ORD-0004 at=10
+order cancel ORD-0002
+ship ORD-0004 at=23
+order add c-r3 tumbler-6:12
+return ORD-0006 cable-usb 2
+order add c-r3 cable-usb:8
+backorder run
+ship ORD-0009 at=13 carrier=parcelo
+ship ORD-0009 at=10 carrier=zed
+order add c-r4 yogurt-4:40 tumbler-6:12
+ship ORD-0011 at=12 carrier=pony
+receive kelp plank-2m 10
+backorder run
+ship ORD-0004 at=17
+tick 3
+receive birch tumbler-6 60
+tick 1
+report status
+report duty_region
+order add c-r4 apple-1k:40 screw-w4:100
+expire dune
+backorder run
+ship ORD-0010 at=0
+ship ORD-0007 at=6 carrier=zed
+tick 1
+order add c-r1 shirt-m:40 pizza-fr:40
+tick 1
+ship ORD-0007 at=13
+ship ORD-0014 at=17
+order add c-r3 bolt-m6:200
+tick 9
+tick 9
+order add c-r2 milk-1l:2 peas-fr:5 vase-30:2
+order add c-r1 cable-hdmi:20
+ship ORD-0012 at=23 carrier=parcelo
+return ORD-0018 jacket-l 2 cond=damaged
+return ORD-0011 charger-20 6
+backorder run
+ship ORD-0003 at=17 carrier=zed
+ship ORD-0016 at=18 carrier=zed
+order add c-r1 apple-1k:1 paper-a3:5
+return ORD-0013 thinner-1l 2
+ship ORD-0006 at=14 carrier=gull
+set carrier c-r2 auto
+tick 5
+ship ORD-0004 at=13
+set region c-r4 haven
+set region c-r2 forge
+expire 
+order cancel ORD-0006
+ship ORD-0018 at=6 carrier=haul
+set carrier c-r3 zed
+ship ORD-0010 at=6 carrier=haul
+adjust kelp plank-2m 1
+return ORD-0001 paper-a4 3
+receive kelp paper-a3 20
+transfer fjord harbor shirt-m 30
+set region c-r4 gale
+order cancel ORD-0004
+tick 1
+receive iris screw-w4 20
+ship ORD-0018 at=17
+order add c-r2 jacket-l:8 milk-1l:2 vase-30:1
+ship ORD-0014 at=14
+tick 2
+receive larch milk-1l 10
+order add c-r1 plier-9:1
+ship ORD-0020 at=6
+order add c-r1 hammer-1:5 paper-a3:12 milk-1l:8
+order add c-r4 apple-1k:40 bolt-m6:100
+ship ORD-0023 at=20 carrier=haul
+receive harbor bolt-m6 60
+receive dune thinner-1l 200
+expire juniper
+transfer birch fjord milk-1l 5
+order add c-r1 cable-hdmi:5 charger-20:2
+ship ORD-0011 at=17 carrier=parcelo
+ship ORD-0001 at=13 carrier=aero
+tick 3
+order cancel ORD-0021
+tick 1
+ship ORD-0011 at=23
+ship ORD-0005 at=0 carrier=zed
+order add c-r3 paper-a4:2
+set split c-r0 yes
+receive alder vase-30 200
+backorder run
+transfer kelp juniper yogurt-4 12
+backorder run
+order add c-r1 screw-w4:100
+ship ORD-0015 at=6 carrier=aero
+order add c-r4 bolt-m6:200
+backorder run
+order add c-r1 beam-3m:40 cable-hdmi:12 screw-w4:200
+report returns_cat
+ship ORD-0019 at=23 carrier=nord
+order cancel ORD-0022
+backorder run
+tick 3
+ship ORD-0009 at=14
+expire dune
+set tier c-r2 basic
+order add c-r4 beam-3m:1 thinner-1l:8 plier-9:20
+receive larch paper-a3 60
+ship ORD-0018 at=17 carrier=haul
+ship ORD-0005 at=0 carrier=pony
+expire juniper
+ship ORD-0023 at=9
+order add c-r4 cable-usb:5
+order add c-r1 shirt-m:2 yogurt-4:8
+backorder run
+backorder run
+report low_stock
+order list
+stock
+report status
+audit 12

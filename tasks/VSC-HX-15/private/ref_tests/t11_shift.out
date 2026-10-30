@@ -1,0 +1,31 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok ship S2
+ok shift S1 n=3
+window S1 n=3
+  160 5.0
+  220 6.0
+  280.5 7.0
+ok shift S1 n=3
+window S1 n=3
+  0 5.0
+  60 6.0
+  120.5 7.0
+error: corrected time is before the start of the run
+window S1 n=3
+  0 5.0
+  60 6.0
+  120.5 7.0
+error: bad number for seconds
+error: no such shipment S9
+window S2 n=1
+  100 1.0
+ok shift S2 n=1
+ok shift S2 n=1
+window S2 n=1
+  2592100 1.0

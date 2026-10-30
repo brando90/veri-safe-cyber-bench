@@ -1,0 +1,53 @@
+ok site LHR
+ok site AMS
+error: duplicate site AMS
+error: bad site code
+site AMS "Amsterdam hub"
+site LHR "London Heathrow"
+ok route R1 stops=2
+error: duplicate route R1
+error: usage: route add ID CODE CODE...
+error: no such site ZZZ
+ok ship S1
+ok ship S2
+ok ship S10
+error: band needs min below max
+error: unknown class tropical
+error: missing route=
+error: no such route NOPE
+error: duplicate shipment S1
+ship S1 "Box one" route=R1 class=- band=2.0..8.0 hold=10m cap=600 hmax=- skew=0s offset=0.0
+ship S2 "Box two" route=R1 class=- band=1.0..7.5 hold=30m cap=unlimited hmax=60% skew=-20s offset=-0.5
+ship S10 "Box ten" route=R1 class=ambient band=15.0..25.0 hold=10m cap=5 hmax=- skew=0s offset=0.0
+ship S1 planned readings=0
+ship S2 planned readings=0
+ship S10 planned readings=0
+ok set hold=15
+ok set cap=0
+ok set cap=700
+ok set slack=0
+ok set spike=25
+ok set keep=90
+ok set gap=45
+error: hold out of range
+error: unknown setting bogus
+error: bad number for hold
+config hold=15 keep=90 gap=45 cap=700 slack=0 spike=25
+ship S1 "Box one" route=R1 class=- band=2.0..8.0 hold=15m cap=700 hmax=- skew=0s offset=0.0
+ok ship S2
+ok ship S10
+ok ship S10
+error: unknown field bogus
+ok ship S1
+ship S2 "Box two" route=R1 class=- band=1.0..7.5 hold=15m cap=700 hmax=- skew=5s offset=-0.5
+ship S10 "Box ten" route=R1 class=cool band=9.5..15.0 hold=15m cap=5 hmax=- skew=0s offset=0.0
+ship S1 "Renamed box" route=R1 class=- band=2.0..8.0 hold=15m cap=700 hmax=- skew=0s offset=0.0
+profile ambient 15.0..25.0
+profile chilled 2.0..8.0
+profile cool 8.0..15.0
+profile frozen -25.0..-15.0
+profile vaccine 2.0..8.0
+ok remove S2
+ship S1 planned readings=0
+ship S10 planned readings=0
+error: no such shipment S2

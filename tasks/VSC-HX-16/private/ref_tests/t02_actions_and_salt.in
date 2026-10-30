@@ -1,0 +1,11 @@
+now 2026-03-10T12:00:00Z
+rule redact password
+rule drop ua
+rule pseudo ip
+rule mask card
+salt pepper and salt
+log 2026-03-09T10:00:00Z auth alice@example.com password=hunter2go ua=curl ip=10.0.0.7 card=4111222233334444 level=info
+log 2026-03-09T10:00:01Z auth bob ip=10.0.0.7 card=555566667777
+export
+salt other
+export auth

@@ -1,0 +1,27 @@
+customer add c-forge forge tier=basic
+receive harbor paper-a4 400
+order add c-forge paper-a4:5
+ship ORD-0001 carrier=swift
+tick 1
+order add c-forge paper-a4:5
+ship ORD-0002 carrier=swift
+tick 1
+order add c-forge paper-a4:5
+ship ORD-0003 carrier=swift
+tick 1
+order add c-forge paper-a4:5
+ship ORD-0004 carrier=swift
+tick 1
+order add c-forge paper-a4:5
+ship ORD-0005 carrier=swift
+tick 1
+order add c-forge paper-a4:5
+ship ORD-0006 carrier=swift
+tick 1
+order add c-forge paper-a4:5
+ship ORD-0007 carrier=swift
+tick 1
+order add c-forge paper-a4:5
+ship ORD-0008 carrier=swift
+tick 1
+region show forge

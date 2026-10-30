@@ -1,0 +1,23 @@
+now 2026-03-10T12:00:00Z
+window 60
+limit * 2
+log 2026-03-10T10:00:00Z a u
+log 2026-03-10T10:01:00Z a u
+log 2026-03-10T10:02:00Z a u
+log 2026-03-10T10:00:00Z b u
+log 2026-03-10T10:00:59Z b u
+log 2026-03-10T10:00:30Z c u
+log 2026-03-10T10:00:31Z c u
+log 2026-03-10T10:00:32Z c u
+log 2026-03-10T10:00:33Z c u
+log 2026-03-10T10:01:31Z d u
+log 2026-03-10T10:01:31Z d u
+log 2026-03-10T10:01:31Z d u
+log 2026-03-10T10:01:31Z d u
+log 2026-03-10T10:01:31Z d u
+report
+window 61
+report
+window 0
+window 1
+report

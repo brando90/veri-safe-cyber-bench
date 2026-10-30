@@ -1,0 +1,32 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Ends with \\" route=R4 class=cool maxexc=7 skew=2 offset=0.1
+ship add S2 "a\\nb \\t c \\\\ d" route=R3 hmax=10
+read S1 t=0 temp=10.0
+read S1 t=60 temp=9.0 hum=33
+arrive S1 stop=1 t=0
+plan S1 stop=2 t=100
+export S1
+export S2
+ship remove S1
+ship remove S2
+import
+begin export
+ship	S1	Ends with \\	R4	8.0	15.0	7	-	-	2	0.1
+r	0	100	-
+r	60000	90	33
+arr	1	0
+plan	2	100000
+end export
+import
+begin export
+ship	S2	a\\nb \\t c \\\\ d	R3	2.0	8.0	-	-	10	0	0.0
+end export
+ship show S1
+ship show S2
+export S1
+export S2

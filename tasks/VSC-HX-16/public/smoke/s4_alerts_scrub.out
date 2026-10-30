@@ -1,0 +1,30 @@
+clock set to 2026-03-10T12:00:00Z
+window set to 60 seconds
+limit for auth set to 2
+default limit set to 5
+logged #1
+logged #2
+logged #3
+logged #4
+logged #5
+report at 2026-03-10T12:00:00Z
+records: 5 (bytes 0)
+sources: 2, average 2 records per source
+by source:
+  auth               3   60.0%
+  web                2   40.0%
+by user (top 3):
+  alice@example.com     3   60.0%
+  bob                2   40.0%
+by domain:
+  example.com        3   60.0%
+  -                  2   40.0%
+by level:
+  info               5  100.0%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  ALERT auth peak 3 limit 2
+#1 2026-03-10T10:00:00Z auth alice@example.com -- try 1 password=******34
+#2 2026-03-10T10:00:20Z auth alice@example.com -- try 2 token=******99 ************1234
+#3 2026-03-10T10:00:40Z auth alice@example.com -- try 3
+exported 3 records, 0 fields changed

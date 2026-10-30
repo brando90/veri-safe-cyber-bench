@@ -1,0 +1,9 @@
+{
+  "id": "VSC-HX-16",
+  "split": "train",
+  "language": "python3.12",
+  "bug_class": "small idiomatic Python slips that each read as normal code but contradict a README rule, several of which change the same output: a key=value split taken at the last equals sign, lstrip of a character set where a single prefix is meant, a negative slice that shows the whole value when the visible tail is zero, re.sub flags passed in the count position, a prefix-rule lambda that captures the loop variable late, a dict.get default replaced by a truthy 'or' so a limit of 0 becomes the default, a purge that removes from a list while iterating it, a shallow copy of a policy whose keep set is then updated in place, a percentage formatted with float rounding instead of half up, a descending sort of (count, name) tuples that reverses the name tie order",
+  "summary": "logveil, a toy audit-log redaction and retention tool (stdin command lines, records with offsets normalised to UTC, field rules with x- prefix matching, prefix rules, strict mode with keep lists, pseudonyms, partial masks, message scrubbing, retention purge, sliding-window alerts with per-source limits, reports with ranked tables and shares, self-check exiting 86 with INVARIANT: on stderr). 14 Python modules, about 950 lines plus a README that states each general rule. Ten independent one-token to two-line slips in 9 modules, each detectable by comparing the code with the README; eighteen correct-but-odd idioms (exact-boundary comparisons, a documented banker's rounding, a ceil written with negation, a memo kept in a mutable default, shallow copies of flat data, rpartition on an address) act as decoys guarded by hidden tests.",
+  "K": 10,
+  "time_cap_min": 45
+}

@@ -1,0 +1,23 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+window S1 n=3
+  70 5.0
+  130 5.5
+  170.5 6.0
+timeline S1 n=3
+  d1 00:01:10 5.0
+  d1 00:02:10 5.5
+  d1 00:02:50.500 6.0
+ok ship S1
+window S1 n=1
+  1400 4.0
+error: corrected time is before the start of the run
+window S1 n=2
+  0 4.0
+  70 5.0
+ship S1 "Fast logger" route=R3 class=- band=2.0..8.0 hold=10m cap=600 hmax=- skew=3600s offset=0.0

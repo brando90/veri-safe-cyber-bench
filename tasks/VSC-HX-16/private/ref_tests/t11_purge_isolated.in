@@ -1,0 +1,13 @@
+now 2026-03-10T12:00:00Z
+retain 20
+log 2026-01-01T12:00:00Z a u1 -- old 1
+log 2026-03-01T12:00:00Z a u1 -- fresh 2
+log 2026-01-02T12:00:00Z b u2 -- old 3
+log 2026-03-02T12:00:00Z b u2 -- fresh 4
+log 2026-01-03T12:00:00Z c u3 -- old 5
+purge
+days
+log 2026-01-04T12:00:00Z c u3 -- old again
+purge
+show 6
+show 7

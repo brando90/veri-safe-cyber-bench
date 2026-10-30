@@ -1,0 +1,31 @@
+clock set to 2026-03-10T12:00:00Z
+window set to 120 seconds
+default limit set to 3
+limit for web set to 0
+limit for mail set to 2
+limit for db set to 0
+logged #1
+logged #2
+logged #3
+logged #4
+logged #5
+default limit set to 4
+report at 2026-03-10T12:00:00Z
+records: 5 (bytes 0)
+sources: 3, average 2 records per source
+by source:
+  mail               2   40.0%
+  web                2   40.0%
+  api                1   20.0%
+by user (top 3):
+  u1                 2   40.0%
+  u2                 2   40.0%
+  u3                 1   20.0%
+by domain:
+  -                  5  100.0%
+by level:
+  info               5  100.0%
+largest record: #1 (0 bytes)
+alerts (window 120s):
+  ALERT web peak 2 limit 0
+  at limit mail

@@ -1,0 +1,8 @@
+customer add c-a1 arden
+receive alder shirt-m 25
+receive alder shirt-m 40
+receive alder jacket-l 1
+receive harbor jacket-l 61
+stock
+order add c-a1 shirt-m:65 jacket-l:21
+order show ORD-0001

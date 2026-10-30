@@ -1,0 +1,12 @@
+customer add c-b1 brook
+customer add c-b2 ember
+customer add c-b3 crest
+receive grove cleaner-5l 60
+receive birch thinner-1l 60
+order add c-b1 cleaner-5l:6
+order add c-b2 cleaner-5l:6
+order add c-b3 cleaner-5l:6
+order add c-b1 thinner-1l:12
+order add c-b2 thinner-1l:12
+region show ember
+region show brook

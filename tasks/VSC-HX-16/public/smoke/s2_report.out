@@ -1,0 +1,40 @@
+clock set to 2026-03-10T12:00:00Z
+logged #1
+logged #2
+logged #3
+logged #4
+logged #5
+logged #6
+logged #7
+logged #8
+logged #9
+logged #10
+report at 2026-03-10T12:00:00Z
+records: 10 (bytes 1750)
+sources: 4, average 2 records per source
+by source:
+  auth               4   40.0%
+  web                3   30.0%
+  db                 2   20.0%
+  batch              1   10.0%
+by user (top 3):
+  alice@example.com     4   40.0%
+  bob                3   30.0%
+  carol@corp.test     2   20.0%
+by domain:
+  example.com        5   50.0%
+  -                  3   30.0%
+  corp.test          2   20.0%
+by level:
+  error              1   10.0%
+  warn               1   10.0%
+  info               7   70.0%
+  debug              1   10.0%
+largest record: #5 (1500 bytes)
+alerts (window 60s):
+  none
+2026-03-09    9 records, bytes 1743
+2026-03-10    1 records, bytes 7
+fields:
+  bytes              6   60.0%
+  level              4   40.0%

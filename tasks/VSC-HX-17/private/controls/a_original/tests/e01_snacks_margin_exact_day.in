@@ -1,0 +1,8 @@
+customer add c-s1 arden
+receive alder crisps-50 240
+tick 166
+order add c-s1 crisps-50:24
+order show ORD-0001
+tick 1
+order add c-s1 crisps-50:24
+order show ORD-0002

@@ -1,0 +1,39 @@
+customer add c-delta delta tier=basic
+customer add c-ember ember tier=basic
+customer add c-gale gale tier=basic
+customer add c-haven haven tier=basic
+customer add c-arden arden tier=basic
+receive harbor paper-a3 300
+receive harbor paper-a4 300
+receive harbor hammer-1 100
+order add c-gale paper-a3:9
+ship ORD-0001 carrier=swift
+order add c-gale paper-a4:1
+ship ORD-0002 carrier=swift
+order add c-gale paper-a3:16
+ship ORD-0003 carrier=swift
+order add c-gale hammer-1:4
+ship ORD-0004 carrier=swift
+order add c-gale paper-a3:3
+ship ORD-0005 carrier=swift
+order add c-haven paper-a3:9
+ship ORD-0006 carrier=swift
+order add c-haven paper-a4:1
+ship ORD-0007 carrier=swift
+order add c-haven paper-a3:16
+ship ORD-0008 carrier=swift
+order add c-haven hammer-1:4
+ship ORD-0009 carrier=swift
+order add c-haven paper-a3:3
+ship ORD-0010 carrier=swift
+order add c-arden paper-a3:9
+ship ORD-0011 carrier=swift
+order add c-arden paper-a4:1
+ship ORD-0012 carrier=swift
+order add c-arden paper-a3:16
+ship ORD-0013 carrier=swift
+order add c-arden hammer-1:4
+ship ORD-0014 carrier=swift
+order add c-arden paper-a3:3
+ship ORD-0015 carrier=swift
+report duty_region

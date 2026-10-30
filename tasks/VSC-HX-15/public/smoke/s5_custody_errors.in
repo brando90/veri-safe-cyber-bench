@@ -1,0 +1,21 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Orchids" route=R3 min=10.0 max=20.0
+handoff S1 "Dock crew" t=100
+handoff S1 "Truck 12" t=400
+custody S1
+verify S1 1 sig=0
+read S1 t=0 temp=12.0
+read S1 t=60 temp=14.0
+read S1 t=120 temp=16.5
+forecast S1 minutes=10
+ship show S9
+read S1 t=abc temp=5
+arrive S1 stop=7 t=10
+ship add S1 "Again" route=R3
+frobnicate
+help

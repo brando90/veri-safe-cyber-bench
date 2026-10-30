@@ -1,0 +1,28 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Insulin pens" route=R3 class=chilled
+ship add S2 "Blood samples" route=R3 class=chilled
+ship add S3 "Frozen insulin" route=R4 class=frozen
+ship add S4 "Spare box" route=R3
+read S1 t=0 temp=5.0
+read S1 t=60 temp=5.0
+read S1 t=120 temp=9.0
+read S1 t=180 temp=5.0
+read S2 t=0 temp=5.0
+read S2 t=60 temp=5.0
+read S2 t=120 temp=5.0
+read S2 t=180 temp=5.0
+read S2 t=240 temp=5.0
+read S3 t=0 temp=-20.0
+read S3 t=60 temp=-10.0
+read S3 t=120 temp=-20.0
+find insulin
+find BLOOD
+find nothing here
+rank
+rank by=alerts
+compare S1 S2

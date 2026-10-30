@@ -1,0 +1,18 @@
+# receipts, adjustments, transfers and expiry
+customer add c-st arden
+receive alder bolt-m6 1000
+receive elm bolt-m6 500
+receive dune yogurt-4 60
+receive dune pizza-fr 40
+receive fjord pizza-fr 16
+adjust alder bolt-m6 -50
+adjust elm bolt-m6 25
+transfer alder harbor bolt-m6 300
+transfer dune fjord yogurt-4 24
+stock
+order add c-st yogurt-4:20
+tick 25
+expire
+replenish
+ledger alder
+audit 5

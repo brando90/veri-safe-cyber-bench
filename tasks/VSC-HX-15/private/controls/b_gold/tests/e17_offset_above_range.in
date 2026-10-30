@@ -1,0 +1,23 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Hot logger" route=R3 offset=-0.5 min=0.0 max=50.0
+ship add S2 "Cold logger" route=R3 offset=1.0 min=0.0 max=50.0
+ship add S3 "Plain logger" route=R3
+read S1 t=0 temp=70.0
+read S1 t=60 temp=60.4
+read S1 t=120 temp=60.5
+read S1 t=180 temp=61.0
+read S2 t=0 temp=-50.0
+read S2 t=60 temp=-41.0
+read S2 t=120 temp=-40.5
+read S3 t=0 temp=99.9
+read S3 t=60 temp=-99.9
+window S1
+window S2
+window S3
+excursions S1
+export S2

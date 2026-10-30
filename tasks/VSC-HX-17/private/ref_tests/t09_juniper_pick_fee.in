@@ -1,0 +1,8 @@
+customer add c-j1 ember
+receive juniper paper-a4 100
+receive juniper hammer-1 60
+receive juniper bolt-m6 1000
+order add c-j1 paper-a4:30 hammer-1:12 bolt-m6:200
+ship ORD-0001
+order add c-j1 hammer-1:6
+ship ORD-0002

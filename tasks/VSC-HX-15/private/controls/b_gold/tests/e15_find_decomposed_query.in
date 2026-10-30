@@ -1,0 +1,14 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "Épées de Paris" route=R3
+ship add S2 "Crème brûlée" route=R3
+ship add S3 "Plain" route=R3
+find épées
+find "ÉPÉES de"
+find brûlée
+find "crème"
+find plain

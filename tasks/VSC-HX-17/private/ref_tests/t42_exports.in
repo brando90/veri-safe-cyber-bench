@@ -1,0 +1,21 @@
+customer add c-arden arden tier=basic
+customer add c-delta delta tier=basic
+receive alder paper-a4 300
+receive harbor cable-usb 200
+receive dune milk-1l 60
+order add c-arden paper-a4:20 cable-usb:5
+ship ORD-0001
+order add c-delta milk-1l:12
+ship ORD-0002
+order add c-delta cable-usb:3 ref=po-9
+return ORD-0001 paper-a4 2
+export orders csv
+export orders tsv
+export stock csv
+export stock tsv
+export shipments csv
+export shipments tsv
+export ledger csv
+export ledger tsv
+export orders json
+export invoices csv

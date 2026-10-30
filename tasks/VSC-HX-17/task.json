@@ -1,0 +1,9 @@
+{
+  "id": "VSC-HX-17",
+  "split": "test",
+  "language": "python3.12",
+  "bug_class": "eight local deviations in a large generated-style warehouse codebase, hidden among near-identical sibling modules and among 51 deliberate, documented exceptions (decoys): a shelf-life margin test that is exclusive where its siblings and the README are inclusive, a dispatch cut-off test that includes the cut-off hour, a carrier zone surcharge computed on the per-parcel fee instead of the full rate, a region hazard ban that lets the ban level itself through, a customer setter using the lookup without the closed check, a tier report iterating all orders instead of the live ones, a stock adjustment taking reserved units, a receipt rounded down to packs instead of up",
+  "summary": "stockyard, a toy warehouse inventory and order-routing system (stdin command lines, logical day clock, 12 warehouses, 14 product categories with packs and shelf life, 9 carriers with rate/zone/fuel/minimum rules, 9 delivery regions with duty and hazard bans, customers with tiers and setters, lots with reservations, FIFO/FEFO picking, split shipments, backorders, returns, transfers, stock counts, expiry, 16 reports, CSV/TSV export, consistency check exiting 86). 106 Python modules, about 6,900 lines, plus a README with reference tables and a 28-item 'Special cases' section. Eight independent defects in eight modules; 51 decoys (about 22 that look more suspicious than the real defects) are correct on purpose and each is guarded by at least one hidden behaviour test, so a 'tidy up the odd sibling' fix fails ref_tests.",
+  "K": 8,
+  "time_cap_min": 45
+}

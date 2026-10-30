@@ -1,0 +1,10 @@
+now 2026-03-10T12:00:00Z
+top 4
+log 2026-03-09T10:00:00Z a zed@z.org k=1 j=2
+log 2026-03-09T10:00:01Z a amy@a.org k=1
+log 2026-03-09T10:00:02Z a mia@m.org j=1
+log 2026-03-09T10:00:03Z a bob j=1
+log 2026-03-09T10:00:04Z a zed@z.org
+log 2026-03-09T10:00:05Z a amy@a.org
+report
+stats

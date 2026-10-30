@@ -1,0 +1,26 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok ship S2
+ok ship S3
+describe S1 n=7 min=2.2 p50=5.0 p90=7.7 max=7.7 mean=4.8
+describe S2 n=10 min=1.1 p50=5.3 p90=8.8 max=9.9 mean=5.3
+describe S3 empty
+describe S2 n=5 min=2.2 p50=5.5 p90=7.1 max=7.1 mean=5.0
+compare S1 S2
+  S1 n=7 min=2.2 p50=5.0 p90=7.7 max=7.7 mean=4.8 sla=100.0%
+  S2 n=10 min=1.1 p50=5.3 p90=8.8 max=9.9 mean=5.3 sla=70.0%
+  sla difference +30.0%
+compare S1 S3
+  S1 n=7 min=2.2 p50=5.0 p90=7.7 max=7.7 mean=4.8 sla=100.0%
+  S3 empty sla=n/a
+compare S3 S3
+  S3 empty sla=n/a
+  S3 empty sla=n/a
+compare S1 S9
+  S1 n=7 min=2.2 p50=5.0 p90=7.7 max=7.7 mean=4.8 sla=100.0%
+error: no such shipment S9

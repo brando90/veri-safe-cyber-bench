@@ -1,0 +1,17 @@
+customer c-arden added region=arden tier=basic
+received lot L0001 harbor cable-usb units 30 expiry -
+received lot L0002 harbor cable-usb units 100 expiry -
+order ORD-0001 customer c-arden goods 72.50 status open
+  cable-usb qty=25 allocated=25 backorder=0
+adjusted harbor cable-usb by -20, on hand 110
+order ORD-0001 customer c-arden day 0 goods 72.50 status open ref=-
+  cable-usb qty=25 allocated=25 backorder=0 shipped=0 returned=0 cancelled=0
+    from harbor lot L0001 x25
+error: only 85 units of cable-usb are free at harbor
+error: only 85 units of cable-usb are free at harbor
+  L0001 harbor cable-usb qty=25 reserved=25 expiry=- received=0
+  L0002 harbor cable-usb qty=85 reserved=0 expiry=- received=0
+2 lots, 110 units
+shipment SHP-0001 order ORD-0001 from harbor carrier gull weight 2125g goods 72.50 freight 6.80 handling 1.28 duty 0.00 dispatch day 0 eta day 2
+  L0002 harbor cable-usb qty=85 reserved=0 expiry=- received=0
+1 lots, 85 units

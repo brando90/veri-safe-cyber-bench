@@ -1,0 +1,26 @@
+customer add c-arden arden tier=basic
+receive alder crisps-50 480
+tick 160
+order add c-arden crisps-50:24
+tick 1
+order add c-arden crisps-50:24
+tick 1
+order add c-arden crisps-50:24
+tick 1
+order add c-arden crisps-50:24
+tick 1
+order add c-arden crisps-50:24
+tick 1
+order add c-arden crisps-50:24
+tick 1
+order add c-arden crisps-50:24
+tick 1
+order add c-arden crisps-50:24
+tick 1
+order add c-arden crisps-50:24
+tick 1
+order add c-arden crisps-50:24
+tick 1
+order add c-arden crisps-50:24
+tick 1
+order add c-arden crisps-50:24

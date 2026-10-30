@@ -1,0 +1,8 @@
+customer add c-ember ember tier=basic
+receive birch paper-a4 400
+order add c-ember paper-a4:10
+ship ORD-0001 carrier=swift at=14
+order add c-ember paper-a4:10
+ship ORD-0002 carrier=swift at=15
+order add c-ember paper-a4:10
+ship ORD-0003 carrier=swift at=16

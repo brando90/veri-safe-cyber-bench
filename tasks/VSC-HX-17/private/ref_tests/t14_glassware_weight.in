@@ -1,0 +1,10 @@
+customer add c-w1 crest
+receive alder tumbler-6 120
+receive alder vase-30 36
+receive alder paper-a4 50
+order add c-w1 tumbler-6:5
+order add c-w1 vase-30:7
+order add c-w1 tumbler-6:11 vase-30:3 paper-a4:5
+ship ORD-0001
+ship ORD-0002
+ship ORD-0003

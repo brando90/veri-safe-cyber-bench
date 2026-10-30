@@ -1,0 +1,18 @@
+customer add c-arden arden tier=basic
+customer add c-delta delta tier=basic
+receive alder paper-a4 300
+receive alder cable-usb 300
+order add c-arden paper-a4:10 ref=po-1
+order add c-arden paper-a4:10 ref=po-1
+order add c-delta paper-a4:10 ref=po-1
+order add c-arden paper-a4:5 paper-a4:7 cable-usb:3 cable-usb:4
+order show ORD-0003
+order add c-arden paper-a4:10 ref=bad/ref
+order add c-arden paper-a4:10 ref=po-2
+order cancel ORD-0001
+order add c-arden paper-a4:10 ref=po-1
+order add c-arden paper-a4:x
+order add c-arden paper-a4:5 bogus=1
+order show ORD-0099
+order list c-nobody
+order list state=weird

@@ -1,0 +1,33 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+ship add S1 "A" route=R3
+ship add S2 "B" route=R3
+ship add S10 "C" route=R3
+ship add S3 "D" route=R3
+ship add S4 "E" route=R3
+ship add S5 "No data" route=R3
+read S1 t=0 temp=5.0
+read S1 t=60 temp=9.0
+read S2 t=0 temp=9.0
+read S2 t=60 temp=5.0
+read S10 t=0 temp=5.0
+read S10 t=60 temp=5.0
+read S10 t=120 temp=9.0
+read S10 t=180 temp=9.0
+read S3 t=0 temp=5.0
+read S3 t=60 temp=5.0
+read S3 t=120 temp=5.0
+read S4 t=0 temp=5.0
+read S4 t=60 temp=5.0
+read S4 t=120 temp=5.0
+read S4 t=180 temp=9.0
+rank
+rank by=alerts
+rank by=exposure
+rank by=speed
+set slack 0
+rank by=alerts

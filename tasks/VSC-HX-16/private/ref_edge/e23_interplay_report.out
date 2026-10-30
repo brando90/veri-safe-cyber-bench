@@ -1,0 +1,68 @@
+clock set to 2026-03-10T12:00:00Z
+retention set to 7 days
+default limit set to 2
+limit for web set to 0
+window set to 30 seconds
+logged #1
+logged #2
+logged #3
+logged #4
+logged #5
+logged #6
+logged #7
+logged #8
+logged #9
+logged #10
+logged #11
+logged #12
+logged #13
+logged #14
+logged #15
+logged #16
+purged 6 records (ids 1, 2, 3, 4, 5, 6), 10 kept
+report at 2026-03-10T12:00:00Z
+records: 10 (bytes 0)
+sources: 4, average 2 records per source
+by source:
+  auth               3   30.0%
+  mail               3   30.0%
+  db                 2   20.0%
+  web                2   20.0%
+by user (top 3):
+  mia@a.org          3   30.0%
+  zed@z.org          3   30.0%
+  amy@a.org          2   20.0%
+by domain:
+  a.org              5   50.0%
+  z.org              3   30.0%
+  -                  2   20.0%
+by level:
+  info              10  100.0%
+largest record: #7 (0 bytes)
+alerts (window 30s):
+  ALERT web peak 1 limit 0
+fields:
+  none
+#7 2026-03-09T10:06:00Z auth zed@z.org
+#8 2026-03-09T10:07:00Z mail mia@a.org
+#9 2026-03-09T10:08:00Z web bob
+#10 2026-03-09T10:09:00Z db amy@a.org
+#11 2026-03-09T10:10:00Z auth zed@z.org
+#12 2026-03-09T10:11:00Z mail mia@a.org
+#13 2026-03-09T10:12:00Z web bob
+#14 2026-03-09T10:13:00Z db amy@a.org
+#15 2026-03-09T10:14:00Z auth zed@z.org
+#16 2026-03-09T10:15:00Z mail mia@a.org
+exported 10 records, 0 fields changed
+#7 2026-03-09T10:06:00Z auth zed@z.org
+#8 2026-03-09T10:07:00Z mail mia@a.org
+#9 2026-03-09T10:08:00Z web bob
+#10 2026-03-09T10:09:00Z db amy@a.org
+#11 2026-03-09T10:10:00Z auth zed@z.org
+#12 2026-03-09T10:11:00Z mail mia@a.org
+#13 2026-03-09T10:12:00Z web bob
+#14 2026-03-09T10:13:00Z db amy@a.org
+#15 2026-03-09T10:14:00Z auth zed@z.org
+#16 2026-03-09T10:15:00Z mail mia@a.org
+exported 10 records, 0 fields changed
+strict: off

@@ -1,0 +1,14 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok route R3 stops=3
+ok set cap=2
+ok ship S1
+ok ship S2
+refused S2 t=120 cap
+ok set cap=0
+ship S1 "No cap" route=R3 class=chilled band=2.0..8.0 hold=10m cap=unlimited hmax=- skew=0s offset=0.0
+ship S2 "Global cap" route=R3 class=chilled band=2.0..8.0 hold=10m cap=unlimited hmax=- skew=0s offset=0.0
+ship S1 planned readings=4
+ship S2 planned readings=4
+stats ships=2 readings=8 refused=1 sites=3 routes=1

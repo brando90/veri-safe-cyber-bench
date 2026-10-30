@@ -1,0 +1,33 @@
+clock set to 2026-03-10T12:00:00Z
+strict mode on
+rule added: keep level
+rule added: keep trace
+rule added: prefix xfer
+rule added: prefix tok
+rule added: mask cookie
+logged #1
+#1 2026-03-09T10:00:00Z web alice@example.com cookie=*** level=info tok_a=********== tokb=** x-trace=a=b== xlevel=[redacted]
+    changed: cookie, tok_a, tokb, xfer_id, xlevel
+exported 1 records, 5 fields changed
+fields:
+  cookie             1  100.0%
+  level              1  100.0%
+  tok_a              1  100.0%
+  tokb               1  100.0%
+  trace              1  100.0%
+  xfer_id            1  100.0%
+  xlevel             1  100.0%
+report at 2026-03-10T12:00:00Z
+records: 1 (bytes 0)
+sources: 1, average 1 records per source
+by source:
+  web                1  100.0%
+by user (top 3):
+  alice@example.com     1  100.0%
+by domain:
+  example.com        1  100.0%
+by level:
+  info               1  100.0%
+largest record: #1 (0 bytes)
+alerts (window 60s):
+  none

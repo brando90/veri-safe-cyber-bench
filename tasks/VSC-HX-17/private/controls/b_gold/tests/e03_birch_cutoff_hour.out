@@ -1,0 +1,11 @@
+customer c-ember added region=ember tier=basic
+received lot L0001 birch paper-a4 units 400 expiry -
+order ORD-0001 customer c-ember goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+shipment SHP-0001 order ORD-0001 from birch carrier swift weight 4500g goods 62.00 freight 13.69 handling 1.55 duty 0.00 dispatch day 0 eta day 1
+order ORD-0002 customer c-ember goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+shipment SHP-0002 order ORD-0002 from birch carrier swift weight 4500g goods 62.00 freight 13.69 handling 1.55 duty 0.00 dispatch day 1 eta day 2
+order ORD-0003 customer c-ember goods 62.00 status open
+  paper-a4 qty=10 allocated=10 backorder=0
+shipment SHP-0003 order ORD-0003 from birch carrier swift weight 4500g goods 62.00 freight 13.69 handling 1.55 duty 0.00 dispatch day 1 eta day 2

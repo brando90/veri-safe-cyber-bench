@@ -1,0 +1,8 @@
+receive alder shirt-m 30
+receive alder shirt-m 40
+receive alder jacket-l 1
+receive alder hammer-1 7
+receive alder cable-usb 33
+stock alder
+report stock_cat
+replenish alder

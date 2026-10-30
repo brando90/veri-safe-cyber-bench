@@ -1,0 +1,8 @@
+now 2026-03-10T12:00:00Z
+log 2026-03-09T10:00:00Z AUTH Alice@Example.com Level=INFO IP=10.0.0.1 Zeta=1 alpha=2 bytes=10 --   padded message  
+log 2026-03-09T10:00:01Z web.eu_1 bob k=1 k=2
+log 2026-03-09T10:00:02Z web bob -- -- after dashes
+log 2026-03-09T10:00:03Z web bob k=v --
+log 2026-03-09T10:00:04Z web bob k=v -- one -- two
+log 2026-03-09T10:00:04Z web bob -- 
+export

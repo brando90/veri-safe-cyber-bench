@@ -1,0 +1,12 @@
+customer c-j1 added region=ember tier=basic
+received lot L0001 juniper paper-a4 units 100 expiry -
+received lot L0002 juniper hammer-1 units 60 expiry -
+received lot L0003 juniper bolt-m6 units 1000 expiry -
+order ORD-0001 customer c-j1 goods 390.00 status open
+  paper-a4 qty=30 allocated=30 backorder=0
+  hammer-1 qty=12 allocated=12 backorder=0
+  bolt-m6 qty=200 allocated=200 backorder=0
+shipment SHP-0001 order ORD-0001 from juniper carrier parcelo weight 26700g goods 390.00 freight 0.00 handling 13.05 duty 46.80 dispatch day 0 eta day 4
+order ORD-0002 customer c-j1 goods 87.00 status open
+  hammer-1 qty=6 allocated=6 backorder=0
+shipment SHP-0002 order ORD-0002 from juniper carrier parcelo weight 5400g goods 87.00 freight 10.49 handling 1.25 duty 10.44 dispatch day 0 eta day 4

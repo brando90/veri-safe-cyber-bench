@@ -1,0 +1,11 @@
+customer add c-acme ember
+receive birch hammer-1 60
+order add c-acme hammer-1:6
+order add c-acme hammer-1:6
+order add c-acme hammer-1:6
+ship ORD-0001 at=14
+ship ORD-0002 at=15
+ship ORD-0003 at=16
+tick 4
+order add c-acme hammer-1:6
+ship ORD-0004 at=15

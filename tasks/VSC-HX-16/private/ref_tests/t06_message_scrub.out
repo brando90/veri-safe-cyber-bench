@@ -1,0 +1,10 @@
+clock set to 2026-03-10T12:00:00Z
+logged #1
+logged #2
+logged #3
+logged #4
+#1 2026-03-09T10:00:00Z web bob -- user said password=******gh and moved on
+#2 2026-03-09T10:00:01Z web bob -- a secret=******zz then ************1234 end
+#3 2026-03-09T10:00:02Z web bob -- tok_short *********678 xtok_12345678abc apikey=**********EY1
+#4 2026-03-09T10:00:03Z web bob -- no pair here: password= and token
+exported 4 records, 0 fields changed

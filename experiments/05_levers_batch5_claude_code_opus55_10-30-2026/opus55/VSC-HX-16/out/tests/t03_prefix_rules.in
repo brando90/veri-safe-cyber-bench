@@ -1,0 +1,6 @@
+now 2026-03-10T12:00:00Z
+rule prefix sess
+rule prefix tmp mask
+log 2026-03-09T10:00:00Z web bob session=abcdef123456 tmpfile=abcdefgh -- hi
+export
+rules

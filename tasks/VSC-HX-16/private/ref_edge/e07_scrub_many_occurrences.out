@@ -1,0 +1,6 @@
+clock set to 2026-03-10T12:00:00Z
+logged #1
+logged #2
+#1 2026-03-09T10:00:00Z web bob -- password=******aa password=******bb password=******cc token=******dd secret=*...
+#2 2026-03-09T10:00:01Z web bob -- token=***1 token=***2 token=***3
+exported 2 records, 0 fields changed

@@ -1,0 +1,21 @@
+customer c-acme added region=arden tier=basic
+received lot L0001 alder crisps-50 units 48 expiry 180
+received lot L0002 alder bar-oat units 48 expiry 180
+day 165 Fri
+order ORD-0001 customer c-acme goods 19.20 status open
+  crisps-50 qty=24 allocated=24 backorder=0
+day 166 Sat
+order ORD-0002 customer c-acme goods 19.20 status open
+  crisps-50 qty=24 allocated=24 backorder=0
+order ORD-0003 customer c-acme goods 16.80 status open
+  bar-oat qty=24 allocated=24 backorder=0
+day 167 Sun
+order ORD-0004 customer c-acme goods 16.80 status backorder
+  bar-oat qty=24 allocated=0 backorder=24
+report low_stock
+  alder bar-oat available=0 reorder=96
+  alder crisps-50 available=0 reorder=96
+end
+  L0002 alder bar-oat qty=48 reserved=24 expiry=180 received=0
+  L0001 alder crisps-50 qty=48 reserved=48 expiry=180 received=0
+2 lots, 96 units

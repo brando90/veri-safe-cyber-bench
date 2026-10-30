@@ -1,0 +1,33 @@
+site add AMS "Amsterdam hub"
+site add LHR "London Heathrow"
+site add JFK "New York"
+site add SFO "San Francisco"
+route add R3 AMS LHR JFK
+route add R4 AMS LHR JFK SFO
+set cap 2
+ship add S1 "Cap box" route=R3
+ship add S2 "Other box" route=R3 cap=1
+read S1 t=3599.998 temp=5.0
+read S1 t=3599.999 temp=5.1
+read S1 t=3599.999 temp=5.2
+read S1 t=3600 temp=5.3
+read S1 t=3600.5 temp=5.4
+read S1 t=3601 temp=5.5
+read S1 t=3600 temp=5.6
+read S2 t=10 temp=1.0
+read S2 t=20 temp=2.0
+read S2 t=3700 temp=3.0
+stats
+window S1
+window S2
+ship edit S2 cap=inherit
+read S2 t=30 temp=4.0
+read S2 t=40 temp=4.0
+read S2 t=50 temp=4.0
+window S2 to=100
+ship edit S1 cap=3
+read S1 t=7300 temp=5.0
+read S1 t=7301 temp=5.0
+read S1 t=7302 temp=5.0
+read S1 t=7303 temp=5.0
+stats

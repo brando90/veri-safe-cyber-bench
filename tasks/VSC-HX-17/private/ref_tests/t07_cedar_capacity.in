@@ -1,0 +1,10 @@
+receive cedar paper-a4 3000
+stock cedar
+receive cedar paper-a4 300
+receive cedar paper-a4 10
+receive alder paper-a4 6000
+receive alder paper-a4 10
+receive kelp paper-a4 400
+receive kelp paper-a4 10
+receive cedar paper-a4 0
+receive cedar paper-a4 -5

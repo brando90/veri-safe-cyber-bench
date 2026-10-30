@@ -1,0 +1,6 @@
+now 2026-03-10T12:00:00Z
+rule prefix auth_ drop
+rule prefix cred mask
+log 2026-03-09T10:00:00Z web bob auth_user=alice auth_pw=hunter2go cred_id=abcdefghij other=keep
+export
+rules

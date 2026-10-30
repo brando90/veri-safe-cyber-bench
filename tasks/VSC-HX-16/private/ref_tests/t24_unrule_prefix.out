@@ -1,0 +1,12 @@
+clock set to 2026-03-10T12:00:00Z
+rule added: prefix tmp
+rule added: redact tmp
+logged #1
+#1 2026-03-09T10:00:00Z a u other=3
+    changed: tmp, tmpx
+exported 1 records, 2 fields changed
+rules removed for tmp
+#1 2026-03-09T10:00:00Z a u other=3 tmp=1 tmpx=2
+exported 1 records, 0 fields changed
+strict: off
+error: no rule for tmp

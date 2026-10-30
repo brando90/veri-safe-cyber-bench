@@ -1,0 +1,57 @@
+customer add c-arden arden tier=basic
+customer add c-brook brook tier=basic
+customer add c-crest crest tier=basic
+customer add c-delta delta tier=basic
+customer add c-ember ember tier=basic
+customer add c-forge forge tier=basic
+customer add c-gale gale tier=basic
+receive harbor paper-a4 400
+receive harbor hammer-1 200
+receive harbor plank-2m 200
+receive cedar cable-usb 400
+receive birch thinner-1l 120
+receive alder charger-20 100
+receive dune pizza-fr 100
+order add c-arden paper-a4:4
+ship ORD-0001
+order add c-arden hammer-1:12 paper-a4:12
+ship ORD-0002
+order add c-arden plank-2m:9
+ship ORD-0003
+order add c-crest paper-a4:4
+ship ORD-0004
+order add c-crest hammer-1:12 paper-a4:12
+ship ORD-0005
+order add c-crest plank-2m:9
+ship ORD-0006
+order add c-delta paper-a4:4
+ship ORD-0007
+order add c-delta hammer-1:12 paper-a4:12
+ship ORD-0008
+order add c-delta plank-2m:9
+ship ORD-0009
+order add c-forge paper-a4:4
+ship ORD-0010
+order add c-forge hammer-1:12 paper-a4:12
+ship ORD-0011
+order add c-forge plank-2m:9
+ship ORD-0012
+order add c-gale paper-a4:4
+ship ORD-0013
+order add c-gale hammer-1:12 paper-a4:12
+ship ORD-0014
+order add c-gale plank-2m:9
+ship ORD-0015
+order add c-arden thinner-1l:6
+ship ORD-0016
+order add c-crest charger-20:8 cable-usb:30
+ship ORD-0017
+order add c-ember pizza-fr:16
+ship ORD-0018
+order add c-ember hammer-1:5
+ship ORD-0019 carrier=swift
+set carrier c-ember gull
+order add c-ember hammer-1:5
+ship ORD-0020
+order add c-ember hammer-1:5
+ship ORD-0021 carrier=swift

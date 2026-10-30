@@ -1,0 +1,64 @@
+ok site AMS
+ok site LHR
+ok site JFK
+ok site SFO
+ok route R3 stops=3
+ok route R4 stops=4
+ok ship S1
+ok handoff S1 #1 sig=50
+ok handoff S1 #2 sig=52
+custody S1 n=2
+  #1 t=100 to="Dock crew" sig=50
+  #2 t=400 to="Truck 12" sig=52
+verify S1 #1 mismatch
+forecast S1 +10m temp=39.0 above
+error: no such shipment S9
+error: bad time abc
+error: stop out of range
+error: duplicate shipment S1
+error: unknown command frobnicate
+set KEY VALUE            change a setting (hold keep gap cap slack spike)
+config                   show the settings
+site add CODE NAME       register a depot or stop
+site list                list the sites
+site export              write the sites as tab-separated text
+route add ID CODE...     define a route of two or more stops
+profiles                 list the cargo classes and their bands
+ship add ID LABEL route=R [class= min= max= maxexc= cap= hmax= skew= offset=]
+ship edit ID options     change a shipment
+ship show ID             show a shipment
+ship list                list the shipments
+ship rename ID LABEL     change the label
+ship remove ID           delete a shipment and its readings
+read ID t= temp= [hum=]  store one reading
+load ID                  read comma-separated rows up to 'end load'
+arrive ID stop=N t=      record an arrival at a stop
+plan ID stop=N t=        record the planned arrival at a stop
+plans ID                 list planned arrivals and delays
+handoff ID PARTY t=      record a custody handoff
+custody ID               list the custody chain
+verify ID N sig=         check a handoff signature
+shift ID seconds=N       move every reading of a shipment in time
+prune now= [dry=yes]     drop readings older than the keep window
+window ID [from= to=]    list readings in a range
+timeline ID [from= to=]  list readings with day and clock time
+describe ID [from= to=]  summary statistics
+forecast ID [minutes=N]  straight-line projection of the temperature
+exposure ID              degree-minutes spent outside the band
+board                    one line per shipment
+histogram ID [step=N]    readings per temperature bucket
+compare ID ID            two shipments side by side
+rollup ID                hourly statistics
+excursions ID            runs of out-of-band readings
+alerts [ID] [kind=K]     excursion, gap, spike, humid and late alerts
+sla ID                   share of in-band readings
+rank [by=sla|exposure|alerts]  shipments, worst first
+find TEXT                search labels
+legs ID                  per-leg view of a journey
+report ID                summary of one shipment
+export ID|all            write a shipment (or all) as tab-separated text
+import                   read a block written by export
+fleet                    counts over all shipments
+audit [N]                the last N command lines
+stats                    counts of everything
+help                     this text

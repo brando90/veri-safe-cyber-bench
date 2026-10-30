@@ -1,0 +1,14 @@
+clock set to 2026-03-10T12:00:00Z
+rule added: redact auth
+rule added: mask session
+logged #1
+#1 2026-03-09T10:00:00Z web bob auth=[redacted] session=*********234 trace=t2 x-auth=[redacted] x-session=*********234 x-trace=t1
+    changed: auth, session, x-auth, x-session
+exported 1 records, 4 fields changed
+redact: auth
+mask: session
+strict: off
+rules removed for auth
+#1 2026-03-09T10:00:00Z web bob auth=cccc session=*********234 trace=t2 x-auth=aaaa x-session=*********234 x-trace=t1
+    changed: session, x-session
+exported 1 records, 2 fields changed
