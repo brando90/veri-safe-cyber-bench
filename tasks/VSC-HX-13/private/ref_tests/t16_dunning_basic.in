@@ -1,0 +1,29 @@
+customer add c-l1 starter de EUR
+customer add c-l2 business de EUR
+customer add c-l3 starter uk GBP
+set terms c-l3 10
+usage c-l1 egress 400
+usage c-l2 storage 900000
+usage c-l2 egress 6000
+usage c-l3 egress 400
+tick 30
+invoice run
+invoice list
+tick 5
+dun
+tick 40
+dun
+dun
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0003
+pay c-l1 20
+tick 1
+dun
+pay c-l1 100
+tick 60
+dun
+invoice list
+report late_customer
+report late_customer cur=EUR
+ledger kind=late

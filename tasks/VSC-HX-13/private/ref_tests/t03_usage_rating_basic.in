@@ -1,0 +1,57 @@
+customer add c-rate free tx USD
+customer add c-rate2 free tx USD
+customer add c-rate3 enterprise tx USD
+usage c-rate storage 132003
+usage c-rate egress 1323
+usage c-rate compute 7923
+usage c-rate requests 135003
+usage c-rate voice 653
+usage c-rate email 66003
+usage c-rate logs 33503
+usage c-rate backup 65503
+usage c-rate cdn 663
+usage c-rate dns 13003
+usage c-rate search 2643
+usage c-rate cache 16899
+usage c-rate vault 1313
+usage c-rate metrics 13203
+usage c-rate ocr 1303
+usage c-rate geocode 32753
+usage c-rate2 storage 9001
+usage c-rate2 egress 91
+usage c-rate2 compute 541
+usage c-rate2 requests 12001
+usage c-rate2 voice 36
+usage c-rate2 email 4501
+usage c-rate2 logs 2751
+usage c-rate2 backup 4001
+usage c-rate2 cdn 46
+usage c-rate2 dns 701
+usage c-rate2 search 181
+usage c-rate2 cache 1153
+usage c-rate2 vault 81
+usage c-rate2 metrics 901
+usage c-rate2 ocr 71
+usage c-rate2 geocode 2001
+usage c-rate3 storage 402005
+usage c-rate3 egress 4025
+usage c-rate3 compute 24125
+usage c-rate3 requests 405005
+usage c-rate3 voice 2005
+usage c-rate3 email 201005
+usage c-rate3 logs 101005
+usage c-rate3 backup 200505
+usage c-rate3 cdn 2015
+usage c-rate3 dns 40005
+usage c-rate3 search 8045
+usage c-rate3 cache 51461
+usage c-rate3 vault 4015
+usage c-rate3 metrics 40205
+usage c-rate3 ocr 4005
+usage c-rate3 geocode 100255
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0003
+usage summary c-rate 0

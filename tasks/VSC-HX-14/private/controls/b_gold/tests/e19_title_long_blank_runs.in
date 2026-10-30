@@ -1,0 +1,10 @@
+title "three   spaces"
+title "four    spaces"
+title "  lead and trail   "
+title "tabs			and   spaces"
+title "a 	 b"
+event add a "Planning   session   notes" 2024-03-04T10:00
+event show a
+event retitle a "Seven       blanks"
+event show a
+export text

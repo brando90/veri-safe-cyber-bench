@@ -1,0 +1,17 @@
+added a ref=1
+event a ref=1
+  title "Millennium leap day"
+  start 2000-02-29T10:00
+  dur 1h tz +00:00 prio 5
+  rule yearly;count=3
+  cats -
+2000-02-29 Tue 10:00
+2001-02-28 Wed 10:00
+2002-02-28 Thu 10:00
+3 occurrences
+2000-02-29 Tue
+11016
+Tue
+2000-03-29
+2000-02-29
+2000-02-29T00:00 given 2000-02-28T23:59:30

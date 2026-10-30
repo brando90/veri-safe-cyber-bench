@@ -1,0 +1,1894 @@
+customer c-01 added plan=enterprise region=jp currency=USD since=0
+customer c-02 added plan=enterprise region=uk currency=GBP since=0
+customer c-03 added plan=team region=ch currency=KWD since=0
+customer c-04 added plan=team region=uk currency=USD since=0
+customer c-05 added plan=starter region=on currency=USD since=0
+customer c-06 added plan=free region=de currency=GBP since=0
+customer c-07 added plan=team region=jp currency=JPY since=0
+customer c-08 added plan=business region=de currency=KWD since=0
+customer c-09 added plan=starter region=ch currency=EUR since=0
+customer c-10 added plan=enterprise region=ca currency=USD since=0
+customer c-11 added plan=team region=de currency=JPY since=0
+customer c-12 added plan=team region=ny currency=EUR since=0
+customer c-13 added plan=enterprise region=wa currency=GBP since=0
+customer c-14 added plan=free region=on currency=KWD since=0
+customer c-15 added plan=business region=on currency=USD since=0
+customer c-16 added plan=enterprise region=wa currency=INR since=0
+customer c-17 added plan=enterprise region=ny currency=INR since=0
+customer c-18 added plan=enterprise region=jp currency=GBP since=0
+customer c-19 added plan=team region=ny currency=EUR since=0
+customer c-20 added plan=business region=jp currency=JPY since=0
+customer c-21 added plan=business region=wa currency=KWD since=0
+customer c-22 added plan=enterprise region=ch currency=KWD since=0
+customer c-23 added plan=team region=ca currency=GBP since=0
+customer c-24 added plan=business region=ch currency=JPY since=0
+usage c-08 backup 3000 day=0
+customer c-17 terms 14
+credit c-14 +2.000 balance=2.000
+usage c-12 requests batch=3 total=14681 day=0
+day 31 period 1
+customer c-05 closed
+usage c-23 voice batch=3 total=29 day=10
+payment c-02 42.55 applied=0.00 credit=42.55
+payment c-06 10.96 applied=0.00 credit=10.96
+usage c-18 egress 70 day=11
+coupon c-06 #1 fixed_all
+coupon c-08 #1 fixed_all
+coupon c-06 #2 first_periods
+usage c-18 voice 6 day=17
+day 38 period 1
+customer c-24 closed
+usage c-13 metrics 607 day=18
+usage c-16 search 21 day=38
+usage c-07 logs 2257 day=17
+usage c-11 vault 70 day=2
+customer c-06 name=c-06 plan=free region=de currency=GBP status=active
+  since=0 terms=30 exempt=no credit=10.96
+  po=- email=- phone=- note=-
+  coupons=2 plan_changes=0
+error: unknown invoice INV-0021
+usage c-21 backup 2500 day=17
+usage c-01 search 140 day=19
+customer c-01 terms 45
+usage c-04 storage 4007 day=12
+day 69 period 2
+customer c-14 terms 10
+error: unknown invoice INV-0019
+usage c-12 storage 5000 day=33
+error: unknown invoice INV-0009
+coupon c-01 #1 first_periods
+usage c-10 vault 40 day=42
+invoiced INV-0001 c-01 period=1 lines=1 total=473.21 USD
+invoiced INV-0002 c-02 period=1 lines=1 total=567.85 GBP
+invoiced INV-0003 c-03 period=1 lines=1 total=26.474 KWD
+invoiced INV-0004 c-04 period=1 lines=1 total=94.80 USD
+invoiced INV-0005 c-07 period=1 lines=1 total=11850 JPY
+invoiced INV-0006 c-08 period=1 lines=1 total=68.865 KWD
+invoiced INV-0007 c-09 period=1 lines=1 total=18.90 EUR
+invoiced INV-0008 c-10 period=1 lines=1 total=642.43 USD
+invoiced INV-0009 c-11 period=1 lines=1 total=14102 JPY
+invoiced INV-0010 c-12 period=1 lines=1 total=78.86 EUR
+invoiced INV-0011 c-13 period=1 lines=1 total=521.01 GBP
+invoiced INV-0012 c-15 period=1 lines=1 total=224.87 USD
+invoiced INV-0013 c-16 period=1 lines=1 total=54738.42 INR
+invoiced INV-0014 c-17 period=1 lines=1 total=53942.95 INR
+invoiced INV-0015 c-18 period=1 lines=1 total=473.21 GBP
+invoiced INV-0016 c-19 period=1 lines=1 total=78.86 EUR
+invoiced INV-0017 c-20 period=1 lines=1 total=29850 JPY
+invoiced INV-0018 c-21 period=1 lines=1 total=67.921 KWD
+invoiced INV-0019 c-22 period=1 lines=1 total=200.731 KWD
+invoiced INV-0020 c-23 period=1 lines=1 total=66.93 GBP
+invoice run period=1 invoices=20
+usage c-06 egress 30 day=44
+error: period 1 is already invoiced for c-16
+dun applied=0
+error: period 1 is already invoiced for c-15
+invoiced INV-0021 c-01 period=0 lines=1 total=473.21 USD
+invoiced INV-0022 c-02 period=0 lines=1 total=567.85 GBP
+invoiced INV-0023 c-03 period=0 lines=1 total=26.474 KWD
+invoiced INV-0024 c-04 period=0 lines=1 total=94.80 USD
+invoiced INV-0025 c-07 period=0 lines=1 total=11850 JPY
+invoiced INV-0026 c-08 period=0 lines=1 total=68.865 KWD
+invoiced INV-0027 c-09 period=0 lines=1 total=18.90 EUR
+invoiced INV-0028 c-10 period=0 lines=1 total=642.43 USD
+invoiced INV-0029 c-11 period=0 lines=1 total=14102 JPY
+invoiced INV-0030 c-12 period=0 lines=1 total=78.86 EUR
+invoiced INV-0031 c-13 period=0 lines=1 total=521.01 GBP
+invoiced INV-0032 c-15 period=0 lines=1 total=224.87 USD
+invoiced INV-0033 c-16 period=0 lines=1 total=54738.42 INR
+invoiced INV-0034 c-17 period=0 lines=1 total=53942.95 INR
+invoiced INV-0035 c-18 period=0 lines=2 total=473.61 GBP
+invoiced INV-0036 c-19 period=0 lines=1 total=78.86 EUR
+invoiced INV-0037 c-20 period=0 lines=1 total=29850 JPY
+invoiced INV-0038 c-21 period=0 lines=1 total=67.921 KWD
+invoiced INV-0039 c-22 period=0 lines=1 total=200.731 KWD
+invoiced INV-0040 c-23 period=0 lines=2 total=68.84 GBP
+invoice run period=0 invoices=20
+error: period 1 is already invoiced for c-12
+day 100 period 3
+  applied INV-0002 1.73
+payment c-02 1.73 applied=1.73 credit=0.00
+day 129 period 4
+usage c-09 dns 300 day=116
+usage c-21 egress 50 day=116
+usage c-08 ocr 17 day=109
+customer c-21 terms 14
+customer c-02 terms 45
+error: customer c-18 still has unpaid invoices
+usage c-11 vault 11 day=124
+invoiced INV-0041 c-01 period=2 lines=1 total=473.21 USD
+invoiced INV-0042 c-02 period=2 lines=1 total=567.85 GBP
+invoiced INV-0043 c-03 period=2 lines=1 total=26.474 KWD
+invoiced INV-0044 c-04 period=2 lines=1 total=94.80 USD
+invoiced INV-0045 c-07 period=2 lines=1 total=11850 JPY
+invoiced INV-0046 c-08 period=2 lines=1 total=68.865 KWD
+invoiced INV-0047 c-09 period=2 lines=1 total=18.90 EUR
+invoiced INV-0048 c-10 period=2 lines=1 total=642.43 USD
+invoiced INV-0049 c-11 period=2 lines=1 total=14102 JPY
+invoiced INV-0050 c-12 period=2 lines=1 total=78.86 EUR
+invoiced INV-0051 c-13 period=2 lines=1 total=521.01 GBP
+invoiced INV-0052 c-15 period=2 lines=1 total=224.87 USD
+invoiced INV-0053 c-16 period=2 lines=1 total=54738.42 INR
+invoiced INV-0054 c-17 period=2 lines=1 total=53942.95 INR
+invoiced INV-0055 c-18 period=2 lines=1 total=473.21 GBP
+invoiced INV-0056 c-19 period=2 lines=1 total=78.86 EUR
+invoiced INV-0057 c-20 period=2 lines=1 total=29850 JPY
+invoiced INV-0058 c-21 period=2 lines=1 total=67.921 KWD
+invoiced INV-0059 c-22 period=2 lines=1 total=200.731 KWD
+invoiced INV-0060 c-23 period=2 lines=1 total=66.93 GBP
+invoice run period=2 invoices=20
+  applied INV-0010 13.39
+payment c-12 13.39 applied=13.39 credit=0.00
+usage c-13 search 87 day=124
+error: refund exceeds the net payments on INV-0011
+day 141 period 4
+customer c-15 exempt unchanged
+report aging
+  current EUR 176.62
+  current GBP 1629.00
+  current INR 108681.37
+  current JPY 55802
+  current KWD 363.991
+  current USD 1435.31
+  1-30 USD 946.42
+  31-60 EUR 339.85
+  31-60 GBP 3216.03
+  31-60 INR 217362.74
+  31-60 JPY 111604
+  31-60 KWD 727.982
+  31-60 USD 1924.20
+  total EUR 516.47
+  total GBP 4845.03
+  total INR 326044.11
+  total JPY 167406
+  total KWD 1091.973
+  total USD 4305.93
+end
+late INV-0001 fee=7.10
+late INV-0002 fee=7.85
+late INV-0003 fee=0.600
+late INV-0004 fee=2.00
+late INV-0005 fee=300
+late INV-0006 fee=1.033
+late INV-0007 fee=1.80
+late INV-0008 fee=9.64
+late INV-0009 fee=300
+late INV-0010 fee=1.80
+late INV-0011 fee=7.82
+late INV-0012 fee=3.37
+late INV-0013 fee=821.08
+late INV-0014 fee=809.14
+late INV-0015 fee=7.10
+late INV-0016 fee=1.80
+late INV-0017 fee=448
+late INV-0018 fee=1.019
+late INV-0019 fee=3.011
+late INV-0020 fee=1.50
+late INV-0021 fee=7.10
+late INV-0022 fee=8.52
+late INV-0023 fee=0.600
+late INV-0024 fee=2.00
+late INV-0025 fee=300
+late INV-0026 fee=1.033
+late INV-0027 fee=1.80
+late INV-0028 fee=9.64
+late INV-0029 fee=300
+late INV-0030 fee=1.80
+late INV-0031 fee=7.82
+late INV-0032 fee=3.37
+late INV-0033 fee=821.08
+late INV-0034 fee=809.14
+late INV-0035 fee=7.10
+late INV-0036 fee=1.80
+late INV-0037 fee=448
+late INV-0038 fee=1.019
+late INV-0039 fee=3.011
+late INV-0040 fee=1.50
+dun applied=40
+error: invalid amount '0.01'
+usage c-07 logs 1250 day=95
+usage c-02 ocr 10 day=95
+usage c-19 compute 240 day=97
+customer c-13 exempt unchanged
+coupon c-06 #3 fixed_all
+usage c-20 metrics batch=3 total=368 day=132
+usage c-11 backup 2000 day=98
+usage c-14 backup 501 day=97
+customer c-22 exempt yes
+usage c-23 geocode 1251 day=128
+  applied INV-0013 26.85
+payment c-16 26.85 applied=26.85 credit=0.00
+day 172 period 5
+day 175 period 5
+error: invoice INV-0002 has payments
+customer c-16 terms 10
+customer c-23 exempt unchanged
+usage c-09 egress 50 day=152
+usage c-02 voice batch=3 total=51 day=138
+customer c-08 terms unchanged
+usage c-02 metrics 507 day=169
+usage c-16 vault batch=3 total=51 day=141
+usage c-01 compute 121 day=148
+invoice run period=0 invoices=0
+usage c-12 metrics 100 day=169
+invoiced INV-0061 c-01 period=3 lines=1 total=599.00 USD
+invoiced INV-0062 c-02 period=3 lines=2 total=568.99 GBP
+invoiced INV-0063 c-03 period=3 lines=1 total=26.474 KWD
+invoiced INV-0064 c-04 period=3 lines=1 total=94.80 USD
+invoiced INV-0065 c-07 period=3 lines=1 total=11850 JPY
+invoiced INV-0066 c-08 period=3 lines=2 total=69.308 KWD
+invoiced INV-0067 c-09 period=3 lines=2 total=19.82 EUR
+invoiced INV-0068 c-10 period=3 lines=1 total=642.43 USD
+invoiced INV-0069 c-11 period=3 lines=1 total=14102 JPY
+invoiced INV-0070 c-12 period=3 lines=1 total=78.86 EUR
+invoiced INV-0071 c-13 period=3 lines=1 total=521.01 GBP
+invoiced INV-0072 c-14 period=3 lines=1 total=0.063 KWD
+invoiced INV-0073 c-15 period=3 lines=1 total=224.87 USD
+invoiced INV-0074 c-16 period=3 lines=1 total=54738.42 INR
+invoiced INV-0075 c-17 period=3 lines=1 total=53942.95 INR
+invoiced INV-0076 c-18 period=3 lines=1 total=473.21 GBP
+invoiced INV-0077 c-19 period=3 lines=1 total=78.86 EUR
+invoiced INV-0078 c-20 period=3 lines=1 total=29850 JPY
+invoiced INV-0079 c-21 period=3 lines=1 total=67.921 KWD
+invoiced INV-0080 c-22 period=3 lines=1 total=185.690 KWD
+invoiced INV-0081 c-23 period=3 lines=1 total=66.93 GBP
+invoice run period=3 invoices=21
+customer c-17 terms 10
+usage c-03 search 100 day=134
+invoiced INV-0082 c-06 period=1 lines=1 total=0.00 GBP
+invoice run period=1 invoices=1
+error: refund exceeds the net payments on INV-0016
+invoice run period=0 invoices=0
+  applied INV-0019 24.390
+payment c-22 24.390 applied=24.390 credit=0.000
+usage c-11 voice batch=3 total=20 day=154
+usage c-20 logs 1251 day=137
+error: refund exceeds the net payments on INV-0030
+day 206 period 6
+usage c-10 voice 20 day=198
+  applied INV-0011 33.97
+payment c-13 33.97 applied=33.97 credit=0.00
+usage c-12 backup 1000 day=155
+usage c-13 cache 384 day=164
+usage c-12 logs 251 day=205
+  applied INV-0010 53.66
+payment c-12 53.66 applied=53.66 credit=0.00
+usage c-08 backup 2000 day=192
+customer c-03 terms 45
+usage c-02 metrics 700 day=162
+  applied INV-0008 36.25
+payment c-10 36.25 applied=36.25 credit=0.00
+usage c-01 search 67 day=156
+customer c-09 terms 10
+day 209 period 6
+customer c-16 terms 45
+usage c-17 requests 4000 day=170
+usage c-01 search batch=3 total=332 day=208
+invoiced INV-0083 c-01 period=4 lines=1 total=599.00 USD
+invoiced INV-0084 c-02 period=4 lines=2 total=572.12 GBP
+invoiced INV-0085 c-03 period=4 lines=1 total=26.474 KWD
+invoiced INV-0086 c-04 period=4 lines=1 total=94.80 USD
+invoiced INV-0087 c-07 period=4 lines=1 total=11850 JPY
+invoiced INV-0088 c-08 period=4 lines=1 total=68.865 KWD
+invoiced INV-0089 c-09 period=4 lines=1 total=18.90 EUR
+invoiced INV-0090 c-10 period=4 lines=1 total=642.43 USD
+invoiced INV-0091 c-11 period=4 lines=1 total=14102 JPY
+invoiced INV-0092 c-12 period=4 lines=1 total=78.86 EUR
+invoiced INV-0093 c-13 period=4 lines=1 total=521.01 GBP
+invoiced INV-0094 c-15 period=4 lines=1 total=224.87 USD
+invoiced INV-0095 c-16 period=4 lines=1 total=54738.42 INR
+invoiced INV-0096 c-17 period=4 lines=1 total=53942.95 INR
+invoiced INV-0097 c-18 period=4 lines=1 total=473.21 GBP
+invoiced INV-0098 c-19 period=4 lines=1 total=78.86 EUR
+invoiced INV-0099 c-20 period=4 lines=1 total=29850 JPY
+invoiced INV-0100 c-21 period=4 lines=1 total=67.921 KWD
+invoiced INV-0101 c-22 period=4 lines=1 total=185.690 KWD
+invoiced INV-0102 c-23 period=4 lines=1 total=66.93 GBP
+invoice run period=4 invoices=20
+usage c-08 voice 20 day=198
+day 221 period 7
+usage c-08 cache 903 day=196
+payment c-14 12.670 applied=0.000 credit=14.607
+customer c-04 exempt yes
+  applied INV-0019 10.250
+payment c-22 10.250 applied=10.250 credit=0.000
+day 224 period 7
+error: refund exceeds the net payments on INV-0007
+usage c-07 email batch=3 total=6418 day=198
+refund INV-0002 0.17 net_paid=44.11 outstanding=531.59
+  applied INV-0014 20.75
+payment c-17 20.75 applied=20.75 credit=0.00
+invoiced INV-0103 c-01 period=5 lines=1 total=599.00 USD
+invoiced INV-0104 c-02 period=5 lines=1 total=567.85 GBP
+invoiced INV-0105 c-03 period=5 lines=1 total=26.474 KWD
+invoiced INV-0106 c-04 period=5 lines=1 total=79.00 USD
+invoiced INV-0107 c-07 period=5 lines=1 total=11850 JPY
+invoiced INV-0108 c-08 period=5 lines=1 total=68.865 KWD
+invoiced INV-0109 c-09 period=5 lines=1 total=18.90 EUR
+invoiced INV-0110 c-10 period=5 lines=1 total=642.43 USD
+invoiced INV-0111 c-11 period=5 lines=2 total=14423 JPY
+invoiced INV-0112 c-12 period=5 lines=1 total=78.86 EUR
+invoiced INV-0113 c-13 period=5 lines=1 total=521.01 GBP
+invoiced INV-0114 c-15 period=5 lines=1 total=224.87 USD
+invoiced INV-0115 c-16 period=5 lines=1 total=54738.42 INR
+invoiced INV-0116 c-17 period=5 lines=1 total=53942.95 INR
+invoiced INV-0117 c-18 period=5 lines=1 total=473.21 GBP
+invoiced INV-0118 c-19 period=5 lines=1 total=78.86 EUR
+invoiced INV-0119 c-20 period=5 lines=1 total=29850 JPY
+invoiced INV-0120 c-21 period=5 lines=1 total=67.921 KWD
+invoiced INV-0121 c-22 period=5 lines=1 total=185.690 KWD
+invoiced INV-0122 c-23 period=5 lines=1 total=66.93 GBP
+invoice run period=5 invoices=20
+customer c-20 exempt yes
+  applied INV-0006 5.210
+payment c-08 5.210 applied=5.210 credit=0.000
+report late_customer
+  c-01 USD 14.20
+  c-02 GBP 16.37
+  c-03 KWD 1.200
+  c-04 USD 4.00
+  c-07 JPY 600
+  c-08 KWD 2.066
+  c-09 EUR 3.60
+  c-10 USD 19.28
+  c-11 JPY 600
+  c-12 EUR 3.60
+  c-13 GBP 15.64
+  c-15 USD 6.74
+  c-16 INR 1642.16
+  c-17 INR 1618.28
+  c-18 GBP 14.20
+  c-19 EUR 3.60
+  c-20 JPY 896
+  c-21 KWD 2.038
+  c-22 KWD 6.022
+  c-23 GBP 3.00
+  total EUR 10.80
+  total GBP 49.21
+  total INR 3260.44
+  total JPY 2096
+  total KWD 11.326
+  total USD 44.22
+end
+usage c-21 storage 4000 day=220
+usage c-08 metrics batch=3 total=920 day=200
+invoiced INV-0123 c-01 period=6 lines=1 total=599.00 USD
+invoiced INV-0124 c-02 period=6 lines=1 total=567.85 GBP
+invoiced INV-0125 c-03 period=6 lines=1 total=26.474 KWD
+invoiced INV-0126 c-04 period=6 lines=1 total=79.00 USD
+invoiced INV-0127 c-07 period=6 lines=1 total=11850 JPY
+invoiced INV-0128 c-08 period=6 lines=2 total=69.529 KWD
+invoiced INV-0129 c-09 period=6 lines=1 total=18.90 EUR
+invoiced INV-0130 c-10 period=6 lines=2 total=644.36 USD
+invoiced INV-0131 c-11 period=6 lines=1 total=14102 JPY
+invoiced INV-0132 c-12 period=6 lines=1 total=78.86 EUR
+invoiced INV-0133 c-13 period=6 lines=1 total=521.01 GBP
+invoiced INV-0134 c-15 period=6 lines=1 total=224.87 USD
+invoiced INV-0135 c-16 period=6 lines=1 total=54738.42 INR
+invoiced INV-0136 c-17 period=6 lines=1 total=53942.95 INR
+invoiced INV-0137 c-18 period=6 lines=1 total=473.21 GBP
+invoiced INV-0138 c-19 period=6 lines=1 total=78.86 EUR
+invoiced INV-0139 c-20 period=6 lines=1 total=29850 JPY
+invoiced INV-0140 c-21 period=6 lines=1 total=67.921 KWD
+invoiced INV-0141 c-22 period=6 lines=1 total=185.690 KWD
+invoiced INV-0142 c-23 period=6 lines=1 total=66.93 GBP
+invoice run period=6 invoices=20
+report top
+  1 c-12 512.36
+  2 c-19 512.36
+  3 c-09 126.88
+end
+error: refund exceeds the net payments on INV-0012
+  applied INV-0020 47.81
+payment c-23 47.81 applied=47.81 credit=0.00
+report disc_region
+  de GBP 0.32
+  de KWD 26.740
+  jp USD 377.37
+  total GBP 0.32
+  total KWD 26.740
+  total USD 377.37
+end
+error: refund exceeds the net payments on INV-0003
+usage c-06 email 2000 day=207
+statement c-12 EUR
+  INV-0010 p1 total=80.66 paid=67.05 refunded=0.00 outstanding=13.61
+  INV-0030 p0 total=80.66 paid=0.00 refunded=0.00 outstanding=80.66
+  INV-0050 p2 total=78.86 paid=0.00 refunded=0.00 outstanding=78.86
+  INV-0070 p3 total=78.86 paid=0.00 refunded=0.00 outstanding=78.86
+  INV-0092 p4 total=78.86 paid=0.00 refunded=0.00 outstanding=78.86
+  INV-0112 p5 total=78.86 paid=0.00 refunded=0.00 outstanding=78.86
+  INV-0132 p6 total=78.86 paid=0.00 refunded=0.00 outstanding=78.86
+  owed=488.57 credit=0.00
+customer c-09 name=c-09 plan=starter region=ch currency=EUR status=active
+  since=0 terms=10 exempt=no credit=0.00
+  po=- email=- phone=- note=-
+  coupons=0 plan_changes=0
+coupon c-11 #1 volume
+usage c-16 dns 400 day=213
+customer c-14 exempt yes
+usage c-14 dns 201 day=200
+error: period 6 is already invoiced for c-10
+error: period 6 is already invoiced for c-19
+usage c-03 search batch=3 total=332 day=212
+usage c-06 cdn 30 day=200
+error: period 6 is already invoiced for c-04
+error: period 6 is already invoiced for c-13
+customer c-03 exempt yes
+report tax_period
+  p00 EUR 13.78
+  p00 GBP 147.13
+  p00 INR 9247.37
+  p00 JPY 2252
+  p00 KWD 34.251
+  p00 USD 85.10
+  p01 EUR 13.78
+  p01 GBP 146.96
+  p01 INR 9247.37
+  p01 JPY 2252
+  p01 KWD 34.251
+  p01 USD 85.10
+  p02 EUR 13.78
+  p02 GBP 146.96
+  p02 INR 9247.37
+  p02 JPY 2252
+  p02 KWD 34.251
+  p02 USD 85.10
+  p03 EUR 13.78
+  p03 GBP 147.15
+  p03 INR 9247.37
+  p03 JPY 2252
+  p03 KWD 19.288
+  p03 USD 85.10
+  p04 EUR 13.78
+  p04 GBP 147.67
+  p04 INR 9247.37
+  p04 JPY 2252
+  p04 KWD 19.210
+  p04 USD 85.10
+  p05 EUR 13.78
+  p05 GBP 146.96
+  p05 INR 9247.37
+  p05 JPY 2303
+  p05 KWD 19.210
+  p05 USD 69.30
+  p06 EUR 13.78
+  p06 GBP 146.96
+  p06 INR 9247.37
+  p06 JPY 2252
+  p06 KWD 19.316
+  p06 USD 69.43
+  total EUR 96.46
+  total GBP 1029.79
+  total INR 64731.59
+  total JPY 15815
+  total KWD 179.777
+  total USD 564.23
+end
+error: period 6 is already invoiced for c-15
+error: period 6 is already invoiced for c-10
+error: period 6 is already invoiced for c-07
+error: period 6 is already invoiced for c-21
+invoice run period=5 invoices=0
+report aging
+  current EUR 510.96
+  current GBP 4891.27
+  current INR 272101.16
+  current JPY 167727
+  current KWD 979.593
+  current USD 4653.63
+  1-30 EUR 196.44
+  1-30 GBP 1630.14
+  1-30 INR 53942.95
+  1-30 JPY 55802
+  1-30 KWD 349.393
+  1-30 USD 1561.10
+  31-60 GBP 567.85
+  31-60 INR 108681.37
+  31-60 KWD 67.921
+  31-60 USD 473.21
+  61-90 EUR 176.62
+  61-90 GBP 1061.15
+  61-90 INR 108681.37
+  61-90 JPY 55802
+  61-90 KWD 363.991
+  61-90 USD 962.10
+  91+ EUR 296.99
+  91+ GBP 3183.63
+  91+ INR 220575.58
+  91+ JPY 113700
+  91+ KWD 699.458
+  91+ USD 2878.59
+  total EUR 1181.01
+  total GBP 11334.04
+  total INR 763982.43
+  total JPY 393031
+  total KWD 2460.356
+  total USD 10528.63
+end
+customer c-13 terms 45
+error: period 6 is already invoiced for c-10
+usage c-02 dns 507 day=210
+customer c-11 exempt unchanged
+error: period 6 is already invoiced for c-20
+report out_customer
+  c-01 USD 3829.83
+  c-02 GBP 3952.62
+  c-03 KWD 186.518
+  c-04 USD 636.00
+  c-07 JPY 83550
+  c-08 KWD 480.018
+  c-09 EUR 136.82
+  c-10 USD 4481.97
+  c-11 JPY 99635
+  c-12 EUR 488.57
+  c-13 GBP 3628.74
+  c-15 USD 1580.83
+  c-16 INR 384784.25
+  c-17 INR 379198.18
+  c-18 GBP 3327.07
+  c-19 EUR 555.62
+  c-20 JPY 209846
+  c-21 KWD 477.485
+  c-22 KWD 1316.335
+  c-23 GBP 425.61
+  total EUR 1181.01
+  total GBP 11334.04
+  total INR 763982.43
+  total JPY 393031
+  total KWD 2460.356
+  total USD 10528.63
+end
+day 236 period 7
+usage c-14 dns 201 day=206
+usage c-02 dns 501 day=220
+usage c-23 search 80 day=229
+error: period 6 is already invoiced for c-10
+coupon c-01 #2 fixed_all
+customer c-04 exempt no
+invoice run period=1 invoices=0
+usage c-03 search batch=3 total=38 day=229
+usage c-23 geocode 750 day=226
+invoice run period=3 invoices=0
+error: invalid amount '3.32'
+error: period 6 is already invoiced for c-21
+error: period 6 is already invoiced for c-12
+invoice run period=0 invoices=0
+usage c-11 vault batch=3 total=38 day=234
+error: period 6 is already invoiced for c-04
+  applied INV-0006 27.020
+payment c-08 27.020 applied=27.020 credit=0.000
+error: period 6 is already invoiced for c-16
+usage c-14 cache batch=3 total=238 day=223
+day 239 period 7
+  applied INV-0008 44.17
+payment c-10 44.17 applied=44.17 credit=0.00
+customer c-10 terms 10
+error: period 6 is already invoiced for c-22
+error: period 6 is already invoiced for c-19
+usage c-06 metrics 100 day=185
+error: period 6 is already invoiced for c-23
+invoice run period=3 invoices=0
+error: period 6 is already invoiced for c-02
+customer c-20 exempt unchanged
+credit c-12 +14.00 balance=14.00
+error: period 6 is already invoiced for c-04
+usage c-23 search 101 day=228
+error: period 6 is already invoiced for c-04
+usage c-07 metrics 507 day=210
+usage c-15 geocode 1001 day=231
+refund INV-0008 0.09 net_paid=80.33 outstanding=571.74
+usage c-20 dns 500 day=237
+error: invoice INV-0019 has payments
+error: period 6 is already invoiced for c-01
+error: period 6 is already invoiced for c-08
+statement c-07 JPY
+  INV-0005 p1 total=12150 paid=0 refunded=0 outstanding=12150
+  INV-0025 p0 total=12150 paid=0 refunded=0 outstanding=12150
+  INV-0045 p2 total=11850 paid=0 refunded=0 outstanding=11850
+  INV-0065 p3 total=11850 paid=0 refunded=0 outstanding=11850
+  INV-0087 p4 total=11850 paid=0 refunded=0 outstanding=11850
+  INV-0107 p5 total=11850 paid=0 refunded=0 outstanding=11850
+  INV-0127 p6 total=11850 paid=0 refunded=0 outstanding=11850
+  owed=83550 credit=0
+usage c-16 requests batch=3 total=16502 day=235
+  applied INV-0004 1.23
+payment c-04 1.23 applied=1.23 credit=0.00
+customer c-11 terms 14
+error: period 6 is already invoiced for c-04
+coupon c-23 #1 pct_all
+usage c-09 email 2500 day=237
+error: period 6 is already invoiced for c-13
+error: period 6 is already invoiced for c-16
+customer c-06 terms unchanged
+INV-0082 c-06 p1 total=0.00 outstanding=0.00 paid
+1 invoices
+customer c-13 exempt yes
+customer c-16 terms 14
+error: period 6 is already invoiced for c-21
+  applied INV-0008 60.24
+payment c-10 60.24 applied=60.24 credit=0.00
+report out_customer
+  c-01 USD 3829.83
+  c-02 GBP 3952.62
+  c-03 KWD 186.518
+  c-04 USD 634.77
+  c-07 JPY 83550
+  c-08 KWD 452.998
+  c-09 EUR 136.82
+  c-10 USD 4377.65
+  c-11 JPY 99635
+  c-12 EUR 488.57
+  c-13 GBP 3628.74
+  c-15 USD 1580.83
+  c-16 INR 384784.25
+  c-17 INR 379198.18
+  c-18 GBP 3327.07
+  c-19 EUR 555.62
+  c-20 JPY 209846
+  c-21 KWD 477.485
+  c-22 KWD 1316.335
+  c-23 GBP 425.61
+  total EUR 1181.01
+  total GBP 11334.04
+  total INR 763982.43
+  total JPY 393031
+  total KWD 2433.336
+  total USD 10423.08
+end
+error: invalid amount '44.68'
+error: period 6 is already invoiced for c-15
+credit c-10 +14.00 balance=14.00
+customer c-08 exempt unchanged
+coupon c-02 #1 fixed_all
+usage c-01 requests 6000 day=238
+error: period 6 is already invoiced for c-08
+error: period 6 is already invoiced for c-19
+usage c-08 metrics batch=3 total=735 day=223
+usage c-02 compute 61 day=223
+  applied INV-0008 44.86
+payment c-10 44.86 applied=44.86 credit=14.00
+usage c-13 backup 500 day=239
+  applied INV-0011 20.01
+payment c-13 20.01 applied=20.01 credit=0.00
+invoice run period=4 invoices=0
+error: invalid amount '0.08'
+usage c-09 email 2000 day=211
+invoiced INV-0143 c-06 period=6 lines=2 total=0.00 GBP
+invoiced INV-0144 c-14 period=6 lines=1 total=0.310 KWD
+invoice run period=6 invoices=2
+usage c-01 vault 10 day=235
+coupon c-01 #3 fixed_all
+  applied INV-0010 4.25
+payment c-12 4.25 applied=4.25 credit=14.00
+customer c-21 exempt unchanged
+coupon c-06 #4 volume
+coupon c-20 #1 pct_usage
+usage c-12 search 120 day=221
+error: period 6 is already invoiced for c-13
+error: period 6 is already invoiced for c-13
+report rev_region
+  ca GBP 441.65
+  ca USD 4214.08
+  ch EUR 126.88
+  ch KWD 1478.482
+  de JPY 83820
+  de KWD 408.086
+  jp GBP 3327.03
+  jp JPY 293396
+  jp USD 3829.83
+  ny EUR 1024.72
+  ny INR 349637.28
+  on KWD 0.366
+  on USD 1399.74
+  uk GBP 3333.35
+  uk USD 557.00
+  wa GBP 3328.11
+  wa INR 349661.16
+  wa KWD 433.868
+  total EUR 1151.60
+  total GBP 10430.14
+  total INR 699298.44
+  total JPY 377216
+  total KWD 2320.802
+  total USD 10000.65
+end
+usage c-13 dns batch=3 total=552 day=219
+invoice run period=5 invoices=0
+usage c-23 ocr 11 day=213
+error: period 6 is already invoiced for c-15
+customer c-16 terms unchanged
+usage c-03 search 87 day=234
+error: period 6 is already invoiced for c-09
+report payments
+  day0100 GBP 1.73
+  day0129 EUR 13.39
+  day0141 INR 26.85
+  day0175 KWD 24.390
+  day0206 EUR 53.66
+  day0206 GBP 33.97
+  day0206 USD 36.25
+  day0221 KWD 10.250
+  day0224 GBP 47.81
+  day0224 INR 20.75
+  day0224 KWD 5.210
+  day0236 KWD 27.020
+  day0239 EUR 4.25
+  day0239 GBP 20.01
+  day0239 USD 150.50
+  total EUR 71.30
+  total GBP 103.52
+  total INR 47.60
+  total KWD 66.870
+  total USD 186.75
+end
+day 270 period 9
+customer c-01 exempt unchanged
+customer c-09 terms 30
+usage c-11 cdn 16 day=267
+usage c-20 compute 420 day=247
+usage c-22 dns 300 day=268
+usage c-17 metrics 600 day=263
+day 299 period 9
+usage c-13 cache 1152 day=246
+INV-0072 c-14 p3 total=0.063 outstanding=0.000 paid
+INV-0144 c-14 p6 total=0.310 outstanding=0.000 paid
+2 invoices
+coupon c-13 #1 pct_fee
+error: refund exceeds the net payments on INV-0003
+invoice run period=5 invoices=0
+report top
+  1 c-10 4214.08
+  2 c-01 3829.83
+  3 c-15 1399.74
+end
+customer c-06 exempt unchanged
+coupon c-13 #2 first_periods
+report rev_plan
+  business JPY 209846
+  business KWD 841.954
+  business USD 1399.74
+  enterprise GBP 9988.49
+  enterprise INR 699298.44
+  enterprise KWD 1305.852
+  enterprise USD 8043.91
+  free KWD 0.366
+  starter EUR 126.88
+  team EUR 1024.72
+  team GBP 441.65
+  team JPY 167370
+  team KWD 172.630
+  team USD 557.00
+  total EUR 1151.60
+  total GBP 10430.14
+  total INR 699298.44
+  total JPY 377216
+  total KWD 2320.802
+  total USD 10000.65
+end
+usage c-13 egress 37 day=242
+usage c-06 storage 7007 day=260
+invoiced INV-0145 c-01 period=7 lines=1 total=586.17 USD
+invoiced INV-0146 c-02 period=7 lines=2 total=540.00 GBP
+invoiced INV-0147 c-03 period=7 lines=1 total=24.490 KWD
+invoiced INV-0148 c-04 period=7 lines=1 total=94.80 USD
+invoiced INV-0149 c-07 period=7 lines=1 total=11850 JPY
+invoiced INV-0150 c-08 period=7 lines=1 total=68.865 KWD
+invoiced INV-0151 c-09 period=7 lines=2 total=19.18 EUR
+invoiced INV-0152 c-10 period=7 lines=1 total=642.43 USD
+invoiced INV-0153 c-11 period=7 lines=1 total=14102 JPY
+invoiced INV-0154 c-12 period=7 lines=1 total=78.86 EUR
+invoiced INV-0155 c-13 period=7 lines=2 total=260.88 GBP
+invoiced INV-0156 c-15 period=7 lines=1 total=224.87 USD
+invoiced INV-0157 c-16 period=7 lines=2 total=54829.80 INR
+invoiced INV-0158 c-17 period=7 lines=1 total=53942.95 INR
+invoiced INV-0159 c-18 period=7 lines=1 total=473.21 GBP
+invoiced INV-0160 c-19 period=7 lines=1 total=78.86 EUR
+invoiced INV-0161 c-20 period=7 lines=2 total=29992 JPY
+invoiced INV-0162 c-21 period=7 lines=1 total=67.921 KWD
+invoiced INV-0163 c-22 period=7 lines=1 total=185.690 KWD
+invoiced INV-0164 c-23 period=7 lines=2 total=49.60 GBP
+invoice run period=7 invoices=20
+day 311 period 10
+usage c-10 logs 1251 day=271
+usage c-19 vault 47 day=284
+usage c-07 cache 256 day=293
+customer c-04 exempt unchanged
+usage c-14 compute 300 day=309
+customer c-13 exempt no
+INV-0082 c-06 p1 total=0.00 outstanding=0.00 paid
+INV-0143 c-06 p6 total=0.00 outstanding=0.00 paid
+2 invoices
+late INV-0041 fee=7.10
+late INV-0042 fee=8.52
+late INV-0043 fee=0.600
+late INV-0044 fee=2.00
+late INV-0045 fee=300
+late INV-0046 fee=1.033
+late INV-0047 fee=1.80
+late INV-0048 fee=9.64
+late INV-0049 fee=300
+late INV-0050 fee=1.80
+late INV-0051 fee=7.82
+late INV-0052 fee=3.37
+late INV-0053 fee=821.08
+late INV-0054 fee=809.14
+late INV-0055 fee=7.10
+late INV-0056 fee=1.80
+late INV-0057 fee=448
+late INV-0058 fee=1.019
+late INV-0059 fee=3.011
+late INV-0060 fee=1.50
+late INV-0061 fee=8.99
+late INV-0062 fee=8.53
+late INV-0063 fee=0.600
+late INV-0064 fee=2.00
+late INV-0065 fee=300
+late INV-0066 fee=1.040
+late INV-0067 fee=1.80
+late INV-0068 fee=9.64
+late INV-0069 fee=300
+late INV-0070 fee=1.80
+late INV-0071 fee=7.82
+late INV-0073 fee=3.37
+late INV-0074 fee=821.08
+late INV-0075 fee=809.14
+late INV-0076 fee=7.10
+late INV-0077 fee=1.80
+late INV-0078 fee=448
+late INV-0079 fee=1.019
+late INV-0080 fee=2.785
+late INV-0081 fee=1.50
+late INV-0083 fee=8.99
+late INV-0084 fee=8.58
+late INV-0085 fee=0.600
+late INV-0086 fee=2.00
+late INV-0087 fee=300
+late INV-0088 fee=1.033
+late INV-0089 fee=1.80
+late INV-0090 fee=9.64
+late INV-0091 fee=300
+late INV-0092 fee=1.80
+late INV-0093 fee=7.82
+late INV-0094 fee=3.37
+late INV-0095 fee=821.08
+late INV-0096 fee=809.14
+late INV-0097 fee=7.10
+late INV-0098 fee=1.80
+late INV-0099 fee=448
+late INV-0100 fee=1.019
+late INV-0101 fee=2.785
+late INV-0102 fee=1.50
+late INV-0103 fee=8.99
+late INV-0104 fee=8.52
+late INV-0105 fee=0.600
+late INV-0106 fee=2.00
+late INV-0107 fee=300
+late INV-0108 fee=1.033
+late INV-0109 fee=1.80
+late INV-0110 fee=9.64
+late INV-0111 fee=300
+late INV-0112 fee=1.80
+late INV-0113 fee=7.82
+late INV-0114 fee=3.37
+late INV-0115 fee=821.08
+late INV-0116 fee=809.14
+late INV-0117 fee=7.10
+late INV-0118 fee=1.80
+late INV-0119 fee=448
+late INV-0120 fee=1.019
+late INV-0121 fee=2.785
+late INV-0122 fee=1.50
+late INV-0123 fee=8.99
+late INV-0124 fee=8.52
+late INV-0125 fee=0.600
+late INV-0126 fee=2.00
+late INV-0127 fee=300
+late INV-0128 fee=1.043
+late INV-0129 fee=1.80
+late INV-0130 fee=9.67
+late INV-0131 fee=300
+late INV-0132 fee=1.80
+late INV-0133 fee=7.82
+late INV-0134 fee=3.37
+late INV-0135 fee=821.08
+late INV-0136 fee=809.14
+late INV-0137 fee=7.10
+late INV-0138 fee=1.80
+late INV-0139 fee=448
+late INV-0140 fee=1.019
+late INV-0141 fee=2.785
+late INV-0142 fee=1.50
+late INV-0152 fee=9.43
+late INV-0158 fee=809.14
+dun applied=102
+customer c-03 exempt unchanged
+usage c-23 metrics 401 day=278
+dun applied=0
+customer c-15 exempt yes
+  applied INV-0004 2.21
+payment c-04 2.21 applied=2.21 credit=0.00
+usage c-20 geocode 751 day=276
+invoice run period=4 invoices=0
+error: invalid amount '0.12'
+day 340 period 11
+invoice run period=2 invoices=0
+invoice run period=3 invoices=0
+usage c-15 storage batch=3 total=9170 day=309
+void INV-0029
+usage c-23 voice 5 day=328
+report disc_region
+  ca GBP 17.11
+  de GBP 1.49
+  de KWD 30.560
+  jp JPY 8
+  jp USD 390.20
+  uk GBP 24.00
+  wa GBP 213.12
+  total GBP 255.72
+  total JPY 8
+  total KWD 30.560
+  total USD 390.20
+end
+report disc_region
+  ca GBP 17.11
+  de GBP 1.49
+  de KWD 30.560
+  jp JPY 8
+  jp USD 390.20
+  uk GBP 24.00
+  wa GBP 213.12
+  total GBP 255.72
+  total JPY 8
+  total KWD 30.560
+  total USD 390.20
+end
+error: invalid amount '0.13'
+usage c-12 ocr 40 day=339
+usage c-01 email 3007 day=311
+report payments
+  day0100 GBP 1.73
+  day0129 EUR 13.39
+  day0141 INR 26.85
+  day0175 KWD 24.390
+  day0206 EUR 53.66
+  day0206 GBP 33.97
+  day0206 USD 36.25
+  day0221 KWD 10.250
+  day0224 GBP 47.81
+  day0224 INR 20.75
+  day0224 KWD 5.210
+  day0236 KWD 27.020
+  day0239 EUR 4.25
+  day0239 GBP 20.01
+  day0239 USD 150.50
+  day0311 USD 2.21
+  total EUR 71.30
+  total GBP 103.52
+  total INR 47.60
+  total KWD 66.870
+  total USD 188.96
+end
+coupon c-17 #1 fixed_all
+usage c-14 geocode batch=3 total=1377 day=312
+  applied INV-0018 58.820
+payment c-21 58.820 applied=58.820 credit=0.000
+usage c-04 metrics 400 day=307
+INV-0001 c-01 p1 total=480.31 outstanding=480.31 open
+INV-0021 c-01 p0 total=480.31 outstanding=480.31 open
+INV-0041 c-01 p2 total=480.31 outstanding=480.31 open
+INV-0061 c-01 p3 total=607.99 outstanding=607.99 open
+INV-0083 c-01 p4 total=607.99 outstanding=607.99 open
+INV-0103 c-01 p5 total=607.99 outstanding=607.99 open
+INV-0123 c-01 p6 total=607.99 outstanding=607.99 open
+INV-0145 c-01 p7 total=586.17 outstanding=586.17 open
+8 invoices
+usage c-14 voice 11 day=313
+invoiced INV-0165 c-01 period=8 lines=1 total=586.17 USD
+invoiced INV-0166 c-02 period=8 lines=1 total=539.05 GBP
+invoiced INV-0167 c-03 period=8 lines=1 total=24.490 KWD
+invoiced INV-0168 c-04 period=8 lines=1 total=94.80 USD
+invoiced INV-0169 c-06 period=8 lines=1 total=0.00 GBP
+invoiced INV-0170 c-07 period=8 lines=1 total=11850 JPY
+invoiced INV-0171 c-08 period=8 lines=1 total=68.865 KWD
+invoiced INV-0172 c-09 period=8 lines=1 total=18.90 EUR
+invoiced INV-0173 c-10 period=8 lines=1 total=642.43 USD
+invoiced INV-0174 c-11 period=8 lines=1 total=14102 JPY
+invoiced INV-0175 c-12 period=8 lines=1 total=78.86 EUR
+invoiced INV-0176 c-13 period=8 lines=1 total=286.55 GBP
+invoiced INV-0177 c-15 period=8 lines=1 total=199.00 USD
+invoiced INV-0178 c-16 period=8 lines=1 total=54738.42 INR
+invoiced INV-0179 c-17 period=8 lines=1 total=53936.54 INR
+invoiced INV-0180 c-18 period=8 lines=1 total=473.21 GBP
+invoiced INV-0181 c-19 period=8 lines=1 total=78.86 EUR
+invoiced INV-0182 c-20 period=8 lines=1 total=29850 JPY
+invoiced INV-0183 c-21 period=8 lines=1 total=67.921 KWD
+invoiced INV-0184 c-22 period=8 lines=2 total=186.000 KWD
+invoiced INV-0185 c-23 period=8 lines=1 total=48.86 GBP
+invoice run period=8 invoices=21
+usage c-15 storage 2001 day=311
+usage c-16 dns 501 day=331
+  applied INV-0012 24.49
+payment c-15 24.49 applied=24.49 credit=0.00
+usage c-03 geocode 1750 day=319
+usage c-20 cache 768 day=323
+day 371 period 12
+report top
+  1 c-12 666.72
+  2 c-19 666.72
+  3 c-09 171.12
+end
+coupon c-19 #1 fixed_all
+usage c-19 cdn batch=3 total=21 day=341
+invoice run period=2 invoices=0
+usage c-17 logs 1750 day=343
+usage c-16 search 120 day=363
+usage c-12 ocr 10 day=346
+usage c-03 metrics 101 day=333
+usage c-01 compute 240 day=369
+coupon c-09 #1 fixed_all
+0 invoices
+invoiced INV-0186 c-01 period=9 lines=1 total=586.17 USD
+invoiced INV-0187 c-02 period=9 lines=1 total=539.05 GBP
+invoiced INV-0188 c-03 period=9 lines=1 total=24.490 KWD
+invoiced INV-0189 c-04 period=9 lines=1 total=94.80 USD
+invoiced INV-0190 c-07 period=9 lines=1 total=11850 JPY
+invoiced INV-0191 c-08 period=9 lines=1 total=68.865 KWD
+invoiced INV-0192 c-09 period=9 lines=1 total=15.35 EUR
+invoiced INV-0193 c-10 period=9 lines=1 total=642.43 USD
+invoiced INV-0194 c-11 period=9 lines=1 total=14102 JPY
+invoiced INV-0195 c-12 period=9 lines=1 total=78.86 EUR
+invoiced INV-0196 c-13 period=9 lines=1 total=286.55 GBP
+invoiced INV-0197 c-15 period=9 lines=1 total=199.00 USD
+invoiced INV-0198 c-16 period=9 lines=1 total=54738.42 INR
+invoiced INV-0199 c-17 period=9 lines=1 total=53936.54 INR
+invoiced INV-0200 c-18 period=9 lines=1 total=473.21 GBP
+invoiced INV-0201 c-19 period=9 lines=1 total=73.21 EUR
+invoiced INV-0202 c-20 period=9 lines=1 total=29850 JPY
+invoiced INV-0203 c-21 period=9 lines=1 total=67.921 KWD
+invoiced INV-0204 c-22 period=9 lines=1 total=185.690 KWD
+invoiced INV-0205 c-23 period=9 lines=1 total=48.86 GBP
+invoice run period=9 invoices=20
+usage c-11 geocode batch=3 total=1847 day=366
+usage c-19 storage 1001 day=331
+usage c-22 cdn 40 day=352
+usage c-03 vault 51 day=368
+usage c-13 email 2500 day=365
+usage c-01 backup batch=3 total=3681 day=369
+usage c-17 logs 1757 day=346
+usage c-02 dns 507 day=370
+refund INV-0004 0.09 net_paid=3.35 outstanding=93.45
+usage c-13 cache 640 day=368
+customer c-20 exempt unchanged
+invoice run period=9 invoices=0
+usage c-23 compute 61 day=370
+invoice run period=4 invoices=0
+usage c-02 logs 751 day=340
+invoice run period=9 invoices=0
+usage c-19 compute 241 day=363
+customer c-10 exempt yes
+credit c-07 +13 balance=13
+customer c-12 name=c-12 plan=team region=ny currency=EUR status=active
+  since=0 terms=30 exempt=no credit=0.00
+  po=- email=- phone=- note=-
+  coupons=0 plan_changes=0
+invoice run period=6 invoices=0
+invoiced INV-0206 c-01 period=11 lines=1 total=586.17 USD
+invoiced INV-0207 c-02 period=11 lines=1 total=539.05 GBP
+invoiced INV-0208 c-03 period=11 lines=1 total=24.490 KWD
+invoiced INV-0209 c-04 period=11 lines=1 total=94.80 USD
+invoiced INV-0210 c-07 period=11 lines=1 total=11850 JPY
+invoiced INV-0211 c-08 period=11 lines=1 total=68.865 KWD
+invoiced INV-0212 c-09 period=11 lines=1 total=15.35 EUR
+invoiced INV-0213 c-10 period=11 lines=1 total=599.00 USD
+invoiced INV-0214 c-11 period=11 lines=1 total=14102 JPY
+invoiced INV-0215 c-12 period=11 lines=2 total=84.85 EUR
+invoiced INV-0216 c-13 period=11 lines=1 total=401.17 GBP
+invoiced INV-0217 c-15 period=11 lines=1 total=199.00 USD
+invoiced INV-0218 c-16 period=11 lines=2 total=54829.80 INR
+invoiced INV-0219 c-17 period=11 lines=1 total=53936.54 INR
+invoiced INV-0220 c-18 period=11 lines=1 total=473.21 GBP
+invoiced INV-0221 c-19 period=11 lines=1 total=73.21 EUR
+invoiced INV-0222 c-20 period=11 lines=1 total=29850 JPY
+invoiced INV-0223 c-21 period=11 lines=1 total=67.921 KWD
+invoiced INV-0224 c-22 period=11 lines=1 total=185.690 KWD
+invoiced INV-0225 c-23 period=11 lines=1 total=48.86 GBP
+invoice run period=11 invoices=20
+usage c-07 logs 2257 day=371
+error: period 11 is already invoiced for c-15
+credit c-08 +9.000 balance=9.000
+customer c-09 terms 10
+usage c-09 vault 40 day=365
+customer c-08 exempt unchanged
+report usage_units
+  backup 15182 GB-h
+  cache 4341 MB-h
+  cdn 107 GB
+  compute 1684 CPU-min
+  dns 4470 kq
+  egress 237 GB
+  email 18425 msg
+  geocode 8727 lookup
+  logs 12775 MB
+  metrics 6046 series
+  ocr 88 page
+  requests 41183 req
+  search 1625 kdoc
+  storage 32186 GB-h
+  vault 358 secret
+  voice 162 min
+end
+error: period 11 is already invoiced for c-20
+error: period 11 is already invoiced for c-15
+customer c-19 exempt unchanged
+report rev_region
+  ca GBP 632.08
+  ca USD 6667.74
+  ch EUR 199.52
+  ch KWD 2336.663
+  de JPY 120570
+  de KWD 644.748
+  jp GBP 5255.37
+  jp JPY 464078
+  jp USD 6217.57
+  ny EUR 1619.26
+  ny INR 553342.42
+  on KWD 0.366
+  on USD 2212.59
+  uk GBP 5173.65
+  uk USD 883.00
+  wa GBP 4512.98
+  wa INR 552800.56
+  wa KWD 685.723
+  total EUR 1818.78
+  total GBP 15574.08
+  total INR 1106142.98
+  total JPY 584648
+  total KWD 3667.500
+  total USD 15980.90
+end
+usage c-14 geocode 1251 day=332
+usage summary c-02 period 12 days 360-389
+  dns 507 kq
+1 records
+error: period 11 is already invoiced for c-02
+error: period 11 is already invoiced for c-03
+usage c-17 metrics batch=3 total=747 day=371
+error: period 11 is already invoiced for c-19
+customer c-01 exempt unchanged
+day 400 period 13
+refund INV-0019 0.070 net_paid=34.570 outstanding=169.172
+invoice run period=1 invoices=0
+error: refund exceeds the net payments on INV-0030
+usage c-04 egress 50 day=372
+usage c-08 ocr 47 day=368
+usage c-15 dns 307 day=374
+error: customer c-24 is closed
+usage c-03 logs batch=3 total=2752 day=362
+usage c-01 requests 4000 day=367
+usage c-02 storage 8000 day=387
+usage c-01 metrics 401 day=366
+usage c-13 egress batch=3 total=75 day=378
+usage c-10 dns 501 day=389
+report rev_plan
+  business JPY 331628
+  business KWD 1330.471
+  business USD 2212.59
+  enterprise GBP 14942.00
+  enterprise INR 1106142.98
+  enterprise KWD 2063.073
+  enterprise USD 12885.31
+  free KWD 0.366
+  starter EUR 199.52
+  team EUR 1619.26
+  team GBP 632.08
+  team JPY 253020
+  team KWD 273.590
+  team USD 883.00
+  total EUR 1818.78
+  total GBP 15574.08
+  total INR 1106142.98
+  total JPY 584648
+  total KWD 3667.500
+  total USD 15980.90
+end
+coupon c-15 #1 fixed_all
+day 412 period 13
+  applied INV-0020 20.62
+  applied INV-0040 15.66
+payment c-23 36.28 applied=36.28 credit=0.00
+usage c-11 storage 8000 day=392
+usage c-15 ocr 20 day=379
+usage c-17 cache 768 day=364
+credit c-23 +12.00 balance=12.00
+usage c-15 email 3000 day=392
+void INV-0030
+coupon c-13 #3 fixed_all
+usage c-06 voice 26 day=406
+credit c-21 +11.000 balance=11.000
+  applied INV-0018 9.280
+payment c-21 9.280 applied=9.280 credit=11.000
+invoice run period=3 invoices=0
+usage c-14 geocode 1507 day=399
+usage c-15 vault 70 day=374
+usage c-19 ocr 40 day=408
+coupon c-22 #1 pct_usage
+usage c-10 voice batch=3 total=32 day=366
+report rev_region
+  ca GBP 632.08
+  ca USD 6667.74
+  ch EUR 199.52
+  ch KWD 2336.663
+  de JPY 120570
+  de KWD 644.748
+  jp GBP 5255.37
+  jp JPY 464078
+  jp USD 6217.57
+  ny EUR 1544.78
+  ny INR 553342.42
+  on KWD 0.366
+  on USD 2212.59
+  uk GBP 5173.65
+  uk USD 883.00
+  wa GBP 4512.98
+  wa INR 552800.56
+  wa KWD 685.723
+  total EUR 1744.30
+  total GBP 15574.08
+  total INR 1106142.98
+  total JPY 584648
+  total KWD 3667.500
+  total USD 15980.90
+end
+usage c-21 requests batch=3 total=22002 day=395
+usage c-16 voice 6 day=392
+usage c-19 metrics 101 day=392
+error: invalid amount '0.10'
+coupon c-03 #1 fixed_all
+customer c-22 exempt no
+usage c-08 cache 640 day=379
+usage c-03 email 2501 day=362
+coupon c-21 #1 fixed_all
+customer c-16 exempt yes
+usage c-13 ocr 11 day=379
+usage c-16 metrics 301 day=402
+  applied INV-0011 34.53
+payment c-13 34.53 applied=34.53 credit=0.00
+usage c-01 cache 385 day=395
+coupon c-21 #2 pct_usage
+usage c-06 search 81 day=374
+coupon c-03 #2 pct_fee
+usage c-04 compute 240 day=402
+usage c-19 search 100 day=377
+usage summary c-03 period 13 days 390-419
+0 records
+usage c-01 metrics 700 day=385
+usage c-02 storage 3001 day=372
+error: invalid amount '40.97'
+usage c-07 voice 10 day=372
+customer c-08 exempt unchanged
+void INV-0003
+  applied INV-0010 9.36
+  applied INV-0050 1.51
+payment c-12 10.87 applied=10.87 credit=0.00
+credit c-14 +9.000 balance=23.297
+  applied INV-0016 39.52
+payment c-19 39.52 applied=39.52 credit=0.00
+usage c-22 cdn 15 day=363
+customer c-14 terms 30
+day 441 period 14
+customer c-20 name=c-20 plan=business region=jp currency=JPY status=active
+  since=0 terms=30 exempt=yes credit=0
+  po=- email=- phone=- note=-
+  coupons=1 plan_changes=0
+statement c-07 JPY
+  INV-0005 p1 total=12150 paid=0 refunded=0 outstanding=12150
+  INV-0025 p0 total=12150 paid=0 refunded=0 outstanding=12150
+  INV-0045 p2 total=12150 paid=0 refunded=0 outstanding=12150
+  INV-0065 p3 total=12150 paid=0 refunded=0 outstanding=12150
+  INV-0087 p4 total=12150 paid=0 refunded=0 outstanding=12150
+  INV-0107 p5 total=12150 paid=0 refunded=0 outstanding=12150
+  INV-0127 p6 total=12150 paid=0 refunded=0 outstanding=12150
+  INV-0149 p7 total=11850 paid=0 refunded=0 outstanding=11850
+  INV-0170 p8 total=11850 paid=0 refunded=0 outstanding=11850
+  INV-0190 p9 total=11850 paid=0 refunded=0 outstanding=11850
+  INV-0210 p11 total=11850 paid=13 refunded=0 outstanding=11837
+  owed=132437 credit=0
+usage c-19 dns 100 day=427
+day 472 period 15
+credit c-08 +18.000 balance=27.000
+usage c-16 logs batch=3 total=5502 day=440
+error: invalid amount '22.77'
+coupon c-13 #4 first_periods
+error: invalid amount '35.90'
+usage summary c-09 period 15 days 450-479
+0 records
+usage c-01 egress 37 day=471
+customer c-17 terms 45
+usage c-04 requests 1000 day=427
+report credits
+  c-06 GBP 10.96
+  c-08 KWD 27.000
+  c-14 KWD 23.297
+  c-21 KWD 11.000
+  c-23 GBP 12.00
+  total GBP 22.96
+  total KWD 61.297
+end
+usage c-21 egress 50 day=435
+usage c-11 cdn 11 day=429
+usage c-09 backup 3007 day=441
+usage c-09 cache 257 day=469
+report aging
+  31-60 GBP 1765.82
+  31-60 KWD 48.980
+  31-60 USD 1172.34
+  61-90 EUR 340.83
+  61-90 GBP 1869.74
+  61-90 INR 109568.22
+  61-90 JPY 111591
+  61-90 KWD 669.442
+  61-90 USD 1173.77
+  91+ EUR 1412.23
+  91+ GBP 13213.75
+  91+ INR 1098263.46
+  91+ JPY 495615
+  91+ KWD 3035.412
+  91+ USD 14191.11
+  total EUR 1753.06
+  total GBP 16849.31
+  total INR 1207831.68
+  total JPY 607206
+  total KWD 3753.834
+  total USD 16537.22
+end
+customer c-11 exempt unchanged
+invoiced INV-0226 c-01 period=13 lines=1 total=586.17 USD
+invoiced INV-0227 c-02 period=13 lines=1 total=539.05 GBP
+invoiced INV-0228 c-03 period=13 lines=1 total=15.785 KWD
+invoiced INV-0229 c-04 period=13 lines=1 total=94.80 USD
+invoiced INV-0230 c-06 period=13 lines=1 total=0.00 GBP
+invoiced INV-0231 c-07 period=13 lines=1 total=11850 JPY
+invoiced INV-0232 c-08 period=13 lines=1 total=68.865 KWD
+invoiced INV-0233 c-09 period=13 lines=1 total=15.35 EUR
+invoiced INV-0234 c-10 period=13 lines=1 total=599.00 USD
+invoiced INV-0235 c-11 period=13 lines=1 total=14102 JPY
+invoiced INV-0236 c-12 period=13 lines=1 total=78.86 EUR
+invoiced INV-0237 c-13 period=13 lines=1 total=282.66 GBP
+invoiced INV-0238 c-14 period=13 lines=1 total=0.295 KWD
+invoiced INV-0239 c-15 period=13 lines=1 total=194.00 USD
+invoiced INV-0240 c-16 period=13 lines=2 total=49754.35 INR
+invoiced INV-0241 c-17 period=13 lines=1 total=53936.54 INR
+invoiced INV-0242 c-18 period=13 lines=1 total=473.21 GBP
+invoiced INV-0243 c-19 period=13 lines=2 total=78.01 EUR
+invoiced INV-0244 c-20 period=13 lines=1 total=29850 JPY
+invoiced INV-0245 c-21 period=13 lines=1 total=63.517 KWD
+invoiced INV-0246 c-22 period=13 lines=1 total=200.731 KWD
+invoiced INV-0247 c-23 period=13 lines=1 total=48.86 GBP
+invoice run period=13 invoices=22
+refund INV-0016 0.20 net_paid=39.32 outstanding=41.34
+  applied INV-0006 37.668
+  applied INV-0026 6.312
+payment c-08 43.980 applied=43.980 credit=0.000
+usage c-10 cdn 42 day=457
+late INV-0145 fee=8.79
+late INV-0146 fee=8.10
+late INV-0147 fee=0.600
+late INV-0148 fee=2.00
+late INV-0149 fee=300
+late INV-0150 fee=1.033
+late INV-0151 fee=1.80
+late INV-0153 fee=300
+late INV-0154 fee=1.80
+late INV-0155 fee=3.91
+late INV-0156 fee=3.37
+late INV-0157 fee=822.45
+late INV-0159 fee=7.10
+late INV-0160 fee=1.80
+late INV-0161 fee=450
+late INV-0162 fee=1.019
+late INV-0163 fee=2.785
+late INV-0164 fee=1.50
+late INV-0165 fee=8.79
+late INV-0166 fee=8.09
+late INV-0167 fee=0.600
+late INV-0168 fee=2.00
+late INV-0170 fee=300
+late INV-0171 fee=1.033
+late INV-0172 fee=1.80
+late INV-0173 fee=9.64
+late INV-0174 fee=300
+late INV-0175 fee=1.80
+late INV-0176 fee=4.30
+late INV-0177 fee=2.99
+late INV-0178 fee=821.08
+late INV-0179 fee=809.05
+late INV-0180 fee=7.10
+late INV-0181 fee=1.80
+late INV-0182 fee=448
+late INV-0183 fee=1.019
+late INV-0184 fee=2.790
+late INV-0185 fee=1.50
+late INV-0186 fee=8.79
+late INV-0187 fee=8.09
+late INV-0188 fee=0.600
+late INV-0189 fee=2.00
+late INV-0190 fee=300
+late INV-0191 fee=1.033
+late INV-0192 fee=1.80
+late INV-0193 fee=9.64
+late INV-0194 fee=300
+late INV-0195 fee=1.80
+late INV-0196 fee=4.30
+late INV-0197 fee=2.99
+late INV-0198 fee=821.08
+late INV-0199 fee=809.05
+late INV-0200 fee=7.10
+late INV-0201 fee=1.80
+late INV-0202 fee=448
+late INV-0203 fee=1.019
+late INV-0204 fee=2.785
+late INV-0205 fee=1.50
+late INV-0206 fee=8.79
+late INV-0207 fee=8.09
+late INV-0208 fee=0.600
+late INV-0209 fee=2.00
+late INV-0210 fee=300
+late INV-0211 fee=1.033
+late INV-0212 fee=1.80
+late INV-0213 fee=8.99
+late INV-0214 fee=300
+late INV-0215 fee=1.80
+late INV-0216 fee=6.02
+late INV-0217 fee=2.99
+late INV-0218 fee=822.45
+late INV-0219 fee=809.05
+late INV-0220 fee=7.10
+late INV-0221 fee=1.80
+late INV-0222 fee=448
+late INV-0223 fee=1.019
+late INV-0224 fee=2.785
+late INV-0225 fee=1.50
+dun applied=78
+usage c-09 compute 300 day=431
+coupon c-03 #3 pct_all
+dun applied=0
+usage c-19 storage 1001 day=471
+dun applied=0
+dun applied=0
+day 502 period 16
+invoiced INV-0248 c-01 period=15 lines=1 total=586.17 USD
+invoiced INV-0249 c-02 period=15 lines=1 total=539.05 GBP
+invoiced INV-0250 c-03 period=15 lines=1 total=9.418 KWD
+invoiced INV-0251 c-04 period=15 lines=1 total=94.80 USD
+invoiced INV-0252 c-07 period=15 lines=1 total=11850 JPY
+invoiced INV-0253 c-08 period=15 lines=1 total=68.865 KWD
+invoiced INV-0254 c-09 period=15 lines=1 total=15.35 EUR
+invoiced INV-0255 c-10 period=15 lines=1 total=599.00 USD
+invoiced INV-0256 c-11 period=15 lines=1 total=14102 JPY
+invoiced INV-0257 c-12 period=15 lines=1 total=78.86 EUR
+invoiced INV-0258 c-13 period=15 lines=1 total=282.66 GBP
+invoiced INV-0259 c-15 period=15 lines=1 total=194.00 USD
+invoiced INV-0260 c-16 period=15 lines=1 total=49717.00 INR
+invoiced INV-0261 c-17 period=15 lines=1 total=53936.54 INR
+invoiced INV-0262 c-18 period=15 lines=1 total=473.21 GBP
+invoiced INV-0263 c-19 period=15 lines=1 total=73.21 EUR
+invoiced INV-0264 c-20 period=15 lines=1 total=29850 JPY
+invoiced INV-0265 c-21 period=15 lines=1 total=63.517 KWD
+invoiced INV-0266 c-22 period=15 lines=1 total=200.731 KWD
+invoiced INV-0267 c-23 period=15 lines=1 total=48.86 GBP
+invoice run period=15 invoices=20
+report rev_period
+  p00 EUR 93.76
+  p00 GBP 1509.12
+  p00 INR 101064.22
+  p00 JPY 42448
+  p00 KWD 335.403
+  p00 USD 1372.32
+  p01 EUR 168.24
+  p01 GBP 1506.31
+  p01 INR 101064.22
+  p01 JPY 54598
+  p01 KWD 310.313
+  p01 USD 1372.32
+  p02 EUR 168.24
+  p02 GBP 1506.98
+  p02 INR 101064.22
+  p02 JPY 54598
+  p02 KWD 335.403
+  p02 USD 1372.32
+  p03 EUR 169.16
+  p03 GBP 1507.94
+  p03 INR 101064.22
+  p03 JPY 54598
+  p03 KWD 335.612
+  p03 USD 1500.00
+  p04 EUR 168.24
+  p04 GBP 1510.60
+  p04 INR 101064.22
+  p04 JPY 54598
+  p04 KWD 335.177
+  p04 USD 1500.00
+  p05 EUR 168.24
+  p05 GBP 1506.98
+  p05 INR 101064.22
+  p05 JPY 54868
+  p05 KWD 335.177
+  p05 USD 1500.00
+  p06 EUR 168.24
+  p06 GBP 1506.98
+  p06 INR 101064.22
+  p06 JPY 54598
+  p06 KWD 336.055
+  p06 USD 1501.83
+  p07 EUR 168.52
+  p07 GBP 1250.95
+  p07 INR 101148.59
+  p07 JPY 54742
+  p07 KWD 335.177
+  p07 USD 1486.76
+  p08 EUR 168.24
+  p08 GBP 1249.23
+  p08 INR 101058.23
+  p08 JPY 54598
+  p08 KWD 335.492
+  p08 USD 1486.59
+  p09 EUR 159.75
+  p09 GBP 1249.23
+  p09 INR 101058.23
+  p09 JPY 54598
+  p09 KWD 335.177
+  p09 USD 1486.59
+  p11 EUR 165.27
+  p11 GBP 1355.06
+  p11 INR 101142.60
+  p11 JPY 54598
+  p11 KWD 335.177
+  p11 USD 1485.94
+  p13 EUR 158.77
+  p13 GBP 1224.71
+  p13 INR 99465.45
+  p13 JPY 53550
+  p13 KWD 317.330
+  p13 USD 1458.17
+  p15 EUR 154.35
+  p15 GBP 1224.71
+  p15 INR 99428.10
+  p15 JPY 53550
+  p15 KWD 310.668
+  p15 USD 1458.17
+  total EUR 2079.02
+  total GBP 18108.80
+  total INR 1310750.74
+  total JPY 695942
+  total KWD 4292.161
+  total USD 18981.01
+end
+report aging
+  current EUR 324.29
+  current GBP 2675.56
+  current INR 157590.08
+  current JPY 97502
+  current KWD 600.912
+  current USD 2348.94
+  1-30 EUR 15.35
+  1-30 INR 49754.35
+  1-30 JPY 14102
+  1-30 KWD 52.517
+  1-30 USD 599.00
+  61-90 GBP 1792.32
+  61-90 KWD 50.180
+  61-90 USD 1189.92
+  91+ EUR 1774.86
+  91+ GBP 15142.29
+  91+ INR 1213545.89
+  91+ JPY 611400
+  91+ KWD 3681.427
+  91+ USD 15431.07
+  total EUR 2114.50
+  total GBP 19610.17
+  total INR 1420890.32
+  total JPY 723004
+  total KWD 4385.036
+  total USD 19568.93
+end
+number,customer,period,issued,due,currency,subtotal,discount,tax,late,total,paid,refunded
+INV-0001,c-01,1,69,114,USD,599.00,125.79,0.00,7.10,480.31,0.00,0.00
+INV-0002,c-02,1,69,99,GBP,473.21,0.00,94.64,7.85,575.70,44.28,0.17
+INV-0003,c-03,1,69,99,KWD,24.490,0.000,1.984,0.600,27.074,0.000,0.000
+INV-0004,c-04,1,69,99,USD,79.00,0.00,15.80,2.00,96.80,3.44,0.09
+INV-0005,c-07,1,69,99,JPY,11850,0,0,300,12150,0,0
+INV-0006,c-08,1,69,99,KWD,61.690,3.820,10.995,1.033,69.898,69.898,0.000
+INV-0007,c-09,1,69,99,EUR,17.48,0.00,1.42,1.80,20.70,0.00,0.00
+INV-0008,c-10,1,69,99,USD,599.00,0.00,43.43,9.64,652.07,185.52,0.09
+INV-0009,c-11,1,69,99,JPY,11850,0,2252,300,14402,0,0
+INV-0010,c-12,1,69,99,EUR,72.68,0.00,6.18,1.80,80.66,80.66,0.00
+INV-0011,c-13,1,69,99,GBP,473.21,0.00,47.80,7.82,528.83,88.51,0.00
+INV-0012,c-15,1,69,99,USD,199.00,0.00,25.87,3.37,228.24,24.49,0.00
+INV-0013,c-16,1,69,99,INR,49717.00,0.00,5021.42,821.08,55559.50,26.85,0.00
+INV-0014,c-17,1,69,83,INR,49717.00,0.00,4225.95,809.14,54752.09,20.75,0.00
+INV-0015,c-18,1,69,99,GBP,473.21,0.00,0.00,7.10,480.31,0.00,0.00
+INV-0016,c-19,1,69,99,EUR,72.68,0.00,6.18,1.80,80.66,39.52,0.20
+INV-0017,c-20,1,69,99,JPY,29850,0,0,448,30298,0,0
+INV-0018,c-21,1,69,99,KWD,61.690,0.000,6.231,1.019,68.940,68.100,0.000
+INV-0019,c-22,1,69,99,KWD,185.690,0.000,15.041,3.011,203.742,34.640,0.070
+INV-0020,c-23,1,69,99,GBP,62.41,0.00,4.52,1.50,68.43,68.43,0.00
+INV-0021,c-01,0,69,114,USD,599.00,125.79,0.00,7.10,480.31,0.00,0.00
+INV-0022,c-02,0,69,99,GBP,473.21,0.00,94.64,8.52,576.37,0.00,0.00
+INV-0023,c-03,0,69,99,KWD,24.490,0.000,1.984,0.600,27.074,0.000,0.000
+INV-0024,c-04,0,69,99,USD,79.00,0.00,15.80,2.00,96.80,0.00,0.00
+INV-0025,c-07,0,69,99,JPY,11850,0,0,300,12150,0,0
+INV-0026,c-08,0,69,99,KWD,61.690,3.820,10.995,1.033,69.898,6.312,0.000
+INV-0027,c-09,0,69,99,EUR,17.48,0.00,1.42,1.80,20.70,0.00,0.00
+INV-0028,c-10,0,69,99,USD,599.00,0.00,43.43,9.64,652.07,0.00,0.00
+INV-0029,c-11,0,69,99,JPY,11850,0,2252,300,14402,0,0
+INV-0030,c-12,0,69,99,EUR,72.68,0.00,6.18,1.80,80.66,0.00,0.00
+INV-0031,c-13,0,69,99,GBP,473.21,0.00,47.80,7.82,528.83,0.00,0.00
+INV-0032,c-15,0,69,99,USD,199.00,0.00,25.87,3.37,228.24,0.00,0.00
+INV-0033,c-16,0,69,99,INR,49717.00,0.00,5021.42,821.08,55559.50,0.00,0.00
+INV-0034,c-17,0,69,83,INR,49717.00,0.00,4225.95,809.14,54752.09,0.00,0.00
+INV-0035,c-18,0,69,99,GBP,473.57,0.00,0.04,7.10,480.71,0.00,0.00
+INV-0036,c-19,0,69,99,EUR,72.68,0.00,6.18,1.80,80.66,0.00,0.00
+INV-0037,c-20,0,69,99,JPY,29850,0,0,448,30298,0,0
+INV-0038,c-21,0,69,99,KWD,61.690,0.000,6.231,1.019,68.940,0.000,0.000
+INV-0039,c-22,0,69,99,KWD,185.690,0.000,15.041,3.011,203.742,0.000,0.000
+INV-0040,c-23,0,69,99,GBP,64.19,0.00,4.65,1.50,70.34,15.66,0.00
+INV-0041,c-01,2,129,174,USD,599.00,125.79,0.00,7.10,480.31,0.00,0.00
+INV-0042,c-02,2,129,174,GBP,473.21,0.00,94.64,8.52,576.37,0.00,0.00
+INV-0043,c-03,2,129,159,KWD,24.490,0.000,1.984,0.600,27.074,0.000,0.000
+INV-0044,c-04,2,129,159,USD,79.00,0.00,15.80,2.00,96.80,0.00,0.00
+INV-0045,c-07,2,129,159,JPY,11850,0,0,300,12150,0,0
+INV-0046,c-08,2,129,159,KWD,61.690,3.820,10.995,1.033,69.898,0.000,0.000
+INV-0047,c-09,2,129,159,EUR,17.48,0.00,1.42,1.80,20.70,0.00,0.00
+INV-0048,c-10,2,129,159,USD,599.00,0.00,43.43,9.64,652.07,0.00,0.00
+INV-0049,c-11,2,129,159,JPY,11850,0,2252,300,14402,0,0
+INV-0050,c-12,2,129,159,EUR,72.68,0.00,6.18,1.80,80.66,1.51,0.00
+INV-0051,c-13,2,129,159,GBP,473.21,0.00,47.80,7.82,528.83,0.00,0.00
+INV-0052,c-15,2,129,159,USD,199.00,0.00,25.87,3.37,228.24,0.00,0.00
+INV-0053,c-16,2,129,159,INR,49717.00,0.00,5021.42,821.08,55559.50,0.00,0.00
+INV-0054,c-17,2,129,143,INR,49717.00,0.00,4225.95,809.14,54752.09,0.00,0.00
+INV-0055,c-18,2,129,159,GBP,473.21,0.00,0.00,7.10,480.31,0.00,0.00
+INV-0056,c-19,2,129,159,EUR,72.68,0.00,6.18,1.80,80.66,0.00,0.00
+INV-0057,c-20,2,129,159,JPY,29850,0,0,448,30298,0,0
+INV-0058,c-21,2,129,143,KWD,61.690,0.000,6.231,1.019,68.940,0.000,0.000
+INV-0059,c-22,2,129,159,KWD,185.690,0.000,15.041,3.011,203.742,0.000,0.000
+INV-0060,c-23,2,129,159,GBP,62.41,0.00,4.52,1.50,68.43,0.00,0.00
+INV-0061,c-01,3,175,220,USD,599.00,0.00,0.00,8.99,607.99,0.00,0.00
+INV-0062,c-02,3,175,220,GBP,474.16,0.00,94.83,8.53,577.52,0.00,0.00
+INV-0063,c-03,3,175,205,KWD,24.490,0.000,1.984,0.600,27.074,0.000,0.000
+INV-0064,c-04,3,175,205,USD,79.00,0.00,15.80,2.00,96.80,0.00,0.00
+INV-0065,c-07,3,175,205,JPY,11850,0,0,300,12150,0,0
+INV-0066,c-08,3,175,205,KWD,62.062,3.820,11.066,1.040,70.348,0.000,0.000
+INV-0067,c-09,3,175,205,EUR,18.40,0.00,1.42,1.80,21.62,0.00,0.00
+INV-0068,c-10,3,175,205,USD,599.00,0.00,43.43,9.64,652.07,0.00,0.00
+INV-0069,c-11,3,175,205,JPY,11850,0,2252,300,14402,0,0
+INV-0070,c-12,3,175,205,EUR,72.68,0.00,6.18,1.80,80.66,0.00,0.00
+INV-0071,c-13,3,175,205,GBP,473.21,0.00,47.80,7.82,528.83,0.00,0.00
+INV-0072,c-14,3,175,185,KWD,0.056,0.000,0.007,0.000,0.063,0.063,0.000
+INV-0073,c-15,3,175,205,USD,199.00,0.00,25.87,3.37,228.24,0.00,0.00
+INV-0074,c-16,3,175,185,INR,49717.00,0.00,5021.42,821.08,55559.50,0.00,0.00
+INV-0075,c-17,3,175,189,INR,49717.00,0.00,4225.95,809.14,54752.09,0.00,0.00
+INV-0076,c-18,3,175,205,GBP,473.21,0.00,0.00,7.10,480.31,0.00,0.00
+INV-0077,c-19,3,175,205,EUR,72.68,0.00,6.18,1.80,80.66,0.00,0.00
+INV-0078,c-20,3,175,205,JPY,29850,0,0,448,30298,0,0
+INV-0079,c-21,3,175,189,KWD,61.690,0.000,6.231,1.019,68.940,0.000,0.000
+INV-0080,c-22,3,175,205,KWD,185.690,0.000,0.000,2.785,188.475,0.000,0.000
+INV-0081,c-23,3,175,205,GBP,62.41,0.00,4.52,1.50,68.43,0.00,0.00
+INV-0082,c-06,1,175,205,GBP,0.32,0.32,0.00,0.00,0.00,0.00,0.00
+INV-0083,c-01,4,209,254,USD,599.00,0.00,0.00,8.99,607.99,0.00,0.00
+INV-0084,c-02,4,209,254,GBP,476.77,0.00,95.35,8.58,580.70,0.00,0.00
+INV-0085,c-03,4,209,254,KWD,24.490,0.000,1.984,0.600,27.074,0.000,0.000
+INV-0086,c-04,4,209,239,USD,79.00,0.00,15.80,2.00,96.80,0.00,0.00
+INV-0087,c-07,4,209,239,JPY,11850,0,0,300,12150,0,0
+INV-0088,c-08,4,209,239,KWD,61.690,3.820,10.995,1.033,69.898,0.000,0.000
+INV-0089,c-09,4,209,219,EUR,17.48,0.00,1.42,1.80,20.70,0.00,0.00
+INV-0090,c-10,4,209,239,USD,599.00,0.00,43.43,9.64,652.07,0.00,0.00
+INV-0091,c-11,4,209,239,JPY,11850,0,2252,300,14402,0,0
+INV-0092,c-12,4,209,239,EUR,72.68,0.00,6.18,1.80,80.66,0.00,0.00
+INV-0093,c-13,4,209,239,GBP,473.21,0.00,47.80,7.82,528.83,0.00,0.00
+INV-0094,c-15,4,209,239,USD,199.00,0.00,25.87,3.37,228.24,0.00,0.00
+INV-0095,c-16,4,209,254,INR,49717.00,0.00,5021.42,821.08,55559.50,0.00,0.00
+INV-0096,c-17,4,209,219,INR,49717.00,0.00,4225.95,809.14,54752.09,0.00,0.00
+INV-0097,c-18,4,209,239,GBP,473.21,0.00,0.00,7.10,480.31,0.00,0.00
+INV-0098,c-19,4,209,239,EUR,72.68,0.00,6.18,1.80,80.66,0.00,0.00
+INV-0099,c-20,4,209,239,JPY,29850,0,0,448,30298,0,0
+INV-0100,c-21,4,209,223,KWD,61.690,0.000,6.231,1.019,68.940,0.000,0.000
+INV-0101,c-22,4,209,239,KWD,185.690,0.000,0.000,2.785,188.475,0.000,0.000
+INV-0102,c-23,4,209,239,GBP,62.41,0.00,4.52,1.50,68.43,0.00,0.00
+INV-0103,c-01,5,224,269,USD,599.00,0.00,0.00,8.99,607.99,0.00,0.00
+INV-0104,c-02,5,224,269,GBP,473.21,0.00,94.64,8.52,576.37,0.00,0.00
+INV-0105,c-03,5,224,269,KWD,24.490,0.000,1.984,0.600,27.074,0.000,0.000
+INV-0106,c-04,5,224,254,USD,79.00,0.00,0.00,2.00,81.00,0.00,0.00
+INV-0107,c-07,5,224,254,JPY,11850,0,0,300,12150,0,0
+INV-0108,c-08,5,224,254,KWD,61.690,3.820,10.995,1.033,69.898,0.000,0.000
+INV-0109,c-09,5,224,234,EUR,17.48,0.00,1.42,1.80,20.70,0.00,0.00
+INV-0110,c-10,5,224,254,USD,599.00,0.00,43.43,9.64,652.07,0.00,0.00
+INV-0111,c-11,5,224,254,JPY,12120,0,2303,300,14723,0,0
+INV-0112,c-12,5,224,254,EUR,72.68,0.00,6.18,1.80,80.66,0.00,0.00
+INV-0113,c-13,5,224,254,GBP,473.21,0.00,47.80,7.82,528.83,0.00,0.00
+INV-0114,c-15,5,224,254,USD,199.00,0.00,25.87,3.37,228.24,0.00,0.00
+INV-0115,c-16,5,224,269,INR,49717.00,0.00,5021.42,821.08,55559.50,0.00,0.00
+INV-0116,c-17,5,224,234,INR,49717.00,0.00,4225.95,809.14,54752.09,0.00,0.00
+INV-0117,c-18,5,224,254,GBP,473.21,0.00,0.00,7.10,480.31,0.00,0.00
+INV-0118,c-19,5,224,254,EUR,72.68,0.00,6.18,1.80,80.66,0.00,0.00
+INV-0119,c-20,5,224,254,JPY,29850,0,0,448,30298,0,0
+INV-0120,c-21,5,224,238,KWD,61.690,0.000,6.231,1.019,68.940,0.000,0.000
+INV-0121,c-22,5,224,254,KWD,185.690,0.000,0.000,2.785,188.475,0.000,0.000
+INV-0122,c-23,5,224,254,GBP,62.41,0.00,4.52,1.50,68.43,0.00,0.00
+INV-0123,c-01,6,224,269,USD,599.00,0.00,0.00,8.99,607.99,0.00,0.00
+INV-0124,c-02,6,224,269,GBP,473.21,0.00,94.64,8.52,576.37,0.00,0.00
+INV-0125,c-03,6,224,269,KWD,24.490,0.000,1.984,0.600,27.074,0.000,0.000
+INV-0126,c-04,6,224,254,USD,79.00,0.00,0.00,2.00,81.00,0.00,0.00
+INV-0127,c-07,6,224,254,JPY,11850,0,0,300,12150,0,0
+INV-0128,c-08,6,224,254,KWD,62.248,3.820,11.101,1.043,70.572,0.000,0.000
+INV-0129,c-09,6,224,234,EUR,17.48,0.00,1.42,1.80,20.70,0.00,0.00
+INV-0130,c-10,6,224,254,USD,600.80,0.00,43.56,9.67,654.03,0.00,0.00
+INV-0131,c-11,6,224,254,JPY,11850,0,2252,300,14402,0,0
+INV-0132,c-12,6,224,254,EUR,72.68,0.00,6.18,1.80,80.66,0.00,0.00
+INV-0133,c-13,6,224,254,GBP,473.21,0.00,47.80,7.82,528.83,0.00,0.00
+INV-0134,c-15,6,224,254,USD,199.00,0.00,25.87,3.37,228.24,0.00,0.00
+INV-0135,c-16,6,224,269,INR,49717.00,0.00,5021.42,821.08,55559.50,0.00,0.00
+INV-0136,c-17,6,224,234,INR,49717.00,0.00,4225.95,809.14,54752.09,0.00,0.00
+INV-0137,c-18,6,224,254,GBP,473.21,0.00,0.00,7.10,480.31,0.00,0.00
+INV-0138,c-19,6,224,254,EUR,72.68,0.00,6.18,1.80,80.66,0.00,0.00
+INV-0139,c-20,6,224,254,JPY,29850,0,0,448,30298,0,0
+INV-0140,c-21,6,224,238,KWD,61.690,0.000,6.231,1.019,68.940,0.000,0.000
+INV-0141,c-22,6,224,254,KWD,185.690,0.000,0.000,2.785,188.475,0.000,0.000
+INV-0142,c-23,6,224,254,GBP,62.41,0.00,4.52,1.50,68.43,0.00,0.00
+INV-0143,c-06,6,239,269,GBP,1.17,1.17,0.00,0.00,0.00,0.00,0.00
+INV-0144,c-14,6,239,249,KWD,0.310,0.000,0.000,0.000,0.310,0.310,0.000
+INV-0145,c-01,7,299,344,USD,599.00,12.83,0.00,8.79,594.96,0.00,0.00
+INV-0146,c-02,7,299,344,GBP,474.00,24.00,90.00,8.10,548.10,0.00,0.00
+INV-0147,c-03,7,299,344,KWD,24.490,0.000,0.000,0.600,25.090,0.000,0.000
+INV-0148,c-04,7,299,329,USD,79.00,0.00,15.80,2.00,96.80,0.00,0.00
+INV-0149,c-07,7,299,329,JPY,11850,0,0,300,12150,0,0
+INV-0150,c-08,7,299,329,KWD,61.690,3.820,10.995,1.033,69.898,0.000,0.000
+INV-0151,c-09,7,299,329,EUR,17.76,0.00,1.42,1.80,20.98,0.00,0.00
+INV-0152,c-10,7,299,309,USD,599.00,0.00,43.43,9.43,651.86,14.00,0.00
+INV-0153,c-11,7,299,313,JPY,11850,0,2252,300,14402,0,0
+INV-0154,c-12,7,299,329,EUR,72.68,0.00,6.18,1.80,80.66,14.00,0.00
+INV-0155,c-13,7,299,344,GBP,474.00,213.12,0.00,3.91,264.79,0.00,0.00
+INV-0156,c-15,7,299,329,USD,199.00,0.00,25.87,3.37,228.24,0.00,0.00
+INV-0157,c-16,7,299,313,INR,49800.00,0.00,5029.80,822.45,55652.25,0.00,0.00
+INV-0158,c-17,7,299,309,INR,49717.00,0.00,4225.95,809.14,54752.09,0.00,0.00
+INV-0159,c-18,7,299,329,GBP,473.21,0.00,0.00,7.10,480.31,0.00,0.00
+INV-0160,c-19,7,299,329,EUR,72.68,0.00,6.18,1.80,80.66,0.00,0.00
+INV-0161,c-20,7,299,329,JPY,30000,8,0,450,30442,0,0
+INV-0162,c-21,7,299,313,KWD,61.690,0.000,6.231,1.019,68.940,0.000,0.000
+INV-0163,c-22,7,299,329,KWD,185.690,0.000,0.000,2.785,188.475,0.000,0.000
+INV-0164,c-23,7,299,329,GBP,63.36,17.11,3.35,1.50,51.10,0.00,0.00
+INV-0165,c-01,8,340,385,USD,599.00,12.83,0.00,8.79,594.96,0.00,0.00
+INV-0166,c-02,8,340,385,GBP,473.21,24.00,89.84,8.09,547.14,0.00,0.00
+INV-0167,c-03,8,340,385,KWD,24.490,0.000,0.000,0.600,25.090,0.000,0.000
+INV-0168,c-04,8,340,370,USD,79.00,0.00,15.80,2.00,96.80,0.00,0.00
+INV-0169,c-06,8,340,370,GBP,0.57,0.57,0.00,0.00,0.00,0.00,0.00
+INV-0170,c-07,8,340,370,JPY,11850,0,0,300,12150,0,0
+INV-0171,c-08,8,340,370,KWD,61.690,3.820,10.995,1.033,69.898,0.000,0.000
+INV-0172,c-09,8,340,370,EUR,17.48,0.00,1.42,1.80,20.70,0.00,0.00
+INV-0173,c-10,8,340,350,USD,599.00,0.00,43.43,9.64,652.07,0.00,0.00
+INV-0174,c-11,8,340,354,JPY,11850,0,2252,300,14402,0,0
+INV-0175,c-12,8,340,370,EUR,72.68,0.00,6.18,1.80,80.66,0.00,0.00
+INV-0176,c-13,8,340,385,GBP,473.21,212.95,26.29,4.30,290.85,0.00,0.00
+INV-0177,c-15,8,340,370,USD,199.00,0.00,0.00,2.99,201.99,0.00,0.00
+INV-0178,c-16,8,340,354,INR,49717.00,0.00,5021.42,821.08,55559.50,0.00,0.00
+INV-0179,c-17,8,340,350,INR,49717.00,5.90,4225.44,809.05,54745.59,0.00,0.00
+INV-0180,c-18,8,340,370,GBP,473.21,0.00,0.00,7.10,480.31,0.00,0.00
+INV-0181,c-19,8,340,370,EUR,72.68,0.00,6.18,1.80,80.66,0.00,0.00
+INV-0182,c-20,8,340,370,JPY,29850,0,0,448,30298,0,0
+INV-0183,c-21,8,340,354,KWD,61.690,0.000,6.231,1.019,68.940,0.000,0.000
+INV-0184,c-22,8,340,370,KWD,186.000,0.000,0.000,2.790,188.790,0.000,0.000
+INV-0185,c-23,8,340,370,GBP,62.41,16.85,3.30,1.50,50.36,0.00,0.00
+INV-0186,c-01,9,371,416,USD,599.00,12.83,0.00,8.79,594.96,0.00,0.00
+INV-0187,c-02,9,371,416,GBP,473.21,24.00,89.84,8.09,547.14,0.00,0.00
+INV-0188,c-03,9,371,416,KWD,24.490,0.000,0.000,0.600,25.090,0.000,0.000
+INV-0189,c-04,9,371,401,USD,79.00,0.00,15.80,2.00,96.80,0.00,0.00
+INV-0190,c-07,9,371,401,JPY,11850,0,0,300,12150,0,0
+INV-0191,c-08,9,371,401,KWD,61.690,3.820,10.995,1.033,69.898,0.000,0.000
+INV-0192,c-09,9,371,401,EUR,17.48,3.28,1.15,1.80,17.15,0.00,0.00
+INV-0193,c-10,9,371,381,USD,599.00,0.00,43.43,9.64,652.07,0.00,0.00
+INV-0194,c-11,9,371,385,JPY,11850,0,2252,300,14402,0,0
+INV-0195,c-12,9,371,401,EUR,72.68,0.00,6.18,1.80,80.66,0.00,0.00
+INV-0196,c-13,9,371,416,GBP,473.21,212.95,26.29,4.30,290.85,0.00,0.00
+INV-0197,c-15,9,371,401,USD,199.00,0.00,0.00,2.99,201.99,0.00,0.00
+INV-0198,c-16,9,371,385,INR,49717.00,0.00,5021.42,821.08,55559.50,0.00,0.00
+INV-0199,c-17,9,371,381,INR,49717.00,5.90,4225.44,809.05,54745.59,0.00,0.00
+INV-0200,c-18,9,371,401,GBP,473.21,0.00,0.00,7.10,480.31,0.00,0.00
+INV-0201,c-19,9,371,401,EUR,72.68,5.21,5.74,1.80,75.01,0.00,0.00
+INV-0202,c-20,9,371,401,JPY,29850,0,0,448,30298,0,0
+INV-0203,c-21,9,371,385,KWD,61.690,0.000,6.231,1.019,68.940,0.000,0.000
+INV-0204,c-22,9,371,401,KWD,185.690,0.000,0.000,2.785,188.475,0.000,0.000
+INV-0205,c-23,9,371,401,GBP,62.41,16.85,3.30,1.50,50.36,0.00,0.00
+INV-0206,c-01,11,371,416,USD,599.00,12.83,0.00,8.79,594.96,0.00,0.00
+INV-0207,c-02,11,371,416,GBP,473.21,24.00,89.84,8.09,547.14,0.00,0.00
+INV-0208,c-03,11,371,416,KWD,24.490,0.000,0.000,0.600,25.090,0.000,0.000
+INV-0209,c-04,11,371,401,USD,79.00,0.00,15.80,2.00,96.80,0.00,0.00
+INV-0210,c-07,11,371,401,JPY,11850,0,0,300,12150,13,0
+INV-0211,c-08,11,371,401,KWD,61.690,3.820,10.995,1.033,69.898,0.000,0.000
+INV-0212,c-09,11,371,401,EUR,17.48,3.28,1.15,1.80,17.15,0.00,0.00
+INV-0213,c-10,11,371,381,USD,599.00,0.00,0.00,8.99,607.99,0.00,0.00
+INV-0214,c-11,11,371,385,JPY,11850,0,2252,300,14402,0,0
+INV-0215,c-12,11,371,401,EUR,78.20,0.00,6.65,1.80,86.65,0.00,0.00
+INV-0216,c-13,11,371,416,GBP,473.21,108.84,36.80,6.02,407.19,0.00,0.00
+INV-0217,c-15,11,371,401,USD,199.00,0.00,0.00,2.99,201.99,0.00,0.00
+INV-0218,c-16,11,371,385,INR,49800.00,0.00,5029.80,822.45,55652.25,0.00,0.00
+INV-0219,c-17,11,371,381,INR,49717.00,5.90,4225.44,809.05,54745.59,0.00,0.00
+INV-0220,c-18,11,371,401,GBP,473.21,0.00,0.00,7.10,480.31,0.00,0.00
+INV-0221,c-19,11,371,401,EUR,72.68,5.21,5.74,1.80,75.01,0.00,0.00
+INV-0222,c-20,11,371,401,JPY,29850,0,0,448,30298,0,0
+INV-0223,c-21,11,371,385,KWD,61.690,0.000,6.231,1.019,68.940,0.000,0.000
+INV-0224,c-22,11,371,401,KWD,185.690,0.000,0.000,2.785,188.475,0.000,0.000
+INV-0225,c-23,11,371,401,GBP,62.41,16.85,3.30,1.50,50.36,0.00,0.00
+INV-0226,c-01,13,472,517,USD,599.00,12.83,0.00,0.00,586.17,0.00,0.00
+INV-0227,c-02,13,472,517,GBP,473.21,24.00,89.84,0.00,539.05,0.00,0.00
+INV-0228,c-03,13,472,517,KWD,24.490,8.705,0.000,0.000,15.785,0.000,0.000
+INV-0229,c-04,13,472,502,USD,79.00,0.00,15.80,0.00,94.80,0.00,0.00
+INV-0230,c-06,13,472,502,GBP,1.78,1.78,0.00,0.00,0.00,0.00,0.00
+INV-0231,c-07,13,472,502,JPY,11850,0,0,0,11850,0,0
+INV-0232,c-08,13,472,502,KWD,61.690,3.820,10.995,0.000,68.865,27.000,0.000
+INV-0233,c-09,13,472,482,EUR,17.48,3.28,1.15,0.00,15.35,0.00,0.00
+INV-0234,c-10,13,472,482,USD,599.00,0.00,0.00,0.00,599.00,0.00,0.00
+INV-0235,c-11,13,472,486,JPY,11850,0,2252,0,14102,0,0
+INV-0236,c-12,13,472,502,EUR,72.68,0.00,6.18,0.00,78.86,0.00,0.00
+INV-0237,c-13,13,472,517,GBP,473.21,216.48,25.93,0.00,282.66,0.00,0.00
+INV-0238,c-14,13,472,502,KWD,0.295,0.000,0.000,0.000,0.295,0.295,0.000
+INV-0239,c-15,13,472,502,USD,199.00,5.00,0.00,0.00,194.00,0.00,0.00
+INV-0240,c-16,13,472,486,INR,49754.35,0.00,0.00,0.00,49754.35,0.00,0.00
+INV-0241,c-17,13,472,517,INR,49717.00,5.90,4225.44,0.00,53936.54,0.00,0.00
+INV-0242,c-18,13,472,502,GBP,473.21,0.00,0.00,0.00,473.21,0.00,0.00
+INV-0243,c-19,13,472,502,EUR,77.10,5.21,6.12,0.00,78.01,0.00,0.00
+INV-0244,c-20,13,472,502,JPY,29850,0,0,0,29850,0,0
+INV-0245,c-21,13,472,486,KWD,61.690,4.000,5.827,0.000,63.517,11.000,0.000
+INV-0246,c-22,13,472,502,KWD,185.690,0.000,15.041,0.000,200.731,0.000,0.000
+INV-0247,c-23,13,472,502,GBP,62.41,16.85,3.30,0.00,48.86,12.00,0.00
+INV-0248,c-01,15,502,547,USD,599.00,12.83,0.00,0.00,586.17,0.00,0.00
+INV-0249,c-02,15,502,547,GBP,473.21,24.00,89.84,0.00,539.05,0.00,0.00
+INV-0250,c-03,15,502,547,KWD,24.490,15.072,0.000,0.000,9.418,0.000,0.000
+INV-0251,c-04,15,502,532,USD,79.00,0.00,15.80,0.00,94.80,0.00,0.00
+INV-0252,c-07,15,502,532,JPY,11850,0,0,0,11850,0,0
+INV-0253,c-08,15,502,532,KWD,61.690,3.820,10.995,0.000,68.865,0.000,0.000
+INV-0254,c-09,15,502,512,EUR,17.48,3.28,1.15,0.00,15.35,0.00,0.00
+INV-0255,c-10,15,502,512,USD,599.00,0.00,0.00,0.00,599.00,0.00,0.00
+INV-0256,c-11,15,502,516,JPY,11850,0,2252,0,14102,0,0
+INV-0257,c-12,15,502,532,EUR,72.68,0.00,6.18,0.00,78.86,0.00,0.00
+INV-0258,c-13,15,502,547,GBP,473.21,216.48,25.93,0.00,282.66,0.00,0.00
+INV-0259,c-15,15,502,532,USD,199.00,5.00,0.00,0.00,194.00,0.00,0.00
+INV-0260,c-16,15,502,516,INR,49717.00,0.00,0.00,0.00,49717.00,0.00,0.00
+INV-0261,c-17,15,502,547,INR,49717.00,5.90,4225.44,0.00,53936.54,0.00,0.00
+INV-0262,c-18,15,502,532,GBP,473.21,0.00,0.00,0.00,473.21,0.00,0.00
+INV-0263,c-19,15,502,532,EUR,72.68,5.21,5.74,0.00,73.21,0.00,0.00
+INV-0264,c-20,15,502,532,JPY,29850,0,0,0,29850,0,0
+INV-0265,c-21,15,502,516,KWD,61.690,4.000,5.827,0.000,63.517,0.000,0.000
+INV-0266,c-22,15,502,532,KWD,185.690,0.000,15.041,0.000,200.731,0.000,0.000
+INV-0267,c-23,15,502,532,GBP,62.41,16.85,3.30,0.00,48.86,0.00,0.00
+157 day=224 refund c-02 INV-0002 0.17
+204 day=239 refund c-10 INV-0008 0.09
+383 day=371 refund c-04 INV-0004 0.09
+407 day=400 refund c-22 INV-0019 0.070
+447 day=472 refund c-19 INV-0016 0.20
+5 entries
+168 day=472 coupon add c-03 pct_all 26
+169 day=472 dun day 472 0
+170 day=472 dun day 472 0
+171 day=472 dun day 472 0
+172 day=502 invoice run period 15 20
+5 of 172 entries

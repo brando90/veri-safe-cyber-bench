@@ -1,0 +1,5652 @@
+customer c-free added plan=free region=tx currency=USD since=0
+customer c-biz added plan=business region=de currency=EUR since=0
+customer c-ch added plan=starter region=ch currency=CHF since=0
+quote c-free storage plan=free
+  units=3000 allowance=2000 billable=1000 blocks=1
+  blocks 1-1 x 12
+  charge 0.12 USD
+quote c-free storage plan=free
+  units=2001 allowance=2000 billable=1 blocks=1
+  blocks 1-1 x 12
+  charge 0.12 USD
+quote c-free storage plan=free
+  units=5000 allowance=2000 billable=3000 blocks=3
+  blocks 1-3 x 12
+  charge 0.36 USD
+quote c-free storage plan=free
+  units=4001 allowance=2000 billable=2001 blocks=3
+  blocks 1-3 x 12
+  charge 0.36 USD
+quote c-free storage plan=free
+  units=12000 allowance=2000 billable=10000 blocks=10
+  blocks 1-10 x 12
+  charge 1.20 USD
+quote c-free storage plan=free
+  units=11001 allowance=2000 billable=9001 blocks=10
+  blocks 1-10 x 12
+  charge 1.20 USD
+quote c-free storage plan=free
+  units=32000 allowance=2000 billable=30000 blocks=30
+  blocks 1-30 x 12
+  charge 3.60 USD
+quote c-free storage plan=free
+  units=31001 allowance=2000 billable=29001 blocks=30
+  blocks 1-30 x 12
+  charge 3.60 USD
+quote c-free storage plan=free
+  units=33000 allowance=2000 billable=31000 blocks=31
+  blocks 1-31 x 12
+  charge 3.72 USD
+quote c-free storage plan=free
+  units=32001 allowance=2000 billable=30001 blocks=31
+  blocks 1-31 x 12
+  charge 3.72 USD
+quote c-free storage plan=free
+  units=62000 allowance=2000 billable=60000 blocks=60
+  blocks 1-60 x 12
+  charge 7.20 USD
+quote c-free storage plan=free
+  units=61001 allowance=2000 billable=59001 blocks=60
+  blocks 1-60 x 12
+  charge 7.20 USD
+quote c-free storage plan=free
+  units=102000 allowance=2000 billable=100000 blocks=100
+  blocks 1-100 x 12
+  charge 12.00 USD
+quote c-free storage plan=free
+  units=101001 allowance=2000 billable=99001 blocks=100
+  blocks 1-100 x 12
+  charge 12.00 USD
+quote c-free storage plan=free
+  units=103000 allowance=2000 billable=101000 blocks=101
+  blocks 1-100 x 12
+  blocks 101-101 x 9
+  charge 12.09 USD
+quote c-free storage plan=free
+  units=102001 allowance=2000 billable=100001 blocks=101
+  blocks 1-100 x 12
+  blocks 101-101 x 9
+  charge 12.09 USD
+quote c-free storage plan=free
+  units=122000 allowance=2000 billable=120000 blocks=120
+  blocks 1-100 x 12
+  blocks 101-120 x 9
+  charge 13.80 USD
+quote c-free storage plan=free
+  units=121001 allowance=2000 billable=119001 blocks=120
+  blocks 1-100 x 12
+  blocks 101-120 x 9
+  charge 13.80 USD
+quote c-free storage plan=free
+  units=123000 allowance=2000 billable=121000 blocks=121
+  blocks 1-100 x 12
+  blocks 101-121 x 9
+  charge 13.89 USD
+quote c-free storage plan=free
+  units=122001 allowance=2000 billable=120001 blocks=121
+  blocks 1-100 x 12
+  blocks 101-121 x 9
+  charge 13.89 USD
+quote c-free storage plan=free
+  units=202000 allowance=2000 billable=200000 blocks=200
+  blocks 1-100 x 12
+  blocks 101-200 x 9
+  charge 21.00 USD
+quote c-free storage plan=free
+  units=201001 allowance=2000 billable=199001 blocks=200
+  blocks 1-100 x 12
+  blocks 101-200 x 9
+  charge 21.00 USD
+quote c-free storage plan=free
+  units=203000 allowance=2000 billable=201000 blocks=201
+  blocks 1-100 x 12
+  blocks 101-201 x 9
+  charge 21.09 USD
+quote c-free storage plan=free
+  units=202001 allowance=2000 billable=200001 blocks=201
+  blocks 1-100 x 12
+  blocks 101-201 x 9
+  charge 21.09 USD
+quote c-biz storage plan=business
+  units=81000 allowance=80000 billable=1000 blocks=1
+  blocks 1-1 x 12
+  charge 0.11 EUR
+quote c-biz storage plan=business
+  units=80001 allowance=80000 billable=1 blocks=1
+  blocks 1-1 x 12
+  charge 0.11 EUR
+quote c-biz storage plan=business
+  units=83000 allowance=80000 billable=3000 blocks=3
+  blocks 1-3 x 12
+  charge 0.33 EUR
+quote c-biz storage plan=business
+  units=82001 allowance=80000 billable=2001 blocks=3
+  blocks 1-3 x 12
+  charge 0.33 EUR
+quote c-biz storage plan=business
+  units=90000 allowance=80000 billable=10000 blocks=10
+  blocks 1-10 x 12
+  charge 1.10 EUR
+quote c-biz storage plan=business
+  units=89001 allowance=80000 billable=9001 blocks=10
+  blocks 1-10 x 12
+  charge 1.10 EUR
+quote c-biz storage plan=business
+  units=110000 allowance=80000 billable=30000 blocks=30
+  blocks 1-30 x 12
+  charge 3.31 EUR
+quote c-biz storage plan=business
+  units=109001 allowance=80000 billable=29001 blocks=30
+  blocks 1-30 x 12
+  charge 3.31 EUR
+quote c-biz storage plan=business
+  units=111000 allowance=80000 billable=31000 blocks=31
+  blocks 1-31 x 12
+  charge 3.42 EUR
+quote c-biz storage plan=business
+  units=110001 allowance=80000 billable=30001 blocks=31
+  blocks 1-31 x 12
+  charge 3.42 EUR
+quote c-biz storage plan=business
+  units=140000 allowance=80000 billable=60000 blocks=60
+  blocks 1-60 x 12
+  charge 6.62 EUR
+quote c-biz storage plan=business
+  units=139001 allowance=80000 billable=59001 blocks=60
+  blocks 1-60 x 12
+  charge 6.62 EUR
+quote c-biz storage plan=business
+  units=180000 allowance=80000 billable=100000 blocks=100
+  blocks 1-100 x 12
+  charge 11.04 EUR
+quote c-biz storage plan=business
+  units=179001 allowance=80000 billable=99001 blocks=100
+  blocks 1-100 x 12
+  charge 11.04 EUR
+quote c-biz storage plan=business
+  units=181000 allowance=80000 billable=101000 blocks=101
+  blocks 1-100 x 12
+  blocks 101-101 x 9
+  charge 11.12 EUR
+quote c-biz storage plan=business
+  units=180001 allowance=80000 billable=100001 blocks=101
+  blocks 1-100 x 12
+  blocks 101-101 x 9
+  charge 11.12 EUR
+quote c-biz storage plan=business
+  units=200000 allowance=80000 billable=120000 blocks=120
+  blocks 1-100 x 12
+  blocks 101-120 x 9
+  charge 12.70 EUR
+quote c-biz storage plan=business
+  units=199001 allowance=80000 billable=119001 blocks=120
+  blocks 1-100 x 12
+  blocks 101-120 x 9
+  charge 12.70 EUR
+quote c-biz storage plan=business
+  units=201000 allowance=80000 billable=121000 blocks=121
+  blocks 1-100 x 12
+  blocks 101-121 x 9
+  charge 12.78 EUR
+quote c-biz storage plan=business
+  units=200001 allowance=80000 billable=120001 blocks=121
+  blocks 1-100 x 12
+  blocks 101-121 x 9
+  charge 12.78 EUR
+quote c-biz storage plan=business
+  units=280000 allowance=80000 billable=200000 blocks=200
+  blocks 1-100 x 12
+  blocks 101-200 x 9
+  charge 19.32 EUR
+quote c-biz storage plan=business
+  units=279001 allowance=80000 billable=199001 blocks=200
+  blocks 1-100 x 12
+  blocks 101-200 x 9
+  charge 19.32 EUR
+quote c-biz storage plan=business
+  units=281000 allowance=80000 billable=201000 blocks=201
+  blocks 1-100 x 12
+  blocks 101-201 x 9
+  charge 19.40 EUR
+quote c-biz storage plan=business
+  units=280001 allowance=80000 billable=200001 blocks=201
+  blocks 1-100 x 12
+  blocks 101-201 x 9
+  charge 19.40 EUR
+quote c-ch storage plan=starter
+  units=9000 allowance=8000 billable=1000 blocks=1
+  blocks 1-1 x 12
+  charge 0.11 CHF
+quote c-ch storage plan=starter
+  units=8001 allowance=8000 billable=1 blocks=1
+  blocks 1-1 x 12
+  charge 0.11 CHF
+quote c-ch storage plan=starter
+  units=11000 allowance=8000 billable=3000 blocks=3
+  blocks 1-3 x 12
+  charge 0.32 CHF
+quote c-ch storage plan=starter
+  units=10001 allowance=8000 billable=2001 blocks=3
+  blocks 1-3 x 12
+  charge 0.32 CHF
+quote c-ch storage plan=starter
+  units=18000 allowance=8000 billable=10000 blocks=10
+  blocks 1-10 x 12
+  charge 1.08 CHF
+quote c-ch storage plan=starter
+  units=17001 allowance=8000 billable=9001 blocks=10
+  blocks 1-10 x 12
+  charge 1.08 CHF
+quote c-ch storage plan=starter
+  units=38000 allowance=8000 billable=30000 blocks=30
+  blocks 1-30 x 12
+  charge 3.24 CHF
+quote c-ch storage plan=starter
+  units=37001 allowance=8000 billable=29001 blocks=30
+  blocks 1-30 x 12
+  charge 3.24 CHF
+quote c-ch storage plan=starter
+  units=39000 allowance=8000 billable=31000 blocks=31
+  blocks 1-31 x 12
+  charge 3.35 CHF
+quote c-ch storage plan=starter
+  units=38001 allowance=8000 billable=30001 blocks=31
+  blocks 1-31 x 12
+  charge 3.35 CHF
+quote c-ch storage plan=starter
+  units=68000 allowance=8000 billable=60000 blocks=60
+  blocks 1-60 x 12
+  charge 6.48 CHF
+quote c-ch storage plan=starter
+  units=67001 allowance=8000 billable=59001 blocks=60
+  blocks 1-60 x 12
+  charge 6.48 CHF
+quote c-ch storage plan=starter
+  units=108000 allowance=8000 billable=100000 blocks=100
+  blocks 1-100 x 12
+  charge 10.80 CHF
+quote c-ch storage plan=starter
+  units=107001 allowance=8000 billable=99001 blocks=100
+  blocks 1-100 x 12
+  charge 10.80 CHF
+quote c-ch storage plan=starter
+  units=109000 allowance=8000 billable=101000 blocks=101
+  blocks 1-100 x 12
+  blocks 101-101 x 9
+  charge 10.88 CHF
+quote c-ch storage plan=starter
+  units=108001 allowance=8000 billable=100001 blocks=101
+  blocks 1-100 x 12
+  blocks 101-101 x 9
+  charge 10.88 CHF
+quote c-ch storage plan=starter
+  units=128000 allowance=8000 billable=120000 blocks=120
+  blocks 1-100 x 12
+  blocks 101-120 x 9
+  charge 12.42 CHF
+quote c-ch storage plan=starter
+  units=127001 allowance=8000 billable=119001 blocks=120
+  blocks 1-100 x 12
+  blocks 101-120 x 9
+  charge 12.42 CHF
+quote c-ch storage plan=starter
+  units=129000 allowance=8000 billable=121000 blocks=121
+  blocks 1-100 x 12
+  blocks 101-121 x 9
+  charge 12.50 CHF
+quote c-ch storage plan=starter
+  units=128001 allowance=8000 billable=120001 blocks=121
+  blocks 1-100 x 12
+  blocks 101-121 x 9
+  charge 12.50 CHF
+quote c-ch storage plan=starter
+  units=208000 allowance=8000 billable=200000 blocks=200
+  blocks 1-100 x 12
+  blocks 101-200 x 9
+  charge 18.90 CHF
+quote c-ch storage plan=starter
+  units=207001 allowance=8000 billable=199001 blocks=200
+  blocks 1-100 x 12
+  blocks 101-200 x 9
+  charge 18.90 CHF
+quote c-ch storage plan=starter
+  units=209000 allowance=8000 billable=201000 blocks=201
+  blocks 1-100 x 12
+  blocks 101-201 x 9
+  charge 18.98 CHF
+quote c-ch storage plan=starter
+  units=208001 allowance=8000 billable=200001 blocks=201
+  blocks 1-100 x 12
+  blocks 101-201 x 9
+  charge 18.98 CHF
+quote c-free egress plan=free
+  units=30 allowance=20 billable=10 blocks=1
+  blocks 1-1 x 40
+  charge 0.40 USD
+quote c-free egress plan=free
+  units=21 allowance=20 billable=1 blocks=1
+  blocks 1-1 x 40
+  charge 0.40 USD
+quote c-free egress plan=free
+  units=50 allowance=20 billable=30 blocks=3
+  blocks 1-3 x 40
+  charge 1.20 USD
+quote c-free egress plan=free
+  units=41 allowance=20 billable=21 blocks=3
+  blocks 1-3 x 40
+  charge 1.20 USD
+quote c-free egress plan=free
+  units=120 allowance=20 billable=100 blocks=10
+  blocks 1-10 x 40
+  charge 4.00 USD
+quote c-free egress plan=free
+  units=111 allowance=20 billable=91 blocks=10
+  blocks 1-10 x 40
+  charge 4.00 USD
+quote c-free egress plan=free
+  units=320 allowance=20 billable=300 blocks=30
+  blocks 1-30 x 40
+  charge 12.00 USD
+quote c-free egress plan=free
+  units=311 allowance=20 billable=291 blocks=30
+  blocks 1-30 x 40
+  charge 12.00 USD
+quote c-free egress plan=free
+  units=330 allowance=20 billable=310 blocks=31
+  blocks 1-31 x 40
+  charge 12.40 USD
+quote c-free egress plan=free
+  units=321 allowance=20 billable=301 blocks=31
+  blocks 1-31 x 40
+  charge 12.40 USD
+quote c-free egress plan=free
+  units=620 allowance=20 billable=600 blocks=60
+  blocks 1-50 x 40
+  blocks 51-60 x 32
+  charge 23.20 USD
+quote c-free egress plan=free
+  units=611 allowance=20 billable=591 blocks=60
+  blocks 1-50 x 40
+  blocks 51-60 x 32
+  charge 23.20 USD
+quote c-free egress plan=free
+  units=1020 allowance=20 billable=1000 blocks=100
+  blocks 1-50 x 40
+  blocks 51-100 x 32
+  charge 36.00 USD
+quote c-free egress plan=free
+  units=1011 allowance=20 billable=991 blocks=100
+  blocks 1-50 x 40
+  blocks 51-100 x 32
+  charge 36.00 USD
+quote c-free egress plan=free
+  units=1030 allowance=20 billable=1010 blocks=101
+  blocks 1-50 x 40
+  blocks 51-101 x 32
+  charge 36.32 USD
+quote c-free egress plan=free
+  units=1021 allowance=20 billable=1001 blocks=101
+  blocks 1-50 x 40
+  blocks 51-101 x 32
+  charge 36.32 USD
+quote c-free egress plan=free
+  units=1220 allowance=20 billable=1200 blocks=120
+  blocks 1-50 x 40
+  blocks 51-120 x 32
+  charge 42.40 USD
+quote c-free egress plan=free
+  units=1211 allowance=20 billable=1191 blocks=120
+  blocks 1-50 x 40
+  blocks 51-120 x 32
+  charge 42.40 USD
+quote c-free egress plan=free
+  units=1230 allowance=20 billable=1210 blocks=121
+  blocks 1-50 x 40
+  blocks 51-121 x 32
+  charge 42.72 USD
+quote c-free egress plan=free
+  units=1221 allowance=20 billable=1201 blocks=121
+  blocks 1-50 x 40
+  blocks 51-121 x 32
+  charge 42.72 USD
+quote c-free egress plan=free
+  units=2020 allowance=20 billable=2000 blocks=200
+  blocks 1-50 x 40
+  blocks 51-200 x 32
+  charge 68.00 USD
+quote c-free egress plan=free
+  units=2011 allowance=20 billable=1991 blocks=200
+  blocks 1-50 x 40
+  blocks 51-200 x 32
+  charge 68.00 USD
+quote c-free egress plan=free
+  units=2030 allowance=20 billable=2010 blocks=201
+  blocks 1-50 x 40
+  blocks 51-200 x 32
+  blocks 201-201 x 25
+  charge 68.25 USD
+quote c-free egress plan=free
+  units=2021 allowance=20 billable=2001 blocks=201
+  blocks 1-50 x 40
+  blocks 51-200 x 32
+  blocks 201-201 x 25
+  charge 68.25 USD
+quote c-biz egress plan=business
+  units=810 allowance=800 billable=10 blocks=1
+  blocks 1-1 x 40
+  charge 0.37 EUR
+quote c-biz egress plan=business
+  units=801 allowance=800 billable=1 blocks=1
+  blocks 1-1 x 40
+  charge 0.37 EUR
+quote c-biz egress plan=business
+  units=830 allowance=800 billable=30 blocks=3
+  blocks 1-3 x 40
+  charge 1.10 EUR
+quote c-biz egress plan=business
+  units=821 allowance=800 billable=21 blocks=3
+  blocks 1-3 x 40
+  charge 1.10 EUR
+quote c-biz egress plan=business
+  units=900 allowance=800 billable=100 blocks=10
+  blocks 1-10 x 40
+  charge 3.68 EUR
+quote c-biz egress plan=business
+  units=891 allowance=800 billable=91 blocks=10
+  blocks 1-10 x 40
+  charge 3.68 EUR
+quote c-biz egress plan=business
+  units=1100 allowance=800 billable=300 blocks=30
+  blocks 1-30 x 40
+  charge 11.04 EUR
+quote c-biz egress plan=business
+  units=1091 allowance=800 billable=291 blocks=30
+  blocks 1-30 x 40
+  charge 11.04 EUR
+quote c-biz egress plan=business
+  units=1110 allowance=800 billable=310 blocks=31
+  blocks 1-31 x 40
+  charge 11.41 EUR
+quote c-biz egress plan=business
+  units=1101 allowance=800 billable=301 blocks=31
+  blocks 1-31 x 40
+  charge 11.41 EUR
+quote c-biz egress plan=business
+  units=1400 allowance=800 billable=600 blocks=60
+  blocks 1-50 x 40
+  blocks 51-60 x 32
+  charge 21.34 EUR
+quote c-biz egress plan=business
+  units=1391 allowance=800 billable=591 blocks=60
+  blocks 1-50 x 40
+  blocks 51-60 x 32
+  charge 21.34 EUR
+quote c-biz egress plan=business
+  units=1800 allowance=800 billable=1000 blocks=100
+  blocks 1-50 x 40
+  blocks 51-100 x 32
+  charge 33.12 EUR
+quote c-biz egress plan=business
+  units=1791 allowance=800 billable=991 blocks=100
+  blocks 1-50 x 40
+  blocks 51-100 x 32
+  charge 33.12 EUR
+quote c-biz egress plan=business
+  units=1810 allowance=800 billable=1010 blocks=101
+  blocks 1-50 x 40
+  blocks 51-101 x 32
+  charge 33.41 EUR
+quote c-biz egress plan=business
+  units=1801 allowance=800 billable=1001 blocks=101
+  blocks 1-50 x 40
+  blocks 51-101 x 32
+  charge 33.41 EUR
+quote c-biz egress plan=business
+  units=2000 allowance=800 billable=1200 blocks=120
+  blocks 1-50 x 40
+  blocks 51-120 x 32
+  charge 39.01 EUR
+quote c-biz egress plan=business
+  units=1991 allowance=800 billable=1191 blocks=120
+  blocks 1-50 x 40
+  blocks 51-120 x 32
+  charge 39.01 EUR
+quote c-biz egress plan=business
+  units=2010 allowance=800 billable=1210 blocks=121
+  blocks 1-50 x 40
+  blocks 51-121 x 32
+  charge 39.30 EUR
+quote c-biz egress plan=business
+  units=2001 allowance=800 billable=1201 blocks=121
+  blocks 1-50 x 40
+  blocks 51-121 x 32
+  charge 39.30 EUR
+quote c-biz egress plan=business
+  units=2800 allowance=800 billable=2000 blocks=200
+  blocks 1-50 x 40
+  blocks 51-200 x 32
+  charge 62.56 EUR
+quote c-biz egress plan=business
+  units=2791 allowance=800 billable=1991 blocks=200
+  blocks 1-50 x 40
+  blocks 51-200 x 32
+  charge 62.56 EUR
+quote c-biz egress plan=business
+  units=2810 allowance=800 billable=2010 blocks=201
+  blocks 1-50 x 40
+  blocks 51-200 x 32
+  blocks 201-201 x 25
+  charge 62.79 EUR
+quote c-biz egress plan=business
+  units=2801 allowance=800 billable=2001 blocks=201
+  blocks 1-50 x 40
+  blocks 51-200 x 32
+  blocks 201-201 x 25
+  charge 62.79 EUR
+quote c-ch egress plan=starter
+  units=90 allowance=80 billable=10 blocks=1
+  blocks 1-1 x 40
+  charge 0.36 CHF
+quote c-ch egress plan=starter
+  units=81 allowance=80 billable=1 blocks=1
+  blocks 1-1 x 40
+  charge 0.36 CHF
+quote c-ch egress plan=starter
+  units=110 allowance=80 billable=30 blocks=3
+  blocks 1-3 x 40
+  charge 1.08 CHF
+quote c-ch egress plan=starter
+  units=101 allowance=80 billable=21 blocks=3
+  blocks 1-3 x 40
+  charge 1.08 CHF
+quote c-ch egress plan=starter
+  units=180 allowance=80 billable=100 blocks=10
+  blocks 1-10 x 40
+  charge 3.60 CHF
+quote c-ch egress plan=starter
+  units=171 allowance=80 billable=91 blocks=10
+  blocks 1-10 x 40
+  charge 3.60 CHF
+quote c-ch egress plan=starter
+  units=380 allowance=80 billable=300 blocks=30
+  blocks 1-30 x 40
+  charge 10.80 CHF
+quote c-ch egress plan=starter
+  units=371 allowance=80 billable=291 blocks=30
+  blocks 1-30 x 40
+  charge 10.80 CHF
+quote c-ch egress plan=starter
+  units=390 allowance=80 billable=310 blocks=31
+  blocks 1-31 x 40
+  charge 11.16 CHF
+quote c-ch egress plan=starter
+  units=381 allowance=80 billable=301 blocks=31
+  blocks 1-31 x 40
+  charge 11.16 CHF
+quote c-ch egress plan=starter
+  units=680 allowance=80 billable=600 blocks=60
+  blocks 1-50 x 40
+  blocks 51-60 x 32
+  charge 20.88 CHF
+quote c-ch egress plan=starter
+  units=671 allowance=80 billable=591 blocks=60
+  blocks 1-50 x 40
+  blocks 51-60 x 32
+  charge 20.88 CHF
+quote c-ch egress plan=starter
+  units=1080 allowance=80 billable=1000 blocks=100
+  blocks 1-50 x 40
+  blocks 51-100 x 32
+  charge 32.40 CHF
+quote c-ch egress plan=starter
+  units=1071 allowance=80 billable=991 blocks=100
+  blocks 1-50 x 40
+  blocks 51-100 x 32
+  charge 32.40 CHF
+quote c-ch egress plan=starter
+  units=1090 allowance=80 billable=1010 blocks=101
+  blocks 1-50 x 40
+  blocks 51-101 x 32
+  charge 32.69 CHF
+quote c-ch egress plan=starter
+  units=1081 allowance=80 billable=1001 blocks=101
+  blocks 1-50 x 40
+  blocks 51-101 x 32
+  charge 32.69 CHF
+quote c-ch egress plan=starter
+  units=1280 allowance=80 billable=1200 blocks=120
+  blocks 1-50 x 40
+  blocks 51-120 x 32
+  charge 38.16 CHF
+quote c-ch egress plan=starter
+  units=1271 allowance=80 billable=1191 blocks=120
+  blocks 1-50 x 40
+  blocks 51-120 x 32
+  charge 38.16 CHF
+quote c-ch egress plan=starter
+  units=1290 allowance=80 billable=1210 blocks=121
+  blocks 1-50 x 40
+  blocks 51-121 x 32
+  charge 38.45 CHF
+quote c-ch egress plan=starter
+  units=1281 allowance=80 billable=1201 blocks=121
+  blocks 1-50 x 40
+  blocks 51-121 x 32
+  charge 38.45 CHF
+quote c-ch egress plan=starter
+  units=2080 allowance=80 billable=2000 blocks=200
+  blocks 1-50 x 40
+  blocks 51-200 x 32
+  charge 61.20 CHF
+quote c-ch egress plan=starter
+  units=2071 allowance=80 billable=1991 blocks=200
+  blocks 1-50 x 40
+  blocks 51-200 x 32
+  charge 61.20 CHF
+quote c-ch egress plan=starter
+  units=2090 allowance=80 billable=2010 blocks=201
+  blocks 1-50 x 40
+  blocks 51-200 x 32
+  blocks 201-201 x 25
+  charge 61.43 CHF
+quote c-ch egress plan=starter
+  units=2081 allowance=80 billable=2001 blocks=201
+  blocks 1-50 x 40
+  blocks 51-200 x 32
+  blocks 201-201 x 25
+  charge 61.43 CHF
+quote c-free compute plan=free
+  units=180 allowance=120 billable=60 blocks=1
+  blocks 1-1 x 95
+  charge 0.95 USD
+quote c-free compute plan=free
+  units=121 allowance=120 billable=1 blocks=1
+  blocks 1-1 x 95
+  charge 0.95 USD
+quote c-free compute plan=free
+  units=300 allowance=120 billable=180 blocks=3
+  blocks 1-3 x 95
+  charge 2.85 USD
+quote c-free compute plan=free
+  units=241 allowance=120 billable=121 blocks=3
+  blocks 1-3 x 95
+  charge 2.85 USD
+quote c-free compute plan=free
+  units=720 allowance=120 billable=600 blocks=10
+  blocks 1-10 x 95
+  charge 9.50 USD
+quote c-free compute plan=free
+  units=661 allowance=120 billable=541 blocks=10
+  blocks 1-10 x 95
+  charge 9.50 USD
+quote c-free compute plan=free
+  units=1920 allowance=120 billable=1800 blocks=30
+  blocks 1-20 x 95
+  blocks 21-30 x 80
+  charge 27.00 USD
+quote c-free compute plan=free
+  units=1861 allowance=120 billable=1741 blocks=30
+  blocks 1-20 x 95
+  blocks 21-30 x 80
+  charge 27.00 USD
+quote c-free compute plan=free
+  units=1980 allowance=120 billable=1860 blocks=31
+  blocks 1-20 x 95
+  blocks 21-31 x 80
+  charge 27.80 USD
+quote c-free compute plan=free
+  units=1921 allowance=120 billable=1801 blocks=31
+  blocks 1-20 x 95
+  blocks 21-31 x 80
+  charge 27.80 USD
+quote c-free compute plan=free
+  units=3720 allowance=120 billable=3600 blocks=60
+  blocks 1-20 x 95
+  blocks 21-60 x 80
+  charge 51.00 USD
+quote c-free compute plan=free
+  units=3661 allowance=120 billable=3541 blocks=60
+  blocks 1-20 x 95
+  blocks 21-60 x 80
+  charge 51.00 USD
+quote c-free compute plan=free
+  units=6120 allowance=120 billable=6000 blocks=100
+  blocks 1-20 x 95
+  blocks 21-100 x 80
+  charge 83.00 USD
+quote c-free compute plan=free
+  units=6061 allowance=120 billable=5941 blocks=100
+  blocks 1-20 x 95
+  blocks 21-100 x 80
+  charge 83.00 USD
+quote c-free compute plan=free
+  units=6180 allowance=120 billable=6060 blocks=101
+  blocks 1-20 x 95
+  blocks 21-101 x 80
+  charge 83.80 USD
+quote c-free compute plan=free
+  units=6121 allowance=120 billable=6001 blocks=101
+  blocks 1-20 x 95
+  blocks 21-101 x 80
+  charge 83.80 USD
+quote c-free compute plan=free
+  units=7320 allowance=120 billable=7200 blocks=120
+  blocks 1-20 x 95
+  blocks 21-120 x 80
+  charge 99.00 USD
+quote c-free compute plan=free
+  units=7261 allowance=120 billable=7141 blocks=120
+  blocks 1-20 x 95
+  blocks 21-120 x 80
+  charge 99.00 USD
+quote c-free compute plan=free
+  units=7380 allowance=120 billable=7260 blocks=121
+  blocks 1-20 x 95
+  blocks 21-121 x 80
+  charge 99.80 USD
+quote c-free compute plan=free
+  units=7321 allowance=120 billable=7201 blocks=121
+  blocks 1-20 x 95
+  blocks 21-121 x 80
+  charge 99.80 USD
+quote c-free compute plan=free
+  units=12120 allowance=120 billable=12000 blocks=200
+  blocks 1-20 x 95
+  blocks 21-200 x 80
+  charge 163.00 USD
+quote c-free compute plan=free
+  units=12061 allowance=120 billable=11941 blocks=200
+  blocks 1-20 x 95
+  blocks 21-200 x 80
+  charge 163.00 USD
+quote c-free compute plan=free
+  units=12180 allowance=120 billable=12060 blocks=201
+  blocks 1-20 x 95
+  blocks 21-201 x 80
+  charge 163.80 USD
+quote c-free compute plan=free
+  units=12121 allowance=120 billable=12001 blocks=201
+  blocks 1-20 x 95
+  blocks 21-201 x 80
+  charge 163.80 USD
+quote c-biz compute plan=business
+  units=4860 allowance=4800 billable=60 blocks=1
+  blocks 1-1 x 95
+  charge 0.87 EUR
+quote c-biz compute plan=business
+  units=4801 allowance=4800 billable=1 blocks=1
+  blocks 1-1 x 95
+  charge 0.87 EUR
+quote c-biz compute plan=business
+  units=4980 allowance=4800 billable=180 blocks=3
+  blocks 1-3 x 95
+  charge 2.62 EUR
+quote c-biz compute plan=business
+  units=4921 allowance=4800 billable=121 blocks=3
+  blocks 1-3 x 95
+  charge 2.62 EUR
+quote c-biz compute plan=business
+  units=5400 allowance=4800 billable=600 blocks=10
+  blocks 1-10 x 95
+  charge 8.74 EUR
+quote c-biz compute plan=business
+  units=5341 allowance=4800 billable=541 blocks=10
+  blocks 1-10 x 95
+  charge 8.74 EUR
+quote c-biz compute plan=business
+  units=6600 allowance=4800 billable=1800 blocks=30
+  blocks 1-20 x 95
+  blocks 21-30 x 80
+  charge 24.84 EUR
+quote c-biz compute plan=business
+  units=6541 allowance=4800 billable=1741 blocks=30
+  blocks 1-20 x 95
+  blocks 21-30 x 80
+  charge 24.84 EUR
+quote c-biz compute plan=business
+  units=6660 allowance=4800 billable=1860 blocks=31
+  blocks 1-20 x 95
+  blocks 21-31 x 80
+  charge 25.58 EUR
+quote c-biz compute plan=business
+  units=6601 allowance=4800 billable=1801 blocks=31
+  blocks 1-20 x 95
+  blocks 21-31 x 80
+  charge 25.58 EUR
+quote c-biz compute plan=business
+  units=8400 allowance=4800 billable=3600 blocks=60
+  blocks 1-20 x 95
+  blocks 21-60 x 80
+  charge 46.92 EUR
+quote c-biz compute plan=business
+  units=8341 allowance=4800 billable=3541 blocks=60
+  blocks 1-20 x 95
+  blocks 21-60 x 80
+  charge 46.92 EUR
+quote c-biz compute plan=business
+  units=10800 allowance=4800 billable=6000 blocks=100
+  blocks 1-20 x 95
+  blocks 21-100 x 80
+  charge 76.36 EUR
+quote c-biz compute plan=business
+  units=10741 allowance=4800 billable=5941 blocks=100
+  blocks 1-20 x 95
+  blocks 21-100 x 80
+  charge 76.36 EUR
+quote c-biz compute plan=business
+  units=10860 allowance=4800 billable=6060 blocks=101
+  blocks 1-20 x 95
+  blocks 21-101 x 80
+  charge 77.10 EUR
+quote c-biz compute plan=business
+  units=10801 allowance=4800 billable=6001 blocks=101
+  blocks 1-20 x 95
+  blocks 21-101 x 80
+  charge 77.10 EUR
+quote c-biz compute plan=business
+  units=12000 allowance=4800 billable=7200 blocks=120
+  blocks 1-20 x 95
+  blocks 21-120 x 80
+  charge 91.08 EUR
+quote c-biz compute plan=business
+  units=11941 allowance=4800 billable=7141 blocks=120
+  blocks 1-20 x 95
+  blocks 21-120 x 80
+  charge 91.08 EUR
+quote c-biz compute plan=business
+  units=12060 allowance=4800 billable=7260 blocks=121
+  blocks 1-20 x 95
+  blocks 21-121 x 80
+  charge 91.82 EUR
+quote c-biz compute plan=business
+  units=12001 allowance=4800 billable=7201 blocks=121
+  blocks 1-20 x 95
+  blocks 21-121 x 80
+  charge 91.82 EUR
+quote c-biz compute plan=business
+  units=16800 allowance=4800 billable=12000 blocks=200
+  blocks 1-20 x 95
+  blocks 21-200 x 80
+  charge 149.96 EUR
+quote c-biz compute plan=business
+  units=16741 allowance=4800 billable=11941 blocks=200
+  blocks 1-20 x 95
+  blocks 21-200 x 80
+  charge 149.96 EUR
+quote c-biz compute plan=business
+  units=16860 allowance=4800 billable=12060 blocks=201
+  blocks 1-20 x 95
+  blocks 21-201 x 80
+  charge 150.70 EUR
+quote c-biz compute plan=business
+  units=16801 allowance=4800 billable=12001 blocks=201
+  blocks 1-20 x 95
+  blocks 21-201 x 80
+  charge 150.70 EUR
+quote c-ch compute plan=starter
+  units=540 allowance=480 billable=60 blocks=1
+  blocks 1-1 x 95
+  charge 0.86 CHF
+quote c-ch compute plan=starter
+  units=481 allowance=480 billable=1 blocks=1
+  blocks 1-1 x 95
+  charge 0.86 CHF
+quote c-ch compute plan=starter
+  units=660 allowance=480 billable=180 blocks=3
+  blocks 1-3 x 95
+  charge 2.57 CHF
+quote c-ch compute plan=starter
+  units=601 allowance=480 billable=121 blocks=3
+  blocks 1-3 x 95
+  charge 2.57 CHF
+quote c-ch compute plan=starter
+  units=1080 allowance=480 billable=600 blocks=10
+  blocks 1-10 x 95
+  charge 8.55 CHF
+quote c-ch compute plan=starter
+  units=1021 allowance=480 billable=541 blocks=10
+  blocks 1-10 x 95
+  charge 8.55 CHF
+quote c-ch compute plan=starter
+  units=2280 allowance=480 billable=1800 blocks=30
+  blocks 1-20 x 95
+  blocks 21-30 x 80
+  charge 24.30 CHF
+quote c-ch compute plan=starter
+  units=2221 allowance=480 billable=1741 blocks=30
+  blocks 1-20 x 95
+  blocks 21-30 x 80
+  charge 24.30 CHF
+quote c-ch compute plan=starter
+  units=2340 allowance=480 billable=1860 blocks=31
+  blocks 1-20 x 95
+  blocks 21-31 x 80
+  charge 25.02 CHF
+quote c-ch compute plan=starter
+  units=2281 allowance=480 billable=1801 blocks=31
+  blocks 1-20 x 95
+  blocks 21-31 x 80
+  charge 25.02 CHF
+quote c-ch compute plan=starter
+  units=4080 allowance=480 billable=3600 blocks=60
+  blocks 1-20 x 95
+  blocks 21-60 x 80
+  charge 45.90 CHF
+quote c-ch compute plan=starter
+  units=4021 allowance=480 billable=3541 blocks=60
+  blocks 1-20 x 95
+  blocks 21-60 x 80
+  charge 45.90 CHF
+quote c-ch compute plan=starter
+  units=6480 allowance=480 billable=6000 blocks=100
+  blocks 1-20 x 95
+  blocks 21-100 x 80
+  charge 74.70 CHF
+quote c-ch compute plan=starter
+  units=6421 allowance=480 billable=5941 blocks=100
+  blocks 1-20 x 95
+  blocks 21-100 x 80
+  charge 74.70 CHF
+quote c-ch compute plan=starter
+  units=6540 allowance=480 billable=6060 blocks=101
+  blocks 1-20 x 95
+  blocks 21-101 x 80
+  charge 75.42 CHF
+quote c-ch compute plan=starter
+  units=6481 allowance=480 billable=6001 blocks=101
+  blocks 1-20 x 95
+  blocks 21-101 x 80
+  charge 75.42 CHF
+quote c-ch compute plan=starter
+  units=7680 allowance=480 billable=7200 blocks=120
+  blocks 1-20 x 95
+  blocks 21-120 x 80
+  charge 89.10 CHF
+quote c-ch compute plan=starter
+  units=7621 allowance=480 billable=7141 blocks=120
+  blocks 1-20 x 95
+  blocks 21-120 x 80
+  charge 89.10 CHF
+quote c-ch compute plan=starter
+  units=7740 allowance=480 billable=7260 blocks=121
+  blocks 1-20 x 95
+  blocks 21-121 x 80
+  charge 89.82 CHF
+quote c-ch compute plan=starter
+  units=7681 allowance=480 billable=7201 blocks=121
+  blocks 1-20 x 95
+  blocks 21-121 x 80
+  charge 89.82 CHF
+quote c-ch compute plan=starter
+  units=12480 allowance=480 billable=12000 blocks=200
+  blocks 1-20 x 95
+  blocks 21-200 x 80
+  charge 146.70 CHF
+quote c-ch compute plan=starter
+  units=12421 allowance=480 billable=11941 blocks=200
+  blocks 1-20 x 95
+  blocks 21-200 x 80
+  charge 146.70 CHF
+quote c-ch compute plan=starter
+  units=12540 allowance=480 billable=12060 blocks=201
+  blocks 1-20 x 95
+  blocks 21-201 x 80
+  charge 147.42 CHF
+quote c-ch compute plan=starter
+  units=12481 allowance=480 billable=12001 blocks=201
+  blocks 1-20 x 95
+  blocks 21-201 x 80
+  charge 147.42 CHF
+quote c-free requests plan=free
+  units=6000 allowance=5000 billable=1000 blocks=1
+  blocks 1-1 x 15
+  charge 0.15 USD
+quote c-free requests plan=free
+  units=5001 allowance=5000 billable=1 blocks=1
+  blocks 1-1 x 15
+  charge 0.15 USD
+quote c-free requests plan=free
+  units=8000 allowance=5000 billable=3000 blocks=3
+  blocks 1-3 x 15
+  charge 0.45 USD
+quote c-free requests plan=free
+  units=7001 allowance=5000 billable=2001 blocks=3
+  blocks 1-3 x 15
+  charge 0.45 USD
+quote c-free requests plan=free
+  units=15000 allowance=5000 billable=10000 blocks=10
+  blocks 1-10 x 15
+  charge 1.50 USD
+quote c-free requests plan=free
+  units=14001 allowance=5000 billable=9001 blocks=10
+  blocks 1-10 x 15
+  charge 1.50 USD
+quote c-free requests plan=free
+  units=35000 allowance=5000 billable=30000 blocks=30
+  blocks 1-30 x 15
+  charge 4.50 USD
+quote c-free requests plan=free
+  units=34001 allowance=5000 billable=29001 blocks=30
+  blocks 1-30 x 15
+  charge 4.50 USD
+quote c-free requests plan=free
+  units=36000 allowance=5000 billable=31000 blocks=31
+  blocks 1-31 x 15
+  charge 4.65 USD
+quote c-free requests plan=free
+  units=35001 allowance=5000 billable=30001 blocks=31
+  blocks 1-31 x 15
+  charge 4.65 USD
+quote c-free requests plan=free
+  units=65000 allowance=5000 billable=60000 blocks=60
+  blocks 1-60 x 15
+  charge 9.00 USD
+quote c-free requests plan=free
+  units=64001 allowance=5000 billable=59001 blocks=60
+  blocks 1-60 x 15
+  charge 9.00 USD
+quote c-free requests plan=free
+  units=105000 allowance=5000 billable=100000 blocks=100
+  blocks 1-100 x 15
+  charge 15.00 USD
+quote c-free requests plan=free
+  units=104001 allowance=5000 billable=99001 blocks=100
+  blocks 1-100 x 15
+  charge 15.00 USD
+quote c-free requests plan=free
+  units=106000 allowance=5000 billable=101000 blocks=101
+  blocks 1-101 x 15
+  charge 15.15 USD
+quote c-free requests plan=free
+  units=105001 allowance=5000 billable=100001 blocks=101
+  blocks 1-101 x 15
+  charge 15.15 USD
+quote c-free requests plan=free
+  units=125000 allowance=5000 billable=120000 blocks=120
+  blocks 1-120 x 15
+  charge 18.00 USD
+quote c-free requests plan=free
+  units=124001 allowance=5000 billable=119001 blocks=120
+  blocks 1-120 x 15
+  charge 18.00 USD
+quote c-free requests plan=free
+  units=126000 allowance=5000 billable=121000 blocks=121
+  blocks 1-121 x 15
+  charge 18.15 USD
+quote c-free requests plan=free
+  units=125001 allowance=5000 billable=120001 blocks=121
+  blocks 1-121 x 15
+  charge 18.15 USD
+quote c-free requests plan=free
+  units=205000 allowance=5000 billable=200000 blocks=200
+  blocks 1-200 x 15
+  charge 30.00 USD
+quote c-free requests plan=free
+  units=204001 allowance=5000 billable=199001 blocks=200
+  blocks 1-200 x 15
+  charge 30.00 USD
+quote c-free requests plan=free
+  units=206000 allowance=5000 billable=201000 blocks=201
+  blocks 1-201 x 15
+  charge 30.15 USD
+quote c-free requests plan=free
+  units=205001 allowance=5000 billable=200001 blocks=201
+  blocks 1-201 x 15
+  charge 30.15 USD
+quote c-biz requests plan=business
+  units=201000 allowance=200000 billable=1000 blocks=1
+  blocks 1-1 x 15
+  charge 0.14 EUR
+quote c-biz requests plan=business
+  units=200001 allowance=200000 billable=1 blocks=1
+  blocks 1-1 x 15
+  charge 0.14 EUR
+quote c-biz requests plan=business
+  units=203000 allowance=200000 billable=3000 blocks=3
+  blocks 1-3 x 15
+  charge 0.41 EUR
+quote c-biz requests plan=business
+  units=202001 allowance=200000 billable=2001 blocks=3
+  blocks 1-3 x 15
+  charge 0.41 EUR
+quote c-biz requests plan=business
+  units=210000 allowance=200000 billable=10000 blocks=10
+  blocks 1-10 x 15
+  charge 1.38 EUR
+quote c-biz requests plan=business
+  units=209001 allowance=200000 billable=9001 blocks=10
+  blocks 1-10 x 15
+  charge 1.38 EUR
+quote c-biz requests plan=business
+  units=230000 allowance=200000 billable=30000 blocks=30
+  blocks 1-30 x 15
+  charge 4.14 EUR
+quote c-biz requests plan=business
+  units=229001 allowance=200000 billable=29001 blocks=30
+  blocks 1-30 x 15
+  charge 4.14 EUR
+quote c-biz requests plan=business
+  units=231000 allowance=200000 billable=31000 blocks=31
+  blocks 1-31 x 15
+  charge 4.28 EUR
+quote c-biz requests plan=business
+  units=230001 allowance=200000 billable=30001 blocks=31
+  blocks 1-31 x 15
+  charge 4.28 EUR
+quote c-biz requests plan=business
+  units=260000 allowance=200000 billable=60000 blocks=60
+  blocks 1-60 x 15
+  charge 8.28 EUR
+quote c-biz requests plan=business
+  units=259001 allowance=200000 billable=59001 blocks=60
+  blocks 1-60 x 15
+  charge 8.28 EUR
+quote c-biz requests plan=business
+  units=300000 allowance=200000 billable=100000 blocks=100
+  blocks 1-100 x 15
+  charge 13.80 EUR
+quote c-biz requests plan=business
+  units=299001 allowance=200000 billable=99001 blocks=100
+  blocks 1-100 x 15
+  charge 13.80 EUR
+quote c-biz requests plan=business
+  units=301000 allowance=200000 billable=101000 blocks=101
+  blocks 1-101 x 15
+  charge 13.94 EUR
+quote c-biz requests plan=business
+  units=300001 allowance=200000 billable=100001 blocks=101
+  blocks 1-101 x 15
+  charge 13.94 EUR
+quote c-biz requests plan=business
+  units=320000 allowance=200000 billable=120000 blocks=120
+  blocks 1-120 x 15
+  charge 16.56 EUR
+quote c-biz requests plan=business
+  units=319001 allowance=200000 billable=119001 blocks=120
+  blocks 1-120 x 15
+  charge 16.56 EUR
+quote c-biz requests plan=business
+  units=321000 allowance=200000 billable=121000 blocks=121
+  blocks 1-121 x 15
+  charge 16.70 EUR
+quote c-biz requests plan=business
+  units=320001 allowance=200000 billable=120001 blocks=121
+  blocks 1-121 x 15
+  charge 16.70 EUR
+quote c-biz requests plan=business
+  units=400000 allowance=200000 billable=200000 blocks=200
+  blocks 1-200 x 15
+  charge 27.60 EUR
+quote c-biz requests plan=business
+  units=399001 allowance=200000 billable=199001 blocks=200
+  blocks 1-200 x 15
+  charge 27.60 EUR
+quote c-biz requests plan=business
+  units=401000 allowance=200000 billable=201000 blocks=201
+  blocks 1-201 x 15
+  charge 27.74 EUR
+quote c-biz requests plan=business
+  units=400001 allowance=200000 billable=200001 blocks=201
+  blocks 1-201 x 15
+  charge 27.74 EUR
+quote c-ch requests plan=starter
+  units=21000 allowance=20000 billable=1000 blocks=1
+  blocks 1-1 x 15
+  charge 0.14 CHF
+quote c-ch requests plan=starter
+  units=20001 allowance=20000 billable=1 blocks=1
+  blocks 1-1 x 15
+  charge 0.14 CHF
+quote c-ch requests plan=starter
+  units=23000 allowance=20000 billable=3000 blocks=3
+  blocks 1-3 x 15
+  charge 0.41 CHF
+quote c-ch requests plan=starter
+  units=22001 allowance=20000 billable=2001 blocks=3
+  blocks 1-3 x 15
+  charge 0.41 CHF
+quote c-ch requests plan=starter
+  units=30000 allowance=20000 billable=10000 blocks=10
+  blocks 1-10 x 15
+  charge 1.35 CHF
+quote c-ch requests plan=starter
+  units=29001 allowance=20000 billable=9001 blocks=10
+  blocks 1-10 x 15
+  charge 1.35 CHF
+quote c-ch requests plan=starter
+  units=50000 allowance=20000 billable=30000 blocks=30
+  blocks 1-30 x 15
+  charge 4.05 CHF
+quote c-ch requests plan=starter
+  units=49001 allowance=20000 billable=29001 blocks=30
+  blocks 1-30 x 15
+  charge 4.05 CHF
+quote c-ch requests plan=starter
+  units=51000 allowance=20000 billable=31000 blocks=31
+  blocks 1-31 x 15
+  charge 4.19 CHF
+quote c-ch requests plan=starter
+  units=50001 allowance=20000 billable=30001 blocks=31
+  blocks 1-31 x 15
+  charge 4.19 CHF
+quote c-ch requests plan=starter
+  units=80000 allowance=20000 billable=60000 blocks=60
+  blocks 1-60 x 15
+  charge 8.10 CHF
+quote c-ch requests plan=starter
+  units=79001 allowance=20000 billable=59001 blocks=60
+  blocks 1-60 x 15
+  charge 8.10 CHF
+quote c-ch requests plan=starter
+  units=120000 allowance=20000 billable=100000 blocks=100
+  blocks 1-100 x 15
+  charge 13.50 CHF
+quote c-ch requests plan=starter
+  units=119001 allowance=20000 billable=99001 blocks=100
+  blocks 1-100 x 15
+  charge 13.50 CHF
+quote c-ch requests plan=starter
+  units=121000 allowance=20000 billable=101000 blocks=101
+  blocks 1-101 x 15
+  charge 13.64 CHF
+quote c-ch requests plan=starter
+  units=120001 allowance=20000 billable=100001 blocks=101
+  blocks 1-101 x 15
+  charge 13.64 CHF
+quote c-ch requests plan=starter
+  units=140000 allowance=20000 billable=120000 blocks=120
+  blocks 1-120 x 15
+  charge 16.20 CHF
+quote c-ch requests plan=starter
+  units=139001 allowance=20000 billable=119001 blocks=120
+  blocks 1-120 x 15
+  charge 16.20 CHF
+quote c-ch requests plan=starter
+  units=141000 allowance=20000 billable=121000 blocks=121
+  blocks 1-121 x 15
+  charge 16.34 CHF
+quote c-ch requests plan=starter
+  units=140001 allowance=20000 billable=120001 blocks=121
+  blocks 1-121 x 15
+  charge 16.34 CHF
+quote c-ch requests plan=starter
+  units=220000 allowance=20000 billable=200000 blocks=200
+  blocks 1-200 x 15
+  charge 27.00 CHF
+quote c-ch requests plan=starter
+  units=219001 allowance=20000 billable=199001 blocks=200
+  blocks 1-200 x 15
+  charge 27.00 CHF
+quote c-ch requests plan=starter
+  units=221000 allowance=20000 billable=201000 blocks=201
+  blocks 1-201 x 15
+  charge 27.14 CHF
+quote c-ch requests plan=starter
+  units=220001 allowance=20000 billable=200001 blocks=201
+  blocks 1-201 x 15
+  charge 27.14 CHF
+quote c-free sms plan=free
+  units=200 allowance=100 billable=100 blocks=1
+  blocks 1-1 x 70
+  charge 0.70 USD
+quote c-free sms plan=free
+  units=101 allowance=100 billable=1 blocks=1
+  blocks 1-1 x 70
+  charge 0.70 USD
+quote c-free sms plan=free
+  units=400 allowance=100 billable=300 blocks=3
+  blocks 1-3 x 70
+  charge 2.10 USD
+quote c-free sms plan=free
+  units=301 allowance=100 billable=201 blocks=3
+  blocks 1-3 x 70
+  charge 2.10 USD
+quote c-free sms plan=free
+  units=1100 allowance=100 billable=1000 blocks=10
+  blocks 1-10 x 70
+  charge 7.00 USD
+quote c-free sms plan=free
+  units=1001 allowance=100 billable=901 blocks=10
+  blocks 1-10 x 70
+  charge 7.00 USD
+quote c-free sms plan=free
+  units=3100 allowance=100 billable=3000 blocks=30
+  blocks 1-10 x 70
+  blocks 11-30 x 55
+  charge 18.00 USD
+quote c-free sms plan=free
+  units=3001 allowance=100 billable=2901 blocks=30
+  blocks 1-10 x 70
+  blocks 11-30 x 55
+  charge 18.00 USD
+quote c-free sms plan=free
+  units=3200 allowance=100 billable=3100 blocks=31
+  blocks 1-10 x 70
+  blocks 11-31 x 55
+  charge 18.55 USD
+quote c-free sms plan=free
+  units=3101 allowance=100 billable=3001 blocks=31
+  blocks 1-10 x 70
+  blocks 11-31 x 55
+  charge 18.55 USD
+quote c-free sms plan=free
+  units=6100 allowance=100 billable=6000 blocks=60
+  blocks 1-10 x 70
+  blocks 11-60 x 55
+  charge 34.50 USD
+quote c-free sms plan=free
+  units=6001 allowance=100 billable=5901 blocks=60
+  blocks 1-10 x 70
+  blocks 11-60 x 55
+  charge 34.50 USD
+quote c-free sms plan=free
+  units=10100 allowance=100 billable=10000 blocks=100
+  blocks 1-10 x 70
+  blocks 11-100 x 55
+  charge 56.50 USD
+quote c-free sms plan=free
+  units=10001 allowance=100 billable=9901 blocks=100
+  blocks 1-10 x 70
+  blocks 11-100 x 55
+  charge 56.50 USD
+quote c-free sms plan=free
+  units=10200 allowance=100 billable=10100 blocks=101
+  blocks 1-10 x 70
+  blocks 11-101 x 55
+  charge 57.05 USD
+quote c-free sms plan=free
+  units=10101 allowance=100 billable=10001 blocks=101
+  blocks 1-10 x 70
+  blocks 11-101 x 55
+  charge 57.05 USD
+quote c-free sms plan=free
+  units=12100 allowance=100 billable=12000 blocks=120
+  blocks 1-10 x 70
+  blocks 11-120 x 55
+  charge 67.50 USD
+quote c-free sms plan=free
+  units=12001 allowance=100 billable=11901 blocks=120
+  blocks 1-10 x 70
+  blocks 11-120 x 55
+  charge 67.50 USD
+quote c-free sms plan=free
+  units=12200 allowance=100 billable=12100 blocks=121
+  blocks 1-10 x 70
+  blocks 11-121 x 55
+  charge 68.05 USD
+quote c-free sms plan=free
+  units=12101 allowance=100 billable=12001 blocks=121
+  blocks 1-10 x 70
+  blocks 11-121 x 55
+  charge 68.05 USD
+quote c-free sms plan=free
+  units=20100 allowance=100 billable=20000 blocks=200
+  blocks 1-10 x 70
+  blocks 11-200 x 55
+  charge 111.50 USD
+quote c-free sms plan=free
+  units=20001 allowance=100 billable=19901 blocks=200
+  blocks 1-10 x 70
+  blocks 11-200 x 55
+  charge 111.50 USD
+quote c-free sms plan=free
+  units=20200 allowance=100 billable=20100 blocks=201
+  blocks 1-10 x 70
+  blocks 11-201 x 55
+  charge 112.05 USD
+quote c-free sms plan=free
+  units=20101 allowance=100 billable=20001 blocks=201
+  blocks 1-10 x 70
+  blocks 11-201 x 55
+  charge 112.05 USD
+quote c-biz sms plan=business
+  units=4100 allowance=4000 billable=100 blocks=1
+  blocks 1-1 x 70
+  charge 0.64 EUR
+quote c-biz sms plan=business
+  units=4001 allowance=4000 billable=1 blocks=1
+  blocks 1-1 x 70
+  charge 0.64 EUR
+quote c-biz sms plan=business
+  units=4300 allowance=4000 billable=300 blocks=3
+  blocks 1-3 x 70
+  charge 1.93 EUR
+quote c-biz sms plan=business
+  units=4201 allowance=4000 billable=201 blocks=3
+  blocks 1-3 x 70
+  charge 1.93 EUR
+quote c-biz sms plan=business
+  units=5000 allowance=4000 billable=1000 blocks=10
+  blocks 1-10 x 70
+  charge 6.44 EUR
+quote c-biz sms plan=business
+  units=4901 allowance=4000 billable=901 blocks=10
+  blocks 1-10 x 70
+  charge 6.44 EUR
+quote c-biz sms plan=business
+  units=7000 allowance=4000 billable=3000 blocks=30
+  blocks 1-10 x 70
+  blocks 11-30 x 55
+  charge 16.56 EUR
+quote c-biz sms plan=business
+  units=6901 allowance=4000 billable=2901 blocks=30
+  blocks 1-10 x 70
+  blocks 11-30 x 55
+  charge 16.56 EUR
+quote c-biz sms plan=business
+  units=7100 allowance=4000 billable=3100 blocks=31
+  blocks 1-10 x 70
+  blocks 11-31 x 55
+  charge 17.07 EUR
+quote c-biz sms plan=business
+  units=7001 allowance=4000 billable=3001 blocks=31
+  blocks 1-10 x 70
+  blocks 11-31 x 55
+  charge 17.07 EUR
+quote c-biz sms plan=business
+  units=10000 allowance=4000 billable=6000 blocks=60
+  blocks 1-10 x 70
+  blocks 11-60 x 55
+  charge 31.74 EUR
+quote c-biz sms plan=business
+  units=9901 allowance=4000 billable=5901 blocks=60
+  blocks 1-10 x 70
+  blocks 11-60 x 55
+  charge 31.74 EUR
+quote c-biz sms plan=business
+  units=14000 allowance=4000 billable=10000 blocks=100
+  blocks 1-10 x 70
+  blocks 11-100 x 55
+  charge 51.98 EUR
+quote c-biz sms plan=business
+  units=13901 allowance=4000 billable=9901 blocks=100
+  blocks 1-10 x 70
+  blocks 11-100 x 55
+  charge 51.98 EUR
+quote c-biz sms plan=business
+  units=14100 allowance=4000 billable=10100 blocks=101
+  blocks 1-10 x 70
+  blocks 11-101 x 55
+  charge 52.49 EUR
+quote c-biz sms plan=business
+  units=14001 allowance=4000 billable=10001 blocks=101
+  blocks 1-10 x 70
+  blocks 11-101 x 55
+  charge 52.49 EUR
+quote c-biz sms plan=business
+  units=16000 allowance=4000 billable=12000 blocks=120
+  blocks 1-10 x 70
+  blocks 11-120 x 55
+  charge 62.10 EUR
+quote c-biz sms plan=business
+  units=15901 allowance=4000 billable=11901 blocks=120
+  blocks 1-10 x 70
+  blocks 11-120 x 55
+  charge 62.10 EUR
+quote c-biz sms plan=business
+  units=16100 allowance=4000 billable=12100 blocks=121
+  blocks 1-10 x 70
+  blocks 11-121 x 55
+  charge 62.61 EUR
+quote c-biz sms plan=business
+  units=16001 allowance=4000 billable=12001 blocks=121
+  blocks 1-10 x 70
+  blocks 11-121 x 55
+  charge 62.61 EUR
+quote c-biz sms plan=business
+  units=24000 allowance=4000 billable=20000 blocks=200
+  blocks 1-10 x 70
+  blocks 11-200 x 55
+  charge 102.58 EUR
+quote c-biz sms plan=business
+  units=23901 allowance=4000 billable=19901 blocks=200
+  blocks 1-10 x 70
+  blocks 11-200 x 55
+  charge 102.58 EUR
+quote c-biz sms plan=business
+  units=24100 allowance=4000 billable=20100 blocks=201
+  blocks 1-10 x 70
+  blocks 11-201 x 55
+  charge 103.09 EUR
+quote c-biz sms plan=business
+  units=24001 allowance=4000 billable=20001 blocks=201
+  blocks 1-10 x 70
+  blocks 11-201 x 55
+  charge 103.09 EUR
+quote c-ch sms plan=starter
+  units=500 allowance=400 billable=100 blocks=1
+  blocks 1-1 x 70
+  charge 0.63 CHF
+quote c-ch sms plan=starter
+  units=401 allowance=400 billable=1 blocks=1
+  blocks 1-1 x 70
+  charge 0.63 CHF
+quote c-ch sms plan=starter
+  units=700 allowance=400 billable=300 blocks=3
+  blocks 1-3 x 70
+  charge 1.89 CHF
+quote c-ch sms plan=starter
+  units=601 allowance=400 billable=201 blocks=3
+  blocks 1-3 x 70
+  charge 1.89 CHF
+quote c-ch sms plan=starter
+  units=1400 allowance=400 billable=1000 blocks=10
+  blocks 1-10 x 70
+  charge 6.30 CHF
+quote c-ch sms plan=starter
+  units=1301 allowance=400 billable=901 blocks=10
+  blocks 1-10 x 70
+  charge 6.30 CHF
+quote c-ch sms plan=starter
+  units=3400 allowance=400 billable=3000 blocks=30
+  blocks 1-10 x 70
+  blocks 11-30 x 55
+  charge 16.20 CHF
+quote c-ch sms plan=starter
+  units=3301 allowance=400 billable=2901 blocks=30
+  blocks 1-10 x 70
+  blocks 11-30 x 55
+  charge 16.20 CHF
+quote c-ch sms plan=starter
+  units=3500 allowance=400 billable=3100 blocks=31
+  blocks 1-10 x 70
+  blocks 11-31 x 55
+  charge 16.70 CHF
+quote c-ch sms plan=starter
+  units=3401 allowance=400 billable=3001 blocks=31
+  blocks 1-10 x 70
+  blocks 11-31 x 55
+  charge 16.70 CHF
+quote c-ch sms plan=starter
+  units=6400 allowance=400 billable=6000 blocks=60
+  blocks 1-10 x 70
+  blocks 11-60 x 55
+  charge 31.05 CHF
+quote c-ch sms plan=starter
+  units=6301 allowance=400 billable=5901 blocks=60
+  blocks 1-10 x 70
+  blocks 11-60 x 55
+  charge 31.05 CHF
+quote c-ch sms plan=starter
+  units=10400 allowance=400 billable=10000 blocks=100
+  blocks 1-10 x 70
+  blocks 11-100 x 55
+  charge 50.85 CHF
+quote c-ch sms plan=starter
+  units=10301 allowance=400 billable=9901 blocks=100
+  blocks 1-10 x 70
+  blocks 11-100 x 55
+  charge 50.85 CHF
+quote c-ch sms plan=starter
+  units=10500 allowance=400 billable=10100 blocks=101
+  blocks 1-10 x 70
+  blocks 11-101 x 55
+  charge 51.35 CHF
+quote c-ch sms plan=starter
+  units=10401 allowance=400 billable=10001 blocks=101
+  blocks 1-10 x 70
+  blocks 11-101 x 55
+  charge 51.35 CHF
+quote c-ch sms plan=starter
+  units=12400 allowance=400 billable=12000 blocks=120
+  blocks 1-10 x 70
+  blocks 11-120 x 55
+  charge 60.75 CHF
+quote c-ch sms plan=starter
+  units=12301 allowance=400 billable=11901 blocks=120
+  blocks 1-10 x 70
+  blocks 11-120 x 55
+  charge 60.75 CHF
+quote c-ch sms plan=starter
+  units=12500 allowance=400 billable=12100 blocks=121
+  blocks 1-10 x 70
+  blocks 11-121 x 55
+  charge 61.25 CHF
+quote c-ch sms plan=starter
+  units=12401 allowance=400 billable=12001 blocks=121
+  blocks 1-10 x 70
+  blocks 11-121 x 55
+  charge 61.25 CHF
+quote c-ch sms plan=starter
+  units=20400 allowance=400 billable=20000 blocks=200
+  blocks 1-10 x 70
+  blocks 11-200 x 55
+  charge 100.35 CHF
+quote c-ch sms plan=starter
+  units=20301 allowance=400 billable=19901 blocks=200
+  blocks 1-10 x 70
+  blocks 11-200 x 55
+  charge 100.35 CHF
+quote c-ch sms plan=starter
+  units=20500 allowance=400 billable=20100 blocks=201
+  blocks 1-10 x 70
+  blocks 11-201 x 55
+  charge 100.85 CHF
+quote c-ch sms plan=starter
+  units=20401 allowance=400 billable=20001 blocks=201
+  blocks 1-10 x 70
+  blocks 11-201 x 55
+  charge 100.85 CHF
+quote c-free voice plan=free
+  units=5 allowance=0 billable=5 blocks=1
+  blocks 1-1 x 45
+  charge 0.45 USD
+quote c-free voice plan=free
+  units=1 allowance=0 billable=1 blocks=0
+  charge 0.00 USD
+quote c-free voice plan=free
+  units=15 allowance=0 billable=15 blocks=3
+  blocks 1-3 x 45
+  charge 1.35 USD
+quote c-free voice plan=free
+  units=11 allowance=0 billable=11 blocks=2
+  blocks 1-2 x 45
+  charge 0.90 USD
+quote c-free voice plan=free
+  units=50 allowance=0 billable=50 blocks=10
+  blocks 1-10 x 45
+  charge 4.50 USD
+quote c-free voice plan=free
+  units=46 allowance=0 billable=46 blocks=9
+  blocks 1-9 x 45
+  charge 4.05 USD
+quote c-free voice plan=free
+  units=150 allowance=0 billable=150 blocks=30
+  blocks 1-30 x 45
+  charge 13.50 USD
+quote c-free voice plan=free
+  units=146 allowance=0 billable=146 blocks=29
+  blocks 1-29 x 45
+  charge 13.05 USD
+quote c-free voice plan=free
+  units=155 allowance=0 billable=155 blocks=31
+  blocks 1-31 x 45
+  charge 13.95 USD
+quote c-free voice plan=free
+  units=151 allowance=0 billable=151 blocks=30
+  blocks 1-30 x 45
+  charge 13.50 USD
+quote c-free voice plan=free
+  units=300 allowance=0 billable=300 blocks=60
+  blocks 1-60 x 45
+  charge 27.00 USD
+quote c-free voice plan=free
+  units=296 allowance=0 billable=296 blocks=59
+  blocks 1-59 x 45
+  charge 26.55 USD
+quote c-free voice plan=free
+  units=500 allowance=0 billable=500 blocks=100
+  blocks 1-100 x 45
+  charge 45.00 USD
+quote c-free voice plan=free
+  units=496 allowance=0 billable=496 blocks=99
+  blocks 1-99 x 45
+  charge 44.55 USD
+quote c-free voice plan=free
+  units=505 allowance=0 billable=505 blocks=101
+  blocks 1-101 x 45
+  charge 45.45 USD
+quote c-free voice plan=free
+  units=501 allowance=0 billable=501 blocks=100
+  blocks 1-100 x 45
+  charge 45.00 USD
+quote c-free voice plan=free
+  units=600 allowance=0 billable=600 blocks=120
+  blocks 1-120 x 45
+  charge 54.00 USD
+quote c-free voice plan=free
+  units=596 allowance=0 billable=596 blocks=119
+  blocks 1-119 x 45
+  charge 53.55 USD
+quote c-free voice plan=free
+  units=605 allowance=0 billable=605 blocks=121
+  blocks 1-121 x 45
+  charge 54.45 USD
+quote c-free voice plan=free
+  units=601 allowance=0 billable=601 blocks=120
+  blocks 1-120 x 45
+  charge 54.00 USD
+quote c-free voice plan=free
+  units=1000 allowance=0 billable=1000 blocks=200
+  blocks 1-200 x 45
+  charge 90.00 USD
+quote c-free voice plan=free
+  units=996 allowance=0 billable=996 blocks=199
+  blocks 1-199 x 45
+  charge 89.55 USD
+quote c-free voice plan=free
+  units=1005 allowance=0 billable=1005 blocks=201
+  blocks 1-201 x 45
+  charge 90.45 USD
+quote c-free voice plan=free
+  units=1001 allowance=0 billable=1001 blocks=200
+  blocks 1-200 x 45
+  charge 90.00 USD
+quote c-biz voice plan=business
+  units=5 allowance=0 billable=5 blocks=1
+  blocks 1-1 x 45
+  charge 0.41 EUR
+quote c-biz voice plan=business
+  units=1 allowance=0 billable=1 blocks=0
+  charge 0.00 EUR
+quote c-biz voice plan=business
+  units=15 allowance=0 billable=15 blocks=3
+  blocks 1-3 x 45
+  charge 1.24 EUR
+quote c-biz voice plan=business
+  units=11 allowance=0 billable=11 blocks=2
+  blocks 1-2 x 45
+  charge 0.83 EUR
+quote c-biz voice plan=business
+  units=50 allowance=0 billable=50 blocks=10
+  blocks 1-10 x 45
+  charge 4.14 EUR
+quote c-biz voice plan=business
+  units=46 allowance=0 billable=46 blocks=9
+  blocks 1-9 x 45
+  charge 3.73 EUR
+quote c-biz voice plan=business
+  units=150 allowance=0 billable=150 blocks=30
+  blocks 1-30 x 45
+  charge 12.42 EUR
+quote c-biz voice plan=business
+  units=146 allowance=0 billable=146 blocks=29
+  blocks 1-29 x 45
+  charge 12.01 EUR
+quote c-biz voice plan=business
+  units=155 allowance=0 billable=155 blocks=31
+  blocks 1-31 x 45
+  charge 12.83 EUR
+quote c-biz voice plan=business
+  units=151 allowance=0 billable=151 blocks=30
+  blocks 1-30 x 45
+  charge 12.42 EUR
+quote c-biz voice plan=business
+  units=300 allowance=0 billable=300 blocks=60
+  blocks 1-60 x 45
+  charge 24.84 EUR
+quote c-biz voice plan=business
+  units=296 allowance=0 billable=296 blocks=59
+  blocks 1-59 x 45
+  charge 24.43 EUR
+quote c-biz voice plan=business
+  units=500 allowance=0 billable=500 blocks=100
+  blocks 1-100 x 45
+  charge 41.40 EUR
+quote c-biz voice plan=business
+  units=496 allowance=0 billable=496 blocks=99
+  blocks 1-99 x 45
+  charge 40.99 EUR
+quote c-biz voice plan=business
+  units=505 allowance=0 billable=505 blocks=101
+  blocks 1-101 x 45
+  charge 41.81 EUR
+quote c-biz voice plan=business
+  units=501 allowance=0 billable=501 blocks=100
+  blocks 1-100 x 45
+  charge 41.40 EUR
+quote c-biz voice plan=business
+  units=600 allowance=0 billable=600 blocks=120
+  blocks 1-120 x 45
+  charge 49.68 EUR
+quote c-biz voice plan=business
+  units=596 allowance=0 billable=596 blocks=119
+  blocks 1-119 x 45
+  charge 49.27 EUR
+quote c-biz voice plan=business
+  units=605 allowance=0 billable=605 blocks=121
+  blocks 1-121 x 45
+  charge 50.09 EUR
+quote c-biz voice plan=business
+  units=601 allowance=0 billable=601 blocks=120
+  blocks 1-120 x 45
+  charge 49.68 EUR
+quote c-biz voice plan=business
+  units=1000 allowance=0 billable=1000 blocks=200
+  blocks 1-200 x 45
+  charge 82.80 EUR
+quote c-biz voice plan=business
+  units=996 allowance=0 billable=996 blocks=199
+  blocks 1-199 x 45
+  charge 82.39 EUR
+quote c-biz voice plan=business
+  units=1005 allowance=0 billable=1005 blocks=201
+  blocks 1-201 x 45
+  charge 83.21 EUR
+quote c-biz voice plan=business
+  units=1001 allowance=0 billable=1001 blocks=200
+  blocks 1-200 x 45
+  charge 82.80 EUR
+quote c-ch voice plan=starter
+  units=5 allowance=0 billable=5 blocks=1
+  blocks 1-1 x 45
+  charge 0.41 CHF
+quote c-ch voice plan=starter
+  units=1 allowance=0 billable=1 blocks=0
+  charge 0.00 CHF
+quote c-ch voice plan=starter
+  units=15 allowance=0 billable=15 blocks=3
+  blocks 1-3 x 45
+  charge 1.22 CHF
+quote c-ch voice plan=starter
+  units=11 allowance=0 billable=11 blocks=2
+  blocks 1-2 x 45
+  charge 0.81 CHF
+quote c-ch voice plan=starter
+  units=50 allowance=0 billable=50 blocks=10
+  blocks 1-10 x 45
+  charge 4.05 CHF
+quote c-ch voice plan=starter
+  units=46 allowance=0 billable=46 blocks=9
+  blocks 1-9 x 45
+  charge 3.65 CHF
+quote c-ch voice plan=starter
+  units=150 allowance=0 billable=150 blocks=30
+  blocks 1-30 x 45
+  charge 12.15 CHF
+quote c-ch voice plan=starter
+  units=146 allowance=0 billable=146 blocks=29
+  blocks 1-29 x 45
+  charge 11.75 CHF
+quote c-ch voice plan=starter
+  units=155 allowance=0 billable=155 blocks=31
+  blocks 1-31 x 45
+  charge 12.56 CHF
+quote c-ch voice plan=starter
+  units=151 allowance=0 billable=151 blocks=30
+  blocks 1-30 x 45
+  charge 12.15 CHF
+quote c-ch voice plan=starter
+  units=300 allowance=0 billable=300 blocks=60
+  blocks 1-60 x 45
+  charge 24.30 CHF
+quote c-ch voice plan=starter
+  units=296 allowance=0 billable=296 blocks=59
+  blocks 1-59 x 45
+  charge 23.90 CHF
+quote c-ch voice plan=starter
+  units=500 allowance=0 billable=500 blocks=100
+  blocks 1-100 x 45
+  charge 40.50 CHF
+quote c-ch voice plan=starter
+  units=496 allowance=0 billable=496 blocks=99
+  blocks 1-99 x 45
+  charge 40.10 CHF
+quote c-ch voice plan=starter
+  units=505 allowance=0 billable=505 blocks=101
+  blocks 1-101 x 45
+  charge 40.91 CHF
+quote c-ch voice plan=starter
+  units=501 allowance=0 billable=501 blocks=100
+  blocks 1-100 x 45
+  charge 40.50 CHF
+quote c-ch voice plan=starter
+  units=600 allowance=0 billable=600 blocks=120
+  blocks 1-120 x 45
+  charge 48.60 CHF
+quote c-ch voice plan=starter
+  units=596 allowance=0 billable=596 blocks=119
+  blocks 1-119 x 45
+  charge 48.20 CHF
+quote c-ch voice plan=starter
+  units=605 allowance=0 billable=605 blocks=121
+  blocks 1-121 x 45
+  charge 49.01 CHF
+quote c-ch voice plan=starter
+  units=601 allowance=0 billable=601 blocks=120
+  blocks 1-120 x 45
+  charge 48.60 CHF
+quote c-ch voice plan=starter
+  units=1000 allowance=0 billable=1000 blocks=200
+  blocks 1-200 x 45
+  charge 81.00 CHF
+quote c-ch voice plan=starter
+  units=996 allowance=0 billable=996 blocks=199
+  blocks 1-199 x 45
+  charge 80.60 CHF
+quote c-ch voice plan=starter
+  units=1005 allowance=0 billable=1005 blocks=201
+  blocks 1-201 x 45
+  charge 81.41 CHF
+quote c-ch voice plan=starter
+  units=1001 allowance=0 billable=1001 blocks=200
+  blocks 1-200 x 45
+  charge 81.00 CHF
+quote c-free email plan=free
+  units=1500 allowance=1000 billable=500 blocks=1
+  blocks 1-1 x 30
+  charge 0.30 USD
+quote c-free email plan=free
+  units=1001 allowance=1000 billable=1 blocks=1
+  blocks 1-1 x 30
+  charge 0.30 USD
+quote c-free email plan=free
+  units=2500 allowance=1000 billable=1500 blocks=3
+  blocks 1-3 x 30
+  charge 0.90 USD
+quote c-free email plan=free
+  units=2001 allowance=1000 billable=1001 blocks=3
+  blocks 1-3 x 30
+  charge 0.90 USD
+quote c-free email plan=free
+  units=6000 allowance=1000 billable=5000 blocks=10
+  blocks 1-10 x 30
+  charge 3.00 USD
+quote c-free email plan=free
+  units=5501 allowance=1000 billable=4501 blocks=10
+  blocks 1-10 x 30
+  charge 3.00 USD
+quote c-free email plan=free
+  units=16000 allowance=1000 billable=15000 blocks=30
+  blocks 1-20 x 30
+  blocks 21-30 x 22
+  charge 8.20 USD
+quote c-free email plan=free
+  units=15501 allowance=1000 billable=14501 blocks=30
+  blocks 1-20 x 30
+  blocks 21-30 x 22
+  charge 8.20 USD
+quote c-free email plan=free
+  units=16500 allowance=1000 billable=15500 blocks=31
+  blocks 1-20 x 30
+  blocks 21-31 x 22
+  charge 8.42 USD
+quote c-free email plan=free
+  units=16001 allowance=1000 billable=15001 blocks=31
+  blocks 1-20 x 30
+  blocks 21-31 x 22
+  charge 8.42 USD
+quote c-free email plan=free
+  units=31000 allowance=1000 billable=30000 blocks=60
+  blocks 1-20 x 30
+  blocks 21-60 x 22
+  charge 14.80 USD
+quote c-free email plan=free
+  units=30501 allowance=1000 billable=29501 blocks=60
+  blocks 1-20 x 30
+  blocks 21-60 x 22
+  charge 14.80 USD
+quote c-free email plan=free
+  units=51000 allowance=1000 billable=50000 blocks=100
+  blocks 1-20 x 30
+  blocks 21-100 x 22
+  charge 23.60 USD
+quote c-free email plan=free
+  units=50501 allowance=1000 billable=49501 blocks=100
+  blocks 1-20 x 30
+  blocks 21-100 x 22
+  charge 23.60 USD
+quote c-free email plan=free
+  units=51500 allowance=1000 billable=50500 blocks=101
+  blocks 1-20 x 30
+  blocks 21-101 x 22
+  charge 23.82 USD
+quote c-free email plan=free
+  units=51001 allowance=1000 billable=50001 blocks=101
+  blocks 1-20 x 30
+  blocks 21-101 x 22
+  charge 23.82 USD
+quote c-free email plan=free
+  units=61000 allowance=1000 billable=60000 blocks=120
+  blocks 1-20 x 30
+  blocks 21-120 x 22
+  charge 28.00 USD
+quote c-free email plan=free
+  units=60501 allowance=1000 billable=59501 blocks=120
+  blocks 1-20 x 30
+  blocks 21-120 x 22
+  charge 28.00 USD
+quote c-free email plan=free
+  units=61500 allowance=1000 billable=60500 blocks=121
+  blocks 1-20 x 30
+  blocks 21-121 x 22
+  charge 28.22 USD
+quote c-free email plan=free
+  units=61001 allowance=1000 billable=60001 blocks=121
+  blocks 1-20 x 30
+  blocks 21-121 x 22
+  charge 28.22 USD
+quote c-free email plan=free
+  units=101000 allowance=1000 billable=100000 blocks=200
+  blocks 1-20 x 30
+  blocks 21-200 x 22
+  charge 45.60 USD
+quote c-free email plan=free
+  units=100501 allowance=1000 billable=99501 blocks=200
+  blocks 1-20 x 30
+  blocks 21-200 x 22
+  charge 45.60 USD
+quote c-free email plan=free
+  units=101500 allowance=1000 billable=100500 blocks=201
+  blocks 1-20 x 30
+  blocks 21-201 x 22
+  charge 45.82 USD
+quote c-free email plan=free
+  units=101001 allowance=1000 billable=100001 blocks=201
+  blocks 1-20 x 30
+  blocks 21-201 x 22
+  charge 45.82 USD
+quote c-biz email plan=business
+  units=40500 allowance=40000 billable=500 blocks=1
+  blocks 1-1 x 30
+  charge 0.28 EUR
+quote c-biz email plan=business
+  units=40001 allowance=40000 billable=1 blocks=1
+  blocks 1-1 x 30
+  charge 0.28 EUR
+quote c-biz email plan=business
+  units=41500 allowance=40000 billable=1500 blocks=3
+  blocks 1-3 x 30
+  charge 0.83 EUR
+quote c-biz email plan=business
+  units=41001 allowance=40000 billable=1001 blocks=3
+  blocks 1-3 x 30
+  charge 0.83 EUR
+quote c-biz email plan=business
+  units=45000 allowance=40000 billable=5000 blocks=10
+  blocks 1-10 x 30
+  charge 2.76 EUR
+quote c-biz email plan=business
+  units=44501 allowance=40000 billable=4501 blocks=10
+  blocks 1-10 x 30
+  charge 2.76 EUR
+quote c-biz email plan=business
+  units=55000 allowance=40000 billable=15000 blocks=30
+  blocks 1-20 x 30
+  blocks 21-30 x 22
+  charge 7.54 EUR
+quote c-biz email plan=business
+  units=54501 allowance=40000 billable=14501 blocks=30
+  blocks 1-20 x 30
+  blocks 21-30 x 22
+  charge 7.54 EUR
+quote c-biz email plan=business
+  units=55500 allowance=40000 billable=15500 blocks=31
+  blocks 1-20 x 30
+  blocks 21-31 x 22
+  charge 7.75 EUR
+quote c-biz email plan=business
+  units=55001 allowance=40000 billable=15001 blocks=31
+  blocks 1-20 x 30
+  blocks 21-31 x 22
+  charge 7.75 EUR
+quote c-biz email plan=business
+  units=70000 allowance=40000 billable=30000 blocks=60
+  blocks 1-20 x 30
+  blocks 21-60 x 22
+  charge 13.62 EUR
+quote c-biz email plan=business
+  units=69501 allowance=40000 billable=29501 blocks=60
+  blocks 1-20 x 30
+  blocks 21-60 x 22
+  charge 13.62 EUR
+quote c-biz email plan=business
+  units=90000 allowance=40000 billable=50000 blocks=100
+  blocks 1-20 x 30
+  blocks 21-100 x 22
+  charge 21.71 EUR
+quote c-biz email plan=business
+  units=89501 allowance=40000 billable=49501 blocks=100
+  blocks 1-20 x 30
+  blocks 21-100 x 22
+  charge 21.71 EUR
+quote c-biz email plan=business
+  units=90500 allowance=40000 billable=50500 blocks=101
+  blocks 1-20 x 30
+  blocks 21-101 x 22
+  charge 21.91 EUR
+quote c-biz email plan=business
+  units=90001 allowance=40000 billable=50001 blocks=101
+  blocks 1-20 x 30
+  blocks 21-101 x 22
+  charge 21.91 EUR
+quote c-biz email plan=business
+  units=100000 allowance=40000 billable=60000 blocks=120
+  blocks 1-20 x 30
+  blocks 21-120 x 22
+  charge 25.76 EUR
+quote c-biz email plan=business
+  units=99501 allowance=40000 billable=59501 blocks=120
+  blocks 1-20 x 30
+  blocks 21-120 x 22
+  charge 25.76 EUR
+quote c-biz email plan=business
+  units=100500 allowance=40000 billable=60500 blocks=121
+  blocks 1-20 x 30
+  blocks 21-121 x 22
+  charge 25.96 EUR
+quote c-biz email plan=business
+  units=100001 allowance=40000 billable=60001 blocks=121
+  blocks 1-20 x 30
+  blocks 21-121 x 22
+  charge 25.96 EUR
+quote c-biz email plan=business
+  units=140000 allowance=40000 billable=100000 blocks=200
+  blocks 1-20 x 30
+  blocks 21-200 x 22
+  charge 41.95 EUR
+quote c-biz email plan=business
+  units=139501 allowance=40000 billable=99501 blocks=200
+  blocks 1-20 x 30
+  blocks 21-200 x 22
+  charge 41.95 EUR
+quote c-biz email plan=business
+  units=140500 allowance=40000 billable=100500 blocks=201
+  blocks 1-20 x 30
+  blocks 21-201 x 22
+  charge 42.15 EUR
+quote c-biz email plan=business
+  units=140001 allowance=40000 billable=100001 blocks=201
+  blocks 1-20 x 30
+  blocks 21-201 x 22
+  charge 42.15 EUR
+quote c-ch email plan=starter
+  units=4500 allowance=4000 billable=500 blocks=1
+  blocks 1-1 x 30
+  charge 0.27 CHF
+quote c-ch email plan=starter
+  units=4001 allowance=4000 billable=1 blocks=1
+  blocks 1-1 x 30
+  charge 0.27 CHF
+quote c-ch email plan=starter
+  units=5500 allowance=4000 billable=1500 blocks=3
+  blocks 1-3 x 30
+  charge 0.81 CHF
+quote c-ch email plan=starter
+  units=5001 allowance=4000 billable=1001 blocks=3
+  blocks 1-3 x 30
+  charge 0.81 CHF
+quote c-ch email plan=starter
+  units=9000 allowance=4000 billable=5000 blocks=10
+  blocks 1-10 x 30
+  charge 2.70 CHF
+quote c-ch email plan=starter
+  units=8501 allowance=4000 billable=4501 blocks=10
+  blocks 1-10 x 30
+  charge 2.70 CHF
+quote c-ch email plan=starter
+  units=19000 allowance=4000 billable=15000 blocks=30
+  blocks 1-20 x 30
+  blocks 21-30 x 22
+  charge 7.38 CHF
+quote c-ch email plan=starter
+  units=18501 allowance=4000 billable=14501 blocks=30
+  blocks 1-20 x 30
+  blocks 21-30 x 22
+  charge 7.38 CHF
+quote c-ch email plan=starter
+  units=19500 allowance=4000 billable=15500 blocks=31
+  blocks 1-20 x 30
+  blocks 21-31 x 22
+  charge 7.58 CHF
+quote c-ch email plan=starter
+  units=19001 allowance=4000 billable=15001 blocks=31
+  blocks 1-20 x 30
+  blocks 21-31 x 22
+  charge 7.58 CHF
+quote c-ch email plan=starter
+  units=34000 allowance=4000 billable=30000 blocks=60
+  blocks 1-20 x 30
+  blocks 21-60 x 22
+  charge 13.32 CHF
+quote c-ch email plan=starter
+  units=33501 allowance=4000 billable=29501 blocks=60
+  blocks 1-20 x 30
+  blocks 21-60 x 22
+  charge 13.32 CHF
+quote c-ch email plan=starter
+  units=54000 allowance=4000 billable=50000 blocks=100
+  blocks 1-20 x 30
+  blocks 21-100 x 22
+  charge 21.24 CHF
+quote c-ch email plan=starter
+  units=53501 allowance=4000 billable=49501 blocks=100
+  blocks 1-20 x 30
+  blocks 21-100 x 22
+  charge 21.24 CHF
+quote c-ch email plan=starter
+  units=54500 allowance=4000 billable=50500 blocks=101
+  blocks 1-20 x 30
+  blocks 21-101 x 22
+  charge 21.44 CHF
+quote c-ch email plan=starter
+  units=54001 allowance=4000 billable=50001 blocks=101
+  blocks 1-20 x 30
+  blocks 21-101 x 22
+  charge 21.44 CHF
+quote c-ch email plan=starter
+  units=64000 allowance=4000 billable=60000 blocks=120
+  blocks 1-20 x 30
+  blocks 21-120 x 22
+  charge 25.20 CHF
+quote c-ch email plan=starter
+  units=63501 allowance=4000 billable=59501 blocks=120
+  blocks 1-20 x 30
+  blocks 21-120 x 22
+  charge 25.20 CHF
+quote c-ch email plan=starter
+  units=64500 allowance=4000 billable=60500 blocks=121
+  blocks 1-20 x 30
+  blocks 21-121 x 22
+  charge 25.40 CHF
+quote c-ch email plan=starter
+  units=64001 allowance=4000 billable=60001 blocks=121
+  blocks 1-20 x 30
+  blocks 21-121 x 22
+  charge 25.40 CHF
+quote c-ch email plan=starter
+  units=104000 allowance=4000 billable=100000 blocks=200
+  blocks 1-20 x 30
+  blocks 21-200 x 22
+  charge 41.04 CHF
+quote c-ch email plan=starter
+  units=103501 allowance=4000 billable=99501 blocks=200
+  blocks 1-20 x 30
+  blocks 21-200 x 22
+  charge 41.04 CHF
+quote c-ch email plan=starter
+  units=104500 allowance=4000 billable=100500 blocks=201
+  blocks 1-20 x 30
+  blocks 21-201 x 22
+  charge 41.24 CHF
+quote c-ch email plan=starter
+  units=104001 allowance=4000 billable=100001 blocks=201
+  blocks 1-20 x 30
+  blocks 21-201 x 22
+  charge 41.24 CHF
+quote c-free logs plan=free
+  units=1250 allowance=1000 billable=250 blocks=1
+  blocks 1-1 x 7
+  charge 0.07 USD
+quote c-free logs plan=free
+  units=1001 allowance=1000 billable=1 blocks=1
+  blocks 1-1 x 7
+  charge 0.07 USD
+quote c-free logs plan=free
+  units=1750 allowance=1000 billable=750 blocks=3
+  blocks 1-3 x 7
+  charge 0.21 USD
+quote c-free logs plan=free
+  units=1501 allowance=1000 billable=501 blocks=3
+  blocks 1-3 x 7
+  charge 0.21 USD
+quote c-free logs plan=free
+  units=3500 allowance=1000 billable=2500 blocks=10
+  blocks 1-10 x 7
+  charge 0.70 USD
+quote c-free logs plan=free
+  units=3251 allowance=1000 billable=2251 blocks=10
+  blocks 1-10 x 7
+  charge 0.70 USD
+quote c-free logs plan=free
+  units=8500 allowance=1000 billable=7500 blocks=30
+  blocks 1-30 x 7
+  charge 2.10 USD
+quote c-free logs plan=free
+  units=8251 allowance=1000 billable=7251 blocks=30
+  blocks 1-30 x 7
+  charge 2.10 USD
+quote c-free logs plan=free
+  units=8750 allowance=1000 billable=7750 blocks=31
+  blocks 1-31 x 7
+  charge 2.17 USD
+quote c-free logs plan=free
+  units=8501 allowance=1000 billable=7501 blocks=31
+  blocks 1-31 x 7
+  charge 2.17 USD
+quote c-free logs plan=free
+  units=16000 allowance=1000 billable=15000 blocks=60
+  blocks 1-60 x 7
+  charge 4.20 USD
+quote c-free logs plan=free
+  units=15751 allowance=1000 billable=14751 blocks=60
+  blocks 1-60 x 7
+  charge 4.20 USD
+quote c-free logs plan=free
+  units=26000 allowance=1000 billable=25000 blocks=100
+  blocks 1-100 x 7
+  charge 7.00 USD
+quote c-free logs plan=free
+  units=25751 allowance=1000 billable=24751 blocks=100
+  blocks 1-100 x 7
+  charge 7.00 USD
+quote c-free logs plan=free
+  units=26250 allowance=1000 billable=25250 blocks=101
+  blocks 1-101 x 7
+  charge 7.07 USD
+quote c-free logs plan=free
+  units=26001 allowance=1000 billable=25001 blocks=101
+  blocks 1-101 x 7
+  charge 7.07 USD
+quote c-free logs plan=free
+  units=31000 allowance=1000 billable=30000 blocks=120
+  blocks 1-120 x 7
+  charge 8.40 USD
+quote c-free logs plan=free
+  units=30751 allowance=1000 billable=29751 blocks=120
+  blocks 1-120 x 7
+  charge 8.40 USD
+quote c-free logs plan=free
+  units=31250 allowance=1000 billable=30250 blocks=121
+  blocks 1-121 x 7
+  charge 8.47 USD
+quote c-free logs plan=free
+  units=31001 allowance=1000 billable=30001 blocks=121
+  blocks 1-121 x 7
+  charge 8.47 USD
+quote c-free logs plan=free
+  units=51000 allowance=1000 billable=50000 blocks=200
+  blocks 1-200 x 7
+  charge 14.00 USD
+quote c-free logs plan=free
+  units=50751 allowance=1000 billable=49751 blocks=200
+  blocks 1-200 x 7
+  charge 14.00 USD
+quote c-free logs plan=free
+  units=51250 allowance=1000 billable=50250 blocks=201
+  blocks 1-201 x 7
+  charge 14.07 USD
+quote c-free logs plan=free
+  units=51001 allowance=1000 billable=50001 blocks=201
+  blocks 1-201 x 7
+  charge 14.07 USD
+quote c-biz logs plan=business
+  units=40250 allowance=40000 billable=250 blocks=1
+  blocks 1-1 x 7
+  charge 0.06 EUR
+quote c-biz logs plan=business
+  units=40001 allowance=40000 billable=1 blocks=1
+  blocks 1-1 x 7
+  charge 0.06 EUR
+quote c-biz logs plan=business
+  units=40750 allowance=40000 billable=750 blocks=3
+  blocks 1-3 x 7
+  charge 0.19 EUR
+quote c-biz logs plan=business
+  units=40501 allowance=40000 billable=501 blocks=3
+  blocks 1-3 x 7
+  charge 0.19 EUR
+quote c-biz logs plan=business
+  units=42500 allowance=40000 billable=2500 blocks=10
+  blocks 1-10 x 7
+  charge 0.64 EUR
+quote c-biz logs plan=business
+  units=42251 allowance=40000 billable=2251 blocks=10
+  blocks 1-10 x 7
+  charge 0.64 EUR
+quote c-biz logs plan=business
+  units=47500 allowance=40000 billable=7500 blocks=30
+  blocks 1-30 x 7
+  charge 1.93 EUR
+quote c-biz logs plan=business
+  units=47251 allowance=40000 billable=7251 blocks=30
+  blocks 1-30 x 7
+  charge 1.93 EUR
+quote c-biz logs plan=business
+  units=47750 allowance=40000 billable=7750 blocks=31
+  blocks 1-31 x 7
+  charge 2.00 EUR
+quote c-biz logs plan=business
+  units=47501 allowance=40000 billable=7501 blocks=31
+  blocks 1-31 x 7
+  charge 2.00 EUR
+quote c-biz logs plan=business
+  units=55000 allowance=40000 billable=15000 blocks=60
+  blocks 1-60 x 7
+  charge 3.86 EUR
+quote c-biz logs plan=business
+  units=54751 allowance=40000 billable=14751 blocks=60
+  blocks 1-60 x 7
+  charge 3.86 EUR
+quote c-biz logs plan=business
+  units=65000 allowance=40000 billable=25000 blocks=100
+  blocks 1-100 x 7
+  charge 6.44 EUR
+quote c-biz logs plan=business
+  units=64751 allowance=40000 billable=24751 blocks=100
+  blocks 1-100 x 7
+  charge 6.44 EUR
+quote c-biz logs plan=business
+  units=65250 allowance=40000 billable=25250 blocks=101
+  blocks 1-101 x 7
+  charge 6.50 EUR
+quote c-biz logs plan=business
+  units=65001 allowance=40000 billable=25001 blocks=101
+  blocks 1-101 x 7
+  charge 6.50 EUR
+quote c-biz logs plan=business
+  units=70000 allowance=40000 billable=30000 blocks=120
+  blocks 1-120 x 7
+  charge 7.73 EUR
+quote c-biz logs plan=business
+  units=69751 allowance=40000 billable=29751 blocks=120
+  blocks 1-120 x 7
+  charge 7.73 EUR
+quote c-biz logs plan=business
+  units=70250 allowance=40000 billable=30250 blocks=121
+  blocks 1-121 x 7
+  charge 7.79 EUR
+quote c-biz logs plan=business
+  units=70001 allowance=40000 billable=30001 blocks=121
+  blocks 1-121 x 7
+  charge 7.79 EUR
+quote c-biz logs plan=business
+  units=90000 allowance=40000 billable=50000 blocks=200
+  blocks 1-200 x 7
+  charge 12.88 EUR
+quote c-biz logs plan=business
+  units=89751 allowance=40000 billable=49751 blocks=200
+  blocks 1-200 x 7
+  charge 12.88 EUR
+quote c-biz logs plan=business
+  units=90250 allowance=40000 billable=50250 blocks=201
+  blocks 1-201 x 7
+  charge 12.94 EUR
+quote c-biz logs plan=business
+  units=90001 allowance=40000 billable=50001 blocks=201
+  blocks 1-201 x 7
+  charge 12.94 EUR
+quote c-ch logs plan=starter
+  units=4250 allowance=4000 billable=250 blocks=1
+  blocks 1-1 x 7
+  charge 0.06 CHF
+quote c-ch logs plan=starter
+  units=4001 allowance=4000 billable=1 blocks=1
+  blocks 1-1 x 7
+  charge 0.06 CHF
+quote c-ch logs plan=starter
+  units=4750 allowance=4000 billable=750 blocks=3
+  blocks 1-3 x 7
+  charge 0.19 CHF
+quote c-ch logs plan=starter
+  units=4501 allowance=4000 billable=501 blocks=3
+  blocks 1-3 x 7
+  charge 0.19 CHF
+quote c-ch logs plan=starter
+  units=6500 allowance=4000 billable=2500 blocks=10
+  blocks 1-10 x 7
+  charge 0.63 CHF
+quote c-ch logs plan=starter
+  units=6251 allowance=4000 billable=2251 blocks=10
+  blocks 1-10 x 7
+  charge 0.63 CHF
+quote c-ch logs plan=starter
+  units=11500 allowance=4000 billable=7500 blocks=30
+  blocks 1-30 x 7
+  charge 1.89 CHF
+quote c-ch logs plan=starter
+  units=11251 allowance=4000 billable=7251 blocks=30
+  blocks 1-30 x 7
+  charge 1.89 CHF
+quote c-ch logs plan=starter
+  units=11750 allowance=4000 billable=7750 blocks=31
+  blocks 1-31 x 7
+  charge 1.95 CHF
+quote c-ch logs plan=starter
+  units=11501 allowance=4000 billable=7501 blocks=31
+  blocks 1-31 x 7
+  charge 1.95 CHF
+quote c-ch logs plan=starter
+  units=19000 allowance=4000 billable=15000 blocks=60
+  blocks 1-60 x 7
+  charge 3.78 CHF
+quote c-ch logs plan=starter
+  units=18751 allowance=4000 billable=14751 blocks=60
+  blocks 1-60 x 7
+  charge 3.78 CHF
+quote c-ch logs plan=starter
+  units=29000 allowance=4000 billable=25000 blocks=100
+  blocks 1-100 x 7
+  charge 6.30 CHF
+quote c-ch logs plan=starter
+  units=28751 allowance=4000 billable=24751 blocks=100
+  blocks 1-100 x 7
+  charge 6.30 CHF
+quote c-ch logs plan=starter
+  units=29250 allowance=4000 billable=25250 blocks=101
+  blocks 1-101 x 7
+  charge 6.36 CHF
+quote c-ch logs plan=starter
+  units=29001 allowance=4000 billable=25001 blocks=101
+  blocks 1-101 x 7
+  charge 6.36 CHF
+quote c-ch logs plan=starter
+  units=34000 allowance=4000 billable=30000 blocks=120
+  blocks 1-120 x 7
+  charge 7.56 CHF
+quote c-ch logs plan=starter
+  units=33751 allowance=4000 billable=29751 blocks=120
+  blocks 1-120 x 7
+  charge 7.56 CHF
+quote c-ch logs plan=starter
+  units=34250 allowance=4000 billable=30250 blocks=121
+  blocks 1-121 x 7
+  charge 7.62 CHF
+quote c-ch logs plan=starter
+  units=34001 allowance=4000 billable=30001 blocks=121
+  blocks 1-121 x 7
+  charge 7.62 CHF
+quote c-ch logs plan=starter
+  units=54000 allowance=4000 billable=50000 blocks=200
+  blocks 1-200 x 7
+  charge 12.60 CHF
+quote c-ch logs plan=starter
+  units=53751 allowance=4000 billable=49751 blocks=200
+  blocks 1-200 x 7
+  charge 12.60 CHF
+quote c-ch logs plan=starter
+  units=54250 allowance=4000 billable=50250 blocks=201
+  blocks 1-201 x 7
+  charge 12.66 CHF
+quote c-ch logs plan=starter
+  units=54001 allowance=4000 billable=50001 blocks=201
+  blocks 1-201 x 7
+  charge 12.66 CHF
+quote c-free backup plan=free
+  units=1000 allowance=500 billable=500 blocks=1
+  blocks 1-1 x 18
+  charge 0.18 USD
+quote c-free backup plan=free
+  units=501 allowance=500 billable=1 blocks=1
+  blocks 1-1 x 18
+  charge 0.18 USD
+quote c-free backup plan=free
+  units=2000 allowance=500 billable=1500 blocks=3
+  blocks 1-3 x 18
+  charge 0.54 USD
+quote c-free backup plan=free
+  units=1501 allowance=500 billable=1001 blocks=3
+  blocks 1-3 x 18
+  charge 0.54 USD
+quote c-free backup plan=free
+  units=5500 allowance=500 billable=5000 blocks=10
+  blocks 1-10 x 18
+  charge 1.80 USD
+quote c-free backup plan=free
+  units=5001 allowance=500 billable=4501 blocks=10
+  blocks 1-10 x 18
+  charge 1.80 USD
+quote c-free backup plan=free
+  units=15500 allowance=500 billable=15000 blocks=30
+  blocks 1-30 x 18
+  charge 5.40 USD
+quote c-free backup plan=free
+  units=15001 allowance=500 billable=14501 blocks=30
+  blocks 1-30 x 18
+  charge 5.40 USD
+quote c-free backup plan=free
+  units=16000 allowance=500 billable=15500 blocks=31
+  blocks 1-31 x 18
+  charge 5.58 USD
+quote c-free backup plan=free
+  units=15501 allowance=500 billable=15001 blocks=31
+  blocks 1-31 x 18
+  charge 5.58 USD
+quote c-free backup plan=free
+  units=30500 allowance=500 billable=30000 blocks=60
+  blocks 1-60 x 18
+  charge 10.80 USD
+quote c-free backup plan=free
+  units=30001 allowance=500 billable=29501 blocks=60
+  blocks 1-60 x 18
+  charge 10.80 USD
+quote c-free backup plan=free
+  units=50500 allowance=500 billable=50000 blocks=100
+  blocks 1-60 x 18
+  blocks 61-100 x 14
+  charge 16.40 USD
+quote c-free backup plan=free
+  units=50001 allowance=500 billable=49501 blocks=100
+  blocks 1-60 x 18
+  blocks 61-100 x 14
+  charge 16.40 USD
+quote c-free backup plan=free
+  units=51000 allowance=500 billable=50500 blocks=101
+  blocks 1-60 x 18
+  blocks 61-101 x 14
+  charge 16.54 USD
+quote c-free backup plan=free
+  units=50501 allowance=500 billable=50001 blocks=101
+  blocks 1-60 x 18
+  blocks 61-101 x 14
+  charge 16.54 USD
+quote c-free backup plan=free
+  units=60500 allowance=500 billable=60000 blocks=120
+  blocks 1-60 x 18
+  blocks 61-120 x 14
+  charge 19.20 USD
+quote c-free backup plan=free
+  units=60001 allowance=500 billable=59501 blocks=120
+  blocks 1-60 x 18
+  blocks 61-120 x 14
+  charge 19.20 USD
+quote c-free backup plan=free
+  units=61000 allowance=500 billable=60500 blocks=121
+  blocks 1-60 x 18
+  blocks 61-121 x 14
+  charge 19.34 USD
+quote c-free backup plan=free
+  units=60501 allowance=500 billable=60001 blocks=121
+  blocks 1-60 x 18
+  blocks 61-121 x 14
+  charge 19.34 USD
+quote c-free backup plan=free
+  units=100500 allowance=500 billable=100000 blocks=200
+  blocks 1-60 x 18
+  blocks 61-200 x 14
+  charge 30.40 USD
+quote c-free backup plan=free
+  units=100001 allowance=500 billable=99501 blocks=200
+  blocks 1-60 x 18
+  blocks 61-200 x 14
+  charge 30.40 USD
+quote c-free backup plan=free
+  units=101000 allowance=500 billable=100500 blocks=201
+  blocks 1-60 x 18
+  blocks 61-200 x 14
+  blocks 201-201 x 10
+  charge 30.50 USD
+quote c-free backup plan=free
+  units=100501 allowance=500 billable=100001 blocks=201
+  blocks 1-60 x 18
+  blocks 61-200 x 14
+  blocks 201-201 x 10
+  charge 30.50 USD
+quote c-biz backup plan=business
+  units=20500 allowance=20000 billable=500 blocks=1
+  blocks 1-1 x 18
+  charge 0.17 EUR
+quote c-biz backup plan=business
+  units=20001 allowance=20000 billable=1 blocks=1
+  blocks 1-1 x 18
+  charge 0.17 EUR
+quote c-biz backup plan=business
+  units=21500 allowance=20000 billable=1500 blocks=3
+  blocks 1-3 x 18
+  charge 0.50 EUR
+quote c-biz backup plan=business
+  units=21001 allowance=20000 billable=1001 blocks=3
+  blocks 1-3 x 18
+  charge 0.50 EUR
+quote c-biz backup plan=business
+  units=25000 allowance=20000 billable=5000 blocks=10
+  blocks 1-10 x 18
+  charge 1.66 EUR
+quote c-biz backup plan=business
+  units=24501 allowance=20000 billable=4501 blocks=10
+  blocks 1-10 x 18
+  charge 1.66 EUR
+quote c-biz backup plan=business
+  units=35000 allowance=20000 billable=15000 blocks=30
+  blocks 1-30 x 18
+  charge 4.97 EUR
+quote c-biz backup plan=business
+  units=34501 allowance=20000 billable=14501 blocks=30
+  blocks 1-30 x 18
+  charge 4.97 EUR
+quote c-biz backup plan=business
+  units=35500 allowance=20000 billable=15500 blocks=31
+  blocks 1-31 x 18
+  charge 5.13 EUR
+quote c-biz backup plan=business
+  units=35001 allowance=20000 billable=15001 blocks=31
+  blocks 1-31 x 18
+  charge 5.13 EUR
+quote c-biz backup plan=business
+  units=50000 allowance=20000 billable=30000 blocks=60
+  blocks 1-60 x 18
+  charge 9.94 EUR
+quote c-biz backup plan=business
+  units=49501 allowance=20000 billable=29501 blocks=60
+  blocks 1-60 x 18
+  charge 9.94 EUR
+quote c-biz backup plan=business
+  units=70000 allowance=20000 billable=50000 blocks=100
+  blocks 1-60 x 18
+  blocks 61-100 x 14
+  charge 15.09 EUR
+quote c-biz backup plan=business
+  units=69501 allowance=20000 billable=49501 blocks=100
+  blocks 1-60 x 18
+  blocks 61-100 x 14
+  charge 15.09 EUR
+quote c-biz backup plan=business
+  units=70500 allowance=20000 billable=50500 blocks=101
+  blocks 1-60 x 18
+  blocks 61-101 x 14
+  charge 15.22 EUR
+quote c-biz backup plan=business
+  units=70001 allowance=20000 billable=50001 blocks=101
+  blocks 1-60 x 18
+  blocks 61-101 x 14
+  charge 15.22 EUR
+quote c-biz backup plan=business
+  units=80000 allowance=20000 billable=60000 blocks=120
+  blocks 1-60 x 18
+  blocks 61-120 x 14
+  charge 17.66 EUR
+quote c-biz backup plan=business
+  units=79501 allowance=20000 billable=59501 blocks=120
+  blocks 1-60 x 18
+  blocks 61-120 x 14
+  charge 17.66 EUR
+quote c-biz backup plan=business
+  units=80500 allowance=20000 billable=60500 blocks=121
+  blocks 1-60 x 18
+  blocks 61-121 x 14
+  charge 17.79 EUR
+quote c-biz backup plan=business
+  units=80001 allowance=20000 billable=60001 blocks=121
+  blocks 1-60 x 18
+  blocks 61-121 x 14
+  charge 17.79 EUR
+quote c-biz backup plan=business
+  units=120000 allowance=20000 billable=100000 blocks=200
+  blocks 1-60 x 18
+  blocks 61-200 x 14
+  charge 27.97 EUR
+quote c-biz backup plan=business
+  units=119501 allowance=20000 billable=99501 blocks=200
+  blocks 1-60 x 18
+  blocks 61-200 x 14
+  charge 27.97 EUR
+quote c-biz backup plan=business
+  units=120500 allowance=20000 billable=100500 blocks=201
+  blocks 1-60 x 18
+  blocks 61-200 x 14
+  blocks 201-201 x 10
+  charge 28.06 EUR
+quote c-biz backup plan=business
+  units=120001 allowance=20000 billable=100001 blocks=201
+  blocks 1-60 x 18
+  blocks 61-200 x 14
+  blocks 201-201 x 10
+  charge 28.06 EUR
+quote c-ch backup plan=starter
+  units=2500 allowance=2000 billable=500 blocks=1
+  blocks 1-1 x 18
+  charge 0.16 CHF
+quote c-ch backup plan=starter
+  units=2001 allowance=2000 billable=1 blocks=1
+  blocks 1-1 x 18
+  charge 0.16 CHF
+quote c-ch backup plan=starter
+  units=3500 allowance=2000 billable=1500 blocks=3
+  blocks 1-3 x 18
+  charge 0.49 CHF
+quote c-ch backup plan=starter
+  units=3001 allowance=2000 billable=1001 blocks=3
+  blocks 1-3 x 18
+  charge 0.49 CHF
+quote c-ch backup plan=starter
+  units=7000 allowance=2000 billable=5000 blocks=10
+  blocks 1-10 x 18
+  charge 1.62 CHF
+quote c-ch backup plan=starter
+  units=6501 allowance=2000 billable=4501 blocks=10
+  blocks 1-10 x 18
+  charge 1.62 CHF
+quote c-ch backup plan=starter
+  units=17000 allowance=2000 billable=15000 blocks=30
+  blocks 1-30 x 18
+  charge 4.86 CHF
+quote c-ch backup plan=starter
+  units=16501 allowance=2000 billable=14501 blocks=30
+  blocks 1-30 x 18
+  charge 4.86 CHF
+quote c-ch backup plan=starter
+  units=17500 allowance=2000 billable=15500 blocks=31
+  blocks 1-31 x 18
+  charge 5.02 CHF
+quote c-ch backup plan=starter
+  units=17001 allowance=2000 billable=15001 blocks=31
+  blocks 1-31 x 18
+  charge 5.02 CHF
+quote c-ch backup plan=starter
+  units=32000 allowance=2000 billable=30000 blocks=60
+  blocks 1-60 x 18
+  charge 9.72 CHF
+quote c-ch backup plan=starter
+  units=31501 allowance=2000 billable=29501 blocks=60
+  blocks 1-60 x 18
+  charge 9.72 CHF
+quote c-ch backup plan=starter
+  units=52000 allowance=2000 billable=50000 blocks=100
+  blocks 1-60 x 18
+  blocks 61-100 x 14
+  charge 14.76 CHF
+quote c-ch backup plan=starter
+  units=51501 allowance=2000 billable=49501 blocks=100
+  blocks 1-60 x 18
+  blocks 61-100 x 14
+  charge 14.76 CHF
+quote c-ch backup plan=starter
+  units=52500 allowance=2000 billable=50500 blocks=101
+  blocks 1-60 x 18
+  blocks 61-101 x 14
+  charge 14.89 CHF
+quote c-ch backup plan=starter
+  units=52001 allowance=2000 billable=50001 blocks=101
+  blocks 1-60 x 18
+  blocks 61-101 x 14
+  charge 14.89 CHF
+quote c-ch backup plan=starter
+  units=62000 allowance=2000 billable=60000 blocks=120
+  blocks 1-60 x 18
+  blocks 61-120 x 14
+  charge 17.28 CHF
+quote c-ch backup plan=starter
+  units=61501 allowance=2000 billable=59501 blocks=120
+  blocks 1-60 x 18
+  blocks 61-120 x 14
+  charge 17.28 CHF
+quote c-ch backup plan=starter
+  units=62500 allowance=2000 billable=60500 blocks=121
+  blocks 1-60 x 18
+  blocks 61-121 x 14
+  charge 17.41 CHF
+quote c-ch backup plan=starter
+  units=62001 allowance=2000 billable=60001 blocks=121
+  blocks 1-60 x 18
+  blocks 61-121 x 14
+  charge 17.41 CHF
+quote c-ch backup plan=starter
+  units=102000 allowance=2000 billable=100000 blocks=200
+  blocks 1-60 x 18
+  blocks 61-200 x 14
+  charge 27.36 CHF
+quote c-ch backup plan=starter
+  units=101501 allowance=2000 billable=99501 blocks=200
+  blocks 1-60 x 18
+  blocks 61-200 x 14
+  charge 27.36 CHF
+quote c-ch backup plan=starter
+  units=102500 allowance=2000 billable=100500 blocks=201
+  blocks 1-60 x 18
+  blocks 61-200 x 14
+  blocks 201-201 x 10
+  charge 27.45 CHF
+quote c-ch backup plan=starter
+  units=102001 allowance=2000 billable=100001 blocks=201
+  blocks 1-60 x 18
+  blocks 61-200 x 14
+  blocks 201-201 x 10
+  charge 27.45 CHF
+quote c-free cdn plan=free
+  units=15 allowance=10 billable=5 blocks=1
+  blocks 1-1 x 22
+  charge 0.22 USD
+quote c-free cdn plan=free
+  units=11 allowance=10 billable=1 blocks=1
+  blocks 1-1 x 22
+  charge 0.22 USD
+quote c-free cdn plan=free
+  units=25 allowance=10 billable=15 blocks=3
+  blocks 1-3 x 22
+  charge 0.66 USD
+quote c-free cdn plan=free
+  units=21 allowance=10 billable=11 blocks=3
+  blocks 1-3 x 22
+  charge 0.66 USD
+quote c-free cdn plan=free
+  units=60 allowance=10 billable=50 blocks=10
+  blocks 1-10 x 22
+  charge 2.20 USD
+quote c-free cdn plan=free
+  units=56 allowance=10 billable=46 blocks=10
+  blocks 1-10 x 22
+  charge 2.20 USD
+quote c-free cdn plan=free
+  units=160 allowance=10 billable=150 blocks=30
+  blocks 1-30 x 22
+  charge 6.60 USD
+quote c-free cdn plan=free
+  units=156 allowance=10 billable=146 blocks=30
+  blocks 1-30 x 22
+  charge 6.60 USD
+quote c-free cdn plan=free
+  units=165 allowance=10 billable=155 blocks=31
+  blocks 1-31 x 22
+  charge 6.82 USD
+quote c-free cdn plan=free
+  units=161 allowance=10 billable=151 blocks=31
+  blocks 1-31 x 22
+  charge 6.82 USD
+quote c-free cdn plan=free
+  units=310 allowance=10 billable=300 blocks=60
+  blocks 1-60 x 22
+  charge 13.20 USD
+quote c-free cdn plan=free
+  units=306 allowance=10 billable=296 blocks=60
+  blocks 1-60 x 22
+  charge 13.20 USD
+quote c-free cdn plan=free
+  units=510 allowance=10 billable=500 blocks=100
+  blocks 1-100 x 22
+  charge 22.00 USD
+quote c-free cdn plan=free
+  units=506 allowance=10 billable=496 blocks=100
+  blocks 1-100 x 22
+  charge 22.00 USD
+quote c-free cdn plan=free
+  units=515 allowance=10 billable=505 blocks=101
+  blocks 1-100 x 22
+  blocks 101-101 x 17
+  charge 22.17 USD
+quote c-free cdn plan=free
+  units=511 allowance=10 billable=501 blocks=101
+  blocks 1-100 x 22
+  blocks 101-101 x 17
+  charge 22.17 USD
+quote c-free cdn plan=free
+  units=610 allowance=10 billable=600 blocks=120
+  blocks 1-100 x 22
+  blocks 101-120 x 17
+  charge 25.40 USD
+quote c-free cdn plan=free
+  units=606 allowance=10 billable=596 blocks=120
+  blocks 1-100 x 22
+  blocks 101-120 x 17
+  charge 25.40 USD
+quote c-free cdn plan=free
+  units=615 allowance=10 billable=605 blocks=121
+  blocks 1-100 x 22
+  blocks 101-121 x 17
+  charge 25.57 USD
+quote c-free cdn plan=free
+  units=611 allowance=10 billable=601 blocks=121
+  blocks 1-100 x 22
+  blocks 101-121 x 17
+  charge 25.57 USD
+quote c-free cdn plan=free
+  units=1010 allowance=10 billable=1000 blocks=200
+  blocks 1-100 x 22
+  blocks 101-200 x 17
+  charge 39.00 USD
+quote c-free cdn plan=free
+  units=1006 allowance=10 billable=996 blocks=200
+  blocks 1-100 x 22
+  blocks 101-200 x 17
+  charge 39.00 USD
+quote c-free cdn plan=free
+  units=1015 allowance=10 billable=1005 blocks=201
+  blocks 1-100 x 22
+  blocks 101-201 x 17
+  charge 39.17 USD
+quote c-free cdn plan=free
+  units=1011 allowance=10 billable=1001 blocks=201
+  blocks 1-100 x 22
+  blocks 101-201 x 17
+  charge 39.17 USD
+quote c-biz cdn plan=business
+  units=405 allowance=400 billable=5 blocks=1
+  blocks 1-1 x 22
+  charge 0.20 EUR
+quote c-biz cdn plan=business
+  units=401 allowance=400 billable=1 blocks=1
+  blocks 1-1 x 22
+  charge 0.20 EUR
+quote c-biz cdn plan=business
+  units=415 allowance=400 billable=15 blocks=3
+  blocks 1-3 x 22
+  charge 0.61 EUR
+quote c-biz cdn plan=business
+  units=411 allowance=400 billable=11 blocks=3
+  blocks 1-3 x 22
+  charge 0.61 EUR
+quote c-biz cdn plan=business
+  units=450 allowance=400 billable=50 blocks=10
+  blocks 1-10 x 22
+  charge 2.02 EUR
+quote c-biz cdn plan=business
+  units=446 allowance=400 billable=46 blocks=10
+  blocks 1-10 x 22
+  charge 2.02 EUR
+quote c-biz cdn plan=business
+  units=550 allowance=400 billable=150 blocks=30
+  blocks 1-30 x 22
+  charge 6.07 EUR
+quote c-biz cdn plan=business
+  units=546 allowance=400 billable=146 blocks=30
+  blocks 1-30 x 22
+  charge 6.07 EUR
+quote c-biz cdn plan=business
+  units=555 allowance=400 billable=155 blocks=31
+  blocks 1-31 x 22
+  charge 6.27 EUR
+quote c-biz cdn plan=business
+  units=551 allowance=400 billable=151 blocks=31
+  blocks 1-31 x 22
+  charge 6.27 EUR
+quote c-biz cdn plan=business
+  units=700 allowance=400 billable=300 blocks=60
+  blocks 1-60 x 22
+  charge 12.14 EUR
+quote c-biz cdn plan=business
+  units=696 allowance=400 billable=296 blocks=60
+  blocks 1-60 x 22
+  charge 12.14 EUR
+quote c-biz cdn plan=business
+  units=900 allowance=400 billable=500 blocks=100
+  blocks 1-100 x 22
+  charge 20.24 EUR
+quote c-biz cdn plan=business
+  units=896 allowance=400 billable=496 blocks=100
+  blocks 1-100 x 22
+  charge 20.24 EUR
+quote c-biz cdn plan=business
+  units=905 allowance=400 billable=505 blocks=101
+  blocks 1-100 x 22
+  blocks 101-101 x 17
+  charge 20.40 EUR
+quote c-biz cdn plan=business
+  units=901 allowance=400 billable=501 blocks=101
+  blocks 1-100 x 22
+  blocks 101-101 x 17
+  charge 20.40 EUR
+quote c-biz cdn plan=business
+  units=1000 allowance=400 billable=600 blocks=120
+  blocks 1-100 x 22
+  blocks 101-120 x 17
+  charge 23.37 EUR
+quote c-biz cdn plan=business
+  units=996 allowance=400 billable=596 blocks=120
+  blocks 1-100 x 22
+  blocks 101-120 x 17
+  charge 23.37 EUR
+quote c-biz cdn plan=business
+  units=1005 allowance=400 billable=605 blocks=121
+  blocks 1-100 x 22
+  blocks 101-121 x 17
+  charge 23.52 EUR
+quote c-biz cdn plan=business
+  units=1001 allowance=400 billable=601 blocks=121
+  blocks 1-100 x 22
+  blocks 101-121 x 17
+  charge 23.52 EUR
+quote c-biz cdn plan=business
+  units=1400 allowance=400 billable=1000 blocks=200
+  blocks 1-100 x 22
+  blocks 101-200 x 17
+  charge 35.88 EUR
+quote c-biz cdn plan=business
+  units=1396 allowance=400 billable=996 blocks=200
+  blocks 1-100 x 22
+  blocks 101-200 x 17
+  charge 35.88 EUR
+quote c-biz cdn plan=business
+  units=1405 allowance=400 billable=1005 blocks=201
+  blocks 1-100 x 22
+  blocks 101-201 x 17
+  charge 36.04 EUR
+quote c-biz cdn plan=business
+  units=1401 allowance=400 billable=1001 blocks=201
+  blocks 1-100 x 22
+  blocks 101-201 x 17
+  charge 36.04 EUR
+quote c-ch cdn plan=starter
+  units=45 allowance=40 billable=5 blocks=1
+  blocks 1-1 x 22
+  charge 0.20 CHF
+quote c-ch cdn plan=starter
+  units=41 allowance=40 billable=1 blocks=1
+  blocks 1-1 x 22
+  charge 0.20 CHF
+quote c-ch cdn plan=starter
+  units=55 allowance=40 billable=15 blocks=3
+  blocks 1-3 x 22
+  charge 0.59 CHF
+quote c-ch cdn plan=starter
+  units=51 allowance=40 billable=11 blocks=3
+  blocks 1-3 x 22
+  charge 0.59 CHF
+quote c-ch cdn plan=starter
+  units=90 allowance=40 billable=50 blocks=10
+  blocks 1-10 x 22
+  charge 1.98 CHF
+quote c-ch cdn plan=starter
+  units=86 allowance=40 billable=46 blocks=10
+  blocks 1-10 x 22
+  charge 1.98 CHF
+quote c-ch cdn plan=starter
+  units=190 allowance=40 billable=150 blocks=30
+  blocks 1-30 x 22
+  charge 5.94 CHF
+quote c-ch cdn plan=starter
+  units=186 allowance=40 billable=146 blocks=30
+  blocks 1-30 x 22
+  charge 5.94 CHF
+quote c-ch cdn plan=starter
+  units=195 allowance=40 billable=155 blocks=31
+  blocks 1-31 x 22
+  charge 6.14 CHF
+quote c-ch cdn plan=starter
+  units=191 allowance=40 billable=151 blocks=31
+  blocks 1-31 x 22
+  charge 6.14 CHF
+quote c-ch cdn plan=starter
+  units=340 allowance=40 billable=300 blocks=60
+  blocks 1-60 x 22
+  charge 11.88 CHF
+quote c-ch cdn plan=starter
+  units=336 allowance=40 billable=296 blocks=60
+  blocks 1-60 x 22
+  charge 11.88 CHF
+quote c-ch cdn plan=starter
+  units=540 allowance=40 billable=500 blocks=100
+  blocks 1-100 x 22
+  charge 19.80 CHF
+quote c-ch cdn plan=starter
+  units=536 allowance=40 billable=496 blocks=100
+  blocks 1-100 x 22
+  charge 19.80 CHF
+quote c-ch cdn plan=starter
+  units=545 allowance=40 billable=505 blocks=101
+  blocks 1-100 x 22
+  blocks 101-101 x 17
+  charge 19.95 CHF
+quote c-ch cdn plan=starter
+  units=541 allowance=40 billable=501 blocks=101
+  blocks 1-100 x 22
+  blocks 101-101 x 17
+  charge 19.95 CHF
+quote c-ch cdn plan=starter
+  units=640 allowance=40 billable=600 blocks=120
+  blocks 1-100 x 22
+  blocks 101-120 x 17
+  charge 22.86 CHF
+quote c-ch cdn plan=starter
+  units=636 allowance=40 billable=596 blocks=120
+  blocks 1-100 x 22
+  blocks 101-120 x 17
+  charge 22.86 CHF
+quote c-ch cdn plan=starter
+  units=645 allowance=40 billable=605 blocks=121
+  blocks 1-100 x 22
+  blocks 101-121 x 17
+  charge 23.01 CHF
+quote c-ch cdn plan=starter
+  units=641 allowance=40 billable=601 blocks=121
+  blocks 1-100 x 22
+  blocks 101-121 x 17
+  charge 23.01 CHF
+quote c-ch cdn plan=starter
+  units=1040 allowance=40 billable=1000 blocks=200
+  blocks 1-100 x 22
+  blocks 101-200 x 17
+  charge 35.10 CHF
+quote c-ch cdn plan=starter
+  units=1036 allowance=40 billable=996 blocks=200
+  blocks 1-100 x 22
+  blocks 101-200 x 17
+  charge 35.10 CHF
+quote c-ch cdn plan=starter
+  units=1045 allowance=40 billable=1005 blocks=201
+  blocks 1-100 x 22
+  blocks 101-201 x 17
+  charge 35.25 CHF
+quote c-ch cdn plan=starter
+  units=1041 allowance=40 billable=1001 blocks=201
+  blocks 1-100 x 22
+  blocks 101-201 x 17
+  charge 35.25 CHF
+quote c-free dns plan=free
+  units=100 allowance=0 billable=100 blocks=1
+  blocks 1-1 x 4
+  charge 1.00 USD
+quote c-free dns plan=free
+  units=1 allowance=0 billable=1 blocks=1
+  blocks 1-1 x 4
+  charge 1.00 USD
+quote c-free dns plan=free
+  units=300 allowance=0 billable=300 blocks=3
+  blocks 1-3 x 4
+  charge 1.00 USD
+quote c-free dns plan=free
+  units=201 allowance=0 billable=201 blocks=3
+  blocks 1-3 x 4
+  charge 1.00 USD
+quote c-free dns plan=free
+  units=1000 allowance=0 billable=1000 blocks=10
+  blocks 1-10 x 4
+  charge 1.00 USD
+quote c-free dns plan=free
+  units=901 allowance=0 billable=901 blocks=10
+  blocks 1-10 x 4
+  charge 1.00 USD
+quote c-free dns plan=free
+  units=3000 allowance=0 billable=3000 blocks=30
+  blocks 1-30 x 4
+  charge 1.20 USD
+quote c-free dns plan=free
+  units=2901 allowance=0 billable=2901 blocks=30
+  blocks 1-30 x 4
+  charge 1.20 USD
+quote c-free dns plan=free
+  units=3100 allowance=0 billable=3100 blocks=31
+  blocks 1-31 x 4
+  charge 1.24 USD
+quote c-free dns plan=free
+  units=3001 allowance=0 billable=3001 blocks=31
+  blocks 1-31 x 4
+  charge 1.24 USD
+quote c-free dns plan=free
+  units=6000 allowance=0 billable=6000 blocks=60
+  blocks 1-60 x 4
+  charge 2.40 USD
+quote c-free dns plan=free
+  units=5901 allowance=0 billable=5901 blocks=60
+  blocks 1-60 x 4
+  charge 2.40 USD
+quote c-free dns plan=free
+  units=10000 allowance=0 billable=10000 blocks=100
+  blocks 1-100 x 4
+  charge 4.00 USD
+quote c-free dns plan=free
+  units=9901 allowance=0 billable=9901 blocks=100
+  blocks 1-100 x 4
+  charge 4.00 USD
+quote c-free dns plan=free
+  units=10100 allowance=0 billable=10100 blocks=101
+  blocks 1-101 x 4
+  charge 4.04 USD
+quote c-free dns plan=free
+  units=10001 allowance=0 billable=10001 blocks=101
+  blocks 1-101 x 4
+  charge 4.04 USD
+quote c-free dns plan=free
+  units=12000 allowance=0 billable=12000 blocks=120
+  blocks 1-120 x 4
+  charge 4.80 USD
+quote c-free dns plan=free
+  units=11901 allowance=0 billable=11901 blocks=120
+  blocks 1-120 x 4
+  charge 4.80 USD
+quote c-free dns plan=free
+  units=12100 allowance=0 billable=12100 blocks=121
+  blocks 1-121 x 4
+  charge 4.84 USD
+quote c-free dns plan=free
+  units=12001 allowance=0 billable=12001 blocks=121
+  blocks 1-121 x 4
+  charge 4.84 USD
+quote c-free dns plan=free
+  units=20000 allowance=0 billable=20000 blocks=200
+  blocks 1-200 x 4
+  charge 8.00 USD
+quote c-free dns plan=free
+  units=19901 allowance=0 billable=19901 blocks=200
+  blocks 1-200 x 4
+  charge 8.00 USD
+quote c-free dns plan=free
+  units=20100 allowance=0 billable=20100 blocks=201
+  blocks 1-201 x 4
+  charge 8.04 USD
+quote c-free dns plan=free
+  units=20001 allowance=0 billable=20001 blocks=201
+  blocks 1-201 x 4
+  charge 8.04 USD
+quote c-biz dns plan=business
+  units=100 allowance=0 billable=100 blocks=1
+  blocks 1-1 x 4
+  charge 0.92 EUR
+quote c-biz dns plan=business
+  units=1 allowance=0 billable=1 blocks=1
+  blocks 1-1 x 4
+  charge 0.92 EUR
+quote c-biz dns plan=business
+  units=300 allowance=0 billable=300 blocks=3
+  blocks 1-3 x 4
+  charge 0.92 EUR
+quote c-biz dns plan=business
+  units=201 allowance=0 billable=201 blocks=3
+  blocks 1-3 x 4
+  charge 0.92 EUR
+quote c-biz dns plan=business
+  units=1000 allowance=0 billable=1000 blocks=10
+  blocks 1-10 x 4
+  charge 0.92 EUR
+quote c-biz dns plan=business
+  units=901 allowance=0 billable=901 blocks=10
+  blocks 1-10 x 4
+  charge 0.92 EUR
+quote c-biz dns plan=business
+  units=3000 allowance=0 billable=3000 blocks=30
+  blocks 1-30 x 4
+  charge 1.10 EUR
+quote c-biz dns plan=business
+  units=2901 allowance=0 billable=2901 blocks=30
+  blocks 1-30 x 4
+  charge 1.10 EUR
+quote c-biz dns plan=business
+  units=3100 allowance=0 billable=3100 blocks=31
+  blocks 1-31 x 4
+  charge 1.14 EUR
+quote c-biz dns plan=business
+  units=3001 allowance=0 billable=3001 blocks=31
+  blocks 1-31 x 4
+  charge 1.14 EUR
+quote c-biz dns plan=business
+  units=6000 allowance=0 billable=6000 blocks=60
+  blocks 1-60 x 4
+  charge 2.21 EUR
+quote c-biz dns plan=business
+  units=5901 allowance=0 billable=5901 blocks=60
+  blocks 1-60 x 4
+  charge 2.21 EUR
+quote c-biz dns plan=business
+  units=10000 allowance=0 billable=10000 blocks=100
+  blocks 1-100 x 4
+  charge 3.68 EUR
+quote c-biz dns plan=business
+  units=9901 allowance=0 billable=9901 blocks=100
+  blocks 1-100 x 4
+  charge 3.68 EUR
+quote c-biz dns plan=business
+  units=10100 allowance=0 billable=10100 blocks=101
+  blocks 1-101 x 4
+  charge 3.72 EUR
+quote c-biz dns plan=business
+  units=10001 allowance=0 billable=10001 blocks=101
+  blocks 1-101 x 4
+  charge 3.72 EUR
+quote c-biz dns plan=business
+  units=12000 allowance=0 billable=12000 blocks=120
+  blocks 1-120 x 4
+  charge 4.42 EUR
+quote c-biz dns plan=business
+  units=11901 allowance=0 billable=11901 blocks=120
+  blocks 1-120 x 4
+  charge 4.42 EUR
+quote c-biz dns plan=business
+  units=12100 allowance=0 billable=12100 blocks=121
+  blocks 1-121 x 4
+  charge 4.45 EUR
+quote c-biz dns plan=business
+  units=12001 allowance=0 billable=12001 blocks=121
+  blocks 1-121 x 4
+  charge 4.45 EUR
+quote c-biz dns plan=business
+  units=20000 allowance=0 billable=20000 blocks=200
+  blocks 1-200 x 4
+  charge 7.36 EUR
+quote c-biz dns plan=business
+  units=19901 allowance=0 billable=19901 blocks=200
+  blocks 1-200 x 4
+  charge 7.36 EUR
+quote c-biz dns plan=business
+  units=20100 allowance=0 billable=20100 blocks=201
+  blocks 1-201 x 4
+  charge 7.40 EUR
+quote c-biz dns plan=business
+  units=20001 allowance=0 billable=20001 blocks=201
+  blocks 1-201 x 4
+  charge 7.40 EUR
+quote c-ch dns plan=starter
+  units=100 allowance=0 billable=100 blocks=1
+  blocks 1-1 x 4
+  charge 0.90 CHF
+quote c-ch dns plan=starter
+  units=1 allowance=0 billable=1 blocks=1
+  blocks 1-1 x 4
+  charge 0.90 CHF
+quote c-ch dns plan=starter
+  units=300 allowance=0 billable=300 blocks=3
+  blocks 1-3 x 4
+  charge 0.90 CHF
+quote c-ch dns plan=starter
+  units=201 allowance=0 billable=201 blocks=3
+  blocks 1-3 x 4
+  charge 0.90 CHF
+quote c-ch dns plan=starter
+  units=1000 allowance=0 billable=1000 blocks=10
+  blocks 1-10 x 4
+  charge 0.90 CHF
+quote c-ch dns plan=starter
+  units=901 allowance=0 billable=901 blocks=10
+  blocks 1-10 x 4
+  charge 0.90 CHF
+quote c-ch dns plan=starter
+  units=3000 allowance=0 billable=3000 blocks=30
+  blocks 1-30 x 4
+  charge 1.08 CHF
+quote c-ch dns plan=starter
+  units=2901 allowance=0 billable=2901 blocks=30
+  blocks 1-30 x 4
+  charge 1.08 CHF
+quote c-ch dns plan=starter
+  units=3100 allowance=0 billable=3100 blocks=31
+  blocks 1-31 x 4
+  charge 1.12 CHF
+quote c-ch dns plan=starter
+  units=3001 allowance=0 billable=3001 blocks=31
+  blocks 1-31 x 4
+  charge 1.12 CHF
+quote c-ch dns plan=starter
+  units=6000 allowance=0 billable=6000 blocks=60
+  blocks 1-60 x 4
+  charge 2.16 CHF
+quote c-ch dns plan=starter
+  units=5901 allowance=0 billable=5901 blocks=60
+  blocks 1-60 x 4
+  charge 2.16 CHF
+quote c-ch dns plan=starter
+  units=10000 allowance=0 billable=10000 blocks=100
+  blocks 1-100 x 4
+  charge 3.60 CHF
+quote c-ch dns plan=starter
+  units=9901 allowance=0 billable=9901 blocks=100
+  blocks 1-100 x 4
+  charge 3.60 CHF
+quote c-ch dns plan=starter
+  units=10100 allowance=0 billable=10100 blocks=101
+  blocks 1-101 x 4
+  charge 3.64 CHF
+quote c-ch dns plan=starter
+  units=10001 allowance=0 billable=10001 blocks=101
+  blocks 1-101 x 4
+  charge 3.64 CHF
+quote c-ch dns plan=starter
+  units=12000 allowance=0 billable=12000 blocks=120
+  blocks 1-120 x 4
+  charge 4.32 CHF
+quote c-ch dns plan=starter
+  units=11901 allowance=0 billable=11901 blocks=120
+  blocks 1-120 x 4
+  charge 4.32 CHF
+quote c-ch dns plan=starter
+  units=12100 allowance=0 billable=12100 blocks=121
+  blocks 1-121 x 4
+  charge 4.36 CHF
+quote c-ch dns plan=starter
+  units=12001 allowance=0 billable=12001 blocks=121
+  blocks 1-121 x 4
+  charge 4.36 CHF
+quote c-ch dns plan=starter
+  units=20000 allowance=0 billable=20000 blocks=200
+  blocks 1-200 x 4
+  charge 7.20 CHF
+quote c-ch dns plan=starter
+  units=19901 allowance=0 billable=19901 blocks=200
+  blocks 1-200 x 4
+  charge 7.20 CHF
+quote c-ch dns plan=starter
+  units=20100 allowance=0 billable=20100 blocks=201
+  blocks 1-201 x 4
+  charge 7.24 CHF
+quote c-ch dns plan=starter
+  units=20001 allowance=0 billable=20001 blocks=201
+  blocks 1-201 x 4
+  charge 7.24 CHF
+quote c-free queue plan=free
+  units=150 allowance=100 billable=50 blocks=1
+  blocks 1-1 x 16
+  charge 0.16 USD
+quote c-free queue plan=free
+  units=101 allowance=100 billable=1 blocks=1
+  blocks 1-1 x 16
+  charge 0.16 USD
+quote c-free queue plan=free
+  units=250 allowance=100 billable=150 blocks=3
+  blocks 1-3 x 16
+  charge 0.48 USD
+quote c-free queue plan=free
+  units=201 allowance=100 billable=101 blocks=3
+  blocks 1-3 x 16
+  charge 0.48 USD
+quote c-free queue plan=free
+  units=600 allowance=100 billable=500 blocks=10
+  blocks 1-10 x 16
+  charge 1.60 USD
+quote c-free queue plan=free
+  units=551 allowance=100 billable=451 blocks=10
+  blocks 1-10 x 16
+  charge 1.60 USD
+quote c-free queue plan=free
+  units=1600 allowance=100 billable=1500 blocks=30
+  blocks 1-30 x 16
+  charge 4.80 USD
+quote c-free queue plan=free
+  units=1551 allowance=100 billable=1451 blocks=30
+  blocks 1-30 x 16
+  charge 4.80 USD
+quote c-free queue plan=free
+  units=1650 allowance=100 billable=1550 blocks=31
+  blocks 1-30 x 16
+  blocks 31-31 x 13
+  charge 4.93 USD
+quote c-free queue plan=free
+  units=1601 allowance=100 billable=1501 blocks=31
+  blocks 1-30 x 16
+  blocks 31-31 x 13
+  charge 4.93 USD
+quote c-free queue plan=free
+  units=3100 allowance=100 billable=3000 blocks=60
+  blocks 1-30 x 16
+  blocks 31-60 x 13
+  charge 8.70 USD
+quote c-free queue plan=free
+  units=3051 allowance=100 billable=2951 blocks=60
+  blocks 1-30 x 16
+  blocks 31-60 x 13
+  charge 8.70 USD
+quote c-free queue plan=free
+  units=5100 allowance=100 billable=5000 blocks=100
+  blocks 1-30 x 16
+  blocks 31-100 x 13
+  charge 13.90 USD
+quote c-free queue plan=free
+  units=5051 allowance=100 billable=4951 blocks=100
+  blocks 1-30 x 16
+  blocks 31-100 x 13
+  charge 13.90 USD
+quote c-free queue plan=free
+  units=5150 allowance=100 billable=5050 blocks=101
+  blocks 1-30 x 16
+  blocks 31-101 x 13
+  charge 14.03 USD
+quote c-free queue plan=free
+  units=5101 allowance=100 billable=5001 blocks=101
+  blocks 1-30 x 16
+  blocks 31-101 x 13
+  charge 14.03 USD
+quote c-free queue plan=free
+  units=6100 allowance=100 billable=6000 blocks=120
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  charge 16.50 USD
+quote c-free queue plan=free
+  units=6051 allowance=100 billable=5951 blocks=120
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  charge 16.50 USD
+quote c-free queue plan=free
+  units=6150 allowance=100 billable=6050 blocks=121
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-121 x 10
+  charge 16.60 USD
+quote c-free queue plan=free
+  units=6101 allowance=100 billable=6001 blocks=121
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-121 x 10
+  charge 16.60 USD
+quote c-free queue plan=free
+  units=10100 allowance=100 billable=10000 blocks=200
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-200 x 10
+  charge 24.50 USD
+quote c-free queue plan=free
+  units=10051 allowance=100 billable=9951 blocks=200
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-200 x 10
+  charge 24.50 USD
+quote c-free queue plan=free
+  units=10150 allowance=100 billable=10050 blocks=201
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-201 x 10
+  charge 24.60 USD
+quote c-free queue plan=free
+  units=10101 allowance=100 billable=10001 blocks=201
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-201 x 10
+  charge 24.60 USD
+quote c-biz queue plan=business
+  units=4050 allowance=4000 billable=50 blocks=1
+  blocks 1-1 x 16
+  charge 0.15 EUR
+quote c-biz queue plan=business
+  units=4001 allowance=4000 billable=1 blocks=1
+  blocks 1-1 x 16
+  charge 0.15 EUR
+quote c-biz queue plan=business
+  units=4150 allowance=4000 billable=150 blocks=3
+  blocks 1-3 x 16
+  charge 0.44 EUR
+quote c-biz queue plan=business
+  units=4101 allowance=4000 billable=101 blocks=3
+  blocks 1-3 x 16
+  charge 0.44 EUR
+quote c-biz queue plan=business
+  units=4500 allowance=4000 billable=500 blocks=10
+  blocks 1-10 x 16
+  charge 1.47 EUR
+quote c-biz queue plan=business
+  units=4451 allowance=4000 billable=451 blocks=10
+  blocks 1-10 x 16
+  charge 1.47 EUR
+quote c-biz queue plan=business
+  units=5500 allowance=4000 billable=1500 blocks=30
+  blocks 1-30 x 16
+  charge 4.42 EUR
+quote c-biz queue plan=business
+  units=5451 allowance=4000 billable=1451 blocks=30
+  blocks 1-30 x 16
+  charge 4.42 EUR
+quote c-biz queue plan=business
+  units=5550 allowance=4000 billable=1550 blocks=31
+  blocks 1-30 x 16
+  blocks 31-31 x 13
+  charge 4.54 EUR
+quote c-biz queue plan=business
+  units=5501 allowance=4000 billable=1501 blocks=31
+  blocks 1-30 x 16
+  blocks 31-31 x 13
+  charge 4.54 EUR
+quote c-biz queue plan=business
+  units=7000 allowance=4000 billable=3000 blocks=60
+  blocks 1-30 x 16
+  blocks 31-60 x 13
+  charge 8.00 EUR
+quote c-biz queue plan=business
+  units=6951 allowance=4000 billable=2951 blocks=60
+  blocks 1-30 x 16
+  blocks 31-60 x 13
+  charge 8.00 EUR
+quote c-biz queue plan=business
+  units=9000 allowance=4000 billable=5000 blocks=100
+  blocks 1-30 x 16
+  blocks 31-100 x 13
+  charge 12.79 EUR
+quote c-biz queue plan=business
+  units=8951 allowance=4000 billable=4951 blocks=100
+  blocks 1-30 x 16
+  blocks 31-100 x 13
+  charge 12.79 EUR
+quote c-biz queue plan=business
+  units=9050 allowance=4000 billable=5050 blocks=101
+  blocks 1-30 x 16
+  blocks 31-101 x 13
+  charge 12.91 EUR
+quote c-biz queue plan=business
+  units=9001 allowance=4000 billable=5001 blocks=101
+  blocks 1-30 x 16
+  blocks 31-101 x 13
+  charge 12.91 EUR
+quote c-biz queue plan=business
+  units=10000 allowance=4000 billable=6000 blocks=120
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  charge 15.18 EUR
+quote c-biz queue plan=business
+  units=9951 allowance=4000 billable=5951 blocks=120
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  charge 15.18 EUR
+quote c-biz queue plan=business
+  units=10050 allowance=4000 billable=6050 blocks=121
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-121 x 10
+  charge 15.27 EUR
+quote c-biz queue plan=business
+  units=10001 allowance=4000 billable=6001 blocks=121
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-121 x 10
+  charge 15.27 EUR
+quote c-biz queue plan=business
+  units=14000 allowance=4000 billable=10000 blocks=200
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-200 x 10
+  charge 22.54 EUR
+quote c-biz queue plan=business
+  units=13951 allowance=4000 billable=9951 blocks=200
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-200 x 10
+  charge 22.54 EUR
+quote c-biz queue plan=business
+  units=14050 allowance=4000 billable=10050 blocks=201
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-201 x 10
+  charge 22.63 EUR
+quote c-biz queue plan=business
+  units=14001 allowance=4000 billable=10001 blocks=201
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-201 x 10
+  charge 22.63 EUR
+quote c-ch queue plan=starter
+  units=450 allowance=400 billable=50 blocks=1
+  blocks 1-1 x 16
+  charge 0.14 CHF
+quote c-ch queue plan=starter
+  units=401 allowance=400 billable=1 blocks=1
+  blocks 1-1 x 16
+  charge 0.14 CHF
+quote c-ch queue plan=starter
+  units=550 allowance=400 billable=150 blocks=3
+  blocks 1-3 x 16
+  charge 0.43 CHF
+quote c-ch queue plan=starter
+  units=501 allowance=400 billable=101 blocks=3
+  blocks 1-3 x 16
+  charge 0.43 CHF
+quote c-ch queue plan=starter
+  units=900 allowance=400 billable=500 blocks=10
+  blocks 1-10 x 16
+  charge 1.44 CHF
+quote c-ch queue plan=starter
+  units=851 allowance=400 billable=451 blocks=10
+  blocks 1-10 x 16
+  charge 1.44 CHF
+quote c-ch queue plan=starter
+  units=1900 allowance=400 billable=1500 blocks=30
+  blocks 1-30 x 16
+  charge 4.32 CHF
+quote c-ch queue plan=starter
+  units=1851 allowance=400 billable=1451 blocks=30
+  blocks 1-30 x 16
+  charge 4.32 CHF
+quote c-ch queue plan=starter
+  units=1950 allowance=400 billable=1550 blocks=31
+  blocks 1-30 x 16
+  blocks 31-31 x 13
+  charge 4.44 CHF
+quote c-ch queue plan=starter
+  units=1901 allowance=400 billable=1501 blocks=31
+  blocks 1-30 x 16
+  blocks 31-31 x 13
+  charge 4.44 CHF
+quote c-ch queue plan=starter
+  units=3400 allowance=400 billable=3000 blocks=60
+  blocks 1-30 x 16
+  blocks 31-60 x 13
+  charge 7.83 CHF
+quote c-ch queue plan=starter
+  units=3351 allowance=400 billable=2951 blocks=60
+  blocks 1-30 x 16
+  blocks 31-60 x 13
+  charge 7.83 CHF
+quote c-ch queue plan=starter
+  units=5400 allowance=400 billable=5000 blocks=100
+  blocks 1-30 x 16
+  blocks 31-100 x 13
+  charge 12.51 CHF
+quote c-ch queue plan=starter
+  units=5351 allowance=400 billable=4951 blocks=100
+  blocks 1-30 x 16
+  blocks 31-100 x 13
+  charge 12.51 CHF
+quote c-ch queue plan=starter
+  units=5450 allowance=400 billable=5050 blocks=101
+  blocks 1-30 x 16
+  blocks 31-101 x 13
+  charge 12.63 CHF
+quote c-ch queue plan=starter
+  units=5401 allowance=400 billable=5001 blocks=101
+  blocks 1-30 x 16
+  blocks 31-101 x 13
+  charge 12.63 CHF
+quote c-ch queue plan=starter
+  units=6400 allowance=400 billable=6000 blocks=120
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  charge 14.85 CHF
+quote c-ch queue plan=starter
+  units=6351 allowance=400 billable=5951 blocks=120
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  charge 14.85 CHF
+quote c-ch queue plan=starter
+  units=6450 allowance=400 billable=6050 blocks=121
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-121 x 10
+  charge 14.94 CHF
+quote c-ch queue plan=starter
+  units=6401 allowance=400 billable=6001 blocks=121
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-121 x 10
+  charge 14.94 CHF
+quote c-ch queue plan=starter
+  units=10400 allowance=400 billable=10000 blocks=200
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-200 x 10
+  charge 22.05 CHF
+quote c-ch queue plan=starter
+  units=10351 allowance=400 billable=9951 blocks=200
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-200 x 10
+  charge 22.05 CHF
+quote c-ch queue plan=starter
+  units=10450 allowance=400 billable=10050 blocks=201
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-201 x 10
+  charge 22.14 CHF
+quote c-ch queue plan=starter
+  units=10401 allowance=400 billable=10001 blocks=201
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-201 x 10
+  charge 22.14 CHF
+quote c-free search plan=free
+  units=60 allowance=40 billable=20 blocks=1
+  blocks 1-1 x 35
+  charge 0.35 USD
+quote c-free search plan=free
+  units=41 allowance=40 billable=1 blocks=1
+  blocks 1-1 x 35
+  charge 0.35 USD
+quote c-free search plan=free
+  units=100 allowance=40 billable=60 blocks=3
+  blocks 1-3 x 35
+  charge 1.05 USD
+quote c-free search plan=free
+  units=81 allowance=40 billable=41 blocks=3
+  blocks 1-3 x 35
+  charge 1.05 USD
+quote c-free search plan=free
+  units=240 allowance=40 billable=200 blocks=10
+  blocks 1-10 x 35
+  charge 3.50 USD
+quote c-free search plan=free
+  units=221 allowance=40 billable=181 blocks=10
+  blocks 1-10 x 35
+  charge 3.50 USD
+quote c-free search plan=free
+  units=640 allowance=40 billable=600 blocks=30
+  blocks 1-30 x 35
+  charge 10.50 USD
+quote c-free search plan=free
+  units=621 allowance=40 billable=581 blocks=30
+  blocks 1-30 x 35
+  charge 10.50 USD
+quote c-free search plan=free
+  units=660 allowance=40 billable=620 blocks=31
+  blocks 1-31 x 35
+  charge 10.85 USD
+quote c-free search plan=free
+  units=641 allowance=40 billable=601 blocks=31
+  blocks 1-31 x 35
+  charge 10.85 USD
+quote c-free search plan=free
+  units=1240 allowance=40 billable=1200 blocks=60
+  blocks 1-40 x 35
+  blocks 41-60 x 28
+  charge 19.60 USD
+quote c-free search plan=free
+  units=1221 allowance=40 billable=1181 blocks=60
+  blocks 1-40 x 35
+  blocks 41-60 x 28
+  charge 19.60 USD
+quote c-free search plan=free
+  units=2040 allowance=40 billable=2000 blocks=100
+  blocks 1-40 x 35
+  blocks 41-100 x 28
+  charge 30.80 USD
+quote c-free search plan=free
+  units=2021 allowance=40 billable=1981 blocks=100
+  blocks 1-40 x 35
+  blocks 41-100 x 28
+  charge 30.80 USD
+quote c-free search plan=free
+  units=2060 allowance=40 billable=2020 blocks=101
+  blocks 1-40 x 35
+  blocks 41-101 x 28
+  charge 31.08 USD
+quote c-free search plan=free
+  units=2041 allowance=40 billable=2001 blocks=101
+  blocks 1-40 x 35
+  blocks 41-101 x 28
+  charge 31.08 USD
+quote c-free search plan=free
+  units=2440 allowance=40 billable=2400 blocks=120
+  blocks 1-40 x 35
+  blocks 41-120 x 28
+  charge 36.40 USD
+quote c-free search plan=free
+  units=2421 allowance=40 billable=2381 blocks=120
+  blocks 1-40 x 35
+  blocks 41-120 x 28
+  charge 36.40 USD
+quote c-free search plan=free
+  units=2460 allowance=40 billable=2420 blocks=121
+  blocks 1-40 x 35
+  blocks 41-121 x 28
+  charge 36.68 USD
+quote c-free search plan=free
+  units=2441 allowance=40 billable=2401 blocks=121
+  blocks 1-40 x 35
+  blocks 41-121 x 28
+  charge 36.68 USD
+quote c-free search plan=free
+  units=4040 allowance=40 billable=4000 blocks=200
+  blocks 1-40 x 35
+  blocks 41-200 x 28
+  charge 58.80 USD
+quote c-free search plan=free
+  units=4021 allowance=40 billable=3981 blocks=200
+  blocks 1-40 x 35
+  blocks 41-200 x 28
+  charge 58.80 USD
+quote c-free search plan=free
+  units=4060 allowance=40 billable=4020 blocks=201
+  blocks 1-40 x 35
+  blocks 41-201 x 28
+  charge 59.08 USD
+quote c-free search plan=free
+  units=4041 allowance=40 billable=4001 blocks=201
+  blocks 1-40 x 35
+  blocks 41-201 x 28
+  charge 59.08 USD
+quote c-biz search plan=business
+  units=1620 allowance=1600 billable=20 blocks=1
+  blocks 1-1 x 35
+  charge 0.32 EUR
+quote c-biz search plan=business
+  units=1601 allowance=1600 billable=1 blocks=1
+  blocks 1-1 x 35
+  charge 0.32 EUR
+quote c-biz search plan=business
+  units=1660 allowance=1600 billable=60 blocks=3
+  blocks 1-3 x 35
+  charge 0.97 EUR
+quote c-biz search plan=business
+  units=1641 allowance=1600 billable=41 blocks=3
+  blocks 1-3 x 35
+  charge 0.97 EUR
+quote c-biz search plan=business
+  units=1800 allowance=1600 billable=200 blocks=10
+  blocks 1-10 x 35
+  charge 3.22 EUR
+quote c-biz search plan=business
+  units=1781 allowance=1600 billable=181 blocks=10
+  blocks 1-10 x 35
+  charge 3.22 EUR
+quote c-biz search plan=business
+  units=2200 allowance=1600 billable=600 blocks=30
+  blocks 1-30 x 35
+  charge 9.66 EUR
+quote c-biz search plan=business
+  units=2181 allowance=1600 billable=581 blocks=30
+  blocks 1-30 x 35
+  charge 9.66 EUR
+quote c-biz search plan=business
+  units=2220 allowance=1600 billable=620 blocks=31
+  blocks 1-31 x 35
+  charge 9.98 EUR
+quote c-biz search plan=business
+  units=2201 allowance=1600 billable=601 blocks=31
+  blocks 1-31 x 35
+  charge 9.98 EUR
+quote c-biz search plan=business
+  units=2800 allowance=1600 billable=1200 blocks=60
+  blocks 1-40 x 35
+  blocks 41-60 x 28
+  charge 18.03 EUR
+quote c-biz search plan=business
+  units=2781 allowance=1600 billable=1181 blocks=60
+  blocks 1-40 x 35
+  blocks 41-60 x 28
+  charge 18.03 EUR
+quote c-biz search plan=business
+  units=3600 allowance=1600 billable=2000 blocks=100
+  blocks 1-40 x 35
+  blocks 41-100 x 28
+  charge 28.34 EUR
+quote c-biz search plan=business
+  units=3581 allowance=1600 billable=1981 blocks=100
+  blocks 1-40 x 35
+  blocks 41-100 x 28
+  charge 28.34 EUR
+quote c-biz search plan=business
+  units=3620 allowance=1600 billable=2020 blocks=101
+  blocks 1-40 x 35
+  blocks 41-101 x 28
+  charge 28.59 EUR
+quote c-biz search plan=business
+  units=3601 allowance=1600 billable=2001 blocks=101
+  blocks 1-40 x 35
+  blocks 41-101 x 28
+  charge 28.59 EUR
+quote c-biz search plan=business
+  units=4000 allowance=1600 billable=2400 blocks=120
+  blocks 1-40 x 35
+  blocks 41-120 x 28
+  charge 33.49 EUR
+quote c-biz search plan=business
+  units=3981 allowance=1600 billable=2381 blocks=120
+  blocks 1-40 x 35
+  blocks 41-120 x 28
+  charge 33.49 EUR
+quote c-biz search plan=business
+  units=4020 allowance=1600 billable=2420 blocks=121
+  blocks 1-40 x 35
+  blocks 41-121 x 28
+  charge 33.75 EUR
+quote c-biz search plan=business
+  units=4001 allowance=1600 billable=2401 blocks=121
+  blocks 1-40 x 35
+  blocks 41-121 x 28
+  charge 33.75 EUR
+quote c-biz search plan=business
+  units=5600 allowance=1600 billable=4000 blocks=200
+  blocks 1-40 x 35
+  blocks 41-200 x 28
+  charge 54.10 EUR
+quote c-biz search plan=business
+  units=5581 allowance=1600 billable=3981 blocks=200
+  blocks 1-40 x 35
+  blocks 41-200 x 28
+  charge 54.10 EUR
+quote c-biz search plan=business
+  units=5620 allowance=1600 billable=4020 blocks=201
+  blocks 1-40 x 35
+  blocks 41-201 x 28
+  charge 54.35 EUR
+quote c-biz search plan=business
+  units=5601 allowance=1600 billable=4001 blocks=201
+  blocks 1-40 x 35
+  blocks 41-201 x 28
+  charge 54.35 EUR
+quote c-ch search plan=starter
+  units=180 allowance=160 billable=20 blocks=1
+  blocks 1-1 x 35
+  charge 0.32 CHF
+quote c-ch search plan=starter
+  units=161 allowance=160 billable=1 blocks=1
+  blocks 1-1 x 35
+  charge 0.32 CHF
+quote c-ch search plan=starter
+  units=220 allowance=160 billable=60 blocks=3
+  blocks 1-3 x 35
+  charge 0.95 CHF
+quote c-ch search plan=starter
+  units=201 allowance=160 billable=41 blocks=3
+  blocks 1-3 x 35
+  charge 0.95 CHF
+quote c-ch search plan=starter
+  units=360 allowance=160 billable=200 blocks=10
+  blocks 1-10 x 35
+  charge 3.15 CHF
+quote c-ch search plan=starter
+  units=341 allowance=160 billable=181 blocks=10
+  blocks 1-10 x 35
+  charge 3.15 CHF
+quote c-ch search plan=starter
+  units=760 allowance=160 billable=600 blocks=30
+  blocks 1-30 x 35
+  charge 9.45 CHF
+quote c-ch search plan=starter
+  units=741 allowance=160 billable=581 blocks=30
+  blocks 1-30 x 35
+  charge 9.45 CHF
+quote c-ch search plan=starter
+  units=780 allowance=160 billable=620 blocks=31
+  blocks 1-31 x 35
+  charge 9.77 CHF
+quote c-ch search plan=starter
+  units=761 allowance=160 billable=601 blocks=31
+  blocks 1-31 x 35
+  charge 9.77 CHF
+quote c-ch search plan=starter
+  units=1360 allowance=160 billable=1200 blocks=60
+  blocks 1-40 x 35
+  blocks 41-60 x 28
+  charge 17.64 CHF
+quote c-ch search plan=starter
+  units=1341 allowance=160 billable=1181 blocks=60
+  blocks 1-40 x 35
+  blocks 41-60 x 28
+  charge 17.64 CHF
+quote c-ch search plan=starter
+  units=2160 allowance=160 billable=2000 blocks=100
+  blocks 1-40 x 35
+  blocks 41-100 x 28
+  charge 27.72 CHF
+quote c-ch search plan=starter
+  units=2141 allowance=160 billable=1981 blocks=100
+  blocks 1-40 x 35
+  blocks 41-100 x 28
+  charge 27.72 CHF
+quote c-ch search plan=starter
+  units=2180 allowance=160 billable=2020 blocks=101
+  blocks 1-40 x 35
+  blocks 41-101 x 28
+  charge 27.97 CHF
+quote c-ch search plan=starter
+  units=2161 allowance=160 billable=2001 blocks=101
+  blocks 1-40 x 35
+  blocks 41-101 x 28
+  charge 27.97 CHF
+quote c-ch search plan=starter
+  units=2560 allowance=160 billable=2400 blocks=120
+  blocks 1-40 x 35
+  blocks 41-120 x 28
+  charge 32.76 CHF
+quote c-ch search plan=starter
+  units=2541 allowance=160 billable=2381 blocks=120
+  blocks 1-40 x 35
+  blocks 41-120 x 28
+  charge 32.76 CHF
+quote c-ch search plan=starter
+  units=2580 allowance=160 billable=2420 blocks=121
+  blocks 1-40 x 35
+  blocks 41-121 x 28
+  charge 33.01 CHF
+quote c-ch search plan=starter
+  units=2561 allowance=160 billable=2401 blocks=121
+  blocks 1-40 x 35
+  blocks 41-121 x 28
+  charge 33.01 CHF
+quote c-ch search plan=starter
+  units=4160 allowance=160 billable=4000 blocks=200
+  blocks 1-40 x 35
+  blocks 41-200 x 28
+  charge 52.92 CHF
+quote c-ch search plan=starter
+  units=4141 allowance=160 billable=3981 blocks=200
+  blocks 1-40 x 35
+  blocks 41-200 x 28
+  charge 52.92 CHF
+quote c-ch search plan=starter
+  units=4180 allowance=160 billable=4020 blocks=201
+  blocks 1-40 x 35
+  blocks 41-201 x 28
+  charge 53.17 CHF
+quote c-ch search plan=starter
+  units=4161 allowance=160 billable=4001 blocks=201
+  blocks 1-40 x 35
+  blocks 41-201 x 28
+  charge 53.17 CHF
+quote c-free cache plan=free
+  units=384 allowance=256 billable=128 blocks=1
+  blocks 1-1 x 11
+  charge 0.50 USD
+quote c-free cache plan=free
+  units=257 allowance=256 billable=1 blocks=1
+  blocks 1-1 x 11
+  charge 0.50 USD
+quote c-free cache plan=free
+  units=640 allowance=256 billable=384 blocks=3
+  blocks 1-3 x 11
+  charge 0.50 USD
+quote c-free cache plan=free
+  units=513 allowance=256 billable=257 blocks=3
+  blocks 1-3 x 11
+  charge 0.50 USD
+quote c-free cache plan=free
+  units=1536 allowance=256 billable=1280 blocks=10
+  blocks 1-10 x 11
+  charge 1.10 USD
+quote c-free cache plan=free
+  units=1409 allowance=256 billable=1153 blocks=10
+  blocks 1-10 x 11
+  charge 1.10 USD
+quote c-free cache plan=free
+  units=4096 allowance=256 billable=3840 blocks=30
+  blocks 1-30 x 11
+  charge 3.30 USD
+quote c-free cache plan=free
+  units=3969 allowance=256 billable=3713 blocks=30
+  blocks 1-30 x 11
+  charge 3.30 USD
+quote c-free cache plan=free
+  units=4224 allowance=256 billable=3968 blocks=31
+  blocks 1-31 x 11
+  charge 3.41 USD
+quote c-free cache plan=free
+  units=4097 allowance=256 billable=3841 blocks=31
+  blocks 1-31 x 11
+  charge 3.41 USD
+quote c-free cache plan=free
+  units=7936 allowance=256 billable=7680 blocks=60
+  blocks 1-60 x 11
+  charge 6.60 USD
+quote c-free cache plan=free
+  units=7809 allowance=256 billable=7553 blocks=60
+  blocks 1-60 x 11
+  charge 6.60 USD
+quote c-free cache plan=free
+  units=13056 allowance=256 billable=12800 blocks=100
+  blocks 1-100 x 11
+  charge 11.00 USD
+quote c-free cache plan=free
+  units=12929 allowance=256 billable=12673 blocks=100
+  blocks 1-100 x 11
+  charge 11.00 USD
+quote c-free cache plan=free
+  units=13184 allowance=256 billable=12928 blocks=101
+  blocks 1-101 x 11
+  charge 11.11 USD
+quote c-free cache plan=free
+  units=13057 allowance=256 billable=12801 blocks=101
+  blocks 1-101 x 11
+  charge 11.11 USD
+quote c-free cache plan=free
+  units=15616 allowance=256 billable=15360 blocks=120
+  blocks 1-120 x 11
+  charge 13.20 USD
+quote c-free cache plan=free
+  units=15489 allowance=256 billable=15233 blocks=120
+  blocks 1-120 x 11
+  charge 13.20 USD
+quote c-free cache plan=free
+  units=15744 allowance=256 billable=15488 blocks=121
+  blocks 1-121 x 11
+  charge 13.31 USD
+quote c-free cache plan=free
+  units=15617 allowance=256 billable=15361 blocks=121
+  blocks 1-121 x 11
+  charge 13.31 USD
+quote c-free cache plan=free
+  units=25856 allowance=256 billable=25600 blocks=200
+  blocks 1-200 x 11
+  charge 22.00 USD
+quote c-free cache plan=free
+  units=25729 allowance=256 billable=25473 blocks=200
+  blocks 1-200 x 11
+  charge 22.00 USD
+quote c-free cache plan=free
+  units=25984 allowance=256 billable=25728 blocks=201
+  blocks 1-201 x 11
+  charge 22.11 USD
+quote c-free cache plan=free
+  units=25857 allowance=256 billable=25601 blocks=201
+  blocks 1-201 x 11
+  charge 22.11 USD
+quote c-biz cache plan=business
+  units=10368 allowance=10240 billable=128 blocks=1
+  blocks 1-1 x 11
+  charge 0.46 EUR
+quote c-biz cache plan=business
+  units=10241 allowance=10240 billable=1 blocks=1
+  blocks 1-1 x 11
+  charge 0.46 EUR
+quote c-biz cache plan=business
+  units=10624 allowance=10240 billable=384 blocks=3
+  blocks 1-3 x 11
+  charge 0.46 EUR
+quote c-biz cache plan=business
+  units=10497 allowance=10240 billable=257 blocks=3
+  blocks 1-3 x 11
+  charge 0.46 EUR
+quote c-biz cache plan=business
+  units=11520 allowance=10240 billable=1280 blocks=10
+  blocks 1-10 x 11
+  charge 1.01 EUR
+quote c-biz cache plan=business
+  units=11393 allowance=10240 billable=1153 blocks=10
+  blocks 1-10 x 11
+  charge 1.01 EUR
+quote c-biz cache plan=business
+  units=14080 allowance=10240 billable=3840 blocks=30
+  blocks 1-30 x 11
+  charge 3.04 EUR
+quote c-biz cache plan=business
+  units=13953 allowance=10240 billable=3713 blocks=30
+  blocks 1-30 x 11
+  charge 3.04 EUR
+quote c-biz cache plan=business
+  units=14208 allowance=10240 billable=3968 blocks=31
+  blocks 1-31 x 11
+  charge 3.14 EUR
+quote c-biz cache plan=business
+  units=14081 allowance=10240 billable=3841 blocks=31
+  blocks 1-31 x 11
+  charge 3.14 EUR
+quote c-biz cache plan=business
+  units=17920 allowance=10240 billable=7680 blocks=60
+  blocks 1-60 x 11
+  charge 6.07 EUR
+quote c-biz cache plan=business
+  units=17793 allowance=10240 billable=7553 blocks=60
+  blocks 1-60 x 11
+  charge 6.07 EUR
+quote c-biz cache plan=business
+  units=23040 allowance=10240 billable=12800 blocks=100
+  blocks 1-100 x 11
+  charge 10.12 EUR
+quote c-biz cache plan=business
+  units=22913 allowance=10240 billable=12673 blocks=100
+  blocks 1-100 x 11
+  charge 10.12 EUR
+quote c-biz cache plan=business
+  units=23168 allowance=10240 billable=12928 blocks=101
+  blocks 1-101 x 11
+  charge 10.22 EUR
+quote c-biz cache plan=business
+  units=23041 allowance=10240 billable=12801 blocks=101
+  blocks 1-101 x 11
+  charge 10.22 EUR
+quote c-biz cache plan=business
+  units=25600 allowance=10240 billable=15360 blocks=120
+  blocks 1-120 x 11
+  charge 12.14 EUR
+quote c-biz cache plan=business
+  units=25473 allowance=10240 billable=15233 blocks=120
+  blocks 1-120 x 11
+  charge 12.14 EUR
+quote c-biz cache plan=business
+  units=25728 allowance=10240 billable=15488 blocks=121
+  blocks 1-121 x 11
+  charge 12.25 EUR
+quote c-biz cache plan=business
+  units=25601 allowance=10240 billable=15361 blocks=121
+  blocks 1-121 x 11
+  charge 12.25 EUR
+quote c-biz cache plan=business
+  units=35840 allowance=10240 billable=25600 blocks=200
+  blocks 1-200 x 11
+  charge 20.24 EUR
+quote c-biz cache plan=business
+  units=35713 allowance=10240 billable=25473 blocks=200
+  blocks 1-200 x 11
+  charge 20.24 EUR
+quote c-biz cache plan=business
+  units=35968 allowance=10240 billable=25728 blocks=201
+  blocks 1-201 x 11
+  charge 20.34 EUR
+quote c-biz cache plan=business
+  units=35841 allowance=10240 billable=25601 blocks=201
+  blocks 1-201 x 11
+  charge 20.34 EUR
+quote c-ch cache plan=starter
+  units=1152 allowance=1024 billable=128 blocks=1
+  blocks 1-1 x 11
+  charge 0.45 CHF
+quote c-ch cache plan=starter
+  units=1025 allowance=1024 billable=1 blocks=1
+  blocks 1-1 x 11
+  charge 0.45 CHF
+quote c-ch cache plan=starter
+  units=1408 allowance=1024 billable=384 blocks=3
+  blocks 1-3 x 11
+  charge 0.45 CHF
+quote c-ch cache plan=starter
+  units=1281 allowance=1024 billable=257 blocks=3
+  blocks 1-3 x 11
+  charge 0.45 CHF
+quote c-ch cache plan=starter
+  units=2304 allowance=1024 billable=1280 blocks=10
+  blocks 1-10 x 11
+  charge 0.99 CHF
+quote c-ch cache plan=starter
+  units=2177 allowance=1024 billable=1153 blocks=10
+  blocks 1-10 x 11
+  charge 0.99 CHF
+quote c-ch cache plan=starter
+  units=4864 allowance=1024 billable=3840 blocks=30
+  blocks 1-30 x 11
+  charge 2.97 CHF
+quote c-ch cache plan=starter
+  units=4737 allowance=1024 billable=3713 blocks=30
+  blocks 1-30 x 11
+  charge 2.97 CHF
+quote c-ch cache plan=starter
+  units=4992 allowance=1024 billable=3968 blocks=31
+  blocks 1-31 x 11
+  charge 3.07 CHF
+quote c-ch cache plan=starter
+  units=4865 allowance=1024 billable=3841 blocks=31
+  blocks 1-31 x 11
+  charge 3.07 CHF
+quote c-ch cache plan=starter
+  units=8704 allowance=1024 billable=7680 blocks=60
+  blocks 1-60 x 11
+  charge 5.94 CHF
+quote c-ch cache plan=starter
+  units=8577 allowance=1024 billable=7553 blocks=60
+  blocks 1-60 x 11
+  charge 5.94 CHF
+quote c-ch cache plan=starter
+  units=13824 allowance=1024 billable=12800 blocks=100
+  blocks 1-100 x 11
+  charge 9.90 CHF
+quote c-ch cache plan=starter
+  units=13697 allowance=1024 billable=12673 blocks=100
+  blocks 1-100 x 11
+  charge 9.90 CHF
+quote c-ch cache plan=starter
+  units=13952 allowance=1024 billable=12928 blocks=101
+  blocks 1-101 x 11
+  charge 10.00 CHF
+quote c-ch cache plan=starter
+  units=13825 allowance=1024 billable=12801 blocks=101
+  blocks 1-101 x 11
+  charge 10.00 CHF
+quote c-ch cache plan=starter
+  units=16384 allowance=1024 billable=15360 blocks=120
+  blocks 1-120 x 11
+  charge 11.88 CHF
+quote c-ch cache plan=starter
+  units=16257 allowance=1024 billable=15233 blocks=120
+  blocks 1-120 x 11
+  charge 11.88 CHF
+quote c-ch cache plan=starter
+  units=16512 allowance=1024 billable=15488 blocks=121
+  blocks 1-121 x 11
+  charge 11.98 CHF
+quote c-ch cache plan=starter
+  units=16385 allowance=1024 billable=15361 blocks=121
+  blocks 1-121 x 11
+  charge 11.98 CHF
+quote c-ch cache plan=starter
+  units=26624 allowance=1024 billable=25600 blocks=200
+  blocks 1-200 x 11
+  charge 19.80 CHF
+quote c-ch cache plan=starter
+  units=26497 allowance=1024 billable=25473 blocks=200
+  blocks 1-200 x 11
+  charge 19.80 CHF
+quote c-ch cache plan=starter
+  units=26752 allowance=1024 billable=25728 blocks=201
+  blocks 1-201 x 11
+  charge 19.90 CHF
+quote c-ch cache plan=starter
+  units=26625 allowance=1024 billable=25601 blocks=201
+  blocks 1-201 x 11
+  charge 19.90 CHF
+quote c-free vault plan=free
+  units=20 allowance=10 billable=10 blocks=1
+  blocks 1-1 x 60
+  charge 0.60 USD
+quote c-free vault plan=free
+  units=11 allowance=10 billable=1 blocks=1
+  blocks 1-1 x 60
+  charge 0.60 USD
+quote c-free vault plan=free
+  units=40 allowance=10 billable=30 blocks=3
+  blocks 1-3 x 60
+  charge 1.80 USD
+quote c-free vault plan=free
+  units=31 allowance=10 billable=21 blocks=3
+  blocks 1-3 x 60
+  charge 1.80 USD
+quote c-free vault plan=free
+  units=110 allowance=10 billable=100 blocks=10
+  blocks 1-10 x 60
+  charge 6.00 USD
+quote c-free vault plan=free
+  units=101 allowance=10 billable=91 blocks=10
+  blocks 1-10 x 60
+  charge 6.00 USD
+quote c-free vault plan=free
+  units=310 allowance=10 billable=300 blocks=30
+  blocks 1-30 x 60
+  charge 18.00 USD
+quote c-free vault plan=free
+  units=301 allowance=10 billable=291 blocks=30
+  blocks 1-30 x 60
+  charge 18.00 USD
+quote c-free vault plan=free
+  units=320 allowance=10 billable=310 blocks=31
+  blocks 1-31 x 60
+  charge 18.60 USD
+quote c-free vault plan=free
+  units=311 allowance=10 billable=301 blocks=31
+  blocks 1-31 x 60
+  charge 18.60 USD
+quote c-free vault plan=free
+  units=610 allowance=10 billable=600 blocks=60
+  blocks 1-60 x 60
+  charge 36.00 USD
+quote c-free vault plan=free
+  units=601 allowance=10 billable=591 blocks=60
+  blocks 1-60 x 60
+  charge 36.00 USD
+quote c-free vault plan=free
+  units=1010 allowance=10 billable=1000 blocks=100
+  blocks 1-100 x 60
+  charge 60.00 USD
+quote c-free vault plan=free
+  units=1001 allowance=10 billable=991 blocks=100
+  blocks 1-100 x 60
+  charge 60.00 USD
+quote c-free vault plan=free
+  units=1020 allowance=10 billable=1010 blocks=101
+  blocks 1-101 x 60
+  charge 60.60 USD
+quote c-free vault plan=free
+  units=1011 allowance=10 billable=1001 blocks=101
+  blocks 1-101 x 60
+  charge 60.60 USD
+quote c-free vault plan=free
+  units=1210 allowance=10 billable=1200 blocks=120
+  blocks 1-120 x 60
+  charge 72.00 USD
+quote c-free vault plan=free
+  units=1201 allowance=10 billable=1191 blocks=120
+  blocks 1-120 x 60
+  charge 72.00 USD
+quote c-free vault plan=free
+  units=1220 allowance=10 billable=1210 blocks=121
+  blocks 1-121 x 60
+  charge 72.60 USD
+quote c-free vault plan=free
+  units=1211 allowance=10 billable=1201 blocks=121
+  blocks 1-121 x 60
+  charge 72.60 USD
+quote c-free vault plan=free
+  units=2010 allowance=10 billable=2000 blocks=200
+  blocks 1-200 x 60
+  charge 120.00 USD
+quote c-free vault plan=free
+  units=2001 allowance=10 billable=1991 blocks=200
+  blocks 1-200 x 60
+  charge 120.00 USD
+quote c-free vault plan=free
+  units=2020 allowance=10 billable=2010 blocks=201
+  blocks 1-201 x 60
+  charge 120.60 USD
+quote c-free vault plan=free
+  units=2011 allowance=10 billable=2001 blocks=201
+  blocks 1-201 x 60
+  charge 120.60 USD
+quote c-biz vault plan=business
+  units=410 allowance=400 billable=10 blocks=1
+  blocks 1-1 x 60
+  charge 0.55 EUR
+quote c-biz vault plan=business
+  units=401 allowance=400 billable=1 blocks=1
+  blocks 1-1 x 60
+  charge 0.55 EUR
+quote c-biz vault plan=business
+  units=430 allowance=400 billable=30 blocks=3
+  blocks 1-3 x 60
+  charge 1.66 EUR
+quote c-biz vault plan=business
+  units=421 allowance=400 billable=21 blocks=3
+  blocks 1-3 x 60
+  charge 1.66 EUR
+quote c-biz vault plan=business
+  units=500 allowance=400 billable=100 blocks=10
+  blocks 1-10 x 60
+  charge 5.52 EUR
+quote c-biz vault plan=business
+  units=491 allowance=400 billable=91 blocks=10
+  blocks 1-10 x 60
+  charge 5.52 EUR
+quote c-biz vault plan=business
+  units=700 allowance=400 billable=300 blocks=30
+  blocks 1-30 x 60
+  charge 16.56 EUR
+quote c-biz vault plan=business
+  units=691 allowance=400 billable=291 blocks=30
+  blocks 1-30 x 60
+  charge 16.56 EUR
+quote c-biz vault plan=business
+  units=710 allowance=400 billable=310 blocks=31
+  blocks 1-31 x 60
+  charge 17.11 EUR
+quote c-biz vault plan=business
+  units=701 allowance=400 billable=301 blocks=31
+  blocks 1-31 x 60
+  charge 17.11 EUR
+quote c-biz vault plan=business
+  units=1000 allowance=400 billable=600 blocks=60
+  blocks 1-60 x 60
+  charge 33.12 EUR
+quote c-biz vault plan=business
+  units=991 allowance=400 billable=591 blocks=60
+  blocks 1-60 x 60
+  charge 33.12 EUR
+quote c-biz vault plan=business
+  units=1400 allowance=400 billable=1000 blocks=100
+  blocks 1-100 x 60
+  charge 55.20 EUR
+quote c-biz vault plan=business
+  units=1391 allowance=400 billable=991 blocks=100
+  blocks 1-100 x 60
+  charge 55.20 EUR
+quote c-biz vault plan=business
+  units=1410 allowance=400 billable=1010 blocks=101
+  blocks 1-101 x 60
+  charge 55.75 EUR
+quote c-biz vault plan=business
+  units=1401 allowance=400 billable=1001 blocks=101
+  blocks 1-101 x 60
+  charge 55.75 EUR
+quote c-biz vault plan=business
+  units=1600 allowance=400 billable=1200 blocks=120
+  blocks 1-120 x 60
+  charge 66.24 EUR
+quote c-biz vault plan=business
+  units=1591 allowance=400 billable=1191 blocks=120
+  blocks 1-120 x 60
+  charge 66.24 EUR
+quote c-biz vault plan=business
+  units=1610 allowance=400 billable=1210 blocks=121
+  blocks 1-121 x 60
+  charge 66.79 EUR
+quote c-biz vault plan=business
+  units=1601 allowance=400 billable=1201 blocks=121
+  blocks 1-121 x 60
+  charge 66.79 EUR
+quote c-biz vault plan=business
+  units=2400 allowance=400 billable=2000 blocks=200
+  blocks 1-200 x 60
+  charge 110.40 EUR
+quote c-biz vault plan=business
+  units=2391 allowance=400 billable=1991 blocks=200
+  blocks 1-200 x 60
+  charge 110.40 EUR
+quote c-biz vault plan=business
+  units=2410 allowance=400 billable=2010 blocks=201
+  blocks 1-201 x 60
+  charge 110.95 EUR
+quote c-biz vault plan=business
+  units=2401 allowance=400 billable=2001 blocks=201
+  blocks 1-201 x 60
+  charge 110.95 EUR
+quote c-ch vault plan=starter
+  units=50 allowance=40 billable=10 blocks=1
+  blocks 1-1 x 60
+  charge 0.54 CHF
+quote c-ch vault plan=starter
+  units=41 allowance=40 billable=1 blocks=1
+  blocks 1-1 x 60
+  charge 0.54 CHF
+quote c-ch vault plan=starter
+  units=70 allowance=40 billable=30 blocks=3
+  blocks 1-3 x 60
+  charge 1.62 CHF
+quote c-ch vault plan=starter
+  units=61 allowance=40 billable=21 blocks=3
+  blocks 1-3 x 60
+  charge 1.62 CHF
+quote c-ch vault plan=starter
+  units=140 allowance=40 billable=100 blocks=10
+  blocks 1-10 x 60
+  charge 5.40 CHF
+quote c-ch vault plan=starter
+  units=131 allowance=40 billable=91 blocks=10
+  blocks 1-10 x 60
+  charge 5.40 CHF
+quote c-ch vault plan=starter
+  units=340 allowance=40 billable=300 blocks=30
+  blocks 1-30 x 60
+  charge 16.20 CHF
+quote c-ch vault plan=starter
+  units=331 allowance=40 billable=291 blocks=30
+  blocks 1-30 x 60
+  charge 16.20 CHF
+quote c-ch vault plan=starter
+  units=350 allowance=40 billable=310 blocks=31
+  blocks 1-31 x 60
+  charge 16.74 CHF
+quote c-ch vault plan=starter
+  units=341 allowance=40 billable=301 blocks=31
+  blocks 1-31 x 60
+  charge 16.74 CHF
+quote c-ch vault plan=starter
+  units=640 allowance=40 billable=600 blocks=60
+  blocks 1-60 x 60
+  charge 32.40 CHF
+quote c-ch vault plan=starter
+  units=631 allowance=40 billable=591 blocks=60
+  blocks 1-60 x 60
+  charge 32.40 CHF
+quote c-ch vault plan=starter
+  units=1040 allowance=40 billable=1000 blocks=100
+  blocks 1-100 x 60
+  charge 54.00 CHF
+quote c-ch vault plan=starter
+  units=1031 allowance=40 billable=991 blocks=100
+  blocks 1-100 x 60
+  charge 54.00 CHF
+quote c-ch vault plan=starter
+  units=1050 allowance=40 billable=1010 blocks=101
+  blocks 1-101 x 60
+  charge 54.54 CHF
+quote c-ch vault plan=starter
+  units=1041 allowance=40 billable=1001 blocks=101
+  blocks 1-101 x 60
+  charge 54.54 CHF
+quote c-ch vault plan=starter
+  units=1240 allowance=40 billable=1200 blocks=120
+  blocks 1-120 x 60
+  charge 64.80 CHF
+quote c-ch vault plan=starter
+  units=1231 allowance=40 billable=1191 blocks=120
+  blocks 1-120 x 60
+  charge 64.80 CHF
+quote c-ch vault plan=starter
+  units=1250 allowance=40 billable=1210 blocks=121
+  blocks 1-121 x 60
+  charge 65.34 CHF
+quote c-ch vault plan=starter
+  units=1241 allowance=40 billable=1201 blocks=121
+  blocks 1-121 x 60
+  charge 65.34 CHF
+quote c-ch vault plan=starter
+  units=2040 allowance=40 billable=2000 blocks=200
+  blocks 1-200 x 60
+  charge 108.00 CHF
+quote c-ch vault plan=starter
+  units=2031 allowance=40 billable=1991 blocks=200
+  blocks 1-200 x 60
+  charge 108.00 CHF
+quote c-ch vault plan=starter
+  units=2050 allowance=40 billable=2010 blocks=201
+  blocks 1-201 x 60
+  charge 108.54 CHF
+quote c-ch vault plan=starter
+  units=2041 allowance=40 billable=2001 blocks=201
+  blocks 1-201 x 60
+  charge 108.54 CHF
+quote c-free metrics plan=free
+  units=300 allowance=200 billable=100 blocks=1
+  blocks 1-1 x 20
+  charge 0.20 USD
+quote c-free metrics plan=free
+  units=201 allowance=200 billable=1 blocks=1
+  blocks 1-1 x 20
+  charge 0.20 USD
+quote c-free metrics plan=free
+  units=500 allowance=200 billable=300 blocks=3
+  blocks 1-3 x 20
+  charge 0.60 USD
+quote c-free metrics plan=free
+  units=401 allowance=200 billable=201 blocks=3
+  blocks 1-3 x 20
+  charge 0.60 USD
+quote c-free metrics plan=free
+  units=1200 allowance=200 billable=1000 blocks=10
+  blocks 1-10 x 20
+  charge 2.00 USD
+quote c-free metrics plan=free
+  units=1101 allowance=200 billable=901 blocks=10
+  blocks 1-10 x 20
+  charge 2.00 USD
+quote c-free metrics plan=free
+  units=3200 allowance=200 billable=3000 blocks=30
+  blocks 1-25 x 20
+  blocks 26-30 x 14
+  charge 5.70 USD
+quote c-free metrics plan=free
+  units=3101 allowance=200 billable=2901 blocks=30
+  blocks 1-25 x 20
+  blocks 26-30 x 14
+  charge 5.70 USD
+quote c-free metrics plan=free
+  units=3300 allowance=200 billable=3100 blocks=31
+  blocks 1-25 x 20
+  blocks 26-31 x 14
+  charge 5.84 USD
+quote c-free metrics plan=free
+  units=3201 allowance=200 billable=3001 blocks=31
+  blocks 1-25 x 20
+  blocks 26-31 x 14
+  charge 5.84 USD
+quote c-free metrics plan=free
+  units=6200 allowance=200 billable=6000 blocks=60
+  blocks 1-25 x 20
+  blocks 26-60 x 14
+  charge 9.90 USD
+quote c-free metrics plan=free
+  units=6101 allowance=200 billable=5901 blocks=60
+  blocks 1-25 x 20
+  blocks 26-60 x 14
+  charge 9.90 USD
+quote c-free metrics plan=free
+  units=10200 allowance=200 billable=10000 blocks=100
+  blocks 1-25 x 20
+  blocks 26-100 x 14
+  charge 15.50 USD
+quote c-free metrics plan=free
+  units=10101 allowance=200 billable=9901 blocks=100
+  blocks 1-25 x 20
+  blocks 26-100 x 14
+  charge 15.50 USD
+quote c-free metrics plan=free
+  units=10300 allowance=200 billable=10100 blocks=101
+  blocks 1-25 x 20
+  blocks 26-101 x 14
+  charge 15.64 USD
+quote c-free metrics plan=free
+  units=10201 allowance=200 billable=10001 blocks=101
+  blocks 1-25 x 20
+  blocks 26-101 x 14
+  charge 15.64 USD
+quote c-free metrics plan=free
+  units=12200 allowance=200 billable=12000 blocks=120
+  blocks 1-25 x 20
+  blocks 26-120 x 14
+  charge 18.30 USD
+quote c-free metrics plan=free
+  units=12101 allowance=200 billable=11901 blocks=120
+  blocks 1-25 x 20
+  blocks 26-120 x 14
+  charge 18.30 USD
+quote c-free metrics plan=free
+  units=12300 allowance=200 billable=12100 blocks=121
+  blocks 1-25 x 20
+  blocks 26-121 x 14
+  charge 18.44 USD
+quote c-free metrics plan=free
+  units=12201 allowance=200 billable=12001 blocks=121
+  blocks 1-25 x 20
+  blocks 26-121 x 14
+  charge 18.44 USD
+quote c-free metrics plan=free
+  units=20200 allowance=200 billable=20000 blocks=200
+  blocks 1-25 x 20
+  blocks 26-200 x 14
+  charge 29.50 USD
+quote c-free metrics plan=free
+  units=20101 allowance=200 billable=19901 blocks=200
+  blocks 1-25 x 20
+  blocks 26-200 x 14
+  charge 29.50 USD
+quote c-free metrics plan=free
+  units=20300 allowance=200 billable=20100 blocks=201
+  blocks 1-25 x 20
+  blocks 26-201 x 14
+  charge 29.64 USD
+quote c-free metrics plan=free
+  units=20201 allowance=200 billable=20001 blocks=201
+  blocks 1-25 x 20
+  blocks 26-201 x 14
+  charge 29.64 USD
+quote c-biz metrics plan=business
+  units=8100 allowance=8000 billable=100 blocks=1
+  blocks 1-1 x 20
+  charge 0.18 EUR
+quote c-biz metrics plan=business
+  units=8001 allowance=8000 billable=1 blocks=1
+  blocks 1-1 x 20
+  charge 0.18 EUR
+quote c-biz metrics plan=business
+  units=8300 allowance=8000 billable=300 blocks=3
+  blocks 1-3 x 20
+  charge 0.55 EUR
+quote c-biz metrics plan=business
+  units=8201 allowance=8000 billable=201 blocks=3
+  blocks 1-3 x 20
+  charge 0.55 EUR
+quote c-biz metrics plan=business
+  units=9000 allowance=8000 billable=1000 blocks=10
+  blocks 1-10 x 20
+  charge 1.84 EUR
+quote c-biz metrics plan=business
+  units=8901 allowance=8000 billable=901 blocks=10
+  blocks 1-10 x 20
+  charge 1.84 EUR
+quote c-biz metrics plan=business
+  units=11000 allowance=8000 billable=3000 blocks=30
+  blocks 1-25 x 20
+  blocks 26-30 x 14
+  charge 5.24 EUR
+quote c-biz metrics plan=business
+  units=10901 allowance=8000 billable=2901 blocks=30
+  blocks 1-25 x 20
+  blocks 26-30 x 14
+  charge 5.24 EUR
+quote c-biz metrics plan=business
+  units=11100 allowance=8000 billable=3100 blocks=31
+  blocks 1-25 x 20
+  blocks 26-31 x 14
+  charge 5.37 EUR
+quote c-biz metrics plan=business
+  units=11001 allowance=8000 billable=3001 blocks=31
+  blocks 1-25 x 20
+  blocks 26-31 x 14
+  charge 5.37 EUR
+quote c-biz metrics plan=business
+  units=14000 allowance=8000 billable=6000 blocks=60
+  blocks 1-25 x 20
+  blocks 26-60 x 14
+  charge 9.11 EUR
+quote c-biz metrics plan=business
+  units=13901 allowance=8000 billable=5901 blocks=60
+  blocks 1-25 x 20
+  blocks 26-60 x 14
+  charge 9.11 EUR
+quote c-biz metrics plan=business
+  units=18000 allowance=8000 billable=10000 blocks=100
+  blocks 1-25 x 20
+  blocks 26-100 x 14
+  charge 14.26 EUR
+quote c-biz metrics plan=business
+  units=17901 allowance=8000 billable=9901 blocks=100
+  blocks 1-25 x 20
+  blocks 26-100 x 14
+  charge 14.26 EUR
+quote c-biz metrics plan=business
+  units=18100 allowance=8000 billable=10100 blocks=101
+  blocks 1-25 x 20
+  blocks 26-101 x 14
+  charge 14.39 EUR
+quote c-biz metrics plan=business
+  units=18001 allowance=8000 billable=10001 blocks=101
+  blocks 1-25 x 20
+  blocks 26-101 x 14
+  charge 14.39 EUR
+quote c-biz metrics plan=business
+  units=20000 allowance=8000 billable=12000 blocks=120
+  blocks 1-25 x 20
+  blocks 26-120 x 14
+  charge 16.84 EUR
+quote c-biz metrics plan=business
+  units=19901 allowance=8000 billable=11901 blocks=120
+  blocks 1-25 x 20
+  blocks 26-120 x 14
+  charge 16.84 EUR
+quote c-biz metrics plan=business
+  units=20100 allowance=8000 billable=12100 blocks=121
+  blocks 1-25 x 20
+  blocks 26-121 x 14
+  charge 16.96 EUR
+quote c-biz metrics plan=business
+  units=20001 allowance=8000 billable=12001 blocks=121
+  blocks 1-25 x 20
+  blocks 26-121 x 14
+  charge 16.96 EUR
+quote c-biz metrics plan=business
+  units=28000 allowance=8000 billable=20000 blocks=200
+  blocks 1-25 x 20
+  blocks 26-200 x 14
+  charge 27.14 EUR
+quote c-biz metrics plan=business
+  units=27901 allowance=8000 billable=19901 blocks=200
+  blocks 1-25 x 20
+  blocks 26-200 x 14
+  charge 27.14 EUR
+quote c-biz metrics plan=business
+  units=28100 allowance=8000 billable=20100 blocks=201
+  blocks 1-25 x 20
+  blocks 26-201 x 14
+  charge 27.27 EUR
+quote c-biz metrics plan=business
+  units=28001 allowance=8000 billable=20001 blocks=201
+  blocks 1-25 x 20
+  blocks 26-201 x 14
+  charge 27.27 EUR
+quote c-ch metrics plan=starter
+  units=900 allowance=800 billable=100 blocks=1
+  blocks 1-1 x 20
+  charge 0.18 CHF
+quote c-ch metrics plan=starter
+  units=801 allowance=800 billable=1 blocks=1
+  blocks 1-1 x 20
+  charge 0.18 CHF
+quote c-ch metrics plan=starter
+  units=1100 allowance=800 billable=300 blocks=3
+  blocks 1-3 x 20
+  charge 0.54 CHF
+quote c-ch metrics plan=starter
+  units=1001 allowance=800 billable=201 blocks=3
+  blocks 1-3 x 20
+  charge 0.54 CHF
+quote c-ch metrics plan=starter
+  units=1800 allowance=800 billable=1000 blocks=10
+  blocks 1-10 x 20
+  charge 1.80 CHF
+quote c-ch metrics plan=starter
+  units=1701 allowance=800 billable=901 blocks=10
+  blocks 1-10 x 20
+  charge 1.80 CHF
+quote c-ch metrics plan=starter
+  units=3800 allowance=800 billable=3000 blocks=30
+  blocks 1-25 x 20
+  blocks 26-30 x 14
+  charge 5.13 CHF
+quote c-ch metrics plan=starter
+  units=3701 allowance=800 billable=2901 blocks=30
+  blocks 1-25 x 20
+  blocks 26-30 x 14
+  charge 5.13 CHF
+quote c-ch metrics plan=starter
+  units=3900 allowance=800 billable=3100 blocks=31
+  blocks 1-25 x 20
+  blocks 26-31 x 14
+  charge 5.26 CHF
+quote c-ch metrics plan=starter
+  units=3801 allowance=800 billable=3001 blocks=31
+  blocks 1-25 x 20
+  blocks 26-31 x 14
+  charge 5.26 CHF
+quote c-ch metrics plan=starter
+  units=6800 allowance=800 billable=6000 blocks=60
+  blocks 1-25 x 20
+  blocks 26-60 x 14
+  charge 8.91 CHF
+quote c-ch metrics plan=starter
+  units=6701 allowance=800 billable=5901 blocks=60
+  blocks 1-25 x 20
+  blocks 26-60 x 14
+  charge 8.91 CHF
+quote c-ch metrics plan=starter
+  units=10800 allowance=800 billable=10000 blocks=100
+  blocks 1-25 x 20
+  blocks 26-100 x 14
+  charge 13.95 CHF
+quote c-ch metrics plan=starter
+  units=10701 allowance=800 billable=9901 blocks=100
+  blocks 1-25 x 20
+  blocks 26-100 x 14
+  charge 13.95 CHF
+quote c-ch metrics plan=starter
+  units=10900 allowance=800 billable=10100 blocks=101
+  blocks 1-25 x 20
+  blocks 26-101 x 14
+  charge 14.08 CHF
+quote c-ch metrics plan=starter
+  units=10801 allowance=800 billable=10001 blocks=101
+  blocks 1-25 x 20
+  blocks 26-101 x 14
+  charge 14.08 CHF
+quote c-ch metrics plan=starter
+  units=12800 allowance=800 billable=12000 blocks=120
+  blocks 1-25 x 20
+  blocks 26-120 x 14
+  charge 16.47 CHF
+quote c-ch metrics plan=starter
+  units=12701 allowance=800 billable=11901 blocks=120
+  blocks 1-25 x 20
+  blocks 26-120 x 14
+  charge 16.47 CHF
+quote c-ch metrics plan=starter
+  units=12900 allowance=800 billable=12100 blocks=121
+  blocks 1-25 x 20
+  blocks 26-121 x 14
+  charge 16.60 CHF
+quote c-ch metrics plan=starter
+  units=12801 allowance=800 billable=12001 blocks=121
+  blocks 1-25 x 20
+  blocks 26-121 x 14
+  charge 16.60 CHF
+quote c-ch metrics plan=starter
+  units=20800 allowance=800 billable=20000 blocks=200
+  blocks 1-25 x 20
+  blocks 26-200 x 14
+  charge 26.55 CHF
+quote c-ch metrics plan=starter
+  units=20701 allowance=800 billable=19901 blocks=200
+  blocks 1-25 x 20
+  blocks 26-200 x 14
+  charge 26.55 CHF
+quote c-ch metrics plan=starter
+  units=20900 allowance=800 billable=20100 blocks=201
+  blocks 1-25 x 20
+  blocks 26-201 x 14
+  charge 26.68 CHF
+quote c-ch metrics plan=starter
+  units=20801 allowance=800 billable=20001 blocks=201
+  blocks 1-25 x 20
+  blocks 26-201 x 14
+  charge 26.68 CHF
+quote c-free ocr plan=free
+  units=10 allowance=0 billable=10 blocks=1
+  blocks 1-1 x 120
+  charge 1.20 USD
+quote c-free ocr plan=free
+  units=1 allowance=0 billable=1 blocks=0
+  charge 0.00 USD
+quote c-free ocr plan=free
+  units=30 allowance=0 billable=30 blocks=3
+  blocks 1-3 x 120
+  charge 3.60 USD
+quote c-free ocr plan=free
+  units=21 allowance=0 billable=21 blocks=2
+  blocks 1-2 x 120
+  charge 2.40 USD
+quote c-free ocr plan=free
+  units=100 allowance=0 billable=100 blocks=10
+  blocks 1-10 x 120
+  charge 12.00 USD
+quote c-free ocr plan=free
+  units=91 allowance=0 billable=91 blocks=9
+  blocks 1-9 x 120
+  charge 10.80 USD
+quote c-free ocr plan=free
+  units=300 allowance=0 billable=300 blocks=30
+  blocks 1-30 x 120
+  charge 36.00 USD
+quote c-free ocr plan=free
+  units=291 allowance=0 billable=291 blocks=29
+  blocks 1-29 x 120
+  charge 34.80 USD
+quote c-free ocr plan=free
+  units=310 allowance=0 billable=310 blocks=31
+  blocks 1-31 x 120
+  charge 37.20 USD
+quote c-free ocr plan=free
+  units=301 allowance=0 billable=301 blocks=30
+  blocks 1-30 x 120
+  charge 36.00 USD
+quote c-free ocr plan=free
+  units=600 allowance=0 billable=600 blocks=60
+  blocks 1-60 x 120
+  charge 72.00 USD
+quote c-free ocr plan=free
+  units=591 allowance=0 billable=591 blocks=59
+  blocks 1-59 x 120
+  charge 70.80 USD
+quote c-free ocr plan=free
+  units=1000 allowance=0 billable=1000 blocks=100
+  blocks 1-100 x 120
+  charge 120.00 USD
+quote c-free ocr plan=free
+  units=991 allowance=0 billable=991 blocks=99
+  blocks 1-99 x 120
+  charge 118.80 USD
+quote c-free ocr plan=free
+  units=1010 allowance=0 billable=1010 blocks=101
+  blocks 1-101 x 120
+  charge 121.20 USD
+quote c-free ocr plan=free
+  units=1001 allowance=0 billable=1001 blocks=100
+  blocks 1-100 x 120
+  charge 120.00 USD
+quote c-free ocr plan=free
+  units=1200 allowance=0 billable=1200 blocks=120
+  blocks 1-120 x 120
+  charge 144.00 USD
+quote c-free ocr plan=free
+  units=1191 allowance=0 billable=1191 blocks=119
+  blocks 1-119 x 120
+  charge 142.80 USD
+quote c-free ocr plan=free
+  units=1210 allowance=0 billable=1210 blocks=121
+  blocks 1-121 x 120
+  charge 145.20 USD
+quote c-free ocr plan=free
+  units=1201 allowance=0 billable=1201 blocks=120
+  blocks 1-120 x 120
+  charge 144.00 USD
+quote c-free ocr plan=free
+  units=2000 allowance=0 billable=2000 blocks=200
+  blocks 1-200 x 120
+  charge 240.00 USD
+quote c-free ocr plan=free
+  units=1991 allowance=0 billable=1991 blocks=199
+  blocks 1-199 x 120
+  charge 238.80 USD
+quote c-free ocr plan=free
+  units=2010 allowance=0 billable=2010 blocks=201
+  blocks 1-201 x 120
+  charge 241.20 USD
+quote c-free ocr plan=free
+  units=2001 allowance=0 billable=2001 blocks=200
+  blocks 1-200 x 120
+  charge 240.00 USD
+quote c-biz ocr plan=business
+  units=10 allowance=0 billable=10 blocks=1
+  blocks 1-1 x 120
+  charge 1.10 EUR
+quote c-biz ocr plan=business
+  units=1 allowance=0 billable=1 blocks=0
+  charge 0.00 EUR
+quote c-biz ocr plan=business
+  units=30 allowance=0 billable=30 blocks=3
+  blocks 1-3 x 120
+  charge 3.31 EUR
+quote c-biz ocr plan=business
+  units=21 allowance=0 billable=21 blocks=2
+  blocks 1-2 x 120
+  charge 2.21 EUR
+quote c-biz ocr plan=business
+  units=100 allowance=0 billable=100 blocks=10
+  blocks 1-10 x 120
+  charge 11.04 EUR
+quote c-biz ocr plan=business
+  units=91 allowance=0 billable=91 blocks=9
+  blocks 1-9 x 120
+  charge 9.94 EUR
+quote c-biz ocr plan=business
+  units=300 allowance=0 billable=300 blocks=30
+  blocks 1-30 x 120
+  charge 33.12 EUR
+quote c-biz ocr plan=business
+  units=291 allowance=0 billable=291 blocks=29
+  blocks 1-29 x 120
+  charge 32.02 EUR
+quote c-biz ocr plan=business
+  units=310 allowance=0 billable=310 blocks=31
+  blocks 1-31 x 120
+  charge 34.22 EUR
+quote c-biz ocr plan=business
+  units=301 allowance=0 billable=301 blocks=30
+  blocks 1-30 x 120
+  charge 33.12 EUR
+quote c-biz ocr plan=business
+  units=600 allowance=0 billable=600 blocks=60
+  blocks 1-60 x 120
+  charge 66.24 EUR
+quote c-biz ocr plan=business
+  units=591 allowance=0 billable=591 blocks=59
+  blocks 1-59 x 120
+  charge 65.14 EUR
+quote c-biz ocr plan=business
+  units=1000 allowance=0 billable=1000 blocks=100
+  blocks 1-100 x 120
+  charge 110.40 EUR
+quote c-biz ocr plan=business
+  units=991 allowance=0 billable=991 blocks=99
+  blocks 1-99 x 120
+  charge 109.30 EUR
+quote c-biz ocr plan=business
+  units=1010 allowance=0 billable=1010 blocks=101
+  blocks 1-101 x 120
+  charge 111.50 EUR
+quote c-biz ocr plan=business
+  units=1001 allowance=0 billable=1001 blocks=100
+  blocks 1-100 x 120
+  charge 110.40 EUR
+quote c-biz ocr plan=business
+  units=1200 allowance=0 billable=1200 blocks=120
+  blocks 1-120 x 120
+  charge 132.48 EUR
+quote c-biz ocr plan=business
+  units=1191 allowance=0 billable=1191 blocks=119
+  blocks 1-119 x 120
+  charge 131.38 EUR
+quote c-biz ocr plan=business
+  units=1210 allowance=0 billable=1210 blocks=121
+  blocks 1-121 x 120
+  charge 133.58 EUR
+quote c-biz ocr plan=business
+  units=1201 allowance=0 billable=1201 blocks=120
+  blocks 1-120 x 120
+  charge 132.48 EUR
+quote c-biz ocr plan=business
+  units=2000 allowance=0 billable=2000 blocks=200
+  blocks 1-200 x 120
+  charge 220.80 EUR
+quote c-biz ocr plan=business
+  units=1991 allowance=0 billable=1991 blocks=199
+  blocks 1-199 x 120
+  charge 219.70 EUR
+quote c-biz ocr plan=business
+  units=2010 allowance=0 billable=2010 blocks=201
+  blocks 1-201 x 120
+  charge 221.90 EUR
+quote c-biz ocr plan=business
+  units=2001 allowance=0 billable=2001 blocks=200
+  blocks 1-200 x 120
+  charge 220.80 EUR
+quote c-ch ocr plan=starter
+  units=10 allowance=0 billable=10 blocks=1
+  blocks 1-1 x 120
+  charge 1.08 CHF
+quote c-ch ocr plan=starter
+  units=1 allowance=0 billable=1 blocks=0
+  charge 0.00 CHF
+quote c-ch ocr plan=starter
+  units=30 allowance=0 billable=30 blocks=3
+  blocks 1-3 x 120
+  charge 3.24 CHF
+quote c-ch ocr plan=starter
+  units=21 allowance=0 billable=21 blocks=2
+  blocks 1-2 x 120
+  charge 2.16 CHF
+quote c-ch ocr plan=starter
+  units=100 allowance=0 billable=100 blocks=10
+  blocks 1-10 x 120
+  charge 10.80 CHF
+quote c-ch ocr plan=starter
+  units=91 allowance=0 billable=91 blocks=9
+  blocks 1-9 x 120
+  charge 9.72 CHF
+quote c-ch ocr plan=starter
+  units=300 allowance=0 billable=300 blocks=30
+  blocks 1-30 x 120
+  charge 32.40 CHF
+quote c-ch ocr plan=starter
+  units=291 allowance=0 billable=291 blocks=29
+  blocks 1-29 x 120
+  charge 31.32 CHF
+quote c-ch ocr plan=starter
+  units=310 allowance=0 billable=310 blocks=31
+  blocks 1-31 x 120
+  charge 33.48 CHF
+quote c-ch ocr plan=starter
+  units=301 allowance=0 billable=301 blocks=30
+  blocks 1-30 x 120
+  charge 32.40 CHF
+quote c-ch ocr plan=starter
+  units=600 allowance=0 billable=600 blocks=60
+  blocks 1-60 x 120
+  charge 64.80 CHF
+quote c-ch ocr plan=starter
+  units=591 allowance=0 billable=591 blocks=59
+  blocks 1-59 x 120
+  charge 63.72 CHF
+quote c-ch ocr plan=starter
+  units=1000 allowance=0 billable=1000 blocks=100
+  blocks 1-100 x 120
+  charge 108.00 CHF
+quote c-ch ocr plan=starter
+  units=991 allowance=0 billable=991 blocks=99
+  blocks 1-99 x 120
+  charge 106.92 CHF
+quote c-ch ocr plan=starter
+  units=1010 allowance=0 billable=1010 blocks=101
+  blocks 1-101 x 120
+  charge 109.08 CHF
+quote c-ch ocr plan=starter
+  units=1001 allowance=0 billable=1001 blocks=100
+  blocks 1-100 x 120
+  charge 108.00 CHF
+quote c-ch ocr plan=starter
+  units=1200 allowance=0 billable=1200 blocks=120
+  blocks 1-120 x 120
+  charge 129.60 CHF
+quote c-ch ocr plan=starter
+  units=1191 allowance=0 billable=1191 blocks=119
+  blocks 1-119 x 120
+  charge 128.52 CHF
+quote c-ch ocr plan=starter
+  units=1210 allowance=0 billable=1210 blocks=121
+  blocks 1-121 x 120
+  charge 130.68 CHF
+quote c-ch ocr plan=starter
+  units=1201 allowance=0 billable=1201 blocks=120
+  blocks 1-120 x 120
+  charge 129.60 CHF
+quote c-ch ocr plan=starter
+  units=2000 allowance=0 billable=2000 blocks=200
+  blocks 1-200 x 120
+  charge 216.00 CHF
+quote c-ch ocr plan=starter
+  units=1991 allowance=0 billable=1991 blocks=199
+  blocks 1-199 x 120
+  charge 214.92 CHF
+quote c-ch ocr plan=starter
+  units=2010 allowance=0 billable=2010 blocks=201
+  blocks 1-201 x 120
+  charge 217.08 CHF
+quote c-ch ocr plan=starter
+  units=2001 allowance=0 billable=2001 blocks=200
+  blocks 1-200 x 120
+  charge 216.00 CHF
+quote c-free geocode plan=free
+  units=500 allowance=250 billable=250 blocks=1
+  blocks 1-1 x 19
+  charge 0.19 USD
+quote c-free geocode plan=free
+  units=251 allowance=250 billable=1 blocks=0
+  charge 0.00 USD
+quote c-free geocode plan=free
+  units=1000 allowance=250 billable=750 blocks=3
+  blocks 1-3 x 19
+  charge 0.57 USD
+quote c-free geocode plan=free
+  units=751 allowance=250 billable=501 blocks=2
+  blocks 1-2 x 19
+  charge 0.38 USD
+quote c-free geocode plan=free
+  units=2750 allowance=250 billable=2500 blocks=10
+  blocks 1-10 x 19
+  charge 1.90 USD
+quote c-free geocode plan=free
+  units=2501 allowance=250 billable=2251 blocks=9
+  blocks 1-9 x 19
+  charge 1.71 USD
+quote c-free geocode plan=free
+  units=7750 allowance=250 billable=7500 blocks=30
+  blocks 1-30 x 19
+  charge 5.70 USD
+quote c-free geocode plan=free
+  units=7501 allowance=250 billable=7251 blocks=29
+  blocks 1-29 x 19
+  charge 5.51 USD
+quote c-free geocode plan=free
+  units=8000 allowance=250 billable=7750 blocks=31
+  blocks 1-31 x 19
+  charge 5.89 USD
+quote c-free geocode plan=free
+  units=7751 allowance=250 billable=7501 blocks=30
+  blocks 1-30 x 19
+  charge 5.70 USD
+quote c-free geocode plan=free
+  units=15250 allowance=250 billable=15000 blocks=60
+  blocks 1-60 x 19
+  charge 11.40 USD
+quote c-free geocode plan=free
+  units=15001 allowance=250 billable=14751 blocks=59
+  blocks 1-59 x 19
+  charge 11.21 USD
+quote c-free geocode plan=free
+  units=25250 allowance=250 billable=25000 blocks=100
+  blocks 1-100 x 19
+  charge 19.00 USD
+quote c-free geocode plan=free
+  units=25001 allowance=250 billable=24751 blocks=99
+  blocks 1-99 x 19
+  charge 18.81 USD
+quote c-free geocode plan=free
+  units=25500 allowance=250 billable=25250 blocks=101
+  blocks 1-101 x 19
+  charge 19.19 USD
+quote c-free geocode plan=free
+  units=25251 allowance=250 billable=25001 blocks=100
+  blocks 1-100 x 19
+  charge 19.00 USD
+quote c-free geocode plan=free
+  units=30250 allowance=250 billable=30000 blocks=120
+  blocks 1-120 x 19
+  charge 22.80 USD
+quote c-free geocode plan=free
+  units=30001 allowance=250 billable=29751 blocks=119
+  blocks 1-119 x 19
+  charge 22.61 USD
+quote c-free geocode plan=free
+  units=30500 allowance=250 billable=30250 blocks=121
+  blocks 1-121 x 19
+  charge 22.99 USD
+quote c-free geocode plan=free
+  units=30251 allowance=250 billable=30001 blocks=120
+  blocks 1-120 x 19
+  charge 22.80 USD
+quote c-free geocode plan=free
+  units=50250 allowance=250 billable=50000 blocks=200
+  blocks 1-200 x 19
+  charge 38.00 USD
+quote c-free geocode plan=free
+  units=50001 allowance=250 billable=49751 blocks=199
+  blocks 1-199 x 19
+  charge 37.81 USD
+quote c-free geocode plan=free
+  units=50500 allowance=250 billable=50250 blocks=201
+  blocks 1-201 x 19
+  charge 38.19 USD
+quote c-free geocode plan=free
+  units=50251 allowance=250 billable=50001 blocks=200
+  blocks 1-200 x 19
+  charge 38.00 USD
+quote c-biz geocode plan=business
+  units=10250 allowance=10000 billable=250 blocks=1
+  blocks 1-1 x 19
+  charge 0.17 EUR
+quote c-biz geocode plan=business
+  units=10001 allowance=10000 billable=1 blocks=0
+  charge 0.00 EUR
+quote c-biz geocode plan=business
+  units=10750 allowance=10000 billable=750 blocks=3
+  blocks 1-3 x 19
+  charge 0.52 EUR
+quote c-biz geocode plan=business
+  units=10501 allowance=10000 billable=501 blocks=2
+  blocks 1-2 x 19
+  charge 0.35 EUR
+quote c-biz geocode plan=business
+  units=12500 allowance=10000 billable=2500 blocks=10
+  blocks 1-10 x 19
+  charge 1.75 EUR
+quote c-biz geocode plan=business
+  units=12251 allowance=10000 billable=2251 blocks=9
+  blocks 1-9 x 19
+  charge 1.57 EUR
+quote c-biz geocode plan=business
+  units=17500 allowance=10000 billable=7500 blocks=30
+  blocks 1-30 x 19
+  charge 5.24 EUR
+quote c-biz geocode plan=business
+  units=17251 allowance=10000 billable=7251 blocks=29
+  blocks 1-29 x 19
+  charge 5.07 EUR
+quote c-biz geocode plan=business
+  units=17750 allowance=10000 billable=7750 blocks=31
+  blocks 1-31 x 19
+  charge 5.42 EUR
+quote c-biz geocode plan=business
+  units=17501 allowance=10000 billable=7501 blocks=30
+  blocks 1-30 x 19
+  charge 5.24 EUR
+quote c-biz geocode plan=business
+  units=25000 allowance=10000 billable=15000 blocks=60
+  blocks 1-60 x 19
+  charge 10.49 EUR
+quote c-biz geocode plan=business
+  units=24751 allowance=10000 billable=14751 blocks=59
+  blocks 1-59 x 19
+  charge 10.31 EUR
+quote c-biz geocode plan=business
+  units=35000 allowance=10000 billable=25000 blocks=100
+  blocks 1-100 x 19
+  charge 17.48 EUR
+quote c-biz geocode plan=business
+  units=34751 allowance=10000 billable=24751 blocks=99
+  blocks 1-99 x 19
+  charge 17.31 EUR
+quote c-biz geocode plan=business
+  units=35250 allowance=10000 billable=25250 blocks=101
+  blocks 1-101 x 19
+  charge 17.65 EUR
+quote c-biz geocode plan=business
+  units=35001 allowance=10000 billable=25001 blocks=100
+  blocks 1-100 x 19
+  charge 17.48 EUR
+quote c-biz geocode plan=business
+  units=40000 allowance=10000 billable=30000 blocks=120
+  blocks 1-120 x 19
+  charge 20.98 EUR
+quote c-biz geocode plan=business
+  units=39751 allowance=10000 billable=29751 blocks=119
+  blocks 1-119 x 19
+  charge 20.80 EUR
+quote c-biz geocode plan=business
+  units=40250 allowance=10000 billable=30250 blocks=121
+  blocks 1-121 x 19
+  charge 21.15 EUR
+quote c-biz geocode plan=business
+  units=40001 allowance=10000 billable=30001 blocks=120
+  blocks 1-120 x 19
+  charge 20.98 EUR
+quote c-biz geocode plan=business
+  units=60000 allowance=10000 billable=50000 blocks=200
+  blocks 1-200 x 19
+  charge 34.96 EUR
+quote c-biz geocode plan=business
+  units=59751 allowance=10000 billable=49751 blocks=199
+  blocks 1-199 x 19
+  charge 34.79 EUR
+quote c-biz geocode plan=business
+  units=60250 allowance=10000 billable=50250 blocks=201
+  blocks 1-201 x 19
+  charge 35.13 EUR
+quote c-biz geocode plan=business
+  units=60001 allowance=10000 billable=50001 blocks=200
+  blocks 1-200 x 19
+  charge 34.96 EUR
+quote c-ch geocode plan=starter
+  units=1250 allowance=1000 billable=250 blocks=1
+  blocks 1-1 x 19
+  charge 0.17 CHF
+quote c-ch geocode plan=starter
+  units=1001 allowance=1000 billable=1 blocks=0
+  charge 0.00 CHF
+quote c-ch geocode plan=starter
+  units=1750 allowance=1000 billable=750 blocks=3
+  blocks 1-3 x 19
+  charge 0.51 CHF
+quote c-ch geocode plan=starter
+  units=1501 allowance=1000 billable=501 blocks=2
+  blocks 1-2 x 19
+  charge 0.34 CHF
+quote c-ch geocode plan=starter
+  units=3500 allowance=1000 billable=2500 blocks=10
+  blocks 1-10 x 19
+  charge 1.71 CHF
+quote c-ch geocode plan=starter
+  units=3251 allowance=1000 billable=2251 blocks=9
+  blocks 1-9 x 19
+  charge 1.54 CHF
+quote c-ch geocode plan=starter
+  units=8500 allowance=1000 billable=7500 blocks=30
+  blocks 1-30 x 19
+  charge 5.13 CHF
+quote c-ch geocode plan=starter
+  units=8251 allowance=1000 billable=7251 blocks=29
+  blocks 1-29 x 19
+  charge 4.96 CHF
+quote c-ch geocode plan=starter
+  units=8750 allowance=1000 billable=7750 blocks=31
+  blocks 1-31 x 19
+  charge 5.30 CHF
+quote c-ch geocode plan=starter
+  units=8501 allowance=1000 billable=7501 blocks=30
+  blocks 1-30 x 19
+  charge 5.13 CHF
+quote c-ch geocode plan=starter
+  units=16000 allowance=1000 billable=15000 blocks=60
+  blocks 1-60 x 19
+  charge 10.26 CHF
+quote c-ch geocode plan=starter
+  units=15751 allowance=1000 billable=14751 blocks=59
+  blocks 1-59 x 19
+  charge 10.09 CHF
+quote c-ch geocode plan=starter
+  units=26000 allowance=1000 billable=25000 blocks=100
+  blocks 1-100 x 19
+  charge 17.10 CHF
+quote c-ch geocode plan=starter
+  units=25751 allowance=1000 billable=24751 blocks=99
+  blocks 1-99 x 19
+  charge 16.93 CHF
+quote c-ch geocode plan=starter
+  units=26250 allowance=1000 billable=25250 blocks=101
+  blocks 1-101 x 19
+  charge 17.27 CHF
+quote c-ch geocode plan=starter
+  units=26001 allowance=1000 billable=25001 blocks=100
+  blocks 1-100 x 19
+  charge 17.10 CHF
+quote c-ch geocode plan=starter
+  units=31000 allowance=1000 billable=30000 blocks=120
+  blocks 1-120 x 19
+  charge 20.52 CHF
+quote c-ch geocode plan=starter
+  units=30751 allowance=1000 billable=29751 blocks=119
+  blocks 1-119 x 19
+  charge 20.35 CHF
+quote c-ch geocode plan=starter
+  units=31250 allowance=1000 billable=30250 blocks=121
+  blocks 1-121 x 19
+  charge 20.69 CHF
+quote c-ch geocode plan=starter
+  units=31001 allowance=1000 billable=30001 blocks=120
+  blocks 1-120 x 19
+  charge 20.52 CHF
+quote c-ch geocode plan=starter
+  units=51000 allowance=1000 billable=50000 blocks=200
+  blocks 1-200 x 19
+  charge 34.20 CHF
+quote c-ch geocode plan=starter
+  units=50751 allowance=1000 billable=49751 blocks=199
+  blocks 1-199 x 19
+  charge 34.03 CHF
+quote c-ch geocode plan=starter
+  units=51250 allowance=1000 billable=50250 blocks=201
+  blocks 1-201 x 19
+  charge 34.37 CHF
+quote c-ch geocode plan=starter
+  units=51001 allowance=1000 billable=50001 blocks=200
+  blocks 1-200 x 19
+  charge 34.20 CHF

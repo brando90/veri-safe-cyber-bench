@@ -1,0 +1,29 @@
+customer mq added plan=free region=ca currency=USD since=0
+service queue Message queue
+  unit=kmsg block=50 mode=ceil min=0
+  tier from=1 upto=30 price=16
+  tier from=31 upto=120 price=13
+  tier from=121 price=10
+  allowance free=100 starter=400 team=1200 business=4000 enterprise=15000
+quote mq queue plan=free
+  units=1600 allowance=100 billable=1500 blocks=30
+  blocks 1-30 x 16
+  charge 4.80 USD
+quote mq queue plan=free
+  units=1650 allowance=100 billable=1550 blocks=31
+  blocks 1-30 x 16
+  blocks 31-31 x 13
+  charge 4.93 USD
+quote mq queue plan=free
+  units=6100 allowance=100 billable=6000 blocks=120
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  charge 16.50 USD
+usage mq queue 1650 day=0
+day 30 period 1
+invoiced INV-0001 mq period=0 lines=1 total=5.29 USD
+invoice run period=0 invoices=1
+invoice INV-0001 mq period=0 issued=30 due=60 status=open
+  usage queue 1650 kmsg 4.93
+  subtotal 4.93 discount 0.00 tax 0.36 late 0.00 total 5.29 USD
+  paid 0.00 refunded 0.00 outstanding 5.29

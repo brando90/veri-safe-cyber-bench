@@ -1,0 +1,34 @@
+customer add c-q1 starter de EUR
+tick 10
+customer add c-q2 starter de EUR
+usage c-q1 egress 5 day=11
+usage c-q1 egress 5 day=x
+usage c-q2 egress 5 day=3
+usage c-q2 egress 5 day=10
+usage c-q1 egress 5 day=0
+usage c-q1 egress 5 id=a,b
+usage c-q1 egress 5 id=ok-1
+usage c-q1 egress 5 id=ok-1
+usage c-q1 logs 5 id=ok-1
+usage c-q2 egress 5 id=ok-1
+usage c-q1 egress 1000001
+usage c-q1 egress 12abc
+usage c-q1 egress -4
+usage c-q1 egress
+usage c-q1 egress 5 colour=red
+usage c-q1 egress 5 day=1 day=2
+usage c-q1 nothing 5
+usage nobody egress 5
+tick 25
+invoice run
+usage c-q1 egress 5 day=2
+usage c-q1 egress 5 day=33
+usage c-q1 egress 5 day=35
+usage c-q2 egress 5 day=11
+void INV-0001
+usage c-q1 egress 5 day=2
+usage list c-q1
+usage list c-q1 logs
+usage summary c-q1 0
+usage summary c-q1
+usage summary c-q1 7

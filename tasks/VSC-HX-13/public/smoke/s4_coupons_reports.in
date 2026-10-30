@@ -1,0 +1,28 @@
+# coupons and reports
+customer add c-a business de EUR
+customer add c-b starter ca USD
+customer add c-c team ny USD
+coupon add c-a pct_all 10
+coupon add c-b fixed_all 3.00
+coupon add c-c pct_usage 25
+coupon add c-c first_periods 5 n=1
+coupon list c-c
+tick 15
+usage c-a storage 120000
+usage c-a backup 90000
+usage c-b egress 300
+usage c-c search 500
+usage c-c metrics 4000
+tick 15
+invoice run
+report rev_region
+report rev_plan
+report tax_period
+report disc_region
+report out_customer
+report top USD
+tick 31
+invoice run
+report rev_period
+report aging
+report usage_units

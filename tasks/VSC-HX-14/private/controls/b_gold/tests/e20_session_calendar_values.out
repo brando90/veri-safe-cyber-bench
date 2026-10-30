@@ -1,0 +1,740 @@
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+added ev2 ref=1
+added ev3 ref=2
+added ev4 ref=3
+2025-08-15T00:45Z ev4 prio=4 "Lunch end" 1h
+2025-08-17T00:45Z ev4 prio=4 "Lunch end" 1h
+2025-08-20T00:15Z ev2 prio=9 "Roadmap A" 1h30m
+added ev5 ref=4
+skipped ev2 on 2025-08-22
+restored ev2 on 2025-08-22
+added ev6 ref=5
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+added ev8 ref=6
+event ev3 ref=2
+  title "Budget end"
+  start 2023-08-14T00:00 (given 2023-08-13T23:59:51)
+  dur 30m tz +01:00 prio 1
+  rule -
+  cats -
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+2025-07-18T00:45Z ev4 prio=4 "Lunch end" 1h
+2025-07-20T00:45Z ev4 prio=4 "Lunch end" 1h
+2025-07-25T00:45Z ev4 prio=4 "Lunch end" 1h
+2025-07-25T01:35Z ev8 prio=5 "Interview" 45s
+2025-07-27T00:45Z ev4 prio=4 "Lunch end" 1h
+rule of ev4 is -
+moved ev6 to 2023-11-05T00:00
+added ev10 ref=7
+Wed
+skipped ev10 on 2001-02-01
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+moved ev3 to 2026-08-19T08:15
+rule of ev6 is weekly;every=3;on=SU
+title of ev6 is "Interview end"
+busy 0s in 0 spans
+updated ev6: 2h -00:30 prio=9
+skipped ev2 on 2025-08-26
+2000-04-01 Sat 09:36
+1 occurrences
+2026-08-19 Wed 08:15
+1 occurrences
+event ev3 ref=2
+  title "Budget end"
+  start 2026-08-19T08:15
+  dur 30m tz +01:00 prio 1
+  rule -
+  cats -
+added ev12 ref=8
+title of ev5 is "Roadmap end"
+busy 0s in 0 spans
+event ev5 ref=4
+  title "Roadmap end"
+  start 2024-07-07T00:00 (given 2024-07-06T23:59:36)
+  dur 15m tz -08:00 prio 6
+  rule monthly;monthday=1;count=8
+  cats health,travel
+2959
+"Sync end"
+2025-07-24 Thu 20:35
+1 occurrences
+added ev13 ref=9
+moved ev4 to 2026-03-29T17:30
+moved ev3 to 2400-02-29T07:15
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+error: window is too far from the start of the series
+skipped ev2 on 2025-08-22
+2026-03-29 Sun 17:30
+1 occurrences
+2000-03-01T00:00Z ev12 prio=5 "Demo" 1d
+no events
+removed ev6
+2000-03-01 Wed 00:00
+1 occurrences
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+event ev4 ref=3
+  title "Lunch end"
+  start 2026-03-29T17:30
+  dur 1h tz -00:45 prio 4
+  rule -
+  cats -
+2000-03-01 Wed 00:00
+1 occurrences
+2000-03-01T00:00Z ev12 prio=5 "Demo" 1d
+added ev16 ref=A
+error: window is too far from the start of the series
+2000-03-01T00:00Z 2000-03-02T00:00Z 1d
+busy 1d in 1 spans
+event ev13 ref=9
+  title Lunch
+  start 2024-03-14T17:30
+  dur 15m tz +05:30 prio 5
+  rule -
+  cats travel
+rule of ev3 is weekly;every=3;on=TH,SU
+2026-03-29 Sun 17:30
+1 occurrences
+event ev16 ref=A
+  title "Standup x"
+  start 2400-02-29T17:20
+  dur 1h30m tz -00:45 prio 3
+  rule -
+  cats -
+rule of ev4 is daily;count=7
+2024-03-14 Thu 17:30
+1 occurrences
+rule of ev2 is -
+skipped ev3 on 2400-03-26
+skipped ev10 on 2000-06-01
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+added EB ref=B
+2024-08-01 Thu 00:00
+2024-09-01 Sun 00:00
+2024-10-01 Tue 00:00
+3 occurrences
+moved ev12 to 2025-11-06T00:00
+rule of ev10 is monthly;on=1TH
+removed ev4
+added ev19 ref=C
+2000-03-02 Thu 09:36
+1 occurrences
+2025-01-02T09:36Z ev10 prio=0 "Lunch" 1h
+2025-01-04T00:00Z ev19 prio=3 "Planning" 1h30m
+2025-01-07T00:00Z ev19 prio=3 "Planning" 1h30m
+2025-01-08T23:00Z EB prio=4 "Review B" 1h
+updated ev12: 1d -05:00 prio=1
+2025-07-24 Thu 20:35
+1 occurrences
+added ev20 ref=D
+added ev21 ref=E
+2400-02-24T00:00Z ev19 prio=3 "Planning" 1h30m
+2400-02-27T00:00Z ev19 prio=3 "Planning" 1h30m
+added ev22 ref=F
+event ev13 ref=9
+  title Lunch
+  start 2024-03-14T17:30
+  dur 15m tz +05:30 prio 5
+  rule -
+  cats travel
+added EG ref=G
+2026-12-31 Thu 09:50
+1 occurrences
+added ev24 ref=H
+2024-06-29T00:00Z ev19 prio=3 "Planning" 1h30m
+2024-07-02T00:00Z ev19 prio=3 "Planning" 1h30m
+skipped ev24 on 2024-12-14
+2025-07-21T00:00Z 2025-07-21T01:30Z 1h30m
+2025-07-24T00:00Z 2025-07-24T01:30Z 1h30m
+busy 3h in 2 spans
+2024-03-14 Thu 17:30
+1 occurrences
+removed ev12
+cats of EB are team
+updated ev19: 1h30m -08:00 prio=1
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+2023-08-29 Tue 13:55
+1 occurrences
+2400-02-24T08:00Z ev19 prio=1 "Planning" 1h30m
+2400-02-27T08:00Z ev19 prio=1 "Planning" 1h30m
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+moved ev2 to 1600-03-01T00:00
+2025-05-28T02:10 given 2025-05-28T02:10:14
+moved ev19 to 2024-05-30T00:00
+2024-05-30 Thu 00:00
+2024-06-02 Sun 00:00
+2024-06-05 Wed 00:00
+2024-06-08 Sat 00:00
+2024-06-11 Tue 00:00
+5 occurrences
+no events
+added ev29 ref=J
+moved ev19 to 2024-02-20T20:40
+moved ev8 to 2024-10-20T07:15
+2024-12-11T04:40Z ev19 prio=1 "Planning" 1h30m
+2024-12-14T04:40Z ev19 prio=1 "Planning" 1h30m
+2024-12-15T07:01Z ev24 prio=4 "Sync q3" 1h
+2024-12-17T04:40Z ev19 prio=1 "Planning" 1h30m
+2026-12-01T04:40Z 2026-12-01T06:10Z 1h30m
+2026-12-03T09:36Z 2026-12-03T10:36Z 1h
+2026-12-04T04:40Z 2026-12-04T06:10Z 1h30m
+2026-12-04T15:30Z 2026-12-04T17:00Z 1h30m
+busy 5h30m in 4 spans
+title of ev2 is "Office hours B"
+added ev30 ref=K
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+skipped ev3 on 2400-04-13
+moved ev13 to 2026-04-14T00:00
+2026-04-11T04:40Z ev19 prio=1 "Planning" 1h30m
+2026-04-13T18:30Z ev13 prio=5 "Lunch" 15m
+2026-04-14T04:40Z ev19 prio=1 "Planning" 1h30m
+2026-04-17T04:40Z ev19 prio=1 "Planning" 1h30m
+moved ev30 to 2024-08-07T19:05
+added ev32 ref=M
+2024-02-20 Tue 20:40
+2024-02-23 Fri 20:40
+2024-02-26 Mon 20:40
+2024-02-29 Thu 20:40
+2024-03-03 Sun 20:40
+2024-03-06 Wed 20:40
+2024-03-09 Sat 20:40
+2024-03-12 Tue 20:40
+2024-03-15 Fri 20:40
+2024-03-18 Mon 20:40
+2024-03-21 Thu 20:40
+2024-03-24 Sun 20:40
+2024-03-27 Wed 20:40
+2024-03-30 Sat 20:40
+2024-04-02 Tue 20:40
+2024-04-05 Fri 20:40
+2024-04-08 Mon 20:40
+2024-04-11 Thu 20:40
+2024-04-14 Sun 20:40
+2024-04-17 Wed 20:40
+2024-04-20 Sat 20:40
+2024-04-23 Tue 20:40
+2024-04-26 Fri 20:40
+2024-04-29 Mon 20:40
+2024-05-02 Thu 20:40
+2024-05-05 Sun 20:40
+2024-05-08 Wed 20:40
+2024-05-11 Sat 20:40
+2024-05-14 Tue 20:40
+2024-05-17 Fri 20:40
+2024-05-20 Mon 20:40
+2024-05-23 Thu 20:40
+2024-05-26 Sun 20:40
+2024-05-29 Wed 20:40
+2024-06-01 Sat 20:40
+2024-06-04 Tue 20:40
+2024-06-07 Fri 20:40
+37 occurrences
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+added ev34 ref=N
+event EB ref=B
+  title "Review B"
+  start 2025-01-09T00:00 (given 2025-01-08T23:59:56)
+  dur 1h tz +01:00 prio 4
+  rule -
+  cats team
+restored ev24 on 2024-12-14
+no events
+updated EG: 1h30m -04:00 prio=6
+added ev35 ref=P
+2000-03-02 Thu 09:36
+1 occurrences
+2024-08-08 Thu 19:05
+1 occurrences
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+moved ev16 to 2024-06-20T15:25
+skipped ev30 on 2024-10-10
+event ev13 ref=9
+  title Lunch
+  start 2026-04-14T00:00 (given 2026-04-13T23:59:55)
+  dur 15m tz +05:30 prio 5
+  rule -
+  cats travel
+skipped ev5 on 2024-08-01
+cats of ev20 are travel,ops,health
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+busy 0s in 0 spans
+event ev20 ref=D
+  title "Interview A"
+  start 2023-08-29T13:55
+  dur 2h tz +00:00 prio 5
+  rule -
+  cats travel,ops,health
+added ev38 ref=Q
+2024-10-12T04:40Z ev19 prio=1 "Planning" 1h30m
+2024-10-12T15:00Z ev29 prio=7 "Call" 3h
+2024-10-13T15:00Z ev29 prio=7 "Call" 3h
+2024-10-14T15:00Z ev29 prio=7 "Call" 3h
+2024-10-15T04:40Z ev19 prio=1 "Planning" 1h30m
+2024-10-15T15:00Z ev29 prio=7 "Call" 3h
+added ev39 ref=R
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+title of ev29 is "Checkin A"
+skipped ev19 on 2024-03-03
+event ev32 ref=M
+  title Lunch
+  start 2024-12-09
+  dur 15m tz -00:15 prio 3 allday
+  rule -
+  cats -
+cats of ev5 are -
+restored ev19 on 2024-03-03
+2000-03-03 Fri 21:46
+1 occurrences
+2024-12-14 Sat 19:46
+2024-12-15 Sun 19:46
+2024-12-28 Sat 19:46
+2024-12-29 Sun 19:46
+2025-01-11 Sat 19:46
+2025-01-12 Sun 19:46
+2025-01-25 Sat 19:46
+2025-01-26 Sun 19:46
+2025-02-08 Sat 19:46
+2025-02-09 Sun 19:46
+2025-02-22 Sat 19:46
+2025-02-23 Sun 19:46
+2025-03-08 Sat 19:46
+2025-03-09 Sun 19:46
+2025-03-22 Sat 19:46
+2025-03-23 Sun 19:46
+2025-04-05 Sat 19:46
+2025-04-06 Sun 19:46
+18 occurrences
+added ev41 ref=S
+2026-12-01T04:40Z ev19 prio=1 "Planning" 1h30m
+2026-12-03T09:36Z ev10 prio=0 "Lunch" 1h
+2026-12-04T04:40Z ev19 prio=1 "Planning" 1h30m
+2026-12-04T18:45Z EG prio=6 "Interview end" 1h30m
+2026-12-07T04:40Z ev19 prio=1 "Planning" 1h30m
+... 2 more
+added ev42 ref=T
+4108
+updated ev32: 15m +00:00 prio=7
+2024-03-01T04:40Z ev19 prio=1 "Planning" 1h30m
+2024-03-04T00:00Z ev21 prio=1 "Workshop q3" 45s
+2024-03-04T04:40Z ev19 prio=1 "Planning" 1h30m
+moved ev21 to 2000-02-29T21:05
+skipped ev10 on 2000-03-02
+no events
+moved ev29 to 2023-07-07T13:06
+2025-01-09 Thu 00:00
+1 occurrences
+added ev43 ref=V
+rule of ev19 is -
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+added ev45 ref=W
+event ev35 ref=P
+  title Roadmap
+  start 2400-02-29T17:45
+  dur 1h tz -03:30 prio 5
+  rule weekly;on=MO,TU,SA
+  cats -
+4Q7
+cats of ev5 are -
+event ev43 ref=V
+  title Demo
+  start 2025-03-05T00:00 (given 2025-03-04T23:59:35)
+  dur 15m tz +00:00 prio 5
+  rule daily
+  cats travel
+moved ev2 to 2024-08-03T20:40
+2025-01-08T23:00Z 2025-01-09T00:00Z 1h
+busy 1h in 1 spans
+rule of ev39 is -
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+event ev2 ref=1
+  title "Office hours B"
+  start 2024-08-03T20:40
+  dur 1h30m tz -00:15 prio 9
+  rule -
+  cats -
+2000-03-03 Fri 21:46
+1 occurrences
+event ev32 ref=M
+  title Lunch
+  start 2024-12-09
+  dur 15m tz +00:00 prio 7 allday
+  rule -
+  cats -
+added ev47 ref=X
+added ev48 ref=Y
+event ev8 ref=6
+  title Interview
+  start 2024-10-20T07:15
+  dur 45s tz -05:00 prio 5
+  rule -
+  cats -
+rule of ev3 is yearly
+skipped ev3 on 2403-02-28
+2026-12-01T22:37 given 2026-12-01T22:37:22
+added EZ ref=Z
+2024-07-31T04:06Z 2024-07-31T07:06Z 3h
+2024-08-01T04:06Z 2024-08-01T07:06Z 3h
+2024-08-01T09:36Z 2024-08-01T10:36Z 1h
+2024-08-02T04:06Z 2024-08-02T07:06Z 3h
+2024-08-03T04:06Z 2024-08-03T07:06Z 3h
+2024-08-03T20:55Z 2024-08-03T22:25Z 1h30m
+2024-08-04T04:06Z 2024-08-04T07:06Z 3h
+2024-08-05T04:06Z 2024-08-05T07:06Z 3h
+2024-08-06T04:06Z 2024-08-06T07:06Z 3h
+2024-08-07T04:06Z 2024-08-07T07:06Z 3h
+2024-08-08T04:06Z 2024-08-08T07:06Z 3h
+2024-08-08T19:05Z 2024-08-08T20:35Z 1h30m
+2024-08-09T04:06Z 2024-08-09T07:06Z 3h
+2024-08-10T04:06Z 2024-08-10T07:06Z 3h
+2024-08-11T04:06Z 2024-08-11T07:06Z 3h
+2024-08-12T04:06Z 2024-08-12T07:06Z 3h
+2024-08-13T04:06Z 2024-08-13T07:06Z 3h
+2024-08-14T04:06Z 2024-08-14T07:06Z 3h
+2024-08-15T04:06Z 2024-08-15T07:06Z 3h
+2024-08-16T04:06Z 2024-08-16T07:06Z 3h
+2024-08-17T04:06Z 2024-08-17T07:06Z 3h
+2024-08-18T04:06Z 2024-08-18T07:06Z 3h
+2024-08-19T04:06Z 2024-08-19T07:06Z 3h
+2024-08-20T04:06Z 2024-08-20T07:06Z 3h
+busy 2d19h in 24 spans
+2024-07-28T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-07-29T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-07-30T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-07-31T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-08-01T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-08-01T09:36Z ev10 prio=0 "Lunch" 1h
+2024-08-02T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-08-03T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-08-03T20:55Z ev2 prio=9 "Office hours B" 1h30m
+busy 0s in 0 spans
+error: 2000-06-01 is already skipped for ev10
+skipped ev47 on 2023-11-14
+cats of ev43 are -
+19695
+error: usage: event cat REF LIST|-
+2024-08-05T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-08-06T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-08-07T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-08-08T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-08-08T19:05Z ev30 prio=5 "Call end" 1h30m
+2024-08-09T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-08-10T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-08-11T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-08-12T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-08-13T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-08-14T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-08-15T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-08-16T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-08-17T04:06Z ev29 prio=7 "Checkin A" 3h
+2024-08-18T04:06Z ev29 prio=7 "Checkin A" 3h
+event ev2 ref=1
+  title "Office hours B"
+  start 2024-08-03T20:40
+  dur 1h30m tz -00:15 prio 9
+  rule -
+  cats -
+added ev50 ref=10
+2024-05-23 Thu all-day
+1 occurrences
+updated ev29: 3h -00:59 prio=1
+added E11 ref=11
+2004-12-16 Thu
+added ev52 ref=12
+added ev53 ref=13
+2026-04-10T00:00Z ev43 prio=5 "Demo" 15m
+2026-04-11T00:00Z ev43 prio=5 "Demo" 15m
+2026-04-12T00:00Z ev43 prio=5 "Demo" 15m
+2026-04-13T00:00Z ev43 prio=5 "Demo" 15m
+2026-04-13T18:30Z ev13 prio=5 "Lunch" 15m
+2026-04-14T00:00Z ev43 prio=5 "Demo" 15m
+2026-04-15T00:00Z ev43 prio=5 "Demo" 15m
+2026-04-16T00:00Z ev43 prio=5 "Demo" 15m
+moved ev20 to 2024-07-30T21:45
+cats of ev39 are -
+moved ev21 to 2023-02-05T00:00
+moved ev13 to 2023-04-13T19:25
+added ev54 ref=14
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+moved EB to 2024-10-05T00:00
+added ev57 ref=15
+2024-10-20 Sun 07:15
+1 occurrences
+2024-12-14 Sat 19:46
+2024-12-15 Sun 19:46
+2 occurrences
+0 occurrences
+added ev58 ref=16
+2400-02-29 Tue 17:45
+2400-03-04 Sat 17:45
+2400-03-06 Mon 17:45
+2400-03-07 Tue 17:45
+2400-03-11 Sat 17:45
+2400-03-13 Mon 17:45
+2400-03-14 Tue 17:45
+2400-03-18 Sat 17:45
+2400-03-20 Mon 17:45
+2400-03-21 Tue 17:45
+2400-03-25 Sat 17:45
+2400-03-27 Mon 17:45
+2400-03-28 Tue 17:45
+2400-04-01 Sat 17:45
+2400-04-03 Mon 17:45
+2400-04-04 Tue 17:45
+2400-04-08 Sat 17:45
+2400-04-10 Mon 17:45
+2400-04-11 Tue 17:45
+2400-04-15 Sat 17:45
+2400-04-17 Mon 17:45
+2400-04-18 Tue 17:45
+2400-04-22 Sat 17:45
+2400-04-24 Mon 17:45
+2400-04-25 Tue 17:45
+2400-04-29 Sat 17:45
+2400-05-01 Mon 17:45
+2400-05-02 Tue 17:45
+2400-05-06 Sat 17:45
+2400-05-08 Mon 17:45
+2400-05-09 Tue 17:45
+2400-05-13 Sat 17:45
+2400-05-15 Mon 17:45
+2400-05-16 Tue 17:45
+2400-05-20 Sat 17:45
+2400-05-22 Mon 17:45
+2400-05-23 Tue 17:45
+2400-05-27 Sat 17:45
+2400-05-29 Mon 17:45
+2400-05-30 Tue 17:45
+2400-06-03 Sat 17:45
+2400-06-05 Mon 17:45
+2400-06-06 Tue 17:45
+2400-06-10 Sat 17:45
+2400-06-12 Mon 17:45
+2400-06-13 Tue 17:45
+2400-06-17 Sat 17:45
+2400-06-19 Mon 17:45
+2400-06-20 Tue 17:45
+49 occurrences
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+2023-04-13 Thu 19:25
+1 occurrences
+2023-09-14T14:05Z ev29 prio=1 "Checkin A" 3h
+2023-09-15T14:05Z ev29 prio=1 "Checkin A" 3h
+2023-09-16T14:05Z ev29 prio=1 "Checkin A" 3h
+2023-09-17T14:05Z ev29 prio=1 "Checkin A" 3h
+2023-09-18T14:05Z ev29 prio=1 "Checkin A" 3h
+2023-09-19T14:05Z ev29 prio=1 "Checkin A" 3h
+2023-09-20T14:05Z ev29 prio=1 "Checkin A" 3h
+error: window is too far from the start of the series
+2400-02-29 Tue 17:45
+2400-03-04 Sat 17:45
+2400-03-06 Mon 17:45
+2400-03-07 Tue 17:45
+2400-03-11 Sat 17:45
+2400-03-13 Mon 17:45
+2400-03-14 Tue 17:45
+2400-03-18 Sat 17:45
+2400-03-20 Mon 17:45
+2400-03-21 Tue 17:45
+2400-03-25 Sat 17:45
+2400-03-27 Mon 17:45
+2400-03-28 Tue 17:45
+2400-04-01 Sat 17:45
+2400-04-03 Mon 17:45
+2400-04-04 Tue 17:45
+2400-04-08 Sat 17:45
+2400-04-10 Mon 17:45
+2400-04-11 Tue 17:45
+2400-04-15 Sat 17:45
+2400-04-17 Mon 17:45
+2400-04-18 Tue 17:45
+2400-04-22 Sat 17:45
+2400-04-24 Mon 17:45
+2400-04-25 Tue 17:45
+2400-04-29 Sat 17:45
+2400-05-01 Mon 17:45
+2400-05-02 Tue 17:45
+2400-05-06 Sat 17:45
+2400-05-08 Mon 17:45
+2400-05-09 Tue 17:45
+2400-05-13 Sat 17:45
+2400-05-15 Mon 17:45
+2400-05-16 Tue 17:45
+2400-05-20 Sat 17:45
+2400-05-22 Mon 17:45
+2400-05-23 Tue 17:45
+2400-05-27 Sat 17:45
+2400-05-29 Mon 17:45
+2400-05-30 Tue 17:45
+2400-06-03 Sat 17:45
+2400-06-05 Mon 17:45
+2400-06-06 Tue 17:45
+2400-06-10 Sat 17:45
+2400-06-12 Mon 17:45
+2400-06-13 Tue 17:45
+2400-06-17 Sat 17:45
+2400-06-19 Mon 17:45
+2400-06-20 Tue 17:45
+49 occurrences
+2026-11-27T00:00Z ev43 prio=5 "Demo" 15m
+2026-11-28T00:00Z ev43 prio=5 "Demo" 15m
+2026-11-29T00:00Z ev43 prio=5 "Demo" 15m
+2026-11-30T00:00Z ev43 prio=5 "Demo" 15m
+2026-11-30T01:00Z ev53 prio=5 "Sync" 1h30m
+2026-12-01T00:00Z ev43 prio=5 "Demo" 15m
+2026-12-02T00:00Z ev43 prio=5 "Demo" 15m
+2026-12-03T00:00Z ev43 prio=5 "Demo" 15m
+2026-12-03T09:36Z ev10 prio=0 "Lunch" 1h
+2026-12-04T00:00Z ev43 prio=5 "Demo" 15m
+2026-12-04T18:45Z EG prio=6 "Interview end" 1h30m
+2026-12-05T00:00Z ev43 prio=5 "Demo" 15m
+2026-12-06T00:00Z ev43 prio=5 "Demo" 15m
+2026-12-07T00:00Z ev43 prio=5 "Demo" 15m
+2026-12-08T00:00Z ev43 prio=5 "Demo" 15m
+2026-12-09T00:00Z ev43 prio=5 "Demo" 15m
+2026-12-10T00:00Z ev43 prio=5 "Demo" 15m
+Mon
+added ev60 ref=17
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+error: window is too far from the start of the series
+moved ev57 to 2400-02-29T00:00
+2025-07-28 Mon 14:25
+2025-08-04 Mon 14:25
+2025-08-11 Mon 14:25
+2025-08-18 Mon 14:25
+2025-08-25 Mon 14:25
+5 occurrences
+error: window is too far from the start of the series
+updated ev13: 15m -03:30 prio=6
+moved ev60 to 2025-10-18T06:40
+added E18 ref=18
+2024-02-11T14:05Z 2024-02-11T17:05Z 3h
+2024-02-12T14:05Z 2024-02-12T17:05Z 3h
+2024-02-13T14:05Z 2024-02-13T17:05Z 3h
+2024-02-14T14:05Z 2024-02-14T17:05Z 3h
+2024-02-15T14:05Z 2024-02-15T17:05Z 3h
+2024-02-16T14:05Z 2024-02-16T17:05Z 3h
+2024-02-17T14:05Z 2024-02-17T17:05Z 3h
+busy 21h in 7 spans
+skipped ev48 on 2028-07-05
+2024-08-01T09:36Z ev10 prio=0 "Lunch" 1h
+2024-08-01T14:05Z ev29 prio=1 "Checkin A" 3h
+2024-08-02T14:05Z ev29 prio=1 "Checkin A" 3h
+2024-08-03T14:05Z ev29 prio=1 "Checkin A" 3h
+2024-08-03T20:55Z ev2 prio=9 "Office hours B" 1h30m
+... 4 more
+added ev63 ref=19
+2026-08-20 Thu 00:00
+1 occurrences
+added ev64 ref=1A
+rule of ev42 is -
+2023-07-04T23:00Z 2023-07-04T23:15Z 15m
+2023-07-06T09:36Z 2023-07-06T10:36Z 1h
+2023-07-07T14:05Z 2023-07-07T17:05Z 3h
+2023-07-08T14:05Z 2023-07-08T17:05Z 3h
+2023-07-09T14:05Z 2023-07-09T17:05Z 3h
+2023-07-10T14:05Z 2023-07-10T17:05Z 3h
+busy 13h15m in 6 spans
+2024-12-12T19:05Z ev30 prio=5 "Call end" 1h30m
+2024-12-14T07:01Z ev24 prio=4 "Sync q3" 1h
+2024-12-15T07:01Z ev24 prio=4 "Sync q3" 1h
+skipped ev41 on 2025-08-25
+2024-12-09 Mon all-day
+1 occurrences
+error: window is too far from the start of the series
+error: window is too far from the start of the series
+2023-02-05 Sun 00:00
+1 occurrences
+2023-07-05 Wed 00:00
+1 occurrences
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+added ev66 ref=1B
+event ev60 ref=17
+  title "Office hours B"
+  start 2025-10-18T06:40 (given 2025-10-18T06:40:05)
+  dur 1h30m tz +00:00 prio 5
+  rule daily;every=2
+  cats team,health,social
+2024-07-23T14:05Z 2024-07-23T17:05Z 3h
+2024-07-24T14:05Z 2024-07-24T17:05Z 3h
+2024-07-25T14:05Z 2024-07-25T17:05Z 3h
+2024-07-26T14:05Z 2024-07-26T17:05Z 3h
+2024-07-27T14:05Z 2024-07-27T17:05Z 3h
+2024-07-28T14:05Z 2024-07-28T17:05Z 3h
+2024-07-29T14:05Z 2024-07-29T17:05Z 3h
+busy 21h in 7 spans
+cats of ev22 are health
+event ev42 ref=T
+  title "Office hours"
+  start 2023-10-11
+  dur 1d tz +05:30 prio 5 allday
+  rule -
+  cats -
+cats of ev29 are -
+event ev8 ref=6
+  title Interview
+  start 2024-10-20T07:15
+  dur 45s tz -05:00 prio 5
+  rule -
+  cats -
+moved ev58 to 2400-02-29T21:45
+moved ev22 to 2023-11-05T16:00
+2023-10-08T14:05Z ev29 prio=1 "Checkin A" 3h
+2023-10-09T14:05Z ev29 prio=1 "Checkin A" 3h
+2023-10-10T14:05Z ev29 prio=1 "Checkin A" 3h
+2023-10-10T17:15Z ev47 prio=6 "Standup A" 1h
+2023-10-11 ev42 prio=5 "Office hours" 1d
+2023-10-11T14:05Z ev29 prio=1 "Checkin A" 3h
+event ev2 ref=1
+  title "Office hours B"
+  start 2024-08-03T20:40
+  dur 1h30m tz -00:15 prio 9
+  rule -
+  cats -
+event ev63 ref=19
+  title Review
+  start 2000-02-29T21:45
+  dur 2h tz +12:45 prio 6
+  rule -
+  cats social
+event ev21 ref=E
+  title "Workshop q3"
+  start 2023-02-05T00:00 (given 2023-02-04T23:59:35)
+  dur 45s tz +00:00 prio 1
+  rule -
+  cats team,work,travel
+2025-01-19 Sun 16:40
+1 occurrences
+moved ev50 to 2024-07-27T14:35
+2005-08-27 Sat
+2020-06-15 Mon
+moved ev63 to 2024-02-15T13:50
+skipped ev41 on 2025-09-01
+2024-07-31T01:00Z 2024-07-31T02:30Z 1h30m
+2024-07-31T14:05Z 2024-07-31T17:05Z 3h
+2024-08-01T09:36Z 2024-08-01T10:36Z 1h
+2024-08-01T14:05Z 2024-08-01T17:05Z 3h
+2024-08-02T14:05Z 2024-08-02T17:05Z 3h
+2024-08-03T14:05Z 2024-08-03T17:05Z 3h
+2024-08-03T20:55Z 2024-08-03T22:25Z 1h30m
+2024-08-04T14:05Z 2024-08-04T17:05Z 3h
+2024-08-05T14:05Z 2024-08-05T17:05Z 3h
+2024-08-06T14:05Z 2024-08-06T17:05Z 3h
+2024-08-07T14:05Z 2024-08-07T17:05Z 3h
+2024-08-08T14:05Z 2024-08-08T17:05Z 3h
+2024-08-08T19:05Z 2024-08-08T20:35Z 1h30m
+2024-08-09T14:05Z 2024-08-09T17:05Z 3h
+2024-08-10T14:05Z 2024-08-10T17:05Z 3h
+2024-08-11T14:05Z 2024-08-11T17:05Z 3h
+2024-08-12T14:05Z 2024-08-12T17:05Z 3h
+2024-08-13T14:05Z 2024-08-13T17:05Z 3h
+2024-08-14T14:05Z 2024-08-14T17:05Z 3h
+2024-08-15T14:05Z 2024-08-15T17:05Z 3h
+2024-08-16T14:05Z 2024-08-16T17:05Z 3h
+2024-08-17T14:05Z 2024-08-17T17:05Z 3h
+2024-08-18T14:05Z 2024-08-18T17:05Z 3h
+2024-08-19T14:05Z 2024-08-19T17:05Z 3h
+2024-08-20T14:05Z 2024-08-20T17:05Z 3h
+busy 2d20h30m in 25 spans
+check ok (40 events)

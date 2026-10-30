@@ -1,0 +1,12 @@
+customer add c-q free tx USD
+quote c-q queue 1600
+quote c-q queue 1601
+quote c-q queue 1650
+quote c-q queue 1651
+quote c-q queue 6100
+quote c-q queue 6101
+quote c-q queue 7600
+quote c-q queue 100
+quote c-q queue 150
+quote c-q queue 151
+service show queue

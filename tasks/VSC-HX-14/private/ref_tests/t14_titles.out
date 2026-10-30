@@ -1,0 +1,25 @@
+"plain words here"
+"tab separated words"
+"a b"
+"non breaking  space stays"
+"café crème"
+error: invalid title ''
+"back\slash and | bar"
+added t1 ref=1
+added t2 ref=2
+title of t1 is "Renamed twice"
+event t1 ref=1
+  title "Renamed twice"
+  start 2024-03-04T10:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats -
+event t2 ref=2
+  title "Pipe | and \ slash"
+  start 2024-03-04T11:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats -
+E|t1|1|Renamed twice|2024-03-04T10:00|1709546400|1h||+00:00||5||
+E|t2|2|Pipe \p and \\ slash|2024-03-04T11:00|1709550000|1h||+00:00||5||
+# 2 events

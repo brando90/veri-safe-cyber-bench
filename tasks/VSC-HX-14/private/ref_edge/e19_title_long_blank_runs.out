@@ -1,0 +1,21 @@
+"three spaces"
+"four spaces"
+"lead and trail"
+"tabs and spaces"
+"a b"
+added a ref=1
+event a ref=1
+  title "Planning session notes"
+  start 2024-03-04T10:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats -
+title of a is "Seven blanks"
+event a ref=1
+  title "Seven blanks"
+  start 2024-03-04T10:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats -
+E|a|1|Seven blanks|2024-03-04T10:00|1709546400|1h||+00:00||5||
+# 1 events

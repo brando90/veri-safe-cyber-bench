@@ -1,0 +1,7 @@
+event add a "Base" 2024-03-04T10:00 tz=-00:20
+event add b "Other" 2024-03-04T10:00 tz=-05:30
+event set b tz=-00:05
+event show b
+list
+export pack
+check

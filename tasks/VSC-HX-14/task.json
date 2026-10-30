@@ -1,0 +1,9 @@
+{
+  "id": "VSC-HX-14",
+  "split": "train",
+  "language": "python3.12",
+  "bug_class": "defects that only show on a rare input shape or value combination and need a driver (a random or targeted input generator checked against the README properties and the program's self-check) to find: a calendar cycle-end day, an escape that skips the backslash, a varint continuation boundary, a negative sub-hour offset sign, a weekly rule anchored on the start instead of the week start, a rounding carry into the next day, a natural-order key that stops after two chunks, a reference width at the largest sequence numbers, stale skips kept after an event move, long blank runs in titles",
+  "summary": "eventlane, a toy calendar and recurrence engine (stdin command lines, own Gregorian day arithmetic, events with daily/weekly/monthly/yearly rules, UTC offsets, durations, skips, agenda/busy/expand listings, base-32 references, text and checksummed binary export and import, self-check exiting 86 with INVARIANT: on stderr). 29 Python modules, about 1,950 lines plus a README that states round-trip and idempotence properties. Ten independent defects in 10 modules, each reachable only from a rare input shape; the README properties and the self-check give a driver its oracle. Several correct-but-odd behaviours act as decoys.",
+  "K": 10,
+  "time_cap_min": 45
+}

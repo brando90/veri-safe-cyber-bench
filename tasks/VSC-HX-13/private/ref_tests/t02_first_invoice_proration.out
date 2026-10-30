@@ -1,0 +1,58 @@
+customer c-p0 added plan=team region=de currency=EUR since=0
+day 10 period 0
+customer c-p10 added plan=team region=de currency=EUR since=10
+day 29 period 0
+customer c-p29 added plan=team region=de currency=EUR since=29
+day 30 period 1
+customer c-p30 added plan=team region=de currency=EUR since=30
+day 31 period 1
+usage c-p30 requests 160000 day=31
+usage c-p0 requests 160000 day=5
+day 61 period 2
+invoiced INV-0001 c-p0 period=0 lines=2 total=102.91 EUR
+invoiced INV-0002 c-p10 period=0 lines=1 total=57.67 EUR
+invoiced INV-0003 c-p29 period=0 lines=1 total=2.88 EUR
+invoice run period=0 invoices=3
+invoiced INV-0004 c-p0 period=1 lines=1 total=86.49 EUR
+invoiced INV-0005 c-p10 period=1 lines=1 total=86.49 EUR
+invoiced INV-0006 c-p29 period=1 lines=1 total=86.49 EUR
+invoiced INV-0007 c-p30 period=1 lines=2 total=102.91 EUR
+invoice run period=1 invoices=4
+INV-0001 c-p0 p0 total=102.91 outstanding=102.91 open
+INV-0002 c-p10 p0 total=57.67 outstanding=57.67 open
+INV-0003 c-p29 p0 total=2.88 outstanding=2.88 open
+INV-0004 c-p0 p1 total=86.49 outstanding=86.49 open
+INV-0005 c-p10 p1 total=86.49 outstanding=86.49 open
+INV-0006 c-p29 p1 total=86.49 outstanding=86.49 open
+INV-0007 c-p30 p1 total=102.91 outstanding=102.91 open
+7 invoices
+invoice INV-0001 c-p0 period=0 issued=61 due=91 status=open
+  fee plan team days=30 72.68
+  usage requests 160000 req 13.80
+  subtotal 86.48 discount 0.00 tax 16.43 late 0.00 total 102.91 EUR
+  paid 0.00 refunded 0.00 outstanding 102.91
+invoice INV-0002 c-p10 period=0 issued=61 due=91 status=open
+  fee plan team days=20 48.46
+  subtotal 48.46 discount 0.00 tax 9.21 late 0.00 total 57.67 EUR
+  paid 0.00 refunded 0.00 outstanding 57.67
+invoice INV-0003 c-p29 period=0 issued=61 due=91 status=open
+  fee plan team days=1 2.42
+  subtotal 2.42 discount 0.00 tax 0.46 late 0.00 total 2.88 EUR
+  paid 0.00 refunded 0.00 outstanding 2.88
+invoice INV-0004 c-p0 period=1 issued=61 due=91 status=open
+  fee plan team days=30 72.68
+  subtotal 72.68 discount 0.00 tax 13.81 late 0.00 total 86.49 EUR
+  paid 0.00 refunded 0.00 outstanding 86.49
+invoice INV-0005 c-p10 period=1 issued=61 due=91 status=open
+  fee plan team days=30 72.68
+  subtotal 72.68 discount 0.00 tax 13.81 late 0.00 total 86.49 EUR
+  paid 0.00 refunded 0.00 outstanding 86.49
+invoice INV-0007 c-p30 period=1 issued=61 due=91 status=open
+  fee plan team days=30 72.68
+  usage requests 160000 req 13.80
+  subtotal 86.48 discount 0.00 tax 16.43 late 0.00 total 102.91 EUR
+  paid 0.00 refunded 0.00 outstanding 102.91
+invoice run period=1 invoices=0
+invoice run period=1 invoices=0
+error: period 2 is not closed yet
+error: period 9 is not closed yet

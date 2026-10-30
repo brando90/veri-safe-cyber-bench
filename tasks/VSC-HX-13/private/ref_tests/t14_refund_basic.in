@@ -1,0 +1,29 @@
+customer add c-rf starter de EUR
+customer add c-rf2 starter ca USD
+usage c-rf egress 400
+usage c-rf2 egress 400
+tick 30
+invoice run
+pay c-rf 40
+pay c-rf2 10
+refund INV-0001 5.25
+statement c-rf
+refund INV-0001 100
+refund INV-0002 10.01
+refund INV-0002 abc
+refund INV-0009 1
+refund INV-0002 0
+invoice show INV-0001
+pay c-rf 100
+refund INV-0001 20
+pay c-rf2 3.77
+customer close c-rf2
+refund INV-0002 3
+refund INV-0002 7
+customer close c-rf2
+statement c-rf2
+report out_customer
+tick 40
+dun
+invoice show INV-0002
+ledger kind=refund

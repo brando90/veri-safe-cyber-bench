@@ -1,0 +1,25 @@
+customer add c-y1 starter ca USD
+customer add c-y2 starter ca USD
+customer add c-y3 starter ca USD
+customer add c-y4 free ca USD
+customer add c-y5 business ny USD
+coupon add c-y1 fixed_all 500.00
+coupon add c-y2 fixed_usage 500.00
+coupon add c-y3 fixed_fee 500.00
+coupon add c-y4 fixed_fee 40.00
+coupon add c-y5 fixed_fee 150.00
+coupon add c-y5 fixed_usage 2.00
+usage c-y1 egress 300
+usage c-y2 egress 300
+usage c-y3 egress 300
+usage c-y4 logs 9000
+usage c-y5 compute 4000
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0003
+invoice show INV-0004
+invoice show INV-0005
+coupon list c-y3
+coupon list c-y5

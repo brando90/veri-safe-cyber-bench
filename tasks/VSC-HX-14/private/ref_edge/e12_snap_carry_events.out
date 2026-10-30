@@ -1,0 +1,31 @@
+added a ref=1
+event a ref=1
+  title "Late start"
+  start 2024-03-05T00:00 (given 2024-03-04T23:59:45)
+  dur 1h tz +00:00 prio 5
+  rule daily;count=3
+  cats -
+2024-03-05 Tue 00:00
+2024-03-06 Wed 00:00
+2024-03-07 Thu 00:00
+3 occurrences
+added b ref=2
+event b ref=2
+  title "Year end"
+  start 2025-01-01T00:00 (given 2024-12-31T23:59:30)
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats -
+moved a to 2024-03-10T00:00
+event a ref=1
+  title "Late start"
+  start 2024-03-10T00:00 (given 2024-03-09T23:59:50)
+  dur 1h tz +00:00 prio 5
+  rule daily;count=3
+  cats -
+2024-03-10T00:00Z a prio=5 "Late start" 1h
+2024-03-11T00:00Z a prio=5 "Late start" 1h
+2024-03-12T00:00Z a prio=5 "Late start" 1h
+E|a|1|Late start|2024-03-10T00:00|1710028790|1h|daily;count=3|+00:00||5||
+E|b|2|Year end|2025-01-01T00:00|1735689570|1h||+00:00||5||
+# 2 events

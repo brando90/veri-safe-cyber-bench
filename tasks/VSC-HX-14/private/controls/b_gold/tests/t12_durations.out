@@ -1,0 +1,19 @@
+5400 1h30m
+5400 1h30m
+0 0s
+93784 1d2h3m4s
+129600 1d12h
+5400 1h30m
+23 23s
+5 5s
+1 1s
+0 0s
+216000 2d12h
+34560000 400d
+error: invalid duration '400d1s'
+error: invalid duration '1m2h'
+error: invalid duration '2h2h'
+error: invalid duration '1.5h30m'
+error: invalid duration 'h'
+error: invalid duration '1.1234567h'
+3660 1h1m

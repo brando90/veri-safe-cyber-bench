@@ -1,0 +1,23 @@
+added c ref=1
+event c ref=1
+  title Files
+  start 2024-04-01T08:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats a\\b,c\,d,e
+E|c|1|Files|2024-04-01T08:00|1711958400|1h||+00:00||5|a\\\\b,c\\,d,e|
+# 1 events
+cats of c are x\\,y\\z
+event c ref=1
+  title Files
+  start 2024-04-01T08:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats x\\,y\\z
+events 1, recurring 0, all-day 0
+category x\ 1
+category y\z 1
+earliest c 2024-04-01
+latest c 2024-04-01
+span 0 days (0 weeks)
+skips 0

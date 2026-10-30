@@ -1,0 +1,26 @@
+added a ref=1
+added b ref=2
+event a ref=1
+  title Paths
+  start 2024-03-04T10:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats back\\slash,plain
+event b ref=2
+  title Trailing
+  start 2024-03-04T11:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats tail\\,next
+E|a|1|Paths|2024-03-04T10:00|1709546400|1h||+00:00||5|back\\\\slash,plain|
+E|b|2|Trailing|2024-03-04T11:00|1709550000|1h||+00:00||5|tail\\\\,next|
+# 2 events
+events 2, recurring 0, all-day 0
+category back\slash 1
+category next 1
+category plain 1
+category tail\ 1
+earliest a 2024-03-04
+latest b 2024-03-04
+span 0 days (0 weeks)
+skips 0

@@ -1,0 +1,66 @@
+customer c-g0 added plan=starter region=tx currency=USD since=0
+customer c-g1 added plan=starter region=tx currency=USD since=0
+customer c-g2 added plan=starter region=tx currency=USD since=0
+customer c-g3 added plan=starter region=tx currency=USD since=0
+customer c-g4 added plan=starter region=tx currency=USD since=0
+customer c-g5 added plan=starter region=tx currency=USD since=0
+customer c-g6 added plan=starter region=tx currency=USD since=0
+customer c-g7 added plan=starter region=tx currency=USD since=0
+customer c-g8 added plan=starter region=tx currency=USD since=0
+customer c-g0 terms 120
+customer c-g1 terms 115
+customer c-g2 terms 90
+customer c-g3 terms 89
+customer c-g4 terms 60
+customer c-g5 terms 59
+customer c-g6 terms unchanged
+customer c-g7 terms 29
+customer c-g8 terms 100
+usage c-g0 egress 400 day=0
+usage c-g1 egress 400 day=0
+usage c-g2 egress 400 day=0
+usage c-g3 egress 400 day=0
+usage c-g4 egress 400 day=0
+usage c-g5 egress 400 day=0
+usage c-g6 egress 400 day=0
+usage c-g7 egress 400 day=0
+usage c-g8 egress 400 day=0
+day 30 period 1
+invoiced INV-0001 c-g0 period=0 lines=2 total=33.79 USD
+invoiced INV-0002 c-g1 period=0 lines=2 total=33.79 USD
+invoiced INV-0003 c-g2 period=0 lines=2 total=33.79 USD
+invoiced INV-0004 c-g3 period=0 lines=2 total=33.79 USD
+invoiced INV-0005 c-g4 period=0 lines=2 total=33.79 USD
+invoiced INV-0006 c-g5 period=0 lines=2 total=33.79 USD
+invoiced INV-0007 c-g6 period=0 lines=2 total=33.79 USD
+invoiced INV-0008 c-g7 period=0 lines=2 total=33.79 USD
+invoiced INV-0009 c-g8 period=0 lines=2 total=33.79 USD
+invoice run period=0 invoices=9
+  applied INV-0009 33.79
+payment c-g8 500.00 applied=33.79 credit=466.21
+day 150 period 5
+report aging
+  current USD 33.79
+  1-30 USD 67.58
+  31-60 USD 67.58
+  61-90 USD 67.58
+  91+ USD 33.79
+  total USD 270.32
+end
+report aging
+  current USD 33.79
+  1-30 USD 67.58
+  31-60 USD 67.58
+  61-90 USD 67.58
+  91+ USD 33.79
+  total USD 270.32
+end
+report aging
+  current USD 33.79
+  total USD 33.79
+end
+report aging
+  (none)
+end
+report aging
+error: unknown customer c-nobody

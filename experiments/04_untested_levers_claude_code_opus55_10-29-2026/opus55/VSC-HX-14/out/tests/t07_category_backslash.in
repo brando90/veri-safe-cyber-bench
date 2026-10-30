@@ -1,0 +1,6 @@
+event add c "Files" 2024-04-01T08:00 cat=a\\b,c\,d,e
+event show c
+export text
+event cat c x\\,y\\z
+event show c
+stats

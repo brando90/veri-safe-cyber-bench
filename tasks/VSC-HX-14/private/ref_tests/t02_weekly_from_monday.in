@@ -1,0 +1,5 @@
+event add w1 "Sprint" 2024-03-04T10:00 rule=weekly;every=2;on=MO,WE,FR
+expand w1 2024-03-01 2024-04-30
+event add w2 "Long cycle" 2024-03-04T11:00 rule=weekly;every=3;on=TU
+expand w2 2024-03-01 2024-06-30
+check

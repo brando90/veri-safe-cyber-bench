@@ -1,0 +1,6 @@
+event add r2d10 "Ten" 2024-05-06T09:00
+event add r2d9 "Nine" 2024-05-06T09:00
+event add r2d100 "Hundred" 2024-05-06T09:00
+event add r2d9b "Nine b" 2024-05-06T09:00
+agenda 2024-05-06 2024-05-06
+busy 2024-05-06 2024-05-06

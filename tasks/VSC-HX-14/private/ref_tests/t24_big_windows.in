@@ -1,0 +1,9 @@
+event add big "Daily forever" 2020-01-01T06:00 dur=10m rule=daily
+expand big 2020-01-01 2029-12-31
+expand big 2030-01-01 2030-12-31
+event add far "Far" 2024-01-01T06:00 rule=daily
+expand far 2300-01-01 2300-01-05
+event add far2 "Far weekly" 2024-01-01T06:00 rule=weekly;every=52
+expand far2 2024-01-01 2030-12-31
+agenda 2024-01-01 2025-02-04
+agenda 2024-01-01 2024-12-31 n=3

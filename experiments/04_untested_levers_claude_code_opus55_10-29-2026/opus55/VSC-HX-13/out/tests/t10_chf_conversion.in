@@ -1,0 +1,10 @@
+# conversion to CHF rounds half up
+customer add zurich free ch CHF
+customer add bern free ch CHF
+usage zurich compute 300
+usage bern compute 1200
+quote zurich compute 300
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002

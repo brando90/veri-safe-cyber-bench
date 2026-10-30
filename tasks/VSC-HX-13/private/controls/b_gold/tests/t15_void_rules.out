@@ -1,0 +1,52 @@
+customer c-v1 added plan=starter region=de currency=EUR since=0
+customer c-v2 added plan=starter region=de currency=EUR since=0
+usage c-v1 egress 400 day=0
+usage c-v2 egress 400 day=0
+day 30 period 1
+invoiced INV-0001 c-v1 period=0 lines=2 total=34.82 EUR
+invoiced INV-0002 c-v2 period=0 lines=2 total=34.82 EUR
+invoice run period=0 invoices=2
+  applied INV-0002 5.00
+payment c-v2 5.00 applied=5.00 credit=0.00
+error: invoice INV-0002 has payments
+void INV-0001
+error: invoice INV-0001 is void
+error: unknown invoice INV-0007
+usage c-v1 requests 99000 day=7
+usage c-v1 requests 99000 day=7
+INV-0001 c-v1 p0 total=34.82 outstanding=34.82 void
+INV-0002 c-v2 p0 total=34.82 outstanding=29.82 open
+2 invoices
+INV-0001 c-v1 p0 total=34.82 outstanding=34.82 void
+1 invoices
+invoiced INV-0003 c-v1 period=0 lines=3 total=64.05 EUR
+invoice run period=0 invoices=1
+INV-0001 c-v1 p0 total=34.82 outstanding=34.82 void
+INV-0003 c-v1 p0 total=64.05 outstanding=64.05 open
+2 invoices
+statement c-v1 EUR
+  INV-0003 p0 total=64.05 paid=0.00 refunded=0.00 outstanding=64.05
+  owed=64.05 credit=0.00
+report voided
+  INV-0001 c-v1 p0 EUR 34.82
+  1 voided
+end
+report voided
+  INV-0001 c-v1 p0 EUR 34.82
+  1 voided
+end
+report rev_region
+  de EUR 83.08
+  total EUR 83.08
+end
+report out_customer
+  c-v1 EUR 64.05
+  c-v2 EUR 29.82
+  total EUR 93.87
+end
+0 invoices
+INV-0001 c-v1 p0 total=34.82 outstanding=34.82 void
+INV-0002 c-v2 p0 total=34.82 outstanding=29.82 open
+INV-0003 c-v1 p0 total=64.05 outstanding=64.05 open
+3 invoices
+error: invalid value 'bogus'

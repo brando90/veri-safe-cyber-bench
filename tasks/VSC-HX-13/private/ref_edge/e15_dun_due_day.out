@@ -1,0 +1,30 @@
+customer c-d1 added plan=starter region=de currency=EUR since=0
+customer c-d2 added plan=starter region=de currency=EUR since=0
+customer c-d2 terms 10
+usage c-d1 egress 400 day=0
+usage c-d2 egress 400 day=0
+day 30 period 1
+invoiced INV-0001 c-d1 period=0 lines=2 total=34.82 EUR
+invoiced INV-0002 c-d2 period=0 lines=2 total=34.82 EUR
+invoice run period=0 invoices=2
+day 40 period 1
+dun applied=0
+invoice INV-0002 c-d2 period=0 issued=30 due=40 status=open
+  fee plan starter days=30 17.48
+  usage egress 400 GB 11.78
+  subtotal 29.26 discount 0.00 tax 5.56 late 0.00 total 34.82 EUR
+  paid 0.00 refunded 0.00 outstanding 34.82
+day 60 period 2
+late INV-0002 fee=1.80
+dun applied=1
+invoice INV-0001 c-d1 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  usage egress 400 GB 11.78
+  subtotal 29.26 discount 0.00 tax 5.56 late 0.00 total 34.82 EUR
+  paid 0.00 refunded 0.00 outstanding 34.82
+invoice INV-0002 c-d2 period=0 issued=30 due=40 status=open
+  fee plan starter days=30 17.48
+  usage egress 400 GB 11.78
+  late late fee day=60 1.80
+  subtotal 29.26 discount 0.00 tax 5.56 late 1.80 total 36.62 EUR
+  paid 0.00 refunded 0.00 outstanding 36.62

@@ -1,0 +1,10 @@
+# a voided invoice leaves the tax reports
+customer add north team ca USD
+customer add south starter tx USD
+tick 30
+invoice run
+report tax_region
+void INV-0002
+invoice list
+report tax_region
+report tax_period

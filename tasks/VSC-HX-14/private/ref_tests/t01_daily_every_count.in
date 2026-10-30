@@ -1,0 +1,5 @@
+event add d1 "Pill" 2024-02-27T08:00 dur=5m rule=daily;every=2;count=6
+expand d1 2024-02-01 2024-03-31
+event add d2 "Water" 2024-02-27T09:00 dur=5m rule=daily;until=2024-03-02
+expand d2 2024-02-01 2024-03-31
+event show d1

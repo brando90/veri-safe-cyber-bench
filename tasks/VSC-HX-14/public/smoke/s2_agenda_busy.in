@@ -1,0 +1,7 @@
+event add a1 "Design sync" 2024-05-06T09:00 dur=1h prio=5
+event add a2 "Customer call" 2024-05-06T09:30 dur=1h tz=+02:00 prio=8
+event add a3 "Planning" 2024-05-06T10:00 dur=30m prio=5
+event add a4 "Demo" 2024-05-07T15:00 dur=1h tz=-05:00
+agenda 2024-05-06 2024-05-07
+busy 2024-05-06 2024-05-07
+agenda 2024-05-06 2024-05-07 n=2

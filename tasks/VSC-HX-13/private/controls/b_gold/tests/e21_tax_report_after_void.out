@@ -1,0 +1,36 @@
+customer c-t1 added plan=starter region=de currency=EUR since=0
+customer c-t2 added plan=starter region=de currency=EUR since=0
+customer c-t3 added plan=starter region=ca currency=USD since=0
+usage c-t1 egress 400 day=0
+usage c-t2 egress 400 day=0
+usage c-t3 egress 400 day=0
+day 30 period 1
+invoiced INV-0001 c-t1 period=0 lines=2 total=34.82 EUR
+invoiced INV-0002 c-t2 period=0 lines=2 total=34.82 EUR
+invoiced INV-0003 c-t3 period=0 lines=2 total=34.11 USD
+invoice run period=0 invoices=3
+report tax_region
+  ca USD 2.31
+  de EUR 11.12
+  total EUR 11.12
+  total USD 2.31
+end
+void INV-0002
+report tax_region
+  ca USD 2.31
+  de EUR 5.56
+  total EUR 5.56
+  total USD 2.31
+end
+report rev_region
+  ca USD 31.80
+  de EUR 29.26
+  total EUR 29.26
+  total USD 31.80
+end
+report tax_period
+  p00 EUR 5.56
+  p00 USD 2.31
+  total EUR 5.56
+  total USD 2.31
+end

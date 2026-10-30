@@ -1,0 +1,43 @@
+customer c-pay added plan=starter region=de currency=EUR since=0
+customer c-two added plan=team region=uk currency=GBP since=0
+customer c-two terms 14
+usage c-pay storage 30000 day=0
+usage c-pay egress 400 day=0
+usage c-two compute 900 day=0
+day 30 period 1
+invoiced INV-0001 c-pay period=0 lines=3 total=37.71 EUR
+invoiced INV-0002 c-two period=0 lines=1 total=74.89 GBP
+invoice run period=0 invoices=2
+  applied INV-0001 10.00
+payment c-pay 10.00 applied=10.00 credit=0.00
+  applied INV-0001 15.50
+payment c-pay 15.50 applied=15.50 credit=0.00
+credit c-two +20.00 balance=20.00
+refund INV-0001 5.00 net_paid=20.50 outstanding=17.21
+statement c-pay EUR
+  INV-0001 p0 total=37.71 paid=25.50 refunded=5.00 outstanding=17.21
+  owed=17.21 credit=0.00
+day 70 period 2
+late INV-0001 fee=1.80
+late INV-0002 fee=1.50
+dun applied=2
+dun applied=0
+INV-0001 c-pay p0 total=39.51 outstanding=19.01 open
+INV-0002 c-two p0 total=76.39 outstanding=76.39 open
+2 invoices
+  applied INV-0002 50.00
+payment c-two 50.00 applied=50.00 credit=20.00
+error: invoice INV-0002 has payments
+1 day=30 invoice c-pay INV-0001 37.71
+3 day=30 payment c-pay INV-0001 10.00
+4 day=30 payment c-pay INV-0001 15.50
+6 day=30 refund c-pay INV-0001 5.00
+7 day=70 late c-pay INV-0001 1.80
+5 entries
+6 day=30 pay c-pay 1550
+7 day=30 credit add c-two 2000
+8 day=30 refund INV-0001 500
+9 day=70 dun day 70 2
+10 day=70 dun day 70 0
+11 day=70 pay c-two 5000
+6 of 11 entries

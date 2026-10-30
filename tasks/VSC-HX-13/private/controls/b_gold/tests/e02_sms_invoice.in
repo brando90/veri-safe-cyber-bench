@@ -1,0 +1,12 @@
+customer add c-s1 starter tx USD
+customer add c-s2 team ny USD
+usage c-s1 sms 60
+usage c-s1 sms 470
+usage c-s2 sms 20 day=0
+usage c-s2 sms 1000
+usage c-s2 egress 15
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+report usage_units

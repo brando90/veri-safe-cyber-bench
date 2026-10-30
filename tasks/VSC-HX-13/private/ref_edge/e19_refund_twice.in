@@ -1,0 +1,9 @@
+customer add c-r1 starter de EUR
+usage c-r1 egress 400
+tick 30
+invoice run
+pay c-r1 30
+refund INV-0001 20
+refund INV-0001 20
+statement c-r1
+invoice show INV-0001

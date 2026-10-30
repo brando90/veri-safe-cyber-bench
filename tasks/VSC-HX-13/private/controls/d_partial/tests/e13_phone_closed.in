@@ -1,0 +1,7 @@
+customer add c-p1 starter de EUR
+customer add c-p2 starter de EUR
+set phone c-p1 +49-30-1234
+customer close c-p1
+set phone c-p1 +49-30-9999
+customer show c-p1
+customer history c-p1

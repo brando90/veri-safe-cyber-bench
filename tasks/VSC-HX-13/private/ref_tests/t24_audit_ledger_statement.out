@@ -1,0 +1,81 @@
+customer c-s1 added plan=starter region=de currency=EUR since=0
+customer c-s2 added plan=starter region=de currency=EUR since=0
+usage c-s1 egress 400 day=0
+usage c-s2 egress 400 day=0
+day 30 period 1
+invoiced INV-0001 c-s1 period=0 lines=2 total=34.82 EUR
+invoiced INV-0002 c-s2 period=0 lines=2 total=34.82 EUR
+invoice run period=0 invoices=2
+usage c-s1 egress 400 day=30
+  applied INV-0001 10.00
+payment c-s1 10.00 applied=10.00 credit=0.00
+  applied INV-0002 10.00
+payment c-s2 10.00 applied=10.00 credit=0.00
+day 61 period 2
+invoiced INV-0003 c-s1 period=1 lines=2 total=34.82 EUR
+invoiced INV-0004 c-s2 period=1 lines=1 total=20.80 EUR
+invoice run period=1 invoices=2
+  applied INV-0001 5.00
+payment c-s1 5.00 applied=5.00 credit=0.00
+refund INV-0001 2.00 net_paid=13.00 outstanding=21.82
+credit c-s2 +7.00 balance=7.00
+1 day=0 customer add c-s1 starter de EUR
+2 day=0 customer add c-s2 starter de EUR
+3 day=30 invoice run period 0 2
+4 day=30 pay c-s1 1000
+5 day=30 pay c-s2 1000
+6 day=61 invoice run period 1 2
+7 day=61 pay c-s1 500
+8 day=61 refund INV-0001 200
+9 day=61 credit add c-s2 700
+9 of 9 entries
+7 day=61 pay c-s1 500
+8 day=61 refund INV-0001 200
+9 day=61 credit add c-s2 700
+3 of 9 entries
+4 day=30 pay c-s1 1000
+5 day=30 pay c-s2 1000
+7 day=61 pay c-s1 500
+3 of 3 entries
+1 day=0 customer add c-s1 starter de EUR
+4 day=30 pay c-s1 1000
+7 day=61 pay c-s1 500
+3 of 3 entries
+error: invalid number '0'
+error: invalid number 'x'
+1 day=30 invoice c-s1 INV-0001 34.82
+2 day=30 invoice c-s2 INV-0002 34.82
+3 day=30 payment c-s1 INV-0001 10.00
+4 day=30 payment c-s2 INV-0002 10.00
+5 day=61 invoice c-s1 INV-0003 34.82
+6 day=61 invoice c-s2 INV-0004 20.80
+7 day=61 payment c-s1 INV-0001 5.00
+8 day=61 refund c-s1 INV-0001 2.00
+9 day=61 credit_in c-s2 - 7.00
+9 entries
+1 day=30 invoice c-s1 INV-0001 34.82
+3 day=30 payment c-s1 INV-0001 10.00
+5 day=61 invoice c-s1 INV-0003 34.82
+7 day=61 payment c-s1 INV-0001 5.00
+8 day=61 refund c-s1 INV-0001 2.00
+5 entries
+3 day=30 payment c-s1 INV-0001 10.00
+7 day=61 payment c-s1 INV-0001 5.00
+2 entries
+1 day=30 invoice c-s1 INV-0001 34.82
+2 day=30 invoice c-s2 INV-0002 34.82
+5 day=61 invoice c-s1 INV-0003 34.82
+6 day=61 invoice c-s2 INV-0004 20.80
+4 entries
+error: unknown customer c-nobody
+statement c-s1 EUR
+  INV-0001 p0 total=34.82 paid=15.00 refunded=2.00 outstanding=21.82
+  INV-0003 p1 total=34.82 paid=0.00 refunded=0.00 outstanding=34.82
+  owed=56.64 credit=0.00
+statement c-s1 EUR
+  INV-0003 p1 total=34.82 paid=0.00 refunded=0.00 outstanding=34.82
+  owed=34.82 credit=0.00
+statement c-s2 EUR
+  INV-0002 p0 total=34.82 paid=10.00 refunded=0.00 outstanding=24.82
+  owed=24.82 credit=7.00
+error: invalid number 'x'

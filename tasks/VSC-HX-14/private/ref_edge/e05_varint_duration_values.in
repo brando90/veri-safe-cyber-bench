@@ -1,0 +1,8 @@
+event add a "Short" 2024-03-04T10:00 dur=2m8s
+event add b "Afternoon" 2024-03-04T11:00 dur=4h34m
+event add c "Long" 2024-03-05T11:00 dur=24d7h
+event show a
+event show b
+event show c
+export pack
+export text

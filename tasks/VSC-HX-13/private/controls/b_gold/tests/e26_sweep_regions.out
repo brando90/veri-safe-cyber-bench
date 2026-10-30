@@ -1,0 +1,364 @@
+customer c-ca0 added plan=starter region=ca currency=EUR since=0
+customer c-ca1 added plan=team region=ca currency=USD since=0
+customer c-ca2 added plan=business region=ca currency=GBP since=0
+customer c-ny0 added plan=starter region=ny currency=USD since=0
+customer c-ny1 added plan=team region=ny currency=GBP since=0
+customer c-ny2 added plan=business region=ny currency=EUR since=0
+customer c-tx0 added plan=starter region=tx currency=GBP since=0
+customer c-tx1 added plan=team region=tx currency=EUR since=0
+customer c-tx2 added plan=business region=tx currency=USD since=0
+customer c-wa0 added plan=starter region=wa currency=EUR since=0
+customer c-wa1 added plan=team region=wa currency=USD since=0
+customer c-wa2 added plan=business region=wa currency=GBP since=0
+customer c-de0 added plan=starter region=de currency=USD since=0
+customer c-de1 added plan=team region=de currency=GBP since=0
+customer c-de2 added plan=business region=de currency=EUR since=0
+customer c-fr0 added plan=starter region=fr currency=GBP since=0
+customer c-fr1 added plan=team region=fr currency=EUR since=0
+customer c-fr2 added plan=business region=fr currency=USD since=0
+customer c-es0 added plan=starter region=es currency=EUR since=0
+customer c-es1 added plan=team region=es currency=USD since=0
+customer c-es2 added plan=business region=es currency=GBP since=0
+customer c-uk0 added plan=starter region=uk currency=USD since=0
+customer c-uk1 added plan=team region=uk currency=GBP since=0
+customer c-uk2 added plan=business region=uk currency=EUR since=0
+customer c-jp0 added plan=starter region=jp currency=GBP since=0
+customer c-jp1 added plan=team region=jp currency=EUR since=0
+customer c-jp2 added plan=business region=jp currency=USD since=0
+customer c-on0 added plan=starter region=on currency=EUR since=0
+customer c-on1 added plan=team region=on currency=USD since=0
+customer c-on2 added plan=business region=on currency=GBP since=0
+customer c-ch0 added plan=starter region=ch currency=USD since=0
+customer c-ch1 added plan=team region=ch currency=GBP since=0
+customer c-ch2 added plan=business region=ch currency=EUR since=0
+usage c-ca0 egress 47 day=0
+usage c-ca0 logs 1000 day=0
+usage c-ca1 egress 64 day=0
+usage c-ca1 logs 1250 day=0
+usage c-ca2 egress 81 day=0
+usage c-ca2 logs 1500 day=0
+customer c-ca1 exempt yes
+usage c-ny0 egress 78 day=0
+usage c-ny0 logs 1333 day=0
+usage c-ny1 egress 95 day=0
+usage c-ny1 logs 1583 day=0
+usage c-ny2 egress 112 day=0
+usage c-ny2 logs 1833 day=0
+usage c-tx0 egress 109 day=0
+usage c-tx0 logs 1666 day=0
+usage c-tx1 egress 126 day=0
+usage c-tx1 logs 1916 day=0
+usage c-tx2 egress 143 day=0
+usage c-tx2 logs 2166 day=0
+customer c-tx1 exempt yes
+usage c-wa0 egress 140 day=0
+usage c-wa0 logs 1999 day=0
+usage c-wa1 egress 157 day=0
+usage c-wa1 logs 2249 day=0
+usage c-wa2 egress 174 day=0
+usage c-wa2 logs 2499 day=0
+usage c-de0 egress 171 day=0
+usage c-de0 logs 2332 day=0
+usage c-de1 egress 188 day=0
+usage c-de1 logs 2582 day=0
+usage c-de2 egress 205 day=0
+usage c-de2 logs 2832 day=0
+customer c-de1 exempt yes
+usage c-fr0 egress 202 day=0
+usage c-fr0 logs 2665 day=0
+usage c-fr1 egress 219 day=0
+usage c-fr1 logs 2915 day=0
+usage c-fr2 egress 236 day=0
+usage c-fr2 logs 3165 day=0
+usage c-es0 egress 233 day=0
+usage c-es0 logs 2998 day=0
+usage c-es1 egress 250 day=0
+usage c-es1 logs 3248 day=0
+usage c-es2 egress 267 day=0
+usage c-es2 logs 3498 day=0
+customer c-es1 exempt yes
+usage c-uk0 egress 264 day=0
+usage c-uk0 logs 3331 day=0
+usage c-uk1 egress 281 day=0
+usage c-uk1 logs 3581 day=0
+usage c-uk2 egress 298 day=0
+usage c-uk2 logs 3831 day=0
+usage c-jp0 egress 295 day=0
+usage c-jp0 logs 3664 day=0
+usage c-jp1 egress 312 day=0
+usage c-jp1 logs 3914 day=0
+usage c-jp2 egress 329 day=0
+usage c-jp2 logs 4164 day=0
+customer c-jp1 exempt yes
+usage c-on0 egress 326 day=0
+usage c-on0 logs 3997 day=0
+usage c-on1 egress 343 day=0
+usage c-on1 logs 4247 day=0
+usage c-on2 egress 360 day=0
+usage c-on2 logs 4497 day=0
+usage c-ch0 egress 357 day=0
+usage c-ch0 logs 4330 day=0
+usage c-ch1 egress 374 day=0
+usage c-ch1 logs 4580 day=0
+usage c-ch2 egress 391 day=0
+usage c-ch2 logs 4830 day=0
+customer c-ch1 exempt yes
+day 30 period 1
+invoiced INV-0001 c-ca0 period=0 lines=1 total=18.75 EUR
+invoiced INV-0002 c-ca1 period=0 lines=1 total=79.00 USD
+invoiced INV-0003 c-ca2 period=0 lines=1 total=168.61 GBP
+invoiced INV-0004 c-ch0 period=0 lines=3 total=31.88 USD
+invoiced INV-0005 c-ch1 period=0 lines=2 total=66.83 GBP
+invoiced INV-0006 c-ch2 period=0 lines=1 total=197.91 EUR
+invoiced INV-0007 c-de0 period=0 lines=2 total=27.37 USD
+invoiced INV-0008 c-de1 period=0 lines=1 total=62.41 GBP
+invoiced INV-0009 c-de2 period=0 lines=1 total=217.87 EUR
+invoiced INV-0010 c-es0 period=0 lines=2 total=28.28 EUR
+invoiced INV-0011 c-es1 period=0 lines=2 total=79.40 USD
+invoiced INV-0012 c-es2 period=0 lines=1 total=190.22 GBP
+invoiced INV-0013 c-fr0 period=0 lines=2 total=22.94 GBP
+invoiced INV-0014 c-fr1 period=0 lines=1 total=87.22 EUR
+invoiced INV-0015 c-fr2 period=0 lines=1 total=238.80 USD
+invoiced INV-0016 c-jp0 period=0 lines=2 total=22.66 GBP
+invoiced INV-0017 c-jp1 period=0 lines=2 total=75.62 EUR
+invoiced INV-0018 c-jp2 period=0 lines=1 total=199.00 USD
+invoiced INV-0019 c-ny0 period=0 lines=1 total=20.62 USD
+invoiced INV-0020 c-ny1 period=0 lines=1 total=67.72 GBP
+invoiced INV-0021 c-ny2 period=0 lines=1 total=198.64 EUR
+invoiced INV-0022 c-on0 period=0 lines=2 total=30.15 EUR
+invoiced INV-0023 c-on1 period=0 lines=2 total=94.24 USD
+invoiced INV-0024 c-on2 period=0 lines=1 total=177.65 GBP
+invoiced INV-0025 c-tx0 period=0 lines=2 total=16.96 GBP
+invoiced INV-0026 c-tx1 period=0 lines=1 total=72.68 EUR
+invoiced INV-0027 c-tx2 period=0 lines=1 total=211.44 USD
+invoiced INV-0028 c-uk0 period=0 lines=2 total=31.92 USD
+invoiced INV-0029 c-uk1 period=0 lines=2 total=76.79 GBP
+invoiced INV-0030 c-uk2 period=0 lines=1 total=219.70 EUR
+invoiced INV-0031 c-wa0 period=0 lines=2 total=21.68 EUR
+invoiced INV-0032 c-wa1 period=0 lines=1 total=86.98 USD
+invoiced INV-0033 c-wa2 period=0 lines=1 total=173.09 GBP
+invoice run period=0 invoices=33
+invoice INV-0001 c-ca0 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  subtotal 17.48 discount 0.00 tax 1.27 late 0.00 total 18.75 EUR
+  paid 0.00 refunded 0.00 outstanding 18.75
+invoice INV-0002 c-ca1 period=0 issued=30 due=60 status=open
+  fee plan team days=30 79.00
+  subtotal 79.00 discount 0.00 tax 0.00 late 0.00 total 79.00 USD
+  paid 0.00 refunded 0.00 outstanding 79.00
+invoice INV-0003 c-ca2 period=0 issued=30 due=60 status=open
+  fee plan business days=30 157.21
+  subtotal 157.21 discount 0.00 tax 11.40 late 0.00 total 168.61 GBP
+  paid 0.00 refunded 0.00 outstanding 168.61
+invoice INV-0004 c-ch0 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage egress 357 GB 11.20
+  usage logs 4330 MB 0.14
+  subtotal 30.34 discount 0.00 tax 1.54 late 0.00 total 31.88 USD
+  paid 0.00 refunded 0.00 outstanding 31.88
+invoice INV-0005 c-ch1 period=0 issued=30 due=60 status=open
+  fee plan team days=30 62.41
+  usage egress 374 GB 4.42
+  subtotal 66.83 discount 0.00 tax 0.00 late 0.00 total 66.83 GBP
+  paid 0.00 refunded 0.00 outstanding 66.83
+invoice INV-0006 c-ch2 period=0 issued=30 due=60 status=open
+  fee plan business days=30 183.08
+  subtotal 183.08 discount 0.00 tax 14.83 late 0.00 total 197.91 EUR
+  paid 0.00 refunded 0.00 outstanding 197.91
+invoice INV-0007 c-de0 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage egress 171 GB 4.00
+  subtotal 23.00 discount 0.00 tax 4.37 late 0.00 total 27.37 USD
+  paid 0.00 refunded 0.00 outstanding 27.37
+invoice INV-0008 c-de1 period=0 issued=30 due=60 status=open
+  fee plan team days=30 62.41
+  subtotal 62.41 discount 0.00 tax 0.00 late 0.00 total 62.41 GBP
+  paid 0.00 refunded 0.00 outstanding 62.41
+invoice INV-0009 c-de2 period=0 issued=30 due=60 status=open
+  fee plan business days=30 183.08
+  subtotal 183.08 discount 0.00 tax 34.79 late 0.00 total 217.87 EUR
+  paid 0.00 refunded 0.00 outstanding 217.87
+invoice INV-0010 c-es0 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  usage egress 233 GB 5.89
+  subtotal 23.37 discount 0.00 tax 4.91 late 0.00 total 28.28 EUR
+  paid 0.00 refunded 0.00 outstanding 28.28
+invoice INV-0011 c-es1 period=0 issued=30 due=60 status=open
+  fee plan team days=30 79.00
+  usage egress 250 GB 0.40
+  subtotal 79.40 discount 0.00 tax 0.00 late 0.00 total 79.40 USD
+  paid 0.00 refunded 0.00 outstanding 79.40
+invoice INV-0012 c-es2 period=0 issued=30 due=60 status=open
+  fee plan business days=30 157.21
+  subtotal 157.21 discount 0.00 tax 33.01 late 0.00 total 190.22 GBP
+  paid 0.00 refunded 0.00 outstanding 190.22
+invoice INV-0013 c-fr0 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 15.01
+  usage egress 202 GB 4.11
+  subtotal 19.12 discount 0.00 tax 3.82 late 0.00 total 22.94 GBP
+  paid 0.00 refunded 0.00 outstanding 22.94
+invoice INV-0014 c-fr1 period=0 issued=30 due=60 status=open
+  fee plan team days=30 72.68
+  subtotal 72.68 discount 0.00 tax 14.54 late 0.00 total 87.22 EUR
+  paid 0.00 refunded 0.00 outstanding 87.22
+invoice INV-0015 c-fr2 period=0 issued=30 due=60 status=open
+  fee plan business days=30 199.00
+  subtotal 199.00 discount 0.00 tax 39.80 late 0.00 total 238.80 USD
+  paid 0.00 refunded 0.00 outstanding 238.80
+invoice INV-0016 c-jp0 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 15.01
+  usage egress 295 GB 6.95
+  subtotal 21.96 discount 0.00 tax 0.70 late 0.00 total 22.66 GBP
+  paid 0.00 refunded 0.00 outstanding 22.66
+invoice INV-0017 c-jp1 period=0 issued=30 due=60 status=open
+  fee plan team days=30 72.68
+  usage egress 312 GB 2.94
+  subtotal 75.62 discount 0.00 tax 0.00 late 0.00 total 75.62 EUR
+  paid 0.00 refunded 0.00 outstanding 75.62
+invoice INV-0018 c-jp2 period=0 issued=30 due=60 status=open
+  fee plan business days=30 199.00
+  subtotal 199.00 discount 0.00 tax 0.00 late 0.00 total 199.00 USD
+  paid 0.00 refunded 0.00 outstanding 199.00
+invoice INV-0019 c-ny0 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  subtotal 19.00 discount 0.00 tax 1.62 late 0.00 total 20.62 USD
+  paid 0.00 refunded 0.00 outstanding 20.62
+invoice INV-0020 c-ny1 period=0 issued=30 due=60 status=open
+  fee plan team days=30 62.41
+  subtotal 62.41 discount 0.00 tax 5.31 late 0.00 total 67.72 GBP
+  paid 0.00 refunded 0.00 outstanding 67.72
+invoice INV-0021 c-ny2 period=0 issued=30 due=60 status=open
+  fee plan business days=30 183.08
+  subtotal 183.08 discount 0.00 tax 15.56 late 0.00 total 198.64 EUR
+  paid 0.00 refunded 0.00 outstanding 198.64
+invoice INV-0022 c-on0 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  usage egress 326 GB 9.20
+  subtotal 26.68 discount 0.00 tax 3.47 late 0.00 total 30.15 EUR
+  paid 0.00 refunded 0.00 outstanding 30.15
+invoice INV-0023 c-on1 period=0 issued=30 due=60 status=open
+  fee plan team days=30 79.00
+  usage egress 343 GB 4.40
+  subtotal 83.40 discount 0.00 tax 10.84 late 0.00 total 94.24 USD
+  paid 0.00 refunded 0.00 outstanding 94.24
+invoice INV-0024 c-on2 period=0 issued=30 due=60 status=open
+  fee plan business days=30 157.21
+  subtotal 157.21 discount 0.00 tax 20.44 late 0.00 total 177.65 GBP
+  paid 0.00 refunded 0.00 outstanding 177.65
+invoice INV-0025 c-tx0 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 15.01
+  usage egress 109 GB 0.95
+  subtotal 15.96 discount 0.00 tax 1.00 late 0.00 total 16.96 GBP
+  paid 0.00 refunded 0.00 outstanding 16.96
+invoice INV-0026 c-tx1 period=0 issued=30 due=60 status=open
+  fee plan team days=30 72.68
+  subtotal 72.68 discount 0.00 tax 0.00 late 0.00 total 72.68 EUR
+  paid 0.00 refunded 0.00 outstanding 72.68
+invoice INV-0027 c-tx2 period=0 issued=30 due=60 status=open
+  fee plan business days=30 199.00
+  subtotal 199.00 discount 0.00 tax 12.44 late 0.00 total 211.44 USD
+  paid 0.00 refunded 0.00 outstanding 211.44
+invoice INV-0028 c-uk0 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage egress 264 GB 7.60
+  subtotal 26.60 discount 0.00 tax 5.32 late 0.00 total 31.92 USD
+  paid 0.00 refunded 0.00 outstanding 31.92
+invoice INV-0029 c-uk1 period=0 issued=30 due=60 status=open
+  fee plan team days=30 62.41
+  usage egress 281 GB 1.58
+  subtotal 63.99 discount 0.00 tax 12.80 late 0.00 total 76.79 GBP
+  paid 0.00 refunded 0.00 outstanding 76.79
+invoice INV-0030 c-uk2 period=0 issued=30 due=60 status=open
+  fee plan business days=30 183.08
+  subtotal 183.08 discount 0.00 tax 36.62 late 0.00 total 219.70 EUR
+  paid 0.00 refunded 0.00 outstanding 219.70
+invoice INV-0031 c-wa0 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  usage egress 140 GB 2.21
+  subtotal 19.69 discount 0.00 tax 1.99 late 0.00 total 21.68 EUR
+  paid 0.00 refunded 0.00 outstanding 21.68
+invoice INV-0032 c-wa1 period=0 issued=30 due=60 status=open
+  fee plan team days=30 79.00
+  subtotal 79.00 discount 0.00 tax 7.98 late 0.00 total 86.98 USD
+  paid 0.00 refunded 0.00 outstanding 86.98
+invoice INV-0033 c-wa2 period=0 issued=30 due=60 status=open
+  fee plan business days=30 157.21
+  subtotal 157.21 discount 0.00 tax 15.88 late 0.00 total 173.09 GBP
+  paid 0.00 refunded 0.00 outstanding 173.09
+report tax_region
+  ca EUR 1.27
+  ca GBP 11.40
+  ch EUR 14.83
+  ch USD 1.54
+  de EUR 34.79
+  de USD 4.37
+  es EUR 4.91
+  es GBP 33.01
+  fr EUR 14.54
+  fr GBP 3.82
+  fr USD 39.80
+  jp GBP 0.70
+  ny EUR 15.56
+  ny GBP 5.31
+  ny USD 1.62
+  on EUR 3.47
+  on GBP 20.44
+  on USD 10.84
+  tx GBP 1.00
+  tx USD 12.44
+  uk EUR 36.62
+  uk GBP 12.80
+  uk USD 5.32
+  wa EUR 1.99
+  wa GBP 15.88
+  wa USD 7.98
+  total EUR 127.98
+  total GBP 104.36
+  total USD 83.91
+end
+report tax_period
+  p00 EUR 127.98
+  p00 GBP 104.36
+  p00 USD 83.91
+  total EUR 127.98
+  total GBP 104.36
+  total USD 83.91
+end
+report rev_region
+  ca EUR 17.48
+  ca GBP 157.21
+  ca USD 79.00
+  ch EUR 183.08
+  ch GBP 66.83
+  ch USD 30.34
+  de EUR 183.08
+  de GBP 62.41
+  de USD 23.00
+  es EUR 23.37
+  es GBP 157.21
+  es USD 79.40
+  fr EUR 72.68
+  fr GBP 19.12
+  fr USD 199.00
+  jp EUR 75.62
+  jp GBP 21.96
+  jp USD 199.00
+  ny EUR 183.08
+  ny GBP 62.41
+  ny USD 19.00
+  on EUR 26.68
+  on GBP 157.21
+  on USD 83.40
+  tx EUR 72.68
+  tx GBP 15.96
+  tx USD 199.00
+  uk EUR 183.08
+  uk GBP 63.99
+  uk USD 26.60
+  wa EUR 19.69
+  wa GBP 157.21
+  wa USD 79.00
+  total EUR 1040.52
+  total GBP 941.52
+  total USD 1016.74
+end

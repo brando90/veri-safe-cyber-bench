@@ -1,0 +1,9 @@
+customer gone added plan=starter region=ca currency=USD since=0
+customer gone closed
+error: customer gone is closed
+error: customer gone is closed
+error: customer gone is closed
+customer gone name=gone plan=starter region=ca currency=USD status=closed
+  since=0 terms=30 exempt=no credit=0.00
+  po=- email=- phone=- note=-
+  coupons=0 plan_changes=0

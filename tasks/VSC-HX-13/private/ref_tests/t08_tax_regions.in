@@ -1,0 +1,37 @@
+customer add c-ca starter ca USD
+customer add c-ny starter ny USD
+customer add c-tx starter tx USD
+customer add c-wa starter wa USD
+customer add c-de starter de USD
+customer add c-uk starter uk USD
+customer add c-jp starter jp USD
+customer add c-on starter on USD
+customer add c-ch starter ch USD
+usage c-ca egress 400
+usage c-ny egress 400
+usage c-tx egress 400
+usage c-wa egress 400
+usage c-de egress 400
+usage c-uk egress 400
+usage c-jp egress 400
+usage c-on egress 400
+usage c-ch egress 400
+coupon add c-ny pct_all 10
+coupon add c-wa fixed_all 2.00
+coupon add c-jp pct_usage 50
+coupon add c-ch pct_fee 30
+tick 31
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0003
+invoice show INV-0004
+invoice show INV-0005
+invoice show INV-0006
+invoice show INV-0007
+invoice show INV-0008
+invoice show INV-0009
+region list
+region show ny
+region show wa
+region show jp

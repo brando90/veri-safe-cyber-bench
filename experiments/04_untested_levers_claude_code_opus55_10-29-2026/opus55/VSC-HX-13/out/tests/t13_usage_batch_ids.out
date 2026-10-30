@@ -1,0 +1,14 @@
+customer one added plan=starter region=ca currency=USD since=0
+customer two added plan=starter region=ca currency=USD since=0
+usage one storage 100 day=0
+error: duplicate usage id run-1
+usage two storage batch=2 total=11 day=0
+error: duplicate usage id run-1
+error: duplicate usage id run-2
+usage one storage 9 day=0
+  storage 100 day=0 id=run-1
+  storage 9 day=0 id=run-2
+2 records
+  storage 5 day=0 id=run-1
+  storage 6 day=0 id=run-2
+2 records

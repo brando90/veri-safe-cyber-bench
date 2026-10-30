@@ -1,0 +1,31 @@
+bogus
+event
+event add
+event add 1x "t" 2024-01-01T10:00
+event add e1 "t" 2024-01-01
+event add e1 "t" 2024-13-01T10:00
+event add e1 "t" 2024-01-01T10:00 dur=x
+event add e1 "t" 2024-01-01T10:00 tz=+15:00
+event add e1 "t" 2024-01-01T10:00 prio=10
+event add e1 "t" 2024-01-01T10:00 colour=red
+event add e1 "t" 2024-01-01T10:00 rule=hourly
+event add e1 "t" 2024-01-01T10:00 rule=weekly;on=2MO
+event add e1 "t" 2024-01-01T10:00 rule=monthly;on=MO
+event add e1 "t" 2024-01-01T10:00 rule=monthly;monthday=3;on=1MO
+event add e1 "t" 2024-01-01T10:00 rule=daily;every=0
+event add e1 "t" 2024-01-01T10:00 cat=a,,b
+event add e1 "t" 2024-01-01T10:00 allday=yes
+event add "unclosed 2024-01-01T10:00
+event add e2 "ok" 2024-01-01T10:00
+event add e2 "again" 2024-01-01T10:00
+skip e2 2024-01-01
+expand e2 2024-01-02 2024-01-01
+expand e2 2020-01-01 2030-01-01
+expand nosuch 2024-01-01 2024-01-02
+agenda 2024-01-01 2025-06-01
+busy 2024-01-02 2024-01-01
+event show #zz!
+event show #7
+help event add
+help nosuch
+event add e3 "a=b" 2024-01-01T10:00

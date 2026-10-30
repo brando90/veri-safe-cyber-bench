@@ -1,0 +1,37 @@
+customer alpha added plan=team region=de currency=EUR since=0
+day 12 period 0
+customer beta added plan=business region=ca currency=USD since=12
+usage alpha storage 50000 day=12
+usage beta egress 900 day=12
+usage beta sms 400 day=12
+coupon beta #1 pct_all
+day 30 period 1
+invoiced INV-0001 alpha period=0 lines=2 total=89.90 EUR
+invoiced INV-0002 beta period=0 lines=2 total=119.11 USD
+invoice run period=0 invoices=2
+  applied INV-0002 119.11
+payment beta 1000.00 applied=119.11 credit=880.89
+refund INV-0002 5.00 net_paid=114.11 outstanding=5.00
+day 61 period 2
+late INV-0001 fee=1.80
+late INV-0002 fee=2.00
+dun applied=2
+void INV-0001
+INV-0001 alpha p0 total=91.70 outstanding=91.70 void
+INV-0002 beta p0 total=121.11 outstanding=7.00 open
+2 invoices
+report tax_region
+  ca USD 8.05
+  total USD 8.05
+end
+report rev_region
+  ca USD 113.06
+  total USD 113.06
+end
+report aging
+  1-30 USD 7.00
+  total USD 7.00
+end
+statement beta USD
+  INV-0002 p0 total=121.11 paid=119.11 refunded=5.00 outstanding=7.00
+  owed=7.00 credit=880.89

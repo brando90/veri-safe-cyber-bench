@@ -1,0 +1,24 @@
+customer add c-ex1 team de EUR name="Ex, One & Co"
+customer add c-ex2 free ca USD name="The ""Quoted"" Ltd"
+set po c-ex1 "PO, 12"
+set email c-ex1 bill@ex.example
+set note c-ex2 "line one"
+usage c-ex1 requests 160000 id=u1
+usage c-ex2 logs 9000
+tick 30
+invoice run
+pay c-ex1 20
+refund INV-0001 1.5
+export invoices csv
+export invoices tsv
+export ledger csv
+export ledger tsv
+export audit csv
+export audit tsv
+export customers csv
+export customers tsv
+export usage csv
+export usage tsv
+export nothing csv
+export invoices xml
+export invoices

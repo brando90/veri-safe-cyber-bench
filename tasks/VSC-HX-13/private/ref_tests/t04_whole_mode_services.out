@@ -1,0 +1,52 @@
+customer c-w added plan=free region=tx currency=USD since=0
+customer c-w2 added plan=starter region=tx currency=USD since=0
+usage c-w voice 23 day=0
+usage c-w ocr 95 day=0
+usage c-w geocode 850 day=0
+usage c-w voice 2 day=0
+usage c-w2 voice 4 day=0
+usage c-w2 ocr 9 day=0
+usage c-w2 geocode 1000 day=0
+usage c-w2 geocode 1000 day=0
+quote c-w voice plan=free
+  units=23 allowance=0 billable=23 blocks=4
+  blocks 1-4 x 45
+  charge 1.80 USD
+quote c-w ocr plan=free
+  units=95 allowance=0 billable=95 blocks=9
+  blocks 1-9 x 120
+  charge 10.80 USD
+quote c-w geocode plan=free
+  units=850 allowance=250 billable=600 blocks=2
+  blocks 1-2 x 19
+  charge 0.38 USD
+quote c-w voice plan=free
+  units=4 allowance=0 billable=4 blocks=0
+  charge 0.00 USD
+quote c-w2 geocode plan=starter
+  units=4000 allowance=1000 billable=3000 blocks=12
+  blocks 1-12 x 19
+  charge 2.28 USD
+day 30 period 1
+invoiced INV-0001 c-w period=0 lines=3 total=14.27 USD
+invoiced INV-0002 c-w2 period=0 lines=2 total=21.00 USD
+invoice run period=0 invoices=2
+invoice INV-0001 c-w period=0 issued=30 due=60 status=open
+  usage geocode 850 lookup 0.38
+  usage ocr 95 page 10.80
+  usage voice 25 min 2.25
+  subtotal 13.43 discount 0.00 tax 0.84 late 0.00 total 14.27 USD
+  paid 0.00 refunded 0.00 outstanding 14.27
+invoice INV-0002 c-w2 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage geocode 2000 lookup 0.76
+  subtotal 19.76 discount 0.00 tax 1.24 late 0.00 total 21.00 USD
+  paid 0.00 refunded 0.00 outstanding 21.00
+service voice Voice minutes
+  unit=min block=5 mode=whole min=0
+  tier from=1 price=45
+  allowance free=0 starter=0 team=0 business=0 enterprise=0
+service geocode Geocoding
+  unit=lookup block=250 mode=whole min=0
+  tier from=1 price=19
+  allowance free=250 starter=1000 team=3000 business=10000 enterprise=37500

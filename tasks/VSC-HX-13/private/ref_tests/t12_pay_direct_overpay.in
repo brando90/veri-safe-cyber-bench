@@ -1,0 +1,20 @@
+customer add c-d1 starter de EUR
+customer add c-d2 starter de EUR
+usage c-d1 egress 400
+usage c-d2 egress 400
+tick 30
+invoice run
+pay c-d1 5 inv=INV-0002
+pay c-d1 5 inv=INV-0009
+pay c-d1 999 inv=INV-0001
+pay c-d1 10 inv=INV-0001
+statement c-d1
+pay c-d1 100.00 inv=INV-0001
+pay c-d1 24.47 inv=INV-0001
+pay c-d1 0.01 inv=INV-0001
+pay c-d1 10.50
+statement c-d1
+void INV-0002
+pay c-d2 1 inv=INV-0002
+pay c-d2 1
+statement c-d2

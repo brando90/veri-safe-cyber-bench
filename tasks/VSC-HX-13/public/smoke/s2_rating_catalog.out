@@ -1,0 +1,102 @@
+backup block=500 unit=GB-h mode=ceil min=0 tiers=3
+cache block=128 unit=MB-h mode=ceil min=50 tiers=1
+cdn block=5 unit=GB mode=ceil min=0 tiers=2
+compute block=60 unit=CPU-min mode=ceil min=0 tiers=2
+dns block=100 unit=kq mode=ceil min=100 tiers=1
+egress block=10 unit=GB mode=ceil min=0 tiers=3
+email block=500 unit=msg mode=ceil min=0 tiers=2
+geocode block=250 unit=lookup mode=whole min=0 tiers=1
+logs block=250 unit=MB mode=ceil min=0 tiers=1
+metrics block=100 unit=series mode=ceil min=0 tiers=2
+ocr block=10 unit=page mode=whole min=0 tiers=1
+queue block=50 unit=kmsg mode=ceil min=0 tiers=3
+requests block=1000 unit=req mode=ceil min=0 tiers=1
+search block=20 unit=kdoc mode=ceil min=0 tiers=2
+sms block=100 unit=msg mode=ceil min=0 tiers=2
+storage block=1000 unit=GB-h mode=ceil min=0 tiers=3
+vault block=10 unit=secret mode=ceil min=0 tiers=1
+voice block=5 unit=min mode=whole min=0 tiers=1
+18 services
+service storage Object storage
+  unit=GB-h block=1000 mode=ceil min=0
+  tier from=1 upto=100 price=12
+  tier from=101 upto=400 price=9
+  tier from=401 price=6
+  allowance free=2000 starter=8000 team=24000 business=80000 enterprise=300000
+plan team fee=79.00 USD
+  allowance backup 6000 GB-h
+  allowance cache 3072 MB-h
+  allowance cdn 120 GB
+  allowance compute 1440 CPU-min
+  allowance dns 0 kq
+  allowance egress 240 GB
+  allowance email 12000 msg
+  allowance geocode 3000 lookup
+  allowance logs 12000 MB
+  allowance metrics 2400 series
+  allowance ocr 0 page
+  allowance queue 1200 kmsg
+  allowance requests 60000 req
+  allowance search 480 kdoc
+  allowance sms 1200 msg
+  allowance storage 24000 GB-h
+  allowance vault 120 secret
+  allowance voice 0 min
+region de German VAT
+  rate=19.00% kinds=adjust,fee,usage
+  inclusive 119.00 -> net 100.00 tax 19.00
+ca California sales tax rate=7.25% kinds=adjust,fee,usage
+ch Swiss VAT rate=8.10% kinds=adjust,fee
+de German VAT rate=19.00% kinds=adjust,fee,usage
+es Spanish VAT rate=21.00% kinds=adjust,fee,usage
+fr French VAT rate=20.00% kinds=adjust,fee,usage
+jp Japan consumption tax rate=10.00% kinds=usage
+ny New York sales tax rate=8.50% kinds=adjust,fee,usage
+on Ontario HST rate=13.00% kinds=adjust,fee,usage
+tx Texas sales tax rate=6.25% kinds=adjust,fee,usage
+uk UK VAT rate=20.00% kinds=adjust,fee,usage
+wa Washington sales tax rate=10.10% kinds=adjust,fee,usage
+11 regions
+CAD exp=2 late_min=2.50 rate=1.350000
+CHF exp=2 late_min=1.75 rate=0.900000
+EUR exp=2 late_min=1.80 rate=0.920000
+GBP exp=2 late_min=1.50 rate=0.790000
+INR exp=2 late_min=50.00 rate=83.000000
+JPY exp=0 late_min=300 rate=1.500000
+KWD exp=3 late_min=0.600 rate=3.100000
+USD exp=2 late_min=2.00 rate=1.000000
+8 currencies
+customer c-one added plan=free region=tx currency=USD since=0
+quote c-one egress plan=free
+  units=300 allowance=20 billable=280 blocks=28
+  blocks 1-28 x 40
+  charge 11.20 USD
+quote c-one storage plan=free
+  units=9000 allowance=2000 billable=7000 blocks=7
+  blocks 1-7 x 12
+  charge 0.84 USD
+quote c-one logs plan=free
+  units=20000 allowance=1000 billable=19000 blocks=76
+  blocks 1-76 x 7
+  charge 5.32 USD
+advise c-one egress units=600
+  free 22.56 USD (current)
+  starter 39.64 USD
+  team 93.40 USD
+  business 199.00 USD
+  enterprise 599.00 USD
+  best free
+usage c-one storage 9000 day=0
+usage c-one egress 300 day=0
+usage c-one cache 900 day=0
+usage c-one dns 5000 day=0
+day 31 period 1
+invoiced INV-0001 c-one period=0 lines=4 total=15.62 USD
+invoice run period=0 invoices=1
+invoice INV-0001 c-one period=0 issued=31 due=61 status=open
+  usage cache 900 MB-h 0.66
+  usage dns 5000 kq 2.00
+  usage egress 300 GB 11.20
+  usage storage 9000 GB-h 0.84
+  subtotal 14.70 discount 0.00 tax 0.92 late 0.00 total 15.62 USD
+  paid 0.00 refunded 0.00 outstanding 15.62

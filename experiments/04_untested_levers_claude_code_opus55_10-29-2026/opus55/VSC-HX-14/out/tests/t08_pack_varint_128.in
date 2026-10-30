@@ -1,0 +1,8 @@
+idseq 128
+event add short "Short" 1970-03-06T02:08 dur=2m8s
+event show short
+export pack
+event rm short
+import pack 3856 011ae10573686f72748001800180018001000005000553686f727400
+event show short
+list

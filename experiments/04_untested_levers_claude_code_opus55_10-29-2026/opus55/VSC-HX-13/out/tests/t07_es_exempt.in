@@ -1,0 +1,9 @@
+# an exempt customer in Spain pays no tax
+customer add madrid starter es EUR
+customer add sevilla starter es EUR
+set exempt madrid yes
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+report tax_region

@@ -1,0 +1,29 @@
+added mv ref=1
+skipped mv on 2024-03-10
+skipped mv on 2024-03-12
+moved mv to 2024-03-06T08:30
+event mv ref=1
+  title "Every day"
+  start 2024-03-06T08:30
+  dur 1h tz +00:00 prio 5
+  rule daily
+  cats -
+  skips 2024-03-10,2024-03-12
+added mw ref=2
+skipped mw on 2024-03-25
+moved mw to 2024-03-11T09:00
+event mw ref=2
+  title Weekly
+  start 2024-03-11T09:00
+  dur 1h tz +00:00 prio 5
+  rule weekly
+  cats -
+  skips 2024-03-25
+2024-03-11 Mon 09:00
+2024-03-18 Mon 09:00
+2024-04-01 Mon 09:00
+2024-04-08 Mon 09:00
+2024-04-15 Mon 09:00
+2024-04-22 Mon 09:00
+2024-04-29 Mon 09:00
+7 occurrences

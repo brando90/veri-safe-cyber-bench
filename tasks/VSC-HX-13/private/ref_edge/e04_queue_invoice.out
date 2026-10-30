@@ -1,0 +1,32 @@
+customer c-q1 added plan=free region=de currency=EUR since=0
+customer c-q2 added plan=business region=uk currency=GBP since=0
+usage c-q1 queue 1500 day=0
+usage c-q1 queue 100 day=0
+usage c-q2 queue 6100 day=0
+usage c-q2 queue 3000 day=0
+usage c-q2 queue 500 day=0
+day 30 period 1
+invoiced INV-0001 c-q1 period=0 lines=1 total=5.26 EUR
+invoiced INV-0002 c-q2 period=0 lines=2 total=203.30 GBP
+invoice run period=0 invoices=2
+invoice INV-0001 c-q1 period=0 issued=30 due=60 status=open
+  usage queue 1600 kmsg 4.42
+  subtotal 4.42 discount 0.00 tax 0.84 late 0.00 total 5.26 EUR
+  paid 0.00 refunded 0.00 outstanding 5.26
+invoice INV-0002 c-q2 period=0 issued=30 due=60 status=open
+  fee plan business days=30 157.21
+  usage queue 9600 kmsg 12.21
+  subtotal 169.42 discount 0.00 tax 33.88 late 0.00 total 203.30 GBP
+  paid 0.00 refunded 0.00 outstanding 203.30
+report rev_period
+  p00 EUR 4.42
+  p00 GBP 169.42
+  total EUR 4.42
+  total GBP 169.42
+end
+report rev_plan
+  business GBP 169.42
+  free EUR 4.42
+  total EUR 4.42
+  total GBP 169.42
+end

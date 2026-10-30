@@ -1,0 +1,109 @@
+customer c-k1 added plan=team region=tx currency=USD since=0
+customer c-k2 added plan=team region=tx currency=USD since=0
+customer c-k3 added plan=team region=tx currency=USD since=0
+customer c-k4 added plan=team region=tx currency=USD since=0
+customer c-k5 added plan=team region=tx currency=USD since=0
+customer c-k6 added plan=team region=tx currency=USD since=0
+customer c-k7 added plan=team region=tx currency=USD since=0
+customer c-k8 added plan=starter region=tx currency=USD since=0
+customer c-k9 added plan=team region=tx currency=EUR since=0
+coupon c-k1 #1 pct_all
+coupon c-k2 #1 pct_fee
+coupon c-k3 #1 pct_usage
+coupon c-k4 #1 fixed_all
+coupon c-k5 #1 fixed_fee
+coupon c-k6 #1 fixed_usage
+coupon c-k7 #1 first_periods
+coupon c-k8 #1 volume
+coupon c-k9 #1 fixed_all
+coupon c-k9 #2 pct_all
+error: invalid number '101'
+error: invalid number '0'
+error: invalid amount '0'
+error: unknown coupon kind 'nonsense'
+error: invalid amount '1.234'
+usage c-k1 requests 160000 day=0
+usage c-k2 requests 160000 day=0
+usage c-k3 requests 160000 day=0
+usage c-k4 requests 160000 day=0
+usage c-k5 requests 160000 day=0
+usage c-k6 requests 160000 day=0
+usage c-k7 requests 160000 day=0
+usage c-k8 egress 5000 day=0
+usage c-k9 requests 160000 day=0
+  #1 pct_all value=10 until=- n=0 used=0
+1 coupons
+first_periods target=all percentage=yes default_n=3
+fixed_all target=all percentage=no default_n=0
+fixed_fee target=fee percentage=no default_n=0
+fixed_usage target=usage percentage=no default_n=0
+pct_all target=all percentage=yes default_n=0
+pct_fee target=fee percentage=yes default_n=0
+pct_usage target=usage percentage=yes default_n=0
+volume target=usage percentage=yes default_n=0
+8 kinds
+day 30 period 1
+invoiced INV-0001 c-k1 period=0 lines=2 total=89.89 USD
+invoiced INV-0002 c-k2 period=0 lines=2 total=78.89 USD
+invoiced INV-0003 c-k3 period=0 lines=2 total=91.91 USD
+invoiced INV-0004 c-k4 period=0 lines=2 total=86.59 USD
+invoiced INV-0005 c-k5 period=0 lines=2 total=94.56 USD
+invoiced INV-0006 c-k6 period=0 lines=2 total=95.63 USD
+invoiced INV-0007 c-k7 period=0 lines=2 total=79.90 USD
+invoiced INV-0008 c-k8 period=0 lines=2 total=155.02 USD
+invoiced INV-0009 c-k9 period=0 lines=2 total=0.00 EUR
+invoice run period=0 invoices=9
+invoice INV-0001 c-k1 period=0 issued=30 due=60 status=open
+  fee plan team days=30 79.00
+  usage requests 160000 req 15.00
+  discount pct_all -9.40
+  subtotal 94.00 discount 9.40 tax 5.29 late 0.00 total 89.89 USD
+  paid 0.00 refunded 0.00 outstanding 89.89
+invoice INV-0002 c-k2 period=0 issued=30 due=60 status=open
+  fee plan team days=30 79.00
+  usage requests 160000 req 15.00
+  discount pct_fee -19.75
+  subtotal 94.00 discount 19.75 tax 4.64 late 0.00 total 78.89 USD
+  paid 0.00 refunded 0.00 outstanding 78.89
+invoice INV-0003 c-k3 period=0 issued=30 due=60 status=open
+  fee plan team days=30 79.00
+  usage requests 160000 req 15.00
+  discount pct_usage -7.50
+  subtotal 94.00 discount 7.50 tax 5.41 late 0.00 total 91.91 USD
+  paid 0.00 refunded 0.00 outstanding 91.91
+invoice INV-0004 c-k4 period=0 issued=30 due=60 status=open
+  fee plan team days=30 79.00
+  usage requests 160000 req 15.00
+  discount fixed_all -12.50
+  subtotal 94.00 discount 12.50 tax 5.09 late 0.00 total 86.59 USD
+  paid 0.00 refunded 0.00 outstanding 86.59
+invoice INV-0005 c-k5 period=0 issued=30 due=60 status=open
+  fee plan team days=30 79.00
+  usage requests 160000 req 15.00
+  discount fixed_fee -5.00
+  subtotal 94.00 discount 5.00 tax 5.56 late 0.00 total 94.56 USD
+  paid 0.00 refunded 0.00 outstanding 94.56
+invoice INV-0006 c-k6 period=0 issued=30 due=60 status=open
+  fee plan team days=30 79.00
+  usage requests 160000 req 15.00
+  discount fixed_usage -4.00
+  subtotal 94.00 discount 4.00 tax 5.63 late 0.00 total 95.63 USD
+  paid 0.00 refunded 0.00 outstanding 95.63
+invoice INV-0007 c-k7 period=0 issued=30 due=60 status=open
+  fee plan team days=30 79.00
+  usage requests 160000 req 15.00
+  discount first_periods -18.80
+  subtotal 94.00 discount 18.80 tax 4.70 late 0.00 total 79.90 USD
+  paid 0.00 refunded 0.00 outstanding 79.90
+invoice INV-0008 c-k8 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage egress 5000 GB 141.00
+  discount volume -14.10
+  subtotal 160.00 discount 14.10 tax 9.12 late 0.00 total 155.02 USD
+  paid 0.00 refunded 0.00 outstanding 155.02
+invoice INV-0009 c-k9 period=0 issued=30 due=60 status=paid
+  fee plan team days=30 72.68
+  usage requests 160000 req 13.80
+  discount fixed_all -86.48
+  subtotal 86.48 discount 86.48 tax 0.00 late 0.00 total 0.00 EUR
+  paid 0.00 refunded 0.00 outstanding 0.00

@@ -1,0 +1,22 @@
+added h1 ref=1
+added h2 ref=2
+event h1 ref=1
+  title Holiday
+  start 2024-12-24
+  dur 1d tz -08:00 prio 5 allday
+  rule yearly
+  cats -
+2024-03-04 h2 prio=7 "Offsite" 3d
+2024-03-04T00:00Z 2024-03-07T00:00Z 3d
+busy 3d in 1 spans
+2024-12-24 Tue all-day
+2025-12-24 Wed all-day
+2026-12-24 Thu all-day
+3 occurrences
+error: bad start '2024-03-04T10:00'
+error: invalid value 'maybe' for allday
+error: bad start '2024-03-05T10:00'
+moved h2 to 2024-03-06T00:00
+1 h1 2024-12-24 Holiday rule=yearly
+2 h2 2024-03-06 Offsite
+2 events

@@ -1,0 +1,36 @@
+customer c-d1 added plan=starter region=tx currency=USD since=0
+customer c-d2 added plan=business region=tx currency=USD since=0
+customer c-d1 terms 15
+customer c-d2 terms 45
+usage c-d1 egress 400 day=0
+usage c-d2 egress 400 day=0
+day 30 period 1
+invoiced INV-0001 c-d1 period=0 lines=2 total=33.79 USD
+invoiced INV-0002 c-d2 period=0 lines=1 total=211.44 USD
+invoice run period=0 invoices=2
+day 45 period 1
+dun applied=0
+day 46 period 1
+late INV-0001 fee=2.00
+dun applied=1
+day 75 period 2
+dun applied=0
+day 76 period 2
+late INV-0002 fee=3.17
+dun applied=1
+INV-0001 c-d1 p0 total=35.79 outstanding=35.79 open
+INV-0002 c-d2 p0 total=214.61 outstanding=214.61 open
+2 invoices
+report late_customer
+  c-d1 USD 2.00
+  c-d2 USD 3.17
+  total USD 5.17
+end
+report aging
+  1-30 USD 214.61
+  31-60 USD 35.79
+  total USD 250.40
+end
+3 day=46 late c-d1 INV-0001 2.00
+4 day=76 late c-d2 INV-0002 3.17
+2 entries

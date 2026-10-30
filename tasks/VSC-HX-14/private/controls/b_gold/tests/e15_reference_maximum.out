@@ -1,0 +1,16 @@
+error: invalid number '1125899906842623'
+error: invalid number '1125899906842622'
+error: invalid number '1125899906842621'
+error: invalid number '1125899906842620'
+1125899906842623
+next sequence is 1125899906842623 (ZZZZZZZZZZ)
+added EZZZZZZZZZZ ref=ZZZZZZZZZZ
+event EZZZZZZZZZZ ref=ZZZZZZZZZZ
+  title Last
+  start 2024-05-05T10:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats -
+ZZZZZZZZZZ EZZZZZZZZZZ 2024-05-05T10:00 Last
+1 events
+error: no sequence numbers left

@@ -1,0 +1,8 @@
+# mid-period plan change: days left include the day of the change
+customer add shop starter uk GBP
+tick 10
+plan set shop team
+customer history shop
+tick 20
+invoice run
+invoice show INV-0001

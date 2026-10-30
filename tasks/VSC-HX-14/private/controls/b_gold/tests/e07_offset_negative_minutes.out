@@ -1,0 +1,16 @@
+-00:30 -30
+-00:45 -45
+-00:15 -15
+-00:59 -59
+-01:00 -60
++00:00 0
+added a ref=1
+event a ref=1
+  title "Odd zone"
+  start 2024-03-04T10:00
+  dur 1h tz -00:30 prio 5
+  rule -
+  cats -
+E|a|1|Odd zone|2024-03-04T10:00|1709546400|1h||-00:30||5||
+# 1 events
+2024-03-04T10:30Z a prio=5 "Odd zone" 1h

@@ -1,0 +1,988 @@
+added ev1 ref=1
+added ev2 ref=2
+added ev3 ref=3
+skipped ev1 on 2024-02-27
+2024-12-21 Sat 08:55
+1 occurrences
+no events
+moved ev3 to 2025-01-16T20:30
+title of ev2 is Workshop
+cats of ev3 are travel,ops,work
+added ev4 ref=4
+moved ev3 to 2023-07-13T12:00
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+added ev6 ref=5
+2024-06-28T09:20Z ev4 prio=2 "Roadmap A" 1h
+added ev7 ref=6
+added ev8 ref=7
+rule of ev4 is yearly;every=2;count=7
+event ev2 ref=2
+  title Workshop
+  start 2025-09-08T06:20
+  dur 1d tz +12:45 prio 1
+  rule daily;every=3
+  cats health
+check ok (7 events)
+check ok (7 events)
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+2024-03-26 Tue 14:45
+2024-04-30 Tue 14:45
+2024-05-28 Tue 14:45
+3 occurrences
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+skipped ev2 on 2025-09-14
+title of ev1 is "Retro B"
+moved ev6 to 2023-09-14T07:25
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+added ev12 ref=8
+event ev3 ref=3
+  title "Checkin q3"
+  start 2023-07-13T12:00
+  dur 45m tz +05:30 prio 8
+  rule -
+  cats travel,ops,work
+moved ev6 to 2026-04-07T15:40
+skipped ev7 on 2026-11-26
+error: 2025-09-14 is already skipped for ev2
+rule of ev1 is -
+2025-09-07T17:35Z ev2 prio=1 "Workshop" 1d
+2025-09-10T17:35Z ev2 prio=1 "Workshop" 1d
+title of ev4 is "Sync A"
+added ev13 ref=9
+0 occurrences
+Sun
+2023-07-13T06:30Z 2023-07-13T07:15Z 45m
+busy 45m in 1 spans
+0 occurrences
+moved ev13 to 2025-03-09T14:55
+2023-10-01
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+added ev15 ref=A
+3044
+event ev6 ref=5
+  title Review
+  start 2026-04-07T15:40
+  dur 1h30m tz +00:00 prio 5
+  rule monthly;on=2MO;count=9
+  cats -
+cats of ev1 are work
+moved ev8 to 2025-04-29T00:00
+2023-07-13 Thu 12:00
+1 occurrences
+2024-06-27T09:20Z 2024-06-27T10:20Z 1h
+busy 1h in 1 spans
+2025-04-08 Tue all-day
+1 occurrences
+moved ev15 to 2023-06-06T00:00
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+2023-06-06 ev15 prio=7 "Training q3" 1d
+error: usage: event cat REF LIST|-
+2026-11-25 Wed 16:00
+2026-11-27 Fri 16:00
+2026-11-28 Sat 16:00
+2026-11-29 Sun 16:00
+2026-11-30 Mon 16:00
+2026-12-01 Tue 16:00
+2026-12-02 Wed 16:00
+2026-12-03 Thu 16:00
+2026-12-04 Fri 16:00
+2026-12-05 Sat 16:00
+2026-12-06 Sun 16:00
+2026-12-07 Mon 16:00
+2026-12-08 Tue 16:00
+2026-12-09 Wed 16:00
+2026-12-10 Thu 16:00
+2026-12-11 Fri 16:00
+2026-12-12 Sat 16:00
+2026-12-13 Sun 16:00
+2026-12-14 Mon 16:00
+2026-12-15 Tue 16:00
+2026-12-16 Wed 16:00
+2026-12-17 Thu 16:00
+2026-12-18 Fri 16:00
+2026-12-19 Sat 16:00
+2026-12-20 Sun 16:00
+2026-12-21 Mon 16:00
+2026-12-22 Tue 16:00
+2026-12-23 Wed 16:00
+2026-12-24 Thu 16:00
+2026-12-25 Fri 16:00
+2026-12-26 Sat 16:00
+2026-12-27 Sun 16:00
+32 occurrences
+2023-07-13 Thu 12:00
+1 occurrences
+no events
+no events
+title of ev1 is "Checkin q3"
+added ev17 ref=B
+added EC ref=C
+skipped ev2 on 2025-09-08
+event ev17 ref=B
+  title Workshop
+  start 2023-10-07T06:25
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats social,team,work
+event ev3 ref=3
+  title "Checkin q3"
+  start 2023-07-13T12:00
+  dur 45m tz +05:30 prio 8
+  rule -
+  cats travel,ops,work
+added ev19 ref=D
+event ev8 ref=7
+  title Workshop
+  start 2025-04-29
+  dur 1h30m tz -03:30 prio 5 allday
+  rule -
+  cats team
+2023-07-13T06:30Z ev3 prio=8 "Checkin q3" 45m
+title of ev3 is "Standup B"
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+added ev21 ref=E
+added ev22 ref=F
+skipped ev6 on 2026-05-11
+title of ev8 is Training
+moved ev22 to 2025-03-13T00:00
+added ev23 ref=G
+added EH ref=H
+2025-12-18T17:35Z ev2 prio=1 "Workshop" 1d
+2025-12-21T17:35Z ev2 prio=1 "Workshop" 1d
+moved ev15 to 2024-08-22T00:00
+restored ev6 on 2026-05-11
+added ev25 ref=J
+skipped ev23 on 2026-04-28
+added ev26 ref=K
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+1 ev1 2024-02-19T14:45 "Checkin q3"
+2 ev2 2025-09-08T06:20 Workshop rule=daily;every=3
+3 ev3 2023-07-13T12:00 "Standup B"
+4 ev4 2024-06-27T14:50 "Sync A" rule=yearly;every=2;count=7
+5 ev6 2026-04-07T15:40 Review rule=monthly;on=2MO;count=9
+6 ev7 2026-11-25T16:00 Sync rule=daily;until=2027-12-19
+7 ev8 2025-04-29 Training
+8 ev12 2025-12-20T19:40 Checkin rule=monthly;every=3;on=3WE
+9 ev13 2025-03-09T14:55 "Budget A" rule=monthly;every=2;monthday=15
+A ev15 2024-08-22 "Training q3"
+B ev17 2023-10-07T06:25 Workshop
+C EC 2026-09-17 Planning
+D ev19 2026-03-15T13:25 "Standup A" rule=weekly;on=TU,SA;count=4
+E ev21 2025-07-29T14:40 Planning
+F ev22 2025-03-13 Training
+G ev23 2025-11-16T09:30 Standup rule=monthly;monthday=28
+H EH 2024-06-29T08:00 "Workshop A" rule=monthly;every=3;monthday=30
+J ev25 2024-05-20T08:00 "Review q3"
+K ev26 2026-02-16T07:00 Roadmap rule=daily;count=9
+19 events
+skipped ev12 on 2026-09-16
+events 19, recurring 10, all-day 4
+category team 6
+category work 6
+category health 4
+category social 4
+category travel 4
+earliest ev3 2023-07-13
+latest ev7 2026-11-25
+span 1231 days (175 weeks)
+skips 5
+2024-05-20T02:30Z ev25 prio=5 "Review q3" 1h
+added ev28 ref=M
+added ev29 ref=N
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+restored ev7 on 2026-11-26
+added ev31 ref=P
+added ev32 ref=Q
+2024-05-20T02:30Z ev25 prio=5 "Review q3" 1h
+added ev33 ref=R
+2025-09-11 Thu 06:20
+2025-09-17 Wed 06:20
+2025-09-20 Sat 06:20
+2025-09-23 Tue 06:20
+2025-09-26 Fri 06:20
+2025-09-29 Mon 06:20
+2025-10-02 Thu 06:20
+2025-10-05 Sun 06:20
+2025-10-08 Wed 06:20
+2025-10-11 Sat 06:20
+2025-10-14 Tue 06:20
+2025-10-17 Fri 06:20
+2025-10-20 Mon 06:20
+2025-10-23 Thu 06:20
+2025-10-26 Sun 06:20
+2025-10-29 Wed 06:20
+2025-11-01 Sat 06:20
+2025-11-04 Tue 06:20
+2025-11-07 Fri 06:20
+2025-11-10 Mon 06:20
+2025-11-13 Thu 06:20
+2025-11-16 Sun 06:20
+2025-11-19 Wed 06:20
+2025-11-22 Sat 06:20
+2025-11-25 Tue 06:20
+2025-11-28 Fri 06:20
+2025-12-01 Mon 06:20
+2025-12-04 Thu 06:20
+2025-12-07 Sun 06:20
+2025-12-10 Wed 06:20
+2025-12-13 Sat 06:20
+2025-12-16 Tue 06:20
+2025-12-19 Fri 06:20
+2025-12-22 Mon 06:20
+2025-12-25 Thu 06:20
+2025-12-28 Sun 06:20
+36 occurrences
+added ES ref=S
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+added ev36 ref=T
+2026-04-13 Mon 15:40
+2026-05-11 Mon 15:40
+2026-06-08 Mon 15:40
+2026-07-13 Mon 15:40
+4 occurrences
+rule of ev8 is yearly
+no events
+skipped ev19 on 2026-03-17
+2024-04-29 Mon 13:30
+2024-07-29 Mon 13:30
+2 occurrences
+no events
+added ev37 ref=V
+error: usage: event cat REF LIST|-
+added ev38 ref=W
+moved ev33 to 2026-07-03T21:45
+added EX ref=X
+2025-12-06T03:53 given 2025-12-06T03:52:58
+2025-07-29 Tue 14:40
+1 occurrences
+added ev40 ref=Y
+event ev26 ref=K
+  title Roadmap
+  start 2026-02-16T07:00
+  dur 30m tz -08:00 prio 5
+  rule daily;count=9
+  cats -
+event ev13 ref=9
+  title "Budget A"
+  start 2025-03-09T14:55
+  dur 45m tz +02:00 prio 5
+  rule monthly;every=2;monthday=15
+  cats -
+2025-03-30T04:26 given 2025-03-30T04:26:06
+event ev7 ref=6
+  title Sync
+  start 2026-11-25T16:00
+  dur 3h tz +00:00 prio 2
+  rule daily;until=2027-12-19
+  cats -
+2024-08-22 Thu all-day
+1 occurrences
+moved ev29 to 2026-06-07T16:31
+event ev17 ref=B
+  title Workshop
+  start 2023-10-07T06:25
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats social,team,work
+moved ev29 to 2023-08-20T20:10
+event ev4 ref=4
+  title "Sync A"
+  start 2024-06-27T14:50
+  dur 1h tz +05:30 prio 2
+  rule yearly;every=2;count=7
+  cats social,health
+moved ev36 to 2024-07-14T17:35
+2026-09-08T17:35Z ev2 prio=1 "Workshop" 1d
+2026-09-09T19:10Z ev38 prio=8 "Office hours A" 1h
+2026-09-11T17:35Z ev2 prio=1 "Workshop" 1d
+2026-09-13T19:10Z ev38 prio=8 "Office hours A" 1h
+2026-09-14T15:40Z ev6 prio=5 "Review" 1h30m
+2026-09-14T17:35Z ev2 prio=1 "Workshop" 1d
+2026-09-15T07:05Z ev28 prio=2 "Roadmap q3" 1h
+2026-09-15T12:55Z ev13 prio=5 "Budget A" 45m
+2026-09-16T19:10Z ev38 prio=8 "Office hours A" 1h
+2026-09-17 EC prio=3 "Planning" 1h
+2026-09-17T17:35Z ev2 prio=1 "Workshop" 1d
+2026-09-20T17:35Z ev2 prio=1 "Workshop" 1d
+2026-09-20T19:10Z ev38 prio=8 "Office hours A" 1h
+event ev1 ref=1
+  title "Checkin q3"
+  start 2024-02-19T14:45
+  dur 1h30m tz +00:00 prio 5
+  rule -
+  cats work
+2026-07-03 Fri 21:45
+1 occurrences
+2023-10-07T06:25Z 2023-10-07T07:25Z 1h
+busy 1h in 1 spans
+event ev31 ref=P
+  title Demo
+  start 2024-10-04T11:55
+  dur 1h30m tz -08:00 prio 2
+  rule -
+  cats -
+moved ev22 to 2023-02-05T00:00
+event ES ref=S
+  title "Budget B"
+  start 2023-06-02
+  dur 2h tz +02:00 prio 7 allday
+  rule -
+  cats -
+moved ev15 to 2026-09-16T00:00
+2026-02-15T19:10Z 2026-02-15T20:10Z 1h
+2026-02-16T15:00Z 2026-02-16T15:30Z 30m
+2026-02-16T17:35Z 2026-02-17T17:35Z 1d
+2026-02-18T15:00Z 2026-02-18T15:30Z 30m
+2026-02-18T19:10Z 2026-02-18T20:10Z 1h
+2026-02-19T15:00Z 2026-02-19T15:30Z 30m
+2026-02-19T17:35Z 2026-02-20T17:35Z 1d
+2026-02-21T15:00Z 2026-02-21T15:30Z 30m
+2026-02-22T15:00Z 2026-02-22T15:30Z 30m
+2026-02-22T17:35Z 2026-02-23T17:35Z 1d
+2026-02-24T07:05Z 2026-02-24T08:05Z 1h
+2026-02-24T15:00Z 2026-02-24T15:30Z 30m
+2026-02-25T17:35Z 2026-02-26T17:35Z 1d
+2026-02-27T23:30Z 2026-02-28T00:30Z 1h
+2026-02-28T17:35Z 2026-03-01T17:35Z 1d
+2026-03-01T19:10Z 2026-03-01T20:10Z 1h
+2026-03-03T17:35Z 2026-03-04T17:35Z 1d
+2026-03-04T19:10Z 2026-03-04T20:10Z 1h
+2026-03-06T17:35Z 2026-03-07T17:35Z 1d
+busy 7d9h in 19 spans
+event ev25 ref=J
+  title "Review q3"
+  start 2024-05-20T08:00
+  dur 1h tz +05:30 prio 5
+  rule -
+  cats team,social
+event ev22 ref=F
+  title Training
+  start 2023-02-05
+  dur 45m tz +10:00 prio 5 allday
+  rule -
+  cats team,work,ops
+event EC ref=C
+  title Planning
+  start 2026-09-17
+  dur 1h tz +05:30 prio 3 allday
+  rule -
+  cats travel,ops,work
+2024-02-19T14:45Z ev1 prio=5 "Checkin q3" 1h30m
+event ev17 ref=B
+  title Workshop
+  start 2023-10-07T06:25
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats social,team,work
+5400 1h30m
+moved ev7 to 2024-04-03T16:50
+moved ev29 to 2026-01-23T21:15
+event EH ref=H
+  title "Workshop A"
+  start 2024-06-29T08:00
+  dur 3h tz +10:00 prio 8
+  rule monthly;every=3;monthday=30
+  cats health,team
+moved ev32 to 2026-08-02T18:55
+2025-12-10T16:50Z ev7 prio=2 "Sync" 3h
+2025-12-10T19:10Z ev38 prio=8 "Office hours A" 1h
+2025-12-11T16:50Z ev7 prio=2 "Sync" 3h
+2025-12-12T16:50Z ev7 prio=2 "Sync" 3h
+2025-12-12T17:35Z ev2 prio=1 "Workshop" 1d
+2025-12-13T16:50Z ev7 prio=2 "Sync" 3h
+2025-12-14T16:50Z ev7 prio=2 "Sync" 3h
+2025-12-14T19:10Z ev38 prio=8 "Office hours A" 1h
+2025-12-15T16:50Z ev7 prio=2 "Sync" 3h
+2025-12-15T17:35Z ev2 prio=1 "Workshop" 1d
+2025-12-16T07:05Z ev28 prio=2 "Roadmap q3" 1h
+2025-12-16T16:50Z ev7 prio=2 "Sync" 3h
+skipped ev7 on 2024-04-03
+event ev19 ref=D
+  title "Standup A"
+  start 2026-03-15T13:25
+  dur 1h tz +05:30 prio 5
+  rule weekly;on=TU,SA;count=4
+  cats -
+  skips 2026-03-17
+event ev23 ref=G
+  title Standup
+  start 2025-11-16T09:30
+  dur 1h tz +10:00 prio 5
+  rule monthly;monthday=28
+  cats travel,team
+  skips 2026-04-28
+restored ev23 on 2026-04-28
+rule of EH is -
+event ev29 ref=N
+  title Budget
+  start 2026-01-23T21:15
+  dur 30m tz +00:00 prio 2
+  rule -
+  cats -
+title of ev12 is Interview
+event ev26 ref=K
+  title Roadmap
+  start 2026-02-16T07:00
+  dur 30m tz -08:00 prio 5
+  rule daily;count=9
+  cats -
+2025-07-05T16:50Z 2025-07-05T19:50Z 3h
+2025-07-06T16:50Z 2025-07-06T20:10Z 3h20m
+2025-07-07T16:50Z 2025-07-07T19:50Z 3h
+2025-07-08T16:50Z 2025-07-08T19:50Z 3h
+2025-07-09T16:50Z 2025-07-09T20:10Z 3h20m
+2025-07-10T16:50Z 2025-07-10T19:50Z 3h
+2025-07-11T16:50Z 2025-07-11T19:50Z 3h
+busy 21h40m in 7 spans
+2026-07-31T16:50Z ev7 prio=2 "Sync" 3h
+2026-07-31T17:35Z ev2 prio=1 "Workshop" 1d
+2026-08-01T16:50Z ev7 prio=2 "Sync" 3h
+2026-08-02T16:50Z ev7 prio=2 "Sync" 3h
+2026-08-02T19:10Z ev38 prio=8 "Office hours A" 1h
+... 20 more
+event ev29 ref=N
+  title Budget
+  start 2026-01-23T21:15
+  dur 30m tz +00:00 prio 2
+  rule -
+  cats -
+moved EC to 2023-08-28T00:00
+event ev38 ref=W
+  title "Office hours A"
+  start 2024-12-15T19:10
+  dur 1h tz +00:00 prio 8
+  rule weekly;on=WE,SU
+  cats work
+event ev13 ref=9
+  title "Budget A"
+  start 2025-03-09T14:55
+  dur 45m tz +02:00 prio 5
+  rule monthly;every=2;monthday=15
+  cats -
+moved ev25 to 2026-10-27T18:11
+2025-04-29 ev8 prio=5 "Training" 1h30m
+2025-04-29T16:50Z ev7 prio=2 "Sync" 3h
+2025-04-30T16:50Z ev7 prio=2 "Sync" 3h
+2025-04-30T19:10Z ev38 prio=8 "Office hours A" 1h
+2025-05-01T16:50Z ev7 prio=2 "Sync" 3h
+2025-05-02T16:50Z ev7 prio=2 "Sync" 3h
+event ev31 ref=P
+  title Demo
+  start 2024-10-04T11:55
+  dur 1h30m tz -08:00 prio 2
+  rule -
+  cats -
+"Training B"
+event ev4 ref=4
+  title "Sync A"
+  start 2024-06-27T14:50
+  dur 1h tz +05:30 prio 2
+  rule yearly;every=2;count=7
+  cats social,health
+skipped ev7 on 2024-04-08
+event ev19 ref=D
+  title "Standup A"
+  start 2026-03-15T13:25
+  dur 1h tz +05:30 prio 5
+  rule weekly;on=TU,SA;count=4
+  cats -
+  skips 2026-03-17
+2024-10-04 Fri 11:55
+1 occurrences
+cats of ev8 are -
+error: usage: event cat REF LIST|-
+event EC ref=C
+  title Planning
+  start 2023-08-28
+  dur 1h tz +05:30 prio 3 allday
+  rule -
+  cats travel,ops,work
+moved ev17 to 2026-07-09T12:05
+moved ev21 to 2023-04-19T09:51
+2026-07-02T16:50Z 2026-07-02T19:50Z 3h
+2026-07-03T16:50Z 2026-07-03T19:50Z 3h
+2026-07-03T21:45Z 2026-07-03T22:45Z 1h
+2026-07-04T16:50Z 2026-07-05T20:10Z 1d3h20m
+2026-07-06T16:50Z 2026-07-06T19:50Z 3h
+2026-07-07T16:50Z 2026-07-08T20:10Z 1d3h20m
+busy 2d16h40m in 6 spans
+event ev12 ref=8
+  title Interview
+  start 2025-12-20T19:40
+  dur 1h tz -08:00 prio 0
+  rule monthly;every=3;on=3WE
+  cats health,work
+  skips 2026-09-16
+moved ev31 to 2023-03-09T16:30
+updated ev36: 15m +05:30 prio=5
+skipped ev6 on 2026-04-13
+event ev38 ref=W
+  title "Office hours A"
+  start 2024-12-15T19:10
+  dur 1h tz +00:00 prio 8
+  rule weekly;on=WE,SU
+  cats work
+skipped ev26 on 2026-02-19
+2024-06-27 Thu 14:50
+1 occurrences
+event EC ref=C
+  title Planning
+  start 2023-08-28
+  dur 1h tz +05:30 prio 3 allday
+  rule -
+  cats travel,ops,work
+event ev4 ref=4
+  title "Sync A"
+  start 2024-06-27T14:50
+  dur 1h tz +05:30 prio 2
+  rule yearly;every=2;count=7
+  cats social,health
+2026-09-12T16:50Z ev7 prio=2 "Sync" 3h
+2026-09-13T16:50Z ev7 prio=2 "Sync" 3h
+2026-09-13T19:10Z ev38 prio=8 "Office hours A" 1h
+2026-09-14T15:40Z ev6 prio=5 "Review" 1h30m
+2026-09-14T16:50Z ev7 prio=2 "Sync" 3h
+2026-09-14T17:35Z ev2 prio=1 "Workshop" 1d
+2026-09-15T07:05Z ev28 prio=2 "Roadmap q3" 1h
+2026-09-15T12:55Z ev13 prio=5 "Budget A" 45m
+2026-09-15T16:50Z ev7 prio=2 "Sync" 3h
+2026-09-16 ev15 prio=7 "Training q3" 1d
+2026-09-16T16:50Z ev7 prio=2 "Sync" 3h
+2026-09-16T19:10Z ev38 prio=8 "Office hours A" 1h
+2026-09-17T16:50Z ev7 prio=2 "Sync" 3h
+2026-09-17T17:35Z ev2 prio=1 "Workshop" 1d
+2026-09-18T16:50Z ev7 prio=2 "Sync" 3h
+2026-09-19T16:50Z ev7 prio=2 "Sync" 3h
+2026-09-20T16:50Z ev7 prio=2 "Sync" 3h
+2026-09-20T17:35Z ev2 prio=1 "Workshop" 1d
+2026-09-20T19:10Z ev38 prio=8 "Office hours A" 1h
+2026-09-21T16:50Z ev7 prio=2 "Sync" 3h
+2026-09-22T16:50Z ev7 prio=2 "Sync" 3h
+2026-09-23T16:50Z ev7 prio=2 "Sync" 3h
+2026-09-23T17:35Z ev2 prio=1 "Workshop" 1d
+2026-09-23T19:10Z ev38 prio=8 "Office hours A" 1h
+2026-09-24T16:50Z ev7 prio=2 "Sync" 3h
+2026-09-25T16:50Z ev7 prio=2 "Sync" 3h
+2026-10-27 Tue 18:11
+1 occurrences
+moved ev17 to 2025-06-05T18:55
+2024-07-29 Mon 17:35
+1 occurrences
+2026-09-08T16:50Z ev7 prio=2 "Sync" 3h
+2026-09-08T17:35Z ev2 prio=1 "Workshop" 1d
+2026-09-09T16:50Z ev7 prio=2 "Sync" 3h
+2026-09-09T19:10Z ev38 prio=8 "Office hours A" 1h
+2026-09-10T16:50Z ev7 prio=2 "Sync" 3h
+... 8 more
+removed ev7
+2700 45m
+added EZ ref=Z
+event ev8 ref=7
+  title Training
+  start 2025-04-29
+  dur 1h30m tz -03:30 prio 5 allday
+  rule yearly
+  cats -
+event ev17 ref=B
+  title Workshop
+  start 2025-06-05T18:55
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats social,team,work
+event EX ref=X
+  title "Lunch B"
+  start 2025-08-24T09:15
+  dur 30m tz +05:30 prio 0
+  rule -
+  cats -
+2023-06-02 Fri all-day
+1 occurrences
+event ev1 ref=1
+  title "Checkin q3"
+  start 2024-02-19T14:45
+  dur 1h30m tz +00:00 prio 5
+  rule -
+  cats work
+moved ev22 to 2023-11-09T00:00
+19564
+2023-04-18T23:51Z ev21 prio=5 "Planning" 1h
+cats of ev28 are health
+event ES ref=S
+  title "Budget B"
+  start 2023-06-02
+  dur 2h tz +02:00 prio 7 allday
+  rule -
+  cats -
+busy 0s in 0 spans
+event ev31 ref=P
+  title Demo
+  start 2023-03-09T16:30
+  dur 1h30m tz -08:00 prio 2
+  rule -
+  cats -
+2023-06-02 Fri all-day
+1 occurrences
+skipped ev13 on 2025-09-15
+event ev2 ref=2
+  title Workshop
+  start 2025-09-08T06:20
+  dur 1d tz +12:45 prio 1
+  rule daily;every=3
+  cats health
+  skips 2025-09-08,2025-09-14
+moved ev21 to 2026-01-08T13:50
+event ev36 ref=T
+  title Checkin
+  start 2024-07-14T17:35
+  dur 15m tz +05:30 prio 5
+  rule monthly;every=3;on=-1MO;count=8
+  cats social,ops
+event ev3 ref=3
+  title "Standup B"
+  start 2023-07-13T12:00
+  dur 45m tz +05:30 prio 8
+  rule -
+  cats travel,ops,work
+events 30, recurring 12, all-day 7
+category work 10
+category team 9
+category health 7
+category social 6
+category travel 6
+earliest ev31 2023-03-09
+latest ev25 2026-10-27
+span 1328 days (189 weeks)
+skips 7
+event ev13 ref=9
+  title "Budget A"
+  start 2025-03-09T14:55
+  dur 45m tz +02:00 prio 5
+  rule monthly;every=2;monthday=15
+  cats -
+  skips 2025-09-15
+event ev2 ref=2
+  title Workshop
+  start 2025-09-08T06:20
+  dur 1d tz +12:45 prio 1
+  rule daily;every=3
+  cats health
+  skips 2025-09-08,2025-09-14
+moved ev15 to 2025-06-03T00:00
+event ev19 ref=D
+  title "Standup A"
+  start 2026-03-15T13:25
+  dur 1h tz +05:30 prio 5
+  rule weekly;on=TU,SA;count=4
+  cats -
+  skips 2026-03-17
+rule of ev19 is yearly;every=2;count=2
+event ES ref=S
+  title "Budget B"
+  start 2023-06-02
+  dur 2h tz +02:00 prio 7 allday
+  rule -
+  cats -
+2024-12-31T10:43 given 2024-12-31T10:43:27
+event ev25 ref=J
+  title "Review q3"
+  start 2026-10-27T18:11 (given 2026-10-27T18:10:30)
+  dur 1h tz +05:30 prio 5
+  rule -
+  cats team,social
+2023-08-28 EC prio=3 "Planning" 1h
+event ev6 ref=5
+  title Review
+  start 2026-04-07T15:40
+  dur 1h30m tz +00:00 prio 5
+  rule monthly;on=2MO;count=9
+  cats -
+  skips 2026-04-13
+busy 0s in 0 spans
+3134
+event ev28 ref=M
+  title "Roadmap q3"
+  start 2025-07-06T07:05 (given 2025-07-06T07:05:05)
+  dur 1h tz +00:00 prio 2
+  rule monthly;on=-1TU,3TU
+  cats health
+event ev37 ref=V
+  title "Review B"
+  start 2023-08-02
+  dur 15m tz +09:00 prio 5 allday
+  rule -
+  cats work,team
+event ev4 ref=4
+  title "Sync A"
+  start 2024-06-27T14:50
+  dur 1h tz +05:30 prio 2
+  rule yearly;every=2;count=7
+  cats social,health
+Wed
+event EC ref=C
+  title Planning
+  start 2023-08-28
+  dur 1h tz +05:30 prio 3 allday
+  rule -
+  cats travel,ops,work
+skipped ev12 on 2026-03-18
+event ev23 ref=G
+  title Standup
+  start 2025-11-16T09:30
+  dur 1h tz +10:00 prio 5
+  rule monthly;monthday=28
+  cats travel,team
+2024-06-27T09:20Z ev4 prio=2 "Sync A" 1h
+2024-06-28T22:00Z EH prio=8 "Workshop A" 3h
+2026-04-05T17:35Z 2026-04-06T17:35Z 1d
+busy 1d in 1 spans
+event ev2 ref=2
+  title Workshop
+  start 2025-09-08T06:20
+  dur 1d tz +12:45 prio 1
+  rule daily;every=3
+  cats health
+  skips 2025-09-08,2025-09-14
+event ev19 ref=D
+  title "Standup A"
+  start 2026-03-15T13:25
+  dur 1h tz +05:30 prio 5
+  rule yearly;every=2;count=2
+  cats -
+2026-01-23 Fri 21:15
+1 occurrences
+event ev33 ref=R
+  title Retro
+  start 2026-07-03T21:45
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats team,travel,work
+event ev13 ref=9
+  title "Budget A"
+  start 2025-03-09T14:55
+  dur 45m tz +02:00 prio 5
+  rule monthly;every=2;monthday=15
+  cats -
+  skips 2025-09-15
+event ev32 ref=Q
+  title "Workshop B"
+  start 2026-08-02T18:55
+  dur 15m tz -04:00 prio 3
+  rule -
+  cats work,health,travel
+event ev37 ref=V
+  title "Review B"
+  start 2023-08-02
+  dur 15m tz +09:00 prio 5 allday
+  rule -
+  cats work,team
+2026-05-17T17:35Z ev2 prio=1 "Workshop" 1d
+2026-05-17T19:10Z ev38 prio=8 "Office hours A" 1h
+2026-05-19T07:05Z ev28 prio=2 "Roadmap q3" 1h
+2026-05-20T17:35Z ev2 prio=1 "Workshop" 1d
+2026-05-20T19:10Z ev38 prio=8 "Office hours A" 1h
+rule of ev12 is -
+2026-08-02 Sun 18:55
+1 occurrences
+updated ev4: 1h +10:00 prio=8
+moved EX to 2023-04-08T12:11
+moved ev22 to 2024-03-03T00:00
+skipped ev13 on 2025-07-15
+event ev23 ref=G
+  title Standup
+  start 2025-11-16T09:30
+  dur 1h tz +10:00 prio 5
+  rule monthly;monthday=28
+  cats travel,team
+event ev15 ref=A
+  title "Training q3"
+  start 2025-06-03
+  dur 1d tz +02:00 prio 7 allday
+  rule -
+  cats social
+2024-03-03 Sun all-day
+1 occurrences
+2024-12-15T19:10Z ev38 prio=8 "Office hours A" 1h
+2024-12-18T19:10Z ev38 prio=8 "Office hours A" 1h
+2024-12-22T19:10Z ev38 prio=8 "Office hours A" 1h
+2024-12-25T19:10Z ev38 prio=8 "Office hours A" 1h
+event ev33 ref=R
+  title Retro
+  start 2026-07-03T21:45
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats team,travel,work
+skipped ev23 on 2026-03-28
+event ev2 ref=2
+  title Workshop
+  start 2025-09-08T06:20
+  dur 1d tz +12:45 prio 1
+  rule daily;every=3
+  cats health
+  skips 2025-09-08,2025-09-14
+2023-04-08 Sat 12:11
+1 occurrences
+2025-05-28T19:10Z ev38 prio=8 "Office hours A" 1h
+2025-06-01T19:10Z ev38 prio=8 "Office hours A" 1h
+2025-06-03 ev15 prio=7 "Training q3" 1d
+2025-06-04T19:10Z ev38 prio=8 "Office hours A" 1h
+2025-06-05T18:55Z ev17 prio=5 "Workshop" 1h
+2025-06-08T19:10Z ev38 prio=8 "Office hours A" 1h
+2025-03-02T19:10Z 2025-03-02T20:10Z 1h
+2025-03-05T19:10Z 2025-03-05T20:10Z 1h
+busy 2h in 2 spans
+2023-03-09 Thu 16:30
+1 occurrences
+moved ev29 to 2024-06-07T07:05
+updated ev29: 30m +09:00 prio=0
+2025-11-12T17:35Z ev2 prio=1 "Workshop" 1d
+2025-11-12T19:10Z ev38 prio=8 "Office hours A" 1h
+2025-11-15T12:55Z ev13 prio=5 "Budget A" 45m
+2025-11-15T17:35Z ev2 prio=1 "Workshop" 1d
+2025-11-16T19:10Z ev38 prio=8 "Office hours A" 1h
+moved ev33 to 2026-11-06T21:40
+2023-07-10T00:12 given 2023-07-10T00:12:19
+rule of ev33 is yearly;every=2
+moved ev22 to 2025-03-18T00:00
+updated ev33: 1h -05:00 prio=7
+event ev19 ref=D
+  title "Standup A"
+  start 2026-03-15T13:25
+  dur 1h tz +05:30 prio 5
+  rule yearly;every=2;count=2
+  cats -
+event ev37 ref=V
+  title "Review B"
+  start 2023-08-02
+  dur 15m tz +09:00 prio 5 allday
+  rule -
+  cats work,team
+event ev29 ref=N
+  title Budget
+  start 2024-06-07T07:05
+  dur 30m tz +09:00 prio 0
+  rule -
+  cats -
+event ev37 ref=V
+  title "Review B"
+  start 2023-08-02
+  dur 15m tz +09:00 prio 5 allday
+  rule -
+  cats work,team
+moved ev38 to 2024-10-28T19:55
+event ev6 ref=5
+  title Review
+  start 2026-04-07T15:40
+  dur 1h30m tz +00:00 prio 5
+  rule monthly;on=2MO;count=9
+  cats -
+  skips 2026-04-13
+restored ev2 on 2025-09-14
+event ev17 ref=B
+  title Workshop
+  start 2025-06-05T18:55
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats social,team,work
+moved EH to 2025-03-03T18:10
+event ev37 ref=V
+  title "Review B"
+  start 2023-08-02
+  dur 15m tz +09:00 prio 5 allday
+  rule -
+  cats work,team
+moved ev22 to 2024-05-17T00:00
+event ev32 ref=Q
+  title "Workshop B"
+  start 2026-08-02T18:55
+  dur 15m tz -04:00 prio 3
+  rule -
+  cats work,health,travel
+event ev3 ref=3
+  title "Standup B"
+  start 2023-07-13T12:00
+  dur 45m tz +05:30 prio 8
+  rule -
+  cats travel,ops,work
+2025-07-02T19:55Z ev38 prio=8 "Office hours A" 1h
+event EH ref=H
+  title "Workshop A"
+  start 2025-03-03T18:10
+  dur 3h tz +10:00 prio 8
+  rule -
+  cats health,team
+event ev40 ref=Y
+  title "Planning A"
+  start 2026-05-24
+  dur 1d tz -05:00 prio 5 allday
+  rule -
+  cats team,social
+2025-03-02T19:55Z 2025-03-02T20:55Z 1h
+2025-03-03T08:10Z 2025-03-03T11:10Z 3h
+busy 4h in 2 spans
+2026-10-27 Tue 18:11
+1 occurrences
+event ev12 ref=8
+  title Interview
+  start 2025-12-20T19:40
+  dur 1h tz -08:00 prio 0
+  rule -
+  cats health,work
+moved EC to 2023-06-23T00:00
+moved EZ to 2025-04-03T20:05
+2025-04-03 Thu 20:05
+1 occurrences
+44K
+moved ev40 to 2023-04-11T00:00
+moved ev28 to 2023-11-17T13:10
+event ES ref=S
+  title "Budget B"
+  start 2023-06-02
+  dur 2h tz +02:00 prio 7 allday
+  rule -
+  cats -
+event ev3 ref=3
+  title "Standup B"
+  start 2023-07-13T12:00
+  dur 45m tz +05:30 prio 8
+  rule -
+  cats travel,ops,work
+event EH ref=H
+  title "Workshop A"
+  start 2025-03-03T18:10
+  dur 3h tz +10:00 prio 8
+  rule -
+  cats health,team
+event ev8 ref=7
+  title Training
+  start 2025-04-29
+  dur 1h30m tz -03:30 prio 5 allday
+  rule yearly
+  cats -
+event ev17 ref=B
+  title Workshop
+  start 2025-06-05T18:55
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats social,team,work
+2025-06-01T19:55Z ev38 prio=8 "Office hours A" 1h
+2025-06-03 ev15 prio=7 "Training q3" 1d
+2025-06-04T19:55Z ev38 prio=8 "Office hours A" 1h
+2025-06-05T18:55Z ev17 prio=5 "Workshop" 1h
+2025-06-08T19:55Z ev38 prio=8 "Office hours A" 1h
+... 1 more
+2026-11-06 Fri 21:40
+1 occurrences
+cats of ev12 are social,health,ops
+moved ev22 to 2023-02-13T00:00
+event ev2 ref=2
+  title Workshop
+  start 2025-09-08T06:20
+  dur 1d tz +12:45 prio 1
+  rule daily;every=3
+  cats health
+  skips 2025-09-08
+2023-11-21 Tue 13:10
+1 occurrences
+moved ev32 to 2025-06-15T06:55
+busy 0s in 0 spans
+check ok (30 events)

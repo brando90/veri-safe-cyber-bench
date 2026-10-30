@@ -1,0 +1,37 @@
+added standup ref=1
+added E2 ref=2
+added review ref=3
+1 standup 2024-03-04T09:30 "Team standup" rule=weekly;on=MO,TU,WE,TH,FR
+2 E2 2024-03-12T14:00 Dentist
+3 review 2024-03-15T10:00 "Quarterly review" rule=monthly;monthday=15
+3 events
+event standup ref=1
+  title "Team standup"
+  start 2024-03-04T09:30
+  dur 15m tz +00:00 prio 6
+  rule weekly;on=MO,TU,WE,TH,FR
+  cats work
+event E2 ref=2
+  title Dentist
+  start 2024-03-12T14:00
+  dur 45m tz +01:00 prio 5
+  rule -
+  cats -
+2024-03-04 Mon 09:30
+2024-03-05 Tue 09:30
+2024-03-06 Wed 09:30
+2024-03-07 Thu 09:30
+2024-03-08 Fri 09:30
+2024-03-11 Mon 09:30
+2024-03-12 Tue 09:30
+2024-03-13 Wed 09:30
+2024-03-14 Thu 09:30
+2024-03-15 Fri 09:30
+10 occurrences
+events 3, recurring 2, all-day 0
+category work 2
+category planning 1
+earliest standup 2024-03-04
+latest review 2024-03-15
+span 11 days (1 weeks)
+skips 0

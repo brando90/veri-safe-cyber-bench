@@ -1,0 +1,233 @@
+  advise ID SERVICE UNITS
+  audit [COUNT] [action=TEXT] [subject=TEXT]
+  coupon add ID KIND VALUE [until=DAY] [n=COUNT]
+  coupon kinds
+  coupon list ID
+  coupon rm ID NUMBER
+  credit add ID AMOUNT
+  currency list
+  customer add ID PLAN REGION CURRENCY [name=TEXT]
+  customer close ID
+  customer history ID
+  customer list [plan=PLAN] [region=REGION] [status=active|closed]
+  customer show ID
+  dun
+  export KIND FORMAT
+  help [COMMAND]
+  invoice list [ID] [state=open|paid|void] [period=N]
+  invoice run [PERIOD]
+  invoice show NUMBER
+  ledger [ID] [kind=KIND]
+  pay ID AMOUNT [inv=NUMBER]
+  plan list
+  plan set ID PLAN
+  plan show PLAN
+  quote ID SERVICE UNITS
+  refund NUMBER AMOUNT
+  region list
+  region show REGION
+  report NAME [ARGS]
+  service list
+  service show SERVICE
+  set currency ID CURRENCY
+  set email ID ADDRESS
+  set exempt ID yes|no
+  set name ID TEXT
+  set note ID TEXT
+  set phone ID NUMBER
+  set po ID TEXT
+  set region ID REGION
+  set terms ID DAYS
+  statement ID [period=N]
+  tick DAYS
+  today
+  usage ID SERVICE UNITS [day=DAY] [id=TEXT]
+  usage batch ID SERVICE UNITS... [day=DAY] [id=PREFIX]
+  usage list ID [SERVICE]
+  usage summary ID [PERIOD]
+  void NUMBER
+48 commands
+  usage ID SERVICE UNITS [day=DAY] [id=TEXT]
+  usage batch ID SERVICE UNITS... [day=DAY] [id=PREFIX]
+  usage list ID [SERVICE]
+  usage summary ID [PERIOD]
+48 commands
+  report NAME [ARGS]
+48 commands
+48 commands
+free fee=0.00 USD
+starter fee=19.00 USD
+team fee=79.00 USD
+business fee=199.00 USD
+enterprise fee=599.00 USD
+plan free fee=0.00 USD
+  allowance backup 500 GB-h
+  allowance cache 256 MB-h
+  allowance cdn 10 GB
+  allowance compute 120 CPU-min
+  allowance dns 0 kq
+  allowance egress 20 GB
+  allowance email 1000 msg
+  allowance geocode 250 lookup
+  allowance logs 1000 MB
+  allowance metrics 200 series
+  allowance ocr 0 page
+  allowance queue 100 kmsg
+  allowance requests 5000 req
+  allowance search 40 kdoc
+  allowance sms 100 msg
+  allowance storage 2000 GB-h
+  allowance vault 10 secret
+  allowance voice 0 min
+plan enterprise fee=599.00 USD
+  allowance backup 75000 GB-h
+  allowance cache 38400 MB-h
+  allowance cdn 1500 GB
+  allowance compute 18000 CPU-min
+  allowance dns 0 kq
+  allowance egress 3000 GB
+  allowance email 150000 msg
+  allowance geocode 37500 lookup
+  allowance logs 150000 MB
+  allowance metrics 30000 series
+  allowance ocr 0 page
+  allowance queue 15000 kmsg
+  allowance requests 750000 req
+  allowance search 6000 kdoc
+  allowance sms 15000 msg
+  allowance storage 300000 GB-h
+  allowance vault 1500 secret
+  allowance voice 0 min
+error: unknown plan 'nothing'
+backup block=500 unit=GB-h mode=ceil min=0 tiers=3
+cache block=128 unit=MB-h mode=ceil min=50 tiers=1
+cdn block=5 unit=GB mode=ceil min=0 tiers=2
+compute block=60 unit=CPU-min mode=ceil min=0 tiers=2
+dns block=100 unit=kq mode=ceil min=100 tiers=1
+egress block=10 unit=GB mode=ceil min=0 tiers=3
+email block=500 unit=msg mode=ceil min=0 tiers=2
+geocode block=250 unit=lookup mode=whole min=0 tiers=1
+logs block=250 unit=MB mode=ceil min=0 tiers=1
+metrics block=100 unit=series mode=ceil min=0 tiers=2
+ocr block=10 unit=page mode=whole min=0 tiers=1
+queue block=50 unit=kmsg mode=ceil min=0 tiers=3
+requests block=1000 unit=req mode=ceil min=0 tiers=1
+search block=20 unit=kdoc mode=ceil min=0 tiers=2
+sms block=100 unit=msg mode=ceil min=0 tiers=2
+storage block=1000 unit=GB-h mode=ceil min=0 tiers=3
+vault block=10 unit=secret mode=ceil min=0 tiers=1
+voice block=5 unit=min mode=whole min=0 tiers=1
+18 services
+service storage Object storage
+  unit=GB-h block=1000 mode=ceil min=0
+  tier from=1 upto=100 price=12
+  tier from=101 upto=400 price=9
+  tier from=401 price=6
+  allowance free=2000 starter=8000 team=24000 business=80000 enterprise=300000
+service queue Message queue
+  unit=kmsg block=50 mode=ceil min=0
+  tier from=1 upto=30 price=16
+  tier from=31 upto=120 price=13
+  tier from=121 price=10
+  allowance free=100 starter=400 team=1200 business=4000 enterprise=15000
+service sms SMS messages
+  unit=msg block=100 mode=ceil min=0
+  tier from=1 upto=10 price=70
+  tier from=11 price=55
+  allowance free=100 starter=400 team=1200 business=4000 enterprise=15000
+error: unknown service 'nothing'
+ca California sales tax rate=7.25% kinds=adjust,fee,usage
+ch Swiss VAT rate=8.10% kinds=adjust,fee
+de German VAT rate=19.00% kinds=adjust,fee,usage
+es Spanish VAT rate=21.00% kinds=adjust,fee,usage
+fr French VAT rate=20.00% kinds=adjust,fee,usage
+jp Japan consumption tax rate=10.00% kinds=usage
+ny New York sales tax rate=8.50% kinds=adjust,fee,usage
+on Ontario HST rate=13.00% kinds=adjust,fee,usage
+tx Texas sales tax rate=6.25% kinds=adjust,fee,usage
+uk UK VAT rate=20.00% kinds=adjust,fee,usage
+wa Washington sales tax rate=10.10% kinds=adjust,fee,usage
+11 regions
+region es Spanish VAT
+  rate=21.00% kinds=adjust,fee,usage
+  inclusive 119.00 -> net 98.35 tax 20.65
+region fr French VAT
+  rate=20.00% kinds=adjust,fee,usage
+  inclusive 119.00 -> net 99.17 tax 19.83
+error: unknown region 'nothing'
+CAD exp=2 late_min=2.50 rate=1.350000
+CHF exp=2 late_min=1.75 rate=0.900000
+EUR exp=2 late_min=1.80 rate=0.920000
+GBP exp=2 late_min=1.50 rate=0.790000
+INR exp=2 late_min=50.00 rate=83.000000
+JPY exp=0 late_min=300 rate=1.500000
+KWD exp=3 late_min=0.600 rate=3.100000
+USD exp=2 late_min=2.00 rate=1.000000
+8 currencies
+first_periods target=all percentage=yes default_n=3
+fixed_all target=all percentage=no default_n=0
+fixed_fee target=fee percentage=no default_n=0
+fixed_usage target=usage percentage=no default_n=0
+pct_all target=all percentage=yes default_n=0
+pct_fee target=fee percentage=yes default_n=0
+pct_usage target=usage percentage=yes default_n=0
+volume target=usage percentage=yes default_n=0
+8 kinds
+aging Outstanding amount by days overdue
+credits Credit held per customer
+disc_region Discounts given per region
+late_customer Late fees per customer
+out_customer Outstanding amount per customer
+payments Payments received per day
+rev_period Net revenue per billing period
+rev_plan Net revenue per plan
+rev_region Net revenue per tax region
+tax_period Tax charged per billing period
+tax_region Tax charged per region
+top Customers ranked by net revenue in one currency
+usage_units Metered units recorded per service
+voided Invoices that were voided
+customer c-cat added plan=starter region=de currency=EUR since=0
+customer c-cat2 added plan=enterprise region=ch currency=CHF since=0
+advise c-cat storage units=50000
+  free 5.76 USD
+  starter 24.04 USD (current)
+  team 82.12 USD
+  business 199.00 USD
+  enterprise 599.00 USD
+  best free
+advise c-cat logs units=100
+  free 0.00 USD
+  starter 19.00 USD (current)
+  team 79.00 USD
+  business 199.00 USD
+  enterprise 599.00 USD
+  best free
+advise c-cat2 egress units=9000
+  free 242.50 USD
+  starter 260.00 USD
+  team 316.00 USD
+  business 422.00 USD
+  enterprise 767.00 USD (current)
+  best free
+quote c-cat storage plan=starter
+  units=50000 allowance=8000 billable=42000 blocks=42
+  blocks 1-42 x 12
+  charge 4.64 EUR
+quote c-cat2 backup plan=enterprise
+  units=500000 allowance=75000 billable=425000 blocks=850
+  blocks 1-60 x 18
+  blocks 61-200 x 14
+  blocks 201-850 x 10
+  charge 85.86 CHF
+quote c-cat requests plan=starter
+  units=1 allowance=20000 billable=0 blocks=0
+  charge 0.00 EUR
+error: unknown service 'nothing'
+error: unknown customer c-nobody
+error: invalid number '0'
+day 0 period 0
+error: invalid number '0'
+error: invalid number '401'
+day 7 period 0
+day 7 period 0

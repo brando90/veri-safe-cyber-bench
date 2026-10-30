@@ -1,0 +1,21 @@
+customer add c-t1 team uk GBP
+customer add c-t2 team uk GBP
+customer add c-t3 starter tx USD
+customer add c-t4 starter ny USD
+usage c-t1 requests 90000
+usage c-t2 requests 90000
+usage c-t3 egress 100
+usage c-t4 egress 100
+tick 30
+invoice run
+void INV-0001
+void INV-0003
+report tax_region
+report tax_region cur=GBP
+report tax_region cur=USD
+report tax_region cust=c-t2
+report tax_region cust=c-t1
+report tax_region cust=c-t3
+invoice run 0
+report tax_region
+report voided

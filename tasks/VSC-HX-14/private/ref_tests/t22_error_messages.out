@@ -1,0 +1,32 @@
+error: unknown command 'bogus'
+error: unknown command 'event'
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+error: invalid event id '1x'
+error: bad start '2024-01-01'
+error: bad start '2024-13-01T10:00'
+error: invalid duration 'x'
+error: invalid UTC offset '+15:00'
+error: invalid priority '10'
+error: unknown option 'colour' for event add
+error: invalid rule 'hourly'
+error: invalid rule 'weekly;on=2MO'
+error: invalid rule 'monthly;on=MO'
+error: invalid rule 'monthly;monthday=3;on=1MO'
+error: invalid rule 'daily;every=0'
+error: invalid category list 'a,,b'
+error: bad start '2024-01-01T10:00'
+error: unbalanced double quote
+added e2 ref=1
+error: event e2 already exists
+error: event e2 does not recur
+error: FROM is after TO
+2024-01-01 Mon 10:00
+1 occurrences
+error: unknown event nosuch
+error: window is longer than 400 days
+error: FROM is after TO
+error: invalid reference '#zz!'
+error: unknown event #7
+event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+error: unknown command 'nosuch'
+added e3 ref=2

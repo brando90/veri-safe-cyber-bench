@@ -1,0 +1,332 @@
+customer c-usd0 added plan=starter region=ca currency=USD since=0
+customer c-usd6 added plan=free region=ca currency=USD since=0
+customer c-usd12 added plan=business region=ca currency=USD since=0
+customer c-usd18 added plan=team region=ca currency=USD since=0
+customer c-usd24 added plan=starter region=ca currency=USD since=0
+customer c-eur0 added plan=team region=ca currency=EUR since=0
+customer c-eur6 added plan=starter region=ca currency=EUR since=0
+customer c-eur12 added plan=free region=ca currency=EUR since=0
+customer c-eur18 added plan=business region=ca currency=EUR since=0
+customer c-eur24 added plan=team region=ca currency=EUR since=0
+customer c-gbp0 added plan=business region=ca currency=GBP since=0
+customer c-gbp6 added plan=team region=ca currency=GBP since=0
+customer c-gbp12 added plan=starter region=ca currency=GBP since=0
+customer c-gbp18 added plan=free region=ca currency=GBP since=0
+customer c-gbp24 added plan=business region=ca currency=GBP since=0
+customer c-jpy0 added plan=free region=ca currency=JPY since=0
+customer c-jpy6 added plan=business region=ca currency=JPY since=0
+customer c-jpy12 added plan=team region=ca currency=JPY since=0
+customer c-jpy18 added plan=starter region=ca currency=JPY since=0
+customer c-jpy24 added plan=free region=ca currency=JPY since=0
+customer c-kwd0 added plan=starter region=ca currency=KWD since=0
+customer c-kwd6 added plan=free region=ca currency=KWD since=0
+customer c-kwd12 added plan=business region=ca currency=KWD since=0
+customer c-kwd18 added plan=team region=ca currency=KWD since=0
+customer c-kwd24 added plan=starter region=ca currency=KWD since=0
+customer c-cad0 added plan=team region=ca currency=CAD since=0
+customer c-cad6 added plan=starter region=ca currency=CAD since=0
+customer c-cad12 added plan=free region=ca currency=CAD since=0
+customer c-cad18 added plan=business region=ca currency=CAD since=0
+customer c-cad24 added plan=team region=ca currency=CAD since=0
+customer c-chf0 added plan=business region=ca currency=CHF since=0
+customer c-chf6 added plan=team region=ca currency=CHF since=0
+customer c-chf12 added plan=starter region=ca currency=CHF since=0
+customer c-chf18 added plan=free region=ca currency=CHF since=0
+customer c-chf24 added plan=business region=ca currency=CHF since=0
+customer c-inr0 added plan=free region=ca currency=INR since=0
+customer c-inr6 added plan=business region=ca currency=INR since=0
+customer c-inr12 added plan=team region=ca currency=INR since=0
+customer c-inr18 added plan=starter region=ca currency=INR since=0
+customer c-inr24 added plan=free region=ca currency=INR since=0
+usage c-usd0 requests 6000 day=0
+usage c-usd0 cdn 15 day=0
+usage c-usd6 requests 8000 day=0
+usage c-usd6 cdn 20 day=0
+usage c-usd12 requests 10000 day=0
+usage c-usd12 cdn 25 day=0
+usage c-usd18 requests 12000 day=0
+usage c-usd18 cdn 30 day=0
+usage c-usd24 requests 14000 day=0
+usage c-usd24 cdn 35 day=0
+usage c-eur0 requests 6000 day=0
+usage c-eur0 cdn 15 day=0
+usage c-eur6 requests 8000 day=0
+usage c-eur6 cdn 20 day=0
+usage c-eur12 requests 10000 day=0
+usage c-eur12 cdn 25 day=0
+usage c-eur18 requests 12000 day=0
+usage c-eur18 cdn 30 day=0
+usage c-eur24 requests 14000 day=0
+usage c-eur24 cdn 35 day=0
+usage c-gbp0 requests 6000 day=0
+usage c-gbp0 cdn 15 day=0
+usage c-gbp6 requests 8000 day=0
+usage c-gbp6 cdn 20 day=0
+usage c-gbp12 requests 10000 day=0
+usage c-gbp12 cdn 25 day=0
+usage c-gbp18 requests 12000 day=0
+usage c-gbp18 cdn 30 day=0
+usage c-gbp24 requests 14000 day=0
+usage c-gbp24 cdn 35 day=0
+usage c-jpy0 requests 6000 day=0
+usage c-jpy0 cdn 15 day=0
+usage c-jpy6 requests 8000 day=0
+usage c-jpy6 cdn 20 day=0
+usage c-jpy12 requests 10000 day=0
+usage c-jpy12 cdn 25 day=0
+usage c-jpy18 requests 12000 day=0
+usage c-jpy18 cdn 30 day=0
+usage c-jpy24 requests 14000 day=0
+usage c-jpy24 cdn 35 day=0
+usage c-kwd0 requests 6000 day=0
+usage c-kwd0 cdn 15 day=0
+usage c-kwd6 requests 8000 day=0
+usage c-kwd6 cdn 20 day=0
+usage c-kwd12 requests 10000 day=0
+usage c-kwd12 cdn 25 day=0
+usage c-kwd18 requests 12000 day=0
+usage c-kwd18 cdn 30 day=0
+usage c-kwd24 requests 14000 day=0
+usage c-kwd24 cdn 35 day=0
+usage c-cad0 requests 6000 day=0
+usage c-cad0 cdn 15 day=0
+usage c-cad6 requests 8000 day=0
+usage c-cad6 cdn 20 day=0
+usage c-cad12 requests 10000 day=0
+usage c-cad12 cdn 25 day=0
+usage c-cad18 requests 12000 day=0
+usage c-cad18 cdn 30 day=0
+usage c-cad24 requests 14000 day=0
+usage c-cad24 cdn 35 day=0
+usage c-chf0 requests 6000 day=0
+usage c-chf0 cdn 15 day=0
+usage c-chf6 requests 8000 day=0
+usage c-chf6 cdn 20 day=0
+usage c-chf12 requests 10000 day=0
+usage c-chf12 cdn 25 day=0
+usage c-chf18 requests 12000 day=0
+usage c-chf18 cdn 30 day=0
+usage c-chf24 requests 14000 day=0
+usage c-chf24 cdn 35 day=0
+usage c-inr0 requests 6000 day=0
+usage c-inr0 cdn 15 day=0
+usage c-inr6 requests 8000 day=0
+usage c-inr6 cdn 20 day=0
+usage c-inr12 requests 10000 day=0
+usage c-inr12 cdn 25 day=0
+usage c-inr18 requests 12000 day=0
+usage c-inr18 cdn 30 day=0
+usage c-inr24 requests 14000 day=0
+usage c-inr24 cdn 35 day=0
+day 30 period 1
+invoiced INV-0001 c-cad0 period=0 lines=1 total=114.38 CAD
+invoiced INV-0002 c-cad12 period=0 lines=2 total=2.04 CAD
+invoiced INV-0003 c-cad18 period=0 lines=1 total=288.13 CAD
+invoiced INV-0004 c-cad24 period=0 lines=1 total=114.38 CAD
+invoiced INV-0005 c-cad6 period=0 lines=1 total=27.51 CAD
+invoiced INV-0006 c-chf0 period=0 lines=1 total=192.08 CHF
+invoiced INV-0007 c-chf12 period=0 lines=1 total=18.34 CHF
+invoiced INV-0008 c-chf18 period=0 lines=2 total=1.87 CHF
+invoiced INV-0009 c-chf24 period=0 lines=1 total=192.08 CHF
+invoiced INV-0010 c-chf6 period=0 lines=1 total=76.25 CHF
+invoiced INV-0011 c-eur0 period=0 lines=1 total=77.95 EUR
+invoiced INV-0012 c-eur12 period=0 lines=2 total=1.39 EUR
+invoiced INV-0013 c-eur18 period=0 lines=1 total=196.35 EUR
+invoiced INV-0014 c-eur24 period=0 lines=1 total=77.95 EUR
+invoiced INV-0015 c-eur6 period=0 lines=1 total=18.75 EUR
+invoiced INV-0016 c-gbp0 period=0 lines=1 total=168.61 GBP
+invoiced INV-0017 c-gbp12 period=0 lines=1 total=16.10 GBP
+invoiced INV-0018 c-gbp18 period=0 lines=2 total=1.64 GBP
+invoiced INV-0019 c-gbp24 period=0 lines=1 total=168.61 GBP
+invoiced INV-0020 c-gbp6 period=0 lines=1 total=66.93 GBP
+invoiced INV-0021 c-inr0 period=0 lines=2 total=32.94 INR
+invoiced INV-0022 c-inr12 period=0 lines=1 total=7032.38 INR
+invoiced INV-0023 c-inr18 period=0 lines=1 total=1691.33 INR
+invoiced INV-0024 c-inr24 period=0 lines=2 total=218.09 INR
+invoiced INV-0025 c-inr6 period=0 lines=1 total=17714.48 INR
+invoiced INV-0026 c-jpy0 period=0 lines=2 total=60 JPY
+invoiced INV-0027 c-jpy12 period=0 lines=1 total=12709 JPY
+invoiced INV-0028 c-jpy18 period=0 lines=1 total=3057 JPY
+invoiced INV-0029 c-jpy24 period=0 lines=2 total=395 JPY
+invoiced INV-0030 c-jpy6 period=0 lines=1 total=32014 JPY
+invoiced INV-0031 c-kwd0 period=0 lines=1 total=6.317 KWD
+invoiced INV-0032 c-kwd12 period=0 lines=1 total=66.163 KWD
+invoiced INV-0033 c-kwd18 period=0 lines=1 total=26.266 KWD
+invoiced INV-0034 c-kwd24 period=0 lines=1 total=6.317 KWD
+invoiced INV-0035 c-kwd6 period=0 lines=2 total=0.296 KWD
+invoiced INV-0036 c-usd0 period=0 lines=1 total=20.38 USD
+invoiced INV-0037 c-usd12 period=0 lines=1 total=213.43 USD
+invoiced INV-0038 c-usd18 period=0 lines=1 total=84.73 USD
+invoiced INV-0039 c-usd24 period=0 lines=1 total=20.38 USD
+invoiced INV-0040 c-usd6 period=0 lines=2 total=0.95 USD
+invoice run period=0 invoices=40
+invoice INV-0001 c-cad0 period=0 issued=30 due=60 status=open
+  fee plan team days=30 106.65
+  subtotal 106.65 discount 0.00 tax 7.73 late 0.00 total 114.38 CAD
+  paid 0.00 refunded 0.00 outstanding 114.38
+invoice INV-0002 c-cad12 period=0 issued=30 due=60 status=open
+  usage cdn 25 GB 0.89
+  usage requests 10000 req 1.01
+  subtotal 1.90 discount 0.00 tax 0.14 late 0.00 total 2.04 CAD
+  paid 0.00 refunded 0.00 outstanding 2.04
+invoice INV-0003 c-cad18 period=0 issued=30 due=60 status=open
+  fee plan business days=30 268.65
+  subtotal 268.65 discount 0.00 tax 19.48 late 0.00 total 288.13 CAD
+  paid 0.00 refunded 0.00 outstanding 288.13
+invoice INV-0004 c-cad24 period=0 issued=30 due=60 status=open
+  fee plan team days=30 106.65
+  subtotal 106.65 discount 0.00 tax 7.73 late 0.00 total 114.38 CAD
+  paid 0.00 refunded 0.00 outstanding 114.38
+invoice INV-0005 c-cad6 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 25.65
+  subtotal 25.65 discount 0.00 tax 1.86 late 0.00 total 27.51 CAD
+  paid 0.00 refunded 0.00 outstanding 27.51
+invoice INV-0006 c-chf0 period=0 issued=30 due=60 status=open
+  fee plan business days=30 179.10
+  subtotal 179.10 discount 0.00 tax 12.98 late 0.00 total 192.08 CHF
+  paid 0.00 refunded 0.00 outstanding 192.08
+invoice INV-0007 c-chf12 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.10
+  subtotal 17.10 discount 0.00 tax 1.24 late 0.00 total 18.34 CHF
+  paid 0.00 refunded 0.00 outstanding 18.34
+invoice INV-0008 c-chf18 period=0 issued=30 due=60 status=open
+  usage cdn 30 GB 0.79
+  usage requests 12000 req 0.95
+  subtotal 1.74 discount 0.00 tax 0.13 late 0.00 total 1.87 CHF
+  paid 0.00 refunded 0.00 outstanding 1.87
+invoice INV-0009 c-chf24 period=0 issued=30 due=60 status=open
+  fee plan business days=30 179.10
+  subtotal 179.10 discount 0.00 tax 12.98 late 0.00 total 192.08 CHF
+  paid 0.00 refunded 0.00 outstanding 192.08
+invoice INV-0010 c-chf6 period=0 issued=30 due=60 status=open
+  fee plan team days=30 71.10
+  subtotal 71.10 discount 0.00 tax 5.15 late 0.00 total 76.25 CHF
+  paid 0.00 refunded 0.00 outstanding 76.25
+invoice INV-0011 c-eur0 period=0 issued=30 due=60 status=open
+  fee plan team days=30 72.68
+  subtotal 72.68 discount 0.00 tax 5.27 late 0.00 total 77.95 EUR
+  paid 0.00 refunded 0.00 outstanding 77.95
+invoice INV-0012 c-eur12 period=0 issued=30 due=60 status=open
+  usage cdn 25 GB 0.61
+  usage requests 10000 req 0.69
+  subtotal 1.30 discount 0.00 tax 0.09 late 0.00 total 1.39 EUR
+  paid 0.00 refunded 0.00 outstanding 1.39
+invoice INV-0013 c-eur18 period=0 issued=30 due=60 status=open
+  fee plan business days=30 183.08
+  subtotal 183.08 discount 0.00 tax 13.27 late 0.00 total 196.35 EUR
+  paid 0.00 refunded 0.00 outstanding 196.35
+invoice INV-0014 c-eur24 period=0 issued=30 due=60 status=open
+  fee plan team days=30 72.68
+  subtotal 72.68 discount 0.00 tax 5.27 late 0.00 total 77.95 EUR
+  paid 0.00 refunded 0.00 outstanding 77.95
+invoice INV-0015 c-eur6 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  subtotal 17.48 discount 0.00 tax 1.27 late 0.00 total 18.75 EUR
+  paid 0.00 refunded 0.00 outstanding 18.75
+invoice INV-0016 c-gbp0 period=0 issued=30 due=60 status=open
+  fee plan business days=30 157.21
+  subtotal 157.21 discount 0.00 tax 11.40 late 0.00 total 168.61 GBP
+  paid 0.00 refunded 0.00 outstanding 168.61
+invoice INV-0017 c-gbp12 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 15.01
+  subtotal 15.01 discount 0.00 tax 1.09 late 0.00 total 16.10 GBP
+  paid 0.00 refunded 0.00 outstanding 16.10
+invoice INV-0018 c-gbp18 period=0 issued=30 due=60 status=open
+  usage cdn 30 GB 0.70
+  usage requests 12000 req 0.83
+  subtotal 1.53 discount 0.00 tax 0.11 late 0.00 total 1.64 GBP
+  paid 0.00 refunded 0.00 outstanding 1.64
+invoice INV-0019 c-gbp24 period=0 issued=30 due=60 status=open
+  fee plan business days=30 157.21
+  subtotal 157.21 discount 0.00 tax 11.40 late 0.00 total 168.61 GBP
+  paid 0.00 refunded 0.00 outstanding 168.61
+invoice INV-0020 c-gbp6 period=0 issued=30 due=60 status=open
+  fee plan team days=30 62.41
+  subtotal 62.41 discount 0.00 tax 4.52 late 0.00 total 66.93 GBP
+  paid 0.00 refunded 0.00 outstanding 66.93
+invoice INV-0021 c-inr0 period=0 issued=30 due=60 status=open
+  usage cdn 15 GB 18.26
+  usage requests 6000 req 12.45
+  subtotal 30.71 discount 0.00 tax 2.23 late 0.00 total 32.94 INR
+  paid 0.00 refunded 0.00 outstanding 32.94
+invoice INV-0022 c-inr12 period=0 issued=30 due=60 status=open
+  fee plan team days=30 6557.00
+  subtotal 6557.00 discount 0.00 tax 475.38 late 0.00 total 7032.38 INR
+  paid 0.00 refunded 0.00 outstanding 7032.38
+invoice INV-0023 c-inr18 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 1577.00
+  subtotal 1577.00 discount 0.00 tax 114.33 late 0.00 total 1691.33 INR
+  paid 0.00 refunded 0.00 outstanding 1691.33
+invoice INV-0024 c-inr24 period=0 issued=30 due=60 status=open
+  usage cdn 35 GB 91.30
+  usage requests 14000 req 112.05
+  subtotal 203.35 discount 0.00 tax 14.74 late 0.00 total 218.09 INR
+  paid 0.00 refunded 0.00 outstanding 218.09
+invoice INV-0025 c-inr6 period=0 issued=30 due=60 status=open
+  fee plan business days=30 16517.00
+  subtotal 16517.00 discount 0.00 tax 1197.48 late 0.00 total 17714.48 INR
+  paid 0.00 refunded 0.00 outstanding 17714.48
+invoice INV-0026 c-jpy0 period=0 issued=30 due=60 status=open
+  usage cdn 15 GB 33
+  usage requests 6000 req 23
+  subtotal 56 discount 0 tax 4 late 0 total 60 JPY
+  paid 0 refunded 0 outstanding 60
+invoice INV-0027 c-jpy12 period=0 issued=30 due=60 status=open
+  fee plan team days=30 11850
+  subtotal 11850 discount 0 tax 859 late 0 total 12709 JPY
+  paid 0 refunded 0 outstanding 12709
+invoice INV-0028 c-jpy18 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 2850
+  subtotal 2850 discount 0 tax 207 late 0 total 3057 JPY
+  paid 0 refunded 0 outstanding 3057
+invoice INV-0029 c-jpy24 period=0 issued=30 due=60 status=open
+  usage cdn 35 GB 165
+  usage requests 14000 req 203
+  subtotal 368 discount 0 tax 27 late 0 total 395 JPY
+  paid 0 refunded 0 outstanding 395
+invoice INV-0030 c-jpy6 period=0 issued=30 due=60 status=open
+  fee plan business days=30 29850
+  subtotal 29850 discount 0 tax 2164 late 0 total 32014 JPY
+  paid 0 refunded 0 outstanding 32014
+invoice INV-0031 c-kwd0 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 5.890
+  subtotal 5.890 discount 0.000 tax 0.427 late 0.000 total 6.317 KWD
+  paid 0.000 refunded 0.000 outstanding 6.317
+invoice INV-0032 c-kwd12 period=0 issued=30 due=60 status=open
+  fee plan business days=30 61.690
+  subtotal 61.690 discount 0.000 tax 4.473 late 0.000 total 66.163 KWD
+  paid 0.000 refunded 0.000 outstanding 66.163
+invoice INV-0033 c-kwd18 period=0 issued=30 due=60 status=open
+  fee plan team days=30 24.490
+  subtotal 24.490 discount 0.000 tax 1.776 late 0.000 total 26.266 KWD
+  paid 0.000 refunded 0.000 outstanding 26.266
+invoice INV-0034 c-kwd24 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 5.890
+  subtotal 5.890 discount 0.000 tax 0.427 late 0.000 total 6.317 KWD
+  paid 0.000 refunded 0.000 outstanding 6.317
+invoice INV-0035 c-kwd6 period=0 issued=30 due=60 status=open
+  usage cdn 20 GB 0.136
+  usage requests 8000 req 0.140
+  subtotal 0.276 discount 0.000 tax 0.020 late 0.000 total 0.296 KWD
+  paid 0.000 refunded 0.000 outstanding 0.296
+invoice INV-0036 c-usd0 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  subtotal 19.00 discount 0.00 tax 1.38 late 0.00 total 20.38 USD
+  paid 0.00 refunded 0.00 outstanding 20.38
+invoice INV-0037 c-usd12 period=0 issued=30 due=60 status=open
+  fee plan business days=30 199.00
+  subtotal 199.00 discount 0.00 tax 14.43 late 0.00 total 213.43 USD
+  paid 0.00 refunded 0.00 outstanding 213.43
+invoice INV-0038 c-usd18 period=0 issued=30 due=60 status=open
+  fee plan team days=30 79.00
+  subtotal 79.00 discount 0.00 tax 5.73 late 0.00 total 84.73 USD
+  paid 0.00 refunded 0.00 outstanding 84.73
+invoice INV-0039 c-usd24 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  subtotal 19.00 discount 0.00 tax 1.38 late 0.00 total 20.38 USD
+  paid 0.00 refunded 0.00 outstanding 20.38
+invoice INV-0040 c-usd6 period=0 issued=30 due=60 status=open
+  usage cdn 20 GB 0.44
+  usage requests 8000 req 0.45
+  subtotal 0.89 discount 0.00 tax 0.06 late 0.00 total 0.95 USD
+  paid 0.00 refunded 0.00 outstanding 0.95

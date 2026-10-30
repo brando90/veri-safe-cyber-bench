@@ -1,0 +1,9 @@
+{
+  "id": "VSC-HX-13",
+  "split": "val",
+  "language": "python3.12",
+  "bug_class": "twelve local deviations in a large generated-style codebase (too large to read in one pass), hidden among near-identical sibling modules: a block count floored where its siblings and the README round up, a tier cap one block short, a tax region without the exempt guard every other region has, a tax rounded by truncation where the shared helper rounds half up, a fixed-amount coupon capped at the wrong total, a currency conversion rounded half-even where the others round half up, a customer setter using the lookup without the closed check, a late-fee test that includes the due day, a plan-change day count missing the inclusive day, a refund cap ignoring earlier refunds (the consistency check fires), a report iterating all invoices instead of the live ones, a batch usage key missing the customer",
+  "summary": "billmill, a toy usage-metering and invoicing engine (stdin command lines, logical clock with 30-day periods, integer minor-unit money, 18 metered services with tiered prices, 11 tax regions, 8 coupon kinds, 8 currencies, plan changes with proration, payments/credit/refunds/voiding, late fees, 14 reports, audit log, CSV/TSV export, consistency check exiting 86). 109 Python modules, about 7,180 lines plus a README that documents ordinary behaviour and the rule for about half of the defects. Twelve independent defects in 12 modules; the rest follow only from the dominant code convention among the near-identical siblings. Many decoys (whole-block services, split-rate and usage-only tax regions, a void report that deliberately includes void invoices, minimum-charge services, dead legacy code).",
+  "K": 12,
+  "time_cap_min": 45
+}

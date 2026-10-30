@@ -1,0 +1,9 @@
+event add a "Late start" 2024-03-04T23:59:45 dur=1h rule=daily;count=3
+event show a
+expand a 2024-03-01 2024-03-10
+event add b "Year end" 2024-12-31T23:59:30
+event show b
+event move a 2024-03-09T23:59:50
+event show a
+agenda 2024-03-01 2024-03-31
+export text

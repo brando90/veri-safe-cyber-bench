@@ -1,0 +1,13 @@
+added x1 ref=1
+E|x1|1|Export me|2024-07-01T08:00|1719820800|30m||+00:00||3|a,b|
+# 1 events
+pack aeb0 011fe10278310182b702e003880e0000030201610162094578706f7274206d6500
+imported 1 events
+1 x1 2024-07-01T08:00 "Export me"
+2 x2 2024-07-02T08:00 Imported
+2 events
+error: unknown event nosuch
+error: event x1 already exists
+error: event x2 does not recur
+error: FROM is after TO
+check ok (2 events)

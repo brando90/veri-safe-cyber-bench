@@ -1,0 +1,14 @@
+event add s1 "Series" 2024-03-04T10:00 rule=daily;count=10
+skip s1 2024-03-05
+skip s1 2024-03-08
+skip s1 2024-03-06
+skip s1 2024-03-20
+skip s1 2024-03-05
+event show s1
+event rule s1 weekly;on=MO,TU;count=6
+event show s1
+event rule s1 none
+event show s1
+skip s1 2024-03-04
+unskip s1 2024-03-04
+unskip s1 2024-03-04

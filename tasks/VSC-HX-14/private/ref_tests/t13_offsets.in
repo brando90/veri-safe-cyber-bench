@@ -1,0 +1,17 @@
+offset Z
+offset +00:00
+offset -00:00
+offset +0530
+offset +05
+offset -03:30
+offset -12:00
+offset +14:00
+offset +14:30
+offset -12:30
+offset +05:60
+offset 5:30
+offset +5
+offset +1230
+offset -0800
+event add o1 "Offset" 2024-01-01T10:00 tz=+05:45
+event show o1

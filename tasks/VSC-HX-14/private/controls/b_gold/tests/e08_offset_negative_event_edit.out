@@ -1,0 +1,14 @@
+added a ref=1
+added b ref=2
+updated b: 1h -00:05 prio=5
+event b ref=2
+  title Other
+  start 2024-03-04T10:00
+  dur 1h tz -00:05 prio 5
+  rule -
+  cats -
+1 a 2024-03-04T10:00 Base
+2 b 2024-03-04T10:00 Other
+2 events
+pack 2329 0215e101610194b502d804901c2700050004426173650016e101620294b502d804901c09000500054f7468657200
+check ok (2 events)

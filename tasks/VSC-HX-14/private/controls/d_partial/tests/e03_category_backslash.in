@@ -1,0 +1,6 @@
+event add a "Paths" 2024-03-04T10:00 cat=back\\slash,plain
+event add b "Trailing" 2024-03-04T11:00 cat=tail\\,next
+event show a
+event show b
+export text
+stats

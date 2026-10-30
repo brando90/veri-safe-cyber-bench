@@ -1,0 +1,46 @@
+customer c-pc1 added plan=free region=tx currency=USD since=0
+customer c-pc2 added plan=starter region=tx currency=USD since=0
+customer c-pc3 added plan=team region=tx currency=USD since=0
+customer c-pc1 plan free -> business days=30
+day 29 period 0
+customer c-pc2 plan starter -> enterprise days=1
+day 30 period 1
+customer c-pc3 plan team -> business days=30
+day 60 period 2
+customer c-pc1 plan business -> free days=30
+customer c-pc1 plan free -> enterprise days=30
+day 90 period 3
+invoiced INV-0001 c-pc1 period=0 lines=1 total=211.44 USD
+invoiced INV-0002 c-pc2 period=0 lines=2 total=40.74 USD
+invoiced INV-0003 c-pc3 period=0 lines=1 total=83.94 USD
+invoice run period=0 invoices=3
+invoiced INV-0004 c-pc1 period=1 lines=1 total=211.44 USD
+invoiced INV-0005 c-pc2 period=1 lines=1 total=636.44 USD
+invoiced INV-0006 c-pc3 period=1 lines=2 total=211.44 USD
+invoice run period=1 invoices=3
+invoice INV-0001 c-pc1 period=0 issued=90 due=120 status=open
+  adjust plan free->business days=30 199.00
+  subtotal 199.00 discount 0.00 tax 12.44 late 0.00 total 211.44 USD
+  paid 0.00 refunded 0.00 outstanding 211.44
+invoice INV-0002 c-pc2 period=0 issued=90 due=120 status=open
+  fee plan starter days=30 19.00
+  adjust plan starter->enterprise days=1 19.34
+  subtotal 38.34 discount 0.00 tax 2.40 late 0.00 total 40.74 USD
+  paid 0.00 refunded 0.00 outstanding 40.74
+invoice INV-0003 c-pc3 period=0 issued=90 due=120 status=open
+  fee plan team days=30 79.00
+  subtotal 79.00 discount 0.00 tax 4.94 late 0.00 total 83.94 USD
+  paid 0.00 refunded 0.00 outstanding 83.94
+invoice INV-0004 c-pc1 period=1 issued=90 due=120 status=open
+  fee plan business days=30 199.00
+  subtotal 199.00 discount 0.00 tax 12.44 late 0.00 total 211.44 USD
+  paid 0.00 refunded 0.00 outstanding 211.44
+invoice INV-0005 c-pc2 period=1 issued=90 due=120 status=open
+  fee plan enterprise days=30 599.00
+  subtotal 599.00 discount 0.00 tax 37.44 late 0.00 total 636.44 USD
+  paid 0.00 refunded 0.00 outstanding 636.44
+invoice INV-0006 c-pc3 period=1 issued=90 due=120 status=open
+  fee plan team days=30 79.00
+  adjust plan team->business days=30 120.00
+  subtotal 199.00 discount 0.00 tax 12.44 late 0.00 total 211.44 USD
+  paid 0.00 refunded 0.00 outstanding 211.44

@@ -1,0 +1,19 @@
+next sequence is 128 (40)
+added short ref=40
+event short ref=40
+  title Short
+  start 1970-03-06T02:08
+  dur 2m8s tz +00:00 prio 5
+  rule -
+  cats -
+pack 3856 011ae10573686f72748001800180018001000005000553686f727400
+removed short
+imported 1 events
+event short ref=40
+  title Short
+  start 1970-03-06T02:08
+  dur 2m8s tz +00:00 prio 5
+  rule -
+  cats -
+40 short 1970-03-06T02:08 Short
+1 events

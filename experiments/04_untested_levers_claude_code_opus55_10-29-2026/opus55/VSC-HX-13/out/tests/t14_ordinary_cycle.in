@@ -1,0 +1,20 @@
+# ordinary behaviour kept: proration, coupons, payment, refund, dun, void, reports
+customer add alpha team de EUR
+tick 12
+customer add beta business ca USD
+usage alpha storage 50000
+usage beta egress 900
+usage beta sms 400
+coupon add beta pct_all 10
+tick 18
+invoice run
+pay beta 1000
+refund INV-0002 5
+tick 31
+dun
+void INV-0001
+invoice list
+report tax_region
+report rev_region
+report aging
+statement beta

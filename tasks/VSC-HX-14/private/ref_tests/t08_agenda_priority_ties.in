@@ -1,0 +1,9 @@
+event add ev1 "Low" 2024-05-06T09:00 prio=2
+event add ev2 "High" 2024-05-06T09:00 prio=9
+event add ev9 "Nine" 2024-05-06T09:00 prio=5
+event add ev10 "Ten" 2024-05-06T09:00 prio=5
+event add ev11 "Eleven" 2024-05-06T09:00 prio=5
+event add ev100 "Hundred" 2024-05-06T09:00 prio=5
+event add ev2a "Two a" 2024-05-06T09:00 prio=5
+agenda 2024-05-06 2024-05-06
+agenda 2024-05-06 2024-05-06 n=3

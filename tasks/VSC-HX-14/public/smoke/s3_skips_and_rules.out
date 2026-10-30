@@ -1,0 +1,20 @@
+added gym ref=1
+skipped gym on 2024-06-05
+error: 2024-06-06 is not an occurrence of gym
+2024-06-03 Mon 07:00
+2024-06-07 Fri 07:00
+2024-06-10 Mon 07:00
+2024-06-12 Wed 07:00
+2024-06-14 Fri 07:00
+2024-06-17 Mon 07:00
+2024-06-19 Wed 07:00
+7 occurrences
+restored gym on 2024-06-05
+rule of gym is weekly;on=MO
+event gym ref=1
+  title Gym
+  start 2024-06-03T07:00
+  dur 1h tz +00:00 prio 5
+  rule weekly;on=MO
+  cats -
+monthly;on=2TU,-1FR;count=5

@@ -1,0 +1,19 @@
+# customers, usage and a first invoice
+customer add c-acme team de EUR name="Acme GmbH"
+customer add c-bolt starter ca USD
+tick 12
+customer add c-nova starter uk GBP
+usage c-acme storage 40000 id=m1
+usage c-acme egress 500
+usage c-acme requests 90000
+usage c-bolt egress 200 day=3
+usage c-bolt compute 400
+usage c-nova cdn 60
+usage summary c-acme
+tick 20
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0003
+invoice list
+customer show c-acme

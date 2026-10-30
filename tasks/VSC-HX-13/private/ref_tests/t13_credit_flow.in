@@ -1,0 +1,25 @@
+customer add c-cr starter tx USD
+customer add c-cr2 starter tx USD
+credit add c-cr 50
+credit add c-cr 0
+credit add c-cr 1.234
+usage c-cr egress 400
+usage c-cr2 egress 400
+credit add c-cr2 10
+tick 31
+invoice run
+statement c-cr
+statement c-cr2
+usage c-cr egress 400
+tick 30
+invoice run
+statement c-cr
+credit add c-cr 100
+pay c-cr2 100
+statement c-cr2
+customer show c-cr2
+customer close c-cr
+customer show c-cr
+ledger c-cr
+ledger c-cr2 kind=credit_in
+report credits

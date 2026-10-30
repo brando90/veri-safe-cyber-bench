@@ -1,0 +1,19 @@
+customer madrid added plan=starter region=es currency=EUR since=0
+customer sevilla added plan=starter region=es currency=EUR since=0
+customer madrid exempt yes
+day 30 period 1
+invoiced INV-0001 madrid period=0 lines=1 total=17.48 EUR
+invoiced INV-0002 sevilla period=0 lines=1 total=21.15 EUR
+invoice run period=0 invoices=2
+invoice INV-0001 madrid period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  subtotal 17.48 discount 0.00 tax 0.00 late 0.00 total 17.48 EUR
+  paid 0.00 refunded 0.00 outstanding 17.48
+invoice INV-0002 sevilla period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  subtotal 17.48 discount 0.00 tax 3.67 late 0.00 total 21.15 EUR
+  paid 0.00 refunded 0.00 outstanding 21.15
+report tax_region
+  es EUR 3.67
+  total EUR 3.67
+end

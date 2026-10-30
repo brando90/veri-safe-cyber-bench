@@ -1,0 +1,162 @@
+customer add c-usd0 starter ca USD
+customer add c-usd6 free ca USD
+customer add c-usd12 business ca USD
+customer add c-usd18 team ca USD
+customer add c-usd24 starter ca USD
+customer add c-eur0 team ca EUR
+customer add c-eur6 starter ca EUR
+customer add c-eur12 free ca EUR
+customer add c-eur18 business ca EUR
+customer add c-eur24 team ca EUR
+customer add c-gbp0 business ca GBP
+customer add c-gbp6 team ca GBP
+customer add c-gbp12 starter ca GBP
+customer add c-gbp18 free ca GBP
+customer add c-gbp24 business ca GBP
+customer add c-jpy0 free ca JPY
+customer add c-jpy6 business ca JPY
+customer add c-jpy12 team ca JPY
+customer add c-jpy18 starter ca JPY
+customer add c-jpy24 free ca JPY
+customer add c-kwd0 starter ca KWD
+customer add c-kwd6 free ca KWD
+customer add c-kwd12 business ca KWD
+customer add c-kwd18 team ca KWD
+customer add c-kwd24 starter ca KWD
+customer add c-cad0 team ca CAD
+customer add c-cad6 starter ca CAD
+customer add c-cad12 free ca CAD
+customer add c-cad18 business ca CAD
+customer add c-cad24 team ca CAD
+customer add c-chf0 business ca CHF
+customer add c-chf6 team ca CHF
+customer add c-chf12 starter ca CHF
+customer add c-chf18 free ca CHF
+customer add c-chf24 business ca CHF
+customer add c-inr0 free ca INR
+customer add c-inr6 business ca INR
+customer add c-inr12 team ca INR
+customer add c-inr18 starter ca INR
+customer add c-inr24 free ca INR
+usage c-usd0 requests 6000
+usage c-usd0 cdn 15
+usage c-usd6 requests 8000
+usage c-usd6 cdn 20
+usage c-usd12 requests 10000
+usage c-usd12 cdn 25
+usage c-usd18 requests 12000
+usage c-usd18 cdn 30
+usage c-usd24 requests 14000
+usage c-usd24 cdn 35
+usage c-eur0 requests 6000
+usage c-eur0 cdn 15
+usage c-eur6 requests 8000
+usage c-eur6 cdn 20
+usage c-eur12 requests 10000
+usage c-eur12 cdn 25
+usage c-eur18 requests 12000
+usage c-eur18 cdn 30
+usage c-eur24 requests 14000
+usage c-eur24 cdn 35
+usage c-gbp0 requests 6000
+usage c-gbp0 cdn 15
+usage c-gbp6 requests 8000
+usage c-gbp6 cdn 20
+usage c-gbp12 requests 10000
+usage c-gbp12 cdn 25
+usage c-gbp18 requests 12000
+usage c-gbp18 cdn 30
+usage c-gbp24 requests 14000
+usage c-gbp24 cdn 35
+usage c-jpy0 requests 6000
+usage c-jpy0 cdn 15
+usage c-jpy6 requests 8000
+usage c-jpy6 cdn 20
+usage c-jpy12 requests 10000
+usage c-jpy12 cdn 25
+usage c-jpy18 requests 12000
+usage c-jpy18 cdn 30
+usage c-jpy24 requests 14000
+usage c-jpy24 cdn 35
+usage c-kwd0 requests 6000
+usage c-kwd0 cdn 15
+usage c-kwd6 requests 8000
+usage c-kwd6 cdn 20
+usage c-kwd12 requests 10000
+usage c-kwd12 cdn 25
+usage c-kwd18 requests 12000
+usage c-kwd18 cdn 30
+usage c-kwd24 requests 14000
+usage c-kwd24 cdn 35
+usage c-cad0 requests 6000
+usage c-cad0 cdn 15
+usage c-cad6 requests 8000
+usage c-cad6 cdn 20
+usage c-cad12 requests 10000
+usage c-cad12 cdn 25
+usage c-cad18 requests 12000
+usage c-cad18 cdn 30
+usage c-cad24 requests 14000
+usage c-cad24 cdn 35
+usage c-chf0 requests 6000
+usage c-chf0 cdn 15
+usage c-chf6 requests 8000
+usage c-chf6 cdn 20
+usage c-chf12 requests 10000
+usage c-chf12 cdn 25
+usage c-chf18 requests 12000
+usage c-chf18 cdn 30
+usage c-chf24 requests 14000
+usage c-chf24 cdn 35
+usage c-inr0 requests 6000
+usage c-inr0 cdn 15
+usage c-inr6 requests 8000
+usage c-inr6 cdn 20
+usage c-inr12 requests 10000
+usage c-inr12 cdn 25
+usage c-inr18 requests 12000
+usage c-inr18 cdn 30
+usage c-inr24 requests 14000
+usage c-inr24 cdn 35
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0003
+invoice show INV-0004
+invoice show INV-0005
+invoice show INV-0006
+invoice show INV-0007
+invoice show INV-0008
+invoice show INV-0009
+invoice show INV-0010
+invoice show INV-0011
+invoice show INV-0012
+invoice show INV-0013
+invoice show INV-0014
+invoice show INV-0015
+invoice show INV-0016
+invoice show INV-0017
+invoice show INV-0018
+invoice show INV-0019
+invoice show INV-0020
+invoice show INV-0021
+invoice show INV-0022
+invoice show INV-0023
+invoice show INV-0024
+invoice show INV-0025
+invoice show INV-0026
+invoice show INV-0027
+invoice show INV-0028
+invoice show INV-0029
+invoice show INV-0030
+invoice show INV-0031
+invoice show INV-0032
+invoice show INV-0033
+invoice show INV-0034
+invoice show INV-0035
+invoice show INV-0036
+invoice show INV-0037
+invoice show INV-0038
+invoice show INV-0039
+invoice show INV-0040

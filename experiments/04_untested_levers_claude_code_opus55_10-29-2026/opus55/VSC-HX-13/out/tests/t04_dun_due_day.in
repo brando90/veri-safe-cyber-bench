@@ -1,0 +1,10 @@
+# an invoice is overdue only from the day after its due day
+customer add late starter de EUR
+tick 30
+invoice run
+tick 30
+dun
+report aging
+tick 1
+dun
+invoice show INV-0001

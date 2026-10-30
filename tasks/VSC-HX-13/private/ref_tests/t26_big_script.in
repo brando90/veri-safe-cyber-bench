@@ -1,0 +1,496 @@
+customer add c-01 enterprise jp USD
+customer add c-02 enterprise uk GBP
+customer add c-03 team ch KWD
+customer add c-04 team uk USD
+customer add c-05 starter on USD
+customer add c-06 free de GBP
+customer add c-07 team jp JPY
+customer add c-08 business de KWD
+customer add c-09 starter ch EUR
+customer add c-10 enterprise ca USD
+customer add c-11 team de JPY
+customer add c-12 team ny EUR
+customer add c-13 enterprise wa GBP
+customer add c-14 free on KWD
+customer add c-15 business on USD
+customer add c-16 enterprise wa INR
+customer add c-17 enterprise ny INR
+customer add c-18 enterprise jp GBP
+customer add c-19 team ny EUR
+customer add c-20 business jp JPY
+customer add c-21 business wa KWD
+customer add c-22 enterprise ch KWD
+customer add c-23 team ca GBP
+customer add c-24 business ch JPY
+usage c-08 backup 3000 day=0
+set terms c-17 14
+credit add c-14 2
+usage batch c-12 requests 8007 4004 2670 day=0 id=bt1
+tick 31
+customer close c-05
+usage batch c-23 voice 15 8 6 day=10 id=bt2
+pay c-02 42.55
+pay c-06 10.96
+usage c-18 egress 70 day=11
+coupon add c-06 fixed_all 3.15
+coupon add c-08 fixed_all 3.82
+coupon add c-06 first_periods 20
+usage c-18 voice 6 day=17
+tick 7
+customer close c-24
+usage c-13 metrics 607 day=18
+usage c-16 search 21 day=38
+usage c-07 logs 2257 day=17
+usage c-11 vault 70 day=2
+customer show c-06
+refund INV-0021 0.08
+usage c-21 backup 2500 day=17
+usage c-01 search 140 day=19
+set terms c-01 45
+usage c-04 storage 4007 day=12
+tick 31
+set terms c-14 10
+refund INV-0019 0.12
+usage c-12 storage 5000 day=33
+void INV-0009
+coupon add c-01 first_periods 21
+usage c-10 vault 40 day=42
+invoice run 1
+usage c-06 egress 30 day=44
+usage c-16 cache 129 day=38
+dun
+usage c-15 cdn 22 day=43
+invoice run 0
+usage c-12 compute 360 day=31
+tick 31
+pay c-02 1.73
+tick 29
+usage c-09 dns 300 day=116
+usage c-21 egress 50 day=116
+usage c-08 ocr 17 day=109
+set terms c-21 14
+set terms c-02 45
+customer close c-18
+usage c-11 vault 11 day=124
+invoice run 2
+pay c-12 13.39
+usage c-13 search 87 day=124
+refund INV-0011 0.09
+tick 12
+set exempt c-15 no
+report aging
+dun
+refund INV-0017 0.01
+usage c-07 logs 1250 day=95
+usage c-02 ocr 10 day=95
+usage c-19 compute 240 day=97
+set exempt c-13 no
+coupon add c-06 fixed_all 3.81
+usage batch c-20 metrics 200 101 67 day=132 id=bt3
+usage c-11 backup 2000 day=98
+usage c-14 backup 501 day=97
+set exempt c-22 yes
+usage c-23 geocode 1251 day=128
+pay c-16 26.85
+tick 31
+tick 3
+void INV-0002
+set terms c-16 10
+set exempt c-23 no
+usage c-09 egress 50 day=152
+usage batch c-02 voice 27 14 10 day=138 id=bt4
+set terms c-08 30
+usage c-02 metrics 507 day=169
+usage batch c-16 vault 27 14 10 day=141 id=bt5
+usage c-01 compute 121 day=148
+invoice run 0
+usage c-12 metrics 100 day=169
+invoice run 3
+set terms c-17 10
+usage c-03 search 100 day=134
+invoice run 1
+refund INV-0016 0.13
+invoice run 0
+pay c-22 24.39
+usage batch c-11 voice 10 6 4 day=154 id=bt6
+usage c-20 logs 1251 day=137
+refund INV-0030 0.17
+tick 31
+usage c-10 voice 20 day=198
+pay c-13 33.97
+usage c-12 backup 1000 day=155
+usage c-13 cache 384 day=164
+usage c-12 logs 251 day=205
+pay c-12 53.66
+usage c-08 backup 2000 day=192
+set terms c-03 45
+usage c-02 metrics 700 day=162
+pay c-10 36.25
+usage c-01 search 67 day=156
+set terms c-09 10
+tick 3
+set terms c-16 45
+usage c-17 requests 4000 day=170
+usage batch c-01 search 180 91 61 day=208 id=bt7
+invoice run 4
+usage c-08 voice 20 day=198
+tick 12
+usage c-08 cache 903 day=196
+pay c-14 12.67
+set exempt c-04 yes
+pay c-22 10.25
+tick 3
+refund INV-0007 0.18
+usage batch c-07 email 3500 1751 1167 day=198 id=bt8
+refund INV-0002 0.17
+pay c-17 20.75
+invoice run 5
+set exempt c-20 yes
+pay c-08 5.21
+report late_customer
+usage c-21 storage 4000 day=220
+usage batch c-08 metrics 501 251 168 day=200 id=bt9
+invoice run 6
+report top EUR 3
+refund INV-0012 0.18
+pay c-23 47.81
+report disc_region
+refund INV-0003 0.17
+usage c-06 email 2000 day=207
+statement c-12
+customer show c-09
+coupon add c-11 volume 29
+usage c-16 dns 400 day=213
+set exempt c-14 yes
+usage c-14 dns 201 day=200
+usage batch c-10 email 3007 1504 1003 day=204 id=bt10
+usage c-19 backup 1507 day=194
+usage batch c-03 search 180 91 61 day=212 id=bt11
+usage c-06 cdn 30 day=200
+usage c-04 dns 307 day=199
+usage c-13 geocode 1250 day=186
+set exempt c-03 yes
+report tax_period
+usage c-15 geocode 1250 day=208
+usage c-10 dns 101 day=209
+usage c-07 vault 37 day=188
+usage c-21 cdn 37 day=197
+invoice run 5
+report aging
+set terms c-13 45
+usage batch c-10 voice 10 6 4 day=191 id=bt12
+usage c-02 dns 507 day=210
+set exempt c-11 no
+usage c-20 compute 427 day=204
+report out_customer
+tick 12
+usage c-14 dns 201 day=206
+usage c-02 dns 501 day=220
+usage c-23 search 80 day=229
+usage c-10 requests 15000 day=182
+coupon add c-01 fixed_all 7.39
+set exempt c-04 no
+invoice run 1
+usage batch c-03 search 20 11 7 day=229 id=bt13
+usage c-23 geocode 750 day=226
+invoice run 3
+pay c-07 3.32
+usage c-21 egress 80 day=205
+usage c-12 geocode 1500 day=195
+invoice run 0
+usage batch c-11 vault 20 11 7 day=234 id=bt14
+usage c-04 vault 20 day=205
+pay c-08 27.02
+usage c-16 cdn 40 day=181
+usage batch c-14 cache 129 65 44 day=223 id=bt15
+tick 3
+pay c-10 44.17
+set terms c-10 10
+usage c-22 email 2000 day=182
+usage c-19 cdn 25 day=203
+usage c-06 metrics 100 day=185
+usage c-23 geocode 1001 day=203
+invoice run 3
+usage c-02 logs 2750 day=205
+set exempt c-20 yes
+credit add c-12 14
+usage c-04 voice 26 day=198
+usage c-23 search 101 day=228
+usage c-04 compute 300 day=207
+usage c-07 metrics 507 day=210
+usage c-15 geocode 1001 day=231
+refund INV-0008 0.09
+usage c-20 dns 500 day=237
+void INV-0019
+usage c-01 compute 240 day=182
+usage c-08 email 2001 day=204
+statement c-07
+usage batch c-16 requests 9000 4501 3001 day=235 id=bt16
+pay c-04 1.23
+set terms c-11 14
+usage c-04 cdn 11 day=191
+coupon add c-23 pct_all 27
+usage c-09 email 2500 day=237
+usage batch c-13 voice 25 13 9 day=205 id=bt17
+usage c-16 cache 775 day=209
+set terms c-06 30
+invoice list c-06
+set exempt c-13 yes
+set terms c-16 14
+usage c-21 cache 129 day=197
+pay c-10 60.24
+report out_customer
+pay c-20 44.68
+usage batch c-15 requests 5000 2501 1667 day=195 id=bt18
+credit add c-10 14
+set exempt c-08 no
+coupon add c-02 fixed_all 24
+usage c-01 requests 6000 day=238
+usage c-08 logs 251 day=194
+usage c-19 cache 257 day=188
+usage batch c-08 metrics 400 201 134 day=223 id=bt19
+usage c-02 compute 61 day=223
+pay c-10 44.86
+usage c-13 backup 500 day=239
+pay c-13 20.01
+invoice run 4
+refund INV-0029 0.08
+usage c-09 email 2000 day=211
+invoice run 6
+usage c-01 vault 10 day=235
+coupon add c-01 fixed_all 5.44
+pay c-12 4.25
+set exempt c-21 no
+coupon add c-06 volume 15
+coupon add c-20 pct_usage 5
+usage c-12 search 120 day=221
+usage c-13 ocr 50 day=183
+usage c-13 requests 1000 day=206
+report rev_region
+usage batch c-13 dns 300 151 101 day=219 id=bt20
+invoice run 5
+usage c-23 ocr 11 day=213
+usage c-15 cache 512 day=194
+set terms c-16 14
+usage c-03 search 87 day=234
+usage c-09 backup 3007 day=192
+report payments
+tick 31
+set exempt c-01 no
+set terms c-09 30
+usage c-11 cdn 16 day=267
+usage c-20 compute 420 day=247
+usage c-22 dns 300 day=268
+usage c-17 metrics 600 day=263
+tick 29
+usage c-13 cache 1152 day=246
+invoice list c-14
+coupon add c-13 pct_fee 23
+refund INV-0003 0.14
+invoice run 5
+report top USD 3
+set exempt c-06 no
+coupon add c-13 first_periods 22
+report rev_plan
+usage c-13 egress 37 day=242
+usage c-06 storage 7007 day=260
+invoice run 7
+tick 12
+usage c-10 logs 1251 day=271
+usage c-19 vault 47 day=284
+usage c-07 cache 256 day=293
+set exempt c-04 no
+usage c-14 compute 300 day=309
+set exempt c-13 no
+invoice list c-06
+dun
+set exempt c-03 yes
+usage c-23 metrics 401 day=278
+dun
+set exempt c-15 yes
+pay c-04 2.21
+usage c-20 geocode 751 day=276
+invoice run 4
+refund INV-0005 0.12
+tick 29
+invoice run 2
+invoice run 3
+usage batch c-15 storage 5001 2501 1668 day=309 id=bt21
+void INV-0029
+usage c-23 voice 5 day=328
+report disc_region
+report disc_region
+refund INV-0025 0.13
+usage c-12 ocr 40 day=339
+usage c-01 email 3007 day=311
+report payments
+coupon add c-17 fixed_all 5.90
+usage batch c-14 geocode 750 376 251 day=312 id=bt22
+pay c-21 58.82
+usage c-04 metrics 400 day=307
+invoice list c-01
+usage c-14 voice 11 day=313
+invoice run 8
+usage c-15 storage 2001 day=311
+usage c-16 dns 501 day=331
+pay c-15 24.49
+usage c-03 geocode 1750 day=319
+usage c-20 cache 768 day=323
+tick 31
+report top EUR 3
+coupon add c-19 fixed_all 5.21
+usage batch c-19 cdn 11 6 4 day=341 id=bt23
+invoice run 2
+usage c-17 logs 1750 day=343
+usage c-16 search 120 day=363
+usage c-12 ocr 10 day=346
+usage c-03 metrics 101 day=333
+usage c-01 compute 240 day=369
+coupon add c-09 fixed_all 3.28
+invoice list c-05
+invoice run 9
+usage batch c-11 geocode 1007 504 336 day=366 id=bt24
+usage c-19 storage 1001 day=331
+usage c-22 cdn 40 day=352
+usage c-03 vault 51 day=368
+usage c-13 email 2500 day=365
+usage batch c-01 backup 2007 1004 670 day=369 id=bt25
+usage c-17 logs 1757 day=346
+usage c-02 dns 507 day=370
+refund INV-0004 0.09
+usage c-13 cache 640 day=368
+set exempt c-20 yes
+invoice run 9
+usage c-23 compute 61 day=370
+invoice run 4
+usage c-02 logs 751 day=340
+invoice run 9
+usage c-19 compute 241 day=363
+set exempt c-10 yes
+credit add c-07 13
+customer show c-12
+invoice run 6
+invoice run 11
+usage c-07 logs 2257 day=371
+usage c-15 dns 200 day=335
+credit add c-08 9
+set terms c-09 10
+usage c-09 vault 40 day=365
+set exempt c-08 no
+report usage_units
+usage batch c-20 compute 367 184 123 day=353 id=bt26
+usage c-15 voice 20 day=352
+set exempt c-19 no
+report rev_region
+usage c-14 geocode 1251 day=332
+usage summary c-02
+usage c-02 vault 30 day=359
+usage c-03 geocode 251 day=354
+usage batch c-17 metrics 407 204 136 day=371 id=bt27
+usage c-19 backup 2001 day=349
+set exempt c-01 no
+tick 29
+refund INV-0019 0.07
+invoice run 1
+refund INV-0030 0.17
+usage c-04 egress 50 day=372
+usage c-08 ocr 47 day=368
+usage c-15 dns 307 day=374
+credit add c-24 3
+usage batch c-03 logs 1500 751 501 day=362 id=bt28
+usage c-01 requests 4000 day=367
+usage c-02 storage 8000 day=387
+usage c-01 metrics 401 day=366
+usage batch c-13 egress 40 21 14 day=378 id=bt29
+usage c-10 dns 501 day=389
+report rev_plan
+coupon add c-15 fixed_all 5
+tick 12
+pay c-23 36.28
+usage c-11 storage 8000 day=392
+usage c-15 ocr 20 day=379
+usage c-17 cache 768 day=364
+credit add c-23 12
+usage c-15 email 3000 day=392
+void INV-0030
+coupon add c-13 fixed_all 13
+usage c-06 voice 26 day=406
+credit add c-21 11
+pay c-21 9.28
+invoice run 3
+usage c-14 geocode 1507 day=399
+usage c-15 vault 70 day=374
+usage c-19 ocr 40 day=408
+coupon add c-22 pct_usage 6
+usage batch c-10 voice 17 9 6 day=366 id=bt30
+report rev_region
+usage batch c-21 requests 12000 6001 4001 day=395 id=bt31
+usage c-16 voice 6 day=392
+usage c-19 metrics 101 day=392
+refund INV-0005 0.10
+coupon add c-03 fixed_all 7.48
+set exempt c-22 no
+usage c-08 cache 640 day=379
+usage c-03 email 2501 day=362
+coupon add c-21 fixed_all 4
+set exempt c-16 yes
+usage c-13 ocr 11 day=379
+usage c-16 metrics 301 day=402
+pay c-13 34.53
+usage c-01 cache 385 day=395
+coupon add c-21 pct_usage 20
+usage c-06 search 81 day=374
+coupon add c-03 pct_fee 5
+usage c-04 compute 240 day=402
+usage c-19 search 100 day=377
+usage summary c-03
+usage c-01 metrics 700 day=385
+usage c-02 storage 3001 day=372
+pay c-20 40.97
+usage c-07 voice 10 day=372
+set exempt c-08 no
+void INV-0003
+pay c-12 10.87
+credit add c-14 9
+pay c-19 39.52
+usage c-22 cdn 15 day=363
+set terms c-14 30
+tick 29
+customer show c-20
+statement c-07
+usage c-19 dns 100 day=427
+tick 31
+credit add c-08 18
+usage batch c-16 logs 3000 1501 1001 day=440 id=bt32
+pay c-11 22.77
+coupon add c-13 first_periods 20
+pay c-20 35.90
+usage summary c-09
+usage c-01 egress 37 day=471
+set terms c-17 45
+usage c-04 requests 1000 day=427
+report credits
+usage c-21 egress 50 day=435
+usage c-11 cdn 11 day=429
+usage c-09 backup 3007 day=441
+usage c-09 cache 257 day=469
+report aging
+set exempt c-11 no
+invoice run 13
+refund INV-0016 0.20
+pay c-08 43.98
+usage c-10 cdn 42 day=457
+dun
+usage c-09 compute 300 day=431
+coupon add c-03 pct_all 26
+dun
+usage c-19 storage 1001 day=471
+dun
+dun
+tick 30
+invoice run
+report rev_period
+report aging
+export invoices csv
+ledger kind=refund
+audit 5

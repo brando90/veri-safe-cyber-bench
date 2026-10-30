@@ -1,0 +1,9 @@
+# tax is computed once per invoice at the region's full rate
+customer add albany starter ny USD
+customer add seattle starter wa USD
+usage albany dns 2700
+usage seattle dns 3100
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002

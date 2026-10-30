@@ -1,0 +1,13 @@
+customer add c-p1 free ca USD
+customer add c-p2 free ca USD
+customer add c-p3 free ca USD
+customer close c-p2
+customer close c-p3
+set phone c-p3 555-0101
+set phone c-p2 555-0102
+set phone c-p1 555-0103
+set phone c-p1 555-0103
+set note c-p3 hi
+export customers csv
+audit 10
+audit 10 subject=c-p2

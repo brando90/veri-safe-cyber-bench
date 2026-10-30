@@ -1,0 +1,4 @@
+event add y1 "Leap" 2024-02-29T12:00 rule=yearly
+expand y1 2024-01-01 2029-12-31
+event add y2 "Anniversary" 2023-11-05T12:00 rule=yearly;every=2;count=4
+expand y2 2023-01-01 2035-12-31

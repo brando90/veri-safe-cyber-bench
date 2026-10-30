@@ -1,0 +1,11 @@
+event add d "Standup" 2024-01-01T09:00 rule=daily;every=2
+skip d 2024-01-05
+event move d 2024-01-02T09:00
+event show d
+event add w "Review" 2024-01-01T14:00 rule=weekly
+skip w 2024-01-15
+skip w 2024-01-29
+event move w 2024-01-22T14:00
+event show w
+expand w 2024-01-01 2024-02-12
+check

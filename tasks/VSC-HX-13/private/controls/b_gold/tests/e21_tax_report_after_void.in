@@ -1,0 +1,13 @@
+customer add c-t1 starter de EUR
+customer add c-t2 starter de EUR
+customer add c-t3 starter ca USD
+usage c-t1 egress 400
+usage c-t2 egress 400
+usage c-t3 egress 400
+tick 30
+invoice run
+report tax_region
+void INV-0002
+report tax_region
+report rev_region
+report tax_period

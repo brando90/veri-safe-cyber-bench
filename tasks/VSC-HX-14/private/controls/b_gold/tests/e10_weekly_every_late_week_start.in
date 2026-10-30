@@ -1,0 +1,6 @@
+event add a "Weekend start" 2024-03-09T09:00 rule=weekly;every=2;on=SA,SU,MO,TU;count=10
+expand a 2024-03-01 2024-06-30
+event add b "Thursday start" 2024-03-07T09:00 rule=weekly;every=4;on=TU,TH
+expand b 2024-03-01 2024-09-30
+event rule b weekly;every=2;on=MO,TH
+expand b 2024-03-01 2024-05-15

@@ -1,0 +1,13 @@
+customer add c-ch1 starter ch CHF
+customer add c-ch2 free ch CHF
+quote c-ch1 requests 8000
+quote c-ch1 requests 5000
+quote c-ch1 requests 38000
+quote c-ch1 logs 1750
+quote c-ch1 logs 1500
+quote c-ch2 requests 8000
+quote c-ch2 cdn 25
+quote c-ch2 egress 30
+quote c-ch2 search 100
+advise c-ch2 requests 20000
+currency list

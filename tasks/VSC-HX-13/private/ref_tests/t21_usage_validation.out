@@ -1,0 +1,49 @@
+customer c-q1 added plan=starter region=de currency=EUR since=0
+day 10 period 0
+customer c-q2 added plan=starter region=de currency=EUR since=10
+error: day 11 is in the future
+error: invalid day 'x'
+error: day 3 is before c-q2 started
+usage c-q2 egress 5 day=10
+usage c-q1 egress 5 day=0
+error: invalid customer id 'a,b'
+usage c-q1 egress 5 day=10
+error: duplicate usage id ok-1
+usage c-q1 logs 5 day=10
+usage c-q2 egress 5 day=10
+error: invalid number '1000001'
+error: invalid number '12abc'
+error: invalid number '-4'
+error: usage: usage ID SERVICE UNITS [day=DAY] [id=TEXT]
+error: option 'colour' is not valid here
+error: option day given twice
+error: unknown service 'nothing'
+error: unknown customer nobody
+day 35 period 1
+invoiced INV-0001 c-q1 period=0 lines=1 total=20.80 EUR
+invoiced INV-0002 c-q2 period=0 lines=1 total=13.88 EUR
+invoice run period=0 invoices=2
+error: period 0 is already invoiced for c-q1
+usage c-q1 egress 5 day=33
+usage c-q1 egress 5 day=35
+error: period 0 is already invoiced for c-q2
+void INV-0001
+usage c-q1 egress 5 day=2
+  egress 5 day=0 id=-
+  egress 5 day=10 id=ok-1
+  logs 5 day=10 id=ok-1
+  egress 5 day=33 id=-
+  egress 5 day=35 id=-
+  egress 5 day=2 id=-
+6 records
+  logs 5 day=10 id=ok-1
+1 records
+usage summary c-q1 period 0 days 0-29
+  egress 15 GB
+  logs 5 MB
+4 records
+usage summary c-q1 period 1 days 30-59
+  egress 10 GB
+2 records
+usage summary c-q1 period 7 days 210-239
+0 records

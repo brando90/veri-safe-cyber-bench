@@ -1,0 +1,24 @@
+customer add c-p0 team de EUR
+tick 10
+customer add c-p10 team de EUR
+tick 19
+customer add c-p29 team de EUR
+tick 1
+customer add c-p30 team de EUR
+tick 1
+usage c-p30 requests 160000
+usage c-p0 requests 160000 day=5
+tick 30
+invoice run 0
+invoice run
+invoice list
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0003
+invoice show INV-0004
+invoice show INV-0005
+invoice show INV-0007
+invoice run
+invoice run 1
+invoice run 2
+invoice run 9

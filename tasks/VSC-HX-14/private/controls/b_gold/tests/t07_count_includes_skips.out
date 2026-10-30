@@ -1,0 +1,20 @@
+added c1 ref=1
+skipped c1 on 2024-04-02
+skipped c1 on 2024-04-04
+2024-04-01 Mon 18:00
+2024-04-03 Wed 18:00
+2024-04-05 Fri 18:00
+3 occurrences
+event c1 ref=1
+  title Course
+  start 2024-04-01T18:00
+  dur 1h tz +00:00 prio 5
+  rule daily;count=5
+  cats -
+  skips 2024-04-02,2024-04-04
+restored c1 on 2024-04-02
+2024-04-01 Mon 18:00
+2024-04-02 Tue 18:00
+2024-04-03 Wed 18:00
+2024-04-05 Fri 18:00
+4 occurrences

@@ -1,0 +1,19 @@
+added room1-z ref=1
+added room1-a ref=2
+added room1 ref=3
+added room01 ref=4
+added room1-a2 ref=5
+added room1-a10 ref=6
+2024-05-06T09:00Z room1 prio=3 "Plain" 1h
+2024-05-06T09:00Z room1-a prio=3 "A" 1h
+2024-05-06T09:00Z room1-a2 prio=3 "A two" 1h
+2024-05-06T09:00Z room1-a10 prio=3 "A ten" 1h
+2024-05-06T09:00Z room1-z prio=3 "Z" 1h
+2024-05-06T09:00Z room01 prio=3 "Zero" 1h
+1 room1-z 2024-05-06T09:00 Z
+2 room1-a 2024-05-06T09:00 A
+3 room1 2024-05-06T09:00 Plain
+4 room01 2024-05-06T09:00 Zero
+5 room1-a2 2024-05-06T09:00 "A two"
+6 room1-a10 2024-05-06T09:00 "A ten"
+6 events

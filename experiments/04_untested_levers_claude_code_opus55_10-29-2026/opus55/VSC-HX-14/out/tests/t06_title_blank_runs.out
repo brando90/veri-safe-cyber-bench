@@ -1,0 +1,12 @@
+"Team sync"
+"a b c"
+added t ref=1
+event t ref=1
+  title "Weekly team sync"
+  start 2024-02-05T10:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats -
+title of t is "Plan review"
+1 t 2024-02-05T10:00 "Plan review"
+1 events

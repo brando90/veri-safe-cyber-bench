@@ -1,0 +1,10 @@
+customer add c-f1 starter fr EUR
+customer add c-f2 starter fr EUR
+customer add c-f3 team fr USD
+usage c-f2 egress 300
+usage c-f3 requests 90000
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0003

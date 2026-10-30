@@ -1,0 +1,60 @@
+customer c-c1 added plan=starter region=de currency=EUR since=0
+customer c-c2 added plan=starter region=de currency=EUR since=0
+customer c-c3 added plan=starter region=de currency=EUR since=0
+coupon c-c3 #1 pct_all
+usage c-c1 egress 400 day=0
+usage c-c2 egress 400 day=0
+customer c-c3 closed
+error: customer c-c3 is already closed
+customer c-c2 closed
+day 30 period 1
+invoiced INV-0001 c-c1 period=0 lines=2 total=34.82 EUR
+invoice run period=0 invoices=1
+  applied INV-0001 34.82
+payment c-c1 100.00 applied=34.82 credit=65.18
+customer c-c1 closed
+error: customer c-c3 is closed
+error: customer c-c1 is closed
+error: customer c-c3 is closed
+error: customer c-c3 is closed
+error: customer c-c3 is closed
+error: customer c-c3 is closed
+error: customer c-c3 is closed
+error: customer c-c3 is closed
+error: customer c-c1 is closed
+error: customer c-c3 is closed
+error: customer c-c3 is closed
+error: customer c-c3 is closed
+error: customer c-c3 is closed
+error: customer c-c3 is closed
+error: customer c-c3 is closed
+error: customer c-c3 is closed
+error: customer c-c3 is closed
+customer c-c3 name=c-c3 plan=starter region=de currency=EUR status=closed
+  since=0 terms=30 exempt=no credit=0.00
+  po=- email=- phone=- note=-
+  coupons=1 plan_changes=0
+  #1 pct_all value=5 until=- n=0 used=0
+1 coupons
+0 records
+statement c-c3 EUR
+  owed=0.00 credit=0.00
+statement c-c1 EUR
+  INV-0001 p0 total=34.82 paid=34.82 refunded=0.00 outstanding=0.00
+  owed=0.00 credit=0.00
+c-c1 starter de EUR closed credit=0.00
+c-c2 starter de EUR closed credit=0.00
+c-c3 starter de EUR closed credit=0.00
+3 customers
+0 customers
+day 60 period 2
+invoice run period=1 invoices=0
+INV-0001 c-c1 p0 total=34.82 outstanding=0.00 paid
+1 invoices
+refund INV-0001 5.00 net_paid=29.82 outstanding=5.00
+  day 0 plan starter
+1 plan entries
+report out_customer
+  c-c1 EUR 5.00
+  total EUR 5.00
+end

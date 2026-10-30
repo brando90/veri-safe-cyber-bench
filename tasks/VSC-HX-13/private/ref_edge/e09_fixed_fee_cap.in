@@ -1,0 +1,15 @@
+customer add c-x1 starter tx USD
+customer add c-x2 starter tx USD
+customer add c-x3 team de EUR
+coupon add c-x1 fixed_fee 25.00
+coupon add c-x2 fixed_fee 3.00
+coupon add c-x3 fixed_fee 100.00
+usage c-x1 egress 400
+usage c-x2 egress 400
+usage c-x3 storage 150000
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0003
+report disc_region

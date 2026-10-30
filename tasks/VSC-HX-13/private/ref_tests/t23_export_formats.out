@@ -1,0 +1,63 @@
+customer c-ex1 added plan=team region=de currency=EUR since=0
+customer c-ex2 added plan=free region=ca currency=USD since=0
+customer c-ex1 po PO, 12
+customer c-ex1 email bill@ex.example
+customer c-ex2 note line one
+usage c-ex1 requests 160000 day=0
+usage c-ex2 logs 9000 day=0
+day 30 period 1
+invoiced INV-0001 c-ex1 period=0 lines=2 total=102.91 EUR
+invoiced INV-0002 c-ex2 period=0 lines=1 total=2.40 USD
+invoice run period=0 invoices=2
+  applied INV-0001 20.00
+payment c-ex1 20.00 applied=20.00 credit=0.00
+refund INV-0001 1.50 net_paid=18.50 outstanding=84.41
+number,customer,period,issued,due,currency,subtotal,discount,tax,late,total,paid,refunded
+INV-0001,c-ex1,0,30,60,EUR,86.48,0.00,16.43,0.00,102.91,20.00,1.50
+INV-0002,c-ex2,0,30,60,USD,2.24,0.00,0.16,0.00,2.40,0.00,0.00
+number	customer	period	issued	due	currency	subtotal	discount	tax	late	total	paid	refunded
+INV-0001	c-ex1	0	30	60	EUR	86.48	0.00	16.43	0.00	102.91	20.00	1.50
+INV-0002	c-ex2	0	30	60	USD	2.24	0.00	0.16	0.00	2.40	0.00	0.00
+seq,day,kind,customer,invoice,amount
+1,30,invoice,c-ex1,INV-0001,102.91
+2,30,invoice,c-ex2,INV-0002,2.40
+3,30,payment,c-ex1,INV-0001,20.00
+4,30,refund,c-ex1,INV-0001,1.50
+seq	day	kind	customer	invoice	amount
+1	30	invoice	c-ex1	INV-0001	102.91
+2	30	invoice	c-ex2	INV-0002	2.40
+3	30	payment	c-ex1	INV-0001	20.00
+4	30	refund	c-ex1	INV-0001	1.50
+seq,day,action,subject,details
+1,0,customer add,c-ex1,team de EUR
+2,0,customer add,c-ex2,free ca USD
+3,0,set po,c-ex1," PO, 12"
+4,0,set email,c-ex1, bill@ex.example
+5,0,set note,c-ex2, line one
+6,30,invoice run,period 0,2
+7,30,pay,c-ex1,2000
+8,30,refund,INV-0001,150
+seq	day	action	subject	details
+1	0	customer add	c-ex1	team de EUR
+2	0	customer add	c-ex2	free ca USD
+3	0	set po	c-ex1	 PO, 12
+4	0	set email	c-ex1	 bill@ex.example
+5	0	set note	c-ex2	 line one
+6	30	invoice run	period 0	2
+7	30	pay	c-ex1	2000
+8	30	refund	INV-0001	150
+id,name,plan,region,currency,status,since,terms,po,email
+c-ex1,"Ex, One & Co",team,de,EUR,active,0,30,"PO, 12",bill@ex.example
+c-ex2,The Quoted Ltd,free,ca,USD,active,0,30,,
+id	name	plan	region	currency	status	since	terms	po	email
+c-ex1	Ex, One & Co	team	de	EUR	active	0	30	PO, 12	bill@ex.example
+c-ex2	The Quoted Ltd	free	ca	USD	active	0	30		
+customer,service,units,day,id
+c-ex1,requests,160000,0,u1
+c-ex2,logs,9000,0,
+customer	service	units	day	id
+c-ex1	requests	160000	0	u1
+c-ex2	logs	9000	0	
+error: unknown export 'nothing'
+error: unknown export format 'xml'
+error: usage: export KIND FORMAT

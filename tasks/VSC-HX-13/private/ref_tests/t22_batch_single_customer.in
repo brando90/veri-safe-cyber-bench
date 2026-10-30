@@ -1,0 +1,21 @@
+customer add c-b1 starter de EUR
+customer add c-b2 starter de EUR
+usage batch c-b1 egress 100 200 300 id=run1
+usage batch c-b1 egress 100 200 id=run1
+usage batch c-b1 egress 50 id=run1x
+usage batch c-b2 egress 100 200 id=other
+usage batch c-b1 egress
+usage batch c-b1 egress 10 0
+usage batch c-b1 egress 10 x
+usage batch c-b1 nothing 10
+usage batch c-b1 egress 7 8 day=99
+usage batch c-b1 egress 7 8 day=0 id=a,b
+usage batch c-b2 logs 10 20 30
+usage batch c-b2 logs 10 20 30
+usage list c-b1
+usage list c-b2
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+usage batch c-b1 egress 5 day=3

@@ -1,0 +1,20 @@
+added a ref=1
+skipped a on 2024-03-11
+skipped a on 2024-03-25
+moved a to 2024-03-07T10:00
+event a ref=1
+  title Weekly
+  start 2024-03-07T10:00
+  dur 1h tz +00:00 prio 5
+  rule weekly
+  cats -
+2024-03-07 Thu 10:00
+2024-03-14 Thu 10:00
+2024-03-21 Thu 10:00
+2024-03-28 Thu 10:00
+2024-04-04 Thu 10:00
+2024-04-11 Thu 10:00
+2024-04-18 Thu 10:00
+2024-04-25 Thu 10:00
+8 occurrences
+error: 2024-03-25 is not an occurrence of a

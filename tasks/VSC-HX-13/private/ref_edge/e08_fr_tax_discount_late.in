@@ -1,0 +1,16 @@
+customer add c-f1 business fr GBP
+customer add c-f2 starter fr EUR
+customer add c-f3 starter fr JPY
+coupon add c-f1 pct_fee 7
+coupon add c-f2 fixed_all 1.23
+usage c-f1 storage 90000
+usage c-f2 egress 77
+usage c-f3 cdn 55
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0003
+report tax_region
+report tax_period
+region show fr

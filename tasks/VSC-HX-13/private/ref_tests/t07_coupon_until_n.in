@@ -1,0 +1,25 @@
+customer add c-u team tx USD
+customer add c-u2 team tx USD
+coupon add c-u pct_all 10 until=29
+coupon add c-u first_periods 20 n=2
+coupon add c-u fixed_all 1.00 until=60
+coupon add c-u2 pct_fee 50 n=5
+coupon list c-u
+tick 100
+usage c-u requests 160000 day=5
+usage c-u requests 160000 day=35
+usage c-u requests 160000 day=65
+usage c-u2 requests 160000 day=5
+invoice run 0
+invoice run 1
+coupon list c-u
+coupon rm c-u 3
+coupon rm c-u 9
+coupon list c-u
+invoice run 2
+invoice show INV-0001
+invoice show INV-0003
+invoice show INV-0004
+coupon rm c-u 1
+coupon list c-u
+coupon list c-u2

@@ -1,0 +1,24 @@
+customer c-s1 added plan=starter region=tx currency=USD since=0
+customer c-s2 added plan=team region=ny currency=USD since=0
+usage c-s1 sms 60 day=0
+usage c-s1 sms 470 day=0
+usage c-s2 sms 20 day=0
+usage c-s2 sms 1000 day=0
+usage c-s2 egress 15 day=0
+day 30 period 1
+invoiced INV-0001 c-s1 period=0 lines=2 total=21.68 USD
+invoiced INV-0002 c-s2 period=0 lines=1 total=85.72 USD
+invoice run period=0 invoices=2
+invoice INV-0001 c-s1 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage sms 530 msg 1.40
+  subtotal 20.40 discount 0.00 tax 1.28 late 0.00 total 21.68 USD
+  paid 0.00 refunded 0.00 outstanding 21.68
+invoice INV-0002 c-s2 period=0 issued=30 due=60 status=open
+  fee plan team days=30 79.00
+  subtotal 79.00 discount 0.00 tax 6.72 late 0.00 total 85.72 USD
+  paid 0.00 refunded 0.00 outstanding 85.72
+report usage_units
+  egress 15 GB
+  sms 1550 msg
+end

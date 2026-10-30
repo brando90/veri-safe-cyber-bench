@@ -1,0 +1,20 @@
+customer add c-d1 starter tx USD
+customer add c-d2 business tx USD
+set terms c-d1 15
+set terms c-d2 45
+usage c-d1 egress 400
+usage c-d2 egress 400
+tick 30
+invoice run
+tick 15
+dun
+tick 1
+dun
+tick 29
+dun
+tick 1
+dun
+invoice list
+report late_customer
+report aging
+ledger kind=late

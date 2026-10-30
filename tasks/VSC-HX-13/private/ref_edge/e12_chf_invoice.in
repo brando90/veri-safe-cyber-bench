@@ -1,0 +1,17 @@
+customer add c-ch1 team ch CHF
+customer add c-ch2 starter on CHF
+customer add c-ch3 free de CHF
+usage c-ch1 requests 8000
+usage c-ch1 requests 7000
+usage c-ch1 logs 1750
+usage c-ch2 requests 20000
+usage c-ch2 cdn 40
+usage c-ch3 requests 8000
+usage c-ch3 logs 1250
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0003
+pay c-ch3 1.00
+statement c-ch3

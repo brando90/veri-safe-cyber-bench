@@ -1,0 +1,14 @@
+2024-01-01T10:15 given 2024-01-01T10:15:29
+2024-01-01T11:00 given 2024-01-01T10:59:30
+2025-01-01T00:00 given 2024-12-31T23:59:30
+2024-02-29T00:00 given 2024-02-28T23:59:45
+error: date out of range
+added ny ref=1
+event ny ref=1
+  title "New year"
+  start 2024-01-01T00:00 (given 2023-12-31T23:59:40)
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats -
+1 ny 2024-01-01T00:00 "New year"
+1 events

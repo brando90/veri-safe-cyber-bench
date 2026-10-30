@@ -1,0 +1,72 @@
+customer c-l1 added plan=starter region=de currency=EUR since=0
+customer c-l2 added plan=business region=de currency=EUR since=0
+customer c-l3 added plan=starter region=uk currency=GBP since=0
+customer c-l3 terms 10
+usage c-l1 egress 400 day=0
+usage c-l2 storage 900000 day=0
+usage c-l2 egress 6000 day=0
+usage c-l3 egress 400 day=0
+day 30 period 1
+invoiced INV-0001 c-l1 period=0 lines=2 total=34.82 EUR
+invoiced INV-0002 c-l2 period=0 lines=3 total=450.18 EUR
+invoiced INV-0003 c-l3 period=0 lines=2 total=30.14 GBP
+invoice run period=0 invoices=3
+INV-0001 c-l1 p0 total=34.82 outstanding=34.82 open
+INV-0002 c-l2 p0 total=450.18 outstanding=450.18 open
+INV-0003 c-l3 p0 total=30.14 outstanding=30.14 open
+3 invoices
+day 35 period 1
+dun applied=0
+day 75 period 2
+late INV-0001 fee=1.80
+late INV-0002 fee=6.75
+late INV-0003 fee=1.50
+dun applied=3
+dun applied=0
+invoice INV-0001 c-l1 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  usage egress 400 GB 11.78
+  late late fee day=75 1.80
+  subtotal 29.26 discount 0.00 tax 5.56 late 1.80 total 36.62 EUR
+  paid 0.00 refunded 0.00 outstanding 36.62
+invoice INV-0002 c-l2 period=0 issued=30 due=60 status=open
+  fee plan business days=30 183.08
+  usage egress 6000 GB 136.16
+  usage storage 900000 GB-h 59.06
+  late late fee day=75 6.75
+  subtotal 378.30 discount 0.00 tax 71.88 late 6.75 total 456.93 EUR
+  paid 0.00 refunded 0.00 outstanding 456.93
+invoice INV-0003 c-l3 period=0 issued=30 due=40 status=open
+  fee plan starter days=30 15.01
+  usage egress 400 GB 10.11
+  late late fee day=75 1.50
+  subtotal 25.12 discount 0.00 tax 5.02 late 1.50 total 31.64 GBP
+  paid 0.00 refunded 0.00 outstanding 31.64
+  applied INV-0001 20.00
+payment c-l1 20.00 applied=20.00 credit=0.00
+day 76 period 2
+dun applied=0
+  applied INV-0001 16.62
+payment c-l1 100.00 applied=16.62 credit=83.38
+day 136 period 4
+dun applied=0
+INV-0001 c-l1 p0 total=36.62 outstanding=0.00 paid
+INV-0002 c-l2 p0 total=456.93 outstanding=456.93 open
+INV-0003 c-l3 p0 total=31.64 outstanding=31.64 open
+3 invoices
+report late_customer
+  c-l1 EUR 1.80
+  c-l2 EUR 6.75
+  c-l3 GBP 1.50
+  total EUR 8.55
+  total GBP 1.50
+end
+report late_customer
+  c-l1 EUR 1.80
+  c-l2 EUR 6.75
+  total EUR 8.55
+end
+4 day=75 late c-l1 INV-0001 1.80
+5 day=75 late c-l2 INV-0002 6.75
+6 day=75 late c-l3 INV-0003 1.50
+3 entries

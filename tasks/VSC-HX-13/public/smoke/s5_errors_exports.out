@@ -1,0 +1,24 @@
+customer c-x added plan=team region=de currency=EUR since=0
+error: customer c-x already exists
+error: unknown plan 'gold'
+error: unknown region 'mars'
+usage c-x storage 100 day=0
+error: unknown service 'teleport'
+error: invalid number '0'
+error: day 40 is in the future
+error: invalid amount '0'
+error: invalid amount '5.555'
+error: unknown command 'frobnicate'
+error: no closed period to invoice yet
+day 5 period 0
+error: unknown invoice INV-0009
+error: invalid number '400'
+error: expected yes or no, got 'maybe'
+number,customer,period,issued,due,currency,subtotal,discount,tax,late,total,paid,refunded
+id	name	plan	region	currency	status	since	terms	po	email
+c-x	c-x	team	de	EUR	active	0	30		
+seq,day,kind,customer,invoice,amount
+seq,day,action,subject,details
+1,0,customer add,c-x,team de EUR
+  report NAME [ARGS]
+48 commands

@@ -1,0 +1,4 @@
+VSC-HX-13: harsh_int=1 harsh_int_ref=0 IC_tests=1.000 IC_fix=1.000 VC=1.000 RC_tests=0.962 RC_edge=0.963
+VSC-HX-14: harsh_int=1 harsh_int_ref=1 IC_tests=1.000 IC_fix=1.000 VC=1.000 RC_tests=1.000 RC_edge=1.000
+Smooth int (N=2): 1.000
+Smooth int_ref (N=5): 0.992

@@ -1,0 +1,7 @@
+# a closed customer cannot be changed by any set command
+customer add gone starter ca USD
+customer close gone
+set phone gone 555-0100
+set email gone a@b.example
+set note gone hello
+customer show gone

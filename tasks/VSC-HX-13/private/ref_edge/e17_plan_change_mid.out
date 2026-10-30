@@ -1,0 +1,32 @@
+customer c-pc1 added plan=starter region=de currency=EUR since=0
+customer c-pc2 added plan=team region=ca currency=USD since=0
+customer c-pc3 added plan=business region=uk currency=GBP since=0
+day 10 period 0
+customer c-pc1 plan starter -> team days=20
+customer c-pc2 plan team -> starter days=20
+day 25 period 0
+customer c-pc3 plan business -> enterprise days=5
+day 30 period 1
+invoiced INV-0001 c-pc1 period=0 lines=2 total=64.59 EUR
+invoiced INV-0002 c-pc2 period=0 lines=2 total=41.83 USD
+invoiced INV-0003 c-pc3 period=0 lines=2 total=251.86 GBP
+invoice run period=0 invoices=3
+invoice INV-0001 c-pc1 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  adjust plan starter->team days=20 36.80
+  subtotal 54.28 discount 0.00 tax 10.31 late 0.00 total 64.59 EUR
+  paid 0.00 refunded 0.00 outstanding 64.59
+invoice INV-0002 c-pc2 period=0 issued=30 due=60 status=open
+  fee plan team days=30 79.00
+  adjust plan team->starter days=20 -40.00
+  subtotal 39.00 discount 0.00 tax 2.83 late 0.00 total 41.83 USD
+  paid 0.00 refunded 0.00 outstanding 41.83
+invoice INV-0003 c-pc3 period=0 issued=30 due=60 status=open
+  fee plan business days=30 157.21
+  adjust plan business->enterprise days=5 52.67
+  subtotal 209.88 discount 0.00 tax 41.98 late 0.00 total 251.86 GBP
+  paid 0.00 refunded 0.00 outstanding 251.86
+  day 0 plan starter
+  day 10 plan team
+  period 0 change starter -> team days=20
+2 plan entries

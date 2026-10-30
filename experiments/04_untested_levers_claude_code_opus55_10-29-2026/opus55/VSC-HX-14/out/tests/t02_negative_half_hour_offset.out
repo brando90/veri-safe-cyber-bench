@@ -1,0 +1,14 @@
+-00:30 -30
+-00:30 -30
+-09:30 -570
++05:30 330
+added call ref=1
+event call ref=1
+  title Call
+  start 2024-03-01T10:00
+  dur 1h tz -00:30 prio 5
+  rule -
+  cats -
+2024-03-01T10:30Z call prio=5 "Call" 1h
+E|call|1|Call|2024-03-01T10:00|1709287200|1h||-00:30||5||
+# 1 events

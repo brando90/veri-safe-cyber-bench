@@ -1,0 +1,25 @@
+added d ref=1
+skipped d on 2024-01-05
+moved d to 2024-01-02T09:00
+event d ref=1
+  title Standup
+  start 2024-01-02T09:00
+  dur 1h tz +00:00 prio 5
+  rule daily;every=2
+  cats -
+added w ref=2
+skipped w on 2024-01-15
+skipped w on 2024-01-29
+moved w to 2024-01-22T14:00
+event w ref=2
+  title Review
+  start 2024-01-22T14:00
+  dur 1h tz +00:00 prio 5
+  rule weekly
+  cats -
+  skips 2024-01-29
+2024-01-22 Mon 14:00
+2024-02-05 Mon 14:00
+2024-02-12 Mon 14:00
+3 occurrences
+check ok (2 events)

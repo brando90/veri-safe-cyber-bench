@@ -1,0 +1,7 @@
+customer add c-es starter es EUR
+set exempt c-es yes
+usage c-es egress 300
+usage c-es logs 5000
+tick 30
+invoice run
+invoice show INV-0001

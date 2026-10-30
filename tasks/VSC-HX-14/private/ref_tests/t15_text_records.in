@@ -1,0 +1,12 @@
+event add r1 "First" 2024-03-04T10:00 dur=90m rule=weekly;on=MO,TH tz=+05:30 prio=7 cat=a,b
+skip r1 2024-03-07
+export text
+import rec "E|r2|40|Second|2024-04-01T09:00|1711962000|1h||+00:00||5||"
+import rec "E|r3|41|Third \p pipe|2024-04-02T00:00|1712016000|1d||+00:00|allday|5|x\\,y,z|"
+import rec "E|r4|42|Bad|2024-04-02T10:00|0|1h||+00:00||5||"
+import rec "E|r1|43|Dup|2024-04-02T10:00|1712052000|1h||+00:00||5||"
+import rec "garbage"
+export text
+event show r3
+event add - "after import" 2024-04-05T10:00
+list

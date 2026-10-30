@@ -1,0 +1,6 @@
+event add room1b10 "Ten" 2024-05-02T09:00
+event add room1b2 "Two" 2024-05-02T09:00
+event add room1b02 "Two again" 2024-05-02T09:00
+event add room1b1x "One" 2024-05-02T09:00
+agenda 2024-05-02 2024-05-02
+check

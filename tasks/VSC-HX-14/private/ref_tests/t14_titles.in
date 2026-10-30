@@ -1,0 +1,13 @@
+title "  plain  words here  "
+title "tab	separated		words"
+title "a  b"
+title "non breaking  space stays"
+title "café  crème"
+title ""
+title "back\slash and | bar"
+event add t1 "  Weekly  sync  " 2024-03-04T10:00
+event add t2 "Pipe | and \ slash" 2024-03-04T11:00
+event retitle t1 "Renamed  twice"
+event show t1
+event show t2
+export text

@@ -1,0 +1,21 @@
+customer add c-e1 team es EUR
+customer add c-e2 team es EUR
+customer add c-e3 team es EUR
+set exempt c-e1 yes
+set exempt c-e3 yes
+usage c-e1 requests 90000
+usage c-e2 requests 90000
+usage c-e3 requests 90000
+coupon add c-e3 pct_all 10
+tick 30
+invoice run
+set exempt c-e1 no
+set exempt c-e2 yes
+usage c-e1 requests 90000
+usage c-e2 requests 90000
+tick 30
+invoice run
+invoice list
+invoice show INV-0003
+invoice show INV-0004
+report tax_period

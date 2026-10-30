@@ -1,0 +1,54 @@
+customer c-q added plan=free region=tx currency=USD since=0
+quote c-q queue plan=free
+  units=1600 allowance=100 billable=1500 blocks=30
+  blocks 1-30 x 16
+  charge 4.80 USD
+quote c-q queue plan=free
+  units=1601 allowance=100 billable=1501 blocks=31
+  blocks 1-30 x 16
+  blocks 31-31 x 13
+  charge 4.93 USD
+quote c-q queue plan=free
+  units=1650 allowance=100 billable=1550 blocks=31
+  blocks 1-30 x 16
+  blocks 31-31 x 13
+  charge 4.93 USD
+quote c-q queue plan=free
+  units=1651 allowance=100 billable=1551 blocks=32
+  blocks 1-30 x 16
+  blocks 31-32 x 13
+  charge 5.06 USD
+quote c-q queue plan=free
+  units=6100 allowance=100 billable=6000 blocks=120
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  charge 16.50 USD
+quote c-q queue plan=free
+  units=6101 allowance=100 billable=6001 blocks=121
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-121 x 10
+  charge 16.60 USD
+quote c-q queue plan=free
+  units=7600 allowance=100 billable=7500 blocks=150
+  blocks 1-30 x 16
+  blocks 31-120 x 13
+  blocks 121-150 x 10
+  charge 19.50 USD
+quote c-q queue plan=free
+  units=100 allowance=100 billable=0 blocks=0
+  charge 0.00 USD
+quote c-q queue plan=free
+  units=150 allowance=100 billable=50 blocks=1
+  blocks 1-1 x 16
+  charge 0.16 USD
+quote c-q queue plan=free
+  units=151 allowance=100 billable=51 blocks=2
+  blocks 1-2 x 16
+  charge 0.32 USD
+service queue Message queue
+  unit=kmsg block=50 mode=ceil min=0
+  tier from=1 upto=30 price=16
+  tier from=31 upto=120 price=13
+  tier from=121 price=10
+  allowance free=100 starter=400 team=1200 business=4000 enterprise=15000

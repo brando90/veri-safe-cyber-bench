@@ -1,0 +1,33 @@
+customer add c-e1 starter ca USD
+customer add c-e2 starter de EUR
+customer add c-e3 starter uk GBP
+customer add c-e4 starter ny USD
+customer add c-e5 starter ch USD
+set exempt c-e1 yes
+set exempt c-e2 yes
+set exempt c-e4 yes
+set exempt c-e5 yes
+usage c-e1 egress 300
+usage c-e2 egress 300
+usage c-e3 egress 300
+usage c-e4 egress 300
+usage c-e5 egress 300
+tick 30
+invoice run
+set exempt c-e2 no
+set exempt c-e3 yes
+usage c-e1 egress 300 day=30
+usage c-e2 egress 300 day=30
+usage c-e3 egress 300 day=30
+tick 30
+invoice run
+invoice list
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0003
+invoice show INV-0004
+invoice show INV-0005
+invoice show INV-0006
+invoice show INV-0007
+invoice show INV-0008
+report tax_period

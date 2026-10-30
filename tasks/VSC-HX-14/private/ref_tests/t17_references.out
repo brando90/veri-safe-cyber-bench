@@ -1,0 +1,43 @@
+0
+Z
+10
+ZZ
+100
+ZZZ
+1000
+10000
+error: invalid number '1099511627776'
+32
+1023
+1056
+0
+error: usage: unref TEXT
+error: invalid reference '11111111111'
+error: invalid reference '1u'
+error: invalid number '-1'
+error: invalid number '1125899906842624'
+error: invalid number 'x'
+next sequence is 31 (Z)
+added EZ ref=Z
+added E10 ref=10
+added E11 ref=11
+Z EZ 2024-03-04T10:00 "thirty one"
+10 E10 2024-03-04T11:00 "thirty two"
+11 E11 2024-03-04T12:00 "thirty three"
+3 events
+error: unknown event #1Z
+event E10 ref=10
+  title "thirty two"
+  start 2024-03-04T11:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats -
+event E10 ref=10
+  title "thirty two"
+  start 2024-03-04T11:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats -
+error: invalid reference '#'
+error: sequence 5 is below the next free number 34
+error: invalid number '99999999999999999'

@@ -1,0 +1,14 @@
+1125899906842623
+1125899906842622
+next sequence is 1125899906842622 (ZZZZZZZZZY)
+added EZZZZZZZZZY ref=ZZZZZZZZZY
+added top ref=ZZZZZZZZZZ
+ZZZZZZZZZY EZZZZZZZZZY 2024-01-01T10:00 "Last ones"
+ZZZZZZZZZZ top 2024-01-01T11:00 Top
+2 events
+event top ref=ZZZZZZZZZZ
+  title Top
+  start 2024-01-01T11:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats -

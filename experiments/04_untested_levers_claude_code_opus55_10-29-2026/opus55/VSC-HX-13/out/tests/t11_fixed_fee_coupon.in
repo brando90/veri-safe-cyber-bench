@@ -1,0 +1,8 @@
+# fixed_fee only takes off the plan fee lines
+customer add promo starter tx USD
+coupon add promo fixed_fee 50
+usage promo egress 500
+tick 30
+invoice run
+invoice show INV-0001
+coupon list promo

@@ -1,0 +1,10 @@
+# tier limits are inclusive (queue: upto=30 covers blocks 1-30)
+customer add mq free ca USD
+service show queue
+quote mq queue 1600
+quote mq queue 1650
+quote mq queue 6100
+usage mq queue 1650
+tick 30
+invoice run
+invoice show INV-0001

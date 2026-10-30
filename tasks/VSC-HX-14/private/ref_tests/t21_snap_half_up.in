@@ -1,0 +1,14 @@
+snap 2024-03-04T10:30:00
+snap 2024-03-04T10:30:29
+snap 2024-03-04T10:30:30
+snap 2024-03-04T10:59:30
+snap 2024-03-04T11:59:45
+snap 2024-03-04T00:00:59
+snap 2024-03-04T12:00:60
+snap 2024-02-30T10:00
+snap 2024-03-04T24:00
+snap 9999-12-31T23:59:29
+event add q1 "Seconds" 2024-03-04T10:30:45
+event show q1
+event add q2 "Seconds all" 2024-03-04T12:59:30 tz=+01:00
+event show q2

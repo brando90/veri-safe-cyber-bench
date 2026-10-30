@@ -1,0 +1,8 @@
+snap 2024-01-01T10:15:29
+snap 2024-01-01T10:59:30
+snap 2024-12-31T23:59:30
+snap 2024-02-28T23:59:45
+snap 9999-12-31T23:59:30
+event add ny "New year" 2023-12-31T23:59:40
+event show ny
+list

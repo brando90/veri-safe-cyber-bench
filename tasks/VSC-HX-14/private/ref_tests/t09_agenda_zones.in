@@ -1,0 +1,7 @@
+event add z1 "Berlin" 2024-05-06T01:30 tz=+02:00
+event add z2 "New York" 2024-05-05T21:30 tz=-04:00
+event add z3 "Delhi" 2024-05-06T07:00 tz=+05:30 prio=1
+event add z4 "Floating" 2024-05-06 allday=yes tz=+09:00
+agenda 2024-05-05 2024-05-06
+agenda 2024-05-06 2024-05-06
+busy 2024-05-05 2024-05-06

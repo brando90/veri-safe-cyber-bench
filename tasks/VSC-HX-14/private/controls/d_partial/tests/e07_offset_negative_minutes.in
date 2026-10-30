@@ -1,0 +1,10 @@
+offset -00:30
+offset -00:45
+offset -0015
+offset -00:59
+offset -01:00
+offset -00:00
+event add a "Odd zone" 2024-03-04T10:00 tz=-00:30
+event show a
+export text
+agenda 2024-03-04 2024-03-04

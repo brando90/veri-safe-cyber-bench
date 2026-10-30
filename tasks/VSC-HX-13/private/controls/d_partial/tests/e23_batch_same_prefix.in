@@ -1,0 +1,8 @@
+customer add c-b1 starter de EUR
+customer add c-b2 starter de EUR
+usage batch c-b1 egress 10 20 id=run
+usage batch c-b2 egress 10 20 id=run
+usage batch c-b1 egress 5 id=run
+usage batch c-b2 logs 5 6 id=run
+usage list c-b1
+usage list c-b2

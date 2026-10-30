@@ -1,0 +1,13 @@
+added z1 ref=1
+added z2 ref=2
+added z3 ref=3
+added z4 ref=4
+2024-05-05T23:30Z z1 prio=5 "Berlin" 1h
+2024-05-06 z4 prio=5 "Floating" 1d
+2024-05-06T01:30Z z2 prio=5 "New York" 1h
+2024-05-06T01:30Z z3 prio=1 "Delhi" 1h
+2024-05-06 z4 prio=5 "Floating" 1d
+2024-05-06T01:30Z z2 prio=5 "New York" 1h
+2024-05-06T01:30Z z3 prio=1 "Delhi" 1h
+2024-05-05T23:30Z 2024-05-07T00:00Z 1d30m
+busy 1d30m in 1 spans

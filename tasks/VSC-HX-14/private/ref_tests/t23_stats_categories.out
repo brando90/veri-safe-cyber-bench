@@ -1,0 +1,34 @@
+added c1 ref=1
+added c2 ref=2
+added c3 ref=3
+added c4 ref=4
+added c5 ref=5
+added c6 ref=6
+events 6, recurring 0, all-day 0
+category work 3
+category ops 2
+category team 2
+category zeta 2
+category alpha 1
+earliest c1 2024-01-01
+latest c6 2024-05-01
+span 121 days (17 weeks)
+skips 0
+cats of c1 are -
+cats of c3 are a\,b,c
+event c3 ref=3
+  title Three
+  start 2024-03-01T10:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats a\,b,c
+events 6, recurring 0, all-day 0
+category zeta 2
+category a,b 1
+category alpha 1
+category c 1
+category ops 1
+earliest c1 2024-01-01
+latest c6 2024-05-01
+span 121 days (17 weeks)
+skips 0

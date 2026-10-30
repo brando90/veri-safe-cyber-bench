@@ -1,0 +1,5 @@
+event add gym "Gym" 2024-01-03T18:00 rule=weekly;every=2;on=MO,FR
+expand gym 2024-01-01 2024-02-11
+event add run "Run" 2024-01-06T07:00 rule=weekly;every=3;on=MO,SA;count=4
+expand run 2024-01-01 2024-03-31
+check

@@ -1,0 +1,22 @@
+# payments, credit, a refund, a void and late fees
+customer add c-pay starter de EUR
+customer add c-two team uk GBP
+set terms c-two 14
+usage c-pay storage 30000
+usage c-pay egress 400
+usage c-two compute 900
+tick 30
+invoice run
+pay c-pay 10
+pay c-pay 15.50 inv=INV-0001
+credit add c-two 20
+refund INV-0001 5
+statement c-pay
+tick 40
+dun
+dun
+invoice list state=open
+pay c-two 50
+void INV-0002
+ledger c-pay
+audit 6

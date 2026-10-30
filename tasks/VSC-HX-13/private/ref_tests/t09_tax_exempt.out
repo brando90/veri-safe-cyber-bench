@@ -1,0 +1,90 @@
+customer c-e1 added plan=starter region=ca currency=USD since=0
+customer c-e2 added plan=starter region=de currency=EUR since=0
+customer c-e3 added plan=starter region=uk currency=GBP since=0
+customer c-e4 added plan=starter region=ny currency=USD since=0
+customer c-e5 added plan=starter region=ch currency=USD since=0
+customer c-e1 exempt yes
+customer c-e2 exempt yes
+customer c-e4 exempt yes
+customer c-e5 exempt yes
+usage c-e1 egress 300 day=0
+usage c-e2 egress 300 day=0
+usage c-e3 egress 300 day=0
+usage c-e4 egress 300 day=0
+usage c-e5 egress 300 day=0
+day 30 period 1
+invoiced INV-0001 c-e1 period=0 lines=2 total=27.80 USD
+invoiced INV-0002 c-e2 period=0 lines=2 total=25.58 EUR
+invoiced INV-0003 c-e3 period=0 lines=2 total=26.35 GBP
+invoiced INV-0004 c-e4 period=0 lines=2 total=27.80 USD
+invoiced INV-0005 c-e5 period=0 lines=2 total=27.80 USD
+invoice run period=0 invoices=5
+customer c-e2 exempt no
+customer c-e3 exempt yes
+usage c-e1 egress 300 day=30
+usage c-e2 egress 300 day=30
+usage c-e3 egress 300 day=30
+day 60 period 2
+invoiced INV-0006 c-e1 period=1 lines=2 total=27.80 USD
+invoiced INV-0007 c-e2 period=1 lines=2 total=30.44 EUR
+invoiced INV-0008 c-e3 period=1 lines=2 total=21.96 GBP
+invoiced INV-0009 c-e4 period=1 lines=1 total=19.00 USD
+invoiced INV-0010 c-e5 period=1 lines=1 total=19.00 USD
+invoice run period=1 invoices=5
+INV-0001 c-e1 p0 total=27.80 outstanding=27.80 open
+INV-0002 c-e2 p0 total=25.58 outstanding=25.58 open
+INV-0003 c-e3 p0 total=26.35 outstanding=26.35 open
+INV-0004 c-e4 p0 total=27.80 outstanding=27.80 open
+INV-0005 c-e5 p0 total=27.80 outstanding=27.80 open
+INV-0006 c-e1 p1 total=27.80 outstanding=27.80 open
+INV-0007 c-e2 p1 total=30.44 outstanding=30.44 open
+INV-0008 c-e3 p1 total=21.96 outstanding=21.96 open
+INV-0009 c-e4 p1 total=19.00 outstanding=19.00 open
+INV-0010 c-e5 p1 total=19.00 outstanding=19.00 open
+10 invoices
+invoice INV-0001 c-e1 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage egress 300 GB 8.80
+  subtotal 27.80 discount 0.00 tax 0.00 late 0.00 total 27.80 USD
+  paid 0.00 refunded 0.00 outstanding 27.80
+invoice INV-0002 c-e2 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  usage egress 300 GB 8.10
+  subtotal 25.58 discount 0.00 tax 0.00 late 0.00 total 25.58 EUR
+  paid 0.00 refunded 0.00 outstanding 25.58
+invoice INV-0003 c-e3 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 15.01
+  usage egress 300 GB 6.95
+  subtotal 21.96 discount 0.00 tax 4.39 late 0.00 total 26.35 GBP
+  paid 0.00 refunded 0.00 outstanding 26.35
+invoice INV-0004 c-e4 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage egress 300 GB 8.80
+  subtotal 27.80 discount 0.00 tax 0.00 late 0.00 total 27.80 USD
+  paid 0.00 refunded 0.00 outstanding 27.80
+invoice INV-0005 c-e5 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage egress 300 GB 8.80
+  subtotal 27.80 discount 0.00 tax 0.00 late 0.00 total 27.80 USD
+  paid 0.00 refunded 0.00 outstanding 27.80
+invoice INV-0006 c-e1 period=1 issued=60 due=90 status=open
+  fee plan starter days=30 19.00
+  usage egress 300 GB 8.80
+  subtotal 27.80 discount 0.00 tax 0.00 late 0.00 total 27.80 USD
+  paid 0.00 refunded 0.00 outstanding 27.80
+invoice INV-0007 c-e2 period=1 issued=60 due=90 status=open
+  fee plan starter days=30 17.48
+  usage egress 300 GB 8.10
+  subtotal 25.58 discount 0.00 tax 4.86 late 0.00 total 30.44 EUR
+  paid 0.00 refunded 0.00 outstanding 30.44
+invoice INV-0008 c-e3 period=1 issued=60 due=90 status=open
+  fee plan starter days=30 15.01
+  usage egress 300 GB 6.95
+  subtotal 21.96 discount 0.00 tax 0.00 late 0.00 total 21.96 GBP
+  paid 0.00 refunded 0.00 outstanding 21.96
+report tax_period
+  p00 GBP 4.39
+  p01 EUR 4.86
+  total EUR 4.86
+  total GBP 4.39
+end

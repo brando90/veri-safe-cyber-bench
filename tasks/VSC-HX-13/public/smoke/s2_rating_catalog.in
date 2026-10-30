@@ -1,0 +1,19 @@
+# service catalogue, quotes and plan advice
+service list
+service show storage
+plan show team
+region show de
+region list
+currency list
+customer add c-one free tx USD
+quote c-one egress 300
+quote c-one storage 9000
+quote c-one logs 20000
+advise c-one egress 600
+usage c-one storage 9000
+usage c-one egress 300
+usage c-one cache 900
+usage c-one dns 5000
+tick 31
+invoice run
+invoice show INV-0001

@@ -1,0 +1,58 @@
+customer c-u added plan=team region=tx currency=USD since=0
+customer c-u2 added plan=team region=tx currency=USD since=0
+coupon c-u #1 pct_all
+coupon c-u #2 first_periods
+coupon c-u #3 fixed_all
+coupon c-u2 #1 pct_fee
+  #1 pct_all value=10 until=29 n=0 used=0
+  #2 first_periods value=20 until=- n=2 used=0
+  #3 fixed_all value=100 until=60 n=0 used=0
+3 coupons
+day 100 period 3
+usage c-u requests 160000 day=5
+usage c-u requests 160000 day=35
+usage c-u requests 160000 day=65
+usage c-u2 requests 160000 day=5
+invoiced INV-0001 c-u period=0 lines=2 total=68.85 USD
+invoiced INV-0002 c-u2 period=0 lines=2 total=57.91 USD
+invoice run period=0 invoices=2
+invoiced INV-0003 c-u period=1 lines=2 total=78.84 USD
+invoiced INV-0004 c-u2 period=1 lines=1 total=41.97 USD
+invoice run period=1 invoices=2
+  #1 pct_all value=10 until=29 n=0 used=1
+  #2 first_periods value=20 until=- n=2 used=2
+  #3 fixed_all value=100 until=60 n=0 used=2
+3 coupons
+coupon c-u removed fixed_all
+error: customer c-u has no coupon 9
+  #1 pct_all value=10 until=29 n=0 used=1
+  #2 first_periods value=20 until=- n=2 used=2
+2 coupons
+invoiced INV-0005 c-u period=2 lines=2 total=99.88 USD
+invoiced INV-0006 c-u2 period=2 lines=1 total=41.97 USD
+invoice run period=2 invoices=2
+invoice INV-0001 c-u period=0 issued=100 due=130 status=open
+  fee plan team days=30 79.00
+  usage requests 160000 req 15.00
+  discount pct_all -9.40
+  discount first_periods -18.80
+  discount fixed_all -1.00
+  subtotal 94.00 discount 29.20 tax 4.05 late 0.00 total 68.85 USD
+  paid 0.00 refunded 0.00 outstanding 68.85
+invoice INV-0003 c-u period=1 issued=100 due=130 status=open
+  fee plan team days=30 79.00
+  usage requests 160000 req 15.00
+  discount first_periods -18.80
+  discount fixed_all -1.00
+  subtotal 94.00 discount 19.80 tax 4.64 late 0.00 total 78.84 USD
+  paid 0.00 refunded 0.00 outstanding 78.84
+invoice INV-0004 c-u2 period=1 issued=100 due=130 status=open
+  fee plan team days=30 79.00
+  discount pct_fee -39.50
+  subtotal 79.00 discount 39.50 tax 2.47 late 0.00 total 41.97 USD
+  paid 0.00 refunded 0.00 outstanding 41.97
+coupon c-u removed pct_all
+  #1 first_periods value=20 until=- n=2 used=2
+1 coupons
+  #1 pct_fee value=50 until=- n=5 used=3
+1 coupons

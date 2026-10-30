@@ -1,0 +1,20 @@
+added p0 ref=1
+pack 3e05 011ae102703001c6b602d804901c00000500084578697374696e6700
+imported 2 events
+1 p0 2024-06-01T10:00 Existing
+1J n1 2024-06-10T09:00 "Packed one" rule=weekly;on=MO,FR
+1K n2 2024-06-11 "Packed two"
+3 events
+event n1 ref=1J
+  title "Packed one"
+  start 2024-06-10T09:00
+  dur 30m tz +02:00 prio 4
+  rule weekly;on=MO,FR
+  cats x,y
+  skips 2024-06-14
+pack 07be 031ae102703001c6b602d804901c00000500084578697374696e670034e1026e3132d8b6029c04880ef001020402017801790a5061636b6564206f6e650f7765656b6c793b6f6e3d4d4f2c465201e0b6021ce1026e3233dab6020080a305000109000a5061636b65642074776f00
+error: checksum mismatch
+error: invalid hex data
+error: invalid hex data
+imported 0 events
+check ok (3 events)

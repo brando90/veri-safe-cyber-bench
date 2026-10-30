@@ -1,0 +1,4012 @@
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+added ev2 ref=1
+added ev3 ref=2
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+added E3 ref=3
+added ev6 ref=4
+added ev7 ref=5
+title of ev3 is Demo
+20615
+moved E3 to 2024-03-24T18:00
+title of ev6 is "Interview A"
+2025-05-11 Sun 20:15
+1 occurrences
+2025-05-11 Sun 20:15
+1 occurrences
+skipped ev6 on 2029-04-14
+2025-05-11 Sun 20:15
+1 occurrences
+no events
+event ev3 ref=2
+  title Demo
+  start 2025-05-11T20:15
+  dur 1h30m tz +12:45 prio 5
+  rule -
+  cats social,health
+no events
+added ev8 ref=6
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+no events
+title of ev6 is "Sync B"
+title of ev6 is Call
+event ev8 ref=6
+  title Planning
+  start 2026-06-14T18:45
+  dur 30m tz +00:00 prio 5
+  rule yearly
+  cats ops
+added E7 ref=7
+E|ev2|1|Planning|2024-05-15T21:35|1715808900|45m|daily;until=2024-10-15|-05:00||2|ops|
+E|ev3|2|Demo|2025-05-11T20:15|1746994500|1h30m||+12:45||5|social,health|
+E|E3|3|Roadmap|2024-03-24T18:00|1711303229|3h||+05:30||5||
+E|ev6|4|Call|2023-04-14T20:00|1681502400|1h30m|yearly;every=3|+00:00||3|health,travel,team|2029-04-14
+E|ev7|5|Review|2026-07-19T21:25|1784496300|30m|monthly;every=3;monthday=30|-05:00||5|ops,health|
+E|ev8|6|Planning|2026-06-14T18:45|1781462700|30m|yearly|+00:00||5|ops|
+E|E7|7|Budget|2025-10-07T17:35|1759858500|45s|monthly;every=3;monthday=15|+00:00||4|travel|
+# 7 events
+moved E3 to 2024-09-24T09:05
+event ev7 ref=5
+  title Review
+  start 2026-07-19T21:25
+  dur 30m tz -05:00 prio 5
+  rule monthly;every=3;monthday=30
+  cats ops,health
+added ev11 ref=8
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+added ev13 ref=9
+title of E3 is Checkin
+2024-05-15 Wed 21:35
+2024-05-16 Thu 21:35
+2024-05-17 Fri 21:35
+2024-05-18 Sat 21:35
+2024-05-19 Sun 21:35
+2024-05-20 Mon 21:35
+2024-05-21 Tue 21:35
+2024-05-22 Wed 21:35
+2024-05-23 Thu 21:35
+2024-05-24 Fri 21:35
+2024-05-25 Sat 21:35
+2024-05-26 Sun 21:35
+2024-05-27 Mon 21:35
+2024-05-28 Tue 21:35
+2024-05-29 Wed 21:35
+2024-05-30 Thu 21:35
+2024-05-31 Fri 21:35
+2024-06-01 Sat 21:35
+2024-06-02 Sun 21:35
+2024-06-03 Mon 21:35
+2024-06-04 Tue 21:35
+2024-06-05 Wed 21:35
+2024-06-06 Thu 21:35
+2024-06-07 Fri 21:35
+2024-06-08 Sat 21:35
+2024-06-09 Sun 21:35
+2024-06-10 Mon 21:35
+2024-06-11 Tue 21:35
+2024-06-12 Wed 21:35
+2024-06-13 Thu 21:35
+2024-06-14 Fri 21:35
+2024-06-15 Sat 21:35
+2024-06-16 Sun 21:35
+2024-06-17 Mon 21:35
+2024-06-18 Tue 21:35
+2024-06-19 Wed 21:35
+2024-06-20 Thu 21:35
+2024-06-21 Fri 21:35
+2024-06-22 Sat 21:35
+2024-06-23 Sun 21:35
+2024-06-24 Mon 21:35
+2024-06-25 Tue 21:35
+2024-06-26 Wed 21:35
+2024-06-27 Thu 21:35
+2024-06-28 Fri 21:35
+2024-06-29 Sat 21:35
+2024-06-30 Sun 21:35
+2024-07-01 Mon 21:35
+2024-07-02 Tue 21:35
+2024-07-03 Wed 21:35
+2024-07-04 Thu 21:35
+2024-07-05 Fri 21:35
+2024-07-06 Sat 21:35
+2024-07-07 Sun 21:35
+2024-07-08 Mon 21:35
+2024-07-09 Tue 21:35
+2024-07-10 Wed 21:35
+2024-07-11 Thu 21:35
+2024-07-12 Fri 21:35
+2024-07-13 Sat 21:35
+2024-07-14 Sun 21:35
+2024-07-15 Mon 21:35
+2024-07-16 Tue 21:35
+2024-07-17 Wed 21:35
+2024-07-18 Thu 21:35
+2024-07-19 Fri 21:35
+2024-07-20 Sat 21:35
+2024-07-21 Sun 21:35
+2024-07-22 Mon 21:35
+2024-07-23 Tue 21:35
+2024-07-24 Wed 21:35
+2024-07-25 Thu 21:35
+2024-07-26 Fri 21:35
+2024-07-27 Sat 21:35
+2024-07-28 Sun 21:35
+2024-07-29 Mon 21:35
+2024-07-30 Tue 21:35
+2024-07-31 Wed 21:35
+2024-08-01 Thu 21:35
+2024-08-02 Fri 21:35
+2024-08-03 Sat 21:35
+2024-08-04 Sun 21:35
+2024-08-05 Mon 21:35
+2024-08-06 Tue 21:35
+2024-08-07 Wed 21:35
+2024-08-08 Thu 21:35
+2024-08-09 Fri 21:35
+2024-08-10 Sat 21:35
+2024-08-11 Sun 21:35
+2024-08-12 Mon 21:35
+2024-08-13 Tue 21:35
+2024-08-14 Wed 21:35
+2024-08-15 Thu 21:35
+2024-08-16 Fri 21:35
+2024-08-17 Sat 21:35
+2024-08-18 Sun 21:35
+2024-08-19 Mon 21:35
+2024-08-20 Tue 21:35
+2024-08-21 Wed 21:35
+2024-08-22 Thu 21:35
+2024-08-23 Fri 21:35
+2024-08-24 Sat 21:35
+2024-08-25 Sun 21:35
+2024-08-26 Mon 21:35
+2024-08-27 Tue 21:35
+2024-08-28 Wed 21:35
+2024-08-29 Thu 21:35
+2024-08-30 Fri 21:35
+2024-08-31 Sat 21:35
+2024-09-01 Sun 21:35
+2024-09-02 Mon 21:35
+2024-09-03 Tue 21:35
+2024-09-04 Wed 21:35
+2024-09-05 Thu 21:35
+2024-09-06 Fri 21:35
+2024-09-07 Sat 21:35
+2024-09-08 Sun 21:35
+2024-09-09 Mon 21:35
+2024-09-10 Tue 21:35
+119 occurrences
+2025-05-11 Sun 20:15
+1 occurrences
+2023-04-11T13:16Z ev13 prio=5 "Demo" 1h30m
+2023-04-14T13:16Z ev13 prio=5 "Demo" 1h30m
+2023-04-14T20:00Z ev6 prio=3 "Call" 1h30m
+2023-04-17T13:16Z ev13 prio=5 "Demo" 1h30m
+2023-04-20T13:16Z ev13 prio=5 "Demo" 1h30m
+2023-04-23T13:16Z ev13 prio=5 "Demo" 1h30m
+2023-04-14 Fri 20:00
+1 occurrences
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+removed E7
+moved ev3 to 2026-10-19T11:00
+2023-01-20T13:16Z ev13 prio=5 "Demo" 1h30m
+2023-01-23T13:16Z ev13 prio=5 "Demo" 1h30m
+added ev15 ref=A
+2027-08-15 Sun
+no events
+skipped ev6 on 2032-04-14
+added ev16 ref=B
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+moved E3 to 2025-02-07T12:30
+added ev18 ref=C
+title of ev11 is Retro
+moved ev18 to 2023-02-25T13:50
+added ev19 ref=D
+moved ev15 to 2025-02-15T14:00
+skipped ev16 on 2026-11-29
+2025-02-07T07:00Z E3 prio=5 "Checkin" 3h
+2023-02-25T01:05Z ev18 prio=5 "Review A" 1h30m
+2023-02-25T13:16Z ev13 prio=5 "Demo" 1h30m
+2023-02-28T13:16Z ev13 prio=5 "Demo" 1h30m
+2023-03-03T13:16Z ev13 prio=5 "Demo" 1h30m
+2023-03-06T13:16Z ev13 prio=5 "Demo" 1h30m
+added ev20 ref=E
+added ev21 ref=F
+2026-10-19 Mon 11:00
+1 occurrences
+2026-12-10T19:40Z ev11 prio=8 "Retro" 1h30m
+2026-12-13T07:00Z ev16 prio=5 "Budget A" 1h30m
+added ev22 ref=G
+1 ev2 2024-05-15T21:35 Planning rule=daily;until=2024-10-15
+2 ev3 2026-10-19T11:00 Demo
+3 E3 2025-02-07T12:30 Checkin
+4 ev6 2023-04-14T20:00 Call rule=yearly;every=3
+5 ev7 2026-07-19T21:25 Review rule=monthly;every=3;monthday=30
+6 ev8 2026-06-14T18:45 Planning rule=yearly
+8 ev11 2026-12-10T19:40 Retro rule=weekly;every=3;on=TH;until=2027-07-28
+9 ev13 2023-01-20T18:46 Demo rule=daily;every=3;until=2023-10-07
+A ev15 2025-02-15T14:00 Demo
+B ev16 2026-09-16T07:00 "Budget A" rule=weekly;every=2;on=SU;count=9
+C ev18 2023-02-25T13:50 "Review A"
+D ev19 2026-08-09T14:30 "Lunch q3" rule=monthly;every=3;monthday=30
+E ev20 2026-08-15T06:40 Sync
+F ev21 2023-04-23T06:45 "Retro A" rule=weekly;every=2;on=SU;count=7
+G ev22 2026-06-16T10:05 "Workshop q3" rule=monthly;monthday=1
+15 events
+added ev23 ref=H
+moved ev8 to 2025-01-29T12:25
+event E3 ref=3
+  title Checkin
+  start 2025-02-07T12:30
+  dur 3h tz +05:30 prio 5
+  rule -
+  cats -
+2025-02-15 Sat 14:00
+1 occurrences
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+3330
+title of ev16 is Sync
+rule of ev13 is -
+no events
+added ev26 ref=J
+2025-01-29T12:25Z ev8 prio=5 "Planning" 30m
+2025-01-29T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-01-31T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-02-02T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-02-04T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-01-21T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-01-23T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-01-25T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-01-27T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2023-04-14 Fri 20:00
+1 occurrences
+2025-01-29T12:25Z ev8 prio=5 "Planning" 30m
+2025-01-29T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-01-31T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-02-02T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-02-04T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-01-23T21:25Z 2025-01-23T22:55Z 1h30m
+2025-01-25T21:25Z 2025-01-25T22:55Z 1h30m
+2025-01-27T21:25Z 2025-01-27T22:55Z 1h30m
+2025-01-29T12:25Z 2025-01-29T12:55Z 30m
+2025-01-29T21:25Z 2025-01-29T22:55Z 1h30m
+busy 6h30m in 5 spans
+rule of ev8 is -
+added ev27 ref=K
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+2024-05-12T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-05-14T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-05-16T02:35Z ev2 prio=2 "Planning" 45m
+2024-05-16T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-05-17T02:35Z ev2 prio=2 "Planning" 45m
+2024-05-18T02:35Z ev2 prio=2 "Planning" 45m
+2024-05-18T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-05-19T02:35Z ev2 prio=2 "Planning" 45m
+2024-05-20T02:35Z ev2 prio=2 "Planning" 45m
+2024-05-20T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-05-21T02:35Z ev2 prio=2 "Planning" 45m
+2024-05-22T02:35Z ev2 prio=2 "Planning" 45m
+2024-05-22T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-05-23T02:35Z ev2 prio=2 "Planning" 45m
+2024-05-24T02:35Z ev2 prio=2 "Planning" 45m
+2024-05-24T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-05-25T02:35Z ev2 prio=2 "Planning" 45m
+title of ev11 is Training
+added ev29 ref=M
+added ev30 ref=N
+busy 0s in 0 spans
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+event ev27 ref=K
+  title Checkin
+  start 2025-07-17T18:10
+  dur 1h30m tz +00:00 prio 5
+  rule -
+  cats social
+added ev32 ref=P
+event ev13 ref=9
+  title Demo
+  start 2023-01-20T18:46 (given 2023-01-20T18:45:30)
+  dur 1h30m tz +05:30 prio 5
+  rule -
+  cats team,social
+added ev33 ref=Q
+updated ev23: 1h30m +12:45 prio=2
+event ev29 ref=M
+  title Sync
+  start 2023-08-13T17:51 (given 2023-08-13T17:50:59)
+  dur 1h tz +10:00 prio 2
+  rule -
+  cats -
+added ev34 ref=R
+Fri
+moved ev7 to 2024-01-27T07:35
+added ev35 ref=S
+2025-02-15 Sat 14:00
+1 occurrences
+added ev36 ref=T
+2023-02-25 Sat 13:50
+1 occurrences
+event ev15 ref=A
+  title Demo
+  start 2025-02-15T14:00
+  dur 15m tz -04:00 prio 3
+  rule -
+  cats social
+no events
+2026-09-11T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2026-09-13T17:45Z ev35 prio=5 "Checkin" 2h
+2026-09-13T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2026-09-15T21:25Z ev26 prio=7 "Workshop A" 1h30m
+title of ev15 is Call
+added EV ref=V
+added ev38 ref=W
+event EV ref=V
+  title Call
+  start 2024-10-14T06:20
+  dur 1d tz -04:00 prio 0
+  rule monthly;monthday=30
+  cats social
+cats of ev32 are -
+rule of ev38 is -
+2026-06-12T11:05Z 2026-06-12T12:05Z 1h
+2026-06-13T21:25Z 2026-06-13T22:55Z 1h30m
+2026-06-14T11:05Z 2026-06-14T12:05Z 1h
+2026-06-15T21:25Z 2026-06-15T22:55Z 1h30m
+2026-06-17T21:25Z 2026-06-17T22:55Z 1h30m
+busy 6h30m in 5 spans
+2026-07-30T10:20Z EV prio=0 "Call" 1d
+2026-07-30T12:35Z ev7 prio=5 "Review" 30m
+2026-07-31T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2026-08-01T14:05Z ev22 prio=0 "Workshop q3" 2h
+2026-08-02T17:45Z ev35 prio=5 "Checkin" 2h
+... 1 more
+moved ev15 to 2023-03-11T19:35
+added ev39 ref=X
+2026-08-12T21:25Z 2026-08-12T22:55Z 1h30m
+2026-08-14T21:25Z 2026-08-14T22:55Z 1h30m
+2026-08-16T17:45Z 2026-08-16T19:45Z 2h
+2026-08-16T21:25Z 2026-08-16T22:55Z 1h30m
+2026-08-18T21:25Z 2026-08-18T22:55Z 1h30m
+2026-08-20T11:05Z 2026-08-20T12:05Z 1h
+2026-08-20T21:25Z 2026-08-20T22:55Z 1h30m
+2026-08-21T11:05Z 2026-08-21T12:05Z 1h
+2026-08-22T21:25Z 2026-08-22T22:55Z 1h30m
+2026-08-23T11:05Z 2026-08-23T12:05Z 1h
+2026-08-24T21:25Z 2026-08-24T22:55Z 1h30m
+2026-08-26T21:25Z 2026-08-26T22:55Z 1h30m
+2026-08-28T21:25Z 2026-08-28T22:55Z 1h30m
+2026-08-30T10:20Z 2026-08-31T10:20Z 1d
+2026-09-01T14:05Z 2026-09-01T16:05Z 2h
+2026-09-01T21:25Z 2026-09-01T22:55Z 1h30m
+busy 1d22h in 16 spans
+2025-02-07 Fri 12:30
+1 occurrences
+skipped ev30 on 2023-07-02
+rule of ev34 is -
+rule of ev34 is weekly;every=2;on=WE,TH,SU
+moved ev8 to 2024-06-30T16:15
+event ev6 ref=4
+  title Call
+  start 2023-04-14T20:00
+  dur 1h30m tz +00:00 prio 3
+  rule yearly;every=3
+  cats health,travel,team
+  skips 2029-04-14,2032-04-14
+cats of ev18 are -
+added EY ref=Y
+2026-10-09T21:25Z 2026-10-09T22:55Z 1h30m
+2026-10-11T17:45Z 2026-10-11T19:45Z 2h
+2026-10-11T21:25Z 2026-10-11T22:55Z 1h30m
+busy 5h in 3 spans
+moved ev18 to 2026-03-07T16:25
+2025-02-07 Fri 12:30
+1 occurrences
+added ev41 ref=Z
+4050
+2023-04-30T12:05Z ev30 prio=6 "Workshop" 1d
+moved ev38 to 2024-06-09T19:15
+moved ev38 to 2026-08-13T13:50
+added E10 ref=10
+added ev43 ref=11
+rule of ev43 is weekly;on=TU,FR;until=2025-05-30
+E|ev2|1|Planning|2024-05-15T21:35|1715808900|45m|daily;until=2024-10-15|-05:00||2|ops|
+E|ev3|2|Demo|2026-10-19T11:00|1792407600|1h30m||+12:45||5|social,health|
+E|E3|3|Checkin|2025-02-07T12:30|1738931400|3h||+05:30||5||
+E|ev6|4|Call|2023-04-14T20:00|1681502400|1h30m|yearly;every=3|+00:00||3|health,travel,team|2029-04-14,2032-04-14
+E|ev7|5|Review|2024-01-27T07:35|1706340900|30m|monthly;every=3;monthday=30|-05:00||5|ops,health|
+E|ev8|6|Planning|2024-06-30T16:15|1719764100|30m||+00:00||5|ops|
+E|ev11|8|Training|2026-12-10T19:40|1796931600|1h30m|weekly;every=3;on=TH;until=2027-07-28|+00:00||8|health,team|
+E|ev13|9|Demo|2023-01-20T18:46|1674240330|1h30m||+05:30||5|team,social|
+E|ev15|10|Call|2023-03-11T19:35|1678563300|15m||-04:00||3|social|
+E|ev16|11|Sync|2026-09-16T07:00|1789542000|1h30m|weekly;every=2;on=SU;count=9|+00:00||5|ops,team|2026-11-29
+E|ev18|12|Review A|2026-03-07T16:25|1772900700|1h30m||+12:45||5||
+E|ev19|13|Lunch q3|2026-08-09T14:30|1786285800|1h30m|monthly;every=3;monthday=30|+01:00||5|travel|
+E|ev20|14|Sync|2026-08-15T06:40|1786776000|15m||+09:00||5||
+E|ev21|15|Retro A|2023-04-23T06:45|1682232300|1h|weekly;every=2;on=SU;count=7|+00:00||5||
+E|ev22|16|Workshop q3|2026-06-16T10:05|1781604300|2h|monthly;monthday=1|-04:00||0|team,travel,social|
+E|ev23|17|Budget B|2026-09-25T10:35|1790332500|1h30m||+12:45||2|ops,social|
+E|ev26|18|Workshop A|2023-05-10T17:25|1683739500|1h30m|daily;every=2|-04:00||7|work,ops|
+E|ev27|19|Checkin|2025-07-17T18:10|1752775800|1h30m||+00:00||5|social|
+E|ev29|20|Sync|2023-08-13T17:51|1691949059|1h||+10:00||2||
+E|ev30|21|Workshop|2023-04-30T12:05|1682856300|1d|weekly;every=3;on=SU;count=4|+00:00||6|health|2023-07-02
+E|ev32|22|Office hours A|2023-02-24T20:25|1677270305|1h30m||+02:00||5||
+E|ev33|23|Training|2025-08-06T09:20|1754472000|1h|monthly;monthday=30;count=9|-04:00||5|work,team|
+E|ev34|24|Standup x|2024-05-01T11:05|1714561500|1h|weekly;every=2;on=WE,TH,SU|+00:00||1|work,health|
+E|ev35|25|Checkin|2025-05-11T17:45|1746985500|2h|weekly;every=2;on=SU|+00:00||5|team|
+E|ev36|26|Standup|2024-01-22T06:10|1705903800|15m||+12:45||5|health|
+E|EV|27|Call|2024-10-14T06:20|1728886800|1d|monthly;monthday=30|-04:00||0|social|
+E|ev38|28|Demo|2026-08-13T13:50|1786629000|15m||+00:00||7|social|
+E|ev39|29|Standup|2023-09-02T21:25|1693689900|1h|yearly;every=2|+05:30||5|team|
+E|EY|30|Retro|2024-05-11T21:50|1715464200|1h30m||+02:00||6|work,ops,social|
+E|ev41|31|Interview|2025-05-17T16:45|1747500300|45m|weekly;on=TU,SA|+01:00||5|social|
+E|E10|32|Budget|2024-03-29T10:45|1711709100|30m|yearly;every=2|+05:30||2|travel,team,ops|
+E|ev43|33|Interview q3|2024-12-13T12:20|1734092400|2h|weekly;on=TU,FR;until=2025-05-30|+00:00||5|work|
+# 32 events
+1988-05-09 Mon
+error: 2032-04-14 is already skipped for ev6
+2025-02-07 Fri 12:30
+1 occurrences
+2023-05-10 Wed 17:25
+2023-05-12 Fri 17:25
+2023-05-14 Sun 17:25
+2023-05-16 Tue 17:25
+2023-05-18 Thu 17:25
+2023-05-20 Sat 17:25
+2023-05-22 Mon 17:25
+2023-05-24 Wed 17:25
+2023-05-26 Fri 17:25
+2023-05-28 Sun 17:25
+2023-05-30 Tue 17:25
+2023-06-01 Thu 17:25
+2023-06-03 Sat 17:25
+2023-06-05 Mon 17:25
+2023-06-07 Wed 17:25
+2023-06-09 Fri 17:25
+2023-06-11 Sun 17:25
+2023-06-13 Tue 17:25
+2023-06-15 Thu 17:25
+2023-06-17 Sat 17:25
+2023-06-19 Mon 17:25
+2023-06-21 Wed 17:25
+2023-06-23 Fri 17:25
+2023-06-25 Sun 17:25
+2023-06-27 Tue 17:25
+2023-06-29 Thu 17:25
+2023-07-01 Sat 17:25
+2023-07-03 Mon 17:25
+2023-07-05 Wed 17:25
+2023-07-07 Fri 17:25
+2023-07-09 Sun 17:25
+2023-07-11 Tue 17:25
+2023-07-13 Thu 17:25
+2023-07-15 Sat 17:25
+2023-07-17 Mon 17:25
+2023-07-19 Wed 17:25
+2023-07-21 Fri 17:25
+2023-07-23 Sun 17:25
+2023-07-25 Tue 17:25
+2023-07-27 Thu 17:25
+2023-07-29 Sat 17:25
+2023-07-31 Mon 17:25
+2023-08-02 Wed 17:25
+2023-08-04 Fri 17:25
+2023-08-06 Sun 17:25
+2023-08-08 Tue 17:25
+2023-08-10 Thu 17:25
+2023-08-12 Sat 17:25
+2023-08-14 Mon 17:25
+2023-08-16 Wed 17:25
+2023-08-18 Fri 17:25
+2023-08-20 Sun 17:25
+2023-08-22 Tue 17:25
+2023-08-24 Thu 17:25
+2023-08-26 Sat 17:25
+2023-08-28 Mon 17:25
+2023-08-30 Wed 17:25
+2023-09-01 Fri 17:25
+58 occurrences
+moved ev23 to 2026-08-27T21:25
+added ev44 ref=12
+event ev27 ref=K
+  title Checkin
+  start 2025-07-17T18:10
+  dur 1h30m tz +00:00 prio 5
+  rule -
+  cats social
+added ev45 ref=13
+2023-08-13 Sun 17:51
+1 occurrences
+skipped EV on 2025-03-30
+2024-05-11 Sat 21:50
+1 occurrences
+added E14 ref=14
+2023-08-26T21:25Z 2023-08-26T22:55Z 1h30m
+2023-08-28T21:25Z 2023-08-28T22:55Z 1h30m
+busy 3h in 2 spans
+2023-04-14 Fri 20:00
+1 occurrences
+2023-02-24 Fri 20:25
+1 occurrences
+rule of EV is yearly
+moved ev41 to 2025-11-27T08:15
+events 35, recurring 20, all-day 0
+category social 10
+category team 10
+category ops 8
+category health 7
+category work 6
+earliest ev13 2023-01-20
+latest ev11 2026-12-10
+span 1420 days (202 weeks)
+skips 4
+event ev29 ref=M
+  title Sync
+  start 2023-08-13T17:51 (given 2023-08-13T17:50:59)
+  dur 1h tz +10:00 prio 2
+  rule -
+  cats -
+event ev7 ref=5
+  title Review
+  start 2024-01-27T07:35
+  dur 30m tz -05:00 prio 5
+  rule monthly;every=3;monthday=30
+  cats ops,health
+2023-02-24T18:25Z ev32 prio=5 "Office hours A" 1h30m
+2026-08-20T11:05Z ev34 prio=1 "Standup x" 1h
+2026-08-20T20:10Z ev45 prio=0 "Sync" 1h30m
+2026-08-20T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2026-08-21T20:10Z ev45 prio=0 "Sync" 1h30m
+2026-08-22T07:15Z ev41 prio=5 "Interview" 45m
+2026-08-22T20:10Z ev45 prio=0 "Sync" 1h30m
+2026-08-22T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2026-08-23T11:05Z ev34 prio=1 "Standup x" 1h
+2026-08-23T20:10Z ev45 prio=0 "Sync" 1h30m
+restored ev6 on 2032-04-14
+2023-10-06 Fri 21:10
+2023-10-07 Sat 21:10
+2023-10-08 Sun 21:10
+2023-10-09 Mon 21:10
+2023-10-10 Tue 21:10
+2023-10-11 Wed 21:10
+2023-10-12 Thu 21:10
+2023-10-13 Fri 21:10
+2023-10-14 Sat 21:10
+2023-10-15 Sun 21:10
+2023-10-16 Mon 21:10
+2023-10-17 Tue 21:10
+2023-10-18 Wed 21:10
+13 occurrences
+added ev47 ref=15
+2024-05-11T19:50Z 2024-05-11T21:40Z 1h50m
+2024-05-12T20:10Z 2024-05-12T22:55Z 2h45m
+2024-05-13T20:10Z 2024-05-13T21:40Z 1h30m
+2024-05-14T20:10Z 2024-05-14T22:55Z 2h45m
+2024-05-15T11:05Z 2024-05-15T12:05Z 1h
+2024-05-15T20:10Z 2024-05-15T21:40Z 1h30m
+2024-05-16T02:35Z 2024-05-16T03:20Z 45m
+2024-05-16T11:05Z 2024-05-16T12:05Z 1h
+2024-05-16T20:10Z 2024-05-16T22:55Z 2h45m
+2024-05-17T02:35Z 2024-05-17T03:20Z 45m
+2024-05-17T20:10Z 2024-05-17T21:40Z 1h30m
+busy 18h5m in 11 spans
+added ev48 ref=16
+skipped ev39 on 2029-09-02
+2026-08-30 Sun 14:30
+1 occurrences
+added ev49 ref=17
+moved ev36 to 2024-09-01T17:55
+moved ev36 to 2023-07-13T18:46
+event ev29 ref=M
+  title Sync
+  start 2023-08-13T17:51 (given 2023-08-13T17:50:59)
+  dur 1h tz +10:00 prio 2
+  rule -
+  cats -
+moved ev20 to 2024-06-01T09:45
+2023-05-10 Wed 17:25
+2023-05-12 Fri 17:25
+2023-05-14 Sun 17:25
+2023-05-16 Tue 17:25
+2023-05-18 Thu 17:25
+2023-05-20 Sat 17:25
+2023-05-22 Mon 17:25
+2023-05-24 Wed 17:25
+2023-05-26 Fri 17:25
+2023-05-28 Sun 17:25
+2023-05-30 Tue 17:25
+2023-06-01 Thu 17:25
+2023-06-03 Sat 17:25
+2023-06-05 Mon 17:25
+2023-06-07 Wed 17:25
+2023-06-09 Fri 17:25
+16 occurrences
+title of ev23 is Budget
+cats of ev43 are health,social
+moved ev23 to 2023-04-29T16:10
+moved ev23 to 2024-12-25T12:15
+added ev50 ref=18
+2023-07-09T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2023-07-11T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2023-07-13T06:01Z ev36 prio=5 "Standup" 15m
+2023-07-13T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2023-05-07T06:45Z ev21 prio=5 "Retro A" 1h
+2023-05-10T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2023-05-12T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2023-05-14T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2023-10-06 Fri 21:10
+2023-10-07 Sat 21:10
+2023-10-08 Sun 21:10
+2023-10-09 Mon 21:10
+2023-10-10 Tue 21:10
+2023-10-11 Wed 21:10
+2023-10-12 Thu 21:10
+2023-10-13 Fri 21:10
+2023-10-14 Sat 21:10
+2023-10-15 Sun 21:10
+2023-10-16 Mon 21:10
+2023-10-17 Tue 21:10
+2023-10-18 Wed 21:10
+2023-10-19 Thu 21:10
+2023-10-20 Fri 21:10
+2023-10-21 Sat 21:10
+2023-10-22 Sun 21:10
+2023-10-23 Mon 21:10
+2023-10-24 Tue 21:10
+2023-10-25 Wed 21:10
+2023-10-26 Thu 21:10
+2023-10-27 Fri 21:10
+2023-10-28 Sat 21:10
+2023-10-29 Sun 21:10
+2023-10-30 Mon 21:10
+2023-10-31 Tue 21:10
+2023-11-01 Wed 21:10
+2023-11-02 Thu 21:10
+2023-11-03 Fri 21:10
+2023-11-04 Sat 21:10
+2023-11-05 Sun 21:10
+2023-11-06 Mon 21:10
+2023-11-07 Tue 21:10
+2023-11-08 Wed 21:10
+2023-11-09 Thu 21:10
+2023-11-10 Fri 21:10
+2023-11-11 Sat 21:10
+2023-11-12 Sun 21:10
+2023-11-13 Mon 21:10
+2023-11-14 Tue 21:10
+2023-11-15 Wed 21:10
+2023-11-16 Thu 21:10
+2023-11-17 Fri 21:10
+2023-11-18 Sat 21:10
+2023-11-19 Sun 21:10
+2023-11-20 Mon 21:10
+2023-11-21 Tue 21:10
+2023-11-22 Wed 21:10
+2023-11-23 Thu 21:10
+2023-11-24 Fri 21:10
+2023-11-25 Sat 21:10
+2023-11-26 Sun 21:10
+2023-11-27 Mon 21:10
+2023-11-28 Tue 21:10
+2023-11-29 Wed 21:10
+2023-11-30 Thu 21:10
+2023-12-01 Fri 21:10
+2023-12-02 Sat 21:10
+2023-12-03 Sun 21:10
+2023-12-04 Mon 21:10
+2023-12-05 Tue 21:10
+2023-12-06 Wed 21:10
+2023-12-07 Thu 21:10
+2023-12-08 Fri 21:10
+2023-12-09 Sat 21:10
+2023-12-10 Sun 21:10
+2023-12-11 Mon 21:10
+2023-12-12 Tue 21:10
+2023-12-13 Wed 21:10
+2023-12-14 Thu 21:10
+2023-12-15 Fri 21:10
+2023-12-16 Sat 21:10
+2023-12-17 Sun 21:10
+2023-12-18 Mon 21:10
+2023-12-19 Tue 21:10
+2023-12-20 Wed 21:10
+2023-12-21 Thu 21:10
+2023-12-22 Fri 21:10
+2023-12-23 Sat 21:10
+2023-12-24 Sun 21:10
+2023-12-25 Mon 21:10
+2023-12-26 Tue 21:10
+2023-12-27 Wed 21:10
+2023-12-28 Thu 21:10
+2023-12-29 Fri 21:10
+2023-12-30 Sat 21:10
+2023-12-31 Sun 21:10
+2024-01-01 Mon 21:10
+2024-01-02 Tue 21:10
+2024-01-03 Wed 21:10
+2024-01-04 Thu 21:10
+2024-01-05 Fri 21:10
+2024-01-06 Sat 21:10
+2024-01-07 Sun 21:10
+2024-01-08 Mon 21:10
+2024-01-09 Tue 21:10
+2024-01-10 Wed 21:10
+2024-01-11 Thu 21:10
+2024-01-12 Fri 21:10
+2024-01-13 Sat 21:10
+2024-01-14 Sun 21:10
+2024-01-15 Mon 21:10
+2024-01-16 Tue 21:10
+2024-01-17 Wed 21:10
+2024-01-18 Thu 21:10
+2024-01-19 Fri 21:10
+2024-01-20 Sat 21:10
+2024-01-21 Sun 21:10
+2024-01-22 Mon 21:10
+2024-01-23 Tue 21:10
+2024-01-24 Wed 21:10
+2024-01-25 Thu 21:10
+2024-01-26 Fri 21:10
+2024-01-27 Sat 21:10
+114 occurrences
+2026-08-01T07:15Z ev41 prio=5 "Interview" 45m
+2026-08-01T14:05Z ev22 prio=0 "Workshop q3" 2h
+2026-08-01T20:10Z ev45 prio=0 "Sync" 1h30m
+2026-08-02T17:45Z ev35 prio=5 "Checkin" 2h
+2026-08-02T20:10Z ev45 prio=0 "Sync" 1h30m
+2026-08-02T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2026-08-03T20:10Z ev45 prio=0 "Sync" 1h30m
+2026-08-04T07:15Z ev41 prio=5 "Interview" 45m
+2026-08-04T20:10Z ev45 prio=0 "Sync" 1h30m
+2026-08-04T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2026-08-05T08:35Z ev48 prio=1 "Lunch" 1h
+2026-08-05T11:05Z ev34 prio=1 "Standup x" 1h
+2026-08-05T20:10Z ev45 prio=0 "Sync" 1h30m
+2026-08-06T08:35Z ev48 prio=1 "Lunch" 1h
+2026-08-06T11:05Z ev34 prio=1 "Standup x" 1h
+2026-08-06T20:10Z ev45 prio=0 "Sync" 1h30m
+2026-08-06T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2026-08-07T20:10Z ev45 prio=0 "Sync" 1h30m
+added ev51 ref=19
+rule of ev13 is -
+skipped ev39 on 2027-09-02
+skipped ev6 on 2038-04-14
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+added E1A ref=1A
+added ev54 ref=1B
+added ev55 ref=1C
+2034-11-04
+error: usage: event cat REF LIST|-
+2024-03-28T08:35Z 2024-03-28T09:35Z 1h
+2024-03-28T20:10Z 2024-03-28T21:40Z 1h30m
+2024-03-29T05:15Z 2024-03-29T05:45Z 30m
+2024-03-29T20:10Z 2024-03-29T22:55Z 2h45m
+2024-03-30T20:10Z 2024-03-30T21:40Z 1h30m
+2024-03-31T19:56Z 2024-03-31T22:55Z 2h59m
+busy 10h14m in 6 spans
+moved ev47 to 2023-01-25T09:55
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+title of ev16 is "Office hours"
+moved E10 to 2025-01-10T13:20
+added E1D ref=1D
+added E1E ref=1E
+updated EV: 1d +10:00 prio=6
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+moved E3 to 2025-06-21T14:20
+added ev61 ref=1F
+rule of ev2 is monthly;every=3;on=2MO;until=2025-03-19
+added ev62 ref=1G
+skipped ev19 on 2027-05-30
+event ev34 ref=R
+  title "Standup x"
+  start 2024-05-01T11:05
+  dur 1h tz +00:00 prio 1
+  rule weekly;every=2;on=WE,TH,SU
+  cats work,health
+2024-05-07T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-05-08T08:35Z ev48 prio=1 "Lunch" 1h
+2024-05-08T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-05-08T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-05-09T08:35Z ev48 prio=1 "Lunch" 1h
+2024-05-09T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-05-10T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-05-10T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-05-11T19:50Z EY prio=6 "Retro" 1h30m
+2024-05-11T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-05-12T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-05-12T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-05-13T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-10-12T17:45Z ev35 prio=5 "Checkin" 2h
+2025-10-12T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-10-12T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-10-13T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-10-13T20:20Z EV prio=6 "Call" 1d
+2025-10-14T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-10-14T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-10-15T08:35Z ev48 prio=1 "Lunch" 1h
+2025-10-15T11:05Z ev34 prio=1 "Standup x" 1h
+2025-10-15T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-10-16T08:35Z ev48 prio=1 "Lunch" 1h
+2025-10-16T11:05Z ev34 prio=1 "Standup x" 1h
+2025-10-16T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-10-16T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-10-17T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-10-18 ev49 prio=4 "Interview" 30m
+2025-10-18T19:45Z E1E prio=5 "Sync" 1d
+2025-10-18T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-10-18T20:40Z E1A prio=9 "Checkin" 1h
+2025-10-18T21:25Z ev26 prio=7 "Workshop A" 1h30m
+no events
+added ev63 ref=1H
+error: 2038-04-14 is already skipped for ev6
+2024-12-26 Thu all-day
+1 occurrences
+moved E14 to 2026-12-16T10:45
+removed ev16
+no events
+cats of ev43 are -
+added ev64 ref=1J
+2024-09-06T20:10Z 2024-09-06T21:40Z 1h30m
+2024-09-07T00:00Z 2024-09-07T00:30Z 30m
+2024-09-07T11:45Z 2024-09-07T12:45Z 1h
+2024-09-07T20:10Z 2024-09-07T22:55Z 2h45m
+2024-09-08T00:00Z 2024-09-08T00:30Z 30m
+2024-09-08T11:05Z 2024-09-08T12:05Z 1h
+2024-09-08T20:10Z 2024-09-08T21:40Z 1h30m
+2024-09-09T20:10Z 2024-09-09T22:55Z 2h45m
+busy 11h30m in 8 spans
+2023-04-14T20:00Z ev6 prio=3 "Call" 1h30m
+event ev33 ref=Q
+  title Training
+  start 2025-08-06T09:20
+  dur 1h tz -04:00 prio 5
+  rule monthly;monthday=30;count=9
+  cats work,team
+moved ev36 to 2025-03-13T12:15
+moved E1A to 2025-10-25T17:45
+added ev65 ref=1K
+2025-01-10 Fri 13:20
+1 occurrences
+added ev66 ref=1M
+error: usage: event add ID|- TITLE START [dur=D] [rule=R] [tz=OFFSET] [allday=yes] [prio=N] [cat=LIST]
+moved ev41 to 2026-09-27T20:25
+added ev68 ref=1N
+added ev69 ref=1P
+title of EY is Lunch
+added ev70 ref=1Q
+2023-10-06 Fri 21:10
+2023-10-07 Sat 21:10
+2023-10-08 Sun 21:10
+2023-10-09 Mon 21:10
+2023-10-10 Tue 21:10
+2023-10-11 Wed 21:10
+2023-10-12 Thu 21:10
+2023-10-13 Fri 21:10
+2023-10-14 Sat 21:10
+2023-10-15 Sun 21:10
+2023-10-16 Mon 21:10
+2023-10-17 Tue 21:10
+2023-10-18 Wed 21:10
+2023-10-19 Thu 21:10
+2023-10-20 Fri 21:10
+2023-10-21 Sat 21:10
+2023-10-22 Sun 21:10
+2023-10-23 Mon 21:10
+2023-10-24 Tue 21:10
+2023-10-25 Wed 21:10
+2023-10-26 Thu 21:10
+2023-10-27 Fri 21:10
+2023-10-28 Sat 21:10
+2023-10-29 Sun 21:10
+2023-10-30 Mon 21:10
+2023-10-31 Tue 21:10
+2023-11-01 Wed 21:10
+2023-11-02 Thu 21:10
+2023-11-03 Fri 21:10
+2023-11-04 Sat 21:10
+2023-11-05 Sun 21:10
+2023-11-06 Mon 21:10
+2023-11-07 Tue 21:10
+2023-11-08 Wed 21:10
+2023-11-09 Thu 21:10
+2023-11-10 Fri 21:10
+2023-11-11 Sat 21:10
+2023-11-12 Sun 21:10
+2023-11-13 Mon 21:10
+2023-11-14 Tue 21:10
+2023-11-15 Wed 21:10
+2023-11-16 Thu 21:10
+2023-11-17 Fri 21:10
+2023-11-18 Sat 21:10
+2023-11-19 Sun 21:10
+2023-11-20 Mon 21:10
+2023-11-21 Tue 21:10
+2023-11-22 Wed 21:10
+2023-11-23 Thu 21:10
+2023-11-24 Fri 21:10
+2023-11-25 Sat 21:10
+2023-11-26 Sun 21:10
+2023-11-27 Mon 21:10
+2023-11-28 Tue 21:10
+2023-11-29 Wed 21:10
+2023-11-30 Thu 21:10
+2023-12-01 Fri 21:10
+2023-12-02 Sat 21:10
+2023-12-03 Sun 21:10
+2023-12-04 Mon 21:10
+2023-12-05 Tue 21:10
+2023-12-06 Wed 21:10
+2023-12-07 Thu 21:10
+2023-12-08 Fri 21:10
+2023-12-09 Sat 21:10
+2023-12-10 Sun 21:10
+2023-12-11 Mon 21:10
+2023-12-12 Tue 21:10
+2023-12-13 Wed 21:10
+2023-12-14 Thu 21:10
+2023-12-15 Fri 21:10
+2023-12-16 Sat 21:10
+2023-12-17 Sun 21:10
+2023-12-18 Mon 21:10
+2023-12-19 Tue 21:10
+2023-12-20 Wed 21:10
+2023-12-21 Thu 21:10
+2023-12-22 Fri 21:10
+2023-12-23 Sat 21:10
+2023-12-24 Sun 21:10
+2023-12-25 Mon 21:10
+2023-12-26 Tue 21:10
+2023-12-27 Wed 21:10
+2023-12-28 Thu 21:10
+2023-12-29 Fri 21:10
+2023-12-30 Sat 21:10
+2023-12-31 Sun 21:10
+2024-01-01 Mon 21:10
+2024-01-02 Tue 21:10
+2024-01-03 Wed 21:10
+2024-01-04 Thu 21:10
+2024-01-05 Fri 21:10
+2024-01-06 Sat 21:10
+2024-01-07 Sun 21:10
+2024-01-08 Mon 21:10
+2024-01-09 Tue 21:10
+2024-01-10 Wed 21:10
+2024-01-11 Thu 21:10
+2024-01-12 Fri 21:10
+2024-01-13 Sat 21:10
+2024-01-14 Sun 21:10
+2024-01-15 Mon 21:10
+2024-01-16 Tue 21:10
+2024-01-17 Wed 21:10
+2024-01-18 Thu 21:10
+2024-01-19 Fri 21:10
+2024-01-20 Sat 21:10
+2024-01-21 Sun 21:10
+2024-01-22 Mon 21:10
+2024-01-23 Tue 21:10
+2024-01-24 Wed 21:10
+2024-01-25 Thu 21:10
+2024-01-26 Fri 21:10
+2024-01-27 Sat 21:10
+114 occurrences
+2024-12-04T08:35Z 2024-12-04T09:35Z 1h
+2024-12-04T12:05Z 2024-12-04T13:35Z 1h30m
+2024-12-04T20:10Z 2024-12-04T22:55Z 2h45m
+2024-12-05T08:35Z 2024-12-05T09:35Z 1h
+2024-12-05T12:05Z 2024-12-05T13:35Z 1h30m
+2024-12-05T20:10Z 2024-12-05T21:40Z 1h30m
+2024-12-06T12:05Z 2024-12-06T13:35Z 1h30m
+2024-12-06T20:10Z 2024-12-06T22:55Z 2h45m
+2024-12-07T12:05Z 2024-12-07T13:35Z 1h30m
+2024-12-07T19:45Z 2024-12-09T19:45Z 2d
+2024-12-09T20:10Z 2024-12-09T21:40Z 1h30m
+2024-12-10T12:05Z 2024-12-10T13:35Z 1h30m
+2024-12-10T20:10Z 2024-12-10T22:55Z 2h45m
+2024-12-11T08:35Z 2024-12-11T09:35Z 1h
+2024-12-11T11:05Z 2024-12-11T13:35Z 2h30m
+2024-12-11T20:10Z 2024-12-11T21:40Z 1h30m
+2024-12-12T08:35Z 2024-12-12T09:35Z 1h
+2024-12-12T11:05Z 2024-12-12T13:35Z 2h30m
+2024-12-12T20:10Z 2024-12-12T22:55Z 2h45m
+2024-12-13T12:05Z 2024-12-13T14:20Z 2h15m
+2024-12-13T20:10Z 2024-12-13T21:40Z 1h30m
+2024-12-14T00:00Z 2024-12-14T00:30Z 30m
+2024-12-14T12:05Z 2024-12-14T13:35Z 1h30m
+2024-12-14T20:10Z 2024-12-14T22:55Z 2h45m
+2024-12-15T00:00Z 2024-12-15T00:30Z 30m
+2024-12-15T11:05Z 2024-12-15T13:35Z 2h30m
+2024-12-15T20:10Z 2024-12-15T21:40Z 1h30m
+2024-12-16T12:05Z 2024-12-16T13:35Z 1h30m
+2024-12-16T20:10Z 2024-12-16T22:55Z 2h45m
+2024-12-17T12:05Z 2024-12-17T14:20Z 2h15m
+2024-12-17T20:10Z 2024-12-17T21:40Z 1h30m
+2024-12-18T08:35Z 2024-12-18T09:35Z 1h
+2024-12-18T12:05Z 2024-12-18T13:35Z 1h30m
+2024-12-18T20:10Z 2024-12-18T22:55Z 2h45m
+2024-12-19T08:35Z 2024-12-19T09:35Z 1h
+2024-12-19T12:05Z 2024-12-19T13:35Z 1h30m
+2024-12-19T20:10Z 2024-12-19T21:40Z 1h30m
+2024-12-20T12:05Z 2024-12-20T14:20Z 2h15m
+2024-12-20T20:10Z 2024-12-20T22:55Z 2h45m
+2024-12-21T12:05Z 2024-12-21T13:35Z 1h30m
+2024-12-21T20:10Z 2024-12-21T21:40Z 1h30m
+2024-12-22T12:05Z 2024-12-22T13:35Z 1h30m
+2024-12-22T20:10Z 2024-12-22T22:55Z 2h45m
+2024-12-23T12:05Z 2024-12-23T13:35Z 1h30m
+2024-12-23T20:10Z 2024-12-23T21:40Z 1h30m
+2024-12-24T12:05Z 2024-12-24T14:20Z 2h15m
+2024-12-24T20:10Z 2024-12-24T22:55Z 2h45m
+2024-12-24T23:30Z 2024-12-25T01:00Z 1h30m
+busy 5d12h in 48 spans
+added ev71 ref=1R
+skipped ev51 on 2023-11-29
+2024-12-13 Fri 12:20
+2024-12-17 Tue 12:20
+2024-12-20 Fri 12:20
+2024-12-24 Tue 12:20
+2024-12-27 Fri 12:20
+2024-12-31 Tue 12:20
+2025-01-03 Fri 12:20
+2025-01-07 Tue 12:20
+2025-01-10 Fri 12:20
+2025-01-14 Tue 12:20
+2025-01-17 Fri 12:20
+11 occurrences
+added E1S ref=1S
+added ev73 ref=1T
+added ev74 ref=1V
+Lunch
+event E1A ref=1A
+  title Checkin
+  start 2025-10-25T17:45
+  dur 1h tz +00:00 prio 9
+  rule yearly
+  cats social
+2025-01-10 Fri 13:20
+1 occurrences
+Checkin
+moved ev2 to 2024-12-02T18:30
+added ev75 ref=1W
+moved ev18 to 2023-08-21T15:21
+2023-04-14 Fri 20:00
+1 occurrences
+cats of ev3 are ops
+moved ev3 to 2024-02-19T12:00
+added ev76 ref=1X
+moved E1S to 2023-06-12T08:36
+2024-03-29T12:05Z 2024-03-29T13:35Z 1h30m
+2024-03-29T20:10Z 2024-03-29T22:55Z 2h45m
+2024-03-30T12:05Z 2024-03-30T13:35Z 1h30m
+2024-03-30T20:10Z 2024-03-30T21:40Z 1h30m
+2024-03-31T12:05Z 2024-03-31T13:35Z 1h30m
+2024-03-31T19:56Z 2024-03-31T22:55Z 2h59m
+2024-04-01T12:05Z 2024-04-01T13:35Z 1h30m
+2024-04-01T20:10Z 2024-04-01T21:40Z 1h30m
+2024-04-02T12:05Z 2024-04-02T13:35Z 1h30m
+2024-04-02T20:10Z 2024-04-02T22:55Z 2h45m
+2024-04-03T08:35Z 2024-04-03T09:35Z 1h
+2024-04-03T12:05Z 2024-04-03T13:35Z 1h30m
+2024-04-03T20:10Z 2024-04-03T21:40Z 1h30m
+2024-04-04T08:35Z 2024-04-04T09:35Z 1h
+2024-04-04T12:05Z 2024-04-04T13:35Z 1h30m
+2024-04-04T20:10Z 2024-04-04T22:55Z 2h45m
+busy 1d4h14m in 16 spans
+added ev77 ref=1Y
+event ev21 ref=F
+  title "Retro A"
+  start 2023-04-23T06:45
+  dur 1h tz +00:00 prio 5
+  rule weekly;every=2;on=SU;count=7
+  cats -
+event ev64 ref=1J
+  title "Planning B"
+  start 2025-11-23
+  dur 1d tz +00:00 prio 1 allday
+  rule -
+  cats team,ops,social
+skipped ev39 on 2023-09-02
+event ev75 ref=1W
+  title Planning
+  start 2026-02-07T19:10
+  dur 1h tz +00:00 prio 2
+  rule -
+  cats travel,work,social
+rule of ev76 is -
+event ev66 ref=1M
+  title "Training B"
+  start 2026-11-28T20:45
+  dur 1d tz +00:00 prio 5
+  rule monthly;monthday=28;until=2027-06-21
+  cats team,travel
+2025-07-08T12:05Z ev68 prio=5 "Budget" 1h30m
+2025-07-08T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-07-08T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-07-09T08:35Z ev48 prio=1 "Lunch" 1h
+2025-07-09T11:05Z ev34 prio=1 "Standup x" 1h
+2025-07-09T12:05Z ev68 prio=5 "Budget" 1h30m
+2025-07-09T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-07-10T08:35Z ev48 prio=1 "Lunch" 1h
+2025-07-10T11:05Z ev34 prio=1 "Standup x" 1h
+2025-07-10T12:05Z ev68 prio=5 "Budget" 1h30m
+2025-07-10T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-07-10T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-07-11T12:05Z ev68 prio=5 "Budget" 1h30m
+2025-07-11T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-07-12 ev49 prio=4 "Interview" 30m
+2025-07-12T12:05Z ev68 prio=5 "Budget" 1h30m
+2025-07-12T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-07-12T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-07-13 ev49 prio=4 "Interview" 30m
+2025-07-13T11:05Z ev34 prio=1 "Standup x" 1h
+2025-07-13T12:05Z ev68 prio=5 "Budget" 1h30m
+2025-07-13T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-07-14T12:05Z ev68 prio=5 "Budget" 1h30m
+2025-07-14T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-07-14T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2026-12-11 Fri 13:10
+2026-12-12 Sat 13:10
+2 occurrences
+event E3 ref=3
+  title Checkin
+  start 2025-06-21T14:20
+  dur 3h tz +05:30 prio 5
+  rule -
+  cats -
+event ev74 ref=1V
+  title Interview
+  start 2024-09-16T10:30
+  dur 45m tz +00:00 prio 5
+  rule monthly;monthday=30
+  cats travel,social
+2024-10-02 ev77 prio=6 "Call" 3h
+2024-10-02T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-02T11:05Z ev34 prio=1 "Standup x" 1h
+2024-10-02T12:05Z ev68 prio=5 "Budget" 1h30m
+2024-10-02T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-10-03T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-03T11:05Z ev34 prio=1 "Standup x" 1h
+2024-10-03T12:05Z ev68 prio=5 "Budget" 1h30m
+2024-10-03T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-10-03T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-10-04T12:05Z ev68 prio=5 "Budget" 1h30m
+2024-10-04T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-10-05 ev49 prio=4 "Interview" 30m
+2024-10-05T12:05Z ev68 prio=5 "Budget" 1h30m
+2024-10-05T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-10-05T21:25Z ev26 prio=7 "Workshop A" 1h30m
+event EY ref=Y
+  title Lunch
+  start 2024-05-11T21:50
+  dur 1h30m tz +02:00 prio 6
+  rule -
+  cats work,ops,social
+event E1D ref=1D
+  title Call
+  start 2024-10-04T13:06 (given 2024-10-04T13:05:30)
+  dur 15m tz +00:00 prio 5
+  rule monthly;monthday=30;count=6
+  cats -
+events 60, recurring 36, all-day 4
+category social 16
+category team 15
+category health 14
+category travel 14
+category ops 13
+earliest ev13 2023-01-20
+latest ev55 2026-12-17
+span 1427 days (203 weeks)
+skips 8
+2023-08-04T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2023-08-06T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2023-08-08T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-08-30 Sat 09:20
+2025-09-30 Tue 09:20
+2025-10-30 Thu 09:20
+3 occurrences
+event ev43 ref=11
+  title "Interview q3"
+  start 2024-12-13T12:20
+  dur 2h tz +00:00 prio 5
+  rule weekly;on=TU,FR;until=2025-05-30
+  cats -
+event ev2 ref=1
+  title Planning
+  start 2024-12-02T18:30
+  dur 45m tz -05:00 prio 2
+  rule monthly;every=3;on=2MO;until=2025-03-19
+  cats ops
+event ev20 ref=E
+  title Sync
+  start 2024-06-01T09:45
+  dur 15m tz +09:00 prio 5
+  rule -
+  cats -
+title of ev22 is "Budget q3"
+event ev2 ref=1
+  title Planning
+  start 2024-12-02T18:30
+  dur 45m tz -05:00 prio 2
+  rule monthly;every=3;on=2MO;until=2025-03-19
+  cats ops
+events 60, recurring 36, all-day 4
+category social 16
+category team 15
+category health 14
+category travel 14
+category ops 13
+earliest ev13 2023-01-20
+latest ev55 2026-12-17
+span 1427 days (203 weeks)
+skips 8
+2024-10-30 Wed 13:06
+2024-11-30 Sat 13:06
+2024-12-30 Mon 13:06
+3 occurrences
+event ev45 ref=13
+  title Sync
+  start 2023-10-06T21:10
+  dur 1h30m tz +01:00 prio 0
+  rule daily
+  cats -
+2025-07-17 Thu 18:10
+1 occurrences
+2026-11-25T08:35Z ev48 prio=1 "Lunch" 1h
+2026-11-25T11:05Z ev34 prio=1 "Standup x" 1h
+2026-11-25T12:05Z ev68 prio=5 "Budget" 1h30m
+2026-11-25T20:10Z ev45 prio=0 "Sync" 1h30m
+2026-11-26T08:35Z ev48 prio=1 "Lunch" 1h
+2026-11-26T11:05Z ev34 prio=1 "Standup x" 1h
+2026-11-26T12:05Z ev68 prio=5 "Budget" 1h30m
+2026-11-26T20:10Z ev45 prio=0 "Sync" 1h30m
+2026-11-26T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2026-11-27T12:05Z ev68 prio=5 "Budget" 1h30m
+2026-11-27T20:10Z ev45 prio=0 "Sync" 1h30m
+2026-11-28 ev49 prio=4 "Interview" 30m
+2026-11-28T12:05Z ev68 prio=5 "Budget" 1h30m
+2026-11-28T19:25Z ev41 prio=5 "Interview" 45m
+2026-11-28T20:10Z ev45 prio=0 "Sync" 1h30m
+2026-11-28T20:45Z ev66 prio=5 "Training B" 1d
+2026-11-28T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2026-11-29 ev49 prio=4 "Interview" 30m
+2026-11-29T11:05Z ev34 prio=1 "Standup x" 1h
+2026-11-29T12:05Z ev68 prio=5 "Budget" 1h30m
+2026-11-29T20:10Z ev45 prio=0 "Sync" 1h30m
+2026-11-30T04:05Z ev69 prio=2 "Call" 1h30m
+2026-11-30T10:30Z ev74 prio=5 "Interview" 45m
+2026-11-30T12:05Z ev68 prio=5 "Budget" 1h30m
+2026-11-30T13:30Z ev19 prio=5 "Lunch q3" 1h30m
+2026-11-30T19:56Z ev50 prio=2 "Budget B" 1h
+2026-11-30T20:10Z ev45 prio=0 "Sync" 1h30m
+2026-11-30T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2026-12-01T12:05Z ev68 prio=5 "Budget" 1h30m
+2026-12-01T14:05Z ev22 prio=0 "Budget q3" 2h
+2026-12-01T19:25Z ev41 prio=5 "Interview" 45m
+2026-12-01T20:10Z ev45 prio=0 "Sync" 1h30m
+E|ev2|1|Planning|2024-12-02T18:30|1733164200|45m|monthly;every=3;on=2MO;until=2025-03-19|-05:00||2|ops|
+E|ev3|2|Demo|2024-02-19T12:00|1708344005|1h30m||+12:45||5|ops|
+E|E3|3|Checkin|2025-06-21T14:20|1750515600|3h||+05:30||5||
+E|ev6|4|Call|2023-04-14T20:00|1681502400|1h30m|yearly;every=3|+00:00||3|health,travel,team|2029-04-14,2038-04-14
+E|ev7|5|Review|2024-01-27T07:35|1706340900|30m|monthly;every=3;monthday=30|-05:00||5|ops,health|
+E|ev8|6|Planning|2024-06-30T16:15|1719764100|30m||+00:00||5|ops|
+E|ev11|8|Training|2026-12-10T19:40|1796931600|1h30m|weekly;every=3;on=TH;until=2027-07-28|+00:00||8|health,team|
+E|ev13|9|Demo|2023-01-20T18:46|1674240330|1h30m||+05:30||5|team,social|
+E|ev15|10|Call|2023-03-11T19:35|1678563300|15m||-04:00||3|social|
+E|ev18|12|Review A|2023-08-21T15:21|1692631259|1h30m||+12:45||5||
+E|ev19|13|Lunch q3|2026-08-09T14:30|1786285800|1h30m|monthly;every=3;monthday=30|+01:00||5|travel|2027-05-30
+E|ev20|14|Sync|2024-06-01T09:45|1717235100|15m||+09:00||5||
+E|ev21|15|Retro A|2023-04-23T06:45|1682232300|1h|weekly;every=2;on=SU;count=7|+00:00||5||
+E|ev22|16|Budget q3|2026-06-16T10:05|1781604300|2h|monthly;monthday=1|-04:00||0|team,travel,social|
+E|ev23|17|Budget|2024-12-25T12:15|1735128900|1h30m||+12:45||2|ops,social|
+E|ev26|18|Workshop A|2023-05-10T17:25|1683739500|1h30m|daily;every=2|-04:00||7|work,ops|
+E|ev27|19|Checkin|2025-07-17T18:10|1752775800|1h30m||+00:00||5|social|
+E|ev29|20|Sync|2023-08-13T17:51|1691949059|1h||+10:00||2||
+E|ev30|21|Workshop|2023-04-30T12:05|1682856300|1d|weekly;every=3;on=SU;count=4|+00:00||6|health|2023-07-02
+E|ev32|22|Office hours A|2023-02-24T20:25|1677270305|1h30m||+02:00||5||
+E|ev33|23|Training|2025-08-06T09:20|1754472000|1h|monthly;monthday=30;count=9|-04:00||5|work,team|
+E|ev34|24|Standup x|2024-05-01T11:05|1714561500|1h|weekly;every=2;on=WE,TH,SU|+00:00||1|work,health|
+E|ev35|25|Checkin|2025-05-11T17:45|1746985500|2h|weekly;every=2;on=SU|+00:00||5|team|
+E|ev36|26|Standup|2025-03-13T12:15|1741868100|15m||+12:45||5|health|
+E|EV|27|Call|2024-10-14T06:20|1728886800|1d|yearly|+10:00||6|social|
+E|ev38|28|Demo|2026-08-13T13:50|1786629000|15m||+00:00||7|social|
+E|ev39|29|Standup|2023-09-02T21:25|1693689900|1h|yearly;every=2|+05:30||5|team|2023-09-02,2027-09-02,2029-09-02
+E|EY|30|Lunch|2024-05-11T21:50|1715464200|1h30m||+02:00||6|work,ops,social|
+E|ev41|31|Interview|2026-09-27T20:25|1790540700|45m|weekly;on=TU,SA|+01:00||5|social|
+E|E10|32|Budget|2025-01-10T13:20|1736515200|30m|yearly;every=2|+05:30||2|travel,team,ops|
+E|ev43|33|Interview q3|2024-12-13T12:20|1734092400|2h|weekly;on=TU,FR;until=2025-05-30|+00:00||5||
+E|ev44|34|Planning|2026-08-14T12:20|1786710000|45s||+00:00||9|travel,team|
+E|ev45|35|Sync|2023-10-06T21:10|1696626600|1h30m|daily|+01:00||0||
+E|E14|36|Workshop A|2026-12-16T10:45|1797417900|45s|yearly;every=3;count=4|+00:00||6|work|
+E|ev47|37|Sync|2023-01-25T09:55|1674640500|2h||-04:00||5|ops,social,team|
+E|ev48|38|Lunch|2023-08-18T18:35|1692383700|1h|weekly;on=WE,TH|+10:00||1|health|
+E|ev49|39|Interview|2023-11-18T00:00|1700265600|30m|weekly;every=2;on=SA,SU|+02:00|allday|4||
+E|ev50|40|Budget B|2023-08-06T19:56|1691351759|1h|monthly;monthday=31|+00:00||2|ops,travel,health|
+E|ev51|41|Review|2023-11-23T06:20|1700720400|1h|monthly;on=1TU,-1WE;count=2|-03:30||6|health|2023-11-29
+E|E1A|42|Checkin|2025-10-25T17:45|1761414300|1h|yearly|+00:00||9|social|
+E|ev54|43|Budget|2024-04-08T07:15|1712560500|2h|yearly|-04:00||5|health,team,travel|
+E|ev55|44|Call B|2026-12-17T08:30|1797496200|15m|weekly;on=SA;count=9|+00:00||9|work|
+E|E1D|45|Call|2024-10-04T13:06|1728047130|15m|monthly;monthday=30;count=6|+00:00||5||
+E|E1E|46|Sync|2024-12-07T19:45|1733600700|1d|weekly;every=3;on=SA,SU|+00:00||5|health,social,team|
+E|ev61|47|Workshop|2024-12-26T00:00|1735171200|1h30m||+00:00|allday|5||
+E|ev62|48|Interview|2023-08-29T14:00|1693317600|1h||+01:00||5||
+E|ev63|49|Sync|2024-09-07T13:45|1725716700|1h||+02:00||8|team,travel|
+E|ev64|50|Planning B|2025-11-23T00:00|1763856000|1d||+00:00|allday|1|team,ops,social|
+E|ev65|51|Standup|2023-08-17T08:25|1692260700|1d||-05:00||4|travel,social|
+E|ev66|52|Training B|2026-11-28T20:45|1795898700|1d|monthly;monthday=28;until=2027-06-21|+00:00||5|team,travel|
+E|ev68|53|Budget|2023-11-24T21:05|1700859900|1h30m|daily|+09:00||5||
+E|ev69|54|Call|2026-07-27T06:05|1785132300|1h30m|weekly;every=2;on=MO,WE,TH;until=2027-04-17|+02:00||2|ops,travel|
+E|ev70|55|Roadmap|2026-12-11T13:10|1796994600|1h|weekly;every=2;on=FR,SA,SU;count=2|+00:00||5||
+E|ev71|56|Training B|2024-08-17T11:35|1723894500|1h|weekly;every=2;on=SA,SU|+09:00||5|ops|
+E|E1S|57|Planning|2023-06-12T08:36|1686558959|15m|daily;count=5|+00:00||3|health|
+E|ev73|58|Office hours|2023-11-04T17:10|1699117800|1h30m|yearly;every=3|+00:00||9||
+E|ev74|59|Interview|2024-09-16T10:30|1726482600|45m|monthly;monthday=30|+00:00||5|travel,social|
+E|ev75|60|Planning|2026-02-07T19:10|1770491400|1h||+00:00||2|travel,work,social|
+E|ev76|61|Demo q3|2026-11-21T21:55|1795298100|1h30m||+00:00||5|health,work|
+E|ev77|62|Call|2024-10-02T00:00|1727827200|3h||+00:00|allday|6|travel,health|
+# 60 events
+event ev34 ref=R
+  title "Standup x"
+  start 2024-05-01T11:05
+  dur 1h tz +00:00 prio 1
+  rule weekly;every=2;on=WE,TH,SU
+  cats work,health
+cats of ev45 are work,social
+2023-08-13T07:51Z 2023-08-13T08:51Z 1h
+2023-08-14T21:25Z 2023-08-14T22:55Z 1h30m
+2023-08-16T21:25Z 2023-08-16T22:55Z 1h30m
+2023-08-17T13:25Z 2023-08-18T13:25Z 1d
+2023-08-18T21:25Z 2023-08-18T22:55Z 1h30m
+busy 1d5h30m in 5 spans
+event ev20 ref=E
+  title Sync
+  start 2024-06-01T09:45
+  dur 15m tz +09:00 prio 5
+  rule -
+  cats -
+event ev50 ref=18
+  title "Budget B"
+  start 2023-08-06T19:56 (given 2023-08-06T19:55:59)
+  dur 1h tz +00:00 prio 2
+  rule monthly;monthday=31
+  cats ops,travel,health
+rule of ev65 is -
+skipped E1D on 2025-02-28
+moved ev77 to 2024-12-13T00:00
+2023-08-29 Tue 14:00
+1 occurrences
+updated ev47: 2h +12:45 prio=4
+event E3 ref=3
+  title Checkin
+  start 2025-06-21T14:20
+  dur 3h tz +05:30 prio 5
+  rule -
+  cats -
+moved ev68 to 2024-12-09T14:15
+moved ev76 to 2026-08-08T16:16
+2024-08-17 Sat 11:35
+2024-08-18 Sun 11:35
+2 occurrences
+event ev41 ref=Z
+  title Interview
+  start 2026-09-27T20:25
+  dur 45m tz +01:00 prio 5
+  rule weekly;on=TU,SA
+  cats social
+2026-02-05T05:15Z ev68 prio=5 "Budget" 1h30m
+2026-02-05T08:35Z ev48 prio=1 "Lunch" 1h
+2026-02-05T11:05Z ev34 prio=1 "Standup x" 1h
+2026-02-05T20:10Z ev45 prio=0 "Sync" 1h30m
+2026-02-05T21:25Z ev26 prio=7 "Workshop A" 1h30m
+... 43 more
+error: usage: event cat REF LIST|-
+event ev75 ref=1W
+  title Planning
+  start 2026-02-07T19:10
+  dur 1h tz +00:00 prio 2
+  rule -
+  cats travel,work,social
+event ev7 ref=5
+  title Review
+  start 2024-01-27T07:35
+  dur 30m tz -05:00 prio 5
+  rule monthly;every=3;monthday=30
+  cats ops,health
+event ev66 ref=1M
+  title "Training B"
+  start 2026-11-28T20:45
+  dur 1d tz +00:00 prio 5
+  rule monthly;monthday=28;until=2027-06-21
+  cats team,travel
+event ev32 ref=P
+  title "Office hours A"
+  start 2023-02-24T20:25 (given 2023-02-24T20:25:05)
+  dur 1h30m tz +02:00 prio 5
+  rule -
+  cats -
+moved ev65 to 2026-12-06T08:35
+event E1E ref=1E
+  title Sync
+  start 2024-12-07T19:45
+  dur 1d tz +00:00 prio 5
+  rule weekly;every=3;on=SA,SU
+  cats health,social,team
+moved E3 to 2023-04-26T17:05
+event ev68 ref=1N
+  title Budget
+  start 2024-12-09T14:15
+  dur 1h30m tz +09:00 prio 5
+  rule daily
+  cats -
+2025-03-03T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-03-03T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-03-04T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-03-04T12:20Z ev43 prio=5 "Interview q3" 2h
+2025-03-04T20:10Z ev45 prio=0 "Sync" 1h30m
+... 10 more
+event ev20 ref=E
+  title Sync
+  start 2024-06-01T09:45
+  dur 15m tz +09:00 prio 5
+  rule -
+  cats -
+moved ev29 to 2025-03-23T18:10
+event ev22 ref=G
+  title "Budget q3"
+  start 2026-06-16T10:05
+  dur 2h tz -04:00 prio 0
+  rule monthly;monthday=1
+  cats team,travel,social
+moved ev63 to 2025-04-06T09:25
+event ev70 ref=1Q
+  title Roadmap
+  start 2026-12-11T13:10
+  dur 1h tz +00:00 prio 5
+  rule weekly;every=2;on=FR,SA,SU;count=2
+  cats -
+moved E1S to 2024-08-03T15:40
+event ev69 ref=1P
+  title Call
+  start 2026-07-27T06:05
+  dur 1h30m tz +02:00 prio 2
+  rule weekly;every=2;on=MO,WE,TH;until=2027-04-17
+  cats ops,travel
+moved E3 to 2023-06-08T21:21
+43
+event E1D ref=1D
+  title Call
+  start 2024-10-04T13:06 (given 2024-10-04T13:05:30)
+  dur 15m tz +00:00 prio 5
+  rule monthly;monthday=30;count=6
+  cats -
+  skips 2025-02-28
+event ev74 ref=1V
+  title Interview
+  start 2024-09-16T10:30
+  dur 45m tz +00:00 prio 5
+  rule monthly;monthday=30
+  cats travel,social
+moved ev3 to 2024-07-02T20:15
+2026-12-11 Fri 13:10
+2026-12-12 Sat 13:10
+2 occurrences
+skipped ev45 on 2023-10-09
+moved ev54 to 2025-12-31T19:15
+moved ev15 to 2023-04-08T17:45
+event E14 ref=14
+  title "Workshop A"
+  start 2026-12-16T10:45
+  dur 45s tz +00:00 prio 6
+  rule yearly;every=3;count=4
+  cats work
+2023-10-25T08:35Z ev48 prio=1 "Lunch" 1h
+2023-10-25T20:10Z ev45 prio=0 "Sync" 1h30m
+2023-10-25T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2023-10-26T08:35Z ev48 prio=1 "Lunch" 1h
+2023-10-26T20:10Z ev45 prio=0 "Sync" 1h30m
+2023-10-27T20:10Z ev45 prio=0 "Sync" 1h30m
+2023-10-27T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2023-10-28T20:10Z ev45 prio=0 "Sync" 1h30m
+2023-10-29T20:10Z ev45 prio=0 "Sync" 1h30m
+2023-10-29T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2023-10-30T20:10Z ev45 prio=0 "Sync" 1h30m
+2023-10-31T19:56Z ev50 prio=2 "Budget B" 1h
+2023-10-31T20:10Z ev45 prio=0 "Sync" 1h30m
+2023-10-31T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2023-11-01T08:35Z ev48 prio=1 "Lunch" 1h
+2023-11-01T20:10Z ev45 prio=0 "Sync" 1h30m
+2023-11-02T08:35Z ev48 prio=1 "Lunch" 1h
+2023-11-02T20:10Z ev45 prio=0 "Sync" 1h30m
+2023-11-02T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2023-11-03T20:10Z ev45 prio=0 "Sync" 1h30m
+2023-11-04T17:10Z ev73 prio=9 "Office hours" 1h30m
+2023-11-04T20:10Z ev45 prio=0 "Sync" 1h30m
+2023-11-04T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2023-11-05T20:10Z ev45 prio=0 "Sync" 1h30m
+2023-11-06T20:10Z ev45 prio=0 "Sync" 1h30m
+2023-11-06T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2023-11-07T20:10Z ev45 prio=0 "Sync" 1h30m
+cats of E3 are health,social
+2024-09-06T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-09-07 ev49 prio=4 "Interview" 30m
+2024-09-07T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-09-07T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-09-08 ev49 prio=4 "Interview" 30m
+... 10 more
+2024-12-22T02:35Z ev71 prio=5 "Training B" 1h
+2024-12-22T05:15Z ev68 prio=5 "Budget" 1h30m
+2024-12-22T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-12-22T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-12-23T05:15Z ev68 prio=5 "Budget" 1h30m
+... 24 more
+2024-05-11 Sat 21:50
+1 occurrences
+event ev29 ref=M
+  title Sync
+  start 2025-03-23T18:10
+  dur 1h tz +10:00 prio 2
+  rule -
+  cats -
++05:30 330
+rule of ev51 is yearly
+event ev69 ref=1P
+  title Call
+  start 2026-07-27T06:05
+  dur 1h30m tz +02:00 prio 2
+  rule weekly;every=2;on=MO,WE,TH;until=2027-04-17
+  cats ops,travel
+2024-06-25T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-06-25T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-06-26T08:35Z ev48 prio=1 "Lunch" 1h
+2024-06-26T11:05Z ev34 prio=1 "Standup x" 1h
+2024-06-26T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-06-27T08:35Z ev48 prio=1 "Lunch" 1h
+2024-06-27T11:05Z ev34 prio=1 "Standup x" 1h
+2024-06-27T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-06-27T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-06-28T20:10Z ev45 prio=0 "Sync" 1h30m
+moved ev66 to 2024-10-15T08:40
+moved EY to 2023-10-22T20:20
+E|ev2|1|Planning|2024-12-02T18:30|1733164200|45m|monthly;every=3;on=2MO;until=2025-03-19|-05:00||2|ops|
+E|ev3|2|Demo|2024-07-02T20:15|1719951300|1h30m||+12:45||5|ops|
+E|E3|3|Checkin|2023-06-08T21:21|1686259230|3h||+05:30||5|health,social|
+E|ev6|4|Call|2023-04-14T20:00|1681502400|1h30m|yearly;every=3|+00:00||3|health,travel,team|2029-04-14,2038-04-14
+E|ev7|5|Review|2024-01-27T07:35|1706340900|30m|monthly;every=3;monthday=30|-05:00||5|ops,health|
+E|ev8|6|Planning|2024-06-30T16:15|1719764100|30m||+00:00||5|ops|
+E|ev11|8|Training|2026-12-10T19:40|1796931600|1h30m|weekly;every=3;on=TH;until=2027-07-28|+00:00||8|health,team|
+E|ev13|9|Demo|2023-01-20T18:46|1674240330|1h30m||+05:30||5|team,social|
+E|ev15|10|Call|2023-04-08T17:45|1680975900|15m||-04:00||3|social|
+E|ev18|12|Review A|2023-08-21T15:21|1692631259|1h30m||+12:45||5||
+E|ev19|13|Lunch q3|2026-08-09T14:30|1786285800|1h30m|monthly;every=3;monthday=30|+01:00||5|travel|2027-05-30
+E|ev20|14|Sync|2024-06-01T09:45|1717235100|15m||+09:00||5||
+E|ev21|15|Retro A|2023-04-23T06:45|1682232300|1h|weekly;every=2;on=SU;count=7|+00:00||5||
+E|ev22|16|Budget q3|2026-06-16T10:05|1781604300|2h|monthly;monthday=1|-04:00||0|team,travel,social|
+E|ev23|17|Budget|2024-12-25T12:15|1735128900|1h30m||+12:45||2|ops,social|
+E|ev26|18|Workshop A|2023-05-10T17:25|1683739500|1h30m|daily;every=2|-04:00||7|work,ops|
+E|ev27|19|Checkin|2025-07-17T18:10|1752775800|1h30m||+00:00||5|social|
+E|ev29|20|Sync|2025-03-23T18:10|1742753400|1h||+10:00||2||
+E|ev30|21|Workshop|2023-04-30T12:05|1682856300|1d|weekly;every=3;on=SU;count=4|+00:00||6|health|2023-07-02
+E|ev32|22|Office hours A|2023-02-24T20:25|1677270305|1h30m||+02:00||5||
+E|ev33|23|Training|2025-08-06T09:20|1754472000|1h|monthly;monthday=30;count=9|-04:00||5|work,team|
+E|ev34|24|Standup x|2024-05-01T11:05|1714561500|1h|weekly;every=2;on=WE,TH,SU|+00:00||1|work,health|
+E|ev35|25|Checkin|2025-05-11T17:45|1746985500|2h|weekly;every=2;on=SU|+00:00||5|team|
+E|ev36|26|Standup|2025-03-13T12:15|1741868100|15m||+12:45||5|health|
+E|EV|27|Call|2024-10-14T06:20|1728886800|1d|yearly|+10:00||6|social|
+E|ev38|28|Demo|2026-08-13T13:50|1786629000|15m||+00:00||7|social|
+E|ev39|29|Standup|2023-09-02T21:25|1693689900|1h|yearly;every=2|+05:30||5|team|2023-09-02,2027-09-02,2029-09-02
+E|EY|30|Lunch|2023-10-22T20:20|1698006000|1h30m||+02:00||6|work,ops,social|
+E|ev41|31|Interview|2026-09-27T20:25|1790540700|45m|weekly;on=TU,SA|+01:00||5|social|
+E|E10|32|Budget|2025-01-10T13:20|1736515200|30m|yearly;every=2|+05:30||2|travel,team,ops|
+E|ev43|33|Interview q3|2024-12-13T12:20|1734092400|2h|weekly;on=TU,FR;until=2025-05-30|+00:00||5||
+E|ev44|34|Planning|2026-08-14T12:20|1786710000|45s||+00:00||9|travel,team|
+E|ev45|35|Sync|2023-10-06T21:10|1696626600|1h30m|daily|+01:00||0|work,social|2023-10-09
+E|E14|36|Workshop A|2026-12-16T10:45|1797417900|45s|yearly;every=3;count=4|+00:00||6|work|
+E|ev47|37|Sync|2023-01-25T09:55|1674640500|2h||+12:45||4|ops,social,team|
+E|ev48|38|Lunch|2023-08-18T18:35|1692383700|1h|weekly;on=WE,TH|+10:00||1|health|
+E|ev49|39|Interview|2023-11-18T00:00|1700265600|30m|weekly;every=2;on=SA,SU|+02:00|allday|4||
+E|ev50|40|Budget B|2023-08-06T19:56|1691351759|1h|monthly;monthday=31|+00:00||2|ops,travel,health|
+E|ev51|41|Review|2023-11-23T06:20|1700720400|1h|yearly|-03:30||6|health|
+E|E1A|42|Checkin|2025-10-25T17:45|1761414300|1h|yearly|+00:00||9|social|
+E|ev54|43|Budget|2025-12-31T19:15|1767208500|2h|yearly|-04:00||5|health,team,travel|
+E|ev55|44|Call B|2026-12-17T08:30|1797496200|15m|weekly;on=SA;count=9|+00:00||9|work|
+E|E1D|45|Call|2024-10-04T13:06|1728047130|15m|monthly;monthday=30;count=6|+00:00||5||2025-02-28
+E|E1E|46|Sync|2024-12-07T19:45|1733600700|1d|weekly;every=3;on=SA,SU|+00:00||5|health,social,team|
+E|ev61|47|Workshop|2024-12-26T00:00|1735171200|1h30m||+00:00|allday|5||
+E|ev62|48|Interview|2023-08-29T14:00|1693317600|1h||+01:00||5||
+E|ev63|49|Sync|2025-04-06T09:25|1743931500|1h||+02:00||8|team,travel|
+E|ev64|50|Planning B|2025-11-23T00:00|1763856000|1d||+00:00|allday|1|team,ops,social|
+E|ev65|51|Standup|2026-12-06T08:35|1796546100|1d||-05:00||4|travel,social|
+E|ev66|52|Training B|2024-10-15T08:40|1728981600|1d|monthly;monthday=28;until=2027-06-21|+00:00||5|team,travel|
+E|ev68|53|Budget|2024-12-09T14:15|1733753700|1h30m|daily|+09:00||5||
+E|ev69|54|Call|2026-07-27T06:05|1785132300|1h30m|weekly;every=2;on=MO,WE,TH;until=2027-04-17|+02:00||2|ops,travel|
+E|ev70|55|Roadmap|2026-12-11T13:10|1796994600|1h|weekly;every=2;on=FR,SA,SU;count=2|+00:00||5||
+E|ev71|56|Training B|2024-08-17T11:35|1723894500|1h|weekly;every=2;on=SA,SU|+09:00||5|ops|
+E|E1S|57|Planning|2024-08-03T15:40|1722699600|15m|daily;count=5|+00:00||3|health|
+E|ev73|58|Office hours|2023-11-04T17:10|1699117800|1h30m|yearly;every=3|+00:00||9||
+E|ev74|59|Interview|2024-09-16T10:30|1726482600|45m|monthly;monthday=30|+00:00||5|travel,social|
+E|ev75|60|Planning|2026-02-07T19:10|1770491400|1h||+00:00||2|travel,work,social|
+E|ev76|61|Demo q3|2026-08-08T16:16|1786205730|1h30m||+00:00||5|health,work|
+E|ev77|62|Call|2024-12-13T00:00|1734048000|3h||+00:00|allday|6|travel,health|
+# 60 events
+2024-08-14T08:35Z ev48 prio=1 "Lunch" 1h
+2024-08-14T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-08-14T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-08-15T08:35Z ev48 prio=1 "Lunch" 1h
+2024-08-15T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-08-16T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-08-16T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-08-17T02:35Z ev71 prio=5 "Training B" 1h
+2024-08-17T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-08-18T02:35Z ev71 prio=5 "Training B" 1h
+2024-08-18T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-08-18T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-08-19T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-08-20T20:10Z ev45 prio=0 "Sync" 1h30m
+2024-08-20T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-12-25 Wed 12:15
+1 occurrences
+event ev76 ref=1X
+  title "Demo q3"
+  start 2026-08-08T16:16 (given 2026-08-08T16:15:30)
+  dur 1h30m tz +00:00 prio 5
+  rule -
+  cats health,work
+moved ev47 to 2024-10-12T12:45
+2023-08-29 Tue 14:00
+1 occurrences
+2024-04-03
+events 60, recurring 36, all-day 4
+category social 18
+category health 15
+category team 15
+category travel 14
+category ops 13
+earliest ev13 2023-01-20
+latest ev55 2026-12-17
+span 1427 days (203 weeks)
+skips 9
+event ev11 ref=8
+  title Training
+  start 2026-12-10T19:40
+  dur 1h30m tz +00:00 prio 8
+  rule weekly;every=3;on=TH;until=2027-07-28
+  cats health,team
+event ev55 ref=1C
+  title "Call B"
+  start 2026-12-17T08:30
+  dur 15m tz +00:00 prio 9
+  rule weekly;on=SA;count=9
+  cats work
+event ev54 ref=1B
+  title Budget
+  start 2025-12-31T19:15
+  dur 2h tz -04:00 prio 5
+  rule yearly
+  cats health,team,travel
+event ev29 ref=M
+  title Sync
+  start 2025-03-23T18:10
+  dur 1h tz +10:00 prio 2
+  rule -
+  cats -
+moved ev51 to 2025-01-02T20:30
+2025-04-06 Sun 09:25
+1 occurrences
+rule of ev73 is -
+2025-05-02T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-05-02T12:20Z ev43 prio=5 "Interview q3" 2h
+2025-05-02T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-05-03 ev49 prio=4 "Interview" 30m
+2025-05-03T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-05-03T19:45Z E1E prio=5 "Sync" 1d
+2025-05-03T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-05-03T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-05-04 ev49 prio=4 "Interview" 30m
+2025-05-04T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-05-04T11:05Z ev34 prio=1 "Standup x" 1h
+2025-05-04T19:45Z E1E prio=5 "Sync" 1d
+2025-05-04T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-05-05T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-05-05T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-05-05T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-05-06T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-05-06T12:20Z ev43 prio=5 "Interview q3" 2h
+2025-05-06T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-05-07T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-05-07T08:35Z ev48 prio=1 "Lunch" 1h
+2025-05-07T20:10Z ev45 prio=0 "Sync" 1h30m
+2025-05-07T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2025-05-08T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-05-08T08:35Z ev48 prio=1 "Lunch" 1h
+2025-05-08T20:10Z ev45 prio=0 "Sync" 1h30m
+skipped ev69 on 2026-08-12
+event ev3 ref=2
+  title Demo
+  start 2024-07-02T20:15
+  dur 1h30m tz +12:45 prio 5
+  rule -
+  cats ops
+2024-07-02 Tue 20:15
+1 occurrences
+skipped ev68 on 2024-12-13
+error: usage: event cat REF LIST|-
+2026-12-06T02:35Z ev71 prio=5 "Training B" 1h
+2026-12-06T05:15Z ev68 prio=5 "Budget" 1h30m
+2026-12-06T13:35Z ev65 prio=4 "Standup" 1d
+2026-12-06T17:45Z ev35 prio=5 "Checkin" 2h
+2026-12-06T20:10Z ev45 prio=0 "Sync" 1h30m
+... 27 more
+event ev44 ref=12
+  title Planning
+  start 2026-08-14T12:20
+  dur 45s tz +00:00 prio 9
+  rule -
+  cats travel,team
+rule of EV is -
+events 60, recurring 34, all-day 4
+category social 18
+category health 15
+category team 15
+category travel 14
+category ops 13
+earliest ev13 2023-01-20
+latest ev55 2026-12-17
+span 1427 days (203 weeks)
+skips 11
+event ev39 ref=X
+  title Standup
+  start 2023-09-02T21:25
+  dur 1h tz +05:30 prio 5
+  rule yearly;every=2
+  cats team
+  skips 2023-09-02,2027-09-02,2029-09-02
+2025-09-15
+event ev19 ref=D
+  title "Lunch q3"
+  start 2026-08-09T14:30
+  dur 1h30m tz +01:00 prio 5
+  rule monthly;every=3;monthday=30
+  cats travel
+  skips 2027-05-30
+2023-08-24T08:35Z ev48 prio=1 "Lunch" 1h
+2023-08-24T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2023-08-26T21:25Z ev26 prio=7 "Workshop A" 1h30m
+event ev50 ref=18
+  title "Budget B"
+  start 2023-08-06T19:56 (given 2023-08-06T19:55:59)
+  dur 1h tz +00:00 prio 2
+  rule monthly;monthday=31
+  cats ops,travel,health
+updated ev45: 1h30m +09:00 prio=7
+2027-03-15 Mon
+event ev22 ref=G
+  title "Budget q3"
+  start 2026-06-16T10:05
+  dur 2h tz -04:00 prio 0
+  rule monthly;monthday=1
+  cats team,travel,social
+moved E14 to 2025-09-21T08:15
+moved ev18 to 2023-07-04T10:40
+event ev29 ref=M
+  title Sync
+  start 2025-03-23T18:10
+  dur 1h tz +10:00 prio 2
+  rule -
+  cats -
+title of ev29 is Roadmap
+event E1A ref=1A
+  title Checkin
+  start 2025-10-25T17:45
+  dur 1h tz +00:00 prio 9
+  rule yearly
+  cats social
+2026-09-20 ev49 prio=4 "Interview" 30m
+2026-09-20T05:15Z ev68 prio=5 "Budget" 1h30m
+2026-09-20T11:05Z ev34 prio=1 "Standup x" 1h
+2026-09-20T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-09-20T19:45Z E1E prio=5 "Sync" 1d
+2026-09-21T04:05Z ev69 prio=2 "Call" 1h30m
+2026-09-21T05:15Z ev68 prio=5 "Budget" 1h30m
+2026-09-21T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-09-21T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2026-09-22T05:15Z ev68 prio=5 "Budget" 1h30m
+2026-09-22T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-09-23T04:05Z ev69 prio=2 "Call" 1h30m
+2026-09-23T05:15Z ev68 prio=5 "Budget" 1h30m
+2026-09-23T08:35Z ev48 prio=1 "Lunch" 1h
+2026-09-23T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-09-23T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-10-09T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-09T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-09T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-10-10T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-10T12:10Z ev45 prio=7 "Sync" 1h30m
+... 12 more
+2024-12-07 Sat 19:45
+2024-12-08 Sun 19:45
+2024-12-28 Sat 19:45
+2024-12-29 Sun 19:45
+2025-01-18 Sat 19:45
+2025-01-19 Sun 19:45
+2025-02-08 Sat 19:45
+2025-02-09 Sun 19:45
+2025-03-01 Sat 19:45
+2025-03-02 Sun 19:45
+2025-03-22 Sat 19:45
+2025-03-23 Sun 19:45
+12 occurrences
+event ev6 ref=4
+  title Call
+  start 2023-04-14T20:00
+  dur 1h30m tz +00:00 prio 3
+  rule yearly;every=3
+  cats health,travel,team
+  skips 2029-04-14,2038-04-14
+moved ev15 to 2025-02-05T12:55
+event ev3 ref=2
+  title Demo
+  start 2024-07-02T20:15
+  dur 1h30m tz +12:45 prio 5
+  rule -
+  cats ops
+Call
+event EY ref=Y
+  title Lunch
+  start 2023-10-22T20:20
+  dur 1h30m tz +02:00 prio 6
+  rule -
+  cats work,ops,social
+2026-12-06 Sun 08:35
+1 occurrences
+moved ev77 to 2024-06-30T00:00
+updated ev21: 1h +09:00 prio=9
+skipped ev66 on 2024-12-28
+2024-10-10T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-10T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-11T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-11T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-10-12T00:00Z ev47 prio=4 "Sync" 2h
+2024-10-12T02:35Z ev71 prio=5 "Training B" 1h
+2024-10-12T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-13T02:35Z ev71 prio=5 "Training B" 1h
+2024-10-13T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-13T20:20Z EV prio=6 "Call" 1d
+2024-10-13T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-10-14T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-15T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-15T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-10-16T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-16T11:05Z ev34 prio=1 "Standup x" 1h
+2024-10-16T12:10Z ev45 prio=7 "Sync" 1h30m
+event ev6 ref=4
+  title Call
+  start 2023-04-14T20:00
+  dur 1h30m tz +00:00 prio 3
+  rule yearly;every=3
+  cats health,travel,team
+  skips 2029-04-14,2038-04-14
+event ev33 ref=Q
+  title Training
+  start 2025-08-06T09:20
+  dur 1h tz -04:00 prio 5
+  rule monthly;monthday=30;count=9
+  cats work,team
+20611
+2024-06-01 Sat 09:45
+1 occurrences
+event ev21 ref=F
+  title "Retro A"
+  start 2023-04-23T06:45
+  dur 1h tz +09:00 prio 9
+  rule weekly;every=2;on=SU;count=7
+  cats -
+event ev22 ref=G
+  title "Budget q3"
+  start 2026-06-16T10:05
+  dur 2h tz -04:00 prio 0
+  rule monthly;monthday=1
+  cats team,travel,social
+moved EV to 2025-04-11T07:51
+event EV ref=V
+  title Call
+  start 2025-04-11T07:51 (given 2025-04-11T07:50:45)
+  dur 1d tz +10:00 prio 6
+  rule -
+  cats social
+event ev15 ref=A
+  title Call
+  start 2025-02-05T12:55
+  dur 15m tz -04:00 prio 3
+  rule -
+  cats social
+event ev75 ref=1W
+  title Planning
+  start 2026-02-07T19:10
+  dur 1h tz +00:00 prio 2
+  rule -
+  cats travel,work,social
+moved ev77 to 2024-06-16T00:00
+cats of ev73 are work,health
+moved ev18 to 2026-03-24T08:35
+skipped ev6 on 2032-04-14
+event ev51 ref=19
+  title Review
+  start 2025-01-02T20:30
+  dur 1h tz -03:30 prio 6
+  rule yearly
+  cats health
+2024-06-21T12:10Z 2024-06-21T13:40Z 1h30m
+2024-06-21T21:25Z 2024-06-21T22:55Z 1h30m
+2024-06-22T12:10Z 2024-06-22T13:40Z 1h30m
+2024-06-23T12:10Z 2024-06-23T13:40Z 1h30m
+2024-06-23T21:25Z 2024-06-23T22:55Z 1h30m
+2024-06-24T12:10Z 2024-06-24T13:40Z 1h30m
+2024-06-25T12:10Z 2024-06-25T13:40Z 1h30m
+2024-06-25T21:25Z 2024-06-25T22:55Z 1h30m
+2024-06-26T08:35Z 2024-06-26T09:35Z 1h
+2024-06-26T11:05Z 2024-06-26T12:05Z 1h
+2024-06-26T12:10Z 2024-06-26T13:40Z 1h30m
+2024-06-27T08:35Z 2024-06-27T09:35Z 1h
+2024-06-27T11:05Z 2024-06-27T12:05Z 1h
+2024-06-27T12:10Z 2024-06-27T13:40Z 1h30m
+2024-06-27T21:25Z 2024-06-27T22:55Z 1h30m
+busy 20h30m in 15 spans
+event ev51 ref=19
+  title Review
+  start 2025-01-02T20:30
+  dur 1h tz -03:30 prio 6
+  rule yearly
+  cats health
+event ev2 ref=1
+  title Planning
+  start 2024-12-02T18:30
+  dur 45m tz -05:00 prio 2
+  rule monthly;every=3;on=2MO;until=2025-03-19
+  cats ops
+moved ev20 to 2025-10-25T10:40
+event ev43 ref=11
+  title "Interview q3"
+  start 2024-12-13T12:20
+  dur 2h tz +00:00 prio 5
+  rule weekly;on=TU,FR;until=2025-05-30
+  cats -
+event EV ref=V
+  title Call
+  start 2025-04-11T07:51 (given 2025-04-11T07:50:45)
+  dur 1d tz +10:00 prio 6
+  rule -
+  cats social
+2023-11-18 Sat all-day
+2023-11-19 Sun all-day
+2023-12-02 Sat all-day
+2023-12-03 Sun all-day
+2023-12-16 Sat all-day
+2023-12-17 Sun all-day
+6 occurrences
+event ev23 ref=H
+  title Budget
+  start 2024-12-25T12:15
+  dur 1h30m tz +12:45 prio 2
+  rule -
+  cats ops,social
+2025-04-06 Sun 09:25
+1 occurrences
+event ev22 ref=G
+  title "Budget q3"
+  start 2026-06-16T10:05
+  dur 2h tz -04:00 prio 0
+  rule monthly;monthday=1
+  cats team,travel,social
+2024-09-30 Mon 10:30
+2024-10-30 Wed 10:30
+2024-11-30 Sat 10:30
+2024-12-30 Mon 10:30
+4 occurrences
+2023-01-20T13:16Z ev13 prio=5 "Demo" 1h30m
+event ev62 ref=1G
+  title Interview
+  start 2023-08-29T14:00
+  dur 1h tz +01:00 prio 5
+  rule -
+  cats -
+event ev64 ref=1J
+  title "Planning B"
+  start 2025-11-23
+  dur 1d tz +00:00 prio 1 allday
+  rule -
+  cats team,ops,social
+event ev69 ref=1P
+  title Call
+  start 2026-07-27T06:05
+  dur 1h30m tz +02:00 prio 2
+  rule weekly;every=2;on=MO,WE,TH;until=2027-04-17
+  cats ops,travel
+  skips 2026-08-12
+2025-03-23 Sun 18:10
+1 occurrences
+event ev38 ref=W
+  title Demo
+  start 2026-08-13T13:50
+  dur 15m tz +00:00 prio 7
+  rule -
+  cats social
+1 ev2 2024-12-02T18:30 Planning rule=monthly;every=3;on=2MO;until=2025-03-19
+2 ev3 2024-07-02T20:15 Demo
+3 E3 2023-06-08T21:21 Checkin
+4 ev6 2023-04-14T20:00 Call rule=yearly;every=3
+5 ev7 2024-01-27T07:35 Review rule=monthly;every=3;monthday=30
+6 ev8 2024-06-30T16:15 Planning
+8 ev11 2026-12-10T19:40 Training rule=weekly;every=3;on=TH;until=2027-07-28
+9 ev13 2023-01-20T18:46 Demo
+A ev15 2025-02-05T12:55 Call
+C ev18 2026-03-24T08:35 "Review A"
+D ev19 2026-08-09T14:30 "Lunch q3" rule=monthly;every=3;monthday=30
+E ev20 2025-10-25T10:40 Sync
+F ev21 2023-04-23T06:45 "Retro A" rule=weekly;every=2;on=SU;count=7
+G ev22 2026-06-16T10:05 "Budget q3" rule=monthly;monthday=1
+H ev23 2024-12-25T12:15 Budget
+J ev26 2023-05-10T17:25 "Workshop A" rule=daily;every=2
+K ev27 2025-07-17T18:10 Checkin
+M ev29 2025-03-23T18:10 Roadmap
+N ev30 2023-04-30T12:05 Workshop rule=weekly;every=3;on=SU;count=4
+P ev32 2023-02-24T20:25 "Office hours A"
+Q ev33 2025-08-06T09:20 Training rule=monthly;monthday=30;count=9
+R ev34 2024-05-01T11:05 "Standup x" rule=weekly;every=2;on=WE,TH,SU
+S ev35 2025-05-11T17:45 Checkin rule=weekly;every=2;on=SU
+T ev36 2025-03-13T12:15 Standup
+V EV 2025-04-11T07:51 Call
+W ev38 2026-08-13T13:50 Demo
+X ev39 2023-09-02T21:25 Standup rule=yearly;every=2
+Y EY 2023-10-22T20:20 Lunch
+Z ev41 2026-09-27T20:25 Interview rule=weekly;on=TU,SA
+10 E10 2025-01-10T13:20 Budget rule=yearly;every=2
+11 ev43 2024-12-13T12:20 "Interview q3" rule=weekly;on=TU,FR;until=2025-05-30
+12 ev44 2026-08-14T12:20 Planning
+13 ev45 2023-10-06T21:10 Sync rule=daily
+14 E14 2025-09-21T08:15 "Workshop A" rule=yearly;every=3;count=4
+15 ev47 2024-10-12T12:45 Sync
+16 ev48 2023-08-18T18:35 Lunch rule=weekly;on=WE,TH
+17 ev49 2023-11-18 Interview rule=weekly;every=2;on=SA,SU
+18 ev50 2023-08-06T19:56 "Budget B" rule=monthly;monthday=31
+19 ev51 2025-01-02T20:30 Review rule=yearly
+1A E1A 2025-10-25T17:45 Checkin rule=yearly
+1B ev54 2025-12-31T19:15 Budget rule=yearly
+1C ev55 2026-12-17T08:30 "Call B" rule=weekly;on=SA;count=9
+1D E1D 2024-10-04T13:06 Call rule=monthly;monthday=30;count=6
+1E E1E 2024-12-07T19:45 Sync rule=weekly;every=3;on=SA,SU
+1F ev61 2024-12-26 Workshop
+1G ev62 2023-08-29T14:00 Interview
+1H ev63 2025-04-06T09:25 Sync
+1J ev64 2025-11-23 "Planning B"
+1K ev65 2026-12-06T08:35 Standup
+1M ev66 2024-10-15T08:40 "Training B" rule=monthly;monthday=28;until=2027-06-21
+1N ev68 2024-12-09T14:15 Budget rule=daily
+1P ev69 2026-07-27T06:05 Call rule=weekly;every=2;on=MO,WE,TH;until=2027-04-17
+1Q ev70 2026-12-11T13:10 Roadmap rule=weekly;every=2;on=FR,SA,SU;count=2
+1R ev71 2024-08-17T11:35 "Training B" rule=weekly;every=2;on=SA,SU
+1S E1S 2024-08-03T15:40 Planning rule=daily;count=5
+1T ev73 2023-11-04T17:10 "Office hours"
+1V ev74 2024-09-16T10:30 Interview rule=monthly;monthday=30
+1W ev75 2026-02-07T19:10 Planning
+1X ev76 2026-08-08T16:16 "Demo q3"
+1Y ev77 2024-06-16 Call
+60 events
+moved ev2 to 2025-12-20T17:46
+event ev41 ref=Z
+  title Interview
+  start 2026-09-27T20:25
+  dur 45m tz +01:00 prio 5
+  rule weekly;on=TU,SA
+  cats social
+2024-10-06 ev49 prio=4 "Interview" 30m
+2024-10-06T11:05Z ev34 prio=1 "Standup x" 1h
+2024-10-06T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-07T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-07T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-10-08T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-09T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-09T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-09T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-09-29T02:35Z ev71 prio=5 "Training B" 1h
+2024-09-29T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-09-29T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-09-30T10:30Z ev74 prio=5 "Interview" 45m
+2024-09-30T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-09-30T19:56Z ev50 prio=2 "Budget B" 1h
+2024-10-01T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-01T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-10-02T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-02T11:05Z ev34 prio=1 "Standup x" 1h
+2024-10-02T12:10Z ev45 prio=7 "Sync" 1h30m
+moved ev74 to 2023-12-07T13:45
+skipped E1A on 2030-10-25
+event ev47 ref=15
+  title Sync
+  start 2024-10-12T12:45
+  dur 2h tz +12:45 prio 4
+  rule -
+  cats ops,social,team
+event ev29 ref=M
+  title Roadmap
+  start 2025-03-23T18:10
+  dur 1h tz +10:00 prio 2
+  rule -
+  cats -
+2024-12-05T08:35Z ev48 prio=1 "Lunch" 1h
+2024-12-05T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-12-06T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-12-06T21:25Z ev26 prio=7 "Workshop A" 1h30m
+2024-12-07T02:35Z ev71 prio=5 "Training B" 1h
+... 6 more
+2023-08-26T21:25Z 2023-08-26T22:55Z 1h30m
+2023-08-28T21:25Z 2023-08-28T22:55Z 1h30m
+2023-08-29T13:00Z 2023-08-29T14:00Z 1h
+busy 4h in 3 spans
+event ev76 ref=1X
+  title "Demo q3"
+  start 2026-08-08T16:16 (given 2026-08-08T16:15:30)
+  dur 1h30m tz +00:00 prio 5
+  rule -
+  cats health,work
+2023-01-20 Fri 18:46
+1 occurrences
+moved ev47 to 2025-05-03T09:41
+event ev36 ref=T
+  title Standup
+  start 2025-03-13T12:15
+  dur 15m tz +12:45 prio 5
+  rule -
+  cats health
+updated ev74: 45m +09:00 prio=5
+title of ev26 is "Roadmap B"
+event ev45 ref=13
+  title Sync
+  start 2023-10-06T21:10
+  dur 1h30m tz +09:00 prio 7
+  rule daily
+  cats work,social
+  skips 2023-10-09
+event ev15 ref=A
+  title Call
+  start 2025-02-05T12:55
+  dur 15m tz -04:00 prio 3
+  rule -
+  cats social
+event ev11 ref=8
+  title Training
+  start 2026-12-10T19:40
+  dur 1h30m tz +00:00 prio 8
+  rule weekly;every=3;on=TH;until=2027-07-28
+  cats health,team
+event EV ref=V
+  title Call
+  start 2025-04-11T07:51 (given 2025-04-11T07:50:45)
+  dur 1d tz +10:00 prio 6
+  rule -
+  cats social
+2026-03-24 Tue 08:35
+1 occurrences
+2023-04-14T20:00Z ev6 prio=3 "Call" 1h30m
+2024-12-26 Thu all-day
+1 occurrences
+314
+2026-08-13 Thu 13:50
+1 occurrences
+event ev21 ref=F
+  title "Retro A"
+  start 2023-04-23T06:45
+  dur 1h tz +09:00 prio 9
+  rule weekly;every=2;on=SU;count=7
+  cats -
+0 occurrences
+event ev27 ref=K
+  title Checkin
+  start 2025-07-17T18:10
+  dur 1h30m tz +00:00 prio 5
+  rule -
+  cats social
+restored ev69 on 2026-08-12
+event ev11 ref=8
+  title Training
+  start 2026-12-10T19:40
+  dur 1h30m tz +00:00 prio 8
+  rule weekly;every=3;on=TH;until=2027-07-28
+  cats health,team
+title of ev19 is Review
+Sat
+skipped E1E on 2024-12-29
+event ev50 ref=18
+  title "Budget B"
+  start 2023-08-06T19:56 (given 2023-08-06T19:55:59)
+  dur 1h tz +00:00 prio 2
+  rule monthly;monthday=31
+  cats ops,travel,health
+cats of E14 are work,team
+error: usage: event cat REF LIST|-
+2024-08-17 Sat 11:35
+2024-08-18 Sun 11:35
+2 occurrences
+-03:30 -210
+2025-02-04T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-02-04T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-02-04T12:20Z ev43 prio=5 "Interview q3" 2h
+2025-02-04T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2025-02-05T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-02-05T08:35Z ev48 prio=1 "Lunch" 1h
+2025-02-05T11:05Z ev34 prio=1 "Standup x" 1h
+2025-02-05T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-02-05T16:55Z ev15 prio=3 "Call" 15m
+2025-02-06T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-02-06T08:35Z ev48 prio=1 "Lunch" 1h
+2025-02-06T11:05Z ev34 prio=1 "Standup x" 1h
+2025-02-06T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-02-06T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2025-02-07T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-02-07T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-02-07T12:20Z ev43 prio=5 "Interview q3" 2h
+2025-02-08 ev49 prio=4 "Interview" 30m
+2025-02-08T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-02-08T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-02-08T19:45Z E1E prio=5 "Sync" 1d
+2025-02-08T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2025-02-09 ev49 prio=4 "Interview" 30m
+2025-02-09T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-02-09T11:05Z ev34 prio=1 "Standup x" 1h
+2025-02-09T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-02-09T19:45Z E1E prio=5 "Sync" 1d
+2025-02-10T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-02-10T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-02-10T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2025-02-11T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-02-11T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-02-11T12:20Z ev43 prio=5 "Interview q3" 2h
+2025-02-12T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-02-12T08:35Z ev48 prio=1 "Lunch" 1h
+2025-02-12T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-02-12T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2025-02-13T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-02-13T08:35Z ev48 prio=1 "Lunch" 1h
+2025-02-13T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-02-14T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-02-14T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-02-14T12:20Z ev43 prio=5 "Interview q3" 2h
+2025-02-14T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2025-02-15T02:35Z ev71 prio=5 "Training B" 1h
+2025-02-15T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-02-15T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-02-16T02:35Z ev71 prio=5 "Training B" 1h
+2025-02-16T05:15Z ev68 prio=5 "Budget" 1h30m
+2025-02-16T12:10Z ev45 prio=7 "Sync" 1h30m
+... 3 more
+event E1D ref=1D
+  title Call
+  start 2024-10-04T13:06 (given 2024-10-04T13:05:30)
+  dur 15m tz +00:00 prio 5
+  rule monthly;monthday=30;count=6
+  cats -
+  skips 2025-02-28
+rule of ev68 is -
+event ev3 ref=2
+  title Demo
+  start 2024-07-02T20:15
+  dur 1h30m tz +12:45 prio 5
+  rule -
+  cats ops
+moved ev32 to 2026-06-19T07:26
+moved EY to 2026-12-12T07:35
+2023-08-24T08:35Z ev48 prio=1 "Lunch" 1h
+2023-08-24T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-08-26T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-08-28T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-08-29T13:00Z ev62 prio=5 "Interview" 1h
+... 2 more
+2025-05-03 Sat 09:41
+1 occurrences
+2025-01-02 Thu 20:30
+1 occurrences
+rule of ev20 is monthly;every=3;monthday=29
+2025-03-13 Thu 12:15
+1 occurrences
+event ev21 ref=F
+  title "Retro A"
+  start 2023-04-23T06:45
+  dur 1h tz +09:00 prio 9
+  rule weekly;every=2;on=SU;count=7
+  cats -
+2026-06-04
+event ev48 ref=16
+  title Lunch
+  start 2023-08-18T18:35
+  dur 1h tz +10:00 prio 1
+  rule weekly;on=WE,TH
+  cats health
+event E3 ref=3
+  title Checkin
+  start 2023-06-08T21:21 (given 2023-06-08T21:20:30)
+  dur 3h tz +05:30 prio 5
+  rule -
+  cats health,social
+event ev3 ref=2
+  title Demo
+  start 2024-07-02T20:15
+  dur 1h30m tz +12:45 prio 5
+  rule -
+  cats ops
+event E3 ref=3
+  title Checkin
+  start 2023-06-08T21:21 (given 2023-06-08T21:20:30)
+  dur 3h tz +05:30 prio 5
+  rule -
+  cats health,social
+event ev26 ref=J
+  title "Roadmap B"
+  start 2023-05-10T17:25
+  dur 1h30m tz -04:00 prio 7
+  rule daily;every=2
+  cats work,ops
+skipped ev39 on 2033-09-02
+2024-01-06T12:23 given 2024-01-06T12:22:34
+2024-12-11T08:35Z 2024-12-11T09:35Z 1h
+2024-12-11T11:05Z 2024-12-11T12:05Z 1h
+2024-12-11T12:10Z 2024-12-11T13:40Z 1h30m
+2024-12-12T08:35Z 2024-12-12T09:35Z 1h
+2024-12-12T11:05Z 2024-12-12T12:05Z 1h
+2024-12-12T12:10Z 2024-12-12T13:40Z 1h30m
+2024-12-12T21:25Z 2024-12-12T22:55Z 1h30m
+2024-12-13T12:10Z 2024-12-13T14:20Z 2h10m
+2024-12-14T00:00Z 2024-12-14T00:30Z 30m
+2024-12-14T12:10Z 2024-12-14T13:40Z 1h30m
+2024-12-14T21:25Z 2024-12-14T22:55Z 1h30m
+2024-12-15T00:00Z 2024-12-15T00:30Z 30m
+2024-12-15T11:05Z 2024-12-15T12:05Z 1h
+2024-12-15T12:10Z 2024-12-15T13:40Z 1h30m
+2024-12-16T12:10Z 2024-12-16T13:40Z 1h30m
+2024-12-16T21:25Z 2024-12-16T22:55Z 1h30m
+2024-12-17T12:10Z 2024-12-17T14:20Z 2h10m
+2024-12-18T08:35Z 2024-12-18T09:35Z 1h
+2024-12-18T12:10Z 2024-12-18T13:40Z 1h30m
+2024-12-18T21:25Z 2024-12-18T22:55Z 1h30m
+2024-12-19T08:35Z 2024-12-19T09:35Z 1h
+2024-12-19T12:10Z 2024-12-19T13:40Z 1h30m
+2024-12-20T12:10Z 2024-12-20T14:20Z 2h10m
+2024-12-20T21:25Z 2024-12-20T22:55Z 1h30m
+2024-12-21T02:35Z 2024-12-21T03:35Z 1h
+2024-12-21T12:10Z 2024-12-21T13:40Z 1h30m
+2024-12-22T02:35Z 2024-12-22T03:35Z 1h
+2024-12-22T12:10Z 2024-12-22T13:40Z 1h30m
+2024-12-22T21:25Z 2024-12-22T22:55Z 1h30m
+2024-12-23T12:10Z 2024-12-23T13:40Z 1h30m
+2024-12-24T12:10Z 2024-12-24T14:20Z 2h10m
+2024-12-24T21:25Z 2024-12-24T22:55Z 1h30m
+2024-12-24T23:30Z 2024-12-25T01:00Z 1h30m
+2024-12-25T08:35Z 2024-12-25T09:35Z 1h
+2024-12-25T11:05Z 2024-12-25T12:05Z 1h
+2024-12-25T12:10Z 2024-12-25T13:40Z 1h30m
+2024-12-26T00:00Z 2024-12-26T01:30Z 1h30m
+2024-12-26T08:35Z 2024-12-26T09:35Z 1h
+2024-12-26T11:05Z 2024-12-26T12:05Z 1h
+2024-12-26T12:10Z 2024-12-26T13:40Z 1h30m
+2024-12-26T21:25Z 2024-12-26T22:55Z 1h30m
+2024-12-27T12:10Z 2024-12-27T14:20Z 2h10m
+2024-12-28T00:00Z 2024-12-28T00:30Z 30m
+2024-12-28T12:10Z 2024-12-28T13:40Z 1h30m
+2024-12-28T19:45Z 2024-12-29T19:45Z 1d
+2024-12-30T04:45Z 2024-12-30T05:30Z 45m
+2024-12-30T12:10Z 2024-12-30T13:40Z 1h30m
+2024-12-30T21:25Z 2024-12-30T22:55Z 1h30m
+2024-12-31T12:10Z 2024-12-31T14:20Z 2h10m
+2024-12-31T19:56Z 2024-12-31T20:56Z 1h
+busy 3d18h45m in 50 spans
+event ev66 ref=1M
+  title "Training B"
+  start 2024-10-15T08:40
+  dur 1d tz +00:00 prio 5
+  rule monthly;monthday=28;until=2027-06-21
+  cats team,travel
+  skips 2024-12-28
+skipped E10 on 2035-01-10
+event ev36 ref=T
+  title Standup
+  start 2025-03-13T12:15
+  dur 15m tz +12:45 prio 5
+  rule -
+  cats health
+event ev61 ref=1F
+  title Workshop
+  start 2024-12-26
+  dur 1h30m tz +00:00 prio 5 allday
+  rule -
+  cats -
+2026-12-06 Sun 08:35
+1 occurrences
+2026-12-12 Sat 07:35
+1 occurrences
+event ev73 ref=1T
+  title "Office hours"
+  start 2023-11-04T17:10
+  dur 1h30m tz +00:00 prio 9
+  rule -
+  cats work,health
+skipped ev30 on 2023-04-30
+event ev18 ref=C
+  title "Review A"
+  start 2026-03-24T08:35
+  dur 1h30m tz +12:45 prio 5
+  rule -
+  cats -
+E|ev2|1|Planning|2025-12-20T17:46|1766252730|45m|monthly;every=3;on=2MO;until=2025-03-19|-05:00||2|ops|
+E|ev3|2|Demo|2024-07-02T20:15|1719951300|1h30m||+12:45||5|ops|
+E|E3|3|Checkin|2023-06-08T21:21|1686259230|3h||+05:30||5|health,social|
+E|ev6|4|Call|2023-04-14T20:00|1681502400|1h30m|yearly;every=3|+00:00||3|health,travel,team|2029-04-14,2032-04-14,2038-04-14
+E|ev7|5|Review|2024-01-27T07:35|1706340900|30m|monthly;every=3;monthday=30|-05:00||5|ops,health|
+E|ev8|6|Planning|2024-06-30T16:15|1719764100|30m||+00:00||5|ops|
+E|ev11|8|Training|2026-12-10T19:40|1796931600|1h30m|weekly;every=3;on=TH;until=2027-07-28|+00:00||8|health,team|
+E|ev13|9|Demo|2023-01-20T18:46|1674240330|1h30m||+05:30||5|team,social|
+E|ev15|10|Call|2025-02-05T12:55|1738760100|15m||-04:00||3|social|
+E|ev18|12|Review A|2026-03-24T08:35|1774341300|1h30m||+12:45||5||
+E|ev19|13|Review|2026-08-09T14:30|1786285800|1h30m|monthly;every=3;monthday=30|+01:00||5|travel|2027-05-30
+E|ev20|14|Sync|2025-10-25T10:40|1761388800|15m|monthly;every=3;monthday=29|+09:00||5||
+E|ev21|15|Retro A|2023-04-23T06:45|1682232300|1h|weekly;every=2;on=SU;count=7|+09:00||9||
+E|ev22|16|Budget q3|2026-06-16T10:05|1781604300|2h|monthly;monthday=1|-04:00||0|team,travel,social|
+E|ev23|17|Budget|2024-12-25T12:15|1735128900|1h30m||+12:45||2|ops,social|
+E|ev26|18|Roadmap B|2023-05-10T17:25|1683739500|1h30m|daily;every=2|-04:00||7|work,ops|
+E|ev27|19|Checkin|2025-07-17T18:10|1752775800|1h30m||+00:00||5|social|
+E|ev29|20|Roadmap|2025-03-23T18:10|1742753400|1h||+10:00||2||
+E|ev30|21|Workshop|2023-04-30T12:05|1682856300|1d|weekly;every=3;on=SU;count=4|+00:00||6|health|2023-04-30,2023-07-02
+E|ev32|22|Office hours A|2026-06-19T07:26|1781853930|1h30m||+02:00||5||
+E|ev33|23|Training|2025-08-06T09:20|1754472000|1h|monthly;monthday=30;count=9|-04:00||5|work,team|
+E|ev34|24|Standup x|2024-05-01T11:05|1714561500|1h|weekly;every=2;on=WE,TH,SU|+00:00||1|work,health|
+E|ev35|25|Checkin|2025-05-11T17:45|1746985500|2h|weekly;every=2;on=SU|+00:00||5|team|
+E|ev36|26|Standup|2025-03-13T12:15|1741868100|15m||+12:45||5|health|
+E|EV|27|Call|2025-04-11T07:51|1744357845|1d||+10:00||6|social|
+E|ev38|28|Demo|2026-08-13T13:50|1786629000|15m||+00:00||7|social|
+E|ev39|29|Standup|2023-09-02T21:25|1693689900|1h|yearly;every=2|+05:30||5|team|2023-09-02,2027-09-02,2029-09-02,2033-09-02
+E|EY|30|Lunch|2026-12-12T07:35|1797060900|1h30m||+02:00||6|work,ops,social|
+E|ev41|31|Interview|2026-09-27T20:25|1790540700|45m|weekly;on=TU,SA|+01:00||5|social|
+E|E10|32|Budget|2025-01-10T13:20|1736515200|30m|yearly;every=2|+05:30||2|travel,team,ops|2035-01-10
+E|ev43|33|Interview q3|2024-12-13T12:20|1734092400|2h|weekly;on=TU,FR;until=2025-05-30|+00:00||5||
+E|ev44|34|Planning|2026-08-14T12:20|1786710000|45s||+00:00||9|travel,team|
+E|ev45|35|Sync|2023-10-06T21:10|1696626600|1h30m|daily|+09:00||7|work,social|2023-10-09
+E|E14|36|Workshop A|2025-09-21T08:15|1758442505|45s|yearly;every=3;count=4|+00:00||6|work,team|
+E|ev47|37|Sync|2025-05-03T09:41|1746265230|2h||+12:45||4|ops,social,team|
+E|ev48|38|Lunch|2023-08-18T18:35|1692383700|1h|weekly;on=WE,TH|+10:00||1|health|
+E|ev49|39|Interview|2023-11-18T00:00|1700265600|30m|weekly;every=2;on=SA,SU|+02:00|allday|4||
+E|ev50|40|Budget B|2023-08-06T19:56|1691351759|1h|monthly;monthday=31|+00:00||2|ops,travel,health|
+E|ev51|41|Review|2025-01-02T20:30|1735849800|1h|yearly|-03:30||6|health|
+E|E1A|42|Checkin|2025-10-25T17:45|1761414300|1h|yearly|+00:00||9|social|2030-10-25
+E|ev54|43|Budget|2025-12-31T19:15|1767208500|2h|yearly|-04:00||5|health,team,travel|
+E|ev55|44|Call B|2026-12-17T08:30|1797496200|15m|weekly;on=SA;count=9|+00:00||9|work|
+E|E1D|45|Call|2024-10-04T13:06|1728047130|15m|monthly;monthday=30;count=6|+00:00||5||2025-02-28
+E|E1E|46|Sync|2024-12-07T19:45|1733600700|1d|weekly;every=3;on=SA,SU|+00:00||5|health,social,team|2024-12-29
+E|ev61|47|Workshop|2024-12-26T00:00|1735171200|1h30m||+00:00|allday|5||
+E|ev62|48|Interview|2023-08-29T14:00|1693317600|1h||+01:00||5||
+E|ev63|49|Sync|2025-04-06T09:25|1743931500|1h||+02:00||8|team,travel|
+E|ev64|50|Planning B|2025-11-23T00:00|1763856000|1d||+00:00|allday|1|team,ops,social|
+E|ev65|51|Standup|2026-12-06T08:35|1796546100|1d||-05:00||4|travel,social|
+E|ev66|52|Training B|2024-10-15T08:40|1728981600|1d|monthly;monthday=28;until=2027-06-21|+00:00||5|team,travel|2024-12-28
+E|ev68|53|Budget|2024-12-09T14:15|1733753700|1h30m||+09:00||5||
+E|ev69|54|Call|2026-07-27T06:05|1785132300|1h30m|weekly;every=2;on=MO,WE,TH;until=2027-04-17|+02:00||2|ops,travel|
+E|ev70|55|Roadmap|2026-12-11T13:10|1796994600|1h|weekly;every=2;on=FR,SA,SU;count=2|+00:00||5||
+E|ev71|56|Training B|2024-08-17T11:35|1723894500|1h|weekly;every=2;on=SA,SU|+09:00||5|ops|
+E|E1S|57|Planning|2024-08-03T15:40|1722699600|15m|daily;count=5|+00:00||3|health|
+E|ev73|58|Office hours|2023-11-04T17:10|1699117800|1h30m||+00:00||9|work,health|
+E|ev74|59|Interview|2023-12-07T13:45|1701956700|45m|monthly;monthday=30|+09:00||5|travel,social|
+E|ev75|60|Planning|2026-02-07T19:10|1770491400|1h||+00:00||2|travel,work,social|
+E|ev76|61|Demo q3|2026-08-08T16:16|1786205730|1h30m||+00:00||5|health,work|
+E|ev77|62|Call|2024-06-16T00:00|1718496000|3h||+00:00|allday|6|travel,health|
+# 60 events
+event ev48 ref=16
+  title Lunch
+  start 2023-08-18T18:35
+  dur 1h tz +10:00 prio 1
+  rule weekly;on=WE,TH
+  cats health
+moved ev62 to 2023-04-04T08:10
+moved ev3 to 2024-11-14T14:30
+event ev30 ref=N
+  title Workshop
+  start 2023-04-30T12:05
+  dur 1d tz +00:00 prio 6
+  rule weekly;every=3;on=SU;count=4
+  cats health
+  skips 2023-04-30,2023-07-02
+2025-11-20T08:35Z ev48 prio=1 "Lunch" 1h
+2025-11-20T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-11-21T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-11-21T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2025-11-22T02:35Z ev71 prio=5 "Training B" 1h
+... 6 more
+event ev21 ref=F
+  title "Retro A"
+  start 2023-04-23T06:45
+  dur 1h tz +09:00 prio 9
+  rule weekly;every=2;on=SU;count=7
+  cats -
+updated ev69: 1h30m +01:00 prio=9
+1245
+event ev74 ref=1V
+  title Interview
+  start 2023-12-07T13:45
+  dur 45m tz +09:00 prio 5
+  rule monthly;monthday=30
+  cats travel,social
+event ev2 ref=1
+  title Planning
+  start 2025-12-20T17:46 (given 2025-12-20T17:45:30)
+  dur 45m tz -05:00 prio 2
+  rule monthly;every=3;on=2MO;until=2025-03-19
+  cats ops
+event ev73 ref=1T
+  title "Office hours"
+  start 2023-11-04T17:10
+  dur 1h30m tz +00:00 prio 9
+  rule -
+  cats work,health
+rule of ev39 is yearly;count=8
+moved ev61 to 2026-10-01T00:00
+event ev65 ref=1K
+  title Standup
+  start 2026-12-06T08:35
+  dur 1d tz -05:00 prio 4
+  rule -
+  cats travel,social
+updated ev47: 2h +00:00 prio=6
+2026-09-17T08:35Z ev48 prio=1 "Lunch" 1h
+2026-09-17T11:05Z ev34 prio=1 "Standup x" 1h
+2026-09-17T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-09-17T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2026-09-18T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-09-19 ev49 prio=4 "Interview" 30m
+2026-09-19T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-09-19T19:45Z E1E prio=5 "Sync" 1d
+2026-09-19T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2026-09-20 ev49 prio=4 "Interview" 30m
+2026-09-20T11:05Z ev34 prio=1 "Standup x" 1h
+2026-09-20T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-09-20T19:45Z E1E prio=5 "Sync" 1d
+event ev20 ref=E
+  title Sync
+  start 2025-10-25T10:40
+  dur 15m tz +09:00 prio 5
+  rule monthly;every=3;monthday=29
+  cats -
+skipped ev30 on 2023-06-11
+2026-12-10 Thu 19:40
+2026-12-31 Thu 19:40
+2 occurrences
+2025-01-10 Fri 13:20
+1 occurrences
+event ev19 ref=D
+  title Review
+  start 2026-08-09T14:30
+  dur 1h30m tz +01:00 prio 5
+  rule monthly;every=3;monthday=30
+  cats travel
+  skips 2027-05-30
+event ev48 ref=16
+  title Lunch
+  start 2023-08-18T18:35
+  dur 1h tz +10:00 prio 1
+  rule weekly;on=WE,TH
+  cats health
+title of ev75 is Roadmap
+event ev33 ref=Q
+  title Training
+  start 2025-08-06T09:20
+  dur 1h tz -04:00 prio 5
+  rule monthly;monthday=30;count=9
+  cats work,team
+event ev65 ref=1K
+  title Standup
+  start 2026-12-06T08:35
+  dur 1d tz -05:00 prio 4
+  rule -
+  cats travel,social
+0 occurrences
+2026-06-12T12:10Z 2026-06-12T13:40Z 1h30m
+2026-06-13T00:00Z 2026-06-13T00:30Z 30m
+2026-06-13T12:10Z 2026-06-13T13:40Z 1h30m
+2026-06-13T21:25Z 2026-06-13T22:55Z 1h30m
+2026-06-14T00:00Z 2026-06-14T00:30Z 30m
+2026-06-14T11:05Z 2026-06-14T12:05Z 1h
+2026-06-14T12:10Z 2026-06-14T13:40Z 1h30m
+2026-06-15T12:10Z 2026-06-15T13:40Z 1h30m
+2026-06-15T21:25Z 2026-06-15T22:55Z 1h30m
+2026-06-16T12:10Z 2026-06-16T13:40Z 1h30m
+2026-06-17T08:35Z 2026-06-17T09:35Z 1h
+2026-06-17T12:10Z 2026-06-17T13:40Z 1h30m
+2026-06-17T21:25Z 2026-06-17T22:55Z 1h30m
+2026-06-18T08:35Z 2026-06-18T09:35Z 1h
+2026-06-18T12:10Z 2026-06-18T13:40Z 1h30m
+busy 19h in 15 spans
+moved ev73 to 2024-10-28T17:05
+E|ev2|1|Planning|2025-12-20T17:46|1766252730|45m|monthly;every=3;on=2MO;until=2025-03-19|-05:00||2|ops|
+E|ev3|2|Demo|2024-11-14T14:30|1731594600|1h30m||+12:45||5|ops|
+E|E3|3|Checkin|2023-06-08T21:21|1686259230|3h||+05:30||5|health,social|
+E|ev6|4|Call|2023-04-14T20:00|1681502400|1h30m|yearly;every=3|+00:00||3|health,travel,team|2029-04-14,2032-04-14,2038-04-14
+E|ev7|5|Review|2024-01-27T07:35|1706340900|30m|monthly;every=3;monthday=30|-05:00||5|ops,health|
+E|ev8|6|Planning|2024-06-30T16:15|1719764100|30m||+00:00||5|ops|
+E|ev11|8|Training|2026-12-10T19:40|1796931600|1h30m|weekly;every=3;on=TH;until=2027-07-28|+00:00||8|health,team|
+E|ev13|9|Demo|2023-01-20T18:46|1674240330|1h30m||+05:30||5|team,social|
+E|ev15|10|Call|2025-02-05T12:55|1738760100|15m||-04:00||3|social|
+E|ev18|12|Review A|2026-03-24T08:35|1774341300|1h30m||+12:45||5||
+E|ev19|13|Review|2026-08-09T14:30|1786285800|1h30m|monthly;every=3;monthday=30|+01:00||5|travel|2027-05-30
+E|ev20|14|Sync|2025-10-25T10:40|1761388800|15m|monthly;every=3;monthday=29|+09:00||5||
+E|ev21|15|Retro A|2023-04-23T06:45|1682232300|1h|weekly;every=2;on=SU;count=7|+09:00||9||
+E|ev22|16|Budget q3|2026-06-16T10:05|1781604300|2h|monthly;monthday=1|-04:00||0|team,travel,social|
+E|ev23|17|Budget|2024-12-25T12:15|1735128900|1h30m||+12:45||2|ops,social|
+E|ev26|18|Roadmap B|2023-05-10T17:25|1683739500|1h30m|daily;every=2|-04:00||7|work,ops|
+E|ev27|19|Checkin|2025-07-17T18:10|1752775800|1h30m||+00:00||5|social|
+E|ev29|20|Roadmap|2025-03-23T18:10|1742753400|1h||+10:00||2||
+E|ev30|21|Workshop|2023-04-30T12:05|1682856300|1d|weekly;every=3;on=SU;count=4|+00:00||6|health|2023-04-30,2023-06-11,2023-07-02
+E|ev32|22|Office hours A|2026-06-19T07:26|1781853930|1h30m||+02:00||5||
+E|ev33|23|Training|2025-08-06T09:20|1754472000|1h|monthly;monthday=30;count=9|-04:00||5|work,team|
+E|ev34|24|Standup x|2024-05-01T11:05|1714561500|1h|weekly;every=2;on=WE,TH,SU|+00:00||1|work,health|
+E|ev35|25|Checkin|2025-05-11T17:45|1746985500|2h|weekly;every=2;on=SU|+00:00||5|team|
+E|ev36|26|Standup|2025-03-13T12:15|1741868100|15m||+12:45||5|health|
+E|EV|27|Call|2025-04-11T07:51|1744357845|1d||+10:00||6|social|
+E|ev38|28|Demo|2026-08-13T13:50|1786629000|15m||+00:00||7|social|
+E|ev39|29|Standup|2023-09-02T21:25|1693689900|1h|yearly;count=8|+05:30||5|team|2023-09-02,2027-09-02,2029-09-02
+E|EY|30|Lunch|2026-12-12T07:35|1797060900|1h30m||+02:00||6|work,ops,social|
+E|ev41|31|Interview|2026-09-27T20:25|1790540700|45m|weekly;on=TU,SA|+01:00||5|social|
+E|E10|32|Budget|2025-01-10T13:20|1736515200|30m|yearly;every=2|+05:30||2|travel,team,ops|2035-01-10
+E|ev43|33|Interview q3|2024-12-13T12:20|1734092400|2h|weekly;on=TU,FR;until=2025-05-30|+00:00||5||
+E|ev44|34|Planning|2026-08-14T12:20|1786710000|45s||+00:00||9|travel,team|
+E|ev45|35|Sync|2023-10-06T21:10|1696626600|1h30m|daily|+09:00||7|work,social|2023-10-09
+E|E14|36|Workshop A|2025-09-21T08:15|1758442505|45s|yearly;every=3;count=4|+00:00||6|work,team|
+E|ev47|37|Sync|2025-05-03T09:41|1746265230|2h||+00:00||6|ops,social,team|
+E|ev48|38|Lunch|2023-08-18T18:35|1692383700|1h|weekly;on=WE,TH|+10:00||1|health|
+E|ev49|39|Interview|2023-11-18T00:00|1700265600|30m|weekly;every=2;on=SA,SU|+02:00|allday|4||
+E|ev50|40|Budget B|2023-08-06T19:56|1691351759|1h|monthly;monthday=31|+00:00||2|ops,travel,health|
+E|ev51|41|Review|2025-01-02T20:30|1735849800|1h|yearly|-03:30||6|health|
+E|E1A|42|Checkin|2025-10-25T17:45|1761414300|1h|yearly|+00:00||9|social|2030-10-25
+E|ev54|43|Budget|2025-12-31T19:15|1767208500|2h|yearly|-04:00||5|health,team,travel|
+E|ev55|44|Call B|2026-12-17T08:30|1797496200|15m|weekly;on=SA;count=9|+00:00||9|work|
+E|E1D|45|Call|2024-10-04T13:06|1728047130|15m|monthly;monthday=30;count=6|+00:00||5||2025-02-28
+E|E1E|46|Sync|2024-12-07T19:45|1733600700|1d|weekly;every=3;on=SA,SU|+00:00||5|health,social,team|2024-12-29
+E|ev61|47|Workshop|2026-10-01T00:00|1790812800|1h30m||+00:00|allday|5||
+E|ev62|48|Interview|2023-04-04T08:10|1680595800|1h||+01:00||5||
+E|ev63|49|Sync|2025-04-06T09:25|1743931500|1h||+02:00||8|team,travel|
+E|ev64|50|Planning B|2025-11-23T00:00|1763856000|1d||+00:00|allday|1|team,ops,social|
+E|ev65|51|Standup|2026-12-06T08:35|1796546100|1d||-05:00||4|travel,social|
+E|ev66|52|Training B|2024-10-15T08:40|1728981600|1d|monthly;monthday=28;until=2027-06-21|+00:00||5|team,travel|2024-12-28
+E|ev68|53|Budget|2024-12-09T14:15|1733753700|1h30m||+09:00||5||
+E|ev69|54|Call|2026-07-27T06:05|1785132300|1h30m|weekly;every=2;on=MO,WE,TH;until=2027-04-17|+01:00||9|ops,travel|
+E|ev70|55|Roadmap|2026-12-11T13:10|1796994600|1h|weekly;every=2;on=FR,SA,SU;count=2|+00:00||5||
+E|ev71|56|Training B|2024-08-17T11:35|1723894500|1h|weekly;every=2;on=SA,SU|+09:00||5|ops|
+E|E1S|57|Planning|2024-08-03T15:40|1722699600|15m|daily;count=5|+00:00||3|health|
+E|ev73|58|Office hours|2024-10-28T17:05|1730135100|1h30m||+00:00||9|work,health|
+E|ev74|59|Interview|2023-12-07T13:45|1701956700|45m|monthly;monthday=30|+09:00||5|travel,social|
+E|ev75|60|Roadmap|2026-02-07T19:10|1770491400|1h||+00:00||2|travel,work,social|
+E|ev76|61|Demo q3|2026-08-08T16:16|1786205730|1h30m||+00:00||5|health,work|
+E|ev77|62|Call|2024-06-16T00:00|1718496000|3h||+00:00|allday|6|travel,health|
+# 60 events
+event ev65 ref=1K
+  title Standup
+  start 2026-12-06T08:35
+  dur 1d tz -05:00 prio 4
+  rule -
+  cats travel,social
+check ok (60 events)
+event ev47 ref=15
+  title Sync
+  start 2025-05-03T09:41 (given 2025-05-03T09:40:30)
+  dur 2h tz +00:00 prio 6
+  rule -
+  cats ops,social,team
+2024-10-26T02:35Z ev71 prio=5 "Training B" 1h
+2024-10-26T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-27T02:35Z ev71 prio=5 "Training B" 1h
+2024-10-27T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-27T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-10-28T08:40Z ev66 prio=5 "Training B" 1d
+2024-10-28T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-28T17:05Z ev73 prio=9 "Office hours" 1h30m
+2024-10-29T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-29T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-10-30T04:45Z ev74 prio=5 "Interview" 45m
+2024-10-30T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-30T11:05Z ev34 prio=1 "Standup x" 1h
+2024-10-30T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-30T12:35Z ev7 prio=5 "Review" 30m
+2024-10-30T13:06Z E1D prio=5 "Call" 15m
+2024-10-31T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-31T11:05Z ev34 prio=1 "Standup x" 1h
+2024-10-31T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-31T19:56Z ev50 prio=2 "Budget B" 1h
+2024-10-31T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-11-01T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-11-02 ev49 prio=4 "Interview" 30m
+2024-11-02T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-11-02T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-11-03 ev49 prio=4 "Interview" 30m
+2024-11-03T11:05Z ev34 prio=1 "Standup x" 1h
+2024-11-03T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-11-04T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-11-04T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-11-05T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-11-06T08:35Z ev48 prio=1 "Lunch" 1h
+2024-11-06T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-11-06T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-11-07T08:35Z ev48 prio=1 "Lunch" 1h
+2024-11-07T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-11-08T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-11-08T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-08-23 Wed 18:35
+2023-08-24 Thu 18:35
+2 occurrences
+2025-01-28T17:04 given 2025-01-28T17:04:21
+updated ev77: 3h +02:00 prio=0
+moved ev75 to 2024-04-07T14:00
+event ev47 ref=15
+  title Sync
+  start 2025-05-03T09:41 (given 2025-05-03T09:40:30)
+  dur 2h tz +00:00 prio 6
+  rule -
+  cats ops,social,team
+20307
+event ev27 ref=K
+  title Checkin
+  start 2025-07-17T18:10
+  dur 1h30m tz +00:00 prio 5
+  rule -
+  cats social
+2024-10-02T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-02T11:05Z ev34 prio=1 "Standup x" 1h
+2024-10-02T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-03T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-03T11:05Z ev34 prio=1 "Standup x" 1h
+2024-10-03T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-03T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-10-04T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-05 ev49 prio=4 "Interview" 30m
+2024-10-05T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-05T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-10-06 ev49 prio=4 "Interview" 30m
+2024-10-06T11:05Z ev34 prio=1 "Standup x" 1h
+2024-10-06T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-07T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-07T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-10-08T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-09T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-09T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-09T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-10-10T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-10T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-11T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-11T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-10-12T02:35Z ev71 prio=5 "Training B" 1h
+2024-10-12T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-13T02:35Z ev71 prio=5 "Training B" 1h
+2024-10-13T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-13T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-10-14T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-15T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-15T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+title of E14 is Demo
+E|ev2|1|Planning|2025-12-20T17:46|1766252730|45m|monthly;every=3;on=2MO;until=2025-03-19|-05:00||2|ops|
+E|ev3|2|Demo|2024-11-14T14:30|1731594600|1h30m||+12:45||5|ops|
+E|E3|3|Checkin|2023-06-08T21:21|1686259230|3h||+05:30||5|health,social|
+E|ev6|4|Call|2023-04-14T20:00|1681502400|1h30m|yearly;every=3|+00:00||3|health,travel,team|2029-04-14,2032-04-14,2038-04-14
+E|ev7|5|Review|2024-01-27T07:35|1706340900|30m|monthly;every=3;monthday=30|-05:00||5|ops,health|
+E|ev8|6|Planning|2024-06-30T16:15|1719764100|30m||+00:00||5|ops|
+E|ev11|8|Training|2026-12-10T19:40|1796931600|1h30m|weekly;every=3;on=TH;until=2027-07-28|+00:00||8|health,team|
+E|ev13|9|Demo|2023-01-20T18:46|1674240330|1h30m||+05:30||5|team,social|
+E|ev15|10|Call|2025-02-05T12:55|1738760100|15m||-04:00||3|social|
+E|ev18|12|Review A|2026-03-24T08:35|1774341300|1h30m||+12:45||5||
+E|ev19|13|Review|2026-08-09T14:30|1786285800|1h30m|monthly;every=3;monthday=30|+01:00||5|travel|2027-05-30
+E|ev20|14|Sync|2025-10-25T10:40|1761388800|15m|monthly;every=3;monthday=29|+09:00||5||
+E|ev21|15|Retro A|2023-04-23T06:45|1682232300|1h|weekly;every=2;on=SU;count=7|+09:00||9||
+E|ev22|16|Budget q3|2026-06-16T10:05|1781604300|2h|monthly;monthday=1|-04:00||0|team,travel,social|
+E|ev23|17|Budget|2024-12-25T12:15|1735128900|1h30m||+12:45||2|ops,social|
+E|ev26|18|Roadmap B|2023-05-10T17:25|1683739500|1h30m|daily;every=2|-04:00||7|work,ops|
+E|ev27|19|Checkin|2025-07-17T18:10|1752775800|1h30m||+00:00||5|social|
+E|ev29|20|Roadmap|2025-03-23T18:10|1742753400|1h||+10:00||2||
+E|ev30|21|Workshop|2023-04-30T12:05|1682856300|1d|weekly;every=3;on=SU;count=4|+00:00||6|health|2023-04-30,2023-06-11,2023-07-02
+E|ev32|22|Office hours A|2026-06-19T07:26|1781853930|1h30m||+02:00||5||
+E|ev33|23|Training|2025-08-06T09:20|1754472000|1h|monthly;monthday=30;count=9|-04:00||5|work,team|
+E|ev34|24|Standup x|2024-05-01T11:05|1714561500|1h|weekly;every=2;on=WE,TH,SU|+00:00||1|work,health|
+E|ev35|25|Checkin|2025-05-11T17:45|1746985500|2h|weekly;every=2;on=SU|+00:00||5|team|
+E|ev36|26|Standup|2025-03-13T12:15|1741868100|15m||+12:45||5|health|
+E|EV|27|Call|2025-04-11T07:51|1744357845|1d||+10:00||6|social|
+E|ev38|28|Demo|2026-08-13T13:50|1786629000|15m||+00:00||7|social|
+E|ev39|29|Standup|2023-09-02T21:25|1693689900|1h|yearly;count=8|+05:30||5|team|2023-09-02,2027-09-02,2029-09-02
+E|EY|30|Lunch|2026-12-12T07:35|1797060900|1h30m||+02:00||6|work,ops,social|
+E|ev41|31|Interview|2026-09-27T20:25|1790540700|45m|weekly;on=TU,SA|+01:00||5|social|
+E|E10|32|Budget|2025-01-10T13:20|1736515200|30m|yearly;every=2|+05:30||2|travel,team,ops|2035-01-10
+E|ev43|33|Interview q3|2024-12-13T12:20|1734092400|2h|weekly;on=TU,FR;until=2025-05-30|+00:00||5||
+E|ev44|34|Planning|2026-08-14T12:20|1786710000|45s||+00:00||9|travel,team|
+E|ev45|35|Sync|2023-10-06T21:10|1696626600|1h30m|daily|+09:00||7|work,social|2023-10-09
+E|E14|36|Demo|2025-09-21T08:15|1758442505|45s|yearly;every=3;count=4|+00:00||6|work,team|
+E|ev47|37|Sync|2025-05-03T09:41|1746265230|2h||+00:00||6|ops,social,team|
+E|ev48|38|Lunch|2023-08-18T18:35|1692383700|1h|weekly;on=WE,TH|+10:00||1|health|
+E|ev49|39|Interview|2023-11-18T00:00|1700265600|30m|weekly;every=2;on=SA,SU|+02:00|allday|4||
+E|ev50|40|Budget B|2023-08-06T19:56|1691351759|1h|monthly;monthday=31|+00:00||2|ops,travel,health|
+E|ev51|41|Review|2025-01-02T20:30|1735849800|1h|yearly|-03:30||6|health|
+E|E1A|42|Checkin|2025-10-25T17:45|1761414300|1h|yearly|+00:00||9|social|2030-10-25
+E|ev54|43|Budget|2025-12-31T19:15|1767208500|2h|yearly|-04:00||5|health,team,travel|
+E|ev55|44|Call B|2026-12-17T08:30|1797496200|15m|weekly;on=SA;count=9|+00:00||9|work|
+E|E1D|45|Call|2024-10-04T13:06|1728047130|15m|monthly;monthday=30;count=6|+00:00||5||2025-02-28
+E|E1E|46|Sync|2024-12-07T19:45|1733600700|1d|weekly;every=3;on=SA,SU|+00:00||5|health,social,team|2024-12-29
+E|ev61|47|Workshop|2026-10-01T00:00|1790812800|1h30m||+00:00|allday|5||
+E|ev62|48|Interview|2023-04-04T08:10|1680595800|1h||+01:00||5||
+E|ev63|49|Sync|2025-04-06T09:25|1743931500|1h||+02:00||8|team,travel|
+E|ev64|50|Planning B|2025-11-23T00:00|1763856000|1d||+00:00|allday|1|team,ops,social|
+E|ev65|51|Standup|2026-12-06T08:35|1796546100|1d||-05:00||4|travel,social|
+E|ev66|52|Training B|2024-10-15T08:40|1728981600|1d|monthly;monthday=28;until=2027-06-21|+00:00||5|team,travel|2024-12-28
+E|ev68|53|Budget|2024-12-09T14:15|1733753700|1h30m||+09:00||5||
+E|ev69|54|Call|2026-07-27T06:05|1785132300|1h30m|weekly;every=2;on=MO,WE,TH;until=2027-04-17|+01:00||9|ops,travel|
+E|ev70|55|Roadmap|2026-12-11T13:10|1796994600|1h|weekly;every=2;on=FR,SA,SU;count=2|+00:00||5||
+E|ev71|56|Training B|2024-08-17T11:35|1723894500|1h|weekly;every=2;on=SA,SU|+09:00||5|ops|
+E|E1S|57|Planning|2024-08-03T15:40|1722699600|15m|daily;count=5|+00:00||3|health|
+E|ev73|58|Office hours|2024-10-28T17:05|1730135100|1h30m||+00:00||9|work,health|
+E|ev74|59|Interview|2023-12-07T13:45|1701956700|45m|monthly;monthday=30|+09:00||5|travel,social|
+E|ev75|60|Roadmap|2024-04-07T14:00|1712498400|1h||+00:00||2|travel,work,social|
+E|ev76|61|Demo q3|2026-08-08T16:16|1786205730|1h30m||+00:00||5|health,work|
+E|ev77|62|Call|2024-06-16T00:00|1718496000|3h||+02:00|allday|0|travel,health|
+# 60 events
+event ev18 ref=C
+  title "Review A"
+  start 2026-03-24T08:35
+  dur 1h30m tz +12:45 prio 5
+  rule -
+  cats -
+moved E1S to 2026-11-08T14:31
+event EV ref=V
+  title Call
+  start 2025-04-11T07:51 (given 2025-04-11T07:50:45)
+  dur 1d tz +10:00 prio 6
+  rule -
+  cats social
+event ev6 ref=4
+  title Call
+  start 2023-04-14T20:00
+  dur 1h30m tz +00:00 prio 3
+  rule yearly;every=3
+  cats health,travel,team
+  skips 2029-04-14,2032-04-14,2038-04-14
+skipped E1S on 2026-11-12
+2026-12-06 Sun 08:35
+1 occurrences
+653
+skipped ev41 on 2026-10-06
+skipped ev71 on 2024-08-17
+event ev76 ref=1X
+  title "Demo q3"
+  start 2026-08-08T16:16 (given 2026-08-08T16:15:30)
+  dur 1h30m tz +00:00 prio 5
+  rule -
+  cats health,work
+events 60, recurring 34, all-day 4
+category social 18
+category health 16
+category team 16
+category travel 14
+category ops 13
+earliest ev13 2023-01-20
+latest ev55 2026-12-17
+span 1427 days (203 weeks)
+skips 19
+rule of ev55 is weekly;on=TU;count=8
+moved ev68 to 2026-04-07T17:25
+2025-10-04T21:18 given 2025-10-04T21:18:23
+event ev29 ref=M
+  title Roadmap
+  start 2025-03-23T18:10
+  dur 1h tz +10:00 prio 2
+  rule -
+  cats -
+title of ev71 is Planning
+E|ev2|1|Planning|2025-12-20T17:46|1766252730|45m|monthly;every=3;on=2MO;until=2025-03-19|-05:00||2|ops|
+E|ev3|2|Demo|2024-11-14T14:30|1731594600|1h30m||+12:45||5|ops|
+E|E3|3|Checkin|2023-06-08T21:21|1686259230|3h||+05:30||5|health,social|
+E|ev6|4|Call|2023-04-14T20:00|1681502400|1h30m|yearly;every=3|+00:00||3|health,travel,team|2029-04-14,2032-04-14,2038-04-14
+E|ev7|5|Review|2024-01-27T07:35|1706340900|30m|monthly;every=3;monthday=30|-05:00||5|ops,health|
+E|ev8|6|Planning|2024-06-30T16:15|1719764100|30m||+00:00||5|ops|
+E|ev11|8|Training|2026-12-10T19:40|1796931600|1h30m|weekly;every=3;on=TH;until=2027-07-28|+00:00||8|health,team|
+E|ev13|9|Demo|2023-01-20T18:46|1674240330|1h30m||+05:30||5|team,social|
+E|ev15|10|Call|2025-02-05T12:55|1738760100|15m||-04:00||3|social|
+E|ev18|12|Review A|2026-03-24T08:35|1774341300|1h30m||+12:45||5||
+E|ev19|13|Review|2026-08-09T14:30|1786285800|1h30m|monthly;every=3;monthday=30|+01:00||5|travel|2027-05-30
+E|ev20|14|Sync|2025-10-25T10:40|1761388800|15m|monthly;every=3;monthday=29|+09:00||5||
+E|ev21|15|Retro A|2023-04-23T06:45|1682232300|1h|weekly;every=2;on=SU;count=7|+09:00||9||
+E|ev22|16|Budget q3|2026-06-16T10:05|1781604300|2h|monthly;monthday=1|-04:00||0|team,travel,social|
+E|ev23|17|Budget|2024-12-25T12:15|1735128900|1h30m||+12:45||2|ops,social|
+E|ev26|18|Roadmap B|2023-05-10T17:25|1683739500|1h30m|daily;every=2|-04:00||7|work,ops|
+E|ev27|19|Checkin|2025-07-17T18:10|1752775800|1h30m||+00:00||5|social|
+E|ev29|20|Roadmap|2025-03-23T18:10|1742753400|1h||+10:00||2||
+E|ev30|21|Workshop|2023-04-30T12:05|1682856300|1d|weekly;every=3;on=SU;count=4|+00:00||6|health|2023-04-30,2023-06-11,2023-07-02
+E|ev32|22|Office hours A|2026-06-19T07:26|1781853930|1h30m||+02:00||5||
+E|ev33|23|Training|2025-08-06T09:20|1754472000|1h|monthly;monthday=30;count=9|-04:00||5|work,team|
+E|ev34|24|Standup x|2024-05-01T11:05|1714561500|1h|weekly;every=2;on=WE,TH,SU|+00:00||1|work,health|
+E|ev35|25|Checkin|2025-05-11T17:45|1746985500|2h|weekly;every=2;on=SU|+00:00||5|team|
+E|ev36|26|Standup|2025-03-13T12:15|1741868100|15m||+12:45||5|health|
+E|EV|27|Call|2025-04-11T07:51|1744357845|1d||+10:00||6|social|
+E|ev38|28|Demo|2026-08-13T13:50|1786629000|15m||+00:00||7|social|
+E|ev39|29|Standup|2023-09-02T21:25|1693689900|1h|yearly;count=8|+05:30||5|team|2023-09-02,2027-09-02,2029-09-02
+E|EY|30|Lunch|2026-12-12T07:35|1797060900|1h30m||+02:00||6|work,ops,social|
+E|ev41|31|Interview|2026-09-27T20:25|1790540700|45m|weekly;on=TU,SA|+01:00||5|social|2026-10-06
+E|E10|32|Budget|2025-01-10T13:20|1736515200|30m|yearly;every=2|+05:30||2|travel,team,ops|2035-01-10
+E|ev43|33|Interview q3|2024-12-13T12:20|1734092400|2h|weekly;on=TU,FR;until=2025-05-30|+00:00||5||
+E|ev44|34|Planning|2026-08-14T12:20|1786710000|45s||+00:00||9|travel,team|
+E|ev45|35|Sync|2023-10-06T21:10|1696626600|1h30m|daily|+09:00||7|work,social|2023-10-09
+E|E14|36|Demo|2025-09-21T08:15|1758442505|45s|yearly;every=3;count=4|+00:00||6|work,team|
+E|ev47|37|Sync|2025-05-03T09:41|1746265230|2h||+00:00||6|ops,social,team|
+E|ev48|38|Lunch|2023-08-18T18:35|1692383700|1h|weekly;on=WE,TH|+10:00||1|health|
+E|ev49|39|Interview|2023-11-18T00:00|1700265600|30m|weekly;every=2;on=SA,SU|+02:00|allday|4||
+E|ev50|40|Budget B|2023-08-06T19:56|1691351759|1h|monthly;monthday=31|+00:00||2|ops,travel,health|
+E|ev51|41|Review|2025-01-02T20:30|1735849800|1h|yearly|-03:30||6|health|
+E|E1A|42|Checkin|2025-10-25T17:45|1761414300|1h|yearly|+00:00||9|social|2030-10-25
+E|ev54|43|Budget|2025-12-31T19:15|1767208500|2h|yearly|-04:00||5|health,team,travel|
+E|ev55|44|Call B|2026-12-17T08:30|1797496200|15m|weekly;on=TU;count=8|+00:00||9|work|
+E|E1D|45|Call|2024-10-04T13:06|1728047130|15m|monthly;monthday=30;count=6|+00:00||5||2025-02-28
+E|E1E|46|Sync|2024-12-07T19:45|1733600700|1d|weekly;every=3;on=SA,SU|+00:00||5|health,social,team|2024-12-29
+E|ev61|47|Workshop|2026-10-01T00:00|1790812800|1h30m||+00:00|allday|5||
+E|ev62|48|Interview|2023-04-04T08:10|1680595800|1h||+01:00||5||
+E|ev63|49|Sync|2025-04-06T09:25|1743931500|1h||+02:00||8|team,travel|
+E|ev64|50|Planning B|2025-11-23T00:00|1763856000|1d||+00:00|allday|1|team,ops,social|
+E|ev65|51|Standup|2026-12-06T08:35|1796546100|1d||-05:00||4|travel,social|
+E|ev66|52|Training B|2024-10-15T08:40|1728981600|1d|monthly;monthday=28;until=2027-06-21|+00:00||5|team,travel|2024-12-28
+E|ev68|53|Budget|2026-04-07T17:25|1775582700|1h30m||+09:00||5||
+E|ev69|54|Call|2026-07-27T06:05|1785132300|1h30m|weekly;every=2;on=MO,WE,TH;until=2027-04-17|+01:00||9|ops,travel|
+E|ev70|55|Roadmap|2026-12-11T13:10|1796994600|1h|weekly;every=2;on=FR,SA,SU;count=2|+00:00||5||
+E|ev71|56|Planning|2024-08-17T11:35|1723894500|1h|weekly;every=2;on=SA,SU|+09:00||5|ops|2024-08-17
+E|E1S|57|Planning|2026-11-08T14:31|1794148259|15m|daily;count=5|+00:00||3|health|2026-11-12
+E|ev73|58|Office hours|2024-10-28T17:05|1730135100|1h30m||+00:00||9|work,health|
+E|ev74|59|Interview|2023-12-07T13:45|1701956700|45m|monthly;monthday=30|+09:00||5|travel,social|
+E|ev75|60|Roadmap|2024-04-07T14:00|1712498400|1h||+00:00||2|travel,work,social|
+E|ev76|61|Demo q3|2026-08-08T16:16|1786205730|1h30m||+00:00||5|health,work|
+E|ev77|62|Call|2024-06-16T00:00|1718496000|3h||+02:00|allday|0|travel,health|
+# 60 events
+event ev76 ref=1X
+  title "Demo q3"
+  start 2026-08-08T16:16 (given 2026-08-08T16:15:30)
+  dur 1h30m tz +00:00 prio 5
+  rule -
+  cats health,work
+2026-11-08 Sun 14:31
+2026-11-09 Mon 14:31
+2026-11-10 Tue 14:31
+2026-11-11 Wed 14:31
+4 occurrences
+skipped ev33 on 2025-08-30
+event ev62 ref=1G
+  title Interview
+  start 2023-04-04T08:10
+  dur 1h tz +01:00 prio 5
+  rule -
+  cats -
+event ev27 ref=K
+  title Checkin
+  start 2025-07-17T18:10
+  dur 1h30m tz +00:00 prio 5
+  rule -
+  cats social
+2025-10-15T08:35Z ev48 prio=1 "Lunch" 1h
+2025-10-15T11:05Z ev34 prio=1 "Standup x" 1h
+2025-10-15T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-10-16T08:35Z ev48 prio=1 "Lunch" 1h
+2025-10-16T11:05Z ev34 prio=1 "Standup x" 1h
+... 7 more
+event ev51 ref=19
+  title Review
+  start 2025-01-02T20:30
+  dur 1h tz -03:30 prio 6
+  rule yearly
+  cats health
+2025-10-29 Wed 10:40
+1 occurrences
+2025-02-05 Wed 12:55
+1 occurrences
+event ev19 ref=D
+  title Review
+  start 2026-08-09T14:30
+  dur 1h30m tz +01:00 prio 5
+  rule monthly;every=3;monthday=30
+  cats travel
+  skips 2027-05-30
+check ok (60 events)
+event ev45 ref=13
+  title Sync
+  start 2023-10-06T21:10
+  dur 1h30m tz +09:00 prio 7
+  rule daily
+  cats work,social
+  skips 2023-10-09
+event ev47 ref=15
+  title Sync
+  start 2025-05-03T09:41 (given 2025-05-03T09:40:30)
+  dur 2h tz +00:00 prio 6
+  rule -
+  cats ops,social,team
+moved EV to 2026-08-05T17:45
+2024-12-13 Fri 12:20
+2024-12-17 Tue 12:20
+2024-12-20 Fri 12:20
+2024-12-24 Tue 12:20
+2024-12-27 Fri 12:20
+2024-12-31 Tue 12:20
+2025-01-03 Fri 12:20
+2025-01-07 Tue 12:20
+2025-01-10 Fri 12:20
+2025-01-14 Tue 12:20
+2025-01-17 Fri 12:20
+11 occurrences
+0 occurrences
+event E1S ref=1S
+  title Planning
+  start 2026-11-08T14:31 (given 2026-11-08T14:30:59)
+  dur 15m tz +00:00 prio 3
+  rule daily;count=5
+  cats health
+  skips 2026-11-12
+2023-10-06 Fri 21:10
+2023-10-07 Sat 21:10
+2023-10-08 Sun 21:10
+2023-10-10 Tue 21:10
+2023-10-11 Wed 21:10
+2023-10-12 Thu 21:10
+2023-10-13 Fri 21:10
+2023-10-14 Sat 21:10
+2023-10-15 Sun 21:10
+2023-10-16 Mon 21:10
+2023-10-17 Tue 21:10
+2023-10-18 Wed 21:10
+2023-10-19 Thu 21:10
+2023-10-20 Fri 21:10
+2023-10-21 Sat 21:10
+2023-10-22 Sun 21:10
+2023-10-23 Mon 21:10
+2023-10-24 Tue 21:10
+2023-10-25 Wed 21:10
+2023-10-26 Thu 21:10
+2023-10-27 Fri 21:10
+2023-10-28 Sat 21:10
+2023-10-29 Sun 21:10
+2023-10-30 Mon 21:10
+2023-10-31 Tue 21:10
+2023-11-01 Wed 21:10
+2023-11-02 Thu 21:10
+2023-11-03 Fri 21:10
+2023-11-04 Sat 21:10
+2023-11-05 Sun 21:10
+2023-11-06 Mon 21:10
+2023-11-07 Tue 21:10
+2023-11-08 Wed 21:10
+2023-11-09 Thu 21:10
+2023-11-10 Fri 21:10
+2023-11-11 Sat 21:10
+2023-11-12 Sun 21:10
+2023-11-13 Mon 21:10
+2023-11-14 Tue 21:10
+2023-11-15 Wed 21:10
+2023-11-16 Thu 21:10
+2023-11-17 Fri 21:10
+2023-11-18 Sat 21:10
+2023-11-19 Sun 21:10
+2023-11-20 Mon 21:10
+2023-11-21 Tue 21:10
+2023-11-22 Wed 21:10
+2023-11-23 Thu 21:10
+2023-11-24 Fri 21:10
+2023-11-25 Sat 21:10
+2023-11-26 Sun 21:10
+2023-11-27 Mon 21:10
+2023-11-28 Tue 21:10
+2023-11-29 Wed 21:10
+2023-11-30 Thu 21:10
+2023-12-01 Fri 21:10
+2023-12-02 Sat 21:10
+2023-12-03 Sun 21:10
+2023-12-04 Mon 21:10
+2023-12-05 Tue 21:10
+2023-12-06 Wed 21:10
+2023-12-07 Thu 21:10
+2023-12-08 Fri 21:10
+2023-12-09 Sat 21:10
+2023-12-10 Sun 21:10
+2023-12-11 Mon 21:10
+2023-12-12 Tue 21:10
+2023-12-13 Wed 21:10
+2023-12-14 Thu 21:10
+2023-12-15 Fri 21:10
+2023-12-16 Sat 21:10
+2023-12-17 Sun 21:10
+2023-12-18 Mon 21:10
+2023-12-19 Tue 21:10
+2023-12-20 Wed 21:10
+2023-12-21 Thu 21:10
+2023-12-22 Fri 21:10
+2023-12-23 Sat 21:10
+2023-12-24 Sun 21:10
+2023-12-25 Mon 21:10
+2023-12-26 Tue 21:10
+2023-12-27 Wed 21:10
+2023-12-28 Thu 21:10
+2023-12-29 Fri 21:10
+2023-12-30 Sat 21:10
+2023-12-31 Sun 21:10
+2024-01-01 Mon 21:10
+2024-01-02 Tue 21:10
+2024-01-03 Wed 21:10
+2024-01-04 Thu 21:10
+2024-01-05 Fri 21:10
+2024-01-06 Sat 21:10
+2024-01-07 Sun 21:10
+2024-01-08 Mon 21:10
+2024-01-09 Tue 21:10
+2024-01-10 Wed 21:10
+2024-01-11 Thu 21:10
+2024-01-12 Fri 21:10
+2024-01-13 Sat 21:10
+2024-01-14 Sun 21:10
+2024-01-15 Mon 21:10
+2024-01-16 Tue 21:10
+2024-01-17 Wed 21:10
+2024-01-18 Thu 21:10
+2024-01-19 Fri 21:10
+2024-01-20 Sat 21:10
+2024-01-21 Sun 21:10
+2024-01-22 Mon 21:10
+2024-01-23 Tue 21:10
+2024-01-24 Wed 21:10
+110 occurrences
+2024-10-02T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-02T11:05Z ev34 prio=1 "Standup x" 1h
+2024-10-02T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-03T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-03T11:05Z ev34 prio=1 "Standup x" 1h
+... 12 more
+2024-10-27T02:35Z 2024-10-27T03:35Z 1h
+2024-10-27T12:10Z 2024-10-27T13:40Z 1h30m
+2024-10-27T21:25Z 2024-10-27T22:55Z 1h30m
+2024-10-28T08:40Z 2024-10-29T08:40Z 1d
+2024-10-29T12:10Z 2024-10-29T13:40Z 1h30m
+2024-10-29T21:25Z 2024-10-29T22:55Z 1h30m
+2024-10-30T04:45Z 2024-10-30T05:30Z 45m
+2024-10-30T08:35Z 2024-10-30T09:35Z 1h
+2024-10-30T11:05Z 2024-10-30T12:05Z 1h
+2024-10-30T12:10Z 2024-10-30T13:40Z 1h30m
+busy 1d11h15m in 10 spans
+event ev49 ref=17
+  title Interview
+  start 2023-11-18
+  dur 30m tz +02:00 prio 4 allday
+  rule weekly;every=2;on=SA,SU
+  cats -
+2005-03-31 Thu
+event ev39 ref=X
+  title Standup
+  start 2023-09-02T21:25
+  dur 1h tz +05:30 prio 5
+  rule yearly;count=8
+  cats team
+  skips 2023-09-02,2027-09-02,2029-09-02
+event ev55 ref=1C
+  title "Call B"
+  start 2026-12-17T08:30
+  dur 15m tz +00:00 prio 9
+  rule weekly;on=TU;count=8
+  cats work
+event EY ref=Y
+  title Lunch
+  start 2026-12-12T07:35
+  dur 1h30m tz +02:00 prio 6
+  rule -
+  cats work,ops,social
+event ev61 ref=1F
+  title Workshop
+  start 2026-10-01
+  dur 1h30m tz +00:00 prio 5 allday
+  rule -
+  cats -
+event ev6 ref=4
+  title Call
+  start 2023-04-14T20:00
+  dur 1h30m tz +00:00 prio 3
+  rule yearly;every=3
+  cats health,travel,team
+  skips 2029-04-14,2032-04-14,2038-04-14
+event ev20 ref=E
+  title Sync
+  start 2025-10-25T10:40
+  dur 15m tz +09:00 prio 5
+  rule monthly;every=3;monthday=29
+  cats -
+event ev35 ref=S
+  title Checkin
+  start 2025-05-11T17:45
+  dur 2h tz +00:00 prio 5
+  rule weekly;every=2;on=SU
+  cats team
+event ev73 ref=1T
+  title "Office hours"
+  start 2024-10-28T17:05
+  dur 1h30m tz +00:00 prio 9
+  rule -
+  cats work,health
+event ev61 ref=1F
+  title Workshop
+  start 2026-10-01
+  dur 1h30m tz +00:00 prio 5 allday
+  rule -
+  cats -
+event ev69 ref=1P
+  title Call
+  start 2026-07-27T06:05
+  dur 1h30m tz +01:00 prio 9
+  rule weekly;every=2;on=MO,WE,TH;until=2027-04-17
+  cats ops,travel
+2026-08-13T05:05Z ev69 prio=9 "Call" 1h30m
+2026-08-13T08:35Z ev48 prio=1 "Lunch" 1h
+2026-08-13T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-13T13:50Z ev38 prio=7 "Demo" 15m
+2026-08-14T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-14T12:20Z ev44 prio=9 "Planning" 45s
+2026-08-14T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2026-08-15T02:35Z ev71 prio=5 "Planning" 1h
+2026-08-15T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-16T02:35Z ev71 prio=5 "Planning" 1h
+2026-08-16T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-16T17:45Z ev35 prio=5 "Checkin" 2h
+2026-08-16T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+moved E14 to 2026-09-12T09:30
+2024-05-12 Sun
+event ev2 ref=1
+  title Planning
+  start 2025-12-20T17:46 (given 2025-12-20T17:45:30)
+  dur 45m tz -05:00 prio 2
+  rule monthly;every=3;on=2MO;until=2025-03-19
+  cats ops
+event ev50 ref=18
+  title "Budget B"
+  start 2023-08-06T19:56 (given 2023-08-06T19:55:59)
+  dur 1h tz +00:00 prio 2
+  rule monthly;monthday=31
+  cats ops,travel,health
+event ev65 ref=1K
+  title Standup
+  start 2026-12-06T08:35
+  dur 1d tz -05:00 prio 4
+  rule -
+  cats travel,social
+removed ev34
+added E1Z ref=1Z
+cats of ev8 are -
+moved ev23 to 2023-12-31T12:21
+event E1S ref=1S
+  title Planning
+  start 2026-11-08T14:31 (given 2026-11-08T14:30:59)
+  dur 15m tz +00:00 prio 3
+  rule daily;count=5
+  cats health
+  skips 2026-11-12
+2025-01-10T07:50Z E10 prio=2 "Budget" 30m
+2025-01-10T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-01-10T12:20Z ev43 prio=5 "Interview q3" 2h
+2025-01-11 ev49 prio=4 "Interview" 30m
+2025-01-11T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-01-11T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2025-01-12 ev49 prio=4 "Interview" 30m
+2025-01-12T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-01-13T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-01-13T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+rule of ev49 is -
+event ev30 ref=N
+  title Workshop
+  start 2023-04-30T12:05
+  dur 1d tz +00:00 prio 6
+  rule weekly;every=3;on=SU;count=4
+  cats health
+  skips 2023-04-30,2023-06-11,2023-07-02
+cats of ev33 are -
+cats of ev69 are -
+events 60, recurring 32, all-day 5
+category social 18
+category health 15
+category team 15
+category travel 13
+category ops 11
+earliest ev13 2023-01-20
+latest ev55 2026-12-17
+span 1427 days (203 weeks)
+skips 20
+moved EY to 2025-04-05T11:00
+2023-12-26T12:10Z ev45 prio=7 "Sync" 1h30m
+2023-12-26T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-12-27T08:35Z ev48 prio=1 "Lunch" 1h
+2023-12-27T12:10Z ev45 prio=7 "Sync" 1h30m
+2023-12-28T08:35Z ev48 prio=1 "Lunch" 1h
+2023-12-28T12:10Z ev45 prio=7 "Sync" 1h30m
+2023-12-28T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-12-29T12:10Z ev45 prio=7 "Sync" 1h30m
+2023-12-30T04:45Z ev74 prio=5 "Interview" 45m
+2023-12-30T12:10Z ev45 prio=7 "Sync" 1h30m
+2023-12-30T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-12-30T23:36Z ev23 prio=2 "Budget" 1h30m
+2023-12-31T12:10Z ev45 prio=7 "Sync" 1h30m
+2023-12-31T19:56Z ev50 prio=2 "Budget B" 1h
+2024-01-01T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-01-01T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-01-02T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-01-03T08:35Z ev48 prio=1 "Lunch" 1h
+2024-01-03T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-01-03T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-01-04T08:35Z ev48 prio=1 "Lunch" 1h
+2024-01-04T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-01-05T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-01-05T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-01-06T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-01-07T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-01-07T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-01-08T12:10Z ev45 prio=7 "Sync" 1h30m
+1 ev2 2025-12-20T17:46 Planning rule=monthly;every=3;on=2MO;until=2025-03-19
+2 ev3 2024-11-14T14:30 Demo
+3 E3 2023-06-08T21:21 Checkin
+4 ev6 2023-04-14T20:00 Call rule=yearly;every=3
+5 ev7 2024-01-27T07:35 Review rule=monthly;every=3;monthday=30
+6 ev8 2024-06-30T16:15 Planning
+8 ev11 2026-12-10T19:40 Training rule=weekly;every=3;on=TH;until=2027-07-28
+9 ev13 2023-01-20T18:46 Demo
+A ev15 2025-02-05T12:55 Call
+C ev18 2026-03-24T08:35 "Review A"
+D ev19 2026-08-09T14:30 Review rule=monthly;every=3;monthday=30
+E ev20 2025-10-25T10:40 Sync rule=monthly;every=3;monthday=29
+F ev21 2023-04-23T06:45 "Retro A" rule=weekly;every=2;on=SU;count=7
+G ev22 2026-06-16T10:05 "Budget q3" rule=monthly;monthday=1
+H ev23 2023-12-31T12:21 Budget
+J ev26 2023-05-10T17:25 "Roadmap B" rule=daily;every=2
+K ev27 2025-07-17T18:10 Checkin
+M ev29 2025-03-23T18:10 Roadmap
+N ev30 2023-04-30T12:05 Workshop rule=weekly;every=3;on=SU;count=4
+P ev32 2026-06-19T07:26 "Office hours A"
+Q ev33 2025-08-06T09:20 Training rule=monthly;monthday=30;count=9
+S ev35 2025-05-11T17:45 Checkin rule=weekly;every=2;on=SU
+T ev36 2025-03-13T12:15 Standup
+V EV 2026-08-05T17:45 Call
+W ev38 2026-08-13T13:50 Demo
+X ev39 2023-09-02T21:25 Standup rule=yearly;count=8
+Y EY 2025-04-05T11:00 Lunch
+Z ev41 2026-09-27T20:25 Interview rule=weekly;on=TU,SA
+10 E10 2025-01-10T13:20 Budget rule=yearly;every=2
+11 ev43 2024-12-13T12:20 "Interview q3" rule=weekly;on=TU,FR;until=2025-05-30
+12 ev44 2026-08-14T12:20 Planning
+13 ev45 2023-10-06T21:10 Sync rule=daily
+14 E14 2026-09-12T09:30 Demo rule=yearly;every=3;count=4
+15 ev47 2025-05-03T09:41 Sync
+16 ev48 2023-08-18T18:35 Lunch rule=weekly;on=WE,TH
+17 ev49 2023-11-18 Interview
+18 ev50 2023-08-06T19:56 "Budget B" rule=monthly;monthday=31
+19 ev51 2025-01-02T20:30 Review rule=yearly
+1A E1A 2025-10-25T17:45 Checkin rule=yearly
+1B ev54 2025-12-31T19:15 Budget rule=yearly
+1C ev55 2026-12-17T08:30 "Call B" rule=weekly;on=TU;count=8
+1D E1D 2024-10-04T13:06 Call rule=monthly;monthday=30;count=6
+1E E1E 2024-12-07T19:45 Sync rule=weekly;every=3;on=SA,SU
+1F ev61 2026-10-01 Workshop
+1G ev62 2023-04-04T08:10 Interview
+1H ev63 2025-04-06T09:25 Sync
+1J ev64 2025-11-23 "Planning B"
+1K ev65 2026-12-06T08:35 Standup
+1M ev66 2024-10-15T08:40 "Training B" rule=monthly;monthday=28;until=2027-06-21
+1N ev68 2026-04-07T17:25 Budget
+1P ev69 2026-07-27T06:05 Call rule=weekly;every=2;on=MO,WE,TH;until=2027-04-17
+1Q ev70 2026-12-11T13:10 Roadmap rule=weekly;every=2;on=FR,SA,SU;count=2
+1R ev71 2024-08-17T11:35 Planning rule=weekly;every=2;on=SA,SU
+1S E1S 2026-11-08T14:31 Planning rule=daily;count=5
+1T ev73 2024-10-28T17:05 "Office hours"
+1V ev74 2023-12-07T13:45 Interview rule=monthly;monthday=30
+1W ev75 2024-04-07T14:00 Roadmap
+1X ev76 2026-08-08T16:16 "Demo q3"
+1Y ev77 2024-06-16 Call
+1Z E1Z 2026-09-07 Retro
+60 events
+moved ev62 to 2023-06-14T14:35
+moved ev44 to 2025-05-14T15:05
+event ev6 ref=4
+  title Call
+  start 2023-04-14T20:00
+  dur 1h30m tz +00:00 prio 3
+  rule yearly;every=3
+  cats health,travel,team
+  skips 2029-04-14,2032-04-14,2038-04-14
+event ev2 ref=1
+  title Planning
+  start 2025-12-20T17:46 (given 2025-12-20T17:45:30)
+  dur 45m tz -05:00 prio 2
+  rule monthly;every=3;on=2MO;until=2025-03-19
+  cats ops
+event ev20 ref=E
+  title Sync
+  start 2025-10-25T10:40
+  dur 15m tz +09:00 prio 5
+  rule monthly;every=3;monthday=29
+  cats -
+2023-10-06 Fri 21:10
+2023-10-07 Sat 21:10
+2023-10-08 Sun 21:10
+2023-10-10 Tue 21:10
+2023-10-11 Wed 21:10
+2023-10-12 Thu 21:10
+2023-10-13 Fri 21:10
+2023-10-14 Sat 21:10
+2023-10-15 Sun 21:10
+2023-10-16 Mon 21:10
+2023-10-17 Tue 21:10
+2023-10-18 Wed 21:10
+2023-10-19 Thu 21:10
+2023-10-20 Fri 21:10
+2023-10-21 Sat 21:10
+2023-10-22 Sun 21:10
+2023-10-23 Mon 21:10
+2023-10-24 Tue 21:10
+2023-10-25 Wed 21:10
+2023-10-26 Thu 21:10
+2023-10-27 Fri 21:10
+2023-10-28 Sat 21:10
+2023-10-29 Sun 21:10
+2023-10-30 Mon 21:10
+2023-10-31 Tue 21:10
+2023-11-01 Wed 21:10
+2023-11-02 Thu 21:10
+2023-11-03 Fri 21:10
+2023-11-04 Sat 21:10
+2023-11-05 Sun 21:10
+2023-11-06 Mon 21:10
+2023-11-07 Tue 21:10
+2023-11-08 Wed 21:10
+2023-11-09 Thu 21:10
+2023-11-10 Fri 21:10
+2023-11-11 Sat 21:10
+2023-11-12 Sun 21:10
+2023-11-13 Mon 21:10
+2023-11-14 Tue 21:10
+2023-11-15 Wed 21:10
+40 occurrences
+cats of ev55 are -
+moved ev75 to 2025-03-23T19:15
+2023-06-14T13:35Z ev62 prio=5 "Interview" 1h
+2023-06-15T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-06-17T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-06-17T21:45Z ev21 prio=9 "Retro A" 1h
+2023-06-19T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-06-21T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-06-23T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-06-25T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-06-27T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+skipped E1A on 2027-10-25
+event ev44 ref=12
+  title Planning
+  start 2025-05-14T15:05
+  dur 45s tz +00:00 prio 9
+  rule -
+  cats travel,team
+2026-08-29T02:35Z 2026-08-29T03:35Z 1h
+2026-08-29T12:10Z 2026-08-29T13:40Z 1h30m
+2026-08-29T19:45Z 2026-08-31T19:45Z 2d
+2026-08-31T19:56Z 2026-08-31T20:56Z 1h
+2026-09-01T12:10Z 2026-09-01T13:40Z 1h30m
+2026-09-01T14:05Z 2026-09-01T16:05Z 2h
+2026-09-01T21:25Z 2026-09-01T22:55Z 1h30m
+busy 2d8h30m in 7 spans
+event ev62 ref=1G
+  title Interview
+  start 2023-06-14T14:35
+  dur 1h tz +01:00 prio 5
+  rule -
+  cats -
+2025-01-26T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-01-27T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-01-27T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2025-01-28T08:40Z ev66 prio=5 "Training B" 1d
+2025-01-28T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-01-28T12:20Z ev43 prio=5 "Interview q3" 2h
+2025-01-29T08:35Z ev48 prio=1 "Lunch" 1h
+2025-01-29T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-01-29T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2025-01-30T04:45Z ev74 prio=5 "Interview" 45m
+2025-01-30T08:35Z ev48 prio=1 "Lunch" 1h
+2025-01-30T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-01-30T12:35Z ev7 prio=5 "Review" 30m
+2025-01-30T13:06Z E1D prio=5 "Call" 15m
+2025-01-31T12:10Z ev45 prio=7 "Sync" 1h30m
+2025-01-31T12:20Z ev43 prio=5 "Interview q3" 2h
+2025-01-31T19:56Z ev50 prio=2 "Budget B" 1h
+2025-01-31T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2025-02-01T02:35Z ev71 prio=5 "Planning" 1h
+2025-02-01T12:10Z ev45 prio=7 "Sync" 1h30m
+rule of ev68 is -
+event ev76 ref=1X
+  title "Demo q3"
+  start 2026-08-08T16:16 (given 2026-08-08T16:15:30)
+  dur 1h30m tz +00:00 prio 5
+  rule -
+  cats health,work
+title of ev13 is "Call x"
+event ev44 ref=12
+  title Planning
+  start 2025-05-14T15:05
+  dur 45s tz +00:00 prio 9
+  rule -
+  cats travel,team
+event ev63 ref=1H
+  title Sync
+  start 2025-04-06T09:25
+  dur 1h tz +02:00 prio 8
+  rule -
+  cats team,travel
+event ev3 ref=2
+  title Demo
+  start 2024-11-14T14:30
+  dur 1h30m tz +12:45 prio 5
+  rule -
+  cats ops
+2025-03-13 Thu 12:15
+1 occurrences
++10:00 600
+event ev13 ref=9
+  title "Call x"
+  start 2023-01-20T18:46 (given 2023-01-20T18:45:30)
+  dur 1h30m tz +05:30 prio 5
+  rule -
+  cats team,social
+event ev54 ref=1B
+  title Budget
+  start 2025-12-31T19:15
+  dur 2h tz -04:00 prio 5
+  rule yearly
+  cats health,team,travel
+2025-03-23 Sun 18:10
+1 occurrences
+event ev54 ref=1B
+  title Budget
+  start 2025-12-31T19:15
+  dur 2h tz -04:00 prio 5
+  rule yearly
+  cats health,team,travel
+rule of E1D is yearly
+moved ev76 to 2024-04-01T18:20
+2024-10-09T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-09T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-09T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-10-10T08:35Z ev48 prio=1 "Lunch" 1h
+2024-10-10T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-11T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-11T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-10-12T02:35Z ev71 prio=5 "Planning" 1h
+2024-10-12T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-13T02:35Z ev71 prio=5 "Planning" 1h
+2024-10-13T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-13T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-10-14T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-15T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-10-15T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+event ev64 ref=1J
+  title "Planning B"
+  start 2025-11-23
+  dur 1d tz +00:00 prio 1 allday
+  rule -
+  cats team,ops,social
+event ev48 ref=16
+  title Lunch
+  start 2023-08-18T18:35
+  dur 1h tz +10:00 prio 1
+  rule weekly;on=WE,TH
+  cats health
+20543
+event ev47 ref=15
+  title Sync
+  start 2025-05-03T09:41 (given 2025-05-03T09:40:30)
+  dur 2h tz +00:00 prio 6
+  rule -
+  cats ops,social,team
+event ev11 ref=8
+  title Training
+  start 2026-12-10T19:40
+  dur 1h30m tz +00:00 prio 8
+  rule weekly;every=3;on=TH;until=2027-07-28
+  cats health,team
+event ev77 ref=1Y
+  title Call
+  start 2024-06-16
+  dur 3h tz +02:00 prio 0 allday
+  rule -
+  cats travel,health
+event ev70 ref=1Q
+  title Roadmap
+  start 2026-12-11T13:10
+  dur 1h tz +00:00 prio 5
+  rule weekly;every=2;on=FR,SA,SU;count=2
+  cats -
+skipped ev41 on 2026-10-17
+restored ev45 on 2023-10-09
+event ev47 ref=15
+  title Sync
+  start 2025-05-03T09:41 (given 2025-05-03T09:40:30)
+  dur 2h tz +00:00 prio 6
+  rule -
+  cats ops,social,team
+error: 2023-06-11 is already skipped for ev30
+updated E1E: 1d -05:00 prio=3
+event ev36 ref=T
+  title Standup
+  start 2025-03-13T12:15
+  dur 15m tz +12:45 prio 5
+  rule -
+  cats health
+2026-08-07T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-08T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-08T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2026-08-09T00:45Z E1E prio=3 "Sync" 1d
+2026-08-09T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-10T00:45Z E1E prio=3 "Sync" 1d
+2026-08-10T05:05Z ev69 prio=9 "Call" 1h30m
+2026-08-10T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-10T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2026-08-11T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-12T05:05Z ev69 prio=9 "Call" 1h30m
+2026-08-12T08:35Z ev48 prio=1 "Lunch" 1h
+2026-08-12T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-12T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2026-08-13T05:05Z ev69 prio=9 "Call" 1h30m
+2026-08-13T08:35Z ev48 prio=1 "Lunch" 1h
+2026-08-13T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-13T13:50Z ev38 prio=7 "Demo" 15m
+2026-08-14T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-14T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2026-08-15T02:35Z ev71 prio=5 "Planning" 1h
+2026-08-15T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-16T02:35Z ev71 prio=5 "Planning" 1h
+2026-08-16T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-16T17:45Z ev35 prio=5 "Checkin" 2h
+2026-08-16T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2026-08-17T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-18T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-18T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2026-08-19T08:35Z ev48 prio=1 "Lunch" 1h
+2026-08-19T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-20T08:35Z ev48 prio=1 "Lunch" 1h
+2026-08-20T12:10Z ev45 prio=7 "Sync" 1h30m
+2026-08-20T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-11-27T08:35Z ev48 prio=1 "Lunch" 1h
+2024-11-27T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-11-28T08:35Z ev48 prio=1 "Lunch" 1h
+2024-11-28T08:40Z ev66 prio=5 "Training B" 1d
+2024-11-28T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-11-28T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-11-29T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-11-30T04:45Z ev74 prio=5 "Interview" 45m
+2024-11-30T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-11-30T19:56Z ev50 prio=2 "Budget B" 1h
+2024-11-30T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-12-01T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-12-02T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-12-02T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-12-03T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-12-04T08:35Z ev48 prio=1 "Lunch" 1h
+2024-12-04T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-12-04T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-12-05T08:35Z ev48 prio=1 "Lunch" 1h
+2024-12-05T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-12-06T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-12-06T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-12-07T02:35Z ev71 prio=5 "Planning" 1h
+2024-12-07T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-12-08T00:45Z E1E prio=3 "Sync" 1d
+2024-12-08T02:35Z ev71 prio=5 "Planning" 1h
+2024-12-08T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-12-08T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-12-09T00:45Z E1E prio=3 "Sync" 1d
+2024-12-09T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-12-10T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-12-10T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+title of ev48 is "Review B"
+event ev61 ref=1F
+  title Workshop
+  start 2026-10-01
+  dur 1h30m tz +00:00 prio 5 allday
+  rule -
+  cats -
+check ok (60 events)
+event ev39 ref=X
+  title Standup
+  start 2023-09-02T21:25
+  dur 1h tz +05:30 prio 5
+  rule yearly;count=8
+  cats team
+  skips 2023-09-02,2027-09-02,2029-09-02
+2024-03-29T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-03-29T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-03-30T04:45Z ev74 prio=5 "Interview" 45m
+2024-03-30T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-03-31T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-03-31T19:56Z ev50 prio=2 "Budget B" 1h
+2024-03-31T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-04-01T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-04-01T18:20Z ev76 prio=5 "Demo q3" 1h30m
+2023-06-07T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-06-08T15:51Z E3 prio=5 "Checkin" 3h
+2023-06-09T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-06-11T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-06-13T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-06-14T13:35Z ev62 prio=5 "Interview" 1h
+2023-06-15T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-06-17T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-06-17T21:45Z ev21 prio=9 "Retro A" 1h
+2023-06-19T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+event E10 ref=10
+  title Budget
+  start 2025-01-10T13:20
+  dur 30m tz +05:30 prio 2
+  rule yearly;every=2
+  cats travel,team,ops
+  skips 2035-01-10
+event ev13 ref=9
+  title "Call x"
+  start 2023-01-20T18:46 (given 2023-01-20T18:45:30)
+  dur 1h30m tz +05:30 prio 5
+  rule -
+  cats team,social
+event ev13 ref=9
+  title "Call x"
+  start 2023-01-20T18:46 (given 2023-01-20T18:45:30)
+  dur 1h30m tz +05:30 prio 5
+  rule -
+  cats team,social
+rule of ev64 is -
+moved ev49 to 2023-04-12T00:00
+event ev32 ref=P
+  title "Office hours A"
+  start 2026-06-19T07:26 (given 2026-06-19T07:25:30)
+  dur 1h30m tz +02:00 prio 5
+  rule -
+  cats -
+2024-10-28 Mon 17:05
+1 occurrences
+moved ev47 to 2023-10-23T17:50
+event ev44 ref=12
+  title Planning
+  start 2025-05-14T15:05
+  dur 45s tz +00:00 prio 9
+  rule -
+  cats travel,team
+2026-12-10 Thu 19:40
+1 occurrences
+event ev15 ref=A
+  title Call
+  start 2025-02-05T12:55
+  dur 15m tz -04:00 prio 3
+  rule -
+  cats social
+2026-04-07 Tue 17:25
+1 occurrences
+event ev15 ref=A
+  title Call
+  start 2025-02-05T12:55
+  dur 15m tz -04:00 prio 3
+  rule -
+  cats social
+event ev50 ref=18
+  title "Budget B"
+  start 2023-08-06T19:56 (given 2023-08-06T19:55:59)
+  dur 1h tz +00:00 prio 2
+  rule monthly;monthday=31
+  cats ops,travel,health
+event ev48 ref=16
+  title "Review B"
+  start 2023-08-18T18:35
+  dur 1h tz +10:00 prio 1
+  rule weekly;on=WE,TH
+  cats health
+2023-06-07T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-06-08T15:51Z E3 prio=5 "Checkin" 3h
+2023-06-09T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+no events
+busy 0s in 0 spans
+2026-06-19T05:26Z 2026-06-19T06:56Z 1h30m
+2026-06-19T12:10Z 2026-06-19T13:40Z 1h30m
+2026-06-19T21:25Z 2026-06-19T22:55Z 1h30m
+2026-06-20T02:35Z 2026-06-20T03:35Z 1h
+2026-06-20T12:10Z 2026-06-20T13:40Z 1h30m
+2026-06-21T02:35Z 2026-06-21T03:35Z 1h
+2026-06-21T12:10Z 2026-06-21T13:40Z 1h30m
+2026-06-21T17:45Z 2026-06-21T19:45Z 2h
+2026-06-21T21:25Z 2026-06-21T22:55Z 1h30m
+2026-06-22T12:10Z 2026-06-22T13:40Z 1h30m
+2026-06-23T12:10Z 2026-06-23T13:40Z 1h30m
+2026-06-23T21:25Z 2026-06-23T22:55Z 1h30m
+2026-06-24T08:35Z 2026-06-24T09:35Z 1h
+2026-06-24T12:10Z 2026-06-24T13:40Z 1h30m
+2026-06-25T08:35Z 2026-06-25T09:35Z 1h
+2026-06-25T12:10Z 2026-06-25T13:40Z 1h30m
+2026-06-25T21:25Z 2026-06-25T22:55Z 1h30m
+2026-06-26T12:10Z 2026-06-26T13:40Z 1h30m
+2026-06-27T12:10Z 2026-06-27T13:40Z 1h30m
+2026-06-27T21:25Z 2026-06-27T22:55Z 1h30m
+2026-06-28T00:45Z 2026-06-30T00:45Z 2d
+2026-06-30T04:45Z 2026-06-30T05:30Z 45m
+2026-06-30T12:10Z 2026-06-30T13:40Z 1h30m
+2026-06-30T19:56Z 2026-06-30T20:56Z 1h
+2026-07-01T08:35Z 2026-07-01T09:35Z 1h
+2026-07-01T12:10Z 2026-07-01T13:40Z 1h30m
+2026-07-01T14:05Z 2026-07-01T16:05Z 2h
+2026-07-01T21:25Z 2026-07-01T22:55Z 1h30m
+2026-07-02T08:35Z 2026-07-02T09:35Z 1h
+2026-07-02T12:10Z 2026-07-02T13:40Z 1h30m
+2026-07-03T12:10Z 2026-07-03T13:40Z 1h30m
+2026-07-03T21:25Z 2026-07-03T22:55Z 1h30m
+2026-07-04T02:35Z 2026-07-04T03:35Z 1h
+2026-07-04T12:10Z 2026-07-04T13:40Z 1h30m
+2026-07-05T02:35Z 2026-07-05T03:35Z 1h
+2026-07-05T12:10Z 2026-07-05T13:40Z 1h30m
+2026-07-05T17:45Z 2026-07-05T19:45Z 2h
+2026-07-05T21:25Z 2026-07-05T22:55Z 1h30m
+2026-07-06T12:10Z 2026-07-06T13:40Z 1h30m
+2026-07-07T12:10Z 2026-07-07T13:40Z 1h30m
+2026-07-07T21:25Z 2026-07-07T22:55Z 1h30m
+2026-07-08T08:35Z 2026-07-08T09:35Z 1h
+2026-07-08T12:10Z 2026-07-08T13:40Z 1h30m
+2026-07-09T08:35Z 2026-07-09T09:35Z 1h
+2026-07-09T12:10Z 2026-07-09T13:40Z 1h30m
+2026-07-09T21:25Z 2026-07-09T22:55Z 1h30m
+busy 4d14h45m in 46 spans
+moved ev8 to 2023-01-24T08:45
+651
+moved EV to 2025-10-02T08:10
+moved ev75 to 2025-01-08T08:05
+moved ev73 to 2025-08-04T09:30
+event E1Z ref=1Z
+  title Retro
+  start 2026-09-07
+  dur 1d tz +05:30 prio 8 allday
+  rule -
+  cats -
+event ev23 ref=H
+  title Budget
+  start 2023-12-31T12:21 (given 2023-12-31T12:20:59)
+  dur 1h30m tz +12:45 prio 2
+  rule -
+  cats ops,social
+event ev35 ref=S
+  title Checkin
+  start 2025-05-11T17:45
+  dur 2h tz +00:00 prio 5
+  rule weekly;every=2;on=SU
+  cats team
+event ev39 ref=X
+  title Standup
+  start 2023-09-02T21:25
+  dur 1h tz +05:30 prio 5
+  rule yearly;count=8
+  cats team
+  skips 2023-09-02,2027-09-02,2029-09-02
+1505
+2025-02-05 Wed 12:55
+1 occurrences
+event EV ref=V
+  title Call
+  start 2025-10-02T08:10
+  dur 1d tz +10:00 prio 6
+  rule -
+  cats social
+event ev65 ref=1K
+  title Standup
+  start 2026-12-06T08:35
+  dur 1d tz -05:00 prio 4
+  rule -
+  cats travel,social
+event EY ref=Y
+  title Lunch
+  start 2025-04-05T11:00
+  dur 1h30m tz +02:00 prio 6
+  rule -
+  cats work,ops,social
+2023-12-28T08:35Z ev48 prio=1 "Review B" 1h
+2023-12-28T12:10Z ev45 prio=7 "Sync" 1h30m
+2023-12-28T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-12-29T12:10Z ev45 prio=7 "Sync" 1h30m
+2023-12-30T04:45Z ev74 prio=5 "Interview" 45m
+2023-12-30T12:10Z ev45 prio=7 "Sync" 1h30m
+2023-12-30T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-12-30T23:36Z ev23 prio=2 "Budget" 1h30m
+2023-12-31T12:10Z ev45 prio=7 "Sync" 1h30m
+2023-12-31T19:56Z ev50 prio=2 "Budget B" 1h
+2024-01-01T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-01-01T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2024-01-02T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-01-03T08:35Z ev48 prio=1 "Review B" 1h
+2024-01-03T12:10Z ev45 prio=7 "Sync" 1h30m
+2024-01-03T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-08-28T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-08-30T08:35Z ev48 prio=1 "Review B" 1h
+2023-08-30T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-08-31T08:35Z ev48 prio=1 "Review B" 1h
+2023-08-31T19:56Z ev50 prio=2 "Budget B" 1h
+2023-09-01T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-09-03T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-09-05T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-09-06T08:35Z ev48 prio=1 "Review B" 1h
+2023-09-07T08:35Z ev48 prio=1 "Review B" 1h
+2023-09-07T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+2023-09-09T21:25Z ev26 prio=7 "Roadmap B" 1h30m
+event ev6 ref=4
+  title Call
+  start 2023-04-14T20:00
+  dur 1h30m tz +00:00 prio 3
+  rule yearly;every=3
+  cats health,travel,team
+  skips 2029-04-14,2032-04-14,2038-04-14
+moved ev73 to 2026-04-18T15:16
+2025-01-02 Thu 20:30
+1 occurrences
+2023-11-29T08:35Z ev48 prio=1 "Review B" 1h
+2023-11-29T12:10Z ev45 prio=7 "Sync" 1h30m
+2023-11-30T08:35Z ev48 prio=1 "Review B" 1h
+2023-11-30T12:10Z ev45 prio=7 "Sync" 1h30m
+2023-11-30T19:56Z ev50 prio=2 "Budget B" 1h
+... 8 more
+title of ev49 is "Budget B"
+event ev50 ref=18
+  title "Budget B"
+  start 2023-08-06T19:56 (given 2023-08-06T19:55:59)
+  dur 1h tz +00:00 prio 2
+  rule monthly;monthday=31
+  cats ops,travel,health
+event ev3 ref=2
+  title Demo
+  start 2024-11-14T14:30
+  dur 1h30m tz +12:45 prio 5
+  rule -
+  cats ops
+2025-03-18T12:10Z 2025-03-18T14:20Z 2h10m
+2025-03-18T21:25Z 2025-03-18T22:55Z 1h30m
+2025-03-19T08:35Z 2025-03-19T09:35Z 1h
+2025-03-19T12:10Z 2025-03-19T13:40Z 1h30m
+2025-03-20T08:35Z 2025-03-20T09:35Z 1h
+2025-03-20T12:10Z 2025-03-20T13:40Z 1h30m
+2025-03-20T21:25Z 2025-03-20T22:55Z 1h30m
+2025-03-21T12:10Z 2025-03-21T14:20Z 2h10m
+busy 12h20m in 8 spans
+event ev66 ref=1M
+  title "Training B"
+  start 2024-10-15T08:40
+  dur 1d tz +00:00 prio 5
+  rule monthly;monthday=28;until=2027-06-21
+  cats team,travel
+  skips 2024-12-28
+event E1Z ref=1Z
+  title Retro
+  start 2026-09-07
+  dur 1d tz +05:30 prio 8 allday
+  rule -
+  cats -
+event E1E ref=1E
+  title Sync
+  start 2024-12-07T19:45
+  dur 1d tz -05:00 prio 3
+  rule weekly;every=3;on=SA,SU
+  cats health,social,team
+  skips 2024-12-29
+event ev69 ref=1P
+  title Call
+  start 2026-07-27T06:05
+  dur 1h30m tz +01:00 prio 9
+  rule weekly;every=2;on=MO,WE,TH;until=2027-04-17
+  cats -
+moved ev77 to 2024-10-22T00:00
+event ev33 ref=Q
+  title Training
+  start 2025-08-06T09:20
+  dur 1h tz -04:00 prio 5
+  rule monthly;monthday=30;count=9
+  cats -
+  skips 2025-08-30
+event E1Z ref=1Z
+  title Retro
+  start 2026-09-07
+  dur 1d tz +05:30 prio 8 allday
+  rule -
+  cats -
+2026-12-10 Thu 19:40
+1 occurrences
+moved ev47 to 2024-05-26T17:20
+skipped ev39 on 2025-09-02
+check ok (60 events)

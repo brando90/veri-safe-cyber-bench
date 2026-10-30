@@ -1,0 +1,46 @@
+customer add c-k1 team tx USD
+customer add c-k2 team tx USD
+customer add c-k3 team tx USD
+customer add c-k4 team tx USD
+customer add c-k5 team tx USD
+customer add c-k6 team tx USD
+customer add c-k7 team tx USD
+customer add c-k8 starter tx USD
+customer add c-k9 team tx EUR
+coupon add c-k1 pct_all 10
+coupon add c-k2 pct_fee 25
+coupon add c-k3 pct_usage 50
+coupon add c-k4 fixed_all 12.50
+coupon add c-k5 fixed_fee 5.00
+coupon add c-k6 fixed_usage 4.00
+coupon add c-k7 first_periods 20
+coupon add c-k8 volume 20
+coupon add c-k9 fixed_all 200.00
+coupon add c-k9 pct_all 100
+coupon add c-k1 pct_all 101
+coupon add c-k1 pct_all 0
+coupon add c-k1 fixed_all 0
+coupon add c-k1 nonsense 5
+coupon add c-k1 fixed_all 1.234
+usage c-k1 requests 160000
+usage c-k2 requests 160000
+usage c-k3 requests 160000
+usage c-k4 requests 160000
+usage c-k5 requests 160000
+usage c-k6 requests 160000
+usage c-k7 requests 160000
+usage c-k8 egress 5000
+usage c-k9 requests 160000
+coupon list c-k1
+coupon kinds
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0003
+invoice show INV-0004
+invoice show INV-0005
+invoice show INV-0006
+invoice show INV-0007
+invoice show INV-0008
+invoice show INV-0009

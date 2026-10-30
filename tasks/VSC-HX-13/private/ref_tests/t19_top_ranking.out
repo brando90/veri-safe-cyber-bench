@@ -1,0 +1,62 @@
+customer c-z1 added plan=starter region=tx currency=USD since=0
+customer c-z2 added plan=starter region=tx currency=USD since=0
+customer c-z3 added plan=starter region=tx currency=USD since=0
+customer c-y1 added plan=team region=tx currency=USD since=0
+customer c-x1 added plan=starter region=de currency=EUR since=0
+customer c-x2 added plan=free region=de currency=EUR since=0
+usage c-z1 egress 400 day=0
+usage c-z2 egress 400 day=0
+usage c-z3 egress 400 day=0
+usage c-y1 egress 100 day=0
+usage c-x1 egress 400 day=0
+usage c-x2 logs 9000 day=0
+day 30 period 1
+invoiced INV-0001 c-x1 period=0 lines=2 total=34.82 EUR
+invoiced INV-0002 c-x2 period=0 lines=1 total=2.45 EUR
+invoiced INV-0003 c-y1 period=0 lines=1 total=83.94 USD
+invoiced INV-0004 c-z1 period=0 lines=2 total=33.79 USD
+invoiced INV-0005 c-z2 period=0 lines=2 total=33.79 USD
+invoiced INV-0006 c-z3 period=0 lines=2 total=33.79 USD
+invoice run period=0 invoices=6
+report top
+  1 c-y1 79.00
+  2 c-z1 31.80
+  3 c-z2 31.80
+  4 c-z3 31.80
+end
+report top
+  1 c-y1 79.00
+  2 c-z1 31.80
+end
+report top
+  1 c-y1 79.00
+end
+report top
+  1 c-x1 29.26
+  2 c-x2 2.06
+end
+report top
+  (none)
+end
+report top
+error: unknown currency 'XXX'
+report top
+error: invalid number '0'
+report top
+error: invalid number '200'
+coupon c-z2 #1 pct_all
+usage c-z2 egress 400 day=30
+usage c-z3 egress 800 day=30
+day 60 period 2
+invoiced INV-0007 c-x1 period=1 lines=1 total=20.80 EUR
+invoiced INV-0008 c-y1 period=1 lines=1 total=83.94 USD
+invoiced INV-0009 c-z1 period=1 lines=1 total=20.19 USD
+invoiced INV-0010 c-z2 period=1 lines=2 total=30.41 USD
+invoiced INV-0011 c-z3 period=1 lines=2 total=48.92 USD
+invoice run period=1 invoices=5
+report top
+  1 c-y1 158.00
+  2 c-z3 77.84
+  3 c-z2 60.42
+  4 c-z1 50.80
+end

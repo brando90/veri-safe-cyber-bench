@@ -1,0 +1,8 @@
+event add room1-z "Z" 2024-05-06T09:00 prio=3
+event add room1-a "A" 2024-05-06T09:00 prio=3
+event add room1 "Plain" 2024-05-06T09:00 prio=3
+event add room01 "Zero" 2024-05-06T09:00 prio=3
+event add room1-a2 "A two" 2024-05-06T09:00 prio=3
+event add room1-a10 "A ten" 2024-05-06T09:00 prio=3
+agenda 2024-05-06 2024-05-06
+list

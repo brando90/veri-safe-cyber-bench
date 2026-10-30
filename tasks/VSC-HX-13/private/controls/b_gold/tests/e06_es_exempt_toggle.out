@@ -1,0 +1,46 @@
+customer c-e1 added plan=team region=es currency=EUR since=0
+customer c-e2 added plan=team region=es currency=EUR since=0
+customer c-e3 added plan=team region=es currency=EUR since=0
+customer c-e1 exempt yes
+customer c-e3 exempt yes
+usage c-e1 requests 90000 day=0
+usage c-e2 requests 90000 day=0
+usage c-e3 requests 90000 day=0
+coupon c-e3 #1 pct_all
+day 30 period 1
+invoiced INV-0001 c-e1 period=0 lines=2 total=76.82 EUR
+invoiced INV-0002 c-e2 period=0 lines=2 total=92.95 EUR
+invoiced INV-0003 c-e3 period=0 lines=2 total=69.14 EUR
+invoice run period=0 invoices=3
+customer c-e1 exempt no
+customer c-e2 exempt yes
+usage c-e1 requests 90000 day=30
+usage c-e2 requests 90000 day=30
+day 60 period 2
+invoiced INV-0004 c-e1 period=1 lines=2 total=92.95 EUR
+invoiced INV-0005 c-e2 period=1 lines=2 total=76.82 EUR
+invoiced INV-0006 c-e3 period=1 lines=1 total=65.41 EUR
+invoice run period=1 invoices=3
+INV-0001 c-e1 p0 total=76.82 outstanding=76.82 open
+INV-0002 c-e2 p0 total=92.95 outstanding=92.95 open
+INV-0003 c-e3 p0 total=69.14 outstanding=69.14 open
+INV-0004 c-e1 p1 total=92.95 outstanding=92.95 open
+INV-0005 c-e2 p1 total=76.82 outstanding=76.82 open
+INV-0006 c-e3 p1 total=65.41 outstanding=65.41 open
+6 invoices
+invoice INV-0003 c-e3 period=0 issued=30 due=60 status=open
+  fee plan team days=30 72.68
+  usage requests 90000 req 4.14
+  discount pct_all -7.68
+  subtotal 76.82 discount 7.68 tax 0.00 late 0.00 total 69.14 EUR
+  paid 0.00 refunded 0.00 outstanding 69.14
+invoice INV-0004 c-e1 period=1 issued=60 due=90 status=open
+  fee plan team days=30 72.68
+  usage requests 90000 req 4.14
+  subtotal 76.82 discount 0.00 tax 16.13 late 0.00 total 92.95 EUR
+  paid 0.00 refunded 0.00 outstanding 92.95
+report tax_period
+  p00 EUR 16.13
+  p01 EUR 16.13
+  total EUR 32.26
+end

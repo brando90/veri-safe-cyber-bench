@@ -1,0 +1,59 @@
+customer c-cr added plan=starter region=tx currency=USD since=0
+customer c-cr2 added plan=starter region=tx currency=USD since=0
+credit c-cr +50.00 balance=50.00
+error: invalid amount '0'
+error: invalid amount '1.234'
+usage c-cr egress 400 day=0
+usage c-cr2 egress 400 day=0
+credit c-cr2 +10.00 balance=10.00
+day 31 period 1
+invoiced INV-0001 c-cr period=0 lines=2 total=33.79 USD
+invoiced INV-0002 c-cr2 period=0 lines=2 total=33.79 USD
+invoice run period=0 invoices=2
+statement c-cr USD
+  INV-0001 p0 total=33.79 paid=33.79 refunded=0.00 outstanding=0.00
+  owed=0.00 credit=16.21
+statement c-cr2 USD
+  INV-0002 p0 total=33.79 paid=10.00 refunded=0.00 outstanding=23.79
+  owed=23.79 credit=0.00
+usage c-cr egress 400 day=31
+day 61 period 2
+invoiced INV-0003 c-cr period=1 lines=2 total=33.79 USD
+invoiced INV-0004 c-cr2 period=1 lines=1 total=20.19 USD
+invoice run period=1 invoices=2
+statement c-cr USD
+  INV-0001 p0 total=33.79 paid=33.79 refunded=0.00 outstanding=0.00
+  INV-0003 p1 total=33.79 paid=16.21 refunded=0.00 outstanding=17.58
+  owed=17.58 credit=0.00
+credit c-cr +100.00 balance=100.00
+  applied INV-0002 23.79
+  applied INV-0004 20.19
+payment c-cr2 100.00 applied=43.98 credit=56.02
+statement c-cr2 USD
+  INV-0002 p0 total=33.79 paid=33.79 refunded=0.00 outstanding=0.00
+  INV-0004 p1 total=20.19 paid=20.19 refunded=0.00 outstanding=0.00
+  owed=0.00 credit=56.02
+customer c-cr2 name=c-cr2 plan=starter region=tx currency=USD status=active
+  since=0 terms=30 exempt=no credit=56.02
+  po=- email=- phone=- note=-
+  coupons=0 plan_changes=0
+error: customer c-cr still has unpaid invoices
+customer c-cr name=c-cr plan=starter region=tx currency=USD status=active
+  since=0 terms=30 exempt=no credit=100.00
+  po=- email=- phone=- note=-
+  coupons=0 plan_changes=0
+1 day=0 credit_in c-cr - 50.00
+3 day=31 invoice c-cr INV-0001 33.79
+4 day=31 credit_use c-cr INV-0001 33.79
+7 day=61 invoice c-cr INV-0003 33.79
+8 day=61 credit_use c-cr INV-0003 16.21
+10 day=61 credit_in c-cr - 100.00
+6 entries
+2 day=0 credit_in c-cr2 - 10.00
+13 day=61 credit_in c-cr2 - 56.02
+2 entries
+report credits
+  c-cr USD 100.00
+  c-cr2 USD 56.02
+  total USD 156.02
+end

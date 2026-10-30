@@ -1,0 +1,14 @@
+customer add c-pc1 starter de EUR
+customer add c-pc2 team ca USD
+customer add c-pc3 business uk GBP
+tick 10
+plan set c-pc1 team
+plan set c-pc2 starter
+tick 15
+plan set c-pc3 enterprise
+tick 5
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0003
+customer history c-pc1

@@ -1,0 +1,45 @@
+customer c-acme added plan=team region=de currency=EUR since=0
+customer c-bolt added plan=starter region=ca currency=USD since=0
+day 12 period 0
+customer c-nova added plan=starter region=uk currency=GBP since=12
+usage c-acme storage 40000 day=12
+usage c-acme egress 500 day=12
+usage c-acme requests 90000 day=12
+usage c-bolt egress 200 day=3
+usage c-bolt compute 400 day=12
+usage c-nova cdn 60 day=12
+usage summary c-acme period 0 days 0-29
+  egress 500 GB
+  requests 90000 req
+  storage 40000 GB-h
+3 records
+day 32 period 1
+invoiced INV-0001 c-acme period=0 lines=4 total=104.91 EUR
+invoiced INV-0002 c-bolt period=0 lines=2 total=25.53 USD
+invoiced INV-0003 c-nova period=0 lines=2 total=11.65 GBP
+invoice run period=0 invoices=3
+invoice INV-0001 c-acme period=0 issued=32 due=62 status=open
+  fee plan team days=30 72.68
+  usage egress 500 GB 9.57
+  usage requests 90000 req 4.14
+  usage storage 40000 GB-h 1.77
+  subtotal 88.16 discount 0.00 tax 16.75 late 0.00 total 104.91 EUR
+  paid 0.00 refunded 0.00 outstanding 104.91
+invoice INV-0002 c-bolt period=0 issued=32 due=62 status=open
+  fee plan starter days=30 19.00
+  usage egress 200 GB 4.80
+  subtotal 23.80 discount 0.00 tax 1.73 late 0.00 total 25.53 USD
+  paid 0.00 refunded 0.00 outstanding 25.53
+invoice INV-0003 c-nova period=0 issued=32 due=62 status=open
+  fee plan starter days=18 9.01
+  usage cdn 60 GB 0.70
+  subtotal 9.71 discount 0.00 tax 1.94 late 0.00 total 11.65 GBP
+  paid 0.00 refunded 0.00 outstanding 11.65
+INV-0001 c-acme p0 total=104.91 outstanding=104.91 open
+INV-0002 c-bolt p0 total=25.53 outstanding=25.53 open
+INV-0003 c-nova p0 total=11.65 outstanding=11.65 open
+3 invoices
+customer c-acme name="Acme GmbH" plan=team region=de currency=EUR status=active
+  since=0 terms=30 exempt=no credit=0.00
+  po=- email=- phone=- note=-
+  coupons=0 plan_changes=0

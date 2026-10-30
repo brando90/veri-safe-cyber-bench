@@ -1,0 +1,32 @@
+customer add c-alpha team de EUR name="Alpha Works"
+customer add c-beta free ca USD
+customer add c-gamma starter jp JPY
+set po c-alpha "PO 4411"
+set email c-alpha ops@alpha.example
+set phone c-alpha "+49 (30) 555-12"
+set terms c-alpha 45
+set note c-beta "first, trial"
+set note c-beta -
+set po c-alpha -
+set name c-beta "Beta Ltd"
+set region c-beta ny
+set currency c-beta EUR
+set currency c-beta KWD
+set exempt c-gamma yes
+set exempt c-gamma yes
+customer show c-alpha
+customer show c-beta
+customer show c-gamma
+customer list
+customer list plan=team
+customer list region=jp
+customer list status=closed
+customer history c-alpha
+set terms c-alpha 0
+set email c-alpha nobody
+set currency c-alpha XXX
+set region c-alpha atlantis
+set phone c-alpha abc
+customer show c-nobody
+customer add Bad_Id team de EUR
+audit 20

@@ -1,0 +1,17 @@
+# JPY and KWD rounding, whole-block mode, plan change on the first day of a period
+customer add tokyo team jp JPY
+customer add kuwait starter uk KWD
+usage tokyo voice 23
+usage tokyo storage 30500
+usage kuwait geocode 1499
+tick 30
+plan set kuwait business
+invoice run
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0004
+pay kuwait 200
+tick 1
+dun

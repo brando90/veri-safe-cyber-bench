@@ -1,0 +1,69 @@
+customer c-ord added plan=starter region=tx currency=USD since=0
+customer c-tie added plan=starter region=tx currency=USD since=0
+usage c-ord egress 400 day=0
+usage c-tie egress 400 day=0
+customer c-ord terms 90
+customer c-tie terms 60
+day 31 period 1
+invoiced INV-0001 c-ord period=0 lines=2 total=33.79 USD
+invoiced INV-0002 c-tie period=0 lines=2 total=33.79 USD
+invoice run period=0 invoices=2
+usage c-ord egress 400 day=31
+usage c-tie egress 400 day=31
+customer c-ord terms 20
+customer c-tie terms 30
+day 61 period 2
+invoiced INV-0003 c-ord period=1 lines=2 total=33.79 USD
+invoiced INV-0004 c-tie period=1 lines=2 total=33.79 USD
+invoice run period=1 invoices=2
+usage c-ord egress 400 day=61
+customer c-ord terms 5
+day 91 period 3
+invoiced INV-0005 c-ord period=2 lines=2 total=33.79 USD
+invoiced INV-0006 c-tie period=2 lines=1 total=20.19 USD
+invoice run period=2 invoices=2
+INV-0001 c-ord p0 total=33.79 outstanding=33.79 open
+INV-0002 c-tie p0 total=33.79 outstanding=33.79 open
+INV-0003 c-ord p1 total=33.79 outstanding=33.79 open
+INV-0004 c-tie p1 total=33.79 outstanding=33.79 open
+INV-0005 c-ord p2 total=33.79 outstanding=33.79 open
+INV-0006 c-tie p2 total=20.19 outstanding=20.19 open
+6 invoices
+  applied INV-0003 33.79
+  applied INV-0005 16.21
+payment c-ord 50.00 applied=50.00 credit=0.00
+statement c-ord USD
+  INV-0001 p0 total=33.79 paid=0.00 refunded=0.00 outstanding=33.79
+  INV-0003 p1 total=33.79 paid=33.79 refunded=0.00 outstanding=0.00
+  INV-0005 p2 total=33.79 paid=16.21 refunded=0.00 outstanding=17.58
+  owed=51.37 credit=0.00
+  applied INV-0005 17.58
+  applied INV-0001 22.42
+payment c-ord 40.00 applied=40.00 credit=0.00
+statement c-ord USD
+  INV-0001 p0 total=33.79 paid=22.42 refunded=0.00 outstanding=11.37
+  INV-0003 p1 total=33.79 paid=33.79 refunded=0.00 outstanding=0.00
+  INV-0005 p2 total=33.79 paid=33.79 refunded=0.00 outstanding=0.00
+  owed=11.37 credit=0.00
+  applied INV-0002 33.79
+  applied INV-0004 6.21
+payment c-tie 40.00 applied=40.00 credit=0.00
+statement c-tie USD
+  INV-0002 p0 total=33.79 paid=33.79 refunded=0.00 outstanding=0.00
+  INV-0004 p1 total=33.79 paid=6.21 refunded=0.00 outstanding=27.58
+  INV-0006 p2 total=20.19 paid=0.00 refunded=0.00 outstanding=20.19
+  owed=47.77 credit=0.00
+  applied INV-0004 5.00
+payment c-tie 5.00 applied=5.00 credit=0.00
+statement c-tie USD
+  INV-0002 p0 total=33.79 paid=33.79 refunded=0.00 outstanding=0.00
+  INV-0004 p1 total=33.79 paid=11.21 refunded=0.00 outstanding=22.58
+  INV-0006 p2 total=20.19 paid=0.00 refunded=0.00 outstanding=20.19
+  owed=42.77 credit=0.00
+  applied INV-0001 11.37
+payment c-ord 500.00 applied=11.37 credit=488.63
+statement c-ord USD
+  INV-0001 p0 total=33.79 paid=33.79 refunded=0.00 outstanding=0.00
+  INV-0003 p1 total=33.79 paid=33.79 refunded=0.00 outstanding=0.00
+  INV-0005 p2 total=33.79 paid=33.79 refunded=0.00 outstanding=0.00
+  owed=0.00 credit=488.63

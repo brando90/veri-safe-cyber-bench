@@ -1,0 +1,36 @@
+help
+help usage
+help report
+help nothing
+plan list
+plan show free
+plan show enterprise
+plan show nothing
+service list
+service show storage
+service show queue
+service show sms
+service show nothing
+region list
+region show es
+region show fr
+region show nothing
+currency list
+coupon kinds
+report list
+customer add c-cat starter de EUR
+customer add c-cat2 enterprise ch CHF
+advise c-cat storage 50000
+advise c-cat logs 100
+advise c-cat2 egress 9000
+quote c-cat storage 50000
+quote c-cat2 backup 500000
+quote c-cat requests 1
+quote c-cat nothing 5
+quote c-nobody storage 5
+advise c-cat storage 0
+today
+tick 0
+tick 401
+tick 7
+today

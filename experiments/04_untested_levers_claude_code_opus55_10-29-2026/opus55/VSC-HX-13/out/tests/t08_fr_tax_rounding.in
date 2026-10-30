@@ -1,0 +1,7 @@
+# French VAT is rounded half up like every other region
+customer add paris starter fr EUR
+customer add lyon team fr EUR
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002

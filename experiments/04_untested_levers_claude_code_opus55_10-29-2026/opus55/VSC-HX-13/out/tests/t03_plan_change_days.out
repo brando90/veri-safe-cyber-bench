@@ -1,0 +1,15 @@
+customer shop added plan=starter region=uk currency=GBP since=0
+day 10 period 0
+customer shop plan starter -> team days=20
+  day 0 plan starter
+  day 10 plan team
+  period 0 change starter -> team days=20
+2 plan entries
+day 30 period 1
+invoiced INV-0001 shop period=0 lines=2 total=55.93 GBP
+invoice run period=0 invoices=1
+invoice INV-0001 shop period=0 issued=30 due=60 status=open
+  fee plan starter days=30 15.01
+  adjust plan starter->team days=20 31.60
+  subtotal 46.61 discount 0.00 tax 9.32 late 0.00 total 55.93 GBP
+  paid 0.00 refunded 0.00 outstanding 55.93

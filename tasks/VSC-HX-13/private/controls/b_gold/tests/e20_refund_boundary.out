@@ -1,0 +1,34 @@
+customer c-r1 added plan=starter region=ca currency=USD since=0
+customer c-r2 added plan=starter region=ca currency=USD since=0
+usage c-r1 egress 400 day=0
+usage c-r2 egress 400 day=0
+day 30 period 1
+invoiced INV-0001 c-r1 period=0 lines=2 total=34.11 USD
+invoiced INV-0002 c-r2 period=0 lines=2 total=34.11 USD
+invoice run period=0 invoices=2
+  applied INV-0001 34.11
+payment c-r1 100.00 applied=34.11 credit=65.89
+  applied INV-0002 34.11
+payment c-r2 100.00 applied=34.11 credit=65.89
+refund INV-0001 10.00 net_paid=24.11 outstanding=10.00
+refund INV-0001 24.11 net_paid=0.00 outstanding=34.11
+error: refund exceeds the net payments on INV-0001
+refund INV-0002 34.11 net_paid=0.00 outstanding=34.11
+error: refund exceeds the net payments on INV-0002
+invoice INV-0001 c-r1 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage egress 400 GB 12.80
+  subtotal 31.80 discount 0.00 tax 2.31 late 0.00 total 34.11 USD
+  paid 34.11 refunded 34.11 outstanding 34.11
+invoice INV-0002 c-r2 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage egress 400 GB 12.80
+  subtotal 31.80 discount 0.00 tax 2.31 late 0.00 total 34.11 USD
+  paid 34.11 refunded 34.11 outstanding 34.11
+7 day=30 refund c-r1 INV-0001 10.00
+8 day=30 refund c-r1 INV-0001 24.11
+9 day=30 refund c-r2 INV-0002 34.11
+3 entries
+statement c-r1 USD
+  INV-0001 p0 total=34.11 paid=34.11 refunded=34.11 outstanding=34.11
+  owed=34.11 credit=65.89

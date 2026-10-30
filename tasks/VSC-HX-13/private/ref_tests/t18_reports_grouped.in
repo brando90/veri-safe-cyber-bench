@@ -1,0 +1,45 @@
+customer add c-a1 business de EUR
+customer add c-a2 starter ca USD
+customer add c-a3 team uk GBP
+customer add c-a4 starter jp JPY
+customer add c-a5 free tx USD
+coupon add c-a1 pct_all 10
+coupon add c-a3 fixed_all 5
+usage c-a1 storage 150000 day=0
+usage c-a2 egress 500
+usage c-a3 compute 3000
+usage c-a4 ocr 300
+usage c-a5 logs 9000
+tick 31
+invoice run
+usage c-a1 storage 150000
+usage c-a2 egress 900
+pay c-a1 100
+pay c-a2 10
+tick 40
+dun
+tick 20
+invoice run 1
+invoice run
+pay c-a3 20
+report list
+report rev_region
+report rev_region cur=USD
+report rev_plan
+report rev_period
+report rev_period cust=c-a1
+report tax_region
+report tax_period
+report disc_region
+report late_customer
+report out_customer
+report out_customer cur=EUR
+report credits
+report payments
+report payments cust=c-a2
+report usage_units
+report aging
+report tax_region cur=XXX
+report tax_region cust=c-zzz
+report tax_region bogus=1
+report nonsense

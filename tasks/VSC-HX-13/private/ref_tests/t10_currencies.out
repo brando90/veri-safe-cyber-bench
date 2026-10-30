@@ -1,0 +1,116 @@
+customer c-eur added plan=starter region=de currency=EUR since=0
+customer c-usd added plan=starter region=de currency=USD since=0
+customer c-gbp added plan=starter region=de currency=GBP since=0
+customer c-jpy added plan=starter region=de currency=JPY since=0
+customer c-kwd added plan=starter region=de currency=KWD since=0
+customer c-cad added plan=starter region=de currency=CAD since=0
+customer c-inr added plan=starter region=de currency=INR since=0
+usage c-eur egress 333 day=0
+usage c-eur logs 7777 day=0
+usage c-usd egress 333 day=0
+usage c-usd logs 7777 day=0
+usage c-gbp egress 333 day=0
+usage c-gbp logs 7777 day=0
+usage c-jpy egress 333 day=0
+usage c-jpy logs 7777 day=0
+usage c-kwd egress 333 day=0
+usage c-kwd logs 7777 day=0
+usage c-cad egress 333 day=0
+usage c-cad logs 7777 day=0
+usage c-inr egress 333 day=0
+usage c-inr logs 7777 day=0
+day 30 period 1
+invoiced INV-0001 c-cad period=0 lines=3 total=49.03 CAD
+invoiced INV-0002 c-eur period=0 lines=3 total=33.42 EUR
+invoiced INV-0003 c-gbp period=0 lines=3 total=28.69 GBP
+invoiced INV-0004 c-inr period=0 lines=3 total=3014.46 INR
+invoiced INV-0005 c-jpy period=0 lines=3 total=5448 JPY
+invoiced INV-0006 c-kwd period=0 lines=3 total=11.259 KWD
+invoiced INV-0007 c-usd period=0 lines=3 total=36.32 USD
+invoice run period=0 invoices=7
+invoice INV-0001 c-cad period=0 issued=30 due=60 status=open
+  fee plan starter days=30 25.65
+  usage egress 333 GB 14.04
+  usage logs 7777 MB 1.51
+  subtotal 41.20 discount 0.00 tax 7.83 late 0.00 total 49.03 CAD
+  paid 0.00 refunded 0.00 outstanding 49.03
+invoice INV-0002 c-eur period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  usage egress 333 GB 9.57
+  usage logs 7777 MB 1.03
+  subtotal 28.08 discount 0.00 tax 5.34 late 0.00 total 33.42 EUR
+  paid 0.00 refunded 0.00 outstanding 33.42
+invoice INV-0003 c-gbp period=0 issued=30 due=60 status=open
+  fee plan starter days=30 15.01
+  usage egress 333 GB 8.22
+  usage logs 7777 MB 0.88
+  subtotal 24.11 discount 0.00 tax 4.58 late 0.00 total 28.69 GBP
+  paid 0.00 refunded 0.00 outstanding 28.69
+invoice INV-0004 c-inr period=0 issued=30 due=60 status=open
+  fee plan starter days=30 1577.00
+  usage egress 333 GB 863.20
+  usage logs 7777 MB 92.96
+  subtotal 2533.16 discount 0.00 tax 481.30 late 0.00 total 3014.46 INR
+  paid 0.00 refunded 0.00 outstanding 3014.46
+invoice INV-0005 c-jpy period=0 issued=30 due=60 status=open
+  fee plan starter days=30 2850
+  usage egress 333 GB 1560
+  usage logs 7777 MB 168
+  subtotal 4578 discount 0 tax 870 late 0 total 5448 JPY
+  paid 0 refunded 0 outstanding 5448
+invoice INV-0006 c-kwd period=0 issued=30 due=60 status=open
+  fee plan starter days=30 5.890
+  usage egress 333 GB 3.224
+  usage logs 7777 MB 0.347
+  subtotal 9.461 discount 0.000 tax 1.798 late 0.000 total 11.259 KWD
+  paid 0.000 refunded 0.000 outstanding 11.259
+invoice INV-0007 c-usd period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage egress 333 GB 10.40
+  usage logs 7777 MB 1.12
+  subtotal 30.52 discount 0.00 tax 5.80 late 0.00 total 36.32 USD
+  paid 0.00 refunded 0.00 outstanding 36.32
+  applied INV-0005 1000
+payment c-jpy 1000 applied=1000 credit=0
+  applied INV-0006 1.250
+payment c-kwd 1.250 applied=1.250 credit=0.000
+error: invalid amount '10.5'
+error: invalid amount '1.2345'
+  applied INV-0004 100.00
+payment c-inr 100.00 applied=100.00 credit=0.00
+  applied INV-0002 0.01
+payment c-eur 0.01 applied=0.01 credit=0.00
+  applied INV-0007 12.00
+payment c-usd 12.00 applied=12.00 credit=0.00
+credit c-gbp +5.55 balance=5.55
+credit c-jpy +77 balance=77
+statement c-jpy JPY
+  INV-0005 p0 total=5448 paid=1000 refunded=0 outstanding=4448
+  owed=4448 credit=77
+statement c-kwd KWD
+  INV-0006 p0 total=11.259 paid=1.250 refunded=0.000 outstanding=10.009
+  owed=10.009 credit=0.000
+1 day=30 invoice c-cad INV-0001 49.03
+2 day=30 invoice c-eur INV-0002 33.42
+3 day=30 invoice c-gbp INV-0003 28.69
+4 day=30 invoice c-inr INV-0004 3014.46
+5 day=30 invoice c-jpy INV-0005 5448
+6 day=30 invoice c-kwd INV-0006 11.259
+7 day=30 invoice c-usd INV-0007 36.32
+8 day=30 payment c-jpy INV-0005 1000
+9 day=30 payment c-kwd INV-0006 1.250
+10 day=30 payment c-inr INV-0004 100.00
+11 day=30 payment c-eur INV-0002 0.01
+12 day=30 payment c-usd INV-0007 12.00
+13 day=30 credit_in c-gbp - 5.55
+14 day=30 credit_in c-jpy - 77
+14 entries
+CAD exp=2 late_min=2.50 rate=1.350000
+CHF exp=2 late_min=1.75 rate=0.900000
+EUR exp=2 late_min=1.80 rate=0.920000
+GBP exp=2 late_min=1.50 rate=0.790000
+INR exp=2 late_min=50.00 rate=83.000000
+JPY exp=0 late_min=300 rate=1.500000
+KWD exp=3 late_min=0.600 rate=3.100000
+USD exp=2 late_min=2.00 rate=1.000000
+8 currencies

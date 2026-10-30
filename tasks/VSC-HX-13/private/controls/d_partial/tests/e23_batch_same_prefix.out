@@ -1,0 +1,14 @@
+customer c-b1 added plan=starter region=de currency=EUR since=0
+customer c-b2 added plan=starter region=de currency=EUR since=0
+usage c-b1 egress batch=2 total=30 day=0
+usage c-b2 egress batch=2 total=30 day=0
+error: duplicate usage id run-1
+usage c-b2 logs batch=2 total=11 day=0
+  egress 10 day=0 id=run-1
+  egress 20 day=0 id=run-2
+2 records
+  egress 10 day=0 id=run-1
+  egress 20 day=0 id=run-2
+  logs 5 day=0 id=run-1
+  logs 6 day=0 id=run-2
+4 records

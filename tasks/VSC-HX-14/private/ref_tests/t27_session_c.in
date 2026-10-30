@@ -1,0 +1,301 @@
+event add ev1 "Lunch B" 2024-02-19T14:45 dur=1h30m rule=monthly;on=-1TU;until=2024-12-05 tz=Z cat=social,ops,work
+event add ev2 "Office hours" 2025-09-08T06:20 dur=1d rule=daily;every=3 tz=+12:45 prio=1 cat=health
+event add ev3 "Checkin q3" 2024-12-21T08:55 dur=45m tz=+0530 prio=8
+skip ev1 2024-02-27
+expand ev3 2024-12-11 2024-12-25
+agenda 2024-02-16 2024-02-19
+event move ev3 2025-01-16T20:30:29
+event retitle ev2 "Workshop"
+event cat ev3 travel,ops,work
+event add ev4 "Roadmap A" 2024-06-27T14:50 rule=monthly;every=2;monthday=28 tz=+0530 prio=2 cat=social,health
+event move ev3 2023-07-13T12:00
+event add ev5 "Interview" 2024-07-11T09:10 dur=0.25h cat=deep focus,social,travel
+event add ev6 "Review" 2025-12-13T13:35 dur=90m rule=monthly;on=2MO;count=9
+agenda 2024-06-26 2024-06-29 n=5
+event add ev7 "Sync" 2026-11-25T16:00 dur=3h rule=daily;until=2027-12-19 prio=2
+event add ev8 "Workshop" 2025-05-30 dur=1.5h tz=-03:30 allday=yes cat=team
+event rule ev4 yearly;every=2;count=7
+event show #2
+check
+check
+event add ev9 "Training" 2025-10-18T18:50:59 cat=deep focus
+expand #1 2024-02-13 2024-06-12
+event add ev10 "Checkin x" 2023-12-03T11:45 dur=15m tz=-08:00 prio=2 cat=travel,deep focus,work
+skip ev2 2025-09-14
+event retitle ev1 "Retro B"
+event move #5 2023-09-14T07:25
+event add ev11 "Interview" 2023-02-01 tz=Z allday=yes prio=8 cat=deep focus,team,health
+event add ev12 "Checkin" 2025-12-20T19:40 dur=1h rule=monthly;every=3;on=3WE tz=-08:00 prio=0 cat=health,work
+event show ev3
+event move ev6 2026-04-07T15:40
+skip #6 2026-11-26
+skip ev2 2025-09-14
+event rule #1 none
+agenda 2025-09-07 2025-09-13
+event retitle ev4 "Sync A"
+event add ev13 "Budget A" 2025-12-30T10:20 dur=45m rule=monthly;every=2;monthday=15 tz=+02:00
+expand ev13 2025-12-26 2026-02-04
+weekday 2023-09-10
+busy 2023-07-11 2023-07-31
+expand #9 2025-12-21 2026-01-30
+event move ev13 2025-03-09T14:55
+shift 2024-12-01 -14 months
+event add - "Budget" 2026-11-06T11:25 dur=1h rule=monthly;on=2WE,2WE;count=5 tz=+0530 cat=team,social,deep focus
+event add ev15 "Training q3" 2025-04-08 tz=+02:00 allday=yes prio=7 cat=social
+unref 2Z4
+event show ev6
+event cat #1 work
+event move ev8 2025-04-29
+expand ev3 2023-07-12 2023-07-26
+busy 2024-06-17 2024-07-07
+expand ev15 2025-04-05 2025-04-19
+event move ev15 2023-06-06
+event add ev16 "Roadmap" 2023-06-21T14:10 dur=1h30m rule=daily tz=Z prio=2 cat=deep focus,work
+agenda 2023-05-31 2023-06-13
+event cat ev8 health,deep focus,travel
+expand ev7 2026-11-17 2026-12-27
+expand ev3 2023-07-08 2023-11-05
+agenda 2023-05-27 2023-06-02
+agenda 2025-03-01 2025-03-04
+event retitle ev1 "Checkin  q3"
+event add ev17 "Workshop" 2023-10-07T06:25 cat=social,team,work
+event add - "Planning" 2026-09-17 dur=1h tz=+05:30 allday=yes prio=3 cat=travel,ops,work
+skip ev2 2025-09-08
+event show ev17
+event show ev3
+event add ev19 "Standup A" 2026-03-15T13:25 rule=weekly;on=TU,SA;count=4 tz=+05:30
+event show ev8
+agenda 2023-07-04 2023-07-17
+event retitle ev3 "Standup B"
+event add ev20 "Workshop" 2025-12-30T06:50 cat=work,deep focus,health
+event add ev21 "Planning" 2025-07-29T14:40 dur=1h tz=+10 cat=travel
+event add ev22 "Training" 2024-06-05 dur=45m tz=+10 allday=yes cat=team,work,ops
+skip ev6 2026-05-11
+event retitle ev8 "Training"
+event move ev22 2025-03-13
+event add ev23 "Standup" 2025-11-16T09:30 rule=monthly;monthday=28 tz=+10 cat=travel,team
+event add - "Workshop A" 2024-06-29T08:00 dur=3h rule=monthly;every=3;monthday=30 tz=+10 prio=8 cat=health,team
+agenda 2025-12-16 2025-12-22
+event move #A 2024-08-22
+unskip ev6 2026-05-11
+event add ev25 "Review q3" 2024-05-20T08:00 tz=+0530 cat=team,social
+skip ev23 2026-04-28
+event add ev26 "Roadmap" 2026-02-16T07:00 dur=30m rule=daily;count=9 tz=-08:00
+event add ev27 "Standup" 2025-02-01T19:40 dur=45s rule=monthly;every=3;on=-1FR,2WE prio=5 cat=deep focus
+list
+skip ev12 2026-09-16
+stats
+agenda 2024-05-17 2024-05-23
+event add ev28 "Roadmap q3" 2025-07-06T07:05:05 rule=monthly;on=3TU,-1TU prio=2 cat=health,travel
+event add ev29 "Budget" 2025-10-07T19:35 dur=30m tz=Z prio=2
+event add ev30 "Planning" 2025-03-16T14:50 dur=30m prio=6 cat=social,work,deep focus
+unskip #6 2026-11-26
+event add ev31 "Demo" 2024-10-04T11:55 dur=1h30m tz=-08:00 prio=2
+event add ev32 "Workshop B" 2026-04-25T07:20:00 dur=15m tz=-04:00 prio=3 cat=work,health,travel
+agenda 2024-05-12 2024-05-25
+event add ev33 "Retro" 2024-06-05T10:35 dur=1h cat=team,travel,work
+expand ev2 2025-09-01 2025-12-30
+event add - "Budget B" 2023-06-02 dur=2h tz=+02:00 allday=yes prio=7
+event add ev35 "Standup A" 2025-10-26T18:55 dur=45m rule=weekly;on=MO,TU,WE tz=-08:00 cat=work,team,deep focus
+event add ev36 "Checkin" 2024-04-27T13:30 dur=15m rule=monthly;every=3;on=-1MO;count=8 tz=+10 prio=7 cat=social,ops
+expand #5 2026-04-05 2026-08-03
+event rule ev8 yearly
+agenda 2024-02-11 2024-02-14
+skip ev19 2026-03-17
+expand ev36 2024-04-25 2024-08-23
+agenda 2024-05-26 2024-06-01 n=5
+event add ev37 "Review B" 2023-08-02 dur=15m tz=+09:00 allday=yes prio=5 cat=work,team
+event cat ev37 team,social,deep focus
+event add ev38 "Office  hours  A" 2024-12-15T19:10 rule=weekly;on=WE,SU prio=8 cat=work
+event move ev33 2026-07-03T21:45:00
+event add - "Lunch B" 2025-08-24T09:15 dur=30m tz=+05:30 prio=0
+snap 2025-12-06T03:52:58
+expand ev21 2025-07-28 2025-09-06
+event add ev40 "Planning A" 2026-05-24 tz=-05:00 allday=yes prio=5 cat=team,social
+event show ev26
+event show ev13
+snap 2025-03-30T04:26:06
+event show ev7
+expand ev15 2024-08-15 2024-09-24
+event move ev29 2026-06-07T16:30:30
+event show #B
+event move ev29 2023-08-20T20:10
+event show ev4
+event move ev36 2024-07-14T17:35
+agenda 2026-09-07 2026-09-20
+event show ev1
+expand ev33 2026-07-02 2026-10-30
+busy 2023-10-07 2023-10-13
+event show ev31
+event move ev22 2023-02-05
+event show ES
+event move ev15 2026-09-16
+busy 2026-02-15 2026-03-07
+event show ev25
+event show ev22
+event show #C
+agenda 2024-02-13 2024-02-19 n=5
+event show ev17
+dur 90m
+event move ev7 2024-04-03T16:50
+event move ev29 2026-01-23T21:15
+event show EH
+event move ev32 2026-08-02T18:55
+agenda 2025-12-10 2025-12-16
+skip ev7 2024-04-03
+event show #D
+event show ev23
+unskip ev23 2026-04-28
+event rule EH none
+event show ev29
+event retitle ev12 "Interview"
+event show ev26
+busy 2025-07-05 2025-07-11
+agenda 2026-07-31 2026-08-13 n=5
+event show ev29
+event move EC 2023-08-28
+event show ev38
+event show ev13
+event move #J 2026-10-27T18:10:30
+agenda 2025-04-29 2025-05-02
+event show ev31
+title "Training B"
+event show ev4
+skip ev7 2024-04-08
+event show #D
+expand #P 2024-09-27 2024-11-06
+event cat #7 -
+event cat #S deep focus,health,team
+event show EC
+event move ev17 2026-07-09T12:05
+event move ev21 2023-04-19T09:50:59
+busy 2026-07-02 2026-07-08
+event show ev12
+event move ev31 2023-03-09T16:30
+event set ev36 prio=5 tz=+0530
+skip ev6 2026-04-13
+event show ev38
+skip ev26 2026-02-19
+expand ev4 2024-06-26 2024-08-05
+event show EC
+event show ev4
+agenda 2026-09-12 2026-09-25
+expand ev25 2026-10-18 2026-11-27
+event move ev17 2025-06-05T18:55
+expand ev36 2024-07-11 2024-08-20
+agenda 2026-09-08 2026-09-14 n=5
+event rm ev7
+dur 45m
+event add - "Workshop q3" 2023-08-05T13:55 dur=1.5h tz=+01:00 prio=6 cat=ops,team,health
+event show ev8
+event show ev17
+event show #X
+expand #S 2023-06-01 2023-06-15
+event show ev1
+event move ev22 2023-11-09
+ordinal 2023-07-26
+agenda 2023-04-16 2023-04-19
+event cat ev28 health
+event show #S
+busy 2023-02-28 2023-03-03
+event show ev31
+expand ES 2023-05-29 2023-06-12
+skip ev13 2025-09-15
+event show ev2
+event move #E 2026-01-08T13:50
+event show ev36
+event show ev3
+stats
+event show ev13
+event show ev2
+event move ev15 2025-06-03
+event show ev19
+event rule ev19 yearly;every=2;count=2
+event show ES
+snap 2024-12-31T10:43:27
+event show ev25
+agenda 2023-08-26 2023-09-01 n=5
+event show ev6
+busy 2024-06-23 2024-06-26
+unref 31Y
+event show #M
+event show ev37
+event show #4
+weekday 2024-09-18
+event show EC
+skip #8 2026-03-18
+event show ev23
+agenda 2024-06-24 2024-07-07
+busy 2026-04-03 2026-04-06
+event show ev2
+event show ev19
+expand #N 2026-01-13 2026-01-27
+event show #R
+event show ev13
+event show #Q
+event show ev37
+agenda 2026-05-17 2026-05-20
+event rule ev12 none
+expand #Q 2026-07-26 2026-09-04
+event set ev4 prio=8 tz=+10
+event move EX 2023-04-08T12:10:30
+event move ev22 2024-03-03
+skip ev13 2025-07-15
+event show ev23
+event show ev15
+expand ev22 2024-02-22 2024-04-02
+agenda 2024-12-15 2024-12-28
+event show ev33
+skip ev23 2026-03-28
+event show ev2
+expand EX 2023-04-01 2023-05-11
+agenda 2025-05-27 2025-06-09
+busy 2025-03-02 2025-03-05
+expand ev31 2023-03-01 2023-04-10
+event move ev29 2024-06-07T07:05
+event set ev29 prio=0 tz=+09:00
+agenda 2025-11-11 2025-11-17
+event move ev33 2026-11-06T21:40
+snap 2023-07-10T00:12:19
+event rule ev33 yearly;every=2
+event move ev22 2025-03-18
+event set ev33 prio=7 tz=-05:00
+event show ev19
+event show ev37
+event show ev29
+event show ev37
+event move #W 2024-10-28T19:55
+event show ev6
+unskip ev2 2025-09-14
+event show ev17
+event move EH 2025-03-03T18:10
+event show #V
+event move ev22 2024-05-17
+event show ev32
+event show ev3
+agenda 2025-07-02 2025-07-05 n=5
+event show EH
+event show ev40
+busy 2025-03-01 2025-03-04
+expand ev25 2026-10-24 2027-02-21
+event show ev12
+event move EC 2023-06-23
+event move EZ 2025-04-03T20:05
+expand #Z 2025-03-29 2025-05-08
+ref 4243
+event move ev40 2023-04-11
+event move ev28 2023-11-17T13:10
+event show #S
+event show #3
+event show EH
+event show ev8
+event show ev17
+agenda 2025-05-31 2025-06-13 n=5
+expand ev33 2026-11-03 2026-11-17
+event cat ev12 social,health,ops
+event move ev22 2023-02-13
+event show #2
+expand #M 2023-11-07 2023-11-21
+event move ev32 2025-06-15T06:55
+busy 2023-05-28 2023-05-31
+check

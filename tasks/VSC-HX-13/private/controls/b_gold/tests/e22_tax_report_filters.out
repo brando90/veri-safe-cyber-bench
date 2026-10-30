@@ -1,0 +1,55 @@
+customer c-t1 added plan=team region=uk currency=GBP since=0
+customer c-t2 added plan=team region=uk currency=GBP since=0
+customer c-t3 added plan=starter region=tx currency=USD since=0
+customer c-t4 added plan=starter region=ny currency=USD since=0
+usage c-t1 requests 90000 day=0
+usage c-t2 requests 90000 day=0
+usage c-t3 egress 100 day=0
+usage c-t4 egress 100 day=0
+day 30 period 1
+invoiced INV-0001 c-t1 period=0 lines=2 total=79.16 GBP
+invoiced INV-0002 c-t2 period=0 lines=2 total=79.16 GBP
+invoiced INV-0003 c-t3 period=0 lines=2 total=21.04 USD
+invoiced INV-0004 c-t4 period=0 lines=2 total=21.48 USD
+invoice run period=0 invoices=4
+void INV-0001
+void INV-0003
+report tax_region
+  ny USD 1.68
+  uk GBP 13.19
+  total GBP 13.19
+  total USD 1.68
+end
+report tax_region
+  uk GBP 13.19
+  total GBP 13.19
+end
+report tax_region
+  ny USD 1.68
+  total USD 1.68
+end
+report tax_region
+  uk GBP 13.19
+  total GBP 13.19
+end
+report tax_region
+  (none)
+end
+report tax_region
+  (none)
+end
+invoiced INV-0005 c-t1 period=0 lines=2 total=79.16 GBP
+invoiced INV-0006 c-t3 period=0 lines=2 total=21.04 USD
+invoice run period=0 invoices=2
+report tax_region
+  ny USD 1.68
+  tx USD 1.24
+  uk GBP 26.38
+  total GBP 26.38
+  total USD 2.92
+end
+report voided
+  INV-0001 c-t1 p0 GBP 79.16
+  INV-0003 c-t3 p0 USD 21.04
+  2 voided
+end

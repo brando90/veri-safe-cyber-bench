@@ -1,0 +1,103 @@
+customer c-ca added plan=starter region=ca currency=USD since=0
+customer c-ny added plan=starter region=ny currency=USD since=0
+customer c-tx added plan=starter region=tx currency=USD since=0
+customer c-wa added plan=starter region=wa currency=USD since=0
+customer c-de added plan=starter region=de currency=USD since=0
+customer c-uk added plan=starter region=uk currency=USD since=0
+customer c-jp added plan=starter region=jp currency=USD since=0
+customer c-on added plan=starter region=on currency=USD since=0
+customer c-ch added plan=starter region=ch currency=USD since=0
+usage c-ca egress 400 day=0
+usage c-ny egress 400 day=0
+usage c-tx egress 400 day=0
+usage c-wa egress 400 day=0
+usage c-de egress 400 day=0
+usage c-uk egress 400 day=0
+usage c-jp egress 400 day=0
+usage c-on egress 400 day=0
+usage c-ch egress 400 day=0
+coupon c-ny #1 pct_all
+coupon c-wa #1 fixed_all
+coupon c-jp #1 pct_usage
+coupon c-ch #1 pct_fee
+day 31 period 1
+invoiced INV-0001 c-ca period=0 lines=2 total=34.11 USD
+invoiced INV-0002 c-ch period=0 lines=2 total=27.18 USD
+invoiced INV-0003 c-de period=0 lines=2 total=37.84 USD
+invoiced INV-0004 c-jp period=0 lines=2 total=26.04 USD
+invoiced INV-0005 c-ny period=0 lines=2 total=31.05 USD
+invoiced INV-0006 c-on period=0 lines=2 total=35.93 USD
+invoiced INV-0007 c-tx period=0 lines=2 total=33.79 USD
+invoiced INV-0008 c-uk period=0 lines=2 total=38.16 USD
+invoiced INV-0009 c-wa period=0 lines=2 total=32.81 USD
+invoice run period=0 invoices=9
+invoice INV-0001 c-ca period=0 issued=31 due=61 status=open
+  fee plan starter days=30 19.00
+  usage egress 400 GB 12.80
+  subtotal 31.80 discount 0.00 tax 2.31 late 0.00 total 34.11 USD
+  paid 0.00 refunded 0.00 outstanding 34.11
+invoice INV-0002 c-ch period=0 issued=31 due=61 status=open
+  fee plan starter days=30 19.00
+  usage egress 400 GB 12.80
+  discount pct_fee -5.70
+  subtotal 31.80 discount 5.70 tax 1.08 late 0.00 total 27.18 USD
+  paid 0.00 refunded 0.00 outstanding 27.18
+invoice INV-0003 c-de period=0 issued=31 due=61 status=open
+  fee plan starter days=30 19.00
+  usage egress 400 GB 12.80
+  subtotal 31.80 discount 0.00 tax 6.04 late 0.00 total 37.84 USD
+  paid 0.00 refunded 0.00 outstanding 37.84
+invoice INV-0004 c-jp period=0 issued=31 due=61 status=open
+  fee plan starter days=30 19.00
+  usage egress 400 GB 12.80
+  discount pct_usage -6.40
+  subtotal 31.80 discount 6.40 tax 0.64 late 0.00 total 26.04 USD
+  paid 0.00 refunded 0.00 outstanding 26.04
+invoice INV-0005 c-ny period=0 issued=31 due=61 status=open
+  fee plan starter days=30 19.00
+  usage egress 400 GB 12.80
+  discount pct_all -3.18
+  subtotal 31.80 discount 3.18 tax 2.43 late 0.00 total 31.05 USD
+  paid 0.00 refunded 0.00 outstanding 31.05
+invoice INV-0006 c-on period=0 issued=31 due=61 status=open
+  fee plan starter days=30 19.00
+  usage egress 400 GB 12.80
+  subtotal 31.80 discount 0.00 tax 4.13 late 0.00 total 35.93 USD
+  paid 0.00 refunded 0.00 outstanding 35.93
+invoice INV-0007 c-tx period=0 issued=31 due=61 status=open
+  fee plan starter days=30 19.00
+  usage egress 400 GB 12.80
+  subtotal 31.80 discount 0.00 tax 1.99 late 0.00 total 33.79 USD
+  paid 0.00 refunded 0.00 outstanding 33.79
+invoice INV-0008 c-uk period=0 issued=31 due=61 status=open
+  fee plan starter days=30 19.00
+  usage egress 400 GB 12.80
+  subtotal 31.80 discount 0.00 tax 6.36 late 0.00 total 38.16 USD
+  paid 0.00 refunded 0.00 outstanding 38.16
+invoice INV-0009 c-wa period=0 issued=31 due=61 status=open
+  fee plan starter days=30 19.00
+  usage egress 400 GB 12.80
+  discount fixed_all -2.00
+  subtotal 31.80 discount 2.00 tax 3.01 late 0.00 total 32.81 USD
+  paid 0.00 refunded 0.00 outstanding 32.81
+ca California sales tax rate=7.25% kinds=adjust,fee,usage
+ch Swiss VAT rate=8.10% kinds=adjust,fee
+de German VAT rate=19.00% kinds=adjust,fee,usage
+es Spanish VAT rate=21.00% kinds=adjust,fee,usage
+fr French VAT rate=20.00% kinds=adjust,fee,usage
+jp Japan consumption tax rate=10.00% kinds=usage
+ny New York sales tax rate=8.50% kinds=adjust,fee,usage
+on Ontario HST rate=13.00% kinds=adjust,fee,usage
+tx Texas sales tax rate=6.25% kinds=adjust,fee,usage
+uk UK VAT rate=20.00% kinds=adjust,fee,usage
+wa Washington sales tax rate=10.10% kinds=adjust,fee,usage
+11 regions
+region ny New York sales tax
+  rate=8.50% kinds=adjust,fee,usage
+  inclusive 119.00 -> net 109.68 tax 9.32
+region wa Washington sales tax
+  rate=10.10% kinds=adjust,fee,usage
+  inclusive 119.00 -> net 108.08 tax 10.92
+region jp Japan consumption tax
+  rate=10.00% kinds=usage
+  inclusive 119.00 -> net 108.18 tax 10.82

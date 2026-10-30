@@ -1,0 +1,37 @@
+customer c-s1 added plan=free region=tx currency=USD since=0
+customer c-s2 added plan=starter region=ca currency=USD since=0
+quote c-s1 sms plan=free
+  units=101 allowance=100 billable=1 blocks=1
+  blocks 1-1 x 70
+  charge 0.70 USD
+quote c-s1 sms plan=free
+  units=175 allowance=100 billable=75 blocks=1
+  blocks 1-1 x 70
+  charge 0.70 USD
+quote c-s1 sms plan=free
+  units=200 allowance=100 billable=100 blocks=1
+  blocks 1-1 x 70
+  charge 0.70 USD
+quote c-s1 sms plan=free
+  units=250 allowance=100 billable=150 blocks=2
+  blocks 1-2 x 70
+  charge 1.40 USD
+quote c-s1 sms plan=free
+  units=299 allowance=100 billable=199 blocks=2
+  blocks 1-2 x 70
+  charge 1.40 USD
+quote c-s2 sms plan=starter
+  units=401 allowance=400 billable=1 blocks=1
+  blocks 1-1 x 70
+  charge 0.70 USD
+quote c-s2 sms plan=starter
+  units=880 allowance=400 billable=480 blocks=5
+  blocks 1-5 x 70
+  charge 3.50 USD
+advise c-s2 sms units=450
+  free 2.80 USD
+  starter 19.70 USD (current)
+  team 79.00 USD
+  business 199.00 USD
+  enterprise 599.00 USD
+  best free

@@ -1,0 +1,10 @@
+customer add c-b1 starter de EUR
+customer add c-b2 starter de EUR
+usage c-b1 egress 5 id=m-1
+usage batch c-b1 egress 1 2 id=m
+usage c-b2 egress 5 id=m-2
+usage batch c-b2 egress 1 2 3 id=m
+usage batch c-b2 egress 1 id=n
+usage c-b2 egress 4 id=n-1
+usage list c-b1
+usage list c-b2

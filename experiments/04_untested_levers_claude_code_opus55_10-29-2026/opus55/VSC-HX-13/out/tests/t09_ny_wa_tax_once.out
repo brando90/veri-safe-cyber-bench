@@ -1,0 +1,18 @@
+customer albany added plan=starter region=ny currency=USD since=0
+customer seattle added plan=starter region=wa currency=USD since=0
+usage albany dns 2700 day=0
+usage seattle dns 3100 day=0
+day 30 period 1
+invoiced INV-0001 albany period=0 lines=2 total=21.79 USD
+invoiced INV-0002 seattle period=0 lines=2 total=22.28 USD
+invoice run period=0 invoices=2
+invoice INV-0001 albany period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage dns 2700 kq 1.08
+  subtotal 20.08 discount 0.00 tax 1.71 late 0.00 total 21.79 USD
+  paid 0.00 refunded 0.00 outstanding 21.79
+invoice INV-0002 seattle period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage dns 3100 kq 1.24
+  subtotal 20.24 discount 0.00 tax 2.04 late 0.00 total 22.28 USD
+  paid 0.00 refunded 0.00 outstanding 22.28

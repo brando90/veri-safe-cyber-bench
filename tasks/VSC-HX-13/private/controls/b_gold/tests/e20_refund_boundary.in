@@ -1,0 +1,17 @@
+customer add c-r1 starter ca USD
+customer add c-r2 starter ca USD
+usage c-r1 egress 400
+usage c-r2 egress 400
+tick 30
+invoice run
+pay c-r1 100
+pay c-r2 100
+refund INV-0001 10
+refund INV-0001 24.11
+refund INV-0001 0.01
+refund INV-0002 34.11
+refund INV-0002 0.01
+invoice show INV-0001
+invoice show INV-0002
+ledger kind=refund
+statement c-r1

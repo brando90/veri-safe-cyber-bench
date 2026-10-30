@@ -1,0 +1,13 @@
+event add b "Far future" 2400-02-29T08:00 dur=2h rule=daily;count=3
+event add c "Far past" 1600-02-29T08:00
+event show b
+event show c
+expand b 2400-02-27 2400-03-02
+date -135081
+date 157113
+date 157112
+date 157114
+ordinal 1600-02-29
+ordinal 2400-02-29
+export text
+check

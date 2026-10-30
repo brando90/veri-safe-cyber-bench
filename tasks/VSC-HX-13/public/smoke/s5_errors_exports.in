@@ -1,0 +1,22 @@
+# refused commands and exports
+customer add c-x team de EUR
+customer add c-x team de EUR
+customer add c-y gold de EUR
+customer add c-y team mars EUR
+usage c-x storage 100
+usage c-x teleport 5
+usage c-x storage 0
+usage c-x storage 10 day=40
+pay c-x 0
+pay c-x 5.555
+frobnicate now
+invoice run
+tick 5
+invoice show INV-0009
+set terms c-x 400
+set exempt c-x maybe
+export invoices csv
+export customers tsv
+export ledger csv
+export audit csv
+help report

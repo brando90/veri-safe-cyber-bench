@@ -1,0 +1,6 @@
+title "Team    sync"
+title "  a   b	 c  "
+event add t "Weekly   team    sync" 2024-02-05T10:00
+event show t
+event retitle t "Plan   review"
+list

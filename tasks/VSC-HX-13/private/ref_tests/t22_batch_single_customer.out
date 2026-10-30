@@ -1,0 +1,43 @@
+customer c-b1 added plan=starter region=de currency=EUR since=0
+customer c-b2 added plan=starter region=de currency=EUR since=0
+usage c-b1 egress batch=3 total=600 day=0
+error: duplicate usage id run1-1
+usage c-b1 egress batch=1 total=50 day=0
+usage c-b2 egress batch=2 total=300 day=0
+error: usage batch needs at least one quantity
+error: invalid number '0'
+error: invalid number 'x'
+error: unknown service 'nothing'
+error: day 99 is in the future
+error: invalid customer id 'a,b-1'
+usage c-b2 logs batch=3 total=60 day=0
+usage c-b2 logs batch=3 total=60 day=0
+  egress 100 day=0 id=run1-1
+  egress 200 day=0 id=run1-2
+  egress 300 day=0 id=run1-3
+  egress 50 day=0 id=run1x-1
+4 records
+  egress 100 day=0 id=other-1
+  egress 200 day=0 id=other-2
+  logs 10 day=0 id=-
+  logs 20 day=0 id=-
+  logs 30 day=0 id=-
+  logs 10 day=0 id=-
+  logs 20 day=0 id=-
+  logs 30 day=0 id=-
+8 records
+day 30 period 1
+invoiced INV-0001 c-b1 period=0 lines=2 total=45.15 EUR
+invoiced INV-0002 c-b2 period=0 lines=2 total=30.44 EUR
+invoice run period=0 invoices=2
+invoice INV-0001 c-b1 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  usage egress 650 GB 20.46
+  subtotal 37.94 discount 0.00 tax 7.21 late 0.00 total 45.15 EUR
+  paid 0.00 refunded 0.00 outstanding 45.15
+invoice INV-0002 c-b2 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  usage egress 300 GB 8.10
+  subtotal 25.58 discount 0.00 tax 4.86 late 0.00 total 30.44 EUR
+  paid 0.00 refunded 0.00 outstanding 30.44
+error: period 0 is already invoiced for c-b1

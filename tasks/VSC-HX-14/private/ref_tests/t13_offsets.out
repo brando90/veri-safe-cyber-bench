@@ -1,0 +1,22 @@
++00:00 0
++00:00 0
++00:00 0
++05:30 330
++05:00 300
+-03:30 -210
+-12:00 -720
++14:00 840
+error: invalid UTC offset '+14:30'
+error: invalid UTC offset '-12:30'
+error: invalid UTC offset '+05:60'
+error: invalid UTC offset '5:30'
+error: invalid UTC offset '+5'
++12:30 750
+-08:00 -480
+added o1 ref=1
+event o1 ref=1
+  title Offset
+  start 2024-01-01T10:00
+  dur 1h tz +05:45 prio 5
+  rule -
+  cats -

@@ -1,0 +1,33 @@
+customer c-ch1 added plan=team region=ch currency=CHF since=0
+customer c-ch2 added plan=starter region=on currency=CHF since=0
+customer c-ch3 added plan=free region=de currency=CHF since=0
+usage c-ch1 requests 8000 day=0
+usage c-ch1 requests 7000 day=0
+usage c-ch1 logs 1750 day=0
+usage c-ch2 requests 20000 day=0
+usage c-ch2 cdn 40 day=0
+usage c-ch3 requests 8000 day=0
+usage c-ch3 logs 1250 day=0
+day 30 period 1
+invoiced INV-0001 c-ch1 period=0 lines=1 total=76.86 CHF
+invoiced INV-0002 c-ch2 period=0 lines=1 total=19.32 CHF
+invoiced INV-0003 c-ch3 period=0 lines=2 total=0.56 CHF
+invoice run period=0 invoices=3
+invoice INV-0001 c-ch1 period=0 issued=30 due=60 status=open
+  fee plan team days=30 71.10
+  subtotal 71.10 discount 0.00 tax 5.76 late 0.00 total 76.86 CHF
+  paid 0.00 refunded 0.00 outstanding 76.86
+invoice INV-0002 c-ch2 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.10
+  subtotal 17.10 discount 0.00 tax 2.22 late 0.00 total 19.32 CHF
+  paid 0.00 refunded 0.00 outstanding 19.32
+invoice INV-0003 c-ch3 period=0 issued=30 due=60 status=open
+  usage logs 1250 MB 0.06
+  usage requests 8000 req 0.41
+  subtotal 0.47 discount 0.00 tax 0.09 late 0.00 total 0.56 CHF
+  paid 0.00 refunded 0.00 outstanding 0.56
+  applied INV-0003 0.56
+payment c-ch3 1.00 applied=0.56 credit=0.44
+statement c-ch3 CHF
+  INV-0003 p0 total=0.56 paid=0.56 refunded=0.00 outstanding=0.00
+  owed=0.00 credit=0.44

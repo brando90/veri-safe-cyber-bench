@@ -1,0 +1,29 @@
+customer add c-s1 starter de EUR
+customer add c-s2 starter de EUR
+usage c-s1 egress 400
+usage c-s2 egress 400
+tick 30
+invoice run
+usage c-s1 egress 400
+pay c-s1 10
+pay c-s2 10
+tick 31
+invoice run
+pay c-s1 5
+refund INV-0001 2
+credit add c-s2 7
+audit
+audit 3
+audit 3 action=pay
+audit 50 subject=c-s1
+audit 0
+audit x
+ledger
+ledger c-s1
+ledger c-s1 kind=payment
+ledger kind=invoice
+ledger c-nobody
+statement c-s1
+statement c-s1 period=1
+statement c-s2 period=0
+statement c-s2 period=x

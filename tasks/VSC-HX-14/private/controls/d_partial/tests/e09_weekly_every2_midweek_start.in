@@ -1,0 +1,4 @@
+event add a "Biweekly" 2024-03-06T10:00 rule=weekly;every=2;on=MO,WE,FR
+expand a 2024-03-01 2024-05-31
+event add b "Triweekly" 2024-03-08T10:00 rule=weekly;every=3;on=MO,TU,FR
+expand b 2024-03-01 2024-06-30

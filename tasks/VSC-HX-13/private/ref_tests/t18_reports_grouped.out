@@ -1,0 +1,212 @@
+customer c-a1 added plan=business region=de currency=EUR since=0
+customer c-a2 added plan=starter region=ca currency=USD since=0
+customer c-a3 added plan=team region=uk currency=GBP since=0
+customer c-a4 added plan=starter region=jp currency=JPY since=0
+customer c-a5 added plan=free region=tx currency=USD since=0
+coupon c-a1 #1 pct_all
+coupon c-a3 #1 fixed_all
+usage c-a1 storage 150000 day=0
+usage c-a2 egress 500 day=0
+usage c-a3 compute 3000 day=0
+usage c-a4 ocr 300 day=0
+usage c-a5 logs 9000 day=0
+day 31 period 1
+invoiced INV-0001 c-a1 period=0 lines=2 total=204.36 EUR
+invoiced INV-0002 c-a2 period=0 lines=2 total=38.40 USD
+invoiced INV-0003 c-a3 period=0 lines=2 total=91.45 GBP
+invoiced INV-0004 c-a4 period=0 lines=2 total=8790 JPY
+invoiced INV-0005 c-a5 period=0 lines=1 total=2.38 USD
+invoice run period=0 invoices=5
+usage c-a1 storage 150000 day=31
+usage c-a2 egress 900 day=31
+  applied INV-0001 100.00
+payment c-a1 100.00 applied=100.00 credit=0.00
+  applied INV-0002 10.00
+payment c-a2 10.00 applied=10.00 credit=0.00
+day 71 period 2
+late INV-0001 fee=1.80
+late INV-0002 fee=2.00
+late INV-0003 fee=1.50
+late INV-0004 fee=300
+late INV-0005 fee=2.00
+dun applied=5
+day 91 period 3
+invoiced INV-0006 c-a1 period=1 lines=2 total=204.36 EUR
+invoiced INV-0007 c-a2 period=1 lines=2 total=52.81 USD
+invoiced INV-0008 c-a3 period=1 lines=1 total=68.89 GBP
+invoiced INV-0009 c-a4 period=1 lines=1 total=2850 JPY
+invoice run period=1 invoices=4
+invoiced INV-0010 c-a1 period=2 lines=1 total=196.08 EUR
+invoiced INV-0011 c-a2 period=2 lines=1 total=20.38 USD
+invoiced INV-0012 c-a3 period=2 lines=1 total=68.89 GBP
+invoiced INV-0013 c-a4 period=2 lines=1 total=2850 JPY
+invoice run period=2 invoices=4
+  applied INV-0003 20.00
+payment c-a3 20.00 applied=20.00 credit=0.00
+aging Outstanding amount by days overdue
+credits Credit held per customer
+disc_region Discounts given per region
+late_customer Late fees per customer
+out_customer Outstanding amount per customer
+payments Payments received per day
+rev_period Net revenue per billing period
+rev_plan Net revenue per plan
+rev_region Net revenue per tax region
+tax_period Tax charged per billing period
+tax_region Tax charged per region
+top Customers ranked by net revenue in one currency
+usage_units Metered units recorded per service
+voided Invoices that were voided
+report rev_region
+  ca USD 106.04
+  de EUR 510.03
+  jp JPY 14250
+  tx USD 4.24
+  uk GBP 192.53
+  total EUR 510.03
+  total GBP 192.53
+  total JPY 14250
+  total USD 110.28
+end
+report rev_region
+  ca USD 106.04
+  tx USD 4.24
+  total USD 110.28
+end
+report rev_plan
+  business EUR 510.03
+  free USD 4.24
+  starter JPY 14250
+  starter USD 106.04
+  team GBP 192.53
+  total EUR 510.03
+  total GBP 192.53
+  total JPY 14250
+  total USD 110.28
+end
+report rev_period
+  p00 EUR 173.53
+  p00 GBP 77.71
+  p00 JPY 8550
+  p00 USD 42.04
+  p01 EUR 171.73
+  p01 GBP 57.41
+  p01 JPY 2850
+  p01 USD 49.24
+  p02 EUR 164.77
+  p02 GBP 57.41
+  p02 JPY 2850
+  p02 USD 19.00
+  total EUR 510.03
+  total GBP 192.53
+  total JPY 14250
+  total USD 110.28
+end
+report rev_period
+  p00 EUR 173.53
+  p01 EUR 171.73
+  p02 EUR 164.77
+  total EUR 510.03
+end
+report tax_region
+  ca USD 7.55
+  de EUR 96.57
+  jp JPY 540
+  tx USD 0.14
+  uk GBP 38.20
+  total EUR 96.57
+  total GBP 38.20
+  total JPY 540
+  total USD 7.69
+end
+report tax_period
+  p00 EUR 32.63
+  p00 GBP 15.24
+  p00 JPY 540
+  p00 USD 2.74
+  p01 EUR 32.63
+  p01 GBP 11.48
+  p01 USD 3.57
+  p02 EUR 31.31
+  p02 GBP 11.48
+  p02 USD 1.38
+  total EUR 96.57
+  total GBP 38.20
+  total JPY 540
+  total USD 7.69
+end
+report disc_region
+  de EUR 56.47
+  uk GBP 15.00
+  total EUR 56.47
+  total GBP 15.00
+end
+report late_customer
+  c-a1 EUR 1.80
+  c-a2 USD 2.00
+  c-a3 GBP 1.50
+  c-a4 JPY 300
+  c-a5 USD 2.00
+  total EUR 1.80
+  total GBP 1.50
+  total JPY 300
+  total USD 4.00
+end
+report out_customer
+  c-a1 EUR 506.60
+  c-a2 USD 103.59
+  c-a3 GBP 210.73
+  c-a4 JPY 14790
+  c-a5 USD 4.38
+  total EUR 506.60
+  total GBP 210.73
+  total JPY 14790
+  total USD 107.97
+end
+report out_customer
+  c-a1 EUR 506.60
+  total EUR 506.60
+end
+report credits
+  (none)
+end
+report payments
+  day0031 EUR 100.00
+  day0031 USD 10.00
+  day0091 GBP 20.00
+  total EUR 100.00
+  total GBP 20.00
+  total USD 10.00
+end
+report payments
+  day0031 USD 10.00
+  total USD 10.00
+end
+report usage_units
+  compute 3000 CPU-min
+  egress 1400 GB
+  logs 9000 MB
+  ocr 300 page
+  storage 300000 GB-h
+end
+report aging
+  current EUR 400.44
+  current GBP 137.78
+  current JPY 5700
+  current USD 73.19
+  1-30 EUR 106.16
+  1-30 GBP 72.95
+  1-30 JPY 9090
+  1-30 USD 34.78
+  total EUR 506.60
+  total GBP 210.73
+  total JPY 14790
+  total USD 107.97
+end
+report tax_region
+error: unknown currency 'XXX'
+report tax_region
+error: unknown customer c-zzz
+report tax_region
+error: option 'bogus' is not valid here
+error: unknown report 'nonsense'

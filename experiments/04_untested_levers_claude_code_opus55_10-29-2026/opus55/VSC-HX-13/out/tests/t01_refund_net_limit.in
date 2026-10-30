@@ -1,0 +1,11 @@
+# a second refund may not exceed what is still paid net
+customer add acme starter ca USD
+tick 30
+invoice run
+pay acme 20.38
+refund INV-0001 15
+refund INV-0001 10
+refund INV-0001 5.38
+invoice show INV-0001
+void INV-0001
+ledger acme

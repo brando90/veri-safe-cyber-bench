@@ -1,0 +1,24 @@
+customer c-p1 added plan=free region=ca currency=USD since=0
+customer c-p2 added plan=free region=ca currency=USD since=0
+customer c-p3 added plan=free region=ca currency=USD since=0
+customer c-p2 closed
+customer c-p3 closed
+error: customer c-p3 is closed
+error: customer c-p2 is closed
+customer c-p1 phone 555-0103
+customer c-p1 phone unchanged
+error: customer c-p3 is closed
+id,name,plan,region,currency,status,since,terms,po,email
+c-p1,c-p1,free,ca,USD,active,0,30,,
+c-p2,c-p2,free,ca,USD,closed,0,30,,
+c-p3,c-p3,free,ca,USD,closed,0,30,,
+1 day=0 customer add c-p1 free ca USD
+2 day=0 customer add c-p2 free ca USD
+3 day=0 customer add c-p3 free ca USD
+4 day=0 customer close c-p2
+5 day=0 customer close c-p3
+6 day=0 set phone c-p1  555-0103
+6 of 6 entries
+2 day=0 customer add c-p2 free ca USD
+4 day=0 customer close c-p2
+2 of 2 entries

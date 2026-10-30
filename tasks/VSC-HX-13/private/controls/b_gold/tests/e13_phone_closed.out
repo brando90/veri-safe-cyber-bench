@@ -1,0 +1,11 @@
+customer c-p1 added plan=starter region=de currency=EUR since=0
+customer c-p2 added plan=starter region=de currency=EUR since=0
+customer c-p1 phone +49-30-1234
+customer c-p1 closed
+error: customer c-p1 is closed
+customer c-p1 name=c-p1 plan=starter region=de currency=EUR status=closed
+  since=0 terms=30 exempt=no credit=0.00
+  po=- email=- phone=+49-30-1234 note=-
+  coupons=0 plan_changes=0
+  day 0 plan starter
+1 plan entries

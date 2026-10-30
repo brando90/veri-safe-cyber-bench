@@ -1,0 +1,31 @@
+customer c-d1 added plan=starter region=de currency=EUR since=0
+customer c-d2 added plan=starter region=de currency=EUR since=0
+usage c-d1 egress 400 day=0
+usage c-d2 egress 400 day=0
+day 30 period 1
+invoiced INV-0001 c-d1 period=0 lines=2 total=34.82 EUR
+invoiced INV-0002 c-d2 period=0 lines=2 total=34.82 EUR
+invoice run period=0 invoices=2
+error: invoice INV-0002 does not belong to c-d1
+error: unknown invoice INV-0009
+error: payment exceeds the outstanding amount of INV-0001
+  applied INV-0001 10.00
+payment c-d1 10.00 applied=10.00 credit=0.00
+statement c-d1 EUR
+  INV-0001 p0 total=34.82 paid=10.00 refunded=0.00 outstanding=24.82
+  owed=24.82 credit=0.00
+error: payment exceeds the outstanding amount of INV-0001
+  applied INV-0001 24.47
+payment c-d1 24.47 applied=24.47 credit=0.00
+  applied INV-0001 0.01
+payment c-d1 0.01 applied=0.01 credit=0.00
+  applied INV-0001 0.34
+payment c-d1 10.50 applied=0.34 credit=10.16
+statement c-d1 EUR
+  INV-0001 p0 total=34.82 paid=34.82 refunded=0.00 outstanding=0.00
+  owed=0.00 credit=10.16
+void INV-0002
+error: invoice INV-0002 is void
+payment c-d2 1.00 applied=0.00 credit=1.00
+statement c-d2 EUR
+  owed=0.00 credit=1.00

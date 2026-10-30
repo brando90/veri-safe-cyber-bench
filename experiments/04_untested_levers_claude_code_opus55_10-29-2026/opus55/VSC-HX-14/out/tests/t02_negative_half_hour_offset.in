@@ -1,0 +1,8 @@
+offset -00:30
+offset -0030
+offset -09:30
+offset +05:30
+event add call "Call" 2024-03-01T10:00 tz=-00:30
+event show call
+agenda 2024-03-01 2024-03-01
+export text

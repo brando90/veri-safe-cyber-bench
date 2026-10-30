@@ -1,0 +1,25 @@
+customer add c-t free tx USD
+quote c-t storage 102000
+quote c-t storage 102001
+quote c-t storage 402000
+quote c-t storage 402001
+quote c-t egress 520
+quote c-t egress 521
+quote c-t egress 2020
+quote c-t egress 2021
+quote c-t compute 1320
+quote c-t compute 1321
+quote c-t compute 1
+quote c-t compute 121
+quote c-t dns 100
+quote c-t dns 10100
+quote c-t cache 257
+quote c-t cache 4000
+customer add c-t2 team tx USD
+quote c-t2 storage 124000
+quote c-t2 storage 124001
+usage c-t backup 30500
+usage c-t backup 130500
+tick 30
+invoice run
+invoice show INV-0001

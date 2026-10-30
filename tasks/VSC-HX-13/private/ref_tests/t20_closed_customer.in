@@ -1,0 +1,43 @@
+customer add c-c1 starter de EUR
+customer add c-c2 starter de EUR
+customer add c-c3 starter de EUR
+coupon add c-c3 pct_all 5
+usage c-c1 egress 400
+usage c-c2 egress 400
+customer close c-c3
+customer close c-c3
+customer close c-c2
+tick 30
+invoice run
+pay c-c1 100
+customer close c-c1
+usage c-c3 egress 10
+usage c-c1 egress 10
+usage batch c-c3 egress 10 20
+plan set c-c3 team
+coupon add c-c3 pct_all 5
+coupon rm c-c3 1
+credit add c-c3 5
+pay c-c3 5
+pay c-c1 5
+set po c-c3 X1
+set terms c-c3 10
+set name c-c3 Foo
+set region c-c3 ny
+set exempt c-c3 yes
+set note c-c3 hello
+set email c-c3 a@b.c
+set currency c-c3 USD
+customer show c-c3
+coupon list c-c3
+usage list c-c3
+statement c-c3
+statement c-c1
+customer list status=closed
+customer list status=active
+tick 30
+invoice run
+invoice list
+refund INV-0001 5
+customer history c-c3
+report out_customer

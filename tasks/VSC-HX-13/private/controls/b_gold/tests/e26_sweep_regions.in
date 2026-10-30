@@ -1,0 +1,143 @@
+customer add c-ca0 starter ca EUR
+customer add c-ca1 team ca USD
+customer add c-ca2 business ca GBP
+customer add c-ny0 starter ny USD
+customer add c-ny1 team ny GBP
+customer add c-ny2 business ny EUR
+customer add c-tx0 starter tx GBP
+customer add c-tx1 team tx EUR
+customer add c-tx2 business tx USD
+customer add c-wa0 starter wa EUR
+customer add c-wa1 team wa USD
+customer add c-wa2 business wa GBP
+customer add c-de0 starter de USD
+customer add c-de1 team de GBP
+customer add c-de2 business de EUR
+customer add c-fr0 starter fr GBP
+customer add c-fr1 team fr EUR
+customer add c-fr2 business fr USD
+customer add c-es0 starter es EUR
+customer add c-es1 team es USD
+customer add c-es2 business es GBP
+customer add c-uk0 starter uk USD
+customer add c-uk1 team uk GBP
+customer add c-uk2 business uk EUR
+customer add c-jp0 starter jp GBP
+customer add c-jp1 team jp EUR
+customer add c-jp2 business jp USD
+customer add c-on0 starter on EUR
+customer add c-on1 team on USD
+customer add c-on2 business on GBP
+customer add c-ch0 starter ch USD
+customer add c-ch1 team ch GBP
+customer add c-ch2 business ch EUR
+usage c-ca0 egress 47
+usage c-ca0 logs 1000
+usage c-ca1 egress 64
+usage c-ca1 logs 1250
+usage c-ca2 egress 81
+usage c-ca2 logs 1500
+set exempt c-ca1 yes
+usage c-ny0 egress 78
+usage c-ny0 logs 1333
+usage c-ny1 egress 95
+usage c-ny1 logs 1583
+usage c-ny2 egress 112
+usage c-ny2 logs 1833
+usage c-tx0 egress 109
+usage c-tx0 logs 1666
+usage c-tx1 egress 126
+usage c-tx1 logs 1916
+usage c-tx2 egress 143
+usage c-tx2 logs 2166
+set exempt c-tx1 yes
+usage c-wa0 egress 140
+usage c-wa0 logs 1999
+usage c-wa1 egress 157
+usage c-wa1 logs 2249
+usage c-wa2 egress 174
+usage c-wa2 logs 2499
+usage c-de0 egress 171
+usage c-de0 logs 2332
+usage c-de1 egress 188
+usage c-de1 logs 2582
+usage c-de2 egress 205
+usage c-de2 logs 2832
+set exempt c-de1 yes
+usage c-fr0 egress 202
+usage c-fr0 logs 2665
+usage c-fr1 egress 219
+usage c-fr1 logs 2915
+usage c-fr2 egress 236
+usage c-fr2 logs 3165
+usage c-es0 egress 233
+usage c-es0 logs 2998
+usage c-es1 egress 250
+usage c-es1 logs 3248
+usage c-es2 egress 267
+usage c-es2 logs 3498
+set exempt c-es1 yes
+usage c-uk0 egress 264
+usage c-uk0 logs 3331
+usage c-uk1 egress 281
+usage c-uk1 logs 3581
+usage c-uk2 egress 298
+usage c-uk2 logs 3831
+usage c-jp0 egress 295
+usage c-jp0 logs 3664
+usage c-jp1 egress 312
+usage c-jp1 logs 3914
+usage c-jp2 egress 329
+usage c-jp2 logs 4164
+set exempt c-jp1 yes
+usage c-on0 egress 326
+usage c-on0 logs 3997
+usage c-on1 egress 343
+usage c-on1 logs 4247
+usage c-on2 egress 360
+usage c-on2 logs 4497
+usage c-ch0 egress 357
+usage c-ch0 logs 4330
+usage c-ch1 egress 374
+usage c-ch1 logs 4580
+usage c-ch2 egress 391
+usage c-ch2 logs 4830
+set exempt c-ch1 yes
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0003
+invoice show INV-0004
+invoice show INV-0005
+invoice show INV-0006
+invoice show INV-0007
+invoice show INV-0008
+invoice show INV-0009
+invoice show INV-0010
+invoice show INV-0011
+invoice show INV-0012
+invoice show INV-0013
+invoice show INV-0014
+invoice show INV-0015
+invoice show INV-0016
+invoice show INV-0017
+invoice show INV-0018
+invoice show INV-0019
+invoice show INV-0020
+invoice show INV-0021
+invoice show INV-0022
+invoice show INV-0023
+invoice show INV-0024
+invoice show INV-0025
+invoice show INV-0026
+invoice show INV-0027
+invoice show INV-0028
+invoice show INV-0029
+invoice show INV-0030
+invoice show INV-0031
+invoice show INV-0032
+invoice show INV-0033
+report tax_region
+report tax_period
+report rev_region

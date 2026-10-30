@@ -1,0 +1,38 @@
+customer c-x1 added plan=starter region=tx currency=USD since=0
+customer c-x2 added plan=starter region=tx currency=USD since=0
+customer c-x3 added plan=team region=de currency=EUR since=0
+coupon c-x1 #1 fixed_fee
+coupon c-x2 #1 fixed_fee
+coupon c-x3 #1 fixed_fee
+usage c-x1 egress 400 day=0
+usage c-x2 egress 400 day=0
+usage c-x3 storage 150000 day=0
+day 30 period 1
+invoiced INV-0001 c-x1 period=0 lines=2 total=13.60 USD
+invoiced INV-0002 c-x2 period=0 lines=2 total=30.60 USD
+invoiced INV-0003 c-x3 period=0 lines=2 total=15.70 EUR
+invoice run period=0 invoices=3
+invoice INV-0001 c-x1 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage egress 400 GB 12.80
+  discount fixed_fee -19.00
+  subtotal 31.80 discount 19.00 tax 0.80 late 0.00 total 13.60 USD
+  paid 0.00 refunded 0.00 outstanding 13.60
+invoice INV-0002 c-x2 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage egress 400 GB 12.80
+  discount fixed_fee -3.00
+  subtotal 31.80 discount 3.00 tax 1.80 late 0.00 total 30.60 USD
+  paid 0.00 refunded 0.00 outstanding 30.60
+invoice INV-0003 c-x3 period=0 issued=30 due=60 status=open
+  fee plan team days=30 72.68
+  usage storage 150000 GB-h 13.19
+  discount fixed_fee -72.68
+  subtotal 85.87 discount 72.68 tax 2.51 late 0.00 total 15.70 EUR
+  paid 0.00 refunded 0.00 outstanding 15.70
+report disc_region
+  de EUR 72.68
+  tx USD 22.00
+  total EUR 72.68
+  total USD 22.00
+end

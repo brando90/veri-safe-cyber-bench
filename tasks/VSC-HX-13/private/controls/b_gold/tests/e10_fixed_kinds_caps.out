@@ -1,0 +1,55 @@
+customer c-y1 added plan=starter region=ca currency=USD since=0
+customer c-y2 added plan=starter region=ca currency=USD since=0
+customer c-y3 added plan=starter region=ca currency=USD since=0
+customer c-y4 added plan=free region=ca currency=USD since=0
+customer c-y5 added plan=business region=ny currency=USD since=0
+coupon c-y1 #1 fixed_all
+coupon c-y2 #1 fixed_usage
+coupon c-y3 #1 fixed_fee
+coupon c-y4 #1 fixed_fee
+coupon c-y5 #1 fixed_fee
+coupon c-y5 #2 fixed_usage
+usage c-y1 egress 300 day=0
+usage c-y2 egress 300 day=0
+usage c-y3 egress 300 day=0
+usage c-y4 logs 9000 day=0
+usage c-y5 compute 4000 day=0
+day 30 period 1
+invoiced INV-0001 c-y1 period=0 lines=2 total=0.00 USD
+invoiced INV-0002 c-y2 period=0 lines=2 total=20.38 USD
+invoiced INV-0003 c-y3 period=0 lines=2 total=9.44 USD
+invoiced INV-0004 c-y4 period=0 lines=1 total=2.40 USD
+invoiced INV-0005 c-y5 period=0 lines=1 total=53.17 USD
+invoice run period=0 invoices=5
+invoice INV-0001 c-y1 period=0 issued=30 due=60 status=paid
+  fee plan starter days=30 19.00
+  usage egress 300 GB 8.80
+  discount fixed_all -27.80
+  subtotal 27.80 discount 27.80 tax 0.00 late 0.00 total 0.00 USD
+  paid 0.00 refunded 0.00 outstanding 0.00
+invoice INV-0002 c-y2 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage egress 300 GB 8.80
+  discount fixed_usage -8.80
+  subtotal 27.80 discount 8.80 tax 1.38 late 0.00 total 20.38 USD
+  paid 0.00 refunded 0.00 outstanding 20.38
+invoice INV-0003 c-y3 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage egress 300 GB 8.80
+  discount fixed_fee -19.00
+  subtotal 27.80 discount 19.00 tax 0.64 late 0.00 total 9.44 USD
+  paid 0.00 refunded 0.00 outstanding 9.44
+invoice INV-0004 c-y4 period=0 issued=30 due=60 status=open
+  usage logs 9000 MB 2.24
+  subtotal 2.24 discount 0.00 tax 0.16 late 0.00 total 2.40 USD
+  paid 0.00 refunded 0.00 outstanding 2.40
+invoice INV-0005 c-y5 period=0 issued=30 due=60 status=open
+  fee plan business days=30 199.00
+  discount fixed_fee -150.00
+  subtotal 199.00 discount 150.00 tax 4.17 late 0.00 total 53.17 USD
+  paid 0.00 refunded 0.00 outstanding 53.17
+  #1 fixed_fee value=50000 until=- n=0 used=1
+1 coupons
+  #1 fixed_fee value=15000 until=- n=0 used=1
+  #2 fixed_usage value=200 until=- n=0 used=0
+2 coupons

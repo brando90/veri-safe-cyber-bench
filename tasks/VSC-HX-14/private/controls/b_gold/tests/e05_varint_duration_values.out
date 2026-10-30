@@ -1,0 +1,26 @@
+added a ref=1
+added b ref=2
+added c ref=3
+event a ref=1
+  title Short
+  start 2024-03-04T10:00
+  dur 2m8s tz +00:00 prio 5
+  rule -
+  cats -
+event b ref=2
+  title Afternoon
+  start 2024-03-04T11:00
+  dur 4h34m tz +00:00 prio 5
+  rule -
+  cats -
+event c ref=3
+  title Long
+  start 2024-03-05T11:00
+  dur 24d7h tz +00:00 prio 5
+  rule -
+  cats -
+pack 5847 0316e101610194b502d8048001000005000553686f7274001be101620294b5029405b88001000005000941667465726e6f6f6e0017e101630396b5029405f08c800100000500044c6f6e6700
+E|a|1|Short|2024-03-04T10:00|1709546400|2m8s||+00:00||5||
+E|b|2|Afternoon|2024-03-04T11:00|1709550000|4h34m||+00:00||5||
+E|c|3|Long|2024-03-05T11:00|1709636400|24d7h||+00:00||5||
+# 3 events

@@ -1,0 +1,10 @@
+error: bad record 'far'
+0 events
+imported 1 events
+event ok ref=7
+  title Fine
+  start 2024-01-01T10:00
+  dur 1h tz +14:00 prio 5
+  rule -
+  cats -
+check ok (1 events)

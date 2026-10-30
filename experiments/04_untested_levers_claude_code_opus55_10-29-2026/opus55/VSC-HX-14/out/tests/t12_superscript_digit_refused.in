@@ -1,0 +1,4 @@
+event add a "Desk" 2024-01-01T10:00 prio=²
+agenda 2024-01-01 2024-01-02 n=²
+event add b "Desk" 2024-01-01T10:00 prio=7
+agenda 2024-01-01 2024-01-02 n=1

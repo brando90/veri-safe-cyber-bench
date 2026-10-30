@@ -1,0 +1,93 @@
+customer c-t added plan=free region=tx currency=USD since=0
+quote c-t storage plan=free
+  units=102000 allowance=2000 billable=100000 blocks=100
+  blocks 1-100 x 12
+  charge 12.00 USD
+quote c-t storage plan=free
+  units=102001 allowance=2000 billable=100001 blocks=101
+  blocks 1-100 x 12
+  blocks 101-101 x 9
+  charge 12.09 USD
+quote c-t storage plan=free
+  units=402000 allowance=2000 billable=400000 blocks=400
+  blocks 1-100 x 12
+  blocks 101-400 x 9
+  charge 39.00 USD
+quote c-t storage plan=free
+  units=402001 allowance=2000 billable=400001 blocks=401
+  blocks 1-100 x 12
+  blocks 101-400 x 9
+  blocks 401-401 x 6
+  charge 39.06 USD
+quote c-t egress plan=free
+  units=520 allowance=20 billable=500 blocks=50
+  blocks 1-50 x 40
+  charge 20.00 USD
+quote c-t egress plan=free
+  units=521 allowance=20 billable=501 blocks=51
+  blocks 1-50 x 40
+  blocks 51-51 x 32
+  charge 20.32 USD
+quote c-t egress plan=free
+  units=2020 allowance=20 billable=2000 blocks=200
+  blocks 1-50 x 40
+  blocks 51-200 x 32
+  charge 68.00 USD
+quote c-t egress plan=free
+  units=2021 allowance=20 billable=2001 blocks=201
+  blocks 1-50 x 40
+  blocks 51-200 x 32
+  blocks 201-201 x 25
+  charge 68.25 USD
+quote c-t compute plan=free
+  units=1320 allowance=120 billable=1200 blocks=20
+  blocks 1-20 x 95
+  charge 19.00 USD
+quote c-t compute plan=free
+  units=1321 allowance=120 billable=1201 blocks=21
+  blocks 1-20 x 95
+  blocks 21-21 x 80
+  charge 19.80 USD
+quote c-t compute plan=free
+  units=1 allowance=120 billable=0 blocks=0
+  charge 0.00 USD
+quote c-t compute plan=free
+  units=121 allowance=120 billable=1 blocks=1
+  blocks 1-1 x 95
+  charge 0.95 USD
+quote c-t dns plan=free
+  units=100 allowance=0 billable=100 blocks=1
+  blocks 1-1 x 4
+  charge 1.00 USD
+quote c-t dns plan=free
+  units=10100 allowance=0 billable=10100 blocks=101
+  blocks 1-101 x 4
+  charge 4.04 USD
+quote c-t cache plan=free
+  units=257 allowance=256 billable=1 blocks=1
+  blocks 1-1 x 11
+  charge 0.50 USD
+quote c-t cache plan=free
+  units=4000 allowance=256 billable=3744 blocks=30
+  blocks 1-30 x 11
+  charge 3.30 USD
+customer c-t2 added plan=team region=tx currency=USD since=0
+quote c-t2 storage plan=team
+  units=124000 allowance=24000 billable=100000 blocks=100
+  blocks 1-100 x 12
+  charge 12.00 USD
+quote c-t2 storage plan=team
+  units=124001 allowance=24000 billable=100001 blocks=101
+  blocks 1-100 x 12
+  blocks 101-101 x 9
+  charge 12.09 USD
+usage c-t backup 30500 day=0
+usage c-t backup 130500 day=0
+day 30 period 1
+invoiced INV-0001 c-t period=0 lines=1 total=45.16 USD
+invoiced INV-0002 c-t2 period=0 lines=1 total=83.94 USD
+invoice run period=0 invoices=2
+invoice INV-0001 c-t period=0 issued=30 due=60 status=open
+  usage backup 161000 GB-h 42.50
+  subtotal 42.50 discount 0.00 tax 2.66 late 0.00 total 45.16 USD
+  paid 0.00 refunded 0.00 outstanding 45.16

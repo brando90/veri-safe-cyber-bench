@@ -1,0 +1,20 @@
+customer add c-pc1 free tx USD
+customer add c-pc2 starter tx USD
+customer add c-pc3 team tx USD
+plan set c-pc1 business
+tick 29
+plan set c-pc2 enterprise
+tick 1
+plan set c-pc3 business
+tick 30
+plan set c-pc1 free
+plan set c-pc1 enterprise
+tick 30
+invoice run 0
+invoice run 1
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0003
+invoice show INV-0004
+invoice show INV-0005
+invoice show INV-0006

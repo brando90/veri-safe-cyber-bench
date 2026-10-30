@@ -1,0 +1,24 @@
+2024-03-04T10:30 given 2024-03-04T10:30:00
+2024-03-04T10:30 given 2024-03-04T10:30:29
+2024-03-04T10:31 given 2024-03-04T10:30:30
+2024-03-04T11:00 given 2024-03-04T10:59:30
+2024-03-04T12:00 given 2024-03-04T11:59:45
+2024-03-04T00:01 given 2024-03-04T00:00:59
+error: bad start '2024-03-04T12:00:60'
+error: bad start '2024-02-30T10:00'
+error: bad start '2024-03-04T24:00'
+9999-12-31T23:59 given 9999-12-31T23:59:29
+added q1 ref=1
+event q1 ref=1
+  title Seconds
+  start 2024-03-04T10:31 (given 2024-03-04T10:30:45)
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats -
+added q2 ref=2
+event q2 ref=2
+  title "Seconds all"
+  start 2024-03-04T13:00 (given 2024-03-04T12:59:30)
+  dur 1h tz +01:00 prio 5
+  rule -
+  cats -

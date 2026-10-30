@@ -1,0 +1,59 @@
+customer c-rf added plan=starter region=de currency=EUR since=0
+customer c-rf2 added plan=starter region=ca currency=USD since=0
+usage c-rf egress 400 day=0
+usage c-rf2 egress 400 day=0
+day 30 period 1
+invoiced INV-0001 c-rf period=0 lines=2 total=34.82 EUR
+invoiced INV-0002 c-rf2 period=0 lines=2 total=34.11 USD
+invoice run period=0 invoices=2
+  applied INV-0001 34.82
+payment c-rf 40.00 applied=34.82 credit=5.18
+  applied INV-0002 10.00
+payment c-rf2 10.00 applied=10.00 credit=0.00
+refund INV-0001 5.25 net_paid=29.57 outstanding=5.25
+statement c-rf EUR
+  INV-0001 p0 total=34.82 paid=34.82 refunded=5.25 outstanding=5.25
+  owed=5.25 credit=5.18
+error: refund exceeds the net payments on INV-0001
+error: refund exceeds the net payments on INV-0002
+error: invalid amount 'abc'
+error: unknown invoice INV-0009
+error: invalid amount '0'
+invoice INV-0001 c-rf period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  usage egress 400 GB 11.78
+  subtotal 29.26 discount 0.00 tax 5.56 late 0.00 total 34.82 EUR
+  paid 34.82 refunded 5.25 outstanding 5.25
+  applied INV-0001 5.25
+payment c-rf 100.00 applied=5.25 credit=99.93
+refund INV-0001 20.00 net_paid=14.82 outstanding=20.00
+  applied INV-0002 3.77
+payment c-rf2 3.77 applied=3.77 credit=0.00
+error: customer c-rf2 still has unpaid invoices
+refund INV-0002 3.00 net_paid=10.77 outstanding=23.34
+refund INV-0002 7.00 net_paid=3.77 outstanding=30.34
+error: customer c-rf2 still has unpaid invoices
+statement c-rf2 USD
+  INV-0002 p0 total=34.11 paid=13.77 refunded=10.00 outstanding=30.34
+  owed=30.34 credit=0.00
+report out_customer
+  c-rf EUR 20.00
+  c-rf2 USD 30.34
+  total EUR 20.00
+  total USD 30.34
+end
+day 70 period 2
+late INV-0001 fee=1.80
+late INV-0002 fee=2.00
+dun applied=2
+invoice INV-0002 c-rf2 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  usage egress 400 GB 12.80
+  late late fee day=70 2.00
+  subtotal 31.80 discount 0.00 tax 2.31 late 2.00 total 36.11 USD
+  paid 13.77 refunded 10.00 outstanding 32.34
+6 day=30 refund c-rf INV-0001 5.25
+9 day=30 refund c-rf INV-0001 20.00
+11 day=30 refund c-rf2 INV-0002 3.00
+12 day=30 refund c-rf2 INV-0002 7.00
+4 entries

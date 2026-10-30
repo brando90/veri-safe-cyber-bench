@@ -1,0 +1,1 @@
+control h_minority_pct

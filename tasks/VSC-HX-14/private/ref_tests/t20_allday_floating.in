@@ -1,0 +1,11 @@
+event add h1 "Holiday" 2024-12-24 allday=yes tz=-08:00 rule=yearly
+event add h2 "Offsite" 2024-03-04 allday=yes dur=3d tz=+13:00 prio=7
+event show h1
+agenda 2024-03-03 2024-03-05
+busy 2024-03-03 2024-03-08
+expand h1 2024-01-01 2026-12-31
+event add h3 "Bad" 2024-03-04T10:00 allday=yes
+event add h4 "Bad" 2024-03-04 allday=maybe
+event move h2 2024-03-05T10:00
+event move h2 2024-03-06
+list

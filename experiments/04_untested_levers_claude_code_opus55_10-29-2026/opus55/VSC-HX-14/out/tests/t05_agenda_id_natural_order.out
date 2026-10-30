@@ -1,0 +1,9 @@
+added room1b10 ref=1
+added room1b2 ref=2
+added room1b02 ref=3
+added room1b1x ref=4
+2024-05-02T09:00Z room1b1x prio=5 "One" 1h
+2024-05-02T09:00Z room1b2 prio=5 "Two" 1h
+2024-05-02T09:00Z room1b02 prio=5 "Two again" 1h
+2024-05-02T09:00Z room1b10 prio=5 "Ten" 1h
+check ok (4 events)

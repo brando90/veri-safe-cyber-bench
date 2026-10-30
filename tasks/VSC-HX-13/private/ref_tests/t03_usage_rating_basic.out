@@ -1,0 +1,130 @@
+customer c-rate added plan=free region=tx currency=USD since=0
+customer c-rate2 added plan=free region=tx currency=USD since=0
+customer c-rate3 added plan=enterprise region=tx currency=USD since=0
+usage c-rate storage 132003 day=0
+usage c-rate egress 1323 day=0
+usage c-rate compute 7923 day=0
+usage c-rate requests 135003 day=0
+usage c-rate voice 653 day=0
+usage c-rate email 66003 day=0
+usage c-rate logs 33503 day=0
+usage c-rate backup 65503 day=0
+usage c-rate cdn 663 day=0
+usage c-rate dns 13003 day=0
+usage c-rate search 2643 day=0
+usage c-rate cache 16899 day=0
+usage c-rate vault 1313 day=0
+usage c-rate metrics 13203 day=0
+usage c-rate ocr 1303 day=0
+usage c-rate geocode 32753 day=0
+usage c-rate2 storage 9001 day=0
+usage c-rate2 egress 91 day=0
+usage c-rate2 compute 541 day=0
+usage c-rate2 requests 12001 day=0
+usage c-rate2 voice 36 day=0
+usage c-rate2 email 4501 day=0
+usage c-rate2 logs 2751 day=0
+usage c-rate2 backup 4001 day=0
+usage c-rate2 cdn 46 day=0
+usage c-rate2 dns 701 day=0
+usage c-rate2 search 181 day=0
+usage c-rate2 cache 1153 day=0
+usage c-rate2 vault 81 day=0
+usage c-rate2 metrics 901 day=0
+usage c-rate2 ocr 71 day=0
+usage c-rate2 geocode 2001 day=0
+usage c-rate3 storage 402005 day=0
+usage c-rate3 egress 4025 day=0
+usage c-rate3 compute 24125 day=0
+usage c-rate3 requests 405005 day=0
+usage c-rate3 voice 2005 day=0
+usage c-rate3 email 201005 day=0
+usage c-rate3 logs 101005 day=0
+usage c-rate3 backup 200505 day=0
+usage c-rate3 cdn 2015 day=0
+usage c-rate3 dns 40005 day=0
+usage c-rate3 search 8045 day=0
+usage c-rate3 cache 51461 day=0
+usage c-rate3 vault 4015 day=0
+usage c-rate3 metrics 40205 day=0
+usage c-rate3 ocr 4005 day=0
+usage c-rate3 geocode 100255 day=0
+day 30 period 1
+invoiced INV-0001 c-rate period=0 lines=16 total=714.56 USD
+invoiced INV-0002 c-rate2 period=0 lines=16 total=45.77 USD
+invoiced INV-0003 c-rate3 period=0 lines=15 total=1859.66 USD
+invoice run period=0 invoices=3
+invoice INV-0001 c-rate period=0 issued=30 due=60 status=open
+  usage backup 65503 GB-h 20.74
+  usage cache 16899 MB-h 14.41
+  usage cdn 663 GB 27.27
+  usage compute 7923 CPU-min 107.80
+  usage dns 13003 kq 5.24
+  usage egress 1323 GB 45.92
+  usage email 66003 msg 30.42
+  usage geocode 32753 lookup 24.70
+  usage logs 33503 MB 9.17
+  usage metrics 13203 series 19.84
+  usage ocr 1303 page 156.00
+  usage requests 135003 req 19.65
+  usage search 2643 kdoc 39.48
+  usage storage 132003 GB-h 14.79
+  usage vault 1313 secret 78.60
+  usage voice 653 min 58.50
+  subtotal 672.53 discount 0.00 tax 42.03 late 0.00 total 714.56 USD
+  paid 0.00 refunded 0.00 outstanding 714.56
+invoice INV-0002 c-rate2 period=0 issued=30 due=60 status=open
+  usage backup 4001 GB-h 1.44
+  usage cache 1153 MB-h 0.88
+  usage cdn 46 GB 1.76
+  usage compute 541 CPU-min 7.60
+  usage dns 701 kq 1.00
+  usage egress 91 GB 3.20
+  usage email 4501 msg 2.40
+  usage geocode 2001 lookup 1.33
+  usage logs 2751 MB 0.56
+  usage metrics 901 series 1.60
+  usage ocr 71 page 8.40
+  usage requests 12001 req 1.20
+  usage search 181 kdoc 2.80
+  usage storage 9001 GB-h 0.96
+  usage vault 81 secret 4.80
+  usage voice 36 min 3.15
+  subtotal 43.08 discount 0.00 tax 2.69 late 0.00 total 45.77 USD
+  paid 0.00 refunded 0.00 outstanding 45.77
+invoice INV-0003 c-rate3 period=0 issued=30 due=60 status=open
+  fee plan enterprise days=30 599.00
+  usage backup 200505 GB-h 35.60
+  usage cache 51461 MB-h 11.33
+  usage cdn 2015 GB 22.51
+  usage compute 24125 CPU-min 85.40
+  usage dns 40005 kq 16.04
+  usage egress 4025 GB 36.96
+  usage email 201005 msg 24.26
+  usage geocode 100255 lookup 47.69
+  usage metrics 40205 series 15.92
+  usage ocr 4005 page 480.00
+  usage search 8045 kdoc 31.64
+  usage storage 402005 GB-h 12.27
+  usage vault 4015 secret 151.20
+  usage voice 2005 min 180.45
+  subtotal 1750.27 discount 0.00 tax 109.39 late 0.00 total 1859.66 USD
+  paid 0.00 refunded 0.00 outstanding 1859.66
+usage summary c-rate period 0 days 0-29
+  backup 65503 GB-h
+  cache 16899 MB-h
+  cdn 663 GB
+  compute 7923 CPU-min
+  dns 13003 kq
+  egress 1323 GB
+  email 66003 msg
+  geocode 32753 lookup
+  logs 33503 MB
+  metrics 13203 series
+  ocr 1303 page
+  requests 135003 req
+  search 2643 kdoc
+  storage 132003 GB-h
+  vault 1313 secret
+  voice 653 min
+16 records

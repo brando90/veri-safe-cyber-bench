@@ -1,0 +1,9 @@
+event add a "Millennium leap day" 2000-02-29T10:00 rule=yearly;count=3
+event show a
+expand a 2000-01-01 2009-12-31
+date 11016
+ordinal 2000-02-29
+weekday 2000-02-29
+shift 2000-02-29 1 month
+shift 2000-02-28 1 day
+snap 2000-02-28T23:59:30

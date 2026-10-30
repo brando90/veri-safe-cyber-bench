@@ -1,0 +1,23 @@
+customer north added plan=team region=ca currency=USD since=0
+customer south added plan=starter region=tx currency=USD since=0
+day 30 period 1
+invoiced INV-0001 north period=0 lines=1 total=84.73 USD
+invoiced INV-0002 south period=0 lines=1 total=20.19 USD
+invoice run period=0 invoices=2
+report tax_region
+  ca USD 5.73
+  tx USD 1.19
+  total USD 6.92
+end
+void INV-0002
+INV-0001 north p0 total=84.73 outstanding=84.73 open
+INV-0002 south p0 total=20.19 outstanding=20.19 void
+2 invoices
+report tax_region
+  ca USD 5.73
+  total USD 5.73
+end
+report tax_period
+  p00 USD 5.73
+  total USD 5.73
+end

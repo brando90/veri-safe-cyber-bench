@@ -1,0 +1,10 @@
+event add mv "Every day" 2024-03-04T10:00 rule=daily
+skip mv 2024-03-10
+skip mv 2024-03-12
+event move mv 2024-03-06T08:30
+event show mv
+event add mw "Weekly" 2024-03-18T10:00 rule=weekly
+skip mw 2024-03-25
+event move mw 2024-03-11T09:00
+event show mw
+expand mw 2024-03-01 2024-04-30

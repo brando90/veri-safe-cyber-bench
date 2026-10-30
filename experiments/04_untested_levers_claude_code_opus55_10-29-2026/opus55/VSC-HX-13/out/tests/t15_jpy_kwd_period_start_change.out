@@ -1,0 +1,35 @@
+customer tokyo added plan=team region=jp currency=JPY since=0
+customer kuwait added plan=starter region=uk currency=KWD since=0
+usage tokyo voice 23 day=0
+usage tokyo storage 30500 day=0
+usage kuwait geocode 1499 day=0
+day 30 period 1
+customer kuwait plan starter -> business days=30
+invoiced INV-0001 kuwait period=0 lines=2 total=7.139 KWD
+invoiced INV-0002 tokyo period=0 lines=3 total=12286 JPY
+invoice run period=0 invoices=2
+day 60 period 2
+invoiced INV-0003 kuwait period=1 lines=2 total=74.028 KWD
+invoiced INV-0004 tokyo period=1 lines=1 total=11850 JPY
+invoice run period=1 invoices=2
+invoice INV-0001 kuwait period=0 issued=30 due=60 status=open
+  fee plan starter days=30 5.890
+  usage geocode 1499 lookup 0.059
+  subtotal 5.949 discount 0.000 tax 1.190 late 0.000 total 7.139 KWD
+  paid 0.000 refunded 0.000 outstanding 7.139
+invoice INV-0002 tokyo period=0 issued=30 due=60 status=open
+  fee plan team days=30 11850
+  usage storage 30500 GB-h 126
+  usage voice 23 min 270
+  subtotal 12246 discount 0 tax 40 late 0 total 12286 JPY
+  paid 0 refunded 0 outstanding 12286
+invoice INV-0004 tokyo period=1 issued=60 due=90 status=open
+  fee plan team days=30 11850
+  subtotal 11850 discount 0 tax 0 late 0 total 11850 JPY
+  paid 0 refunded 0 outstanding 11850
+  applied INV-0001 7.139
+  applied INV-0003 74.028
+payment kuwait 200.000 applied=81.167 credit=118.833
+day 61 period 2
+late INV-0002 fee=300
+dun applied=1

@@ -1,0 +1,31 @@
+added s1 ref=1
+skipped s1 on 2024-03-05
+skipped s1 on 2024-03-08
+skipped s1 on 2024-03-06
+error: 2024-03-20 is not an occurrence of s1
+error: 2024-03-05 is already skipped for s1
+event s1 ref=1
+  title Series
+  start 2024-03-04T10:00
+  dur 1h tz +00:00 prio 5
+  rule daily;count=10
+  cats -
+  skips 2024-03-05,2024-03-06,2024-03-08
+rule of s1 is weekly;on=MO,TU;count=6
+event s1 ref=1
+  title Series
+  start 2024-03-04T10:00
+  dur 1h tz +00:00 prio 5
+  rule weekly;on=MO,TU;count=6
+  cats -
+  skips 2024-03-05
+rule of s1 is -
+event s1 ref=1
+  title Series
+  start 2024-03-04T10:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats -
+error: event s1 does not recur
+error: 2024-03-04 is not skipped for s1
+error: 2024-03-04 is not skipped for s1

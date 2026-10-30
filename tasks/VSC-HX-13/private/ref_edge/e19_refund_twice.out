@@ -1,0 +1,17 @@
+customer c-r1 added plan=starter region=de currency=EUR since=0
+usage c-r1 egress 400 day=0
+day 30 period 1
+invoiced INV-0001 c-r1 period=0 lines=2 total=34.82 EUR
+invoice run period=0 invoices=1
+  applied INV-0001 30.00
+payment c-r1 30.00 applied=30.00 credit=0.00
+refund INV-0001 20.00 net_paid=10.00 outstanding=24.82
+error: refund exceeds the net payments on INV-0001
+statement c-r1 EUR
+  INV-0001 p0 total=34.82 paid=30.00 refunded=20.00 outstanding=24.82
+  owed=24.82 credit=0.00
+invoice INV-0001 c-r1 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  usage egress 400 GB 11.78
+  subtotal 29.26 discount 0.00 tax 5.56 late 0.00 total 34.82 EUR
+  paid 30.00 refunded 20.00 outstanding 24.82

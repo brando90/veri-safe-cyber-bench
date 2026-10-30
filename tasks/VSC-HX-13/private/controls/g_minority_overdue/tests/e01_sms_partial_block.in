@@ -1,0 +1,10 @@
+customer add c-s1 free tx USD
+customer add c-s2 starter ca USD
+quote c-s1 sms 101
+quote c-s1 sms 175
+quote c-s1 sms 200
+quote c-s1 sms 250
+quote c-s1 sms 299
+quote c-s2 sms 401
+quote c-s2 sms 880
+advise c-s2 sms 450

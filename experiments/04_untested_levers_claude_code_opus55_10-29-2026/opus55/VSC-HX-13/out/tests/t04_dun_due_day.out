@@ -1,0 +1,18 @@
+customer late added plan=starter region=de currency=EUR since=0
+day 30 period 1
+invoiced INV-0001 late period=0 lines=1 total=20.80 EUR
+invoice run period=0 invoices=1
+day 60 period 2
+dun applied=0
+report aging
+  current EUR 20.80
+  total EUR 20.80
+end
+day 61 period 2
+late INV-0001 fee=1.80
+dun applied=1
+invoice INV-0001 late period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  late late fee day=61 1.80
+  subtotal 17.48 discount 0.00 tax 3.32 late 1.80 total 22.60 EUR
+  paid 0.00 refunded 0.00 outstanding 22.60

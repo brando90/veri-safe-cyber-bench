@@ -1,0 +1,62 @@
+customer c-alpha added plan=team region=de currency=EUR since=0
+customer c-beta added plan=free region=ca currency=USD since=0
+customer c-gamma added plan=starter region=jp currency=JPY since=0
+customer c-alpha po PO 4411
+customer c-alpha email ops@alpha.example
+customer c-alpha phone +49 (30) 555-12
+customer c-alpha terms 45
+customer c-beta note first, trial
+customer c-beta note -
+customer c-alpha po -
+customer c-beta name "Beta Ltd"
+customer c-beta region ny
+customer c-beta currency EUR
+customer c-beta currency KWD
+customer c-gamma exempt yes
+customer c-gamma exempt unchanged
+customer c-alpha name="Alpha Works" plan=team region=de currency=EUR status=active
+  since=0 terms=45 exempt=no credit=0.00
+  po=- email=ops@alpha.example phone=+49 (30) 555-12 note=-
+  coupons=0 plan_changes=0
+customer c-beta name="Beta Ltd" plan=free region=ny currency=KWD status=active
+  since=0 terms=30 exempt=no credit=0.000
+  po=- email=- phone=- note=-
+  coupons=0 plan_changes=0
+customer c-gamma name=c-gamma plan=starter region=jp currency=JPY status=active
+  since=0 terms=30 exempt=yes credit=0
+  po=- email=- phone=- note=-
+  coupons=0 plan_changes=0
+c-alpha team de EUR active credit=0.00
+c-beta free ny KWD active credit=0.000
+c-gamma starter jp JPY active credit=0
+3 customers
+c-alpha team de EUR active credit=0.00
+1 customers
+c-gamma starter jp JPY active credit=0
+1 customers
+0 customers
+  day 0 plan team
+1 plan entries
+error: invalid number '0'
+error: invalid value 'nobody'
+error: unknown currency 'XXX'
+error: unknown region 'atlantis'
+error: invalid value 'abc'
+error: unknown customer c-nobody
+error: invalid customer id 'Bad_Id'
+1 day=0 customer add c-alpha team de EUR
+2 day=0 customer add c-beta free ca USD
+3 day=0 customer add c-gamma starter jp JPY
+4 day=0 set po c-alpha  PO 4411
+5 day=0 set email c-alpha  ops@alpha.example
+6 day=0 set phone c-alpha  +49 (30) 555-12
+7 day=0 set terms c-alpha 30 45
+8 day=0 set note c-beta  first, trial
+9 day=0 set note c-beta first, trial
+10 day=0 set po c-alpha PO 4411
+11 day=0 set name c-beta c-beta Beta Ltd
+12 day=0 set region c-beta ca ny
+13 day=0 set currency c-beta USD EUR
+14 day=0 set currency c-beta EUR KWD
+15 day=0 set exempt c-gamma False True
+15 of 15 entries

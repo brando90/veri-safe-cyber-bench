@@ -1,0 +1,29 @@
+customer add c-ord starter tx USD
+customer add c-tie starter tx USD
+usage c-ord egress 400
+usage c-tie egress 400
+set terms c-ord 90
+set terms c-tie 60
+tick 31
+invoice run
+usage c-ord egress 400
+usage c-tie egress 400
+set terms c-ord 20
+set terms c-tie 30
+tick 30
+invoice run
+usage c-ord egress 400
+set terms c-ord 5
+tick 30
+invoice run
+invoice list
+pay c-ord 50
+statement c-ord
+pay c-ord 40
+statement c-ord
+pay c-tie 40
+statement c-tie
+pay c-tie 5
+statement c-tie
+pay c-ord 500
+statement c-ord

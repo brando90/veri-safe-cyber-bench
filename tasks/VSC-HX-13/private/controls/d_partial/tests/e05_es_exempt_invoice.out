@@ -1,0 +1,13 @@
+customer c-es added plan=starter region=es currency=EUR since=0
+customer c-es exempt yes
+usage c-es egress 300 day=0
+usage c-es logs 5000 day=0
+day 30 period 1
+invoiced INV-0001 c-es period=0 lines=3 total=25.84 EUR
+invoice run period=0 invoices=1
+invoice INV-0001 c-es period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  usage egress 300 GB 8.10
+  usage logs 5000 MB 0.26
+  subtotal 25.84 discount 0.00 tax 0.00 late 0.00 total 25.84 EUR
+  paid 0.00 refunded 0.00 outstanding 25.84

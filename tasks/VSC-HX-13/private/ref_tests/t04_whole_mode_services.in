@@ -1,0 +1,21 @@
+customer add c-w free tx USD
+customer add c-w2 starter tx USD
+usage c-w voice 23
+usage c-w ocr 95
+usage c-w geocode 850
+usage c-w voice 2
+usage c-w2 voice 4
+usage c-w2 ocr 9
+usage c-w2 geocode 1000 day=0
+usage c-w2 geocode 1000 day=0
+quote c-w voice 23
+quote c-w ocr 95
+quote c-w geocode 850
+quote c-w voice 4
+quote c-w2 geocode 4000
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+service show voice
+service show geocode

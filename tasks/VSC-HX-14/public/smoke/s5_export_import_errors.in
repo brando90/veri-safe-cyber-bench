@@ -1,0 +1,10 @@
+event add x1 "Export me" 2024-07-01T08:00 dur=30m cat=a,b prio=3
+export text
+export pack
+import rec "E|x2|2|Imported|2024-07-02T08:00|1719907200|1h||+00:00||5||"
+list
+event show nosuch
+event add x1 "Again" 2024-07-03T08:00
+skip x2 2024-07-02
+expand x1 2024-07-05 2024-07-01
+check

@@ -1,0 +1,24 @@
+customer c-f1 added plan=starter region=fr currency=EUR since=0
+customer c-f2 added plan=starter region=fr currency=EUR since=0
+customer c-f3 added plan=team region=fr currency=USD since=0
+usage c-f2 egress 300 day=0
+usage c-f3 requests 90000 day=0
+day 30 period 1
+invoiced INV-0001 c-f1 period=0 lines=1 total=20.98 EUR
+invoiced INV-0002 c-f2 period=0 lines=2 total=30.70 EUR
+invoiced INV-0003 c-f3 period=0 lines=2 total=100.20 USD
+invoice run period=0 invoices=3
+invoice INV-0001 c-f1 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  subtotal 17.48 discount 0.00 tax 3.50 late 0.00 total 20.98 EUR
+  paid 0.00 refunded 0.00 outstanding 20.98
+invoice INV-0002 c-f2 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  usage egress 300 GB 8.10
+  subtotal 25.58 discount 0.00 tax 5.12 late 0.00 total 30.70 EUR
+  paid 0.00 refunded 0.00 outstanding 30.70
+invoice INV-0003 c-f3 period=0 issued=30 due=60 status=open
+  fee plan team days=30 79.00
+  usage requests 90000 req 4.50
+  subtotal 83.50 discount 0.00 tax 16.70 late 0.00 total 100.20 USD
+  paid 0.00 refunded 0.00 outstanding 100.20

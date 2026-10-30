@@ -1,0 +1,15 @@
+added a1 ref=1
+added a2 ref=2
+added a3 ref=3
+added a4 ref=4
+2024-05-06T07:30Z a2 prio=8 "Customer call" 1h
+2024-05-06T09:00Z a1 prio=5 "Design sync" 1h
+2024-05-06T10:00Z a3 prio=5 "Planning" 30m
+2024-05-07T20:00Z a4 prio=5 "Demo" 1h
+2024-05-06T07:30Z 2024-05-06T08:30Z 1h
+2024-05-06T09:00Z 2024-05-06T10:30Z 1h30m
+2024-05-07T20:00Z 2024-05-07T21:00Z 1h
+busy 3h30m in 3 spans
+2024-05-06T07:30Z a2 prio=8 "Customer call" 1h
+2024-05-06T09:00Z a1 prio=5 "Design sync" 1h
+... 2 more

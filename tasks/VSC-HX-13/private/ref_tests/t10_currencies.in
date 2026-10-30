@@ -1,0 +1,43 @@
+customer add c-eur starter de EUR
+customer add c-usd starter de USD
+customer add c-gbp starter de GBP
+customer add c-jpy starter de JPY
+customer add c-kwd starter de KWD
+customer add c-cad starter de CAD
+customer add c-inr starter de INR
+usage c-eur egress 333
+usage c-eur logs 7777
+usage c-usd egress 333
+usage c-usd logs 7777
+usage c-gbp egress 333
+usage c-gbp logs 7777
+usage c-jpy egress 333
+usage c-jpy logs 7777
+usage c-kwd egress 333
+usage c-kwd logs 7777
+usage c-cad egress 333
+usage c-cad logs 7777
+usage c-inr egress 333
+usage c-inr logs 7777
+tick 30
+invoice run
+invoice show INV-0001
+invoice show INV-0002
+invoice show INV-0003
+invoice show INV-0004
+invoice show INV-0005
+invoice show INV-0006
+invoice show INV-0007
+pay c-jpy 1000
+pay c-kwd 1.250
+pay c-jpy 10.5
+pay c-kwd 1.2345
+pay c-inr 100
+pay c-eur 0.01
+pay c-usd 12
+credit add c-gbp 5.55
+credit add c-jpy 77
+statement c-jpy
+statement c-kwd
+ledger
+currency list

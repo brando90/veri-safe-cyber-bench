@@ -1,0 +1,20 @@
+customer acme added plan=starter region=ca currency=USD since=0
+day 30 period 1
+invoiced INV-0001 acme period=0 lines=1 total=20.38 USD
+invoice run period=0 invoices=1
+  applied INV-0001 20.38
+payment acme 20.38 applied=20.38 credit=0.00
+refund INV-0001 15.00 net_paid=5.38 outstanding=15.00
+error: refund exceeds the net payments on INV-0001
+refund INV-0001 5.38 net_paid=0.00 outstanding=20.38
+invoice INV-0001 acme period=0 issued=30 due=60 status=open
+  fee plan starter days=30 19.00
+  subtotal 19.00 discount 0.00 tax 1.38 late 0.00 total 20.38 USD
+  paid 20.38 refunded 20.38 outstanding 20.38
+void INV-0001
+1 day=30 invoice acme INV-0001 20.38
+2 day=30 payment acme INV-0001 20.38
+3 day=30 refund acme INV-0001 15.00
+4 day=30 refund acme INV-0001 5.38
+5 day=30 void acme INV-0001 20.38
+5 entries

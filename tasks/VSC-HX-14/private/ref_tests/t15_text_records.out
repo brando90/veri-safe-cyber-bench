@@ -1,0 +1,25 @@
+added r1 ref=1
+skipped r1 on 2024-03-07
+E|r1|1|First|2024-03-04T10:00|1709546400|1h30m|weekly;on=MO,TH|+05:30||7|a,b|2024-03-07
+# 1 events
+imported 1 events
+imported 1 events
+error: bad record 'r4'
+error: bad record 'r1'
+error: bad record 'garbage'
+E|r1|1|First|2024-03-04T10:00|1709546400|1h30m|weekly;on=MO,TH|+05:30||7|a,b|2024-03-07
+E|r2|40|Second|2024-04-01T09:00|1711962000|1h||+00:00||5||
+E|r3|41|Third \p pipe|2024-04-02T00:00|1712016000|1d||+00:00|allday|5|x\\,y,z|
+# 3 events
+event r3 ref=19
+  title "Third | pipe"
+  start 2024-04-02
+  dur 1d tz +00:00 prio 5 allday
+  rule -
+  cats x\,y,z
+added E1A ref=1A
+1 r1 2024-03-04T10:00 First rule=weekly;on=MO,TH
+18 r2 2024-04-01T09:00 Second
+19 r3 2024-04-02 "Third | pipe"
+1A E1A 2024-04-05T10:00 "after import"
+4 events

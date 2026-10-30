@@ -1,0 +1,9 @@
+# sms bills a partial block as a whole block (mode ceil)
+customer add texter free ca USD
+service show sms
+quote texter sms 150
+quote texter sms 1250
+usage texter sms 1250
+tick 30
+invoice run
+invoice show INV-0001

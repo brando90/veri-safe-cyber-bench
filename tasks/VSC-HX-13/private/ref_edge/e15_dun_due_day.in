@@ -1,0 +1,14 @@
+customer add c-d1 starter de EUR
+customer add c-d2 starter de EUR
+set terms c-d2 10
+usage c-d1 egress 400
+usage c-d2 egress 400
+tick 30
+invoice run
+tick 10
+dun
+invoice show INV-0002
+tick 20
+dun
+invoice show INV-0001
+invoice show INV-0002

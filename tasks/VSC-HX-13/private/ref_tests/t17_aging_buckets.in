@@ -1,0 +1,36 @@
+customer add c-g0 starter tx USD
+customer add c-g1 starter tx USD
+customer add c-g2 starter tx USD
+customer add c-g3 starter tx USD
+customer add c-g4 starter tx USD
+customer add c-g5 starter tx USD
+customer add c-g6 starter tx USD
+customer add c-g7 starter tx USD
+customer add c-g8 starter tx USD
+set terms c-g0 120
+set terms c-g1 115
+set terms c-g2 90
+set terms c-g3 89
+set terms c-g4 60
+set terms c-g5 59
+set terms c-g6 30
+set terms c-g7 29
+set terms c-g8 100
+usage c-g0 egress 400
+usage c-g1 egress 400
+usage c-g2 egress 400
+usage c-g3 egress 400
+usage c-g4 egress 400
+usage c-g5 egress 400
+usage c-g6 egress 400
+usage c-g7 egress 400
+usage c-g8 egress 400
+tick 30
+invoice run
+pay c-g8 500
+tick 120
+report aging
+report aging cur=USD
+report aging cust=c-g0
+report aging cur=EUR
+report aging cust=c-nobody

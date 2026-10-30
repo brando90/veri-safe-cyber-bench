@@ -1,0 +1,48 @@
+customer c-f1 added plan=business region=fr currency=GBP since=0
+customer c-f2 added plan=starter region=fr currency=EUR since=0
+customer c-f3 added plan=starter region=fr currency=JPY since=0
+coupon c-f1 #1 pct_fee
+coupon c-f2 #1 fixed_all
+usage c-f1 storage 90000 day=0
+usage c-f2 egress 77 day=0
+usage c-f3 cdn 55 day=0
+day 30 period 1
+invoiced INV-0001 c-f1 period=0 lines=2 total=176.59 GBP
+invoiced INV-0002 c-f2 period=0 lines=1 total=19.50 EUR
+invoiced INV-0003 c-f3 period=0 lines=2 total=3539 JPY
+invoice run period=0 invoices=3
+invoice INV-0001 c-f1 period=0 issued=30 due=60 status=open
+  fee plan business days=30 157.21
+  usage storage 90000 GB-h 0.95
+  discount pct_fee -11.00
+  subtotal 158.16 discount 11.00 tax 29.43 late 0.00 total 176.59 GBP
+  paid 0.00 refunded 0.00 outstanding 176.59
+invoice INV-0002 c-f2 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  discount fixed_all -1.23
+  subtotal 17.48 discount 1.23 tax 3.25 late 0.00 total 19.50 EUR
+  paid 0.00 refunded 0.00 outstanding 19.50
+invoice INV-0003 c-f3 period=0 issued=30 due=60 status=open
+  fee plan starter days=30 2850
+  usage cdn 55 GB 99
+  subtotal 2949 discount 0 tax 590 late 0 total 3539 JPY
+  paid 0 refunded 0 outstanding 3539
+report tax_region
+  fr EUR 3.25
+  fr GBP 29.43
+  fr JPY 590
+  total EUR 3.25
+  total GBP 29.43
+  total JPY 590
+end
+report tax_period
+  p00 EUR 3.25
+  p00 GBP 29.43
+  p00 JPY 590
+  total EUR 3.25
+  total GBP 29.43
+  total JPY 590
+end
+region fr French VAT
+  rate=20.00% kinds=adjust,fee,usage
+  inclusive 119.00 -> net 99.17 tax 19.83

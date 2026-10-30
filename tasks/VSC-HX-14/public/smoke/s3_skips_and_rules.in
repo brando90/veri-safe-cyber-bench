@@ -1,0 +1,8 @@
+event add gym "Gym" 2024-06-03T07:00 dur=1h rule=weekly;on=MO,WE,FR;count=8
+skip gym 2024-06-05
+skip gym 2024-06-06
+expand gym 2024-06-01 2024-06-30
+unskip gym 2024-06-05
+event rule gym weekly;on=MO
+event show gym
+rule Monthly;ON=2tu,-1fr;COUNT=5

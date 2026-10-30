@@ -1,0 +1,87 @@
+customer c-a added plan=business region=de currency=EUR since=0
+customer c-b added plan=starter region=ca currency=USD since=0
+customer c-c added plan=team region=ny currency=USD since=0
+coupon c-a #1 pct_all
+coupon c-b #1 fixed_all
+coupon c-c #1 pct_usage
+coupon c-c #2 first_periods
+  #1 pct_usage value=25 until=- n=0 used=0
+  #2 first_periods value=5 until=- n=1 used=0
+2 coupons
+day 15 period 0
+usage c-a storage 120000 day=15
+usage c-a backup 90000 day=15
+usage c-b egress 300 day=15
+usage c-c search 500 day=15
+usage c-c metrics 4000 day=15
+day 30 period 1
+invoiced INV-0001 c-a period=0 lines=3 total=222.49 EUR
+invoiced INV-0002 c-b period=0 lines=2 total=26.60 USD
+invoiced INV-0003 c-c period=0 lines=3 total=84.12 USD
+invoice run period=0 invoices=3
+report rev_region
+  ca USD 24.80
+  de EUR 186.97
+  ny USD 77.53
+  total EUR 186.97
+  total USD 102.33
+end
+report rev_plan
+  business EUR 186.97
+  starter USD 24.80
+  team USD 77.53
+  total EUR 186.97
+  total USD 102.33
+end
+report tax_period
+  p00 EUR 35.52
+  p00 USD 8.39
+  total EUR 35.52
+  total USD 8.39
+end
+report disc_region
+  ca USD 3.00
+  de EUR 20.77
+  ny USD 5.02
+  total EUR 20.77
+  total USD 8.02
+end
+report out_customer
+  c-a EUR 222.49
+  c-b USD 26.60
+  c-c USD 84.12
+  total EUR 222.49
+  total USD 110.72
+end
+report top
+  1 c-c 77.53
+  2 c-b 24.80
+end
+day 61 period 2
+invoiced INV-0004 c-a period=1 lines=1 total=196.08 EUR
+invoiced INV-0005 c-b period=1 lines=1 total=17.16 USD
+invoiced INV-0006 c-c period=1 lines=1 total=85.72 USD
+invoice run period=1 invoices=3
+report rev_period
+  p00 EUR 186.97
+  p00 USD 102.33
+  p01 EUR 164.77
+  p01 USD 95.00
+  total EUR 351.74
+  total USD 197.33
+end
+report aging
+  current EUR 196.08
+  current USD 102.88
+  1-30 EUR 222.49
+  1-30 USD 110.72
+  total EUR 418.57
+  total USD 213.60
+end
+report usage_units
+  backup 90000 GB-h
+  egress 300 GB
+  metrics 4000 series
+  search 500 kdoc
+  storage 120000 GB-h
+end

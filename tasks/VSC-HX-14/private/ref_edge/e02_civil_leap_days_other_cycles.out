@@ -1,0 +1,28 @@
+added b ref=1
+added c ref=2
+event b ref=1
+  title "Far future"
+  start 2400-02-29T08:00
+  dur 2h tz +00:00 prio 5
+  rule daily;count=3
+  cats -
+event c ref=2
+  title "Far past"
+  start 1600-02-29T08:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats -
+2400-02-29 Tue 08:00
+2400-03-01 Wed 08:00
+2400-03-02 Thu 08:00
+3 occurrences
+1600-02-29 Tue
+2400-02-29 Tue
+2400-02-28 Mon
+2400-03-01 Wed
+-135081
+157113
+E|b|1|Far future|2400-02-29T08:00|13574592000|2h|daily;count=3|+00:00||5||
+E|c|2|Far past|1600-02-29T08:00|-11670969600|1h||+00:00||5||
+# 2 events
+check ok (2 events)

@@ -1,0 +1,14 @@
+customer paris added plan=starter region=fr currency=EUR since=0
+customer lyon added plan=team region=fr currency=EUR since=0
+day 30 period 1
+invoiced INV-0001 lyon period=0 lines=1 total=87.22 EUR
+invoiced INV-0002 paris period=0 lines=1 total=20.98 EUR
+invoice run period=0 invoices=2
+invoice INV-0001 lyon period=0 issued=30 due=60 status=open
+  fee plan team days=30 72.68
+  subtotal 72.68 discount 0.00 tax 14.54 late 0.00 total 87.22 EUR
+  paid 0.00 refunded 0.00 outstanding 87.22
+invoice INV-0002 paris period=0 issued=30 due=60 status=open
+  fee plan starter days=30 17.48
+  subtotal 17.48 discount 0.00 tax 3.50 late 0.00 total 20.98 EUR
+  paid 0.00 refunded 0.00 outstanding 20.98

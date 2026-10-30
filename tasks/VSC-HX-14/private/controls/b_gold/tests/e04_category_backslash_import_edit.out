@@ -1,0 +1,27 @@
+added a ref=1
+cats of a are end\\
+event a ref=1
+  title Start
+  start 2024-03-04T10:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats end\\
+cats of a are one\,two,three\\\,four
+event a ref=1
+  title Start
+  start 2024-03-04T10:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats one\,two,three\\\,four
+E|a|1|Start|2024-03-04T10:00|1709546400|1h||+00:00||5|one\\,two,three\\\\\\,four|
+# 1 events
+imported 1 events
+event b ref=9
+  title Imported
+  start 2024-04-01T09:00
+  dur 1h tz +00:00 prio 5
+  rule -
+  cats p\\q,r\\\,s
+E|a|1|Start|2024-03-04T10:00|1709546400|1h||+00:00||5|one\\,two,three\\\\\\,four|
+E|b|9|Imported|2024-04-01T09:00|1711962000|1h||+00:00||5|p\\\\q,r\\\\\\,s|
+# 2 events
